@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-stylesheet type="text/css" href="http://papyri.info/css/arabic-test.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+      <list type="simple">
+        <item> </item>
+      </list>
+      <p>(* نمرة الوقائع 198)</p>
+      <p>طبعت بمطبعة بولاق يوم الأثنين 11 محرم سنة 1285هـ الموافق 27 برموده القبطي 1584 و4 أبريل
+          <note>(خطأ في اسم الشهر مايو)</note> الأفرنجي 1868م</p>
+      <p>ص4/ عمود 2،3</p>
+      <p>
+        <hi rend="bold">اعلانات</hi>
+      </p>
+      <p>(اعلان من المحافظة المصرية)</p>
+      <p>بيان الباقي من الأماكن الميري اللاتي بشارع السكة المستجدة في جهة سيدنا الحسين إلى
+        الخلاء</p>
+      <p><unit>اذرع</unit>
+      </p>
+      <p><measure>134</measure>
+        <hi xml:id="_Hlk20317511">باقي<rs type="apartment">منزل</rs> مأخوذ من</hi> باش كاتب المحكمة</p>
+      <p>370 باقي <rs type="apartment">منزل</rs> مأخوذ من وقف <placeName
+          ref="https://www.geonames.org/7913986/masjid-sayyidna-al-husayn.html">سيدنا
+          الحسين</placeName></p>
+      <p>098 باقي<rs type="apartment">منزل</rs> مأخوذ من الحرمة <persName>فاطمة أم محمد</persName></p>
+      <p>154 باقي<rs type="apartment">منزل</rs> مأخوذ من الشيخ أحمد العناني وشريكه </p>
+      <p>027 باقي<rs type="apartment">منزل</rs> مأخوذ من باش كاتب المحكمة وأصله كان للحرمه جازيه </p>
+      <p>030 باقي<rs type="apartment">منزل</rs> مأخوذ من المذكور وأصله لورثة رضوان شمس </p>
+      <p>030 باقي<rs type="apartment">منزل</rs> مأخوذ من ورثة حبيب الزيات</p>
+      <p>060 باقي<rs type="apartment">منزل</rs> مأخوذ من أحمد سويلم الزيات </p>
+      <p>048 باقي<rs type="apartment">منزل</rs> مأخوذ من الست حسنه</p>
+      <p>115 باقي<rs type="apartment">منزل</rs> مأخوذ من محمد أفندي على </p>
+      <p>080 باقي<rs type="apartment">منزل</rs> مأخوذ من ورثة الشيخ أحمد التهامي </p>
+      <p>117 باقي<rs type="apartment">منزل</rs> مأخوذ من ناظرة وقف أحمد مراد</p>
+      <p>052 باقي<rs type="apartment">منزل</rs> مأخوذ من السيد أحمد الفخفاخ</p>
+      <p>149 باقي<rs type="apartment">منزل</rs> مأخوذ من ورثة على الصعيدي</p>
+      <p>126 باقي<rs type="apartment">منزل</rs> مأخوذ من زوجة عنان أفندي</p>
+      <p>011 باقي<rs type="apartment">منزل</rs> مأخوذ من وقف السيد معاذ وشركاه </p>
+      <p>010 باقي<rs type="apartment">منزل</rs> مأخوذ من ورثة السيد محمد مأمون</p>
+      <p>013 باقي<rs type="apartment">منزل</rs> مأخوذ من المذكورين </p>
+      <p>115 باقي<rs type="apartment">منزل</rs> مأخوذ من سليمان افندي فوزي</p>
+      <p>020 باقي الأماكن المأخوذة من ورثة محمد العمروسي الحباك </p>
+      <p>371 باقي<rs type="apartment">منزل</rs> مأخوذ من وقف السيد معاذ </p>
+      <p>028 باقي<rs type="apartment">منزل</rs> مأخوذ من وقف السيد معاذ وشركاه</p>
+      <p>060 باقي<rs type="apartment">منزل</rs> مأخوذ من حسن الطوخي وشريكه </p>
+      <p>130 باقي<rs type="apartment">منزل</rs> مأخوذ من وقف الزرقاني وشريكه</p>
+      <p>010 باقي<rs type="apartment">منزل</rs> مأخوذ من الحرمه نايله </p>
+      <p>008 باقي دكاكين مأخوذ وقف الأزهر</p>
+      <p>012 باقي<rs type="apartment">منزل</rs> مأخوذ من حسنين بدوي الحلاق واخيه</p>
+      <p>048 باقي<rs type="apartment">منزل</rs> مأخوذ من ناظر وقف رواق الأتراك</p>
+      <p>_____</p>
+      <p>28</p>
+      <p>فقط ثمانية وعشرون لا غير </p>
+      <p>هذه المواضع الميرية المبينه فوق اشتهرت للمزايدة فيها بموجب قوائم بيد رئيس دلالي العقارات
+        وضرب ميعاد لتتميم ذلك يوم الأثنين 18 من محرم سنه 85 فمن يرغب فليحضر في الميعاد بالمسافرخانة
+        بالازبكية من ابتداء الساعة الثالثة العربية إلى غاية الساعة التاسعة من النهار وحينئذ يكون بت
+        البيع حسب الشروط ومن حضر بعد ذلك فلا تقبل المزايدة </p>
+      <p> </p>
+      <p> </p>
+    </body>
+  </text>
+</TEI>
