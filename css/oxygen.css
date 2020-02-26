@@ -1,0 +1,21 @@
+@namespace xml url(http://www.w3.org/XML/1998/namespace);
+teiHeader {
+  display: block;
+  background: #EEE;
+  border: thin solid gray;
+  padding: 1em;
+}
+*[xml|lang=ar] {
+  direction: rtl;
+}
+p {
+	display:block;
+	direction:rtl;
+	font-size: 20px;
+}
+num {
+	direction: ltr;
+}
+*[rend=bold] {
+	font-weight: bold;
+}
