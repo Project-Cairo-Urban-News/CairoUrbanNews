@@ -5,21 +5,33 @@
 <?xml-stylesheet type="text/css" href="css/oxygen.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Title</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Information about the source</p>
-         </sourceDesc>
-      </fileDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah:</title>
+        <editor>Nour Kanaan</editor>
+        <respStmt>
+          <resp>Advisor</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project director</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+      </sourceDesc>
+    </fileDesc>
   </teiHeader>
   <text>
       <body>
-         <p>Some text here.</p>
+         <div>
+           <head>Article Title</head>
+           <p>Some text here.</p>
+         </div>
       </body>
   </text>
 </TEI>
