@@ -13,6 +13,11 @@ p {
 	direction:rtl;
 	font-size: 20px;
 }
+head {
+  display:block;
+  direction:rtl;
+  font-size:larger;
+}
 num {
 	direction: ltr;
 }
