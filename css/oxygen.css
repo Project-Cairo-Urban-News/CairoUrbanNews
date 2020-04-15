@@ -3,23 +3,38 @@ teiHeader {
   display: block;
   background: #EEE;
   border: thin solid gray;
+  font-family: arial, helvetica, sans-serif;
   padding: 1em;
+}
+titleStmt {
+  display:block;
+}
+titleStmt editor {
+  display:block;
+}
+titleStmt respStmt {
+  display: block;
 }
 *[xml|lang=ar] {
   direction: rtl;
 }
+body {
+  margin: 1em;
+}
 p {
-	display:block;
+  display:block;
+}
+body p {
 	direction:rtl;
 	font-size: 20px;
 }
-head {
+body head {
   display:block;
   direction:rtl;
-  font-size:larger;
+  font-size:28px;
 }
 num {
-	direction: ltr;
+	direction: rtl;
 }
 *[rend=bold] {
 	font-weight: bold;
