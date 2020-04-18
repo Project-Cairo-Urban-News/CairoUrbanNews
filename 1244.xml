@@ -4,11 +4,13 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/css" href="css/oxygen.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: The Ḥijrī Year 1244 - Gregorian 1828-29 </title>
+            <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah:</title>
             <editor>Nour Kanaan</editor>
+            <editor>Adam Mestyan</editor>
+            <editor>xxxx</editor>
             <respStmt>
                <resp>Advisor</resp>
                <name>Hugh Cayless</name>
@@ -17,14 +19,30 @@
                <resp>Project director</resp>
                <name>Adam Mestyan</name>
             </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Sarah Fath Allah</name>   
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Karima Nasr</name>   
+            </respStmt> 
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Rezk Nouri</name>   
+            </respStmt>
+            <sponsor>  Institut français d’archéologie orientale (Ifao, Cairo); Franklin Humanities Institute and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke University; Duke University Libraries </sponsor>
          </titleStmt>
          <publicationStmt>
-            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the umbrella project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+            <p> Website<ptr target="https://sites.duke.edu/cairemoderne/"/></p>
+            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
          </sourceDesc>
       </fileDesc>
+   </teiHeader>
   </teiHeader>
    <standOff> 
       <listPerson type="historical">
@@ -77,9 +95,9 @@
                من اهل الشورى وحضرة <roleName role="mamur-diwan">مأمور الديوان العالى</roleName> ومن
                هو متصل فيه وكل الاكابر والنظار المعتبرين وارباب المعرفة بالاشغال المشتهرين بالصداقة
                وكل عبيد احسانه وشاكرى انعامه والطالبين المبتهلين بالدعاء لدوامه وحلوا هناك بقلوب
-               متحدة لقرا[ء]ة <title type="Koran">الفاتحة</title> والدعاء مع ذبح القرابين والضحايا
-               وصرفت الهمه بقضاء الامر لوضع اساسه الدايم بالاستعانة بأسم الله وصبرت الفقرا والغربا
-               من انتشار الدراهم والدنانير اصحاب نصيب من النوال والنعم واتخذت المهندسون والبنايون
+               متحدة لقرا[ء]ة <ref type="Koran">الفاتحة</ref> والدعاء مع ذبح القرابين والضحايا وصرفت
+               الهمه بقضاء الامر لوضع اساسه الدايم بالاستعانة بأسم الله وصبرت الفقرا والغربا من
+               انتشار الدراهم والدنانير اصحاب نصيب من النوال والنعم واتخذت المهندسون والبنايون
                و(القلفات) والمستخدمون بواسطة عبد احسانه امين افندى ناظر الابنية مظهر كرم واحسان
                ورجعوا الى ديوانهم العالى بالدولة والاجلال و بعد ان شوهد ذلك اثبت فى <title
                   type="journal">جريدة الوقايع</title> وفق الله تعالى <roleName
