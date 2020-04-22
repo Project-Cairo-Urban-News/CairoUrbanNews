@@ -4,11 +4,13 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/css" href="css/oxygen.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: The Ḥijrī Year 1244 - Gregorian 1828-29 </title>
+            <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah:</title>
             <editor>Nour Kanaan</editor>
+            <editor>Adam Mestyan</editor>
+            <editor>xxxx</editor>
             <respStmt>
                <resp>Advisor</resp>
                <name>Hugh Cayless</name>
@@ -17,15 +19,41 @@
                <resp>Project director</resp>
                <name>Adam Mestyan</name>
             </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Sarah Fath Allah</name>   
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Karima Nasr</name>   
+            </respStmt> 
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Rezk Nouri</name>   
+            </respStmt>
+            <sponsor>  Institut français d’archéologie orientale (Ifao, Cairo); Franklin Humanities Institute and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke University; Duke University Libraries </sponsor>
          </titleStmt>
          <publicationStmt>
-            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the umbrella project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+            <p> Website<ptr target="https://sites.duke.edu/cairemoderne/"/></p>
+            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
          </sourceDesc>
       </fileDesc>
+   </teiHeader>
   </teiHeader>
+   <standOff> 
+      <listPerson type="historical">
+         <person xml:id="MA">
+            <persName>Muḥammad 'Alī</persName>
+         </person>
+         <person xml:id="I">
+            <persName>Ibrāhīm Bāshā</persName>
+         </person>
+      </listPerson>
+   </standOff>
   <text>
       <body>
          <div>
@@ -38,33 +66,45 @@
                   type="citadel">القلعة اليوسيفيه</placeName> التى هى محل احكام مصر المحميه قد قاربت
                اسوارها وابراجها ومحلات حصارها من داخل وخارج درجة الانهدام والت الى الانعدام وذلك من
                تلون حوادث الازمنة الماضية وتقلبها وضرر طروق وقايعها وما طرى بها وقد كان خطر فى خاطر
-               سعادة [و]لى النعم ان يجدد بنتها ويشدد اركانها وانحا[ئ]ها وينشى[ء] جامعا شريفا بها
-               يكون معبد للخاص والعام مقصودا وموردذكر الى الاشياخ العظام موزودا بعد[د] من الاثار
-               الخيريه ويذكر الى يوم بعث البرية انما حيث انه يجب تقديم بنا ما منه تحرس الرعايا وتحمى
-               وتستريح به البرايا وتنال تنعما وذلك كبناء القلع والقناطر وماهو من الحصون والجسور هنا
-               ثر قدم بنا القلعة على بنا الجامع واخر حتى حين اقتداء بمن قال الامور مرهونة باوقاتها
-               وبفضله تعالى وببركات همة من اولى الورى نعما وافضالا قارنت هذه المذكورات الخيرية درجة
-               النهايه وصارت جهات القلعة متبنةالى الغايه تطاعن بفخرها الاهرام نحكما وتليق للسكنى
-               والمقام وتحمد تجددا ورسما وبعد ان صارت الناس اكابرهم واصاغرهم محا سبب الاعتاب يودون
-               وهم فرحون ببلوغ مأربهم شكرا لمن شكره ايجاب ورأى صاحب الحضرة الأصفية ان ما خطر فى باله
-               صار مفعولا وان كلا فى حضرته قد حاز شرفا وقبولا صمم حينئذ رأيه الثاقب الشريف على ان
+                  <roleName role="governor" ref="#MA" type="ceremonial-title">سعادة [و]لى
+                  النعم</roleName> ان يجدد بنتها ويشدد اركانها وانحا[ئ]ها وينشى[ء] <placeName
+                  type="mosque"
+                  ref="http://cairogazetteer.fr/invisu/page/ark:/67717/d6d17aa2c59b28d74d929d50443f1a33"
+                  >جامعا شريفا</placeName> بها يكون معبد للخاص والعام مقصودا ومورد ذكر الى الاشياخ
+               العظام موزودا بعد[د] من الاثار الخيريه ويذكر الى يوم بعث البرية انما حيث انه يجب
+               تقديم بنا ما منه تحرس الرعايا وتحمى وتستريح به البرايا وتنال تنعما وذلك كبناء القلع
+               والقناطر وماهو من الحصون والجسور هنا ثر قدم بنا <placeName type="citadel"
+                  >القلعة</placeName> على بنا <placeName type="mosque">الجامع</placeName> واخر حتى
+               حين اقتداء بمن قال الامور مرهونة باوقاتها وبفضله تعالى وببركات همة من اولى الورى نعما
+               وافضالا قارنت هذه المذكورات الخيرية درجة النهايه وصارت جهات القلعة متبنة الى الغايه
+               تطاعن بفخرها الاهرام نحكما وتليق للسكنى والمقام وتحمد تجددا ورسما وبعد ان صارت الناس
+               اكابرهم واصاغرهم محا سبب الاعتاب يودون وهم فرحون ببلوغ مأربهم شكرا لمن شكره ايجاب
+               ورأى <roleName type="ceremonial-title" role="governor">صاحب الحضرة الأصفية</roleName>
+               ان ما خطر فى باله صار مفعولا وان كلا فى حضرته قد حاز شرفا وقبولا صمم حينئذ رأيه
+                  <roleName role="governor" type="ceremonial-title">الثاقب الشريف</roleName> على ان
                ينشى[ء] بعدها الجامع المنيف أنشاء كان من قبل منويا مكنونا فى ضميره ومحويا رغبة ان
                يكون كما ذكر اثرا من الاثار الخيرية معدودا ومحل عبادة وذكر محمودا وصدر امره الكريم
-               بوضع اساس صورته وشكله الوسيم و اذ صارت المباشرة لوضعه يوم الخميس المبارك الموافق الى
-               تسعة عشر من جمادى الاولى سنة اربعة واربعين توجه من علا امره وعلا فى الملا فخره مشرفا
-               تلك البقعة التى صار فيها الوضع وبمعيته نجله السعيد افندينا ابراهيم باشا (والى جده )
-               وحضرة ملا افندى قاضى مصر (المحبه) ووجوه الاشراف والسادات الكرام واعيان العلما والفضلا
-               وكافة الاشياخ واهل الفضل والصلاح وحضرة كتخدا بيك افندى وسائر الامراء والاكابر من اهل
-               الشورى وحضرة مأمور الديوان العالى ومن هو متصل فيه وكل الاكابر والنظار المعتبرين
-               وارباب المعرفة بالاشغال المشتهرين بالصداقة وكل عبيد احسانه وشاكرى انعامه والطالبين
-               المبتهلين بالدعاء لدوامه وحلوا هناك بقلوب متحدة لقرا[ء]ة الفاتحة والدعاء مع ذبح
-               القرابين والضحايا وصرفت الهمه بقضاء الامر لوضع اساسه الدايم بالاستعانة بأسم الله
-               وصبرت الفقرا والغربا من انتشار الدراهم والدنانير اصحاب نصيب من النوال والنعم واتخذت
-               المهندسون والبنايون و(القلفات) والمستخدمون بواسطة عبد احسانه امين افندى ناظر الابنية
-               مظهر كرم واحسان ورجعوا الى ديوانهم العالى بالدولة والاجلال و بعد ان شوهد ذلك اثبت فى
-               جريدة الوقايع وفق الله تعالى افندينا لانشاء ما هو مثل هذا البناء المتين الذى هو من
-               الاثار الخيرية بلا ريب امين. </p>
+               بوضع اساس صورته وشكله الوسيم و اذ صارت المباشرة لوضعه <date when-custom="1244-05-19"
+                  >يوم الخميس المبارك الموافق الى تسعة عشر من جمادى الاولى سنة اربعة واربعين</date>
+               توجه من علا امره وعلا فى الملا فخره مشرفا تلك البقعة التى صار فيها الوضع وبمعيته
+                  نجله<roleName type="ceremonial-title" ref="#I"> السعيد افندينا</roleName>
+               <persName ref="#I">ابراهيم باشا</persName> (والى جده ) وحضرة <persName>ملا
+                  افندى</persName><roleName role="chief-judge"> قاضى مصر</roleName> (المحبه) ووجوه
+               الاشراف والسادات الكرام واعيان العلما والفضلا وكافة الاشياخ واهل الفضل والصلاح
+                  و<roleName role="kethuda">حضرة كتخدا بيك افندى</roleName> وسائر الامراء والاكابر
+               من اهل الشورى وحضرة <roleName role="mamur-diwan">مأمور الديوان العالى</roleName> ومن
+               هو متصل فيه وكل الاكابر والنظار المعتبرين وارباب المعرفة بالاشغال المشتهرين بالصداقة
+               وكل عبيد احسانه وشاكرى انعامه والطالبين المبتهلين بالدعاء لدوامه وحلوا هناك بقلوب
+               متحدة لقرا[ء]ة <ref type="Koran">الفاتحة</ref> والدعاء مع ذبح القرابين والضحايا وصرفت
+               الهمه بقضاء الامر لوضع اساسه الدايم بالاستعانة بأسم الله وصبرت الفقرا والغربا من
+               انتشار الدراهم والدنانير اصحاب نصيب من النوال والنعم واتخذت المهندسون والبنايون
+               و(القلفات) والمستخدمون بواسطة عبد احسانه امين افندى ناظر الابنية مظهر كرم واحسان
+               ورجعوا الى ديوانهم العالى بالدولة والاجلال و بعد ان شوهد ذلك اثبت فى <title
+                  type="journal">جريدة الوقايع</title> وفق الله تعالى <roleName
+                  type="ceremonial-title">افندينا</roleName> لانشاء ما هو مثل هذا البناء المتين الذى
+               هو من الاثار الخيرية بلا ريب امين. </p>
          </div>
+         
          
          
         <div>
