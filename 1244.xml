@@ -21,15 +21,15 @@
             </respStmt>
             <respStmt>
                <resp>Research Assistant</resp>
-               <name>Sarah Fath Allah</name>   
+               <name>Sarah Fath Allah</name>
             </respStmt>
             <respStmt>
                <resp>Research Assistant</resp>
-               <name>Karima Nasr</name>   
-            </respStmt> 
+               <name>Karima Nasr</name>
+            </respStmt>
             <respStmt>
                <resp>Research Assistant</resp>
-               <name>Rezk Nouri</name>   
+               <name>Rezk Nouri</name>
             </respStmt>
             <sponsor>  Institut français d’archéologie orientale (Ifao, Cairo); Franklin Humanities Institute and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke University; Duke University Libraries </sponsor>
          </titleStmt>
@@ -43,10 +43,11 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
-   <standOff> 
+   <standOff>
       <listPerson type="historical">
          <person xml:id="MA">
-            <persName>Muḥammad 'Alī</persName>
+            <persName xml:lang="en">Muḥammad 'Alī</persName>
+            <persName xml:lang="ar">nnnnnnnnn</persName>
          </person>
          <person xml:id="I">
             <persName>Ibrāhīm Bāshā</persName>
@@ -105,9 +106,9 @@
                   type="ceremonial-title">افندينا</roleName> لانشاء ما هو مثل هذا البناء المتين الذى
                هو من الاثار الخيرية بلا ريب امين. </p>
          </div>
-         
-         
-         
+
+
+
         <div>
            <head><date when-custom="1244-10-13">١٣ شوال ١٢٤٤</date>
                <date when="1829-04-18">١٨ ابريل ١٨٢٩</date><bibl>
@@ -137,10 +138,10 @@
                زمن طويل فاستحسنوا كلهم هذا الصنع وابتهجوا به ومع هذا فان مصاريفه حال كونه يكفى
                لانارة جنينة شبرا كلها لم تزد عن الستة الاف ريال قرائا كذا علم بعد الحساب </p>
         </div>
-              
+
          <div>
          <head>
-           ٩ جمادى الاخر ١٢٤٤ - ١٧ ديسمبر ١٨٢٨ نمرة ٣ صفحة ٢</head>              
+           ٩ جمادى الاخر ١٢٤٤ - ١٧ ديسمبر ١٨٢٨ نمرة ٣ صفحة ٢</head>
             <p> ان القلعة اليوسيفيه
                التى هى محل احكام مصر المحميه قد قاربت اسوارها وابراجها ومحلات حصارها من داخل وخارج
                درجة الانهدام والت الى الانعدام وذلك من تلون حوادث الازمنة الماضية وتقلبها وضرر طروق
@@ -172,12 +173,12 @@
                تعالى افندينا لانشاء ما هو مثل هذا البناء المتين الذى هو من الاثار الخيرية بلا ريب
                امين </p>
          </div>
-           
+
            <div>
 <head>
 . ١٣ شوال ١٢٤٤- ١٨ ابريل ١٨٢٩ نمرة ١٩ صفحة ١
 </head>
-              
+
    <p>
               انه لما شاع متواثرا لدى مسامع
                افندينا ولى النعم خبر النور الذى اخترعه الانكليز منذ اربع عشرة سنة تقريبا بروح يسمى
