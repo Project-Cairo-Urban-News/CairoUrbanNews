@@ -19,6 +19,7 @@ titleStmt respStmt {
   direction: rtl;
 }
 body {
+  display:block;
   margin: 1em;
 }
 p {
@@ -33,6 +34,20 @@ body head {
   direction:rtl;
   font-size:28px;
 }
+list {
+  display: block;
+}
+item {
+  display: list-item;
+  margin-left: 1em;
+  
+}
 *[rend=bold] {
 	font-weight: bold;
+}
+*[rend=italic] {
+  font-style: italic;
+}
+*[rend=underline] {
+  text-decoration: underline;
 }
