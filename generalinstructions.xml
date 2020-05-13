@@ -25,10 +25,11 @@ List of main principles of XML markup process in al-Waqa’i’ al-Misriyya
             
 9. In XML HEADER: editorial insstructions : ALA-LC transcription, etc
             
-10. CREATING A NEW XML DOCUMENT FROM A WM FILE:
-- after editing the text in Word:
+10. CREATING A NEW XML DOCUMENT FROM A MS Word FILE:
+-  editing the text in Word:
 cleaning of instructions and remarks
 two or more articles with the same date and issue - copy the date and issue number and page number at the beginning of each piece of news in MS Word and
+title of article (if there is one) should be in bold and underline in the MS Word
 
 - copy the text into Master <body></body> "some text here"
 - SAVE AS : ADD FILNENAME AS YEAR
@@ -36,7 +37,11 @@ two or more articles with the same date and issue - copy the date and issue numb
             
 11. Ultimately: separate TEI document for persons in Standoffs 
             
-12. This CSS code is at the top of allXML TEI documents <?xml-stylesheet type="text/css" href="css/oxygen.css"?> to help mark-up of Arabic text (right to left) in Author mode
+12. This CSS code is at the top of all XML TEI documents <?xml-stylesheet type="text/css" href="css/oxygen.css"?> to help mark-up of Arabic text (right to left) in Author mode
+    
+13. An XSLT code is written by Hugh to pre-form the <div></div> and <head></head>
+
+
 
   
             
