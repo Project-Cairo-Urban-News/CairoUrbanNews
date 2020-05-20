@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="css/oxygen.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah:</title>
+        <editor>Nour Kanaan</editor>
+        <editor>Adam Mestyan</editor>
+        <editor>xxxx</editor>
+        <editor>xxxx</editor>
+        <respStmt>
+          <resp>Advisor</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Mercedes Volait</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Sarah Fath Allah</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Karima Nasr</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Rezk Nouri</name>
+        </respStmt>
+        <sponsor>
+          <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
+            <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+            Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+            Libraries</orgName>
+        </sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
+          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p> Website<ptr target="https://sites.duke.edu/cairemoderne/"/></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+            Volait</persName></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+      </projectDesc>
+      <editorialDecl>
+        <p> We use Arabic but any transliteration into Latin characters follows the Library of
+          Congress (LOC) Arabic transliteration chart.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="ar-EN"> Arabic transcribed according to LOC standard</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="ar">
+    <body>
+      <div>
+        <p>٢٧ ربيع الاول ١٢٦١- ٥ ابريل ١٨٤٥ نمرة ٣ صفحة ٢ <hi rend="bold">
+            <hi rend="underline">الحوادث الداخلية</hi>
+          </hi>
+        </p>
+        <p>مما لا يخفى ان وقوع الحريق فى مصر المحروسة قليل وانه اذا ظهر يبادر الى اطفائه من غير
+          تاخير غير انه والعياذ بالله اذا وقع فى جهة بعيدة يخشى من سرايته وانتشاره الى الاطراف قبل
+          ان يصل الخبر الى الضابطخانه فستصوب ان يرتب سبع طلمبات زيادة على الاربع الموجودة فى
+          الضابطخانة رعاية للحزم والاحتياط وان يخصص مركزا لها سبعة اماكن من الباش قرقولات الموجودة
+          فى المحروسة وبولاق ومصر العتيه لتوضع فيها حتى اذا وقع حريق فى محل قريب منها يبادر الى
+          اطفائه بالطلومبة الموجودة فى القرقول وان يعين لكل من هذه الطلومبات السبع التى يراد زيادتها
+          واحد من رجال الجهادية التسعة الكائنين بالضابطخانة الذين اكتسبوا المهارة فى صنعة الطلومبة
+          ويرقى الى رتبة الاونباشى وان ينصب من كان فائقا من الاستاذين اللذين فى الضابطخانة ملاحظا
+          عليهم بحيث اذا وقع نقص من هؤلاء المستجدين فى اجرآء الصنعة المذكورة يوقفهم عليه كما ينبغى
+          ويضم الى شهريته مقدار وافى واجرى العمل على الوجه المشروح كما استصوب.</p>
+        <p> </p>
+        <p> </p>
+      </div>
+    </body>
+  </text>
+</TEI>
