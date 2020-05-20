@@ -53,6 +53,10 @@
     <p type="body"><xsl:apply-templates/></p>
   </xsl:template>
   
+  <xsl:template match="t:list[count(t:item) = 1][not(ancestor::t:list)]" mode="pass1">
+    <p type="head"><xsl:value-of select="t:item"/></p>
+  </xsl:template>
+  
   <xsl:template match="t:list|t:item|@*" mode="pass1">
     <xsl:copy>
       <xsl:apply-templates select="node()|@*" mode="pass1"/>
@@ -61,9 +65,8 @@
   
   <xsl:template match="t:item[normalize-space(.) = '']" mode="pass1"/>
   
-  
-  <!-- Consider re-implementing as a state machine, where the states are modes -->
-    
+  <!-- Pass 2 -->
+      
   <xsl:template match="t:p[@type='head']" mode="pass2">
     <div>
       <head><xsl:value-of select="normalize-space(.)"/></head>
@@ -90,7 +93,7 @@
   <xsl:template match="t:list[not(ancestor::t:list)]" mode="pass2 head">
     <head>
        <xsl:copy>
-        <xsl:apply-templates select="node()|@*" mode="#current"/>
+        <xsl:apply-templates select="node()|@*"/>
       </xsl:copy>
     </head>
     <xsl:apply-templates select="following-sibling::t:*[1]" mode="#current"/>
