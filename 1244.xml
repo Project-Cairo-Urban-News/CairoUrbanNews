@@ -38,16 +38,18 @@
             </respStmt>
             <sponsor>
                <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
-               <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
-                  Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-                     Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>
+                  <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew
+                  W. Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke
+                  University Libraries</orgName>; <orgName>Centre national de la recherche
+                  scientifique</orgName>
             </sponsor>
          </titleStmt>
          <publicationStmt>
-            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La
+               fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
             <p> Website<ptr target="https://sites.duke.edu/cairemoderne/"/></p>
-            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
-            
+            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+                  Volait</persName></p>
          </publicationStmt>
          <sourceDesc>
             <p>al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
@@ -55,10 +57,13 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in
+               the project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke
+               University).</p>
          </projectDesc>
          <editorialDecl>
-            <p> We use Arabic but any transliteration into Latin characters follows the Library of Congress (LOC) Arabic transliteration chart.</p>
+            <p> We use Arabic but any transliteration into Latin characters follows the Library of
+               Congress (LOC) Arabic transliteration chart.</p>
             <p>Each individual article has an individual xml:id number starting with "w1"</p>
          </editorialDecl>
       </encodingDesc>
@@ -78,6 +83,7 @@
          </person>
          <person xml:id="I">
             <persName>Ibrāhīm Bāshā</persName>
+            <persName xml:lang="ar">ابراهيم</persName>
          </person>
       </listPerson>
    </standOff>
