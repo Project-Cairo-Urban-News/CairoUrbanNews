@@ -60,7 +60,7 @@
    </standOff>
    <text>
       <body>
-         <div>
+         <div xml:id="w1">
             <head><date when-custom="1244-06-9">٩ جمادى الاخر ١٢٤٤</date>
                <date when="1828-12-17">١٧ ديسمبر ١٨٢٨</date>
                <bibl><biblScope unit="issue">نمرة ٣</biblScope>
@@ -110,7 +110,7 @@
                   type="ceremonial-title">افندينا</roleName> لانشاء ما هو مثل هذا البناء المتين الذى
                هو من الاثار الخيرية بلا ريب امين. </p>
          </div>
-         <div>
+         <div xml:id="w2">
             <head><date when-custom="1244-10-13">١٣ شوال ١٢٤٤</date>
                <date when="1829-04-18">١٨ ابريل ١٨٢٩</date><bibl>
                   <biblScope unit="issue">نمرة ١٩</biblScope>
@@ -143,7 +143,7 @@
                   ref="http://www.geonames.org/347645/tah-shubra.html"> جنينة شبرا </placeName>كلها
                لم تزد عن <val>الستة الاف ريال</val> قرائا كذا علم بعد الحساب </p>
          </div>
-         <div>
+         <div xml:id="w3">
             <head> ٩ جمادى الاخر ١٢٤٤ - ١٧ ديسمبر ١٨٢٨ نمرة ٣ صفحة ٢</head>
             <p> ان القلعة اليوسيفيه التى هى محل احكام مصر المحميه قد قاربت اسوارها وابراجها ومحلات
                حصارها من داخل وخارج درجة الانهدام والت الى الانعدام وذلك من تلون حوادث الازمنة
