@@ -11,13 +11,18 @@
             <editor>Nour Kanaan</editor>
             <editor>Adam Mestyan</editor>
             <editor>xxxx</editor>
+            <editor>xxxx</editor>
             <respStmt>
                <resp>Advisor</resp>
                <name>Hugh Cayless</name>
             </respStmt>
             <respStmt>
-               <resp>Project director</resp>
+               <resp>Project leader</resp>
                <name>Adam Mestyan</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Mercedes Volait</name>
             </respStmt>
             <respStmt>
                <resp>Research Assistant</resp>
@@ -31,13 +36,17 @@
                <resp>Research Assistant</resp>
                <name>Rezk Nouri</name>
             </respStmt>
-            <sponsor> Institut français d’archéologie orientale (Ifao, Cairo); Franklin Humanities
-               Institute and the Office of Global Affairs / Andrew W. Mellon Endowment for Global
-               Studies, Duke University; Duke University Libraries </sponsor>
+            <sponsor>
+               <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
+                  <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew
+                  W. Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke
+                  University Libraries</orgName>; <orgName>Centre national de la recherche
+                  scientifique</orgName>
+            </sponsor>
          </titleStmt>
          <publicationStmt>
-            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the umbrella project
-               "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La
+               fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
             <p> Website<ptr target="https://sites.duke.edu/cairemoderne/"/></p>
             <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
                   Volait</persName></p>
@@ -46,6 +55,25 @@
             <p>al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in
+               the project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke
+               University).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p> We use Arabic but any transliteration into Latin characters follows the Library of
+               Congress (LOC) Arabic transliteration chart.</p>
+            <p>Each individual article has an individual xml:id number starting with "w1"</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="ar-EN"> Arabic transcribed according to LOC standard</language>
+         </langUsage>
+      </profileDesc>
    </teiHeader>
    <standOff>
       <listPerson type="historical">
@@ -55,12 +83,13 @@
          </person>
          <person xml:id="I">
             <persName>Ibrāhīm Bāshā</persName>
+            <persName xml:lang="ar">ابراهيم</persName>
          </person>
       </listPerson>
    </standOff>
-   <text>
+   <text xml:lang="ar">
       <body>
-         <div>
+         <div xml:id="w1">
             <head><date when-custom="1244-06-9">٩ جمادى الاخر ١٢٤٤</date>
                <date when="1828-12-17">١٧ ديسمبر ١٨٢٨</date>
                <bibl><biblScope unit="issue">نمرة ٣</biblScope>
@@ -110,7 +139,7 @@
                   type="ceremonial-title">افندينا</roleName> لانشاء ما هو مثل هذا البناء المتين الذى
                هو من الاثار الخيرية بلا ريب امين. </p>
          </div>
-         <div>
+         <div xml:id="w2">
             <head><date when-custom="1244-10-13">١٣ شوال ١٢٤٤</date>
                <date when="1829-04-18">١٨ ابريل ١٨٢٩</date><bibl>
                   <biblScope unit="issue">نمرة ١٩</biblScope>
@@ -143,7 +172,7 @@
                   ref="http://www.geonames.org/347645/tah-shubra.html"> جنينة شبرا </placeName>كلها
                لم تزد عن <val>الستة الاف ريال</val> قرائا كذا علم بعد الحساب </p>
          </div>
-         <div>
+         <div xml:id="w3">
             <head> ٩ جمادى الاخر ١٢٤٤ - ١٧ ديسمبر ١٨٢٨ نمرة ٣ صفحة ٢</head>
             <p> ان القلعة اليوسيفيه التى هى محل احكام مصر المحميه قد قاربت اسوارها وابراجها ومحلات
                حصارها من داخل وخارج درجة الانهدام والت الى الانعدام وذلك من تلون حوادث الازمنة
