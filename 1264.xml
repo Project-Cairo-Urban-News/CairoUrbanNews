@@ -75,28 +75,25 @@
   </teiHeader>
   <text xml:lang="ar">
     <body>
-      <div>
-        <head>١٢٦٤</head>
-        <p><date when-custom="20-01-1264">٢٠ محرم ١٢٦٤</date>
-          <date when="28-12-1847">٢٨ ديسمبر ١٨٤٧</date>
-          <bibl><biblScope unit="issue">نمرة ٩٧</biblScope>
-            <biblScope unit="page">صفحة ١</biblScope></bibl>
-          <hi rend="bold">
-            <hi rend="underline"><title>الحوادث الداخلية</title></hi>
-          </hi>
-        </p>
-        <p> </p>
-        <p>لما تبين ان الاشجار المغروسة فى طريق <placeName
-            ref="http://www.geonames.org/7912825/qal-at-muhammad-ali.html">القلعة</placeName> على
-          يمنة <placeName>الماثر </placeName>ويسرته التى هى من جملة آثار المحاسن الداورية قد لطفت
-          وزانت الطريق استحسن لدى <roleName type="ceremonial-title">الخديوى</roleName> ان يغرس مثلها
-          على حافتى <placeName type="street-name"
-            ref="http://www.geonames.org/countries/EG/egypt.html">طريق الرميلة</placeName>
-            و<placeName ref="http://www.geonames.org/6955473/tahrir-square.html"> قرى
-            ميدان</placeName> ايضا وتعلقت الارادة باجرآء ذلك.</p>
-        <p> </p>
-        <p> </p>
-        <p><date when-custom="20--1-1264">٢٠ محرم ١٢٦٤</date>
+     
+ 
+ 
+        <div xml:id="A1">
+        <head><date when-custom="1264-01-20">٢٠ محرم ١٢٦٤</date><date when="1847-12-28">٢٨ ديسمبر
+            ١٨٤٧</date><bibl><biblScope unit="issue">نمرة ٩٧</biblScope>
+              <biblScope unit="page">صفحة ١</biblScope> <title>الحوادث الداخلية</title> </bibl></head>
+        
+               
+        <p>لما تبين ان الاشجار المغروسة فى <placeName type="street-name">طريق <placeName
+              ref="http://www.geonames.org/7912825/qal-at-muhammad-ali.html"
+            >القلعة</placeName></placeName> على يمنة الماثر ويسرته التى هى من جملة آثار المحاسن
+            <roleName type="ceremonial-title">الداورية</roleName> قد لطفت وزانت الطريق استحسن لدى
+            <roleName type="ceremonial-title">الخديوى</roleName> ان يغرس مثلها على حافتى <placeName
+            type="street-name" ref="http://www.geonames.org/countries/EG/egypt.html">طريق
+            الرميلة</placeName> و<placeName
+            > قرى ميدان</placeName> ايضا وتعلقت الارادة باجرآء ذلك.</p>
+      </div>
+        <p> <date when-custom="20--1-1264">٢٠ محرم ١٢٦٤</date>
           <date when="28-12-1847">٢٨ ديسمبر ١٨٤٧</date>
           <bibl><biblScope unit="issue">نمرة ٩٧</biblScope>
             <biblScope unit="page">صفحة ١</biblScope>
@@ -343,7 +340,7 @@
           يريدهما فليسأل عنهما من الدلال المذكور</p>
         <p> </p>
         <p> </p>
-      </div>
+      
     </body>
   </text>
 </TEI>
