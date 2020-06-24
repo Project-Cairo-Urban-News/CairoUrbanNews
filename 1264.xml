@@ -108,10 +108,15 @@
           <date when="1848-01-12">١٢ يناير ١٨٤٨ </date>
           <bibl><biblScope unit="issue">نمرة ٩٩</biblScope>
             <biblScope unit="page">صفحة ١ </biblScope><title>الحوادث الداخلية </title></bibl></head>
-        <p> كشف اجمالى مستخرج من دفاتر قلم الهندسة بديوان المدارس عن بيان المبالغ المنصرفة من
-            <roleName type="ceremonial-title">جناب الميرى</roleName> على بعض العمارات الكائنة بمصر
-          ودمياط والمنوفية ومديريات الوجه القبلى عموما باره <val>(؎) ٢٢ ١</val> ترميمات بمصر
-          المحروسة وما جاورها (لم اكتب باقية المصاريف لأنها خاصة بمحافظات اخرى) </p>
+        <p> كشف اجمالى مستخرج من دفاتر<orgName type="Engineering-office"> قلم الهندسة</orgName>
+            ب<orgName type="Education-Ministry">ديوان المدارس</orgName> عن بيان المبالغ المنصرفة من
+            <roleName type="ceremonial-title">جناب الميرى</roleName> على بعض العمارات الكائنة
+            ب<placeName ref="http://www.geonames.org/360630/cairo.html">مصر</placeName> و<placeName
+            ref="http://www.geonames.org/358048/damietta.html">دمياط </placeName>و<placeName
+            ref="http://www.geonames.org/360689/menufia.html">المنوفية</placeName> ومديريات الوجه
+          القبلى عموما <measure commodity="currency" unit="بارة" quantity="122">بارة (؎) ٢٢
+            ١</measure> ترميمات بمصر المحروسة وما جاورها (لم اكتب باقية المصاريف لأنها خاصة بمحافظات
+          اخرى) </p>
       </div>
       <div>
         <head><date when-custom="1263-02-06">٦ صفر ١٢٦٤</date>
