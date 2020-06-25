@@ -20,7 +20,7 @@ tei-lb:before {
   content: "\A";
 }
 
-tei-head {
+tei-head[rend=bold] {
 font-style: bold;
 
 }
