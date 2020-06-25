@@ -19,3 +19,8 @@ tei-lb:before {
   white-space: pre;
   content: "\A";
 }
+
+tei-head {
+font-style: bold;
+
+}
