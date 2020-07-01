@@ -8,31 +8,31 @@
     <fileDesc>
       <titleStmt>
         <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah:</title>
-        <editor>Nour Kanaan</editor>
-        <editor>Adam Mestyan</editor>
+        <editor xml:id="NK">Nour Kanaan</editor>
+        <editor xml:id="AM">Adam Mestyan</editor>
         <editor>xxxx</editor>
         <editor>xxxx</editor>
-        <respStmt>
+        <respStmt xml:id="HC">
           <resp>Advisor</resp>
           <name>Hugh Cayless</name>
         </respStmt>
         <respStmt>
-          <resp>Project leader</resp>
+          <resp >Project leader</resp>
           <name>Adam Mestyan</name>
         </respStmt>
-        <respStmt>
-          <resp>Project leader</resp>
+        <respStmt xml:id="MV">
+          <resp >Project leader</resp>
           <name>Mercedes Volait</name>
         </respStmt>
-        <respStmt>
+        <respStmt xml:id="SFG">
           <resp>Research Assistant</resp>
-          <name>Sarah Fath Allah</name>
+          <name>Sarah Fath Allah Gaara</name>
         </respStmt>
-        <respStmt>
+        <respStmt xml:id="KN">
           <resp>Research Assistant</resp>
           <name>Karima Nasr</name>
         </respStmt>
-        <respStmt>
+        <respStmt xml:id="RN">
           <resp>Research Assistant</resp>
           <name>Rezk Nouri</name>
         </respStmt>
@@ -115,8 +115,10 @@
             ref="http://www.geonames.org/358048/damietta.html">دمياط </placeName>و<placeName
             ref="http://www.geonames.org/360689/menufia.html">المنوفية</placeName> ومديريات الوجه
           القبلى عموما <measure commodity="currency" unit="بارة" quantity="122">بارة (؎) ٢٢
-            ١</measure> ترميمات بمصر المحروسة وما جاورها (لم اكتب باقية المصاريف لأنها خاصة بمحافظات
-          اخرى) </p>
+            ١</measure> ترميمات <placeName>بمصر المحروسة</placeName> وما جاورها <gap
+            reason="editorial" resp="#KN #SFG"/><note resp=" #KN #SFG"> (لم اكتب باقية المصاريف
+            لأنها خاصة بمحافظات اخرى)</note>
+        </p>
       </div>
       <div>
         <head><date when-custom="1263-02-06">٦ صفر ١٢٦٤</date>
@@ -125,11 +127,12 @@
             <biblScope unit="page">صفحة ٤</biblScope>
           </bibl></head>
         <p>ان بيت الشيخ<persName> محمد الغلبان</persName> الذى فى <placeName type="حارة"
-            >حارة</placeName> درب سعادة الكائنة بثمن <placeName>الدرب الاحمر</placeName> تشتمل طبقته
-          العليا على قاعة كبيرة ذات خزنتين وفسحة وعلى اودة ومطبخ وكيلار و مستحم وتشتمل السفلى على
-          مقعد <sic>سلاملك</sic> ذى عمود من الرخام وخزنة وعلى منظره وحاصلين واصطبل يسع ثلاثة حيوانات
-          وبئر وحوش مكشوف وهو معرض للبيع بمعرفة <orgName>بيت المال</orgName> فمن اراده فليستدل عليه
-          من السيد <persName>مصطفى دلال</persName> باشى</p>
+            >حارة</placeName> درب سعادة الكائنة ب<placeName type="ثمن">ثمن</placeName>
+          <placeName>الدرب الاحمر</placeName> تشتمل طبقته العليا على قاعة كبيرة ذات خزنتين وفسحة
+          وعلى اودة ومطبخ وكيلار و مستحم وتشتمل السفلى على مقعد <sic>سلاملك</sic> ذى عمود من الرخام
+          وخزنة وعلى منظره وحاصلين واصطبل يسع ثلاثة حيوانات وبئر وحوش مكشوف وهو معرض للبيع بمعرفة
+            <orgName>بيت المال</orgName> فمن اراده فليستدل عليه من السيد <persName>مصطفى </persName>
+          دلال باشى</p>
         <p> ان بيتا آخر كائنا بجوار البيت المذكور طبقته العليا فيها اربع اود وثلاثة كلارات وحمام
           ومطبخ والسفلى فيها مقعد ذو عمود من الرخام وخزنة وله فسحة فيها اودة وبه ثلاثة حواصل واصطبل
           يسع ثلاثة حيوانات وطاحونة ومنظرة صغيرة وبئر وحوش سماوى وهو يراد بيعه بمعرفه بيت المال ايضا
