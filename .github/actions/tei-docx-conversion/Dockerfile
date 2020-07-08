@@ -22,7 +22,7 @@ RUN apt-get update && apt-get -y install fonts-ipafont-gothic \
   libsaxonhe-java \
   debhelper \
   trang \
-  jing \
+  jing
 RUN echo "#! /bin/bash" > /usr/local/bin/saxon \
     && echo "java -jar /usr/share/java/Saxon-HE.jar \$*" >> /usr/local/bin/saxon \
     && chmod 755 /usr/local/bin/saxon
