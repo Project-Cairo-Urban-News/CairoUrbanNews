@@ -11,7 +11,7 @@
     const url = new URL(document.URL);
     if (file = url.searchParams.get("name")) {
       let c = new CETEI();
-      c.getHTML5("../" + file, function(data) {
+      c.getHTML5("https://raw.githubusercontent.com/Mestyan/CairoUrbanNews/master/" + file, function(data) {
         document.getElementById("list").style.display = "none";
         document.querySelector("body").appendChild(data);
       });
