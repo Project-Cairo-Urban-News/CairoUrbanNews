@@ -8,5 +8,7 @@ do
     /opt/stylesheets/bin/docxtotei $f $OUT1
   fi
   saxon -s:$OUT1 -xsl:xslt/process-new.xsl -o:$OUT2
-  rm $OUT1
+  if [ -f $OUT1 ]; then
+    rm $OUT1
+  fi
 done
