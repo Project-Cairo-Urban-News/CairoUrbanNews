@@ -1,5 +1,8 @@
 name: "Generate TEI"
-on: push
+on: 
+  push:
+    paths:
+      - docx/*.docx
 
 jobs:
   build:
