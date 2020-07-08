@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="css/tei.css">
   <script src="js/CETEI.js"></script>
   <script>
-    if (file = window.URL.searchParams.get("name")) {
+    const url = new URL(document.URL);
+    if (file = url.searchParams.get("name")) {
       let c = new CETEI();
       c.getHTML5("../" + file, function(data) {
         document.getElementById("list").style.display = "none";
@@ -22,6 +23,16 @@
       }
     }
   </script>
+  <style>
+    body {
+      margin: 2em;
+      font-size: 120%;
+      text-align: right;
+    }
+    li {
+      list-style: none;
+    }
+  </style>
 </head>
 <body>
   <div id="list">
@@ -29,12 +40,12 @@
     <ul id="files"></ul>
   </div>
   <script>
-    if (window.URL.search == "") {
+    if (url.search == "") {
       fetch("//api.github.com/repos/hcayless/CairoUrbanNews/contents")
       .then(response => response.json())
       .then(data => {
         data.forEach(file => {
-          if (file.name.match(/.*\.xml/)) {
+          if (file.name.match(/\d{4}\.xml/)) {
             let li = document.createElement("li");
             li.innerHTML = "<a href=\"?name=" + file.name + "\">" + file.name.replace(".xml","") + "</a>"
             document.getElementById("files").appendChild(li)
