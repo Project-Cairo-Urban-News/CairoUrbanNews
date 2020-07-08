@@ -1,25 +1,48 @@
 
 <!DOCTYPE html>
 <html>
-<head> <link rel="stylesheet" href="css/tei.css">
-  <script src="js/CETEI.js"></script>
-  <script>let c = new CETEI();
-  let behaviors = {
-    "tei": {
-      "lb": ["<br>"],
-    }
-  };
-  c.addBehaviors(behaviors);
-    c.getHTML5('1264.xml', function(data) {
-      document.getElementsByTagName("body")[0].appendChild(data);
-    });
-  </script>
+<head> 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+  <link rel="stylesheet" href="css/tei.css">
+  <script src="js/CETEI.js"></script>
+  <script>
+    if (file = window.URL.searchParams.get("name")) {
+      let c = new CETEI();
+      c.getHTML5("../" + file, function(data) {
+        document.getElementById("list").style.display = "none";
+        document.querySelector("body").appendChild(data);
+      });
+    } else {
+      document.getElementById("list").style.display = "block";
+      let TEI = document.querySelector("tei-tei");
+      if (TEI) {
+        document.querySelector("body").removeChild(TEI);
+      }
+    }
+  </script>
 </head>
 <body>
+  <div id="list">
+    <h1>مقالات إخبارية</h1>
+    <ul id="files"></ul>
+  </div>
+  <script>
+    if (window.URL.search == "") {
+      fetch("//api.github.com/repos/hcayless/CairoUrbanNews/contents")
+      .then(response => response.json())
+      .then(data => {
+        data.forEach(file => {
+          if (file.name.match(/.*\.xml/)) {
+            let li = document.createElement("li");
+            li.innerHTML = "<a href=\"?name=" + file.name + "\">" + file.name.replace(".xml","") + "</a>"
+            document.getElementById("files").appendChild(li)
+          }
+        })
+      });
+    }
 
+  </script>
 </body>
 </html>
