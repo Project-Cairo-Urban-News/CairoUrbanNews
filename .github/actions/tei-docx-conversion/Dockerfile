@@ -8,7 +8,8 @@ RUN apt-get update && apt-get -y install openjdk-11-jdk-headless \
   rename \
   wget \
   curl \
-  zip
+  zip \
+  fontconfig
 RUN fc-cache -f -v
 RUN apt-get update && apt-get -y install fonts-ipafont-gothic \
   fonts-ipafont-mincho \
