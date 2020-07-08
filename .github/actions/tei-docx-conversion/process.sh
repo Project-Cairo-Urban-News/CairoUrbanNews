@@ -3,7 +3,7 @@
 for f in `ls docx/*.docx`
 do
   OUT1=$(echo $f | sed 's/\([[:digit:]]*\).docx/\1.xml/')
-  OUT2=$(echo $OUT1 | sed 's/docx\//')
+  OUT2=$(echo $OUT1 | sed 's/docx\///')
   if [ ! -f $OUT1 ]; then
     /opt/stylesheets/bin/docxtotei $f $OUT1
   fi
