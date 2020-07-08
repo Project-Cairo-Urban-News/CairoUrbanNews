@@ -8,12 +8,8 @@ RUN apt-get update && apt-get -y install openjdk-11-jdk-headless \
   rename \
   wget \
   curl \
-  zip \
-  fontconfig
-RUN fc-cache -f -v
-RUN apt-get update && apt-get -y install fonts-ipafont-gothic \
-  fonts-ipafont-mincho \
-  ant \
+  zip 
+RUN apt-get update && apt-get -y install ant \
   git \
   libxml2 \
   libxml2-utils \
