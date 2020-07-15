@@ -41,7 +41,7 @@
   </div>
   <script>
     if (url.search == "") {
-      fetch("//api.github.com/repos/hcayless/CairoUrbanNews/contents")
+      fetch("https://api.github.com/repos/Mestyan/CairoUrbanNews/contents")
       .then(response => response.json())
       .then(data => {
         data.forEach(file => {
