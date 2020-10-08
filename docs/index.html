@@ -11,6 +11,24 @@
     const url = new URL(document.URL);
     if (file = url.searchParams.get("name")) {
       let c = new CETEI();
+      let behaviors = {
+        "tei": {
+          "persName": [
+            ["[ref]", function(e) {
+              e.setAttribute("title", document.querySelector(e.getAttribute("ref")).innerText.replace(/(  |\n)/g, " "));
+            }]
+          ],
+          "placeName": [
+            ["[ref]", ["<a href=\"$rw@ref\">", "</a>"]]
+          ],
+          "roleName": [
+            ["[ref]", function(e) {
+              e.setAttribute("title", document.querySelector(e.getAttribute("ref")).innerText.replace(/(  |\n)/g, " "));
+            }]
+          ]
+        }
+      };
+      c.addBehaviors(behaviors);
       c.getHTML5("https://raw.githubusercontent.com/Mestyan/CairoUrbanNews/master/" + file, function(data) {
         document.getElementById("list").style.display = "none";
         document.querySelector("body").appendChild(data);
