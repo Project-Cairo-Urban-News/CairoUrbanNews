@@ -19,8 +19,15 @@ tei-lb:before {
   white-space: pre;
   content: "\A";
 }
-
 tei-head {
-font-weight: bold;
-
+  font-weight: bold;
+}
+tei-persname[ref] {
+  text-decoration: underline;
+}
+tei-rolename[ref] {
+  text-decoration: underline;
+}
+tei-standoff {
+  display: none;
 }

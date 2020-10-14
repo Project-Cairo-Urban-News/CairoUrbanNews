@@ -118,6 +118,8 @@
   <xsl:template match="t:hi[contains(@rend,'background(yellow)')]">
     <sic><xsl:apply-templates/></sic>
   </xsl:template>
+
+  <xsl:template match="t:hi[not(@rend)]"/>
   
   <xsl:template match="@dir" mode="#all"/>
   
