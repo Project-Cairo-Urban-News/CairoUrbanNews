@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 
+  schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/css" href="css/oxygen.css"?>
@@ -8,9 +9,9 @@
     <fileDesc>
       <titleStmt>
         <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah:</title>
-        <editor>Nour Kanaan</editor>
-        <editor>Adam Mestyan</editor>
-        <editor>xxxx</editor>
+        <editor xml:id="eNK">Nour Kanaan</editor>
+        <editor xml:id="eAM">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
         <editor>xxxx</editor>
         <respStmt>
           <resp>Advisor</resp>
@@ -38,16 +39,16 @@
         </respStmt>
         <sponsor>
           <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
-          <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew
-            W. Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke
-              University Libraries</orgName>; <orgName>Centre national de la recherche
-                scientifique</orgName>
+          <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+            Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+              Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>
         </sponsor>
       </titleStmt>
       <publicationStmt>
-        <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La
-          fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p> Website<ptr target="https://sites.duke.edu/cairemoderne/"/></p>
+        <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
+          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>
+          <ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
         <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
           Volait</persName></p>
       </publicationStmt>
@@ -57,24 +58,28 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in
-          the project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke
-          University).</p>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
       </projectDesc>
       <editorialDecl>
         <p> We use Arabic but any transliteration into Latin characters follows the Library of
           Congress (LOC) Arabic transliteration chart.</p>
         <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>This project relies on Till Grallert's schema in his <ref
+          target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+          Editions</ref>
+        </p>
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
       <langUsage>
         <language ident="ar">Arabic</language>
         <language ident="en">English</language>
-        <language ident="ar-EN"> Arabic transcribed according to LOC standard</language>
+        <language ident="ar-Latn"> Arabic transcribed according to LOC standard</language>
       </langUsage>
     </profileDesc>
   </teiHeader>
+  
   <standOff>
     <listPerson type="historical">
       <person xml:id="MA">
@@ -90,7 +95,7 @@
   <text>
       <body xml:lang="ar">
         
-<div xml:lang="ar" xml:id="w3">
+<div xml:lang="ar" xml:id="w3" resp="#eNK">
     
 <head>
           <date when-custom="1245-02-27">٢٧ صفر ١٢٤٥</date>
@@ -230,13 +235,13 @@
           اليوم الثامن عشر من شهر ربيع الاول. </p>
  </div>
 
-<div xml:id="w7">
-  <head><date when-custom="1245-04-23">٢٣ ربيع الاخر ١٢٤٥</date>
+<div xml:id="w7" resp="#eDY">
+        <head><date when-custom="1245-04-23">٢٣ ربيع الاخر ١٢٤٥</date>
           <date when="1829-10-22">٢٢ أكتوبر ١٨٢٩</date>
           <bibl><biblScope unit="issue">نمرة ٧١</biblScope>
             <biblScope unit="page">صفحة ٢-٣</biblScope>
           </bibl></head>
-  <p>
+        <p>
           <persName><roleName type="ceremonial-title">حضرة الحاج</roleName> ابراهيم <roleName
               type="ceremonial-title">افندى</roleName></persName><roleName type=" ناظر-مجلس-المشورة"
             > ناظر مجلس المشورة </roleName>انهى فى تقريره ان مقاطعة <orgName type="وكالة-التمر"
@@ -252,7 +257,7 @@
               الديوان</roleName><roleName type="governor"> الخديوى</roleName></persName> الى الخزينة
           اشعارا بذلك كما استقر الراى فى المجلس المنعقد فى<placeName type="palace"> القصر
             العالى</placeName> فى اليوم الخامس والعشرين من شهر ربيع الاول. </p>
-</div>
+      </div>
         
         <div xml:id="w8"> <head><date> ٢٩ ربيع الاخر ١٢٤٥</date>
           <date when="1829-10-28">٢٨ أكتوبر ١٨٢٩</date>
