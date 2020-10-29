@@ -9,10 +9,9 @@
     <fileDesc>
       <titleStmt>
         <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah:</title>
-        <editor>Nour Kanaan</editor>
-        <editor>Adam Mestyan</editor>
-        <editor>Danah Younis</editor>
-        <editor>xxxx</editor>
+        <editor xml:id="eNK">Nour Kanaan</editor>
+        <editor xml:id="eAM">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
         <respStmt>
           <resp>Advisor</resp>
           <name>Hugh Cayless</name>
@@ -39,18 +38,16 @@
         </respStmt>
         <sponsor>
           <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
-            <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
-            Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>
+          <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+          Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+          Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>
         </sponsor>
       </titleStmt>
       <publicationStmt>
         <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
           du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p>
-          <ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
-            Volait</persName></p>
+        <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
       </publicationStmt>
       <sourceDesc>
         <p>al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
@@ -62,20 +59,19 @@
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
       </projectDesc>
       <editorialDecl>
-        <p> We use Arabic but any transliteration into Latin characters follows the Library of
+        <p>We use Arabic but any transliteration into Latin characters follows the Library of
           Congress (LOC) Arabic transliteration chart.</p>
         <p>Each individual article has an individual xml:id number starting with "w1"</p>
-        <p>This project relies on Till Grallert's schema in his <ref
+        <p>This project's schema is based on on Till Grallert's work on his <ref
             target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
-            Editions</ref>
-        </p>
+            Editions</ref>.</p>
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
       <langUsage>
         <language ident="ar">Arabic</language>
         <language ident="en">English</language>
-        <language ident="ar-Latn"> Arabic transcribed according to LOC standard</language>
+        <language ident="ar-Latn">Arabic transcribed according to LOC standard</language>
       </langUsage>
     </profileDesc>
   </teiHeader>
