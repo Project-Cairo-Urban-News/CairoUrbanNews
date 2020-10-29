@@ -1,54 +1,49 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/css" href="css/oxygen.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 
+  schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah:</title>
-        <editor xml:id="NK">Nour Kanaan</editor>
-        <editor xml:id="AM">Adam Mestyan</editor>
-        <editor>xxxx</editor>
-        <editor>xxxx</editor>
-        <respStmt xml:id="HC">
+        <editor xml:id="eNK">Nour Kanaan</editor>
+        <editor xml:id="eAM">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <respStmt>
           <resp>Advisor</resp>
           <name>Hugh Cayless</name>
         </respStmt>
         <respStmt>
-          <resp >Project leader</resp>
+          <resp>Project leader</resp>
           <name>Adam Mestyan</name>
         </respStmt>
-        <respStmt xml:id="MV">
-          <resp >Project leader</resp>
+        <respStmt>
+          <resp>Project leader</resp>
           <name>Mercedes Volait</name>
         </respStmt>
-        <respStmt xml:id="SFG">
+        <respStmt>
           <resp>Research Assistant</resp>
-          <name>Sarah Fath Allah Gaara</name>
+          <name>Sarah Fath Allah</name>
         </respStmt>
-        <respStmt xml:id="KN">
+        <respStmt>
           <resp>Research Assistant</resp>
           <name>Karima Nasr</name>
         </respStmt>
-        <respStmt xml:id="RN">
+        <respStmt>
           <resp>Research Assistant</resp>
           <name>Rezk Nouri</name>
         </respStmt>
         <sponsor>
           <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
-            <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
-            Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>
+          <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+          Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+          Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>. 
         </sponsor>
       </titleStmt>
       <publicationStmt>
         <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
           du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p> Website<ptr target="https://sites.duke.edu/cairemoderne/"/></p>
-        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
-            Volait</persName></p>
+        <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
       </publicationStmt>
       <sourceDesc>
         <p>al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
@@ -60,19 +55,22 @@
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
       </projectDesc>
       <editorialDecl>
-        <p> We use Arabic but any transliteration into Latin characters follows the Library of
-          Congress (LOC) Arabic transliteration chart.</p>
+        <p>We use Arabic but any transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
         <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>This project's schema is based on on Till Grallert's work on his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+          Editions</ref>.</p>
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
       <langUsage>
         <language ident="ar">Arabic</language>
         <language ident="en">English</language>
-        <language ident="ar-EN"> Arabic transcribed according to LOC standard</language>
+        <language ident="ar-Latn">Arabic transcribed according to LOC standard</language>
       </langUsage>
     </profileDesc>
   </teiHeader>
+  
   <text xml:lang="ar">
     <body>
       <div xml:id="A1">
@@ -81,12 +79,9 @@
             <biblScope unit="page">صفحة ١</biblScope>
             <title>الحوادث الداخلية</title>
           </bibl></head>
-        <p>لما تبين ان الاشجار المغروسة فى <placeName type="street-name">طريق <placeName
-              ref="http://www.geonames.org/7912825/qal-at-muhammad-ali.html"
-            >القلعة</placeName></placeName> على يمنة الماثر ويسرته التى هى من جملة آثار المحاسن
+        <p>لما تبين ان الاشجار المغروسة فى <placeName type="street-name">طريق <placeName ref="http://www.geonames.org/7912825/qal-at-muhammad-ali.html">القلعة</placeName></placeName> على يمنة الماثر ويسرته التى هى من جملة آثار المحاسن
             <roleName type="ceremonial-title">الداورية</roleName> قد لطفت وزانت الطريق استحسن لدى
-            <roleName type="ceremonial-title">الخديوى</roleName> ان يغرس مثلها على حافتى <placeName
-            type="street-name" ref="http://www.geonames.org/countries/EG/egypt.html">طريق
+            <roleName type="ceremonial-title">الخديوى</roleName> ان يغرس مثلها على حافتى <placeName type="street-name" ref="http://www.geonames.org/countries/EG/egypt.html">طريق
             الرميلة</placeName> و<placeName> قرى ميدان</placeName> ايضا وتعلقت الارادة باجرآء
           ذلك.</p>
       </div>
@@ -111,12 +106,9 @@
         <p> كشف اجمالى مستخرج من دفاتر<orgName type="Engineering-office"> قلم الهندسة</orgName>
             ب<orgName type="Education-Ministry">ديوان المدارس</orgName> عن بيان المبالغ المنصرفة من
             <roleName type="ceremonial-title">جناب الميرى</roleName> على بعض العمارات الكائنة
-            ب<placeName ref="http://www.geonames.org/360630/cairo.html">مصر</placeName> و<placeName
-            ref="http://www.geonames.org/358048/damietta.html">دمياط </placeName>و<placeName
-            ref="http://www.geonames.org/360689/menufia.html">المنوفية</placeName> ومديريات الوجه
+            ب<placeName ref="http://www.geonames.org/360630/cairo.html">مصر</placeName> و<placeName ref="http://www.geonames.org/358048/damietta.html">دمياط </placeName>و<placeName ref="http://www.geonames.org/360689/menufia.html">المنوفية</placeName> ومديريات الوجه
           القبلى عموما <measure commodity="currency" unit="بارة" quantity="122">بارة (؎) ٢٢
-            ١</measure> ترميمات <placeName>بمصر المحروسة</placeName> وما جاورها <gap
-            reason="editorial" resp="#KN #SFG"/><note resp=" #KN #SFG"> (لم اكتب باقية المصاريف
+            ١</measure> ترميمات <placeName>بمصر المحروسة</placeName> وما جاورها <gap reason="editorial" resp="#KN #SFG"/><note resp=" #KN #SFG"> (لم اكتب باقية المصاريف
             لأنها خاصة بمحافظات اخرى)</note>
         </p>
       </div>
@@ -126,8 +118,7 @@
               ٩٩</biblScope>
             <biblScope unit="page">صفحة ٤</biblScope>
           </bibl></head>
-        <p>ان بيت الشيخ<persName> محمد الغلبان</persName> الذى فى <placeName type="حارة"
-            >حارة</placeName> درب سعادة الكائنة ب<placeName type="ثمن">ثمن</placeName>
+        <p>ان بيت الشيخ<persName> محمد الغلبان</persName> الذى فى <placeName type="حارة">حارة</placeName> درب سعادة الكائنة ب<placeName type="ثمن">ثمن</placeName>
           <placeName>الدرب الاحمر</placeName> تشتمل طبقته العليا على قاعة كبيرة ذات خزنتين وفسحة
           وعلى اودة ومطبخ وكيلار و مستحم وتشتمل السفلى على مقعد <sic>سلاملك</sic> ذى عمود من الرخام
           وخزنة وعلى منظره وحاصلين واصطبل يسع ثلاثة حيوانات وبئر وحوش مكشوف وهو معرض للبيع بمعرفة

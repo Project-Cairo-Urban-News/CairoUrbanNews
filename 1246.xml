@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/css" href="css/oxygen.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 
+  schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah:</title>
-        <editor>Nour Kanaan</editor>
-        <editor>Adam Mestyan</editor>
-        <editor>xxxx</editor>
-        <editor>xxxx</editor>
+        <editor xml:id="eNK">Nour Kanaan</editor>
+        <editor xml:id="eAM">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
         <respStmt>
           <resp>Advisor</resp>
           <name>Hugh Cayless</name>
@@ -38,17 +34,16 @@
         </respStmt>
         <sponsor>
           <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
-            <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
-            Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>
+          <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+          Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+          Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>. 
         </sponsor>
       </titleStmt>
       <publicationStmt>
         <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
           du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p> Website<ptr target="https://sites.duke.edu/cairemoderne/"/></p>
-        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
-            Volait</persName></p>
+        <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
       </publicationStmt>
       <sourceDesc>
         <p>al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
@@ -60,16 +55,18 @@
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
       </projectDesc>
       <editorialDecl>
-        <p> We use Arabic but any transliteration into Latin characters follows the Library of
-          Congress (LOC) Arabic transliteration chart.</p>
+        <p>We use Arabic but any transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
         <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>This project's schema is based on on Till Grallert's work on his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+          Editions</ref>.</p>
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
       <langUsage>
         <language ident="ar">Arabic</language>
         <language ident="en">English</language>
-        <language ident="ar-EN"> Arabic transcribed according to LOC standard</language>
+        <language ident="ar-Latn">Arabic transcribed according to LOC standard</language>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -97,12 +94,9 @@
           <title>حوادث <orgName type="الديوان-الخديوي">الديوان الخديوى</orgName></title>
         </head>
         <p>
-          <persName>احمد جاد </persName>الطحان فى <placeName
-            ref="https://www.geonames.org/359449/bab-ash-sha-riyah.html">باب الشعريه
-          </placeName>وابراهيم <sic>من بهشيم </sic>فى <placeName
-            ref="https://www.geonames.org/359173/bani-suwayf.html">بنى سويف </placeName>جاءا الى
-            <orgName type="الديوان-الخديوي">الديوان الخديوى</orgName> بمعرفة<roleName role="باش-أغا"
-            > باش اغا</roleName> فقال احمد ان ابراهيم كان عندى خادما رانى اعطيته اجرته منذ عشرة ايام
+          <persName>احمد جاد </persName>الطحان فى <placeName ref="https://www.geonames.org/359449/bab-ash-sha-riyah.html">باب الشعريه
+          </placeName>وابراهيم <sic>من بهشيم </sic>فى <placeName ref="https://www.geonames.org/359173/bani-suwayf.html">بنى سويف </placeName>جاءا الى
+            <orgName type="الديوان-الخديوي">الديوان الخديوى</orgName> بمعرفة<roleName role="باش-أغا"> باش اغا</roleName> فقال احمد ان ابراهيم كان عندى خادما رانى اعطيته اجرته منذ عشرة ايام
           واطلقته فاتى امس بعد المغرب وسرق من بيتى حلة بغطاها وطواة ونصف ثوب قماشا واذ كان ذهبا مسكه
           اهل الحارة واخذ ومالى باش اغا وهو ارسله الى هنا مع الاشياء التى اخذها فسئل ابراهيم فقال لى
           عليه عشرة قروش بقيت من اجرتى فذهبت اليه لاطلبها منه فلم اجده فطالبت امراته بذلك فلم تعطنى
@@ -121,18 +115,15 @@
           <title>حوادث <orgName type="مجلس-المشورة">مجلس المشورة</orgName></title></head>
         <p>
           <persName>محمد اغا </persName><roleName role="خفتان-اغا">خفتان اغاسى افندينا</roleName>
-          <persName ref="#I">ابراهيم باشا</persName> قدم تقريرا الى <orgName type="مجلس-المشورة"
-            >مجلس المشورة </orgName>مضمونه انه يلزم <objectName type="stone">احجار </objectName>لاجل
+          <persName ref="#I">ابراهيم باشا</persName> قدم تقريرا الى <orgName type="مجلس-المشورة">مجلس المشورة </orgName>مضمونه انه يلزم <objectName type="stone">احجار </objectName>لاجل
           احراق جير وجبس فى هذا العام المبارك وانها ترد الى <orgName type="ديوان-الجير">ديوان
-            الجيروالجبس</orgName> قبل ازدياد النيل وانه ارسل علما الى حسن بيك<roleName
-            role="مأمور الجيزة"> مأمور الجيزة</roleName> طالب به اربعماية فاعل فاجابه المومى اليه
+            الجيروالجبس</orgName> قبل ازدياد النيل وانه ارسل علما الى حسن بيك<roleName role="مأمور الجيزة"> مأمور الجيزة</roleName> طالب به اربعماية فاعل فاجابه المومى اليه
           انه ارسل قبل هذا عشرة الاف نفر لاجل ترعة القليوبية التى فى داخل مأموريته فلا يمكنه اذا ان
           يرسل تلك الكمية واستدعى ان يعطى لترتيب الفعلة صورة مستحسنة كيلا يطرا[ء] عطل على المصلحة
           ولدى المذاكرة قالوا ان انها المومى اليه فى محله وان عذر حسن بيك واضح ولكن حفر الترعة يتم
           عن قريب فمتى كملت ترسل الانفار المطلوبة الى الاغا المومى اليه وذلك <sic>بوجب</sic> صدور
           علم من<orgName> الديوان الخديوى </orgName>الى حسن بيك المومى اليه اشعارا له بذلك كما استقر
-          الراى على ذلك فى غرة ذى الحجة. عبد الرحمن القاطن فى الدرب الجديد فى <placeName
-            ref="https://www.geonames.org/425182/qasr-abidin.html">عابدين</placeName> ومصطفى
+          الراى على ذلك فى غرة ذى الحجة. عبد الرحمن القاطن فى الدرب الجديد فى <placeName ref="https://www.geonames.org/425182/qasr-abidin.html">عابدين</placeName> ومصطفى
             <roleName role="شيخ الحارة">شيخ الحارة</roleName> وامرأة من <sic>كفر البيجيور</sic> التى
             فى<placeName ref="https://www.geonames.org/360689/muhafazat-al-minufiyah.html">
             المنوفية</placeName> اسمها خضرا جاؤا الى<orgName ref="الديوان-الخديوي"> الديوان
@@ -144,21 +135,16 @@
           المذكور فرأيت تلك الاشياء <sic>متاعى</sic> فانطلقت بخضرا الى <roleName role="باش-اغا">باش
             اغا </roleName>وهو ارسلنا الى هنا فسئل عن الاشياء فقال هى صينية صغيرة وحلتان وطاسة
           للشوربا ومصفاة وغطا لطنجرة ومركوبان وثلاثة طرابيش وثلاثة شالات بيض وثلاثة البسة وصديريتان
-          وشال آخر ومعه قميصان وعرى ودقية وكيس من جوخ و منشفتان وصادق <roleName role="بواب"
-            >البواب</roleName> على ذلك فسئلت خضرا فقالت انا <roleName role="خبازة">خبازة</roleName>
+          وشال آخر ومعه قميصان وعرى ودقية وكيس من جوخ و منشفتان وصادق <roleName role="بواب">البواب</roleName> على ذلك فسئلت خضرا فقالت انا <roleName role="خبازة">خبازة</roleName>
           وان رجلا اسمه احمد اتى الى واشترى خبزا بعشر فضيات فذهبت معه وجلست فى الطاحون ودخل هو البيت
-          وقد اتى بتلك الاشياء وكان ذلك وقت صلاة الصبح فطلبت من <roleName role="بواب"
-            >البواب</roleName> ان يفتح لى فابى فهرب احمد وبقيت انا وحدى و الاشياء معى فمسكنى
+          وقد اتى بتلك الاشياء وكان ذلك وقت صلاة الصبح فطلبت من <roleName role="بواب">البواب</roleName> ان يفتح لى فابى فهرب احمد وبقيت انا وحدى و الاشياء معى فمسكنى
             <roleName role="بواب">البواب</roleName> فسئلت من هو هذا فقلت انه عند الحاج عبد العاطى
-          فسئل المذكور فقال انا <roleName role="عطار">عطار</roleName> فى <placeName
-            ref="https://www.geonames.org/359449/bab-ash-sha-riyah.html">باب الشعرية</placeName> وان
+          فسئل المذكور فقال انا <roleName role="عطار">عطار</roleName> فى <placeName ref="https://www.geonames.org/359449/bab-ash-sha-riyah.html">باب الشعرية</placeName> وان
             <roleName role="شيخ-الثمن">شيخ الثمن</roleName> و<roleName role="شيخ-الحارة">شيخ
-            الحارة</roleName> يعرفان انه ليس عندى رجل مثل هذا فسئل <roleName role="بواب"
-            >البواب</roleName> فقال ان هذه الامرأة اتت الى وقت صلاة الصبح وحدها وتلك الاشيا[ء] على
+            الحارة</roleName> يعرفان انه ليس عندى رجل مثل هذا فسئل <roleName role="بواب">البواب</roleName> فقال ان هذه الامرأة اتت الى وقت صلاة الصبح وحدها وتلك الاشيا[ء] على
           رأسها وقالت افتح الباب فسألتها من انت فقالت انا زوجة<roleName role="الطحان"> الطحان
           </roleName>فمسكتها فعرض ذلك الى الافندى <roleName role="مامور-الديوان الخديوي">مامور
-            الديوان الخديوى</roleName> فقال لتعط الاشياء المسروقة وترسل خضرا الى<sic><roleName
-              role="الامام-افندي"> الامام افندى</roleName></sic> حتى اذا وجد مركب سائر الى قريتها
+            الديوان الخديوى</roleName> فقال لتعط الاشياء المسروقة وترسل خضرا الى<sic><roleName role="الامام-افندي"> الامام افندى</roleName></sic> حتى اذا وجد مركب سائر الى قريتها
           وضعت فيه بمعرفة<roleName role="قواص"> قواص</roleName> وارسلت اليها وتم الامر على هذا
           المنوال </p>
       </div>

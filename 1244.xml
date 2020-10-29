@@ -1,81 +1,76 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/css" href="css/oxygen.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah:</title>
-            <editor>Nour Kanaan</editor>
-            <editor>Adam Mestyan</editor>
-            <editor>xxxx</editor>
-            <editor>xxxx</editor>
-            <respStmt>
-               <resp>Advisor</resp>
-               <name>Hugh Cayless</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Adam Mestyan</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Mercedes Volait</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Sarah Fath Allah</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Karima Nasr</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Rezk Nouri</name>
-            </respStmt>
-            <sponsor>
-               <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
-                  <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew
-                  W. Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke
-                  University Libraries</orgName>; <orgName>Centre national de la recherche
-                  scientifique</orgName>
-            </sponsor>
-         </titleStmt>
-         <publicationStmt>
-            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La
-               fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-            <p> Website<ptr target="https://sites.duke.edu/cairemoderne/"/></p>
-            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
-                  Volait</persName></p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <projectDesc>
-            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in
-               the project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke
-               University).</p>
-         </projectDesc>
-         <editorialDecl>
-            <p> We use Arabic but any transliteration into Latin characters follows the Library of
-               Congress (LOC) Arabic transliteration chart.</p>
-            <p>Each individual article has an individual xml:id number starting with "w1"</p>
-         </editorialDecl>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="ar">Arabic</language>
-            <language ident="en">English</language>
-            <language ident="ar-EN"> Arabic transcribed according to LOC standard</language>
-         </langUsage>
-      </profileDesc>
-   </teiHeader>
-   <standOff>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 
+  schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah:</title>
+        <editor xml:id="eNK">Nour Kanaan</editor>
+        <editor xml:id="eAM">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <respStmt>
+          <resp>Advisor</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Mercedes Volait</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Sarah Fath Allah</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Karima Nasr</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Rezk Nouri</name>
+        </respStmt>
+        <sponsor>
+          <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
+          <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+          Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+          Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>. 
+        </sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
+          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>We use Arabic but any transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
+        <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>This project's schema is based on on Till Grallert's work on his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+          Editions</ref>.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="ar-Latn">Arabic transcribed according to LOC standard</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
       <listPerson type="historical">
          <person xml:id="MA">
             <persName xml:lang="en">Muḥammad 'Alī</persName>
@@ -87,7 +82,7 @@
          </person>
       </listPerson>
    </standOff>
-   <text xml:lang="ar">
+  <text xml:lang="ar">
       <body>
          <div xml:id="w1">
             <head><date when-custom="1244-06-9">٩ جمادى الاخر ١٢٤٤</date>
@@ -95,19 +90,15 @@
                <bibl><biblScope unit="issue">نمرة ٣</biblScope>
                   <biblScope unit="page">صفحة ٢</biblScope>
                </bibl></head>
-            <p>ان <placeName ref="https://www.geonames.org/7912825/qal-at-muhammad-ali.html"
-                  type="citadel">القلعة اليوسيفيه</placeName> التى هى محل احكام مصر المحميه قد قاربت
+            <p>ان <placeName ref="https://www.geonames.org/7912825/qal-at-muhammad-ali.html" type="citadel">القلعة اليوسيفيه</placeName> التى هى محل احكام مصر المحميه قد قاربت
                اسوارها وابراجها ومحلات حصارها من داخل وخارج درجة الانهدام والت الى الانعدام وذلك من
                تلون حوادث الازمنة الماضية وتقلبها وضرر طروق وقايعها وما طرى بها وقد كان خطر فى خاطر
                   <roleName role="governor" ref="#MA" type="ceremonial-title">سعادة<sic> [و]لى</sic>
                   النعم</roleName> ان يجدد بنتها ويشدد اركانها و<sic>انحا[ئ]ها </sic>وينشى[ء]
-                  <placeName type="mosque"
-                  ref="http://cairogazetteer.fr/invisu/page/ark:/67717/d6d17aa2c59b28d74d929d50443f1a33"
-                  >جامعا شريفا</placeName> بها يكون معبد للخاص والعام مقصودا ومورد ذكر الى الاشياخ
+                  <placeName type="mosque" ref="http://cairogazetteer.fr/invisu/page/ark:/67717/d6d17aa2c59b28d74d929d50443f1a33">جامعا شريفا</placeName> بها يكون معبد للخاص والعام مقصودا ومورد ذكر الى الاشياخ
                العظام موزودا <sic>بعد[د]</sic> من الاثار الخيريه ويذكر الى يوم بعث البرية انما حيث
                انه يجب تقديم بنا ما منه تحرس الرعايا وتحمى وتستريح به البرايا وتنال تنعما وذلك كبناء
-               القلع والقناطر وماهو من الحصون والجسور هنا ثر قدم بنا <placeName type="citadel"
-                  >القلعة</placeName> على بنا <placeName type="mosque">الجامع</placeName> واخر حتى
+               القلع والقناطر وماهو من الحصون والجسور هنا ثر قدم بنا <placeName type="citadel">القلعة</placeName> على بنا <placeName type="mosque">الجامع</placeName> واخر حتى
                حين اقتداء بمن قال الامور مرهونة باوقاتها وبفضله تعالى وببركات همة من اولى الورى نعما
                وافضالا قارنت هذه المذكورات الخيرية درجة النهايه وصارت جهات القلعة متبنة الى الغايه
                تطاعن بفخرها الاهرام نحكما وتليق للسكنى والمقام وتحمد تجددا ورسما وبعد ان صارت الناس
@@ -117,13 +108,11 @@
                   <roleName role="governor" type="ceremonial-title">الثاقب الشريف</roleName> على ان
                ينشى[ء] بعدها الجامع المنيف أنشاء كان من قبل منويا مكنونا فى ضميره ومحويا رغبة ان
                يكون كما ذكر اثرا من الاثار الخيرية معدودا ومحل عبادة وذكر محمودا وصدر امره الكريم
-               بوضع اساس صورته وشكله الوسيم و اذ صارت المباشرة لوضعه <date when-custom="1244-05-19"
-                  >يوم الخميس المبارك الموافق الى تسعة عشر من جمادى الاولى سنة اربعة واربعين</date>
+               بوضع اساس صورته وشكله الوسيم و اذ صارت المباشرة لوضعه <date when-custom="1244-05-19">يوم الخميس المبارك الموافق الى تسعة عشر من جمادى الاولى سنة اربعة واربعين</date>
                توجه من علا امره وعلا فى الملا فخره مشرفا تلك البقعة التى صار فيها الوضع وبمعيته
                   نجله<roleName type="ceremonial-title" ref="#I"> السعيد افندينا</roleName>
                <persName ref="#I">ابراهيم باشا</persName>
-               <sic>(والى جده )</sic> وحضرة <persName>ملا افندى</persName><roleName
-                  role="chief-judge"> قاضى مصر</roleName>
+               <sic>(والى جده )</sic> وحضرة <persName>ملا افندى</persName><roleName role="chief-judge"> قاضى مصر</roleName>
                <sic>(المحبه)</sic> ووجوه الاشراف والسادات الكرام واعيان العلما والفضلا وكافة الاشياخ
                واهل الفضل والصلاح و<roleName role="kethuda">حضرة كتخدا بيك افندى</roleName> وسائر
                الامراء والاكابر من اهل الشورى وحضرة <roleName role="mamur-diwan">مأمور الديوان
@@ -135,8 +124,7 @@
                والدنانير اصحاب نصيب من النوال والنعم واتخذت المهندسون والبنايون
                   و<sic>(القلفات)</sic> والمستخدمون بواسطة عبد احسانه امين افندى ناظر الابنية مظهر
                كرم واحسان ورجعوا الى ديوانهم العالى بالدولة والاجلال و بعد ان شوهد ذلك اثبت فى
-                  <title type="journal">جريدة الوقايع</title> وفق الله تعالى <roleName
-                  type="ceremonial-title">افندينا</roleName> لانشاء ما هو مثل هذا البناء المتين الذى
+                  <title type="journal">جريدة الوقايع</title> وفق الله تعالى <roleName type="ceremonial-title">افندينا</roleName> لانشاء ما هو مثل هذا البناء المتين الذى
                هو من الاثار الخيرية بلا ريب امين. </p>
          </div>
          <div xml:id="w2">
@@ -150,17 +138,13 @@
                منذ اربع عشرة سنة تقريبا بروح يسمى <objectName type="Gas">كاز</objectName> وبمصروف
                قليل وعلم انهم قد استعملوه عموما واستعمله ايضا الفرنساويون من بعدهم قصد بارادته
                السليمة ان يطلع على حقيقة هذه الصنعة ويعلم كيفية صبيروتها بعين اليقين فامر بان يوتى
-               بالالات اللازمة لذلك من <placeName
-                  ref="http://www.geonames.org/countries/GB/united-kingdom.html">بلاد
+               بالالات اللازمة لذلك من <placeName ref="http://www.geonames.org/countries/GB/united-kingdom.html">بلاد
                   الانكليز</placeName> فأقمها<name>
                   <persName>كالو</persName>
                   <roleName type="Engineer">المهندس</roleName>
-               </name>مع بعض فعلة انكليز فى <placeName
-                  ref="http://www.geonames.org/347645/tah-shubra.html">جنينة شبرا</placeName> بمعمل
-               مناسب واناروا بها <placeName type="Palace"
-                  ref="http://www.geonames.org/12070374/qasr-al-ali.html">القصر العالى</placeName>
-               الكاين فوق <placeName>الحوض الكبير</placeName> وست اوض فتوجه سعادته الى هناك فى <date
-                  when-custom="1244-9-18">اليوم الثامن عشر من شهر رمضان</date> المبارك قريب الغروب
+               </name>مع بعض فعلة انكليز فى <placeName ref="http://www.geonames.org/347645/tah-shubra.html">جنينة شبرا</placeName> بمعمل
+               مناسب واناروا بها <placeName type="Palace" ref="http://www.geonames.org/12070374/qasr-al-ali.html">القصر العالى</placeName>
+               الكاين فوق <placeName>الحوض الكبير</placeName> وست اوض فتوجه سعادته الى هناك فى <date when-custom="1244-9-18">اليوم الثامن عشر من شهر رمضان</date> المبارك قريب الغروب
                وشرف ثراها بقدومه السعيد فلما راى ذلك استحسنه وانسر به واظهر بشاشته لاكابر دولته
                الذين كانوا معه فتلطف <name><persName>كالو</persName>
                   <roleName type="Engineer">المهندس</roleName></name> المرقوم بما ابدى من الكلام
@@ -168,8 +152,7 @@
                وعلى <sic>الفعلة بالفين</sic> و<val>خمسماية غرش</val> احسانا وقد كان ذهب
                   <sic>لرؤيا</sic> ذلك عند الغروب<roleName type="consul"> قنصل الانكليز</roleName>
                وعياله واولاده وبعض من طايفة الافرنج القاطنين فى المحروسة منذ زمن طويل فاستحسنوا كلهم
-               هذا الصنع وابتهجوا به ومع هذا فان مصاريفه حال كونه يكفى لانارة<placeName
-                  ref="http://www.geonames.org/347645/tah-shubra.html"> جنينة شبرا </placeName>كلها
+               هذا الصنع وابتهجوا به ومع هذا فان مصاريفه حال كونه يكفى لانارة<placeName ref="http://www.geonames.org/347645/tah-shubra.html"> جنينة شبرا </placeName>كلها
                لم تزد عن <val>الستة الاف ريال</val> قرائا كذا علم بعد الحساب </p>
          </div>
       </body>
