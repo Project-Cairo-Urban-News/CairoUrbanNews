@@ -1,0 +1,17 @@
+name: "Update teiHeaders"
+on: 
+  push:
+    paths:
+      - master_CairoUrbanNews.xml
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # This step checks out a copy of your repository.
+      - uses: actions/checkout@v2
+      # This step references the directory that contains the action.
+      - uses: ./.github/actions/tei-docx-conversion
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Updated teiHeaders
