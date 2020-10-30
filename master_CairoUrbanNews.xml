@@ -8,10 +8,18 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
+<<<<<<< Updated upstream
         <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah:</title>
         <editor xml:id="eNK">Nour Kanaan</editor>
         <editor xml:id="eAM">Adam Mestyan</editor>
         <editor xml:id="eDY">Danah Younis</editor>
+=======
+        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah</title>
+        <editor>Nour Kanaan</editor>
+        <editor>Adam Mestyan</editor>
+        <editor>Danah Younis</editor>
+        <editor>xxxx</editor>
+>>>>>>> Stashed changes
         <respStmt>
           <resp>Advisor</resp>
           <name>Hugh Cayless</name>
@@ -36,6 +44,10 @@
           <resp>Research Assistant</resp>
           <name>Rezk Nouri</name>
         </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Arif Erbil</name>
+        </respStmt>
         <sponsor>
           <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
           <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
@@ -50,7 +62,8 @@
         <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
       </publicationStmt>
       <sourceDesc>
-        <p>al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+        <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+        <p>born digital document</p>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
