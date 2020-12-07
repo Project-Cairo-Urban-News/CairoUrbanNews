@@ -29,7 +29,7 @@
         }
       };
       c.addBehaviors(behaviors);
-      c.getHTML5("https://raw.githubusercontent.com/Mestyan/CairoUrbanNews/master/" + file, function(data) {
+      c.getHTML5("https://raw.githubusercontent.com/Project-Cairo-Urban-News/CairoUrbanNews/master/" + file, function(data) {
         document.getElementById("list").style.display = "none";
         document.querySelector("body").appendChild(data);
       });
@@ -59,7 +59,7 @@
   </div>
   <script>
     if (url.search == "") {
-      fetch("https://api.github.com/repos/Mestyan/CairoUrbanNews/contents")
+      fetch("https://api.github.com/repos/Project-Cairo-Urban-News/CairoUrbanNews/contents")
       .then(response => response.json())
       .then(data => {
         data.forEach(file => {
