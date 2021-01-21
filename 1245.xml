@@ -255,56 +255,73 @@
           من <persName><roleName type="ceremonial-title">حضرة الافندى</roleName><roleName
               type="مأمور-الديوان"> مأمور الديوان</roleName><roleName type="governor" ref="#MA">
               الخديوى</roleName></persName> الى الخزينة اشعارا بذلك كما استقر الراى فى المجلس
-          المنعقد فى<placeName type="palace" ref="funduq-halnan-shibard.html"> القصر
+          المنعقد فى<placeName type="palace"
+            ref="https://www.geonames.org/7922672/funduq-halnan-shibard.html"> القصر
             العالى</placeName> فى اليوم الخامس والعشرين من شهر ربيع الاول. </p>
       </div>
-      <div xml:id="w8" resp="#eDY">
-        <head><date> ٢٩ ربيع الاخر ١٢٤٥</date>
+      <div xml:id="w8" resp="#eDY" corresp="#eAM">
+        <head><date when-custom="1245-04-29"> ٢٩ ربيع الاخر ١٢٤٥</date>
           <date when="1829-10-28">٢٨ أكتوبر ١٨٢٩</date>
           <bibl><biblScope unit="issue">نمرة ٧٥</biblScope>
             <biblScope unit="page">صفحة ٤</biblScope></bibl>
         </head>
         <p>
-          <persName>عثمان <roleName type="ceremonial-title">اغا</roleName><roleName type="ناظر-الجير"> ناظر الجير</roleName></persName> قدم تقريرا الى <orgName type="مجلس-المشورة">مجلس المشورة</orgName> مضمونه ان <persName><roleName type="ceremonial-title">الحاج</roleName> ابراهيم</persName> من اهالى
-              <roleName><roleName type="ceremonial-title">شيخ</roleName> الحجارين</roleName> وملتزم
-          طاحون اليد التابع لمصلحة <sic>الجير</sic> من حيث انه كان مديونا للدواوين حبس فى ديوان
-            <orgName type="اشغال-المحروسة">اشغال المحروسة</orgName> وقدر دينه <val>خمسة عشر الف
-            قرشا</val> وبهذا صارت مصلحة الحجر معطلة فذهب<persName> عثمان <roleName type="ceremonial-title">اغا</roleName></persName> الى الديوان المذكور وسال منه دينه فقال<roleName>
+          <persName>عثمان <roleName type="ceremonial-title">اغا</roleName></persName><roleName
+            type="ناظر-الجير"> ناظر الجير</roleName> قدم تقريرا الى <orgName type="مجلس-المشورة"
+            >مجلس المشورة</orgName> مضمونه ان <persName><roleName type="ceremonial-title"
+              >الحاج</roleName> ابراهيم</persName> من اهالى <roleName><roleName
+              type="ceremonial-title">شيخ</roleName> الحجارين</roleName> وملتزم طاحون اليد التابع
+          لمصلحة <sic>الجير</sic> من حيث انه كان مديونا للدواوين حبس فى ديوان <orgName
+            type="اشغال-المحروسة">اشغال المحروسة</orgName> وقدر دينه <val>خمسة عشر الف قرشا</val>
+          وبهذا صارت مصلحة الحجر معطلة فذهب<persName> عثمان <roleName type="ceremonial-title"
+              >اغا</roleName></persName> الى الديوان المذكور وسال منه دينه فقال<roleName>
             <roleName type="ceremonial-title">الشيخ</roleName> المرقوم </roleName>ان دينه من ثمن
           طواحين اليد وان عادته يبيعها للاهالى فى المأموريات ويرى حسابها من سنة الى الى سنة مثلا
           يعطى هو الطواحين فى هذه السنة بشرط ان ياخذ ثمنها فى السنة الاتية وان له ذمة على اهل
-          الماموريات قدرها ثمانية<val> الاف وستماية وثمانية وسبعون قرشا </val>فلما اخبر
+          الماموريات قدرها <val>ثمانية الاف وستماية وثمانية وسبعون قرشا </val>فلما اخبر
             <persName>عثمان <roleName type="ceremonial-title">اغا</roleName></persName>
           <roleName type="ceremonial-title">افندينا </roleName><roleName type="ceremonial-title">ولى
             النعم</roleName> بان تعمل قايمة تبين كمية المبلغ المذكور اسما باسم ويحرر الى المأموريات
-          امر بتحصيل ذلك من <roleName type="ceremonial-title">حضرة الافندى</roleName><roleName type="مأمور-الديوان"> مأمور الديوان</roleName>
-          <roleName ref="#MA" type="governor">الخديوى</roleName> ويطلق <roleName><roleName type="ceremonial-title">الشيخ</roleName> المرقوم</roleName> من الحبس لكى تتخلص المصلحة
-          عن التعطيل امر بان يحال ذلك الى المجلس ولدى المذاكرة قالوا ان افادة <persName><roleName type="ceremonial-title">الاغا</roleName> المومى</persName> اليه موافق للمصلحة فينبغى
+          امر بتحصيل ذلك من <roleName type="ceremonial-title">حضرة الافندى</roleName><roleName
+            type="مأمور-الديوان"> مأمور الديوان</roleName>
+          <roleName ref="#MA" type="governor">الخديوى</roleName> ويطلق <roleName><roleName
+              type="ceremonial-title">الشيخ</roleName> المرقوم</roleName> من الحبس لكى تتخلص المصلحة
+          عن التعطيل امر بان يحال ذلك الى المجلس ولدى المذاكرة قالوا ان افادة <persName><roleName
+              type="ceremonial-title">الاغا</roleName> المومى</persName> اليه موافق للمصلحة فينبغى
           ان تعمل قايمة عن ذلك المبلغ الذى هو ثمن الطواحين التى باعها المرقوم الى اهل المأموريات
-          ويحرر امر من<roleName type="ceremonial-title">حضرة الافندى</roleName><roleName type="مأمور-الديوان"> مأمور الديوان</roleName>
-          <roleName ref="#MA" type="governor">الخديوى</roleName> الى حضرة لمأمورين لكى يخلصلوا ذلك
-          المبلغ ثم يخصم من دين المرقوم ويحصل منه ما بقى من دينه وياتى بضامن له ويطلق عن الحبس ويحرر
-          امر من الافندى المشار اليه الى على افندى <roleName type="مأمور-اشغال-المحروسة">مأمور اشغال
-            المحروسة</roleName> اشعارا بذلك كما استقر الراى فى المجلس المنعقد فى <placeName type="palace">القصر العالى</placeName> فى اليوم الثانى من شهر ربيع الاخر. </p>
+          ويحرر امر من<roleName type="ceremonial-title">حضرة الافندى</roleName><roleName
+            type="مأمور-الديوان"> مأمور<orgName type="الديوان-الخديوى"> الديوان <roleName ref="#MA"
+                type="governor">الخديوى</roleName></orgName></roleName> الى حضرة لمأمورين لكى
+          يخلصلوا ذلك المبلغ ثم يخصم من دين المرقوم ويحصل منه ما بقى من دينه وياتى بضامن له ويطلق عن
+          الحبس ويحرر امر من الافندى المشار اليه الى <persName>على افندى</persName>
+          <roleName type="مأمور-اشغال-المحروسة">مأمور اشغال المحروسة</roleName> اشعارا بذلك كما
+          استقر الراى فى المجلس المنعقد فى <placeName type="palace"
+            ref="https://www.geonames.org/7922672/funduq-halnan-shibard.html">القصر
+            العالى</placeName> فى اليوم الثانى من شهر ربيع الاخر. </p>
       </div>
-      <div xml:id="w9" resp="#eNK">
+      <div xml:id="w9" resp="#eNK" corresp="#eAM">
         <head><date when-custom="1245-04-31">غاية ربيع الأخر ١٢٤٥</date>
           <date when="1829-10-30">٣٠ أكتوبر ١٨٢٩</date><bibl>
             <biblScope unit="issue">نمرة ٧٦</biblScope>
             <biblScope unit="page">صفحة ١</biblScope>
           </bibl></head>
         <p>
-          <persName><roleName type="ceremonial-title">الحاج</roleName> محمد <roleName type="ceremonial">اغا</roleName></persName><roleName type="مأمور"> مأمور</roleName>
-          <placeName type="محافظة" ref="http://www.geonames.org/360621/muhafazat-al-qalyubiyah.html">القليوبيه</placeName> قدم تقريرا الى<orgName type=" مجلس-المشورة"> مجلس المشورة
-          </orgName>مضمونه ان تحقيق اربعة فدادين طينا زرع فيها <persName>حسين محرم حنا</persName>
-          احيل على عهدته فلما حقق ان الساقية التى حول الطين المذكور بقيت بطالة منذ اربع سنين فتلفت
-          ومع ذلك تحصل ماله الى طرف الديوان سنة فى سنة الى غاية سنة اربع واربعين وان ذلك الطين من
-          حيث انه وجد قريبا من الجبل وهو ذو رمل ولم يروى بقى معطلا حتى الان كما هو مقيد فى<rs type="دفتر-الصرف"> دفتر الصرف </rs>ولدى المذاكرة قالوا ان لم يكن للفلاح المرقوم قدرة على
-          عمارة تلك الساقية ينبغى ان يجعل شريكا لمن له قدرة لعمارها فى سنة خمس واربعين ويحرر امر من
-              <persName><roleName type="ceremonial-title">حضرة الافندى</roleName><roleName type="مأمور-الديوان"> مأمورالديوان</roleName>
+          <persName><roleName type="ceremonial-title">الحاج</roleName> محمد <roleName
+              type="ceremonial">اغا</roleName></persName><roleName type="مأمور"> مأمور</roleName>
+          <placeName type="محافظة" ref="http://www.geonames.org/360621/muhafazat-al-qalyubiyah.html"
+            >القليوبيه</placeName> قدم تقريرا الى<orgName type=" مجلس-المشورة"> مجلس المشورة
+          </orgName>مضمونه ان تحقيق اربعة فدادين<rs type=" طين"> طينا</rs> زرع فيها <persName>حسين
+            محرم حنا</persName> احيل على عهدته فلما حقق ان الساقية التى حول الطين المذكور بقيت بطالة
+          منذ اربع سنين فتلفت ومع ذلك تحصل ماله الى طرف الديوان سنة فى سنة الى غاية سنة اربع واربعين
+          وان ذلك <rs type=" طين">الطين</rs> من حيث انه وجد قريبا من الجبل وهو ذو رمل ولم يروى بقى
+          معطلا حتى الان كما هو مقيد فى<rs type="دفتر-الصرف"> دفتر الصرف </rs>ولدى المذاكرة قالوا ان
+          لم يكن للفلاح المرقوم قدرة على عمارة تلك الساقية ينبغى ان يجعل شريكا لمن له قدرة لعمارها
+          فى سنة خمس واربعين ويحرر امر من <persName><roleName type="ceremonial-title">حضرة
+              الافندى</roleName><roleName type="مأمور-الديوان"> مأمورالديوان</roleName>
             <roleName type="governor " ref="#MA">الخديوى</roleName></persName> الى المأمور المومى
-          اليه اشعارا بذلك كما استقر الراى فى المجلس المنعقد فى<placeName type="palace"> القصر
-            العالى </placeName>فى اليوم الثالث من شهر ربيع الاخر. </p>
+          اليه اشعارا بذلك كما استقر الراى فى المجلس المنعقد فى<placeName type="palace"
+            ref="https://www.geonames.org/7922672/funduq-halnan-shibard.html"> القصر العالى
+          </placeName>فى اليوم الثالث من شهر ربيع الاخر. </p>
       </div>
       <div xml:id="w10" resp="#eDY">
         <head>
