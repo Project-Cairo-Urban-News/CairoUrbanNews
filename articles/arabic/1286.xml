@@ -91,11 +91,20 @@
     <text>
         <body xml:lang="ar">
             <div xml:id="w100" resp="#eSG">
-    <head>٣ محرم ١٢۸٦- ۸ برموده ۱٥۸٥ - ۱٥ ابريل ١٨٦٩ نمرة ۲٧٨ صفحة ٤</head>
+    <head><date when-custom="1286-01-3">٣ محرم ١٢۸٦ </date>
+        <date when="1869-04-15"> ١٥ ابريل ١٨٦٩</date>
+        <date when-custom="1585-04-8">  ٨ برموده ١٥٨٥  </date>
+        <bibl><biblScope unit="issue"> نمرة ۲٧٨</biblScope> 
+            <biblScope unit="page">  صفحة ٤</biblScope></bibl>
+        
+       </head>
     <p>
-        وردت افادة من ديوان الأوقاف تتضمن انه اسيغ شرعا استبدال المنزل وقف المرحوم عثمان اغا نظارة
-        مصطفى اغا والست مهتاب الكائن بحارة الانسية بالمغربلين البالغ مسطحه بالأذرع ۱۲٠٥ وحرر في ذلك
-        .الى معاون الأوقاف لاشهاره بقائمة مزايدة لمن يرغب 
+        وردت افادة من <placeName type="ministry_of_endowments"> ديوان الأوقاف </placeName>  تتضمن انه اسيغ شرعا استبدال<placeName>المنزل</placeName> 
+        وقف<roleName type="religious_title">المرحوم</roleName><persName>عثمان</persName> <roleName>اغا</roleName> نظارة
+        <persName> مصطفى</persName> <roleName role="اغا ">اغا</roleName> والست <persName>مهتاب</persName> الكائن
+        <placeName>بحارة الانسية</placeName> <placeName>بالمغربلين</placeName> 
+        البالغ مسطحه  <measure unit="cubit">  بالأذرع ۱۲٠٥</measure>وحرر في ذلك
+        لاشهاره بقائمة مزايدة لمن يرغب الى <roleName role="معاون أوقاف">معاون الأوقاف</roleName>
     </p>
 </div>
 
