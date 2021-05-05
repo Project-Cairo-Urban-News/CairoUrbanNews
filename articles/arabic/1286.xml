@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 
   schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,6 +9,7 @@
                 <editor xml:id="eNK">Nour Kanaan</editor>
                 <editor xml:id="eAM">Adam Mestyan</editor>
                 <editor xml:id="eDY">Danah Younis</editor>
+                <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
                 <respStmt>
                     <resp>Advisor</resp>
                     <name>Hugh Cayless</name>
@@ -91,21 +92,22 @@
     <text>
         <body xml:lang="ar">
             <div xml:id="w100" resp="#eSG">
-    <head><date when-custom="1286-01-3">٣ محرم ١٢۸٦ </date>
+    <head><date when-custom="1286-01-03">٣ محرم ١٢۸٦ </date>
         <date when="1869-04-15"> ١٥ ابريل ١٨٦٩</date>
-        <date when-custom="1585-04-8">  ٨ برموده ١٥٨٥  </date>
+        <date when-custom="1585-04-08">  ٨ برموده ١٥٨٥  </date>
         <bibl><biblScope unit="issue"> نمرة ۲٧٨</biblScope> 
             <biblScope unit="page">  صفحة ٤</biblScope></bibl>
         
        </head>
-    <p>
-        وردت افادة من <placeName type="ministry_of_endowments"> ديوان الأوقاف </placeName>  تتضمن انه اسيغ شرعا استبدال<placeName>المنزل</placeName> 
-        وقف<roleName type="religious_title">المرحوم</roleName><persName>عثمان</persName> <roleName>اغا</roleName> نظارة
-        <persName> مصطفى</persName> <roleName role="اغا ">اغا</roleName> والست <persName>مهتاب</persName> الكائن
-        <placeName>بحارة الانسية</placeName> <placeName>بالمغربلين</placeName> 
-        البالغ مسطحه  <measure unit="cubit">  بالأذرع ۱۲٠٥</measure>وحرر في ذلك
-        لاشهاره بقائمة مزايدة لمن يرغب الى <roleName role="معاون أوقاف">معاون الأوقاف</roleName>
-    </p>
+    <p> وردت افادة من <orgName type="ديوان-الأوقاف"> ديوان الأوقاف </orgName> تتضمن انه اسيغ شرعا
+                    استبدال المنزل<orgName type="وقف"> وقف المرحوم<persName>عثمان</persName>
+                        <roleName>اغا</roleName></orgName> نظارة <persName> مصطفى</persName>
+                    <roleName role="اغا ">اغا</roleName> والست <persName>مهتاب</persName> الكائن
+                        <placeName>بحارة الانسية</placeName>
+                    <placeName>بالمغربلين</placeName> البالغ مسطحه <measure unit="cubit"> بالأذرع
+                        ۱۲٠٥</measure>وحرر في ذلك لاشهاره بقائمة مزايدة لمن يرغب الى <roleName
+                        role="معاون-أوقاف">معاون الأوقاف</roleName>
+                </p>
 </div>
 
 <div>    
