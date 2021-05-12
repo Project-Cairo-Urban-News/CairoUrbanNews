@@ -1,12 +1,14 @@
 #!/bin/bash
 
-REGEX="[[:digit:]]{4}\.xml"
-for f in `ls *.xml`
-do
-  echo "Checking $f"
-  if [[ $f =~ $REGEX ]]
-  then
+convert() {
+  for f in `ls *.xml`
+  do
     echo "Converting $f"
-    saxon -s:"$f" -xsl:xslt/apply-master.xsl -o:"$f"
-  fi
-done
+    saxon -s:"$f" -xsl:../xslt/apply-master.xsl -o:"$f"
+  done
+}
+
+cd articles/arabic
+convert()
+cd ../ottoman
+convert()
