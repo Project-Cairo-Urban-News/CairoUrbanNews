@@ -97,7 +97,6 @@
         <date when-custom="1585-04-08">  ٨ برموده ١٥٨٥  </date>
         <bibl><biblScope unit="issue"> نمرة ۲٧٨</biblScope> 
             <biblScope unit="page">  صفحة ٤</biblScope></bibl>
-        
        </head>
     <p> وردت افادة من <orgName type="ديوان-الأوقاف"> ديوان الأوقاف </orgName> تتضمن انه اسيغ شرعا
                     استبدال المنزل<orgName type="وقف"> وقف المرحوم<persName>عثمان</persName>
@@ -110,27 +109,47 @@
                 </p>
 </div>
 
-<div>    
-    <head>٣ محرم ١٢۸٦- ۸ برموده ۱٥۸٥ - ۱٥ ابريل ١٨٦٩ نمرة ۲٧٨ صفحة ٤</head>
-    <p> 
-        قد اشهر المرحوم علي سري باشا الذي كان من أعضاء مجلس الأحكام الكائن بدرب الجماميز بجوار حضرة
-        الشيخ السادات للمزايدة فيه وسلمت قائمته إلى الحاج مصطفى الجبوقجي دلال العقارات الذي سكنه بالسيدة
-        .زينب فكل من كان له رغبة في اشتراء هذا المنزل فعليه بالدلال المذكور
-    </p>
+
+    <div xml:id="w101" resp="#eSG">    
+    <head><date when-custom="1286-01-03">٣ محرم ١٢۸٦</date>
+                    <date when="1869-04-15">۱٥ ابريل ١٨٦٩</date>
+        <bibl><biblScope unit="issue">نمرة ۲٧٨</biblScope>
+                        <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+        
+    <p> قد اشهر المرحوم <persName>علي سري باشا</persName> الذي كان من أعضاء مجلس الأحكام
+                        الكائن<placeName> بدرب الجماميز</placeName> بجوار حضرة <persName>الشيخ
+                        السادات </persName>للمزايدة فيه وسلمت قائمته إلى الحاج <persName>مصطفى
+                        الجبوقجي</persName><roleName> دلال العقارات</roleName> الذي سكنه <placeName
+                        ref="https://www.geonames.org/359824/as-sayyidah-zaynab.html">بالسيدة
+                        زينب</placeName> فكل من كان له رغبة في اشتراء هذا <placeName type="منزل"
+                        >المنزل</placeName> فعليه بالدلال المذكور </p>
 </div>
 
-<div>
-     <head>٩ صفر ١٢۸٦- ۲٤ بشنس القبطى ۱٥۸٥ - ۲۱ مايه الأفرنجى ١٨٦٩ نمرة ۲٩٩ صفحة ۳۱</head>
+     <div xml:id="w102" resp="#eSG">
+     <head><date when-custom="1286-02-09">٩ صفر ١٢۸٦</date>
+                    <date when="1869-05-21">۲۱ مايه الأفرنجى ١٨٦٩</date>
+                    <bibl><biblScope unit="issue">نمرة ۲٩٩ </biblScope><biblScope unit="page">صفحة
+                            ۳۱</biblScope></bibl></head>
      <p>
-            اعلانات
-            اعلان بتاريخ ۱٤ صفر سنة ۸٦
-            عدد
-            ۱ منزل بشارع اللبودية بدرب الجماميز وقف السيدة زينب والمرحوم حسن بك ماهر مسطحه ۱٥٩
-            ۱ منزل بعطفة الغباشي بخط الشيخ كشك بثمن الخليفة وقف المرحومة نفيسة البيضاء مسطحه ٩۲ 
-            اسيغ شرعا بيع أنقاض المحلين المذكورين وتأجير أرضهما واجراء الخلو فيهما وأرسلت خمسة وثلاثون اعلانا
-            للضبطية بهذا التاريخ لتوضع على القره قولات وكتب إلى محمد افندي سليمان معاون قضايا الأوقاف
-       .باشهار ذلك بقوائم مزايدة بين الراغبين 
-     </p>
+                    <title type="main-heading">اعلانات</title>
+                    <title type="sub-title">اعلان بتاريخ ۱٤ صفر سنة ۸٦</title>
+                    <num type="عدد">عدد ۱</num><placeName ref="منزل"> منزل</placeName><placeName
+                        type="شارع"> بشارع اللبودية </placeName><placeName>بدرب الجماميز</placeName>
+                    <orgName type="وقف">وقف السيدة زينب</orgName> والمرحوم <persName>حسن بك
+                        ماهر</persName>
+                    <measure type="area">مسطحه ۱٥٩</measure>
+                    <num type="عدد">۱ منزل</num>
+                    <placeName>بعطفة الغباشي</placeName><placeName> بخط الشيخ
+                        كشك</placeName><placeName
+                        ref="https://www.geonames.org/9180123/qism-al-khalifa.html"> بثمن
+                        الخليفة</placeName>
+                    <orgName type="وقف">وقف المرحومة نفيسة البيضاء</orgName>
+                    <measure type="area">مسطحه ٩۲</measure> اسيغ شرعا بيع أنقاض <placeName
+                        ref="منزلين">المحلين المذكورين</placeName> وتأجير أرضهما واجراء الخلو فيهما
+                    وأرسلت <val>خمسة وثلاثون </val>اعلانا<placeName> للضبطية </placeName>بهذا
+                    التاريخ لتوضع على <placeName type="police-station">القره قولات</placeName> وكتب
+                    إلى <persName>محمد افندي سليمان</persName><roleName ref="معاون_قضايا_الأوقاف">
+                        معاون قضايا الأوقاف</roleName> باشهار ذلك بقوائم مزايدة بين الراغبين </p>
 </div>
 
 <div>
