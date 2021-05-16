@@ -2,7 +2,8 @@ name: "Generate TEI"
 on: 
   push:
     paths:
-      - docx/*.docx
+      - docx/arabic/*.docx
+      - docx/ottoman/*.docx
 
 jobs:
   build:

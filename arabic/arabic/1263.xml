@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 
+  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="css/oxygen.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah:</title>
+            <editor xml:id="eNK">Nour Kanaan</editor>
+            <editor xml:id="eAM">Adam Mestyan</editor>
+            <editor xml:id="eDY">Danah Younis</editor>
+            <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
+            <respStmt>
+               <resp>Advisor</resp>
+               <name>Hugh Cayless</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Adam Mestyan</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Mercedes Volait</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Sarah Fath Allah</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Karima Nasr</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Rezk Nouri</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Arif Erbil</name>
+            </respStmt>
+            <sponsor>
+               <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
+          <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+          Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+          Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>. 
+        </sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
+          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+            <p>
+               <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
+            </p>
+            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+            <p>born digital document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>We use Arabic but any transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
+            <p>Each individual article has an individual xml:id number starting with "w1"</p>
+            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+          Editions</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to AlA-LC</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text xml:lang="ar">
+      <body>
+         <div>
+            <head>١٢٦٣ هجري</head>
+            <head>٨ صفر ١٢٦٣- ٢٦ يناير ١٨٤٧ نمرة ٤٩ صفحة ١</head>
+            <p>
+               <seg xml:space="preserve">    </seg>
+            </p>
+         </div>
+         <div>
+            <head>٨ صفر ١٢٦٣- ٢٦ يناير ١٨٤٧ نمرة ٤٩ صفحة ٤ اعلانات</head>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>٢٢ صفر ١٢٦٣- ٩ فبراير ١٨٤٧ نمرة ٥١ صفحة ٤ اعلانات</head>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>٢٩ صفر ١٢٦٣- ١٦ فبراير ١٨٤٧ نمرة ٥٢ صفحة ١ الحوادث الداخليه</head>
+            <p/>
+         </div>
+         <div>
+            <head>٢٩ صفر ١٢٦٣- ١٦ فبراير ١٨٤٧ نمرة ٥٢ صفحة ٤ اعلانات</head>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>٧ ربيع الاول ١٢٦٣- ٢٣ فبراير ١٨٤٧ نمرة ٥٣ صفحة ١</head>
+            <p/>
+         </div>
+         <div>
+            <head>٧ ربيع الاول ١٢٦٣- ٢٣ فبراير ١٨٤٧ نمرة ٥٣ صفحة ٤ اعلانات</head>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>٧ ربيع الاول ١٢٦٣- ٢٣ فبراير ١٨٤٧ نمرة ٥٣ صفحة ٤</head>
+            <p/>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>١٤ ربيع الاول ١٢٦٣- ٢ مارس ١٨٤٧ نمرة ٥٤ صفحة ١ الحوادث الداخليه</head>
+            <p/>
+         </div>
+         <div>
+            <head>١٤ ربيع الاول ١٢٦٣- ٢ مارس ١٨٤٧ نمرة ٥٤ صفحة ٤ اعلانات</head>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>١٤ ربيع الاول ١٢٦٣- ٢ مارس ١٨٤٧ نمرة ٥٤ صفحة ٤</head>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>٢١ ربيع الاول ١٢٦٣- ٩ مارس ١٨٤٧ نمرة ٥٥ صفحة ٤ اعلانات</head>
+            <p> </p>
+            <p/>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>٢٨ ربيع الاول ١٢٦٣- ١٦ مارس ١٨٤٧ نمرة ٥٦ صفحة ٤ اعلانات</head>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>٥ ربيع الثانى ١٢٦٣- ٢٣ مارس ١٨٤٧ نمرة ٥٧ صفحة ٤ اعلانات</head>
+            <p/>
+            <p>
+               <anchor xml:id="Hlk17381564"/>
+            </p>
+         </div>
+         <div>
+            <head>١٢ ربيع الثاني ١٢٦٣- ٣٠ مارس ١٨٤٧ نمرة ٥٨ صفحة ١ الحوادث الداخليه</head>
+            <p/>
+         </div>
+         <div>
+            <head>١٢ ربيع الثاني ١٢٦٣- ٣٠ مارس ١٨٤٧ نمرة ٥٨ صفحة ٤ اعلانات</head>
+            <p/>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>١٩ ربيع الثاني ١٢٦٣- ٦ ابريل ١٨٤٧ نمرة ٥٩ صفحة ٢ حوادث داخليه</head>
+            <p/>
+         </div>
+         <div>
+            <head>١٩ ربيع الثاني ١٢٦٣- ٦ ابريل ١٨٤٧ نمرة ٥٩ صفحة ٤</head>
+            <p/>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>٢٦ ربيع الثاني ١٢٦٣- ١٣ ابريل ١٨٤٧ نمرة ٦٠ صفحة ١ الحوادث الداخليه</head>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>صفحة 2 - العمود 1</head>
+            <p/>
+         </div>
+         <div>
+            <head>٤ جمادى الاول ١٢٦٣- ٢٠ ابريل ١٨٤٧ نمرة ٦١ صفحة ١ الحوادث الداخليه</head>
+            <p/>
+         </div>
+         <div>
+            <head>٤ جمادى الاول ١٢٦٣- ٢٠ ابريل ١٨٤٧ نمرة ٦١ صفحة ١</head>
+            <p> </p>
+         </div>
+         <div>
+            <head>١١ جمادى الاول ١٢٦٣- ٢٧ ابريل ١٨٤٧ نمرة ٦٢ صفحة ١ الحوادث الداخليه</head>
+            <p/>
+         </div>
+         <div>
+            <head>١١ جمادى الاول ١٢٦٣- ٢٧ ابريل ١٨٤٧ نمرة ٦٢ صفحة ١</head>
+            <p/>
+         </div>
+         <div>
+            <head>١١ جمادى الاول ١٢٦٣- ٢٧ ابريل ١٨٤٧ نمرة ٦٢ صفحة ٤ اعلانات</head>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>٢٥ جمادى الاول ١٢٦٣- ١١ مايو ١٨٤٧ نمرة ٦٤ صفحة ١</head>
+            <p/>
+         </div>
+         <div>
+            <head>٢٥ جمادى الاول ١٢٦٣- ١١ مايو ١٨٤٧ نمرة ٦٤ صفحة ٢</head>
+            <p/>
+            <p>
+               <sic>اجمال </sic>
+            </p>
+            <p>
+               <sic>باره ؎</sic>
+            </p>
+            <p>
+               <sic>مصر المحروسة</sic>
+            </p>
+            <p>
+               <sic>07   030805                المهندسخانه والمطبعه والباقرخانه وامثالها من محلات اخرى </sic>
+            </p>
+            <p>
+               <sic>باقى الخبر عن وجه قبلى والشرقيه والغربيه فلم اكمله</sic>
+            </p>
+         </div>
+         <div>
+            <head>٢ جمادى الاخر ١٢٦٣- ١٨ مايو ١٨٤٧ نمرة ٦٥ صفحة ٤ اعلانات</head>
+            <p/>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>٩ جمادى الاخر ١٢٦٣- ٢٥ مايو ١٨٤٧ نمرة ٦٦ صفحة ٢ الحوادث الدخليه</head>
+            <p/>
+         </div>
+         <div>
+            <head>٩ جمادى الاخر ١٢٦٣- ٢٥ مايو ١٨٤٧ نمرة ٦٦ صفحة ٤</head>
+            <p/>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>١٦ جمادى الاخر ١٢٦٣- ١ يونيو ١٨٤٧ نمرة ٦٧ صفحة ٤ اعلانات</head>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>١ رجب ١٢٦٣- ١٥ يونيو ١٨٤٧ نمرة ٦٩ صفحة ١ الحوادث الداخليه</head>
+            <p/>
+         </div>
+         <div>
+            <head>٨ رجب ١٢٦٣- ٢٢ يونيو ١٨٤٧ نمرة ٧٠ صفحة ١ الحوادث الداخليه</head>
+            <p/>
+         </div>
+         <div>
+            <head>١٥ رجب ١٢٦٣- ٢٩ يونيو ١٨٤٧ نمرة ٧١ صفحة ١ الحوادث الداخليه</head>
+            <p/>
+         </div>
+         <div>
+            <head>١٥ رجب ١٢٦٣- ٢٩ يونيو ١٨٤٧ نمرة ٧١ صفحة ٤ إعلانات</head>
+            <p/>
+         </div>
+         <div>
+            <head>٢٩ رجب ١٢٦٣- ٢٩ يونيو ١٨٤٧ نمرة ٧٣ صفحة ١ الحوادث الداخليه</head>
+            <p/>
+            <p>  </p>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>٢٩ رجب ١٢٦٣- ٢٩ يونيو ١٨٤٧ نمرة ٧٣ صفحة ٢</head>
+            <p/>
+         </div>
+         <div>
+            <head>٢٩ رجب ١٢٦٣- ٢٩ يونيو ١٨٤٧ نمرة ٧٣ صفحة ٤ إعلانات</head>
+            <p/>
+         </div>
+         <div>
+            <head>شعبان ١٢٦٣- ٢٠ يوليو ١٨٤٧ نمرة ٧٤ صفحة ٤ إعلانات</head>
+            <p/>
+         </div>
+         <div>
+            <head>١٣ شعبان ١٢٦٣- ٢٠ يوليو ١٨٤٧ نمرة ٧٥ صفحة ١ الحوادث الداخليه</head>
+            <p/>
+         </div>
+         <div>
+            <head>١٣ شعبان ١٢٦٣- ٢٧ يوليو ١٨٤٧ نمرة ٧٥ صفحة ٤ اعلانات</head>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>٢٠ شعبان ١٢٦٣- ٣ اغسطس ١٨٤٧ نمرة ٧٦ صفحة ٤ اعلانات</head>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>٢٧ شعبان ١٢٦٣- ٣ اغسطس ١٨٤٧ نمرة ٧٧ صفحة ١ الحوادث الداخليه</head>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>٢٧ شعبان ١٢٦٣- ٣ اغسطس ١٨٤٧ نمرة ٧٧ صفحة ٢</head>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>١٤ رمضان ١٢٦٣- ٢٦ اغسطس ١٨٤٧ نمرة ٧٨ صفحة ١،٢ الحوادث الداخليه</head>
+            <p/>
+            <table rend="rules">
+               <row>
+                  <cell cols="3"/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell cols="3"/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell cols="3"/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell cols="3"/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell cols="3"/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell cols="3"/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell cols="3"/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell cols="3"/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell cols="3"/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell cols="3"/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell cols="2"/>
+               </row>
+            </table>
+            <p> </p>
+         </div>
+         <div>
+            <head>١٤ رمضان ١٢٦٣- ٢٦ اغسطس ١٨٤٧ نمرة ٧٨ صفحة ٤ اعلانات</head>
+            <p/>
+         </div>
+         <div>
+            <head>٢١ رمضان ١٢٦٣- ٢ سبتمبر ١٨٤٧ نمرة ٧٩ صفحة ٤ اعلانات</head>
+            <p/>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>٢٥ رمضان ١٢٦٣- ٥ سبتمبر ١٨٤٧ نمرة ٨١ صفحة ٤ اعلانات</head>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>١٠ شوال ١٢٦٣- ٢١ سبتمبر ١٨٤٧ نمرة ٨٣ صفحة ١ الحوادث الداخليه</head>
+            <p/>
+         </div>
+         <div>
+            <head>١٧ شوال ١٢٦٣- ٢٦ سبتمبر ١٨٤٧ نمرة ٨٤ صفحة ١ الحوادث الداخليه</head>
+            <p/>
+         </div>
+         <div>
+            <head>١٧ شوال ١٢٦٣- ٢٦ سبتمبر ١٨٤٧ نمرة ٨٤ صفحة ٤ اعلانات</head>
+            <p/>
+         </div>
+         <div>
+            <head>٢ ذي القعدة ١٢٦٣- ١٢ اكتوبر ١٨٤٧ نمرة ٨٦ صفحة ٤ اعلانات</head>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>٩ ذي القعدة ١٢٦٣- ١٨ اكتوبر ١٨٤٧ نمرة ٨٧ صفحة ١ الحوادث الداخليه</head>
+            <p/>
+         </div>
+         <div>
+            <head>٢٢ ذي القعدة ١٢٦٣- ١ نوفمبر ١٨٤٧ نمرة ٨٩ صفحة ١ الحوادث الداخليه</head>
+            <p/>
+         </div>
+         <div>
+            <head>٢٢ ذي القعدة ١٢٦٣- ١ نوفمبر ١٨٤٧ نمرة ٨٩ صفحة ٤ اعلانات</head>
+            <p/>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>نمره 94</head>
+            <head>غاية شهر ذى الحجه ١٢٦٣- ١٠ ديسمبر ١٨٤٧ نمرة ٩ صفحة 1 اعلانات صفحة 1 – العمود 1</head>
+            <p>
+               <hi rend="bold underline">الحوادث الداخليه</hi>
+            </p>
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>
