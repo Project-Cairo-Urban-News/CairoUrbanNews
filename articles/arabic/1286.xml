@@ -91,15 +91,16 @@
     </standOff>
     <text>
         <body xml:lang="ar">
-            <div xml:id="w100" resp="#eSG">
-    <head><date when-custom="1286-01-03">٣ محرم ١٢۸٦ </date>
-        <date when="1869-04-15"> ١٥ ابريل ١٨٦٩</date>
-        <date when-custom="1585-04-08">  ٨ برموده ١٥٨٥  </date>
-        <bibl><biblScope unit="issue"> نمرة ۲٧٨</biblScope> 
-            <biblScope unit="page">  صفحة ٤</biblScope></bibl>
-       </head>
-    <p> وردت افادة من <orgName type="ديوان-الأوقاف"> ديوان الأوقاف </orgName> تتضمن انه اسيغ شرعا
-                    استبدال المنزل<orgName type="وقف"> وقف المرحوم<persName>عثمان</persName>
+            <div xml:id="w100" resp="#eSG #eAM">
+                <head><date when-custom="1286-01-03">٣ محرم ١٢۸٦ </date>
+                    <date when="1869-04-15"> ١٥ ابريل ١٨٦٩</date>
+                    <date when-custom="1585-04-08"> ٨ برموده ١٥٨٥ </date>
+                    <bibl><biblScope unit="issue"> نمرة ۲٧٨</biblScope>
+                        <biblScope unit="page"> صفحة ٤</biblScope></bibl>
+                </head>
+                <p> وردت افادة من <orgName type="ديوان-الأوقاف"> ديوان الأوقاف </orgName> تتضمن انه
+                    اسيغ شرعا استبدال المنزل<orgName type="وقف"> وقف
+                            المرحوم<persName>عثمان</persName>
                         <roleName>اغا</roleName></orgName> نظارة <persName> مصطفى</persName>
                     <roleName role="اغا ">اغا</roleName> والست <persName>مهتاب</persName> الكائن
                         <placeName>بحارة الانسية</placeName>
@@ -107,7 +108,7 @@
                         ۱۲٠٥</measure>وحرر في ذلك لاشهاره بقائمة مزايدة لمن يرغب الى <roleName
                         role="معاون-أوقاف">معاون الأوقاف</roleName>
                 </p>
-</div>
+            </div>
 
 
     <div xml:id="w101" resp="#eSG">    
