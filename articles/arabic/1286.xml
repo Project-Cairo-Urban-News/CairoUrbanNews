@@ -111,47 +111,50 @@
             </div>
 
 
-    <div xml:id="w101" resp="#eSG">    
-    <head><date when-custom="1286-01-03">٣ محرم ١٢۸٦</date>
+    <div xml:id="w101" resp="#eSG #eAM">
+                <head><date when-custom="1286-01-03">٣ محرم ١٢۸٦</date>
                     <date when="1869-04-15">۱٥ ابريل ١٨٦٩</date>
-        <bibl><biblScope unit="issue">نمرة ۲٧٨</biblScope>
+                    <bibl><biblScope unit="issue">نمرة ۲٧٨</biblScope>
                         <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-        
-    <p> قد اشهر المرحوم <persName>علي سري باشا</persName> الذي كان من أعضاء مجلس الأحكام
-                        الكائن<placeName> بدرب الجماميز</placeName> بجوار حضرة <persName>الشيخ
-                        السادات </persName>للمزايدة فيه وسلمت قائمته إلى الحاج <persName>مصطفى
-                        الجبوقجي</persName><roleName> دلال العقارات</roleName> الذي سكنه <placeName
+                <p> قد اشهر المرحوم <persName>علي سري باشا</persName> الذي كان من أعضاء<orgName
+                        type=" مجلس-الأحكام "> مجلس الأحكام </orgName><sic>الكائن</sic><placeName
+                        ref="https://www.geonames.org/359824/as-sayyidah-zaynab.html"> بدرب
+                        الجماميز</placeName> بجوار حضرة <placeName><persName>الشيخ السادات
+                        </persName></placeName>للمزايدة فيه وسلمت قائمته إلى الحاج <persName>مصطفى
+                        الجبوقجي</persName><roleName type="دلال-العقارات"> دلال العقارات</roleName>
+                    الذي سكنه <placeName
                         ref="https://www.geonames.org/359824/as-sayyidah-zaynab.html">بالسيدة
                         زينب</placeName> فكل من كان له رغبة في اشتراء هذا <placeName type="منزل"
                         >المنزل</placeName> فعليه بالدلال المذكور </p>
-</div>
+            </div>
 
-     <div xml:id="w102" resp="#eSG">
-     <head><date when-custom="1286-02-09">٩ صفر ١٢۸٦</date>
-                    <date when="1869-05-21">۲۱ مايه الأفرنجى ١٨٦٩</date>
+     <div xml:id="w102" resp="#eSG #eAM">
+                <head><date when-custom="1286-02-09">٩ صفر ١٢۸٦</date>
+                    <date when="1869-05-21">۲۱ مايه ١٨٦٩</date>
                     <bibl><biblScope unit="issue">نمرة ۲٩٩ </biblScope><biblScope unit="page">صفحة
                             ۳۱</biblScope></bibl></head>
-     <p>
-                    <title type="main-heading">اعلانات</title>
-                    <title type="sub-title">اعلان بتاريخ ۱٤ صفر سنة ۸٦</title>
-                    <num type="عدد">عدد ۱</num><placeName ref="منزل"> منزل</placeName><placeName
-                        type="شارع"> بشارع اللبودية </placeName><placeName>بدرب الجماميز</placeName>
-                    <orgName type="وقف">وقف السيدة زينب</orgName> والمرحوم <persName>حسن بك
-                        ماهر</persName>
-                    <measure type="area">مسطحه ۱٥٩</measure>
-                    <num type="عدد">۱ منزل</num>
-                    <placeName>بعطفة الغباشي</placeName><placeName> بخط الشيخ
-                        كشك</placeName><placeName
-                        ref="https://www.geonames.org/9180123/qism-al-khalifa.html"> بثمن
-                        الخليفة</placeName>
-                    <orgName type="وقف">وقف المرحومة نفيسة البيضاء</orgName>
-                    <measure type="area">مسطحه ٩۲</measure> اسيغ شرعا بيع أنقاض <placeName
-                        ref="منزلين">المحلين المذكورين</placeName> وتأجير أرضهما واجراء الخلو فيهما
-                    وأرسلت <val>خمسة وثلاثون </val>اعلانا<placeName> للضبطية </placeName>بهذا
-                    التاريخ لتوضع على <placeName type="police-station">القره قولات</placeName> وكتب
-                    إلى <persName>محمد افندي سليمان</persName><roleName ref="معاون_قضايا_الأوقاف">
+                <head><title>اعلان ب<date>تاريخ ۱٤ صفر سنة ۸٦</date></title></head>
+                <p>
+                    <list>
+                        <item>عدد ۱ <rs type="منزل">منزل</rs><placeName type="شارع"> بشارع اللبودية
+                                </placeName><placeName>بدرب الجماميز</placeName>
+                            <orgName type="وقف">وقف السيدة زينب</orgName> والمرحوم <persName>حسن بك
+                                ماهر</persName>
+                            <measure type="area">مسطحه ۱٥٩</measure>
+                        </item>
+                        <item>۱ منزل <placeName>بعطفة الغباشي</placeName><placeName> بخط الشيخ
+                                كشك</placeName><placeName
+                                ref="https://www.geonames.org/9180123/qism-al-khalifa.html"> بثمن
+                                الخليفة</placeName>
+                            <orgName type="وقف">وقف المرحومة <persName>نفيسة
+                                البيضاء</persName></orgName>
+                            <measure type="area">مسطحه ٩۲</measure></item>
+                    </list> اسيغ شرعا بيع أنقاض المحلين المذكورين وتأجير أرضهما واجراء الخلو فيهما
+                    وأرسلت <measure>خمسة وثلاثون</measure> اعلانا <orgName type="ضبطية"
+                        >للضبطية</orgName> بهذا التاريخ لتوضع على القره قولات وكتب إلى
+                        <persName>محمد افندي سليمان</persName><roleName ref="معاون_قضايا_الأوقاف">
                         معاون قضايا الأوقاف</roleName> باشهار ذلك بقوائم مزايدة بين الراغبين </p>
-</div>
+            </div>
 
 <div>
     <head>۲۲ صفر ١٢۸٦- ۲٧ بشنس القبطى ۱٥۸٥ - ۳ يونيه ١٨٦٩ نمرة ۳٠٠ صفحة ٤</head>
