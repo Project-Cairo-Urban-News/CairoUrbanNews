@@ -14,14 +14,6 @@
   
   <xsl:template match="/">
     <xsl:variable name="wrapper" select="doc('../master_CairoUrbanNews.xml')"/>
-    <xsl:variable name="pass1">
-      <xsl:apply-templates select="//t:body/(t:p|t:list|t:table)" mode="pass1"/>
-    </xsl:variable>
-    <xsl:result-document href="pass1.xml">
-      <body>
-        <xsl:copy-of select="$pass1"/>
-      </body>
-    </xsl:result-document>
     <xsl:apply-templates select="$wrapper" mode="wrap"/>
   </xsl:template>
   
