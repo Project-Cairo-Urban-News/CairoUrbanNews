@@ -9,6 +9,6 @@ convert() {
 }
 
 cd articles/arabic
-convert()
+convert
 cd ../ottoman
-convert()
+convert
