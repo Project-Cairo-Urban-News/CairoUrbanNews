@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="22.0">
+<project>
     <meta>
         <filters directoryPatterns="" filePatterns="\QCairoUrbanNews.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="22.0" xml:space="preserve">
+            <serialized xml:space="preserve">
                 <serializableOrderedMap>
+                    <entry>
+                        <String>enable.project.master.files.support</String>
+                        <Boolean>true</Boolean>
+                    </entry>
                     <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
@@ -123,6 +127,21 @@
         </options>
     </meta>
     <projectTree name="CairoUrbanNews.xpr">
+        <folder masterFiles="true" name="Main Files">
+            <file name="1244.xml"/>
+            <file name="1245.xml"/>
+            <file name="1246.xml"/>
+            <file name="1247.xml"/>
+            <file name="1248.xml"/>
+            <file name="1261.xml"/>
+            <file name="1262.xml"/>
+            <file name="1263.xml"/>
+            <file name="1264.xml"/>
+            <file name="1286.xml"/>
+            <file name="File%20%231.xml"/>
+            <file name="generalinstructions.xml"/>
+            <file name="master_CairoUrbanNews.xml"/>
+        </folder>
         <folder path="."/>
     </projectTree>
 </project>
