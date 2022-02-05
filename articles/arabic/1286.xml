@@ -1,83 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 
   schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                
-                <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah:</title>
-                <editor xml:id="eNK">Nour Kanaan</editor>
-                <editor xml:id="eAM">Adam Mestyan</editor>
-                <editor xml:id="eDY">Danah Younis</editor>
-                <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
-                <respStmt>
-                    <resp>Advisor</resp>
-                    <name>Hugh Cayless</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Project leader</resp>
-                    <name>Adam Mestyan</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Project leader</resp>
-                    <name>Mercedes Volait</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Research Assistant</resp>
-                    <name>Sarah Fath Allah</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Research Assistant</resp>
-                    <name>Karima Nasr</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Research Assistant</resp>
-                    <name>Rezk Nouri</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Research Assistant</resp>
-                    <name>Arif Erbil</name>
-                </respStmt>
-                <sponsor>
-                    <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
-                    <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
-                        Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-                            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>. 
-                </sponsor>
-            </titleStmt>
-            <publicationStmt>
-                <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
-                    du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-                <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-                <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
-            </publicationStmt>
-            <sourceDesc>
-                <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
-                <p>born digital document</p>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <projectDesc>
-                <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
-                    project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-            </projectDesc>
-            <editorialDecl>
-                <p>We use Arabic but any transliteration into Latin characters follows the Library of
-                    Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
-                <p>Each individual article has an individual xml:id number starting with "w1"</p>
-                <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
-                    Editions</ref>.</p>
-            </editorialDecl>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="ar">Arabic</language>
-                <language ident="en">English</language>
-                <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to AlA-LC</language>
-            </langUsage>
-        </profileDesc>
-    </teiHeader>
-    <standOff>
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah:</title>
+        <editor xml:id="eNK">Nour Kanaan</editor>
+        <editor xml:id="eAM">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
+        <respStmt>
+          <resp>Advisor</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Mercedes Volait</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Sarah Fath Allah</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Karima Nasr</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Rezk Nouri</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Arif Erbil</name>
+        </respStmt>
+        <sponsor>
+          <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
+          <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+          Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+          Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>. 
+        </sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
+          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+        <p>born digital document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>We use Arabic but any transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
+        <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+          Editions</ref>.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to AlA-LC</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
         <listPerson type="historical">
             <person xml:id="pMA">
                 <persName xml:lang="en">Muḥammad 'Alī</persName>
@@ -89,7 +88,7 @@
             </person>
         </listPerson>
     </standOff>
-    <text>
+  <text>
         <body xml:lang="ar">
             <div xml:id="w100" resp="#eSG #eAM">
                 <head><date when-custom="1286-01-03">٣ محرم ١٢۸٦</date>
@@ -105,8 +104,7 @@
                     <roleName role="اغا ">اغا</roleName> والست <persName>مهتاب</persName> الكائن
                         <placeName>بحارة الانسية</placeName>
                     <placeName>بالمغربلين</placeName> البالغ مسطحه <measure unit="cubit"> بالأذرع
-                        ۱۲٠٥</measure>وحرر في ذلك لاشهاره بقائمة مزايدة لمن يرغب الى <roleName
-                        role="معاون-أوقاف">معاون الأوقاف</roleName>
+                        ۱۲٠٥</measure>وحرر في ذلك لاشهاره بقائمة مزايدة لمن يرغب الى <roleName role="معاون-أوقاف">معاون الأوقاف</roleName>
                 </p>
             </div>
             <div xml:id="w101" resp="#eSG #eAM">
@@ -114,16 +112,12 @@
                     <date when="1869-04-15">۱٥ ابريل ١٨٦٩</date>
                     <bibl><biblScope unit="issue">نمرة ۲٧٨</biblScope>
                         <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-                <p> قد اشهر المرحوم <persName>علي سري باشا</persName> الذي كان من أعضاء<orgName
-                        type=" مجلس-الأحكام ">مجلس الأحكام</orgName><sic>الكائن</sic><placeName
-                        ref="https://www.geonames.org/359824/as-sayyidah-zaynab.html"> بدرب
+                <p> قد اشهر المرحوم <persName>علي سري باشا</persName> الذي كان من أعضاء<orgName type=" مجلس-الأحكام ">مجلس الأحكام</orgName><sic>الكائن</sic><placeName ref="https://www.geonames.org/359824/as-sayyidah-zaynab.html"> بدرب
                         الجماميز</placeName> بجوار حضرة <placeName><persName>الشيخ
                             السادات</persName></placeName>للمزايدة فيه وسلمت قائمته إلى
                         الحاج<persName>مصطفى الجبوقجي</persName><roleName type="دلال-العقارات"> دلال
-                        العقارات</roleName> الذي سكنه ب<placeName
-                        ref="https://www.geonames.org/359824/as-sayyidah-zaynab.html">السيدة
-                        زينب</placeName>فكل من كان له رغبة في اشتراء هذا<placeName type="منزل"
-                        >المنزل</placeName>فعليه بالدلال المذكور</p>
+                        العقارات</roleName> الذي سكنه ب<placeName ref="https://www.geonames.org/359824/as-sayyidah-zaynab.html">السيدة
+                        زينب</placeName>فكل من كان له رغبة في اشتراء هذا<placeName type="منزل">المنزل</placeName>فعليه بالدلال المذكور</p>
             </div>
             <div xml:id="w102" resp="#eSG #eAM">
                 <head><date when-custom="1286-02-09">٩ صفر ١٢۸٦</date>
@@ -140,15 +134,13 @@
                             <measure type="area">مسطحه ۱٥٩</measure>
                         </item>
                         <item>۱ منزل ب<placeName>عطفة الغباشي</placeName>ب<placeName>خط الشيخ
-                                كشك</placeName>ب<placeName
-                                ref="https://www.geonames.org/9180123/qism-al-khalifa.html">ثمن
+                                كشك</placeName>ب<placeName ref="https://www.geonames.org/9180123/qism-al-khalifa.html">ثمن
                                 الخليفة</placeName>
                             <orgName type="وقف">وقف المرحومة<persName>نفيسة
                                 البيضاء</persName></orgName>
                             <measure type="area">مسطحه ٩۲</measure></item>
                     </list> اسيغ شرعا بيع أنقاض المحلين المذكورين وتأجير أرضهما واجراء الخلو فيهما
-                        وأرسلت<measure>خمسة وثلاثون</measure> اعلانا <orgName type="ضبطية"
-                        >للضبطية</orgName>بهذا التاريخ لتوضع على القره قولات وكتب إلى <persName>محمد
+                        وأرسلت<measure>خمسة وثلاثون</measure> اعلانا <orgName type="ضبطية">للضبطية</orgName>بهذا التاريخ لتوضع على القره قولات وكتب إلى <persName>محمد
                         افندي سليمان</persName><roleName ref="معاون_قضايا_الأوقاف">معاون قضايا
                         الأوقاف</roleName>باشهار ذلك بقوائم مزايدة بين الراغبين</p>
             </div>
@@ -159,8 +151,7 @@
                 <head><title>اعلان من عموم بيت المال بتاريخ<date when-custom="1286-02-25">۲٥ صفر سنة
                             ۸٦</date></title></head>
                 <p>في<placeName ref="https://www.geonames.org/7913957/ad-darb-al-ahmar.html">شارع
-                        ميدان (محمد على)</placeName>ب<placeName
-                        ref="https://www.geonames.org/9180123/qism-al-khalifa.html">ثمن
+                        ميدان (محمد على)</placeName>ب<placeName ref="https://www.geonames.org/9180123/qism-al-khalifa.html">ثمن
                         الخليفة</placeName>منزل واربعة دكاكين بأسفله ل<persName>حسن أفندي
                         أنور</persName>ال<roleName type="مهندس">مهندس</roleName>مرهونة على ما هو
                     مطلوب لصندوق الأيتام ولتأخره عن التسديد حررت قائمة مزايدة بالشروط الموضحة فيها
@@ -173,28 +164,20 @@
                         يونيه الأفرنجى ١٨٦٩</date><bibl>
                         <biblScope unit="issue">نمرة ۳٠۳</biblScope><biblScope unit="page">صفحة
                             ۳</biblScope></bibl></head>
-                <head><title> صورة اعلان مطبوع وارد من ديوان محافظة مصر بافادة تاريخها<date
-                            when-custom="1286-02-29">۲٩ صفر سنة ۸٦</date></title></head>
+                <head><title> صورة اعلان مطبوع وارد من ديوان محافظة مصر بافادة تاريخها<date when-custom="1286-02-29">۲٩ صفر سنة ۸٦</date></title></head>
                 <p> من حيث صار اشهار مزاد مبيع محل <orgName type="الأجزخانة">الأجزخانة</orgName>
-                    المستجدة والمنزل علوها تعلق المسيري الكائنة ب<placeName
-                        ref="https://www.geonames.org/9179530/al-muski.html"
-                    >الموسكي</placeName>ادارة الخواجة <persName>ناردي</persName><roleName
-                        type="الأجزجي"> الأجزجي</roleName> سابقا بقائمة مزاد عن يد الخواجة
+                    المستجدة والمنزل علوها تعلق المسيري الكائنة ب<placeName ref="https://www.geonames.org/9179530/al-muski.html">الموسكي</placeName>ادارة الخواجة <persName>ناردي</persName><roleName type="الأجزجي"> الأجزجي</roleName> سابقا بقائمة مزاد عن يد الخواجة
                         <persName>سوتيري اسطاسيادي</persName><roleName type="السمسار">
                         السمسار</roleName> لعرضها وقبول المزاد فيها من الراغبين ومقتضي عقد جمعية
-                    عنها ب<orgName type="ديوان-المحافظة">ديوان المحافظة</orgName> ب<placeName
-                        ref="https://www.geonames.org/425184/al-azbakiyah.html">الأزبكية</placeName>
-                    فقد تحدد ميعاد لحضور كل من كان له رغبة فيها في يوم الأثنين <date
-                        when-custom="1286-03-11">۱۱ ربيع أول ۸٦</date> الموافق <date
-                        when="1869-06-21">۲۱ يونيه سنة ٦٩</date> لأجراء المزاد من ابتداء
+                    عنها ب<orgName type="ديوان-المحافظة">ديوان المحافظة</orgName> ب<placeName ref="https://www.geonames.org/425184/al-azbakiyah.html">الأزبكية</placeName>
+                    فقد تحدد ميعاد لحضور كل من كان له رغبة فيها في يوم الأثنين <date when-custom="1286-03-11">۱۱ ربيع أول ۸٦</date> الموافق <date when="1869-06-21">۲۱ يونيه سنة ٦٩</date> لأجراء المزاد من ابتداء
                         <time>الساعة ثلاثة لغاية الساعة تسعة عربي</time> من النهار المذكور وبمرسي
                     المزاد بجري ما يقتضي حسب ما هو مدون بقوائم المزاد وقد تحرر هذا اعلانا لكل من
                     يرغب المشتري يحضر بميعاد المثني عنه ومن لم يحضر وتأخر من الطرف المحدد فلا يقبل
                     له قول </p>
             </div>
             <div xml:id="w105" resp="#eSG">
-                <head><date when-custom="1286-03-14">۱٤ ربيع أول ١٢۸٦</date><date when="1869-06-24"
-                        >۲٤ يونيه ١٨٦٩</date><bibl><biblScope unit="issue">نمرة
+                <head><date when-custom="1286-03-14">۱٤ ربيع أول ١٢۸٦</date><date when="1869-06-24">۲٤ يونيه ١٨٦٩</date><bibl><biblScope unit="issue">نمرة
                             ۳٠٥</biblScope><biblScope unit="page">صفحة ۳</biblScope></bibl></head>
                 <head><title>اعلان من حضرة وكيل عموم الأوقاف بتاريخ <date when-custom="1286-03-06">٦
                             ربيع أول سنة ۸٦</date></title></head>
@@ -203,113 +186,89 @@
                         <item>عدد ۱ منزل وقاعة حرير في أسفله بجوار الجدرية <orgName type="وقف">وقف
                                 زاوية الشامية</orgName>
                             <measure type="area">مسطحه ٦۱٤</measure> مقتضى الحال</item>
-                        <item>۱ منزل ب<placeName
-                                ref="https://www.geonames.org/7912828/al-abajiyah.html">درب
-                                الحبالة</placeName> ب<placeName
-                                ref="https://www.geonames.org/9180123/qism-al-khalifa.html">ثمن
+                        <item>۱ منزل ب<placeName ref="https://www.geonames.org/7912828/al-abajiyah.html">درب
+                                الحبالة</placeName> ب<placeName ref="https://www.geonames.org/9180123/qism-al-khalifa.html">ثمن
                                 الخليفة</placeName>
                             <orgName type="وقف">وقف موسى العربجي</orgName>
                             <measure type="area">مسطحه ۱۱٤</measure> استبدالها</item>
-                        <item>۱ منزل ب<placeName
-                                ref="https://www.geonames.org/7913957/ad-darb-al-ahmar.html">درب
+                        <item>۱ منزل ب<placeName ref="https://www.geonames.org/7913957/ad-darb-al-ahmar.html">درب
                                 الجماميز</placeName>
                             <orgName type="وقف">وقف الأستاذ الشيخ يوسف الكردي</orgName>
                             <measure type="area">مسطحه ٥٦</measure>
                         </item>
-                        <item>۱ أربعة دكاكين في <placeName>سويقة اللالة </placeName>ب<placeName
-                                ref="https://www.geonames.org/359824/as-sayyidah-zaynab.html">خط
+                        <item>۱ أربعة دكاكين في <placeName>سويقة اللالة </placeName>ب<placeName ref="https://www.geonames.org/359824/as-sayyidah-zaynab.html">خط
                                 الحنفي</placeName><orgName type="وقف"> وقف محرم أفندي</orgName>
                             الحال مقتضي مبيع أنقاضها وتأجير أرضها</item>
                         <item> ____ ٤</item>
                     </list> حيث أسيغ شرعًا استبدال بعض المحال المذكورة وبيع أنقاض بعضها وتأجير أرضها
-                    كما هو مبين أعلاه حررت بذلك خمسة وثلاثون اعلانا وأرسلت لل<orgName type="ضبطية"
-                        >ضبطية</orgName> في ذلك التاريخ لتوضع لأشهارها بقوائم مزايدة بين .الراغبين
+                    كما هو مبين أعلاه حررت بذلك خمسة وثلاثون اعلانا وأرسلت لل<orgName type="ضبطية">ضبطية</orgName> في ذلك التاريخ لتوضع لأشهارها بقوائم مزايدة بين .الراغبين
                     فلزم إحاطة الناس بهذا أجمعين </p>
             </div>
             <div xml:id="w106" resp="#eSG">
-                <head><date when-custom="1286-04-06">٦ ربيع الآخر ١٢۸٦</date><date when="1869-07-15"
-                        >۱٥ يوليه ١٨٦٩</date><bibl><biblScope unit="issue">نمرة
+                <head><date when-custom="1286-04-06">٦ ربيع الآخر ١٢۸٦</date><date when="1869-07-15">۱٥ يوليه ١٨٦٩</date><bibl><biblScope unit="issue">نمرة
                             ۳۱۱</biblScope><biblScope unit="page">صفحة ۳</biblScope></bibl></head>
                 <head><title>لفظ اعلان مطبوع وارد من المحافظة المصرية</title></head>
                 <p>من حيث صار إشهار مزاد مبيع دكانين تعلق الميري كائنين
                         ب<placeName>الأشرفية</placeName> تجاه القره قول عن يد الخواجة
-                        <persName>سوتريرانبسطا سيادي</persName><roleName type="سمسار"
-                        >السمسار</roleName> لعرضهما وقبول المزاد منهما من الراغبين ومقتضى عقد جمعية
-                    عنهما ب<orgName type="ديوان-المحافظة">ديوان المحافظة</orgName> ب<placeName
-                        ref="https://www.geonames.org/425184/al-azbakiyah.html">الأزبكية</placeName>
-                    فقد تحدد ميعاد لحضور كل من كان له رغبة في يوم الثلاثاء <date
-                        when-custom="1286-04-11">۱۱ ربيع آخر سنه ۱۲۸٦ ه</date> الموافق<date
-                        when="1869-07-20">۲٠ يوليه سنه ۱۸٦٩م</date> لاجراء المزاد من ابتداء
+                        <persName>سوتريرانبسطا سيادي</persName><roleName type="سمسار">السمسار</roleName> لعرضهما وقبول المزاد منهما من الراغبين ومقتضى عقد جمعية
+                    عنهما ب<orgName type="ديوان-المحافظة">ديوان المحافظة</orgName> ب<placeName ref="https://www.geonames.org/425184/al-azbakiyah.html">الأزبكية</placeName>
+                    فقد تحدد ميعاد لحضور كل من كان له رغبة في يوم الثلاثاء <date when-custom="1286-04-11">۱۱ ربيع آخر سنه ۱۲۸٦ ه</date> الموافق<date when="1869-07-20">۲٠ يوليه سنه ۱۸٦٩م</date> لاجراء المزاد من ابتداء
                         <time>الساعة ثلاثة لغاية الساعة تسعة عربي</time> من النهار المذكور وبمرسى
                     المزاد يجرى ما يقتضي حسب ما هو مدون بالقوايم المزاد وقد تحرر هذا اعلانا لكل .من
                     يرغب المشترى يحضر بالميعاد المثنى عنه ومن لم يحضر وتأخر عن الطرف المحدد فلا يقبل
                     له قول </p>
             </div>
             <div xml:id="w107" resp="#eSG">
-                <head><date when-custom="17-04-1286">۱۷ ربيع الآخر ١٢۸٦</date><date
-                        when="1869-07-26">۲٦ يوليه ١٨٦٩</date><bibl><biblScope unit="issue"> نمرة
+                <head><date when-custom="17-04-1286">۱۷ ربيع الآخر ١٢۸٦</date><date when="1869-07-26">۲٦ يوليه ١٨٦٩</date><bibl><biblScope unit="issue"> نمرة
                             ۳۱٤</biblScope>
                         <biblScope unit="page">صفحة <sic>؟</sic></biblScope></bibl></head>
                 <head><title><sic>ورة</sic> اعلان واردة من المحافظة المصرية</title></head>
                 <p><list>
                         <item>عدد ۱ حصة بنحو ۱۸ قيراط من منزل كائن ب<orgName>ربع زلطة
                                 الحمراوي</orgName> مخلف عنه المرحوم <persName>خليل غانم</persName>
-                            وأخيرا رسى مزاده على <persName>رفاعة على</persName> ال<roleName
-                                type="مخزنجى">مخزنجي</roleName></item>
-                        <item>۱ حصة بحق ۸۱ قيراطا من منزل ب<placeName
-                                ref="https://www.geonames.org/7922107/qism-shurtat-abidin.html">غيط
+                            وأخيرا رسى مزاده على <persName>رفاعة على</persName> ال<roleName type="مخزنجى">مخزنجي</roleName></item>
+                        <item>۱ حصة بحق ۸۱ قيراطا من منزل ب<placeName ref="https://www.geonames.org/7922107/qism-shurtat-abidin.html">غيط
                                 العدة</placeName> وبه فرن مخلف عن المرحوم<persName> يحيي أفندي
                                 الحكيم</persName> رسى مزاده على<persName> أحمد أبو
                             المجد</persName></item>
-                        <item>۱ حصة بحق ۱۳ قيراطا من منزل ب<placeName
-                                ref="https://www.geonames.org/8643984/bab-bayt-al-qadi.html">حارة
-                                بيت القاضي</placeName> ب<placeName
-                                ref="https://www.geonames.org/7914348/al-jamaliyah.html">ثمن
+                        <item>۱ حصة بحق ۱۳ قيراطا من منزل ب<placeName ref="https://www.geonames.org/8643984/bab-bayt-al-qadi.html">حارة
+                                بيت القاضي</placeName> ب<placeName ref="https://www.geonames.org/7914348/al-jamaliyah.html">ثمن
                                 الجمالية</placeName> مخلف عنه المرحومة <persName>الست
                                 جلفدان</persName> راسى مزاده على <persName>السيد أمين
                                 الدنف</persName></item>
                         <item>۱ حصة بحق ۱۲ قيراطا من منزل ب<placeName>شارع التميي</placeName>
-                                ب<placeName
-                                ref="https://www.geonames.org/7922107/qism-shurtat-abidin.html"
-                                >عابدين</placeName> مخلف عن المرحومة <persName>ستيتة</persName> بنت
+                                ب<placeName ref="https://www.geonames.org/7922107/qism-shurtat-abidin.html">عابدين</placeName> مخلف عن المرحومة <persName>ستيتة</persName> بنت
                             المرحوم <persName>أحمد</persName> راسي مزاده على الحاج <persName>حسن
                                 العريف الزيات</persName></item>
                         <item>۱ حصة بحق ۱۲ قيراطا من منزل ب<placeName>القوطية</placeName> مخلف عن
                             المرحومة <persName>نور صباح</persName> الحبشية معتوقة المرحوم الحاج
                                 <persName>أحمد الياسر جي</persName> راسى مزاده على الحاج
                                 <persName>حسن الصعيدي الزيات</persName></item>
-                        <item>۱ حصة بحق سهم مع ۱٥ من منزل ب<placeName
-                                ref="https://www.geonames.org/7914348/al-jamaliyah.html">شارع
+                        <item>۱ حصة بحق سهم مع ۱٥ من منزل ب<placeName ref="https://www.geonames.org/7914348/al-jamaliyah.html">شارع
                                 البيومي</placeName> مخلف عن المرحوم
                                 <persName>حسن</persName><roleName type="اغا">أغا</roleName> المنوفي
                             من جده راسى مزاده على <persName>مصطفى خليل</persName> الشريك .</item>
                         <item>۱ حصة بحق ۱۱ قيراطا من منزل ب<placeName>حارة الشنواني</placeName>
-                                ب<placeName ref="https://www.geonames.org/7914348/al-jamaliyah.html"
-                                >ثمن الجمالية</placeName> مخلف عن المرحومة
+                                ب<placeName ref="https://www.geonames.org/7914348/al-jamaliyah.html">ثمن الجمالية</placeName> مخلف عن المرحومة
                                 <persName>فطومة</persName> بنت المرحوم الشيخ <persName>على
                                 </persName>ال<roleName type="جوربجى">جوربجي</roleName> المتوفية عن
-                            زوجها الشيخ <persName>صالح محمد</persName> و<orgName type="بيت-المال"
-                                >بيت المال</orgName> راسى مزاده على الشيخ <persName>صالح
+                            زوجها الشيخ <persName>صالح محمد</persName> و<orgName type="بيت-المال">بيت المال</orgName> راسى مزاده على الشيخ <persName>صالح
                                 محمد</persName></item>
-                        <item>۱ منزل خرب ب<placeName
-                                ref="https://www.geonames.org/350170/rawd-al-faraj.html">حارة
+                        <item>۱ منزل خرب ب<placeName ref="https://www.geonames.org/350170/rawd-al-faraj.html">حارة
                                 البلقيني</placeName> تعلق مذكورين راسي مزاده على الحاج
                                 <persName>أحمد موسى الطحان</persName> بين السيارج بالتوكيل عن الحرمة
-                                <persName>عيشة</persName>ال<roleName type="دايه"
-                            >دايه</roleName></item>
+                                <persName>عيشة</persName>ال<roleName type="دايه">دايه</roleName></item>
                         <item>۱ حصة بحق ۱۲ قيراطا بمنزل خرب ب<placeName>حارة الريق
                                 الغريب</placeName> مخلف عن المرحومة <persName>هنا</persName>
                             المتوفية في <date>سنة ۷٩</date> عن ولدها <persName>مصطفى</persName>
                             الغايب راسى مزاده على <persName>منصور محمد</persName></item>
-                        <item>۱ منزلين ب<placeName
-                                ref="https://www.geonames.org/9179530/al-muski.html">كوم الشيخ
+                        <item>۱ منزلين ب<placeName ref="https://www.geonames.org/9179530/al-muski.html">كوم الشيخ
                                 سلامة</placeName> ب<placeName>عطفه الطراطره</placeName> مخلفين عن
                             المرحومة <persName>فاطمة</persName> بنت <persName>حسن ابو
                                 قابيل</persName> راسى مزادهما على <persName>حسن
                             البديهى</persName></item>
                         <item>۱ حصة بحق ۱٠ قراريط من منزل ب<placeName>كوم الشيخ ريحان</placeName>
-                                ب<placeName
-                                ref="https://www.geonames.org/7922574/maydan-abidin.html">ثمن
+                                ب<placeName ref="https://www.geonames.org/7922574/maydan-abidin.html">ثمن
                                 عابدين</placeName> مخلفة عن المرحوم الحاج <persName>مصطفى عبد
                                 الرحمن</persName> زوج الحرمه <persName>هندومة</persName> بنت
                                 <persName>حجازي اليوز</persName> المتوفي راسي مزاده على
@@ -318,8 +277,7 @@
                     </list> الاحدى عشر حصة ومنازل من محلات <orgName type="بيت-المال">بيت
                         المال</orgName> الجاري اشهار مزاد مبيعها من مدة والآن صار المرسى فى كل منها
                     ومقتضي تحديد ميعاد لحضور الراغبين في مشتراها والحصول على استوفاء المزادات فقد
-                    تحدد ميعاد خمسة عشر يوما تمضي من تاريخه ان تكون الجمعية ب<orgName
-                        type="ديوان-محافظة-مصر">ديوان محافظة مصر</orgName> في يوم الأحد الواقع في
+                    تحدد ميعاد خمسة عشر يوما تمضي من تاريخه ان تكون الجمعية ب<orgName type="ديوان-محافظة-مصر">ديوان محافظة مصر</orgName> في يوم الأحد الواقع في
                     غاية سنة ۱۲۷٦ الموافق <date when-custom="1585-12-03">۳ مسري سنة ۱٥۸٥ قبطي</date>
                     حتي بحضور الراغبين يحصل المزايدة بينهم من ابتداء <time>الساعة أربعة عربي لغاية
                         الساعة تسعة</time> باليوم المذكور وكل من رسى عليه المزاد يصير معاملته كما في
@@ -331,28 +289,22 @@
                             ١٨٦٩</date><bibl><biblScope unit="issue">نمرة ۳۱٥</biblScope>
                         <biblScope unit="page">صفحة ۳</biblScope></bibl></head>
                 <head><title>اعلان من ديوان الأشغال</title></head>
-                <p> كانت الأدارة السنية تعلقت بتخصيص محل ينظم ال<orgName
-                        type="ديوان-الأشغال-العمومية">ديوان الأشغال العمومية</orgName> فاستحصل عليه
-                    تجارة <persName>خورشيد</persName> باشا ب<placeName
-                        ref="https://www.geonames.org/425184/al-azbakiyah.html">الأزبكية</placeName>
+                <p> كانت الأدارة السنية تعلقت بتخصيص محل ينظم ال<orgName type="ديوان-الأشغال-العمومية">ديوان الأشغال العمومية</orgName> فاستحصل عليه
+                    تجارة <persName>خورشيد</persName> باشا ب<placeName ref="https://www.geonames.org/425184/al-azbakiyah.html">الأزبكية</placeName>
                     أمام محل <orgName type="الضبطية">الضبطية</orgName> القديم ونظم ونقل ذلك الديوان
                     اليه فلزم الأشعار بذلك ليعلم كل من كان له قضية تتعلق به أنه صار في ذلك المحل
                 </p>
             </div>
             <div xml:id="w109" resp="#eSG">
-                <head><date when-custom="1286-04-27">۲۷ ربيع الآخر ١٢۸٦</date><date
-                        when="1869-08-05">٥ أغسطس ١٨٦٩</date><bibl><biblScope unit="issue">نمرة
+                <head><date when-custom="1286-04-27">۲۷ ربيع الآخر ١٢۸٦</date><date when="1869-08-05">٥ أغسطس ١٨٦٩</date><bibl><biblScope unit="issue">نمرة
                             ۳۱۷</biblScope><biblScope unit="page">صفحة ۲</biblScope></bibl></head>
                 <head><title>الحوادث الداخلية</title></head>
-                <p>احيلت على عهده حضرة سعادتلو <persName>على مبارك باشا</persName> نظارة <orgName
-                        type="ديوان-الأشغال-العمومية">ديوان الأشغال العمومية</orgName> زيادة عن
-                        <orgName type="إدارة-عموم-المدارس">إدارة عموم المدارس</orgName> و<orgName
-                        type="نظارة-الأوقاف-المصرية">نظارة الأوقاف المصرية</orgName>
+                <p>احيلت على عهده حضرة سعادتلو <persName>على مبارك باشا</persName> نظارة <orgName type="ديوان-الأشغال-العمومية">ديوان الأشغال العمومية</orgName> زيادة عن
+                        <orgName type="إدارة-عموم-المدارس">إدارة عموم المدارس</orgName> و<orgName type="نظارة-الأوقاف-المصرية">نظارة الأوقاف المصرية</orgName>
                 </p>
             </div>
             <div xml:id="w110" resp="#eSG">
-                <head><date when-custom="1286-05-15">۱٥ جمادى الأولى ١٢۸٦</date><date
-                        when="1869-08-23">۲۳ أغسطس١٨٦٩</date><bibl><biblScope unit="issue">نمرة
+                <head><date when-custom="1286-05-15">۱٥ جمادى الأولى ١٢۸٦</date><date when="1869-08-23">۲۳ أغسطس١٨٦٩</date><bibl><biblScope unit="issue">نمرة
                             ۳۱٩</biblScope>
                         <biblScope unit="page">صفحة ۱</biblScope></bibl></head>
                 <head><title>الحوادث الداخلية </title></head>
@@ -363,29 +315,20 @@
                 </p>
             </div>
             <div xml:id="w111" resp="#eSG">
-                <head><date when-custom="1286-05-18">۱۸ جمادى الأولى ١٢۸٦</date><date
-                        when="1869-08-26">۲٦ أغسطس١٨٦٩</date><bibl><biblScope unit="issue">نمرة
+                <head><date when-custom="1286-05-18">۱۸ جمادى الأولى ١٢۸٦</date><date when="1869-08-26">۲٦ أغسطس١٨٦٩</date><bibl><biblScope unit="issue">نمرة
                             ۳۲٠</biblScope><biblScope unit="page">صفحة ۳</biblScope></bibl></head>
-                <head><title>لفظ اعلان وارد من المحافظة المصرية بتاريخ <date
-                            when-custom="08-05-1286">۸ جمادي الأولى سنة ۱۲۸٦ه</date></title></head>
+                <head><title>لفظ اعلان وارد من المحافظة المصرية بتاريخ <date when-custom="08-05-1286">۸ جمادي الأولى سنة ۱۲۸٦ه</date></title></head>
                 <p><list>
-                        <item>عدد ۱ ربع خراب وخرابة بجواره ب<placeName
-                                ref="https://www.geonames.org/425184/al-azbakiyah.html"
-                                >الأزبكية</placeName> امام محل <orgName type="ديوان-المالية">ديوان
+                        <item>عدد ۱ ربع خراب وخرابة بجواره ب<placeName ref="https://www.geonames.org/425184/al-azbakiyah.html">الأزبكية</placeName> امام محل <orgName type="ديوان-المالية">ديوان
                                 المالية</orgName> القديم والضبطية الأن</item>
-                        <item>۱ خرابة محل تحت زيوة ب<placeName>القوطية</placeName> ب<placeName
-                                ref="https://www.geonames.org/9179530/al-muski.html">درب
-                                القطة</placeName>ب <placeName
-                                ref="https://www.geonames.org/425184/al-azbakiyah.html">ثمن
+                        <item>۱ خرابة محل تحت زيوة ب<placeName>القوطية</placeName> ب<placeName ref="https://www.geonames.org/9179530/al-muski.html">درب
+                                القطة</placeName>ب <placeName ref="https://www.geonames.org/425184/al-azbakiyah.html">ثمن
                                 الأزبكية</placeName></item>
-                        <item>۱ منزل ب<placeName
-                                ref="https://www.geonames.org/7922106/bab-al-khalq.html">باب
-                                الخلق</placeName> ب<placeName
-                                ref="https://www.geonames.org/7922574/maydan-abidin.html">ثمن
+                        <item>۱ منزل ب<placeName ref="https://www.geonames.org/7922106/bab-al-khalq.html">باب
+                                الخلق</placeName> ب<placeName ref="https://www.geonames.org/7922574/maydan-abidin.html">ثمن
                                 عابدين</placeName></item>
                     </list> ان الثلاثة محلات المرقومة أعلاه من ضمن أماكن الميري صار اشهار مزاد
-                    مبيعها على يد الخواجه <persName>سونبري انسطاسيادي</persName><roleName
-                        type="سمسار">السمسار</roleName> لعرضها وقبول المزاد من الراغبين ومقتضى عقد
+                    مبيعها على يد الخواجه <persName>سونبري انسطاسيادي</persName><roleName type="سمسار">السمسار</roleName> لعرضها وقبول المزاد من الراغبين ومقتضى عقد
                     جمعيه عنها فقد تحدد ميعاد <time>خمسة عشر يوما</time> تمضي من تاريخه انما تكون
                     الجمعية ب<orgName type="ديوان-محافظة-مصر">ديوان محافظة مصر</orgName>فى يوم
                     الأثنين الواقع في <date when-custom="1286-05-22">۲۲ جماد أول سنة ٨٦</date>
@@ -396,8 +339,7 @@
                     يحضر وتأخر عن الميعاد المحدد فلا يقبل منه قول</p>
             </div>
             <div xml:id="w112" resp="#eSG">
-                <head><date when-custom="1286-05-18">۱۸ جمادى الأولى ١٢۸٦</date><date
-                        when="1869-08-26">۲٦ أغسطس ١٨٦٩</date><bibl><biblScope unit="issue">نمرة
+                <head><date when-custom="1286-05-18">۱۸ جمادى الأولى ١٢۸٦</date><date when="1869-08-26">۲٦ أغسطس ١٨٦٩</date><bibl><biblScope unit="issue">نمرة
                             ۳۲٠</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
                 <p>لفظ اعلان وارد منها أيضا عن بيان المحلات التي صار اشهارها بالمزاد تعلق
                         <persName>محمود عسل</persName>
@@ -418,24 +360,19 @@
                         السلحدار</orgName> تعلق المذكور أيضا فقد صار تحرير قوائم المزاد اللازمة من
                     الضبطية وسلمت ل<roleName type="رئيس-دلالين-العقارات">رئيس الدلالين
                         العقارات</roleName> ولزم تحريره لحضراتكم يصير درج ذلك بالوقائع حسب البيان
-                    الموضح أعلاه لاجل معلومية العامة وكل من له رغبة في المشتري فليتوجه الى <roleName
-                        type="رئيس-دلالين-العقارات">رئيس دلالين العقارات</roleName> وبعد معاينة
+                    الموضح أعلاه لاجل معلومية العامة وكل من له رغبة في المشتري فليتوجه الى <roleName type="رئيس-دلالين-العقارات">رئيس دلالين العقارات</roleName> وبعد معاينة
                     المحلات المذكوره يعطي المزاد اللازم على القوائم الموجودة بيده حسب الأصول في
                         <date when-custom="1286-05-13">۱۳ جمادي الأول سنة ۱۲۸٦</date></p>
             </div>
             <div xml:id="w113" resp="#eSG">
-                <head><date when-custom="1286-06-05">٥ جمادى الثانية ١٢۸٦</date><date
-                        when="1869-09-11">۱۱ سبتمبر ١٨٦٩</date><bibl><biblScope unit="issue">نمرة
+                <head><date when-custom="1286-06-05">٥ جمادى الثانية ١٢۸٦</date><date when="1869-09-11">۱۱ سبتمبر ١٨٦٩</date><bibl><biblScope unit="issue">نمرة
                             ۳۲۲</biblScope><biblScope unit="page">صفحة ۳</biblScope></bibl></head>
                 <head><title>اعلانات اعلان من بيت المال بتاريخ <date when-custom="1286-05-17">۱۷
                             جمادي الأولي سنة ۸٦</date></title></head>
                 <p> من ضمن المدينين لصندوق الأيتام <persName>على افندي حجاج</persName> الذي كان
-                        <roleName type="رئيس-مطبعة-المبتديان">رئيس <orgName type="مطبعة-المبتديان"
-                            >مطبعة المبتديان</orgName></roleName> وقد حل أجل سداد ما عليه من الدين
+                        <roleName type="رئيس-مطبعة-المبتديان">رئيس <orgName type="مطبعة-المبتديان">مطبعة المبتديان</orgName></roleName> وقد حل أجل سداد ما عليه من الدين
                     منذ مدة ولم يحصل وكان مرتهنا في نظيره منزله الكائن ب<placeName>خط
-                        الجلادين</placeName> ب<placeName
-                        ref="https://www.geonames.org/358683/bulaq-abu-al-ila.html"
-                        >بولاق</placeName> مستوثقا بحجته الشرعية فحررت قائمة مزايدة بهذا التاريخ
+                        الجلادين</placeName> ب<placeName ref="https://www.geonames.org/358683/bulaq-abu-al-ila.html">بولاق</placeName> مستوثقا بحجته الشرعية فحررت قائمة مزايدة بهذا التاريخ
                     وارسلت الى <roleName type="رئيس-طائفة-دلالى-العقارات">رئيس طائفة دلالى
                         العقارات</roleName> لاشهار مبين الراغبين فمن يرغب فليتوجه اليه لمعاينة
                     المنزل والمزايدة فيه بمقتضى الشروط المبينة بتلك القائمة </p>
@@ -478,71 +415,50 @@
                                 الأحكام</orgName>تجديد سعادة السيد <persName>أبو بكر راتب
                                 باشا</persName> من أعضاء الخصوصي</item>
                         <item>عدد ۱ <orgName type="زاوية-وضريح-السيدة-أم-كلثوم">زاوية وضريح السيدة
-                                أم كلثوم</orgName> ب<placeName
-                                ref="https://www.geonames.org/357879/al-imam-ash-shafi-i.html"
-                                >الأمام الشافعي</placeName></item>
+                                أم كلثوم</orgName> ب<placeName ref="https://www.geonames.org/357879/al-imam-ash-shafi-i.html">الأمام الشافعي</placeName></item>
                         <item>۲ ۱ <persName type="زاوية-وضريح-سيدى-كعب-الأحبار">زاوية وضريح سيدي كعب
                                 الأحبار</persName> بالمصرية</item>
                         <item>۱ <orgName type="تكية-مسجد-خليل-أغا">تكية ومدرسة انشا
                                         <persName><sic>...... خليل أغا</sic></persName></orgName>
                                 ب<orgName>المشهد الحسيني</orgName></item>
-                        <item>۱ زاوية ب<placeName
-                                ref="https://www.geonames.org/7913987/khan-al-khalili.html">خان
+                        <item>۱ زاوية ب<placeName ref="https://www.geonames.org/7913987/khan-al-khalili.html">خان
                                 الخليلي</placeName> تجديد دائرة مرحوم <persName>أحمد
                             باشا</persName></item>
                         <item>۱<orgName type="زاوية-عثمان-بيك"> زاوية عثمان بيك</orgName>
-                                ب<placeName
-                                ref="https://www.geonames.org/359824/as-sayyidah-zaynab.html">خط
+                                ب<placeName ref="https://www.geonames.org/359824/as-sayyidah-zaynab.html">خط
                                 السيدة زينب</placeName> تجديد حرم مرحوم <persName>حسن بيك
                                 ساطع</persName></item>
                         <item>۱ مسجد المعرف ب<orgName type="مسجد-القبر-الطويل">القبر
-                                الطويل</orgName> ب<placeName
-                                ref="https://www.geonames.org/7913030/al-khalifah.html">خط
+                                الطويل</orgName> ب<placeName ref="https://www.geonames.org/7913030/al-khalifah.html">خط
                                 الخليفة</placeName> تجديد <persName>جمعة
                                 راجح</persName><roleName>شيخ المهندسين</roleName></item>
                         <item>۱<placeName type="زاوية-العنبرى"> زاوية العنبري</placeName>
                                 ب<placeName>كفر الطماعين</placeName> تجديد السيد <persName>محمد حسن
                                 الصباغ</persName></item>
-                        <item>۱ <orgName type="مسجد-الكريدى">مسجد الكريدي</orgName>ب<placeName
-                                ref="https://www.geonames.org/359454/bab-al-luq.html">باب
+                        <item>۱ <orgName type="مسجد-الكريدى">مسجد الكريدي</orgName>ب<placeName ref="https://www.geonames.org/359454/bab-al-luq.html">باب
                                 اللوق</placeName> تجديد الحاج <persName>حسن حجاب
                             المابغي</persName></item>
                         <item>۱ <orgName type="مسجد-الشيخ-عبد-الدائم">مسجد الشيخ عبد
                                 الدائم</orgName> بالخط المذكور وتجديد الحاج <persName>ابراهيم
-                                دوايدر</persName><roleName type="المدابغى"
-                            >المدابغي</roleName></item>
+                                دوايدر</persName><roleName type="المدابغى">المدابغي</roleName></item>
                         <item>۱<orgName type="زاوية-وضريح-سيدى-حسن-الأنوار"> زاوية وضريح سيدي حسن
-                                الأنور</orgName>ب<placeName
-                                ref="https://www.geonames.org/7922737/nuqtat-shurtat-fam-al-khalij.html"
-                                >فم الخليج</placeName> تجديد <persName>أبو زيد
+                                الأنور</orgName>ب<placeName ref="https://www.geonames.org/7922737/nuqtat-shurtat-fam-al-khalij.html">فم الخليج</placeName> تجديد <persName>أبو زيد
                             الجيار</persName></item>
                         <item>۱ <orgName type="زاوية-وضريح-الأستاذ-صارم">زاوية وضريح الأستاذ
-                                صارم</orgName> ب<placeName
-                                ref="https://www.geonames.org/359449/bab-ash-sha-riyah.html"
-                                >الحسينية</placeName> تجديد <persName>يوسف عانوس
+                                صارم</orgName> ب<placeName ref="https://www.geonames.org/359449/bab-ash-sha-riyah.html">الحسينية</placeName> تجديد <persName>يوسف عانوس
                             الحريري</persName></item>
-                        <item>۱ <orgName type="مسجد-سالمة">مسجد سالمة</orgName> ب<placeName
-                                ref="https://www.geonames.org/9179538/bab-al-bahr.html">باب
+                        <item>۱ <orgName type="مسجد-سالمة">مسجد سالمة</orgName> ب<placeName ref="https://www.geonames.org/9179538/bab-al-bahr.html">باب
                                 البحر</placeName> تجديد <persName>عمر الصباغ</persName></item>
-                        <item>۱ مسجد ب<placeName
-                                ref="https://www.geonames.org/7914348/al-jamaliyah.html"
-                                >الجملية</placeName> تجديد السيد <persName>محمود
+                        <item>۱ مسجد ب<placeName ref="https://www.geonames.org/7914348/al-jamaliyah.html">الجملية</placeName> تجديد السيد <persName>محمود
                             الحتو</persName></item>
                         <item>۱ <orgName type="مسجد-السيدة-أم-الغلام">مسجد السيدة أم
-                                الغلام</orgName> ب<placeName
-                                ref="https://www.geonames.org/7913985/maydan-al-husayn.html">خط
+                                الغلام</orgName> ب<placeName ref="https://www.geonames.org/7913985/maydan-al-husayn.html">خط
                                 سيدنا الحسين</placeName> تجديد ناظرة الوقف</item>
-                        <item> ۱ <orgName type="زاوية-الأربعين">زاوية الأربعين</orgName> ب<placeName
-                                ref="https://www.geonames.org/7921967/mintaqat-al-bataniyah.html"
-                                >الباطنية</placeName> تجديد أهل الخير</item>
+                        <item> ۱ <orgName type="زاوية-الأربعين">زاوية الأربعين</orgName> ب<placeName ref="https://www.geonames.org/7921967/mintaqat-al-bataniyah.html">الباطنية</placeName> تجديد أهل الخير</item>
                         <item>۱ <orgName type="مسجد-الأستاذ-الرملى">مسجد الأستاذ
                             الرملي</orgName>تجديد ناظر الوقف</item>
-                        <item>۱ <orgName type="مسجد-الشيخ-عطية">مسجد الشيخ عطية</orgName>ب<placeName
-                                ref="https://www.geonames.org/358683/bulaq-abu-al-ila.html"
-                                >بولاق</placeName> تجديد أهل الخير</item>
-                        <item>۱ <orgName type="مسجد-أبو-الفضل">مسجد أبو الفضل</orgName> ب<placeName
-                                ref="https://www.geonames.org/358683/bulaq-abu-al-ila.html"
-                                >بولاق</placeName> تجديد الناظر تجديد <orgName>ديوان
+                        <item>۱ <orgName type="مسجد-الشيخ-عطية">مسجد الشيخ عطية</orgName>ب<placeName ref="https://www.geonames.org/358683/bulaq-abu-al-ila.html">بولاق</placeName> تجديد أهل الخير</item>
+                        <item>۱ <orgName type="مسجد-أبو-الفضل">مسجد أبو الفضل</orgName> ب<placeName ref="https://www.geonames.org/358683/bulaq-abu-al-ila.html">بولاق</placeName> تجديد الناظر تجديد <orgName>ديوان
                                 الاوقاف</orgName></item>
                         <item>عدد ۱ <orgName>مسجد الأشرف برسباي</orgName>
                                 ب<placeName>الأشرفية</placeName></item>
@@ -560,8 +476,7 @@
                 <head><date when-custom="1286-09-06">٦ رمضان ١٢۸٦</date><date when="1869-12-09">٩
                         دسمبر ١٨٦٩</date><bibl><biblScope unit="issue">نمرة
                             ۳۳٦</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-                <p> من ملعب البهلوان الخيالي الفرنسي الكائن ب<placeName
-                        ref="https://www.geonames.org/425184/al-azbakiyah.html">الأزبكية</placeName>
+                <p> من ملعب البهلوان الخيالي الفرنسي الكائن ب<placeName ref="https://www.geonames.org/425184/al-azbakiyah.html">الأزبكية</placeName>
                     تحت إدارة الخواجة راسي في يوم السبت <date>٤ دسمبر الأفرنجي (غرة رمضان)</date>
                     يجرى بملعب البهلوان المذكور العاب <sic>فن..ا يه</sic> من اعظم ما يمكن اجراؤ وما
                     نظر مثلها قط من أول ابتداء اللعب في هذه السنة وذلك لقدوم شهر رمضان من ابتداء

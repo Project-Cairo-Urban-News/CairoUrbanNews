@@ -4,11 +4,11 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-
         <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah:</title>
         <editor xml:id="eNK">Nour Kanaan</editor>
         <editor xml:id="eAM">Adam Mestyan</editor>
         <editor xml:id="eDY">Danah Younis</editor>
+        <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
         <respStmt>
           <resp>Advisor</resp>
           <name>Hugh Cayless</name>
@@ -62,7 +62,7 @@
       </projectDesc>
       <editorialDecl>
         <p>We use Arabic but any transliteration into Latin characters follows the Library of
-          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
         <p>Each individual article has an individual xml:id number starting with "w1"</p>
         <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
           Editions</ref>.</p>
@@ -96,15 +96,10 @@
           <bibl><biblScope unit="issue">نمرة ٣</biblScope>
             <biblScope unit="page">صفحة ٢</biblScope>
           </bibl></head>
-        <p>ان <placeName ref="https://www.geonames.org/7912825/qal-at-muhammad-ali.html"
-            type="citadel">القلعة اليوسيفيه</placeName> التى هى محل احكام مصر المحميه قد قاربت
+        <p>ان <placeName ref="https://www.geonames.org/7912825/qal-at-muhammad-ali.html" type="citadel">القلعة اليوسيفيه</placeName> التى هى محل احكام مصر المحميه قد قاربت
           اسوارها وابراجها ومحلات حصارها من داخل وخارج درجة الانهدام والت الى الانعدام وذلك من تلون
-          حوادث الازمنة الماضية وتقلبها وضرر طروق وقايعها وما طرى بها وقد كان خطر فى خاطر <roleName
-            role="governor" ref="#pMA" type="ceremonial-title">سعادة<sic> [و]لى</sic>
-            النعم</roleName> ان يجدد بنتها ويشدد اركانها و<sic>انحا[ئ]ها </sic>وينشى[ء] <placeName
-            type="mosque"
-            ref="http://cairogazetteer.fr/invisu/page/ark:/67717/d6d17aa2c59b28d74d929d50443f1a33"
-            >جامعا شريفا</placeName> بها يكون معبد للخاص والعام مقصودا ومورد ذكر الى الاشياخ العظام
+          حوادث الازمنة الماضية وتقلبها وضرر طروق وقايعها وما طرى بها وقد كان خطر فى خاطر <roleName role="governor" ref="#pMA" type="ceremonial-title">سعادة<sic> [و]لى</sic>
+            النعم</roleName> ان يجدد بنتها ويشدد اركانها و<sic>انحا[ئ]ها </sic>وينشى[ء] <placeName type="mosque" ref="http://cairogazetteer.fr/invisu/page/ark:/67717/d6d17aa2c59b28d74d929d50443f1a33">جامعا شريفا</placeName> بها يكون معبد للخاص والعام مقصودا ومورد ذكر الى الاشياخ العظام
           موزودا <sic>بعد[د]</sic> من الاثار الخيريه ويذكر الى يوم بعث البرية انما حيث انه يجب تقديم
           بنا ما منه تحرس الرعايا وتحمى وتستريح به البرايا وتنال تنعما وذلك كبناء القلع والقناطر
           وماهو من الحصون والجسور هنا ثر قدم بنا <placeName type="citadel">القلعة</placeName> على
@@ -118,8 +113,7 @@
           حينئذ رأيه <roleName role="governor" type="ceremonial-title" ref="#pMA">الثاقب
             الشريف</roleName> على ان ينشى[ء] بعدها الجامع المنيف أنشاء كان من قبل منويا مكنونا فى
           ضميره ومحويا رغبة ان يكون كما ذكر اثرا من الاثار الخيرية معدودا ومحل عبادة وذكر محمودا
-          وصدر امره الكريم بوضع اساس صورته وشكله الوسيم واذ صارت المباشرة لوضعه <date
-            when-custom="1244-05-19">يوم الخميس المبارك الموافق الى تسعة عشر من جمادى الاولى سنة
+          وصدر امره الكريم بوضع اساس صورته وشكله الوسيم واذ صارت المباشرة لوضعه <date when-custom="1244-05-19">يوم الخميس المبارك الموافق الى تسعة عشر من جمادى الاولى سنة
             اربعة واربعين</date> توجه من علا امره وعلا فى الملا فخره مشرفا تلك البقعة التى صار فيها
           الوضع وبمعيته نجله<roleName type="ceremonial-title" ref="#pI"> السعيد افندينا</roleName>
           <persName ref="#pI">ابراهيم باشا</persName>
@@ -145,8 +139,7 @@
             <biblScope unit="issue">نمرة ١٩</biblScope>
             <biblScope unit="page">صفحة ١</biblScope></bibl>
         </head>
-        <p>انه لما شاع متواثرا لدى مسامع <roleName type="ceremonial-title" ref="#pMA"
-            >افندينا</roleName>
+        <p>انه لما شاع متواثرا لدى مسامع <roleName type="ceremonial-title" ref="#pMA">افندينا</roleName>
           <roleName type="ceremonial-title">ولى النعم</roleName> خبر النور الذى اخترعه الانكليز منذ
           اربع عشرة سنة تقريبا بروح يسمى <objectName type="Gas">كاز</objectName> وبمصروف قليل وعلم
           انهم قد استعملوه عموما واستعمله ايضا الفرنساويون من بعدهم قصد بارادته السليمة ان يطلع على
@@ -155,12 +148,9 @@
             الانكليز</placeName> فأقمها<name>
             <persName>كالو</persName>
             <roleName type="Engineer">المهندس</roleName>
-          </name>مع بعض فعلة انكليز فى <placeName
-            ref="http://www.geonames.org/347645/tah-shubra.html">جنينة شبرا</placeName> بمعمل مناسب
-          واناروا بها <placeName type="Palace"
-            ref="http://www.geonames.org/12070374/qasr-al-ali.html">القصر العالى</placeName> الكاين
-          فوق <placeName>الحوض الكبير</placeName> وست اوض فتوجه سعادته الى هناك فى <date
-            when-custom="1244-9-18">اليوم الثامن عشر من شهر رمضان</date> المبارك قريب الغروب وشرف
+          </name>مع بعض فعلة انكليز فى <placeName ref="http://www.geonames.org/347645/tah-shubra.html">جنينة شبرا</placeName> بمعمل مناسب
+          واناروا بها <placeName type="Palace" ref="http://www.geonames.org/12070374/qasr-al-ali.html">القصر العالى</placeName> الكاين
+          فوق <placeName>الحوض الكبير</placeName> وست اوض فتوجه سعادته الى هناك فى <date when-custom="1244-9-18">اليوم الثامن عشر من شهر رمضان</date> المبارك قريب الغروب وشرف
           ثراها بقدومه السعيد فلما راى ذلك استحسنه وانسر به واظهر بشاشته لاكابر دولته الذين كانوا
           معه فتلطف <name><persName>كالو</persName>
             <roleName type="Engineer">المهندس</roleName></name> المرقوم بما ابدى من الكلام اللايق
@@ -168,8 +158,7 @@
           وعلى <sic>الفعلة بالفين</sic> و<val>خمسماية غرش</val> احسانا وقد كان ذهب <sic>لرؤيا</sic>
           ذلك عند الغروب<roleName type="consul"> قنصل الانكليز</roleName> وعياله واولاده وبعض من
           طايفة الافرنج القاطنين فى المحروسة منذ زمن طويل فاستحسنوا كلهم هذا الصنع وابتهجوا به ومع
-          هذا فان مصاريفه حال كونه يكفى لانارة<placeName
-            ref="http://www.geonames.org/347645/tah-shubra.html"> جنينة شبرا </placeName>كلها لم تزد
+          هذا فان مصاريفه حال كونه يكفى لانارة<placeName ref="http://www.geonames.org/347645/tah-shubra.html"> جنينة شبرا </placeName>كلها لم تزد
           عن <val>الستة الاف ريال</val> قرائا كذا علم بعد الحساب </p>
       </div>
       </body>
