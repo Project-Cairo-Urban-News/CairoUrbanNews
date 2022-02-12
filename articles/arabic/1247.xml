@@ -81,9 +81,10 @@
   <text>
       <body>
          <div xml:id="w100" resp="#eSG">
-        <head> ٢٥ ربيع الاخر ١٢٤٧ <date when="1831-10-03"> ٣ أكتوبر ١٨٣١</date>
-          <bibl>نمرة ٣٠٢ صفحة ٢ </bibl>
-        </head>
+        <head><date when-custom="1247-04-25">٢٥ ربيع الاخر ١٢٤٧</date>
+          <date when="1831-10-03">٣ أكتوبر ١٨٣١</date>
+          <bibl><biblScope unit="issue">نمرة ٣٠٢</biblScope>
+            <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
         <p>حضرة <persName>محمد افندى مأمور اشغال المحروسة</persName> قدم <rs type="رقيما">رقيما</rs>
           لمجلس المشورة مضمونه ان محمد القفطانجى احد الكتبه الذين عدوا بيوت المحروسة اختلس ثلاثمائة
           وستين قرشا من دراهم الفردة وانه ضيق عليه لاجل تحصيلها منه فلم يكن له ذلك فارسله الى
@@ -97,8 +98,9 @@
           الانهاء اشعارا له بما ذكر واستقر الراى عليه فى اليوم السادس عشر من شهر ربيع الاخر.</p>
       </div>
         <div xml:id="w101" resp="#eSG">
-        <head><date> ٧ جمادى الاول ١٢٤٧</date>
-          <date when="1831-10-14">١٤ أكتوبر ١٨٣١</date> نمرة ٣٠٥ صفحة ٣</head>
+        <head><date when-custom="1247-05-07">٧ جمادى الاول ١٢٤٧</date><date when="1831-10-14">١٤
+            أكتوبر ١٨٣١</date><bibl><biblScope unit="issue">نمرة ٣٠٥</biblScope><biblScope
+              unit="page">صفحة ٣</biblScope></bibl></head>
         <p><persName>راغب افندى امين الدفتر خانه</persName> انهى انه كان من جملة الامور الخيرية التى
           تعلقت الارادة السنية بعملها انشاء المساجد والجوامع والمعابد حتى صار اهل الاسلام يتضرعون
           الى الله تعالى بدوام حياة افندينا الكرم ويذكرونه فى الصلوات الخمس ويثنون عليه بين جميع
@@ -114,8 +116,9 @@
           اشعارا له بما ذكر واستقر الراى عليه فى اليوم السابع والعشرين من شهر ربيع الاخر. </p>
       </div>
        <div xml:id="w102" resp="#eSG">
-        <head><date>٢٦ جمادى الاول ١٢٤٧</date>
-          <date when="1831-11-03">٢ نوفمبر ١٨٣١</date> نمرة ٣١٢ صفحة ٢</head>
+        <head><date when-custom="1247-05-26">٢٦ جمادى الاول ١٢٤٧</date><date when="1831-11-03">٢
+            نوفمبر ١٨٣١</date><bibl><biblScope unit="issue">نمرة ٣١٢</biblScope><biblScope
+              unit="page">صفحة ٢</biblScope></bibl></head>
         <p><persName>محمد افندى وكيل ناظر الفبريقات</persName> عموما قدم <rs type="جرنال"
             >جرنالا</rs> ل<orgName type="مجلس_المشورة">مجلس المشورة</orgName> مضمونه انه حقق امر
           الحريق الذى حصل فى <orgName type="فبريقات_طحطا">فبريقة طحطا</orgName> وعلم انه كان بمحض
@@ -129,8 +132,9 @@
           فى اليوم العاشر من شهر جمادى الاولى. </p>
       </div>
        <div xml:id="w103" resp="#eSG">
-        <head><date>٢٦ جمادى الاول ١٢٤٧</date>
-          <date when="1831-11-02">٢ نوفمبر ١٨٣١</date> نمرة ٣١٢ صفحة ٤</head>
+        <head><date when-custom="1247-05-26">٢٦ جمادى الاول ١٢٤٧</date><date when="1831-11-02">٢
+            نوفمبر ١٨٣١</date><bibl><biblScope unit="issue">نمرة ٣١٢</biblScope><biblScope
+              unit="page">صفحة ٤</biblScope></bibl></head>
         <head><title>حوادث <orgName type="الديوان_الخديوى">الديوان الخديوى</orgName></title></head>
         <p>فى اليوم الثانى من شهر ربيع الاخر وردت <rs type="رسالة">رسالة</rs> من وكيل البيك الضابط
           مضمونها ان <persName>عبدالله رئيس الطوبجية الساكن</persName> فى <placeName>خطة
