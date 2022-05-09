@@ -1,15 +1,12 @@
 FROM debian:bullseye-slim
-#RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
-# Hack to prevent openjdk-11 install failing
-RUN mkdir /usr/share/man/man1/ 
 # Enable contrib repo
 RUN sed -i "s#deb http://deb.debian.org/debian bullseye main#deb http://deb.debian.org/debian bullseye main contrib#g" /etc/apt/sources.list
 RUN apt-get update && apt-get -y install openjdk-11-jdk-headless \
   rename \
   wget \
   curl \
-  zip 
-RUN apt-get update && apt-get -y install ant \
+  zip \
+  ant \
   git \
   libxml2 \
   libxml2-utils \
