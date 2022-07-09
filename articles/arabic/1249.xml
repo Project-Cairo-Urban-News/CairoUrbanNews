@@ -89,13 +89,14 @@
    </teiHeader>
    <text xml:lang="ar">
       <body>
-         <div xml:id="w1" resp="#eSG">
-            <head><date when-custom="1249-02-21">٢١ صفر ١٢٤٩</date><date when="1833-07-10">١٠ يوليو ١٨٣٣</date><bibl><biblScope unit="issue">نمره ٥٣٣</biblScope>
-               <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
+         <div xml:id="w1" resp="#eSG #eAM">
+            <head><date when-custom="1249-02-21">٢١ صفر ١٢٤٩</date><date when="1833-07-10">١٠ يوليو
+                  ١٨٣٣</date><bibl><biblScope unit="issue">نمره ٥٣٣</biblScope>
+                  <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
             <p><persName>شرمى افندى معاون الترسانات</persName> قدم تقريرا الى <orgName
                   type="مجلس_المشورة">مجلس المشورة</orgName> مضمونه ان <placeName>الشونة الكائنة
                      ب<placeName>مصر القديمة</placeName></placeName> يصرف عليها فى ماهية ناظرها
-               وخدمتها والمراكب المستخدمة بها واجرة الريس والملاحين مبلغ قدره تسعة آلاف و مائتان
+               وخدمتها والمراكب المستخدمة بها واجرة الريس والملاحين مبلغ قدره تسعة آلاف ومائتان
                واربعة وثمانون قرشا ونصف قرش وان المصلحة المذكورة كانت سابقا تابعة <orgName
                   type="ديوان_اشغال_المحروسة"><sic>ديوان</sic> اشغال المحروسة</orgName> وكان المبلغ
                المذكور يصرف لاربابه من الديوان نقدا والحال ان المصلحة الحقت الان ب<orgName
@@ -110,19 +111,20 @@
                   الخديوى</orgName>الى شرمى افندى المومى اليه والى <orgName type="الخزينة_العامرة"
                   >الخزينة العامرة</orgName> بخصوص ذلك كما استقر الرأى عليه فى مجلس المشورة.</p>
          </div>
-         <div xml:id="w2" resp="#eSG">
-            <head><date when-custom="1249-02-23">٢٣ صفر الخير ١٢٤٩</date><date when="1833-07-12">١٢ يوليو ١٨٣٣</date>
-               <bibl><biblScope unit="issue">نمره ٥٣٤</biblScope><biblScope
-               unit="page">صفحة ١</biblScope></bibl></head>
-            <head>حوادث <orgName type="المشورة_الملكية">المشورة الملكية</orgName></head> 
-            <p>لما كشف بارادة <persName>الخديوى</persName> عن الترعة التى يراد عملها فى الجانب
-               الشرقى لدفع المضيرة الواقعة بتحول النيل المبارك الى مقبل <placeName>بولاق</placeName>
-               من الجانب الغربى وتبين انه يكون ابتداؤها من <orgName type="ترسانة_بولاق"
-                     ><placeName>ترسانة بولاق</placeName></orgName> وانتهاؤها الى <placeName>بستان
-                  خليل افندى</placeName> و طولها سبعمائة واثنتان وعشرون قصبة وعرضها ثلاث قصبات وانه
-               يتم عمله فى عشرة ايام بالفين وسبعمائة رجل وانه ينبغى لاجل تحويل <sic>الما</sic> ان
-               تلقى حجارة بالطرف الغربى من الجزيرة <sic>لمقابلة</sic> ل<placeName>قصر
-                     حضرة<persName>ساكن الجنان افندينا اسماعيل باشا</persName></placeName> فى محل
+         <div xml:id="w2" resp="#eSG #eAM">
+            <head><date when-custom="1249-02-23">٢٣ صفر الخير ١٢٤٩</date><date when="1833-07-12">١٢
+                  يوليو ١٨٣٣</date>
+               <bibl><biblScope unit="issue">نمره ٥٣٤</biblScope><biblScope unit="page">صفحة
+                     ١</biblScope></bibl></head>
+            <head>حوادث <orgName type="المشورة_الملكية">المشورة الملكية</orgName></head>
+            <p>لما كشف بارادة الخديوى عن الترعة التى يراد عملها فى الجانب الشرقى لدفع المضيرة
+               الواقعة بتحول النيل المبارك الى مقبل <placeName>بولاق</placeName> من الجانب الغربى
+               وتبين انه يكون ابتداؤها من <orgName type="ترسانة_بولاق"><placeName>ترسانة
+                     بولاق</placeName></orgName> وانتهاؤها الى <placeName>بستان خليل
+                  افندى</placeName> و طولها سبعمائة واثنتان وعشرون قصبة وعرضها ثلاث قصبات وانه يتم
+               عمله فى عشرة ايام بالفين وسبعمائة رجل وانه ينبغى لاجل تحويل <sic>الما</sic> ان تلقى
+               حجارة بالطرف الغربى من الجزيرة <sic>لمقابلة</sic> ل<placeName>قصر حضرة<persName>ساكن
+                     الجنان افندينا اسماعيل باشا</persName></placeName> فى محل
                   عرضه<sic>ارب</sic><sic>صبات</sic> وطوله خمس وان مقدار تلك الحجاره مائة الف واثنان
                وخمسمائة قنطار وانه يجب لحفظ<sic>جر</sic>ان توضع مائتا وتدمن البرطوم البلد ينادى طول
                كل منهم ثمانية عشر ذراعا عرض ذلك <sic>شا</sic> افندى مدير
@@ -150,12 +152,13 @@
                عنده واشعر <persName>محمد اغا ناظر الجير والجص</persName> بارسال الحجر المعلوم
                المقدار و<sic>عر</sic> الافندى ناظر الدرسخانه ارسال الافندى المعاون.</p>
          </div>
-         <div xml:id="w3" resp="#eSG">
-            <head><date when-custom="1249-02-26">٢٦ صفر الخير ١٢٤٩</date><date when="1833-07-15">١٥ يوليو ١٨٣٣</date><bibl><biblScope unit="issue">نمره ٥٣٥</biblScope><biblScope
-               unit="page">صفحة ٢</biblScope></bibl></head>
+         <div xml:id="w3" resp="#eSG #eAM">
+            <head><date when-custom="1249-02-26">٢٦ صفر الخير ١٢٤٩</date><date when="1833-07-15">١٥
+                  يوليو ١٨٣٣</date><bibl><biblScope unit="issue">نمره ٥٣٥</biblScope><biblScope
+                     unit="page">صفحة ٢</biblScope></bibl></head>
             <head>حوادث<orgName type="مجلس_المشورة_العسكرية">مجلس المشورة العسكرية</orgName></head>
             <p>لما كانت<placeName><orgName type="دار_الطباعة_العامرة">دار الطباعة
-                  العامرة</orgName></placeName>تتزايد اشغالها كل يوم تحت نظر<persName>الخديوى
+                  العامرة</orgName></placeName> تتزايد اشغالها كل يوم تحت نظر<persName>الخديوى
                   الاعظم</persName> طلب <persName ref="قاسم_افندى_ناظر_دار_الطباعة_العامرة">قاسم
                   افندى ناظرها</persName> فى رسالة ارسلها الى<persName>ادهم بيك ناظر المهمات الحربية
                   عموما</persName>وهو احالها على <orgName type="المشورة_العسكرية">المشورة
@@ -166,9 +169,10 @@
                المشورة العسكرية بمقدار ما يتم به تعميره من المصاريف ليجرى الامر على مقتضاه بالمذاكره
                حرر اشعارا لى حضرة ادهم بيك ووكيل ناظر الابنية بايقاع الحركة على موجب ذلك.</p>
          </div>
-         <div xml:id="w4" resp="#eSG">
-            <head><date when-custom="1249-02-26">٢٦ صفر الخير ١٢٤٩</date><date when="1833-07-15"> ١٥ يوليو ١٨٣٣</date><bibl><biblScope unit="issue">نمره ٥٣٥</biblScope><biblScope
-               unit="page">صفحة ٢</biblScope></bibl></head>
+         <div xml:id="w4" resp="#eSG #eAM">
+            <head><date when-custom="1249-02-26">٢٦ صفر الخير ١٢٤٩</date><date when="1833-07-15">١٥
+                  يوليو ١٨٣٣</date><bibl><biblScope unit="issue">نمره ٥٣٥</biblScope><biblScope
+                     unit="page">صفحة ٢</biblScope></bibl></head>
             <p>لما كانت ارض<placeName>مخزن الصوف</placeName> الذى فى<orgName type="بصمخانة_بولاق"
                      >بصمخانة<placeName>بولاق</placeName></orgName> ندية وكانت نداوتها تكثر حين فيض
                النيل فيبتل بها الصوف وكان فى المخزن اربع زلع يتضرر الصوف من نضحهن وكان مما ينبغى ان
