@@ -12,7 +12,7 @@ let $files := distinct-values($coll//t:roleName[@type=$type]/base-uri())
 return " * '" || $type || "'&#x200E;: " ||
     string-join(
         for $f in $files 
-        let $url := " * /Project-Cairo-Urban-News/CairoUrbanNews/blob/master/" || replace($f, "^.*/articles/(arabic|ottoman)/([^/]+)$", "articles/$1/$2")
+        let $url := "/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/" || replace($f, "^.*/articles/(arabic|ottoman)/([^/]+)$", "articles/$1/$2")
         return "[" || replace($f, "^.*/([^/]+)$", "$1") || "](" || $url || ")", ", "
     ) || "&#xa;"
 )
