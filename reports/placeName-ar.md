@@ -1,4 +1,4 @@
-#Place Types
+# Place Types
  * 'citadel'‎: [1244.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1244.xml)
  * 'city'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
  * 'country'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)

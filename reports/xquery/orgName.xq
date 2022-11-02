@@ -3,7 +3,7 @@ declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
 declare option output:method "text";
 declare variable $dir external;
 
-"#Organization Types&#xa;" ||
+"# Organization Types&#xa;" ||
 (
 let $coll := collection($dir || "?select=*.xml")
 let $ARABIC := "http://www.w3.org/2013/collation/UCA?lang=ar"
