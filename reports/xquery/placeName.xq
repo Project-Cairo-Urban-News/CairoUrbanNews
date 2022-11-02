@@ -9,7 +9,7 @@ let $coll := collection($dir || "?select=*.xml")
 let $ARABIC := "http://www.w3.org/2013/collation/UCA?lang=ar"
 for $type in sort(distinct-values($coll//t:placeName/@type), $ARABIC)
 let $files := distinct-values($coll//t:placeName[@type=$type]/base-uri())
-return " * '" || $type || "': " ||
+return " * '" || $type || "'&#x200E;: " ||
     string-join(
         for $f in $files 
         let $url := "/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/" || replace($f, "^.*/articles/(arabic|ottoman)/([^/]+)$", "articles/$1/$2")
