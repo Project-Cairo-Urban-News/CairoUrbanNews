@@ -1,0 +1,39 @@
+name: Generate Reports
+
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - 'articles/arabic/*.xml'
+      - 'articles/ottoman/*.xml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: teic/teidev-docker:latest
+
+    steps:
+      - name: "Checkout repo"
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: "Generate reports"
+        run: |
+          java -cp /usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q: reports/xquery/orgName.xq dir="../../articles/arabic" > reports/orgName-ar.md
+          if [[ $(wc -l <reports/orgName-ar.md) -eq 1 ]]; then rm reports/orgName-ar.md; fi
+          java -cp /usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q: reports/xquery/orgName.xq dir="../../articles/ottoman" > reports/orgName-ota.md
+          if [[ $(wc -l <reports/orgName-ota.md) -eq 1 ]]; then rm reports/orgName-ota.md; fi
+          java -cp /usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q: reports/xquery/placeName.xq dir="../../articles/arabic" > reports/placeName-ar.md
+          if [[ $(wc -l <reports/placeName-ar.md) -eq 1 ]]; then rm reports/placeName-ar.md; fi
+          java -cp /usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q: reports/xquery/placeName.xq dir="../../articles/ottoman" > reports/placeName-ota.md
+          if [[ $(wc -l <reports/placeName-ota.md) -eq 1 ]]; then rm reports/placeName-ota.md; fi
+          java -cp /usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q: reports/xquery/roleName.xq dir="../../articles/arabic" > reports/roleName-ar.md
+          if [[ $(wc -l <reports/roleName-ar.md) -eq 1 ]]; then rm reports/roleName-ar.md; fi
+          java -cp /usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q: reports/xquery/roleName.xq dir="../../articles/ottoman" > reports/roleName-ota.md
+          if [[ $(wc -l <reports/roleName-ota.md) -eq 1 ]]; then rm reports/roleName-ota.md; fi
+      - name: "Commit reports"
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Updated reports."
+

@@ -33,6 +33,7 @@
             <moduleRef key="figures" except="formula notatedMusic"/>
             <moduleRef key="header" include="editorialDecl encodingDesc fileDesc funder langUsage language licence profileDesc projectDesc publicationStmt sourceDesc sponsor teiHeader titleStmt"/>
             <moduleRef key="linking" include="standOff"/>
+            <moduleRef key="msdescription" include="material"/>
             <moduleRef key="namesdates" except="climate terrain population"/>
             <moduleRef key="tei"/>
             <moduleRef key="textstructure" include="TEI body byline dateline div text"/>
