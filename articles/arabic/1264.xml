@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 
-  schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/css" href="../../css/oxygen.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="css/oxygen.css"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -130,8 +126,7 @@
               ٩٩</biblScope>
             <biblScope unit="page">صفحة ٤</biblScope>
           </bibl></head>
-        <p>ان بيت الشيخ<persName> محمد الغلبان</persName> الذى فى <placeName type="حارة"
-            >حارة</placeName> درب سعادة الكائنة ب<placeName type="ثمن">ثمن</placeName>
+        <p>ان بيت الشيخ<persName> محمد الغلبان</persName> الذى فى <placeName type="حارة">حارة</placeName> درب سعادة الكائنة ب<placeName type="ثمن">ثمن</placeName>
           <placeName>الدرب الاحمر</placeName> تشتمل طبقته العليا على قاعة كبيرة ذات خزنتين وفسحة
           وعلى اودة ومطبخ وكيلار و مستحم وتشتمل السفلى على مقعد <sic>سلاملك</sic> ذى عمود من الرخام
           وخزنة وعلى منظره وحاصلين واصطبل يسع ثلاثة حيوانات وبئر وحوش مكشوف وهو معرض للبيع بمعرفة
@@ -142,8 +137,7 @@
           يسع ثلاثة حيوانات وطاحونة ومنظرة صغيرة وبئر وحوش سماوى وهو يراد بيعه بمعرفه بيت المال ايضا
           فمن له رغبة فيه فليسأل عنه من <roleName type="occupation-title">الدلال</roleName>
           المذكور</p>
-        <p>ان بيتا كائنا ب<placeName>عطفة الدالى حسين</placeName> التى فى خط <placeName type="خط"
-            >السروجية</placeName> يتعلق <addName type="deceased ">بالمرحوم</addName>
+        <p>ان بيتا كائنا ب<placeName>عطفة الدالى حسين</placeName> التى فى خط <placeName type="خط">السروجية</placeName> يتعلق <addName type="deceased ">بالمرحوم</addName>
           <persName>احمد اغا جندى</persName> باشى طبقته العليا تشتمل على خمس اود مكملة بفسحاتها
           وخزنها وعلى حمام ومطبخ وكلارين والسفلى تشتمل على ثلاثة حواصل ومنظرة صغيرة واصطبل يسع ثلاثة
           حيوانات وطاحونة وبئر وحوش مكشوف وهو يراد بيعه بمعرفة بيت المال ايضا فمن كان يرغب فيه
@@ -158,8 +152,7 @@
         <head><title> الحوادث الداخليه</title></head>
         <p>ان المرحوم <persName>سليمان افندى كتخدا حضرة ابراهيم باشا ابن الجناب الداورى
             سابقا</persName> قد انهدم بيته الكائن ب<placeName>الدرب الاصفر</placeName> فى
-            <placeName>خط الجماليه</placeName> وبقى تحت ردمه بعض من النفوس ولما اخبرت <orgName
-            type="الضبطية">الضبطية</orgName> بذلك ارسلت بعض من يلزم ارسالهم وازالوا الردم فوجدوا
+            <placeName>خط الجماليه</placeName> وبقى تحت ردمه بعض من النفوس ولما اخبرت <orgName type="الضبطية">الضبطية</orgName> بذلك ارسلت بعض من يلزم ارسالهم وازالوا الردم فوجدوا
           تحته خمس نسوة وطفلا صغيرا وقد مات ثنتان منهن وجرح الثلاث ولطفل الصغير واذ كان البيت
           المذكور قد آل الى السقوط ولم يكن من شيخ حارته اخبارية به فى وقته حسب مأموريته شرع فى البحث
           عنه واحضاره لاجرآء جزآئه.</p>
@@ -253,8 +246,7 @@
             الفشنكجى المذكور وبلغ عدد من مات معه من جيرانه وابناء السبيل المارين بها فى تلك الساعة
             ومن الذين كانوا فى <placeName>سبيل سليمان اغا السلحدار</placeName> الواقع تجاه الدكان
             المذكورة حيث اصابتهم الحجارة التى كسرت شبابيك السبيل ثلاثا عشر شخصا وانجرح سبعة عشر شخصا
-            استخرج اكثرهم من تحت الردم كما اخبر به من <orgName type="الضابطخانة"
-              >الضابطخانة</orgName>.</p></div>
+            استخرج اكثرهم من تحت الردم كما اخبر به من <orgName type="الضابطخانة">الضابطخانة</orgName>.</p></div>
        <div xml:id="A12" resp="#eSG"><head><date when-custom="1264-06-05">٥ جمادى الاخر ١٢٦٤</date>
             <date when="1848-05-09">٩ مايو ١٨٤٨</date><bibl><biblScope unit="issue">نمرة
                 ١١٣</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head> 
@@ -276,8 +268,7 @@
            <p>قد احترقت<placeName>شونة التبن والحلفاء والبوص المتعلقة بكل من<persName>تادرس ملتزم
                 المخابز</persName> وشركائه</placeName>الكائنه ب<placeName>فم الخليج</placeName> وذلك
             فى وقت المساء من يوم الجمعة الموافق لثانى الشهر الحال حسبما جرى به قضاء الله وقده وقد
-            تداركها كل من حضرة<persName>عبد الباقى بيك افندى وكيل <orgName type="الديوان_الخديوى"
-                >الديوان الخديوى</orgName></persName> و<persName>حسين بيك ضابط المحروسة</persName>
+            تداركها كل من حضرة<persName>عبد الباقى بيك افندى وكيل <orgName type="الديوان_الخديوى">الديوان الخديوى</orgName></persName> و<persName>حسين بيك ضابط المحروسة</persName>
               و<persName>راشد بيك مفتش الابنية</persName> وجئ بثمان طلومبات وجانب من عسكر الايات
             الطوبجية والمحافظين ب<placeName>القلعة</placeName> وبذلوا جهدهم جميعا فى اطفئها حتى
             الصباح ومع ذلك لم ينج منها سوى قليل من الاخشاب </p>
@@ -309,8 +300,7 @@
               <biblScope unit="issue">نمرة ١٢٥</biblScope><biblScope unit="page"> صفحة
               ١</biblScope></bibl></head>
           <head><title> الحوادث الداخليه</title></head> 
-       <p>قد كتب الى حضرة مفتش الاقاليم الوسطى بارسال مائة ثور لجلب المرمر اللازم ب<placeName
-              ref="جامع_محمد_على">الجامع الشريف</placeName> الجارى انشاءه
+       <p>قد كتب الى حضرة مفتش الاقاليم الوسطى بارسال مائة ثور لجلب المرمر اللازم ب<placeName ref="جامع_محمد_على">الجامع الشريف</placeName> الجارى انشاءه
               ب<placeName>القلعة</placeName>العامرة من جبل المرمر الكائن ببنى سويف</p>
       </div> 
 
@@ -320,12 +310,10 @@
             <bibl><biblScope unit="issue">نمرة ١٣٠</biblScope>
               <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
           <head><title>اعلانات</title></head>
-      <p>ان <placeName>بيت المرحوم احمد اغا جندى باشا</placeName> الكائن ب<orgName type="ثمن_قيسون"
-                ><placeName>ثمن فيسون</placeName></orgName>داخل <placeName>عطفة الدالى</placeName>
+      <p>ان <placeName>بيت المرحوم احمد اغا جندى باشا</placeName> الكائن ب<orgName type="ثمن_قيسون"><placeName>ثمن فيسون</placeName></orgName>داخل <placeName>عطفة الدالى</placeName>
             حسين تشتمل طبقته العليا على خمس اود وحمام كامل المنافع ومطبخ وثلاثة كلارات وتشتمل طبقته
             السفلى على مقعد سلاملك بمنافعه منظرة واصطبل يسع اربعا من الخيل ومطبخ ارضى وثلاثة حواصل
-            وحديقة لطيفة وبئر معين وحوش سماوى وبجواره خربة عديمة النفع وهو يراد بيعه بمعرفة <orgName
-              type="بيت_المال">بيت المال</orgName>وقد بلغ ثمنه اثنين وخمسين كيسا فمن كان له رغبة فيه
+            وحديقة لطيفة وبئر معين وحوش سماوى وبجواره خربة عديمة النفع وهو يراد بيعه بمعرفة <orgName type="بيت_المال">بيت المال</orgName>وقد بلغ ثمنه اثنين وخمسين كيسا فمن كان له رغبة فيه
             فليسأل عنه من السيد <persName>مصطفى دلال باشى</persName></p>
       <p>ان <placeName>منزل اولاد الشاذلى</placeName> الكائن ب<placeName>خط الموسكى</placeName>
             طبقته العليا تشتمل على اربع اود ومطبخ وكلار وتشتمل السفلى على حاصل واحد وحوش لطيف واجرته
