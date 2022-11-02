@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_customization.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_customization.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital Cairo TEI Customisation</title>
+            <author>Hugh Cayless</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Cairo Urban News Project</publisher>
+      </publicationStmt>
+         <sourceDesc>
+            <p>born digital</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <head><!-- name of markup language being defined can be repeated here --></head>
+         <p><!-- prose description of, and explanation of, markup language goes here;
+              you can use any TEI constructs you like, including multiple paragarphs,
+              tables, nested divisions, etc. Furthermore, <specGrp> elements may
+              be used to include snippets of schema definitions, and <specList>
+              can be used to include to insert a list of descriptions of elements
+              and attributes. --></p>
+         <schemaSpec ident="CairoUrbanNews">     <!-- @ident is required -->
+            <desc><!-- put a one-sentence description of this TEI customization here --></desc>
+            <moduleRef key="analysis" include="phr w"/>
+            <moduleRef key="core" include="author bibl biblScope date editor foreign gap head hi imprint item label list measure name note p ptr pubPlace publisher ref resp respStmt rs sic term textLang time title unclear"/>
+            <moduleRef key="figures" except="formula notatedMusic"/>
+            <moduleRef key="header" include="editorialDecl encodingDesc fileDesc funder langUsage language licence profileDesc projectDesc publicationStmt sourceDesc sponsor teiHeader titleStmt"/>
+            <moduleRef key="linking" include="standOff"/>
+            <moduleRef key="namesdates" except="climate terrain population"/>
+            <moduleRef key="tei"/>
+            <moduleRef key="textstructure" include="TEI body byline dateline div text"/>
+            <!-- ODD-specific elements like <elementSpec> and <classSpec>;
+             or references to <specGrp>s defined above using <specGrpRef>. -->
+            <elementSpec ident="addName" module="namesdates" mode="change">
+               <constraintSpec ident="untrimmed-spaces-addName" scheme="schematron">
+                  <constraint>
+                     <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            <elementSpec ident="biblScope" module="core" mode="change">
+               
+               <constraintSpec ident="untrimmed-spaces-biblScope" scheme="schematron">
+                  <constraint>
+                     <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
+                  </constraint>
+               </constraintSpec>
+               <attList>
+                  <attDef ident="unit" mode="change" usage="req"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="date" module="core" mode="change">
+               <constraintSpec ident="untrimmed-spaces-date" scheme="schematron">
+                  <constraint>
+                     <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            <elementSpec ident="hi" module="core" mode="change">
+               <constraintSpec ident="untrimmed-spaces-hi" scheme="schematron">
+                  <constraint>
+                     <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            <elementSpec ident="item" module="core" mode="change">
+               <constraintSpec ident="untrimmed-spaces-item" scheme="schematron">
+                  <constraint>
+                     <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            <elementSpec ident="list" module="core" mode="change">
+               <constraintSpec ident="untrimmed-spaces-list" scheme="schematron">
+                  <constraint>
+                     <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            <elementSpec ident="material" module="core" mode="change">
+               <constraintSpec ident="untrimmed-spaces-material" scheme="schematron">
+                  <constraint>
+                     <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            <elementSpec ident="measure" module="core" mode="change">
+               <constraintSpec ident="untrimmed-spaces-measure" scheme="schematron">
+                  <constraint>
+                     <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            <elementSpec ident="name" module="core" mode="change">
+               <constraintSpec ident="untrimmed-spaces-name" scheme="schematron">
+                  <constraint>
+                     <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            <elementSpec ident="note" module="core" mode="change">
+               <constraintSpec ident="untrimmed-spaces-note" scheme="schematron">
+                  <constraint>
+                     <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            <elementSpec ident="objectName" module="namesdates" mode="change">
+               <constraintSpec ident="untrimmed-spaces-objectName" scheme="schematron">
+                  <constraint>
+                     <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            <elementSpec ident="orgName" module="namesdates" mode="change">
+               <constraintSpec ident="untrimmed-spaces-orgName" scheme="schematron">
+                  <constraint>
+                     <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            <elementSpec ident="persName" module="namesdates" mode="change">
+               <constraintSpec ident="untrimmed-spaces-persName" scheme="schematron">
+                  <constraint>
+                     <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            <elementSpec ident="phr" module="analysis" mode="change">
+               <constraintSpec ident="untrimmed-spaces-phr" scheme="schematron">
+                  <constraint>
+                     <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            <elementSpec ident="placeName" module="namesdates" mode="change">
+               <constraintSpec ident="untrimmed-spaces-placeName" scheme="schematron">
+                  <constraint>
+                     <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            <elementSpec ident="ref" module="core" mode="change">
+               <constraintSpec ident="untrimmed-spaces-ref" scheme="schematron">
+                  <constraint>
+                     <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            <elementSpec ident="roleName" module="namesdates" mode="change">
+               <constraintSpec ident="untrimmed-spaces-roleName" scheme="schematron">
+                  <constraint>
+                     <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            <elementSpec ident="rs" module="core" mode="change">
+               <constraintSpec ident="untrimmed-spaces-rs" scheme="schematron">
+                  <constraint>
+                     <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            <elementSpec ident="sic" module="core" mode="change">
+               <constraintSpec ident="untrimmed-spaces-sic" scheme="schematron">
+                  <constraint>
+                     <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            <elementSpec ident="term" module="core" mode="change">
+               <constraintSpec ident="untrimmed-spaces-term" scheme="schematron">
+                  <constraint>
+                     <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            <elementSpec ident="title" module="core" mode="change">
+               <constraintSpec ident="untrimmed-spaces-title" scheme="schematron">
+                  <constraint>
+                     <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            <elementSpec ident="w" module="analysis" mode="change">
+               <constraintSpec ident="untrimmed-spaces-w" scheme="schematron">
+                  <constraint>
+                     <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+         </schemaSpec>
+      </body>
+  </text>
+</TEI>
