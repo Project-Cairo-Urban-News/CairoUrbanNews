@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 
-  schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="css/oxygen.css"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -123,8 +120,7 @@
             <head><date when-custom="1262-08-10">١٠ شعبان ١٢٦٢</date><date when="1846-08-03">٣ اغسطس
             ١٨٤٦</date><bibl><biblScope unit="issue">نمرة ٢٤</biblScope><biblScope unit="page">صفحة
               ٢</biblScope></bibl></head>
-            <p> انه فى الساعة السابعة من ليلة الخميس التاسع والعشرين من الشهر الماضى قد ظهرت <rs
-            type="حريقة">حريقة</rs> فى منزل كائن ب<placeName>الدرب الابراهميى</placeName> فى
+            <p> انه فى الساعة السابعة من ليلة الخميس التاسع والعشرين من الشهر الماضى قد ظهرت <rs type="حريقة">حريقة</rs> فى منزل كائن ب<placeName>الدرب الابراهميى</placeName> فى
               <placeName><orgName>ثمن الازبكية</orgName></placeName> سكن <persName>رجل قبطى اسمه
             تادرس نخله</persName> ولما وصل الخبر الى <orgName type="الضابطخانة">الضابطخانة</orgName>
           ارسلت اربع طلومبات فى الوقت والساعة وحيث كانت الازقة الواقعة فيها تلك الحريق ضيقة جدا
@@ -164,13 +160,11 @@
          <div resp="#eSG" xml:id="w105">
             <head><date when-custom="1262-11-20">٢٠ ذى القعدة ١٢٦٢</date><date when="1846-11-09">٩
             نوفمبر ١٨٤٦</date><bibl><biblScope unit="issue">نمرة ٣٨</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
-            <p> انه قد ظهرت <rs type="حريقة">حريقة</rs> بأودة<persName> استفان الصراف ب<placeName
-              type="وكالة_العشماوى">وكالة العشماوى</placeName></persName> الكائنة
+            <p> انه قد ظهرت <rs type="حريقة">حريقة</rs> بأودة<persName> استفان الصراف ب<placeName type="وكالة_العشماوى">وكالة العشماوى</placeName></persName> الكائنة
             ب<placeName>بولاق</placeName> فى الساعة التاسعة من يوم الثلاثاء الموافق للسابع من هذا
           الشهر فاسعفت فى الوقت والساعة بلطلومبه التى فى بولاق واطفئت بدون سرايتها الى الاطراف ولم
           يحترق منها سوى صندوق واحد وكذا قد التهب بيت محمد الدسوقى الذى بقرب <placeName>الجامع
-            الاحمر</placeName> ب<placeName>خط الازبكية</placeName> ولما وصل الخبر الى <orgName
-            type="الضابطخانة">الضابطخانة</orgName>بعث اليه الطلومبة ولوازمها واطفئت ولم يحترق منها
+            الاحمر</placeName> ب<placeName>خط الازبكية</placeName> ولما وصل الخبر الى <orgName type="الضابطخانة">الضابطخانة</orgName>بعث اليه الطلومبة ولوازمها واطفئت ولم يحترق منها
           خلاف مبرومتين من سقف الاودة وبعض اشياء لم تكن ذات قيمة وظهرت <rs type="حريقة">حريقة</rs>
           ايضا ب<placeName>منزل <persName>مصطفى اغا مملوك سليمان اغا الوكيل</persName></placeName>
           الذى هو ساكن فيه ب<placeName>حارة غيط العدة</placeName> ب<placeName><orgName>ثمن

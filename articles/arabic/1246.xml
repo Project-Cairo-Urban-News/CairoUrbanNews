@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 
-  schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="css/oxygen.css"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -105,12 +102,9 @@
           <title>حوادث <orgName type="الديوان-الخديوي">الديوان الخديوى</orgName></title>
         </head>
         <p>
-          <persName>احمد جاد </persName>الطحان فى <placeName
-            ref="https://www.geonames.org/359449/bab-ash-sha-riyah.html">باب الشعريه
-          </placeName>وابراهيم <sic>من بهشيم </sic>فى <placeName
-            ref="https://www.geonames.org/359173/bani-suwayf.html">بنى سويف </placeName>جاءا الى
-            <orgName type="الديوان-الخديوي">الديوان الخديوى</orgName> بمعرفة<roleName role="باش-أغا"
-            > باش اغا</roleName> فقال احمد ان ابراهيم كان عندى خادما رانى اعطيته اجرته منذ عشرة ايام
+          <persName>احمد جاد </persName>الطحان فى <placeName ref="https://www.geonames.org/359449/bab-ash-sha-riyah.html">باب الشعريه
+          </placeName>وابراهيم <sic>من بهشيم </sic>فى <placeName ref="https://www.geonames.org/359173/bani-suwayf.html">بنى سويف </placeName>جاءا الى
+            <orgName type="الديوان-الخديوي">الديوان الخديوى</orgName> بمعرفة<roleName role="باش-أغا"> باش اغا</roleName> فقال احمد ان ابراهيم كان عندى خادما رانى اعطيته اجرته منذ عشرة ايام
           واطلقته فاتى امس بعد المغرب وسرق من بيتى حلة بغطاها وطواة ونصف ثوب قماشا واذ كان ذهبا مسكه
           اهل الحارة واخذ ومالى باش اغا وهو ارسله الى هنا مع الاشياء التى اخذها فسئل ابراهيم فقال لى
           عليه عشرة قروش بقيت من اجرتى فذهبت اليه لاطلبها منه فلم اجده فطالبت امراته بذلك فلم تعطنى
@@ -129,18 +123,15 @@
           <title>حوادث <orgName type="مجلس-المشورة">مجلس المشورة</orgName></title></head>
         <p>
           <persName>محمد اغا </persName><roleName role="خفتان-اغا">خفتان اغاسى افندينا</roleName>
-          <persName ref="#I">ابراهيم باشا</persName> قدم تقريرا الى <orgName type="مجلس-المشورة"
-            >مجلس المشورة </orgName>مضمونه انه يلزم <objectName type="stone">احجار </objectName>لاجل
+          <persName ref="#I">ابراهيم باشا</persName> قدم تقريرا الى <orgName type="مجلس-المشورة">مجلس المشورة </orgName>مضمونه انه يلزم <objectName type="stone">احجار </objectName>لاجل
           احراق جير وجبس فى هذا العام المبارك وانها ترد الى <orgName type="ديوان-الجير">ديوان
-            الجيروالجبس</orgName> قبل ازدياد النيل وانه ارسل علما الى حسن بيك<roleName
-            role="مأمور الجيزة"> مأمور الجيزة</roleName> طالب به اربعماية فاعل فاجابه المومى اليه
+            الجيروالجبس</orgName> قبل ازدياد النيل وانه ارسل علما الى حسن بيك<roleName role="مأمور الجيزة"> مأمور الجيزة</roleName> طالب به اربعماية فاعل فاجابه المومى اليه
           انه ارسل قبل هذا عشرة الاف نفر لاجل ترعة القليوبية التى فى داخل مأموريته فلا يمكنه اذا ان
           يرسل تلك الكمية واستدعى ان يعطى لترتيب الفعلة صورة مستحسنة كيلا يطرا[ء] عطل على المصلحة
           ولدى المذاكرة قالوا ان انها المومى اليه فى محله وان عذر حسن بيك واضح ولكن حفر الترعة يتم
           عن قريب فمتى كملت ترسل الانفار المطلوبة الى الاغا المومى اليه وذلك <sic>بوجب</sic> صدور
           علم من<orgName> الديوان الخديوى </orgName>الى حسن بيك المومى اليه اشعارا له بذلك كما استقر
-          الراى على ذلك فى غرة ذى الحجة. عبد الرحمن القاطن فى الدرب الجديد فى <placeName
-            ref="https://www.geonames.org/425182/qasr-abidin.html">عابدين</placeName> ومصطفى
+          الراى على ذلك فى غرة ذى الحجة. عبد الرحمن القاطن فى الدرب الجديد فى <placeName ref="https://www.geonames.org/425182/qasr-abidin.html">عابدين</placeName> ومصطفى
             <roleName role="شيخ الحارة">شيخ الحارة</roleName> وامرأة من <sic>كفر البيجيور</sic> التى
             فى<placeName ref="https://www.geonames.org/360689/muhafazat-al-minufiyah.html">
             المنوفية</placeName> اسمها خضرا جاؤا الى<orgName ref="الديوان-الخديوي"> الديوان
@@ -152,63 +143,44 @@
           المذكور فرأيت تلك الاشياء <sic>متاعى</sic> فانطلقت بخضرا الى <roleName role="باش-اغا">باش
             اغا </roleName>وهو ارسلنا الى هنا فسئل عن الاشياء فقال هى صينية صغيرة وحلتان وطاسة
           للشوربا ومصفاة وغطا لطنجرة ومركوبان وثلاثة طرابيش وثلاثة شالات بيض وثلاثة البسة وصديريتان
-          وشال آخر ومعه قميصان وعرى ودقية وكيس من جوخ و منشفتان وصادق <roleName role="بواب"
-            >البواب</roleName> على ذلك فسئلت خضرا فقالت انا <roleName role="خبازة">خبازة</roleName>
+          وشال آخر ومعه قميصان وعرى ودقية وكيس من جوخ و منشفتان وصادق <roleName role="بواب">البواب</roleName> على ذلك فسئلت خضرا فقالت انا <roleName role="خبازة">خبازة</roleName>
           وان رجلا اسمه احمد اتى الى واشترى خبزا بعشر فضيات فذهبت معه وجلست فى الطاحون ودخل هو البيت
-          وقد اتى بتلك الاشياء وكان ذلك وقت صلاة الصبح فطلبت من <roleName role="بواب"
-            >البواب</roleName> ان يفتح لى فابى فهرب احمد وبقيت انا وحدى و الاشياء معى فمسكنى
+          وقد اتى بتلك الاشياء وكان ذلك وقت صلاة الصبح فطلبت من <roleName role="بواب">البواب</roleName> ان يفتح لى فابى فهرب احمد وبقيت انا وحدى و الاشياء معى فمسكنى
             <roleName role="بواب">البواب</roleName> فسئلت من هو هذا فقلت انه عند الحاج عبد العاطى
-          فسئل المذكور فقال انا <roleName role="عطار">عطار</roleName> فى <placeName
-            ref="https://www.geonames.org/359449/bab-ash-sha-riyah.html">باب الشعرية</placeName> وان
+          فسئل المذكور فقال انا <roleName role="عطار">عطار</roleName> فى <placeName ref="https://www.geonames.org/359449/bab-ash-sha-riyah.html">باب الشعرية</placeName> وان
             <roleName role="شيخ-الثمن">شيخ الثمن</roleName> و<roleName role="شيخ-الحارة">شيخ
-            الحارة</roleName> يعرفان انه ليس عندى رجل مثل هذا فسئل <roleName role="بواب"
-            >البواب</roleName> فقال ان هذه الامرأة اتت الى وقت صلاة الصبح وحدها وتلك الاشيا[ء] على
+            الحارة</roleName> يعرفان انه ليس عندى رجل مثل هذا فسئل <roleName role="بواب">البواب</roleName> فقال ان هذه الامرأة اتت الى وقت صلاة الصبح وحدها وتلك الاشيا[ء] على
           رأسها وقالت افتح الباب فسألتها من انت فقالت انا زوجة<roleName role="الطحان"> الطحان
           </roleName>فمسكتها فعرض ذلك الى الافندى <roleName role="مامور-الديوان الخديوي">مامور
-            الديوان الخديوى</roleName> فقال لتعط الاشياء المسروقة وترسل خضرا الى<sic><roleName
-              role="الامام-افندي"> الامام افندى</roleName></sic> حتى اذا وجد مركب سائر الى قريتها
+            الديوان الخديوى</roleName> فقال لتعط الاشياء المسروقة وترسل خضرا الى<sic><roleName role="الامام-افندي"> الامام افندى</roleName></sic> حتى اذا وجد مركب سائر الى قريتها
           وضعت فيه بمعرفة<roleName role="قواص"> قواص</roleName> وارسلت اليها وتم الامر على هذا
           المنوال </p>
       </div>
       <div xml:id="W02" resp="#eSG">
         <head><date when-custom="1246-01-17">١٧ محرم الحرام ١٢٤٦</date><date when="1830-07-08">٨
-            يوليو ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ١٦٢</biblScope><biblScope
-              unit="page">صفحة ١</biblScope></bibl></head>
+            يوليو ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ١٦٢</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
         <head><title>حوادث<orgName type="الديوان-الخديوي"> الديوان الخديوى</orgName></title></head>
-        <p> الحاج <persName>على</persName> المتسبب فى <placeName
-            ref="https://www.geonames.org/7913987/khan-al-khalili.html">خان الخليلى</placeName>
-            و<persName>مبروكة</persName> الساكنة فى <placeName
-            ref="https://www.geonames.org/359824/as-sayyidah-zaynab.html">الناصرية</placeName>
+        <p> الحاج <persName>على</persName> المتسبب فى <placeName ref="https://www.geonames.org/7913987/khan-al-khalili.html">خان الخليلى</placeName>
+            و<persName>مبروكة</persName> الساكنة فى <placeName ref="https://www.geonames.org/359824/as-sayyidah-zaynab.html">الناصرية</placeName>
           والحاج <persName>على</persName><roleName type="شيخ-الحارة">شيخ الحارة</roleName> جاؤا الى
-            <orgName type="الديوان-الخديوى">الديوان الخديوى</orgName> بمعرفة ال<roleName
-            type="باش-أغا">باش اغا</roleName> فقال الحاج <persName>على</persName> ان
+            <orgName type="الديوان-الخديوى">الديوان الخديوى</orgName> بمعرفة ال<roleName type="باش-أغا">باش اغا</roleName> فقال الحاج <persName>على</persName> ان
             <persName>مبروكة</persName> هذه اتت الى بيتى امس عصرا وكانت مراتى مريضة فاخذت ثوبين شاشا
-          حبرتين وسيلة وقميصا ولباسا واخفتها فى ثيابها وهربت فلما سمعت ذلك اخذت <roleName
-            type="شيخ-الحارة">شيخ الحارة</roleName> وتوجهنا فمسكنها وسرت بها الى <roleName
-            type="باش-اغا">باش اغا</roleName> وهو ارسلنا الى هنا فسئلت <persName>مبروكة</persName>
+          حبرتين وسيلة وقميصا ولباسا واخفتها فى ثيابها وهربت فلما سمعت ذلك اخذت <roleName type="شيخ-الحارة">شيخ الحارة</roleName> وتوجهنا فمسكنها وسرت بها الى <roleName type="باش-اغا">باش اغا</roleName> وهو ارسلنا الى هنا فسئلت <persName>مبروكة</persName>
           فقالت انا لم اذهب الى بيته وليس لى علم بذلك فسئل <roleName type="شيخ-الحارة">شيخ
             الحارة</roleName> فقال ان مبروكة قابلت <persName>محمدا</persName>
           <sic>انادلابه</sic> بعد العصر فسألت عنها فقيل لى انها دخلت بيت الحاج
-            <persName>على</persName> وسرقت بعض اشيا[ء] وهربت بها فاخذتها الى<roleName type="باش-اغا"
-            >باش اغا</roleName> وهو ارسلها الى هنا فامر <roleName type="مأمور">مأمور<orgName
-              type="الديوان-الخديوى">الديوان الخديوى</orgName></roleName>ان ترسل الى بيت <roleName
-            type="الامام">الامام</roleName> احتياطا من الهرب وبعد مدة اخبر <roleName type="الامام"
-            >الامام</roleName> انها مريضة وانه لم يبحث عن الاشياء ولم تسأل فاطلقت وتم الامر على ذلك
+            <persName>على</persName> وسرقت بعض اشيا[ء] وهربت بها فاخذتها الى<roleName type="باش-اغا">باش اغا</roleName> وهو ارسلها الى هنا فامر <roleName type="مأمور">مأمور<orgName type="الديوان-الخديوى">الديوان الخديوى</orgName></roleName>ان ترسل الى بيت <roleName type="الامام">الامام</roleName> احتياطا من الهرب وبعد مدة اخبر <roleName type="الامام">الامام</roleName> انها مريضة وانه لم يبحث عن الاشياء ولم تسأل فاطلقت وتم الامر على ذلك
         </p>
       </div>
       <div xml:id="W03" resp="#eSG">
         <head><date when-custom="1246-01-20">٢٠ محرم الحرام ١٢٤٦</date><date when="1830-07-11">١١
-            يوليو ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ١٦٣</biblScope><biblScope
-              unit="page">صفحة ١،٢،٣</biblScope></bibl></head>
-        <head><title>حوادث <orgName type="الديوان-الخديوى">الديوان <roleName type="الخديوى"
-                >الخديوى</roleName></orgName></title></head>
-        <p>امرأة ساكنة فى <placeName>حارة بين السيارج</placeName> فى ثمن <placeName
-            ref="https://www.geonames.org/359449/bab-ash-sha-riyah.html">باب الشعرية</placeName>
+            يوليو ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ١٦٣</biblScope><biblScope unit="page">صفحة ١،٢،٣</biblScope></bibl></head>
+        <head><title>حوادث <orgName type="الديوان-الخديوى">الديوان <roleName type="الخديوى">الخديوى</roleName></orgName></title></head>
+        <p>امرأة ساكنة فى <placeName>حارة بين السيارج</placeName> فى ثمن <placeName ref="https://www.geonames.org/359449/bab-ash-sha-riyah.html">باب الشعرية</placeName>
           تسمى <persName>بكيزاده</persName> واخت لها تسمى <persName>بيهانه</persName> وولدها
             <persName>محمد</persName> وجارها السيد <persName>محمد العقاد</persName>
             و<persName>ابراهيم حسن</persName> من اتباع <roleName type="باش-اغا-البصاصين">باش اغا
-            البصاصين</roleName> جاؤا الى <orgName type="الديوان-الخديوى">الديوان <roleName
-              type="الخديوى">الخديوى</roleName></orgName> فقالت <persName>بيكزاده</persName> انى
+            البصاصين</roleName> جاؤا الى <orgName type="الديوان-الخديوى">الديوان <roleName type="الخديوى">الخديوى</roleName></orgName> فقالت <persName>بيكزاده</persName> انى
           ذهبت بابنى و باختى وخدامتى الى التربة م[ن]ذ يومين وقد نسيت المفتاح فى البيت ولما اتيت الى
           البيت ارسلت ابنى ليأتى ب<roleName type="نجار">نجار</roleName> ليفتح الباب ومضيت انا الى
           منزل الشريف<persName> محمد</persName> فذهب ابنى واتى الى يقول فتحت اوضة من المنزل وسرق
@@ -220,8 +192,7 @@
           دراهم وسرق لاختى حلق من زمرد وتسعة عقود درا وخمسمائة برقة ذهبا ومشط صغير ذهبا وكردانان
           ذهبا وجبة مشغولة بقصب وقفطان مشغول بقصب وسرق لابنها قفطان الاجه وخاتمان من زمرد وخاتم عين
           الهر وخاتم من فيروز وقميصان وجبة نفتى وشال ابيض وشال تقليد ومائتان قرشا فعرض ذلك
-            ل<roleName type="باش-اغا">باش اغا</roleName> فذهب الى المحل المذكور ب<roleName
-            type="بصاص">بصاص</roleName> فرأى ان الضبة و باب الزقاق مكسوران فاخذنى واختى وابنها
+            ل<roleName type="باش-اغا">باش اغا</roleName> فذهب الى المحل المذكور ب<roleName type="بصاص">بصاص</roleName> فرأى ان الضبة و باب الزقاق مكسوران فاخذنى واختى وابنها
           وجارنا السيد <persName>محمد</persName> وامراته والخدامات وارسلنا الى هنا فسئلت اختها فقالت
           كما قالت تلك وصادقت على قولها فسئل ابنها <persName>محمد</persName> فقال كما قالتا وانه لما
           طلع الى البيت رأى العتبة مرفوعة فدخل ومعه السيد <persName>على الصباغ</persName> فوجدا فى
@@ -231,48 +202,33 @@
           وجييئى بالمفتاح فقالت اطلعوا انتم فصعد الولد <persName>محمد</persName> واتى بالمفتاح
           ففتحوا الباب ورأوا الامر كما جرى وبعد ذلك اتيت الى البيت فقيل لى ان جيراننا يطلبون الاشياء
           منا قذهبنا كلنا الى <roleName type="باش-اغا">باش اغا</roleName> فسئلت امرأة السيد
-            <persName>محمد </persName>عن ذلك فقالت لما اتى الولد بال<roleName type="نجار"
-            >نجار</roleName> كلفونى لان اتى بالمفتاح فقلت لهم اطلعوا انتم فصعد الولد فرأى عتبة
+            <persName>محمد </persName>عن ذلك فقالت لما اتى الولد بال<roleName type="نجار">نجار</roleName> كلفونى لان اتى بالمفتاح فقلت لهم اطلعوا انتم فصعد الولد فرأى عتبة
           الاوضة التى فيها تلك الاشيا[ء] مرفوعة فاراد ان يدخل فلم يقدر فكسر الضبة ودخل واخبر ان
           الأشياء سرقت وبعد ذلك اتهمنا بها فصادق السيد <persName>على</persName> على قوله بانه كسر
           الضبة فاحضر <persName>محمد</persName>ال<roleName type="نجار">نجار</roleName> وسئل فقال قد
           دعانى ابن <persName>بيهانه</persName> فذهبت معه وقلت له ان لا يفتح الضبة من غير مفتاح فطلع
           واتى به وفتح الباب ثم اتى السيد <persName>على</persName> وتركتهم يتسألون ولا علم لى بشئ من
-          ذلك فهدد السيد <persName>محمد</persName> فلم يحصل افادة فعرض ذلك الى الافندى <roleName
-            type="مأمور-الديوان-الخديوى">مأمور<orgName type="الديوان-الخديوى">الديوان <roleName
-                type="الخديوى">الخديوى</roleName></orgName></roleName> فقال انه لم يظهر علامة تدل
-          على ان السيد <persName>محمد</persName> فعل ذلك هذا وان <roleName type="مشايخ-الاصناف"
-            >مشايخ الاصناف</roleName> يتعهدون بحسن سيرته وانه من كلام الامراتين ينفهم ان بينهما
+          ذلك فهدد السيد <persName>محمد</persName> فلم يحصل افادة فعرض ذلك الى الافندى <roleName type="مأمور-الديوان-الخديوى">مأمور<orgName type="الديوان-الخديوى">الديوان <roleName type="الخديوى">الخديوى</roleName></orgName></roleName> فقال انه لم يظهر علامة تدل
+          على ان السيد <persName>محمد</persName> فعل ذلك هذا وان <roleName type="مشايخ-الاصناف">مشايخ الاصناف</roleName> يتعهدون بحسن سيرته وانه من كلام الامراتين ينفهم ان بينهما
           اختلافا فالمقتضى ان يذهبوا جميعهم الى الشرع فارسلوا وتم الامر على هذا المنوال</p>
         <p>حوادث <orgName type="مجلس-المشورة">مجلس المشورة</orgName><persName>على رضا
-            افندى</persName><roleName type="مأمور-اشغال-المحروسة">مأمور<orgName
-              type="اشغال-المحروسة">اشغال المحروسة</orgName></roleName> قرر انه يلزم ثمانية عشر الفا
+            افندى</persName><roleName type="مأمور-اشغال-المحروسة">مأمور<orgName type="اشغال-المحروسة">اشغال المحروسة</orgName></roleName> قرر انه يلزم ثمانية عشر الفا
           واربعماية وخمسون حمل تبن ما عدا التبن الذى رتب اولا ويلزم ايضا سبعون مركبا لنقل تبن
             مواشى<orgName type=" الجهادية">الجهادية</orgName> وغيرها وكان قد استقر الراى على ان يعطى
           مركبا واستدعى ان يعطى لذلك صورة مستحسنة ولدى المذاكرة قالوا ان ثلاثة عشر الفا واربعماية
           وثمانية وخمسين حملا تبنا من الكمية التى ذكرها الافندى المومى اليه وقدرها ثمانية عشر الفا
           واربعماية وثمانية وخمسون حملا وتبعت على الاقاليم الوسطى ومن اجل ذلك يجب ان يحرر علم من
-            <orgName type="الديوان-الخديوى">الديوان <roleName type="الخديوى"
-            >الخديوى</roleName></orgName> الى حضرة <persName>احمد باشا</persName> لاجل ايرادها الى
-            <orgName type="شونة-شبرا">شونة شبرا</orgName> شهاب يخصص لها <roleName type="ناظر"
-            >ناظر</roleName> من <roleName type="اغاوات-البيروت">اغاوات البيروت</roleName> و<roleName
-            type="كاتب">كاتب</roleName> بخمسة وسبعين قرشا شهرية بمعرفة الافندى <roleName
-            type="مأمور-الديوان-الخديوى">مأمور<orgName type="الديوان-الخديوى">الديوان
+            <orgName type="الديوان-الخديوى">الديوان <roleName type="الخديوى">الخديوى</roleName></orgName> الى حضرة <persName>احمد باشا</persName> لاجل ايرادها الى
+            <orgName type="شونة-شبرا">شونة شبرا</orgName> شهاب يخصص لها <roleName type="ناظر">ناظر</roleName> من <roleName type="اغاوات-البيروت">اغاوات البيروت</roleName> و<roleName type="كاتب">كاتب</roleName> بخمسة وسبعين قرشا شهرية بمعرفة الافندى <roleName type="مأمور-الديوان-الخديوى">مأمور<orgName type="الديوان-الخديوى">الديوان
               الخديوى</orgName></roleName> ويحرر علم منه الى <persName>الحاج محمد
-            اغا</persName><roleName type="مأمور-القليوبية">مأمور <placeName
-              ref="https://www.geonames.org/360621/muhafazat-al-qalyubiyah.html"
-              >القليوبية</placeName></roleName> لكى يرتب خفيرين والى <persName>خليل
+            اغا</persName><roleName type="مأمور-القليوبية">مأمور <placeName ref="https://www.geonames.org/360621/muhafazat-al-qalyubiyah.html">القليوبية</placeName></roleName> لكى يرتب خفيرين والى <persName>خليل
             افندى</persName><roleName type="ناظر-ترسانات">ناظر ترسانات</roleName> ليعطى المراكب
           كاملة فتبلغ السبعين ويعمل معدلا لذهاب المراكب وورودها ولاجل النظارة على ذلك يرسل واحد من
-          طرف ال<orgName type="ترسانة">ترسانة</orgName> واخر من طرف <orgName type="ديوان-المحروسة"
-            >ديوان المحروسة</orgName> ويحرر الى <persName>على افندى</persName> علم يشعره بذلك كما
+          طرف ال<orgName type="ترسانة">ترسانة</orgName> واخر من طرف <orgName type="ديوان-المحروسة">ديوان المحروسة</orgName> ويحرر الى <persName>على افندى</persName> علم يشعره بذلك كما
           استقر على ذلك الراى</p>
         <p>حوادث <orgName type="مجلس-المشورة">مجلس المشورة</orgName><persName>خليل
-            افندى</persName><roleName type="ناظر-الترسانة">ناظر ال<orgName type="ترسانة"
-              >ترسانة</orgName></roleName> اخبر انه قبل هذا استقر الراى على ان توخذ الاخشاب التى
-          اخذت من <persName>محمد كتخدا</persName> سددا لما قدمه من الاعتذار وتعطى ل<orgName
-            type="ديوان-ابنية-ميرى">ديوان ابنية الميرى</orgName> وان <roleName type="ناطر-الابنية"
-            >ناظر الابنية</roleName> طلب ان يعطى نصفها ل<orgName type="ديوان-الترسانة">ديوان
+            افندى</persName><roleName type="ناظر-الترسانة">ناظر ال<orgName type="ترسانة">ترسانة</orgName></roleName> اخبر انه قبل هذا استقر الراى على ان توخذ الاخشاب التى
+          اخذت من <persName>محمد كتخدا</persName> سددا لما قدمه من الاعتذار وتعطى ل<orgName type="ديوان-ابنية-ميرى">ديوان ابنية الميرى</orgName> وان <roleName type="ناطر-الابنية">ناظر الابنية</roleName> طلب ان يعطى نصفها ل<orgName type="ديوان-الترسانة">ديوان
             الترسانة</orgName> والنصف الاخر ل<orgName type="ديوان-الابنية">ديوان الابنية</orgName>
           وقبل طلبه هذا اسعافا له ونشرت خلاصات لهما لكى ياخذا تلك الاخشاب مشاطرة وان الاخشاب الباقية
           من مدة <persName>شاكر افندى</persName> لكونها غالية لايرغب احد من المأمورين فى مشترائها او
@@ -283,21 +239,14 @@
             ال<orgName type=" ديوان-الخديوى">ديوان الخديوى</orgName> الى الافنديين المومى اليهما
           ليقتسما الاخشاب بينهما مناصفة كما استقر على ذلك الراى. </p>
         <p>حوادث ال<orgName type="ديوان-الخديوى">ديوان الخديوى</orgName>
-          <persName>محمد حمد</persName> الساكن فى <placeName
-            ref="https://www.geonames.org/359449/bab-ash-sha-riyah.html">باب الشعرية</placeName>
-            و<persName>حنفى</persName>ال<roleName type="دلال">دلال</roleName> فى <orgName
-            type="سوق-المؤيد">سوق المؤيد</orgName> و<persName>احمد الفولى</persName>
+          <persName>محمد حمد</persName> الساكن فى <placeName ref="https://www.geonames.org/359449/bab-ash-sha-riyah.html">باب الشعرية</placeName>
+            و<persName>حنفى</persName>ال<roleName type="دلال">دلال</roleName> فى <orgName type="سوق-المؤيد">سوق المؤيد</orgName> و<persName>احمد الفولى</persName>
             و<persName>قاسم</persName> و<persName>احمد السايس</persName> من اهالى
-            <placeName>دجوه</placeName> فى <placeName
-            type="https://www.geonames.org/360621/muhafazat-al-qalyubiyah.html"
-            >القليوبية</placeName> جاؤا الى ال<orgName type="ديوان-الخديوى">ديوان الخديوى</orgName>
+            <placeName>دجوه</placeName> فى <placeName type="https://www.geonames.org/360621/muhafazat-al-qalyubiyah.html">القليوبية</placeName> جاؤا الى ال<orgName type="ديوان-الخديوى">ديوان الخديوى</orgName>
           بمعرفة <roleName type="باش-اغا">باش اغا</roleName> فى <date>اليوم الثامن من ذى
-            القعدة</date> فقال <persName>محمد حمدانى</persName> دخلت <orgName type="حمام-الشعراوى"
-            >حمام الشعراوى</orgName> منذ يومين فسرق لى فيه عربان وعباة و شال ابيض وطربوش ومركوب
+            القعدة</date> فقال <persName>محمد حمدانى</persName> دخلت <orgName type="حمام-الشعراوى">حمام الشعراوى</orgName> منذ يومين فسرق لى فيه عربان وعباة و شال ابيض وطربوش ومركوب
           وسبعون فضية فى كيس فخاصمت الحمامى وذهبت واذ كنت سائرا فى <orgName type="سوق-المؤيد">سوق
-            المؤيد</orgName>امس رأيت عربى مع<persName>حنفى</persName>ال<roleName type="دلال"
-            >دلال</roleName>فمسكنه فاخذنى الى <persName>احمد</persName>ال<roleName type="سايس"
-            >سايس</roleName> ورأيت العباة باقية المقال ايضا مع <persName>احمد الفولى</persName>
+            المؤيد</orgName>امس رأيت عربى مع<persName>حنفى</persName>ال<roleName type="دلال">دلال</roleName>فمسكنه فاخذنى الى <persName>احمد</persName>ال<roleName type="سايس">سايس</roleName> ورأيت العباة باقية المقال ايضا مع <persName>احمد الفولى</persName>
           فمسكتها فاخذنى الى <persName>قاسم</persName>ال<roleName type="دلال">دلال</roleName> فاخذت
           الجميع الى <roleName type="باش-اغا">باش اغا</roleName> وهو ارسلنا الى هنا فسئل حنفى فقال
           انه اتى الى رجل قبل هذا بعرى وقال لى بعه بثمانية قروش فطلبت منه كفيلا فاتى
@@ -305,8 +254,7 @@
           الرجل امس واخذ العرى مدعيا بانه له فذهبت به الى الكفيل فسئل <persName>احمد
             الفولى</persName> فقال انا اخذت العباة بستة قروش من <persName>قاسم</persName>
             ال<roleName type="دلال">دلال</roleName> سئل <persName>قاسم</persName> فقال ان العباة
-          باعها رجل لا اعرف اسمه وكفيله <persName>احمد</persName> ال<roleName type="سايس"
-            >سايس</roleName> فسئل <persName>احمد</persName> ال<roleName type="سايس">سايس</roleName>
+          باعها رجل لا اعرف اسمه وكفيله <persName>احمد</persName> ال<roleName type="سايس">سايس</roleName> فسئل <persName>احمد</persName> ال<roleName type="سايس">سايس</roleName>
           فقال انا كنت خداما عند <roleName type="صواقول-اغاسى">صواقول اغاسى</roleName> فى اورطة
           الطوبجية وان الذى باع العرى رجل <roleName type="بلطاجه-جى">بلطه جى</roleName> فى تلك
           الاورطة اسمه <persName>سليمان</persName> ولما افترقت من سيدى واتيت الى هنا اتى المذكور يوم
@@ -320,20 +268,15 @@
       </div>
       <div xml:id="W04" resp="#eSG">
         <head><date when-custom="1246-01-21">٢١ محرم الحرام ١٢٤٦</date><date when="1830-07-12">١٢
-            يوليو ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ١٦٤</biblScope><biblScope
-              unit="page">صفحة ٤</biblScope></bibl></head>
+            يوليو ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ١٦٤</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
         <head>حوادث <orgName type="مجلس-المشورة">مجلس المشورة</orgName></head>
-        <p><persName>حسن بيك</persName><roleName type="مأمور-الجيزة">مأمور <placeName
-              ref="https://www.geonames.org/360995/giza.html">الجيزة</placeName></roleName> ارسل شقة
+        <p><persName>حسن بيك</persName><roleName type="مأمور-الجيزة">مأمور <placeName ref="https://www.geonames.org/360995/giza.html">الجيزة</placeName></roleName> ارسل شقة
           الى <orgName type="مجلس-المشورة">مجلس المشورة</orgName>مضمونها انه ورد اليه خلاصة رسم بها
-          ان يرتب ثلاثة وعشرون الفا ستمائة حمل تبنا اسود الى <orgName type="ديوان-اشغال-المحروسة"
-            >ديوان اشغال المحروسة</orgName> من محصول سنة خمس واربعين غير ان من الفول الذى زرع فى
+          ان يرتب ثلاثة وعشرون الفا ستمائة حمل تبنا اسود الى <orgName type="ديوان-اشغال-المحروسة">ديوان اشغال المحروسة</orgName> من محصول سنة خمس واربعين غير ان من الفول الذى زرع فى
           السنة المذكورة وقدره اربعة الاف واربعمائة وستة وسبعون فدانا كما [با]ن ذلك من الدفتر لا
           يمكن ان تتحصل تلك الكمية المرتبة ولدى المذاكرة قالوا من حيث الامر كذا فالمقتضى ان يرتب على
-            <orgName type="مأمورية-الجيزة">مأمورية <placeName
-              ref="https://www.geonames.org/360995/giza.html">الجيزة</placeName></orgName> سبعة الاف
-          وستمائة حمل وعلى <orgName type="مأمورية-بنى-سويف">مأمورية <placeName
-              ref="https://www.geonames.org/359173/bani-suwayf.html">بنى سويف</placeName></orgName>
+            <orgName type="مأمورية-الجيزة">مأمورية <placeName ref="https://www.geonames.org/360995/giza.html">الجيزة</placeName></orgName> سبعة الاف
+          وستمائة حمل وعلى <orgName type="مأمورية-بنى-سويف">مأمورية <placeName ref="https://www.geonames.org/359173/bani-suwayf.html">بنى سويف</placeName></orgName>
           ستة عشر الف حمل ويحرر من ال<orgName type="ديوان-الخديوى">ديوان الخديوى</orgName> علم الى
           حضرة <persName>احمد باشا</persName><roleName type="مدير-الاقاليم-الوسطانية">مدير الاقاليم
             الوسطانية</roleName>لاجل ارسال التبن شيأ فشيأ والى المير المومى اليه والى <persName>محمد
@@ -342,22 +285,18 @@
       </div>
       <div xml:id="W05" resp="#eSG">
         <head><date when-custom="1246-01-23">٢٣ محرم الحرام ١٢٤٦</date><date when="1830-07-14">١٤
-            يوليو ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ١٦٥</biblScope><biblScope
-              unit="page">صفحة ٤</biblScope></bibl></head>
+            يوليو ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ١٦٥</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
         <head><title>حوادث <orgName type="مجلس-المشورة">مجلس المشورة</orgName></title></head>
         <p><persName> محمد اغا</persName><roleName type="ناظر-الجير-والجبس">ناظر الجير
             والجبس</roleName> قرر انه يلزم لتشغيل البوص والتبن المقتضى للجير والجبس خمسة واربعون
           مركبا مما رتب لذلك من ال<orgName type=" ترسانة">ترسانة</orgName> واستدعى ان ترسل اليه
           سريعا ولدى المذاكرة قالوا ن انها الاغا المومى اليه فى محله فينبغى ان يحرر علم من
-            ال<orgName type="ديوان-الخديوى">ديوان <roleName type="خديوى"
-            >الخديوى</roleName></orgName> الى <persName>خليل افندى</persName><roleName
-            type="ناظر-الترسانة">ناظر الترسانة</roleName> اشعارا له باعطاء المراكب المذكورة والى
+            ال<orgName type="ديوان-الخديوى">ديوان <roleName type="خديوى">الخديوى</roleName></orgName> الى <persName>خليل افندى</persName><roleName type="ناظر-الترسانة">ناظر الترسانة</roleName> اشعارا له باعطاء المراكب المذكورة والى
           الناظر المومى اليه اخبارا له بذلك كما استقر الراى على ذلك </p>
       </div>
       <div xml:id="W06" resp="#eSG">
         <head><date when="1246-02-05">٥ صفر ١٢٤٦</date><date type="1830-07-26">٢٦ يوليو
-              ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ١٦٩</biblScope><biblScope unit="page"
-              >صفحة ١،٢،٤</biblScope></bibl></head>
+              ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ١٦٩</biblScope><biblScope unit="page">صفحة ١،٢،٤</biblScope></bibl></head>
         <p><persName>احمد</persName><sic>أفندى (بعض الحروف فى الكلمة غير واضحة لكن من الحروف الظاهرة
             هى على الأغلب أفندى)</sic><roleName type="ناظر-العقبات-الميرية">ناظر العقبات
             الميرية</roleName> قدم تقرير الى <orgName type="مجلس-المشورة">مجلس المشورة</orgName>
@@ -371,27 +310,20 @@
           على ذلك الرأى. </p>
         <p><persName>على افندى</persName><roleName type="مأمور-اشغال-المحروسة">مأمور اشغال
             المحروسة</roleName>قرر انه ارسل قواصا لكى ياتى بستين قنطارا صوفا <sic>مغزو[ل]</sic> (طرف
-          الصفحة كله مش موجود وبالتالى الاحرف الاخيرة كلها محذوفه) وهى التى رتبت على<orgName
-            type="مأمورية-الفيوم">مأمورية <placeName
-              ref="https://www.geonames.org/361320/al-fayyum.html">الفيوم</placeName></orgName>لاجل
+          الصفحة كله مش موجود وبالتالى الاحرف الاخيرة كلها محذوفه) وهى التى رتبت على<orgName type="مأمورية-الفيوم">مأمورية <placeName ref="https://www.geonames.org/361320/al-fayyum.html">الفيوم</placeName></orgName>لاجل
           عمل عشرة الاف سجادة لازمة للعساكر الجهادية <sic>ف [..]</sic> يحضر الرسول الأخمسة عشر
           قنطارا فقط واعطاء شقة من<persName>حسين اغا</persName>مأمور المحل المذكور تشتمل على عدم
           ارسال الباقى والحال انه ان لم يؤت بباقى الصوف سريعا يتأخر عمل السجادات ولدى المذاكرة قالوا
           لا يناسب ان يوخر عملها حيث هى لازمة للعساكر الجهادية وانه ظهر من <sic>تقر[ير]</sic>
           الافندى المومى اليه شفاها انه ورد فى العام الماضى اربعون قنطار صوف من
-            المأمورية<sic>المذكور[ة]</sic>فمن حيث ذلك ينبغى ان يحرر علم من ال<orgName
-            type="ديوان-الخديوى">ديوان الخديوى</orgName>الى <persName>حسين اغا</persName><roleName
-            type="مأمور-الفيوم">مأمور <placeName
-              ref="https://www.geonames.org/361320/al-fayyum.html">الفيوم</placeName></roleName>
+            المأمورية<sic>المذكور[ة]</sic>فمن حيث ذلك ينبغى ان يحرر علم من ال<orgName type="ديوان-الخديوى">ديوان الخديوى</orgName>الى <persName>حسين اغا</persName><roleName type="مأمور-الفيوم">مأمور <placeName ref="https://www.geonames.org/361320/al-fayyum.html">الفيوم</placeName></roleName>
           لاجل ان <sic>يرس[ل]</sic> الخمسة والاربعين قنطارا الباقية سريعا كما استقر الرأى على ذلك. </p>
         <p>حوادث مجلس المشورة <persName>اسماعيل اغا</persName><roleName type="مأمور-بنى-سويف">مأمور
               <placeName ref="https://www.geonames.org/359173/bani-suwayf.html">بنى
-            سويف</placeName></roleName> ارسل شقة الى <persName>على افندى</persName><roleName
-            type="مأمور-أشغال-المحروسة">مأمور اشغال المحروسة</roleName> ساله بها عن سعر التين الذى
+            سويف</placeName></roleName> ارسل شقة الى <persName>على افندى</persName><roleName type="مأمور-أشغال-المحروسة">مأمور اشغال المحروسة</roleName> ساله بها عن سعر التين الذى
           يرد من الرعية الى الاشوان فقدمها المومى اليه الى المجلس ولدى المذاكرة رسموا بان يوخذ الحمل
           مما يرد من الوجه القبلى بثلاثة قروش ومما يرد من الوجه البحرى باربعة قروش بشرط ان يكون كل
-          حملة من التين مايتين اقة ويعطى به رجعة على الوجه المشروح ويحرر علم من ال<orgName
-            type="ديوان-الخديوى">ديوان الخديوى</orgName>الى مأمورى الاقاليم البحرية والى الاغا
+          حملة من التين مايتين اقة ويعطى به رجعة على الوجه المشروح ويحرر علم من ال<orgName type="ديوان-الخديوى">ديوان الخديوى</orgName>الى مأمورى الاقاليم البحرية والى الاغا
           المومى اليه اشعارا لهم بذلك استقر الرأى على هذا</p>
       </div>
       <div xml:id="W07" resp="#eSG">
@@ -400,10 +332,8 @@
               ٢، ٤</biblScope></bibl></head>
         <head><title>حوادث ال<orgName type="ديوان-الخديوى">ديوان الخديوى</orgName></title></head>
         <p>اتى الى ال<orgName type="ديوان-الخديوى">ديوان الخديوى</orgName><persName>الحاج
-            امين</persName><roleName type="بصاص-مصر-القديمة">بصاص <placeName
-              ref="https://www.geonames.org/352261/misr-al-qadimah.html">مصر
-            القديمه</placeName></roleName> وقال بينما كنت اليوم جالسا فى ساحل <placeName
-            ref="https://www.geonames.org/352261/misr-al-qadimah.html">مصر القديمة</placeName> اذ
+            امين</persName><roleName type="بصاص-مصر-القديمة">بصاص <placeName ref="https://www.geonames.org/352261/misr-al-qadimah.html">مصر
+            القديمه</placeName></roleName> وقال بينما كنت اليوم جالسا فى ساحل <placeName ref="https://www.geonames.org/352261/misr-al-qadimah.html">مصر القديمة</placeName> اذ
           اتت اربع نساء من المنيل وفى يد كل منهن قطعة لحم ودخلن مصر فاخذت اللحم منهن واطلقتهن فذهبن
           وعرضن ذلك ل<persName>محمد اغا</persName><roleName type="ناظر-الجير-والجبس">ناظر الجير
             والجبس</roleName>فدعانى اليه واخذ اللحم منى وقال اذهب الى الديوان وات بامر منه وخذ اللحم
@@ -412,8 +342,7 @@
         <p>حوادث <orgName type="مجلس-المشورة">مجلس المشورة</orgName> قد حصل الانس والامان ورفاهية
           الحال والاطمئنان فى زمن افندينا ولى النعم المعظم وذلك بوضع القوللقات داخل المحروسة بجميع
           المحطات فبادر سكانها بتأدية الدعا لدوام دولته وازدياد صولته واذ حصل ولله الحمد فى
-            <placeName ref="https://www.geonames.org/357994/arab-republic-of-egypt.html"
-            >مصر</placeName>نا هذا النظام الباهر فى كامل الامور لزم لتتميم زينتها تنظيف الازقة
+            <placeName ref="https://www.geonames.org/357994/arab-republic-of-egypt.html">مصر</placeName>نا هذا النظام الباهر فى كامل الامور لزم لتتميم زينتها تنظيف الازقة
           والاسواق اذ هو امر يجب الاهتمام به اولا لتكميل بهجتها وثانيا لرفع الشك والاشتباه من حصول
           العلل المتنوعة والامراض المختلفة التى تحدث من الاوخام وهذا معلوم عند اهل الحذق والتدقيق
           فينبغى عند صبيحة كل يوم ان كلا من اهل الاسواق يكنس ويرش جهة دكانه وان القاطنين بالمنازل
@@ -422,15 +351,12 @@
             المحروسة</roleName> انه اذا صادف اناسا منهم يضربهم ضربا خفيفا وينهاهم ان يعودوا ويفعلوا
           امرا مثل هذا و<roleName type="القوللقات">القوللقات</roleName> ايضا اذا رأوا شيأ مثل هذا
           يزجرون فاعله ويمنعونه وكل من اصحاب البيوت والدكاكين يوم لا ينظف اما مكانه يحصل له التأديب
-          ولاجل هذه النظافة الكلية يحتاج اولا التنبيه والتأكيد من طرف ال<orgName
-            type="ديوان-الخديوى">ديوان الخديوى</orgName>على <roleName type="مشايخ-الاثمان">مشايخ
+          ولاجل هذه النظافة الكلية يحتاج اولا التنبيه والتأكيد من طرف ال<orgName type="ديوان-الخديوى">ديوان الخديوى</orgName>على <roleName type="مشايخ-الاثمان">مشايخ
             الاثمان</roleName> وبعد ذلك تحصل المناداه فى الازقة والشوارع لاجل الاعلان اذ السعى فى
-          تحصيل اسباب النظافة يؤدى الى خير جزيل فلما بان ذلك بالمناسبة ل<orgName type="مجلس-المشورة"
-            >مجلس المشورة</orgName> قالوا انه يجب التنظيم حسبما هو مشروح وكذلك المحلات التى فيها
+          تحصيل اسباب النظافة يؤدى الى خير جزيل فلما بان ذلك بالمناسبة ل<orgName type="مجلس-المشورة">مجلس المشورة</orgName> قالوا انه يجب التنظيم حسبما هو مشروح وكذلك المحلات التى فيها
           ورشات الميرى يحتاج التنبيه والتأكيد من نظارها بالكنس والرش وكذلك المحلات الخربه الكائنة
           بالحارات يرشها سقا الحارة وتعطى له اجرته من مقتدرى اهل الحارة واما الارض القريبة الى
-            ال<orgName type="قلعة">قلعة</orgName> فيكون تنظيفها ورشها بمعرفة <roleName
-            type="سقاباشى-القلعة">سقاباشى ال<orgName type="قلعة">قلعة</orgName></roleName> وكذلك رش
+            ال<orgName type="قلعة">قلعة</orgName> فيكون تنظيفها ورشها بمعرفة <roleName type="سقاباشى-القلعة">سقاباشى ال<orgName type="قلعة">قلعة</orgName></roleName> وكذلك رش
           فسحات تعليم العسكر المنصور فلاجل ذلك يجب التحرير من ال<orgName type="ديوان-الخديوى">ديوان
             الخديوى</orgName> الى <roleName type="نظار-الدواوين">نظار الدواوين</roleName>
             وال<roleName type="محافظين-بالمحروسة">محافظين بالمحروسة</roleName><persName>عثمان
@@ -443,12 +369,9 @@
             <biblScope unit="page">صفحة ١، ٤</biblScope></bibl></head>
         <head><title>حوادث ال<orgName type="ديوان-الخديوى">ديوان الخديوى</orgName></title></head>
         <p> وردت تذكرة من البيك ال<roleName type="ضابط">ضابط</roleName> مضمونها ان <persName>احمد
-            الزيات</persName> ب<placeName ref="https://www.geonames.org/7914348/al-jamaliyah.html"
-            >الخرنفش</placeName> يدعى <persName>على داود الخفسر</persName> بانه فتح دكانه ونازعه
+            الزيات</persName> ب<placeName ref="https://www.geonames.org/7914348/al-jamaliyah.html">الخرنفش</placeName> يدعى <persName>على داود الخفسر</persName> بانه فتح دكانه ونازعه
           ولذا ارسلهما الى ال<orgName type="ديوان-الخديوى">ديوان الخديوى</orgName> مع عوذ احد انفار
-          القوللق الذى فى <placeName ref="https://www.geonames.org/9179530/al-muski.html"
-            >الموسكى</placeName> فسئل <persName>الزيات</persName> فقال ان لى دكانا فى <placeName
-            type="https://www.geonames.org/7914348/al-jamaliyah.html">الخرنفش</placeName> وانى ذهبت
+          القوللق الذى فى <placeName ref="https://www.geonames.org/9179530/al-muski.html">الموسكى</placeName> فسئل <persName>الزيات</persName> فقال ان لى دكانا فى <placeName type="https://www.geonames.org/7914348/al-jamaliyah.html">الخرنفش</placeName> وانى ذهبت
           اليه صباحا فوجدت الضبة مفتوحة وكان لى فيه دراهم فلم ارها فاخذت الخفير الى البيك
             ال<roleName type="ضابط">ضابط </roleName>وهو ارسلنا الى هنا فسئل عن كمية الدراهم فقال هى
           مائتان وخمسون قرشا او مائتان وخمسة وعشرون او مائتان فسئل عن اصنافها فقال ليست فى بالى فسئل
@@ -461,14 +384,11 @@
         <p>حوادث ال<orgName type=" ديوان-الخديوى">ديوان الخديوى</orgName> ورد تذكرة من البيك
             ال<roleName type="ضابط">ضابط</roleName> الى <orgName type="ديوان-الخديوى">ديوان
             الخديوى</orgName> مضمونها ان <persName>عايشه</persName>
-          و<persName>محمد</persName>القاطنين فى <placeName
-            ref="https://www.geonames.org/9180123/qism-al-khalifa.html">ثمن الخليفة</placeName>
+          و<persName>محمد</persName>القاطنين فى <placeName ref="https://www.geonames.org/9180123/qism-al-khalifa.html">ثمن الخليفة</placeName>
           بينهما دعوى ولذا ارسلهما فسئلت <persName>عايشة</persName> فقالت ان رجل عاجز وانى اسكن مع
             <persName>محمد صالح</persName> هذا فى حوش واحد وانه كلفنى مرارا بفعال ردية وطردته من
           المحل فاتى فى هذه الليلية وسرق بعض <sic>اشيا[ء]</sic>لى فلما استيقظت من الرقاد قبضت عليه
-          فضربنى على وجهى ورمى <sic>بالاشيا[ء]</sic> التى اخذها وهرب فذهبت صباحا الى ال<orgName
-            type="قوللق">قوللق</orgName> واخذت منه نفرا وتوجهت الى البيك ال<roleName type="ضابط"
-            >ضابط</roleName> وهو ارسلنا الى هنا فسئل <persName>محمد صالح</persName> فقال انا حداد فى
+          فضربنى على وجهى ورمى <sic>بالاشيا[ء]</sic> التى اخذها وهرب فذهبت صباحا الى ال<orgName type="قوللق">قوللق</orgName> واخذت منه نفرا وتوجهت الى البيك ال<roleName type="ضابط">ضابط</roleName> وهو ارسلنا الى هنا فسئل <persName>محمد صالح</persName> فقال انا حداد فى
           ورشة الظهورات وان ما تدعى به على لا وجه له اذ هو افترا فهدد فقال ان الشيطان اغوانى فادب
           وارسل الى <persName>ادهم بيك</persName> ليشتغل ثلاثة اشهر محبوسا</p>
       </div>
@@ -477,11 +397,9 @@
             ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ١٧٦</biblScope><biblScope unit="page">صفحة
               ١، ٣</biblScope></bibl></head>
         <head><title>حوادث ال<orgName type="ديوان-الخديوى">ديوان الخديوى</orgName></title></head>
-        <p>فى غرة محرم جاءت <persName>الست قرنفله</persName> الساكنة فى <placeName
-            ref="https://www.geonames.org/7913957/ad-darb-al-ahmar.html">التبانه</placeName> الى
+        <p>فى غرة محرم جاءت <persName>الست قرنفله</persName> الساكنة فى <placeName ref="https://www.geonames.org/7913957/ad-darb-al-ahmar.html">التبانه</placeName> الى
             ال<orgName type="ديوان-الخديوى">ديوان الخديوى</orgName> وقالت اننى استأجرت اوضة فى
-            منزل<persName> احمد</persName> ال<roleName type="صابونجى">صابونجى</roleName>ب<placeName
-            ref="https://www.geonames.org/7913957/ad-darb-al-ahmar.html">التبانة</placeName> وسكنت
+            منزل<persName> احمد</persName> ال<roleName type="صابونجى">صابونجى</roleName>ب<placeName ref="https://www.geonames.org/7913957/ad-darb-al-ahmar.html">التبانة</placeName> وسكنت
           فيها <sic>م[ن]ذ</sic> ثمانية ايام واذ كانت راقدة على السطح واذا
             ب<persName>رضوان</persName> ابن اخت <persName>احمد</persName> اتى وقت الفجر وفتح باب
           المنزل ثم ذهب فدخلت اوضتى فرأيت صندوقى مفتوحا وقد سرق منه خمس عشرة ضفيره وخمس واربعون
@@ -498,12 +416,9 @@
           على انه سرق ارسل للشرع فى اليوم السابع من صفر.</p>
         <p> حوادث <orgName type="مجلس-المشورة">مجلس المشورة</orgName><persName>شرمى
             افندى</persName><roleName type="معاون-الترسانات">معاون الترسانات</roleName>قدم تقريرا
-          الى <orgName type="مجلس-المشورة">مجلس المشورة</orgName> مضمونه ان ال<orgName
-            type="شونة-مصر-القديمة">شونة</orgName> الكائنة ب<placeName
-            ref="https://www.geonames.org/352261/misr-al-qadimah.html">مصر القديمة</placeName> يصرف
+          الى <orgName type="مجلس-المشورة">مجلس المشورة</orgName> مضمونه ان ال<orgName type="شونة-مصر-القديمة">شونة</orgName> الكائنة ب<placeName ref="https://www.geonames.org/352261/misr-al-qadimah.html">مصر القديمة</placeName> يصرف
           عليها فى ماهية ناظرها وخدمتها والمراكب المستخدمة بها واجرة الريس و الملاحين مبلغ قدره تسعة
-          آلاف ومائتان واربعة وثمانون قرشا ونصف قرش وان المصلحة المذكورة كانت سابقا تابعة ل<orgName
-            type="ديوان-اشغال-المحروسة">ديوان اشغال المحروسة</orgName>وكان المبلغ المذكور يصرف
+          آلاف ومائتان واربعة وثمانون قرشا ونصف قرش وان المصلحة المذكورة كانت سابقا تابعة ل<orgName type="ديوان-اشغال-المحروسة">ديوان اشغال المحروسة</orgName>وكان المبلغ المذكور يصرف
           لاربابه من <orgName type="ديوان-اشغال-المحروسة">ديوان اشغال المحروسة</orgName> نقدا والحال
           ان المصلحة الحقت الان ب<orgName type="ديوان-الترسانة">ديوان الترسانة</orgName> فالمبلغ
           المذكور يصرف لاربابه من <orgName type="ديوان-الترسانة">ديوان الترسانة</orgName>شهرا فشهرا
@@ -512,13 +427,10 @@
           وبعضه رجعا وان كان ينبغى له غير ذلك يلزم افادته ولدى المذكرة قالوا حيث قرر الافندى المومى
           اليه ان المبلغ المرقوم ان لم يصرف شهرا فشهرا يمنع توريد التبن بالشونة فينبغى ان المبلغ
           المرقوم يصرف شهرا فشهرا من <orgName type="ديوان-الترسانة">ديوان الترسانة</orgName> ويصرف
-          الى <orgName type="ديوان-الترسانة">ديوان الترسانة</orgName> من<orgName
-            type="ديوان-اشغال-المحروسة">ديوان اشغال المحروسة</orgName> كسالف الامر وتعطى الرجع
-          بالمبلغ المطلوب الى <persName>على افندى</persName><roleName type="مأمور-اشغال-المحروسة"
-            >مأمور اشغال المحروسة</roleName> من <orgName type="ديوان-الترسانة">ديوان
+          الى <orgName type="ديوان-الترسانة">ديوان الترسانة</orgName> من<orgName type="ديوان-اشغال-المحروسة">ديوان اشغال المحروسة</orgName> كسالف الامر وتعطى الرجع
+          بالمبلغ المطلوب الى <persName>على افندى</persName><roleName type="مأمور-اشغال-المحروسة">مأمور اشغال المحروسة</roleName> من <orgName type="ديوان-الترسانة">ديوان
             الترسانة</orgName> ويحرر امر من ال<orgName type="ديوان-الخديوى">ديوان
-          الخديوى</orgName>الى <persName>شرمى افندى</persName> المومى اليه والى <orgName
-            type="الخزينة-العامرة">الخزينة العامرة</orgName> بخصوص ذلك كما استقر الرأى عليه فى
+          الخديوى</orgName>الى <persName>شرمى افندى</persName> المومى اليه والى <orgName type="الخزينة-العامرة">الخزينة العامرة</orgName> بخصوص ذلك كما استقر الرأى عليه فى
             <orgName type="مجلس-المشورة">مجلس المشورة</orgName></p>
       </div>
       <div xml:id="W10" resp="#eSG">
@@ -537,8 +449,7 @@
           لها فى اى محل كانت تلك <sic>الأشيا[ء]</sic> فقالت كانت فى محلى ووضعتها على الحبل فسئلت
             <persName>ستيته</persName> فقالت انا اخدم هنا وهناك واتعيش بذلك مع بنت لى صغيرة وانه هذا
           اليوم اذا كنت نازلة كعادتى وجدت على السلم بعض <sic>اشيا[ء]</sic> لهذه المرأة فرفعتها
-          وسلمتها اليها فمسكت بى وهى تقول حوايجى عندك فسئل <persName>حسن</persName> ال<roleName
-            type="بصاص">بصاص</roleName> حيث كان حضرا فقال انا ذهبت الى منزلهما فرأيت الباب البرانى
+          وسلمتها اليها فمسكت بى وهى تقول حوايجى عندك فسئل <persName>حسن</persName> ال<roleName type="بصاص">بصاص</roleName> حيث كان حضرا فقال انا ذهبت الى منزلهما فرأيت الباب البرانى
           مخلعا ولاضبة له ففتشت فى اودة <persName>ستيته</persName> ولم ار شيأ فمن حيث ان
             <persName>ستيته</persName> لها عادة على امر مثل هذا ولم <sic>يطهر</sic>علامة تدل على ذلك
           احيلت دعواهما الى الشرع الشريف.</p>
@@ -551,58 +462,48 @@
         <p>وردت تذكرة من البيك ال<roleName type="ضابط">ضابط</roleName> محرر فيها ان
             <persName>محمدا</persName><roleName type="الجاويش-الرابع">الجاويش الرابع</roleName>عند
             <roleName type="يوزباشى-الاول">يوزباشى الاول</roleName>فى الاورطة الثالثة من الالاى
-          الفرسان الرابع له دعوى على<persName> خليل ربيع</persName><roleName type="خفير-مصر-القديمة"
-            >خفير <placeName ref="https://www.geonames.org/352261/misr-al-qadimah.html">مصر
+          الفرسان الرابع له دعوى على<persName> خليل ربيع</persName><roleName type="خفير-مصر-القديمة">خفير <placeName ref="https://www.geonames.org/352261/misr-al-qadimah.html">مصر
               القديمة</placeName></roleName> ولذا ارسلهما الى ال<orgName type="ديوان-الخديوى">ديوان
             الخديوى</orgName> مع على احد انفار <orgName type="قوللق-الموسكى">قوللق الموسكى</orgName>
           فسئل <persName>محمد</persName>ال<roleName type="جاويش">جاويش</roleName>فقال انه قبل عيد
           الاضحى بستة ايام سرق لى من العش الذى اسكن فيه حلة وقميصان وفم شبوق زانى اتيت الى
-            <placeName ref="https://www.geonames.org/357994/arab-republic-of-egypt.html"
-            >مصر</placeName> امس باجازة من ضابطى واذ كنت عايدا دخلت قهوة فيها فرأيت الفم بيد هذا
+            <placeName ref="https://www.geonames.org/357994/arab-republic-of-egypt.html">مصر</placeName> امس باجازة من ضابطى واذ كنت عايدا دخلت قهوة فيها فرأيت الفم بيد هذا
           الرجل فسألته فقال اخذته من مغربى منذ سنتين فسلمته للقوللق فقيل له اين كنت يوم سرقت
             <sic>الاشيا[ء]</sic> فقال كنت فى خدمتى وكانت امرأتى نائمه فسئل
-          <persName>خليل</persName>فقال انا رأيت هذا الفم مع مغربى شيخ فى بوزه خانه ب<placeName
-            ref="https://www.geonames.org/352261/misr-al-qadimah.html">مصر القديمة</placeName>منذ
+          <persName>خليل</persName>فقال انا رأيت هذا الفم مع مغربى شيخ فى بوزه خانه ب<placeName ref="https://www.geonames.org/352261/misr-al-qadimah.html">مصر القديمة</placeName>منذ
           سنتين فسألته بيعه فقال ابيعه فاعطيته خمسة قروش واخذته فقيل له هل اخذت كفيلا له فقال لا مثل
           ذلك لا يلزم له كفيل حيث هو قليل ثمنه فقيل له هل أحد رأى هذا الفم معك قبل العيد فقال نعم
           واتى بشهود ولم يقنع ال<roleName type="جاويش">جاويش</roleName> فارسلا الى الشرع </p>
       </div>
       <div xml:id="W12" resp="#eSG">
         <head><date when-custom="1246-03-23">٢٣ ربيع اول ١٢٤٦</date><date when="1830-09-11">١١
-            سبتمبر١٨٣٠</date><bibl><biblScope unit="issue">نمرة ١٨٩</biblScope><biblScope
-              unit="page">صفحة ١،٢،٤</biblScope></bibl></head>
+            سبتمبر١٨٣٠</date><bibl><biblScope unit="issue">نمرة ١٨٩</biblScope><biblScope unit="page">صفحة ١،٢،٤</biblScope></bibl></head>
         <head><title>حوادث <orgName type="مجلس-المشورة">مجلس المشورة</orgName></title></head>
         <p><persName type="امين-افندى"> امين افندى</persName><roleName type="ناظر-المبيع"> ناظر
             المبيع</roleName> قرر انه قبل هذا اعطى تقريرا يشتمل على انه ينشأ محل مناسب ويلحق
           بالديوان المذكور لان المحل الذى يوضع فيه الغزل ليس متسع و الاهتمام فى وضع الاقمشة
           والمحافظة عليها لازم <sic>[ف]قد </sic>رؤى محل متسع فى <orgName type="ترسانة">ترسانة
-              <placeName ref="https://www.geonames.org/358683/bulaq-abu-al-ila.html"
-              >بولاق</placeName></orgName> ولكنه لرطوباته لا يناسب وحيث ان الافندى المومى
+              <placeName ref="https://www.geonames.org/358683/bulaq-abu-al-ila.html">بولاق</placeName></orgName> ولكنه لرطوباته لا يناسب وحيث ان الافندى المومى
             <sic>الي[ه]</sic> اخبر بذلك صدر امر بطرف النظر عن بنيانه واما تعمير المحل الذى فى
             <placeName ref="https://www.geonames.org/7914348/al-jamaliyah.html">الخرنفش</placeName>
           وعدم تعميره فمن <sic>[..] رط</sic> برأى ارباب المجلس ولدى المذاكرة قالوا لاجل تعمير المحل
-          الذى فى <placeName ref="https://www.geonames.org/7914348/al-jamaliyah.html"
-            >الخرنفش</placeName> والحاقه <sic>[ب]الديوان</sic> المذكور ولاجل حفظ الاقمشة والاستعجال
+          الذى فى <placeName ref="https://www.geonames.org/7914348/al-jamaliyah.html">الخرنفش</placeName> والحاقه <sic>[ب]الديوان</sic> المذكور ولاجل حفظ الاقمشة والاستعجال
           بالتعمير <sic>يحر[ر]</sic> علم من ال<orgName type="ديوان-الخديوى">ديوان الخديوى</orgName>
           الى <persName>امين افندى</persName>
           <roleName type="ناظر-الابنية">ناظر الابنية</roleName> كما استقر عليه الرأى <persName>احمد
             افندى شنن</persName><roleName type="ناظر-الحرير">ناظر الحرير</roleName> قرر انه تعلقت
-          الارادة السنية بان تحال انوال الحرير و<sic>فبريقلتها</sic> التى فى <placeName
-            ref="https://www.geonames.org/7913957/ad-darb-al-ahmar.html">الحوض المرصود</placeName>
+          الارادة السنية بان تحال انوال الحرير و<sic>فبريقلتها</sic> التى فى <placeName ref="https://www.geonames.org/7913957/ad-darb-al-ahmar.html">الحوض المرصود</placeName>
           على <persName>امين افندى</persName><roleName type="ناظر-المبيع">ناظر المبيع</roleName>
           والحال انها تنقل الى <placeName>حوش عيسى</placeName> الا ان المحل المذكور يحتاج الى ترميم
           وان الكشف عليه والشروع فى انشائه منوط برأى اهل المجلس العالى هذا ما انهاه ولدى المذاكرة
           قالوا من حيث ان المحل المذكور احيل على عهدة امين افندى فينبغى ان يشرع فى تعميره حسبما انهى
           الافندى المومى اليه ويرسل المهندس من <orgName type="ديوان-الابنية">ديوان الابنية</orgName>
-          ليكشف على المحلات المحتاجة فيه الى العمارة ويحرر علم من ال<orgName type="ديوان-الخديوى"
-            >ديوان الخديوى</orgName> الى <persName>احمد اغا</persName><roleName
-            type="وكيل-ناظر-الابنية">وكيل ناظر الابنية</roleName>اشعارا له بذلك كما استقر عليه الرأى
+          ليكشف على المحلات المحتاجة فيه الى العمارة ويحرر علم من ال<orgName type="ديوان-الخديوى">ديوان الخديوى</orgName> الى <persName>احمد اغا</persName><roleName type="وكيل-ناظر-الابنية">وكيل ناظر الابنية</roleName>اشعارا له بذلك كما استقر عليه الرأى
           فى اليوم الثانى عشر من شهر ربيع الاول. </p>
         <p>محمد اغا ناظر الجير والجص ارسل شقة الى <orgName type="مجلس-المشورة">مجلس
             المشورة</orgName> مضمونها انه قبل هذا عرض ل<orgName type="مجلس-المشورة">مجلس
             المشورة</orgName> بانه يلزم ثلاثة وتسعون الفا <sic>وستم[ا]ئة</sic> حمل تبنا لحرق الجير
-          فى هذا العام المبارك وان هذا المقدار وزع على الاقاليم الوسطانية وعلى <placeName
-            ref="https://www.geonames.org/360995/giza.html">الجيزة</placeName> ونشرت خلاصات الى
+          فى هذا العام المبارك وان هذا المقدار وزع على الاقاليم الوسطانية وعلى <placeName ref="https://www.geonames.org/360995/giza.html">الجيزة</placeName> ونشرت خلاصات الى
           مأموريهم بارساله سريعا ولكنه لم يرد منه حتى الان الى اشوان الاقاليم المذكورة الا ثلاثون
           الف حمل فقط وان ما ورد لا يكفى وليس موجودا تبن من العام الماضى فينبغى ان يصدر امر بارسال
           التبن الباقى سريعا ولدى المذكرة قالوا ان انه[حرف ممسوح من اخر الكلمة] الاغا المومى اليه فى
@@ -611,8 +512,7 @@
       </div>
       <div xml:id="W13" resp="#eSG">
         <head><date when-custom="1246-04-02">٢ ربيع اخر١٢٤٦</date><date when="1830-09-20">٢٠
-            سبتمبر١٨٣٠</date><bibl><biblScope unit="issue">نمرة ١٩١</biblScope><biblScope
-              unit="page">صفحة ٢</biblScope></bibl></head>
+            سبتمبر١٨٣٠</date><bibl><biblScope unit="issue">نمرة ١٩١</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
         <p><persName>سليمان اغا</persName><roleName type="ناظر-خليج-الزعفران">ناظر خليج
             الزعفران</roleName>قدم شقة الى ال<placeName type="ديوان-الخديوى">ديوان
             الخديوى</placeName> واحيلت الى <orgName type="مجلس-المشورة">مجلس
@@ -627,23 +527,16 @@
           الخليج فى صندوق محفوظة فى <orgName type="ديوان-الابنية">ديوان الابنية</orgName> بمعرفة
             <persName>محمود اغا</persName>
           <roleName type="قاوش-اغاسى">قاوش اغاسى</roleName> ولكنه لم يجر الحساب فى ديوان القسم الاول
-          من <placeName ref="https://www.geonames.org/360621/muhafazat-al-qalyubiyah.html"
-            >القليوبية</placeName> لكى تتبدل رجع <orgName type="ديوان-الجير-والجص">ديوان الجير
+          من <placeName ref="https://www.geonames.org/360621/muhafazat-al-qalyubiyah.html">القليوبية</placeName> لكى تتبدل رجع <orgName type="ديوان-الجير-والجص">ديوان الجير
             والجص</orgName> برجع الاضافه ولدى المذاكرة قالوا حيث ان حساب <placeName>خليج
-            الزعفرانى</placeName> يعطى الى ديوان القسم الاول من <placeName
-            ref="https://www.geonames.org/360621/muhafazat-al-qalyubiyah.html">القليوبية</placeName>
-          ويجرى الحساب فى ذلك الطرف فعلى هذا ينبغى ان يشرع فى اجراء الحساب المذكور وان <roleName
-            type="قاوش-اغاسى">قاوش اغاسى</roleName> ياخذ الدفاتر المحفوظة فى الصندوق باطلاع المعلم
-          مشرقى ويذهبان كلاهما الى طرف <roleName type="مأمور-القليوبية">مأمور <placeName
-              ref="https://www.geonames.org/360621/muhafazat-al-qalyubiyah.html"
-              >القليوبية</placeName></roleName> ويشرعان فى الحساب ولاجل ذلك يحرر علم من ال<orgName
-            type="ديوان-الخديوى">ديوان الخديوى</orgName> الى <persName>محمود اغا</persName> المومى
+            الزعفرانى</placeName> يعطى الى ديوان القسم الاول من <placeName ref="https://www.geonames.org/360621/muhafazat-al-qalyubiyah.html">القليوبية</placeName>
+          ويجرى الحساب فى ذلك الطرف فعلى هذا ينبغى ان يشرع فى اجراء الحساب المذكور وان <roleName type="قاوش-اغاسى">قاوش اغاسى</roleName> ياخذ الدفاتر المحفوظة فى الصندوق باطلاع المعلم
+          مشرقى ويذهبان كلاهما الى طرف <roleName type="مأمور-القليوبية">مأمور <placeName ref="https://www.geonames.org/360621/muhafazat-al-qalyubiyah.html">القليوبية</placeName></roleName> ويشرعان فى الحساب ولاجل ذلك يحرر علم من ال<orgName type="ديوان-الخديوى">ديوان الخديوى</orgName> الى <persName>محمود اغا</persName> المومى
           اليه لكى انه عند وصوله الى القسم المذكور يبتدى فى تحرير الحساب ورجع الاضافة اللازم ارسالها
           الى الخزينة تعطى ل<persName>محمد اغا</persName>
           <roleName type="ناظر-الجير-والجص">ناظر الجير والجص</roleName> ويتم الحساب ويشطب لئلا يبقى
           اخذ وعطاء بين الدواوين البتة ويحرر علم الى <roleName type="مأمور-القليوبية">مأمور
-              <placeName ref="https://www.geonames.org/360621/muhafazat-al-qalyubiyah.html"
-              >القليوبية</placeName></roleName> اشعارا له بذلك كما استقر الرأى عليه </p>
+              <placeName ref="https://www.geonames.org/360621/muhafazat-al-qalyubiyah.html">القليوبية</placeName></roleName> اشعارا له بذلك كما استقر الرأى عليه </p>
       </div>
       <div xml:id="W14" resp="#eSG">
         <head><date when-custom="1246-04-18">١٨ ربيع اخر ١٢٤٦</date><date when="1830-10-06">٦ أكتوبر
@@ -651,8 +544,7 @@
               ٤</biblScope></bibl></head>
         <p><persName> شرمى افندى</persName><roleName type="معاون-ناظر-الترسنات">معاون ناظر
             الترسنات</roleName>قدم تقريرا الى <orgName type="مجلس-المشورة">مجلس المشورة</orgName>
-          يشتمل على ان شونة التبن الابيض التى فى <placeName
-            ref="https://www.geonames.org/352261/misr-al-qadimah.html">مصر القديمه</placeName>هدمت
+          يشتمل على ان شونة التبن الابيض التى فى <placeName ref="https://www.geonames.org/352261/misr-al-qadimah.html">مصر القديمه</placeName>هدمت
           فى العام الماضى ولم ترمم حتى الان وحيث انه موجود فيها تبن كثير وكل يوم يرد اليها التبن فان
           بقيت على حالها يطرأ ضرر وأن ترميمها يتم بمصروف قليل واستدعى ان يعطى رخصة بهذا ولدى
           المذاكرة قالوا بان من انهاء الافندى المومى اليه انه يلزم ترميم الشونة المذكورة اذا كان ذلك
@@ -683,13 +575,11 @@
       </div>
       <div xml:id="w16" resp="#eSG">
         <head><date when-custom="1246-05-14">١٤ جمادى الاولى ١٢٤٦</date><date when="1830-10-31">٣١
-            أكتوبر ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ٢٠٥</biblScope><biblScope
-              unit="page">صفحة ٤</biblScope></bibl></head>
+            أكتوبر ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ٢٠٥</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
         <p><persName>حسين اغا ناظر <orgName type="ترسانة_بولاق">ترسانة
               <placeName>بولاق</placeName></orgName></persName> اخبر بان الاخشاب وسائر المهمات التى
           اخذت من <orgName type="ترسانة_مصر_القديمة">ترسانة <placeName>مصر
-            القديمة</placeName></orgName>الى ترسانة بولاق بموجب حافظة مختومة من طرف <persName
-            ref="ناظر_ترسانة_مصر_القديمة">ناظرها احمد افندى</persName> بلغ ثمنها مائة وستة وثمانين
+            القديمة</placeName></orgName>الى ترسانة بولاق بموجب حافظة مختومة من طرف <persName ref="ناظر_ترسانة_مصر_القديمة">ناظرها احمد افندى</persName> بلغ ثمنها مائة وستة وثمانين
           الفا وثمانمائة وثمانية قروش وعشرة انصاف فضة وعرض للمجلس غلاه اسعارها فرأى اهل المجلس ان
             <persName>امين افندى ناظر الابنية</persName> يكشف عليها ويحقق اثمنها فذهب ورأى هذه
           الاشيا[ء] واحدة فواحدة وقطع اثمانها فظهر فرق فى ذلك قدره ثمانية وثلاثون الفا وثلاثمائة
@@ -709,8 +599,7 @@
       </div>
       <div xml:id="w17" resp="#eSG">
         <head><date when-custom="1246-05-23">٢٣ جمادى الاولى ١٢٤٦</date><date when="1830-11-09">٩
-            نوفمبر ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ٢٠٨</biblScope><biblScope
-              unit="page">صفحة ١</biblScope></bibl>
+            نوفمبر ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ٢٠٨</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl>
         </head>
         <head>حوادث <orgName>مجلس مصر</orgName></head>
         <p><persName>خير الله افندى ناظر فبريقات الوجه القبلى عموما</persName> قرر ان طرنبات البخار
@@ -722,8 +611,7 @@
           ولماس الى المبيضة وعملا قائمة باجرة الشغالين فبلغت يوميتهم اثنين وستين قرشا وثمانية عشر
           نصفا فضه ثم انه سال المباشر هل يوجد سند من الديوان بصرف هذا المبلغ فاجاب بانه لا يوجد
           واراد المومى اليه ان تعطى صورة لصرفه ولدى المذاكرة قالوا ان محل انوال هذه الطرنبات المتصل
-          بمبيضة شبرا انشئ فى مدة احمد رافت افندى وليست مصاريفه متعلقة ب<orgName
-            type="ديوان_الابنية">ديوان الابنية</orgName> فلذا لم يصرفها احمد جلبى ولما عرض ذلك
+          بمبيضة شبرا انشئ فى مدة احمد رافت افندى وليست مصاريفه متعلقة ب<orgName type="ديوان_الابنية">ديوان الابنية</orgName> فلذا لم يصرفها احمد جلبى ولما عرض ذلك
           لاعتاب ولى النعم رسم بامره الكريم بان بيرون اغاسى ناظرها يحرر بها قائمة والاجرة المختصة
           بالالات تصرف من <orgName type="ديوان_فبريقات_الوجه_القبلى">ديوان فبريقات الوجه
             القبلى</orgName> وبموجب ذلك صرفت لهم فينبغى ان تصرف الان ولاجل صرف المبالغ الازمة
@@ -733,8 +621,7 @@
       </div>
       <div xml:id="w18" resp="#eSG">
         <head><date when-custom="1246-05-23">٢٣ جمادى الاولى ١٢٤٦</date><date when="1830-11-09">٩
-            نوفمبر ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ٢٠٨</biblScope><biblScope
-              unit="page">صفحة ٣</biblScope></bibl>
+            نوفمبر ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ٢٠٨</biblScope><biblScope unit="page">صفحة ٣</biblScope></bibl>
         </head>
         <head>حوادث<orgName> مجلس مصر</orgName></head>
         <p><persName> عبد الكريم افندى ناظر <orgName type="المطبعة">المطبعة</orgName></persName> قدم
@@ -751,8 +638,7 @@
       </div>
       <div xml:id="w19" resp="#eSG">
         <head><date when-custom="1246-05-23">٢٣ جمادى الاولى ١٢٤٦</date><date when="1830-11-09">٩
-            نوفمبر ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ٢٠٨</biblScope><biblScope
-              unit="page">صفحة ٤</biblScope></bibl>
+            نوفمبر ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ٢٠٨</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl>
         </head>
         <p><persName>محمد حماد وعبد الرحمن واحمد وعمر الذين هم بعض رؤساء المراكب</persName> قدموا
             <rs type="عرضحال">عرضحال</rs> الى <orgName type="الديوان_الخديوى">الديوان
@@ -773,15 +659,12 @@
       </div>
       <div xml:id="w20" resp="#eSG">
         <head><date when-custom="1246-06-04">٤ جمادى الاخر ١٢٤٦</date><date when="1830-11-21">٢١
-            نوفمبر ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ٢١١</biblScope><biblScope
-              unit="page">صفحة ١</biblScope></bibl></head>
+            نوفمبر ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ٢١١</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
         <p> انطوان الشامى قدم تقريرا الى <orgName type="الديوان_الخديوى">الديوان الخديوى</orgName>
-          واحيل على<orgName type="مجلس_المشورة">مجلس المشورة</orgName> مضمونه انه محبوس فى <orgName
-            type="ديوان_اشغال_المحروسة">ديوان اشغال المحروسة</orgName> والحال انه كان قد اشترى مائة
+          واحيل على<orgName type="مجلس_المشورة">مجلس المشورة</orgName> مضمونه انه محبوس فى <orgName type="ديوان_اشغال_المحروسة">ديوان اشغال المحروسة</orgName> والحال انه كان قد اشترى مائة
           وتسعة وثمانين اردب فول من الصعيد واربعة وخمسين اردبا من قرية كوم زهير التابعة للمنية
           وعشرين اردبا من قرية بشار ولم يات بها واستدعى ان تعطى له رخصة بان يوردها فسئل
-            <persName>على افندى مأمور اشغال المحروسة</persName> فقال ان المذكور عليه ذمة من <orgName
-            type="مصلحة_الجير_و_الجص">مصلحة الجير والجص</orgName> من مدة المعلم عريان وقدرها الف
+            <persName>على افندى مأمور اشغال المحروسة</persName> فقال ان المذكور عليه ذمة من <orgName type="مصلحة_الجير_و_الجص">مصلحة الجير والجص</orgName> من مدة المعلم عريان وقدرها الف
           وستمائة وتسعة واربعون قرشا وانه حبس فى ديوان اشغال المحروسة لاجل تحصيلها منه ولدى المذاكرة
           قالوا ان كان انهاء المذكور صحيحا فانه يورد الفول من حيث هو الى الشونة بمعرفة المأمورين
           وتخصم الذمة التى عليه منه وترسل رجعة الاضافة الى ديوان اشغال المحروسة وذلك يوجب صدور علم
@@ -789,8 +672,7 @@
           افندى المومى اليه اشعارا لهما بهذا كما استقر عليه الرأى.</p></div>
       <div xml:id="w21" resp="#eSG">
         <head><date when-custom="1246-06-04">٤ جمادى الاخر ١٢٤٦</date><date when="1830-11-21">٢١
-            نوفمبر ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ٢١١</biblScope><biblScope
-              unit="page">صفحة ٣</biblScope></bibl></head>
+            نوفمبر ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ٢١١</biblScope><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
         <head>حوادث <orgName>الديوان الخديوى</orgName></head> 
          <p> وردت <rs type="تذكرة">تذكرة</rs> من البيك الضابط مضمونها ان منصور احد اهل طها وشتيج دخل
             منزل<persName>خطاب ابى شوشه احد صناعية <orgName type="مبيضة_بولاق">مبيضة
@@ -824,8 +706,7 @@
       </div>
       <div xml:id="w23" resp="#eSG">
         <head><date when-custom="1246-06-19">١٩ جمادى الاخر ١٢٤٦</date><date when="1830-12-05">٥
-            ديسمبر ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ٢١٧</biblScope><biblScope
-              unit="page">صفحة ١</biblScope></bibl></head>
+            ديسمبر ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ٢١٧</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
         <head>حوادث <orgName>مجلس الاسكندرية</orgName></head>
         <p><persName>مصطفى افندى ناظر الاخشاب فى الاسكندرية</persName> قرر انه يلزم لابنية الميرى
           ستمائة اسقاله وثلاثة الاف لوح من صنف الجابه كما بان ذلك من تذكرة امين افندى الناظر فبحث عن
@@ -833,13 +714,11 @@
           عن ثمن هذه الاخشاب واستقر الرأى على ان تؤخذ كل اسقالة بخمسة واربعين قرشا وكل لوح من الجابه
           بستة قروش وثلاثين نصفا فضة فرضى صاحبها بذلك وحرر علم من طرف حضرة بيك افندى المحافظ الى
           مصطفى افندى لاجل مشتراها وتسليمها الى محلها وحرر علم ثان الى <persName>شكرى افندى ناظر
-            التسليمات</persName> لاجل تسلمها واخذ رجعتها وتقييدها ب<orgName type="ديوان_العموم"
-            >ديوان العموم</orgName> وتقديم علمها الى المجلس كما استقر الرأى على ذلك. </p>
+            التسليمات</persName> لاجل تسلمها واخذ رجعتها وتقييدها ب<orgName type="ديوان_العموم">ديوان العموم</orgName> وتقديم علمها الى المجلس كما استقر الرأى على ذلك. </p>
       </div>
       <div xml:id="w24" resp="#eSG">
         <head><date when-custom="1246-06-26">٢٦ جمادى الاخر ١٢٤٦</date><date when="1830-12-12">١٢
-            ديسمبر ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ٢٢٠</biblScope><biblScope
-              unit="page">صفحة ٤</biblScope></bibl></head>
+            ديسمبر ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ٢٢٠</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
         <head>حوادث <orgName>مجلس الاسكندرية</orgName></head>
         <p><persName>مصطفى افندى ناظر الاخشاب فى <placeName>الاسكندرية</placeName></persName> قرر
           انه ارسل اليه <persName>امين افندى ناظر الابنية</persName> بانه يلزم للابنية الميرية ثلاثة
@@ -847,14 +726,12 @@
           ان يحضر وتعطى صورة حسنه لفصل الثمن معه فاحضر وسئل واستقر الرأى على ان يؤخذ منه كل لوح
           بمائة وستة عشر نصفا فضة فرضى بهذا الثمن وحرر علم من طرف حضرة بيك افندى المحافظ الى الافندى
           المومى اليه لاجل مشترى القدر المرقوم وحرر علم ثان الى <persName>شكرى افندى ناظر تسليمات
-            المشتريات</persName> لاجل تسلمه وتسليمه لمحله واخذ رجعته وتقييده ب<orgName
-            type="ديوان_العموم">ديوان العموم</orgName> وتقديم علمه الى المجلس كما استقر الرأى على
+            المشتريات</persName> لاجل تسلمه وتسليمه لمحله واخذ رجعته وتقييده ب<orgName type="ديوان_العموم">ديوان العموم</orgName> وتقديم علمه الى المجلس كما استقر الرأى على
           ذلك.</p>
       </div>
       <div xml:id="w25" resp="#eSG">
         <head><date when-custom="1246-07-04">٤ رجب الاصم ١٢٤٦</date><date when="1830-12-19">١٩
-            ديسمبر ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ٢٢٣</biblScope><biblScope
-              unit="page">صفحة ٢</biblScope></bibl></head>
+            ديسمبر ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ٢٢٣</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
         <head>حوادث <orgName>مجلس مصر</orgName></head>
         <p><persName>امين افندى ناظر الابنية</persName> قدم <rs type="تقريرا">تقريرا</rs> الى
             <orgName type="مجلس_المشورة">مجلس المشورة</orgName> مضمونه انه ارسلت اليه خلاصة قبل الان
@@ -873,16 +750,12 @@
           المنعقد ب<placeName>القصر العالى</placeName>.</p></div>
       <div xml:id="w26" resp="#eSG">
         <head><date when-custom="1246-07-04">٤ رجب الاصم ١٢٤٦</date><date when="1830-12-19">١٩
-            ديسمبر ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ٢٢٣</biblScope><biblScope
-              unit="page">صفحة ٣</biblScope></bibl></head>
+            ديسمبر ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ٢٢٣</biblScope><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
         <head>حوادث <orgName>الديوان الخديوى</orgName></head>
         <p><persName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> نفيسه ابنة
-            الشيخ حسين احد ساكنى <?oxy_custom_end?><orgName type="بولاق"
-                ><placeName>بولاق</placeName></orgName></persName> قدمت <rs type="عرضحال">عرض
+            الشيخ حسين احد ساكنى <?oxy_custom_end?><orgName type="بولاق"><placeName>بولاق</placeName></orgName></persName> قدمت <rs type="عرضحال">عرض
             حال</rs> الى <orgName type="الديوان_الخديوى">الديوان الخديوى</orgName> فى اليوم الثامن
-          والعشرين من جمادى الاولى مضمونه ان <persName
-            ref="محمد_اغا_ناظر_انشاء_سرايا_افندينا_اسماعيل_باشا"
-            ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>محمد اغا الاسلامبولى
+          والعشرين من جمادى الاولى مضمونه ان <persName ref="محمد_اغا_ناظر_انشاء_سرايا_افندينا_اسماعيل_باشا"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>محمد اغا الاسلامبولى
             لما كان ناظرا على انشاء سرايا افندينا <sic>اسمعيل</sic>
             باشا<?oxy_custom_end?></persName> المرحوم سرق الاخشاب الميرية باجمعها واتى بها الى
           منزلها وجعلها صفوفا متراكمة ثم دعا بنجارى الميرى فصنعوا له منها كراسى وصناديق وما بقى نقله
@@ -894,8 +767,7 @@
           طلقها قدمت هذا العرض نكالا عليه فاطلق كل من الرجل والمرأو وخلى سبيلهما </p>
       </div>
       <div xml:id="w27" resp="#eSG">
-        <head><date when="1246-07-14" when-custom="1246-07-14">١٤ رجب الاصم ١٢٤٦</date><date
-            when="1830-12-29">٢٩ ديسمبر ١٨٣٠</date><bibl><biblScope unit="issue">نمرة
+        <head><date when="1246-07-14" when-custom="1246-07-14">١٤ رجب الاصم ١٢٤٦</date><date when="1830-12-29">٢٩ ديسمبر ١٨٣٠</date><bibl><biblScope unit="issue">نمرة
               ٢٢٧</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
         <head>حوادث <orgName>مجلس مصر</orgName></head>
         <p><persName>سليمان افندى ناظر
@@ -923,8 +795,7 @@
           الى الصراف وياخذ ما ليس له بحق فينبغى ان تكتب جملة من الكلمات الدالة على حالة الشخص الذى
           يذهب بها ثم تختم على ظاهرها بخاتم ناظر العموم او بخاتم وكيله فان ذلك اكثر نفعا واعظم فائدة
           ولاجل العمل بموجبه يحرر علم من <orgName type="الديوان_الخديوى">الديوان الخديوى</orgName>
-          الى الناظر المومى اليه اشعارا له بهذا كما استقر الرأى عليه فى <orgName
-            type="المجلس_العمومى">المجلس العمومى</orgName> المنعقد
+          الى الناظر المومى اليه اشعارا له بهذا كما استقر الرأى عليه فى <orgName type="المجلس_العمومى">المجلس العمومى</orgName> المنعقد
             ب<placeName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>القصر
             العالى<?oxy_custom_end?></placeName></p>
       </div>
@@ -934,8 +805,7 @@
               ٢</biblScope></bibl></head>
         <head>حوادث <orgName>مجلس مصر</orgName></head>
         <p><persName>المعلم غبريان شيحه مباشر <orgName type="ديوان_اشغال_المحروسة">ديوان اشغال
-              المحروسة</orgName></persName>انهى ان <persName ref="مباشر_ديوان_اشغال_المحروسة"
-            ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الشيخ يوسف
+              المحروسة</orgName></persName>انهى ان <persName ref="مباشر_ديوان_اشغال_المحروسة"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الشيخ يوسف
             الشبراخيتى<?oxy_custom_end?></persName> استعفى من خدمة الديوان المذكور التى كان قد تعهد
           بها <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ونصبت مباشرا بدلا
           عنه<?oxy_custom_end?> وكان ذلك بمعرفة <persName>على افندى ناظر اشغال المحروسة</persName>
@@ -965,8 +835,7 @@
           وقالوا ان <sic>الاشيا</sic> التى وردت بلا ثمن الى الكمرك ينبغى ان يخصص لها ثمن وما كان
           لازما منها ل<orgName type="خزينة_الامتعة">خزينة الامتعة</orgName> يرسل اليها وما كان غير
           لازم يباع ويكون تثمين الاخشاب بمعرفة <persName>امين افندى ناظر الابنية</persName> وبمعرفة
-          ناظر <orgName type="الترسانات"
-            ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الترسانات<?oxy_custom_end?></orgName>
+          ناظر <orgName type="الترسانات"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الترسانات<?oxy_custom_end?></orgName>
           ايضا ويخبر بذلك اهل المجلس
           واما<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> ما يلزم (الكلمتان
           ما و يلزم متشابكين وغير واضحين قليلا ) <?oxy_custom_end?>منها لخزينة الامتعة فيكون تثمينه
@@ -976,13 +845,11 @@
       </div>
       <div xml:id="w31" resp="#eSG">
         <head><date when-custom="1246-07-29">٢٩ رجب الاصم ١٢٤٦</date><date when="1831-01-13">١٣
-            يناير ١٨٣١</date><bibl><biblScope unit="issue">نمرة ٢٣٢</biblScope><biblScope
-              unit="page">صفحة ٢</biblScope></bibl></head>
+            يناير ١٨٣١</date><bibl><biblScope unit="issue">نمرة ٢٣٢</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
         <head>حوادث <orgName>مجلس مصر</orgName></head>
         <p>حضرة <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>كتخدا بيك
           افندى<?oxy_custom_end?> انهى ان على افندى واحمد بوشناق افندى و<persName>محمد افندى ناظر
-            القماش</persName> و<persName>امين افندى ناظر المبيع</persName> صاروا معاونين فى <orgName
-            type="الخزينة_العامرة">الخزينة العامرة</orgName> وينبغى ان ينصب اناس بدلا عنهم ولدى
+            القماش</persName> و<persName>امين افندى ناظر المبيع</persName> صاروا معاونين فى <orgName type="الخزينة_العامرة">الخزينة العامرة</orgName> وينبغى ان ينصب اناس بدلا عنهم ولدى
           المذاكرة قالوا ان <persName ref="محمد_افندى_مأمور_اشغال_المحروسة">محمد افندى الذى كان
             مأمورا على اشغال المحروسة سابقا</persName> ذو اطلاع عليها وخبرة باشغالها وسنويته كافية
           فلينصب الان بدلا عن على افندى وان <persName>ابرهيم افندى الذى كان مستخدما فى
@@ -992,8 +859,7 @@
           وعشرين الف قرش واما الافنديان الاخران فيكون ترتيب بدلهما فى وقت اخر ومن اجل ذلك يحرر علم
           من <orgName type="الديوان_الخديوى">الديوان الخديوى</orgName> الى محمد افندى والى ابراهيم
           افندى اشعارا لهما بتفويض هاتين النظارتين اليهما ويحرر علم ثان الى الخزينة لاجل تقييد
-          سنويتهما حسبما هو مشروح اعلاه كما استقر الرأى على ذلك فى <orgName type="المجلس_العمومى"
-            >المجلس العمومى</orgName> المنعقد
+          سنويتهما حسبما هو مشروح اعلاه كما استقر الرأى على ذلك فى <orgName type="المجلس_العمومى">المجلس العمومى</orgName> المنعقد
             ب<placeName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>القصر
             العالى<?oxy_custom_end?></placeName></p>
       </div>
@@ -1014,16 +880,14 @@
           الى السقوط وان عمارته تحتاج الى المقدار المذكور من الدراهم وان غيطاس افندى حين سئل عن
           ايراد ذلك الجامع اجاب بانه ثمانمائة قرش <sic>مصائهة</sic> وان هذا المبلغ يصرف فى اجرة
           الخدمة وثمن الزيت والقناديل وما اشبه ذلك ولا يكفى للعمارة فحيث كان ذلك ينبغى ان يشرع فى
-          ترميمه ويعطى المصروف اللازم له من خزينة المبيعات ويحرر علم من <orgName
-            type="الديوان_الخديوى">الديوان الخديوى</orgName>الى الافندى المومى اليه اشعارا له بهذا
+          ترميمه ويعطى المصروف اللازم له من خزينة المبيعات ويحرر علم من <orgName type="الديوان_الخديوى">الديوان الخديوى</orgName>الى الافندى المومى اليه اشعارا له بهذا
           كما استقر الراى عليه </p>
       </div>
       <div xml:id="w33" resp="#eSG"> 
         <head><orgName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>يوم الاحد
             سلخ شعبان
             ١٢٤٦<?oxy_custom_end?></orgName><date><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>؟<?oxy_custom_end?>
-            فبراير ١٨٣١</date><bibl><biblScope unit="issue">نمرة ٢٤٣</biblScope><biblScope
-              unit="page">صفحة ١</biblScope></bibl></head>
+            فبراير ١٨٣١</date><bibl><biblScope unit="issue">نمرة ٢٤٣</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
         <head>حوادث<orgName>مجلس مصر</orgName></head>
         <p><persName>الشيخ اسمعيل <placeName>ناظر جامع عمر</placeName> الكائن ب<placeName>قرية
               المرج</placeName></persName>التى هى فى
@@ -1033,9 +897,7 @@
           وليس فى القرية مسجد اخر لاجل ادآ فرض الصلوة به فينبغى ان يرمم فقال اهل المجلس انه تبين من
           انها الشيخ المرقوم انه لم يوجد فى تلك القرية مسجد غير الذى انهدم فحيث كان ذلك ينبغى ان
           يرسل نفر مهندس من <orgName type="ديوان_الابنية">ديوان الابنية</orgName> لاجل الكشف عنه
-          وبعد ان يقدر ما يلزم له من المصاريف يشرع فى انشائه وذلك يوجب صدور علم من <orgName
-            type="الديوان_الخديوى">الديوان الخديوى</orgName> الى <persName>امين افندى ناظر <orgName
-              type="ديوان_الابنية">ديوان الابنية</orgName></persName> اشعارا له بارسال النفر المذكور
+          وبعد ان يقدر ما يلزم له من المصاريف يشرع فى انشائه وذلك يوجب صدور علم من <orgName type="الديوان_الخديوى">الديوان الخديوى</orgName> الى <persName>امين افندى ناظر <orgName type="ديوان_الابنية">ديوان الابنية</orgName></persName> اشعارا له بارسال النفر المذكور
           كما استقر الرأى على ذلك </p>
       </div>
       <div xml:id="w34" resp="#eSG">
@@ -1043,8 +905,7 @@
             ١٨٣١</date><bibl><biblScope unit="issue">نمرة ٢٤٦</biblScope><biblScope unit="page">صفحة
               ٤</biblScope></bibl></head>
         <head>حوادث <orgName>مجلس مصر</orgName></head>
-        <p><persName>محمد افندى المأمور ب<orgName type="ديوان_اشغال_المحروسة"
-              ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>اشغال
+        <p><persName>محمد افندى المأمور ب<orgName type="ديوان_اشغال_المحروسة"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>اشغال
               المحروسة<?oxy_custom_end?></orgName></persName>ارسل <rs type="تقريرا">تقريرا</rs> الى
           المجلس مضمونه ان بعضا من اهل القرى جاوا المحروسة واستوطنوا بها ولم يبق لهم تعلق ببلادهم
           وذلك منذ عشر سنين واثنتى عشرة سنة وقد استقر الرأى على ان تعطى لهم تذاكر من ديوان اشغال
@@ -1059,10 +920,8 @@
         <head><date when-custom="1246-10-22">٢٢ شوال ١٢٤٦</date><date when="1831-04-05">٥ ابريل
             ١٨٣١</date><bibl><biblScope unit="issue">نمرة ٢٥٧</biblScope><biblScope unit="page">صفحة
               ٣</biblScope></bibl></head>
-        <p><persName>امين افندى ناظر الابنية الميرية</persName>انهى انه ارسل من <orgName
-            type="ديوان_الابنية">ديوان الابنية</orgName>
-          <persName ref="داود_المهندس_بديوان_الابنية"
-            ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>داود
+        <p><persName>امين افندى ناظر الابنية الميرية</persName>انهى انه ارسل من <orgName type="ديوان_الابنية">ديوان الابنية</orgName>
+          <persName ref="داود_المهندس_بديوان_الابنية"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>داود
             المهندس<?oxy_custom_end?></persName> ليكشف عن المسجد الذى يراد ترميمه فى ناحية
             <placeName>المرج</placeName> الكائنة
             <placeName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>بقسم
@@ -1070,8 +929,7 @@
           اذا اريد انشاؤه جديدا يحتاج ذلك الى مصروف قدره خمسة الاف وستمائة واحد واربعون قرشا فرسم
           اهل المجلس بان يجعل رجل امين من طرف <persName>احمد اغا مأمور القليوبية </persName>ناظرا
           على الانشا[ء] ويصرف ما يلزم له من النقود من خزينة المأمورية ويقيد فى حسابها ويرسل مهندس
-          آخر من الديوان المذكور لاجل الكشف عن ذلك المسجد ويحرر علم من <orgName
-            type="الديوان_الخديوى">الديوان الخديوى</orgName> الى ناظر ديوان الابنية والى حضرة كتخدا
+          آخر من الديوان المذكور لاجل الكشف عن ذلك المسجد ويحرر علم من <orgName type="الديوان_الخديوى">الديوان الخديوى</orgName> الى ناظر ديوان الابنية والى حضرة كتخدا
           اغا لكى يخبر هو المأمور المذكور بذلك كما استقر الرأى عليه. </p>
       </div>
     </body>
