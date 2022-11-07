@@ -20,21 +20,21 @@ jobs:
           fetch-depth: 0
       - name: "Generate reports"
         run: |
-          java -cp /usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q:reports/xquery/orgName.xq dir="../../articles/arabic" > reports/orgName-ar.md
+          java -cp /usr/share/java/saxon-11/*:/usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q:reports/xquery/orgName.xq dir="../../articles/arabic" > reports/orgName-ar.md
           if [[ $(wc -l <reports/orgName-ar.md) -eq 1 ]]; then rm reports/orgName-ar.md; fi
-          java -cp /usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q:reports/xquery/orgName.xq dir="../../articles/ottoman" > reports/orgName-ota.md
+          java -cp /usr/share/java/saxon-11/*:/usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q:reports/xquery/orgName.xq dir="../../articles/ottoman" > reports/orgName-ota.md
           if [[ $(wc -l <reports/orgName-ota.md) -eq 1 ]]; then rm reports/orgName-ota.md; fi
-          java -cp /usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q:reports/xquery/placeName.xq dir="../../articles/arabic" > reports/placeName-ar.md
+          java -cp /usr/share/java/saxon-11/*:/usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q:reports/xquery/placeName.xq dir="../../articles/arabic" > reports/placeName-ar.md
           if [[ $(wc -l <reports/placeName-ar.md) -eq 1 ]]; then rm reports/placeName-ar.md; fi
-          java -cp /usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q:reports/xquery/placeName.xq dir="../../articles/ottoman" > reports/placeName-ota.md
+          java -cp /usr/share/java/saxon-11/*:/usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q:reports/xquery/placeName.xq dir="../../articles/ottoman" > reports/placeName-ota.md
           if [[ $(wc -l <reports/placeName-ota.md) -eq 1 ]]; then rm reports/placeName-ota.md; fi
-          java -cp /usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q:reports/xquery/roleName.xq dir="../../articles/arabic" > reports/roleName-ar.md
+          java -cp /usr/share/java/saxon-11/*:/usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q:reports/xquery/roleName.xq dir="../../articles/arabic" > reports/roleName-ar.md
           if [[ $(wc -l <reports/roleName-ar.md) -eq 1 ]]; then rm reports/roleName-ar.md; fi
-          java -cp /usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q:reports/xquery/roleName.xq dir="../../articles/ottoman" > reports/roleName-ota.md
+          java -cp /usr/share/java/saxon-11/*:/usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q:reports/xquery/roleName.xq dir="../../articles/ottoman" > reports/roleName-ota.md
           if [[ $(wc -l <reports/roleName-ota.md) -eq 1 ]]; then rm reports/roleName-ota.md; fi
-          java -cp /usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q:reports/xquery/persName.xq dir="../../articles/arabic" > reports/persName-ar.md
+          java -cp /usr/share/java/saxon-11/*:/usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q:reports/xquery/persName.xq dir="../../articles/arabic" > reports/persName-ar.md
           if [[ $(wc -l <reports/persName-ar.md) -eq 1 ]]; then rm reports/persName-ar.md; fi
-          java -cp /usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q:reports/xquery/persName.xq dir="../../articles/ottoman" > reports/persName-ota.md
+          java -cp /usr/share/java/saxon-11/*:/usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q:reports/xquery/persName.xq dir="../../articles/ottoman" > reports/persName-ota.md
           if [[ $(wc -l <reports/persName-ota.md) -eq 1 ]]; then rm reports/persName-ota.md; fi
       - name: "Commit reports"
         uses: stefanzweifel/git-auto-commit-action@v4
