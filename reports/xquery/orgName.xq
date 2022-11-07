@@ -7,8 +7,8 @@ declare variable $dir external;
 (
 let $coll := collection($dir || "?select=*.xml")
 let $ARABIC := "http://www.w3.org/2013/collation/UCA?lang=ar"
-for $type in sort(distinct-values($coll//t:placeName/@type), $ARABIC)
-let $files := distinct-values($coll//t:placeName[@type=$type]/base-uri())
+for $type in sort(distinct-values($coll//t:orgName/@type), $ARABIC)
+let $files := distinct-values($coll//t:orgName[@type=$type]/base-uri())
 return " * '" || $type || "'&#x200E;: " ||
     string-join(
         for $f in $files 
