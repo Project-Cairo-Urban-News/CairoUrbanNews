@@ -100,21 +100,21 @@
             <biblScope unit="page">صفحة ١</biblScope>
             <title>الحوادث الداخلية</title>
           </bibl></head>
-        <p>أنه قد ظهرت<rs type="fire "> حريقة</rs> فى <time when-custom="4:00 "> الساعة
-            الرابعة</time> من<date when-custom="1264-01-06"> سادس الشهر</date> الحال بمنزل رجل اسمه
+        <p>أنه قد ظهرت <rs type="fire ">حريقة</rs> فى <time when-custom="4:00 "> الساعة
+            الرابعة</time> من <date when-custom="1264-01-06">سادس الشهر</date> الحال بمنزل رجل اسمه
             <persName>حسين ابو شنب</persName> فى <placeName type="حارة">حارة الحطابه</placeName>
           الكائنة بخط <placeName type="خط">الدرب الاحمر</placeName> فاسعفت بالطلومبات والطلومبجية من
           طرف الضابطخانه واطفئت فى ظرف <time>ساعتين</time> بدون سرايتها الى محل آخر.</p>
       </div>
       <div xml:id="A3">
-        <head><date when-custom="1264-02-06">٦ صفر ١٢٦٤ </date>
-          <date when="1848-01-12">١٢ يناير ١٨٤٨ </date>
+        <head><date when-custom="1264-02-06">٦ صفر ١٢٦٤</date> 
+          <date when="1848-01-12">١٢ يناير ١٨٤٨</date> 
           <bibl><biblScope unit="issue">نمرة ٩٩</biblScope>
-            <biblScope unit="page">صفحة ١ </biblScope><title>الحوادث الداخلية </title></bibl></head>
-        <p> كشف اجمالى مستخرج من دفاتر<orgName type="Engineering-office"> قلم الهندسة</orgName>
+            <biblScope unit="page">صفحة ١</biblScope> <title>الحوادث الداخلية </title></bibl></head>
+        <p> كشف اجمالى مستخرج من دفاتر <orgName type="Engineering-office">قلم الهندسة</orgName>
             ب<orgName type="Education-Ministry">ديوان المدارس</orgName> عن بيان المبالغ المنصرفة من
             <roleName type="ceremonial-title">جناب الميرى</roleName> على بعض العمارات الكائنة
-            ب<placeName ref="http://www.geonames.org/360630/cairo.html">مصر</placeName> و<placeName ref="http://www.geonames.org/358048/damietta.html">دمياط </placeName>و<placeName ref="http://www.geonames.org/360689/menufia.html">المنوفية</placeName> ومديريات الوجه
+            ب<placeName ref="http://www.geonames.org/360630/cairo.html">مصر</placeName> و<placeName ref="http://www.geonames.org/358048/damietta.html">دمياط</placeName> و<placeName ref="http://www.geonames.org/360689/menufia.html">المنوفية</placeName> ومديريات الوجه
           القبلى عموما <measure commodity="currency" unit="بارة" quantity="122">بارة (؎) ٢٢
             ١</measure> ترميمات <placeName>بمصر المحروسة</placeName> وما جاورها <gap reason="editorial" resp="#KN #SFG"/><note resp=" #KN #SFG"> (لم اكتب باقية المصاريف
             لأنها خاصة بمحافظات اخرى)</note>
@@ -211,7 +211,7 @@
             العريان</placeName> طبقته العليا فيها اربع اود ومطبخ وكلار وحمام والسفلى فيها منظرة وتخت
           بوش ذو عمود من الرخام وحاصلان وطاحونة مستكملة وحديقة لطيفة وبئر معين وحوش سماوى قد بلغ
           ١٣٠٠٠ ق فمن كان له رغبه فيه فليسأل عنه من الدلال المذكور</p>
-    <div xml:id="A10" resp="#eSG"> <head><date when-custom="1264-04-08"> ٨ ربيع الاخر ١٢٦٤</date><date when="1848-03-14">١٤ مارس
+    <div xml:id="A10" resp="#eSG"> <head> <date when-custom="1264-04-08">٨ ربيع الاخر ١٢٦٤</date><date when="1848-03-14">١٤ مارس
               ١٨٤٨</date>
             <bibl><biblScope unit="issue">نمرة ١٠٨</biblScope>
               <biblScope unit="page">صفحة ٤</biblScope></bibl>
@@ -287,7 +287,7 @@
           <head>
             <date when-custom="1264-07-17">١٧ رجب ١٢٦٤</date>
             <date when="1848-06-19">١٩ يونيو ١٨٤٨</date><bibl><biblScope unit="issue">نمرة
-                ١١٩</biblScope><biblScope unit="page"> صفحة ١</biblScope></bibl></head>
+                ١١٩</biblScope> <biblScope unit="page">صفحة ١</biblScope></bibl></head>
           <head><title>الحوادث الداخليه</title></head>
     <p> لما اقتضى الحال انشاء خمسة اماكن فى <placeName>المدبغة</placeName> الكائنة ب<placeName>خط
               باب اللوق</placeName> لاجل عمل ما يلزم للعساكر الارط المستجدة من المراكيب صدر الامر
