@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../css/oxygen.css"?>
+<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah:</title>
+            <editor xml:id="eNK">Nour Kanaan</editor>
+            <editor xml:id="eAM">Adam Mestyan</editor>
+            <editor xml:id="eDY">Danah Younis</editor>
+            <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
+            <editor xml:id="eAE">Arif Erbil</editor>
+            <editor xml:id="eAK">Ahmed Kamal</editor>
+            <editor xml:id="eAS">Abram Smith</editor>
+            <editor xml:id="eCH">Clara Harms</editor>
+            <editor xml:id="eHS">Hüseyin Sağlam</editor>
+            <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+            <respStmt>
+               <resp>Advisor</resp>
+               <name>Hugh Cayless</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Adam Mestyan</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Mercedes Volait</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Sarah Fath Allah</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Karima Nasr</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Rezk Nory</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Arif Erbil</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Ahmed Kamal</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abram Smith</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Clara Harms</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Hüseyin Sağlam</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abdulrahman El-Taliawi</name>
+            </respStmt>
+            <sponsor>
+               <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
+          <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+          Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+          Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>. 
+        </sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
+          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+            <p>
+               <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
+            </p>
+            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+            <p>born digital document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Rules of TEI XML MarkUp in This Project</p>
+            <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
+            <p>Each individual article has an individual xml:id number starting with "w1"</p>
+            <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
+            <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
+            <p>"Mashaykhah" and "thumn" are orgNames.</p>
+            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+          Editions</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text xml:lang="ar">
+      <body>
+         <div>
+            <head>طبعت بمطبعة بولاق يوم الأثنين 11 محرم سنة 1285هـ الموافق 27 برموده القبطي 1584 و4 أبريل (خطأ في اسم الشهر مايو) الأفرنجي 1868م</head>
+            <p>
+               <hi rend="color(BF8F00)">ص4/ عمود 2،3</hi>
+            </p>
+            <p>
+               <hi rend="bold">اعلانات</hi>
+            </p>
+            <p/>
+            <p/>
+            <p> </p>
+            <p>
+               <anchor xml:id="Hlk20317511"/>
+            </p>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p>  </p>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p>  </p>
+            <p>
+               <hi rend="color(7030A0)">(* نمرة الوقائع 247)</hi>
+            </p>
+            <p>
+               <hi rend="color(7030A0)">طبعت بمطبعة بولاق يوم الخميس 13 شعبان سنة 1285هـ الموافق 18 هاتور القبطي 1585 و26 نوامبر الأفرنجي 1868م</hi>
+            </p>
+            <p>
+               <hi rend="color(BF8F00)">ص3/عمود1</hi>
+            </p>
+            <p/>
+            <p>
+               <hi rend="color(7030A0)">(* نمرة الوقائع 261)</hi>
+            </p>
+            <p>
+               <hi rend="color(7030A0)">طبعت بمطبعة بولاق يوم الاثنين 14 رمضان سنة 1285هـ الموافق 20 كيهك القبطي 1585 و28 دسمبر الأفرنجي 1868م</hi>
+            </p>
+            <p>
+               <hi rend="color(BF8F00)">ص3/ عمود2</hi>
+            </p>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p>
+               <hi rend="color(7030A0)">(* نمرة الوقائع 264)</hi>
+            </p>
+            <p>
+               <hi rend="color(7030A0)">طبعت بمطبعة بولاق يوم الخميس 24 رمضان سنة 1285هـ الموافق 30 كيهك القبطي 1585 و7 زانويه الأفرنجي 1869م</hi>
+            </p>
+            <p>
+               <hi rend="color(BF8F00)">ص3/ عمود 3</hi>
+            </p>
+            <p/>
+            <p/>
+            <p>
+               <hi rend="color(7030A0)">(* نمرة الوقائع 270)</hi>
+            </p>
+            <p>
+               <hi rend="color(7030A0)">طبعت بمطبعة بولاق يوم الأثنين 26 شوال سنة 1285هـ الموافق 2 أمشير القبطي 1585 و8 فوريه الأفرنجي 1869م</hi>
+            </p>
+            <p>
+               <anchor xml:id="Hlk20661148"/>
+               <hi rend="color(BF8F00)" xml:space="preserve">ص4/ عمود3 </hi>
+            </p>
+            <p/>
+            <p/>
+            <p>
+               <hi rend="color(BF8F00)" xml:space="preserve"> ص4/ عمود3 </hi>
+            </p>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p>
+               <hi rend="color(7030A0)">(* نمرة الوقائع 274)</hi>
+            </p>
+            <p>
+               <hi rend="color(7030A0)">طبعت بمطبعة بولاق يوم الأثنين 11 ذي القعدة سنة 1285هـ الموافق 16 أمشير القبطي 1585 و22 فوريه الأفرنجي 1869م</hi>
+            </p>
+            <p>
+               <hi rend="color(BF8F00)">ص4/ عمود 3</hi>
+            </p>
+            <p/>
+            <p/>
+            <p>
+               <anchor xml:id="Hlk20750958"/>
+               <hi rend="color(7030A0)">(* نمرة الوقائع 279)</hi>
+            </p>
+            <p>
+               <hi rend="color(7030A0)">طبعت بمطبعة بولاق يوم الخميس 28 ذي القعدة سنة 1285هـ الموافق 3 برمهات القبطي 1585 و11 مارت الأفرنجي 1869م</hi>
+            </p>
+            <p>
+               <hi rend="color(BF8F00)">ص3/ عمود 3</hi>
+            </p>
+            <p/>
+            <p/>
+            <p/>
+         </div>
+         <div>
+            <head>�unable to handle picture here, no embed or linkطاحونة بشارع البيدق مسطحها 368 ذراعا وقف الأمامين ورواق الأتراك.</head>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p>
+               <hi rend="color(7030A0)">(* نمرة الوقائع 282)</hi>
+            </p>
+            <p>
+               <hi rend="color(7030A0)">طبعت بمطبعة بولاق يوم الأثنين 16 ذي الحجة سنة 1285هـ الموافق 21 برمهات القبطي 1585 و29 مارت الأفرنجي 1869م</hi>
+            </p>
+            <p>
+               <hi rend="color(BF8F00)">ص4/ عمود 3</hi>
+            </p>
+            <p/>
+            <p/>
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>
