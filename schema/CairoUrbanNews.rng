@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-11-02T13:44:51Z. .
+Schema generated from ODD source 2022-11-09T14:52:52Z. .
 TEI Edition: Version 4.5.0a. Last updated on
         29th July 2022, revision 50a1ab835
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0a./
@@ -279,6 +279,19 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to a <code xmlns="http://www.w3.org/1999/xhtml">&lt;handNote&gt;</code> element describing the hand considered responsible for the content of the element concerned.</a:documentation>
             <data type="anyURI">
                <param name="pattern">\S+</param>
+            </data>
+         </attribute>
+      </optional>
+   </define>
+   <define name="att.breaking.attributes">
+      <ref name="att.breaking.attribute.break"/>
+   </define>
+   <define name="att.breaking.attribute.break">
+      <optional>
+         <attribute name="break">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates whether or not the element bearing this attribute should be considered to mark the end of an orthographic token in the same way as whitespace.</a:documentation>
+            <data type="token">
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
             </data>
          </attribute>
       </optional>
@@ -1166,6 +1179,63 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
          </attribute>
       </optional>
    </define>
+   <define name="att.edition.attributes">
+      <ref name="att.edition.attribute.ed"/>
+      <ref name="att.edition.attribute.edRef"/>
+   </define>
+   <define name="att.edition.attribute.ed">
+      <optional>
+         <attribute name="ed">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(edition) supplies a sigil or other arbitrary identifier for the source edition in which the associated feature (for example, a page, column, or line break) occurs at this point in the text.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="token">
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                  </data>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="att.edition.attribute.edRef">
+      <optional>
+         <attribute name="edRef">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(edition reference) provides a pointer to the source edition in which the associated feature (for example, a page, column, or line break) occurs at this point in the text.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI">
+                     <param name="pattern">\S+</param>
+                  </data>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="att.spanning.attributes">
+      <ref name="att.spanning.attribute.spanTo"/>
+   </define>
+   <define name="att.spanning.attribute.spanTo">
+      <optional>
+         <attribute name="spanTo">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the end of a span initiated by the element bearing this attribute.</a:documentation>
+            <data type="anyURI">
+               <param name="pattern">\S+</param>
+            </data>
+         </attribute>
+      </optional>
+   </define>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="CairoUrbanNews-att.spanning-spanTo-spanTo-points-to-following-constraint-rule-9">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
+                context="tei:*[@spanTo]">
+         <sch:assert test="id(substring(@spanTo,2)) and following::*[@xml:id=substring(current()/@spanTo,2)]">
+The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow the current element <sch:name/>
+         </sch:assert>
+      </sch:rule>
+   </pattern>
    <define name="att.timed.attributes">
       <ref name="att.timed.attribute.start"/>
       <ref name="att.timed.attribute.end"/>
@@ -1577,7 +1647,9 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
       <notAllowed/>
    </define>
    <define name="model.milestoneLike">
-      <notAllowed/>
+      <choice>
+         <ref name="milestone"/>
+      </choice>
    </define>
    <define name="model.gLike">
       <notAllowed/>
@@ -2514,6 +2586,46 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
          <ref name="place"/>
       </choice>
    </define>
+   <define name="att.milestoneUnit.attributes">
+      <ref name="att.milestoneUnit.attribute.unit"/>
+   </define>
+   <define name="att.milestoneUnit.attribute.unit">
+      <attribute name="unit">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a conventional name for the kind of section changing at this milestone.
+Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] canto; 7] speaker; 8] stanza; 9] act; 10] scene; 11] section; 12] absent; 13] unnumbered</a:documentation>
+         <choice>
+            <value>page</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">physical page breaks (synonymous with the <code xmlns="http://www.w3.org/1999/xhtml">&lt;pb&gt;</code> element).</a:documentation>
+            <value>column</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">column breaks.</a:documentation>
+            <value>line</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">line breaks (synonymous with the <code xmlns="http://www.w3.org/1999/xhtml">&lt;lb&gt;</code> element).</a:documentation>
+            <value>book</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">any units termed book, liber, etc.</a:documentation>
+            <value>poem</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">individual poems in a collection.</a:documentation>
+            <value>canto</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">cantos or other major sections of a poem.</a:documentation>
+            <value>speaker</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">changes of speaker or narrator.</a:documentation>
+            <value>stanza</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">stanzas within a poem, book, or canto.</a:documentation>
+            <value>act</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">acts within a play.</a:documentation>
+            <value>scene</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">scenes within a play or act.</a:documentation>
+            <value>section</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">sections of any kind.</a:documentation>
+            <value>absent</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">passages not present in the reference edition.</a:documentation>
+            <value>unnumbered</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">passages present in the text, but not to be included as part of the reference.</a:documentation>
+            <data type="token">
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
+            </data>
+         </choice>
+      </attribute>
+   </define>
    <define name="p">
       <element name="p">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(paragraph) marks paragraphs in prose. [3.1. Paragraphs 7.2.5. Speech Contents]</a:documentation>
@@ -2913,7 +3025,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="CairoUrbanNews-list-gloss-list-must-have-labels-constraint-rule-9">
+                  id="CairoUrbanNews-list-gloss-list-must-have-labels-constraint-rule-10">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -3012,6 +3124,20 @@ Suggested values include: 1] gloss (gloss); 2] index (index); 3] instructions (i
          <ref name="att.typed.attributes"/>
          <ref name="att.written.attributes"/>
          <ref name="att.anchoring.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="milestone">
+      <element name="milestone">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(milestone) marks a boundary point separating any kind of section of a text, typically but not necessarily indicating a point at which some part of a standard reference system changes, where the change is not represented by a structural element. [3.11.3. Milestone
+Elements]</a:documentation>
+         <empty/>
+         <ref name="att.global.attributes"/>
+         <ref name="att.milestoneUnit.attributes"/>
+         <ref name="att.typed.attributes"/>
+         <ref name="att.edition.attributes"/>
+         <ref name="att.spanning.attributes"/>
+         <ref name="att.breaking.attributes"/>
          <empty/>
       </element>
    </define>
@@ -3839,7 +3965,7 @@ Suggested values include: 1] label; 2] data</a:documentation>
             <ref name="model.standOffPart"/>
          </oneOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="CairoUrbanNews-standOff-nested_standOff_should_be_typed-constraint-assert-5">
+                  id="CairoUrbanNews-standOff-nested_standOff_should_be_typed-constraint-assert-6">
             <rule context="tei:standOff">
                <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -5237,7 +5363,7 @@ Sample values include: 1] e (e); 2] he (he); 3] she (she); 4] they (they)</a:doc
       <element name="relation">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(relationship) describes any kind of relationship or linkage amongst a specified group of places, events, persons, objects or other items. [13.3.2.3. Personal Relationships]</a:documentation>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="CairoUrbanNews-relation-reforkeyorname-constraint-assert-6">
+                  id="CairoUrbanNews-relation-reforkeyorname-constraint-assert-7">
             <rule context="tei:relation">
                <assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
