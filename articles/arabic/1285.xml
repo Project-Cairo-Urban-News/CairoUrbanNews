@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../css/oxygen.css"?>
+<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah:</title>
+            <editor xml:id="eNK">Nour Kanaan</editor>
+            <editor xml:id="eAM">Adam Mestyan</editor>
+            <editor xml:id="eDY">Danah Younis</editor>
+            <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
+            <editor xml:id="eAE">Arif Erbil</editor>
+            <editor xml:id="eAK">Ahmed Kamal</editor>
+            <editor xml:id="eAS">Abram Smith</editor>
+            <editor xml:id="eCH">Clara Harms</editor>
+            <editor xml:id="eHS">Hüseyin Sağlam</editor>
+            <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+            <respStmt>
+               <resp>Advisor</resp>
+               <name>Hugh Cayless</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Adam Mestyan</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Mercedes Volait</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Sarah Fath Allah</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Karima Nasr</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Rezk Nory</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Arif Erbil</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Ahmed Kamal</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abram Smith</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Clara Harms</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Hüseyin Sağlam</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abdulrahman El-Taliawi</name>
+            </respStmt>
+            <sponsor>
+               <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
+          <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+          Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+          Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>. 
+        </sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
+          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+            <p>
+               <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
+            </p>
+            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+            <p>born digital document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Rules of TEI XML MarkUp in This Project</p>
+            <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
+            <p>Each individual article has an individual xml:id number starting with "w1"</p>
+            <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
+            <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
+            <p>"Mashaykhah" and "thumn" are orgNames.</p>
+            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+          Editions</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text xml:lang="ar">
+      <body>
+         <div resp="#eAK" xml:id="k801">
+            <head><date when-custom="1285-01-07">7 محرم سنة 1285هـ</date> الموافق <date
+                  when-custom="1584-08-23">23 برموده القبطي 1584</date> و<date when="1868-04-30">30
+                  أبريل الأفرنجي 1868م</date></head>
+            <p>(<rs type="اعلان">اعلان</rs>) (اعلان من <orgName type="ديوان-الأوقاف">ديوان
+                  الأوقاف</orgName> بتاريخ <date when-custom="1285-01-05">5 محرم سنة 1285</date>)
+               عدد مسطحه 1 منزل داخله خربه ب<placeName type="درب-السماكين">درب السماكين</placeName>
+               269 بجهة <placeName type="الرميلة">الرميله</placeName> وقف <persName>مصطفى أغا
+                  أباظه</persName> اقتضى الحال بيع 1 منزل ب<placeName type="حارة-الزيانين">حارة
+                  الزيانين</placeName> ب<placeName type="عابدين">عابدين</placeName> وقف 115 انقاضهما
+               وتأجير صالح المنشاتي أرضهما 1 خربه ب<placeName type="سوق-سكة-بجهة-الحنفي">سوق سكه
+                  بجهة الحنفي</placeName> 111 وقف <persName>الست آمنه</persName> 1 منزل ب<placeName
+                  type="خط-الرويعي">خط الرويعي</placeName> وقف <persName>ابراهيم</persName> 766
+               اقتضى الحال اغا الخازن دار استبداله حرر إلى معاون الأوقاف باشهار هذه الأماكن على
+               الوجه المبين فوق بقوائم مزايدة بين الراغبين بعد أن حرر في ذلك خمسة وثلاثون اعلانا
+               أرسلت إلى الضبطية لتعلق بالقره قولات لاحاطة الجميع بتلك المحلات. </p>
+         </div>
+         
+           <div>
+              <head>طبعت بمطبعة بولاق يوم الأثنين 11 محرم سنة 1285هـ الموافق 27 برموده القبطي 1584 و4 أبري الأفرنجي 1868م  نمرة الوقائع 198) ص4</head>
+                          
+           
+             <p>
+                اعلانات
+                (اعلان من المحافظة المصرية)
+                بيان الباقي من الأماكن الميري اللاتي بشارع السكة المستجدة في جهة سيدنا الحسين إلى الخلاء
+                اذرع 
+                134  باقي منزل مأخوذ من باش كاتب المحكمة
+                370  باقي منزل مأخوذ من وقف سيدنا الحسين
+                098  باقي منزل مأخوذ من الحرمة فاطمة أم محمد
+                154  باقي منزل مأخوذ من الشيخ أحمد العناني وشريكه 
+                027  باقي منزل مأخوذ من باش كاتب المحكمة وأصله كان للحرمه جازيه 
+                030  باقي منزل مأخوذ من المذكور وأصله لورثة رضوان شمس 
+                030  باقي منزل مأخوذ من ورثة حبيب الزيات
+                060  باقي منزل مأخوذ من أحمد سويلم الزيات 
+                048  باقي منزل مأخوذ من الست حسنه
+                115 باقي منزل مأخوذ من محمد أفندي على 
+                080 باقي منزل مأخوذ من ورثة الشيخ أحمد التهامي 
+                117 باقي منزل مأخوذ من ناظرة وقف أحمد مراد
+                052 باقي منزل مأخوذ من السيد أحمد الفخفاخ
+                149  باقي منزل مأخوذ من ورثة على الصعيدي
+                126 باقي منزل مأخوذ من زوجة عنان أفندي
+                011 باقي منزل مأخوذ من وقف السيد معاذ وشركاه 
+                010 باقي منزل مأخوذ من ورثة السيد محمد مأمون
+                013 باقي منزل مأخوذ من المذكورين 
+                115 باقي منزل مأخوذ من سليمان افندي فوزي
+                020 باقي الأماكن المأخوذة من ورثة محمد العمروسي الحباك 
+                371 باقي منزل مأخوذ من وقف السيد معاذ 
+                028 باقي منزل مأخوذ من وقف السيد معاذ وشركاه
+                060 باقي منزل مأخوذ من حسن الطوخي وشريكه 
+                130 باقي منزل مأخوذ من وقف الزرقاني وشريكه
+                010 باقي منزل مأخوذ من الحرمه نايله 
+                008 باقي دكاكين مأخوذ وقف الأزهر
+                012 باقي منزل مأخوذ من حسنين بدوي الحلاق واخيه
+                048 باقي منزل مأخوذ من ناظر وقف رواق الأتراك
+                _____
+                28
+                فقط ثمانية وعشرون لا غير 
+                هذه المواضع الميرية المبينه فوق اشتهرت للمزايدة فيها بموجب قوائم بيد رئيس دلالي العقارات وضرب ميعاد لتتميم ذلك يوم الأثنين 18 من محرم سنه 85 فمن يرغب فليحضر في الميعاد بالمسافرخانة بالازبكية من ابتداء الساعة الثالثة العربية إلى غاية الساعة التاسعة من النهار وحينئذ يكون بت البيع حسب الشروط ومن حضر بعد ذلك فلا تقبل المزايدة 
+                
+             </p>
+           </div>
+         
+          <div>
+             <head>            ( نمرة الوقائع 247)      طبعت بمطبعة بولاق يوم الخميس 13 شعبان سنة 1285هـ الموافق 18 هاتور القبطي 1585 و26 نوامبر الأفرنجي 1868م  ص3
+             </head>
+             
+             <p>
+                
+                بلغنا أنه ظهر حريق في قطن بمنزل سكن محمد عيد التاجر كائن بدرب الدالي حسين بثمن قيسون فبودر من الضبطية إلى ارسال الطلومبات واللازم وبلطف الله أطفئ في نصف ساعة بدون أن يحترق من القطن إلا القليل وأن يسرى الحريق إلى جهة أخرى 
+             </p>
+            
+          </div>
+         
+        <div>
+           <head>   نمرة الوقائع 261)  ص3               
+                 طبعت بمطبعة بولاق يوم الاثنين 14 رمضان سنة 1285هـ الموافق 20 كيهك القبطي 1585 و28 دسمبر الأفرنجي 1868م
+              
+              
+           </head>
+         
+            <p>
+               إفادة واردة من الأوقاف في 10 رمضان سنة 1285هـ
+               مسطح
+               منزل متخرب بدرب بيرجوان وقف نفيسة نظارة الديوان                                           233
+               منزل متخرب بشارع باب الشعرية وقف يوسف الجابي مثله                                      105
+               خربه بالحطابة ببولاق وقف سيدي أبي العلا مثله                                                74
+               خربة بدرب المسمط بالجمالية وقف سيدنا الحسين مثله                                          55
+               خربه بقصر الشوك وقفه أيضا مثله                                                             247
+               خربه بدرب التضييقة بباب الوزير وقف كلشني مثله                                              140
+               هذه أماكن اقتضى الحال اخراجها من أوقافها التابعة لها للراغبين فيها بالأستبدأ والمؤاجرة وحرر في ذلك خمسة وثلاثون اعلانا أرسلت إلى الضبطية بإفادة مؤرخة بالتاريخ السابق لتوضح على القره قولات وحرر إلى معاون الأوقاف بإشهارها بين الراغبين بقوا مزايدة تتضمن اما الأستبدال واما بيع الأنقاض وتأجير الأرض ليحيط الجميع بذلك وبإبتهاء المزايدة يكون الديوان الخيار بينهما 
+               
+                      </p>
+        </div>
+         <div>
+            <head> 
+                نمرة الوقائع 264     
+                  طبعت بمطبعة بولاق يوم الخميس 24 رمضان سنة 1285هـ الموافق 30 كيهك القبطي 1585 و7 زانويه الأفرنجي 1869م
+           
+                  ص3               </head>
+         <p>
+            اعلان
+            عرض للبيع منزل ببندر طنتدا بالبناء المستجد بالمنشية الجديد بالملقة الكبيرة ملك حضرة احمد أفندي نابي المهندس بديوان الخاصة الخديوية ومفتاحه عند سليمان أفندي فائز كاتب هندسة المديرية بذلك البندر قائمة المزايدة عند اصلان موسى السمسار المجاور حارة السقايين والثمن بالنقد الصاغ الديواني.
+            
+         </p>
+         </div>
+         
+         <div>
+            <head>
+                نمرة الوقائع 270)
+               طبعت بمطبعة بولاق يوم الأثنين 26 شوال سنة 1285هـ الموافق 2 أمشير القبطي 1585 و8 فوريه الأفرنجي 1869م               
+               ص4
+            </head>
+            
+            <p> 
+               (اعلانات)
+               
+               اعلان وارد من المحافظة المصرية بتارند 20 شوال سنة 85 حيث تحرر اعلان اشهار مبيع قطع ارض ببركه الأزبكية من المتخلف من التنظيم بها وذكر به ان تحدد ميعاد لاجتماع المزايدين في يوم 25 شوال سنة 85 الموافق 7 فبراير سنة 1869 قد تحدد ميعاد اجتماع المزايدين في اليوم المذكور من ابتداء الساعة الثامنة العربية إلى نهاية الساعة الحادية عشرة فاقتضي الحال تحرير هذا ليدرج في الوقائع التركية والعربية لمعلومية الراغبين في يوم الثلاثا 20 شوال سنة1285
+               
+            
+            </p>
+         </div>
+         
+         <div>
+            <head>
+               نمرة الوقائع 270)
+               طبعت بمطبعة بولاق يوم الأثنين 26 شوال سنة 1285هـ الموافق 2 أمشير القبطي 1585 و8 فوريه الأفرنجي 1869م               
+               ص4
+            </head>
+            <p>
+               اعلان من ديوان الأوقاف في 18 شوال سنة 85 
+               منزل بالدوادية وقف الست زبيدة وحليمة مسطحه 60 اقتضى الحال استبداله
+               ربع منزل بقلعة الكبش وقف الأستاذ الخضيري مسطحه ..10 اقتضي الحال بيع انقاضه وتأجير أرضه 
+               ما ذكر تحرر به خمسة وثلاثون اعلانا ارسلت إلى الضبطية بافادة في ذلك التاريخ لوضعها على القره قولات وكتب إلى حسن افندي مسعود معاون الأوقاف باشهار ذلك بقوائم مزايدة بين الراغبين فاقتضي الحال ادراجه بالوقائع لاحاطة الجميع
+               
+            </p>
+         </div>
+         
+         <div>
+            <head>
+                نمرة الوقائع 274)
+               طبعت بمطبعة بولاق يوم الأثنين 11 ذي القعدة سنة 1285هـ الموافق 16 أمشير القبطي 1585 و22 فوريه الأفرنجي 1869م              
+                  
+                  ص4
+            </head>
+            
+            <p>
+               
+               اعلان وارد من حضرة محمد بك وكيل مديرية الروضة سابقًا بتاريخ 25 شوال سنة
+               
+               لنا ولشركائنا منزل بجهة بركة الأفيلة تبلغ مساحة مسطحه نحو ثمانية آلاف ذراع معماري ويشتمل على جنينتين احداهما نحو نصف فدان والأخرى قيراط وعلى حوش سماوى نحو ألف ذراع وساقية وصهريج مياه يسع خمسة عشر ألف قربة وبجهة الحريم أوط متسعة وفسقية بالرخام ودواوين نحو الثلاثين وسلاملك مستوفى بمناضرة وخزناته ولوازمه وبواجهة المنزل محل ربع نحو ألف ذراع لمنافع المنزل مثل اصطبل وعربخانة وحواصل وطاحونة جميعه مستجد البناء والبياض والبلاط والرخام والنجارة وابنيته تبلغ نحو العشرين ألف ذراع مكعب فمن يرغب فى شرائه فليحضر ويعاين اذ ليس الخبر كالعيان والبيع بالعملة الصاغ الديواني وقايمة المزايدة بالمنزل.
+               
+            </p>
+         </div>
+           <div>
+              <head>  نمرة الوقائع 279)
+              طبعت بمطبعة بولاق يوم الخميس 28 ذي القعدة سنة 1285هـ الموافق 3 برمهات القبطي 1585 و11 مارت الأفرنجي 1869م
+                 ص 3
+              </head>
+              
+              <p>
+                 (اعلانات)
+                 
+                 اعلان من عموم الأوقاف بتاريخ 24 ذي القعدة سنة  85
+                 
+                 
+                 1	طاحونة بشارع البيدق مسطحها 368 ذراعا وقف الأمامين ورواق الأتراك.
+                 1   خربة بخط غيط العدّة مسطحها 252 نظارة حضرة بك طبوزا وعلى يرغب فيها الشيخ على القباني     بعشرين ألف قرش دارجه
+                 ____
+                 2 
+                 اقتضي الحال استبدال المحلين المذكورين وارسل بهما 35 اعلانا إلى الضبطية لتوضع على القره قولات وحرر إلى جناب حسن أفندي مسعود أحد معاوني الديوان با شهارهما بقوائم مزايدة لمن يرغب.
+                 
+              </p>
+         </div>
+
+
+         <div>
+            <head>
+               نمرة الوقائع 282)
+               طبعت بمطبعة بولاق يوم الأثنين 16 ذي الحجة سنة 1285هـ الموافق 21 برمهات القبطي 1585 و29 مارت الأفرنجي 1869م ص4            
+            </head>
+               <p>
+                  (اعلانات)
+                  لفظ اعلان وارد من حضرة وكيل عموم البوستة الخديوية المصرية
+                  يكون معلوما لدى الجميع بأن في يوم الخميس غرة شهر ابريل الأفرنكي سنة 69 الموافق 19 الحجة سنة 85 ينتقل توكيل بوسطة مصر من المحل الموجود به الآن لمحل الخواجات اخوان فوتيارس الكائن أما الديوان الذي كانت فيه الضبطية اخيرا تحريرا في 24 مارس ينة 69 11 الحجة سنة 85 
+                  
+               </p>
+            
+         </div>
+      </body>
+   </text>
+</TEI>
