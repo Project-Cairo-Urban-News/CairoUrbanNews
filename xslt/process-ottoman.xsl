@@ -45,6 +45,7 @@
   </xsl:template>
   
   <!-- Pass 1: remove empty <p> tags and mark <p> types -->
+  
   <xsl:template match="t:p[t:hi[contains(@rend,'color(1F4E79)')]]" mode="pass1">
     <p type="head" level="1"><xsl:apply-templates/></p>
   </xsl:template>
@@ -54,7 +55,7 @@
   </xsl:template>
   
   <xsl:template match="t:p[t:hi[contains(@rend,'color(385623)')]]" mode="pass1">
-    <p type="head" level="3"><xsl:apply-templates/></p>
+    <milestone n="{normalize-space(.)}"/>
   </xsl:template>
   
   <xsl:template match="t:p[normalize-space(.) = '']" mode="pass1"/>
@@ -100,6 +101,11 @@
         
   <xsl:template match="t:p[@type='body']" mode="head body">
     <p><xsl:apply-templates mode="body"/></p>
+  </xsl:template>
+  
+  <xsl:template match="t:milestone" mode="head body">
+    <xsl:copy-of select="."/>
+    <xsl:apply-templates select="./following-sibling::t:*[1]" mode="#current"/>
   </xsl:template>
   
   <xsl:template match="t:p[@type='body']" mode="pass2"/>

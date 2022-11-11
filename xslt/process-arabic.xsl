@@ -5,6 +5,7 @@
   xmlns:t="http://www.tei-c.org/ns/1.0"
   exclude-result-prefixes="#all"
   version="3.0">
+  <xsl:mode on-no-match="shallow-copy"/>
   
   <xsl:output indent="yes"/>
   
@@ -47,20 +48,32 @@
   <!-- Pass 1: remove empty <p> tags and mark <p> types -->
   
   <xsl:template match="t:p[normalize-space(.) != '' and t:hi[contains(@rend,'color(FF0000)')]]" mode="pass1">
-    <p type="head"><xsl:apply-templates/></p>
+    <p type="head"><xsl:apply-templates mode="none"/></p>
+  </xsl:template>
+  
+  <xsl:template match="t:p[normalize-space(.) != '' and t:hi[contains(@rend,'color(D60093)')]]" mode="pass1">
+    <p type="head"><xsl:apply-templates mode="none"/></p>
+  </xsl:template>
+  
+  <xsl:template match="t:p[normalize-space(.) != '' and @style='text-align: center;']" mode="pass1">
+    <p type="head"><xsl:apply-templates mode="none"/></p>
+  </xsl:template>
+  
+  <xsl:template match="t:p[normalize-space(.) != '' and t:hi[contains(@rend,'color(BF8F00)')]]" mode="pass1">
+    <milestone n="{normalize-space(.)}"/>
   </xsl:template>
   
   <xsl:template match="t:p[normalize-space(.) = '']" mode="pass1"/>
   
   <xsl:template match="t:p" mode="pass1">
-    <p type="body"><xsl:apply-templates/></p>
+    <p type="body"><xsl:apply-templates mode="none"/></p>
   </xsl:template>
   
   <xsl:template match="t:list[count(t:item) = 1][not(ancestor::t:list)]" mode="pass1">
     <p type="head"><xsl:value-of select="t:item"/></p>
   </xsl:template>
   
-  <xsl:template match="t:list|t:item|@*" mode="pass1">
+  <xsl:template match="t:list|t:item" mode="pass1">
     <xsl:copy>
       <xsl:apply-templates select="node()|@*" mode="pass1"/>
     </xsl:copy>
@@ -95,6 +108,11 @@
     <xsl:apply-templates select="./following-sibling::t:*[1]" mode="body"/>
   </xsl:template>
   
+  <xsl:template match="t:milestone" mode="head body">
+    <xsl:copy-of select="."/>
+    <xsl:apply-templates select="./following-sibling::t:*[1]" mode="#current"/>
+  </xsl:template>
+  
   <xsl:template match="t:p[@type='body']" mode="pass2"/>
   
   <xsl:template match="t:list[not(ancestor::t:list)]" mode="pass2 head">
@@ -119,16 +137,12 @@
     <sic><xsl:apply-templates/></sic>
   </xsl:template>
 
-  <xsl:template match="t:hi[not(@rend)]"/>
+  <xsl:template match="t:hi[not(@rend)]">
+    <xsl:apply-templates/>
+  </xsl:template>
   
   <xsl:template match="@dir" mode="#all"/>
   
   <xsl:template match="@style"/>
-  
-  <xsl:template match="node()|@*" mode="pass2 head">
-    <xsl:copy>
-      <xsl:apply-templates select="node()|@*" mode="#current"/>
-    </xsl:copy>
-  </xsl:template>
   
 </xsl:stylesheet>
