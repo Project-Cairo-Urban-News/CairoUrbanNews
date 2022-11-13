@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../css/oxygen.css"?>
+<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah:</title>
+            <editor xml:id="eNK">Nour Kanaan</editor>
+            <editor xml:id="eAM">Adam Mestyan</editor>
+            <editor xml:id="eDY">Danah Younis</editor>
+            <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
+            <editor xml:id="eAE">Arif Erbil</editor>
+            <editor xml:id="eAK">Ahmed Kamal</editor>
+            <editor xml:id="eAS">Abram Smith</editor>
+            <editor xml:id="eCH">Clara Harms</editor>
+            <editor xml:id="eHS">Hüseyin Sağlam</editor>
+            <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+            <respStmt>
+               <resp>Advisor</resp>
+               <name>Hugh Cayless</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Adam Mestyan</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Mercedes Volait</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Sarah Fath Allah</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Karima Nasr</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Rezk Nory</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Arif Erbil</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Ahmed Kamal</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abram Smith</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Clara Harms</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Hüseyin Sağlam</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abdulrahman El-Taliawi</name>
+            </respStmt>
+            <sponsor>
+               <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
+          <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+          Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+          Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>. 
+        </sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
+          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+            <p>
+               <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
+            </p>
+            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+            <p>born digital document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Rules of TEI XML MarkUp in This Project</p>
+            <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
+            <p>Each individual article has an individual xml:id number starting with "w1"</p>
+            <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
+            <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
+            <p>"Mashaykhah" and "thumn" are orgNames.</p>
+            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+          Editions</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+            <language ident="ott">Ottoman</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text xml:lang="ar">
+      <body>
+         <div>
+            <head>نمره 624</head>
+            <head>يوم الخميس المبارك 22 شهر ربيع الثانى 1259 ه</head>
+            <head>صفحة 6 – العمود 1</head>
+            <head>فوايد مختلفه</head>
+            <p>قد تولى العلامة السيد احمد القيصاوى الصعيدى شيخا على طائفة الصعائدة عوضا عن المرحوم الشيخ عبد الله القاضى فى هذا الخصوص بداعى ان الشيخ المذكور صعيدى وشيخ المالكية المتولى الان بحيرى </p>
+            <p>وقد جرت العادة انه بعد اتحاف شيخ المذهب بفرو سمور من الخديوى وبفرو من حضرة شيخ الجامع قبل ذلك ينزل حالا الى بيت حضرة نقيب الاشراف وحضرة شيخ السادات الوفائية فيتحف عند كل منهما بفرو سمور وقد حصل ذلك للشيخ الحبيشى ثم بعد ذلك يطوف ببيوت الاعيان الذين لهم عادة الاتحاف المذكور فيكسوه كل على حسب مقامه وكذلك مشايخ الاروقة الكبيرة فلبس شيخ المالكية المذكور زيادة على ذلك صوفا من عند حضرة قاضى الاسلام وفروا من حضرة بركة وقته الشيخ الجوهرى وفروا من حفيد العلامة القويسنى وفرجية جوخ من حضرة الشيخ التميمى مفتى السادة الحنفية وشالا كشميريا من حضرة مصطفى باشا العروسى وفرجية من عند الشيخ عبد الفتاح العنانى وكذلك لبس من عند السيد حنفى مكرم وغيره من اصحاب العادات وكل من هؤلاء المذكورين اتحف السيد القيصاوى شيخ رواق الصعائدة بفرحية ومن جملتهم الشيخ محمد الحبيشى نفسه فقد كساه كما كساه غيره واجاز من مدحه من الشعراء.</p>
+         </div>
+         <div>
+            <head>صفحة 6 – العمود 1</head>
+            <head>اعلانات</head>
+            <p>بيان ما فى الدلالة من العقارات وغيرها </p>
+            <p>احد عشر دكانا مسكونة فى التربيعة بلغت فى الدلالة من القروش 11800</p>
+            <p>تسع دكاكين بالعقادين البلدى بلغت من القروش 53700 </p>
+            <p>وكالة فى العقادين البلدى فى داخلها دكاكين وحواصل واوض وبيوت وبظهرها خربة بلغت من القروش 20000</p>
+            <p>دكاكين خمسة بخط الوراقين بلغت من القروش 7000 </p>
+            <p>اطيان رزقة بلا مال تعلق عبد الرحمن بيك بناحية سيله فيوم جميعها سواد قدرها مائة فدان وبها من المهمات ثلاثة اقواس ومحراث واحد ومن المواشى ثور واحد بلغت من القروش 20000</p>
+            <p>خمسمائة فدان رزقة بلا مال تعلق البيك المذكور بالفيوم بها من المهمات محراثان واربعة عشر قوسا ونورج واحد ومن المواشى اربعة اثوار وحمار واحد بلغت من القروش 100000</p>
+            <p>ثلاثة مساكن تعلق المرحوم خليل افندى ووصيه عارف بيك بالدرب الاحمر فى التبانه بلغت فى الدلالة من القروش 4000 </p>
+            <p>طيان تعلق حسن بيك مدير القليوبية سابقا بناحية ميت العايد باقليم الجيزة رزقة بلا مال قطعة واحدة قدرها مائتان واربعة وعشرون فدانا بلغت فى الدلالة من القروش 50000</p>
+            <p>مسكن تعلق المذكور بناحية الجيزة بلغ من القروش 21000 </p>
+            <p>اطيان تعلق المذكور بناحية الدقى من جهة الجيزة رزقة بلا مال قدرها ا[ر]بعة وعشرون فدانا بلغت من القروش 32500 </p>
+            <p>منزل بالجيزة تعلق المذكور بلغ فى الدلالة ثمانين الف قرش </p>
+            <p>تسعة دكاكين بسوق الجيزة وطاحونة وفرن واصطبل كبير بلغت اثنى عشر الف قرش</p>
+            <p>الف وستمائة فدان تعلق المذكور رزقة بلا مال بناحية بوش بلغت ثلثمائة الف قرش وخمسة وثلاثين الفا </p>
+            <p>منزل بالدرب الاحمر تعلق اسماعيل اغا باش جاويش بالديوان الخديوى بلغ فى الدلالة أحدا وثلاثين الف قرش وخمسمائة قرش</p>
+            <p>منزل بالباطلية بناحية الازهر تعلق الحاج على الاسكندرانى بلغ من القروش 6250   </p>
+         </div>
+      </body>
+   </text>
+</TEI>
