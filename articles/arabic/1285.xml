@@ -1,115 +1,121 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah:</title>
-        <editor xml:id="eNK">Nour Kanaan</editor>
-        <editor xml:id="eAM">Adam Mestyan</editor>
-        <editor xml:id="eDY">Danah Younis</editor>
-        <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
-        <editor xml:id="eAE">Arif Erbil</editor>
-        <editor xml:id="eAK">Ahmed Kamal</editor>
-        <editor xml:id="eAS">Abram Smith</editor>
-        <editor xml:id="eCH">Clara Harms</editor>
-        <editor xml:id="eHS">Hüseyin Sağlam</editor>
-        <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
-        <respStmt>
-          <resp>Advisor</resp>
-          <name>Hugh Cayless</name>
-        </respStmt>
-        <respStmt>
-          <resp>Project leader</resp>
-          <name>Adam Mestyan</name>
-        </respStmt>
-        <respStmt>
-          <resp>Project leader</resp>
-          <name>Mercedes Volait</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Sarah Fath Allah</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Karima Nasr</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Rezk Nory</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Arif Erbil</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Ahmed Kamal</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Abram Smith</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Clara Harms</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Hüseyin Sağlam</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Abdulrahman El-Taliawi</name>
-        </respStmt>
-        <sponsor>
-          <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../css/oxygen.css"?>
+<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah:</title>
+            <editor xml:id="eNK">Nour Kanaan</editor>
+            <editor xml:id="eAM">Adam Mestyan</editor>
+            <editor xml:id="eDY">Danah Younis</editor>
+            <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
+            <editor xml:id="eAE">Arif Erbil</editor>
+            <editor xml:id="eAK">Ahmed Kamal</editor>
+            <editor xml:id="eAS">Abram Smith</editor>
+            <editor xml:id="eCH">Clara Harms</editor>
+            <editor xml:id="eHS">Hüseyin Sağlam</editor>
+            <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+            <respStmt>
+               <resp>Advisor</resp>
+               <name>Hugh Cayless</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Adam Mestyan</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Mercedes Volait</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Sarah Fath Allah</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Karima Nasr</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Rezk Nory</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Arif Erbil</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Ahmed Kamal</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abram Smith</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Clara Harms</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Hüseyin Sağlam</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abdulrahman El-Taliawi</name>
+            </respStmt>
+            <sponsor>
+               <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
           <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
           Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
           Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>. 
         </sponsor>
-      </titleStmt>
-      <publicationStmt>
-        <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
+         </titleStmt>
+         <publicationStmt>
+            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
           du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
-        <p>born digital document</p>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <projectDesc>
-        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
+            <p>
+               <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
+            </p>
+            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+            <p>born digital document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-      </projectDesc>
-      <editorialDecl>
-        <p>Rules of TEI XML MarkUp in This Project</p>
-        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
-          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
-        <p>Each individual article has an individual xml:id number starting with "w1"</p>
-        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
-        <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
-        <p>"Mashaykhah" and "thumn" are orgNames.</p>
-        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+         </projectDesc>
+         <editorialDecl>
+            <p>Rules of TEI XML MarkUp in This Project</p>
+            <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
+            <p>Each individual article has an individual xml:id number starting with "w1"</p>
+            <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
+            <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
+            <p>"Mashaykhah" and "thumn" are orgNames.</p>
+            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
           Editions</ref>.</p>
-      </editorialDecl>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="ar">Arabic</language>
-        <language ident="en">English</language>
-        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
-        <language ident="ott">Ottoman</language>
-      </langUsage>
-    </profileDesc>
-  </teiHeader>
-  
-  <text xml:lang="ar">
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text xml:lang="ar">
       <body>
          <div resp="#eAK" xml:id="k801">
-            <head><date when-custom="1285-01-07">7 محرم سنة 1285هـ</date> الموافق <date when-custom="1584-08-23">23 برموده القبطي 1584</date> و<date when="1868-04-30">30
+            <head><date when-custom="1285-01-07">7 محرم سنة 1285هـ</date> الموافق <date
+                  when-custom="1584-08-23">23 برموده القبطي 1584</date> و<date when="1868-04-30">30
                   أبريل الأفرنجي 1868م</date></head>
             <p>(<rs type="اعلان">اعلان</rs>) (اعلان من <orgName type="ديوان-الأوقاف">ديوان
                   الأوقاف</orgName> بتاريخ <date when-custom="1285-01-05">5 محرم سنة 1285</date>)
@@ -118,25 +124,20 @@
                   أباظه</persName> اقتضى الحال بيع 1 منزل ب<placeName type="حارة-الزيانين">حارة
                   الزيانين</placeName> ب<placeName type="عابدين">عابدين</placeName> وقف 115 انقاضهما
                وتأجير صالح المنشاتي أرضهما 1 خربه ب<placeName type="سوق-سكة-بجهة-الحنفي">سوق سكه
-<<<<<<< Updated upstream
-                  بجهة الحنفي</placeName> 111 وقف <persName>الست آمنه</persName> 1 منزل ب<placeName type="خط-الرويعي">خط الرويعي</placeName> وقف <persName>ابراهيم</persName> 766
-               اقتضى الحال اغا الخازن دار استبداله حرر إلى معاون الأوقاف باشهار هذه الأماكن على
-=======
                   بجهة الحنفي</placeName> 111 وقف <persName>الست آمنه</persName> 1 منزل ب<placeName
                   type="خط-الرويعي">خط الرويعي</placeName> وقف <persName>ابراهيم</persName> 766
                اقتضى الحال <roleName role="اغا-الخازن-دار">اغا الخازن دار</roleName> استبداله حرر
                إلى <roleName role="معاون-أوقاف">معاون الأوقاف</roleName> باشهار هذه الأماكن على
->>>>>>> Stashed changes
                الوجه المبين فوق بقوائم مزايدة بين الراغبين بعد أن حرر في ذلك خمسة وثلاثون اعلانا
                أرسلت إلى الضبطية لتعلق بالقره قولات لاحاطة الجميع بتلك المحلات. </p>
          </div>
          
            <div resp="#eAk" xml:id="K802">
             <head>طبعت بمطبعة بولاق يوم <date when-custom="1285-01-11">الأثنين 11 محرم سنة
-                  1285هـ</date> الموافق <date when-custom="1584-08-27">27 برموده القبطي 1584</date>
-                  و<date when-custom="1868-04-04">4 أبري الأفرنجي 1868م</date><bibl>
-                  <biblScope unit="issue">نمرة الوقائع 198)</biblScope>
-                  <biblScope unit="page">ص4</biblScope></bibl></head>
+                     1285هـ</date> الموافق <date when-custom="1584-08-27">27 برموده القبطي
+                        1584</date> و<date when-custom="1868-04-04">4 أبري الأفرنجي 1868م</date><bibl>
+                  <biblScope unit="issue">نمرة الوقائع 198</biblScope>) <biblScope unit="page"
+                     >ص4</biblScope></bibl></head>
             <p>
                <rs type="اعلان">اعلانات</rs> (اعلان من المحافظة المصرية) بيان الباقي من الأماكن
                الميري اللاتي ب<placeName type="شارع-السكة-المستجدة">شارع السكة المستجدة</placeName>
@@ -191,48 +192,37 @@
             </p>
          </div>
          
-        <div resp="#eAK" xml:id="k804">
-            <head><bibl> نمرة الوقائع <biblScope unit="issue">261</biblScope>) ص<biblScope
-                     unit="page">3</biblScope></bibl> طبعت بمطبعة بولاق يوم <date
-                  when-custom="1285-09-14">الاثنين 14 رمضان سنة 1285هـ</date> الموافق <date
-                  when-custom="1585-04-20">20 كيهك القبطي 1585</date> و<date when="1868-12-28">28
-                  دسمبر الأفرنجي 1868م</date>
-            </head>
+        <div>
+           <head>   نمرة الوقائع 261)  ص3               
+                 طبعت بمطبعة بولاق يوم الاثنين 14 رمضان سنة 1285هـ الموافق 20 كيهك القبطي 1585 و28 دسمبر الأفرنجي 1868م
+              
+              
+           </head>
+         
             <p>
-               <rs type="إفادة">إفادة</rs> واردة من <orgName type="الاوقاف">الأوقاف</orgName> في
-                  <date when-custom="1285-09-10">10 رمضان سنة 1285هـ</date> مسطح منزل متخرب
-                  ب<placeName type="درب-بيرجوان">درب بيرجوان</placeName> وقف
-                  <persName>نفيسة</persName> نظارة الديوان 233 منزل متخرب بشارع <placeName
-                  type="باب-الشعرية">باب الشعرية</placeName> وقف <persName>يوسف الجابي</persName>
-               مثله 105 خربه ب<placeName type="الحطابة-بولاق">الحطابة ببولاق</placeName> وقف
-                  <persName>سيدي أبي العلا</persName> مثله 74 خربة ب<placeName type="درب-المسمط">درب
-                  المسمط</placeName> ب<placeName type="الجمالية">الجمالية</placeName> وقف
-                  <persName>سيدنا الحسين</persName> مثله 55 خربه ب<placeName type="قصر-الشوك">قصر
-                  الشوك</placeName> وقفه أيضا مثله 247 خربه ب<placeName type="درب-التضييقة">درب
-                  التضييقة</placeName> ب<placeName type="باب-الوزير">باب الوزير</placeName> وقف
-                  <persName>كلشني</persName> مثله 140 هذه أماكن اقتضى الحال اخراجها من أوقافها
-               التابعة لها للراغبين فيها بالأستبدأ والمؤاجرة وحرر في ذلك خمسة وثلاثون اعلانا أرسلت
-               إلى الضبطية بإفادة مؤرخة بالتاريخ السابق لتوضح على القره قولات وحرر إلى <roleName
-                  role="معاون-أوقاف">معاون الأوقاف</roleName> بإشهارها بين الراغبين بقوا مزايدة
-               تتضمن اما الأستبدال واما بيع الأنقاض وتأجير الأرض ليحيط الجميع بذلك وبإبتهاء المزايدة
-               يكون الديوان الخيار بينهما </p>
-         </div>
-         <div resp="#eAK" xml:id="k805">
-            <head>
-               <bibl>نمرة الوقائع <biblScope unit="issue">264</biblScope> طبعت بمطبعة بولاق يوم
-                     <date when-custom="1285-09-24">الخميس 24 رمضان سنة 1285هـ</date> الموافق <date
-                     when-custom="1585-04-30">30 كيهك القبطي 1585</date> و<date when="1869-01-07">7
-                     زانويه الأفرنجي 1869م</date> ص<biblScope unit="page">3
-               </biblScope></bibl></head>
-            <p> اعلان عرض للبيع منزل ب<placeName type="بندر-طنتد">بندر طنتد</placeName>ا بالبناء
-               المستجد ب<placeName type="المنشية-الجديد">المنشية الجديد</placeName> بالملقة الكبيرة
-               ملك حضرة <persName>احمد أفندي نابي <roleName role="مهندس"
-                  >المهندس</roleName></persName> ب<orgName type="ديوان-الخاصة-الخديوية">ديوان الخاصة
-                  الخديوية</orgName> ومفتاحه عند <persName>سليمان أفندي فائز <roleName
-                     role="كاتب-هندسة-المديرية">كاتب هندسة المديرية</roleName></persName> بذلك
-               البندر قائمة المزايدة عند <persName>اصلان موسى <roleName role="سمسار"
-                     >السمسار</roleName></persName> المجاور <placeName type="حارة-السقايين">حارة
-                  السقايين</placeName> والثمن بالنقد الصاغ الديواني. </p>
+               إفادة واردة من الأوقاف في 10 رمضان سنة 1285هـ
+               مسطح
+               منزل متخرب بدرب بيرجوان وقف نفيسة نظارة الديوان                                           233
+               منزل متخرب بشارع باب الشعرية وقف يوسف الجابي مثله                                      105
+               خربه بالحطابة ببولاق وقف سيدي أبي العلا مثله                                                74
+               خربة بدرب المسمط بالجمالية وقف سيدنا الحسين مثله                                          55
+               خربه بقصر الشوك وقفه أيضا مثله                                                             247
+               خربه بدرب التضييقة بباب الوزير وقف كلشني مثله                                              140
+               هذه أماكن اقتضى الحال اخراجها من أوقافها التابعة لها للراغبين فيها بالأستبدأ والمؤاجرة وحرر في ذلك خمسة وثلاثون اعلانا أرسلت إلى الضبطية بإفادة مؤرخة بالتاريخ السابق لتوضح على القره قولات وحرر إلى معاون الأوقاف بإشهارها بين الراغبين بقوا مزايدة تتضمن اما الأستبدال واما بيع الأنقاض وتأجير الأرض ليحيط الجميع بذلك وبإبتهاء المزايدة يكون الديوان الخيار بينهما 
+               
+                      </p>
+        </div>
+         <div>
+            <head> 
+                نمرة الوقائع 264     
+                  طبعت بمطبعة بولاق يوم الخميس 24 رمضان سنة 1285هـ الموافق 30 كيهك القبطي 1585 و7 زانويه الأفرنجي 1869م
+           
+                  ص3               </head>
+         <p>
+            اعلان
+            عرض للبيع منزل ببندر طنتدا بالبناء المستجد بالمنشية الجديد بالملقة الكبيرة ملك حضرة احمد أفندي نابي المهندس بديوان الخاصة الخديوية ومفتاحه عند سليمان أفندي فائز كاتب هندسة المديرية بذلك البندر قائمة المزايدة عند اصلان موسى السمسار المجاور حارة السقايين والثمن بالنقد الصاغ الديواني.
+            
+         </p>
          </div>
          
          <div>
