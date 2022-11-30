@@ -101,7 +101,7 @@
         <language ident="ar">Arabic</language>
         <language ident="en">English</language>
         <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
-        <language ident="ott">Ottoman</language>
+        <language ident="ota">Ottoman</language>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -109,8 +109,7 @@
   <text xml:lang="ar">
       <body>
          <div xml:id="w141" resp="#eHS">
-            <head><bibl><biblScope unit="issue">نمره ١٤١</biblScope></bibl>في يوم الاثنين <date
-                  when-custom="1265-01-01">٠١ محرم ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٤١</biblScope></bibl>في يوم الاثنين <date when-custom="1265-01-01">٠١ محرم ١٢٦٥</date></head>
             <div>
                <head>اعلانات</head>
                <head><bibl><biblScope unit="page">ص ٦</biblScope></bibl> - عمود ٣</head>
@@ -143,8 +142,7 @@
             </div>
          </div>
          <div resp="#eHS" xml:id="w142">
-            <head><bibl><biblScope unit="issue">نمره ١٤٢</biblScope></bibl> في يوم الاثنين <date
-                  when-custom="1265-01-08">٠٨ محرم ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٤٢</biblScope></bibl> في يوم الاثنين <date when-custom="1265-01-08">٠٨ محرم ١٢٦٥</date></head>
             <div>
                <head>حوادث داخليه</head>
             </div>
@@ -152,8 +150,7 @@
                <head><bibl><biblScope unit="page">ص ٢</biblScope></bibl> - عمود ٢</head>
             </div>
             <div>
-               <p><orgName type="قصر-عالی">قصر عالی</orgName> كتبه سندن <placeName type="موسكیه"
-                     >موسكیه</placeName> سمتنده كائن <placeName type="حوش-الحين">حوش
+               <p><orgName type="قصر-عالی">قصر عالی</orgName> كتبه سندن <placeName type="موسكیه">موسكیه</placeName> سمتنده كائن <placeName type="حوش-الحين">حوش
                      الحين</placeName> نام محله ده ساكن <persName>خليل عزمی افندي</persName>نك خانه
                   سنده کچن ماه ذی الحجه نك يکرمی اوچنجی کونی ساعت اونبر صولرنده بر حريق ظهور ایدوب
                      <orgName type="ضابطخانه">ضابطخانه</orgName> دن خبری النديغی برله لازمکلان
@@ -166,16 +163,13 @@
                <head><bibl><biblScope unit="page">ص ٢</biblScope></bibl> - عمود ٣</head>
             </div>
             <div>
-               <p><orgName type="جيزه-مدیريت">جيزه مدیريت</orgName>نده کائن <placeName
-                     type="منصوريه">منصوريه</placeName> قريه سی مشايخى <placeName
-                     type="شرقاويه-ترعەس">شرقاويه ترعه س</placeName>نك تطهيری ايچون حصه لرینه اصابت
+               <p><orgName type="جيزه-مدیريت">جيزه مدیريت</orgName>نده کائن <placeName type="منصوريه">منصوريه</placeName> قريه سی مشايخى <placeName type="شرقاويه-ترعەس">شرقاويه ترعه س</placeName>نك تطهيری ايچون حصه لرینه اصابت
                   ایدن انفاری تماما كتورمیوب اهمال ایتمش اولدقلرندن <rs type="قانون">قانون</rs>ك 6جى
                   بندی موجبنجه مشايخ مرقومه تربیه و تأدیب اولنمشلردر</p>
             </div>
          </div>
          <div resp="#eHS" xml:id="w143">
-            <head><bibl><biblScope unit="issue">نمره ١٤٣</biblScope></bibl> في يوم الاثنين <date
-                  when-custom="1265-01-15">١٥ محمر ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٤٣</biblScope></bibl> في يوم الاثنين <date when-custom="1265-01-15">١٥ محمر ١٢٦٥</date></head>
             <div>
                <head>اعلانات</head>
             </div>
@@ -194,8 +188,7 @@
             </div>
          </div>
          <div resp="#eHS" xml:id="w144">
-            <head><bibl><biblScope unit="issue">نمره ١٤٤</biblScope></bibl> في يوم الاثنين <date
-                  when-custom="1265-01-29">٢٩ محرم ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٤٤</biblScope></bibl> في يوم الاثنين <date when-custom="1265-01-29">٢٩ محرم ١٢٦٥</date></head>
             <div>
                <head>اعلانات</head>
             </div>
@@ -224,8 +217,7 @@
             </div>
          </div>
          <div resp="#eHS" xml:id="w145">
-            <head><bibl><biblScope unit="issue">نمره ١٤٥</biblScope></bibl> في يوم الاثنين <date
-                  when-custom="1265-02-07">٠٧ صفر ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٤٥</biblScope></bibl> في يوم الاثنين <date when-custom="1265-02-07">٠٧ صفر ١٢٦٥</date></head>
             <div>
                <head>اعلانات</head>
             </div>
@@ -252,14 +244,12 @@
                <head><bibl><biblScope unit="page">ص ٦</biblScope></bibl> - عمود ٣</head>
             </div>
             <div>
-               <p><persName>محمد عيسى العطار</persName> نام کمسنه نك <placeName type="رومیله-شارع"
-                     >رومیله شارع</placeName>نده واقع قهوه ده اولان یدی قراطی صاتیلق اولدیغندن
+               <p><persName>محمد عيسى العطار</persName> نام کمسنه نك <placeName type="رومیله-شارع">رومیله شارع</placeName>نده واقع قهوه ده اولان یدی قراطی صاتیلق اولدیغندن
                   رغبتلوسی اولانلر دلالباشئ مرقومدن استدلال ایلمسی</p>
             </div>
          </div>
          <div resp="#eHS" xml:id="w146">
-            <head><bibl><biblScope unit="issue">نمره ١٤٦</biblScope></bibl> في يوم الاثنين <date
-                  when-custom="1265-02-14">١٤ صفر ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٤٦</biblScope></bibl> في يوم الاثنين <date when-custom="1265-02-14">١٤ صفر ١٢٦٥</date></head>
             <div>
                <head>حوادث داخليه</head>
             </div>
@@ -267,20 +257,17 @@
                <head><bibl><biblScope unit="page">ص ١</biblScope></bibl> - عمود ٢</head>
             </div>
             <div>
-               <p><placeName type="قلعۀ-عامره">قلعۀ عامره</placeName> ده <orgName type="طوپخانه"
-                     >طوپخانه</orgName> ده طوپلرك حفظنه لازمكملان بعض محالك اعمالنه جانب میريدن
+               <p><placeName type="قلعۀ-عامره">قلعۀ عامره</placeName> ده <orgName type="طوپخانه">طوپخانه</orgName> ده طوپلرك حفظنه لازمكملان بعض محالك اعمالنه جانب میريدن
                   اونبربيك اوچيوزطقسان سکز غروش وکسورك صرفی ایجاب ایده جكی لدى المقايسه تبين ایتمكله
                   مبلغ مذکورك صرفیله محال مزبوره نك انشاسی لازمكلانلره امر اولنمشدر</p>
             </div>
          </div>
          <div resp="#eHS" xml:id="w147">
-            <head><bibl><biblScope unit="issue">نمره ١٤٧</biblScope></bibl> في يوم الاثنين <date
-                  when-custom="1265-02-21">٢١ صفر ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٤٧</biblScope></bibl> في يوم الاثنين <date when-custom="1265-02-21">٢١ صفر ١٢٦٥</date></head>
             <p>لا يوجد!</p>
          </div>
          <div resp="#eHS" xml:id="w148">
-            <head><bibl><biblScope unit="issue">نمره ١٤٨</biblScope></bibl> في يوم الاثنين <date
-                  when-custom="1265-02-28">٢٨ صفر ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٤٨</biblScope></bibl> في يوم الاثنين <date when-custom="1265-02-28">٢٨ صفر ١٢٦٥</date></head>
             <div>
                <head>حوادث داخليه</head>
             </div>
@@ -288,8 +275,7 @@
                <head><bibl><biblScope unit="page">ص ١</biblScope></bibl> - عمود ٢</head>
             </div>
             <div>
-               <p><placeName type="حصوه">حصوه</placeName> ده كائن <placeName type="قصر-ولی-النعمی"
-                     >قصر ولی النعمی</placeName> یه موصول اولان طريق قومسال و ناهموار اولوب عربه لر
+               <p><placeName type="حصوه">حصوه</placeName> ده كائن <placeName type="قصر-ولی-النعمی">قصر ولی النعمی</placeName> یه موصول اولان طريق قومسال و ناهموار اولوب عربه لر
                   مرورنده حیوانلر زحمت چکدکلرندن ناشی طریق مذکورك تصليح و تسويه سی ايچون ایری و
                   اوفاق طاش فرش اولنه رق دوز و هموار قلنمسی ارادۀ سنیه اقتضاسندن اولمغين اجراسی خصوص
                   نه بدأ و شروع اولنمشدر</p>
@@ -301,24 +287,21 @@
                <head><bibl><biblScope unit="page">ص ٤</biblScope></bibl> - عمود ٣</head>
             </div>
             <div>
-               <p><placeName type="مرجوش-ثمن">مرجوش ثمن</placeName>نده <placeName type="امشاطيه-خط"
-                     >امشاطيه خط</placeName>نده <persName>سید ابراهيم العطار</persName> نام کمسنه نك
+               <p><placeName type="مرجوش-ثمن">مرجوش ثمن</placeName>نده <placeName type="امشاطيه-خط">امشاطيه خط</placeName>نده <persName>سید ابراهيم العطار</persName> نام کمسنه نك
                   شهری اون بش غروشه ايجاره وريلور بر دكانی</p>
             </div>
             <div>
                <head><bibl><biblScope unit="page">ص ٤</biblScope></bibl> - عمود ٣</head>
             </div>
             <div>
-               <p><placeName type="باب-الشعریه-خط">باب الشعریه خط</placeName>نده <placeName
-                     type="مصطاحی">مصطاحی</placeName> جوارنده ایلغی یکرمی بش قروشه ایجاره ویریلور
+               <p><placeName type="باب-الشعریه-خط">باب الشعریه خط</placeName>نده <placeName type="مصطاحی">مصطاحی</placeName> جوارنده ایلغی یکرمی بش قروشه ایجاره ویریلور
                   اليوم مزادده درت بيك غروشه بالغ اولمش <persName>محمد علی</persName> نام کمسنه نك
                   بردکانی صاتیلق اولوب راغبی اولانلر <persName>دلالباشی سید مصطفی</persName> دن
                   استدلال ایلمسی اعلان اولنمشدر</p>
             </div>
          </div>
          <div resp="#eHS" xml:id="w149">
-            <head><bibl><biblScope unit="issue">نمره ١٤٩</biblScope></bibl> في يوم الاثنين <date
-                  when-custom="1265-03-05">٠٥ ربيع اول ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٤٩</biblScope></bibl> في يوم الاثنين <date when-custom="1265-03-05">٠٥ ربيع اول ١٢٦٥</date></head>
             <div>
                <head>حوادث داخليه</head>
             </div>
@@ -333,8 +316,7 @@
             </div>
          </div>
          <div resp="#eHS" xml:id="w150">
-            <head><bibl><biblScope unit="issue">نمره ١٥٠</biblScope></bibl> في يوم الاثنين <date
-                  when-custom="1265-03-12">١٢ ربيع اول ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٥٠</biblScope></bibl> في يوم الاثنين <date when-custom="1265-03-12">١٢ ربيع اول ١٢٦٥</date></head>
             <div>
                <head>حوادث داخليه</head>
             </div>
@@ -342,8 +324,7 @@
                <head><bibl><biblScope unit="page">ص ٢</biblScope></bibl> - عمود ١</head>
             </div>
             <div>
-               <p>ابنای سبیل ايله مروريه عربه لرينك سير و مرورينى تسهيل ضمننده <placeName
-                     type="اوزبکیه">اوزبکیه</placeName> دن <placeName type="ابو-العلا">ابو
+               <p>ابنای سبیل ايله مروريه عربه لرينك سير و مرورينى تسهيل ضمننده <placeName type="اوزبکیه">اوزبکیه</placeName> دن <placeName type="ابو-العلا">ابو
                      العلا</placeName> بيشکاهنه قدر ممتد<placeName type="بولاق-جادەسي">بولاق جاده
                      سي</placeName>له <placeName type="مروریه-رصيف">مروریه رصيف</placeName>نه موصل
                   طريقك اقتضا ایدن تصليح و تسويه سنه مباشرت اولنمشدر</p>
@@ -357,8 +338,7 @@
             </div>
          </div>
          <div resp="#eHS" xml:id="w151">
-            <head><bibl><biblScope unit="issue">نمره ١٥١</biblScope></bibl> في يوم الاثنين <date
-                  when-custom="1265-03-19">١٩ ربيع اول ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٥١</biblScope></bibl> في يوم الاثنين <date when-custom="1265-03-19">١٩ ربيع اول ١٢٦٥</date></head>
             <div>
                <head>حوادث داخليه</head>
             </div>
@@ -367,8 +347,7 @@
             </div>
             <div>
                <p><orgName type="جامع-ازهر">جامع ازهر</orgName> و ميری مكتبلرندن ما عدا الآن
-                     <placeName type="محروسۀ-مصر">محروسۀ مصر</placeName> و <placeName type="بولاق"
-                     >بولاق</placeName> و <placeName type="اسکی-مصر">اسکی مصر</placeName>ده موجود
+                     <placeName type="محروسۀ-مصر">محروسۀ مصر</placeName> و <placeName type="بولاق">بولاق</placeName> و <placeName type="اسکی-مصر">اسکی مصر</placeName>ده موجود
                   اولان اهالى مكتبلرينك عددينی و حاوی اولدقلری تلاميذك كميت و مقدارينى مبين اثمان
                   مشایخی معرفتیله بر قطعه علم اخراج و بر وجه اتى صحيفۀ وقايعۀ ثبت و ادراج
                   اولنمشدر</p>
@@ -447,13 +426,11 @@
             </div>
          </div>
          <div resp="#eHS" xml:id="w152">
-            <head><bibl><biblScope unit="issue">نمره ١٥٢</biblScope></bibl> في يوم الاثنين <date
-                  when-custom="1265-03-26">٢٦ ربيع اول ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٥٢</biblScope></bibl> في يوم الاثنين <date when-custom="1265-03-26">٢٦ ربيع اول ١٢٦٥</date></head>
             <p>لا يوجد!</p>
          </div>
          <div resp="#eHS" xml:id="w153">
-            <head><bibl><biblScope unit="issue">نمره ١٥٣</biblScope></bibl> في يوم الاثنين <date
-                  when-custom="1265-04-03">٠٣ ربيع اخر ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٥٣</biblScope></bibl> في يوم الاثنين <date when-custom="1265-04-03">٠٣ ربيع اخر ١٢٦٥</date></head>
             <div>
                <head>حوادث داخليه</head>
             </div>
@@ -461,8 +438,7 @@
                <head><bibl><biblScope unit="page">ص ٢</biblScope></bibl> - عمود ١</head>
             </div>
             <div>
-               <p>محروسۀ <placeName type="مصر">مصر</placeName> و <placeName type="اسكندريه"
-                     >اسكندريه</placeName> و سائرمديرياتده انشا و تعمیری ختاميذيراوله رق زیرده مبین
+               <p>محروسۀ <placeName type="مصر">مصر</placeName> و <placeName type="اسكندريه">اسكندريه</placeName> و سائرمديرياتده انشا و تعمیری ختاميذيراوله رق زیرده مبین
                   تواريخده مقایسات انتهائیه لری ورود ایدن ابنیه و عماراته جانب ميريدن صرف اولنان
                   مبالغك جدولید صفر غايتنه قدر وارد اولان محروسۀ مصر مقایسه لری</p>
                <table>
@@ -488,8 +464,7 @@
                      <cell>00</cell>
                   </row>
                   <row>
-                     <cell><placeName type="طره">طره</placeName> ده <orgName type="طوپجی-مدرسەس"
-                           >طوپجی مدرسه س</orgName>نك تعمير ينه وبعض</cell>
+                     <cell><placeName type="طره">طره</placeName> ده <orgName type="طوپجی-مدرسەس">طوپجی مدرسه س</orgName>نك تعمير ينه وبعض</cell>
                      <cell>05775</cell>
                      <cell>02</cell>
                   </row>
@@ -499,8 +474,7 @@
                      <cell>17</cell>
                   </row>
                   <row>
-                     <cell><placeName type="قصرعين">قصرعين</placeName>ده كائن <orgName
-                           type="حکیمخانه">حکیمخانه</orgName> نك بعض تعمير ينه</cell>
+                     <cell><placeName type="قصرعين">قصرعين</placeName>ده كائن <orgName type="حکیمخانه">حکیمخانه</orgName> نك بعض تعمير ينه</cell>
                      <cell>00053</cell>
                      <cell>39</cell>
                   </row>
@@ -513,13 +487,11 @@
             </div>
          </div>
          <div resp="#eHS" xml:id="w154">
-            <head><bibl><biblScope unit="issue">نمره ١٥٤</biblScope></bibl> في يوم الاثنين <date
-                  when-custom="1265-04-17">١٧ ربيع اخر ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٥٤</biblScope></bibl> في يوم الاثنين <date when-custom="1265-04-17">١٧ ربيع اخر ١٢٦٥</date></head>
             <p>لا يوجد!</p>
          </div>
          <div resp="#eHS" xml:id="w155">
-            <head><bibl><biblScope unit="issue">نمره ١٥٥</biblScope></bibl> في يوم الاثنين <date
-                  when-custom="1265-04-26">٢٦ ربيع اخر ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٥٥</biblScope></bibl> في يوم الاثنين <date when-custom="1265-04-26">٢٦ ربيع اخر ١٢٦٥</date></head>
             <div>
                <head>اعلانات</head>
             </div>
@@ -534,8 +506,7 @@
                <head><bibl><biblScope unit="page">ص ٤</biblScope></bibl> - عمود ٣</head>
             </div>
             <div>
-               <p><placeName type="جمليه-ثمن">جمليه ثمن</placeName>نده <placeName type="درب-السمر"
-                     >درب السمر</placeName>ده اوست قاتى اوچ اوطه و بر مطبخ و بر کيلار و الت قاتی بر
+               <p><placeName type="جمليه-ثمن">جمليه ثمن</placeName>نده <placeName type="درب-السمر">درب السمر</placeName>ده اوست قاتى اوچ اوطه و بر مطبخ و بر کيلار و الت قاتی بر
                   کوچك منظره و بر حيوان الور بر آخور و بر مغازه و بر حولسی مشتمل بر باب خانه</p>
             </div>
             <div>
@@ -570,8 +541,7 @@
             </div>
          </div>
          <div resp="#eHS" xml:id="w156">
-            <head><bibl><biblScope unit="issue">نمره ١٥٦</biblScope></bibl> في يوم الاربع <date
-                  when-custom="1265-05-10">١٠ جماد اول ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٥٦</biblScope></bibl> في يوم الاربع <date when-custom="1265-05-10">١٠ جماد اول ١٢٦٥</date></head>
             <div>
                <head>اعلانات</head>
             </div>
@@ -586,8 +556,7 @@
             </div>
          </div>
          <div resp="#eHS" xml:id="w157">
-            <head><bibl><biblScope unit="issue">نمره ١٥٧</biblScope></bibl> في يوم الاربع <date
-                  when-custom="1265-05-24">٢٤ جماد اول ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٥٧</biblScope></bibl> في يوم الاربع <date when-custom="1265-05-24">٢٤ جماد اول ١٢٦٥</date></head>
             <div>
                <head>حوادث داخليه</head>
             </div>
@@ -595,16 +564,14 @@
                <head><bibl><biblScope unit="page">ص ٢</biblScope></bibl> - عمود ٣</head>
             </div>
             <div>
-               <p>کچن ماه ربع الاخرك يكرمى يدنجی پنجشنبه کونى ساعت درت صولرنده <placeName
-                     type="قصر-عين-اسپتاليەس">قصر عين اسپتاليه س</placeName>نده بر اوطه ده قاليۀ
+               <p>کچن ماه ربع الاخرك يكرمى يدنجی پنجشنبه کونى ساعت درت صولرنده <placeName type="قصر-عين-اسپتاليەس">قصر عين اسپتاليه س</placeName>نده بر اوطه ده قاليۀ
                   كبريتيه اعمال اولنورکن قضاء شعل لنوب تاوانه پیوسته اوله رق حريق ظهور اتمكله در حال
                   اوراده معين بولنان طلومبه مأمورلرى يتشه رك اثر سعی و غیرتلر يله بشقه يره سرايت
                   ايتمكسزين بعنايت خدا اخماد و اطفا اولنمش اولدیغی خبرى النمشدر</p>
             </div>
          </div>
          <div resp="#eHS" xml:id="w158">
-            <head><bibl><biblScope unit="issue">نمره ١٥٨</biblScope></bibl> في يوم السبت <date
-                  when-custom="1265-05-05">٠٥ جماد اخر ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٥٨</biblScope></bibl> في يوم السبت <date when-custom="1265-05-05">٠٥ جماد اخر ١٢٦٥</date></head>
             <div>
                <head>اعلانات</head>
             </div>
@@ -612,8 +579,7 @@
                <head><bibl><biblScope unit="page">ص ٤</biblScope></bibl> - عمود ٣</head>
             </div>
             <div>
-               <p><placeName type="باب-الشعريه">باب الشعريه</placeName> ده <placeName
-                     type=" شعراوى-خط">شعراوى خط</placeName>نده كائن اوست قاتده سكز اوطه و برحمام و
+               <p><placeName type="باب-الشعريه">باب الشعريه</placeName> ده <placeName type=" شعراوى-خط">شعراوى خط</placeName>نده كائن اوست قاتده سكز اوطه و برحمام و
                   برمطبخ و بر کيلار و الت قاتده ایکی منظره و اوچ مغازه و بر صهریج و بر دكرمن والتى
                   حيوان الور بر اخور و بر قيو و بر كوچك باغچه و بر اجيق حولی يی مشتمل <persName>کورد
                      حسن کا شف</persName>ك اليوم بالمزايده سکسان کیسه یه چیقمش بر باب خانه سی</p>
@@ -631,8 +597,7 @@
             </div>
          </div>
          <div resp="#eHS" xml:id="w159">
-            <head><bibl><biblScope unit="issue">نمره ١٥٩</biblScope></bibl> في يوم السبت <date
-                  when-custom="1265-05-12">١٢ جماد اخر ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٥٩</biblScope></bibl> في يوم السبت <date when-custom="1265-05-12">١٢ جماد اخر ١٢٦٥</date></head>
             <div>
                <head>حوادث داخليه</head>
             </div>
@@ -640,8 +605,7 @@
                <head><bibl><biblScope unit="page">ص ٢</biblScope></bibl> - عمود ١</head>
             </div>
             <div>
-               <p>ماه سابقك اون اوچنجى كيجه سی ساعت اوچ بچق قرارلرنده <placeName type="ازبکیه"
-                     >ازبکیه</placeName> ثمننده مرحوم <persName>قوجه احمد اغا</persName>نك قوناغى
+               <p>ماه سابقك اون اوچنجى كيجه سی ساعت اوچ بچق قرارلرنده <placeName type="ازبکیه">ازبکیه</placeName> ثمننده مرحوم <persName>قوجه احمد اغا</persName>نك قوناغى
                   جوارنده كائن عبد الرحيم نام شخصك خانه سنده قضاء ينغين واقع اولمش و در عقب ضبطيه
                   طرفندن طلومبه و لوازم سائره يتشدرلمكله اطرافنه سرایت اتمکسزین باصدرلمش و كذلك ماه
                   مذکورك اون درد نجی کونی ساعت اون صولرنده <placeName type="اسكى-مصر">اسكى
@@ -653,8 +617,7 @@
             </div>
          </div>
          <div resp="#eHS" xml:id="w160">
-            <head><bibl><biblScope unit="issue">نمره ١٦٠</biblScope></bibl> في يوم الاثنين <date
-                  when-custom="1265-06-21">٢١ جماد اخر ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٦٠</biblScope></bibl> في يوم الاثنين <date when-custom="1265-06-21">٢١ جماد اخر ١٢٦٥</date></head>
             <div>
                <head>حوادث داخليه</head>
             </div>
@@ -687,8 +650,7 @@
                   ايدر مناسب محللرده دیكر اوچ عدد جسيم حوض دخی بنا اولنمسنى ووجۀ ثانى على التخمين
                   اون درت بين اوچ یوز اوتوز بش کیسه اقچه تكاليفله حصولی ممکن اولوب يکرمی ایکيشر
                   باركير قوتنده ایکی عدد واپور آلتنك جلبى ايله محل مذكوره وضع اولنمسنى و اوزنده
-                  دائما صو جریان اتمك و تطهيری آسان وجهله اولمق اوزره فم خليجدن <placeName
-                     type="حسمينيه">حسمينيه</placeName> يه قدر درون خلیجده بر مجرا انشا و ينه
+                  دائما صو جریان اتمك و تطهيری آسان وجهله اولمق اوزره فم خليجدن <placeName type="حسمينيه">حسمينيه</placeName> يه قدر درون خلیجده بر مجرا انشا و ينه
                   اولوجهله محله لرده بر چشمه بنا اولنمسنی مشتمل بولنمغله مجلسی مذکورده لدى المداوله
                   عميم النفع بولنمق حسبیله وجه اول اختیار و استحسان اولنه رق الوجهله ایجابتك اجراسی
                   با ارادۀ عليۀ جناب خدیوی قرارلشديرلمش اولمسله جملۀ مالزمه سندن مذکور اوچ عدد واپور
@@ -743,13 +705,11 @@
             </div>
          </div>
          <div resp="#eHS" xml:id="w161">
-            <head><bibl><biblScope unit="issue">نمره ١٦١</biblScope></bibl> في يوم الاربع <date
-                  when-custom="1265-07-01">٠١ رجب ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٦١</biblScope></bibl> في يوم الاربع <date when-custom="1265-07-01">٠١ رجب ١٢٦٥</date></head>
             <p>لا يوجد!</p>
          </div>
          <div resp="#eHS" xml:id="w162">
-            <head><bibl><biblScope unit="issue">نمره ١٦٢</biblScope></bibl> في يوم السبت <date
-                  when-custom="1265-07-11">١١ رجب ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٦٢</biblScope></bibl> في يوم السبت <date when-custom="1265-07-11">١١ رجب ١٢٦٥</date></head>
             <div>
                <head>حوادث داخليه</head>
             </div>
@@ -768,13 +728,11 @@
             </div>
          </div>
          <div resp="#eHS" xml:id="w163">
-            <head><bibl><biblScope unit="issue">نمره ١٦٣</biblScope></bibl> في يوم الثلاثاء <date
-                  when-custom="1265-07-21">٢١ رجب ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٦٣</biblScope></bibl> في يوم الثلاثاء <date when-custom="1265-07-21">٢١ رجب ١٢٦٥</date></head>
             <p>لا يوجد!</p>
          </div>
          <div resp="#eHS" xml:id="w164">
-            <head><bibl><biblScope unit="issue">نمره ١٦٤</biblScope></bibl> في يوم الاثنين <date
-                  when-custom="1265-07-21">٢٧ رجب ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٦٤</biblScope></bibl> في يوم الاثنين <date when-custom="1265-07-21">٢٧ رجب ١٢٦٥</date></head>
             <div>
                <head>حوادث داخليه</head>
             </div>
@@ -784,30 +742,25 @@
             <div>
                <p>ماه حالك ابتدا کیجه سی ساعت اون صولرنده <placeName type="درب-سعاده">درب
                      سعاده</placeName> ده كائن فروندن و كذلك فرداسی کیجه ساعت اون راده لرنده
-                     <placeName type="خلیفه-ثمن">خلیفه ثمن</placeName>نده واقع <placeName
-                     type="قبر-الطويل">قبر الطويل</placeName> نام محله ده بر خانه دن حریق ظهور ايتمش
+                     <placeName type="خلیفه-ثمن">خلیفه ثمن</placeName>نده واقع <placeName type="قبر-الطويل">قبر الطويل</placeName> نام محله ده بر خانه دن حریق ظهور ايتمش
                   و درعقب ضبطيه طرفندن طلومبه و مأمورلر يتشدير يله رك بلطفه تعالى اطرافلرینه سرایت
                   ايتمکسزين اطفا اولنمشدر</p>
             </div>
          </div>
          <div resp="#eHS" xml:id="w165">
-            <head><bibl><biblScope unit="issue">نمره ١٦٥</biblScope></bibl> في يوم الخميس <date
-                  when-custom="1265-08-07">٠٧ شعبان ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٦٥</biblScope></bibl> في يوم الخميس <date when-custom="1265-08-07">٠٧ شعبان ١٢٦٥</date></head>
             <p>لا يوجد!</p>
          </div>
          <div xml:id="w166" resp="#eHS">
-            <head><bibl><biblScope unit="issue">نمره ١٦٦</biblScope></bibl> في يوم السبت <date
-                  when-custom="1265-08-23">٢٣ شعبان ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٦٦</biblScope></bibl> في يوم السبت <date when-custom="1265-08-23">٢٣ شعبان ١٢٦٥</date></head>
             <p>لا يوجد!</p>
          </div>
          <div xml:id="w167" resp="#eHS">
-            <head><bibl><biblScope unit="issue">نمره ١٦٧</biblScope></bibl> في يوم الاثنين <date
-                  when-custom="1265-09-03">٠٣ رمضان ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٦٧</biblScope></bibl> في يوم الاثنين <date when-custom="1265-09-03">٠٣ رمضان ١٢٦٥</date></head>
             <p>لا يوجد!</p>
          </div>
          <div resp="#eHS" xml:id="w168">
-            <head><bibl><biblScope unit="issue">نمره ١٦٨</biblScope></bibl> في يوم السبت <date
-                  when-custom="1265-09-15">١٥ رمضان ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٦٨</biblScope></bibl> في يوم السبت <date when-custom="1265-09-15">١٥ رمضان ١٢٦٥</date></head>
             <div>
                <head>حوادث داخليه</head>
             </div>
@@ -821,8 +774,7 @@
             </div>
          </div>
          <div resp="#eHS" xml:id="w169">
-            <head><bibl><biblScope unit="issue">نمره ١٦٩</biblScope></bibl> في يوم الخميس <date
-                  when-custom="1265-09-27">٢٧ رمضان ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٦٩</biblScope></bibl> في يوم الخميس <date when-custom="1265-09-27">٢٧ رمضان ١٢٦٥</date></head>
             <div>
                <head>حوادث داخليه</head>
             </div>
@@ -838,8 +790,7 @@
             </div>
          </div>
          <div resp="#eHS" xml:id="w170">
-            <head><bibl><biblScope unit="issue">نمره ١٧٠</biblScope></bibl> في يوم الخميس <date
-                  when-custom="1265-10-18">١٨ شوال ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٧٠</biblScope></bibl> في يوم الخميس <date when-custom="1265-10-18">١٨ شوال ١٢٦٥</date></head>
             <div>
                <head>حوادث داخليه</head>
             </div>
@@ -850,14 +801,12 @@
                <p>دیکر بعض مديريات مثللو <orgName type="خیزه-مدریت">خیزه مدریت</orgName>نده دخی
                   تداوی و اسكان خستكانه مخصوص بر اسپتاليه انشا سيله فقرا و ضعفانك معالجه جهتنده
                   کسب</p>
-               <p>سهولت ايتمسی مقصود <sic>مراحمنمود</sic> حضرت آصفى اولمقد نناشی خصوص مذکور <orgName
-                     type="مجلس-احکام-مصريه">مجلس احکام مصريه</orgName> ده لدى المداوله مراد خیریت
+               <p>سهولت ايتمسی مقصود <sic>مراحمنمود</sic> حضرت آصفى اولمقد نناشی خصوص مذکور <orgName type="مجلس-احکام-مصريه">مجلس احکام مصريه</orgName> ده لدى المداوله مراد خیریت
                   معتاد حضرت آصفى وجهله و ایجابنك حسن اجراسی اقتضا ایدنلره يازلمشدر</p>
             </div>
          </div>
          <div resp="#eHS" xml:id="w171">
-            <head><bibl><biblScope unit="issue">نمره ١٧١</biblScope></bibl> في يوم الخميس <date
-                  when-custom="1265-10-25">٢٥ شوال ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٧١</biblScope></bibl> في يوم الخميس <date when-custom="1265-10-25">٢٥ شوال ١٢٦٥</date></head>
             <div>
                <head>اعلانات</head>
             </div>
@@ -878,8 +827,7 @@
                <head><bibl><biblScope unit="page">ص ٤</biblScope></bibl> - عمود ٣</head>
             </div>
             <div>
-               <p><placeName type="درب-الاحمر-ثتم">درب الاحمر ثتم</placeName>تنده <placeName
-                     type="درب-الدلیل-محلەس">درب الدلیل محله س</placeName>نده <persName>سابق دمياط
+               <p><placeName type="درب-الاحمر-ثتم">درب الاحمر ثتم</placeName>تنده <placeName type="درب-الدلیل-محلەس">درب الدلیل محله س</placeName>نده <persName>سابق دمياط
                      محافظی مرحوم خليل بك</persName> حضرتلرینه متعلق اوست قاتده اون بش يتاق اوطسى و
                   اون اوچ فامليه اوطه سی و مرمرلى درت فسحه و مکمل ایکى حمام و الت قاتده برقاعه و بر
                   کوچك منظره و بش مغازه و بیوك بر مطبخ و ایكی كيلار و برکوچك باغچه و بر قيو و بر
@@ -896,8 +844,7 @@
             </div>
          </div>
          <div xml:id="w172" resp="#eHS">
-            <head><bibl><biblScope unit="issue">نمره ١٧٢</biblScope></bibl> في يوم الاثنين <date
-                  when-custom="1265-11-21">٢١ ذى القعده ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٧٢</biblScope></bibl> في يوم الاثنين <date when-custom="1265-11-21">٢١ ذى القعده ١٢٦٥</date></head>
             <div>
                <head>حوادث داخليه</head>
             </div>
@@ -905,8 +852,7 @@
                <head><bibl><biblScope unit="page">ص ١</biblScope></bibl> - عمود ٣</head>
             </div>
             <div>
-               <p>ماه سابقك اون درد نجی پازارایرتسی کونی ساعت بارم قرارلرنده <placeName type="قيسون"
-                     >قيسون</placeName> تحتنده واقع <placeName type="سيوفيه-خط">سيوفيه
+               <p>ماه سابقك اون درد نجی پازارایرتسی کونی ساعت بارم قرارلرنده <placeName type="قيسون">قيسون</placeName> تحتنده واقع <placeName type="سيوفيه-خط">سيوفيه
                      خط</placeName>نده <placeName type="حارة-الالفى">حارة الالفى</placeName> نام
                   محله ده كائن التى <persName>ابراهيم بک</persName>ك خانه سندن يا نقين ظهور يله
                   مغازه سی دروننده بولنان <persName>عربه لر ملتزمی احمد شاهين</persName> و شریکی
@@ -916,13 +862,11 @@
             </div>
          </div>
          <div resp="#eHS" xml:id="w173">
-            <head><bibl><biblScope unit="issue">نمره ١٧٣</biblScope></bibl> في يوم الخميس <date
-                  when-custom="1265-12-02">٠٢ ذى الحجه ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٧٣</biblScope></bibl> في يوم الخميس <date when-custom="1265-12-02">٠٢ ذى الحجه ١٢٦٥</date></head>
             <p>لا يوجد!</p>
          </div>
          <div resp="#eHS" xml:id="w174">
-            <head><bibl><biblScope unit="issue">نمره ١٧٤</biblScope></bibl> في يوم السبت <date
-                  when-custom="1265-12-18">١٨ ذى الحجه ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٧٤</biblScope></bibl> في يوم السبت <date when-custom="1265-12-18">١٨ ذى الحجه ١٢٦٥</date></head>
             <div>
                <head>اعلانات</head>
             </div>
@@ -949,14 +893,12 @@
                      باشی</persName>نك ورثه سنه متعلق اوست قاتده بيوك و كوچك اون التى اوطه ايله
                   کيلاری و مکمل بر حمام و طوانلى و طوانسز درت فسحه لى و الت قاتده فسقيه وصفه لي و
                   ايكى بيوك اوطه ایله برمطبخ و ایكى کیلاری و اون مغازه ایله اون حيوان الور براخوری و
-                  يکرمى دوه الور بر دوه لك ايله بر غزاوی ساقیه سی و مکمل بر د كرمن ايله <placeName
-                     type="هس-اسميله-معروف-بركه">هس اسميله معروف بركه</placeName> كنارنده واقع ساقيه
+                  يکرمى دوه الور بر دوه لك ايله بر غزاوی ساقیه سی و مکمل بر د كرمن ايله <placeName type="هس-اسميله-معروف-بركه">هس اسميله معروف بركه</placeName> كنارنده واقع ساقيه
                   لى يارم فدان بر باغچه ايله اچيق بر حولی يی مشتمل بر باب خانه</p>
             </div>
          </div>
          <div resp="#eHS" xml:id="w175">
-            <head><bibl><biblScope unit="issue">نمره ١٧٥</biblScope></bibl> في يوم السبت <date
-                  when-custom="1265-12-25">٢٥ ذى الحجه ١٢٦٥</date></head>
+            <head><bibl><biblScope unit="issue">نمره ١٧٥</biblScope></bibl> في يوم السبت <date when-custom="1265-12-25">٢٥ ذى الحجه ١٢٦٥</date></head>
             <p>لا يوجد!</p>
          </div>
       </body>

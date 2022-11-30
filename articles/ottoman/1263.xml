@@ -101,7 +101,7 @@
         <language ident="ar">Arabic</language>
         <language ident="en">English</language>
         <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
-        <language ident="ott">Ottoman</language>
+        <language ident="ota">Ottoman</language>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -113,6 +113,11 @@
                <date when-custom="1263-08-13">١٣ شعبان ١٢٦٣</date><bibl><biblScope unit="issue">نمره
                      ٧٥</biblScope><biblScope unit="page">ص ١</biblScope></bibl></head>
                           <head>حوادث داخليه</head>
+            <head><bibl><biblScope unit="issue">نمره ٧٥</biblScope></bibl> في يوم الاثنين <date when-custom="1263-08-13">١٣ شعبان ١٢٦٣</date></head>
+            <div>
+               <head>حوادث داخليه</head>
+               <div>
+                  <head><bibl><biblScope unit="page">ص ١</biblScope></bibl>- عمود ١</head>
                   <p><placeName type="سویش-يول">سویش يولنك</placeName> دردست اجرا بولنان تصليح
                      وتسویه سی محضا <placeName type="مذبح">مذبح</placeName> نام محلدن سويشه دك ایسه
                      ده عمل مذکور <placeName type="باب-الحديد">باب الحديد</placeName> نام قپودن محل
@@ -120,6 +125,8 @@
                      لرك برجانبی اشتراقلنمق مقتضي بولندیغندن اول وجهله اجراسنه <rs type="ارادۀ-سنیه"
                         >ارادۀ سنیه</rs> شرفسنوح بیورلشدر </p>
          </div>
+                     لرك برجانبی اشتراقلنمق مقتضي بولندیغندن اول وجهله اجراسنه <rs type="ارادۀ-سنیه">ارادۀ سنیه</rs> شرفسنوح بیورلشدر </p>
+               </div>
                <div>
             <head><bibl><biblScope unit="issue">نمره ٧٥</biblScope></bibl> في يوم الاثنين <date
                   when-custom="1263-08-13">١٣ شعبان ١٢٦٣</date></head>
@@ -131,8 +138,7 @@
                      ده اصول جديده اوزره يكپاره اوزون کاغد چیقاروب صكره مطلوب اولان قياسلرده طبقه
                      طبقه کسلمكه لازم اولان آلت واشغالنه مقتضی بولنان سائر ادوات ايله برنفرماهر
                      استاد دیار اوروپادن جلب اولنمش وواپور ایله اداره اولنمق اوزره ایجاب ایدن واپور
-                     آلاتى دخی <placeName type="بولاق">بولاق</placeName>ده كائن <orgName
-                        type="عمليات-ورشه">عمليات ورشه</orgName> سنده ياپدرلش اولمغله الحالة هذه
+                     آلاتى دخی <placeName type="بولاق">بولاق</placeName>ده كائن <orgName type="عمليات-ورشه">عمليات ورشه</orgName> سنده ياپدرلش اولمغله الحالة هذه
                      آلات و ادوات مرقومنك کاغدخانۀ مذکوره ده يرلو يرنده ترکینه باقلمقده در </p>
                </div>
             <div>
@@ -157,8 +163,7 @@
                <div>
                   <head><bibl><biblScope unit="page">ص ٤</biblScope> - عمود ٣</bibl></head>
                   <p>
-                     <placeName type="خمزاویه=سمت">خمزاویه سمت</placeName>نده <placeName
-                        type="سبع-قاعات">سبع قاعات</placeName> نام محله ده كائن اوست قاتده التي اوطه
+                     <placeName type="خمزاویه=سمت">خمزاویه سمت</placeName>نده <placeName type="سبع-قاعات">سبع قاعات</placeName> نام محله ده كائن اوست قاتده التي اوطه
                      و بر حمام و بر مطبخ و بر كيلار و الت قاتده بر منظره و بر تخته بوش وبر مغازه و
                      برحيوان الور بر اخور و بر دکرمن و بر قیوسی و اجیق بر اوفق حولیسی موجود
                         <persName>سيد على زيات</persName> نام شخصك اليوم <rs type="مزاد">مزاد</rs>ده
@@ -169,12 +174,14 @@
                   <div xml:id="w76" resp="#eAE">
             <head><bibl><biblScope unit="issue">نمره ٧٦</biblScope></bibl> في يوم الاثنين <date
                   when-custom="1263-08-20 ">٢٠ شعبان ١٢٦٣</date></head>
+         </div>
+         <div xml:id="w76" resp="#eAE">
+            <head><bibl><biblScope unit="issue">نمره ٧٦</biblScope></bibl> في يوم الاثنين <date when-custom="1263-08-20 ">٢٠ شعبان ١٢٦٣</date></head>
             <div>
                <head>اعلانات</head>
                <div>
                   <head><bibl><biblScope unit="page">ص ٤</biblScope> - عمود ٣</bibl></head>
-                  <p><placeName type="سوق-سلاح">سوق سلاح</placeName>ده <placeName
-                        type="استاد-رفاعی-محله">استاد رفاعی محله</placeName> سنده كائن اوست قاتده
+                  <p><placeName type="سوق-سلاح">سوق سلاح</placeName>ده <placeName type="استاد-رفاعی-محله">استاد رفاعی محله</placeName> سنده كائن اوست قاتده
                      التى اوطه وبر مطبخ والت قاتده بر مغازه و ایكی ات آلور بر آخور و بر اوفق حولیسی
                      بولنور وهبه نام سروجینك اليوم <rs type="مزاد">مزاد</rs>ده يدی کیسه اقچه يه
                      جیقمش بر باب خانه سی صاتلق اولوب استکلوسی وار ایسه <persName>دلال باشی سيد
@@ -182,8 +189,7 @@
                </div>
                <div>
                   <head><bibl><biblScope unit="page">ص ٤</biblScope> - عمود ٣</bibl></head>
-                  <p> <placeName type="باب-الشعريه-سمت">باب الشعريه سمت</placeName>نده <placeName
-                        type="استاذ-محمد-طمار-محله">استاذ محمد طمار محله</placeName> سنده واقع اوست
+                  <p> <placeName type="باب-الشعريه-سمت">باب الشعريه سمت</placeName>نده <placeName type="استاذ-محمد-طمار-محله">استاذ محمد طمار محله</placeName> سنده واقع اوست
                      قاتده اوج اوطه وبرمطبخ وبر حمام والت قاتده بر اوفق منظره و بر آخور وبر قيو و بر
                      حولیسی  بولنور بو كونلرده التى کيسه اقچه كتورمش بر باب خانه صاتیلق اولوب راغبی
                      وار ایسه دلال باشئ مومی الیهدن استدلال ایلمسی بیلديرلمشدر</p>
@@ -191,8 +197,7 @@
             </div>
          </div>
          <div xml:id="w77" resp="#eAE">
-            <head><bibl><biblScope unit="issue">نمره ٧٧</biblScope></bibl> في يوم الاثنين <date
-                  when-custom="1263-08-27">٢٧ شعبان ١٢٦٣</date></head>
+            <head><bibl><biblScope unit="issue">نمره ٧٧</biblScope></bibl> في يوم الاثنين <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣</date></head>
             <div>
                <head>حوادث داخليه</head>
                <div>
@@ -217,15 +222,13 @@
                         يوله<placeName type="شارع-درب-الحجر">شارع درب الحجر</placeName> دينلوب نمره
                      سی سیاه اوله</p>
                   <p>(بند ثامن عشر) <placeName type="نصريه-شارع">نصريه شارع</placeName>نده
-                        <?oxy_custom_start type="oxy_content_highlight" color="220,20,60"?><orgName
-                        type="سباعين-باش-قره-قول">سباعين باش قره قول</orgName><?oxy_custom_end?>نك
+                        <?oxy_custom_start type="oxy_content_highlight" color="220,20,60"?><orgName type="سباعين-باش-قره-قول">سباعين باش قره قول</orgName><?oxy_custom_end?>نك
                      مقابله سندن بدأ ايله <placeName type="حارة-السقاين">حارة السقاين</placeName>ه
                      قدرکیدن يوله <placeName type="شارع-درب-الحمام">شارع درب الحمام</placeName>
                      تسمیه اولنوب نمرہ سی سیاه اوله </p>
                   <p>(بند تاسع عشر) <placeName type="درب-الحجر">درب الحجر</placeName>ك انتهاسنده،
                      كائن <placeName type="زیر-المعلق">زیر المعلق</placeName> بوابه سندن بدأ ايله
-                        <?oxy_custom_start type="oxy_content_highlight" color="220,20,60"?><placeName
-                        type="شربتجی-باشی-قوناغ">شربتجی باشینك قوناغ</placeName><?oxy_custom_end?>نه
+                        <?oxy_custom_start type="oxy_content_highlight" color="220,20,60"?><placeName type="شربتجی-باشی-قوناغ">شربتجی باشینك قوناغ</placeName><?oxy_custom_end?>نه
                      قدر اولان يوله <placeName type="سكة-زیر-معلق">سكة زیر معلق</placeName> دينلوب
                      نمره سی قرمزی اوله</p>
                   <p>(بند عشرين) <placeName type="درب_الحجر_شارع">درب الحجر شارع</placeName>نك انتها
@@ -234,8 +237,7 @@
                      اولان يوله <placeName type="شارع-عابدين">شارع عابدين</placeName> تسمیه اولنوب
                      نمره سی قرمزی اوله</p>
                   <p>(بند حادی و عشرین) <placeName type="باب-اللوق-شارع">باب اللوق
-                     شارع</placeName>ندن بدأ ايله <placeName
-                        type="ماليه-مدیری-پاشا-حضرتلرينك-قوناغی">ماليه مدیری پاشا حضرتلرينك
+                     شارع</placeName>ندن بدأ ايله <placeName type="ماليه-مدیری-پاشا-حضرتلرينك-قوناغی">ماليه مدیری پاشا حضرتلرينك
                         قوناغی</placeName> پیشکاهندن مرور برله <placeName type="تربه-يول">تربه
                         يول</placeName>نه قدر اولان جاده يه <placeName type="شارع-بیدق">شارع
                         بیدق</placeName> تسمیه اولنوب نمره سی قرمزی اوله </p>
@@ -248,8 +250,7 @@
                         شارع</placeName>نه قدر اولان يول <placeName type="شارع-حارة-السقايين">شارع
                         حارة السقايين</placeName> تسميه سيله نمره ی قرمزی وضع اولنه </p>
                   <p>(بند رابع وعشرين) <placeName type="نصريه-شارع">نصريه شارع</placeName>نده
-                        <placeName type="ابو-الليف-قپو">ابو الليف قپو</placeName>سندن <placeName
-                        type="درب-السقايين-قپو">درب السقايين قپو</placeName>سنه وارجه اولان يوله
+                        <placeName type="ابو-الليف-قپو">ابو الليف قپو</placeName>سندن <placeName type="درب-السقايين-قپو">درب السقايين قپو</placeName>سنه وارجه اولان يوله
                         <placeName type="شارع-ابو-الليف">شارع ابو الليف</placeName> دينلوب نمره سی
                      قرمزی وضع اولنه</p>
                   <p> (بند خامس وعشرين) <placeName type="شارع-حنفي-حضرتلر">شارع حنفي
@@ -264,9 +265,7 @@
                      قدراولان يو له <placeName type="شارع-سواقة-اللالي">شارع سواقة
                         اللالي</placeName> ومذکور محلدن <placeName type="نصريه-جاده">نصريه
                         جاده</placeName> سنه  قدر اولان يوله <placeName type="شارع-حنفي">شارع
-                        حنفي</placeName> دينلوب نمره لری قرمزی وضع اولنه و<placeName
-                        type="حنفي-جاده">حنفي جاده</placeName> سندن <placeName type="خليج"
-                        >خليج</placeName>ه طوغری <placeName type="سبیل">سبیل</placeName>ه قدر اولان
+                        حنفي</placeName> دينلوب نمره لری قرمزی وضع اولنه و<placeName type="حنفي-جاده">حنفي جاده</placeName> سندن <placeName type="خليج">خليج</placeName>ه طوغری <placeName type="سبیل">سبیل</placeName>ه قدر اولان
                      يوله <placeName type="شارع-هياتم">شارع هياتم</placeName> تسميه اولنوب سیاه نمره
                      يازيله</p>
                   <p>(بند سابع وعشرين) <placeName type="عمارشه-قنطره">عمارشه قنطره</placeName> سندن
@@ -290,16 +289,14 @@
                   <head><bibl><biblScope unit="page">ص 1</biblScope>- عمود 3</bibl></head>
                   <p>(بند حادی وثلاثين) <placeName type="سیده-زینب-شارع">سیده زینب
                      شارع</placeName>ندن بدأ ايله <placeName type="شیخ-ساداتك-قوناغی">شیخ ساداتك
-                        قوناغی</placeName> اوکندن مرور ایدن و <placeName type="برکه"
-                        >برکه</placeName> يه منتهی اولان يول <placeName type="شارع-سادات">شارع
+                        قوناغی</placeName> اوکندن مرور ایدن و <placeName type="برکه">برکه</placeName> يه منتهی اولان يول <placeName type="شارع-سادات">شارع
                         سادات</placeName> تسمیه سیله نمرہ سی سیاه وضع اولنه </p>
                   <p>(بند ثاني وثلاثين) <orgName type="سیده-زینب-جامعى">سیده زینب جامعى</orgName>
                      قارشوسندن بدأ ايله غرب طرفنه طوغرى <placeName type="خليج">خليج</placeName>ه
                      ممتد اولان يول <placeName type="حارة-سيده-زينب">حارة سيده زينب</placeName>
                      تسميه سیله نمره سی سیاه وضع اولنه</p>
                   <p>(بند ثالث و ثلاثين) <placeName type="قنطرة-سنقر">قنطرة سنقر</placeName> يانندن
-                     بدأ ايله <placeName type="خلیج">خلیج</placeName> بوینجه <placeName
-                        type="درب-قاره-على-عطفه">درب قاره على عطفه</placeName> سنه قدر اولان يوله
+                     بدأ ايله <placeName type="خلیج">خلیج</placeName> بوینجه <placeName type="درب-قاره-على-عطفه">درب قاره على عطفه</placeName> سنه قدر اولان يوله
                         <placeName type="شارع-الخلیج">شارع الخلیج</placeName> تسميه اولنوب نمره لری
                      قرمزی يازيله</p>
                   <p>(بند رابع وثلاثين) <placeName type="قنطرة-كفر">قنطرة كفر</placeName> مقابله
