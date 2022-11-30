@@ -42,6 +42,15 @@ item {
   margin-left: 1em;
   
 }
+table {
+  display: table;
+}
+row {
+  display: table-row;
+}
+cell {
+  display: table-cell;
+}
 standOff {
   display:block;
   padding: 1em;
