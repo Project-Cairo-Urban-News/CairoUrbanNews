@@ -2,7 +2,7 @@
  * 'citadel'‎: [1244.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1244.xml)
  * 'city'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
  * 'country'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
- * 'https://www.geonames.org/360621/muhafazat-al-qalyubiyah.html'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml), [1246.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1246.xml)
+ * 'https://www.geonames.org/360621/muhafazat-al-qalyubiyah.html'‎: [1246.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1246.xml), [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
  * 'https://www.geonames.org/7914348/al-jamaliyah.html'‎: [1246.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1246.xml)
  * 'island'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
  * 'mosque'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml), [1244.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1244.xml)
