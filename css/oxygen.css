@@ -18,6 +18,9 @@ titleStmt respStmt {
 *[xml|lang=ar] {
   direction: rtl;
 }
+*[xml|lang=ota] {
+  direction: rtl;
+}
 body {
   display:block;
   margin: 1em;
@@ -26,12 +29,10 @@ p {
   display:block;
 }
 body p {
-	direction:rtl;
-	font-size: 20px;
+  font-size: 20px;
 }
 body head {
   display:block;
-  direction:rtl;
   font-size:28px;
 }
 list {
@@ -43,13 +44,28 @@ item {
   
 }
 table {
+  border-collapse:collapse;
+  border-left: thin solid silver;
+  border-bottom: thin solid silver;
   display: table;
+  table-layout: fixed;
+  width: 100%;
 }
 row {
   display: table-row;
 }
+row[role='label'] {
+    font-weight: bold;
+    
+}
+row[role='label'] cell {
+    border-bottom: thin solid black;
+}
 cell {
+  border-top: thin solid silver;
+  border-right: thin solid silver;
   display: table-cell;
+  padding: 2px;
 }
 standOff {
   display:block;
@@ -60,7 +76,7 @@ listPerson person {
   margin-left: 1em;
 }
 *[rend=bold] {
-	font-weight: bold;
+  font-weight: bold;
 }
 *[rend=italic] {
   font-style: italic;

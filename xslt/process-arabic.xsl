@@ -26,6 +26,10 @@
     </xsl:copy>
   </xsl:template>
   
+  <xsl:template match="text()[ancestor::t:text]" mode="#all" priority="2">
+    <xsl:value-of select="translate(.,'1234567890','١٢٣٤٥٦٧٨٩٠')"/>
+  </xsl:template>
+  
   <xsl:template match="t:body" mode="wrap">
     <xsl:copy-of select="$output"/>
   </xsl:template>
@@ -89,7 +93,7 @@
       
   <xsl:template match="t:p[@type='head']" mode="pass2">
     <div>
-      <head><xsl:value-of select="normalize-space(.)"/></head>
+      <head><xsl:value-of select="normalize-space(translate(.,'1234567890','١٢٣٤٥٦٧٨٩٠'))"/></head>
       <xsl:apply-templates select="./following-sibling::t:*[1]" mode="head"/>
     </div>
   </xsl:template>
@@ -97,7 +101,7 @@
   <xsl:template match="t:p[@type='head']" mode="body"/>
   
   <xsl:template match="t:p[@type='head']" mode="head" priority="2">
-    <head><xsl:value-of select="normalize-space(.)"/></head>
+    <head><xsl:value-of select="normalize-space(translate(.,'1234567890','١٢٣٤٥٦٧٨٩٠'))"/></head>
     <xsl:apply-templates select="./following-sibling::t:*[1]" mode="head"/>
   </xsl:template>
   

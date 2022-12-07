@@ -23,10 +23,21 @@
     </xsl:copy>
   </xsl:template>
   
+  <xsl:template match="text()[ancestor::t:text]" mode="#all" priority="2">
+    <xsl:value-of select="translate(.,'1234567890','١٢٣٤٥٦٧٨٩٠')"/>
+  </xsl:template>
+  
   <xsl:template match="@part|@default"/>
     
   <xsl:template match="t:body" mode="wrap">
     <xsl:copy-of select="$output"/>
+  </xsl:template>
+  
+  <xsl:template match="t:text" mode="wrap">
+    <xsl:copy>
+      <xsl:attribute name="xml:lang">ota</xsl:attribute>
+      <xsl:apply-templates mode="#current"/>
+    </xsl:copy>
   </xsl:template>
   
   <xsl:template match="t:p[ancestor::t:teiHeader]" priority="2">
@@ -84,7 +95,7 @@
   
   <xsl:template match="t:p[@type='head']" mode="pass2">
     <div>
-      <head><xsl:value-of select="normalize-space(.)"/></head>
+      <head><xsl:value-of select="normalize-space(translate(.,'1234567890','١٢٣٤٥٦٧٨٩٠'))"/></head>
       <xsl:choose>
         <xsl:when test="following-sibling::t:*[1]/@type='head'">
           <xsl:apply-templates select="./following-sibling::t:*[1]" mode="pass2"/>
