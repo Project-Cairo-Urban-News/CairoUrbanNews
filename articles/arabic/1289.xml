@@ -1,127 +1,119 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="../../css/oxygen.css"?>
-<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah:</title>
-            <editor xml:id="eNK">Nour Kanaan</editor>
-            <editor xml:id="eAM">Adam Mestyan</editor>
-            <editor xml:id="eDY">Danah Younis</editor>
-            <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
-            <editor xml:id="eAE">Arif Erbil</editor>
-            <editor xml:id="eAK">Ahmed Kamal</editor>
-            <editor xml:id="eAS">Abram Smith</editor>
-            <editor xml:id="eCH">Clara Harms</editor>
-            <editor xml:id="eHS">Hüseyin Sağlam</editor>
-            <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
-            <respStmt>
-               <resp>Advisor</resp>
-               <name>Hugh Cayless</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Adam Mestyan</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Mercedes Volait</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Sarah Fath Allah</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Karima Nasr</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Rezk Nory</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Arif Erbil</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Ahmed Kamal</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Abram Smith</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Clara Harms</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Hüseyin Sağlam</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Abdulrahman El-Taliawi</name>
-            </respStmt>
-            <sponsor>
-               <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities Project</title>
+        <editor xml:id="eNK">Nour Kanaan</editor>
+        <editor xml:id="eAM">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
+        <editor xml:id="eAE">Arif Erbil</editor>
+        <editor xml:id="eAK">Ahmed Kamal</editor>
+        <editor xml:id="eAS">Abram Smith</editor>
+        <editor xml:id="eCH">Clara Harms</editor>
+        <editor xml:id="eHS">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+        <respStmt>
+          <resp>Advisor</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Mercedes Volait</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Sarah Fath Allah</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Karima Nasr</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Rezk Nory</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Arif Erbil</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Ahmed Kamal</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abram Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Clara Harms</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hüseyin Sağlam</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abdulrahman El-Taliawi</name>
+        </respStmt>
+        <sponsor>
+          <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
           <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
           Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
           Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>. 
         </sponsor>
-         </titleStmt>
-         <publicationStmt>
-            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
+      </titleStmt>
+      <publicationStmt>
+        <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
           du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-            <p>
-               <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
-            </p>
-            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>
-            </p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
-            <p>born digital document</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <projectDesc>
-            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
+        <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+        <p>born digital document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-         </projectDesc>
-         <editorialDecl>
-            <p>Rules of TEI XML MarkUp in This Project</p>
-            <p>We use the Arabic script but transliteration into Latin characters follows the Library of
-          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
-            <p>Each individual article has an individual xml:id number starting with "w1"</p>
-            <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
-            <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
-            <p>"Mashaykhah" and "thumn" are orgNames.</p>
-            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+      </projectDesc>
+      <editorialDecl>
+        <p>Rules of TEI XML MarkUp in This Project</p>
+        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
+        <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
+        <p>"Mashaykhah" and "thumn" are orgNames.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
           Editions</ref>.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="ar">Arabic</language>
-            <language ident="en">English</language>
-            <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
-            <language ident="ota">Ottoman</language>
-         </langUsage>
-      </profileDesc>
-   </teiHeader>
-   <text xml:lang="ar">
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+        <language ident="ota">Ottoman</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  
+  <text xml:lang="ar">
       <body>
          <div resp="#eAK" xml:id="K811">
             <head><bibl><biblScope unit="issue">نمره ٤٤٦</biblScope><biblScope unit="page">صفحة
                      ٤</biblScope></bibl></head>
-            <head>يوم <date when-custom="1288-12-25">الثلاثاء ٢٥ ذى الحجة ١٢٨٨</date> الموافق <date
-                  when="1872-03-05">٥ <sic>مارث</sic>  ١٨٧٢</date></head>
+            <head>يوم <date when-custom="1288-12-25">الثلاثاء ٢٥ ذى الحجة ١٢٨٨</date> الموافق <date when="1872-03-05">٥ <sic>مارث</sic>  ١٨٧٢</date></head>
             <head>اعلانات</head>
-            <head>صورة اعلان وارد من حضرة وكيل بيت المال بمصر بتاريخ <date when-custom="1288-12-18"
-                  >١٨ ذى سنة ٨٨</date></head>
+            <head>صورة اعلان وارد من حضرة وكيل بيت المال بمصر بتاريخ <date when-custom="1288-12-18">١٨ ذى سنة ٨٨</date></head>
             <p>منزل كائن بشارع ميدان محمد على بثمن قيسون تعلق حسن افندى أنور المهدى مرهون بصندوق
                الايتام ولداعى تأخيره فى السداد تحرر به قائمة لاشهار مبيعه فى المزاد لمن يرغب وتسلمت
                الى محمد افندى حنفى رئيس طائفة دلالين العقارات بالمحررسه (مكتوبة كدا والاصح المحروسه)
@@ -132,8 +124,7 @@
          <div resp="#eAK" xml:id="k812">
             <head><bibl><biblScope unit="issue">نمره ٤٤٩</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-            <head>يوم <date when-custom="1289-01-17">الثلاثاء ١٧ محرم ١٢٨٩</date> الموافق <date
-                  when="1872-03-26">٢٦ <sic>مارث</sic> ١٨٧٢</date></head>
+            <head>يوم <date when-custom="1289-01-17">الثلاثاء ١٧ محرم ١٢٨٩</date> الموافق <date when="1872-03-26">٢٦ <sic>مارث</sic> ١٨٧٢</date></head>
             <head>صورة اعلان وارد من حضرة وكيل مكاتب أهليه بتاريخ <date when-custom="1289-01-11">١١
                   محرم سنة ٨٩</date></head>
             <table rend="rules">
@@ -196,8 +187,7 @@
          <div resp="#eAK" xml:id="k814">
             <head><bibl><biblScope unit="issue">نمره ٤٥٢</biblScope>
                   <biblScope unit="page">صفحة ١</biblScope></bibl></head>
-            <head>يوم <date when-custom="1289-02-08">الثلاثاء ٨ صفر ١٢٨٩</date> الموافق <date
-                  when="1872-04-16">١٦ ابريل ١٨٧٢</date></head>
+            <head>يوم <date when-custom="1289-02-08">الثلاثاء ٨ صفر ١٢٨٩</date> الموافق <date when="1872-04-16">١٦ ابريل ١٨٧٢</date></head>
             <head>الحوادث الداخليه</head>
             <p>حاصل الاهتمام فى وسائل انشاء سكة حديد من امبابه الى تيه البارود لاجل تسهيل ارسال
                البضاعات وانواع التجارات الى الاسكندرية على خط مستقيم </p>
@@ -212,8 +202,7 @@
          <div xml:id="k816" resp="#eAK">
             <head><bibl><biblScope unit="issue">نمره ٤٥٣</biblScope>
                   <biblScope unit="page">صفحة ١</biblScope></bibl></head>
-            <head>يوم <date when-custom="1289-02-15">الثلاثاء ١٥ صفر ١٢٨٩</date> الموافق <date
-                  when="1872-04-23">٢٣ ابريل ١٨٧٢</date></head>
+            <head>يوم <date when-custom="1289-02-15">الثلاثاء ١٥ صفر ١٢٨٩</date> الموافق <date when="1872-04-23">٢٣ ابريل ١٨٧٢</date></head>
             <head>الحوادث الداخليه</head>
             <p>مما يسر الخاص والعام ويعود على الجميع بالنفع التام ما هو جار الآن فى مصر المحروسة
                وضواحيها بكل مكان من بذل الهمة الزائده فى عملية تقسيم المياه العذبة الكثيرة الفائده
@@ -254,8 +243,7 @@
          <div xml:id="k820" resp="#eAK">
             <head><bibl><biblScope unit="issue">نمره ٤٥٤</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-            <head>يوم <date when-custom="1289-02-22">الثلاثاء ٢٢ صفر سنة ١٢٨٩</date> الموافق <date
-                  when="1872-04-30">٣٠ ابريل ١٨٧٢</date></head>
+            <head>يوم <date when-custom="1289-02-22">الثلاثاء ٢٢ صفر سنة ١٢٨٩</date> الموافق <date when="1872-04-30">٣٠ ابريل ١٨٧٢</date></head>
             <head>صورة اعلان من قومبانية مياه المحروسة</head>
             <p>القومبانية تبيع المياه بسعر القربة الواحدة عشرة فضه صاغ ديوانى وعلى حسب منطوق شروط
                الرخصة لا تسوغ الزيادة على هذا السعر والقومبانية متعهدة بتوصيل المياه الى المنازل
@@ -353,8 +341,7 @@
          <div xml:id="k822" resp="#eAK">
             <head><bibl><biblScope unit="issue">نمره ٤٥٥</biblScope>
                   <biblScope unit="page">صفحة ١</biblScope></bibl></head>
-            <head>يوم <date when-custom="1289-02-29">الثلاثاء ٢٩ صفر ١٢٨٩</date> الموافق <date
-                  when="1872-05-07">٧ مايه ١٨٧٢</date></head>
+            <head>يوم <date when-custom="1289-02-29">الثلاثاء ٢٩ صفر ١٢٨٩</date> الموافق <date when="1872-05-07">٧ مايه ١٨٧٢</date></head>
             <head>الحوادث الداخليه</head>
             <p>لا يخفى ما هو شأن الحضرة الخديويه من بذل الهمة الزائدة فى المساعى الخيريه واسباب ثروة
                الديار المصريه التى من جملتها بل أصلها بحسب الموقع توسيع دائرة الامور الفلاحية
@@ -410,8 +397,7 @@
          <div resp="#eAK" xml:id="k824">
             <head><bibl><biblScope unit="issue">نمره ٤٥٧</biblScope>
                   <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
-            <head>يوم <date when-custom="1289-03-14">الثلاثاء ١٤ ربيع اول ١٢٨٩</date> الموافق <date
-                  when="1872-05-21">٢١ مايه ١٨٧٢</date></head>
+            <head>يوم <date when-custom="1289-03-14">الثلاثاء ١٤ ربيع اول ١٢٨٩</date> الموافق <date when="1872-05-21">٢١ مايه ١٨٧٢</date></head>
             <head>صورة اعلان وارد من حضرة وكيل عموم الاوقاف بتاريخ ٢٩ را سنة ٨٩</head>
             <p>عدد</p>
          </div>
@@ -431,8 +417,7 @@
             <head>يوم <date when-custom="1289-03-21">الثلاثاء ٢١ ريبع الاول ١٢٨٩</date> الموافق
                   <date when="1872-05-28">٢٨ مايه ١٨٧٢</date></head>
             <head>اعلانات</head>
-            <head>صورة اعلان وارد من حضرة وكيل ديوان المدارس الاهليه بتاريخ <date when="1289-03-14"
-                  >١٤ را سنة ٨٩</date></head>
+            <head>صورة اعلان وارد من حضرة وكيل ديوان المدارس الاهليه بتاريخ <date when="1289-03-14">١٤ را سنة ٨٩</date></head>
             <table rend="rules">
                <row>
                   <cell style="text-align: justify;">
@@ -510,14 +495,12 @@
             <p>حصص المذكورة بوقايع جمعة تاريخه لمعلومية الخاص والعام كما ذكر </p>
          </div>
          <div>
-            <head>صورة اعلان وارد من حضرة وكيل بيت المال مصر بتاريخ <date when-custom="1289-03-13"
-                  >١٣ را سنة ٨٩</date></head>
+            <head>صورة اعلان وارد من حضرة وكيل بيت المال مصر بتاريخ <date when-custom="1289-03-13">١٣ را سنة ٨٩</date></head>
             <p>انه لواسطة الدين المطلوب من عريان افندى شنوده المتوفى لصندوق الايتام وراهن عليه منزله وثلاثة دكاكين اسفله الكائن بباب الحديد بثمن الازبكيه وورثاه رغبوا المبيع وسداد مطلوب الصندوق من المذكور فقد تحررت قائمة مزاد باشهار المنزل والثلاثة دكاكين المذكورين وتسلمت الى رئيس طائفة دلالين العقارات فمقتضى درجهم بالوقايع المصرية تركى وعربى مرارا لزيادة الاحاطة وكل من له رغبة فى المشترى يتوجه الى رئيس طائفة الدلالين وبمناظرة القائمة ومعاينة المنزل والدكاكين يعطى المزاد كما الشروط الموضحة بالقائمة فلهذا اقتضى تحريره لحضرتكم نؤمل الاجراء على وجه ما ذكر  </p>
          </div>
          <div resp="#eAK" xml:id="k828">
             <head><bibl><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
-            <head>صورة اعلان وارد من <sic>حصرة</sic> مأمور مبيع املاك الميرى بتاريخ <date
-                  when="1289-03-16">١٦ را سنة ٨٩</date></head>
+            <head>صورة اعلان وارد من <sic>حصرة</sic> مأمور مبيع املاك الميرى بتاريخ <date when="1289-03-16">١٦ را سنة ٨٩</date></head>
             <p>صورة قائمة مزاد صادرة من مأمورية مبيع املاك الميرى بالمحروسه كما بلائحة الاجرا آت
                المثلمة (هذه الكلمة غير واضحة كتبت ما رأيته) بالمجلس الخصوصى الواردة بأمر دولتلو
                افندم رئيس المجلس الخصوصى رقيم <date when-custom="1288-11-17">١٧ القعده سنة
@@ -628,8 +611,7 @@
             <p>خامسا الثمن يدفع نقدا ويكون بعد الترخيص من المجلس بالمبيع </p>
             <p>سادسا قد تحدد ميعاد واحد وثلاثين يوما من تاريخه ادناه بالاعلان للدواوين والمصالح
                وجهات البلدة بمعرفة الدلالين وبآخر يوم من الميعاد التى هو يوم السبت المبارك الموافق
-                  <date when-custom="1289-04-16">١٦ ربيع الآخر سنة ٨٩</date> عربى وموافق <date
-                  when="1872-06-22">٢٢ يونيه سنة ١٨٧٢</date> افرنكى يحضروا المزايدين لطرفنا بديوان
+                  <date when-custom="1289-04-16">١٦ ربيع الآخر سنة ٨٩</date> عربى وموافق <date when="1872-06-22">٢٢ يونيه سنة ١٨٧٢</date> افرنكى يحضروا المزايدين لطرفنا بديوان
                محافظه مصر ليجرى المزايدة بينهم </p>
             <p>سابعا من لم يحضر من الراغبين للزيادة فى الميعاد الذى تحدد للمزاد زلم يكن عليه المزاد
                فى القائمة ولا أحد زود عليه فى يوم المزاد فلا يكن له حق فى طلب الدخول بالمزايدة بعد
