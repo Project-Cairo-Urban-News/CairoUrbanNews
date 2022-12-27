@@ -37,7 +37,7 @@
  * 'بركة-الأفيلة'‎: [1285.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1285.xml)
  * 'بندر-طنتدا'‎: [1285.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1285.xml)
  * 'بوسطة-مصر'‎: [1285.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1285.xml)
- * 'بولاق'‎: [1285.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1285.xml)
+ * 'بولاق'‎: [1285.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1285.xml), [1282.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1282.xml)
  * 'بيت_الاوستى_وهبه_السروجى'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1263.xml)
  * 'بيت_خورشد_اغا_شيخ_خان_الخليلى'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1263.xml)
  * 'تكية-الهنديين'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
