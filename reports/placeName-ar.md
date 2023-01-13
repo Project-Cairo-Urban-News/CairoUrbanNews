@@ -117,7 +117,6 @@
  * 'مكتب'‎: [1292.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1292.xml)
  * 'منزل'‎: [1286.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1286.xml)
  * 'منفلوط'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
- * 'مينا-الاسكندرية'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
  * 'ناحية'‎: [1284.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1284.xml)
  * 'ورشة'‎: [1284.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1284.xml)
  * 'وكالة_العشماوى'‎: [1262.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1262.xml)
