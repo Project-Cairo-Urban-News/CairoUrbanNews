@@ -120,55 +120,47 @@
   <text>
     <body xml:lang="ar">
       <div xml:lang="ar" xml:id="w3" resp="#eNK #eAM">
-        <head>
-          <date when-custom="1245-02-27">٢٧ صفر ١٢٤٥</date>
-          <date when="1829-08-28">٢٨ أغسطس ١٨٢٩</date>
-          <bibl><biblScope unit="issue">نمره ٤٧</biblScope>
-            <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
-        <p>
-          <sic>انشا[ء]</sic>
-          <orgName type="الجبه-خانة">الجبه خانه</orgName> فى
-            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><placeName>قدم
-            النبى</placeName><?oxy_custom_end?> لسبب بعض ملاحظات وجب ابطال <orgName
-            type="الجبه-خانة">الجبه خانه</orgName> الكاينة تجاه
-            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><placeName
-            type="mountain" ref="https://www.geonames.org/7912824/masjid-amir-al-juyush.html">جبل
-            الجيوشى</placeName><?oxy_custom_end?> الواقع شرقى <placeName
-            ref="http://www.geonames.org/7913721/qal-at-salah-ad-din-al-ayyubi.html">قلعة
-            مصر</placeName> وانشا[ء] <orgName type="جبه-خانة">جبه خانه</orgName> اخرى بدلها فى قدم
-          النبى الكاين جنوب <placeName
-            ref="http://www.geonames.org/7913721/qal-at-salah-ad-din-al-ayyubi.html"
-            >القلعة</placeName> مسافة ساعة بعدا بحيث يكون طولها <measure type="length" unit="ذراع"
-            >مايتين وثلاثين ذراعا</measure> وعرضها <measure type="width" unit="ذراع">مايتى
-            ذراع</measure> ولزم ان <sic>ينشا[ء]</sic> اربع طابيات حول جهاتها الاربع<sic>وقتل خارج
-              <placeName type="الجبه-خانة">الجبه خانه</placeName> تسع ماية نفر من الجبة جبين</sic>
-          فانشات الجبة خانه <sic>المذكور</sic> وسط الطابيات المذكورة بحجارة منحوتة  <measure
-            unit="قنطار">قنطار</measure>
-          <sic>....</sic> وبلغت مصاريفها <measure unit="كيس">الف كيس وثلثة اكياس</measure> وتعلقت
-          ارادة <roleName type="ceremonial-title" ref="#pMA">والى ال[نعم]</roleName> على ان<sic>
-            تنشا[ء]</sic> قشلة فى <orgName type="الجبه-خانة">الجبه خانه</orgName> القديمة ليربط فيها
-            <sic>[الفشك]</sic> وقد تم انشاء فى <date when-custom="1245-02-30">غاية صفر سنه اربع
-            واربعين</date> بمصروف قدره<measure>عشرون الف قرش</measure></p>
+        <head><date when-custom="1245-02-27">٢٧ صفر ١٢٤٥</date><date when="1829-08-28">٢٨ أغسطس
+            ١٨٢٩</date><bibl><biblScope unit="issue">نمره ٤٧</biblScope><biblScope unit="page">صفحة
+              ٢</biblScope></bibl></head>
+        <p><sic>انشا[ء]</sic><orgName type="جبه-خانة" ref="الجبه_خانه_فى_قدم_النبى">الجبه
+            خانه</orgName>فى<placeName ref="قدم_النبى">قدم النبى</placeName>لسبب بعض ملاحظات وجب
+          ابطال <orgName type="جبه-خانة" ref="الجبه_خانه_الكاينه_تجاه_جبل_الجيوشى">الجبه
+            خانه</orgName>الكاينة تجاه<placeName type="جبل"
+            ref="جبل_الجيوشى https://www.geonames.org/7912824/masjid-amir-al-juyush.html">جبل
+            الجيوشى</placeName>الواقع شرقى <placeName
+            ref="قلعة_مصر http://www.geonames.org/7913721/qal-at-salah-ad-din-al-ayyubi.html"
+            type="قلعة">قلعة مصر</placeName>وانشا[ء]<orgName type="جبه-خانة">جبه خانه</orgName> اخرى
+          بدلها فى قدم النبى الكاين جنوب<placeName
+            ref="http://www.geonames.org/7913721/qal-at-salah-ad-din-al-ayyubi.html" type="قلعة"
+            >القلعة</placeName>مسافة ساعة بعدا بحيث يكون طولها<measure type="length" unit="ذراع"
+            >مايتين وثلاثين ذراعا</measure>وعرضها<measure type="width" unit="ذراع">مايتى
+            ذراع</measure>ولزم ان<sic>ينشا[ء]</sic>اربع <placeName type="طابيات"
+          >طابيات</placeName>حول جهاتها الاربع<sic>وقشل[ه]</sic> خارج<placeName type="جبه-خانة"
+            >الجبه خانه</placeName> تسع ماية نفر من الجبة جبين فانشات الجبه
+            خانة<sic>المذكور[ه]</sic>وسط الطابيات المذكورة بحجارة منحوتة<measure unit="قنطار"
+            >قنطار</measure>وبلغت مصاريفها<measure unit="كيس">الف كيس وثلثة اكياس</measure>وتعلقت
+            <sic>ار[ا]دة</sic><roleName type="ceremonial-title" ref="#pMA"
+              ><sic>و[ا]لى</sic><sic>ال[نعم]</sic></roleName>على ان<sic>تنشا[ء]</sic><placeName
+            type="قشلة"><sic>[ق]شلة</sic></placeName>فى<orgName type="جبه-خانة">الجبه
+          خانه</orgName>القديمة ليربط فيها<sic>الفشك</sic>وقد تم <sic>انشا[ء]</sic>فى<date
+            when-custom="1245-02-30">غاية صفر سنه اربع واربعين</date>بمصروف قدره<measure>عشرون الف
+            قرش</measure></p>
       </div>
       <div xml:id="w4" resp="#eAM">
-        <head>
-          <date when-custom="1245-02-27">٢٧ صفر ١٢٤٥</date>
-          <date when="1829-08-28">٢٨ أغسطس ١٨٢٩</date><bibl>
-            <biblScope unit="issue">نمره ٤٧</biblScope>
-            <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
-        <p><sic>انشا</sic><orgName type="الدفتر-خانة">الدفترخانه</orgName>لما لم يكن فى
-            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><placeName
-            ref="http://www.geonames.org/7913721/qal-at-salah-ad-din-al-ayyubi.html"
-            >القلعة</placeName><?oxy_custom_end?> محل مناسب يوضع فيه دفاتر
-          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>مهمات اقليم
-          مصر<?oxy_custom_end?> نطقت الارادة السنية بان ينشاء<orgName type="الدفتر-خانة">دفتر
-            خانه</orgName> متسعه حذا
-          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>باب
-          القلعة<?oxy_custom_end?> فأنشا فى ذلك المحل مستحكمة مشيدة البنيان تشتمل على احدى واربعين
-          مخزنا وعلى جميع ما يلزم لها طولها <measure type="length" unit="ذراع">ماية وخمسون
-            ذراعا</measure> وعرضها <measure type="width" unit="ذراع">ثمانون ذراعا</measure> وذلك فى
-          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ذى القعدة سنة اربع
-          واربعين<?oxy_custom_end?> وقد بلغت مصاريفها <measure unit="كيس">الف كيس واحدى عشر
+        <head><date when-custom="1245-02-27">٢٧ صفر ١٢٤٥</date><date when="1829-08-28">٢٨ أغسطس
+            ١٨٢٩</date><bibl>
+            <biblScope unit="issue">نمره ٤٧</biblScope><biblScope unit="page">صفحة
+            ٣</biblScope></bibl></head>
+        <p><sic>انشا</sic><placeName type="دفتر_خانه">الدفترخانه</placeName>لما لم يكن فى<placeName
+            ref="http://www.geonames.org/7913721/qal-at-salah-ad-din-al-ayyubi.html" type="قلعة"
+            >القلعة</placeName>محل مناسب يوضع فيه دفاتر مهمات اقليم مصر نطقت الارادة السنية بان
+            ينشاء<placeName type="دفتر_خانه" ref="الدفتر_خانه_حذا_باب_القلعة">دفتر
+          خانه</placeName>متسعه حذا<placeName ref="باب_القلعة" type="باب">باب
+          القلعة</placeName>فأنشا فى ذلك المحل مستحكمة مشيدة البنيان تشتمل على احدى واربعين مخزنا
+          وعلى جميع ما يلزم لها طولها<measure type="length" unit="ذراع">ماية وخمسون
+            ذراعا</measure>وعرضها<measure type="width" unit="ذراع">ثمانون ذراعا</measure>وذلك فى ذى
+          القعدة سنة اربع واربعين وقد بلغت مصاريفها<measure unit="كيس">الف كيس واحدى عشر
             كيسا</measure></p>
       </div>
       <div xml:id="w5" resp="#eAM">
