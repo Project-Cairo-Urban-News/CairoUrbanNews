@@ -717,153 +717,155 @@
             <orgName type="مجلس" ref="المجلس-العالى">المجلس العالى</orgName> كما استقر الراى على ذلك
           فى اليوم الخامس والعشرين من شهر جمادى الاولى. </p>
       </div>
-      <div xml:id="w23" resp="#eDY #eAM">
+      <div xml:id="w23" resp="#eDY #eAM #eSG">
         <head>
           <date when-custom="1245-07-18">١٨رجب ١٢٤٥</date>
           <date when="1830-01-13">١٣ يناير١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ٩٩</biblScope>
             <biblScope unit="page">صفحة ٢</biblScope></bibl>
         </head>
-        <p> وردت تذكرة الى <orgName type="الديوان-الخديوى">الديوان الخديوى</orgName> من
-            <persName>على <roleName type="ceremonial-title">افندى</roleName>
-            <roleName type="مأمور-اشغال-المحروسة ">مأمور اشغال المحروسة</roleName></persName>
-          مضمونها انه لزم ان يرسل الى <placeName ref="https://www.geonames.org/361058/alexandria.html">الاسكندرية</placeName> لاجل السفن
-          سبعون <sic>مورينه اسبلاجه</sic> وانه يقتضى لنقلها مركب يسع <measure>اربعماية و
-            اربعين</measure> اردبا و<measure>اربع</measure> عربايات ايضا لتنقل بها الى بولاق فحرر
-          امر من <orgName type="الديوان-الخديوى">الديوان الخديوى</orgName> الى <persName><roleName type="ceremonial-title">الافندى</roleName>
-            <roleName type="ناظر-الترسانات">ناظر الترسانات</roleName></persName> لكى يعطى ذلك المركب
-          والى <persName><roleName type="ceremonial-title">الاغا</roleName>
-            <roleName type="ناظر-الجير-والجبس">ناظر الجير والجبس</roleName></persName> ليعطى
-          العربايات المذكورة </p>
+        <p> وردت تذكرة الى <orgName type="ديوان" ref="الديوان-الخديوى">الديوان الخديوى</orgName> من
+            <persName>على افندى <roleName type="مأمور-اشغال-المحروسة ">مأمور اشغال
+              المحروسة</roleName></persName> مضمونها انه لزم ان يرسل الى <placeName
+            ref="الاسكندرية https://www.geonames.org/361058/alexandria.html">الاسكندرية</placeName>
+          لاجل السفن سبعون <sic>مورينه اسبلاجه</sic> وانه يقتضى لنقلها مركب يسع <measure>اربعماية و
+            اربعين</measure> اردبا و<measure>اربع</measure> عربايات ايضا لتنقل بها الى <placeName
+            ref="بولاق">بولاق</placeName> فحرر امر من الديوان الخديوى الى الافندى <roleName
+            type="ناظر-الترسانات">ناظر الترسانات</roleName> لكى يعطى ذلك المركب والى <roleName
+            type="ceremonial-title">الاغا</roleName>
+          <roleName type="ناظر-الجير-والجبس">ناظر الجير والجبس</roleName> ليعطى العربايات المذكورة
+        </p>
       </div>
-      <div xml:id="w24" resp="#eDY #eAM">
+      <div xml:id="w24" resp="#eDY #eAM #eSG">
         <head>
           <date when-custom="1245-07-18">١٨رجب ١٢٤٥</date>
           <date when="1830-01-13">١٣ يناير١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ٩٩</biblScope>
             <biblScope unit="page">صفحة ٣</biblScope></bibl>
         </head>
-        <p> وقوع المنازعة ما بين مجاورى <orgName type="مدرسة-الحبانية">مدرسة
-            الحبانية</orgName><persName>احمد <roleName type="ceremonial-title"
-            >افندى</roleName></persName> المشيب من قدما الساكنين فى<orgName>مدرسة الحبانية</orgName>
-          قدم الى <orgName type="الديوان-الخديوى">الديوان الخديوى</orgName> عرضحال مضمونه انه ساكن
-          فى هذه المدرسة منذ سنة الف ومايتين وان <persName>حسن <roleName type=" ceremonial-title"
-              >افندى</roleName></persName>من اهالى <sic>[الجريدة مقطوعة]</sic> باربع سنين وكان يسكن
-          فيها وقتئذ اربعة واربعون <sic>افند[ى] [الجريدة مقطوعة]</sic> وان <persName>حسن
-            افندى</persName> المومى اليه اتى بجندى شقى <sic>[الجريدة مقطوعة]</sic> الى الافنديات
-          الاربعة وعند انتصاف الليل قام الجند[ى] <sic>[الجريدة مقطوعة]</sic> اوضة صاحب <term
-            type="العرضحال">العرضحال</term> و هو صاح <sic>فجا[ء]</sic> ساكنوا <sic>[الجريدة مقطوعة
-            ]</sic> وحبسوه فى <placeName>مسجد المدرسة</placeName> فلما جاء المدرس صباحا اطلق الجندى
-          وان هذا المدرس معود على ارتكاب المحرمات والجهل والقبائح انتهى <sic>[لأن فيه خط قاسم الكلمة
+        <p> وقوع المنازعة ما بين مجاورى <placeName type="مدرسة" ref="مدرسة_الحبانية">مدرسة
+            الحبانية</placeName><persName>احمد افندى  المشيب من قدما الساكنين فى مدرسة
+            الحبانية</persName> قدم الى <orgName type="ديوان" ref="الديوان-الخديوى">الديوان
+            الخديوى</orgName> عرضحال مضمونه انه ساكن فى هذه المدرسة منذ سنة الف ومايتين وان حسن
+          افندىمن اهالى <sic>[الجريدة مقطوعة]</sic> باربع سنين وكان يسكن فيها وقتئذ اربعة واربعون
+            <sic>افند[ى] [الجريدة مقطوعة]</sic> وان حسن افندى المومى اليه اتى بجندى شقى
+            <sic>[الجريدة مقطوعة]</sic> الى الافنديات الاربعة وعند انتصاف الليل قام
+            <sic>الجند[ى]</sic>
+          <sic>[الجريدة مقطوعة]</sic> اوضة صاحب <term type="العرضحال">العرضحال</term> و هو صاح
+            <sic>فجا[ء]</sic> ساكنوا <sic>[الجريدة مقطوعة ]</sic> وحبسوه فى <placeName type="مسجد"
+            ref="مسجد_مدرسة_الحبانية">مسجد المدرسة</placeName> فلما جاء المدرس صباحا اطلق الجندى وان
+          هذا المدرس معود على ارتكاب المحرمات والجهل والقبائح انتهى <sic>[لأن فيه خط قاسم الكلمة
             ]</sic> فلما امعن حضرة الاصفى نظره السعيد بهذا العرضحال امر بتحقيق هذه المادة وعلى موجب
-          امره الشريف جلب الى <orgName type="الديوان-الخديوى">الديوان الخديوى</orgName> المدرس
-          المومى اليه<persName>اسماعيل <roleName type="ceremonial-title">افندى</roleName> الاخسجه
-            لى</persName> و<persName>سليمان <roleName type="ceremonial-title">افندى</roleName>
-            الجورملى</persName> و<persName>ابراهيم <roleName type="ceremonial-title"
-              >افندى</roleName> التوقاتلى</persName> و <persName>عثمان <roleName
-              type="ceremonial-title">افندى</roleName> القرمانلى</persName> و<persName>مصطفى
-              <roleName type="ceremonial-title">افندى</roleName> طاش كوبريلى</persName> وقرى <term
-            type="العرضحال">العرضحال</term> فى مواجهتهم وسئلوا عن حقيقة هذه المادة فقال المدرس
-          المومى اليه انى صرت مدرسا فى هذه المدرسة فى سنة اربعين بمعرفة <persName>الشيخ
-            العروسى</persName> المرحوم <roleName type="شيخ-جامع-الازهر">شيخ جامع الازهر</roleName>
-          وبعرفة <persName>الشيخ الامير</persName> وبمعرفة <persName><roleName type="الشيخ"
-              >الشيخ</roleName> سليمان <roleName type="ceremonial-title">افندى</roleName>
-            <roleName type="شيخ-رواق-الاتراك">شيخ رواق الاتراك</roleName></persName> و<persName>احمد
-            اغا</persName>وكيل نظارهم واديت ما وجب على من الخدمة من تلك المدة حتى الان وليحقق ما حرر
-          فى العرض حال فان كنت عملت كما يقول ليجرين على الجزا[ء] وسئل عن ذلك من <persName>اسماعيل
-              <roleName type="ceremonial-title">افندى</roleName></persName> فقال انى مقيم فى تلك
-          المدرسة من قبل تاريخه بخمسين سنة وبلغ عمرى الى ثمانين سنة <sic>افندىولى</sic> مقيم بهذه
-          المدرسة سبع سنين وما حرر فى هذا العرض حال فهو كذب ربنا يعلم ما سمعنا ولا راينا من صاحب
-          العرض حال وقال <persName>ابراهيم التوقاتلى</persName> اما جئت الى هذا المدرسة قبل تاريخه
-          بيوم واحد ولست عارفا بحال صاحب العرض حال ولو كنت <sic>ارعف</sic> لضربته على فمه
+          امره الشريف جلب الى الديوان الخديوى المدرس المومى اليه<persName>اسماعيل افندى الاخسجه
+            لى</persName> و<persName>سليمان افندى الجورملى</persName> و<persName>ابراهيم افندى
+            التوقاتلى</persName> و <persName>عثمان افندى القرمانلى</persName> و<persName>مصطفى افندى
+            طاش كوبريلى</persName> وقرى <term type="العرضحال">العرضحال</term> فى مواجهتهم وسئلوا عن
+          حقيقة هذه المادة فقال المدرس المومى اليه انى صرت مدرسا فى هذه المدرسة فى سنة اربعين بمعرفة
+            <persName>الشيخ العروسى المرحوم <roleName type="شيخ-جامع-الازهر">شيخ جامع
+              الازهر</roleName></persName>  وبعرفة <persName>الشيخ الامير</persName> وبمعرفة
+            <persName>الشيخ سليمان افندى <roleName type="شيخ-رواق-الاتراك">شيخ رواق
+              الاتراك</roleName></persName> و<persName>احمد اغا وكيل نظارهم</persName> واديت ما وجب
+          على من الخدمة من تلك المدة حتى الان وليحقق ما حرر فى العرض حال فان كنت عملت كما يقول
+          ليجرين على <sic>الجزا[ء]</sic> وسئل عن ذلك من <persName>اسماعيل افندى</persName> فقال انى
+          مقيم فى تلك المدرسة من قبل تاريخه بخمسين سنة وبلغ عمرى الى ثمانين سنة
+            <sic><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>افندىولى<?oxy_custom_end?></sic>
+          مقيم بهذه المدرسة سبع سنين وما حرر فى هذا العرض حال فهو كذب ربنا يعلم ما سمعنا ولا راينا
+          من صاحب العرض حال وقال <persName>ابراهيم التوقاتلى</persName> اما جئت الى هذا المدرسة قبل
+          تاريخه بيوم واحد ولست عارفا بحال صاحب العرض حال ولو كنت <sic>ارعف</sic> لضربته على فمه
             <sic>توقادااى</sic> لطمه لانى توقادى ويبان من كلام الرجل عزة نفسه فاذا كلامه كذب وقال
             <persName>عثمان الفرمانلى</persName> انى اقمت فى هذه المدرسة منذ ثمانية اشهر ولا اعرف
-          حال صاحب العرض حال وانما بيان كذب كلامه ظاهر وقال <persName>مصطفى <roleName
-              type="ceremonial-title">افندى</roleName> طاش كوبريلى</persName> انا اتيت الى المدرسة
-          فى شهر رجب فى العام الماضى واقمت فيها مدة ثم ذهبت الى <placeName type="الحجاز"
-            >الحجاز</placeName> وطفت ثم رجعت اليها و انا الان مقيم بها والكلام الذى حرر فى العرض حال
-          يفهم منه انه صار فى هذه الايام ويظن انه كذب فقيل لصاحب العرض حال ماتقول بذلك فطفق يتكلم
-          كلا ما لا يوجب احالة السمع اليه فسكت عنه وصدق تلك المقالات التى قالتها الافنديات
-            <persName>سليمان <roleName type="ceremonial-title">افندى</roleName>
-            <roleName type=" شيخ-رواق-الترك">شيخ رواق الترك</roleName></persName> والشيخ
-            <persName>احمد الجندى مدبر جراية <roleName type="شيخ-جامع-الازهر">شيخ جامع
-              الازهر</roleName></persName> وقالوا ان صاحب العرض حال مدرس فى مدرسة السليمانية الكائنة
-          فى <placeName type="السروجيه">السروجيه</placeName> وله فيها اوضة فلينتقل اليها لكى يرفع
-            <sic>القال</sic> والقيل فنبه على صاحب العرض حال ان ينتقل من المدرسة الى الاوضة التى
-            فى<placeName>مدرسة السليمانية</placeName> واذ تبين ذلك من <orgName
-            type="جرنال-الديوان-الخديوى">جرنال الديوان الخديوى</orgName> حرر فى <orgName
-            type=" جريدة-الوقايع">جريدة الوقايع</orgName>. حضرة <persName><roleName type="الشيخ"
-              >الشيخ</roleName> محمد الدمهوجى <roleName type="شيخ-جامع-الازهر">شيخ جامع
-              الازهر</roleName></persName> من حيث انه نصب شيخا جديدا على الجامع المذكور ولم يك له
-          بيت يلق بمقامه انعم عليه سعادة الاصفى <measure>بخمسة عشر الفا قرشا</measure> ليشترى بيتا
-          مناسبا لحاله. </p>
+          حال صاحب العرض حال وانما بيان كذب كلامه ظاهر وقال <persName>مصطفى افندى طاش
+            كوبريلى</persName> انا اتيت الى المدرسة فى شهر رجب فى العام الماضى واقمت فيها مدة ثم
+          ذهبت الى <placeName ref="الحجاز">الحجاز</placeName> وطفت ثم رجعت اليها و انا الان مقيم بها
+          والكلام الذى حرر فى العرض حال يفهم منه انه صار فى هذه الايام ويظن انه كذب فقيل لصاحب العرض
+          حال ماتقول بذلك فطفق يتكلم كلا ما لا يوجب احالة السمع اليه فسكت عنه وصدق تلك المقالات التى
+          قالتها الافنديات <persName>سليمان افندى <roleName type=" شيخ-رواق-الترك">شيخ رواق
+              الترك</roleName></persName> و<persName>الشيخ احمد الجندى مدبر جراية <roleName
+              type="شيخ-جامع-الازهر">شيخ جامع الازهر</roleName></persName> وقالوا ان صاحب العرض حال
+          مدرس فى <placeName type="مدرسة" ref="مدرسة_السلمانية">مدرسة السليمانية</placeName> الكائنة
+          فى <placeName ref="السروجيه">السروجيه</placeName> وله فيها اوضة فلينتقل اليها لكى يرفع
+            <sic>القال</sic> والقيل فنبه على صاحب العرض حال ان ينتقل من المدرسة الى الاوضة التى فى
+          مدرسة السليمانية واذ تبين ذلك من <orgName type="جرنال" ref="جرنال-الديوان-الخديوى">جرنال
+            الديوان الخديوى</orgName>حرر فى جريدة الوقايع.</p>
+      </div>
+      <div xml:id="w56" resp="#eSG #eAM #eDY">
+        <head><date when-custom="1245-07-18">١٨رجب ١٢٤٥</date>
+          <date when="1830-01-13">١٣ يناير١٨٣٠</date>
+          <bibl><biblScope unit="issue">نمرة ٩٩</biblScope>
+            <biblScope unit="page">صفحة ٣</biblScope></bibl>
+        </head>
+        <p>حضرة <persName><roleName type="الشيخ">الشيخ</roleName> محمد الدمهوجى <roleName
+              type="شيخ-جامع-الازهر">شيخ <placeName type="جامع" ref="جامع_الازهر">جامع
+                الازهر</placeName></roleName></persName> من حيث انه نصب شيخا جديدا على الجامع
+          المذكور ولم يك له بيت يلق بمقامه انعم عليه سعادة الاصفى <measure>بخمسة عشر الفا
+            قرشا</measure> ليشترى بيتا مناسبا لحاله.</p>
       </div>
       <div xml:id="w25" resp="#eDY">
-        <head>
-          <date when-custom="1245-07-23">٢٣ رجب ١٢٤٥</date>
+        <head><date when-custom="1245-07-23">٢٣ رجب ١٢٤٥</date>
           <date when="1830-01-18">١٨ يناير١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٠٠</biblScope>
             <biblScope unit="page">صفحة ١-٢</biblScope></bibl>
         </head>
         <p>
-          <persName>على <roleName type="ceremonial-title">افندى</roleName>
-            <roleName type="مأمور-أشغال-مصر-المحروسة">مأمور أشغال مصر المحروسة</roleName></persName>
-          قدم تقريرا الى <orgName type="مجلس-المشورة ">مجلس المشورة</orgName> مضمونه ان متفرعات
-          اشغال المحروسة وفرت بكثرة فان اعطى افنديا مستعدا من افنديات الدرسخانة المهمة يمنع الخلل عن
-          المصلحة وتسهل رؤية المصالح فسئل <persName>محمد <roleName type="ceremonial-title"
-              >افندى</roleName>
-            <roleName type="ناظ[ر]-الدرسخانة-المذكورة">ناظ[ر] الدرسخانة
-            المذكورة</roleName></persName> عن ذلك فا خبر ان <persName>عندليب <roleName
-              type="ceremonial-title">افندى</roleName><roleName type=" المستخدم-فى-و[ر]شة-الجرنال">
-              المستخدم فى <placeName>و[ر]شة الجرنال</placeName></roleName></persName> خليق خدمة
-          المعاونة المطلوبة من <persName><roleName type="ceremonial-title">الافندى</roleName>
-            المومى</persName> اليه ولدى المذكرة رسموا بان يرسل الافندى المومى اليه الى <orgName
-            type="ديوان-اشغال-المحروسة">ديوان اشغال المحروسة</orgName> ويعطى له فيما بعد شهرية وبدل
-          تعيينات وقدرها <measure>خمسماية قرش</measure> وكسور من هذا الديوان ويحرر امر من <orgName
-            type="الديوان-الخديوى">الديوان الخديوى</orgName> الى <persName>محمد افندى <roleName
-              type=" ناظر-الدرسخانة-المذكورة ">ناظر الدرسخانة المذكورة</roleName></persName>لاجل
-          ارسال الافندى المومى اليه والى <persName>على <roleName type="ceremonial-title"
-              >افندى</roleName></persName> اشعارا بذلك كما استقر على ذلك الراى فى اليوم الثالث من
-          شهر رجب المرجب. </p>
+          <persName>على افندى <roleName type="مأمور-أشغال-مصر-المحروسة">مأمور أشغال مصر
+              المحروسة</roleName></persName> قدم تقريرا الى <orgName type="مجلس" ref="مجلس-المشورة "
+            >مجلس المشورة</orgName> مضمونه ان متفرعات اشغال المحروسة وفرت بكثرة فان اعطى افنديا
+          مستعدا من افنديات <placeName type="الدرسخانة">الدرسخانة</placeName> المهمة يمنع الخلل عن
+          المصلحة وتسهل رؤية المصالح فسئل <persName>محمد افندى <roleName
+              type="ناظ[ر]-الدرسخانة-المذكورة"><sic>ناظ[ر]</sic> الدرسخانة
+            المذكورة</roleName></persName>عن ذلك فا خبر ان<persName>عندليب افندى<roleName
+              type=" المستخدم-فى-و[ر]شة-الجرنال">المستخدم فى<placeName type="ورشة"
+                ref="ورشة_الجرنال">و[ر]شة الجرنال</placeName></roleName></persName> خليق خدمة
+          المعاونة المطلوبة من الافندى المومى اليه ولدى المذكرة رسموا بان يرسل الافندى المومى اليه
+          الى <orgName type="ديوان" ref="ديوان-اشغال-المحروسة">ديوان اشغال المحروسة</orgName>ويعطى
+          له فيما بعد شهرية وبدل تعيينات وقدرها<measure>خمسماية قرش</measure>وكسور من هذا الديوان
+          ويحرر امر من <orgName type="ديوان" ref="الديوان-الخديوى">الديوان الخديوى</orgName> الى
+            <persName>محمد افندى <roleName type=" ناظر-الدرسخانة-المذكورة ">ناظر الدرسخانة
+              المذكورة</roleName></persName>لاجل ارسال الافندى المومى اليه والى على افندى اشعارا
+          بذلك كما استقر على ذلك الراى فى اليوم الثالث من شهر رجب المرجب.</p>
       </div>
       <div xml:id="w26" resp="#eDY #eAM">
         <head>
           <date when-custom="1245-07-29">٢٩ رجب ١٢٤٥</date>
           <date when="1830-01-24">٢٤ يناير١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٠٣</biblScope>
-            <biblScope unit="page">صفحة ١-٢</biblScope></bibl>
+            <biblScope unit="page">صفحة ١</biblScope></bibl>
         </head>
-        <p> قد حصص ان يعطى من<placeName>كمرك بولاق</placeName> فى كل يوم <sic>لو لى</sic> خربوطلى من
-          جماعة <sic>محويك</sic> قرش واحد و <persName>لابراهيم ارضروملى</persName> من جماعة
-            <persName>على <roleName type="ceremonial-title">بيك</roleName> السلانكلى</persName> قرش
-            ول<persName>مصطفى برازللى</persName> من جماعة <persName>عبد الله <roleName
-              type="ceremonial-title">اغا</roleName>
-            <roleName type="دليل-باشى">دليل باشى</roleName></persName> قرش ول<persName>عمر
-            بزلرانلى</persName> من جماعة ابراهيم <roleName type=" كاشف">كاشف</roleName> قرش ولعثمان
-            <roleName type="بلوكباشى ">بلوكباشى</roleName> زيله لى من جماعة سنان <roleName
-            type="cermeonial-title">اغا</roleName> بيكباشى <measure>ماية و خمس فضيات</measure>
-            و<roleName>لحسن رهالى</roleName> من جماعة <persName>على <roleName
-              type="ceremonial-title">اغا</roleName> دودينه لى</persName> قرش وذلك بموجب امر
-            <roleName type="governor" ref="#MA">الخديوى</roleName> ولاعطا[ء] هذه المبالغ حررت تذكرة
-          كما بان ذلك من جرنال معاون الخزينة وقد اثبت فى الوقائع. <persName>محمد <roleName
-              type="ceremonial-title">بيك</roleName>
-            <roleName type="ناظر-المهمات-الحربية">ناظر المهمات الحربية</roleName></persName> عموما
-          قدم تقريرا الى <orgName type="مجلس-المشورة">مجلس المشورة</orgName> مضمونه انه وردت تذكرة
-          من <persName>سليمان <roleName type="ceremonial-title">افندى</roleName>
-            <roleName type="ناظر-البروتخانه">ناظر البروتخانه</roleName></persName> يوضح بها انه لما
-          كشفت <orgName type="كهرجله-خانة ">كهرجله خانة</orgName> بدرشين بمعرفة <persName>حسن
-              <roleName type="ceremonial-title">بيك</roleName>
-            <roleName type="مأمور-الجيزة">مأمور الجيزة</roleName></persName> علم انه يلزم لاصلاحها
-          تسعة <measure>عشر الفا</measure> و<measure>اربعماية قرشا</measure> وانه جرت العادة بان
-          يجلب حطب <material>البوص</material> لحرق <sic>الطوب</sic> اللازم لها من الوجه القبلى ومن
-          حيث ان تصليح تلك <orgName type="الكهرجله-خانه">الكهرجله خانه</orgName> لازم سريعا عرض ذلك
-          الى المجلس ولدى المذاكرة رسموا بان يهياحطب <sic>البوص</sic> فى وقته حيث كانت <orgName
-            type="الكهرجله-خانه">الكهرجله خانه</orgName> ركبا عظيما للمهمات الحربية ويشرع فى انشائها
-          على موجب <roleName type="الكشف-المذكور">الكشف المذكور</roleName> ويحرر امر من <orgName
-            type=" الديوان-الخديوى ">الديوان الخديوى</orgName> الى <persName>حسن <roleName
-              type="ceremonial-title">بيك</roleName>
-            <roleName type="مأمور-الجيزة">مأمور الجيزة</roleName></persName> اشعارا بذلك كما استقر
-          الراى على ذلك فى اليوم الخامس من شهر رجب الفرد. </p>
+        <p>قد حصص ان يعطى من<placeName type="كمرك" ref="كمرك_بولاق">كمرك بولاق</placeName> فى كل يوم
+            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><sic>لو
+          لى</sic><?oxy_custom_end?> خربوطلى من جماعة<sic>محويك</sic> قرش واحد و <persName>لابراهيم
+            ارضروملى من جماعة <persName>على بيك السلانكلى</persName></persName>  قرش
+            ول<persName>مصطفى برازللى من جماعة <persName>عبد الله اغا دليل
+            باشى</persName></persName> قرش ول<persName>عمر بزلرانلى من جماعة <persName>ابراهيم
+              كاشف</persName></persName>  قرش ول<persName>عثمان <roleName type="بلوكباشى "
+              >بلوكباشى</roleName> زيله لى من جماعة <persName>سنان اغا بيكباشى</persName></persName>
+          <measure>ماية و خمس فضيات</measure> ول<persName>حسن رهالى من جماعة <persName>على اغا
+              دودينه لى</persName></persName> قرش وذلك بموجب امر الخديوى و<sic>لاعطا[ء]</sic> هذه
+          المبالغ حررت تذكرة كما بان ذلك من جرنال معاون الخزينة وقد اثبت فى الوقائع.</p>
+      </div>
+      <div resp="#eDY #eAM #eSG" xml:id="w57">
+        <head>
+          <date when-custom="1245-07-29">٢٩ رجب ١٢٤٥</date>
+          <date when="1830-01-24">٢٤ يناير١٨٣٠</date>
+          <bibl><biblScope unit="issue">نمرة ١٠٣</biblScope>
+            <biblScope unit="page">صفحة ٢</biblScope></bibl>
+        </head>
+        <p><persName>محمد بيك <roleName type="ناظر-المهمات-الحربية">ناظر المهمات الحربية
+              عموما</roleName></persName> قدم تقريرا الى <orgName type="مجلس" ref="مجلس-المشورة"
+            >مجلس المشورة</orgName> مضمونه انه وردت تذكرة من <persName>سليمان افندى <roleName
+              type="ناظر-البروتخانه">ناظر <orgName type="الباروتخانه"
+              >البروتخانه</orgName></roleName></persName> يوضح بها انه لما كشفت <orgName
+            type="كهرجله-خانة ">كهرجله خانة</orgName>
+          <placeName ref="بدرشين">بدرشين</placeName> بمعرفة <persName>حسن بيك مأمور <placeName
+              ref="الجيزة">الجيزة</placeName></persName> علم انه يلزم لاصلاحها تسعة <measure>عشر
+            الفا</measure> و<measure>اربعماية قرشا</measure> وانه جرت العادة بان يجلب حطب
+            <material>البوص</material> لحرق الطوب اللازم لها من الوجه القبلى ومن حيث ان تصليح تلك
+          الكهرجله خانه لازم سريعا عرض ذلك الى المجلس ولدى المذاكرة رسموا بان <sic>يهيا</sic> حطب
+          البوص فى وقته حيث كانت الكهرجله خانه ركبا عظيما للمهمات الحربية ويشرع فى انشائها على موجب
+          الكشف المذكور ويحرر امر من <orgName type="ديوان" ref="الديوان_الخديوى">الديوان
+            الخديوى</orgName> الى <persName>حسن بيك <roleName type="مأمور-الجيزة">مأمور
+              الجيزة</roleName></persName> اشعارا بذلك كما استقر الراى على ذلك فى اليوم الخامس من
+          شهر رجب الفرد. </p>
       </div>
       <div xml:id="w27" resp="#eDY #eAM">
         <head>
@@ -1399,7 +1401,8 @@
           <bibl><biblScope unit="issue">نمرة ١٢١</biblScope>
             <biblScope unit="page">صفحة٣-٤</biblScope></bibl>
         </head>
-        <p> رجل من اهالى <placeName ref="https://www.geonames.org/353057/al-mahrusah.html">المحروسة</placeName> اسمه <persName>مصطفى</persName> و حرمته تسمى
+        <p> رجل من اهالى <placeName ref="https://www.geonames.org/353057/al-mahrusah.html"
+            >المحروسة</placeName> اسمه <persName>مصطفى</persName> و حرمته تسمى
             <persName>عرب</persName> ساكنة تحت الربع بمعرفة <roleName role="باش-اغا">باش
             اغا</roleName> فقالت المراة انا قفلت باب بيتى امس ومضيت الى الجيران ولما رجعت رأيت الباب
           مفتوحا وهذا الرجل اخذ حلتى وبرقعى فدعوت بعضا من اهالى السوق فاتوا ومسكوه واخذه الى
@@ -1407,9 +1410,10 @@
             <persName>مصطفى</persName> عن ذلك فقال انا اتهمت اولا بسرقة وارسلت الى اللومان ثم اتيت
           تائبا وابتدات اشتغل فى الغياض وفى يوم ما اتيت مصر لاشترى خبزا واذ كنت مارا من امام منزل
           الحرمه صادفت اولادا من الورشة فطلبوا منى فلوسا فلم اعطهم <sic>فصنعوبى</sic> هكذا فقالت
-          المراة ليس الذين مسكوه اولاد الورشة بل اصحاب دكاكين تحت الربع فعرض ذلك الى <roleName type="ceremonial-title">الافندى</roleName> <roleName role=" مأمور-الديوان-الخديوى">مأمور
-            الديوان الخديوى</roleName> فقال لتعط الحله الى الحرمه وليحبس الرجل بحيث ان له عادة على
-          فعل ذلك سابقه وعلى هذا الامر تم المنوال. </p>
+          المراة ليس الذين مسكوه اولاد الورشة بل اصحاب دكاكين تحت الربع فعرض ذلك الى <roleName
+            type="ceremonial-title">الافندى</roleName>
+          <roleName role=" مأمور-الديوان-الخديوى">مأمور الديوان الخديوى</roleName> فقال لتعط الحله
+          الى الحرمه وليحبس الرجل بحيث ان له عادة على فعل ذلك سابقه وعلى هذا الامر تم المنوال. </p>
       </div>
       <div xml:id="w40" resp="#eNK">
         <head>
@@ -1900,7 +1904,7 @@
             when-custom="1245-11-24">الرابع والعشرين من ذى القعدة</date>. </p>
       </div>
       <div xml:id="w54">
-        <head><date when-custom="1245-12-16">١٦ الحجة ١٢٤٥</date> 
+        <head><date when-custom="1245-12-16">١٦ الحجة ١٢٤٥</date>
           <date when-custom="1830-06-07">٧ يونيو ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٥١</biblScope>
             <biblScope unit="page">صفحة ١- ٢</biblScope></bibl>
