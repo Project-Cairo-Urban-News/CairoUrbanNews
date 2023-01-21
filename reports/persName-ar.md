@@ -1,6 +1,4 @@
 # Organization Types
- * 'governor'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
- * 'https://www.geonames.org/360016/muhafazat-ash-sharqiyah.html'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
  * 'امين_افندى_ناظر_ديوان_الابنية'‎: [1248.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1248.xml)
  * 'امين-افندى'‎: [1246.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1246.xml)
  * 'زاوية-وضريح-سيدى-كعب-الأحبار'‎: [1286.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1286.xml)
