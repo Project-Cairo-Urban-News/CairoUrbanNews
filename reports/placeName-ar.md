@@ -104,6 +104,7 @@
  * 'شارع'‎: [1291.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1291.xml), [1292.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1292.xml), [1286.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1286.xml), [1284.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1284.xml)
  * 'شارع-البيدق'‎: [1285.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1285.xml)
  * 'شارع-السكة-المستجدة'‎: [1285.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1285.xml)
+ * 'شونة'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
  * 'شونةـمهمات-الجهابية'‎: [1248.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1248.xml)
  * 'طابيات'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
  * 'طولون'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
