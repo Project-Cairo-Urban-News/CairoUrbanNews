@@ -50,6 +50,7 @@
  * 'دايه'‎: [1286.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1286.xml)
  * 'دلال'‎: [1246.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1246.xml)
  * 'دلال-العقارات'‎: [1286.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1286.xml)
+ * 'رئيس-المجلس-الخصوصي'‎: [1289.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1289.xml)
  * 'رئيس-دلالين-العقارات'‎: [1286.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1286.xml)
  * 'رئيس-طائفة--دلال-عقارات'‎: [1286.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1286.xml)
  * 'رئيس-طائفة-دلالى-العقارات'‎: [1286.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1286.xml)
