@@ -130,7 +130,8 @@
             <head><bibl><biblScope unit="issue">نمره ٤٤٩</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head>يوم <date when-custom="1289-01-17">الثلاثاء ١٧ محرم ١٢٨٩</date> الموافق <date when="1872-03-26">٢٦ <sic>مارث</sic> ١٨٧٢</date></head>
-            <head>صورة <rs type="اعلان">اعلان</rs> وارد من حضرة وكيل مكاتب أهليه بتاريخ <date
+            <head>صورة <rs type="اعلان">اعلان</rs> وارد من حضرة <roleName
+                  role="وكيل-المكاتب-الاهليه">وكيل مكاتب أهليه</roleName> بتاريخ <date
                   when-custom="1289-01-11">١١ محرم سنة ٨٩</date></head>
             <table rend="rules">
                <row>
@@ -178,7 +179,7 @@
                         <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">ص 4 – العمود 3 </hi>
                      </p>
                      <p style="text-align: justify;">
-                        <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">حصه بحق الربع من المنزل الكائن بـ<placeName type="ربع-الخردجيه">ربع الخردجيه</placeName> بـ<placeName type="خط-باب-الزهومة">خط باب الزهومه</placeName> وقف <persName>الحاج يوسف النحاس</persName> <roleName type="ناظر">نظارة</roleName> <persName>الست زهره</persName> يبلغ مسطحها <measure>ذراع – 32</measure> مقتضى استبدالها وقائمة مزادها بطرف <roleName type="معاون-قسم-اول-اوقاف">معاون قسم اول اوقاف</roleName> </hi>
+                        <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">حصه بحق الربع من المنزل الكائن بـ<placeName type="ربع-الخردجيه">ربع الخردجيه</placeName> بـ<placeName type="خط-باب-الزهومة">خط باب الزهومه</placeName> وقف <persName>الحاج يوسف النحاس</persName> <roleName type="ناظر">نظارة</roleName> <persName>الست زهره</persName> يبلغ مسطحها <measure>ذراع – ٣٢</measure> مقتضى استبدالها وقائمة مزادها بطرف <roleName type="معاون-قسم-اول-اوقاف">معاون قسم اول اوقاف</roleName> </hi>
                      </p>
                   </cell>
                </row>
@@ -196,8 +197,9 @@
             <head>يوم <date when-custom="1289-02-08">الثلاثاء ٨ صفر ١٢٨٩</date> الموافق <date when="1872-04-16">١٦ ابريل ١٨٧٢</date></head>
             <head>الحوادث الداخليه</head>
             <p>حاصل الاهتمام فى وسائل انشاء سكة حديد من <placeName
-                  ref="https://www.geonames.org/355548/imbabah.html">امبابه</placeName> الى تيه
-               البارود لاجل تسهيل ارسال البضاعات وانواع التجارات الى <placeName
+                  ref="https://www.geonames.org/355548/imbabah.html">امبابه</placeName> الى
+                  <placeName ref="https://www.geonames.org/355417/itay-al-barud.html">تيه
+                  البارود</placeName> لاجل تسهيل ارسال البضاعات وانواع التجارات الى <placeName
                   ref="الاسكندرية https://www.geonames.org/361058/alexandria.html"
                   >الاسكندرية</placeName> على خط مستقيم </p>
          </div>
@@ -235,12 +237,14 @@
                <placeName type="مصر">مصر</placeName> بتاريخ <date when-custom="1289-02-12">١٢ صفر
                   سنة ٨٩</date></head>
             <p>انه من ضمن مديونين صندوق الايتام شخص يسمى <persName>الحاج ربيع فتح الباب
-                  التراب</persName> وارهن منزله الكائن بالهدارة <orgName type="ثمن-الازبكية">بثمن
-                  الازبكيه</orgName> ولواسطة عدم سداد المطلوب منه قد تحررت قائمة اشهار بمبيع المنزل
-               المذكور لمن يرغب وتسلمت لـ<roleName role="رئيس-دلالين-العقارات">رئيس دلالين
-                  العقارات</roleName> فلهذا اقتضى تحريره <sic>لحضرنكم</sic> نؤمل التنبيه بدرج المنزل
-               المذكور بالوقايع مرارا تركى وعربى لاحاطة العموم لاجل كل من له رغبة يتوجه لرئيس
-               الدلالين وبعد المعاينة يعطى [ا]لمزاد على حسب الشروط الموضحة بقائمة الاشهار كالجارى </p>
+                  التراب</persName> وارهن منزله الكائن بـ<placeName type="الهدارة"
+                  >الهدارة</placeName>
+               <orgName type="ثمن-الازبكية">بثمن الازبكيه</orgName> ولواسطة عدم سداد المطلوب منه قد
+               تحررت قائمة اشهار بمبيع المنزل المذكور لمن يرغب وتسلمت لـ<roleName
+                  role="رئيس-دلالين-العقارات">رئيس دلالين العقارات</roleName> فلهذا اقتضى تحريره
+                  <sic>لحضرنكم</sic> نؤمل التنبيه بدرج المنزل المذكور بالوقايع مرارا تركى وعربى
+               لاحاطة العموم لاجل كل من له رغبة يتوجه لرئيس الدلالين وبعد المعاينة يعطى [ا]لمزاد على
+               حسب الشروط الموضحة بقائمة الاشهار كالجارى </p>
          </div>
          <div resp="#eAK" xml:id="k818">
             <head><bibl><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
@@ -327,41 +331,41 @@
                </row>
                <row>
                   <cell/>
-                  <cell>15 ثمن الحنفيه الاصليه</cell>
+                  <cell>١٥ ثمن الحنفيه الاصليه</cell>
                </row>
                <row>
-                  <cell>35</cell>
-                  <cell>20 ثمن علبتها </cell>
+                  <cell>٣٥</cell>
+                  <cell>٢٠ ثمن علبتها </cell>
                </row>
                <row>
-                  <cell>40 ثمن المأسور العداده</cell>
+                  <cell>٤٠ ثمن المأسور العداده</cell>
                   <cell/>
                </row>
             </table>
             <table rend="rules">
                <row>
-                  <cell>03 الماسوره من رصاص فى ثخن </cell>
-                  <cell><measure>0,015 ميلميتر</measure> الميتر الواحد منها </cell>
+                  <cell>٠٣ الماسوره من رصاص فى ثخن </cell>
+                  <cell><measure>٠,٠١٥ ميلميتر</measure> الميتر الواحد منها </cell>
                </row>
                <row>
-                  <cell>10 حنفيه بلولب فى ثخن</cell>
-                  <cell><measure>0,010 ميلميتر</measure> الميتر الواحد منها</cell>
+                  <cell>١٠ حنفيه بلولب فى ثخن</cell>
+                  <cell><measure>٠,٠١٠ ميلميتر</measure> الميتر الواحد منها</cell>
                </row>
                <row>
-                  <cell>12 شرحه فى ثخن</cell>
-                  <cell><measure>0,015 ميلميتر</measure> الميتر الواحد منها</cell>
+                  <cell>١٢ شرحه فى ثخن</cell>
+                  <cell><measure>٠,٠١٥ ميلميتر</measure> الميتر الواحد منها</cell>
                </row>
                <row>
-                  <cell>14 شرحه فى ثخن</cell>
-                  <cell><measure>0,020 ميلميتر</measure> الميتر الواحد منها</cell>
+                  <cell>١٤ شرحه فى ثخن</cell>
+                  <cell><measure>٠,٠٢٠ ميلميتر</measure> الميتر الواحد منها</cell>
                </row>
                <row>
-                  <cell>16 شرحه فى ثخن</cell>
-                  <cell><measure>0,025 ميلميتر</measure> الميتر الواحد منها</cell>
+                  <cell>١٦ شرحه فى ثخن</cell>
+                  <cell><measure>٠,٠٢٥ ميلميتر</measure> الميتر الواحد منها</cell>
                </row>
                <row>
-                  <cell>20 شرحه فى ثخن</cell>
-                  <cell><measure>0,030 ميلميتر</measure> الميتر الواحد منها</cell>
+                  <cell>٢٠ شرحه فى ثخن</cell>
+                  <cell><measure>٠,٠٣٠ ميلميتر</measure> الميتر الواحد منها</cell>
                </row>
             </table>
          </div>
@@ -405,7 +409,7 @@
                <row>
                   <cell>1</cell>
                   <cell>منزل بـ<placeName>كفر الزغارى</placeName> تعلق الوقف نظارة <persName>الست
-                        كلسن</persName> يبلغ مسطحه <measure>136 ذراعا</measure> مقتضى استبداله
+                        كلسن</persName> يبلغ مسطحه <measure>١٣٦ ذراعا</measure> مقتضى استبداله
                      وقائمة مزاده بطرف <roleName role="معاون-قسم-اول-اوقاف">معاون قسم اول
                         اوقاف</roleName>
                   </cell>
@@ -415,7 +419,7 @@
                   <cell>منزل بـ<placeName type="حارة-العنبري">حارة العنبرى</placeName> بـ<placeName
                         type="قيسون">قيسون</placeName> وقف <persName>الست زليخا</persName> نظارة
                         <persName>الست حسنه</persName> يبلغ مسطحه بما فيه الركوب على دكاكين الغير
-                        <measure>858 ذراعا ونصفا</measure> مقتضى استبداله وقائمة مزاده بطرف
+                        <measure>٨٥٨ ذراعا ونصفا</measure> مقتضى استبداله وقائمة مزاده بطرف
                         <roleName role="معاون-قسم-ثاني-اوقاف">معاون قسم ثانى اوقاف</roleName>
                   </cell>
                </row>
@@ -424,7 +428,7 @@
                   <cell>منزل بـ<placeName>قنطرة <persName><roleName role="ceremonial-title"
                               >الامير</roleName> حسين</persName></placeName> وقف <persName>الست
                         فاطمه</persName> نظارة <persName>كيلانى <roleName role="ceremonial-title"
-                           >افندى</roleName> قاسم</persName> يبلغ مسطحه <measure>324 ذراعا</measure>
+                           >افندى</roleName> قاسم</persName> يبلغ مسطحه <measure>٣٢٤ ذراعا</measure>
                      مقتضى استبداله وقائمة مزاده شرخ ما قبله </cell>
                </row>
                <row>
@@ -470,7 +474,8 @@
             <head>يوم <date when-custom="1289-03-21">الثلاثاء ٢١ ريبع الاول ١٢٨٩</date> الموافق
                   <date when="1872-05-28">٢٨ مايه ١٨٧٢</date></head>
             <head>اعلانات</head>
-            <head>صورة <rs type="اعلان">اعلان</rs> وارد من حضرة وكيل ديوان المدارس الاهليه بتاريخ
+            <head>صورة <rs type="اعلان">اعلان</rs> وارد من حضرة <roleName
+                  role="وكيل-ديوان-المدارس-الاهلية">وكيل ديوان المدارس الاهليه</roleName> بتاريخ
                   <date when="1289-03-14">١٤ را سنة ٨٩</date></head>
             <table rend="rules">
                <row>
@@ -486,10 +491,20 @@
                      <hi style="font-size:14ptdirection:rtl;">1</hi>
                   </cell>
                   <cell style="text-align: justify;">
-                     <hi style="font-size:14ptdirection:rtl;">نصف منزل بحارة البلقدار بثمن باب
-                        النصريه مخلف عن الحرمه حامده بنت محمد وهو الفحام راسى مزاده على محمد على
-                        بمبلغ وقدره ستمائة غرش ومقاسه اذرع راو (كتبت من هذا الرمز ما امكننى رؤيته)
-                        111</hi>
+                     <hi style="font-size:14ptdirection:rtl;">نصف منزل بـ<placeName
+                           type="حارة-البلقدار">حارة البلقدار</placeName> بـ<orgName
+                           type="ثمن-باب-النصريه">ثمن باب النصريه</orgName> مخلف عن الحرمه
+                           <persName>حامده بنت محمد وهو الفحام</persName> راسى مزاده على
+                           <persName>محمد على</persName> بمبلغ وقدره <measure>ستمائة غرش</measure>
+                        ومقاسه <measure>اذرع <sic>راو</sic> ١١١</measure></hi><measure
+                     > </measure></cell>
+               </row>
+               <row>
+                  <cell style="text-align: justify;">
+                     <hi style="font-size:14ptdirection:rtl;">1</hi>
+                  </cell>
+                  <cell style="text-align: justify;">
+                     <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">حصه بحق <measure>قيراط 8</measure> من منزل بـ<placeName type="حارة-باب-الزفه">حارة درب الزفه</placeName> بـ<placeName type="باب-الشعريه">باب الشعريه</placeName> مخلف عن الحرمه <persName>نفيسه ام امين</persName> راسى مزاده على <persName>محمد العباسى <roleName role="جواهرجي">الجواهرجى</roleName></persName> بمبلغ وقدره <measure>٤٠٦٥ قرش</measure> ومقاسه <measure>اذرع <sic>لمو</sic> ٢٩٤</measure> </hi>
                   </cell>
                </row>
                <row>
@@ -497,7 +512,7 @@
                      <hi style="font-size:14ptdirection:rtl;">1</hi>
                   </cell>
                   <cell style="text-align: justify;">
-                     <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">حصه بحق قيراط 8 من منزل بحارة درب الزفه بباب الشعريه مخلف عن الحرمه نفيسه ام امين راسى مزاده على محمد العباسى الجواهرجى بمبلغ وقدره 4065 قرش ومقاسه اذرع لمو 294 </hi>
+                     <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">منزل بـ<placeName type="حارة-بيرجوان">حارة بيرجوان</placeName> بـ<orgName type="ثمن-الجمالية">تمن الجماليه</orgName> مخلف عن الحرمه <persName>برلانته الحبشيه</persName> راسى مزاده على <persName>عثمان ابراهيم الـ<roleName role="صراف">صراف</roleName></persName> بمبلغ وقدره <measure>واحد وعشرين ألف غرش</measure> ومقاسه <measure>اذرع – ١٨٢</measure> </hi>
                   </cell>
                </row>
                <row>
@@ -505,7 +520,13 @@
                      <hi style="font-size:14ptdirection:rtl;">1</hi>
                   </cell>
                   <cell style="text-align: justify;">
-                     <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">منزل بحارة بيرجوان بتمن الجماليه مخلف عن الحرمه برلانته الحبشيه راسى مزاده على عثمان ابراهيم الصراف بمبلغ وقدره واحد وعشرين ألف غرش ومقاسه اذرع – 182 </hi>
+                     <hi style="font-size:14ptdirection:rtl;">نصف منزل بـ<placeName
+                           type="حارة-درب-السهريج">حارة درب السهريج</placeName> بـ<orgName
+                           type="ثمن-باب-الشعرية">تمن باب الشعريه</orgName> مخلف عن الحرمه
+                           <persName>عائشه بنت محمد الطويل</persName> راسى مزاده على
+                              <persName><roleName role="ceremonial-title">الحاج</roleName> على
+                           ريان</persName> بمبلغ وقدره <measure>ألفين قرش</measure> ومقاسه
+                           <measure>اذرع <sic>راو</sic> ١٢٥</measure></hi>
                   </cell>
                </row>
                <row>
@@ -513,10 +534,7 @@
                      <hi style="font-size:14ptdirection:rtl;">1</hi>
                   </cell>
                   <cell style="text-align: justify;">
-                     <hi style="font-size:14ptdirection:rtl;">نصف منزل بحارة درب السهريج بتمن باب
-                        الشعريه مخلف عن الحرمه عائشه بنت محمد الطويل راسى مزاده على الحاج على ريان
-                        بمبلغ وقدره ألفين قرش ومقاسه اذرع راو (كتبت من هذا الرمز ما امكننى رؤيته)
-                        125</hi>
+                     <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">دكان بـ<placeName type="الامشاطيه">الامشاطيه</placeName> بـ<orgName type="ثمن-الجماليه">ثمن الجماليه</orgName> مخلفه عن الحرمه <persName>برلانته الحبشيه</persName> وراسى مزاده على السيد <persName>محمد الصبان</persName> بمبلغ وقدره <measure>تسعة آلاف ومائة غرش</measure> ومقاسه <measure>اذرع ١٥</measure> </hi>
                   </cell>
                </row>
                <row>
@@ -524,15 +542,7 @@
                      <hi style="font-size:14ptdirection:rtl;">1</hi>
                   </cell>
                   <cell style="text-align: justify;">
-                     <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">دكان بالامشاطيه بثمن الجماليه مخلفه عن الحرمه برلانته الحبشيه وراسى مزاده على السيد محمد الصبان بمبلغ وقدره تسعة آلاف ومائة غرش ومقاسه اذرع 15 </hi>
-                  </cell>
-               </row>
-               <row>
-                  <cell style="text-align: justify;">
-                     <hi style="font-size:14ptdirection:rtl;">1</hi>
-                  </cell>
-                  <cell style="text-align: justify;">
-                     <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">حصه بحق قيراط 6 من منزل بحارة الحماقيه بتمن قيسون مخلف عن الحرمه عائشه بنت ابراهيم الشربينى راسى على الحاجه سكينه الزياته بمبلغ وقدره 3930 قرس (اخر حرف الصح ش بدلا من س) ومقاسه اذرع – 170 </hi>
+                     <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">حصه بحق <measure>قيراط 6</measure> من منزل بـ<placeName type="حارة-الحماقيه">حارة الحماقيه</placeName> بـ<orgName>تمن قيسون</orgName> مخلف عن الحرمه <persName>عائشه بنت ابراهيم الشربينى</persName> راسى على <persName><roleName role="ceremonial-title">الحاجه</roleName> سكينه <roleName role="زيات">الزياته</roleName></persName> بمبلغ وقدره <measure>٣٩٣٠ <sic>قرس</sic></measure> ومقاسه <measure>اذرع – ١٧٠</measure> </hi>
                   </cell>
                </row>
                <row>
@@ -553,16 +563,28 @@
                   بيت المال</roleName>
                <placeName type="مصر">مصر</placeName> بتاريخ <date when-custom="1289-03-13">١٣ را سنة
                   ٨٩</date></head>
-            <p>انه لواسطة الدين المطلوب من عريان افندى شنوده المتوفى لصندوق الايتام وراهن عليه منزله وثلاثة دكاكين اسفله الكائن بباب الحديد بثمن الازبكيه وورثاه رغبوا المبيع وسداد مطلوب الصندوق من المذكور فقد تحررت قائمة مزاد باشهار المنزل والثلاثة دكاكين المذكورين وتسلمت الى رئيس طائفة دلالين العقارات فمقتضى درجهم بالوقايع المصرية تركى وعربى مرارا لزيادة الاحاطة وكل من له رغبة فى المشترى يتوجه الى رئيس طائفة الدلالين وبمناظرة القائمة ومعاينة المنزل والدكاكين يعطى المزاد كما الشروط الموضحة بالقائمة فلهذا اقتضى تحريره لحضرتكم نؤمل الاجراء على وجه ما ذكر  </p>
+            <p>انه لواسطة الدين المطلوب من <persName>عريان افندى شنوده</persName> المتوفى لصندوق
+               الايتام وراهن عليه منزله وثلاثة دكاكين اسفله الكائن بـ<placeName type="باب-الحديد"
+                  >باب الحديد</placeName> بـ<orgName type="ثمن-الازبكيه">ثمن الازبكيه</orgName>
+               وورثاه رغبوا المبيع وسداد مطلوب الصندوق من المذكور فقد تحررت قائمة مزاد باشهار المنزل
+               والثلاثة دكاكين المذكورين وتسلمت الى <roleName role="رئيس-طائفة-دلالين-العقارات">رئيس
+                  طائفة دلالين العقارات</roleName> فمقتضى درجهم بالوقايع المصرية تركى وعربى مرارا
+               لزيادة الاحاطة وكل من له رغبة فى المشترى يتوجه الى رئيس طائفة الدلالين وبمناظرة
+               القائمة ومعاينة المنزل والدكاكين يعطى المزاد كما الشروط الموضحة بالقائمة فلهذا اقتضى
+               تحريره لحضرتكم نؤمل الاجراء على وجه ما ذكر </p>
          </div>
          <div resp="#eAK" xml:id="k828">
             <head><bibl><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
-            <head>صورة <rs type="اعلان">اعلان</rs> وارد من <sic>حصرة</sic> مأمور مبيع املاك الميرى
-               بتاريخ <date when="1289-03-16">١٦ را سنة ٨٩</date></head>
-            <p>صورة قائمة مزاد صادرة من مأمورية مبيع املاك الميرى بالمحروسه كما بلائحة الاجرا آت
-               المثلمة (هذه الكلمة غير واضحة كتبت ما رأيته) بالمجلس الخصوصى الواردة بأمر دولتلو
-               افندم رئيس المجلس الخصوصى رقيم <date when-custom="1288-11-17">١٧ القعده سنة
-                  ٢٨٨</date> نمرة ٤ للمأموريه عن اشهار مزاد محل الميرى التى </p>
+            <head>صورة <rs type="اعلان">اعلان</rs> وارد من <sic>حصرة</sic>
+               <roleName role="مأمور-مبيع-املاك-الميري">مأمور مبيع املاك الميرى</roleName> بتاريخ
+                  <date when="1289-03-16">١٦ را سنة ٨٩</date></head>
+            <p>صورة قائمة مزاد صادرة من <orgName type="مأمورية-مبيع-املاك-الميري">مأمورية مبيع املاك
+                  الميرى</orgName> بالمحروسه كما بلائحة الاجرا آت <sic>المثلمة</sic> بـ<orgName
+                  type="المجلس-الخصوصي">المجلس الخصوصى</orgName> الواردة بأمر <roleName
+                  type="ceremonial-title">دولتلو افندم</roleName>
+               <roleName type="رئيس-المجلس-الخصوصي">رئيس المجلس الخصوصى</roleName> رقيم <date
+                  when-custom="1288-11-17">١٧ القعده سنة ٢٨٨</date> نمرة ٤ للمأموريه عن اشهار مزاد
+               محل الميرى التى </p>
          </div>
          <div xml:id="k829" resp="#eAK">
             <head><bibl><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
