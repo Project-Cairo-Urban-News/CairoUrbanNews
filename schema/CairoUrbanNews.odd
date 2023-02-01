@@ -147,6 +147,57 @@
                      <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
                   </constraint>
                </constraintSpec>
+               <attList>
+                  <attDef ident="type" mode="change">
+                     <valList type="semi">
+                        <valItem ident="باب"/>
+                        <valItem ident="بركة"/>
+                        <valItem ident="بيت"/>
+                        <valItem ident="ترعة"/>
+                        <valItem ident="ثمن"/>
+                        <valItem ident="جامع"/>
+                        <valItem ident="جبل"/>
+                        <valItem ident="جزيرة"/>
+                        <valItem ident="جسر"/>
+                        <valItem ident="جنينة"/>
+                        <valItem ident="جهة"/>
+                        <valItem ident="حارة"/>
+                        <valItem ident="خان"/>
+                        <valItem ident="خط"/>
+                        <valItem ident="درب"/>
+                        <valItem ident="دكان"/>
+                        <valItem ident="رواق"/>
+                        <valItem ident="زقاق"/>
+                        <valItem ident="سكة"/>
+                        <valItem ident="شارع"/>
+                        <valItem ident="شونة"/>
+                        <valItem ident="عطفة"/>
+                        <valItem ident="فندق"/>
+                        <valItem ident="قرية"/>
+                        <valItem ident="قشلة"/>
+                        <valItem ident="قصر"/>
+                        <valItem ident="قلعة"/>
+                        <valItem ident="قنطرة"/>
+                        <valItem ident="قوللق"/>
+                        <valItem ident="كنيسة"/>
+                        <valItem ident="مأمورية"/>
+                        <valItem ident="محافظة"/>
+                        <valItem ident="محكمة"/>
+                        <valItem ident="محل"/>
+                        <valItem ident="مدرسة"/>
+                        <valItem ident="مديرية"/>
+                        <valItem ident="مسجد"/>
+                        <valItem ident="مقاطعة"/>
+                        <valItem ident="مكتب"/>
+                        <valItem ident="منزل"/>
+                        <valItem ident="ميدان"/>
+                        <valItem ident="ناحية"/>
+                        <valItem ident="وادى"/>
+                        <valItem ident="ورشة"/>
+                        <valItem ident="وكالة"/>
+                     </valList>
+                  </attDef>
+               </attList>
             </elementSpec>
             <elementSpec ident="ref" module="core" mode="change">
                <constraintSpec ident="untrimmed-spaces-ref" scheme="schematron">
