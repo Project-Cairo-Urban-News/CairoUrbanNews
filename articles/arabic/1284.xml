@@ -2,7 +2,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah:</title>
+        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities Project</title>
         <editor xml:id="eNK">Nour Kanaan</editor>
         <editor xml:id="eAM">Adam Mestyan</editor>
         <editor xml:id="eDY">Danah Younis</editor>
@@ -13,6 +13,8 @@
         <editor xml:id="eCH">Clara Harms</editor>
         <editor xml:id="eHS">Hüseyin Sağlam</editor>
         <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+        <editor xml:id="eHL">Hiba Laabadli</editor>
+        <editor xml:id="eOE">Othmane Echchabi</editor>
         <respStmt>
           <resp>Advisor</resp>
           <name>Hugh Cayless</name>
@@ -101,7 +103,7 @@
         <language ident="ar">Arabic</language>
         <language ident="en">English</language>
         <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
-        <language ident="ott">Ottoman</language>
+        <language ident="ota">Ottoman</language>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -119,39 +121,32 @@
                         <head>(* <bibl><biblScope unit="issue">نمرة الوقائع
                               ١٠٣</biblScope></bibl>)</head>
                         <head>طبعت بمطبعة بولاق يوم الخميس <date when-custom="1284-01-05">٥ محرم سنة
-                                    ١٢٨٤ه</date>ـ الموافق٣ بشنس القبطي ١٥٨٣ و<date when="1867-05-09"
-                                    >٩ مايه الأفرنجي ١٨٦٧م</date></head>
+                                    ١٢٨٤ه</date>ـ الموافق٣ بشنس القبطي ١٥٨٣ و<date when="1867-05-09">٩ مايه الأفرنجي ١٨٦٧م</date></head>
                         <head>لا يوجد خبر مهم ...</head>
                         <head>(* <bibl><biblScope unit="issue">نمرة الوقائع
                               ١٠٤</biblScope></bibl>)</head>
                         <head>طبعت بمطبعة بولاق يوم الأثنين <date when-custom="1284-01-09">٩ محرم
-                                    سنة ١٢٨٤ه</date>ـ الموافق ٦ بشنس القبطي ١٥٨٣ و<date
-                                    when="1867-05-13">١٣ مايه الأفرنجي ١٨٦٧م</date></head>
+                                    سنة ١٢٨٤ه</date>ـ الموافق ٦ بشنس القبطي ١٥٨٣ و<date when="1867-05-13">١٣ مايه الأفرنجي ١٨٦٧م</date></head>
                         <head>لا يوجد خبر مهم ...</head>
                         <head>(* <bibl><biblScope unit="issue">نمرة الوقائع
                               ١٠٥</biblScope></bibl>)</head>
                         <head>طبعت بمطبعة بولاق يوم الخميس <date when-custom="1284-01-12">١٢ محرم
-                                    سنة ١٢٨٤ه</date>ـ الموافق٩ بشنس القبطي ١٥٨٣ و<date
-                                    when="1867-05-16">١٦ مايه الأفرنجي ١٨٦٧م</date></head>
+                                    سنة ١٢٨٤ه</date>ـ الموافق٩ بشنس القبطي ١٥٨٣ و<date when="1867-05-16">١٦ مايه الأفرنجي ١٨٦٧م</date></head>
                         <head>لا يوجد خبر مهم ...</head>
                         <head>(* <bibl><biblScope unit="issue">نمرة الوقائع
                               ١٠٦</biblScope></bibl>)</head>
                         <head>طبعت بمطبعة بولاق يوم الخميس <date when-custom="1284-01-19">١٩ محرم
-                                    سنة ١٢٨٤ه</date>ـ الموافق١٦ بشنس القبطي ١٥٨٣ و<date
-                                    when="1867-05-23">٢٣ مايه الأفرنجي ١٨٦٧م</date></head>
+                                    سنة ١٢٨٤ه</date>ـ الموافق١٦ بشنس القبطي ١٥٨٣ و<date when="1867-05-23">٢٣ مايه الأفرنجي ١٨٦٧م</date></head>
                         <head>لا يوجد خبر مهم ...</head>
                         <head>(* <bibl><biblScope unit="issue">نمرة الوقائع
                                           <sic>١٠٨</sic></biblScope></bibl>)</head>
                         <head>طبعت بمطبعة بولاق يوم الأثنين <date when-custom="1284-01-23">٢٣ محرم
-                                    سنة ١٢٨٤هـ</date> الموافق ٢٠ بشنس القبطي ١٥٨٣ و<date
-                                    when="1867-05-27">٢٧ ماية الأفرنجي ١٨٦٧م</date></head>
+                                    سنة ١٢٨٤هـ</date> الموافق ٢٠ بشنس القبطي ١٥٨٣ و<date when="1867-05-27">٢٧ ماية الأفرنجي ١٨٦٧م</date></head>
                         <head>لا يوجد خبر مهم ...</head>
                         <head>(* <bibl><biblScope unit="issue">نمرة الوقائع
-                                          ١٠٩</biblScope><biblScope unit="page"
-                                    >ص١</biblScope></bibl>)</head>
+                                          ١٠٩</biblScope><biblScope unit="page">ص١</biblScope></bibl>)</head>
                         <head>طبعت بمطبعة بولاق يوم الخميس<date when-custom="1284-01-26">٢٦محرم سنة
-                                    ١٢٨٤هـ</date> الموافق ٢٣ بشنس القبطي ١٥٨٣ <date
-                                    when="1867-05-30">و٣٠ ماية الأفرنجي ١٨٦٧م</date>
+                                    ١٢٨٤هـ</date> الموافق ٢٣ بشنس القبطي ١٥٨٣ <date when="1867-05-30">و٣٠ ماية الأفرنجي ١٨٦٧م</date>
                         </head>
                         <?oxy_comment_start author="abram" timestamp="20230102T105753-0500" comment="
  العدد رقم 113 الصادر يوم الخميس 13 يونيه الموافق 10 صفر غير موجود. 
@@ -163,8 +158,7 @@
             <head>طبعت بمطبعة بولاق يوم الأحد <date when-custom="1284-01-29">٢٩ محرم سنة
                   ١٢٨٤هـ</date>الموافق ٢٦ بشنس القبطي ١٥٨٣ <date when="1867-06-02">و٢ يونيه الأفرنجي
                   ١٨٦٧م</date></head>
-            <p>صار حضرة سعادتلو <persName>ثابت باشا أمين كرك سكندرية</persName> وكيل <orgName
-                  type="نظارة-الداخلية">نظارة الداخلية</orgName> واستعوض بسعادتلو <persName>أحمد
+            <p>صار حضرة سعادتلو <persName>ثابت باشا أمين كرك سكندرية</persName> وكيل <orgName type="نظارة-الداخلية">نظارة الداخلية</orgName> واستعوض بسعادتلو <persName>أحمد
                   باشا ناظر الوادرا</persName> واستعوض هذا أيضًا ب<persName>سعادتلو صفر باشا وكيل
                      <orgName type="مجلس-استئناف-سكندرية">مجلس استئناف
                سكندرية</orgName></persName>.</p>
@@ -204,8 +198,7 @@
                الضبطية بلفظه أيضًا انه تنفيذ الأمر الصادر في <date when="1867-04-18">١٨</date>
                   و<date when="1867-04-30">٣٠ أبريله سنة ١٨٦٧</date> على العرض المتقدم من
                   <persName>الست ايرينه أبوسطو</persName> لو ضد <persName>الخواجه ميكيله
-                  لالا</persName> سيصير طرح البيت ملك الخواجه المذكور الكائن ب<placeName type="سكة"
-                  >سكة باب الحديد</placeName> بالقرب إلى <placeName>لوكاندت جريفتس</placeName>
+                  لالا</persName> سيصير طرح البيت ملك الخواجه المذكور الكائن ب<placeName type="سكة">سكة باب الحديد</placeName> بالقرب إلى <placeName>لوكاندت جريفتس</placeName>
                المعروفة بلو كاندت أوروبا لبيعه بالمزاد وليعلم لدى العموم انه قد دفع بالبيت المذكور
                بلغ ثلاثة آلاف وستمائة جنيه انكليزي من المداينة أول عطي وتعين يوم الأحد الواقع في ١٦
                وفي <date when="1867-07-28">٢٨ يوليو سنة ١٨٦٧</date> للبدأ فى المزاد المذكور من
@@ -231,16 +224,12 @@
                مبيعها واشهارها للمزايدة فيها</head>
             <p> ذراع معماري مسطح</p>
             <p> ٤٤ و٨٩٢ قطعة أرض باقية من محل المواشي ب<placeName type="بركة">بركة
-                  الأزبكية</placeName> تعرف بنمرة ١ حدّها القبلى ينتهى إلى <placeName type="مدرسة"
-                  >المدرسة الأمريكانية</placeName> يبلغ طوله ١٩ مترًا و٨٠ سانتي وحدّها البحري ينتهي
+                  الأزبكية</placeName> تعرف بنمرة ١ حدّها القبلى ينتهى إلى <placeName type="مدرسة">المدرسة الأمريكانية</placeName> يبلغ طوله ١٩ مترًا و٨٠ سانتي وحدّها البحري ينتهي
                إلى <orgName>البوزخانه</orgName> ويبلغ طوله ٢٢ مترا وحدها الشرقي بعضه لحوش هذه
                المدرسة وباقية للطريق الفاصل بين <placeName>الضبطية</placeName> والبوزخانة ويبلغ طوله
-               ٣٠ مترا و٦٠ سانتي مكسرًا وحده الغربي للشارع الفاصل بينها وبين <placeName type="جنينة"
-                  >جنينة الأزبكية</placeName> ويبلغ طوله ٢٢ مترًا ومساحتها بالمتر ٥٠٢ وبالذراع
+               ٣٠ مترا و٦٠ سانتي مكسرًا وحده الغربي للشارع الفاصل بينها وبين <placeName type="جنينة">جنينة الأزبكية</placeName> ويبلغ طوله ٢٢ مترًا ومساحتها بالمتر ٥٠٢ وبالذراع
                المعماري ٨٩٢ و٤٤ من مائه من الذراع.</p>
-            <p>٩٢ و ٢٩٣ قطعة أرض باقية من المحل المتقدم تعرف بنمرة ٢ حدها القبلي لل<placeName
-                  type="street">شارع المستجد</placeName> الفاصل بينها وبين <orgName
-                  type="ديوان-الخارجية">ديوان الخارجية</orgName> يبلغ طوله ٢٠ مترا و٨٠ سانتي والبحري
+            <p>٩٢ و ٢٩٣ قطعة أرض باقية من المحل المتقدم تعرف بنمرة ٢ حدها القبلي لل<placeName type="street">شارع المستجد</placeName> الفاصل بينها وبين <orgName type="ديوان-الخارجية">ديوان الخارجية</orgName> يبلغ طوله ٢٠ مترا و٨٠ سانتي والبحري
                للمدرسة السابقة ويبلغ طوله ٢٠ مترًا و٢٠ سانتي والشرقي لحوش هذه المدرسة ويبلغ طوله
                ثمانية أمتار والغربي للشارع الفاصل بينها وبين الجنينة المذكورة وطوله كالذي قبله
                ومساحتها بالمتر ٤٣ و١٦٥ وبالذراع المعماري ٢٩٣ و٩٢ من مائه من الذراع.</p>
@@ -254,8 +243,7 @@
             <p>هذه القطع الثلاث من جملة املاك الميري المستغني عنها ولاجل الأنتفاع بها وانتظام الشارع
                حررّت قوائم مزايدة فيها الشروط اللازمة لمن يرغب في شرائها وسلمت إلي <persName>السيد
                   محمد مصطفى الجنيدي الدلال</persName> واقتضى الحال إدراجها بالوقائع لاجل الأعلان
-               ليتوجه إليها كل من يريدها ويشاهدها بالعيان بمقتضي الأفادة الواردة من <orgName
-                  type="ديوان-المحافظة">ديوان المحافظة</orgName>.</p>
+               ليتوجه إليها كل من يريدها ويشاهدها بالعيان بمقتضي الأفادة الواردة من <orgName type="ديوان-المحافظة">ديوان المحافظة</orgName>.</p>
          </div>
          <div>
             <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١١٧</biblScope></bibl>)</head>
@@ -272,33 +260,27 @@
                         <head>(* <bibl><biblScope unit="issue">نمرة الوقائع
                               ١١٩</biblScope></bibl>)</head><?oxy_comment_end?>
                         <head>طبعت بمطبعة بولاق يوم الخميس <date when-custom="1284-03-02">٢ ربيع
-                                    الأول سنة ١٢٨٤ه</date>ـ الموافق ٢٨ بؤنه القبطي١٥٨٣ و <date
-                                    when="1867-07-04">٤ يوليه الأفرنجي ١٨٦٧م</date></head>
+                                    الأول سنة ١٢٨٤ه</date>ـ الموافق ٢٨ بؤنه القبطي١٥٨٣ و <date when="1867-07-04">٤ يوليه الأفرنجي ١٨٦٧م</date></head>
                         <head>لا يوجد خبر مهم ...</head>
                         <head>(* <bibl><biblScope unit="issue">نمرة الوقائع
                               ١٢٠</biblScope></bibl>)</head>
                         <head>طبعت بمطبعة بولاق يوم الأثنين<date when-custom="1284-03-06">٦ ربيع
-                                    الأول سنة ١٢٨٤هـ</date> الموافق ٣١ بؤنه القبطي١٥٨٣ و<date
-                                    when="1867-07-08">٨ يوليه الأفرنجي ١٨٦٧م</date></head>
+                                    الأول سنة ١٢٨٤هـ</date> الموافق ٣١ بؤنه القبطي١٥٨٣ و<date when="1867-07-08">٨ يوليه الأفرنجي ١٨٦٧م</date></head>
                         <head>لا يوجد خبر مهم ...</head>
                         <head>(* <bibl><biblScope unit="issue">نمرة الوقائع
                               ١٢١</biblScope></bibl>)</head>
                         <head>طبعت بمطبعة بولاق يوم الخميس <date when-custom="1284-03-09">٩ ربيع
-                                    الأول سنة ١٢٨٤هـ</date> الموافق ٥ أبيب القبطي ١٥٨٣ و<date
-                                    when="1867-07-11">١١ يوليه الأفرنجي ١٨٦٧م</date></head>
+                                    الأول سنة ١٢٨٤هـ</date> الموافق ٥ أبيب القبطي ١٥٨٣ و<date when="1867-07-11">١١ يوليه الأفرنجي ١٨٦٧م</date></head>
                         <head>لا يوجد خبر مهم ...</head>
                         <head>(* <bibl><biblScope unit="issue">نمرة الوقائع
                               ١٢٢</biblScope></bibl>)</head>
                         <head>طبعت بمطبعة بولاق يوم الأثنين <date when="1284-03-13">١٣ ربيع الأول
-                                    سنة ١٢٨٤هـ</date> الموافق ٩ أبيب القبطي ١٥٨٣ و<date
-                                    when="1867-07-15">١٥ يوليه الأفرنجي ١٨٦٧م</date></head>
+                                    سنة ١٢٨٤هـ</date> الموافق ٩ أبيب القبطي ١٥٨٣ و<date when="1867-07-15">١٥ يوليه الأفرنجي ١٨٦٧م</date></head>
                         <head>لا يوجد خبر مهم ...</head>
                         <head>(* <bibl><biblScope unit="issue">نمرة الوقائع
-                                          ١٢٣</biblScope><biblScope unit="page"
-                                    >ص٢</biblScope></bibl>)</head>
+                                          ١٢٣</biblScope><biblScope unit="page">ص٢</biblScope></bibl>)</head>
                         <head>طبعت بمطبعة بولاق يوم الخميس <date when-custom="1284-03-16">١٦ ربيع
-                                    الأول سنة ١٢٨٤هـ</date> الموافق ١٢ أبيب القبطي ١٥٨٣ و<date
-                                    when="1867-07-18">١٨ يوليه الأفرنجي ١٨٦٧م</date></head>
+                                    الأول سنة ١٢٨٤هـ</date> الموافق ١٢ أبيب القبطي ١٥٨٣ و<date when="1867-07-18">١٨ يوليه الأفرنجي ١٨٦٧م</date></head>
                         <head>الحوادث الداخلية</head>
                         <p>أحسن بالرتبة الرابعة إلى <persName>خليل افندي وهبي</persName> المتشرف
                               بالخدمة بدائرة سعادة ذات العصمة والدة ولى النعم الخديو الأعظم بعد ان
@@ -337,8 +319,7 @@
                               </table></p>
          </div>
          <div>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٢٤</biblScope><biblScope
-                                          unit="page">ص٢</biblScope></bibl>)</head>
+            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٢٤</biblScope><biblScope unit="page">ص٢</biblScope></bibl>)</head>
             <head>طبعت بمطبعة بولاق يوم الأثنين <date when-custom="1284-03-20">٢٠ ربيع الأول سنة
                   ١٢٨٤هـ</date> الموافق ١٦ أبيب القبطي ١٥٨٣ و<date when="1867-07-22">٢٢ يوليه
                   الأفرنجي ١٨٦٧م</date></head>
@@ -353,8 +334,7 @@
          <div>
             <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٢٥</biblScope></bibl>)</head>
             <head>طبعت بمطبعة بولاق يوم الخميس <date when-custom="1284-03-23">٢٣ ربيع الأول سنة
-                                    ١٢٨٤هـ</date> الموافق ١٩ أبيب القبطي ١٥٨٣ و<date
-                                    when="1867-07-25">٢٥ يوليه الأفرنجي ١٨٦٧م</date></head>
+                                    ١٢٨٤هـ</date> الموافق ١٩ أبيب القبطي ١٥٨٣ و<date when="1867-07-25">٢٥ يوليه الأفرنجي ١٨٦٧م</date></head>
             <head>(اعلان)</head>
                         <p><bibl><biblScope unit="page">ص٤</biblScope></bibl></p>
             <p>عن <rs type="بيان">بيان</rs> الأماكن الوقف الخربة التي اقتضت المصلحة بيع انقاضها
@@ -368,8 +348,7 @@
             <p>١ خربة بحوش قدم في وقف سيدنا الحسين ٤٤١</p>
             <p>١ خربة في <placeName type="حارة">حارة الحمزية</placeName>
                   ب<placeName>الداودية</placeName> في وقف الأمامين ١٥٦</p>
-            <p>١ خربة في <placeName type="زقاق">زقاق الشعراني</placeName> في <orgName
-                  type="وقف-سيدي-عقبة">وقف <persName>سيدي عقبة</persName></orgName> ٥٨٠</p>
+            <p>١ خربة في <placeName type="زقاق">زقاق الشعراني</placeName> في <orgName type="وقف-سيدي-عقبة">وقف <persName>سيدي عقبة</persName></orgName> ٥٨٠</p>
             <p>١ خربة في <placeName type="درب">درب الشيخ مسعود</placeName>
                   ب<placeName>بولاق</placeName> من <orgName type="وقف-سيدنا-الحسين">وقف سيدنا
                   الحسين</orgName> ١٣٦</p>
@@ -464,8 +443,7 @@
                   ١٢٨٤هـ</date> الموافق ١٠ مسري القبطي ١٥٨٣ و<date when="1867-08-15">١٥ أغسطس
                   الأفرنجي ١٨٦٧م</date></head>
             <head>لا يوجد خبر مهم ...</head>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٣١</biblScope><biblScope
-                                          unit="page">ص٢</biblScope></bibl>)</head>
+            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٣١</biblScope><biblScope unit="page">ص٢</biblScope></bibl>)</head>
             <head>طبعت بمطبعة بولاق يوم الأثنين <date when-custom="1284-04-18">١٨ ربيع الثاني سنة
                   ١٢٨٤هـ</date> الموافق ١٤ مسري القبطي ١٥٨٣ و<date when="1867-08-19">١٩ أغسطس
                   الأفرنجي ١٨٦٧م</date></head>
@@ -476,11 +454,9 @@
                القاعة وشئ من القش المعدّ لحشو البرادّع.</p>
          </div>
          <div>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٣٢</biblScope><biblScope
-                                          unit="page">ص٣</biblScope></bibl>)</head>
+            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٣٢</biblScope><biblScope unit="page">ص٣</biblScope></bibl>)</head>
             <head>طبعت بمطبعة بولاق يوم الخميس <date when="1284-04-21" when-custom="1284-04-21">٢١
-                  ربيع الثاني سنة ١٢٨٤هـ</date> الموافق ١٧ مسري القبطي ١٥٨٣ و<date when="1867-08-22"
-                  >٢٢ أغسطس الأفرنجي ١٨٦٧م</date></head>
+                  ربيع الثاني سنة ١٢٨٤هـ</date> الموافق ١٧ مسري القبطي ١٥٨٣ و<date when="1867-08-22">٢٢ أغسطس الأفرنجي ١٨٦٧م</date></head>
             <p>وعلم من أخبار الضبطية أيضّا أنه في الساعة السابعة من ليلة الأثنين الماضي ظهر حريق في
                حاصل من منزل لشخص اسمه <persName>جرجس قدسي</persName> ب<placeName type="درب">درب
                   حيدر</placeName> من <orgName type="ثمن-عابدين">ثمن عابدين</orgName> وبما أبدته
@@ -488,8 +464,7 @@
                ربع الساعة ولم يحترق به سوي ما كان في الحاصل المذكور من بعض أخشاب وقش.</p>
          </div>
          <div>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٣٣</biblScope><biblScope
-                                          unit="page">ص٤</biblScope></bibl>)</head>
+            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٣٣</biblScope><biblScope unit="page">ص٤</biblScope></bibl>)</head>
             <head>طبعت بمطبعة بولاق يوم الأثنين <date when-custom="1284-04-25">٢٥ ربيع الثاني سنة
                   ١٢٨٤هـ</date> الموافق ٢١ مسري القبطي ١٥٨٣ و<date when="1867-08-26">٢٦ أغسطس
                   الأفرنجي ١٨٦٧م</date></head>
@@ -507,15 +482,12 @@
             <head>لا يوجد خبر مهم ...</head>
             <head>شهر سبتمبر سنة ١٨٦٧م الموافق من شهر جمادي الأول إلى شهر جمادي الثاني سنة
                ١٢٨٤هـ</head>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٣٥</biblScope><biblScope
-                                          unit="page">ص٤</biblScope></bibl>)</head>
+            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٣٥</biblScope><biblScope unit="page">ص٤</biblScope></bibl>)</head>
             <head>طبعت بمطبعة بولاق يوم الأثنين <date when-custom="1284-05-03">٣ جمادي الأولى سنة
                   ١٢٨٤هـ</date> الموافق ٢٨ مسري القبطي ١٥٨٣ و<date when="1867-09-02">٢ سبتمبر
                   الأفرنجي ١٨٦٧م</date></head>
             <head>(اعلانات)</head>
-            <p>ل<persName>حضرة سعادتلو أحمد باشا الدورملي مأمور <orgName type="الضبطية-المصرية"
-                     >الضبطية المصرية</orgName></persName> ابعادية عشورية حوض واحد ب<placeName
-                  type="ناحية">ناحية الحلافي</placeName> ب<placeName type="مديرية">مديرية
+            <p>ل<persName>حضرة سعادتلو أحمد باشا الدورملي مأمور <orgName type="الضبطية-المصرية">الضبطية المصرية</orgName></persName> ابعادية عشورية حوض واحد ب<placeName type="ناحية">ناحية الحلافي</placeName> ب<placeName type="مديرية">مديرية
                   الروضة</placeName> قدرها ثلاثمائة وستة وعشرين فدانا وكسور وهي مستأجرة في هذه السنة
                بسبعماية جنيه مصري وقد اشترت في المزاد على يد شاكر الدلال فمن أراد شراءها فعليه
                به.</p>
@@ -536,8 +508,7 @@
                   ١٢٨٤هـ</date> الموافق ٢ توت القبطي ١٥٨٤ و<date when="1867-09-12">١٢ سبتمبر
                   الأفرنجي ١٨٦٧م</date></head>
             <head>لا يوجد خبر مهم...</head>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٣٩</biblScope><biblScope
-                                          unit="page">ص٢</biblScope></bibl>)</head>
+            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٣٩</biblScope><biblScope unit="page">ص٢</biblScope></bibl>)</head>
             <head>طبعت بمطبعة بولاق يوم الأثنين <date when-custom="1284-05-17">١٧ جمادي الأولى سنة
                   ١٢٨٤هـ</date> الموافق ٦ توت القبطي ١٥٨٤ و<date when="1867-09-16">١٦ سبتمبر
                   الأفرنجي ١٨٦٧م</date></head>
@@ -559,27 +530,21 @@
             <p>قد أسبغ شرعا استبدال ذلك المنزل وأحداث الخلو في تلك الحصة وحرر بذلك خمسة وثلاثون اعلانا أرسلت إلى الضبطية لتوضع على القره قولات وكتب إلى معاون الأوقاف باشهار ذلك في المزايدة حتى يكون معلوما للخاص والعام.</p>
          </div>
          <div>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٤٠</biblScope><biblScope
-                                          unit="page">ص١</biblScope></bibl>)</head>
+            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٤٠</biblScope><biblScope unit="page">ص١</biblScope></bibl>)</head>
             <head>طبعت بمطبعة بولاق يوم الخميس <date when-custom="1284-05-20">٢٠ جمادي الأولى سنة
                   ١٢٨٤هـ</date> الموافق ٩ توت القبطي ١٥٨٤ و<date when="1867-09-19">١٩سبتمبر الأفرنجي
                   ١٨٦٧م</date></head>
-            <p>وجهت <orgName type="نظارة-الداخلية">نظارتا الداخلية والمالية</orgName> و<orgName
-                  type="ادارة-الأشغال-العمومية">ادارة الأشغال العمومية</orgName> إلى <persName>حضرة
+            <p>وجهت <orgName type="نظارة-الداخلية">نظارتا الداخلية والمالية</orgName> و<orgName type="ادارة-الأشغال-العمومية">ادارة الأشغال العمومية</orgName> إلى <persName>حضرة
                   سعادتلو راغب باشا</persName>
             </p>
             <p>وجهت رئاسة <orgName type="مجلس-الأحكام">مجلس الأحكام</orgName> إلى <persName>حضرة
-                  سعادتلو شريف باشا زايد</persName> عما كان في عهدته من <orgName
-                  type="نظارة-المدارس">نظارة المدارس</orgName> واعضائية <orgName
-                  type="المجلس-الخصوصي">المجلس الخصوصي</orgName>.</p>
+                  سعادتلو شريف باشا زايد</persName> عما كان في عهدته من <orgName type="نظارة-المدارس">نظارة المدارس</orgName> واعضائية <orgName type="المجلس-الخصوصي">المجلس الخصوصي</orgName>.</p>
             <p>وجهت اعضائية المجلس الخصوصي إلى كل من <persName>حضرتي سعادتلو أحمد رشيد باشا محافظ
                   مصر</persName>
                <persName>وسعادتلو حسين باشا أمين بيت المال</persName> زيادة عن مأموريتها </p>
             <p>وكذا وجهت هذه الأعضائية الى كل من حضرتي <persName>سعادتلو عبد الله باشا بدلا عن رئاسة
-                  مجلس الأحكام</persName> والى <persName>سعادتلو حسن راسم باشا بدلا عن <orgName
-                     type="نظارة-الدائرة-السنية">نظارة الدائرة السنية</orgName></persName></p>
-            <p>وجهت نظارة الدائرة السنية الى حضرة <persName>سعادتلو حافظ باشا بدلا عن <orgName
-                     type="نظارة-المالية">نظارة المالية</orgName></persName>
+                  مجلس الأحكام</persName> والى <persName>سعادتلو حسن راسم باشا بدلا عن <orgName type="نظارة-الدائرة-السنية">نظارة الدائرة السنية</orgName></persName></p>
+            <p>وجهت نظارة الدائرة السنية الى حضرة <persName>سعادتلو حافظ باشا بدلا عن <orgName type="نظارة-المالية">نظارة المالية</orgName></persName>
             </p>
             <p>تعين مفتشا لعموم <orgName type="الجفالك-السنية">الجفالك السنية</orgName>
                <persName>سعادتلو أحمد باشا الدرامه لي</persName> الذي كان مأمور الضبطية المصرية
@@ -587,8 +552,7 @@
                برتبة المتمايز من الدرجة الثانية السمية.</p>
          </div>
          <div>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٤١</biblScope><biblScope
-                                          unit="page">ص٢</biblScope></bibl>)</head>
+            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٤١</biblScope><biblScope unit="page">ص٢</biblScope></bibl>)</head>
             <head>طبعت بمطبعة بولاق يوم الأثنين <date when-custom="1284-05-24">٢٤ جمادي الأولى سنة
                   ١٢٨٤هـ</date> الموافق ١٣ توت القبطي ١٥٨٤ و<date when="1867-09-23">٢٣ سبتمبر
                   الأفرنجي ١٨٦٧م</date></head>
@@ -608,8 +572,7 @@
                   ١٢٨٤هـ</date> الموافق ١٦ توت القبطي ١٥٨٤ و<date when="1867-09-26">٢٦ سبتمبر
                   الأفرنجي ١٨٦٧م</date></head>
             <head>لا يوجد خبر مهم ...</head>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٤٣</biblScope><biblScope
-                                          unit="page">ص٢</biblScope></bibl>)</head>
+            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٤٣</biblScope><biblScope unit="page">ص٢</biblScope></bibl>)</head>
             <head>طبعت بمطبعة بولاق يوم الأثنين <date when-custom="1284-06-01">غرة جمادي الثاني سنة
                   ١٢٨٤هـ</date> الموافق ٢٠ توت القبطي ١٥٨٤ و<date when="1867-09-30">٣٠ سبتمبر
                   الأفرنجي ١٨٦٧م</date></head>
@@ -643,8 +606,7 @@
                   ١٢٨٤هـ</date> الموافق ٣٠ توت القبطي ١٥٨٤ و<date when="1867-10-10">١٠ اوقتوبر
                   الأفرنجي ١٨٦٧م</date></head>
             <head>لا يوجد خبر مهم ...</head>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٤٧</biblScope><biblScope
-                                          unit="page">ص٣</biblScope></bibl>)</head>
+            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٤٧</biblScope><biblScope unit="page">ص٣</biblScope></bibl>)</head>
             <head>طبعت بمطبعة بولاق يوم الأثنين <date when-custom="1284-06-15">١٥ جمادي الثانى سنة
                   ١٢٨٤هـ</date> الموافق ٤ بابه القبطي ١٥٨٤ و<date when="1867-10-14">١٤ اوقتوبر
                   الأفرنجي ١٨٦٧م</date></head>
@@ -652,8 +614,7 @@
                   ب<placeName>الكماجين</placeName> ب<placeName>علوة جميزة</placeName> وقف
                   <persName>حسن أغا اوده باشى</persName>
                <orgName type="نظارة-الست-نفيسة">نظارة الست نفيسة</orgName> مسطحه ٩٠٤ أذرع وحصة قدرها
-               ١٧ قيراطا ونصف في منزل ب<placeName type="درب">درب القزازين</placeName> ب<placeName
-                  type="درب">الدرب الأحمر</placeName> وقف <persName>محمد السايس</persName>
+               ١٧ قيراطا ونصف في منزل ب<placeName type="درب">درب القزازين</placeName> ب<placeName type="درب">الدرب الأحمر</placeName> وقف <persName>محمد السايس</persName>
                <orgName type="نظارة-فاطمة-بنت-سليمان">نظارة <persName>فاطمة بنت
                   سليمان</persName></orgName> مسطحها ٣٩ قد أسيغ مبيع أنقاضهما شرعا وتأجير أرضهما
                وأذن باحداث الخلوة فيهما وحرّر بذلك خمسة وثلاثون اعلانا أرسلت الى الضبطية في ذلك
@@ -661,13 +622,11 @@
                الخاص والعام من جميع الأنام</p>
          </div>
          <div>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٤٨</biblScope><biblScope
-                                          unit="page">ص٢</biblScope></bibl>)</head>
+            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٤٨</biblScope><biblScope unit="page">ص٢</biblScope></bibl>)</head>
             <head>طبعت بمطبعة بولاق يوم الخميس <date when-custom="1284-06-18">١٨ جمادي الثانيه سنة
                   ١٢٨٤هـ</date> الموافق ٧ بابه القبطي ١٥٨٤ و<date when="1867-10-17">١٧ اوقتوبر
                   الأفرنجي ١٨٦٧م</date></head>
-            <p>علم من <rs type="اشعار">اشعار</rs> وارد من الضبطية انه سقط سقف عشة <placeName
-                  type="جزيرة">جزيرة بدران</placeName> ليلا فأرسل رجال من الضبطية فأخرجوا من تحته
+            <p>علم من <rs type="اشعار">اشعار</rs> وارد من الضبطية انه سقط سقف عشة <placeName type="جزيرة">جزيرة بدران</placeName> ليلا فأرسل رجال من الضبطية فأخرجوا من تحته
                امرأتين ميتتين ورجلين وصبيا على قيد الحياة الا ان الصبي أصيبت احدى رجليه بجراحة فأرسل
                الى الاسبتالية للمعالجة ودفنت المرأتان بعد كشف الحكيم وها هو جار تحقيق القضية
                   ب<orgName type="ديوان-الضبطية">ديوان الضبطية</orgName>.</p>
@@ -699,8 +658,7 @@
                   ١٢٨٤هـ</date> الموافق ٢٥ بابه القبطي ١٥٨٤ و<date when="1867-11-04">٤ نونمبر
                   الأفرنجي ١٨٦٧م</date></head>
             <head>لا يوجد خبر مهم ...</head>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٥٤</biblScope><biblScope
-                                          unit="page">ص١</biblScope></bibl>)</head>
+            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٥٤</biblScope><biblScope unit="page">ص١</biblScope></bibl>)</head>
             <head>طبعت بمطبعة بولاق يوم الخميس <date when-custom="1284-07-10">١٠ رجب الفرد سنة
                   ١٢٨٤هـ</date> الموافق ٢٨ بابه القبطي ١٥٨٤ و<date when="1867-11-07">٧ نونمبر
                   الأفرنجي ١٨٦٧م</date></head>
@@ -719,8 +677,7 @@
                   ١٢٨٤هـ</date> الموافق ٥ هاتور القبطي ١٥٨٤ و<date when="1867-11-14">١٤ نونمبر
                   الأفرنجي ١٨٦٧م</date></head>
             <head>لا يوجد خبر مهم ...</head>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٥٧</biblScope><biblScope
-                                          unit="page">ص١</biblScope></bibl>)</head>
+            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٥٧</biblScope><biblScope unit="page">ص١</biblScope></bibl>)</head>
             <head>طبعت بمطبعة بولاق يوم الأثنين <date when-custom="1284-07-21">٢١ رجب الفرد سنة
                   ١٢٨٤هـ</date> الموافق ٩ هاتور القبطي ١٥٨٤ و<date when="1867-11-18">١٨ نونمبر
                   الأفرنجي ١٨٦٧م</date></head>
@@ -736,8 +693,7 @@
                   ١٢٨٤هـ</date> الموافق ١٢ هاتور القبطي ١٥٨٤ و<date when="1867-11-21">٢١ نونمبر
                   الأفرنجي ١٨٦٧م</date></head>
             <head>لا يوجد خبر مهم ...</head>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٥٩</biblScope><biblScope
-                                          unit="page">ص٣</biblScope></bibl>)</head>
+            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٥٩</biblScope><biblScope unit="page">ص٣</biblScope></bibl>)</head>
             <head>طبعت بمطبعة بولاق يوم الأثنين <date when-custom="1284-07-28">٢٨ رجب الفرد سنة
                   ١٢٨٤هـ</date> الموافق ١٦ هاتور القبطي ١٥٨٤ و<date when="1867-11-25">٢٥ نونمبر
                   الأفرنجي ١٨٦٧م</date></head>
@@ -746,8 +702,7 @@
                   المياه</orgName></persName> في مصر المحروسة مكافأتله على خدمته السابقة.</p>
          </div>
          <div>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٦٠</biblScope><biblScope
-                                          unit="page">ص١</biblScope></bibl>)</head>
+            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٦٠</biblScope><biblScope unit="page">ص١</biblScope></bibl>)</head>
             <head>طبعت بمطبعة بولاق يوم الخميس <date when-custom="1284-08-01">غرة شعبان سنة
                   ١٢٨٤هـ</date> الموافق ١٩ هاتور القبطي ١٥٨٤ و<date when="1867-11-28">٢٨ نونمبر
                   الأفرنجي ١٨٦٧م</date></head>
@@ -765,8 +720,7 @@
                   ١٢٨٤هـ</date> الموافق ٢٣ هاتور القبطي ١٥٨٤ و<date when="1867-12-02">٢ دسمبر
                   الأفرنجي ١٨٦٧م</date></head>
             <head>لا يوجد خبر مهم ...</head>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٦٢</biblScope><biblScope
-                                          unit="page">ص٢</biblScope></bibl>)</head>
+            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٦٢</biblScope><biblScope unit="page">ص٢</biblScope></bibl>)</head>
             <head>طبعت بمطبعة بولاق يوم الخميس <date when-custom="1284-08-08">٨ شعبان سنة
                   ١٢٨٤هـ</date> الموافق ٢٦ هاتور القبطي ١٥٨٤ و<date when="1867-12-05">٥ دسمبر
                   الأفرنجي ١٨٦٧م</date></head>
@@ -779,19 +733,16 @@
          <div>
             <head>اعلانات</head>
             <head>(اعلان وارد من محافظة مصر)</head>
-            <p>صورة كشف مقدم من <persName>السيد محمد مصطفى الجندي</persName> ب<rs type="بيان-املاك"
-                  >بيان أملاك</rs>
+            <p>صورة كشف مقدم من <persName>السيد محمد مصطفى الجندي</persName> ب<rs type="بيان-املاك">بيان أملاك</rs>
             </p>
-            <p>حضرات ورثة <persName>المرحوم محمود بك</persName> المعرضة للبيع<table rows="6"
-                                    cols="2">
+            <p>حضرات ورثة <persName>المرحوم محمود بك</persName> المعرضة للبيع<table rows="6" cols="2">
                                     <row>
                                           <cell/>
                                           <cell>عدد</cell>
                                     </row>
                                     <row>
                                           <cell>قائمة <orgName type="وكالة-الجمالية">وكالة
-                                                  الجمالية</orgName> شهيرة ب<orgName
-                                                  type="وكالة-ابي-شنب">وكالة ابي شنب</orgName>
+                                                  الجمالية</orgName> شهيرة ب<orgName type="وكالة-ابي-شنب">وكالة ابي شنب</orgName>
                                                 بالربع الذي فوقها وثمانية دكاكين بواجهتها واجرتها
                                                 السنوية مأتا جنيه مصري وعليها حكر سنوي خمسة وأربعون
                                                 غرشًا فتح با بها بمبلغ الفي جنيه مصري</cell>
@@ -838,8 +789,7 @@
                   ١٢٨٤هـ</date> الموافق ٣ كيهك القبطي ١٥٨٤ و<date when="1867-12-12">١٢ دسمبر
                   الأفرنجي ١٨٦٧م</date></head>
             <head>لا يوجد خبر مهم ...</head>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٦٥</biblScope><biblScope
-                                          unit="page">ص١</biblScope></bibl>)</head>
+            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٦٥</biblScope><biblScope unit="page">ص١</biblScope></bibl>)</head>
             <head>طبعت بمطبعة بولاق يوم الأثنين <date when-custom="1284-08-19">١٩ شعبان سنة
                   ١٢٨٤هـ</date> الموافق ٧ كيهك القبطي ١٥٨٤ و<date when="1867-12-16">١٦ دسمبر
                   الأفرنجي ١٨٦٧م</date></head>
@@ -859,10 +809,8 @@
             <p>عدد</p>
          </div>
          <div>
-            <head>قطعة أرض <orgName type="وقف-الحرمين">وقف الحرمين</orgName> ب<placeName type="عطفة"
-                  >عطفة عبد الله بك</placeName> مسطح ٧٣</head>
-            <p>١ خربة ب<placeName type="حارة">حارة المبيضة</placeName> ببولاق <orgName
-                  type="وقف-السلطان-أبو-العلا">وقف السلطان أبو العلا</orgName> ٥٦</p>
+            <head>قطعة أرض <orgName type="وقف-الحرمين">وقف الحرمين</orgName> ب<placeName type="عطفة">عطفة عبد الله بك</placeName> مسطح ٧٣</head>
+            <p>١ خربة ب<placeName type="حارة">حارة المبيضة</placeName> ببولاق <orgName type="وقف-السلطان-أبو-العلا">وقف السلطان أبو العلا</orgName> ٥٦</p>
          </div>
          <div>
             <head>هذان المحلان اقتضي الحال ببيع ما فيهما من الأنقاض وتأجير أرضهما للراغبين وصدور الأمر بأحداث الخلو فيها وقد زويد في كل من الأنقاض والأجرة السنوية وحيث ان هناك من يرغب فيهما وضرب ميعاد للمزايدين عشرين يوما ابتداؤها يوم الأثنين</head>
@@ -915,22 +863,19 @@
                   ١٢٨٤هـ</date> الموافق ٢٩ طوبه القبطي ١٥٨٤ <date when="1868-02-06">٦ فبراير
                   الأفرنجي ١٨٦٨م</date></head>
             <head>لا يوجد خبر مهم ...</head>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٧٧</biblScope><biblScope
-                                          unit="page">ص٤</biblScope></bibl>)</head>
+            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٧٧</biblScope><biblScope unit="page">ص٤</biblScope></bibl>)</head>
             <head>طبعت بمطبعة بولاق يوم الأثنين <date when-custom="1284-10-17">١٧ شوال سنة
                   ١٢٨٤هـ</date> الموافق ٣ طوبه القبطي ١٥٨٤ و<date when="1868-02-10">١٠ فبراير
                   الأفرنجي ١٨٦٨م</date></head>
             <head>(اعلان من محافظة مصر)</head>
             <p>حيث انه موجود قطع أراضي تعلق <orgName type="الميري">الميري</orgName> متخلفة من الطريق
-               الذي صار تنفيذه من أمام محل ديوان الخارجية القديم للموسكي وغيره ومن محل <orgName
-                  type="ديوان-الجناين">ديوان الجناين</orgName> بالأزبكية ولعدم لزومها قد تحرر وبها
+               الذي صار تنفيذه من أمام محل ديوان الخارجية القديم للموسكي وغيره ومن محل <orgName type="ديوان-الجناين">ديوان الجناين</orgName> بالأزبكية ولعدم لزومها قد تحرر وبها
                خمسة قوائم مزاد وأعطيت إلى <persName>السيد محمد مصطفي الجنيدي وكيل دلالين
                   العقارات</persName> لاشهارها لمن يرغب الشراء وتوضح المقاس أعلاه واقتضي الاعلان بها
                فكل من يكون له رغبة يطلع على قوائم المزاد ويعاين الجهات المذكورة ويعطي المزاد اللازم </p>
             <p>بيان المحلات المحرر بها قوائم مزايدة للمبيع وذلك ضمن أملاك الميري </p>
             <p>عدد</p>
-            <p>بيان الباقي من الأماكن مشتري الميري من بعد المأخوذ منها للطريق المستجد من <placeName
-                  type="جهة">جهة سيدنا الحسين رضي الله</placeName> عنه بما في ذلك من البنا القديم </p>
+            <p>بيان الباقي من الأماكن مشتري الميري من بعد المأخوذ منها للطريق المستجد من <placeName type="جهة">جهة سيدنا الحسين رضي الله</placeName> عنه بما في ذلك من البنا القديم </p>
             <p>ذراع</p>
             <p>٩٨١ الباقي من المنزل المأخوذ من <placeName type="ورشة">ورشة شيخ الخياطين</placeName>
             </p>
@@ -974,8 +919,7 @@
                         </p>
                         <p> الباقي من المنزل والجنينة المأخوذين من <persName>حضرة رفاعي
                                     بك</persName> من بعد المأخوذ منها ل<placeName type="جسر">جسر
-                                    الترعة ١ الأسماعيلية</placeName> خارج <placeName type="باب"
-                                    >الباب الحديد</placeName> وبلغ مقاسه ٨٨ و١٠٧٠ ذراع مسطح بما فيه
+                                    الترعة ١ الأسماعيلية</placeName> خارج <placeName type="باب">الباب الحديد</placeName> وبلغ مقاسه ٨٨ و١٠٧٠ ذراع مسطح بما فيه
                               ذلك من البنا والأنقاض والأشجار وغيره </p>
          </div>
          <div>
@@ -1019,8 +963,7 @@
          </div>
          <div>
             <head>الاعداد أرقام (١٨٥-١٩٠) الصادرة خلال مارس غير موجودة.</head>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٨٣</biblScope><biblScope
-                                          unit="page">ص٤</biblScope></bibl>)</head>
+            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٨٣</biblScope><biblScope unit="page">ص٤</biblScope></bibl>)</head>
             <head>طبعت بمطبعة بولاق يوم الأثنين <date when-custom="1284-11-08">٨ ذي القعدة سنة
                   ١٢٨٤هـ</date> الموافق ٢٤ أمشير القبطي ١٥٨٤ و<date when="1868-03-02">٢ مارث
                   الأفرنجي ١٨٦٨م</date></head>
@@ -1054,15 +997,13 @@
                   ١٢٨٤هـ</date> الموافق ٩ برموده القبطي ١٥٨٤ و<date when="1868-04-17">١٧ أبريل
                   الأفرنجي ١٨٦٨م</date></head>
             <head>لا يوجد خبر مهم ...</head>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٩٤</biblScope><biblScope
-                                          unit="page">ص٢</biblScope></bibl>)</head>
+            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٩٤</biblScope><biblScope unit="page">ص٢</biblScope></bibl>)</head>
             <head>طبعت بمطبعة بولاق يوم الثلاثاء <date when-custom="1284-12-28">٢٨ ذي الحجة سنة
                   ١٢٨٤هـ</date> الموافق ١٣ برموده القبطي ١٥٨٤ و<date when="1868-04-20">٢٠ أبريل
                   الأفرنجي ١٨٦٨م</date></head>
             <p>بعد مضي خمس ساعات ونصف من يوم الجمعة الماضي أصيب بالحريق مغلق شخص يسمى ب<persName>على
                   قطايف</persName> كائن ب<placeName type="سوق">سوق العصر</placeName> ببولاق فلما وصل
-               الخبر إلى الضبطية بودر بأرسال الطلومبات واللوازم وحضر حضرة وكيل <orgName
-                  type="الترسانة">الترسانة</orgName> وبذلت الهمة فى الأطفاء ولاشتداد الهواء اذ ذلك
+               الخبر إلى الضبطية بودر بأرسال الطلومبات واللوازم وحضر حضرة وكيل <orgName type="الترسانة">الترسانة</orgName> وبذلت الهمة فى الأطفاء ولاشتداد الهواء اذ ذلك
                احترق سقف ذلك المغلق وشئ كان فيه من الكتان وتبنه ومشاقه وانزلت التخاشيب اللاتى بالسوق
                خوفا من السراية فحصل الأطفاء بحمد الله في ساعة ونصف بدون سراية إلى الجهة الأخرى.</p>
          </div>
