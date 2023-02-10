@@ -2,7 +2,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah:</title>
+        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities Project</title>
         <editor xml:id="eNK">Nour Kanaan</editor>
         <editor xml:id="eAM">Adam Mestyan</editor>
         <editor xml:id="eDY">Danah Younis</editor>
@@ -13,6 +13,8 @@
         <editor xml:id="eCH">Clara Harms</editor>
         <editor xml:id="eHS">Hüseyin Sağlam</editor>
         <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+        <editor xml:id="eHL">Hiba Laabadli</editor>
+        <editor xml:id="eOE">Othmane Echchabi</editor>
         <respStmt>
           <resp>Advisor</resp>
           <name>Hugh Cayless</name>
@@ -142,8 +144,7 @@
           </row>
           <row>
             <cell>1</cell>
-            <cell>منزل كبير ومنزل صغير وقاعة حرير متخربين ومجاورين لبعضهم <placeName type="حارة"
-                >بحارة الشنوانى</placeName>
+            <cell>منزل كبير ومنزل صغير وقاعة حرير متخربين ومجاورين لبعضهم <placeName type="حارة">بحارة الشنوانى</placeName>
               <placeName type="خط">بخط سيدنا الحسين</placeName> وقف بنت قلاوون على سيدنا الحسين يبلغ
               مسطحهم بوجه التقريب الف وربعمائة متر مقتضى خروجهم من الوقف بطريق الاستبدال وتقدر قيمة
               استبدالهم بمعرفة باشمهندس الاوقاف مبلغ ثمنمائة جنيه مصرى وقائمة مزادهم بطرف معاون قسم
@@ -178,10 +179,7 @@
           الحجة اللازمة لمن يرسى عليه فلزم ترقيمه لحضرتكم ليجرى درج ذلك بالوقايع كالجارى</p>
       </div>
       <div>
-        <head><bibl><biblScope unit="issue">نمره ٤٤٥</biblScope></bibl> يوم الثلاثاء <date
-            when-custom="1288-12-18">۱۸ ذى الحجة سنة ۱۲۸۸</date> ه الموافق <date when="1872-02-27"
-            >۲٧ فبراير سنة ۱۸٧۲</date><bibl><biblScope unit="page">صفحة ۱</biblScope> - <biblScope
-              unit="column">العمود ۲</biblScope></bibl> الحوادث الداخليه</head>
+        <head><bibl><biblScope unit="issue">نمره ٤٤٥</biblScope></bibl> يوم الثلاثاء <date when-custom="1288-12-18">۱۸ ذى الحجة سنة ۱۲۸۸</date> ه الموافق <date when="1872-02-27">۲٧ فبراير سنة ۱۸٧۲</date><bibl><biblScope unit="page">صفحة ۱</biblScope> - <biblScope unit="column">العمود ۲</biblScope></bibl> الحوادث الداخليه</head>
         <p>من ابتداء شهر ذى الحجة سنة 1288 الذى هو عاشر شهر فبراير<bibl><biblScope unit="page">صفحة
               ۱</biblScope> – <biblScope unit="column">العمود ۳</biblScope></bibl> باقية المقال</p>
         <p>الافرنكى شرع فى العبور من فوق القنطرة المنشأة بجهة قصر النيل والرسوم اللازم أخذها من
