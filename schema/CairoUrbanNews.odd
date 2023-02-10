@@ -148,7 +148,7 @@
                   </constraint>
                </constraintSpec>
                <attList>
-                  <attDef ident="type" mode="change">
+                  <attDef ident="type" mode="replace">
                      <valList type="semi">
                         <valItem ident="باب"/>
                         <valItem ident="بركة"/>
