@@ -51,7 +51,7 @@
   
   <!-- Pass 1: remove empty <p> tags and mark <p> types -->
   
-  <xsl:template match="t:p[normalize-space(.) != '' and t:hi[contains(@rend,'color(FF0000)')]]" mode="pass1">
+  <xsl:template match="t:p[normalize-space(.) != '' and t:hi[matches(@rend,'color\([A-F0-9]{2}0000\)')]]" mode="pass1">
     <p type="head"><xsl:apply-templates mode="none"/></p>
   </xsl:template>
   
@@ -86,8 +86,38 @@
   <xsl:template match="t:item[normalize-space(.) = '']" mode="pass1"/>
   
   <xsl:template match="t:table" mode="pass1">
-    <xsl:copy-of select="."/>
+    <xsl:copy>
+      <xsl:apply-templates mode="table"/>
+    </xsl:copy>
   </xsl:template>
+  
+  <!-- Tables -->
+  
+  <xsl:template match="t:row" mode="table">
+    <xsl:copy>
+      <xsl:apply-templates mode="#current"/>
+    </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template match="t:cell" mode="table">
+    <xsl:copy>
+      <xsl:choose>
+        <xsl:when test="t:p"><xsl:apply-templates mode="table"/></xsl:when>
+        <xsl:otherwise><xsl:value-of select="normalize-space(translate(.,'1234567890','١٢٣٤٥٦٧٨٩٠'))"/></xsl:otherwise>
+      </xsl:choose>
+    </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template match="t:hi" mode="table">
+    <xsl:apply-templates/>
+  </xsl:template>
+  
+  <xsl:template match="t:p" mode="table">
+    <xsl:copy>
+      <xsl:value-of select="normalize-space(translate(.,'1234567890','١٢٣٤٥٦٧٨٩٠'))"/>
+    </xsl:copy>
+  </xsl:template>
+  
   
   <!-- Pass 2 -->
       
