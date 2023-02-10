@@ -38,6 +38,7 @@
  * 'الفجالة'‎: [1289.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1289.xml)
  * 'القشلة'‎: [1248.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1248.xml)
  * 'القصر_العالى'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
+ * 'القلعة'‎: [1294.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1294.xml)
  * 'المسافر-خانة'‎: [1285.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1285.xml)
  * 'المنشية-الجديد'‎: [1285.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1285.xml)
  * 'المنصوره'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
