@@ -60,7 +60,6 @@
  * 'شيخ-الحارة'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml), [1246.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1246.xml)
  * 'شيخ-الخضريه'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
  * 'شيخ-الزياتين'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
- * 'شيخ-السادات'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
  * ' شيخ-السادات-الوفائية'‎: [1258.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1258.xml)
  * 'شيخ-الطحانين'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
  * 'شيخ-القبانية'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
