@@ -1,6 +1,5 @@
 # Role Types
  * 'ceremonial-title'‎: [1264.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1264.xml), [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml), [1289.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1289.xml)
- * 'ceremonial-title '‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
  * 'occupation-title'‎: [1264.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1264.xml)
  * 'اغا'‎: [1286.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1286.xml)
  * 'اغاوات-البيروت'‎: [1246.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1246.xml)
