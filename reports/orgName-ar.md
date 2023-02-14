@@ -242,7 +242,6 @@
  * 'قوللق-الموسكى'‎: [1246.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1246.xml)
  * 'قومبانية-مياه-المحروسة'‎: [1289.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1289.xml)
  * 'قومسيون_المدارس'‎: [1283.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1283.xml)
- * 'كرخانة-الخياطين'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
  * 'كمرك_بولاق'‎: [1246.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1246.xml)
  * 'كهرجله-خانة '‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
  * 'للخزينه_العامره'‎: [1249.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1249.xml)
