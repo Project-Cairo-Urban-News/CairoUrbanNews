@@ -1,6 +1,7 @@
 # Role Types
  * 'ceremonial-title'‎: [1289.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1289.xml), [1264.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1264.xml), [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
  * 'occupation-title'‎: [1264.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1264.xml)
+ * 'ابراهيم-صابر'‎: [1294.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1294.xml)
  * 'اغا'‎: [1286.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1286.xml)
  * 'اغاوات-البيروت'‎: [1246.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1246.xml)
  * 'افندى'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
@@ -68,6 +69,8 @@
  * 'صاحب_الحضرة_الأصفية'‎: [1244.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1244.xml)
  * 'صواقول-اغاسى'‎: [1246.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1246.xml)
  * 'ضابط'‎: [1246.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1246.xml)
+ * ' عبد-الله'‎: [1294.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1294.xml)
+ * ' على-باشا-شكرى'‎: [1294.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1294.xml)
  * 'قاضى_مصر'‎: [1244.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1244.xml)
  * 'قاضى-الاسلام'‎: [1258.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1258.xml)
  * 'قاوش-اغاسى'‎: [1246.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1246.xml)
