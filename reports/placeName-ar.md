@@ -64,7 +64,7 @@
  * 'خط-الرويعي'‎: [1285.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1285.xml)
  * 'خط-غيط-العدّة'‎: [1285.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1285.xml)
  * 'خليج'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
- * 'درب'‎: [1288.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1288.xml), [1284.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1284.xml), [1289.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1289.xml), [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml), [1246.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1246.xml)
+ * 'درب'‎: [1288.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1288.xml), [1284.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1284.xml), [1289.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1289.xml), [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml), [1294.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1294.xml), [1246.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1246.xml)
  * 'درب-التضييقة'‎: [1285.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1285.xml)
  * 'درب-الدالي-حسين'‎: [1285.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1285.xml)
  * 'درب-السماكين'‎: [1285.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1285.xml)
