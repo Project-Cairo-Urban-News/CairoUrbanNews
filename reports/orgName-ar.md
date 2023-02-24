@@ -264,6 +264,7 @@
  * 'محل_الكيميا'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
  * 'مخابز_الجهادية'‎: [1248.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1248.xml)
  * 'مدرسة_المهندسخانة_الخديوية'‎: [1283.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1283.xml)
+ * 'مسجد'‎: [1289.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1289.xml)
  * 'مسجد-أبو-الفضل'‎: [1286.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1286.xml)
  * 'مسجد-الأستاذ-الرملى'‎: [1286.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1286.xml)
  * 'مسجد-السيدة-أم-الغلام'‎: [1286.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1286.xml)
