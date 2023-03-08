@@ -78,13 +78,6 @@
                   </constraint>
                </constraintSpec>
             </elementSpec>
-            <elementSpec ident="list" module="core" mode="change">
-               <constraintSpec ident="untrimmed-spaces-list" scheme="schematron">
-                  <constraint>
-                     <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
-                  </constraint>
-               </constraintSpec>
-            </elementSpec>
             <elementSpec ident="material" module="core" mode="change">
                <constraintSpec ident="untrimmed-spaces-material" scheme="schematron">
                   <constraint>
@@ -146,6 +139,11 @@
                   <constraint>
                      <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
                   </constraint>
+               </constraintSpec>
+               <constraintSpec ident="no-URL-in-type" scheme="schematron">
+                <constraint>
+                  <report xmlns="http://purl.oclc.org/dsdl/schematron" test="contains(@type, 'http')">URLs should go in @ref</report>
+                </constraint>
                </constraintSpec>
                <attList>
                   <attDef ident="type" mode="replace">
@@ -211,6 +209,11 @@
                   <constraint>
                      <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
                   </constraint>
+               </constraintSpec>
+               <constraintSpec ident="roleName-deprecated" scheme="schematron">
+                <constraint>
+                  <report xmlns="http://purl.oclc.org/dsdl/schematron" test="self::*">Use @type on persName for roles, or don't mark them at all.</report>
+                </constraint>
                </constraintSpec>
             </elementSpec>
             <elementSpec ident="rs" module="core" mode="change">

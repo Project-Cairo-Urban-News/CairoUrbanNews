@@ -54,12 +54,12 @@
 </head>
 <body>
   <div id="list">
-    <h1>مقالات إخبارية</h1>
+    <h1>الوقائع المصريّة</h1>
     <ul id="files"></ul>
   </div>
   <script>
     if (url.search == "") {
-      fetch("https://api.github.com/repos/Project-Cairo-Urban-News/CairoUrbanNews/contents")
+      fetch("https://api.github.com/repos/Project-Cairo-Urban-News/CairoUrbanNews/contents/articles/arabic")
       .then(response => response.json())
       .then(data => {
         data.forEach(file => {
