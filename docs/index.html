@@ -29,7 +29,7 @@
         }
       };
       c.addBehaviors(behaviors);
-      c.getHTML5("https://raw.githubusercontent.com/Project-Cairo-Urban-News/CairoUrbanNews/master/" + file, function(data) {
+      c.getHTML5("https://raw.githubusercontent.com/Project-Cairo-Urban-News/CairoUrbanNews/master/articles/arabic/" + file, function(data) {
         document.getElementById("list").style.display = "none";
         document.querySelector("body").appendChild(data);
       });
