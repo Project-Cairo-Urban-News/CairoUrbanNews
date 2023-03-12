@@ -11,7 +11,7 @@
  * 'باب-اللوق-جاده-سى'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)
  * 'برکه'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)
  * 'برکه-قپوسى'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)
- * 'بولاق'‎: [1265.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1265.xml), [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)
+ * 'بولاق'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml), [1265.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1265.xml)
  * 'تربه-يولى'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)
  * 'ثمن'‎: [1265.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1265.xml)
  * 'حارة-السقاين'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)
