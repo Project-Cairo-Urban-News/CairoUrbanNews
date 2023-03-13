@@ -1,9 +1,5 @@
 # Organization Types
- * 'ابراهیم-اغا-جامعى'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)
- * 'تبانه-قره-قولى'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)
- * 'جامع-ارسلان'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)
  * 'جامع-ازهر'‎: [1265.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1265.xml)
- * 'جامع-قسماس'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)
  * 'ضابطخانه'‎: [1265.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1265.xml)
  * 'طوپخانه'‎: [1265.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1265.xml)
  * 'عمليات-ورشه-سى'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)
