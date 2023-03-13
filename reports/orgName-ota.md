@@ -1,5 +1,9 @@
 # Organization Types
+ * 'ایپکخانه'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)
+ * 'بويا-خانه'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)
+ * 'جامع'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)
  * 'جامع-ازهر'‎: [1265.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1265.xml)
+ * 'دكرمن'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)
  * 'ضابطخانه'‎: [1265.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1265.xml)
  * 'طوپخانه'‎: [1265.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1265.xml)
  * 'عمليات-ورشه-سى'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)

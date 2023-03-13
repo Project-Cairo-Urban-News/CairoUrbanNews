@@ -3,7 +3,7 @@
  * 'باغچه'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)
  * 'بوابه'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)
  * 'بولاق'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml), [1265.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1265.xml)
- * 'ثمن'‎: [1265.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1265.xml)
+ * 'ثمن'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml), [1265.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1265.xml)
  * 'جاده'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)
  * 'خليج'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)
  * 'درب-قاره-على-عطفه-سى'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)
