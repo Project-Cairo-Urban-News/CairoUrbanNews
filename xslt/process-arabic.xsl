@@ -51,11 +51,7 @@
   
   <!-- Pass 1: remove empty <p> tags and mark <p> types -->
   
-  <xsl:template match="t:p[normalize-space(.) != '' and t:hi[matches(@rend,'color\([A-F0-9]{2}0000\)')]]" mode="pass1">
-    <p type="head"><xsl:apply-templates mode="none"/></p>
-  </xsl:template>
-  
-  <xsl:template match="t:p[normalize-space(.) != '' and t:hi[contains(@rend,'color(D60093)')]]" mode="pass1">
+  <xsl:template match="t:p[normalize-space(.) != '' and t:hi[contains(@rend,'color(')]]" mode="pass1">
     <p type="head"><xsl:apply-templates mode="none"/></p>
   </xsl:template>
   
@@ -63,7 +59,7 @@
     <p type="head"><xsl:apply-templates mode="none"/></p>
   </xsl:template>
   
-  <xsl:template match="t:p[normalize-space(.) != '' and t:hi[contains(@rend,'color(BF8F00)')]]" mode="pass1">
+  <xsl:template match="t:p[normalize-space(.) != '' and t:hi[matches(., '\s*ص\s?\d.*\s*عمود\s*\d.*')]]" mode="pass1" priority="1">
     <milestone n="{normalize-space(.)}"/>
   </xsl:template>
   
