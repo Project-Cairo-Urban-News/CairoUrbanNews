@@ -1,0 +1,2557 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities Project</title>
+        <editor xml:id="eNK">Nour Kanaan</editor>
+        <editor xml:id="eAM">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
+        <editor xml:id="eAE">Arif Erbil</editor>
+        <editor xml:id="eAK">Ahmed Kamal</editor>
+        <editor xml:id="eAS">Abram Smith</editor>
+        <editor xml:id="eCH">Clara Harms</editor>
+        <editor xml:id="eHS">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+        <editor xml:id="eHL">Hiba Laabadli</editor>
+        <editor xml:id="eOE">Othmane Echchabi</editor>
+        <editor xml:id="eFA">Fatemah Almahana</editor>
+        <respStmt>
+          <resp>Advisor</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Mercedes Volait</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Sarah Fath Allah</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Karima Nasr</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Rezk Nory</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Arif Erbil</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Ahmed Kamal</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abram Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Clara Harms</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hüseyin Sağlam</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abdulrahman El-Taliawi</name>
+        </respStmt>
+        <sponsor>
+          <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
+          <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+          Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+          Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>. 
+        </sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
+          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+        <p>born digital document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Rules of TEI XML MarkUp in This Project</p>
+        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
+        <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
+        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+          Editions</ref>.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+        <language ident="ota">Ottoman</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  
+  <text xml:lang="ar">
+      <body>
+         <div>
+            <head>نمرة ١٢٦٥</head>
+            <head>يوم السبت ٤ محرم الحرام سنة ١٢٩٩ الموافق ٢٦ نوفمبر الافرنكى سنة ١٨٨١ الموافق ١٨ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٤ – العمود ١</head>
+            <head>نص اعلان وارد من نظارة الاشغال العمومية (اعلان مكرر)</head>
+            <table>
+               <row>
+                  <cell>عدد</cell>
+                  <cell>جملة</cell>
+                  <cell>قدم</cell>
+                  <cell>اقه</cell>
+                  <cell>قنطار</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٠٢٧٥</cell>
+                  <cell>٤٠</cell>
+                  <cell>٣٠٠</cell>
+                  <cell>٠٠٠٠</cell>
+                  <cell>٠٠٠٠</cell>
+                  <cell>أخشاب من كمره وثلثاى كمره ونصف كمره ولوح لاتزانه وخشب غرغاج ولبخ ومقاديف ومدارى</cell>
+               </row>
+               <row>
+                  <cell>٢١٣٦</cell>
+                  <cell>٠٠</cell>
+                  <cell>٠٠٠</cell>
+                  <cell>٣٩٨٩</cell>
+                  <cell>٠٠٠٠</cell>
+                  <cell>اصناف من مسامير وزيت أجناس وغير ذلك</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠</cell>
+                  <cell>٠٠</cell>
+                  <cell>٠٠٠</cell>
+                  <cell>٠٠٠٠</cell>
+                  <cell>٨٠٠٠</cell>
+                  <cell>فحم حجرى لزوم المنصورة والمنيا وسيوط وجرجا</cell>
+               </row>
+               <row>
+                  <cell>٢٤١١</cell>
+                  <cell>٤٠</cell>
+                  <cell>٣٠٠</cell>
+                  <cell>٣٩٨٩</cell>
+                  <cell>٨٠٠٠</cell>
+                  <cell/>
+               </row>
+            </table>
+         </div>
+         <div>
+            <head>نمرة ١٢٦٥</head>
+            <head>يوم السبت ٤ محرم الحرام سنة ١٢٩٩ الموافق ٢٦ نوفمبر الافرنكى سنة ١٨٨١ الموافق ١٨ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٣</head>
+            <head>اعلانات</head>
+            <head>نص اعلان وارد من نظارة الاشغال العمومية</head>
+            <p>تقدم ان الديوان أعلن بالجرانيل الرسمية ان مزاد الورق الابيض اللازم للديوان وفروعه فى سنة ٨٢ ينتهى فى ٧ نوفمبر سنة ٨١ ولعدم موافقة الاتمان التى رسى بها استصوب تاجيله الى يوم الخميس أول دسمبر سنة ٨١ فكل من له رغبة يمكنه الاطلاع على المزاد وشروطه بقلم سكرتارية الهندسة العربى بالديوان ومن لم يحضر لغاية اليوم المذكور فلا يكلف الديوان بانتظاره فى ٢١ نوفمبر سنة ٨١   </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٦٥</head>
+            <head>يوم السبت ٤ محرم الحرام سنة ١٢٩٩ الموافق ٢٦ نوفمبر الافرنكى سنة ١٨٨١ الموافق ١٨ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٣</head>
+            <head>نص اعلان آخر وارد من نظارة الاشغال العمومية</head>
+            <p>نظارة الاشغال العمومية تعلن ان مزاد ايجار جبلاية حديقة الازبكيه الذى صار انعقاده بقلم سكرتارية الهندسة الافرنكى بالنظارة المشار اليها بطريق المزاد بالدلالة فى يوم ١٢ نوفمبر سنة ٨١ قد صار الغاؤه وتاجيله الى يوم الاربعاء الواقع فى ٣٠ نوفمبر سنة ٨١ فى ٢٠ نوفمبر سنة ٨١  </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٦٦</head>
+            <head>يوم الاحد ٥ محرم الحرام سنة ١٢٩٩ الموافق ٢٧ نوفمبر الافرنكى سنة ١٨٨١ الموافق ١٩ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٢ – العمود ٢</head>
+            <head>كشف عن الايرادات والمصروفات من أول يناير لغاية ٣١ أكتوبر سنة ١٨٨١</head>
+            <table>
+               <row>
+                  <cell>ربط سنة ١٨٨١</cell>
+                  <cell>المنصرف من أول يناير لغاية ٣١ اكتوبر سنة ١٨٨١</cell>
+                  <cell>مصروفات شهر اكتوبر سنة ١٨٨١</cell>
+                  <cell>مصروفات نظارات ومصالح</cell>
+               </row>
+               <row>
+                  <cell>جنيه مصرى</cell>
+                  <cell>جنيه مصرى</cell>
+                  <cell>جنيه مصرى</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>ميزانية اعتيادية عن سنة ١٨٨١</cell>
+               </row>
+               <row>
+                  <cell>٠٦٨١٤٨٦</cell>
+                  <cell>٠٦٠٩٩٤٥</cell>
+                  <cell>٠١٤٠٧٠٤</cell>
+                  <cell>(١) ويركو مصر</cell>
+               </row>
+               <row>
+                  <cell>٣٧٨٨٨٤٠</cell>
+                  <cell>٢٤١٤٩٢٤</cell>
+                  <cell>٠٥٩٥٤٨٥</cell>
+                  <cell>(٢) الدين العمومى</cell>
+               </row>
+               <row>
+                  <cell>٠٣١٥٠٠٠</cell>
+                  <cell>٠٢٣٦٧٣١</cell>
+                  <cell>٠٤٤٥٠١</cell>
+                  <cell>(٣) مخصصات الحضرة الخديويه وسائر العائلة الخديوية</cell>
+               </row>
+               <row>
+                  <cell>٠٠٤١٨٢٢</cell>
+                  <cell>٠٠٣٢٧٥٠</cell>
+                  <cell>٠٠٣٣٦٦</cell>
+                  <cell>(٤) المعية السنية</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٨٩٣٢</cell>
+                  <cell>٠٠٠٣٤٥٥</cell>
+                  <cell>٠٠٠٤٠٠</cell>
+                  <cell>(٥) مجلس النظار</cell>
+               </row>
+               <row>
+                  <cell>٠٠١٣١٦٢</cell>
+                  <cell>٠٠٠٩٦٢٤</cell>
+                  <cell>٠٠٠٨٥٨</cell>
+                  <cell>(٦) نظارة الخارجيه</cell>
+               </row>
+               <row>
+                  <cell>٠٠٥٨١٤٨٠</cell>
+                  <cell>٠٣٩٩٨٨٢</cell>
+                  <cell>٠٥٣٨١٩</cell>
+                  <cell>(٧) نظارة الماليه</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>(٨) نظارتى الجهادية والبحرية</cell>
+               </row>
+               <row>
+                  <cell>٠٣٦٨٠٠٠</cell>
+                  <cell>٠٣٢٩٩٢٣</cell>
+                  <cell>٠٤٠٧٨٦</cell>
+                  <cell>الجهادية</cell>
+               </row>
+               <row>
+                  <cell>٠٠٥٤٧٣٤</cell>
+                  <cell>٠٠٤٠٠٧٤</cell>
+                  <cell>٠٠٥٣٧٤</cell>
+                  <cell>البحريه</cell>
+               </row>
+               <row>
+                  <cell>٠٠٨١٩٤٩</cell>
+                  <cell>٠٠٤٥٤٣٩</cell>
+                  <cell>٠٠٦٥٦٥</cell>
+                  <cell>(٩) نظارة المدارس</cell>
+               </row>
+               <row>
+                  <cell>٠٥٢١٦١٢</cell>
+                  <cell>٠٣٦٣٥٠١</cell>
+                  <cell>٠٥٥١٧٢</cell>
+                  <cell>(١٠) نظارة الداخلية</cell>
+               </row>
+               <row>
+                  <cell>٠٢٤٦٣٤٢</cell>
+                  <cell>٠١٩٢٦٦٣</cell>
+                  <cell>٠٢٣٧٧٤</cell>
+                  <cell>(١١) نظارة الحقانية</cell>
+               </row>
+               <row>
+                  <cell>٠٤٣٩٢٧٠</cell>
+                  <cell>٠٣٠٧٤٣٣</cell>
+                  <cell>٠٤٤٥٥٨</cell>
+                  <cell>(١٢) نظارة الاشغال العمومية</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>(١٣) السكك الحديد والتلغرافات ومينا اسكندرية</cell>
+               </row>
+               <row>
+                  <cell>٠٤٤٢٦٦٠</cell>
+                  <cell>٠٣٢٦٩٩١</cell>
+                  <cell>٠٤٢٣٤٤</cell>
+                  <cell>السكك الحديد والتلغرافات</cell>
+               </row>
+               <row>
+                  <cell>٠٠١٩٠٠٠</cell>
+                  <cell>٠٠٠٨٧٠٩</cell>
+                  <cell>٠٠١١٨٢</cell>
+                  <cell>مينا اسكندرية</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٥٤٦٦</cell>
+                  <cell>٠٠٠٣٥١١</cell>
+                  <cell>٠٠٠٣٥٦</cell>
+                  <cell>سكة حديد حلوان</cell>
+               </row>
+               <row>
+                  <cell>٠٠٦٠١٦٤</cell>
+                  <cell>٠٠٤٩٦١٧</cell>
+                  <cell>٠٠٥١٢١</cell>
+                  <cell>(١٤) الكمارك</cell>
+               </row>
+               <row>
+                  <cell>٠٠٧٢٥٠٠</cell>
+                  <cell>٠٠٦٣٧٨٥</cell>
+                  <cell>٠٠٦٢٤٥</cell>
+                  <cell>(١٥) البوسته</cell>
+               </row>
+               <row>
+                  <cell>٠١٢٦٩٤٥</cell>
+                  <cell>٠١٠٤١٤٨</cell>
+                  <cell>٠٢٠٣٨٥</cell>
+                  <cell>(١٦) وابورات البوستة الخديوية</cell>
+               </row>
+               <row>
+                  <cell>٠٠٣٨٩٢١</cell>
+                  <cell>٠٠٤٠٤٩٩</cell>
+                  <cell>٠٠٥٩٩٨</cell>
+                  <cell>(١٧) مصلح</cell>
+               </row>
+               <row>
+                  <cell>٠٠١٥٢٩٥</cell>
+                  <cell>٠٠١١٠٣٠</cell>
+                  <cell>٠٠١٩١٣</cell>
+                  <cell>(١٨) تمن ورق ودفاتر وبعض أصناف معتاد صرفها لمصالح الميرى من المخازن والاشوان ومصروفات المخازن والاشوان بمصر</cell>
+               </row>
+               <row>
+                  <cell>
+                     <p>٠١٥٠٠٠٠</p>
+                  </cell>
+                  <cell>٠٠٠٣٢٤٢</cell>
+                  <cell>٠٠٢٧٤٢</cell>
+                  <cell>(١٩) نقود احتياطية لاجل المصروفات الغير منظورة</cell>
+               </row>
+               <row>
+                  <cell>٠٢٣٥٢٩٠</cell>
+                  <cell>٠١٧٥٧٦٢</cell>
+                  <cell>٠٣١٤٣٢</cell>
+                  <cell>(٢٠) معاشات</cell>
+               </row>
+               <row>
+                  <cell>٨٣٠٨٨٧٠</cell>
+                  <cell>٥٧٧٣٦٣٨</cell>
+                  <cell>١١٣٣٠٨٠</cell>
+                  <cell>جملة المصروفات بالجنيه المصرى</cell>
+               </row>
+            </table>
+         </div>
+         <div>
+            <head>نمرة ١٢٦٦</head>
+            <head>يوم الاحد ٥ محرم الحرام سنة ١٢٩٩ الموافق ٢٧ نوفمبر الافرنكى سنة ١٨٨١ الموافق ١٩ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٢</head>
+            <head>كشف مضاهى بين الايرادات والمصروفات من ابتداء يناير لغاية ٣٠ ستمبر سنة ٨١ وبين ايرادات ومصروفات تسعة شهور من سنة ١٨٨٠</head>
+            <table>
+               <row>
+                  <cell>فرق فى سنة ١٨٨١</cell>
+                  <cell>
+                     <p>مصروفات من ابتداء يناير لغاية ٣١ اكتوبر سنة ١٨٨١</p>
+                  </cell>
+                  <cell>
+                     <p>مصروفات من ابتداء يناير لغاية ٣١ اكتوبر سنة ١٨٨٠</p>
+                  </cell>
+                  <cell>مصروفات نظارات ومصالح</cell>
+               </row>
+               <row>
+                  <cell>عجز</cell>
+                  <cell>زياده</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>جنيه مصرى</cell>
+                  <cell>جنيه مصرى</cell>
+                  <cell>جنيه مصرى</cell>
+                  <cell>جنيه مصرى</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٠٠٤٥٢</cell>
+                  <cell>٠٠٠٠٠٠</cell>
+                  <cell>٠٦٠٩٩٤٥</cell>
+                  <cell>٠٦١٠٣٩٧</cell>
+                  <cell>(١) ويركو مصر</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٢٠٣٧٠٢(١)</cell>
+                  <cell>٢٤١٤٩٢٤</cell>
+                  <cell>٢٢١١٢٢٢</cell>
+                  <cell>(٢) الدين العمومى</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٢٨٣٣٠</cell>
+                  <cell>٠٢٣٦٧٣١</cell>
+                  <cell>٠٢٠٨٤١١</cell>
+                  <cell>
+                     <p>(٣) مخصصات الحضرة الخديويه</p>
+                     <p>ومرتبات سائر العائلة الخديويه</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٠٢٠٤٤</cell>
+                  <cell>٠٠٣٢٧٥٠</cell>
+                  <cell>٠٠٣٠٧٠٦</cell>
+                  <cell>(٤) كابينيه الحضرة الخديويه (المعيه السنيه)</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٠٠٢١١</cell>
+                  <cell>٠٠٠٣٤٥٥</cell>
+                  <cell>٠٠٠٣٢٤٤</cell>
+                  <cell>(٥) مجلس النظار</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٠١٢٥٧</cell>
+                  <cell>٠٠٠٩٦٢٤</cell>
+                  <cell>٠٠٠٨٣٦٧</cell>
+                  <cell>(٦) نظارة الخارجيه</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٦٥٩٢٦(٢)</cell>
+                  <cell>٠٣٩٩٨٨٣</cell>
+                  <cell>٠٣٣٣٩٥٦</cell>
+                  <cell>(٧) نظارة الماليه</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>(٨) نظارتى الجهاديه والبحريه</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٨٦٩٧٨(٢)</cell>
+                  <cell>٠٣٢٩٩٢٣</cell>
+                  <cell>٠٢٤٢٩٤٥</cell>
+                  <cell>الجهاديه</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٠٧٦٩٨(٢)</cell>
+                  <cell>٠٠٤٠٠٧٤</cell>
+                  <cell>٠٠٣٢٣٧٦</cell>
+                  <cell>البحريه</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠١٠٥٨٩(٢)</cell>
+                  <cell>٠٠٤٥٤٣٩</cell>
+                  <cell>٠٠٣٤٨٥٠</cell>
+                  <cell>(٩) نظارة المعارف</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٧٩٧٥٦(٢)</cell>
+                  <cell>٠٣٦٣٥٠١</cell>
+                  <cell>٠٢٨٣٧٤٥</cell>
+                  <cell>(١٠) نظاره الداخليه</cell>
+               </row>
+               <row>
+                  <cell>٠١٣١٥٨</cell>
+                  <cell>٠٠٠٠٠٠</cell>
+                  <cell>٠١٩٢٦٦٣</cell>
+                  <cell>٠٢٠٤٨٢١</cell>
+                  <cell>(١١) نظاره الحقانيه</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٧٨٦٦٤(٢)</cell>
+                  <cell>٠٣٠٧٤٣٣</cell>
+                  <cell>٠٢٢٨٧٦٩</cell>
+                  <cell>(١٢) نظاره الاشغال العموميه</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>(١٣) السكك الحديد والتلغراف ومينا اسكندريه</cell>
+               </row>
+               <row>
+                  <cell>٣٢٧١٨</cell>
+                  <cell>٠٠٠٠٠٠</cell>
+                  <cell>٠٣٢٦٩٩١</cell>
+                  <cell>٠٣٥٩٧٠٩</cell>
+                  <cell>السكك الحديد والتلغراف</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٠٥٩٢٠</cell>
+                  <cell>٠٠٠٨٧٠٩</cell>
+                  <cell>٠٠٠٢٧٨٩</cell>
+                  <cell>مينا اسكندريه</cell>
+               </row>
+               <row>
+                  <cell>٠١٦٢٣</cell>
+                  <cell>٠٠٠٠٠٠</cell>
+                  <cell>٠٠٠٣٥١١</cell>
+                  <cell>٠٠٠٥١٣٤</cell>
+                  <cell>سكة حديد حلوان</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٠٤٤٤٣</cell>
+                  <cell>٠٠٤٩٦١٧</cell>
+                  <cell>٠٠٤٥١٧٤</cell>
+                  <cell>(١٤) كمارك</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٠٥٩٧٩</cell>
+                  <cell>٠٠٦٣٧٨٥</cell>
+                  <cell>٠٠٥٧٨٠٦</cell>
+                  <cell>(١٥) بوسته</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٠١٥٥٢</cell>
+                  <cell>٠١٠٤١٤٨</cell>
+                  <cell>٠١٠٢٥٩٦</cell>
+                  <cell>(١٦) وابورات البوسته الخديويه</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٢٢٤٦٧(٣)</cell>
+                  <cell>٠٠٤٠٤٩٩</cell>
+                  <cell>٠٠١٨٠٣٢</cell>
+                  <cell>(١٧) مصلح</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٠٠٠٧٥</cell>
+                  <cell>٠٠١١٠٣٠</cell>
+                  <cell>٠٠١٠٩٥٥</cell>
+                  <cell>(١٨) تموين الشون والمخازن</cell>
+               </row>
+               <row>
+                  <cell>٠٣١١٩٧</cell>
+                  <cell>٠٠٠٠٠٠</cell>
+                  <cell>٠٠٠٣٢٤٢</cell>
+                  <cell>٠٠٣٤٤٣٩</cell>
+                  <cell>(١٩) نقود احتياطيه لاجل المصروفات الغير واردة الربط</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٣٧٠١٠ (٤)</cell>
+                  <cell>٠١٧٥٧٦٢</cell>
+                  <cell>٠١٣٨٧٥٢</cell>
+                  <cell>(٢٠) معاشات</cell>
+               </row>
+               <row>
+                  <cell>٧٨١٤٨</cell>
+                  <cell>٦٤٢٥٩١</cell>
+                  <cell>٥٧٧٣٦٣٨</cell>
+                  <cell>٥٢٠٩١٩٥</cell>
+                  <cell/>
+               </row>
+            </table>
+         </div>
+         <div>
+            <head>نمرة ١٢٦٦</head>
+            <head>يوم الاحد ٥ محرم الحرام سنة ١٢٩٩ الموافق ٢٧ نوفمبر الافرنكى سنة ١٨٨١ الموافق ١٩ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٤ – العمود ١</head>
+            <head>ميزانية غير اعتياديه عن سنة ١٨٨١ مصدقا عليها من الحضرة الخديوية بتاريخ ١٦ لوليو سنة ١٨٨١</head>
+            <head>(كشف عن المصروفات التى صار اجراؤها من الميزانيه الغير الاعتيادية عن سنة ١٨٨١ )</head>
+            <table>
+               <row>
+                  <cell>مربوط مصروفات الميزانية الغير اعتيادية عن سنة ١٨٨١</cell>
+                  <cell>مصروفات من ابتداء لوليو لغاية ٣١ اكتوبر سنة ١٨٨١</cell>
+                  <cell>مصروفات شهر اكتوبر سنة ١٨٨١</cell>
+                  <cell>مصروفات نظارات ومصالح</cell>
+               </row>
+               <row>
+                  <cell>جنيه مصرى</cell>
+                  <cell>جنيه مصرى</cell>
+                  <cell>جنيه مصرى</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٠١٣٧٦٤</cell>
+                  <cell>٠١٣٧٦٤</cell>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>
+                     <p>(١) الدين العمومى</p>
+                     <p>تكميل النصف فى المائة من الدين الموحد عن سنة ١٨٨٠</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell>٠٠١٩٩١</cell>
+                  <cell>٠٠٠٠٠٠</cell>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>(٢) نظارتى الجهادية والبحرية</cell>
+               </row>
+               <row>
+                  <cell>٠٠١٠١٥</cell>
+                  <cell>٠٠٠٠٠٠</cell>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>(٣) نظارة الداخلية</cell>
+               </row>
+               <row>
+                  <cell>١٩٨٢٧٢</cell>
+                  <cell>٠٥٩٦٠٦</cell>
+                  <cell>١٢٢٨٢</cell>
+                  <cell>(٤) نظارة الاشغال العمومية</cell>
+               </row>
+               <row>
+                  <cell>
+                     <p>٠٩٩٢٥٢</p>
+                     <p>٠١٦٧٣٧</p>
+                  </cell>
+                  <cell>
+                     <p>٠٠٢٣٤٩</p>
+                     <p>٠٠٠٠٠٠</p>
+                  </cell>
+                  <cell>
+                     <p>٠٠٠٠٠</p>
+                     <p>٠٠٠٠٠</p>
+                  </cell>
+                  <cell>
+                     <p>(٥) السكك الحديد والتلغراف ومينا الاسكندرية</p>
+                     <p>السكك الحديد والتلغراف</p>
+                     <p>مينا سكندرية</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell>٠٧٥٠٠٠</cell>
+                  <cell>٠٢٩٥٦١</cell>
+                  <cell>٠٠٠٥٩</cell>
+                  <cell>(٦) وابورات البوستة الخديوية</cell>
+               </row>
+               <row>
+                  <cell>١٠٠٠٠٠</cell>
+                  <cell>٠١٤٠٩٣</cell>
+                  <cell>٠٠٠٨٦</cell>
+                  <cell>(٧)حكمدارية السودان وسواحل البحر الاحمر ومديرية هرر</cell>
+               </row>
+               <row>
+                  <cell>٠٤٠٧٠٥</cell>
+                  <cell>٠٠٦٨٧٠</cell>
+                  <cell>٠٦٨٧٠</cell>
+                  <cell>(٨) نقود احتياطيه لاجل المصروفات الغير وارده لربط الجملة بالجنيه المصرى</cell>
+               </row>
+               <row>
+                  <cell>٥٤٦٧٣٦</cell>
+                  <cell>١٢٦٢٤٣</cell>
+                  <cell>١٩٢٩٧</cell>
+                  <cell/>
+               </row>
+            </table>
+         </div>
+         <div>
+            <head>نمرة ١٢٦٦</head>
+            <head>يوم الاحد ٥ محرم الحرام سنة ١٢٩٩ الموافق ٢٧ نوفمبر الافرنكى سنة ١٨٨١ الموافق ١٩ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٤ – العمود ٢</head>
+            <head>من ضبطية مصر</head>
+            <p>خرت طاحونة بقصر الشوك من تمن الجمالية على رجلين وامرأتين فاخرج الرجلان واحدى المرأتين على قيد الحياة بدون أن يمسهم سوء وقد توفيت المرأة الاخرى تحت الردم فاخذ فى التحقيق </p>
+            <p>كانت أمرأة فى بولاق تبلغ من العمر ٩٥ سنة تتدفأ على موقد نار موضوعا امامها فانكبت عليه فاحترقت فماتت وأخذ فى التحقيق   </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٦٦</head>
+            <head>يوم الاحد ٥ محرم الحرام سنة ١٢٩٩ الموافق ٢٧ نوفمبر الافرنكى سنة ١٨٨١ الموافق ١٩ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٤ – العمود ٣</head>
+            <head>اعلانات</head>
+            <head>نص اعلان وارد من نظارة الاشغال العموميه</head>
+            <p>من المعتاد سنويا فى فصل الشتاء ان يصير غلق بابى جنينة الازبكيه البحرى والغربى من بعد الغروب بساعتين فى كل ليله اما البابان الآخران فيتركان مفتوحين الى الساعة الثالثة ثم يغلقان ايضا لعدم توارد المنتزهين بعد هذا الوقت من شدة البرد وحيث قد حل فصل الشتاء من عامنا الحاضر فقد جرى العمل بمقتضى هذه العادة من ليلة ١٠ نوفمبر سنة ٨١ ولزم الاعلان ليكون ذلك فى علم العموم فى ٤ محرم سنة ٩٩ الموافق ٢٦ نوفمبر سنة ١٨٨١    </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٦٧</head>
+            <head>يوم الاثنين ٦ محرم الحر٠ام سنة ١٢٩٩ الموافق ٢٨ نوفمبر الافرنكى سنة ١٨٨١ الموافق ٢٠ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٢</head>
+            <head>من ضبطية مصر</head>
+            <p>اشتعلت النار بثياب بنت صغيرة تدعى عائشة ابنة موسى الحريرى من سكان الدرب الاحمر فاحترق جسمها ثم توفت قضاء وقدرا وأخذ فى التحقيق </p>
+            <p>أصابت الآلة الرافعة للاحجار فى عمارة الازهر غلاما يدعى ابراهيم ابن حسن أحد مشدى الجامع الازهر فمات وذلك ان عجلة الونش انكسرت فرجع الونش الى نفسه واختطف هذا الغلام وصدمه باحدى عجلاته صدمة حركته حركة رحوية سريعة جدا فانفصلت رأسه وتمزق جوهر مخه وقد سلم لوالده المذكور بعد ما قرر أن ذلك بالقضاء والقدر ولاجناية لاحد فيه  </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٦٧</head>
+            <head>يوم الاثنين ٦ محرم الحر٠ام سنة ١٢٩٩ الموافق ٢٨ نوفمبر الافرنكى سنة ١٨٨١ الموافق ٢٠ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٢</head>
+            <head>اعلانات</head>
+            <head>نص اعلان وارد من ضبطية مصر</head>
+            <p>محضر جلسة المزايدة </p>
+            <p>بمجلس المزايدة المنعقد بديوان ضبطية مصر تحت رياسة سعادة أحمد باشا الدرملى المامور وصحبته حسين أفندى حسنى أحد كتاب قلم التحصيلات بناء على حجز بنا المنزل الآتى بيانه الذى جرى حجزه بموجب محضر رقيم ٢٨ رمضان سنة ٩٨ بمعرفة عبد المجيد أفندى توفيق مندوب الضبطية لما هو مطلوب من مالكه عثمان أغا الازمر لى لتنضيفات المالية بمقتضى المضبطة الصادرة من مجلس ابتداءى مصر بتاريخ ٨ محرم سنة ٩٧ نمرة ٥٩ وقدره ١٨٠٠٢ قرش و ٣٠ فضه قيمة الباقى من ايجار القهوة التى كان مستاجرها من محافظة مصر الملغية بحديقة الازبكية المعلوم لدى الحكومة ان بنا المنزل المذكور تعلق عثمان أغا المرقوم بموجب حجتين من محكمة مصر الشرعية احداهما رقيم ٣ را سنة ٨٣ والاخرى تاريخها ١٩ ر سنة ٨٣ وبناء على الاعلان بالوقايع وبالجهات المقررة بالدكريتو الرقيم ٢٥ مارث سنة ٨٠ عن مبيع بنا المنزل المذكور فى هذا اليوم بهذا المجلس قد جرى تلاوة أوصاف وبيان بنا المنزل المذكور علنا على الحاضرين وهى    </p>
+            <p>بنا المنزل مركب علو خمسة حوانيت غير داخلين فيه وعليه من الحكر فى كل سنة مائة نصف وعشرون نصف فضه المشتمل على باب يدخل منه الى سلم يصعد عليه الى بسطه بها باب يدخل منه الى ثلاثة أود ويتوصل من السلم المذكور الى بسطه بها باب يدخل منه الى ممشه بها أربعة أبواب أحدهم يدخل منه الى أوده بداخلها أوده ثانية  والثانى يدخل منه الى أوده والثالث يدخل منه الى مطبخ والرابع يدخل منه الى كرسى راحة ويتوصل من السلم المذكور الى بسطه بها باب يدخل منه الى فسحة صغيرة بها أربعة أبواب </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٦٧</head>
+            <head>يوم الاثنين ٦ محرم الحر٠ام سنة ١٢٩٩ الموافق ٢٨ نوفمبر الافرنكى سنة ١٨٨١ الموافق ٢٠ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٣</head>
+            <head>باقية المقال</head>
+            <p>أحدهم يدخل منه الى أدوه بداخلها أوده ثانية بها شبابيك ودرابزين خشب وخارجه مطله على الشارع والثانى يدخل منه الى أود بها خزنة نوميه والثالث يدخل منه الى مزيره والرابع يدخل منه الى كرسى واحة ويتوصل من باقى السلم المذكور الى السطح العالى على ذلك وكل ذلك جميعه بالسقف والابواب والشبابيك الرومى المقفله بالزجاج مفروش أرض ذلك بالبلاط الكذاب متبل الجدر بالبياض محدود بحدود أربع الحد البحرى ينتهى لجامع السلطان الاقمر والحد الشرقى ينتهى لمنزل متخرب ملك الاوقاف والحد الغربى ينتهى لوكاله وقف الخربطلى والحد القبلى ينتهى لشارع التنبكجية وبه باب المنزل وبنا واجهة المنزل مركب على دكانين وقهوة تعلق الاوقاف والنزل المذكور محتوى على ثلاثة أدوار أحدهم دور مسحور وبه ستة طاقات وبالدورين الاعلى ستة شبابيك وتراسينه خشب ثم جرى تلاوة الشروط وهى  </p>
+            <p>أولا من يرسى عليه المزاد يستلم العقار بالحالة التى يكون عليها يوم مرسى المزاد بدون مطالبة على الحكومة أو على صاحب العقار بشئ ما بسبب تلف حدث فى المبيع أو تصليحات أو تعميرات لازمة له أو غلط حصل فى تعيين أوصافه وبياناته </p>
+            <p>ثانيا من يرسى عليه المزاد له ان ينتفع فى حقوق الارتفاق التى للمبيع وان يتحمل ما على المبيع المذكور من الحقوق المذكورة سواء كانت تلك الحقوق ظاهرة أو خفية </p>
+            <p>ثالثا من يرسى عليه المزاد ملزوم باداء كافة الحقوق الميرية المرتبة والتى يتحمل ترتيبها على المبيع وملزم باداء الثمن ورسوم البيع ومصاريفه فى خزينة الضبطية فى ظرف عشرة أيام من يوم مرسى المزاد وان تاخر عن ذلك فملزوم بفائدة المبلغ باعتبار المائة اثنى عشر سنويا </p>
+            <p>رابعا من يرسى عليه المزاد ملزوم بان يعتبر الايجارات التى يكون جرى التوافق عليها بين صاحب الملك والمستاجرين بشرط ان يكون لسند الايجار تاريخ ثابت بوجه رسمى سابق على تاريخ حجز المبيع </p>
+            <p>خامسا يعطى الى الراسى عليه المزاد محضر البيع مشمولا بصيغة التنفيذ من ماذون حضرة قاضى مصر بعد دفع ثمن البيع باكمله مع الرسوم النسبية باعتبار المائة خمسة والمصاريف كما تقدم وذلك المحضر يكون سندا للمشترى بملكية المبيع ويقوم مقام الحجة وعلى الراسى عليه المزاد أن يسجل محضر البيع بمصاريف من طرفه سواء كان التسجيل فى المحكمة الشرعية أو فى قلم كاتب المحكمة المختلطة </p>
+            <p>سادسا اذا تاخر الراسى عليه المزاد عن وفاء شروط البيع خصوصا فيما يتعلق بدفع الثمن وما يليه من الرسوم والمصاريف يباع المبيع ثانيا بالمزايدة على ذمته فان نقص الثمن يلزم الراسى عليه المزاد الاول بالفرق وان زاد فهذه الزيادة يستحقها الممول المنزوع منه العقار   </p>
+            <p>سابعا يباع المبيع بالمزاد ثانيا اذا كان فى ظرف العشرة أيام التالية للبيع الاول تقدم زيادة عن ثمنه الاول بقدر عشر التمن بناء على البند السابع عشر من الدكريتو الخديوى الصادر فى ٢٥ مارث سنة ١٨٨٠ المؤيد بالدكريتو الصادر بعده فى ٢٧ يناير سنة ٨١ وفى هذه الحالة لم يترتب أدنى مسؤلية ولا تعويض على الحكومة أو على صاحب الملك الاصلى اذا حصل اعادة البيع  </p>
+            <p>ثامنا بناء على ما تقدم من الشروط يكون أول عطا فى افتتاح المزايدة مبلغ وقدره ١٤٠٥٠ قرش حسب تقدير آل الخبرة وعلى ذلك صار الشروع فى مبيع بنا المنزل المذكور ولما لم يوجد أحد يقبل المشترى بقيمة المبلغ الذى جرى تقديره فصار من المقتضى بناء على البند الرابع عشر من الدكريتو الرقيم ٢٥ مارث سنة ٨٠ تاخير البيع لميعاد شهر واحد من تاريخه أدناه وتنزيل الخمس من المبلغ السابق تحديده لافتتاح المزاد وعلى ذلك يكون المبلغ الذى ينبغى اعتباره أول عطا لافتتاح المزاد هو مبلغ ١١٢٤٠ قرش </p>
+            <p>فى غرة الحجة سنة ٩٨ الموافق ٢٢ نوفمبر سنة ٨١ </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٦٧</head>
+            <head>يوم الاثنين ٦ محرم الحر٠ام سنة ١٢٩٩ الموافق ٢٨ نوفمبر الافرنكى سنة ١٨٨١ الموافق ٢٠ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٤ – العمود ١</head>
+            <head>(جدول)</head>
+            <head>بيان أملاك الميرى الكائنة ببعض جهات المحروسة المقتضى اشهار مبيعها بالمزاد علنا</head>
+            <table>
+               <row>
+                  <cell>س</cell>
+                  <cell>متر</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٩٦</cell>
+                  <cell>٩٢٨</cell>
+                  <cell>محل مسبك الباقرخانة الكائن بدرب المدبح بشارع تحت الربع نمرة ٠٨١</cell>
+               </row>
+               <row>
+                  <cell>٦٤</cell>
+                  <cell>٢٥٩</cell>
+                  <cell>منزل بدرب رياش قريبا من الجامع الاحمر نمرة ٠٩٠</cell>
+               </row>
+               <row>
+                  <cell>٦٠</cell>
+                  <cell>١٤٨</cell>
+                  <cell>خرابه بدرب رياش المذكورة قبله نمرة ٠٩١</cell>
+               </row>
+               <row>
+                  <cell>٥٩</cell>
+                  <cell>٠٠٧</cell>
+                  <cell>دكان بكفر الطماعين باسفل منزل محمود حسن نمرة ١٠٥</cell>
+               </row>
+               <row>
+                  <cell>٨٧</cell>
+                  <cell>٠٠٢</cell>
+                  <cell>,, ,, ,, ,, ,, الحاجة زينب النحاسة نمرة ١٠٦</cell>
+               </row>
+               <row>
+                  <cell>٨٢</cell>
+                  <cell>٠٤٧</cell>
+                  <cell>منزل ,, ,, متخرب نمرة ١٠٧</cell>
+               </row>
+            </table>
+         </div>
+         <div>
+            <head>نمرة ١٢٦٨</head>
+            <head>يوم الثلاثاء ٧ محرم الحرام سنة ١٢٩٩ الموافق ٢٩ نوفمبر الافرنكى سنة ١٨٨١ الموافق ٢١ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٣</head>
+            <head>اعلانات</head>
+            <head>نص اعلان</head>
+            <p>قد صار افتتاح محل تجارى وكومسيونات بمصر بجوار الازبكية امام اللوكانده المسمية هوتيل الليكسندرى باسم الخواجه رفايل جبلادرى وشركاه ويكون فى هذا المحل وابورات ثابته وكوموبيل وقمزانات وطلومبات وطواحين دقيق ومعاصر القصب وكل ما يلزم لهذه المكينات من الآلات وفحم حجرى من جميع الاصناف ويوجد أيضا كمارات كبيرة وصغيرة من حديد وعواميد من ظهر لزوم البنا وخردوات آلات حديدية من كل نوع وبوابات مجهزة انكليزية وكوالين أنواع وألواح صاج وصلب خام مسبوك وحنفيات من نحاس وسيور من جميع المقاسات ومواسير متنوعة وكيعان ومسامير مقلوظه وصواميل وخلافه ويصير جلب جميع الاصناف المذكورة أعلاه من أعظم الفوريكات الانكليزية والفرنساوية بالاثمان اللائقة      </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٦٨</head>
+            <head>يوم الثلاثاء ٧ محرم الحرام سنة ١٢٩٩ الموافق ٢٩ نوفمبر الافرنكى سنة ١٨٨١ الموافق ٢١ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٤ – العمود ١</head>
+            <head>(جدول) اعلان مكرر</head>
+            <head>بيان أملاك الميرى الكائنة ببعض جهات المحروسة المقتضى اشهار مبيعها بالمزاد علنا</head>
+            <table>
+               <row>
+                  <cell>س</cell>
+                  <cell>متر</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٩٦</cell>
+                  <cell>٩٢٨</cell>
+                  <cell>محل مسبك الباقرخانة الكائن بدرب المدبح بشارع تحت الربع نمرة ٠٨١</cell>
+               </row>
+               <row>
+                  <cell>٦٤</cell>
+                  <cell>٢٥٩</cell>
+                  <cell>منزل بدرب رياش قريبا من الجامع الاحمر نمرة ٠٩٠</cell>
+               </row>
+               <row>
+                  <cell>٦٠</cell>
+                  <cell>١٤٨</cell>
+                  <cell>خرابه بدرب رياش المذكورة قبله نمرة ٠٩١</cell>
+               </row>
+               <row>
+                  <cell>٥٩</cell>
+                  <cell>٠٠٧</cell>
+                  <cell>دكان بكفر الطماعين باسفل منزل محمود حسن نمرة ١٠٥</cell>
+               </row>
+               <row>
+                  <cell>٨٧</cell>
+                  <cell>٠٠٢</cell>
+                  <cell>,, ,, ,, ,, ,, الحاجة زينب النحاسة نمرة ١٠٦</cell>
+               </row>
+               <row>
+                  <cell>٨٢</cell>
+                  <cell>٠٤٧</cell>
+                  <cell>منزل ,, ,, متخرب نمرة ١٠٧</cell>
+               </row>
+            </table>
+         </div>
+         <div>
+            <head>نمرة ١٢٦٩</head>
+            <head>يوم الاربعاء ٨ محرم الحرام سنة ١٢٩٩ الموافق ٣٠ نوفمبر الافرنكى سنة ١٨٨١ الموافق ٢٢ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣</head>
+            <head>اعلانات</head>
+            <head>نص اعلان (اعلان مكرر)</head>
+            <p>قد صار افتتاح محل تجارى وكومسيونات بمصر بجوار الازبكية امام اللوكانده المسمية هوتيل الليكسندرى باسم الخواجه رفايل جبلادرى وشركاه ويكون فى هذا المحل وابورات ثابته وكوموبيل وقمزانات وطلومبات وطواحين دقيق ومعاصر القصب وكل ما يلزم لهذه المكينات من الآلات وفحم حجرى من جميع الاصناف ويوجد أيضا كمارات كبيرة وصغيرة من حديد وعواميد من ظهر لزوم البنا وخردوات آلات حديدية من كل نوع وبوابات مجهزة انكليزية وكوالين أنواع وألواح صاج وصلب خام مسبوك وحنفيات من نحاس وسيور من جميع المقاسات ومواسير متنوعة وكيعان ومسامير مقلوظه وصواميل وخلافه ويصير جلب جميع الاصناف المذكورة أعلاه من أعظم الفوريكات الانكليزية والفرنساوية بالاثمان اللائقة      </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٦٩</head>
+            <head>يوم الاربعاء ٨ محرم الحرام سنة ١٢٩٩ الموافق ٣٠ نوفمبر الافرنكى سنة ١٨٨١ الموافق ٢٢ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٤ – العمود ١</head>
+            <head>نص اعلان وارد من ضبطية مصر</head>
+            <p>عن بيع عقار جرى طرحه أولا بالمزاد ولمناسبة عدم وجود مشترى بالسعر الذى كان تقدر جرى تنقيص خمس المبلغ السابق تقديره انه فى جلسة المزايدات التى يجرى انعقادها بديوان ضبطية مصر فى يوم السبت الموافق ٣ صفر سنة ١٢٩٩ وواقع فى ٢٤ دسمبر سنة ١٨٨١ سيباع بطريق المناداه لمن يرسى عليه آخر عطا العقار الآتى وهو  </p>
+            <p>منزل بجهة باب القرافة بثمن الخليفة محدود بحدود أربعة الحد البحرى مصبغة وقف الست عائشة النبويه والحد الغربى بعضه الى مناخ وقف الست المشار اليها وباقيه الى حوش تعلق عامر هاشم مقدم الفعلة والحد القبلى من أسفل للحوش المذكور ومن أعلا لمنزل شحاته اللبودى والحد الشرقى شارع الست عايشة النبويه وفيه الواجهة والباب ويحتوى على ستة شبابيك بالاعلا وهو دور واحد وله ركوب على دكاكين ملك الغير وركوب على دركة الحوش البادى ذكره </p>
+            <p>والداعى لذلك البيع انه مطلوب المالك للمنزل المذكور أعلاه مبلغ وقدره ٢٣٩٧ قرشا عمله صاغ الى ورثة ابراهيم داود موكلين الخواجه يوسف طمبه المحكوم عليه بملزوميته بمبيع ما يواز به من منزله المحكوم بتثبيت الحجز عليه بمقتضى المضبطة الصادرة من مجلس ابتدائى مصر بتاريخ ٢٣ الحجة سنة ٩٦ بهيئة مدنية والقرار الصادر من مجلس الاستئناف برفض الا بللو بتاريخ ٢٣ ش سنة ٩٧ وسبق حجزه بموجب محضر رقم ٨ شوال سنة ٩٨ عن يد عبد المجيد أفندى توفيق مندوب الضبطية ويمتلك المنزل المذكور عامر هاشم مقدم الفعلة بمقتضى ما ذكر ويكون البيع بالشروط الآتية وهى </p>
+            <p>أولا من يرسى عليه المزاد يستلم العقار بالحالة التى يكون عليها يوم مرسى المزاد بدون مطالبة على الحكومة أو على صاحب العقار بشئ ما بسبب تلف حدث فى المبيع أو </p>
+            <p>تصليحات أو تعميرات لازمة له أو غلط حصل فى تعيين أوصافه وبياناته </p>
+            <p>ثانيا من يرسى عليه المزاد له ان ينتفع فى حقوق الارتفاق التى للمبيع وان يتحمل ما على المبيع المذكور من الحقوق المذكورة سواء كانت تلك الحقوق ظاهرة أو خفية </p>
+            <p>ثالثا من يرسى عليه المزاد ملزوم باداء كافة الحقوق الميرية المرتبة والتى يتحمل ترتيبها على المبيع وملزوم باداء الثمن ورسوم البيع ومصاريفه فى خزينة الضبطية فى ظرف عشرة أيام من يوم مرسى المزاد وان تاخر عن ذلك فملزوم بفائدة المبلغ باعتبار المائة اثنى عشر سنويا  </p>
+            <p>رابعا من يرسى عليه المزاد ملزوم بان يعتبر الايجارات التى يكون جرى التوافق عليها بين صاحب الملك والمستاجرين بشرط ان يكون لسند الايجار تاريخ ثابت بوجه رسمى سابق على تاريخ حجز المبيع </p>
+            <p>خامسا يعطى الى الراسى عليه المزاد محضر البيع مشمولا بصيغة التنفيذ من مأذون حضرة قاضى مصر بعد دفع ثمن البيع باكمله مع الرسوم النسبية باعتبار المائة خمسة والمصاريف كما تقدم وذلك المحضر يكون سندا للمشترى بملكية المبيع ويقوم مقام الحجة وعلى الراسى عليه المزاد أن يسجل محضر البيع بمصاريف من طرفه سواء كان التسجيل فى المحكمة الشرعية أو فى قلم كتاب المحكمة المختلطة </p>
+            <p>سادسا اذا تاخر الراسى عليه المزاد عن وفاء شروط البيع خصوصا فيما يتعلق بدفع الثمن وما يليه من الرسوم والمصاريف يباع المبيع ثانيا بالمزايدة على ذمته فان نقص الثمن يلزم الراسى عليه المزاد الاول بالفرق وان زاد فهذه الزيادة يستحقها الممول المنزوع منه العقار   </p>
+            <p>سابعا يباع المبيع بالمزاد ثانيا اذا كان فى ظرف العشرة أيام التالية للبيع الاول تقدم زيادة عن ثمنه الاول بقدر عشر الثمن بناء على البند السابع عشر من الدكريتو الخديوى </p>
+            <p>الصادر فى ٢٥ مارث ١٨٨٠ وفى هذه الحالة لم يترتب أدنى مسؤلية ولا تعويض على الحكومة أو على صاحب الملك الاصليين اذا حصل اعادة البيع </p>
+            <p>ثامنا بناء على ما تقدم من الشروط يكون أول عطا فى افتتاح المزايدة مبلغ ٣٢٠٠ قرش صاغ وهذا بناقص الخمس عن قيمة التمن قدوره أهل الخبره للمنزل المذكور </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٦٩</head>
+            <head>يوم الاربعاء ٨ محرم الحرام سنة ١٢٩٩ الموافق ٣٠ نوفمبر الافرنكى سنة ١٨٨١ الموافق ٢٢ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٤ – العمود ٣</head>
+            <head>نص اعلان وارد من ديوان الاوقاف</head>
+            <p>من حيث انه جاز شرعا استبدال ثلث طاحونه متخربه بدرب شكنبه بتمن الخليفة وقف مق[ب]رة؟ الست السيدة زينب شركة زهران أفندى محمد الحكيم بحق الثلثاى وقد علم من افادة قلم عمارات الاوقاف الرقيمة ٦ ذا سنة ٩٨ ان معاش تلك الطاحونة جميعها ٥٥ ر متر ١٦٠ فقد تحررت الاعلانات اللازمة عن مبيع الثلث المحكى عنه بميعاد واحد وثلاثون يوم من تاريخه وبعثوا لضبطية مصر بافادة فى تاريخه لنشرهم بالقره قولات وكتب أيضا لقسم رابع بما لزم عن ذلك كى كل من كان له رغبه فى مشتراه يتواجه القسم المذكور قبل مضى الميعاد المرقوم ويعطى المزاد اللازم بالقائمة التى تحرر منه عن ذلك    </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٧٠</head>
+            <head>يوم الخميس ٩ محرم الحرام سنة ١٢٩٩ الموافق ١ دسمبر الافرنكى سنة ١٨٨١ الموافق ٢٣ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٣</head>
+            <head>اعلانات</head>
+            <head>نص اعلان (هذا الاعلان مكرر)</head>
+            <p>قد صار افتتاح محل تجارى وكومسيونات بمصر بجوار الازبكية امام اللوكانده المسمية هوتيل الليكسندرى باسم الخواجه رفايل جبلادرى وشركاه ويكون فى هذا المحل وابورات ثابته وكوموبيل وقمزانات وطلومبات وطواحين دقيق ومعاصر القصب وكل ما يلزم لهذه المكينات من الآلات وفحم حجرى من جميع الاصناف ويوجد أيضا كمارات كبيرة وصغيرة من حديد وعواميد من ظهر لزوم البنا وخردوات آلات حديدية من كل نوع وبوابات مجهزة انكليزية وكوالين أنواع وألواح صاج وصلب خام مسبوك وحنفيات من نحاس وسيور من جميع المقاسات ومواسير متنوعة وكيعان ومسامير مقلوظه وصواميل وخلافه ويصير جلب جميع الاصناف المذكورة أعلاه من أعظم الفوريكات الانكليزية والفرنساوية بالاثمان اللائقة </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٧٠</head>
+            <head>يوم الخميس ٩ محرم الحرام سنة ١٢٩٩ الموافق ١ دسمبر الافرنكى سنة ١٨٨١ الموافق ٢٣ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٤ – العمود ١</head>
+            <head>نص اعلان وارد من ديوان ضبطية مصر</head>
+            <p>انه فى جلسة المزايدات التى يجرى انعقادها بديوان ضبطية مصر فى يوم الاثنين الموافق ٥ شهر صفر سنة ١٢٩٩ وواقع فى ٢٦ دسمبر سنة ١٨٨١ الساعه ٥ عربى سيباع بطريق المناداه لمن يرسى عليه آخر عطا العقار الآتى وهو </p>
+            <p>حصة قدرها تسعة عشر قيراط ونصف وثلث قيراط على الشيوع من منزل كائن بالازهر بحارة الدويدارى بتمن الجمالية بعضه مهدوم وباقيه محل محدود بحدود أربعة الحد القبلى ينتهى للحارة وفيه الواجهة والباب والحد الشرقى ينتهى لعطفة صغيرة وباقيه لمنزل عبد ربه على والحد الغربى ينتهى لمنزل عبد ربه المذكور والحد البحرى ينتهى للمنزل المذكور ويملك الحصة المذكورة عثمان سيد الزيات </p>
+            <p>والداعى لذلك البيع انه مطلوب من سيد عثمان الزيات المذكور مبلغ وقدره ٤٠٣١ قرش صاغ و ١٠ فضه الى السيد عبد الوهاب الشنوانى بمقتضى المضبطة الصادرة من مجلس ابتدائى مصر بتاريخ ١٨ ج سنة ٩٧ بهيئة تجارية والخلاصة الصادرة من مجلس استئناف مصر بتاريخ ٢٥ جا سنة ٩٨ وسبق حجزها بموجب محضر رقم ٨ الحجة سنة ١٢٩٨ عن يد صالح أفندى لبيب مندوب الضبطية ويكون البيع بالشروط الآتية وهى </p>
+            <p>أولا من يرسى عليه المزاد يستلم العقار بالحالة التى يكون عليها يوم مرسى المزاد بدون مطالبة على الحكومة أو على صاحب العقار بشئ ما بسبب تلف حدث فى المبيع أو تصليحات أو تعميرات لازمة له أو غلط حصل فى تعيين أوصافه وبياناته </p>
+            <p>ثانيا من يرسى عليه المزاد له ان ينتفع فى حقوق الارتفاق التى للمبيع وان يتحمل ما على المبيع المذكور من الحقوق المذكورة سواء كانت تلك الحقوق ظاهرة أو خفية </p>
+            <p>ثالثا من يرسى عليه المزاد ملزوم باداء كافة الحقوق الميرية المرتبة والتى يتحمل ترتيبها على المبيع وملزوم باداء الثمن ورسوم البيع ومصاريفه فى خزينة الضبطية فى ظرف عشرة أيام من يوم مرسى المزاد وان تاخر عن ذلك فملزوم بفائدة المبلغ باعتبار المائة اثنى عشر سنويا  </p>
+            <p>رابعا من يرسى عليه المزاد ملزوم بان يعتبر الايجارات التى يكون جرى التوافق عليها بين صاحب الملك والمستاجرين بشرط ان يكون لسند الايجار تاريخ ثابت بوجه رسمى سابق على تاريخ حجز المبيع </p>
+            <p>خامسا يعطى الى الراسى عليه المزاد محضر البيع مشمولا بصيغة التنفيذ من مأذون حضرة قاضى مصر بعد دفع ثمن البيع باكمله مع الرسوم النسبية باعتبار المائة خمسة والمصاريف كما تقدم وذلك المحضر يكون سندا للمشترى بملكية المبيع ويقوم مقام الحجة وعلى الراسى عليه المزاد أن يسجل محضر البيع بمصاريف من طرفه سواء كان التسجيل فى المحكمة الشرعية أو فى قلم كتاب المحكمة المختلطة </p>
+            <p>سادسا اذا تاخر الراسى عليه المزاد عن وفاء شروط البيع خصوصا فيما يتعلق بدفع الثمن وما يليه من الرسوم والمصاريف يباع المبيع ثانيا بالمزايدة على ذمته فان نقص الثمن يلزم الراسى عليه المزاد الاول بالفرق وان زاد فهذه الزيادة يستحقها الممول المنزوع منه العقار </p>
+            <p>سابعا يباع المبيع بالمزاد ثانيا اذا كان فى ظرف العشرة أيام التالية للبيع الاول تقدم زيادة عن ثمنه الاول بقدر عشر الثمن بناء على البند السابع عشر من الدكريتو الخديوى</p>
+            <p>الصادر فى ٢٥ مارث ١٨٨٠ وفى هذه الحالة لم يترتب أدنى مسؤلية ولا تعويض على الحكومة أو على صاحب الملك الاصليين اذا حصل اعادة البيع </p>
+            <p>ثامنا بناء على ما تقدم من الشروط يكون أول عطا فى افتتاح المزاد مبلغ ٣٩٦٦ قرشا و ٣٠ فضه حسب تقدير أهل الخبرة باعتبار تمن القيراط الواحد يبلغ مائتان قرش صاغ</p>
+         </div>
+         <div>
+            <head>نمرة ١٢٧١</head>
+            <head>يوم السبت ١١ محرم الحرام سنة ١٢٩٩ الموافق ٣ دسمبر الافرنكى سنة ١٨٨١ الموافق ٢٤ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٢</head>
+            <head>(اعلانات)</head>
+            <head>نص اعلان (هذا الاعلان مكرر)</head>
+            <p>قد صار افتتاح محل تجارى وكومسيونات بمصر بجوار الازبكية امام اللوكانده المسمية هوتيل الليكسندرى باسم الخواجه رفايل جبلادرى وشركاه ويكون فى هذا المحل وابورات ثابته وكوموبيل وقمزانات وطلومبات وطواحين دقيق ومعاصر القصب وكل ما يلزم لهذه المكينات من الآلات وفحم حجرى من جميع الاصناف ويوجد أيضا كمارات كبيرة وصغيرة من حديد وعواميد من ظهر لزوم البنا وخردوات آلات حديدية من كل نوع وبوابات مجهزة انكليزية وكوالين أنواع وألواح صاج وصلب خام مسبوك وحنفيات من نحاس وسيور من جميع المقاسات ومواسير متنوعة وكيعان ومسامير مقلوظه وصواميل وخلافه ويصير جلب جميع الاصناف المذكورة أعلاه من أعظم الفوريكات الانكليزية والفرنساوية بالاثمان اللائقة </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٧١</head>
+            <head>يوم السبت ١١ محرم الحرام سنة ١٢٩٩ الموافق ٣ دسمبر الافرنكى سنة ١٨٨١ الموافق ٢٤ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٣</head>
+            <head>اعلان من نظارة الاشغال العمومية</head>
+            <p>نظارة الاشغال العموميه ستطرح فى المزاد يوم الاثنين الواقع فى ٥ دسمبر سنة ١٨٨١ عملية انشا بردورة تروتوارات لزوم شوارع الصليبة وباب السد وميدان السيده زينب وان عطا المزاد يكون داخل مظاريف مغلوقة يجرى تقديمها بقلم سكرتارية الهندسة الافرنكى التابع للنظارة المشار اليها فى يوم ٥ دسمبر المار الذكر الساعة اثنين افرنكى بعد الزوال فلاشخاص الذين يرغبون المزايدة يمكنهم من الآن الاطلاع على الرسومات وصك القيود الهندسية والمقايسة التتمينية والتعهد وشروط المزاد الموجودين فى قلم السكرتارية المحكى عنها وذلك كل يوم من الساعة اثنين الى الساعة أربعة ونصف افرنكى فى ٢٧ نوفمبر سنة ٨١ </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٧٢</head>
+            <head>يوم الاحد ١٢ محرم الحرام سنة ١٢٩٩ الموافق ٤ دسمبر الافرنكى سنة ١٨٨١ الموافق ٢٥ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٣</head>
+            <head>نص اعلان (اعلان مكرر)</head>
+            <p>قد صار افتتاح محل تجارى وكومسيونات بمصر بجوار الازبكية امام اللوكانده المسمية هوتيل الليكسندرى باسم الخواجه رفايل جبلادرى وشركاه ويكون فى هذا المحل وابورات ثابته وكوموبيل وقمزانات وطلومبات وطواحين دقيق ومعاصر القصب وكل ما يلزم لهذه المكينات من الآلات وفحم حجرى من جميع الاصناف ويوجد أيضا كمارات كبيرة وصغيرة من حديد وعواميد من ظهر لزوم البنا وخردوات آلات حديدية من كل نوع وبوابات مجهزة انكليزية وكوالين أنواع وألواح صاج وصلب خام مسبوك وحنفيات من نحاس وسيور من جميع المقاسات ومواسير متنوعة وكيعان ومسامير مقلوظه وصواميل وخلافه ويصير جلب جميع الاصناف المذكورة أعلاه من أعظم الفوريكات الانكليزية والفرنساوية بالاثمان اللائقة </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٧٣</head>
+            <head>يوم الاثنين ١٣ محرم الحرام سنة ١٢٩٩ الموافق ٥ دسمبر الافرنكى سنة ١٨٨١ الموافق ٢٦ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٢ – العمود ١</head>
+            <head>قرار من نظارة الاشغال العمومية</head>
+            <p>بنا على ما تقرر بالمادة الثامنة من الديكريتو الشامل قانون الاعمال العمومية المؤرخ ٢٤ صفر سنة ٩٨ الموافق ٢٥ يناير سنة ١٨٨١ قررت نظارة الاشغال العمومية ان يكون مقدار بدلية العونة فى سنة ١٨٨٢ عن كل شخص من الاشخاص الجائز قبولها منهم مائة وعشرين قرشا فى مديريات الوجه البحرى وثمانين قرشا فى مديريات الوجه القبلى كما تقرر فى سنة ١٨٨١  فى ٣٠ نوفمبر سنة ١٨٨١ الموافق ٨ محرم سنة ١٢٩٩ </p>
+            <p>ناظر الاشغال العموميه </p>
+            <p>(اسماعيل ايوب) </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٧٣</head>
+            <head>يوم الاثنين ١٣ محرم الحرام سنة ١٢٩٩ الموافق ٥ دسمبر الافرنكى سنة ١٨٨١ الموافق ٢٦ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٢</head>
+            <head>من ضبطية مصر</head>
+            <p>شبت النار فى الاجزخانة التى هى على مقربة من الأستاذ أبى العلا ببولاق فارسلت لها المطافئ على الفور وأخذ فى العمل بما يكف شرها ويقصر سيرها على الجهات التى تقار بها فتم ذلك وأخمدت لهبتها بدون أن يحصل منها لاحد شئ من الاضرار</p>
+         </div>
+         <div>
+            <head>نمرة ١٢٧٣</head>
+            <head>يوم الاثنين ١٣ محرم الحرام سنة ١٢٩٩ الموافق ٥ دسمبر الافرنكى سنة ١٨٨١ الموافق ٢٦ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٣</head>
+            <head>نص اعلان ( خبر مكرر)</head>
+            <p>قد صار افتتاح محل تجارى وكومسيونات بمصر بجوار الازبكية امام اللوكانده المسمية هوتيل الليكسندرى باسم الخواجه رفايل جبلادرى وشركاه ويكون فى هذا المحل وابورات ثابته وكوموبيل وقمزانات وطلومبات وطواحين دقيق ومعاصر القصب وكل ما يلزم لهذه المكينات من الآلات وفحم حجرى من جميع الاصناف ويوجد أيضا كمارات كبيرة وصغيرة من حديد وعواميد من ظهر لزوم البنا وخردوات آلات حديدية من كل نوع وبوابات مجهزة انكليزية وكوالين أنواع وألواح صاج وصلب خام مسبوك وحنفيات من نحاس وسيور من جميع المقاسات ومواسير متنوعة وكيعان ومسامير مقلوظه وصواميل وخلافه ويصير جلب جميع الاصناف المذكورة أعلاه من أعظم الفوريكات الانكليزية والفرنساوية بالاثمان اللائقة</p>
+         </div>
+         <div>
+            <head>نمرة ١٢٧٤</head>
+            <head>يوم الثلاثاء ١٤ محرم الحرام سنة ١٢٩٩ الموافق ٦ دسمبر الافرنكى سنة ١٨٨١ الموافق ٢٧ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٤ – العمود ٣</head>
+            <head>اعلانات</head>
+            <head>(نص اعلان) خبر مكرر</head>
+            <p>قد صار افتتاح محل تجارى وكومسيونات بمصر بجوار الازبكية امام اللوكانده المسمية هوتيل الليكسندرى باسم الخواجه رفايل جبلادرى وشركاه ويكون فى هذا المحل وابورات ثابته وكوموبيل وقمزانات وطلومبات وطواحين دقيق ومعاصر القصب وكل ما يلزم لهذه المكينات من الآلات وفحم حجرى من جميع الاصناف ويوجد أيضا كمارات كبيرة وصغيرة من حديد وعواميد من ظهر لزوم البنا وخردوات آلات حديدية من كل نوع وبوابات مجهزة انكليزية وكوالين أنواع وألواح صاج وصلب خام مسبوك وحنفيات من نحاس وسيور من جميع المقاسات ومواسير متنوعة وكيعان ومسامير مقلوظه وصواميل وخلافه ويصير جلب جميع الاصناف المذكورة أعلاه من أعظم الفوريكات الانكليزية والفرنساوية بالاثمان اللائقة</p>
+         </div>
+         <div>
+            <head>نمرة ١٢٧٥</head>
+            <head>يوم الاربعاء ١٥ محرم الحرام سنة ١٢٩٩ الموافق ٧ دسمبر الافرنكى سنة ١٨٨١ الموافق ٢٨ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ١</head>
+            <head>(اعلانات)</head>
+            <head>نص اعلان وارد من ضبطية مصر</head>
+            <p>محضر جلسة المزايدة </p>
+            <p>بمجلس المزايدة المنعقد بديوان ضبطية مصر تحت رياسة سعادة أحمد باشا الدرملى المامور وصحبته حسين أفندى حسنى أحد كتاب قلم التحصيلات بناء على حجز بنا المنزل الآتى بيانه الذى جرى حجزه بموجب محضر رقيم ٢٨ رمضان سنة ٩٨ بمعرفة عبد المجيد أفندى توفيق مندوب الضبطية لما هو مطلوب من مالكه عثمان أغا الازمر لى لتنضيفات المالية بمقتضى المضبطة الصادرة من مجلس ابتداءى مصر بتاريخ ٨ محرم سنة ٩٧ نمرة ٥٩ وقدره ١٨٠٠٢ قرش و ٣٠ فضه قيمة الباقى من ايجار القهوة التى كان مستاجرها من محافظة مصر الملغية بحديقة الازبكية المعلوم لدى الحكومة ان بنا المنزل المذكور تعلق عثمان أغا المرقوم بموجب حجتين من محكمة مصر الشرعية احداهما رقيم ٣ را سنة ٨٣ والاخرى تاريخها ١٩ ر سنة ٨٣ وبناء على الاعلان بالوقايع وبالجهات المقررة بالدكريتو الرقيم ٢٥ مارث سنة ٨٠ عن مبيع بنا المنزل المذكور فى هذا اليوم بهذا المجلس قد جرى تلاوة أوصاف وبيان بنا المنزل المذكور علنا على الحاضرين وهى </p>
+            <p>بنا المنزل مركب علو خمسة حوانيت غير داخلين فيه وعليه من الحكر فى كل سنة مائة نصف وعشرون نصف فضه المشتمل على باب يدخل منه الى سلم يصعد عليه الى بسطه بها باب يدخل منه الى ثلاثة أود ويتوصل من السلم المذكور الى بسطه بها باب يدخل منه الى ممشه بها أربعة أبواب أحدهم يدخل منه الى أوده بداخلها أوده ثانية  والثانى يدخل منه الى أوده والثالث يدخل منه الى مطبخ والرابع يدخل منه الى كرسى راحة ويتوصل من السلم المذكور الى بسطه بها باب يدخل منه الى فسحة صغيرة بها أربعة أبواب أحدهم يدخل منه الى أدوه بداخلها أوده ثانية بها شبابيك ودرابزين خشب وخارجه مطله على الشارع والثانى يدخل منه الى أود بها خزنة نوميه ؟ والثالث يدخل منه الى مزيره والرابع يدخل منه الى كرسى واحة ويتوصل من باقى السلم المذكور الى السطح العالى على ذلك وكل ذلك جميعه بالسقف والابواب والشبابيك الرومى المقفله بالزجاج مفروش أرض ذلك بالبلاط الكذاب متبل الجدر بالبياض محدود بحدود أربع الحد البحرى ينتهى لجامع السلطان الاقمر والحد الشرقى ينتهى لمنزل متخرب ملك الاوقاف والحد الغربى ينتهى لوكاله وقف الخربطلى والحد القبلى ينتهى لشارع التنبكجية وبه باب المنزل وبنا واجهة المنزل مركب على دكانين وقهوة تعلق الاوقاف والنزل المذكور محتوى على ثلاثة أدوار أحدهم دور مسحور وبه ستة طاقات وبالدورين الاعلى ستة شبابيك وتراسينه خشب ثم جرى تلاوة الشروط وهى </p>
+            <p>أولا من يرسى عليه المزاد يستلم العقار بالحالة التى يكون عليها يوم مرسى المزاد بدون مطالبة على الحكومة أو على صاحب العقار بشئ ما بسبب تلف حدث فى المبيع أو تصليحات أو تعميرات لازمة له أو غلط حصل فى تعيين أوصافه وبياناته </p>
+            <p>ثانيا من يرسى عليه المزاد له ان ينتفع فى حقوق الارتفاق التى للمبيع وان يتحمل ما على المبيع المذكور من الحقوق المذكورة سواء كانت تلك الحقوق ظاهرة أو خفية </p>
+            <p>ثالثا من يرسى عليه المزاد ملزوم باداء كافة الحقوق الميرية المرتبة والتى يتحمل ترتيبها على المبيع وملزم باداء الثمن ورسوم البيع ومصاريفه فى خزينة الضبطية فى ظرف عشرة أيام من يوم مرسى المزاد وان تاخر عن ذلك فملزوم بفائدة المبلغ باعتبار المائة اثنى عشر سنويا </p>
+            <p>رابعا من يرسى عليه المزاد ملزوم بان يعتبر الايجارات التى يكون جرى التوافق عليها بين صاحب الملك والمستاجرين بشرط ان يكون لسند الايجار تاريخ ثابت بوجه رسمى سابق على تاريخ حجز المبيع </p>
+            <p>خامسا يعطى الى الراسى عليه المزاد محضر البيع مشمولا بصيغة التنفيذ من ماذون حضرة قاضى مصر بعد دفع ثمن البيع باكمله مع الرسوم النسبية باعتبار المائة خمسة والمصاريف كما تقدم وذلك المحضر يكون سندا للمشترى بملكية المبيع ويقوم مقام الحجة وعلى الراسى عليه المزاد أن يسجل محضر البيع بمصاريف من طرفه سواء كان التسجيل فى المحكمة الشرعية أو فى قلم كاتب المحكمة المختلطة </p>
+            <p>سادسا اذا تاخر الراسى عليه المزاد عن وفاء شروط البيع خصوصا فيما يتعلق بدفع الثمن وما يليه من الرسوم والمصاريف يباع المبيع ثانيا بالمزايدة على ذمته فان نقص الثمن يلزم الراسى عليه المزاد الاول بالفرق وان زاد فهذه الزيادة يستحقها الممول المنزوع منه العقار </p>
+            <p>سابعا يباع المبيع بالمزاد ثانيا اذا كان فى ظرف العشرة أيام التالية للبيع الاول تقدم زيادة عن ثمنه الاول بقدر عشر التمن بناء على البند السابع عشر من الدكريتو الخديوى الصادر فى ٢٥ مارث سنة ١٨٨٠ المؤيد بالدكريتو الصادر بعده فى ٢٧ يناير سنة ٨١ وفى هذه الحالة لم يترتب أدنى مسؤلية ولا تعويض على الحكومة أو على صاحب الملك الاصلى اذا حصل اعادة البيع </p>
+            <p>ثامنا بناء على ما تقدم من الشروط يكون أول عطا فى افتتاح المزايدة مبلغ وقدره ١٤٠٥٠ قرش حسب تقدير آل الخبرة وعلى ذلك صار الشروع فى مبيع بنا المنزل المذكور ولما لم يوجد أحد يقبل المشترى بقيمة المبلغ الذى جرى تقديره فصار من المقتضى بناء على البند الرابع عشر من الدكريتو الرقيم ٢٥ مارث سنة ٨٠ تاخير البيع لميعاد شهر واحد من تاريخه أدناه وتنزيل الخمس من المبلغ السابق تحديده لافتتاح المزاد وعلى ذلك يكون المبلغ الذى ينبغى اعتباره أول عطا لافتتاح المزاد هو مبلغ ١١٢٤٠ قرش </p>
+            <p>فى غرة الحجة سنة ٩٨ الموافق ٢٢ نوفمبر سنة ٨١ </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٧٥</head>
+            <head>يوم الاربعاء ١٥ محرم الحرام سنة ١٢٩٩ الموافق ٧ دسمبر الافرنكى سنة ١٨٨١ الموافق ٢٨ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٢</head>
+            <head>نص اعلان (خبر مكرر)</head>
+            <p>قد صار افتتاح محل تجارى وكومسيونات بمصر بجوار الازبكية امام اللوكانده المسمية هوتيل الليكسندرى باسم الخواجه رفايل جبلادرى وشركاه ويكون فى هذا المحل وابورات ثابته وكوموبيل وقمزانات وطلومبات وطواحين دقيق ومعاصر القصب وكل ما يلزم لهذه المكينات من الآلات وفحم حجرى من جميع الاصناف ويوجد أيضا كمارات كبيرة وصغيرة من حديد وعواميد من ظهر لزوم البنا وخردوات آلات حديدية من كل نوع وبوابات مجهزة انكليزية وكوالين أنواع وألواح صاج وصلب خام مسبوك وحنفيات من نحاس وسيور من جميع المقاسات ومواسير متنوعة وكيعان ومسامير مقلوظه وصواميل وخلافه ويصير جلب جميع الاصناف المذكورة أعلاه من أعظم الفوريكات الانكليزية والفرنساوية بالاثمان اللائقة</p>
+         </div>
+         <div>
+            <head>نمرة ١٢٧٦</head>
+            <head>يوم الخميس ١٦ محرم الحرام سنة ١٢٩٩ الموافق ٨ دسمبر الافرنكى سنة ١٨٨١ الموافق ٣٠ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٢ ٣-</head>
+            <head>من ضبطية مصر</head>
+            <p>عثر على جثة رجل متوفى ملقاة فى أحد الاماكن الخربة بحوش الجاموس من ثمن الدرب الاحمر فوجه بعض الحكماء للكشف عليه فظهر ان صاحبها يبلغ من العمر خمسين سنة وانها أصيبت بالتعفن </p>
+            <p>الشديد ورأسها وعنقها ملفوفان بسراويل (لباس) من البفتة والعنق أيضا مشدود بشبكة غزلية وشال من الصوف زهما ملونين بالدماء والانف والفم قد سالت منهما مواد دموية واللسان خارج الى ما بين [ا]لاسنان والمقلتين بارزتان وفى ظهرها تسلخات كثيرة فى مواضع متعددة والقدمين مفقودان وبعض أطراف اليد اليسرى كذلك وتقرر انه لابد من ارسال هذه الجثة الى المستشفى لاعادة الكشف عليها وتوضيح أسباب وفاة صاحبها فحملت اليه لهذا الغرض وقد أخذت الضبطية تتحرى هذه الواقعة فى محلها فوقع الاشتباه فى أربعة أشخاص فقبض عليهم ولم تزل الضبطية آخذة فى الوقوف على حقيقة هذه المادة المهمة </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٧٦</head>
+            <head>يوم الخميس ١٦ محرم الحرام سنة ١٢٩٩ الموافق ٨ دسمبر الافرنكى سنة ١٨٨١ الموافق ٣٠ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٢</head>
+            <head>اعلانات</head>
+            <head>نص اعلان وارد من ضبطية مصر</head>
+            <p>عن بيع عقار جرى طرحه أولا بالمزاد ولمناسبة عدم وجود مشترى بالسعر الذى كان تقدر جرى تنقيص خمس المبلغ السابق تقديره انه فى جلسة المزايدات التى يجرى انعقادها بديوان ضبطية مصر فى يوم السبت الموافق ٣ صفر سنة ١٢٩٩ وواقع فى ٢٤ دسمبر سنة ١٨٨١ سيباع بطريق المناداه لمن يرسى عليه آخر عطا العقار الآتى وهو   </p>
+            <p>منزل بجهة باب القرافة بثمن الخليفة محدود بحدود أربعة الحد البحرى مصبغة وقف الست عائشة النبويه والحد الغربى بعضه الى مناخ وقف الست المشار اليها وباقيه الى حوش تعلق عامر هاشم مقدم الفعلة والحد القبلى من أسفل للحوش المذكور ومن أعلا لمنزل شحاته اللبودى والحد الشرقى شارع الست عايشة النبويه وفيه الواجهة والباب ويحتوى على ستة شبابيك بالاعلا وهو دور واحد وله ركوب على دكاكين ملك الغير وركوب على دركة الحوش البادى ذكره </p>
+            <p>والداعى لذلك البيع انه مطلوب المالك للمنزل المذكور أعلاه مبلغ وقدره ٢٣٩٧ قرشا عمله صاغ الى ورثة ابراهيم داود موكلين الخواجه يوسف طمبه المحكوم عليه بملزوميته بمبيع ما يواز به من منزله المحكوم بتثبيت الحجز عليه بمقتضى المضبطة الصادرة من مجلس ابتدائى مصر بتاريخ ٢٣ الحجة سنة ٩٦ بهيئة مدنية والقرار الصادر من مجلس الاستئناف برفض الا بللو بتاريخ ٢٣ ش سنة ٩٧ وسبق حجزه بموجب محضر رقم ٨ شوال سنة ٩٨ عن يد عبد المجيد أفندى توفيق مندوب الضبطية ويملك المنزل المذكور عامر هاشم مقدم الفعلة بمقتضى ما ذكر ويكون البيع بالشروط الآتية وهى </p>
+            <p>أولا من يرسى عليه المزاد يستلم العقار بالحالة التى يكون عليها يوم مرسى المزاد بدون مطالبة على الحكومة أو على صاحب العقار بشئ ما بسبب تلف حدث فى المبيع أو تصليحات أو تعميرات لازمة له أو غلط حصل فى تعيين أوصافه وبياناته </p>
+            <p>ثانيا من يرسى عليه المزاد له ان ينتفع فى حقوق الارتفاق التى للمبيع وان يتحمل ما على المبيع المذكور من الحقوق المذكورة سواء كانت تلك الحقوق ظاهرة أو خفية </p>
+            <p>ثالثا من يرسى عليه المزاد ملزوم باداء كافة الحقوق الميرية المرتبة والتى يتحمل ترتيبها على المبيع وملزوم باداء الثمن ورسوم البيع ومصاريفه فى خزينة الضبطية فى ظرف عشرة أيام من يوم مرسى المزاد وان تاخر عن ذلك فملزوم بفائدة المبلغ باعتبار المائة اثنى عشر سنويا  </p>
+            <p>رابعا من يرسى عليه المزاد ملزوم بان يعتبر الايجارات التى يكون جرى التوافق عليها بين صاحب الملك والمستاجرين بشرط ان يكون لسند الايجار تاريخ ثابت بوجه رسمى سابق على تاريخ حجز المبيع </p>
+            <p>خامسا يعطى الى الراسى عليه المزاد محضر البيع مشمولا بصيغة التنفيذ من مأذون حضرة قاضى مصر بعد دفع ثمن البيع باكمله مع الرسوم النسبية باعتبار المائة خمسة والمصاريف كما تقدم وذلك المحضر يكون سندا للمشترى بملكية المبيع ويقوم مقام الحجة وعلى الراسى عليه المزاد أن يسجل محضر البيع بمصاريف من طرفه سواء كان التسجيل فى المحكمة الشرعية أو فى قلم كتاب المحكمة المختلطة </p>
+            <p>سادسا اذا تاخر الراسى عليه المزاد عن وفاء شروط البيع خصوصا فيما يتعلق بدفع الثمن وما يليه من الرسوم والمصاريف يباع المبيع ثانيا بالمزايدة على ذمته فان نقص الثمن يلزم الراسى عليه المزاد الاول بالفرق وان زاد فهذه الزيادة يستحقها الممول المنزوع منه العقار </p>
+            <p>سابعا يباع المبيع بالمزاد ثانيا اذا كان فى ظرف العشرة أيام التالية للبيع الاول تقدم زيادة عن ثمنه الاول بقدر عشر الثمن بناء على البند السابع عشر من الدكريتو الخديوى الصادر فى ٢٥ مارث ١٨٨٠ وفى هذه الحالة لم يترتب أدنى مسؤلية ولا تعويض على الحكومة أو على صاحب الملك الاصليين اذا حصل اعادة البيع </p>
+            <p>ثامنا بناء على ما تقدم من الشروط يكون أول عطا فى افتتاح المزايدة مبلغ ٣٢٠٠ قرش صاغ وهذا بناقص الخمس عن قيمة التمن قدوره أهل الخبره للمنزل المذكور </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٧٦</head>
+            <head>يوم الخميس ١٦ محرم الحرام سنة ١٢٩٩ الموافق ٨ دسمبر الافرنكى سنة ١٨٨١ الموافق ٣٠ هاتور القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٣</head>
+            <head>نص اعلان (اعلان مكرر)</head>
+            <p>قد صار افتتاح محل تجارى وكومسيونات بمصر بجوار الازبكية امام اللوكانده المسمية هوتيل الليكسندرى باسم الخواجه رفايل جبلادرى وشركاه ويكون فى هذا المحل وابورات ثابته وكوموبيل وقمزانات وطلومبات وطواحين دقيق ومعاصر القصب وكل ما يلزم لهذه المكينات من الآلات وفحم حجرى من جميع الاصناف ويوجد أيضا كمارات كبيرة وصغيرة من حديد وعواميد من ظهر لزوم البنا وخردوات آلات حديدية من كل نوع وبوابات مجهزة انكليزية وكوالين أنواع وألواح صاج وصلب خام مسبوك وحنفيات من نحاس وسيور من جميع المقاسات ومواسير متنوعة وكيعان ومسامير مقلوظه وصواميل وخلافه ويصير جلب جميع الاصناف المذكورة أعلاه من أعظم الفوريكات الانكليزية والفرنساوية بالاثمان اللائقة </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٧٧</head>
+            <head>يوم السبت ١٨ محرم الحرام سنة ١٢٩٩ الموافق ١٠ دسمبر الافرنكى سنة ١٨٨١ الموافق ٢ كهيك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٢</head>
+            <head>اعلانات</head>
+            <head>نص اعلان (الخبر مكرر)</head>
+            <p>قد صار افتتاح محل تجارى وكومسيونات بمصر بجوار الازبكية امام اللوكانده المسمية هوتيل الليكسندرى باسم الخواجه رفايل جبلادرى وشركاه ويكون فى هذا المحل وابورات ثابته وكوموبيل وقمزانات وطلومبات وطواحين دقيق ومعاصر القصب وكل ما يلزم لهذه المكينات من الآلات وفحم حجرى من جميع الاصناف ويوجد أيضا كمارات كبيرة وصغيرة من حديد وعواميد من ظهر لزوم البنا وخردوات آلات حديدية من كل نوع وبوابات مجهزة انكليزية وكوالين أنواع وألواح صاج وصلب خام مسبوك وحنفيات من نحاس وسيور من جميع المقاسات ومواسير متنوعة وكيعان ومسامير مقلوظه وصواميل وخلافه ويصير جلب جميع الاصناف المذكورة أعلاه من أعظم الفوريكات الانكليزية والفرنساوية بالاثمان اللائقة </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٧٧</head>
+            <head>يوم السبت ١٨ محرم الحرام سنة ١٢٩٩ الموافق ١٠ دسمبر الافرنكى سنة ١٨٨١ الموافق ٢ كهيك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ ٤-</head>
+            <head>نص اعلان وارد من ديوان ضبطية مصر</head>
+            <p>انه فى جلسة المزايدات التى يجرى انعقادها بديوان ضبطية مصر فى يوم الاثنين الموافق ٥ شهر صفر سنة ١٢٩٩ وواقع فى ٢٦ دسمبر سنة ١٨٨١ الساعه ٥ عربى سيباع بطريق المناداه لمن يرسى عليه آخر عطا العقار الآتى وهو </p>
+            <p>حصة قدرها تسعة عشر قيراط ونصف وثلث قيراط على الشيوع من منزل كائن بالازهر بحارة الدويدارى بتمن الجمالية بعضه مهدوم وباقيه محل محدود بحدود أربعة الحد القبلى ينتهى للحارة وفيه الواجهة والباب والحد الشرقى ينتهى لعطفة صغيرة وباقيه لمنزل عبد ربه على والحد الغربى ينتهى لمنزل عبد ربه المذكور والحد البحرى ينتهى للمنزل المذكور ويملك الحصة المذكورة عثمان سيد الزيات </p>
+            <p>والداعى لذلك البيع انه مطلوب من سيد عثمان الزيات المذكور مبلغ وقدره ٤٠٣١ قرش صاغ و ١٠ فضه الى السيد عبد الوهاب الشنوانى بمقتضى المضبطة الصادرة من مجلس ابتدائى مصر بتاريخ ١٨ ج سنة ٩٧ بهيئة تجارية والخلاصة الصادرة من مجلس استئناف مصر بتاريخ ٢٥ جا سنة ٩٨ وسبق حجزها بموجب محضر رقم ٨ الحجة سنة ١٢٩٨ عن يد صالح أفندى لبيب مندوب الضبطية ويكون البيع بالشروط الآتية وهى </p>
+            <p>أولا من يرسى عليه المزاد يستلم العقار بالحالة التى يكون عليها يوم مرسى المزاد بدون مطالبة على الحكومة أو على صاحب العقار بشئ ما بسبب تلف حدث فى المبيع أو تصليحات أو تعميرات لازمة له أو غلط حصل فى تعيين أوصافه وبياناته </p>
+            <p>ثانيا من يرسى عليه المزاد له ان ينتفع فى حقوق الارتفاق التى للمبيع وان يتحمل ما على المبيع المذكور من الحقوق المذكورة سواء كانت تلك الحقوق ظاهرة أو خفية </p>
+            <p>ثالثا من يرسى عليه المزاد ملزوم باداء كافة الحقوق الميرية المرتبة والتى يتحمل ترتيبها على المبيع وملزوم باداء الثمن ورسوم البيع ومصاريفه فى خزينة الضبطية فى ظرف عشرة أيام من يوم مرسى المزاد وان تاخر عن ذلك فملزوم بفائدة المبلغ باعتبار المائة اثنى عشر سنويا  </p>
+            <p>رابعا من يرسى عليه المزاد ملزوم بان يعتبر الايجارات التى يكون جرى التوافق عليها بين صاحب الملك والمستاجرين بشرط ان يكون لسند الايجار تاريخ ثابت بوجه رسمى سابق على تاريخ حجز المبيع </p>
+            <p>خامسا يعطى الى الراسى عليه المزاد محضر البيع مشمولا بصيغة التنفيذ من مأذون حضرة قاضى مصر بعد دفع ثمن البيع باكمله مع الرسوم النسبية باعتبار المائة خمسة والمصاريف كما تقدم وذلك المحضر يكون سندا للمشترى بملكية المبيع ويقوم مقام الحجة وعلى الراسى عليه المزاد أن يسجل محضر البيع بمصاريف من طرفه سواء كان التسجيل فى المحكمة الشرعية أو فى قلم كتاب المحكمة المختلطة </p>
+            <p>سادسا اذا تاخر الراسى عليه المزاد عن وفاء شروط البيع خصوصا فيما يتعلق بدفع الثمن وما يليه من الرسوم والمصاريف يباع المبيع ثانيا بالمزايدة على ذمته فان نقص الثمن يلزم الراسى عليه المزاد الاول بالفرق وان زاد فهذه الزيادة يستحقها الممول المنزوع منه العقار </p>
+            <p>سابعا يباع المبيع بالمزاد ثانيا اذا كان فى ظرف العشرة أيام التالية للبيع الاول تقدم زيادة عن ثمنه الاول بقدر عشر الثمن بناء على البند السابع عشر من الدكريتو الخديوى الصادر فى ٢٥ مارث ١٨٨٠ وفى هذه الحالة لم يترتب أدنى مسؤلية ولا تعويض على الحكومة أو على صاحب الملك الاصليين اذا حصل اعادة البيع </p>
+            <p>ثامنا بناء على ما تقدم من الشروط يكون أول عطا فى افتتاح المزاد مبلغ ٣٩٦٦ قرشا و ٣٠ فضه حسب تقدير أهل الخبرة باعتبار تمن القيراط الواحد يبلغ مائتان قرش صاغ </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٧٨</head>
+            <head>يوم الاحد ١٩ محرم الحرام سنة ١٢٩٩ الموافق ١١ دسمبر الافرنكى سنة ١٨٨١ الموافق ٣ كهيك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٢</head>
+            <head>اعلانات</head>
+            <head>نص اعلان (خبر مكرر)</head>
+            <p>قد صار افتتاح محل تجارى وكومسيونات بمصر بجوار الازبكية امام اللوكانده المسمية هوتيل الليكسندرى باسم الخواجه رفايل جبلادرى وشركاه ويكون فى هذا المحل وابورات ثابته وكوموبيل وقمزانات وطلومبات وطواحين دقيق ومعاصر القصب وكل ما يلزم لهذه المكينات من الآلات وفحم حجرى من جميع الاصناف ويوجد أيضا كمارات كبيرة وصغيرة من حديد وعواميد من ظهر لزوم البنا وخردوات آلات حديدية من كل نوع وبوابات مجهزة انكليزية وكوالين أنواع وألواح صاج وصلب خام مسبوك وحنفيات من نحاس وسيور من جميع المقاسات ومواسير متنوعة وكيعان ومسامير مقلوظه وصواميل وخلافه ويصير جلب جميع الاصناف المذكورة أعلاه من أعظم الفوريكات الانكليزية والفرنساوية بالاثمان اللائقة </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٧٨</head>
+            <head>يوم الاحد ١٩ محرم الحرام سنة ١٢٩٩ الموافق ١١ دسمبر الافرنكى سنة ١٨٨١ الموافق ٣ كهيك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٢</head>
+            <head>نص اعلان وارد من ديوان ضبطية مصر</head>
+            <p>عن بيع عقارات جرى طرحها أولا وثانيا بالمزاد ولمناسبة عدم وجود مشترى بناقص خمس السعر الذى كان تقدر جرى تنقيص خمس ثانى المبلغ السابق تقديره </p>
+            <p>انه فى جلسة يوم الاثنين ٥ صفر سنة ١٢٩٩ الموافق ٢٦ ديسمبر سنة ١٨٨١ الساعه ٥ عربى من النهار سيباع بطريق المناداه لمن يرسى عليه آخر عطا العقارات الآتية وهى </p>
+            <p>أولا منزل تعلق عبد الوهاب وهبه سكن الخواجه وانيس بدرب النوبى محدود بحدود أربع الغربى منزل الحاج محمد الرهاوى والشرقى والبحرى منزل ورثة الحرمه سالمه والقبلى حارة درب النوبى وفيه الواجهة والباب والمنزل المذكور يحتوى على حوش صغير جدا وباعلاه أودتين فوق بعضهم على الواجهة كل واحدة منهم بها شباكين </p>
+            <p>ثانيا نصف منزل تعلق الشيخ محمد النشيلى (مكتوب كدا) سكن الخواجه أندريا بغيط النوبى بيا بين أحدهم بدرب النوبى والآخر بغيط النوبى وبجواره حاصل له باب من حقوق المنزل المذكور وجميعه محدود بحدود أربع البحرى منزل ابراهيم أحمد شيخ الحاره والقبلى لشارع غيط النوبى وفيه باب المنزل وباب حاصل والشرقى منزل الخواجه جوتى يعقوب ترجمان محافظة مصر سابق والغربى بعضه لمنزل ورثة بينول بك وباقيه للحاره وفيه باب المنزل الثانى </p>
+            <p>الداعى لذلك البيع انه مطلوب من أصحاب العقارات المذكورة أعلاة مبلغا وقدره ٧٤٤٨ قرشا صاغا و ٢٨ فضه من ايجار أرض الميرى المستاجرينها من الدائرة البلدية بدرب النوبى جهة الوسعة وعوايد أملاكها أيضا لغاية سنة ٨١ وسبق حجزها بموجب محضرين بتاريخ ٨ أغسطس سنة ٨١ عن يد محمد أفندى راغب مندوب الضبطية ويمتلك العقارات المذكورة عبد الوهاب وهبه ومحمد النشيلى المذكورين أعلاه بموجب تكليفهما باسمهما بديوان الدائرة البلدية ويكون البيع بالشروط الآتية وهى </p>
+            <p>أولا من يرسى عليه المزاد يستلم العقار بالحالة التى يكون عليها يوم مرسى المزاد بدون مطالبة على الحكومة أو على صاحب العقار بشئ ما بسبب تلف حدث فى المبيع أو تصليحات أو تعميرات لازمة له أو غلط حصل فى تعيين أوصافه وبياناته </p>
+            <p>ثانيا من يرسى عليه المزاد له ان ينتفع فى حقوق الارتفاق التى للمبيع وان يتحمل ما على المبيع المذكور من الحقوق المذكورة سواء كانت تلك الحقوق ظاهرة أو خفية </p>
+            <p>ثالثا من يرسى عليه المزاد ملزوم باداء كافة الحقوق الميرية المرتبة والتى يتحمل ترتيبها على المبيع وملزوم باداء الثمن ورسوم البيع ومصاريفه فى خزينة الضبطية فى ظرف عشرة أيام من يوم مرسى المزاد وان تاخر عن ذلك فملزوم بفائدة المبلغ باعتبار المائة اثنى عشر سنويا  </p>
+            <p>رابعا من يرسى عليه المزاد ملزوم بان يعتبر الايجارات التى يكون جرى التوافق عليها بين صاحب الملك والمستاجرين بشرط ان يكون لسند الايجار تاريخ ثابت بوجه رسمى سابق على تاريخ حجز المبيع </p>
+            <p>خامسا يعطى الى الراسى عليه المزاد محضر البيع مشمولا بصيغة التنفيذ من مأذون حضرة قاضى مصر بعد دفع ثمن البيع باكمله مع الرسوم النسبية باعتبار المائة خمسة والمصاريف كما تقدم وذلك المحضر يكون سندا للمشترى بملكية المبيع ويقوم مقام الحجة وعلى الراسى عليه المزاد أن يسجل محضر البيع بمصاريف من طرفه سواء كان التسجيل فى المحكمة الشرعية أو فى قلم كتاب المحكمة المختلطة </p>
+            <p>سادسا اذا تاخر الراسى عليه المزاد عن وفاء شروط البيع خصوصا فيما يتعلق بدفع الثمن وما يليه من الرسوم والمصاريف يباع المبيع ثانيا بالمزايدة على ذمته فان نقص الثمن يلزم الراسى عليه المزاد الاول بالفرق وان زاد فهذه الزيادة يستحقها الممول المنزوع منه العقار </p>
+            <p>سابعا يباع المبيع بالمزاد ثانيا اذا كان فى ظرف العشرة أيام التالية للبيع الاول تقدم زيادة عن ثمنه الاول بقدر عشر الثمن بناء على البند السابع عشر من الدكريتو الخديوى الصادر فى ٢٥ مارث ١٨٨٠ المؤيد بالدكريتو الصادر بعده فى ٢٧ يناير سنة ٨١ وفى هذه الحالة لم يترتب أدنى مسئولية ولا تعويض على الحكومة أو على صاحب الملك الاصلى اذا حصل اعادة البيع </p>
+            <p>ثامنا بناء على ما تقدم من الشروط يكون أول عطا فى افتتاح المزايدة مبلغ أربعة وأربعين بنتو وواحد وستون قرش وثلاثون فضه صاغ عن المنزل تعلق عبد الوهاب وهبه وأربعة وستون جنيه مصرى عن النصف منزل تعلق محمد النشيلى بناقص خمس الثمن الذى تقدر بمعرفة آل الخبرة </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٧٨</head>
+            <head>يوم الاحد ١٩ محرم الحرام سنة ١٢٩٩ الموافق ١١ دسمبر الافرنكى سنة ١٨٨١ الموافق ٣ كهيك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٤ – العمود ٢</head>
+            <head>نص اعلان وارد من نظارة الاشغال العموميه</head>
+            <table>
+               <row>
+                  <cell>عدد</cell>
+                  <cell>أقه</cell>
+               </row>
+               <row>
+                  <cell>٠٣٧٥</cell>
+                  <cell>٠٠٠٠</cell>
+               </row>
+               <row>
+                  <cell>١٥٨٣</cell>
+                  <cell>س ٦٩٧١</cell>
+               </row>
+               <row>
+                  <cell>١٩٥٨</cell>
+                  <cell>س ٦٩٧١</cell>
+               </row>
+            </table>
+         </div>
+         <div>
+            <head>نمرة ١٢٧٩</head>
+            <head>يوم الاثنين ٢٠ محرم الحرام سنة ١٢٩٩ الموافق ١٢ دسمبر الافرنكى سنة ١٨٨١ الموافق ٤ كهيك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٢</head>
+            <head>نص اعلان (خبر مكرر)</head>
+            <p>قد صار افتتاح محل تجارى وكومسيونات بمصر بجوار الازبكية امام اللوكانده المسمية هوتيل الليكسندرى باسم الخواجه رفايل جبلادرى وشركاه ويكون فى هذا المحل وابورات ثابته وكوموبيل وقمزانات وطلومبات وطواحين دقيق ومعاصر القصب وكل ما يلزم لهذه المكينات من الآلات وفحم حجرى من جميع الاصناف ويوجد أيضا كمارات كبيرة وصغيرة من حديد وعواميد من ظهر لزوم البنا وخردوات آلات حديدية من كل نوع وبوابات مجهزة انكليزية وكوالين أنواع وألواح صاج وصلب خام مسبوك وحنفيات من نحاس وسيور من جميع المقاسات ومواسير متنوعة وكيعان ومسامير مقلوظه وصواميل وخلافه ويصير جلب جميع الاصناف المذكورة أعلاه من أعظم الفوريكات الانكليزية والفرنساوية بالاثمان اللائقة </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٧٩</head>
+            <head>يوم الاثنين ٢٠ محرم الحرام سنة ١٢٩٩ الموافق ١٢ دسمبر الافرنكى سنة ١٨٨١ الموافق ٤ كهيك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٣</head>
+            <head>جدول</head>
+            <p>ببيان الاراضى الفضا ملك الميرى بالمحروسة بشارع العباسية المقتضى اشهار مبيعها بالمزاد </p>
+            <table>
+               <row>
+                  <cell>س</cell>
+                  <cell>متر</cell>
+                  <cell>حرف رمز</cell>
+                  <cell>نمرة</cell>
+               </row>
+               <row>
+                  <cell>٦٢</cell>
+                  <cell>٢٣٣٥</cell>
+                  <cell>ذ</cell>
+                  <cell>٠٧</cell>
+               </row>
+               <row>
+                  <cell>٥٠</cell>
+                  <cell>٢٣١٢</cell>
+                  <cell>ح</cell>
+                  <cell>٠٨</cell>
+               </row>
+               <row>
+                  <cell>٢٥</cell>
+                  <cell>١٧١١</cell>
+                  <cell>ط</cell>
+                  <cell>٠٩</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٢٧٠٠</cell>
+                  <cell>ى</cell>
+                  <cell>١٠</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٢٤٣٠</cell>
+                  <cell>ك</cell>
+                  <cell>١١</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>١٤٥٠</cell>
+                  <cell>ل</cell>
+                  <cell>١٢</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>١٢٥٠</cell>
+                  <cell>م</cell>
+                  <cell>١٣</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٢٥٠٠</cell>
+                  <cell>ن</cell>
+                  <cell>١٤</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>١٠٦٤</cell>
+                  <cell>س</cell>
+                  <cell>١٥</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٠٧٠٠</cell>
+                  <cell>ع</cell>
+                  <cell>١٦</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٠٨١٤</cell>
+                  <cell>ف</cell>
+                  <cell>١٧</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>١١٠٠</cell>
+                  <cell>ص</cell>
+                  <cell>١٨</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>١٨٠٠</cell>
+                  <cell>ق</cell>
+                  <cell>١٩</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>١٤٥٠</cell>
+                  <cell>ر</cell>
+                  <cell>٢٠</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>١٢٥٠</cell>
+                  <cell>ش</cell>
+                  <cell>٢١</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٢٥٠٠</cell>
+                  <cell>ت</cell>
+                  <cell>٢٢</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٢٥٠٠</cell>
+                  <cell>ث</cell>
+                  <cell>٢٣</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٠٤٥٠</cell>
+                  <cell>ذ</cell>
+                  <cell>٢٥</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>١٢٥٠</cell>
+                  <cell>اا</cell>
+                  <cell>٢٦</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٢٥٠٠</cell>
+                  <cell>اب</cell>
+                  <cell>٢٧</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٢٥٠٠</cell>
+                  <cell>اج</cell>
+                  <cell>٢٨</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>١٨٥٠</cell>
+                  <cell>اد</cell>
+                  <cell>٢٩</cell>
+               </row>
+               <row>
+                  <cell>٩٣</cell>
+                  <cell>٠٢٥٥</cell>
+                  <cell>اه</cell>
+                  <cell>٣٠</cell>
+               </row>
+               <row>
+                  <cell>٧٥</cell>
+                  <cell>٠٤٣٨</cell>
+                  <cell>او</cell>
+                  <cell>٣١</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٠٥٥٢</cell>
+                  <cell>اذ</cell>
+                  <cell>٣٢</cell>
+               </row>
+               <row>
+                  <cell>٧٦</cell>
+                  <cell>٠٥٣٦</cell>
+                  <cell>اح</cell>
+                  <cell>٣٣</cell>
+               </row>
+               <row>
+                  <cell>٧٥</cell>
+                  <cell>٠٤٤٤</cell>
+                  <cell>اط</cell>
+                  <cell>٣٤</cell>
+               </row>
+               <row>
+                  <cell>٧٥</cell>
+                  <cell>٢٠٩٤</cell>
+                  <cell>اى</cell>
+                  <cell>٣٥</cell>
+               </row>
+               <row>
+                  <cell>٩٣</cell>
+                  <cell>١٧٤٣</cell>
+                  <cell>اك</cell>
+                  <cell>٣٦</cell>
+               </row>
+               <row>
+                  <cell>٧٥</cell>
+                  <cell>١٤٤١</cell>
+                  <cell>ال</cell>
+                  <cell>٣٧</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٢٦٨٢</cell>
+                  <cell>ام</cell>
+                  <cell>٣٨</cell>
+               </row>
+               <row>
+                  <cell>٥٠</cell>
+                  <cell>٢٤٤٩</cell>
+                  <cell>ان</cell>
+                  <cell>٣٩</cell>
+               </row>
+               <row>
+                  <cell>٥٠</cell>
+                  <cell>١٧٢٥</cell>
+                  <cell>اس</cell>
+                  <cell>٤٠</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٢٥٠٠</cell>
+                  <cell>اع</cell>
+                  <cell>٤١</cell>
+               </row>
+            </table>
+            <p>النمر المبينة بهذا أصلها نمرة ١٥٦ الواردة بجدول أملاك الميرى المختص بالمحروسة وبالنسبة لجسامة مقدارها صار تقسيمها الى القطع المرقومه فيه ومقتضى اشهار بيعها بالمزاد علنا وتحدد يوم لعقد جلسة قومسيون المبيع فيه بديوان ضبطية مصر يوم الاربعاء ٢٢ محرم سنة ٩٩ الموافق ١٤ دسمبر سنة ٨١ من الساعه ١ افرنكى بعد الظهر لغاية الساعه ٣ بحضور راغبين المشترى أو من ينوب عنهم للزايدة بينهم ومن لم يحضر فى اليوم المذكور لا يقبل منه مزاد مطلقا وهكذا من يكون تطلب مشترى شئ من ذلك ولم يحضر فى الجلسة فيعتبر ان تاخيره هو كف يد </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٧٩</head>
+            <head>يوم الاثنين ٢٠ محرم الحرام سنة ١٢٩٩ الموافق ١٢ دسمبر الافرنكى سنة ١٨٨١ الموافق ٤ كهيك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٤ – العمود ١</head>
+            <head>نص اعلان وارد من نظارة الاشغال العمومية</head>
+            <p>مصلحة المحاجر تشهر بالمزاد مبيع أصناف من آلات حديد لقطع الاحجار وصلب ونحاس وأخشاب وعربيات مشال الدبش وغيره من مهمات مصلحة اللغمجية الملغية على مقتضى شروط موجوده بالمصلحة وقد تحدد ميعاد لنهو مزاد ذلك من ابتداء يوم الاربعاء ١٥ محرم سنة ٩٩ الموافق ٧ دسمبر سنة ٨١ لغاية يوم السبت ١٠ صفر سنة ٩٩ الموافق ٣١ دسمبر سنة ٨١ فكل من له رغبة فى مشترى شئ من الاصناف المذكورة بتوجه لمحل مخزن المصلحة الكائن غرب محطه طره لمعاينتها وبعدها يحضر بمكتب ادارة المصلحة الكائن بديوان الاشغال العمومية بمصر لاطلاعه على كشف مفرداتها والمزاد وشروط  واعطا عطاء فيها والذى لايحضر فى الميعاد المذكور فلا تكلف المصلحة بانتظاره ولا باخذ أقوال منه فيما بعد فى ٦ دسمبر سنة ٨١ </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٧٩</head>
+            <head>يوم الاثنين ٢٠ محرم الحرام سنة ١٢٩٩ الموافق ١٢ دسمبر الافرنكى سنة ١٨٨١ الموافق ٤ كهيك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٤ – العمود ٢</head>
+            <head>نص اعلان وارد من نظارة الاشغال العموميه</head>
+            <p>ان مزاد انشا ستة محطات لعوايد الدخوليه بمصر بجهات الفجاله وشبرا وبولاق وفم الخليج والسيدة عائشه وزين العابدين الذى صار انعقاده فى يوم ١٢ نوفمبر سنة ٨١ بنظارة الاشغال العموميه بطريق المظروف اعطى النتيجة الآتيه </p>
+            <p>خمسة اشخاص تقدمت منهم مظاريف بعطائهم بنقص عن مجموع المقايسات الابتدائى البالغ قدره ١١٨٣٣٦ قرشا و ٢٧ فضه فى المائة كالآتى </p>
+            <table>
+               <row>
+                  <cell>-</cell>
+                  <cell>؎</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>١٠</cell>
+                  <cell>١٢</cell>
+                  <cell>على افندى حمدى</cell>
+               </row>
+               <row>
+                  <cell>١٠</cell>
+                  <cell>١٠</cell>
+                  <cell>سليمان دسوقى</cell>
+               </row>
+               <row>
+                  <cell>٢٠</cell>
+                  <cell>٠٩</cell>
+                  <cell>الخواجه جوزبى ارديسبونى</cell>
+               </row>
+               <row>
+                  <cell>٣٠</cell>
+                  <cell>٠٦</cell>
+                  <cell>الخواجه لويجى بلانطا</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٠٦</cell>
+                  <cell>برعى اسماعيل</cell>
+               </row>
+            </table>
+            <p>وعلى وجه ما ذكر قد اعتبر الديوان مرسى المزاد على على افندى حمدى بناقص فى المائة اثنى عشر وعشره فضه وربطت معه الشروط الانتهائية فى ٥ دسمبر سنة ٨١ وتصرح بالاجرا بموجبها فى محرم سنة ٩٩ الموافق دسمبر سنة ٨١ </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٧٩</head>
+            <head>يوم الاثنين ٢٠ محرم الحرام سنة ١٢٩٩ الموافق ١٢ دسمبر الافرنكى سنة ١٨٨١ الموافق ٤ كهيك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٤ – العمود ٢</head>
+            <head>نص اعلان وارد من نظارة الاشغال العمومية</head>
+            <p>ديوان الاشغال العمومية لازم له مليون وخمسمائة الف قنطار حجر دبش برسم حفظ نيل سنة ٨٢ وقد تحدد ميعاد لنهو المزاد اللازم عن توريد المقدار المذكور يوم السبت ٣١ دسمبر سنة ٨١ على مقتضى شروط موجوده بقلم سكرتارية الهندسه العربى بالديوان فكل من له رغبة فى توريد الحجر المذكور ويمكنه الاطلاع على المزاد وشروطه بالقلم المذكور ومن لا يحضر لغاية اليوم المذكور فلا يكلف الديوان بانتظاره ولا بأخذ أقوال منه فى ١٣ محرم سنة ٩٩ </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٧٩</head>
+            <head>يوم الاثنين ٢٠ محرم الحرام سنة ١٢٩٩ الموافق ١٢ دسمبر الافرنكى سنة ١٨٨١ الموافق ٤ كهيك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٤ – العمود ٣</head>
+            <head>نص اعلان وارد من نظارة الاشغال العمومية</head>
+            <p>ان المزاد داخل مظاريف مغلوقة فى مقاولة عملية ترتوارات ؟ وبردورات شوارع الصليبة وباب السد وميدان السيدة زينب الذى صار طرحه فى ٥ دسمبر سنة ٨١ بنظارة الاشغال العمومية قد نتج عنه ما هو آتى</p>
+            <p>وهو ان أربعة أشخاص من المزايدين تقدموا واعطوا عطاهم على الفيات المندرجة بالمقايسة التتمينية وهو </p>
+            <p>الموسيو لير مستاركى اعطى لتنقيص ٥ بالمائة </p>
+            <p>الموسيو كازامارت شرحه ٤ بالمائة </p>
+            <p>الموسيو اردنسولى شرحه ر ٣ بالمائة </p>
+            <p>الخواجات براكالى اخوان شرحه ٣ بالمائة </p>
+            <p>فبناء على ذلك قد استمر المزاد المذكور على الموسيو لير متاركى باعتبار ٥ المائة فى ٥ دسمبر سنة ١٨٨١ </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٨٠</head>
+            <head>يوم الثلاثاء ٢١ محرم الحرام سنة ١٢٩٩ الموافق ١٣ دسمبر الافرنكى سنة ١٨٨١ الموافق ٥ كيهك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٢</head>
+            <head>اعلانات</head>
+            <head>نص اعلان (خبر مكرر)</head>
+            <p>قد صار افتتاح محل تجارى وكومسيونات بمصر بجوار الازبكية امام اللوكانده المسمية هوتيل الليكسندرى باسم الخواجه رفايل جبلادرى وشركاه ويكون فى هذا المحل وابورات ثابته وكوموبيل وقمزانات وطلومبات وطواحين دقيق ومعاصر القصب وكل ما يلزم لهذه المكينات من الآلات وفحم حجرى من جميع الاصناف ويوجد أيضا كمارات كبيرة وصغيرة من حديد وعواميد من ظهر لزوم البنا وخردوات آلات حديدية من كل نوع وبوابات مجهزة انكليزية وكوالين أنواع وألواح صاج وصلب خام مسبوك وحنفيات من نحاس وسيور من جميع المقاسات ومواسير متنوعة وكيعان ومسامير مقلوظه وصواميل وخلافه ويصير جلب جميع الاصناف المذكورة أعلاه من أعظم الفوريكات الانكليزية والفرنساوية بالاثمان اللائقة </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٨٠</head>
+            <head>يوم الثلاثاء ٢١ محرم الحرام سنة ١٢٩٩ الموافق ١٣ دسمبر الافرنكى سنة ١٨٨١ الموافق ٥ كيهك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٣</head>
+            <head>جدول (الاعلان مكرر)</head>
+            <head>ببيان الاراضى الفضا ملك الميرى بالمحروسة بشارع العباسية المقتضى اشهار مبيعها بالمزاد</head>
+            <table>
+               <row>
+                  <cell>س</cell>
+                  <cell>متر</cell>
+                  <cell>حرف رمز</cell>
+                  <cell>نمرة</cell>
+               </row>
+               <row>
+                  <cell>٦٢</cell>
+                  <cell>٢٣٣٥</cell>
+                  <cell>ذ</cell>
+                  <cell>٠٧</cell>
+               </row>
+               <row>
+                  <cell>٥٠</cell>
+                  <cell>٢٣١٢</cell>
+                  <cell>ح</cell>
+                  <cell>٠٨</cell>
+               </row>
+               <row>
+                  <cell>٢٥</cell>
+                  <cell>١٧١١</cell>
+                  <cell>ط</cell>
+                  <cell>٠٩</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٢٧٠٠</cell>
+                  <cell>ى</cell>
+                  <cell>١٠</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٢٤٣٠</cell>
+                  <cell>ك</cell>
+                  <cell>١١</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>١٤٥٠</cell>
+                  <cell>ل</cell>
+                  <cell>١٢</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>١٢٥٠</cell>
+                  <cell>م</cell>
+                  <cell>١٣</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٢٥٠٠</cell>
+                  <cell>ن</cell>
+                  <cell>١٤</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>١٠٦٤</cell>
+                  <cell>س</cell>
+                  <cell>١٥</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٠٧٠٠</cell>
+                  <cell>ع</cell>
+                  <cell>١٦</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٠٨١٤</cell>
+                  <cell>ف</cell>
+                  <cell>١٧</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>١١٠٠</cell>
+                  <cell>ص</cell>
+                  <cell>١٨</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>١٨٠٠</cell>
+                  <cell>ق</cell>
+                  <cell>١٩</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>١٤٥٠</cell>
+                  <cell>ر</cell>
+                  <cell>٢٠</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>١٢٥٠</cell>
+                  <cell>ش</cell>
+                  <cell>٢١</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٢٥٠٠</cell>
+                  <cell>ت</cell>
+                  <cell>٢٢</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٢٥٠٠</cell>
+                  <cell>ث</cell>
+                  <cell>٢٣</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٠٤٥٠</cell>
+                  <cell>ذ</cell>
+                  <cell>٢٥</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>١٢٥٠</cell>
+                  <cell>اا</cell>
+                  <cell>٢٦</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٢٥٠٠</cell>
+                  <cell>اب</cell>
+                  <cell>٢٧</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٢٥٠٠</cell>
+                  <cell>اج</cell>
+                  <cell>٢٨</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>١٨٥٠</cell>
+                  <cell>اد</cell>
+                  <cell>٢٩</cell>
+               </row>
+               <row>
+                  <cell>٩٣</cell>
+                  <cell>٠٢٥٥</cell>
+                  <cell>اه</cell>
+                  <cell>٣٠</cell>
+               </row>
+               <row>
+                  <cell>٧٥</cell>
+                  <cell>٠٤٣٨</cell>
+                  <cell>او</cell>
+                  <cell>٣١</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٠٥٥٢</cell>
+                  <cell>اذ</cell>
+                  <cell>٣٢</cell>
+               </row>
+               <row>
+                  <cell>٧٦</cell>
+                  <cell>٠٥٣٦</cell>
+                  <cell>اح</cell>
+                  <cell>٣٣</cell>
+               </row>
+               <row>
+                  <cell>٧٥</cell>
+                  <cell>٠٤٤٤</cell>
+                  <cell>اط</cell>
+                  <cell>٣٤</cell>
+               </row>
+               <row>
+                  <cell>٧٥</cell>
+                  <cell>٢٠٩٤</cell>
+                  <cell>اى</cell>
+                  <cell>٣٥</cell>
+               </row>
+               <row>
+                  <cell>٩٣</cell>
+                  <cell>١٧٤٣</cell>
+                  <cell>اك</cell>
+                  <cell>٣٦</cell>
+               </row>
+               <row>
+                  <cell>٧٥</cell>
+                  <cell>١٤٤١</cell>
+                  <cell>ال</cell>
+                  <cell>٣٧</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٢٦٨٢</cell>
+                  <cell>ام</cell>
+                  <cell>٣٨</cell>
+               </row>
+               <row>
+                  <cell>٥٠</cell>
+                  <cell>٢٤٤٩</cell>
+                  <cell>ان</cell>
+                  <cell>٣٩</cell>
+               </row>
+               <row>
+                  <cell>٥٠</cell>
+                  <cell>١٧٢٥</cell>
+                  <cell>اس</cell>
+                  <cell>٤٠</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٢٥٠٠</cell>
+                  <cell>اع</cell>
+                  <cell>٤١</cell>
+               </row>
+            </table>
+         </div>
+         <div>
+            <head>نمرة ١٢٨١</head>
+            <head>يوم الاربعاء ٢٣ محرم الحرام سنة ١٢٩٩ الموافق ١٤ دسمبر الافرنكى سنة ١٨٨١ الموافق ٦ كهيك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٢</head>
+            <head>من ضبطية مصر</head>
+            <p>بينما كان بعض الناس يحتفلون بعقد زواج باحد المنازل الكائنة تحت السور بثمن الخليفة وهم فى بعض أدواره اذ خربهم السقف الى أسفل المنزل ومع ذلك لم يصب منهم مع كثرتهم وعظم الحادثة سوى شخص واحد أصيب فى عضده الايسر بكسر</p>
+            <p>سقطت قطعة من الخشب من أعلا منزل بدرب الحمام على شخص يسمى ميخاييل يوسف فتوفى بذلك </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٨١</head>
+            <head>يوم الاربعاء ٢٣ محرم الحرام سنة ١٢٩٩ الموافق ١٤ دسمبر الافرنكى سنة ١٨٨١ الموافق ٦ كهيك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٣</head>
+            <head>نص اعلان (خبر مكرر)</head>
+            <p>قد صار افتتاح محل تجارى وكومسيونات بمصر بجوار الازبكية امام اللوكانده المسمية هوتيل الليكسندرى باسم الخواجه رفايل جبلادرى وشركاه ويكون فى هذا المحل وابورات ثابته وكوموبيل وقمزانات وطلومبات وطواحين دقيق ومعاصر القصب وكل ما يلزم لهذه المكينات من الآلات وفحم حجرى من جميع الاصناف ويوجد أيضا كمارات كبيرة وصغيرة من حديد وعواميد من ظهر لزوم البنا وخردوات آلات حديدية من كل نوع وبوابات مجهزة انكليزية وكوالين أنواع وألواح صاج وصلب خام مسبوك وحنفيات من نحاس وسيور من جميع المقاسات ومواسير متنوعة وكيعان ومسامير مقلوظه وصواميل وخلافه ويصير جلب جميع الاصناف المذكورة أعلاه من أعظم الفوريكات الانكليزية والفرنساوية بالاثمان اللائقة </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٨١</head>
+            <head>يوم الاربعاء ٢٣ محرم الحرام سنة ١٢٩٩ الموافق ١٤ دسمبر الافرنكى سنة ١٨٨١ الموافق ٦ كهيك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٣</head>
+            <head>(جدول)</head>
+            <p>ببيان الاراضى الفضا ملك الميرى الكائنة بجهتى  درب الطبلاوى بتمن الجمالية وبجهة شارع القصر العالى بالمحروسة المقتضى اشهار مزاد مبيعها علنا </p>
+            <table>
+               <row>
+                  <cell>س</cell>
+                  <cell>متر</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٧٥</cell>
+                  <cell>٠٧٣</cell>
+                  <cell>بدرب الطبلاوى بتمن الجمالية قطعة واحده نمرة ١٥٨</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٣٤١</cell>
+                  <cell>بجهة شارع القصر العالى ,, مثلثة نمرة ١٥٩</cell>
+               </row>
+            </table>
+            <p> الاراضى الفضا المبينة بعاليه هذه سيجرى مبيعها بالمزاد علنا وتحدد ميعاد لذلك لعقد جلسة قومسيون المبيع بالضبطية يوم السبت ٢٥ محرم سنة ١٢٩٩ الموافق ١٧ دسمبر سنة ٨١ من الساعه ١ افرنكى بعد الظهر لغاية الساعة ٣ افرنكى ومتى تمت تقفل جلسة المزايدة فكل من له رغبة فى مشترى أحد القطعتين المبين مقدارهما بعاليه فليحضر بالضبطية باليوم المذكور وقت عقد جلسة البيع أو ينوب عنه وكيلا من طرفه ومن يتأخر ويحضر بعد الميعاد المحدد فلا يقبل منه مزاد مطلقا وهكذا من يكون تطلب شيا منهما ولم يحضر فى الجلسة فيعتبر ان تاخيره هو كف يد </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٨٢</head>
+            <head>يوم الخميس ٢٣ محرم الحرام سنة ١٢٩٩ الموافق ١٥ دسمبر الافرنكى سنة ١٨٨١ الموافق ٧ كهيك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٣</head>
+            <head>نص اعلان (الاعلان مكرر)</head>
+            <p>قد صار افتتاح محل تجارى وكومسيونات بمصر بجوار الازبكية امام اللوكانده المسمية هوتيل الليكسندرى باسم الخواجه رفايل جبلادرى وشركاه ويكون فى هذا المحل وابورات ثابته وكوموبيل وقمزانات وطلومبات وطواحين دقيق ومعاصر القصب وكل ما يلزم لهذه المكينات من الآلات وفحم حجرى من جميع الاصناف ويوجد أيضا كمارات كبيرة وصغيرة من حديد وعواميد من ظهر لزوم البنا وخردوات آلات حديدية من كل نوع وبوابات مجهزة انكليزية وكوالين أنواع وألواح صاج وصلب خام مسبوك وحنفيات من نحاس وسيور من جميع المقاسات ومواسير متنوعة وكيعان ومسامير مقلوظه وصواميل وخلافه ويصير جلب جميع الاصناف المذكورة أعلاه من أعظم الفوريكات الانكليزية والفرنساوية بالاثمان اللائقة </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٨٢</head>
+            <head>يوم الخميس ٢٣ محرم الحرام سنة ١٢٩٩ الموافق ١٥ دسمبر الافرنكى سنة ١٨٨١ الموافق ٧ كهيك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٣</head>
+            <head>(جدول) الخبر مكرر</head>
+            <p>ببيان الاراضى الفضا ملك الميرى الكائنة بجهتى  درب الطبلاوى بتمن الجمالية وبجهة شارع القصر العالى بالمحروسة المقتضى اشهار مزاد مبيعها علنا </p>
+            <table>
+               <row>
+                  <cell>س</cell>
+                  <cell>متر</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٧٥</cell>
+                  <cell>٠٧٣</cell>
+                  <cell>بدرب الطبلاوى بتمن الجمالية قطعة واحده نمرة ١٥٨</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٣٤١</cell>
+                  <cell>بجهة شارع القصر العالى ,, مثلثة نمرة ١٥٩</cell>
+               </row>
+            </table>
+            <p> الاراضى الفضا المبينة بعاليه هذه سيجرى مبيعها بالمزاد علنا وتحدد ميعاد لذلك لعقد جلسة قومسيون المبيع بالضبطية يوم السبت ٢٥ محرم سنة ١٢٩٩ الموافق ١٧ دسمبر سنة ٨١ من الساعه ١ افرنكى بعد الظهر لغاية الساعة ٣ افرنكى ومتى تمت تقفل جلسة المزايدة فكل من له رغبة فى مشترى أحد القطعتين المبين مقدارهما بعاليه فليحضر بالضبطية باليوم المذكور وقت عقد جلسة البيع أو ينوب عنه وكيلا من طرفه ومن يتأخر ويحضر بعد الميعاد المحدد فلا يقبل منه مزاد مطلقا وهكذا من يكون تطلب شيا منهما ولم يحضر فى الجلسة فيعتبر ان تاخيره هو كف يد</p>
+         </div>
+         <div>
+            <head>نمرة ١٢٨٣</head>
+            <head>يوم السبت ٢٥ محرم الحرام سنة ١٢٩٩ الموافق ١٧ دسمبر الافرنكى سنة ١٨٨١ الموافق ٩ كهيك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٣</head>
+            <head>نص اعلان وارد من نظارة الاشغال العمومية</head>
+            <p>نظارة الاشغال العمومية ستطرح فى المزاد يوم الخميس الواقع فى ٢٩ دسمبر سنة ٨١ عملية صناعة مكادام لزوم الشوارع المحصورة ما بين باب السد وباب ميدان محمد على أعنى بها شوارع باب السد والصليبة وميدان السيدة زينب وان المزاد يكون داخل مظاريف مغلوقة يجرى تقديمها فى قلم سكرتارية الهندسة الافرنكى التابع للنظارة المشار اليها فى يوم ٢٩ دسمبر سنة ٨١ الساعة اثنين افرنكى بعد الزوال فالاشخاص الذين يرغبون المزايدة يمكنهم الاطلاع من الآن على الرسومات وصك القيود الهندسية والمقايسة التتمينية والتعهد وشروط المزاد الموجودة بقلم السكرتارية المحكى عنه وذلك من الساعه اثنين الى الساعة أربعة ونصف افرنكى من كل يوم فى ١٠ دسمبر سنة ٨١ </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٨٣</head>
+            <head>يوم السبت ٢٥ محرم الحرام سنة ١٢٩٩ الموافق ١٧ دسمبر الافرنكى سنة ١٨٨١ الموافق ٩ كهيك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٣</head>
+            <head>جدول</head>
+            <p>بيان ثلاث قطع أراضى كائنين بطريق بولاق بارض ظهر الجمال بالمحروسه المقتضى اشهار مبيعها بالمزاد علنا </p>
+            <table>
+               <row>
+                  <cell>س</cell>
+                  <cell>متر</cell>
+                  <cell>نمرة</cell>
+               </row>
+               <row>
+                  <cell>٢٦</cell>
+                  <cell>٦٠٩٤</cell>
+                  <cell>١١٢</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٦٩٨٣</cell>
+                  <cell>١١٣</cell>
+               </row>
+               <row>
+                  <cell>٥٠</cell>
+                  <cell>٤٨٦٤</cell>
+                  <cell>١١٤</cell>
+               </row>
+               <row>
+                  <cell>٧٦</cell>
+                  <cell>١٧٩٤١</cell>
+                  <cell/>
+               </row>
+            </table>
+            <p>الثلاثة قطع أراضى المبينة بعاليه سيجرى مبيعها بالمزاد علنا بجلسة يوم الاربعاء ٢٩ محرم سنة ١٢٩٩ الموافق ٢١ دسمبر سنة ٨١ بما عليهم من الحكر وتقرر عن عقد جلسة المبيع باليوم المذكور بضبطية مصر من ابتداء الساعه ١ افرنكى بعد الظهر لغاية الساعة ٣ افرنكى وذلك يكون بحضور راغبين المشترى أو من ينوب عنهم للمزايدة بينهم امام القومسيون ومن يحضر بعد قفل الجلسة لا يقبل منه مزاد مطلقا وهكذا من يكون تطلب شيا من الثلاث نمر الموضحة بعاليه ولم يحضر فى الجلسة فيعتبر ان تاخيره هو كف يد </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٨٤</head>
+            <head>يوم الاحد ٢٦ محرم الحرام سنة ١٢٩٩ الموافق ١٨ دسمبر الافرنكى سنة ١٨٨١ الموافق ١٠ كهيك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٢</head>
+            <head>اعلانات</head>
+            <head>نص اعلان</head>
+            <head>بنك لتسليف النقود تحت رهونات</head>
+            <p>يكون معلوما لدى العموم بانه من ابتداء يوم الاربعاء الموافق ٢١ دسمبر الجارى يصير افتتاح محل كومسيون أى توكيل بالمقاصيص بالقرب من خان الخليلى تابع لبنك الرهونات الاصلى بمصر وتحت مسؤولية البنك المذكور وتكون اجراآته مطابقة لاجراآت البنك الاصلى البادى ذكره فيما يختص بالفائدة والعوائد المحددة وصار ترخيص الخواجه حنا بطرس من ادارة عموم مصلحة بنك الرهونات المصرى بان يجرى عملية هذا المحل بصفة كومسيونجى أى وكيل والخواجة المذكور يحصل من الراهنين قيمة النصف فى المائة نظير كومسيون له </p>
+            <p>مدير العموم </p>
+            <p>امضا  دارذلك </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٨٤</head>
+            <head>يوم الاحد ٢٦ محرم الحرام سنة ١٢٩٩ الموافق ١٨ دسمبر الافرنكى سنة ١٨٨١ الموافق ١٠ كهيك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٣</head>
+            <head>جدول خبر مكرر</head>
+            <p>بيان ثلاث قطع أراضى كائنين بطريق بولاق بارض ظهر الجمال بالمحروسه المقتضى اشهار مبيعها بالمزاد علنا </p>
+            <table>
+               <row>
+                  <cell>س</cell>
+                  <cell>متر</cell>
+                  <cell>نمرة</cell>
+               </row>
+               <row>
+                  <cell>٢٦</cell>
+                  <cell>٦٠٩٤</cell>
+                  <cell>١١٢</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٦٩٨٣</cell>
+                  <cell>١١٣</cell>
+               </row>
+               <row>
+                  <cell>٥٠</cell>
+                  <cell>٤٨٦٤</cell>
+                  <cell>١١٤</cell>
+               </row>
+               <row>
+                  <cell>٧٦</cell>
+                  <cell>١٧٩٤١</cell>
+                  <cell/>
+               </row>
+            </table>
+            <p>الثلاثة قطع أراضى المبينة بعاليه سيجرى مبيعها بالمزاد علنا بجلسة يوم الاربعاء ٢٩ محرم سنة ١٢٩٩ الموافق ٢١ دسمبر سنة ٨١ بما عليهم من الحكر وتقرر عن عقد جلسة المبيع باليوم المذكور بضبطية مصر من ابتداء الساعه ١ افرنكى بعد الظهر لغاية الساعة ٣ افرنكى وذلك يكون بحضور راغبين المشترى أو من ينوب عنهم للمزايدة بينهم امام القومسيون ومن يحضر بعد قفل الجلسة لا يقبل منه مزاد مطلقا وهكذا من يكون تطلب شيا من الثلاث نمر الموضحة بعاليه ولم يحضر فى الجلسة فيعتبر ان تاخيره هو كف يد </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٨٥</head>
+            <head>يوم الاثنين ٢٧ محرم الحرام سنة ١٢٩٩ الموافق ١٩ دسمبرالافرنكى سنة ١٨٨١ الموافق ١١ كهيك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ١ – العمود ١</head>
+            <head>الحوادث الداخليه</head>
+            <head>أمر عال</head>
+            <head>نحن خديو مصر</head>
+            <p>بناء على ما عرض لطرفنا من ناظر الاوقاف بموافقة رأى مجلس نظارنا نأمر بما هو آت </p>
+         </div>
+         <div>
+            <head>(المادة الاولى)</head>
+            <p>قد تشكلت تحت رياسة ناظر عموم الاوقاف لجنة لحفظ الآثار القديمة العربية مؤلفة مما يأتى ذكرهم وهم </p>
+            <p>مصطفى فهمى باشا </p>
+            <p>محمود سامى باشا </p>
+            <p>محمود بك الفلكى </p>
+            <p>اسماعيل بك الفلكى </p>
+            <p>فرانس بك </p>
+            <p>روجرس بك </p>
+            <p>تجران بك </p>
+            <p>عزت افندى </p>
+            <p>يعقوب أفندى صبرى </p>
+            <p>موسيو بودرى </p>
+            <p>على أفندى فهمى </p>
+         </div>
+         <div>
+            <head>(المادة الثانية)</head>
+            <p>أعمال هذه اللجنة هى </p>
+            <p>أولا اجراء اللازم لجرد وحصر الآثار العربية القديمة التى يكون فيها فائدة صناعة أو تاريخية </p>
+            <p>ثانيا ملاحظة صيانة تلك الآثار ورعاية حفظها من التلف وأخبار نظارة الاوقاف بالتصليحات والمرمات المقتضى اجراؤها فيها مع ايضاح المهم منها </p>
+            <p>ثالثا النظر فى الرسومات والتصميمات التى تعمل على المرمات اللازمة لهذه الآثار والتصديق عليها وملاحظة اجراء تلك المرمات </p>
+            <p>رابعا حفظ رسومات جميع الاشغال التى تنتهى بكتبخانة الاوقاف واعلان النظارة المذكورة عن القطع التى تتخلف من العمارة ويلزم نقلها للانتيكخانة لاجل حفظها بها </p>
+         </div>
+         <div>
+            <head>(المادة الرابعة)</head>
+            <p>على ناظر الاوقاف تنفيذ أمرنا هذا </p>
+            <p>صدر بسراى عابدين فى ٢٦ محرم سنة ١٢٩٩ الموافق ١٨ ديسمبر سنة ١٨٨١ </p>
+            <p>(الامضاء)</p>
+            <p>(محمد توفيق)</p>
+            <p>بامر الحضرة الفخيمة الخديوية </p>
+            <p>رئيس مجلس النظار </p>
+            <p>(الامضا) (شريف)</p>
+            <p>ناظر المعارف والاوقاف </p>
+            <p>(الامضا) (محمد زكى)  </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٨٥</head>
+            <head>يوم الاثنين ٢٧ محرم الحرام سنة ١٢٩٩ الموافق ١٩ دسمبرالافرنكى سنة ١٨٨١ الموافق ١١ كهيك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٤ – العمود ٢</head>
+            <head>نص اعلان وارد من ضبطية مصر الخبر مكرر</head>
+            <p>عن بيع عقارات درى طرحها أولا وثانيا بالمزاد ولمناسبة عدم وجود مشترى بناقص خمس السعر الذى كان تقدر جرى تنقيص خمس ثانى المبلغ السابق تقديره </p>
+            <p>انه غى جلسه يوم  الاثنين ٥ صفر سنة ١٢٩٩ الموافق ٢٦ ديسمبر سنة ١٨٨١ الساعه ٥ عربى من النهار سيباع بطريق المناداه لمن يرسى عليه آخر عطا العقارات الآتية وهى </p>
+            <p>أولا منزل تعلق عبد الوهاب وهبه سكن الخواجه وانيس بدرب النوبى محدود بحدود أربع الغربى منزل الحاج محمد الرهاوى والشرقى والبحرى منزل ورثة الحرمه سالمه والقبلى حارة درب النوبى وفيه الواجهة والباب والمنزل المذكور يحتوى على حوش صغير جدا وباعلاه أودتين فوق بعضهم على الواجهة كل واحدة منهم بها شباكين </p>
+            <p>ثانيا نصف منزل تعلق الشيخ محمد النشيلى (مكتوب كدا) سكن الخواجه أندريا بغيط النوبى بيا بين أحدهم بدرب النوبى والآخر بغيط النوبى وبجواره حاصل له باب من حقوق المنزل المذكور وجميعه محدود بحدود أربع البحرى منزل ابراهيم أحمد شيخ الحاره والقبلى لشارع غيط النوبى وفيه باب المنزل وباب حاصل والشرقى منزل الخواجه جوتى يعقوب ترجمان محافظة مصر سابق والغربى بعضه لمنزل ورثة بينول بك وباقيه للحاره وفيه باب المنزل الثانى </p>
+            <p>الداعى لذلك البيع انه مطلوب من أصحاب العقارات المذكورة أعلاة مبلغا وقدره ٧٤٤٨ قرشا صاغا و ٢٨ فضه من ايجار أرض الميرى المستاجرينها من الدائرة البلدية بدرب النوبى جهة الوسعة وعوايد أملاكها أيضا لغاية سنة ٨١ وسبق حجزها بموجب محضرين بتاريخ ٨ أغسطس سنة ٨١ عن يد محمد أفندى راغب مندوب الضبطية ويمتلك العقارات المذكورة عبد الوهاب وهبه ومحمد النشيلى المذكورين أعلاه بموجب تكليفهما باسمهما بديوان الدائرة البلدية ويكون البيع بالشروط الآتية وهى  </p>
+            <p>أولا من يرسى عليه المزاد يستلم العقار بالحالة التى يكون عليها يوم مرسى المزاد بدون مطالبة على الحكومة أو على صاحب العقار بشئ ما بسبب تلف حدث فى المبيع أو تصليحات أو تعميرات لازمة له أو غلط حصل فى تعيين أوصافه وبياناته </p>
+            <p>ثانيا من يرسى عليه المزاد له ان ينتفع فى حقوق الارتفاق التى للمبيع وان يتحمل ما على المبيع المذكور من الحقوق المذكورة سواء كانت تلك الحقوق ظاهرة أو خفية </p>
+            <p>ثالثا من يرسى عليه المزاد ملزوم باداء كافة الحقوق الميرية المرتبة والتى يتحمل ترتيبها على المبيع وملزوم باداء الثمن ورسوم البيع ومصاريفه فى خزينة الضبطية فى ظرف عشرة أيام من يوم مرسى المزاد وان تاخر عن ذلك فملزوم بفائدة المبلغ باعتبار المائة اثنى عشر سنويا  </p>
+            <p>رابعا من يرسى عليه المزاد ملزوم بان يعتبر الايجارات التى يكون جرى التوافق عليها بين صاحب الملك والمستاجرين بشرط ان يكون لسند الايجار تاريخ ثابت بوجه رسمى سابق على تاريخ حجز المبيع </p>
+            <p>خامسا يعطى الى الراسى عليه المزاد محضر البيع مشمولا بصيغة التنفيذ من مأذون حضرة قاضى مصر بعد دفع ثمن البيع باكمله مع الرسوم النسبية باعتبار المائة خمسة والمصاريف كما تقدم وذلك المحضر يكون سندا للمشترى بملكية المبيع ويقوم مقام الحجة وعلى الراسى عليه المزاد أن يسجل محضر البيع بمصاريف من طرفه سواء كان التسجيل فى المحكمة الشرعية أو فى قلم كتاب المحكمة المختلطة </p>
+            <p>سادسا اذا تاخر الراسى عليه المزاد عن وفاء شروط البيع خصوصا فيما يتعلق بدفع الثمن وما يليه من الرسوم والمصاريف يباع المبيع ثانيا بالمزايدة على ذمته فان نقص الثمن يلزم الراسى عليه المزاد الاول بالفرق وان زاد فهذه الزيادة يستحقها الممول المنزوع منه العقار </p>
+            <p>سابعا يباع المبيع بالمزاد ثانيا اذا كان فى ظرف العشرة أيام التالية للبيع الاول تقدم زيادة عن ثمنه الاول بقدر عشر الثمن بناء على البند السابع عشر من الدكريتو الخديوى الصادر فى ٢٥ مارث ١٨٨٠ المؤيد بالدكريتو الصادر بعده فى ٢٧ يناير سنة ٨١ وفى هذه الحالة لم يترتب أدنى مسئولية ولا تعويض على الحكومة أو على صاحب الملك الاصلى اذا حصل اعادة البيع </p>
+            <p>ثامنا بناء على ما تقدم من الشروط يكون أول عطا فى افتتاح المزايدة مبلغ أربعة وأربعين بنتو وواحد وستون قرش وثلاثون فضه صاغ عن المنزل تعلق عبد الوهاب وهبه وأربعة وستون جنيه مصرى عن النصف منزل تعلق محمد النشيلى بناقص خمس الثمن الذى تقدر بمعرفة آل الخبرة </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٨٧</head>
+            <head>يوم الاربعاء ٢٩ محرم الحرام سنة ١٢٩٩ الموافق ٢١ دسمبر الافرنكى سنة ١٨٨١ الموافق ١٣ كهيك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٣</head>
+            <head>نص اعلان</head>
+            <head>بنك لتسليف النقود تحت رهونات خبر مكرر</head>
+            <p>يكون معلوما لدى العموم بانه من ابتداء يوم الاربعاء الموافق ٢١ دسمبر الجارى يصير افتتاح محل كومسيون أى توكيل بالمقاصيص بالقرب من خان الخليلى تابع لبنك الرهونات الاصلى بمصر وتحت مسؤولية البنك المذكور وتكون اجراآته مطابقة لاجراآت البنك الاصلى البادى ذكره فيما يختص بالفائدة والعوائد المحددة وصار ترخيص الخواجه حنا بطرس من ادارة عموم مصلحة بنك الرهونات المصرى بان يجرى عملية هذا المحل بصفة كومسيونجى أى وكيل والخواجة المذكور يحصل من الراهنين قيمة النصف فى المائة نظير كومسيون له </p>
+            <p>مدير العموم </p>
+            <p>امضا  دارذلك </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٨٨</head>
+            <head>يوم الخميس غرة صفر سنة ١٢٩٩ الموافق ٢٢ دسمبر الافرنكى سنة ١٨٨١ الموافق ١٤ كهيك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٢ –</head>
+            <head>ميزانية اعتيادية</head>
+            <head>عن الايرادات الغير مخصصة للدين</head>
+            <table>
+               <row>
+                  <cell>مصروفات نظارات ومصالح</cell>
+               </row>
+               <row>
+                  <cell>جنيه مصرى</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٠٦٧٨٤٨٦</cell>
+                  <cell>(١) ويركو مصر</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>(٢) ديون سايره</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>جنيه مصرى</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١٥٠٠٠٠</cell>
+                  <cell>تعويض المقابلة بمقتضى بند ٨٩ من قانون التصفية</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>٠٣٤٠٠٠</cell>
+                  <cell>قسط دين الدائرة الخاصة المقتضى دفعه للدائرة السنية بمتضى بند ٦١ من قانون التصفية</cell>
+               </row>
+               <row>
+                  <cell>٠٣٧٧٨٥٨</cell>
+                  <cell>١٩٣٨٥٨</cell>
+                  <cell>فوائد سهام قنال السويس</cell>
+               </row>
+               <row>
+                  <cell>٠٣١٥٠٠٠</cell>
+                  <cell>(٣) مخصصات الحضرة الخديويه ومرتبات سائر العائلة الخديويه</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٠٠٥٩٧٢</cell>
+                  <cell>(٤) المعيه السنيه</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٠٠٠٩٢٩٢</cell>
+                  <cell>(٥) مجلس النظار</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٠٠١٣١٦٢</cell>
+                  <cell>(٦) نظاره الخارجيه</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٠٥٦٨٠٧٠</cell>
+                  <cell>(٧) نظارة المالية</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>(٨) نظارة الجهاديه والبحريه</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>جنيه مصرى</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>٠٤٢٢٩٦١</cell>
+                  <cell>الجهاديه</cell>
+               </row>
+               <row>
+                  <cell>٠٤٩٢٩٦١</cell>
+                  <cell>٠٠٧٠٠٠٠</cell>
+                  <cell>البحريه</cell>
+               </row>
+               <row>
+                  <cell>٠٠٨٩٤٦٤</cell>
+                  <cell>(٩) نظارة المعارف</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٠٥١٤٩٥١</cell>
+                  <cell>(١٠) نظارة الداخليه</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٠٢٨١٧٥٤</cell>
+                  <cell>(١١) نظارة الحقانية</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٠٤٣٩٢٧٠</cell>
+                  <cell>(١٢) نظاره الاشغال العموميه</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>(١٢) السكك الحديد والتلغرافات ومينا اسكندريه</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>جنيه مصرى</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>السكك الحديد والتلغرافات</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>مينا اسكندريه</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٥٦١٦</cell>
+                  <cell>٠٠٠٥٦١٦</cell>
+                  <cell>سكة حديد حلوان</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>(١٤) الكمارك</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٠٠٨٠٠٠٠</cell>
+                  <cell>(١٥) البوسته</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٠١٢٠٠٠٠</cell>
+                  <cell>(١٦) وابورات البوسته الخديويه</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٠٠١٥٢٩٥</cell>
+                  <cell>تمن ورق ودفاتر وبعض أصناف معتاد صرفها لمصالح الميرى من المخازن والاشوان ومصروفات الاشوان والمخازن فى مصر</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٠٠٥٠٠٠٠</cell>
+                  <cell>(١٨)</cell>
+                  <cell/>
+               </row>
+            </table>
+         </div>
+         <div>
+            <head>نمرة ١٢٨٨</head>
+            <head>يوم الخميس غرة صفر سنة ١٢٩٩ الموافق ٢٢ دسمبر الافرنكى سنة ١٨٨١ الموافق ١٤ كهيك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٣</head>
+            <head>نص اعلان</head>
+            <p>يكون فى معلومية الخاص والعام انه فى يوم الجمعة يوجد مزاد مبيع جنينة كائنة بالنصريه بجوار مدرسة السيدة زينب على يد الحاج صالح حنفى أخى رئيس طائفة الدلالين وتسمية صالح المذكور بوظيفة الرياسة على ما نشر سابقا كام من باب الغلط لان الرياسة هى منحصرة فى السيد محمد حنفى فكل من له رغبه لحضور هذه المزايدة يحضر الى منزل الحاج صالح المذكور بالنصريه </p>
+            <p>والجنينة المذكورة أصلها كانت تعلق كريمة حسن باشا الطويل والآن صارت مقسمة حصص وموقعها بجوار منزل السيد محمد حنفى رئيس الطائفة المذكورة تحريرا فى يوم الاربعاء الموافق (الورقة مقطوعة)</p>
+         </div>
+         <div>
+            <head>نمرة ١٢٨٩</head>
+            <head>يوم السبت ٣ صفر سنة ١٢٩٩ الموافق ٢٤ دسمبر الافرنكى سنة ١٨٨١ الموافق ١٦ كيهك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٣</head>
+            <head>اعلان من مجلس ادارة جمعية التوفيق الخيرى</head>
+            <p>بما انه صدر قرار من الجمعية العمومية بانشاء مدرسة تحتوى على خمسين تلميذا من الايتام والفقراء يتعلمون بها مجانا فمجلس الادارة يعلن للعموم ان من يعلم بيتيم أو فقير ويرغب تعليمه بالمدرسة فيتكرم بارساله الى منزل الجمعية الكائن بباب اللوق بجوار حنفية المياه بشرط ان يكون سنه بين الثمان سنوات والاثنى عشرة سنة كذا مطلوب للمدرسة الآن معلمين بالماهيات والوظائف المبينة أدناه فمن يرغب ذلك فليحضر الى المحل المذكور </p>
+            <p>استحقاق شهرى بالعملة الصاغ </p>
+            <table>
+               <row>
+                  <cell>؎</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٦٠٠</cell>
+                  <cell>ناظر للمدرسة وخوجة حساب</cell>
+               </row>
+               <row>
+                  <cell>٢٥٠</cell>
+                  <cell>معلم قرائة</cell>
+               </row>
+               <row>
+                  <cell>٢٥٠</cell>
+                  <cell>معلم كتابه</cell>
+               </row>
+            </table>
+         </div>
+         <div>
+            <head>نمرة ١٢٩١</head>
+            <head>يوم الاثنين ٥ صفر سنة ١٢٩٩ الموافق ٢٦ دسمبر الافرنكى سنة ١٨٨١ الموافق ١٨ كيهك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٣</head>
+            <head>نص اعلان وارد من نظارة الاشغال العمومية</head>
+            <p>نظارة الاشغال العمومية ستطرح فى المزاد فى يوم السبت ١٤ يناير سنة ٨٢ الساعه اثنين افرنكى بعد الظهر عمارة لازم اجراؤها بقراقول ضبطية تمن الخليفة من تصليحات وترميمات على مقتضى مقايسة بمبلغ ٢٣٨٩ قرشا و ٢ فضه وشروط موجودة بقلم سكرتارية الهندسة العربى بالديوان فكل من يرغب اجراها يمكنه الاطلاع على المقايسة والشروط من ابتداء الساعة ١١ افرنكى لغاية الساعه ٤ بعد الظهر وقبول العطا يكون داخل مظاريف مغلوقة يجرى تقديمها فى القلم المذكور ومختوما عليها بالشمع الاحمر فى ٢٧ محرم سنة ٩٩ الموافق ٢١ دسمبر سنة ٨١ </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٩١</head>
+            <head>يوم الاثنين ٥ صفر سنة ١٢٩٩ الموافق ٢٦ دسمبر الافرنكى سنة ١٨٨١ الموافق ١٨ كيهك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٣</head>
+            <head>نص اعلان وارد من نظارة الاشغال العمومية</head>
+            <p>نظارة الاشغال العمومية ستطرح فى المزاد فى يم الاربعا ١١ يناير سنة ١٨٨٢ الساعه اثنين افرنكى بعد الظهر عمارة لازم اجراؤها بمحلات العربخانة والاسطبل الموجودين باسفل المحكمة الكبرى الشرعية بمصر من تصليحات وترميمات لجعلهما دفترخانة للمحكمة المذكورة على مقتضى مقايسة بمبلغ ٩٦٥٥ قرشا و ٢٦ فضه وشروط موجودة بقلم سكرتارية الهندسة العربى بالديوان فكل من يرغب اجراها يمكنه الاطلاع على المقايسة والشروط من ابتداء الساعه ١١ افرنكى لغاية الساعه ٤ بعد الظهر وقبول العطا يكون داخل مظاريف مغلوقة يجرى تقديمها فى القلم المذكور مختوما عليها بالشمع الاحمر فى ٢٧ محرم سنة ٩٩ الموافق ١٩ دسمبر سنة ٨١ </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٩٢</head>
+            <head>يوم الثلاثاء ٦ صفر سنة ١٢٩٩ الموافق ٢٧ دسمبر الافرنكى سنة ١٨٨١ الموافق ١٩ كيهك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٢</head>
+            <head>كشف الايرادات والمصروفات من أول يناير لغاية ٣٠ نوفمبر سنة ١٨٨١</head>
+            <table>
+               <row>
+                  <cell>ربط سنة ١٨٨١</cell>
+                  <cell>المنصرف من أول يناير لغاية ٣٠ نوفمبر سنة ١٨٨١</cell>
+                  <cell>مصروفات شهره</cell>
+                  <cell>مصروفات نظارات ومصالح</cell>
+               </row>
+               <row>
+                  <cell>جنيه مصرى</cell>
+                  <cell>جنيه مصرى</cell>
+                  <cell>جنيه مصرى</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>ميزانية اعتيادية عن سنة ١٨٨١</cell>
+               </row>
+               <row>
+                  <cell>٠٦٨١٤٨٦</cell>
+                  <cell>٠٦٢٣٧٢٣</cell>
+                  <cell>٠٠١٣٧٧٨</cell>
+                  <cell>(١) ويركو مصر</cell>
+               </row>
+               <row>
+                  <cell>٣٧٨٨٨٤٠</cell>
+                  <cell>٣٥٤١٥٥٨</cell>
+                  <cell>١١٢٦٦٣٣</cell>
+                  <cell>(٢) الدين العمومى</cell>
+               </row>
+               <row>
+                  <cell>٠٣١٥٠٠٠</cell>
+                  <cell>٠٢٥٦٩٨٤</cell>
+                  <cell>٠٠٢٠٧٧٩</cell>
+                  <cell>(٣) مخصصات الحضرة الخديويه وسائر العائلة الخديوية</cell>
+               </row>
+               <row>
+                  <cell>٠٠٤١٨٢٢</cell>
+                  <cell>٠٠٣٦٤٦٠</cell>
+                  <cell>٠٠٠٣١٨٤</cell>
+                  <cell>(٤) المعية السنية</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٨٩٣٢</cell>
+                  <cell>٠٠٠٣٨٤٩</cell>
+                  <cell>٠٠٠٠٣٩٤</cell>
+                  <cell>(٥) مجلس النظار</cell>
+               </row>
+               <row>
+                  <cell>٠٠١٣١٦٢</cell>
+                  <cell>٠٠١٠٤٩١</cell>
+                  <cell>٠٠٠٠٨٦٧</cell>
+                  <cell>(٦) نظارة الخارجيه</cell>
+               </row>
+               <row>
+                  <cell>٠٠٥٨١٤٨٠</cell>
+                  <cell>٠٤٣١٦٧٦</cell>
+                  <cell>٠٠٣٣٦٧١</cell>
+                  <cell>(٧) نظارة الماليه</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>(٨) نظارتى الجهادية والبحرية</cell>
+               </row>
+               <row>
+                  <cell>٠٣٦٨٠٠٠</cell>
+                  <cell>٠٣٦٥٧٤٧</cell>
+                  <cell>٠٠٣٦١٠٩</cell>
+                  <cell>الجهادية</cell>
+               </row>
+               <row>
+                  <cell>٠٠٥٤٧٣٤</cell>
+                  <cell>٠٠٤٣٧١٠</cell>
+                  <cell>٠٠٠٣٦٣٩</cell>
+                  <cell>البحريه</cell>
+               </row>
+               <row>
+                  <cell>٠٠٨١٩٤٩</cell>
+                  <cell>٠٠٥٠٨٣٥</cell>
+                  <cell>٠٠٠٥٣٩٥</cell>
+                  <cell>(٩) نظارة المدارس</cell>
+               </row>
+               <row>
+                  <cell>٠٥٢١٦١٢</cell>
+                  <cell>٠٣٨٤٢٩٤</cell>
+                  <cell>٠٠٢١٧٦٦</cell>
+                  <cell>(١٠) نظاره الداخلية</cell>
+               </row>
+               <row>
+                  <cell>٠٢٤٦٣٤٢</cell>
+                  <cell>٠٢٠٨٤٩٠</cell>
+                  <cell>٠٠١٥٨٢٨</cell>
+                  <cell>(١١) نظاره الحقانية</cell>
+               </row>
+               <row>
+                  <cell>٠٤٣٩٢٧٠</cell>
+                  <cell>٠٣٤٩٥١٦</cell>
+                  <cell>٠٠٤٤٨٣٧</cell>
+                  <cell>(١٢) نظارة الاشغال العمومية</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>(١٣) السكك الحديد والتلغرافات ومينا اسكندرية</cell>
+               </row>
+               <row>
+                  <cell>٠٤٤٢٦٦٠</cell>
+                  <cell>٠٣٥٨٤٥٤</cell>
+                  <cell>٠٠٣١٤٨١</cell>
+                  <cell>السكك الحديد والتلغرافات</cell>
+               </row>
+               <row>
+                  <cell>٠٠١٩٠٠٠</cell>
+                  <cell>٠٠٠٩٨٠٢</cell>
+                  <cell>٠٠٠١٠٩٤</cell>
+                  <cell>مينا اسكندرية</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٥٤٦٦</cell>
+                  <cell>٠٠٠٦٢٩٤</cell>
+                  <cell>٠٠٠٢٧٨٣</cell>
+                  <cell>سكة حديد حلوان</cell>
+               </row>
+               <row>
+                  <cell>٠٠٦٠١٦٤</cell>
+                  <cell>٠٠٥٥٠٤٢</cell>
+                  <cell>٠٠٠٤٨٦٧</cell>
+                  <cell>(١٤) الكمارك</cell>
+               </row>
+               <row>
+                  <cell>٠٠٧٢٥٠٠</cell>
+                  <cell>٠٠٦٨٩٦٩</cell>
+                  <cell>٠٠٠٥١٨٤</cell>
+                  <cell>(١٥) البوسته</cell>
+               </row>
+               <row>
+                  <cell>٠١٢٦٩٤٥</cell>
+                  <cell>٠١١٢٣٢٧</cell>
+                  <cell>٠٠٠٨١٧٨</cell>
+                  <cell>(١٦) وابورات البوستة الخديوية</cell>
+               </row>
+               <row>
+                  <cell>٠٠٣٨٩٢١</cell>
+                  <cell>٠٠٤٥٣١٤</cell>
+                  <cell>٠٠٠٤٧٨٧</cell>
+                  <cell>(١٧) مصلح</cell>
+               </row>
+               <row>
+                  <cell>٠٠١٥٢٩٥</cell>
+                  <cell>٠٠١١٩٤٢</cell>
+                  <cell>٠٠٠٠٩٠١</cell>
+                  <cell>(١٨) تمن ورق ودفاتر وبعض أصناف معتاد صرفها لمصالح الميرى من المخازن والاشوان ومصروفات المخازن والاشوان بمصر</cell>
+               </row>
+               <row>
+                  <cell>
+                     <p>٠١٥٠٠٠٠</p>
+                  </cell>
+                  <cell>٠٠٠٣٢٤٢</cell>
+                  <cell>٠٠٠٠٠٠٠</cell>
+                  <cell>(١٩) نقود احتياطية لاجل المصروفات الغير منظورة</cell>
+               </row>
+               <row>
+                  <cell>٠٢٣٥٢٩٠</cell>
+                  <cell>٠١٨٩٢٣٨</cell>
+                  <cell>٠٠١٣٤٧٥</cell>
+                  <cell>(٢٠) معاشات</cell>
+               </row>
+               <row>
+                  <cell>٨٣٠٨٨٧٠</cell>
+                  <cell>٨١٦٧٩٥٧</cell>
+                  <cell>١٣٩٩٦٣٠</cell>
+                  <cell>جملة المصروفات بالجنيه المصرى</cell>
+               </row>
+            </table>
+         </div>
+         <div>
+            <head>نمرة ١٢٩٢</head>
+            <head>يوم الثلاثاء ٦ صفر سنة ١٢٩٩ الموافق ٢٧ دسمبر الافرنكى سنة ١٨٨١ الموافق ١٩ كيهك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣</head>
+            <head>كشف مضاهى بين الايرادات والمصروفات من ابتداء يناير لغاية ٣٠ نوفمبر سنة ٨١ وبين ايرادات ومصروفات الاحد عشر شهر الاول من سنة ١٨٨٠</head>
+            <table>
+               <row>
+                  <cell>فرق فى سنة ١٨٨١</cell>
+                  <cell>مصروفات من ابتداء يناير لغاية ٣٠ نوفمبر سنة ١٨٨١</cell>
+                  <cell>مصروفات من ابتداء يناير لغاية ٣٠ نوفمبر سنة ١٨٨٠</cell>
+                  <cell>مصروفات نظارات ومصالح</cell>
+               </row>
+               <row>
+                  <cell>عجز</cell>
+                  <cell>زياده</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>جنيه مصرى</cell>
+                  <cell>جنيه مصرى</cell>
+                  <cell>جنيه مصرى</cell>
+                  <cell>جنيه مصرى</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠١٣٢٧٢</cell>
+                  <cell>٠٦٢٣٧٢٣</cell>
+                  <cell>٠٦١٠٤٥١</cell>
+                  <cell>(١) ويركو مصر</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>١٩٨٩٨٠(١)</cell>
+                  <cell>٣٥٤١٥٥٨</cell>
+                  <cell>٣٣٤٢٥٧٨</cell>
+                  <cell>(٢) الدين العمومى</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٢٨٣٢٤</cell>
+                  <cell>٠٢٥٦٩٨٤</cell>
+                  <cell>٠٢٢٨٦٦٠</cell>
+                  <cell>
+                     <p>(٣) مخصصات الحضرة الخديويه</p>
+                     <p>ومرتبات سائر العائلة الخديويه</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٠٢٠٩٠</cell>
+                  <cell>٠٠٣٦٤٦٠</cell>
+                  <cell>٠٠٣٤٣٧٠</cell>
+                  <cell>(٤) كابينيه الحضرة الخديويه (المعيه السنيه)</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٠٠١٩٩</cell>
+                  <cell>٠٠٠٣٨٤٩</cell>
+                  <cell>٠٠٠٣٦٥٠</cell>
+                  <cell>(٥) مجلس النظار</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٠٠٨٧٧</cell>
+                  <cell>٠٠١٠٤٩١</cell>
+                  <cell>٠٠٠٩٦١٤</cell>
+                  <cell>(٦) نظارة الخارجيه</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٦٠٣٥١</cell>
+                  <cell>٠٤٣١٦٧٦</cell>
+                  <cell>٠٣٧١٣٢٥</cell>
+                  <cell>(٧) نظارة الماليه</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>(٨) نظارتى الجهاديه والبحريه</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٩٦٤١٦</cell>
+                  <cell>٠٣٦٥٧٤٧</cell>
+                  <cell>٠٢٦٩٣٣١</cell>
+                  <cell>الجهاديه</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٠٧١٢٥</cell>
+                  <cell>٠٠٤٣٧١٠</cell>
+                  <cell>٠٠٣٦٥٨٥</cell>
+                  <cell>البحريه</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠١٢٦٢٣</cell>
+                  <cell>٠٠٥٠٨٣٥</cell>
+                  <cell>٠٠٣٨٢١٢</cell>
+                  <cell>(٩) نظارة المعارف</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٥٧٣٩٢</cell>
+                  <cell>٠٣٨٤٢٩٤</cell>
+                  <cell>٠٣٢٦٩٠٢</cell>
+                  <cell>(١٠) نظاره الداخليه</cell>
+               </row>
+               <row>
+                  <cell>١١١٦٣</cell>
+                  <cell>٠٠٠٠٠٠</cell>
+                  <cell>٠٢٠٨٤٩٠</cell>
+                  <cell>٠٤١٩٦٥٣</cell>
+                  <cell>(١١) نظاره الحقانيه</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٧١٥٩٩(٢)</cell>
+                  <cell>٠٣٤٩٥١٦</cell>
+                  <cell>٠٢٧٧٩١٧</cell>
+                  <cell>(١٢) نظاره الاشغال العموميه</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>(١٣) السكك الحديد والتلغراف ومينا اسكندريه</cell>
+               </row>
+               <row>
+                  <cell>٥٣١٦٩</cell>
+                  <cell>٠٠٠٠٠٠</cell>
+                  <cell>٠٣٥٨٤٥٤</cell>
+                  <cell>٠٤١١٦٢٣</cell>
+                  <cell>السكك الحديد والتلغراف</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٠٦٠٧٦</cell>
+                  <cell>٠٠٠٩٨٠٢</cell>
+                  <cell>٠٠٠٣٧٢٦</cell>
+                  <cell>مينا اسكندريه</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٠٠٦٢٠</cell>
+                  <cell>٠٠٠٦٢٩٤</cell>
+                  <cell>الرقم ممسوح وغير واضح</cell>
+                  <cell>سكة حديد حلوان</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٠٤٨٥٦</cell>
+                  <cell>٠٠٥٥٠٤٢</cell>
+                  <cell>٠٠٥٠١٨٦</cell>
+                  <cell>(١٤) كمارك</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٠٦٣٤٤</cell>
+                  <cell>٠٠٦٨٩٦٩</cell>
+                  <cell>٠٠٦٢٦٢٥</cell>
+                  <cell>(١٥) بوسته</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٠١٩٠٦</cell>
+                  <cell>٠١١٢٣٢٧</cell>
+                  <cell>٠١١٠٤٢١</cell>
+                  <cell>(١٦) وابورات البوسته الخديويه</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٢٢٧٠٤(٣)</cell>
+                  <cell>٠٠٤٥٣١٤</cell>
+                  <cell>٠٠٢٢٦١٠</cell>
+                  <cell>(١٧) مصلح</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٠٠٢١٤</cell>
+                  <cell>٠٠١١٩٤٢</cell>
+                  <cell>٠٠١١٧٢٨</cell>
+                  <cell>(١٨) تموين الشون والمخازن</cell>
+               </row>
+               <row>
+                  <cell>٣٢٨٩٧</cell>
+                  <cell>٠٠٠٠٠٠</cell>
+                  <cell>٠٠٠٣٢٤٣</cell>
+                  <cell>٠٠٣٦١٣٩</cell>
+                  <cell>(١٩) نقود احتياطيه لاجل المصروفات الغير واردة الربط</cell>
+               </row>
+               <row>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>٠٢٥٩١٦(٤)</cell>
+                  <cell>٠١٨٩٢٣٨</cell>
+                  <cell>٠١٦٣٣٢٢</cell>
+                  <cell>(٢٠) معاشات</cell>
+               </row>
+               <row>
+                  <cell>٩٧٢٢٩</cell>
+                  <cell>٦١٧٨٨٤</cell>
+                  <cell>٧١٦٧٩٥٧</cell>
+                  <cell>٦٦٤٧٣٠٢</cell>
+                  <cell/>
+               </row>
+            </table>
+         </div>
+         <div>
+            <head>نمرة ١٢٩٢</head>
+            <head>يوم الثلاثاء ٦ صفر سنة ١٢٩٩ الموافق ٢٧ دسمبر الافرنكى سنة ١٨٨١ الموافق ١٩ كيهك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٤ – العمود ١</head>
+            <head>ميزانية غير اعتياديه عن سنة ١٨٨١ مصدقا عليها من الحضرة الخديوية بتاريخ ١٦ لوليو سنة ١٨٨١</head>
+            <head>(كشف عن المصروفات التى صار اجراؤها من الميزانيه الغير الاعتيادية عن سنة ١٨٨١ )</head>
+            <table>
+               <row>
+                  <cell>مربوط مصروفات الميزانية الغير اعتيادية عن سنة ١٨٨١</cell>
+                  <cell>مصروفات من ابتداء لوليو لغاية ٣٠ نوفمبر سنة ١٨٨١</cell>
+                  <cell>مصروفات شهر نوفمبر سنة ١٨٨١</cell>
+                  <cell>
+                     <p>(٢)</p>
+                     <p>مصروفات</p>
+                     <p>نظارات ومصالح</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell>جنيه مصرى</cell>
+                  <cell>جنيه مصرى</cell>
+                  <cell>جنيه مصرى</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٠١٣٧٦٤</cell>
+                  <cell>٠١٣٧٦٤</cell>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>
+                     <p>(١) الدين العمومى</p>
+                     <p>تكميل النصف فى المائة من الدين الموحد عن سنة ١٨٨٠</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell>٠٠١٩٩١</cell>
+                  <cell>٠٠٠٠٠٠</cell>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>(٢) نظارتى الجهادية والبحرية</cell>
+               </row>
+               <row>
+                  <cell>٠٠١٠١٥</cell>
+                  <cell>٠٠٠٠٠٠</cell>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>(٣) نظارة الداخلية</cell>
+               </row>
+               <row>
+                  <cell>١٩٨٢٧٢</cell>
+                  <cell>٠٥٩٦٠٦</cell>
+                  <cell>٠٠٠٠٠</cell>
+                  <cell>(٤) نظارة الاشغال العمومية</cell>
+               </row>
+               <row>
+                  <cell>
+                     <p>٠٩٩٢٥٢</p>
+                     <p>٠١٦٧٣٧</p>
+                  </cell>
+                  <cell>
+                     <p>٠٠٢٣٤٩</p>
+                     <p>٠٠٠٠٠٠</p>
+                  </cell>
+                  <cell>
+                     <p>٠٠٠٠٠</p>
+                     <p>٠٠٠٠٠</p>
+                  </cell>
+                  <cell>
+                     <p>(٥) السكك الحديد والتلغراف ومينا الاسكندرية</p>
+                     <p>السكك الحديد والتلغراف</p>
+                     <p>مينا سكندرية</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell>٠٧٥٠٠٠</cell>
+                  <cell>٠٤٢٢٠٤</cell>
+                  <cell>١٢٦٤٣</cell>
+                  <cell>(٦) وابورات البوستة الخديوية</cell>
+               </row>
+               <row>
+                  <cell>١٠٠٠٠٠</cell>
+                  <cell>٠١٤١٤٤</cell>
+                  <cell>٠٠٠٥١</cell>
+                  <cell>(٧)حكمدارية السودان وسواحل البحر الاحمر ومديرية هرر</cell>
+               </row>
+               <row>
+                  <cell>٠٤٠٧٠٥</cell>
+                  <cell>٠١٢١٧١</cell>
+                  <cell>٠٥٣٠١</cell>
+                  <cell>(٨) نقود احتياطيه لاجل المصروفات الغير وارده لربط الجملة بالجنيه المصرى</cell>
+               </row>
+               <row>
+                  <cell>٥٤٦٧٣٦</cell>
+                  <cell>١٢٦٢٤٣</cell>
+                  <cell>١٧٩٩٥</cell>
+                  <cell>الجمله بالجنيه المصرى</cell>
+               </row>
+            </table>
+         </div>
+         <div>
+            <head>نمرة ١٢٩٣</head>
+            <head>يوم الاربعاء ٧ صفر ١٢٩٩ الموافق ٢٨ دسمبر الافرنكى سنة ١٨٨١ الموافق ٢٠ كيهك القبطى سنة ١٥٩٨</head>
+            <head>ص ٣ – العمود ٢</head>
+            <head>اعلانات</head>
+            <head>نص اعلان وارد من ضبطية مصر</head>
+            <p>عن بيع عقار جرى طرحه أولا بالمزاد ولمناسبة عدم وجود مشترى بالسعر الذى كان تقدر جرى تنقيص خمس المبلغ السابق تقديره </p>
+            <p>انه فى جلسة المزايدات التى يجرى انعقادها بديوان ضبطية مصر فى يوم السبت الموافق ١٤ ذا سنة ١٢٩٨ وواقع فى ٨ شهر اكتوبر سنة ١٨٨١ سيباع بطريق المناداه لمن يرسى عليه آخر عطا العقار الآتى وهو </p>
+            <p>حصة ستة عشر قيراطا على الشيوع بدكان ومنزل علوهما بحارة المدبح بتمن السيده زينب محدودين بحدود أربعة الحد القبلى حارة درب المذبح وفيه الواجهة والباب والحد الشرقى شارع السد وفيه واجهة الدكان والحد الغربى ملك على خليل الزيات والحد البحرى ملك محمد حصحص الغيطانى وتملك الحصة المذكورة الحرمه جميله أم مصطفى بموجب حجة من محكمة مصر الشرعية رقيمه ١١ جماد آخر سنة١٢٧٩ </p>
+            <p>والداعى لذلك البيع هو انه مطلوب من الحرمه جميلة المذكورة مبلغا وقدره ٥٣٦٢ قرش صاغ و ٢٠ فضه الى عيسوى فراج الزيات بمقتضى اعلام شرعى صادر من المحكمة الكبرى الشرعية بتاريخ ٢٤ الحجة سنة ٩٦   ٢١ نمرة ١٦٢ وسبق حجز الحصة تعلقها المذكورة بموجب محضر عن يد درويش أفندى مندوب الضبطية ويكون البيع بالشروط الآتية وهى </p>
+            <p>أولا من يرسى عليه المزاد يستلم العقار بالحالة التى يكون عليها يوم مرسى المزاد بدون مطالبة على الحكومة أو على صاحب العقار بشئ ما بسبب تلف حدث فى المبيع أو تصليحات أو تعميرات لازمة له أو غلط حصل فى تعيين أوصافه وبياناته </p>
+            <p>ثانيا من يرسى عليه المزاد له ان ينتفع فى حقوق الارتفاق التى للمبيع وان يتحمل ما على المبيع المذكور من الحقوق المذكورة سواء كانت تلك الحقوق ظاهرة أو خفية </p>
+            <p>ثالثا من يرسى عليه المزاد ملزوم باداء كافة الحقوق الميرية المرتبة والتى يتحمل ترتيبها على المبيع وملزوم باداء الثمن ورسوم البيع ومصاريفه فى خزينة الضبطية فى ظرف عشرة أيام من يوم مرسى المزاد وان تاخر عن ذلك فملزوم بفائدة المبلغ باعتبار المائة اثنى عشر سنويا  </p>
+            <p>رابعا من يرسى عليه المزاد ملزوم بان يعتبر الايجارات التى يكون جرى التوافق عليها بين صاحب الملك والمستاجرين بشرط ان يكون لسند الايجار تاريخ ثابت بوجه رسمى سابق على تاريخ حجز المبيع </p>
+            <p>خامسا يعطى الى الراسى عليه المزاد محضر البيع مشمولا بصيغة التنفيذ من مأذون حضرة قاضى مصر بعد دفع ثمن البيع باكمله مع الرسوم النسبية باعتبار المائة خمسة والمصاريف كما تقدم وذلك المحضر يكون سندا للمشترى بملكية المبيع ويقوم مقام الحجة وعلى الراسى عليه المزاد أن يسجل محضر البيع بمصاريف من طرفه سواء كان التسجيل فى المحكمة الشرعية أو فى قلم كتاب المحكمة المختلطة </p>
+            <p>سادسا اذا تاخر الراسى عليه المزاد عن وفاء شروط البيع خصوصا فيما يتعلق بدفع الثمن وما يليه من الرسوم والمصاريف يباع المبيع ثانيا بالمزايدة على ذمته فان نقص الثمن يلزم الراسى عليه المزاد الاول بالفرق وان زاد فهذه الزيادة يستحقها الممول المنزوع منه العقار </p>
+            <p>سابعا يباع المبيع بالمزاد ثانيا اذا كان فى ظرف العشرة أيام التالية للبيع الاول تقدم زيادة عن ثمنه الاول بقدر عشر الثمن بناء على البند السابع عشر من الدكريتو الخديوى الصادر فى ٢٥ مارث ١٨٨٠ وفى هذه الحالة لم يترتب أدنى مسئولية ولا تعويض على الحكومة أو على صاحب الملك الاصليين اذا حصل اعادة البيع </p>
+            <p>ثامنا بناء على ما تقدم من الشروط يكون أول عطا فى افتتاح المزايدة مبلغ ٦٤٠٠ قرش صاغ وهذا بناقص الخمس عن قيمة التمن الذى قدروه أهل الخبرة للحصة المذكورة </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٩٣</head>
+            <head>يوم الاربعاء ٧ صفر ١٢٩٩ الموافق ٢٨ دسمبر الافرنكى سنة ١٨٨١ الموافق ٢٠ كيهك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٣ – العمود ٣</head>
+            <head>نص اعلان وارد من الدايره البلديه بمصر بتاريخ ٢٥ شو[ال] سنة ٩٨</head>
+            <p>من ضمن أملاك الميرى المعدة للتاجير محل الكاغدخانة الكائن بجوار السلخانة البحريه استئجار من يدعى محمود شويطر بمدة سنة ختامها ٤ رجب سنة ٩٨ باجرة شهرى ٢٠٧٥ قرشا السابق النشر عنه بالوقايع بتاريخ جماد الآخر سنة ٩٨ باشهاره فى المزاد قد رسى عطاه على شخص يدعى على عبيد البواب باجرة شهرى ١٣٤٠ قرشا أى بالاقل عن ايجار محمود شويطر المذكور مبلغ شهرى شهرى ٧٣٥ ولكون الايجار لم يبلغ حد قيمته ومنظور تحسينه فلهذا لزم الاعلان حتى كل من كان يكون له رغب[ه] فى تاجير ذاك المحل يحضر لديوان الدائرة وبعد اطلاعه على شر[وط] التاجير يعطى مزاده والاعتماد فى احتساب الايجار يكون ابتداء التسليم وقد تحدد لنهو هذا المزاد ميعاد خمسة عشر يو[م] تمضى من تاريخ درج هذا الاعلان وبعد انقضائه ان حضر أح[د] لا يقبل عطاه وبمرسى المزاد يكون الخيار للدايرة فى التسليم وعده </p>
+         </div>
+         <div>
+            <head>نمرة ١٢٩٣</head>
+            <head>يوم الاربعاء ٧ صفر ١٢٩٩ الموافق ٢٨ دسمبر الافرنكى سنة ١٨٨١ الموافق ٢٠ كيهك القبطى سنة ١٥٩٨</head>
+            <head>صفحة ٤ – العمود ٢</head>
+            <head>نص اعلان من نظارة الاشغال العمومية</head>
+            <p>ديوان الاشغال العمومية يشهر بالمزاد مبيع عدد ٧٨٧ أحجار دستور أجناس موجودة بجهة الاستاذ المحمدى بالعباسية </p>
+            <p>ديوان الاشغال العمومية يشهر بالمزاد مبيع ٧٨٧ عدد أحجار دستور أجناس موجوده بجهة الاستاذ المحمدى بالعباسية على ذمة المالية بعضها منحوت والبعض غشيم يبلغ مقدار مكعباتها ١٤ و ١١١ متر تقريبا على مقتضى شروط موجودة بقلم سكرتارية الهندسة العربى بالديوان وقد تحدد لنهو المزاد المذكور يوم السبت ١٥ القعدة سنة ٩٨ الموافق ٨ اكتوبر سنة ٨١ فكل من له رغبة لمشتراها يعاينها أولا بمحل وجودها ويحضر للديوان للاطلاع على المزاد وشروطه ومن لم يحضر لغاية الميعاد المذكور فلا يكلف الديوان بانتظاره ولا باخذ أقوال منه فيما بعد </p>
+            <p>فى غرة القعدة سنة ٩٨ </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,157 +1,152 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities Project</title>
-        <editor xml:id="eNK">Nour Kanaan</editor>
-        <editor xml:id="eAM">Adam Mestyan</editor>
-        <editor xml:id="eDY">Danah Younis</editor>
-        <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
-        <editor xml:id="eAE">Arif Erbil</editor>
-        <editor xml:id="eAK">Ahmed Kamal</editor>
-        <editor xml:id="eAS">Abram Smith</editor>
-        <editor xml:id="eCH">Clara Harms</editor>
-        <editor xml:id="eHS">Hüseyin Sağlam</editor>
-        <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
-        <editor xml:id="eHL">Hiba Laabadli</editor>
-        <editor xml:id="eOE">Othmane Echchabi</editor>
-        <respStmt>
-          <resp>Advisor</resp>
-          <name>Hugh Cayless</name>
-        </respStmt>
-        <respStmt>
-          <resp>Project leader</resp>
-          <name>Adam Mestyan</name>
-        </respStmt>
-        <respStmt>
-          <resp>Project leader</resp>
-          <name>Mercedes Volait</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Sarah Fath Allah</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Karima Nasr</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Rezk Nory</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Arif Erbil</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Ahmed Kamal</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Abram Smith</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Clara Harms</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Hüseyin Sağlam</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Abdulrahman El-Taliawi</name>
-        </respStmt>
-        <sponsor>
-          <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../css/oxygen.css"?>
+<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities Project</title>
+            <editor xml:id="eNK">Nour Kanaan</editor>
+            <editor xml:id="eAM">Adam Mestyan</editor>
+            <editor xml:id="eDY">Danah Younis</editor>
+            <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
+            <editor xml:id="eAE">Arif Erbil</editor>
+            <editor xml:id="eAK">Ahmed Kamal</editor>
+            <editor xml:id="eAS">Abram Smith</editor>
+            <editor xml:id="eCH">Clara Harms</editor>
+            <editor xml:id="eHS">Hüseyin Sağlam</editor>
+            <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+            <editor xml:id="eHL">Hiba Laabadli</editor>
+            <editor xml:id="eOE">Othmane Echchabi</editor>
+            <editor xml:id="eFA">Fatemah Almahana</editor>
+            <respStmt>
+               <resp>Advisor</resp>
+               <name>Hugh Cayless</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Adam Mestyan</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Mercedes Volait</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Sarah Fath Allah</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Karima Nasr</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Rezk Nory</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Arif Erbil</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Ahmed Kamal</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abram Smith</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Clara Harms</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Hüseyin Sağlam</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abdulrahman El-Taliawi</name>
+            </respStmt>
+            <sponsor>
+               <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
           <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
           Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
           Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>. 
         </sponsor>
-      </titleStmt>
-      <publicationStmt>
-        <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
+         </titleStmt>
+         <publicationStmt>
+            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
           du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
-        <p>born digital document</p>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <projectDesc>
-        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
+            <p>
+               <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
+            </p>
+            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+            <p>born digital document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-      </projectDesc>
-      <editorialDecl>
-        <p>Rules of TEI XML MarkUp in This Project</p>
-        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
-          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
-        <p>Each individual article has an individual xml:id number starting with "w1"</p>
-        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
-        <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
-        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+         </projectDesc>
+         <editorialDecl>
+            <p>Rules of TEI XML MarkUp in This Project</p>
+            <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
+            <p>Each individual article has an individual xml:id number starting with "w1"</p>
+            <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
+            <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
+            <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
           Editions</ref>.</p>
-      </editorialDecl>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="ar">Arabic</language>
-        <language ident="en">English</language>
-        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
-        <language ident="ota">Ottoman</language>
-      </langUsage>
-    </profileDesc>
-  </teiHeader>
-  
-  <text xml:lang="ar">
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+            <language ident="ota">Ottoman</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text xml:lang="ar">
       <body>
          <div>
+            <head>نمرة الوقائع 743  9 محرم الحرام سنة 1295هـ الموافق 13 يناير الأفرنجي سنة 1878م ص٣/
+               عمود ٢</head>
             <head>تابع ما ورد من ديوان الحقانية</head>
             <head>عن أسماء العزب التابعة لمحكمة القناطر الخيرية</head>
-            <table rend="rules">
+            <table>
                <row>
-                  <cell style="text-align: left;" rend="List_Paragraph">
-                     <p rend="List Paragraph">
-                        <hi style="font-size:14ptdirection:rtl;">عدد</hi>
-                     </p>
+                  <cell>
+                     <p>عدد</p>
                   </cell>
-                  <cell style="text-align: center;" rend="List_Paragraph"/>
+                  <cell/>
                </row>
                <row>
-                  <cell style="text-align: center;" rend="List_Paragraph">
-                     <hi style="font-size:14ptdirection:rtl;">1</hi>
-                  </cell>
-                  <cell style="text-align: left;">
-                     <p>
-                        <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">عزبة شلقان بدايرتها </hi>
-                     </p>
+                  <cell>١</cell>
+                  <cell>
+                     <p>عزبة شلقان بدايرتها</p>
                   </cell>
                </row>
                <row>
-                  <cell style="text-align: center;" rend="List_Paragraph">
-                     <hi style="font-size:14ptdirection:rtl;">1</hi>
-                  </cell>
-                  <cell style="text-align: left;">
-                     <p>
-                        <hi style="font-size:14ptdirection:rtl;">عزبة المناشي بدايرتها</hi>
-                     </p>
+                  <cell>١</cell>
+                  <cell>
+                     <p>عزبة المناشي بدايرتها</p>
                   </cell>
                </row>
                <row>
-                  <cell style="text-align: left;">
-                     <p>
-                        <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">2 </hi>
-                     </p>
+                  <cell>
+                     <p>٢</p>
                   </cell>
-                  <cell style="text-align: left;">
-                     <p>
-                        <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">فقط هما العزبتين الموضحتين لا غير </hi>
-                     </p>
+                  <cell>
+                     <p>فقط هما العزبتين الموضحتين لا غير</p>
                   </cell>
                </row>
             </table>
@@ -181,61 +176,39 @@
             <head>ص٤/ عمود ١</head>
             <head>اعلانات</head>
             <head>نص اعلان وارد من ديوان الأوقاف بتاريخ ٢٥ صفر سنة ٩٥</head>
-            <table rend="rules">
+            <table>
                <row>
-                  <cell style="text-align: left;">
-                     <p>
-                        <hi style="font-size:14ptdirection:rtl;">عدد</hi>
-                     </p>
+                  <cell>
+                     <p>عدد</p>
                   </cell>
-                  <cell style="text-align: center;" rend="List_Paragraph"/>
+                  <cell/>
                </row>
                <row>
-                  <cell style="text-align: center;" rend="List_Paragraph">
-                     <hi style="font-size:14ptdirection:rtl;">1</hi>
-                  </cell>
-                  <cell style="text-align: left;">
-                     <p style="text-align: left;">
-                        <hi style="font-size:14ptdirection:rtl;">منزل خرب كائن بالعطوف وقف علم الدين شكر الله نظارة الشيخ أحمد على المنوفي مقتضي خر وجه من وقفه بطريق الأستبدال ومقدار مسطح أرضه 137,13 ذراع تقريبا وقايمه مزاد استبداله بطرف مأمور قسم أول أوقاف فكل من له رغبه فى اخذه بالآستبدال فمن بعد معاينه اياه يتوجه لمأمور قسم أول أوقاف ويضع مزاده بما يرغبه بقايمه المراد وتحدد لنهو ذلك خمسة عشر يوما من تاريخه.</hi>
-                     </p>
+                  <cell>١</cell>
+                  <cell>
+                     <p>منزل خرب كائن بالعطوف وقف علم الدين شكر الله نظارة الشيخ أحمد على المنوفي مقتضي خر وجه من وقفه بطريق الأستبدال ومقدار مسطح أرضه ١٣٧,١٣ ذراع تقريبا وقايمه مزاد استبداله بطرف مأمور قسم أول أوقاف فكل من له رغبه فى اخذه بالآستبدال فمن بعد معاينه اياه يتوجه لمأمور قسم أول أوقاف ويضع مزاده بما يرغبه بقايمه المراد وتحدد لنهو ذلك خمسة عشر يوما من تاريخه.</p>
                   </cell>
                </row>
                <row>
-                  <cell style="text-align: center;" rend="List_Paragraph">
-                     <hi style="font-size:14ptdirection:rtl;">1</hi>
-                  </cell>
-                  <cell style="text-align: left;">
-                     <p style="text-align: left;">
-                        <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">نصف معصره خربه كائنة بخط الواجهة ببولاق وقف الحاج ابراهيم حجاب نظارة الست نفيسة بنت حسن مقتضي خروج بناء الحصة المذكورة من وقفها بطريق الاستبدال وخروج أرضها كاملا أيضا بالاستبدال ومقدار مسطح أرضها المذكورة 922 مترا ومقدر بمعرفة أهل الخبرة مبلغ استبدال بنا نصف المعصرة المذكوره 90 جنيه مصري واستبدال ارضها في الكامل 40 جنيه مصري فكل من يرغب لاخذ بنا نصفها وارضها بالزيادة عن ما ذكر فمن بعد معاينته ذلك يتوجه بطرف مأمور قسم ثاني أوقاف ويضع مزاده بما يرغبه بقايمة المزاد وتحدد لنهو ذلك خمسة عشر يوما من تاريخه </hi>
-                     </p>
+                  <cell>١</cell>
+                  <cell>
+                     <p>نصف معصره خربه كائنة بخط الواجهة ببولاق وقف الحاج ابراهيم حجاب نظارة الست نفيسة بنت حسن مقتضي خروج بناء الحصة المذكورة من وقفها بطريق الاستبدال وخروج أرضها كاملا أيضا بالاستبدال ومقدار مسطح أرضها المذكورة ٩٢٢ مترا ومقدر بمعرفة أهل الخبرة مبلغ استبدال بنا نصف المعصرة المذكوره ٩٠ جنيه مصري واستبدال ارضها في الكامل ٤٠ جنيه مصري فكل من يرغب لاخذ بنا نصفها وارضها بالزيادة عن ما ذكر فمن بعد معاينته ذلك يتوجه بطرف مأمور قسم ثاني أوقاف ويضع مزاده بما يرغبه بقايمة المزاد وتحدد لنهو ذلك خمسة عشر يوما من تاريخه</p>
                   </cell>
                </row>
                <row>
-                  <cell style="text-align: center;" rend="List_Paragraph">
-                     <hi style="font-size:14ptdirection:rtl;">1</hi>
-                  </cell>
-                  <cell style="text-align: left;">
-                     <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">أرض جنينة كائنة خارج الحسينية بسكة العباسية بجهة الظاهر وقف أحمد أغا ميلاده ومقدار مسطحها 18759 ذراع عبارة عن فدانين وكسور مقتضى خروجها بالأستبدال مع ما فيها من الأشجار والألات فكل من يرغب لأخذها بطريق  الأستبدال فمن بعد معاينته اياها يتوجه بطرف رئيس دلالين العقارات ويضع مزاده بما يرغبه بقايمة المزاد وتحدد لنهو ذلك واحد وثلاثون يوما من تاريخه </hi>
+                  <cell>١</cell>
+                  <cell>أرض جنينة كائنة خارج الحسينية بسكة العباسية بجهة الظاهر وقف أحمد أغا ميلاده ومقدار مسطحها ١٨٧٥٩ ذراع عبارة عن فدانين وكسور مقتضى خروجها بالأستبدال مع ما فيها من الأشجار والألات فكل من يرغب لأخذها بطريق الأستبدال فمن بعد معاينته اياها يتوجه بطرف رئيس دلالين العقارات ويضع مزاده بما يرغبه بقايمة المزاد وتحدد لنهو ذلك واحد وثلاثون يوما من تاريخه</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>
+                     <p>نصف منزل خرب كائن بحارة السقايين وقف شلبيه بنت جرجس حنس مقتضي خر وجه من وقفه بطريق الأستبدال ومقدار مسطح المنزل بالكامل ١٥ و ٧٥ ذراع ومقدار قمية استبداله ٢٠ بنتو فكل من له رغبة فى أخذه بالاستبدال فبعد معاينته اياه يتوجه بطرف مأمور قسم ثاني أوقاف ويضع مزاده بما يرغبه بقايمة المزاد وتحدد لنهو ذلك خمسة عشر يوما من تاريخه</p>
                   </cell>
                </row>
                <row>
-                  <cell style="text-align: center;" rend="List_Paragraph">
-                     <hi style="font-size:14ptdirection:rtl;">1</hi>
-                  </cell>
-                  <cell style="text-align: left;">
-                     <p style="text-align: left;">
-                        <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">نصف منزل خرب كائن بحارة السقايين وقف شلبيه بنت جرجس حنس مقتضي خر وجه من وقفه بطريق الأستبدال ومقدار مسطح المنزل بالكامل 15 و 75 ذراع ومقدار قمية استبداله 20 بنتو فكل من له رغبة فى أخذه بالاستبدال فبعد معاينته اياه يتوجه بطرف مأمور قسم ثاني أوقاف ويضع مزاده بما يرغبه بقايمة المزاد وتحدد لنهو ذلك خمسة عشر يوما من تاريخه </hi>
-                     </p>
-                  </cell>
-               </row>
-               <row>
-                  <cell style="text-align: center;" rend="List_Paragraph">
-                     <hi style="font-size:14ptdirection:rtl;">4</hi>
-                  </cell>
-                  <cell style="text-align: left;" rend="List_Paragraph">
-                     <p rend="List Paragraph" style="text-align: left;">
-                        <hi style="font-size:14ptdirection:rtl;">الأربعة محلات الموضحين اعلاه تجوز شرعا بخروجهم من أوقافهم بطريق الاستبدال ومن الأقتضاء درجهم بالوقائع كما الجاري فاقتضي تحريره لينتبه بالأجراء هكذا ليكون ذلك في علم الجميع .</hi>
-                     </p>
+                  <cell>٤</cell>
+                  <cell>
+                     <p>الأربعة محلات الموضحين اعلاه تجوز شرعا بخروجهم من أوقافهم بطريق الاستبدال ومن الأقتضاء درجهم بالوقائع كما الجاري فاقتضي تحريره لينتبه بالأجراء هكذا ليكون ذلك في علم الجميع .</p>
                   </cell>
                </row>
             </table>
@@ -358,37 +331,37 @@
             <head>ص٤/ عمود ٢</head>
             <head>نص اعلان</head>
             <p>ان لاجراء ما حكم به المجلس ابتداي مصر في شأن المبلغ المطلوب لمطبعة بولاق طرف الشيخ حسن العدوي من تنفيذ حكم الشروط المأخوذة على المذكور التي مضمونها بيع العقارات المرهونة بطرف المطبعة عند التأخير عن السداد في المواعيد المحددة وهي العقارات الموضحة أدناه فقد جعل بالضبطية قوايم بختم المذكور لاشهار العقارات المذكورة بالمزاد طرف ريس الدلالين لاجل الحصول على مبيع العقارات المذكورة واستيفاء الثمن في مقابلة المطلوب للمطبعة فكل من كان له رغبة في شئ من العقارات المذكورة فليعط المزاد اللازم من بعد المعاينة بطرف الريس المذكور اذا رسا عليه المزاد فليذهب إلى ضبطية لانهاء ما هو لازم والعقارات المذكورة بخط الشنواتي بثمن الجمالية .</p>
-            <table rend="rules">
+            <table>
                <row>
-                  <cell>عدد </cell>
+                  <cell>عدد</cell>
                   <cell/>
                </row>
                <row>
-                  <cell>1</cell>
+                  <cell>١</cell>
                   <cell>
-                     <p>حمام </p>
+                     <p>حمام</p>
                   </cell>
                </row>
                <row>
-                  <cell>1</cell>
+                  <cell>١</cell>
                   <cell>
-                     <p>ربع مشتمل مسكنين </p>
+                     <p>ربع مشتمل مسكنين</p>
                   </cell>
                </row>
                <row>
-                  <cell>2</cell>
+                  <cell>٢</cell>
                   <cell>
                      <p>دكانين</p>
                   </cell>
                </row>
                <row>
-                  <cell>1</cell>
+                  <cell>١</cell>
                   <cell>
-                     <p>قهوة </p>
+                     <p>قهوة</p>
                   </cell>
                </row>
                <row>
-                  <cell>5</cell>
+                  <cell>٥</cell>
                   <cell/>
                </row>
             </table>
