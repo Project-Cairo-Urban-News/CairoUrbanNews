@@ -59,9 +59,9 @@
     <p type="head"><xsl:apply-templates mode="none"/></p>
   </xsl:template>
   
-  <xsl:template match="t:p[normalize-space(.) != '' and t:hi[matches(., '\s*ص\s?\d.*\s*عمود\s*\d.*')]]" mode="pass1" priority="1">
+  <!--<xsl:template match="t:p[normalize-space(.) != '' and t:hi[matches(., '\s*ص\s?\d.*\s*عمود\s*\d.*')]]" mode="pass1" priority="1">
     <milestone n="{normalize-space(.)}"/>
-  </xsl:template>
+  </xsl:template>-->
   
   <xsl:template match="t:p[normalize-space(.) = '']" mode="pass1"/>
   
