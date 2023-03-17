@@ -40,7 +40,7 @@
           "tag": function(elt, type) {
             const c = document.createElement('canvas');
             const ctx = c.getContext('2d');
-            ctx.font='18px Courier';
+            ctx.font='16px Courier';
             const name = elt.getAttribute('data-origname');
             if (type == 'start') {
               const m = ctx.measureText(`${name} ${this.attributes(elt)}`);
@@ -56,7 +56,7 @@
               ctx.fill();
               ctx.fillRect(8, 1, w-8, h - 2);
               ctx.fillStyle = 'black';
-              ctx.font='18px Courier';
+              ctx.font='16px Courier';
               ctx.textBaseline = 'middle';
               ctx.fillText(`${name} ${this.attributes(elt)}`,8,14);
             }
@@ -74,7 +74,7 @@
               ctx.lineTo(w-8, h-1);
               ctx.fill();
               ctx.fillStyle = 'black';
-              ctx.font='18px Courier';
+              ctx.font='16px Courier';
               ctx.textBaseline = 'middle';
               ctx.fillText(name,1,14);
             }
