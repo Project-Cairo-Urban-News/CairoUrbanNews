@@ -43,7 +43,7 @@
             ctx.font='16px Courier';
             const name = elt.getAttribute('data-origname');
             if (type == 'start') {
-              const m = ctx.measureText(`${name} ${this.attributes(elt)}`);
+              const m = ctx.measureText(`${name} ${this.attributes(elt)}`.trim());
               const w = Math.ceil(m.width + 8);
               const h = Math.ceil(m.actualBoundingBoxAscent + m.actualBoundingBoxDescent + 10);
               c.setAttribute('width', w);
