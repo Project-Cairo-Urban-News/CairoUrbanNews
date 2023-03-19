@@ -13,23 +13,87 @@
       let c = new CETEI();
       let behaviors = {
         "tei": {
-          "persName": [
-            ["[ref]", function(e) {
-              e.setAttribute("title", document.querySelector(e.getAttribute("ref")).innerText.replace(/(  |\n)/g, " "));
-            }]
-          ],
-          "placeName": [
-            ["[ref]", ["<a href=\"$rw@ref\">", "</a>"]]
-          ],
-          "roleName": [
-            ["[ref]", function(e) {
-              e.setAttribute("title", document.querySelector(e.getAttribute("ref")).innerText.replace(/(  |\n)/g, " "));
-            }]
-          ]
+          "date": ['',' '],
+          "persName": function(elt) {
+            const result = document.createElement('span');
+            result.innerHTML = elt.innerHTML;
+            result.prepend(this.tag(elt, 'start'));
+            result.append(this.tag(elt, 'end'));
+            return result;
+          },
+          "placeName": function(elt) {
+            const result = document.createElement('span');
+            result.innerHTML = elt.innerHTML;
+            result.prepend(this.tag(elt, 'start'));
+            result.append(this.tag(elt, 'end'));
+            return result;
+          },
+          "orgName": function(elt) {
+            const result = document.createElement('span');
+            result.innerHTML = elt.innerHTML;
+            result.prepend(this.tag(elt, 'start'));
+            result.append(this.tag(elt, 'end'));
+            return result;
+          }
+        },
+        "functions": {
+          "tag": function(elt, type) {
+            const c = document.createElement('canvas');
+            const ctx = c.getContext('2d');
+            ctx.font='16px Courier';
+            const name = elt.getAttribute('data-origname');
+            if (type == 'start') {
+              const m = ctx.measureText(`${name} ${this.attributes(elt)}`.trim());
+              const w = Math.ceil(m.width + 8);
+              const h = Math.ceil(m.actualBoundingBoxAscent + m.actualBoundingBoxDescent + 10);
+              c.setAttribute('width', w);
+              c.setAttribute('height', h);
+              ctx.beginPath();
+              ctx.fillStyle = 'silver';
+              ctx.moveTo(3, Math.ceil(h/2));
+              ctx.lineTo(8, 1);
+              ctx.lineTo(8, h-1);
+              ctx.fill();
+              ctx.fillRect(8, 1, w-8, h - 2);
+              ctx.fillStyle = 'black';
+              ctx.font='16px Courier';
+              ctx.textBaseline = 'middle';
+              ctx.fillText(`${name} ${this.attributes(elt)}`,8,14);
+            }
+            if (type == 'end') {
+              const m = ctx.measureText(name);
+              const w = Math.ceil(m.width + 8);
+              const h = Math.ceil(m.actualBoundingBoxAscent + m.actualBoundingBoxDescent + 10);
+              c.setAttribute('width', w);
+              c.setAttribute('height', h);
+              ctx.beginPath();
+              ctx.fillStyle = 'silver';
+              ctx.fillRect(0, 1, w-8, h - 2);
+              ctx.moveTo(w-3, Math.ceil(h/2));
+              ctx.lineTo(w-8, 1);
+              ctx.lineTo(w-8, h-1);
+              ctx.fill();
+              ctx.fillStyle = 'black';
+              ctx.font='16px Courier';
+              ctx.textBaseline = 'middle';
+              ctx.fillText(name,1,14);
+            }
+            return c;
+          },
+          "attributes": (elt) => {
+            let result = ' ';
+            if (elt.hasAttribute('data-origatts')) {
+              const attrs = elt.getAttribute('data-origatts').split(' ');
+              for (const name of attrs) {
+                result += `${name}="${elt.getAttribute(name.toLowerCase())}" `;
+              }
+            }
+            return result.trim();
+          }
         }
       };
       c.addBehaviors(behaviors);
-      c.getHTML5("https://raw.githubusercontent.com/Project-Cairo-Urban-News/CairoUrbanNews/master/" + file, function(data) {
+      c.getHTML5("https://raw.githubusercontent.com/Project-Cairo-Urban-News/CairoUrbanNews/master/articles/arabic/" + file, function(data) {
         document.getElementById("list").style.display = "none";
         document.querySelector("body").appendChild(data);
       });
@@ -44,22 +108,52 @@
   <style>
     body {
       margin: 2em;
-      font-size: 120%;
       text-align: right;
     }
     li {
       list-style: none;
     }
+    span.tag {
+      background-color: silver;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      padding: 2px;
+
+    }
+    span.start {
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+    span.end {
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+    canvas {
+      position: relative;
+      top: 6px;
+    }
+    tei-text {
+      display: block;
+      margin: auto;
+      width: 60vw;
+    }
+    tei-text[lang=ar] {
+      font-size: 18pt;
+      direction: rtl;
+    } 
+    tei-persname[ref] {
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
   <div id="list">
-    <h1>مقالات إخبارية</h1>
+    <h1>الوقائع المصريّة</h1>
     <ul id="files"></ul>
   </div>
   <script>
     if (url.search == "") {
-      fetch("https://api.github.com/repos/Project-Cairo-Urban-News/CairoUrbanNews/contents")
+      fetch("https://api.github.com/repos/Project-Cairo-Urban-News/CairoUrbanNews/contents/articles/arabic")
       .then(response => response.json())
       .then(data => {
         data.forEach(file => {

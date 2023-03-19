@@ -19,6 +19,7 @@
         <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
         <editor xml:id="eHL">Hiba Laabadli</editor>
         <editor xml:id="eOE">Othmane Echchabi</editor>
+        <editor xml:id="eFA">Fatemah Almahana</editor>
         <respStmt>
           <resp>Advisor</resp>
           <name>Hugh Cayless</name>
@@ -97,7 +98,7 @@
         <p>Each individual article has an individual xml:id number starting with "w1"</p>
         <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
         <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
-        <p>"Mashaykhah" and "thumn" are orgNames.</p>
+        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
         <p>This project's schema considers Till Grallert's work in his <ref
           target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
           Editions</ref>.</p>

@@ -15,6 +15,7 @@
         <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
         <editor xml:id="eHL">Hiba Laabadli</editor>
         <editor xml:id="eOE">Othmane Echchabi</editor>
+        <editor xml:id="eFA">Fatemah Almahana</editor>
         <respStmt>
           <resp>Advisor</resp>
           <name>Hugh Cayless</name>
@@ -93,7 +94,7 @@
         <p>Each individual article has an individual xml:id number starting with "w1"</p>
         <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
         <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
-        <p>"Mashaykhah" and "thumn" are orgNames.</p>
+        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
         <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
           Editions</ref>.</p>
       </editorialDecl>
@@ -112,11 +113,9 @@
       <body xml:lang="ar">
       <div resp="#eSG" xml:id="w100">
         <head><date when-custom="1248-01-05">٥ المحرم الحرام ١٢٤٨</date><date when="1832-06-04">٤
-            يونيو ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٣٨٩</biblScope><biblScope
-              unit="page">صفحة ٣</biblScope></bibl></head>
+            يونيو ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٣٨٩</biblScope><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
         <head>حوادث <orgName>مجلس الجهادية</orgName></head>
-        <p><persName>عثمان بيك امير الاى المشاة الرابع عشر</persName>ارسل <rs type="رسالة"
-            >رسالة</rs> الى <orgName type="مجلس_الجهادية">مجلس الجهادية</orgName> مضمونها ان ارادة
+        <p><persName>عثمان بيك امير الاى المشاة الرابع عشر</persName>ارسل <rs type="رسالة">رسالة</rs> الى <orgName type="مجلس_الجهادية">مجلس الجهادية</orgName> مضمونها ان ارادة
           حضرة افندينا ولى النعم تعلقت بان تنشا غيضه بمحل تعليم العسكر الكائن فى<placeName> قشلة
             الميدان</placeName> المقيم بها عسكر الارطة الثالثة والرابعة من الالاى المحال على عهدته
           مع ان القشلة ضيقة وليس فيها محل اخر للتعليم والمناسب ان يرتب لذلك محل اخر هذا ما انهاه
@@ -128,12 +127,9 @@
       </div>
       <div resp="#eSG" xml:id="w101">
         <head><date when-custom="1248-01-20">٢٠ المحرم الحرام ١٢٤٨</date><date when="1832-06-19">١٩
-            يونيو ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٣٩٤</biblScope><biblScope
-              unit="page">صفحة ٢</biblScope></bibl></head>
+            يونيو ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٣٩٤</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
         <head>حوادث <orgName>مجلس الجهادية</orgName></head>
-        <p><persName>صالح اغا سلام اغاسى</persName> قدم <rs type="رقيما">رقيما</rs> ل<orgName
-            type="مجلس_الجهادية">مجلس الجهادية</orgName> مضمونه ان <placeName
-            type="شونةـمهمات-الجهابية">الشونة</placeName> التى انشئت فى <placeName>بولاق</placeName>
+        <p><persName>صالح اغا سلام اغاسى</persName> قدم <rs type="رقيما">رقيما</rs> ل<orgName type="مجلس_الجهادية">مجلس الجهادية</orgName> مضمونه ان <placeName type="شونةـمهمات-الجهابية">الشونة</placeName> التى انشئت فى <placeName>بولاق</placeName>
           لوضع مهمات الجهادية قد تمت و المهمات التى وضعت فيها قد صرفت وسيوضع فيها البقسماط وحيث انها
           تشتمل على تسعة حواصل وهى لا تسع غير البقسماط واذا وضع فيها لا يبقى بها محل لوضع المهمات
           ينبغى ان تنشا اربعة حواصل فى الزريبة المسورة بالحيطان ويوضع فى وسطها عمد وتسقف هذا ما
@@ -144,9 +140,7 @@
           الانشا يقدم لمجلس الجهادية قائمة المفردات ويحرر اعلام الى الاغا المومى اليه اشعارا له بما
           استقر الراى عليه فى اليوم الرابع و العشرين من ذى الحجة الحرام. </p>
         <div resp="#eSG" xml:id="w102">
-          <head><date when-custom="1248-01-22">٢٢ المحرم الحرام ١٢٤٨</date><date when="1832-06-21"
-              >٢١ يونيو ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٣٩٥</biblScope><biblScope
-                unit="page">صفحة ٤</biblScope></bibl></head>
+          <head><date when-custom="1248-01-22">٢٢ المحرم الحرام ١٢٤٨</date><date when="1832-06-21">٢١ يونيو ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٣٩٥</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس مصر</orgName></head>
           <p><persName>صادق اغا قواس باشى</persName> ارسل <rs type="رسالة">رسالة</rs>الى الافندى
             ناظر الابنية فقدمها لل<orgName type="ديوان_الخديوى">ديوان الخديوى</orgName>واحيلت على
@@ -161,9 +155,7 @@
             المحرم الحرام.</p>
         </div>
         <div resp="#eSG" xml:id="w103">
-          <head><date when-custom="1248-01-27">٢٧ المحرم الحرام ١٢٤٨</date><date when="1832-06-26"
-              >٢٦ يونيو ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٣٩٧</biblScope><biblScope
-                unit="page">صفحة ١</biblScope></bibl></head>
+          <head><date when-custom="1248-01-27">٢٧ المحرم الحرام ١٢٤٨</date><date when="1832-06-26">٢٦ يونيو ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٣٩٧</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس الجهادية</orgName></head>
           <p><persName>حسين اغا ناظر الخياطين</persName> ارسل <rs type="رسالة">رسالة</rs> الى
               <orgName type="مجلس_الجهادية">مجلس الجهادية</orgName> مضمونها ان المحل الذى تقيم به
@@ -176,31 +168,24 @@
             عليه فى اليوم السابع من المحرم الحرام.</p>
         </div>
         <div resp="#eSG" xml:id="w104">
-          <head><date when-custom="1248-01-27">٢٧ المحرم الحرام ١٢٤٨</date><date when="1832-06-26"
-              >٢٦ يونيو ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٣٩٧</biblScope><biblScope
-                unit="page">صفحة ٢</biblScope></bibl></head>
+          <head><date when-custom="1248-01-27">٢٧ المحرم الحرام ١٢٤٨</date><date when="1832-06-26">٢٦ يونيو ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٣٩٧</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس مصر</orgName></head>
           <p><persName>صادق افندى ناظر<orgName type="شونة_الغلال">شونة الغلال التى فى
                   <placeName>بولاق</placeName></orgName></persName> ارسل <rs type="صحيفة">صحيفة</rs>
-            الى <persName>محمود افندى ناظر المبيعات عموما</persName> وقدمت ل<orgName
-              type="مجلس_المشورة">مجلس المشورة</orgName> مضمونها ان بنا الشونة المستجدة بجوار
+            الى <persName>محمود افندى ناظر المبيعات عموما</persName> وقدمت ل<orgName type="مجلس_المشورة">مجلس المشورة</orgName> مضمونها ان بنا الشونة المستجدة بجوار
               <placeName>فم الخليج الزعفران</placeName> و<orgName type="ديوان_الغلال">ديوان
               الغلال</orgName>الكاين فى <placeName>بولاق</placeName> اشغالهما كثيرة والمناسب ان يرتب
             له رجل كاتب ليقيد ما يلزم للعمارة وتخصص له شهرية ويوذن له فى استخدامه فقال ارباب المجلس
-            ان ترتيب الكاتب ليقيد لوازم تلك العمارة فى محله فينبغى ان يحرر اعلام من <orgName
-              type="الديوان_الخديوى">الديوان الخديوى</orgName> الى<persName> احمد افندى المحاسب
+            ان ترتيب الكاتب ليقيد لوازم تلك العمارة فى محله فينبغى ان يحرر اعلام من <orgName type="الديوان_الخديوى">الديوان الخديوى</orgName> الى<persName> احمد افندى المحاسب
               الاول فى جهة الايراد</persName> بانه يتدارك بكاتب ويرسله ويحرر اعلام الى محمود افندى
             المومى اليه بانه يخصص له مائة وخمسين قرشا شهرية ويستخدمه الى حين اتمام هذه العمارة ثم
             يطلقه كما استقر الراى عليه فى اليوم الخامس عشر من المحرم الحرام.</p>
         </div>
         <div resp="#eSG" xml:id="w105">
           <head><date when-custom="1248-02-05">٥ صفر ١٢٤٨</date><date when="1832-06-04">٤ يوليو
-              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠٠</biblScope><biblScope unit="page"
-                >صفحة ٣</biblScope></bibl></head>
+              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠٠</biblScope><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس مصر</orgName></head>
-          <p><persName>صادق اغا قواس باشى</persName> قدم <rs type="رقيما">رقيما</rs>لل<orgName
-              type="ديوان_الخديوى">ديوان الخديوى</orgName> واحيل على <orgName type="مجلس_المشورة"
-              >مجلس المشورة</orgName> مضمونه ان <orgName type="ديوان_كمرك_بولاق">ديوان كمرك
+          <p><persName>صادق اغا قواس باشى</persName> قدم <rs type="رقيما">رقيما</rs>لل<orgName type="ديوان_الخديوى">ديوان الخديوى</orgName> واحيل على <orgName type="مجلس_المشورة">مجلس المشورة</orgName> مضمونه ان <orgName type="ديوان_كمرك_بولاق">ديوان كمرك
               بولاق</orgName> قد تهدم منه جانب بسبب تلاطم النيل فى السنين الماضية والان قد اشرف
             باقيه على التهدم فينبغى ان يكشف عنه ويرمم هذا ما انهاه فقال اهل المجلس ان الافندى ناظر
             الابنية قال فيما تقدم انه كشف عن هذا المحل وتبين له انه يرمم باثنين وعشرين الفا وخمسمائة
@@ -211,12 +196,9 @@
         </div>
         <div resp="#eSG" xml:id="w106">
           <head><date when-custom="1248-02-05">٥ صفر ١٢٤٨</date><date when="1832-06-04">٤ يوليو
-              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠٠</biblScope><biblScope unit="page"
-                >صفحة ٣</biblScope></bibl></head>
+              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠٠</biblScope><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس مصر</orgName></head>
-          <p>البيك الضابط ارسل <rs type="رسالة">رسالة</rs> الى <orgName type="الديوان_الخديوى"
-              >الديوان الخديوى</orgName> مضمونها ان القنطرة التى فى <orgName type=" المخبز-الميرى"
-              >المخبز الميرى</orgName> القريب من <placeName>جامع الظاهر</placeName> اشرفت على الخراب
+          <p>البيك الضابط ارسل <rs type="رسالة">رسالة</rs> الى <orgName type="الديوان_الخديوى">الديوان الخديوى</orgName> مضمونها ان القنطرة التى فى <orgName type=" المخبز-الميرى">المخبز الميرى</orgName> القريب من <placeName>جامع الظاهر</placeName> اشرفت على الخراب
             وانها اذا وقعت يتلف تحتها اناس كثيرون وطلب ترميمها فارسل اعلام من الديوان المذكور الى
             الافندى ناظر الابنية بانه يكشف عنها فوردت منه قائمه تشعر بانه كشف عنها وتبين له انها
             ترمم بتسعة الاف وثلثمائة قرش فقال ارباب المجلس بعد المذاكرة قد تبين من الكشف الذى قدمه
@@ -226,12 +208,10 @@
         </div>
         <div resp="#eSG" xml:id="w107">
           <head><date when-custom="1248-02-09">٩ صفر ١٢٤٨</date><date when="1832-06-08">٨ يوليو
-              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠١</biblScope><biblScope unit="page"
-                >صفحة ٢</biblScope></bibl></head>
+              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠١</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس الجهادية</orgName></head>
           <p><persName>احمد بيك اميرالاى الطوبجيه</persName> ارسل <rs type="رسالة">رسالة</rs> الى
-              <orgName type="مجلس_الجهادية">مجلس الجهادية</orgName> مضمونها ان <placeName
-              type="الاسبيطالية"><orgName>الاسبيطالية</orgName></placeName> التى تنشا فى
+              <orgName type="مجلس_الجهادية">مجلس الجهادية</orgName> مضمونها ان <placeName type="الاسبيطالية"><orgName>الاسبيطالية</orgName></placeName> التى تنشا فى
               <placeName>طرا</placeName> محتاجة الى ثلاثمائة مقطف من الخوص وطلب ان يصرف له هذا ما
             استدعى به فقال ارباب المجلس ان اتمام بنا الاسبيطالية المذكورة سرعة لازم فينبغى ان يحرر
             اعلام من طرف حضرة بيك افندى ناظر الجهادية الى <persName>عمر افندى المامور بصرف
@@ -241,12 +221,10 @@
         </div>
         <div resp="#eSG" xml:id="w108">
           <head><date when-custom="1248-02-11">١١ صفر ١٢٤٨</date><date when="1832-07-10">١٠ يوليو
-              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠٢</biblScope><biblScope unit="page"
-                >صفحة ٤</biblScope></bibl></head>
+              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠٢</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس الجهادية</orgName></head>
           <p><persName>حسين اغا ناظر ورشة الخياطين التى فى
-              <placeName>الداوديه</placeName></persName> قدم <rs type="عرضا">عرضا</rs> ل<orgName
-              type="مجلس_الجهادية">مجلس الجهادية</orgName> مضمونه انه عرض قبل الان للمجلس ان تنشا
+              <placeName>الداوديه</placeName></persName> قدم <rs type="عرضا">عرضا</rs> ل<orgName type="مجلس_الجهادية">مجلس الجهادية</orgName> مضمونه انه عرض قبل الان للمجلس ان تنشا
             اوض فوق الورشة المذكورة وتعمل الخربه التى فيها مخزنا وارسلت خلاصة الى طرف الافندى ناظر
             الابنية الميرية بانه يكشف عن هذا المحال ويقدم لمجلس الجهادية قائمة مفرداتها فعلى موجبها
             كشف عنها وراى انها ترمم بتسعة وثلاثين الفا ومايتين وسبعة وثمانين قرشا وعشرين نصفا فضة
@@ -260,16 +238,11 @@
         </div>
         <div resp="#eSG" xml:id="w109">
           <head><date when-custom="1248-02-16">١٦ صفر ١٢٤٨</date><date when="1832-07-15">١٥ يوليو
-              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠٤</biblScope><biblScope unit="page"
-                >صفحة ١</biblScope></bibl></head>
+              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠٤</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس مصر</orgName></head>
-          <p><persName>منير افندى ناظر العموم بفبريقات البحر الشرقى</persName> قدم ل<orgName
-              type="مجلس_المشورة">مجلس المشورة</orgName>
-            <rs type="تقريرا">تقريرا</rs> مضمونه انه من خلال تعمير السواقى التى فى <orgName
-              type="فبريقة_الحوض_المرصود">فبريقة الحوض المرصود</orgName>اخذ بعض من صناع الفبريقة الى
-              <orgName type="تفنكخانه_الحوض_المرصود">تفنكخانه الحوض المرصود</orgName> والى <orgName
-              type="ورشه_السروج">ورشه السروج</orgName> و<orgName type=" التفنكخانه"
-              >التفنكخانه</orgName> و<orgName type="الطوبخانه">الطوبخانه</orgName> الكائينات
+          <p><persName>منير افندى ناظر العموم بفبريقات البحر الشرقى</persName> قدم ل<orgName type="مجلس_المشورة">مجلس المشورة</orgName>
+            <rs type="تقريرا">تقريرا</rs> مضمونه انه من خلال تعمير السواقى التى فى <orgName type="فبريقة_الحوض_المرصود">فبريقة الحوض المرصود</orgName>اخذ بعض من صناع الفبريقة الى
+              <orgName type="تفنكخانه_الحوض_المرصود">تفنكخانه الحوض المرصود</orgName> والى <orgName type="ورشه_السروج">ورشه السروج</orgName> و<orgName type=" التفنكخانه">التفنكخانه</orgName> و<orgName type="الطوبخانه">الطوبخانه</orgName> الكائينات
               ب<placeName>القلعة</placeName> والان قد تمت السواقى المذكوره ورجع اكثر الصناع
             المذكورين وبقى بعضهم وطلب ان يرسل اليه هؤلاء الباقون من المواضع التى هم فيها فقال اهل
             المجلس انه قد تبين وجوب رد الصناع المذكورين للفبريقه من اى محل وجدوا فيه لانهم قد تمهروا
@@ -282,12 +255,10 @@
         </div>
         <div resp="#eSG" xml:id="w110">
           <head><date when-custom="1248-02-16">١٦ صفر ١٢٤٨</date><date when="1832-07-15">١٥ يوليو
-              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠٤</biblScope><biblScope unit="page"
-                >صفحة ٢</biblScope></bibl></head>
+              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠٤</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
           <head>حوادث<orgName> مجلس مصر</orgName></head>
           <p><persName>امين افندى ناظر الابنية</persName> قدم <rs type="تقريرا">تقريرا</rs> مضمونه
-            ان <persName>راغب افندى ناظر الدفترخانة</persName> كان قد استدعى بان يبنى بوسط <orgName
-              type="الدفترخانه">الدفترخانه</orgName> مصطبة لاجل ان تتجمع فيها الكتاب لانهم اذا كانوا
+            ان <persName>راغب افندى ناظر الدفترخانة</persName> كان قد استدعى بان يبنى بوسط <orgName type="الدفترخانه">الدفترخانه</orgName> مصطبة لاجل ان تتجمع فيها الكتاب لانهم اذا كانوا
             مستقرين بالمخازن لا يمكن الاطلاع عليهم ولايدرى اهم مشتغلون بالخدمة ام لا واستحسن ذلك
             لتكون الخواطر بريئة من الوساوس وارسلت اليه خلاصة بالكشف عن مقدار ما يصرف على بناء المحل
             المذكور فكشف عنه ورأى انه يلزم ان يكون طول المحل المطلوب ستة عشر ذراعا وعرضه عشرة اذرع
@@ -299,17 +270,14 @@
             الاف وخمسمائة قرش فقال ارباب المجلس حيث انه تبين من كلام الافندى المومى اليه انه يلزم
             لهذه العمارة صرف المقدار الذى ذكره ينبغى ان يشرع في بنا المكان المعد لاجتماع الكتبة حتى
             يكونوا بمرأى من عين الناظر حفظا للمصلحة من التعطيل ويتم على مقتضى الكشف ويصرف النظر الان
-            ويصرف النظر الان عن المحل الذى يبنى للناظر المومى اليه ويحرر اعلام من <orgName
-              type="الديوان_الخديوى">الديوان الخديوى</orgName> الى امين افندى ناظر الابنية اشعارا له
+            ويصرف النظر الان عن المحل الذى يبنى للناظر المومى اليه ويحرر اعلام من <orgName type="الديوان_الخديوى">الديوان الخديوى</orgName> الى امين افندى ناظر الابنية اشعارا له
             بما ذكر وعلى هذا استقر الرأى في اليوم السادس من صفر الخير.</p>
         </div>
         <div resp="#eSG" xml:id="w111">
           <head><date when-custom="1248-02-16">١٦ صفر ١٢٤٨</date><date when="1832-07-15">١٥ يوليو
-              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠٤</biblScope><biblScope unit="page"
-                >صفحة ٤</biblScope></bibl></head>
+              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠٤</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس مصر</orgName></head>
-          <p>الافندى ناظر <orgName type="الدرسخانة_الملكية">الدرسخانة الملكية</orgName> قدم <rs
-              type="تقريرا">تقريرا</rs> ل<orgName type="مجلس_المشورة">مجلس المشورة</orgName> مضمونه
+          <p>الافندى ناظر <orgName type="الدرسخانة_الملكية">الدرسخانة الملكية</orgName> قدم <rs type="تقريرا">تقريرا</rs> ل<orgName type="مجلس_المشورة">مجلس المشورة</orgName> مضمونه
             ان حضرة الافندى المأمور باشغال المحروسة انهى انه يلزم ان يرسل اليه افندى مستعد لفردة
             الدواوين الكائنه داخل المحروسه وان خير الله افندى طلب ايضا ان يعطى افنديا بدلا من
               <persName>محمد فهيم افندى الذى جعل معاونا بفبريقات المحلة وسمنود</persName> وانه ارسلت
@@ -326,8 +294,7 @@
         </div>
         <div resp="#eSG" xml:id="w112">
           <head><date when-custom="1248-02-18">١٨ صفر ١٢٤٨</date><date when="1832-07-17">١٧ يوليو
-              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠٥</biblScope><biblScope unit="page"
-                >صفحة ٢</biblScope></bibl></head>
+              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠٥</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس الجهادية</orgName></head>
           <p><persName>صالح اغا ناظر الشونة الكبرى</persName> كان قد قدم <rs type="عرضا">عرضا</rs>
               ل<orgName type="مجلس_الجهادية">مجلس الجهادية</orgName> مضمونه انه يلزم ان تكون حيطان
@@ -342,12 +309,10 @@
         </div>
         <div resp="#eSG" xml:id="w113">
           <head><date when-custom="1248-02-20">٢٠ صفر ١٢٤٨</date><date when="1832-07-19">١٩ يوليو
-              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠٦</biblScope><biblScope unit="page"
-                >صفحة ٣،٤</biblScope></bibl></head>
+              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠٦</biblScope><biblScope unit="page">صفحة ٣،٤</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس الجهادية</orgName></head>
           <p><persName>رستم اغا ناظر <orgName type="اسبيطالية_ابى_زعبل">اسبيطالية ابى
-              زعبل</orgName></persName> قدم <rs type="تقريرا">تقريرا</rs> ل<orgName
-              type="مجلس_الجهادية">مجلس الجهادية</orgName> مضمونه انه ينبغى ان يفتح للاسبيطالية
+              زعبل</orgName></persName> قدم <rs type="تقريرا">تقريرا</rs> ل<orgName type="مجلس_الجهادية">مجلس الجهادية</orgName> مضمونه انه ينبغى ان يفتح للاسبيطالية
             المذكورة باب فى الحائط الخارج عن بابها فقال اهل المجلس انه ينبغى على ما انهاه الناظر
             المومى اليه ان يفتح هذا الباب وتعمل جملة مقتضيات الاسبيطالية المذكورة وان يكشف عن مقدار
             ما يصرف فى بنائها ويخبر تهل المجلس ويرسل اعلام من حضرة بيك افندى ناظر الجهادية الى
@@ -356,8 +321,7 @@
         </div>
         <div resp="#eSG" xml:id="w114">
           <head><date when-custom="1248-02-23">٢٣ صفر ١٢٤٨</date><date when="1832-07-22">٢٢ يوليو
-              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠٧</biblScope><biblScope unit="page"
-                >صفحة ٣</biblScope></bibl></head>
+              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠٧</biblScope><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس الجهادية</orgName></head>
           <p><persName>عبد الكريم افندى ناظر <orgName type="مطبعة_بولاق">مطبعة
               بولاق</orgName></persName> قدم <rs type="صحيفة">صحيفة</rs>الى حضرة <persName>محمد بيك
@@ -372,8 +336,7 @@
         </div>
         <div resp="#eSG" xml:id="w115">
           <head><date when-custom="1248-02-23">٢٣ صفر ١٢٤٨</date><date when="1832-07-22">٢٢ يوليو
-              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠٧</biblScope><biblScope unit="page"
-                >صفحة ٣</biblScope></bibl></head>
+              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠٧</biblScope><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس مصر</orgName></head>
           <p><persName>سليم اغا ناظر <placeName>خليج الزعفران</placeName> سابقا</persName> بقى بذمته
             بعد تحصيل ما امكن اخذه منه مائة واحد وخمسون الفا وثلاثمائة واربعة وستون قرشا واثنا عشر
@@ -392,8 +355,7 @@
         </div>
         <div resp="#eSG" xml:id="w116">
           <head><date when-custom="1248-02-27">٢٧ صفر ١٢٤٨</date><date when="1832-07-26">٢٦ يوليو
-              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠٩</biblScope><biblScope unit="page"
-                >صفحة ٢</biblScope></bibl></head>
+              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠٩</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس مصر</orgName></head>
           <p><persName>راغب افندى امين <orgName type="الدفترخانة">الدفترخانه</orgName></persName>قرر
             ان المحل المذكور لما كان منتسبا الى <placeName>القلعة</placeName> كان بعض مقتضياته كنجار
@@ -413,12 +375,10 @@
         </div>
         <div resp="#eSG" xml:id="w117">
           <head><date when-custom="1248-02-27">٢٧ صفر ١٢٤٨</date><date when="1832-07-26">٢٦ يوليو
-              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠٩</biblScope><biblScope unit="page"
-                >صفحة ٤</biblScope></bibl></head>
+              ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٠٩</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس الجهادية</orgName></head>
           <p>قد ورد على <orgName type="مجلس_الجهادية">مجلس الجهادية</orgName>
-            <rs type="جرنال">جرنال</rs> من الالاى الرابع عشر المقيم بالمحروسة مضمونه ان <placeName
-              type="القشلة">القشلة</placeName> التى فيها غشيم ارط الالاى المذكور تحتاج الى شبابيك
+            <rs type="جرنال">جرنال</rs> من الالاى الرابع عشر المقيم بالمحروسة مضمونه ان <placeName type="القشلة">القشلة</placeName> التى فيها غشيم ارط الالاى المذكور تحتاج الى شبابيك
             وغيرها مما يشبه ذلك فقال اهل المجلس ينبغى ان يرسل رجل مهندس الى القشلة المذكورة ليكشف
             عما يلزم عمله بها وبعد الكشف يحرر اعلام من طرف حضرة بيك افندى ناظر الجهادية الى حضرة
               <persName>امين افندى ناظر الابنية الميرية</persName> اشعارا له بعمل ذلك كما استقر
@@ -426,8 +386,7 @@
         </div>
         <div resp="#eSG" xml:id="w118">
           <head><date when-custom="1248-03-07">٧ ربيع الاول ١٢٤٨</date><date when="1832-08-04">٤
-              اغسطس ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤١٢</biblScope><biblScope
-                unit="page">صفحة ٣</biblScope></bibl></head>
+              اغسطس ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤١٢</biblScope><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس الجهادية</orgName></head>
           <p><persName>احمد بيك امير لواء الطوبجيه</persName> ارسل <rs type="رسالة">رسالة</rs> الى
               <orgName type="مجلس_المشورة">مجلس المشورة</orgName> مضمونها انه طلب ان يصرف له الفا
@@ -439,8 +398,7 @@
         </div>
         <div resp="#eSG" xml:id="w119">
           <head><date when-custom="1248-03-14">١٤ ربيع الأول ١٢٤٨</date><date when="1832-08-11">١١
-              اغسطس ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤١٦</biblScope><biblScope
-                unit="page">صفحة ٣</biblScope></bibl></head>
+              اغسطس ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤١٦</biblScope><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس الجهادية</orgName></head>
           <p><persName>حسين بيك امير الالاى مفتش الروزنامه وناظر المهمات الحربيه</persName> قرر انه
             قد استقر الرأى بالمجلس فى السنة الماضية على ان تنشا <orgName type="زيبة_الفحم">زيبة
@@ -454,19 +412,16 @@
             المومى اليه اشعارا بالتاكيد فى رفع ما ذكر ويلحق المحل المذكور بالزريبة حيث كان الفحم وما
             عداه من سائر اللوازم الوارده من<placeName> الاسكندرية</placeName> يلزم حفظها ويعجل اتمام
             ذلك باجتهاد ويعرف بما ذكر حضرة الافندى ناظر الابنية هذا ما قرر فقال اهل المجلس حيث كان
-            ما انهاه المومى اليه فى محله ينبغى ان يحرر اعلام من طرف حضرة بيك افندى ناظر <orgName
-              type="الجهادية">الجهادية</orgName> الى كل من الكتخدا والافندى ناظر الابنية اشعارا لهما
+            ما انهاه المومى اليه فى محله ينبغى ان يحرر اعلام من طرف حضرة بيك افندى ناظر <orgName type="الجهادية">الجهادية</orgName> الى كل من الكتخدا والافندى ناظر الابنية اشعارا لهما
             بان يجريا ذلك على الوجه المحرر كما استقر الراى عليه فى اليوم الخامس من شهر ربيع
             الاول.</p>
         </div>
         <div resp="#eSG" xml:id="w120">
           <head><date when-custom="1248-03-29">٢٩ ربيع الاول ١٢٤٨</date><date when="1832-08-26">٢٦
-              اغسطس ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٢١</biblScope><biblScope
-                unit="page">صفحة ٢</biblScope></bibl></head>
+              اغسطس ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٢١</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس مصر</orgName></head>
           <p><persName>راغب افندى امين <orgName type="الدفترخانه">الدفترخانه</orgName></persName>
-            قرر انه كان استدعى فى <rs type="تقرير">تقرير</rs> قدمه ل<orgName type="مجلس_المشورة"
-              >مجلس المشورة</orgName> بأن تنشأ مصطبه للكتبه ليجتمعوا فى محل واحد ويكونوا بمرأى من
+            قرر انه كان استدعى فى <rs type="تقرير">تقرير</rs> قدمه ل<orgName type="مجلس_المشورة">مجلس المشورة</orgName> بأن تنشأ مصطبه للكتبه ليجتمعوا فى محل واحد ويكونوا بمرأى من
             الناظر وان تنشا له اوضة مختصره وصدرت خلاصة من المجلس وارسلت الى الافندى ناظر الابنية
             بالكشف عن مصاريف ذلك فكشف وعرض للمجلس انه يصرف عليه خمسة عشر الف قرش وخمسمائة واستقر
             الراى على انشاء المصطبة وصرف النظر عن اوضة الناظر على ان كل ناظر فى مصلحة له اوضة مخصوصة
@@ -479,12 +434,9 @@
         </div>
         <div resp="#eSG" xml:id="w121">
           <head><date when-custom="1248-03-29">٢٩ ربيع الاول ١٢٤٨</date><date when="1832-08-26">٢٦
-              اغسطس ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٢١</biblScope><biblScope
-                unit="page">صفحة ٣</biblScope></bibl></head>
+              اغسطس ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٢١</biblScope><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس مصر</orgName></head>
-          <p>رجل من رؤساء المراكب اسمه يوسف عويل قدم <rs type="عرضا">عرضا</rs> لل<orgName
-              type="الدوان_الخديوى">ديوان الخديوى</orgName> واحيل على <orgName type="مجلس_المشورة"
-              >مجلس المشورة</orgName> مضمونه ان <orgName type="البارودخانه">البارودخانة</orgName>
+          <p>رجل من رؤساء المراكب اسمه يوسف عويل قدم <rs type="عرضا">عرضا</rs> لل<orgName type="الدوان_الخديوى">ديوان الخديوى</orgName> واحيل على <orgName type="مجلس_المشورة">مجلس المشورة</orgName> مضمونه ان <orgName type="البارودخانه">البارودخانة</orgName>
             التى صرف النظر عن عمارتها بنواحى <placeName>جزيرة الذهب</placeName> كان قد شحن لها مركبه
             بالاحجار من <placeName>اثر النبى</placeName> واعطاه <persName>مصطفى اغا قفوش اغاسى ناظر
               العمارة</persName> رجعة اجرته مختومة بختمه وضاعت منه واستدعى بان تخصم الاجرة مما فى
@@ -500,12 +452,9 @@
         </div>
         <div resp="#eSG" xml:id="w122">
           <head><date when-custom="1248-04-04">٤ ربيع الاخر ١٢٤٨</date><date when="1832-08-31">٣١
-              اغسطس ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٢٣</biblScope><biblScope
-                unit="page">صفحة ٢</biblScope></bibl></head>
+              اغسطس ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٢٣</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس الجهادية</orgName></head>
-          <p><persName>خليل اغا جبجى باشى</persName> قدم <rs type="تقريرا">تقريرا</rs> ل<orgName
-              type="مجلس_مشورة_الجهادية">مجلس مشورة الجهادية</orgName> مضمونه ان <orgName
-              type="مخابز_الجهادية">مخابز الجهادية</orgName> الكائنة ب<placeName>مصر
+          <p><persName>خليل اغا جبجى باشى</persName> قدم <rs type="تقريرا">تقريرا</rs> ل<orgName type="مجلس_مشورة_الجهادية">مجلس مشورة الجهادية</orgName> مضمونه ان <orgName type="مخابز_الجهادية">مخابز الجهادية</orgName> الكائنة ب<placeName>مصر
               القديمه</placeName> تحتاج الى تعمير ويلزم ان يجدد مخبزان ومعجن طوله خمسة عشر ذراعا
             وعرضه احد عشر ذراعا ومخزن للدقيق طوله خمسة عشر ذراعا وعرضه عشرة اذرع ومرفع طوله ثمانية
             اذرع ونصف وارتفاعه خمسة اذرع هذا ما انهاه فقال اهل المجلس حيث كان العسكر الجهادى يتزايد
@@ -516,14 +465,11 @@
         </div>
         <div resp="#eSG" xml:id="w123">
           <head><date when-custom="1248-04-07">٧ ربيع الاخر ١٢٤٨</date><date when="1832-09-03">٣
-              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٢٤</biblScope><biblScope
-                unit="page">صفحة ٢</biblScope></bibl></head>
+              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٢٤</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس مصر</orgName></head>
           <p><persName>محمد عيسوى ناظر <orgName type="فبريقة_الخرنفش">فبريقة
                   <placeName>الخرنفش</placeName></orgName></persName> قدم <rs type="عرضا">عرضا</rs>
-              ل<persName>منير افندى ناظر الفبريقات عموما</persName> وارسله الى <orgName
-              type="الديوان_الخديوى">الديوان الخديوى</orgName> واحيل على <orgName
-              type="مجلس_المشورة">مجلس المشورة</orgName> مضمونه ان زجاج شبابيك الفبريقة المذكورة
+              ل<persName>منير افندى ناظر الفبريقات عموما</persName> وارسله الى <orgName type="الديوان_الخديوى">الديوان الخديوى</orgName> واحيل على <orgName type="مجلس_المشورة">مجلس المشورة</orgName> مضمونه ان زجاج شبابيك الفبريقة المذكورة
             مكسر وينبغى ان يجدد لحفظ الالات من التراب وان اصطبل الدواب محتاج الى التعمير ويلزم ان
             يعمر واذ استفهم عن ذلك من ناظر الابنية اجاب بعد الكشف بان تعمير الاصطبل المذكور مع تجديد
             الزجاج يكون بالفين وتسعمائة وخمسة عشر قرشا فقال اهل المجلس حيث كان ترميم المحل المذكور
@@ -534,13 +480,10 @@
         </div>
         <div resp="#eSG" xml:id="w124">
           <head><date when-custom="1248-04-07">٧ ربيع الاخر ١٢٤٨</date><date when="1832-09-03">٣
-              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٢٤</biblScope><biblScope
-                unit="page">صفحة ٤</biblScope></bibl></head>
-          <p><persName>حضرة محمد افندى المامور باشغال المحروسة</persName> ارسل <rs type="رسالة"
-              >رسالة</rs> الى حضرة الافندى ناظر <orgName type="مجلس_المشورة">مجلس المشورة</orgName>
+              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٢٤</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+          <p><persName>حضرة محمد افندى المامور باشغال المحروسة</persName> ارسل <rs type="رسالة">رسالة</rs> الى حضرة الافندى ناظر <orgName type="مجلس_المشورة">مجلس المشورة</orgName>
             مضمونها ان المساعد الذى بمعية <persName>المعلم حنا غبريال رئيس كتبة</persName> المصالح
-            المحالة على عهدته لا يكفى لادارة الاشغال لان الدواليب المعدة ل<orgName
-              type="مصلحة_الدبارة">مصلحة الدبارة</orgName> الكائنة ب<placeName>الحوض
+            المحالة على عهدته لا يكفى لادارة الاشغال لان الدواليب المعدة ل<orgName type="مصلحة_الدبارة">مصلحة الدبارة</orgName> الكائنة ب<placeName>الحوض
               المرصود</placeName> كانت فى الاصل اتنى عشر دولابا والان صارت اربعين ومن اجل ذلك استدعى
             بان يعطى مساعدا شهريته مائة قرش ليقدم الحسابات فى وقتها فقال اهل المجلس ينبغى ان يحرر
             اعلام من <orgName type="الديوان_الخديوى">الديوان الخديوى</orgName> الى حضرة الافندى
@@ -549,8 +492,7 @@
         </div>
         <div resp="#eSG" xml:id="w125">
           <head><date when-custom="1248-04-09">٩ ربيع الاخر ١٢٤٨</date><date when="1832-09-05">٥
-              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٢٥</biblScope><biblScope
-                unit="page">صفحة ٢</biblScope></bibl></head>
+              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٢٥</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس مصر</orgName></head>
           <p>ورد <rs type="امر">امر</rs> شريف من حضرة افندينا ولى النعم خطابا لحضرة [ا]لافندى ناظر
               <orgName type="مجلس_المشورة">مجلس مشورة</orgName> مضمونه انه شاهد بنظره العالى فى
@@ -561,14 +503,12 @@
             مقتضى ما تعلقت به ارادة ولى النعم السنية من ان المحلات التى تعمل الان بالترسانة وغيرها
             من سائر الاعمال لا يكون بناوها بالطوب النيئ وانما يكون بالطوب الاحمر وحجر الدبش ينبغى ان
             يكشف عن المحلات التى اريد بناؤها بالترسانة ويحرر مصروف لوازمها بطريق التخمين فى قائمة
-            ويقدم لمجلس المشورة وبعده يكون العمل بما يقتضيه الحال ويحرر اعلام من <orgName
-              type="الديوان_الخديوى">الديوان الخديوى</orgName> الى الافندى ناظر الابنية اشعارا له
+            ويقدم لمجلس المشورة وبعده يكون العمل بما يقتضيه الحال ويحرر اعلام من <orgName type="الديوان_الخديوى">الديوان الخديوى</orgName> الى الافندى ناظر الابنية اشعارا له
             بما ذكر واستقر الراى عليه فى اليوم الخامس والعشرين من شهر ربيع الاول. </p>
         </div>
         <div resp="#eSG" xml:id="w126">
           <head><date when="1248-04-09">٩ ربيع الاخر ١٢٤٨</date><date when-custom="1832-09-05">٥
-              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٢٥</biblScope><biblScope
-                unit="page">صفحة ٢</biblScope></bibl></head>
+              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٢٥</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس الجهادية</orgName></head>
           <p><persName>امين افندى ناظر الابنية</persName> قدم <rs type=" تقريرا">تقريرا</rs> للمجلس
             مضمونه ان <persName>خليل اغا جبجى <sic>باشتى</sic></persName> كان قد قدم عرضا للمشورة
@@ -582,11 +522,9 @@
         </div>
         <div resp="#eSG" xml:id="w127">
           <head><date when-custom="1248-04-11">١١ ربيع الاخر ١٢٤٨</date><date when="1832-09-07">٧
-              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٢٦</biblScope><biblScope
-                unit="page">صفحة ٤</biblScope></bibl></head>
+              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٢٦</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس الجهادية</orgName></head>
-          <p><persName>امين افندى ناظر الابنية</persName> قدم <rs type="تقريرا">تقريرا</rs>ل<orgName
-              type="مجلس_المشورة">مجلس المشورة</orgName> مضمونه ان <placeName>طاحون
+          <p><persName>امين افندى ناظر الابنية</persName> قدم <rs type="تقريرا">تقريرا</rs>ل<orgName type="مجلس_المشورة">مجلس المشورة</orgName> مضمونه ان <placeName>طاحون
               الهوا</placeName> الكائنة ب<placeName>اثر النبى</placeName> انكسر عودها الكبير فيلزم
             تبديله بعود اخر من خشب الميسة او من غيره طوله عشرة اذرع او اثنا عشر ذراعا فقال اهل
             المجلس انه كان قد تقدم ارسال خلاصة الى <persName>احمد افندى قائمقام المهمات الحربية
@@ -598,14 +536,11 @@
         </div>
         <div resp="#eSG" xml:id="w128">
           <head><date when-custom="1248-04-16">١٦ ربيع الاخر ١٢٤٨</date><date when="1832-09-12">١٢
-              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٢٨</biblScope><biblScope
-                unit="page">صفحة ٣</biblScope></bibl></head>
+              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٢٨</biblScope><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس مصر</orgName></head>
           <p><persName>سعيد افندى ناظر تشغيل الحصر</persName> ارسل <rs type="رسالة">رسالة</rs> الى
-              <persName>على افندى ناظر التشغيل عموما</persName> وقدمها ل<orgName type="مجلس_المشورة"
-              >مجلس المشورة</orgName> مضمونها ان سقف مخزن <placeName>شونة الحلفا</placeName> الكائنة
-              ب<placeName>بولاق</placeName> قد خرب وان الحدادين الذين ب<placeName><orgName
-                type="فبريقة_السبتيه">فبريقة السبتيه</orgName></placeName> محلهم مقابل الشبابيك
+              <persName>على افندى ناظر التشغيل عموما</persName> وقدمها ل<orgName type="مجلس_المشورة">مجلس المشورة</orgName> مضمونها ان سقف مخزن <placeName>شونة الحلفا</placeName> الكائنة
+              ب<placeName>بولاق</placeName> قد خرب وان الحدادين الذين ب<placeName><orgName type="فبريقة_السبتيه">فبريقة السبتيه</orgName></placeName> محلهم مقابل الشبابيك
             والنار قريبة من الحلفا المذكوره والحلفا كالكبريت ولا يخلو ذلك من بعض المهالك والعياذ
             بالله تعالى كما هو ظاهر فيلزم تعمير المخزن وسد الشبابيك لحفظ الحلفا فقال اهل المجلس ان
             تعمير المحل المذكور وسد الشبابيك يتم بثلاثمائة قرش كما افاد ذلك <persName>امين افندى
@@ -617,13 +552,11 @@
         </div>
         <div resp="#eSG" xml:id="w129">
           <head><date when-custom="1248-04-22">٢٢ ربيع الاخر ١٢٤٨</date><date when="1832-09-18">١٨
-              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٣٠</biblScope><biblScope
-                unit="page">صفحة ٢،٣</biblScope></bibl></head>
+              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٣٠</biblScope><biblScope unit="page">صفحة ٢،٣</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس الجهادية</orgName></head>
           <p><persName>ولى اغا وكيل ناظر الابنية</persName> قدم <rs type="تقريرا">تقريرا</rs>
               ل<orgName type="مشورة_الجهادية">مشورة الجهادية</orgName> مضمونه انه يلزم مائتا قنطار
-            من الجير وعشرة قناطير من دق الكتان لتبيض الحائط الذى فى وسط <placeName><orgName
-                type="اسبيطالية_الطب_البيطرى">اسبيطالية الطب البيطرى</orgName></placeName> فقال اهل
+            من الجير وعشرة قناطير من دق الكتان لتبيض الحائط الذى فى وسط <placeName><orgName type="اسبيطالية_الطب_البيطرى">اسبيطالية الطب البيطرى</orgName></placeName> فقال اهل
             المجلس ينبغى ان يحرر اعلام من حضرة بيك افندى ناظر الجهادية الى <persName>عمر افندى
               المأمور بصرف المهمات</persName> بان ياذن فى صرف ما ذكر من الجير ودق الكتان اللازمين
             لتبييض الحائط المذكور واعلام الى <persName>مصطفى اغا ناظر الابنية</persName> بان يرسل
@@ -631,12 +564,9 @@
         </div>
         <div resp="#eSG" xml:id="w130">
           <head><date when-custom="1248-04-22">٢٢ ربيع الاخر ١٢٤٨</date><date when="1832-09-18">١٨
-              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٣٠</biblScope><biblScope
-                unit="page">صفحة ٤</biblScope></bibl></head>
+              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٣٠</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس الجهادية</orgName></head>
-          <p><persName>محمد افندى مدير السرجخانه والتيمورخانه</persName> ارسل <rs type="رسالة"
-              >رسالة</rs> الى حضرة <persName>امير اللوا[ء] ادهم بيك</persName> وهو قدمها ل<orgName
-              type="مجلس_مشورة_الجهادية">مجلس مشورة الجهادية</orgName> مضمونها ان الابل والاثوار
+          <p><persName>محمد افندى مدير السرجخانه والتيمورخانه</persName> ارسل <rs type="رسالة">رسالة</rs> الى حضرة <persName>امير اللوا[ء] ادهم بيك</persName> وهو قدمها ل<orgName type="مجلس_مشورة_الجهادية">مجلس مشورة الجهادية</orgName> مضمونها ان الابل والاثوار
             التى تدير دواليب الورشة ليس لها محل مخصوص وحيث ان مبيتها فى اى موضع كان صارت اجسادها
             ملوثة بالطين ولم تسمح ولم تخل من القراد وانه كان بالقرب من محل البقر كوم تراب وقد كشف
             محله فينبغى ان يبنى له محيط ويعد لذلك فقال اهل المجلس ان بنا المحل المذكور يكون سببا
@@ -648,11 +578,9 @@
         </div>
         <div resp="#eSG" xml:id="w131">
           <head><date when-custom="1248-04-20">٢٠ ربيع الاخر ١٢٤٨</date><date when="1832-09-20">٢٠
-              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٣١</biblScope><biblScope
-                unit="page">صفحة ١</biblScope></bibl></head>
+              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٣١</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس مصر</orgName></head>
-          <p>رجل اسمه محمد البارودى قدم <rs type="عرضا">عرضا</rs> لل<orgName type="ديوان_الخديوى"
-              >ديوان الخديوى</orgName> وسئل عنه <persName>امين افندى ناظر الابنية</persName> واحيل
+          <p>رجل اسمه محمد البارودى قدم <rs type="عرضا">عرضا</rs> لل<orgName type="ديوان_الخديوى">ديوان الخديوى</orgName> وسئل عنه <persName>امين افندى ناظر الابنية</persName> واحيل
             على <orgName type="مجلس_المشورة">مجلس المشورة</orgName> مضمونه ان له عرصة بداخل
                 <placeName><orgName type="معمل_الشمع">معمل الشمع</orgName></placeName> الذى اخذ
                 لل<placeName><orgName type="باقرخانه">باقرخانه</orgName></placeName> منذ سنين ولم
@@ -668,8 +596,7 @@
         </div>
         <div resp="#eSG" xml:id="w132">
           <head><date when-custom="1248-04-27">٢٧ ربيع الاخر ١٢٤٨</date><date when="1832-09-23">٢٣
-              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٣٢</biblScope><biblScope
-                unit="page">صفحة ١</biblScope></bibl></head>
+              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٣٢</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس مصر</orgName></head>
           <p>ناظر الاشارات عرض لل<orgName type="ديوان_الخديوى">ديوان الخديوى</orgName> ان قلل
             الاشارات من المحروسة الى <placeName>قرية بيبان</placeName> تحتاج الى العماره وارسل مهندس
@@ -685,11 +612,9 @@
         </div>
         <div resp="#eSG" xml:id="w133">
           <head><date when-custom="1248-04-27">٢٧ ربيع الاخر ١٢٤٨</date><date when="1832-09-23">٢٣
-              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٣٢</biblScope><biblScope
-                unit="page">صفحة ١</biblScope></bibl></head>
+              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٣٢</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس مصر</orgName></head>
-          <p><persName>امير اللوا[ء] ادهم بيك مفتش المهمات الحربية</persName> ارسل <rs type="رسالة"
-              >رسالة</rs> الى <orgName type="الديوان_الخديوى">الديوان الخديوى</orgName> واحيلت على
+          <p><persName>امير اللوا[ء] ادهم بيك مفتش المهمات الحربية</persName> ارسل <rs type="رسالة">رسالة</rs> الى <orgName type="الديوان_الخديوى">الديوان الخديوى</orgName> واحيلت على
               <orgName type="مجلس_المشورة">مجلس المشورة</orgName> مضمونها ان الفرن الذى انشئ جديدا
               ب<orgName type="الباقرخانه">الباقرخانه</orgName> لسبك حلل السكر يلزم بنا بعض مواضع منه
             بطرفيه الشرقى والقبلى وقد تبين بالكشف الواقع من <persName>امين افندى ناظر
@@ -701,19 +626,16 @@
         </div>
         <div resp="#eSG" xml:id="w134">
           <head><date when-custom="1248-04-29">٢٩ ربيع الاخر ١٢٤٨</date><date when="1832-09-25">٢٥
-              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٣٣</biblScope><biblScope
-                unit="page">صفحة ٢</biblScope></bibl></head>
+              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٣٣</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس مصر</orgName></head>
-          <p>حضرة الافندى مأمور اشغال المحروسة ارسل <rs type="رسالة">رسالة</rs> الى <orgName
-              type="مجلس_المشورة">مجلس المشورة</orgName> مضمونها انه وردت عليه خلاصة من المجلس بان
+          <p>حضرة الافندى مأمور اشغال المحروسة ارسل <rs type="رسالة">رسالة</rs> الى <orgName type="مجلس_المشورة">مجلس المشورة</orgName> مضمونها انه وردت عليه خلاصة من المجلس بان
               <persName>المعلم تادرس كاتب<placeName>شونة التبن</placeName> الكائنة بالوجه
               القبلى</persName> افاد انه ارسل الى <orgName type="ديوان_اشغال_المحروسة">ديوان اشغال
               المحروسة</orgName> من متاخرات <orgName type="مصلحة_التبن">مصلحة التبن</orgName> الف
             وستمائة وخمسة وتسعون حملا الى غاية ذى الحجه سنة خمس واربعين وانه سال كاتب
               <placeName>شونة التبن</placeName> الكائنة ب<placeName>مصر القديمة</placeName> عن خصوص
             الامر المذكور فا جاب بانه فى المدة المذكورة لم يات من المتاخرات شئ من هذا المقدار
-            المذكور من التبن وحيث ان المصلحة المذكورة احيلت على <orgName type="ديوان_الترسانات"
-              >ديوان الترسانات</orgName> من ابتدا[ء] المحرم سنة ست واربعين ينبغى للمعلم المرسوم اذا
+            المذكور من التبن وحيث ان المصلحة المذكورة احيلت على <orgName type="ديوان_الترسانات">ديوان الترسانات</orgName> من ابتدا[ء] المحرم سنة ست واربعين ينبغى للمعلم المرسوم اذا
             كان عنده سند يدل على توريد التبن فى سنة خمس واربعين اذ كانت المصلحة محالة على ديوان
             اشغال المحروسة ان يحضر به مع هذا الطرف ليحقق فى ذلك الامر مع كاتب شونة التبن التى
               ب<placeName ref="مصر_القديمة">مصر العتيقة</placeName> هذا ما انهاه واذ روجعت مقيدات
@@ -728,13 +650,11 @@
         </div>
         <div resp="#eSG" xml:id="w135">
           <head><date when-custom="1248-05-05">٥ جمادى الاول ١٢٤٨</date><date when="1832-09-30">٣٠
-              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٣٥</biblScope><biblScope
-                unit="page">صفحة ١</biblScope></bibl></head>
+              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٣٥</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس الجهادية</orgName></head>
           <p><persName>امين افندى ناظر الابنية</persName> قدم <rs type="تقريرا">تقريرا</rs>
               ل<orgName type="مجلس_مشورة_الجهادية">مجلس مشورة الجهادية</orgName> مضمونه انه كان
-              بال<placeName>جبل المقطم</placeName> المعروف الان ب<placeName ref="جبل_المقطم"
-              >الجيوشى</placeName> محلات لل<orgName type="جباجيه">جباجيه</orgName> ثم انشئت فيه
+              بال<placeName>جبل المقطم</placeName> المعروف الان ب<placeName ref="جبل_المقطم">الجيوشى</placeName> محلات لل<orgName type="جباجيه">جباجيه</orgName> ثم انشئت فيه
               <placeName>قشله صغيره ل<orgName type="جباجية_الجهادية">جباجية
               الجهادية</orgName></placeName> تحتوى على ثنتى عشرة اوضة كذلك محل مثل <placeName>القشله
                 ل<orgName type="جباجية_الترك">جباجية الترك</orgName></placeName> تحتوى على عشر اوض
@@ -760,13 +680,10 @@
         </div>
         <div resp="#eSG" xml:id="w136">
           <head><date when-custom="1248-05-05">٥ جمادى الاول ١٢٤٨</date><date when="1832-09-30">٣٠
-              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٣٥</biblScope><biblScope
-                unit="page">صفحة ٤</biblScope></bibl></head>
+              سبتمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٣٥</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس مصر</orgName></head>
-          <p><persName><sic>قرابطق</sic> وكيل ديوان المبيعات عموما</persName> قدم <rs type="تقريرا"
-              >تقريرا</rs> ل<orgName type="مجلس_المشورة">مجلس المشورة</orgName> مضمونه انه كان فيما
-            سبق من الايام قد استقر الراى على انشا <placeName>مخزن للخيط ب<orgName
-                type="ورشة_الخرنفش">ورشة الخرنفش</orgName></placeName> وقد انشى بالفعل ولكنه بقى
+          <p><persName><sic>قرابطق</sic> وكيل ديوان المبيعات عموما</persName> قدم <rs type="تقريرا">تقريرا</rs> ل<orgName type="مجلس_المشورة">مجلس المشورة</orgName> مضمونه انه كان فيما
+            سبق من الايام قد استقر الراى على انشا <placeName>مخزن للخيط ب<orgName type="ورشة_الخرنفش">ورشة الخرنفش</orgName></placeName> وقد انشى بالفعل ولكنه بقى
             بدون سقف واذا ترك بهذه الحاله لا يناسب بقا[ء] الخيط به لدخول الشمس والرياح وسائر العلل
             فيه فيتلف الخيط وحينئذ لا يسمى مخزنا وكذلك اذا كانت ارضه مبلطة فانه يصير الخيط مبتلا
             ويتلف فيلزم لحفظه من التلف ان تفرش ارض المخزن بالواح الخشب فقال اهل المجلس انه قد تبين
@@ -781,17 +698,14 @@
         </div>
         <div resp="#eSG" xml:id="w137">
           <head><date when-custom="1248-05-07">٧ جمادى الأول ١٢٤٨</date><date when="1832-10-02">٢
-              اكتوبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٣٦</biblScope><biblScope
-                unit="page">صفحة ٤</biblScope></bibl></head>
+              اكتوبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٣٦</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس مصر</orgName></head>
           <p><persName>امين افندى ناظر الابنية الميرية</persName> قدم <rs type="تقريرا">تقريرا</rs>
-            <orgName type="الديوان_الخديوى">للديوان الخديوى</orgName> واحيل على <orgName
-              type="مجلس_المشورة">مجلس المشورة</orgName> مضمونه ان المكان الكائن خارج
+            <orgName type="الديوان_الخديوى">للديوان الخديوى</orgName> واحيل على <orgName type="مجلس_المشورة">مجلس المشورة</orgName> مضمونه ان المكان الكائن خارج
               <placeName>القلعة</placeName> المتصل ب<placeName>باب العزب</placeName> المشتمل علوا
             وسفلا على ستة عشر محلا الساكن به العبيد المستخدمون فى المهمات الحربية فيه ستة محال تقبل
             التعمير واثنان قد انهدما بالكليه وثمانية تعميرها غير ممكن وانه ليس بملك للميرى بل هو
-            موقوف مستاجر مشاهرة من ناظر الوقف بخمسة وسبعين قرشا تصرف من <orgName
-              type="خزينة_ولى_النعم">خزينة ولى النعم</orgName> العامره واذا لزم تعمير محلاته الستة
+            موقوف مستاجر مشاهرة من ناظر الوقف بخمسة وسبعين قرشا تصرف من <orgName type="خزينة_ولى_النعم">خزينة ولى النعم</orgName> العامره واذا لزم تعمير محلاته الستة
             عشر علوا وسفلا يصرف على عمارتها ثمانية الاف قرش تخمينا كما يظهر بيانها من دفتر المفرادت
             بعد التكميل فقال اهل المجلس قد فهم ما انهاه الافندى المومى اليه فى تقريره ان المحل
             الساكن به عبيد الميرى المستخدمون ب<placeName><orgName type="بتيمورخانة_القلعة">تيمورخانة
@@ -803,11 +717,9 @@
         </div>
         <div resp="#eSG" xml:id="w138">
           <head><date when-custom="1248-05-12">١٢ جمادى الأول ١٢٤٨</date><date when="1832-10-07">٧
-              اكتوبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٣٨</biblScope><biblScope
-                unit="page">صفحة ٣</biblScope></bibl></head>
+              اكتوبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٣٨</biblScope><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس مصر</orgName></head>
-          <p>ناظر <orgName type="فبريقات_الحوض_المرصود">فبريقات الحوض المرصود</orgName> ارسل <rs
-              type="رسالة">رسالة</rs> الى <persName>محمد افندى وكيل الفبريقات عموما</persName>
+          <p>ناظر <orgName type="فبريقات_الحوض_المرصود">فبريقات الحوض المرصود</orgName> ارسل <rs type="رسالة">رسالة</rs> الى <persName>محمد افندى وكيل الفبريقات عموما</persName>
             وقدمها <orgName type="الديوان_الخديوى">للديوان الخديوى</orgName> وبعد ان سئل عنها
             الافندى ناظر الابنية احيلت على <orgName type="مجلس_المشورة">مجلس المشورة</orgName>
             مضمونها انه يلزم ان تبيض المخازن التى يوضع فيها القطن بالفبريقة المذكورة وان يجدد زجاج
@@ -822,8 +734,7 @@
         </div>
         <div resp="#eSG" xml:id="w139">
           <head><date when-custom="1248-05-12">١٢ جمادى الأول ١٢٤٨</date><date when="1832-10-07">٧
-              اكتوبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٣٨</biblScope><biblScope
-                unit="page">صفحة ٤</biblScope></bibl></head>
+              اكتوبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٣٨</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس مصر</orgName></head>
           <p><persName>امين افندى ناظر الابنية</persName> قرر انه عمل فيما سبق بمعرفة <persName>خليل
               افندى ناظر الترسانات</persName> عدة اوض ب<orgName type="ترسانة_بولاق">ترسانة
@@ -842,8 +753,7 @@
               <persName>سئل بسيم افندى وكيل الترسانات</persName> عن موجب انشاء هذه المخازن التى طلب
             تجديدها فاجاب بانه لما كان قد وقع الحريق بالترسانة العامرة تعلقت ارادة افندينا رئيس
             العسكر برفع اوض الخشب منها وان تبنى بدلها محلات من الحجر والطوب فجرى الامر على موجب ذلك
-            وتمت بعض محلات للكتبة وحيث لزم عمل الحواصل الاربعة الكبيرة ورآ <orgName
-              type="فبريقة_الجوخ">فبريقة الجوخ</orgName> لوضع المهمات وباقى محلات ناظر التشغيل
+            وتمت بعض محلات للكتبة وحيث لزم عمل الحواصل الاربعة الكبيرة ورآ <orgName type="فبريقة_الجوخ">فبريقة الجوخ</orgName> لوضع المهمات وباقى محلات ناظر التشغيل
             والكتبة طلب عملها هذا ما افاد فقال اهل المجلس حيث انه لزم انشا[ء] المحلات السالفة الذكر
             بسبب وقوع الحريق فى المحلات التى كانت اولا وتبين من جواب بسيم افندى المومى اليه انه
             تعلقت الارادة بانشائها ينبغى على هذه الصورة ان يحرر اعلام من الديوان الخديوى الى بسيم
@@ -853,20 +763,16 @@
         </div>
         <div resp="#eSG" xml:id="w140">
           <head><date when-custom="1248-05-23">٢٣ جمادى الأول ١٢٤٨</date><date when="1832-10-18">١٨
-              اكتوبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٤٣</biblScope><biblScope
-                unit="page">صفحة ٢</biblScope></bibl></head>
+              اكتوبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٤٣</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس مصر</orgName></head>
-          <p>حضرة الافندى مامور <orgName type="اشغال_المحروسة">اشغال المحروسة</orgName> قدم <rs
-              type="تقريرا">تقريرا</rs> ل<orgName type="مجلس_المشورة">مجلس المشورة</orgName> مضمونه
+          <p>حضرة الافندى مامور <orgName type="اشغال_المحروسة">اشغال المحروسة</orgName> قدم <rs type="تقريرا">تقريرا</rs> ل<orgName type="مجلس_المشورة">مجلس المشورة</orgName> مضمونه
             انه وردت عليه خلاصة بان يعطى <persName>قره مصطفى اغا قفوش اغاسى</persName> استحقاق يومية
             استخدامه فى تحرير <placeName>شون التبن</placeName> بعد خصم ما اخذه من ديوان اشغال
             المحروسة وهو خمسمائة قرش وعلى موجبها كشف من الدفاتر عن مدة استخدام الاغا المرقوم وتبين
             انه استخدم سبعة اشهر وتسعة عشر يوما وصرف له منها هذا المبلغ من ديوان اشغال المحروسة
-            وبعده احيلت <orgName type="مصلحة_التبن">مصلحة التبن</orgName> على <orgName
-              type="الترسانات">الترسانات</orgName> بان يحسب فيه استحقاق السبعة اشهر والتسعة عشر يوما
+            وبعده احيلت <orgName type="مصلحة_التبن">مصلحة التبن</orgName> على <orgName type="الترسانات">الترسانات</orgName> بان يحسب فيه استحقاق السبعة اشهر والتسعة عشر يوما
             للاغا المرقوم وتخصم منه الخمسمائة قرش فى مصلحة التبن ويعطى باقى حقه الذى استوجبه فقال
-            اهل المجلس حيث كانت مصلحة التبن متعلقة بديوان الترسانات ينبغى ان يحرر اعلام من <orgName
-              type="الديوان_الخديوى">الديوان الخديوى</orgName> الى الافندى ناظر الترسانات بان يحسب
+            اهل المجلس حيث كانت مصلحة التبن متعلقة بديوان الترسانات ينبغى ان يحرر اعلام من <orgName type="الديوان_الخديوى">الديوان الخديوى</orgName> الى الافندى ناظر الترسانات بان يحسب
             استحقاق الاغا المرقوم فى مدة السبعة اشهر والتسعة عشر يوما ويخصم منه الخمسمائة قرش التى
             اخذها سابقا ويقيد الباقى فى <orgName type="مصلحة_التبن">مصلحة التبن</orgName> ويصرف
             للمرقوم على الوجه الذى انهاه حضرة الافندى المومى اليه كما استقر الراى عليه فى اليوم
@@ -874,8 +780,7 @@
         </div>
         <div resp="#eSG" xml:id="w141">
           <head><date when-custom="1248-05-28">٢٨ جمادى الأول ١٢٤٨</date><date when="1832-10-23">٢٣
-              اكتوبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٤٥</biblScope><biblScope
-                unit="page">صفحة ١</biblScope></bibl></head>
+              اكتوبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٤٥</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس الجهادية</orgName></head>
           <p><persName>محمود اغا ناظر ورشة الخياطين</persName> قرر ان <orgName>ورشة الصوف الكائنة
                 ب<placeName>سوق السلاح</placeName></orgName> ينبغى ان يبادر الى ترميمها وتعميرها وان
@@ -890,11 +795,9 @@
         </div>
         <div resp="#eSG" xml:id="w142">
           <head><date when-custom="1248-05-01">١ جمادى الاخر ١٢٤٨</date><date when="1832-10-26">٢٦
-              اكتوبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٤٦</biblScope><biblScope
-                unit="page">صفحة ٢</biblScope></bibl></head>
+              اكتوبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٤٦</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس مصر</orgName></head>
-          <p><persName>عثمان بيك ناظر شبرا</persName> ارسل <rs type="رسالة">رسالة</rs> الى <orgName
-              type="الديوان_الخديوى">الديوان الخديوى</orgName> وبعد ان سئل عنها الافندى ناظر الابنية
+          <p><persName>عثمان بيك ناظر شبرا</persName> ارسل <rs type="رسالة">رسالة</rs> الى <orgName type="الديوان_الخديوى">الديوان الخديوى</orgName> وبعد ان سئل عنها الافندى ناظر الابنية
             احيلت على <orgName type="مجلس_المشورة">مجلس المشورة</orgName> مضمونها انه يلزم تجديد
             اربع سواقى مربعة بموضع الاشجار التى غرست وطلب ان يومر الافندى ناظر الابنية بانشائها واذ
             سئل الافندى ناظر الابنية عن ذلك اجاب بان السواقى الاربع المربعة التى ذكرها الامير المومى
@@ -913,8 +816,7 @@
           <head><date>٢٢ جمادى الاخر ١٢٤٨</date><date>١٦ نوفمبر ١٨٣٢</date><bibl><biblScope>نمرة
                 ٤٥٤</biblScope><biblScope>صفحة ١</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس الجهادية</orgName></head>
-          <p><persName>محمد اغا البيكباشى وكيل ناظر مكتب الطوبجية</persName> ارسل <rs type="رسالة"
-              >رسالة</rs> الى <orgName type="مجلس_مشورة_الجهادية">مجلس مشورة الجهاديه</orgName>
+          <p><persName>محمد اغا البيكباشى وكيل ناظر مكتب الطوبجية</persName> ارسل <rs type="رسالة">رسالة</rs> الى <orgName type="مجلس_مشورة_الجهادية">مجلس مشورة الجهاديه</orgName>
             مضمونها ان الطوبجى قولونل اخبر بانه يلزم لتعمير بعض محلات المكتب المذكور احد عشر قنطارا
             من الدبش وخمسون لوحا من خشب البندق وخمسون قطعة من خشب المورينه ورطلان من سلك الحديد
             الرفيع واستدعى بصرف هذه الاصناف الاربعه فقال اهل المجلس حيث انه لزم صرف الاصناف المطلوبة
@@ -925,11 +827,9 @@
         </div>
         <div resp="#eSG" xml:id="w144">
           <head><date when-custom="1248-05-25">٢٥ جمادى الاخر ١٢٤٨</date><date when="1832-11-19">١٩
-              نوفمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٥٥</biblScope><biblScope
-                unit="page">صفحة ٤</biblScope></bibl></head>
+              نوفمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٥٥</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس مصر</orgName></head>
-          <p>حضرة الافندى مأمور<orgName type="اشغال_المحروسة">اشغال المحروسة</orgName> قدم <rs
-              type="تقريرا">تقريرا</rs> ل<orgName type="مجلس_المشورة">مجلس المشورة</orgName> مضمونه
+          <p>حضرة الافندى مأمور<orgName type="اشغال_المحروسة">اشغال المحروسة</orgName> قدم <rs type="تقريرا">تقريرا</rs> ل<orgName type="مجلس_المشورة">مجلس المشورة</orgName> مضمونه
             انه وصلت ال[يه] خلاصة بان يرسل رجلا سمسار الى <placeName>شونة <placeName>كفر
                 الزيات</placeName></placeName> لاستلام صنف النيل الذى سيرد على ان الصناع الذين فى
               <placeName>ورشة النيل</placeName> ليس لهم معرفة بالسمسرة واذا ارسل احد الاستوات ا[...]
@@ -944,11 +844,9 @@
         </div>
         <div resp="#eSG" xml:id="w145">
           <head><date when-custom="1248-05-29">٢٩ جمادى الاخر ١٢٤٨</date><date when="1832-11-23">٢٣
-              نوفمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٥٧</biblScope><biblScope
-                unit="page">صفحة ٢</biblScope></bibl></head>
+              نوفمبر ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٤٥٧</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
           <head>حوادث <orgName>مجلس الجهادية</orgName></head>
-          <p><persName>قولونل معلم الطوبجية</persName> قدم <rs type="تقريرا">تقريرا</rs> ل<orgName
-              type="مجلس_المشورة">مجلس المشورة</orgName> مضمونه انه عرض فيما سبق لمجلس المشورة انشاء
+          <p><persName>قولونل معلم الطوبجية</persName> قدم <rs type="تقريرا">تقريرا</rs> ل<orgName type="مجلس_المشورة">مجلس المشورة</orgName> مضمونه انه عرض فيما سبق لمجلس المشورة انشاء
             الاوض اللازمة ل<orgName><placeName>مكتب الطوبجية</placeName></orgName> ولما كان موسم
             الشتاء قريبا اخر ذلك لوقت الصيف وحيث ان البناء الكائن ايام الشتا امتن من البناء الكاين
             ايام الصيف كما هو ظاهر والحجر الحاصل من الحيطان التى بلغت درجة التخرب يقوم بنصف انشاء
@@ -961,11 +859,8 @@
         </div>
         <div resp="#eSG" xml:id="w146">
           <head><date when-custom="1248-12-10">١٠ ذى القعدة ١٢٤٨</date><date when="1833-03-31">٣١
-              مارس ١٨٣٣</date><bibl><biblScope unit="issue">نمرة ٥٠١</biblScope><biblScope
-                unit="page">صفحة ٣</biblScope></bibl></head>
-          <p><persName>امين افندى ناظر الابنية الميرية</persName> انهى الى <orgName
-              type="المشورة_العسكرية">المشورة العسكرية</orgName> انه لما اشرفت <orgName
-              type="ورشة_المركوبجية">ورشة المركوبجية</orgName>الكائنة فى <placeName>قصبة
+              مارس ١٨٣٣</date><bibl><biblScope unit="issue">نمرة ٥٠١</biblScope><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
+          <p><persName>امين افندى ناظر الابنية الميرية</persName> انهى الى <orgName type="المشورة_العسكرية">المشورة العسكرية</orgName> انه لما اشرفت <orgName type="ورشة_المركوبجية">ورشة المركوبجية</orgName>الكائنة فى <placeName>قصبة
               رضوان</placeName> على الخراب وردت عليه خلاصة بان يكشف عنها وعن مقدار ما يصرف على
             تعميرها وترميمها مع ضم مخزن اليها ويعرف بذلك اهل المشورة العسكرية وانه كشف عنها على موجب
             الخلاصة وتبين له ان يتم تعميرها على سبيل التخمين باحد وعشرين الفا وخمسمائة قرش وحيث كان
@@ -975,15 +870,12 @@
         </div>
         <div resp="#eSG" xml:id="w147">
           <head><date when-custom="1248-11-12">١٢ ذى القعده ١٢٤٨</date><date when="1833-04-02">٢
-              ابريل ١٨٣٣</date><bibl><biblScope unit="issue">نمرة ٥٠٢</biblScope><biblScope
-                unit="page">صفحة ٢</biblScope></bibl></head>
-          <p><persName>امير اللوا ادهم بيك ناظر المهمات الحربية عموما</persName> انهى <orgName
-              type="المشورة_الملكية">المشورة الملكية</orgName> انه وردت عليه خلاصة بان يذهب مع
+              ابريل ١٨٣٣</date><bibl><biblScope unit="issue">نمرة ٥٠٢</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+          <p><persName>امير اللوا ادهم بيك ناظر المهمات الحربية عموما</persName> انهى <orgName type="المشورة_الملكية">المشورة الملكية</orgName> انه وردت عليه خلاصة بان يذهب مع
             الافندى ناظر الابنية الى الورشة <sic>الك</sic> الكائنه فى <placeName>بولاق</placeName>
             ليكشفا عن <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الساقية
             الثقيلة<?oxy_custom_end?> التى فيها وانه على موجبها سار مع امين <sic>افند[ى]</sic>
-            المومى اليه و<persName>فرنسزقو احد استوات دولاب <orgName type="التفنكخانة"
-                >التفنكخانة</orgName></persName> ولدى الكشف <persName>حضر الاستى <sic>فور</sic>
+            المومى اليه و<persName>فرنسزقو احد استوات دولاب <orgName type="التفنكخانة">التفنكخانة</orgName></persName> ولدى الكشف <persName>حضر الاستى <sic>فور</sic>
               النجار</persName> وبعد كلام طويل ادعى انه يدير الساقيه التى لا تدور بثمانية اثوار بست
             بغال <sic>وعا</sic> منه الاستى فرنسزقو وكانت المعارضه مانعة من اجراء ما امر وايه حيث ازف
             المساء وتاخر الشف وان تحاورهما هذا يقطع بمعرفة قنصلهما ولكن <persName>الاستى فورسنى هو
@@ -1000,16 +892,10 @@
         </div>
         <div resp="#eSG" xml:id="w148">
           <p><date when-custom="1248-12-12">١٢ ذى القعده ١٢٤٨</date><date when="1833-04-02">٢ ابريل
-              ١٨٣٣</date><bibl><biblScope unit="issue">نمرة ٥٠٢</biblScope><biblScope unit="page"
-                >صفحة ٤</biblScope></bibl></p>
-          <p><persName>مصطفى اغا الاسلامبولى احد القفوش اغاسيه</persName>قدم<rs type="عرضا"
-              >عرضا</rs> لل<orgName type="ديوان_الخديوى">ديوان الخديوى</orgName>واحيل على <orgName
-              type="المشورة_الملكية"
-              ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>المشورة
+              ١٨٣٣</date><bibl><biblScope unit="issue">نمرة ٥٠٢</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></p>
+          <p><persName>مصطفى اغا الاسلامبولى احد القفوش اغاسيه</persName>قدم<rs type="عرضا">عرضا</rs> لل<orgName type="ديوان_الخديوى">ديوان الخديوى</orgName>واحيل على <orgName type="المشورة_الملكية"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>المشورة
               الملكية<?oxy_custom_end?></orgName> ذكر فيه ان بيته الذى هو فى ملكه يحتاج الى التعمير
-            وطلب ان يعطى من الجير والجص والبلاط بمقدار خمسمائة قرش ويحسب ذلك مما يستحقه فى <orgName
-              type="خزينة_ولى_النعم"
-              ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>خزينة ولى
+            وطلب ان يعطى من الجير والجص والبلاط بمقدار خمسمائة قرش ويحسب ذلك مما يستحقه فى <orgName type="خزينة_ولى_النعم"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>خزينة ولى
               النعم<?oxy_custom_end?></orgName> من شهريته وبدل تعيينه ولما كشف عن بيته من طرف
             الافندى ناظر الابنية وتبين ان تعميره يحتاج من الاشيا[ء] المذكورة الى ما يبلغ ثمنه
             خمسمائة وخمسة وستين قرشا حرر اشعار الى <persName>محمد اغا ناظر الجير والجص</persName>
@@ -1019,8 +905,7 @@
         </div>
         <div resp="#eSG" xml:id="w149">
           <head><date when-custom="1248-12-17">١٧ ذى القعده ١٢٤٨</date><date when="1833-04-07">٧
-              ابريل ١٨٣٣</date><bibl><biblScope unit="issue">نمرة ٥٠٣</biblScope><biblScope
-                unit="page">صفحة ١</biblScope></bibl></head>
+              ابريل ١٨٣٣</date><bibl><biblScope unit="issue">نمرة ٥٠٣</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
           <head>حوادث
               <orgName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>المشورة
               الملكية<?oxy_custom_end?></orgName></head>
@@ -1036,18 +921,15 @@
         </div>
         <div resp="#eSG" xml:id="w150">
           <head><date when-custom="1248-11-17">١٧ ذى القعده ١٢٤٨</date><date when="1833-04-07">٧
-              ابريل ١٨٣٣</date><bibl><biblScope unit="issue">نمرة ٥٠٣</biblScope><biblScope
-                unit="page">صفحة ٣</biblScope></bibl></head>
+              ابريل ١٨٣٣</date><bibl><biblScope unit="issue">نمرة ٥٠٣</biblScope><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
           <head>حوادث
               <orgName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>المشورة
               العسكرية<?oxy_custom_end?></orgName></head>
           <p><persName>قولونل سكواره الطوبجى</persName> عرض فيما تقدم ان تنشا سبع اوض ومسجد واحد
-            لتلاميذ <orgName type="مكتب_الطوبجية"
-              ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>مكتب
+            لتلاميذ <orgName type="مكتب_الطوبجية"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>مكتب
               الطوبجية<?oxy_custom_end?></orgName> وان تعمل فوق الاوض
               <placeName>اسبتالية</placeName> وصدرت خلاصة بانشاء الاوض فقط وسيرت اليه وعلى موجبها
-            عملت الاوض وتم انشاؤها والان عرض وكيل ناظر المكتب المذكور لل<orgName
-              type="مشورة_العسكرية">مشورة العسكرية</orgName> ان قولونل المومى اليه افاده بلزم
+            عملت الاوض وتم انشاؤها والان عرض وكيل ناظر المكتب المذكور لل<orgName type="مشورة_العسكرية">مشورة العسكرية</orgName> ان قولونل المومى اليه افاده بلزم
             الاسبطالية والمسجد ولما كانت الاسبيطالية لازمة للعسكر حرر اشعارا الى الافندى ناظر
             الابنية الميرية بان يرسل مهندسا ليكشف عما يلزم لانشائها مختصرة ويخبر اهل المشورة بمقدار
             ما يتم به عملها واشعر <persName>احمد بيك اميراللوا</persName> بان يحضر الكشف عنها ويحسن
@@ -1059,14 +941,10 @@
         </div>
         <div resp="#eSG" xml:id="w151">
           <head><date when-custom="1248-11-17">١٧ ذى القعده ١٢٤٨</date><date when="1833-04-07">٧
-              ابريل ١٨٣٣</date><bibl><biblScope unit="issue">نمرة ٥٠٣</biblScope><biblScope
-                unit="page">صفحة ٤</biblScope></bibl></head>
+              ابريل ١٨٣٣</date><bibl><biblScope unit="issue">نمرة ٥٠٣</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
           <p><persName>امين افندى ناظر الابنية الميرية</persName> قدم <rs type="تقريرا">تقريرا</rs>
-              لل<orgName type="مشورة_العسكرية"
-              ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>مشورة
-              العسكريه<?oxy_custom_end?></orgName> ذكر فيه انه وردت عليه خلاصة بان يكشف عن <orgName
-              type="اصطبل_الجهادية"
-              ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>اصطبل
+              لل<orgName type="مشورة_العسكرية"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>مشورة
+              العسكريه<?oxy_custom_end?></orgName> ذكر فيه انه وردت عليه خلاصة بان يكشف عن <orgName type="اصطبل_الجهادية"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>اصطبل
               الجهادية<?oxy_custom_end?></orgName> الكائن فى <placeName>قره ميدان</placeName> حيث
             انه <sic>محتاى تاى</sic> التعمير وعلى موجبها كشف عنه وتبين له من الكشف انه يتم تعميره
             بالف وخمسمائة قرش كما سيظره ذلك من </p>
