@@ -14,11 +14,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>../CairoUrbanNews-teaching/chronicle.xml</String>
+                                    <String>.</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>test</String>
+                                        <String>Process New File</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -34,11 +34,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>.</String>
+                                    <String>../CairoUrbanNews-teaching/chronicle.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Process New File</String>
+                                        <String>test</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
