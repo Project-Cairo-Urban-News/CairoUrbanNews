@@ -14,38 +14,54 @@
       let behaviors = {
         "tei": {
           "date": ['',' '],
+          "div": function(elt) {
+            const link = document.createElement('a');
+            link.setAttribute('href', `#${elt.getAttribute('id')}`);
+            link.innerHTML = `${this.getOrdinality(elt)}.`;
+            elt.prepend(link);
+          },
           "persName": function(elt) {
             const result = document.createElement('span');
             result.innerHTML = elt.innerHTML;
-            result.prepend(this.tag(elt, 'start'));
-            result.append(this.tag(elt, 'end'));
+            result.prepend(this.tag(elt, 'start', 'person'));
+            result.append(this.tag(elt, 'end', 'person'));
             return result;
           },
           "placeName": function(elt) {
             const result = document.createElement('span');
             result.innerHTML = elt.innerHTML;
-            result.prepend(this.tag(elt, 'start'));
-            result.append(this.tag(elt, 'end'));
+            result.prepend(this.tag(elt, 'start', 'place'));
+            result.append(this.tag(elt, 'end', 'place'));
             return result;
           },
           "orgName": function(elt) {
             const result = document.createElement('span');
             result.innerHTML = elt.innerHTML;
+            result.prepend(this.tag(elt, 'start', 'org'));
+            result.append(this.tag(elt, 'end', 'org'));
+            return result;
+          },
+          "rs": function(elt) {
+            const result = document.createElement('span');
+            result.innerHTML = elt.innerHTML;
             result.prepend(this.tag(elt, 'start'));
             result.append(this.tag(elt, 'end'));
             return result;
-          }
+          },
+          "sic": ['','(!)']
         },
         "functions": {
-          "tag": function(elt, type) {
+          "tag": function(elt, type, name) {
             const c = document.createElement('canvas');
             const ctx = c.getContext('2d');
             ctx.font='16px Courier';
-            const name = elt.getAttribute('data-origname');
+            const start = name ? name : `${elt.getAttribute('data-origname')} ${this.attributes(elt)}`.trim();
+            const end = name ? name : elt.getAttribute('data-origname');
+            ctx.textBaseline = 'middle';
+            const sm = ctx.measureText(start);
+            const h = 25;
             if (type == 'start') {
-              const m = ctx.measureText(`${name} ${this.attributes(elt)}`.trim());
-              const w = Math.ceil(m.width + 8);
-              const h = Math.ceil(m.actualBoundingBoxAscent + m.actualBoundingBoxDescent + 10);
+              const w = Math.ceil(sm.width + 10);
               c.setAttribute('width', w);
               c.setAttribute('height', h);
               ctx.beginPath();
@@ -57,13 +73,11 @@
               ctx.fillRect(8, 1, w-8, h - 2);
               ctx.fillStyle = 'black';
               ctx.font='16px Courier';
-              ctx.textBaseline = 'middle';
-              ctx.fillText(`${name} ${this.attributes(elt)}`,8,14);
+              ctx.fillText(start,9,18);
             }
             if (type == 'end') {
-              const m = ctx.measureText(name);
+              const m = ctx.measureText(end);
               const w = Math.ceil(m.width + 8);
-              const h = Math.ceil(m.actualBoundingBoxAscent + m.actualBoundingBoxDescent + 10);
               c.setAttribute('width', w);
               c.setAttribute('height', h);
               ctx.beginPath();
@@ -75,8 +89,8 @@
               ctx.fill();
               ctx.fillStyle = 'black';
               ctx.font='16px Courier';
-              ctx.textBaseline = 'middle';
-              ctx.fillText(name,1,14);
+              //ctx.textBaseline = 'middle';
+              ctx.fillText(end,2,18);
             }
             return c;
           },
@@ -132,6 +146,10 @@
       position: relative;
       top: 6px;
     }
+    tei-div > a {
+      float: right;
+      margin-right: -2em;
+    }
     tei-text {
       display: block;
       margin: auto;
@@ -143,6 +161,9 @@
     } 
     tei-persname[ref] {
       text-decoration: none;
+    }
+    tei-sic {
+      background-color: yellow;
     }
   </style>
 </head>
