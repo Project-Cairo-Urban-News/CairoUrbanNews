@@ -194,7 +194,6 @@
  * 'ضبطية '‎: [1294.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1294.xml)
  * 'طلونبخانه'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1263.xml)
  * 'طواحين'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
- * 'طوبخانة'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
  * 'عربخانة_ملك_حريم_المرحوم_أحمد_باشا_ظاهر'‎: [1283.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1283.xml)
  * 'غازيته_المانيتور'‎: [1283.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1283.xml)
  * 'فبريقات_الحوض_المرصود'‎: [1248.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1248.xml)
