@@ -48,7 +48,40 @@
             result.append(this.tag(elt, 'end'));
             return result;
           },
-          "sic": ['','(!)']
+          "sic": ['','(!)'],
+          "table": function(elt) {
+            const table = document.createElement("table");
+            if (elt.firstElementChild.localName == "tei-head") {
+              const head = elt.firstElementChild;
+              head.remove();
+              const caption = document.createElement("caption");
+              caption.innerHTML = head.innerHTML;
+              table.appendChild(caption);
+            }
+            for (let row of Array.from(elt.querySelectorAll("tei-row"))) {
+              const tr = document.createElement("tr");
+              for (let attr of Array.from(row.attributes)) {
+                tr.setAttribute(attr.name, attr.value);
+              }
+              for (let cell of row.children) {
+                const td = document.createElement("td");
+                if (cell.hasAttribute("cols")) {
+                  td.setAttribute("colspan", cell.getAttribute("cols"));
+                }
+                for (const n of cell.childNodes) {
+                  if (n.nodeType == Node.ELEMENT_NODE) {
+                    td.appendChild(this.copyAndReset(n));
+                  } else {
+                    td.appendChild(n.cloneNode());
+                  }
+                }
+                tr.appendChild(td);
+              }
+              table.appendChild(tr);
+            }
+            this.hideContent(elt, true);
+            elt.appendChild(table);
+          }
         },
         "functions": {
           "tag": function(elt, type, name) {
@@ -146,9 +179,18 @@
       position: relative;
       top: 6px;
     }
+    table {
+      border: thin solid black;
+    }
+    td {
+      border: thin solid silver;
+    }
     tei-div > a {
       float: right;
       margin-right: -2em;
+    }
+    tei-head {
+      display:block;
     }
     tei-text {
       display: block;
