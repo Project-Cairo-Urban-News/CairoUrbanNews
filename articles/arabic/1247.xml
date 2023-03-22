@@ -583,18 +583,31 @@
           من شهر جمادى الثانية.</p>
       </div>
       <div resp="#eSG" xml:id="w117">
-        <head><date when-custom="1247-08-1">١ شهر شعبان المكرم ١٢٤٧</date><date when="1832-01-05">٥
-            يناير ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٣٣٧</biblScope><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
-        <head>حوادث <orgName type="مجلس_مصر">مجلس مصر</orgName></head>
-        <p>رجل ذمى اسمه اوهمانس ابوشنب قدم <rs type="عرضا">عرضا</rs> ل<orgName type="الديوان_الخديوى">لديوان الخديوى</orgName> واحيل على <orgName type="مجلس_المشورة">مجلس المشورة</orgName>مضمونه انه اخذ من فعلة الابنية الميرية اورقا بمائة الف قرش
-          ليخصمها من دينه المطلوب منه لل<orgName type="القصر_العالى">قصر العالى</orgName>فينبغى ان
-          تقابل على دفاتر <orgName type="مصلحة_الابنية">مصلحة الابنية</orgName>وتعطى له رجعة بها من
-          طرف الافندى ناظرها فقال اهل المجلس انه قد صدرت خلاصات قبل الان الى الافندى المومى اليه
-          والى رئيس التجار بان لا يقبلا الا وراق التى تشرى من خارج وهذه الاوراق التى مع مقدم هذا
-          العرض اخذت من جملة اناس ومضت عليها اوقات وليس اصحابها بموجودين الا فينبغى اذن ان بصرف
-          النظر عن استدعائه واما اذا كان بعض اصحاب الاوراق موجودا فانه ينبغى ان يوتى بهم <orgName type="ديوان_الابنية">ديوان الابنية</orgName>وتخصم لهم اوراقهم وتوخذ حوالتها وذلك بعد
-          التحقيق ويحرر علم الى حضرة الافندى مأمور الديوان بان يؤنب مقدم هذا العرض على ما فعله كما
-          استقر الراى على ذلك فى اليوم الثالث عشر من شهر رجب.</p>
+        <head><date when-custom="1247-08-1">١ شهر شعبان ١٢٤٧</date><date when="1832-01-05">٥ يناير
+            ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٣٣٧</biblScope><biblScope unit="page">صفحة
+              ٣</biblScope></bibl></head>
+        <head>حوادث <orgName type="مجلس" ref="مجلس_مصر">مجلس مصر</orgName></head>
+        <p><persName>رجل ذمى اسمه اوهمانس ابوشنب</persName> قدم <rs type="عرضا">عرضا</rs> ل<orgName
+            type="ديوان" ref="الديوان_الخديوى">لديوان الخديوى</orgName> واحيل على <orgName
+            type="مجلس" ref="مجلس_المشورة">مجلس المشورة</orgName>مضمونه انه اخذ من فعلة <orgName
+            ref="الابنية_الميرية">الابنية الميرية</orgName> اورقا بمائة الف قرش ليخصمها من دينه
+          المطلوب منه لل<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><orgName
+            type="قصر" ref="القصر_العالى">قصر
+          العالى</orgName><?oxy_custom_end?><?oxy_comment_start author="Sarah" timestamp="20230322T124934+0200" comment="org or place name?"?>فينبغى<?oxy_comment_end?>
+          ان تقابل على دفاتر <orgName type="مصلحة" ref="مصلحة_الابنية">مصلحة الابنية</orgName>وتعطى
+          له رجعة بها من طرف الافندى ناظرها فقال اهل المجلس انه قد صدرت خلاصات قبل الان الى الافندى
+          المومى اليه والى رئيس التجار بان لا يقبلا الا
+          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah" timestamp="20230322T124739+0200" comment="check in the original probably الاوراق
+" mid="19"?>وراق<?oxy_custom_end?><?oxy_comment_end mid="19"?>
+          التى تشرى من خارج وهذه الاوراق التى مع مقدم هذا العرض اخذت من جملة اناس ومضت عليها اوقات
+          وليس اصحابها بموجودين
+          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah" timestamp="20230322T124817+0200" comment="check in the org.
+"?>الا<?oxy_comment_end?>
+          فينبغى <?oxy_custom_end?>اذن ان بصرف النظر عن استدعائه واما اذا كان بعض اصحاب الاوراق
+          موجودا فانه ينبغى ان يوتى بهم <orgName type="ديوان" ref="ديوان_الابنية">ديوان
+            الابنية</orgName>وتخصم لهم اوراقهم وتوخذ حوالتها وذلك بعد التحقيق ويحرر علم الى حضرة
+          الافندى مأمور الديوان بان يؤنب مقدم هذا العرض على ما فعله كما استقر الراى على ذلك فى اليوم
+          الثالث عشر من شهر رجب.</p>
       </div>
       <div resp="#eSG" xml:id="w118">
         <head><date when-custom="1247-08-23">٢٣ شعبان ١٢٤٧</date><date when="1832-01-27">٢٧ يناير
