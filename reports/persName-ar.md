@@ -12,6 +12,7 @@
  * 'زاوية-وضريح-سيدى-كعب-الأحبار'‎: [1286.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1286.xml)
  * 'سليم_افندى_محافظ_ينبع_السابق'‎: [1248.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1248.xml)
  * 'صادق_افندى_ناظر_شون_الغلال_بولاق'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
+ * 'صراف-مستخدم-فى-مصلحة-الحجر-بجبل-طرا-والمعصرة'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
  * ' طناسى-يونيدس'‎: [1294.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1294.xml)
  * 'لويجى-ذايا-الابوكانية'‎: [1294.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1294.xml)
  * 'مأمورا-على-اشغال-المحروسة'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
