@@ -17,3 +17,5 @@
  * 'مأمورا-على-اشغال-المحروسة'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
  * 'محاسب'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
  * 'معاونا-لمأمور-اشغال-المحروسة'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
+ * 'من-اهل-ناحية-منوهله'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
+ * 'من-مشايخ-ناحبة-منوهله-بقسم-المنوفية'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
