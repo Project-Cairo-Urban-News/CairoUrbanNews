@@ -14,3 +14,6 @@
  * 'صادق_افندى_ناظر_شون_الغلال_بولاق'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
  * ' طناسى-يونيدس'‎: [1294.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1294.xml)
  * 'لويجى-ذايا-الابوكانية'‎: [1294.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1294.xml)
+ * 'مأمورا-على-اشغال-المحروسة'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
+ * 'محاسب'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
+ * 'معاونا-لمأمور-اشغال-المحروسة'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
