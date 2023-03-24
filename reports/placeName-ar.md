@@ -20,7 +20,6 @@
  * 'الدرسخانة'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
  * 'الرميلة'‎: [1285.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1285.xml)
  * 'القشلة'‎: [1248.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1248.xml)
- * 'القصر_العالى'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
  * 'القلعة'‎: [1294.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1294.xml)
  * 'القوللق'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
  * 'المسافر-خانة'‎: [1285.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1285.xml)
