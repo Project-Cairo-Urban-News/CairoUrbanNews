@@ -158,6 +158,7 @@
  * 'منزل'‎: [1246.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1246.xml), [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml), [1294.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1294.xml), [1286.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1286.xml)
  * 'ميدان'‎: [1289.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1289.xml)
  * 'مينا'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml), [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
+ * 'مينا_الاسكندرية'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
  * 'ميناء'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
  * 'ميناء_الاسكندرية'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
  * 'ناحية'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml), [1246.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1246.xml), [1284.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1284.xml)
