@@ -2509,12 +2509,13 @@
                </row>
                <row>
                   <cell>٠٥٦٨٠٧٠</cell>
-                  <cell>(٧) <orgName type="نظارة">نظارة المالية</orgName></cell>
+                  <cell>(٧) <orgName type="نظارة" ref="نظارة-المالية">نظارة المالية</orgName></cell>
                   <cell/>
                </row>
                <row>
                   <cell/>
-                  <cell>(٨) <orgName type="نظارة">نظارة الجهاديه والبحريه</orgName></cell>
+                  <cell>(٨) <orgName type="نظارة" ref="نظارة-الجهاديه-والبحريه">نظارة الجهاديه
+                        والبحريه</orgName></cell>
                   <cell/>
                </row>
                <row>
@@ -2534,27 +2535,31 @@
                </row>
                <row>
                   <cell>٠٠٨٩٤٦٤</cell>
-                  <cell>(٩) <orgName type="نظارة">نظارة المعارف</orgName></cell>
+                  <cell>(٩) <orgName type="نظارة" ref="نظارة-المعارف">نظارة المعارف</orgName></cell>
                   <cell/>
                </row>
                <row>
                   <cell>٠٥١٤٩٥١</cell>
-                  <cell>(١٠) <orgName type="نظارة">نظارة الداخليه</orgName></cell>
+                  <cell>(١٠) <orgName type="نظارة" ref="نظارة-الداخليه">نظارة
+                     الداخليه</orgName></cell>
                   <cell/>
                </row>
                <row>
                   <cell>٠٢٨١٧٥٤</cell>
-                  <cell>(١١)<orgName type="نظارة">نظارة الحقانية</orgName></cell>
+                  <cell>(١١)<orgName type="نظارة" ref="نظارة-الحقانية">نظارة
+                     الحقانية</orgName></cell>
                   <cell/>
                </row>
                <row>
                   <cell>٠٤٣٩٢٧٠</cell>
-                  <cell>(١٢) <orgName type="نظارة">نظاره الاشغال العموميه</orgName></cell>
+                  <cell>(١٢) <orgName type="نظارة" ref="نظاره-الاشغال-العموميه">نظاره الاشغال
+                        العموميه</orgName></cell>
                   <cell/>
                </row>
                <row>
                   <cell/>
-                  <cell>(١٢) السكك الحديد والتلغرافات ومينا اسكندريه</cell>
+                  <cell>(١٢) <orgName type="السكك" ref="السكك الحديد والتلغرافات">السكك الحديد
+                        والتلغرافات</orgName> و<placeName>مينا اسكندريه</placeName></cell>
                   <cell/>
                </row>
                <row>
@@ -2589,7 +2594,8 @@
                </row>
                <row>
                   <cell>٠١٢٠٠٠٠</cell>
-                  <cell>(١٦) وابورات البوسته الخديويه</cell>
+                  <cell>(١٦) <orgName ref="وابورات-البوسته-الخديويه" type="وابورات">وابورات البوسته
+                        الخديويه</orgName></cell>
                   <cell/>
                </row>
                <row>
@@ -2738,19 +2744,21 @@
                   <cell>٠٠١٣١٦٢</cell>
                   <cell>٠٠١٠٤٩١</cell>
                   <cell>٠٠٠٠٨٦٧</cell>
-                  <cell>(٦) نظارة الخارجيه</cell>
+                  <cell>(٦) <orgName type="نظارة" ref="نظارة-الخارجيه">نظارة
+                     الخارجيه</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٥٨١٤٨٠</cell>
                   <cell>٠٤٣١٦٧٦</cell>
                   <cell>٠٠٣٣٦٧١</cell>
-                  <cell>(٧) نظارة الماليه</cell>
+                  <cell>(٧) <orgName type="نظارة" ref="نظارة-الماليه">نظارة الماليه</orgName></cell>
                </row>
                <row>
                   <cell/>
                   <cell/>
                   <cell/>
-                  <cell>(٨) نظارتى الجهادية والبحرية</cell>
+                  <cell>(٨)<orgName ref=" نظارتى-الجهادية-والبحرية" type="نظارة">نظارتى الجهادية
+                        والبحرية</orgName></cell>
                </row>
                <row>
                   <cell>٠٣٦٨٠٠٠</cell>
@@ -2768,67 +2776,73 @@
                   <cell>٠٠٨١٩٤٩</cell>
                   <cell>٠٠٥٠٨٣٥</cell>
                   <cell>٠٠٠٥٣٩٥</cell>
-                  <cell>(٩) <orgName type="نظارة">نظارة المدارس</orgName></cell>
+                  <cell>(٩) <orgName type="نظارة" ref="نظارة-المدارس">نظارة المدارس</orgName></cell>
                </row>
                <row>
                   <cell>٠٥٢١٦١٢</cell>
                   <cell>٠٣٨٤٢٩٤</cell>
                   <cell>٠٠٢١٧٦٦</cell>
-                  <cell>(١٠) <orgName type="نظارة">نظاره الداخلية</orgName></cell>
+                  <cell>(١٠) <orgName type="نظارة" ref="نظاره-الداخلية">نظاره
+                     الداخلية</orgName></cell>
                </row>
                <row>
                   <cell>٠٢٤٦٣٤٢</cell>
                   <cell>٠٢٠٨٤٩٠</cell>
                   <cell>٠٠١٥٨٢٨</cell>
-                  <cell>(١١) <orgName type="نظارة">نظاره الحقانية</orgName></cell>
+                  <cell>(١١) <orgName type="نظارة" ref="نظاره-الحقانية">نظاره
+                     الحقانية</orgName></cell>
                </row>
                <row>
                   <cell>٠٤٣٩٢٧٠</cell>
                   <cell>٠٣٤٩٥١٦</cell>
                   <cell>٠٠٤٤٨٣٧</cell>
-                  <cell>(١٢) <orgName type="نظارة">نظارة الاشغال العمومية</orgName></cell>
+                  <cell>(١٢) <orgName type="نظارة" ref="نظارة-الاشغال-العمومية">نظارة الاشغال
+                        العمومية</orgName></cell>
                </row>
                <row>
                   <cell/>
                   <cell/>
                   <cell/>
-                  <cell>(١٣) السكك الحديد والتلغرافات ومينا اسكندرية</cell>
+                  <cell>(١٣) <orgName ref="السكك-الحديد-والتلغرافات" type="السكك">السكك الحديد
+                        والتلغرافات</orgName> و<placeName>مينا اسكندرية</placeName></cell>
                </row>
                <row>
                   <cell>٠٤٤٢٦٦٠</cell>
                   <cell>٠٣٥٨٤٥٤</cell>
                   <cell>٠٠٣١٤٨١</cell>
-                  <cell>السكك الحديد والتلغرافات</cell>
+                  <cell><orgName type="السكك" ref="السكك-الحديد-والتلغرافات">السكك الحديد
+                        والتلغرافات</orgName></cell>
                </row>
                <row>
                   <cell>٠٠١٩٠٠٠</cell>
                   <cell>٠٠٠٩٨٠٢</cell>
                   <cell>٠٠٠١٠٩٤</cell>
-                  <cell>مينا اسكندرية</cell>
+                  <cell><placeName>مينا اسكندرية</placeName></cell>
                </row>
                <row>
                   <cell>٠٠٠٥٤٦٦</cell>
                   <cell>٠٠٠٦٢٩٤</cell>
                   <cell>٠٠٠٢٧٨٣</cell>
-                  <cell>سكة حديد حلوان</cell>
+                  <cell><placeName type="سكة">سكة حديد حلوان</placeName></cell>
                </row>
                <row>
                   <cell>٠٠٦٠١٦٤</cell>
                   <cell>٠٠٥٥٠٤٢</cell>
                   <cell>٠٠٠٤٨٦٧</cell>
-                  <cell>(١٤) الكمارك</cell>
+                  <cell>(١٤) <orgName ref="الكمارك" type="الكمارك">الكمارك</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٧٢٥٠٠</cell>
                   <cell>٠٠٦٨٩٦٩</cell>
                   <cell>٠٠٠٥١٨٤</cell>
-                  <cell>(١٥) البوسته</cell>
+                  <cell>(١٥) <orgName type="البوسته" ref="البوسته">البوسته</orgName></cell>
                </row>
                <row>
                   <cell>٠١٢٦٩٤٥</cell>
                   <cell>٠١١٢٣٢٧</cell>
                   <cell>٠٠٠٨١٧٨</cell>
-                  <cell>(١٦) وابورات البوستة الخديوية</cell>
+                  <cell>(١٦) <orgName ref="وابورات-البوستة-الخديوية" type="وابورات">وابورات البوستة
+                        الخديوية</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٣٨٩٢١</cell>
@@ -2937,21 +2951,23 @@
                   <cell>٠٠٠٨٧٧</cell>
                   <cell>٠٠١٠٤٩١</cell>
                   <cell>٠٠٠٩٦١٤</cell>
-                  <cell>(٦) <orgName type="نظارة">نظارة الخارجيه</orgName></cell>
+                  <cell>(٦) <orgName type="نظارة" ref="نظارة-الخارجيه">نظارة
+                     الخارجيه</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠</cell>
                   <cell>٦٠٣٥١</cell>
                   <cell>٠٤٣١٦٧٦</cell>
                   <cell>٠٣٧١٣٢٥</cell>
-                  <cell>(٧) <orgName type="نظارة">نظارة الماليه</orgName></cell>
+                  <cell>(٧) <orgName type="نظارة" ref="نظارة-الماليه">نظارة الماليه</orgName></cell>
                </row>
                <row>
                   <cell/>
                   <cell/>
                   <cell/>
                   <cell/>
-                  <cell>(٨) <orgName type="نظارة">نظارتى الجهاديه والبحريه</orgName></cell>
+                  <cell>(٨) <orgName type="نظارة" ref="نظارتى-الجهاديه-والبحريه">نظارتى الجهاديه
+                        والبحريه</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠</cell>
@@ -2972,77 +2988,82 @@
                   <cell>٠١٢٦٢٣</cell>
                   <cell>٠٠٥٠٨٣٥</cell>
                   <cell>٠٠٣٨٢١٢</cell>
-                  <cell>(٩) <orgName type="نظارة">نظارة المعارف</orgName></cell>
+                  <cell>(٩) <orgName type="نظارة" ref="نظارة-المعارف">نظارة المعارف</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠</cell>
                   <cell>٠٥٧٣٩٢</cell>
                   <cell>٠٣٨٤٢٩٤</cell>
                   <cell>٠٣٢٦٩٠٢</cell>
-                  <cell>(١٠) <orgName type="نظارة">نظاره الداخليه</orgName></cell>
+                  <cell>(١٠) <orgName type="نظارة" ref="نظاره-الداخليه">نظاره
+                     الداخليه</orgName></cell>
                </row>
                <row>
                   <cell>١١١٦٣</cell>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٢٠٨٤٩٠</cell>
                   <cell>٠٤١٩٦٥٣</cell>
-                  <cell>(١١) <orgName type="نظارة">نظاره الحقانيه</orgName></cell>
+                  <cell>(١١) <orgName type="نظارة" ref="نظاره-الحقانيه">نظاره
+                     الحقانيه</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠</cell>
                   <cell>٠٧١٥٩٩(٢)</cell>
                   <cell>٠٣٤٩٥١٦</cell>
                   <cell>٠٢٧٧٩١٧</cell>
-                  <cell>(١٢) <orgName type="نظارة">نظاره الاشغال العموميه</orgName></cell>
+                  <cell>(١٢) <orgName type="نظارة" ref="نظاره-الاشغال-العموميه">نظاره الاشغال
+                        العموميه</orgName></cell>
                </row>
                <row>
                   <cell/>
                   <cell/>
                   <cell/>
                   <cell/>
-                  <cell>(١٣) السكك الحديد والتلغراف ومينا اسكندريه</cell>
+                  <cell>(١٣) <orgName type="السكك" ref="السكك-الحديد-والتلغراف">السكك الحديد
+                        والتلغراف</orgName> و<placeName>مينا اسكندريه</placeName></cell>
                </row>
                <row>
                   <cell>٥٣١٦٩</cell>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٣٥٨٤٥٤</cell>
                   <cell>٠٤١١٦٢٣</cell>
-                  <cell>السكك الحديد والتلغراف</cell>
+                  <cell><placeName type="سكة">السكك الحديد والتلغراف</placeName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠</cell>
                   <cell>٠٠٦٠٧٦</cell>
                   <cell>٠٠٠٩٨٠٢</cell>
                   <cell>٠٠٠٣٧٢٦</cell>
-                  <cell>مينا اسكندريه</cell>
+                  <cell><placeName>مينا اسكندريه</placeName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠</cell>
                   <cell>٠٠٠٦٢٠</cell>
                   <cell>٠٠٠٦٢٩٤</cell>
                   <cell>الرقم ممسوح وغير واضح</cell>
-                  <cell>سكة حديد حلوان</cell>
+                  <cell><placeName type="سكة">سكة حديد حلوان</placeName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠</cell>
                   <cell>٠٠٤٨٥٦</cell>
                   <cell>٠٠٥٥٠٤٢</cell>
                   <cell>٠٠٥٠١٨٦</cell>
-                  <cell>(١٤) كمارك</cell>
+                  <cell>(١٤) <orgName type="كمارك" ref="كمارك">كمارك</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠</cell>
                   <cell>٠٠٦٣٤٤</cell>
                   <cell>٠٠٦٨٩٦٩</cell>
                   <cell>٠٠٦٢٦٢٥</cell>
-                  <cell>(١٥) بوسته</cell>
+                  <cell>(١٥) <orgName type="بوسته" ref="بوسته">بوسته</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠</cell>
                   <cell>٠٠١٩٠٦</cell>
                   <cell>٠١١٢٣٢٧</cell>
                   <cell>٠١١٠٤٢١</cell>
-                  <cell>(١٦) وابورات البوسته الخديويه</cell>
+                  <cell>(١٦) <orgName type="وابورات" ref="وابورات-البوسته-الخديويه">وابورات البوسته
+                        الخديويه</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠</cell>
@@ -3149,17 +3170,19 @@
                      <p>٠٠٠٠٠</p>
                   </cell>
                   <cell>
-                     <p>(٥) السكك الحديد والتلغراف و<placeName type="مينا">مينا
-                           الاسكندرية</placeName></p>
-                     <p>السكك الحديد والتلغراف</p>
-                     <p>مينا سكندرية</p>
+                     <p>(٥)<orgName ref="السكك-الحديد-والتلغراف">السكك الحديد والتلغراف</orgName>
+                           و<placeName type="مينا">مينا الاسكندرية</placeName></p>
+                     <p><orgName type="السكك" ref="السكك-الحديد-والتلغراف">السكك الحديد
+                           والتلغراف</orgName></p>
+                     <p><placeName>مينا سكندرية</placeName></p>
                   </cell>
                </row>
                <row>
                   <cell>٠٧٥٠٠٠</cell>
                   <cell>٠٤٢٢٠٤</cell>
                   <cell>١٢٦٤٣</cell>
-                  <cell>(٦) وابورات البوستة الخديوية</cell>
+                  <cell>(٦) <orgName ref="وابورات-البوستة-الخديوية" type="وابورات">وابورات البوستة
+                        الخديوية</orgName></cell>
                </row>
                <row>
                   <cell>١٠٠٠٠٠</cell>
