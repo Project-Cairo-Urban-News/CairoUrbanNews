@@ -9,6 +9,7 @@
   <script src="js/CETEI.js"></script>
   <script>
     const url = new URL(document.URL);
+    let file;
     if (file = url.searchParams.get("name")) {
       let c = new CETEI();
       let behaviors = {
@@ -140,7 +141,7 @@
         }
       };
       c.addBehaviors(behaviors);
-      c.getHTML5("https://raw.githubusercontent.com/Project-Cairo-Urban-News/CairoUrbanNews/master/articles/arabic/" + file, function(data) {
+      c.getHTML5("https://raw.githubusercontent.com/Project-Cairo-Urban-News/CairoUrbanNews/master/articles/" + file, function(data) {
         document.getElementById("list").style.display = "none";
         document.querySelector("body").appendChild(data);
       });
@@ -156,6 +157,30 @@
     body {
       margin: 2em;
       text-align: right;
+    }
+    div.columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 2;
+      direction: rtl;
+      margin: auto;
+      width: 80vw;
+    }
+    div.columns h2#arabic {
+      grid-column: 1;
+      grid-row: 1;
+    }
+    div.columns ul#arabic_files {
+      grid-column: 1;
+      grid-row: 2;
+    }
+    div.columns h2#ottoman {
+      grid-column: 2;
+      grid-row: 1;
+    }
+    div.columns ul#ottoman_files {
+      grid-column: 2;
+      grid-row: 2;
     }
     li {
       list-style: none;
@@ -197,7 +222,7 @@
       margin: auto;
       width: 60vw;
     }
-    tei-text[lang=ar] {
+    tei-text[lang=ar],tei-text[lang=ota] {
       font-size: 18pt;
       direction: rtl;
     } 
@@ -212,7 +237,12 @@
 <body>
   <div id="list">
     <h1>الوقائع المصريّة</h1>
-    <ul id="files"></ul>
+    <div class="columns">
+      <h2 id="arabic">العربية</h2>
+      <ul id="arabic_files"></ul>
+      <h2 id="ottoman">Osmanlı</h2>
+      <ul id="ottoman_files"></ul>
+    </div>
   </div>
   <script>
     if (url.search == "") {
@@ -222,8 +252,19 @@
         data.forEach(file => {
           if (file.name.match(/\d{4}\.xml/)) {
             let li = document.createElement("li");
-            li.innerHTML = "<a href=\"?name=" + file.name + "\">" + file.name.replace(".xml","") + "</a>"
-            document.getElementById("files").appendChild(li)
+            li.innerHTML = "<a href=\"?name=arabic/" + file.name + "\">" + file.name.replace(".xml","") + "</a>"
+            document.getElementById("arabic_files").appendChild(li)
+          }
+        })
+      });
+      fetch("https://api.github.com/repos/Project-Cairo-Urban-News/CairoUrbanNews/contents/articles/ottoman")
+      .then(response => response.json())
+      .then(data => {
+        data.forEach(file => {
+          if (file.name.match(/\d{4}\.xml/)) {
+            let li = document.createElement("li");
+            li.innerHTML = "<a href=\"?name=ottoman/" + file.name + "\">" + file.name.replace(".xml","") + "</a>"
+            document.getElementById("ottoman_files").appendChild(li)
           }
         })
       });
