@@ -55,6 +55,10 @@
     <p type="head"><xsl:apply-templates mode="none"/></p>
   </xsl:template>
   
+  <xsl:template match="t:p[normalize-space(.) != '' and @style='text-align: center;' and (starts-with(normalize-space(.),'(') and ends-with(normalize-space(.),')'))]" mode="pass1" priority="2">
+    <p type="head2"><xsl:apply-templates mode="none"/></p>
+  </xsl:template>
+  
   <xsl:template match="t:p[normalize-space(.) != '' and @style='text-align: center;']" mode="pass1">
     <p type="head"><xsl:apply-templates mode="none"/></p>
   </xsl:template>
@@ -133,9 +137,33 @@
   
   <xsl:template match="t:p[@type='head'][preceding-sibling::t:p[1]/@type='head']" mode="pass2" priority="2"/>
         
+  <xsl:template match="t:p[@type='head2']" mode="head body">
+    <div>
+      <head><xsl:value-of select="normalize-space(translate(.,'1234567890','١٢٣٤٥٦٧٨٩٠'))"/></head>
+      <xsl:apply-templates select="./following-sibling::t:*[1]" mode="head2"/>
+    </div>
+    <!-- If there's a following 'head2' typed <p> before the next main heading, process it. -->
+    <xsl:variable name="next_head" select="./following-sibling::t:p[@type='head'][1]"/>
+    <xsl:if test="not(./following-sibling::t:p[@type='body'][1]/following-sibling::t:p[@type='head2'][1]/preceding-sibling::* = $next_head)">
+      <xsl:apply-templates select="./following-sibling::t:p[@type='body'][1]/following-sibling::t:*[@type='head2'][1]" mode="head"/>
+    </xsl:if>
+  </xsl:template>
+  
+  <xsl:template match="t:p[@type=('head','head2')]" mode="body2"/>
+  
+  <xsl:template match="t:p[@type='head2']" mode="head2" priority="2">
+    <head><xsl:value-of select="normalize-space(translate(.,'1234567890','١٢٣٤٥٦٧٨٩٠'))"/></head>
+    <xsl:apply-templates select="./following-sibling::t:*[1]" mode="head2"/>
+  </xsl:template>
+  
   <xsl:template match="t:p[@type='body']" mode="head body">
     <p><xsl:apply-templates/></p>
     <xsl:apply-templates select="./following-sibling::t:*[1]" mode="body"/>
+  </xsl:template>
+  
+  <xsl:template match="t:p[@type='body']" mode="head2 body2">
+    <p><xsl:apply-templates/></p>
+    <xsl:apply-templates select="./following-sibling::t:*[1]" mode="body2"/>
   </xsl:template>
   
   <xsl:template match="t:milestone" mode="head body">

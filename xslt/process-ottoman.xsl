@@ -57,7 +57,7 @@
   
   <!-- Pass 1: remove empty <p> tags and mark <p> types -->
   
-  <xsl:template match="t:p[t:hi[contains(@rend,'color(1F4E79)')]]" mode="pass1">
+  <xsl:template match="t:p[t:hi[contains(@rend,'color(')]]" mode="pass1">
     <p type="head" level="1"><xsl:apply-templates/></p>
   </xsl:template>
   
@@ -65,7 +65,7 @@
     <p type="head" level="2"><xsl:apply-templates/></p>
   </xsl:template>
   
-  <xsl:template match="t:p[t:hi[contains(@rend,'color(385623)')]]" mode="pass1">
+  <xsl:template match="t:p[matches(.,'^ص.*\d.*$')]" mode="pass1" priority="2">
     <milestone n="{normalize-space(.)}"/>
   </xsl:template>
   
@@ -95,17 +95,21 @@
   
   <xsl:template match="t:p[@type='head']" mode="pass2">
     <div>
-      <head><xsl:value-of select="normalize-space(translate(.,'1234567890','١٢٣٤٥٦٧٨٩٠'))"/></head>
-      <xsl:choose>
-        <xsl:when test="following-sibling::t:*[1]/@type='head'">
-          <xsl:apply-templates select="./following-sibling::t:*[1]" mode="pass2"/>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:apply-templates select="following-sibling::t:*[preceding-sibling::t:p[@type='head'][1] is current()]" mode="body"/>
-        </xsl:otherwise>
-      </xsl:choose>
+      <xsl:apply-templates select="." mode="head"/>
     </div>
     <xsl:apply-templates select="following-sibling::t:p[@type='head'][@level = current()/@level][preceding-sibling::t:p[@level le current()/@level][1] is current()]" mode="pass2"/>
+  </xsl:template>
+  
+  <xsl:template match="t:p[@type='head']" mode="head">
+    <head><xsl:value-of select="normalize-space(translate(.,'1234567890','١٢٣٤٥٦٧٨٩٠'))"/></head>
+    <xsl:choose>
+      <xsl:when test="following-sibling::t:*[1]/@type='head'">
+        <xsl:apply-templates select="./following-sibling::t:*[1]" mode="head"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:apply-templates select="following-sibling::t:*[preceding-sibling::t:p[@type='head'][1] is current()]" mode="body"/>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
     
   <xsl:template match="t:p[@type='head']" mode="body"/>
@@ -116,7 +120,9 @@
   
   <xsl:template match="t:milestone" mode="head body">
     <xsl:copy-of select="."/>
-    <xsl:apply-templates select="./following-sibling::t:*[1]" mode="#current"/>
+    <xsl:if test="following-sibling::t:*[1][@type='head']">
+      <xsl:apply-templates select="./following-sibling::t:*[1]" mode="#current"/>
+    </xsl:if>
   </xsl:template>
   
   <xsl:template match="t:p[@type='body']" mode="pass2"/>
