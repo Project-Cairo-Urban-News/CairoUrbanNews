@@ -159,6 +159,7 @@
  * 'مسجد'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml), [1292.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1292.xml)
  * 'مسكن'‎: [1246.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1246.xml)
  * 'مصبغة'‎: [1299_M-S.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1299_M-S.xml)
+ * 'مصطبة'‎: [1248.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1248.xml)
  * 'مطبخ'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml), [1246.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1246.xml)
  * 'معابد'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
  * 'معصرة'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
