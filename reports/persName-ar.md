@@ -28,6 +28,7 @@
  * 'محاسب'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
  * 'معاونا-لمأمور-اشغال-المحروسة'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
  * 'من-اهل-ناحية-منوهله'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
+ * 'من-رؤساء-المراكب'‎: [1248.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1248.xml)
  * 'من-مشايخ-ناحبة-منوهله-بقسم-المنوفية'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
  * 'موسى الخشنى المبيض'‎: [1297.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1297.xml)
  * ' نفيسة الخثنية'‎: [1297.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1297.xml)
