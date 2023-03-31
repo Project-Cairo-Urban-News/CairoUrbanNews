@@ -5,6 +5,7 @@
  * 'أرض'‎: [1299_M-S.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1299_M-S.xml)
  * 'ابعادية'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
  * 'ازقة'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
+ * 'اسبيطالية'‎: [1248.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1248.xml)
  * 'اسطبل'‎: [1289.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1289.xml)
  * 'اشوان'‎: [1246.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1246.xml), [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
  * 'اصطبل'‎: [1248.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1248.xml)
