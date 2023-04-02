@@ -1,7 +1,7 @@
 # Organization Types
  * 'Education-Ministry'‎: [1264.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1264.xml)
  * 'Engineering-office'‎: [1264.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1264.xml)
- * 'إدارة'‎: [1293.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1293.xml)
+ * 'إدارة'‎: [1293.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1293.xml), [1297.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1297.xml)
  * 'إدارة-عموم-المدارس'‎: [1286.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1286.xml)
  * 'أوقاف_الحرمين_الشريفين'‎: [1283.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1283.xml)
  * 'أوقاف_السيدين'‎: [1283.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1283.xml)
@@ -88,6 +88,7 @@
  * 'بيت-مال-مصر'‎: [1286.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1286.xml)
  * 'بيمارخانة_الاى_الطوبجية'‎: [1249.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1249.xml)
  * 'بيمرخانة_القصر_العينى'‎: [1249.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1249.xml)
+ * ' تا.رس أفندي'‎: [1297.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1297.xml)
  * 'ترسانات'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
  * 'ترسانة'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml), [1248.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1248.xml)
  * 'ترسانة_بولاق'‎: [1249.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1249.xml), [1248.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1248.xml)
