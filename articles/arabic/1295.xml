@@ -117,7 +117,7 @@
    </teiHeader>
    <text xml:lang="ar">
       <body>
-         <div resp="#eHL">
+         <div resp="#eHL" xml:id="w100">
             <head><bibl><biblScope unit="issue"> نمرة الوقائع ٧٤٣</biblScope></bibl></head>
             <head><date when="1295-01-09">٩ محرم الحرام سنة ١٢٩٥هـ</date> الموافق<date
                   when="1878-01-13"> ١٣ يناير الأفرنجي سنة ١٨٧٨م</date><bibl><biblScope unit="page">
@@ -154,7 +154,7 @@
                </row>
             </table>
          </div>
-         <div resp="#eHL">
+         <div resp="#eHL" xml:id="w101">
             <head><bibl><biblScope unit="issue"> نمرة الوقائع ٧٥٠</biblScope></bibl></head>
             <head>طبعت ب<placeName type="مطبعة">مطبعة بولاق</placeName> يوم<date when="1295-02-29">
                   الاحد ٢٩ صفر سنة ١٢٩٥هـ</date> الموافق <date when="1878-03-03">٣ مارث الأفرنجي سنة
