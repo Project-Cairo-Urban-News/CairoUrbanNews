@@ -237,7 +237,7 @@
  * 'محافظة '‎: [1295.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1295.xml)
  * 'محافظة_مصر'‎: [1283.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1283.xml)
  * 'محكمة'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml), [1295.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1295.xml), [1299_M-S.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1299_M-S.xml), [1294.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1294.xml)
- * 'محكمة '‎: [1295.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1295.xml)
+ * 'محكمة '‎: [1295.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1295.xml), [1299_M-S.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1299_M-S.xml)
  * ' محكمة'‎: [1295.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1295.xml)
  * ' محكمة '‎: [1295.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1295.xml)
  * 'محل'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
