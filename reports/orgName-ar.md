@@ -165,6 +165,7 @@
  * 'زريبة'‎: [1248.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1248.xml)
  * 'سبيل-السلحدار'‎: [1286.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1286.xml)
  * 'سجن'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
+ * 'سراي'‎: [1296.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1296.xml)
  * 'سركى_مصر'‎: [1283.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1283.xml)
  * 'سكرتارية'‎: [1299_M-S.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1299_M-S.xml)
  * 'سوق'‎: [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
