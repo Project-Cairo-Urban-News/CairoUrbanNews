@@ -25,6 +25,7 @@
  * 'الحطابة'‎: [1285.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1285.xml)
  * 'الحوض_الكبير'‎: [1244.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1244.xml)
  * 'الداودية'‎: [1285.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1285.xml)
+ * 'الدرب'‎: [1296.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1296.xml)
  * 'الدرسخانة'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
  * 'الرميلة'‎: [1285.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1285.xml)
  * 'القشلة'‎: [1248.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1248.xml)
