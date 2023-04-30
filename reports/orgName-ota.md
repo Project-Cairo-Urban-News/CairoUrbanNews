@@ -1,10 +1,11 @@
 # Organization Types
  * 'ایپکخانه'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)
+ * 'بشير-اغا-خانى'‎: [q8](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/q8)
  * 'بويا-خانه'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)
  * 'جامع'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)
  * 'جامع-ازهر'‎: [1265.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1265.xml)
  * 'دكرمن'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)
- * 'ضابطخانه'‎: [1265.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1265.xml)
+ * 'ضابطخانه'‎: [1264.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1264.xml), [1265.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1265.xml)
  * 'طوپخانه'‎: [1265.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1265.xml)
  * 'عمليات-ورشه-سى'‎: [1263.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1263.xml)
  * 'مجلس-خصوصی'‎: [1265.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/ottoman/1265.xml)
