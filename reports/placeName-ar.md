@@ -134,7 +134,7 @@
  * 'ضريح'‎: [1296.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1296.xml), [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml)
  * 'طابيات'‎: [1245.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1245.xml)
  * 'طاحون-هواء'‎: [1248.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1248.xml)
- * 'طريق'‎: [1299_M-S.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1299_M-S.xml), [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml), [1295.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1295.xml)
+ * 'طريق'‎: [1299_M-S.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1299_M-S.xml), [1247.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1247.xml), [1295.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1295.xml), [1299_S-RTH.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1299_S-RTH.xml)
  * 'عابدين'‎: [1285.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1285.xml)
  * 'عطف'‎: [1246.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1246.xml)
  * 'عطفة'‎: [1296.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1296.xml), [1289.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1289.xml), [1284.xml](/Project-Cairo-Urban-News/CairoUrbanNews/blob/master/articles/arabic/1284.xml)
