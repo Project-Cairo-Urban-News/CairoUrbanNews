@@ -21,7 +21,8 @@
       tei-person {
         padding-top: .5em;
         display: grid;
-        grid-template-columns: 4em 1fr 1fr;
+        grid-template-columns: 4em 30vw 1fr;
+        column-gap: 1em;
         line-height: 1.5lh;
       }
       tei-person:nth-child(even) {
@@ -29,10 +30,12 @@
       }
       tei-ptr {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(6em, 10em));
+        grid-template-columns: repeat(auto-fill, 5em);
+        column-gap: 1em;
       }
       *[lang=ar],*[lang=ota] {
         font-size: 18pt;
+        text-align: right;
       }
     </style>
     <script src="js/CETEI.js"></script>
