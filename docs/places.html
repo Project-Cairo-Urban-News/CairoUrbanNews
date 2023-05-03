@@ -21,12 +21,15 @@
       tei-place {
         padding-top: .5em;
         display: grid;
-        grid-template-columns: 4em 30vw 1fr;
+        grid-template-columns: 4em 30vw 1fr 1fr;
         column-gap: 1em;
         line-height: 1.5lh;
       }
       tei-place:nth-child(even) {
         background-color: #EEE;
+      }
+      tei-placename[type]::after {
+        content: ' (' attr(type) ')';
       }
       tei-ptr {
         display: grid;
