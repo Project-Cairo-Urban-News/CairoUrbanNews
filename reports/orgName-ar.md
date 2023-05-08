@@ -120,6 +120,7 @@
  * 'خزينه'‎: [1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%D8%AE%D8%B2%D9%8A%D9%86%D9%87)
  * 'دائرة'‎: [1299_M-S.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1299_M-S.xml&text=%D8%AF%D8%A7%D8%A6%D8%B1%D8%A9), [1298.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1298.xml&text=%D8%AF%D8%A7%D8%A6%D8%B1%D8%A9)
  * 'دار_الطباعة_العامرة'‎: [1249.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1249.xml&text=%D8%AF%D8%A7%D8%B1_%D8%A7%D9%84%D8%B7%D8%A8%D8%A7%D8%B9%D8%A9_%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%B1%D8%A9)
+ * 'دايرة '‎: [1298.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1298.xml&text=%D8%AF%D8%A7%D9%8A%D8%B1%D8%A9%20)
  * 'دفترخانة'‎: [1299_M-S.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1299_M-S.xml&text=%D8%AF%D9%81%D8%AA%D8%B1%D8%AE%D8%A7%D9%86%D8%A9)
  * ' دفترخانة'‎: [1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%20%D8%AF%D9%81%D8%AA%D8%B1%D8%AE%D8%A7%D9%86%D8%A9)
  * 'دواوين'‎: [1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%D8%AF%D9%88%D8%A7%D9%88%D9%8A%D9%86)
