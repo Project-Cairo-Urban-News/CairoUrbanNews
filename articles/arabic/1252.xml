@@ -86,7 +86,7 @@
       <projectDesc>
         <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-      </projectDesc>
+      </projectDesc> 
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
         <p>We use the Arabic script but transliteration into Latin characters follows the Library of
@@ -111,17 +111,19 @@
   
   <text xml:lang="ar">
       <body>
-      <div resp="#eNK" xml:id="W152">
+      <div resp="#eNK #eSG" xml:id="W152">
         <head><date when-custom="1252-10-06">٦ شوال ١٢٥٢</date>
           <date when="1837-01-13">١٣ يناير ١٨٣٧</date><bibl>
             <biblScope unit="issue">نمرة ٦١٠</biblScope>
             <biblScope unit="page">صفحة ٣</biblScope>
           </bibl>
         </head>
-        <p>ان <persName>حضرة البيك ناظر <orgName type="الاوقاف">الاوقاف</orgName> المصريه ومدير
-            الشفلكات البحريه</persName> قد عرض ل<persName>حضرة مأمور <orgName type="الديوان-الخديوى">الديوان الخديوى</orgName></persName> انه محتاج الى ديوان يقيم به هو والكتبة الذين معه
-          ورتب له بيت من بيوت <orgName type="الميرى">الميرى</orgName> وحيث ان بعض محلات البيت محتاج
-          الى التعمير وكشف عنه بمعرفة <persName>البيك مفتش الابنيه</persName> وتبين انه يتم بثلاثه
+        <p>ان حضرة البيك ناظر <orgName type="اوقاف">الاوقاف</orgName> المصريه ومدير
+          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah" timestamp="20230427T152306+0200" comment="orgname?"?>الشفلكات<?oxy_comment_end?>
+          البحريه<?oxy_custom_end?> قد عرض لحضرة مأمور <orgName type="ديوان" ref="الديوان-الخديوى"
+            >الديوان الخديوى</orgName>انه محتاج الى ديوان يقيم به هو والكتبة الذين معه ورتب له
+            <placeName type="بيت" ref="بيت -من-بيوت-الميرى">بيت</placeName>من بيوت الميرى وحيث ان
+          بعض محلات البيت محتاج الى التعمير وكشف عنه بمعرفة البيك مفتش الابنيه وتبين انه يتم بثلاثه
           وثلاثين الف قرش وكسور وحرر اشعارا لى المفتش المومى اليه بان يبادر الى عمارته ويسارع فى
           ختامها.</p>
       </div>

@@ -1,1 +1,1 @@
-# Organization Types
+# Person Types

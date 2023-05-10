@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/tei.css">
+    <style>
+      body {
+        font-family:Arial, Helvetica, sans-serif;
+      }
+      tei-standoff {
+        display: block;
+      }
+      tei-listperson {
+        display: block;
+      }
+      tei-person::before {
+        content: attr(id);
+      }
+      tei-person {
+        padding-top: .5em;
+        display: grid;
+        grid-template-columns: 4em 30vw 1fr;
+        column-gap: 1em;
+        line-height: 1.5lh;
+      }
+      tei-person:nth-child(even) {
+        background-color: #EEE;
+      }
+      tei-ptr {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 5em);
+        column-gap: 1em;
+      }
+      *[lang=ar],*[lang=ota] {
+        font-size: 18pt;
+        text-align: right;
+      }
+    </style>
+    <script src="js/CETEI.js"></script>
+    <script>
+      const c = new CETEI();
+      const behaviors = {
+        'tei': {
+          'ptr': (ptr) => {
+            const targets = ptr.getAttribute('target').split(' ');
+            const result = document.createDocumentFragment();
+            targets.forEach(e => {
+              const a = document.createElement('a');
+              a.setAttribute('href', e);
+              a.innerHTML = e.replace(/\D*((arabic|ottoman)\/\d+\D*)\.xml.*/, "$1");
+              result.appendChild(a);
+            });
+            return result;
+          }
+        }
+      };
+      c.addBehaviors(behaviors);
+      c.getHTML5("https://raw.githubusercontent.com/Project-Cairo-Urban-News/CairoUrbanNews/master/reports/persons.xml", (data) => {
+        document.querySelector("body").appendChild(data);
+      });
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>
