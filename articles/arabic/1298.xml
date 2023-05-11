@@ -2983,10 +2983,10 @@
             </div>
          </div>
          <div xml:id="w153">
-            <head><bibl><biblScope unit="issue">نمره ١٠٣٩</biblScope></bibl></head>
-            <head>يوم الاربعاء ١٧ ربيع الاول سنة١٢٩٨ الموافق ١٦ فبراير الافرنكى سنة ١٨٨١ الموافق ١٠
-               أمشير القبطى سنة ١٥٩٧</head>
-            <head>صفحة ٣ – ٤</head>
+            <head>
+               <date when="1298-03-17">١٧ ربيع الاول سنة١٢٩٨</date>
+               <date when="1881-02-16">١٦ فبراير سنة ١٨٨١</date><bibl><biblScope unit="issue">نمره
+                     ١٠٣٩</biblScope></bibl></head>
             <div>
                <head>(جدول من قسم أملاك الميرى بالمالية )</head>
                <p>ببيان المباع من الاملاك الاميريه والمتحصل من كمالة أثمان السابق مبيعه فى شهر يناير
@@ -3041,7 +3041,8 @@
                      <cell>٠٨٦٢</cell>
                      <cell>٧٥</cell>
                      <cell>٣٤٤٨</cell>
-                     <cell>قطع أراضى بجهة الشيخ عبد الله ضمن نمرة ١</cell>
+                     <cell>قطع أراضى <placeName type="جهة">بجهة<persName>الشيخ عبد
+                           الله</persName></placeName> ضمن نمرة ١</cell>
                      <cell>١٠</cell>
                      <cell>٤٣</cell>
                      <cell>٠٢٠٨</cell>
@@ -3075,7 +3076,8 @@
                      <cell>٠٢١٠</cell>
                      <cell>٣٧</cell>
                      <cell>٠٢٠٩</cell>
-                     <cell>منزل وحصه كائنين بشارع رحبة التبن نمرة ٢ ونمرة ٣</cell>
+                     <cell>منزل وحصه كائنين <placeName type="شارع">بشارع رحبة التبن</placeName>نمرة
+                        ٢ ونمرة ٣</cell>
                      <cell>٠٠</cell>
                      <cell>٠٠</cell>
                      <cell>٠٠٥٢</cell>
@@ -3092,7 +3094,8 @@
                      <cell>٠٠٤٠</cell>
                      <cell>٥٥</cell>
                      <cell>٠٠٥٦</cell>
-                     <cell>منزل كائن بحارة علم الدين بشارع نمرة ٤٠ ونمرة ٤</cell>
+                     <cell>منزل كائن <placeName type="حارة">بحارة علم الدين</placeName> بشارع نمرة
+                        ٤٠ ونمرة ٤</cell>
                      <cell>٠٠</cell>
                      <cell>٠٠</cell>
                      <cell>٠٠٢٥</cell>
@@ -3109,7 +3112,8 @@
                      <cell>٠٠٢٦</cell>
                      <cell>١٣</cell>
                      <cell>٠١٠٥</cell>
-                     <cell>قطع أراضى كائنه بجهة الصابر نمرة ٦ و ٧ و ٨</cell>
+                     <cell>قطع أراضى كائنه <placeName type="جهة">بجهة الصابر</placeName> نمرة ٦ و ٧
+                        و ٨</cell>
                      <cell>٣٠</cell>
                      <cell>٧١</cell>
                      <cell>٠٠٥٧</cell>
@@ -3126,7 +3130,8 @@
                      <cell>٠٠٧٧</cell>
                      <cell>٢٥</cell>
                      <cell>٠٠٨٠</cell>
-                     <cell>باقى ربع نمرة ٩ وقطع أراضى نمرة ١٠ ونمرة ١١ بشارع سليمان باشا</cell>
+                     <cell>باقى ربع نمرة ٩ وقطع أراضى نمرة ١٠ ونمرة ١١<placeName type="شارع">بشارع
+                           سليمان باشا</placeName></cell>
                      <cell>٢٠</cell>
                      <cell>٨٧</cell>
                      <cell>٠١٢٠</cell>
