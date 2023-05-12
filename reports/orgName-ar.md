@@ -83,6 +83,7 @@
  * 'بطركخانة-الأقباط'‎: [1288.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1288.xml&text=%D8%A8%D8%B7%D8%B1%D9%83%D8%AE%D8%A7%D9%86%D8%A9-%D8%A7%D9%84%D8%A3%D9%82%D8%A8%D8%A7%D8%B7)
  * 'بنك'‎: [1299_M-S.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1299_M-S.xml&text=%D8%A8%D9%86%D9%83), [1298.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1298.xml&text=%D8%A8%D9%86%D9%83)
  * 'بوسته'‎: [1299_M-S.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1299_M-S.xml&text=%D8%A8%D9%88%D8%B3%D8%AA%D9%87)
+ * 'بيت'‎: [1298.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1298.xml&text=%D8%A8%D9%8A%D8%AA)
  * 'بيت_المال'‎: [1264.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1264.xml&text=%D8%A8%D9%8A%D8%AA_%D8%A7%D9%84%D9%85%D8%A7%D9%84), [1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1263.xml&text=%D8%A8%D9%8A%D8%AA_%D8%A7%D9%84%D9%85%D8%A7%D9%84)
  * 'بيت_مال_المحروسة'‎: [1283.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1283.xml&text=%D8%A8%D9%8A%D8%AA_%D9%85%D8%A7%D9%84_%D8%A7%D9%84%D9%85%D8%AD%D8%B1%D9%88%D8%B3%D8%A9)
  * 'بيت_مال_مصر'‎: [1283.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1283.xml&text=%D8%A8%D9%8A%D8%AA_%D9%85%D8%A7%D9%84_%D9%85%D8%B5%D8%B1)
