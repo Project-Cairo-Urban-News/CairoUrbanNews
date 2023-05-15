@@ -202,6 +202,7 @@
  * 'قرقول_باب_الخلق'‎: [1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1263.xml&text=%D9%82%D8%B1%D9%82%D9%88%D9%84_%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D8%AE%D9%84%D9%82)
  * 'قرقول_باب_الشعرية'‎: [1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1263.xml&text=%D9%82%D8%B1%D9%82%D9%88%D9%84_%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D8%B4%D8%B9%D8%B1%D9%8A%D8%A9)
  * 'قرقول_باب_الوزير'‎: [1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1263.xml&text=%D9%82%D8%B1%D9%82%D9%88%D9%84_%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D9%88%D8%B2%D9%8A%D8%B1)
+ * 'قره-قول'‎: [1261.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1261.xml&text=%D9%82%D8%B1%D9%87-%D9%82%D9%88%D9%84)
  * 'قسم'‎: [1247.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1247.xml&text=%D9%82%D8%B3%D9%85), [1248.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1248.xml&text=%D9%82%D8%B3%D9%85), [1296.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1296.xml&text=%D9%82%D8%B3%D9%85)
  * 'قشلة'‎: [1247.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1247.xml&text=%D9%82%D8%B4%D9%84%D8%A9)
  * 'قللق'‎: [1247.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1247.xml&text=%D9%82%D9%84%D9%84%D9%82)
