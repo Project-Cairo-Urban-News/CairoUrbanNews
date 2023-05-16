@@ -2,7 +2,7 @@
  * 'mosque'‎: [1292.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1292.xml&text=mosque)
  * 'street'‎: [1284.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1284.xml&text=street)
  * 'street-name'‎: [1264.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1264.xml&text=street-name)
- * 'أرض'‎: [1299_M-S.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1299_M-S.xml&text=%D8%A3%D8%B1%D8%B6)
+ * 'أرض'‎: [1299_M-S.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1299_M-S.xml&text=%D8%A3%D8%B1%D8%B6), [1298.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1298.xml&text=%D8%A3%D8%B1%D8%B6)
  * 'أودة'‎: [1262.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1262.xml&text=%D8%A3%D9%88%D8%AF%D8%A9)
  * 'ابعادية'‎: [1247.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1247.xml&text=%D8%A7%D8%A8%D8%B9%D8%A7%D8%AF%D9%8A%D8%A9)
  * 'ارض'‎: [1248.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1248.xml&text=%D8%A7%D8%B1%D8%B6)
