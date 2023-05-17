@@ -129,6 +129,7 @@
  * 'دايره'‎: [1298.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1298.xml&text=%D8%AF%D8%A7%D9%8A%D8%B1%D9%87)
  * 'دفترخانة'‎: [1299_M-S.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1299_M-S.xml&text=%D8%AF%D9%81%D8%AA%D8%B1%D8%AE%D8%A7%D9%86%D8%A9)
  * ' دفترخانة'‎: [1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%20%D8%AF%D9%81%D8%AA%D8%B1%D8%AE%D8%A7%D9%86%D8%A9)
+ * 'دوار'‎: [1298.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1298.xml&text=%D8%AF%D9%88%D8%A7%D8%B1)
  * 'دواوين'‎: [1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%D8%AF%D9%88%D8%A7%D9%88%D9%8A%D9%86)
  * 'دولة'‎: [1297.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1297.xml&text=%D8%AF%D9%88%D9%84%D8%A9)
  * 'دير'‎: [1289.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1289.xml&text=%D8%AF%D9%8A%D8%B1)
