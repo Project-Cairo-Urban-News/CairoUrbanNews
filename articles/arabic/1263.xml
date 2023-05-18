@@ -299,10 +299,23 @@
          <div xml:id="w9" resp="#eSG">
             <head><date when-custom="1263-03-14">١٤ ربيع الاول ١٢٦٣</date><date when="1847-03-02">٢
                   مارس ١٨٤٧</date><bibl><biblScope unit="issue">نمرة ٥٤</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
-            <head>الحوادث الداخليه</head>
-            <p>
-               <hi xml:space="preserve">انه قد ظهرت <rs type="حريق">حريقة</rs> ببيت كائن ب<placeName>حارة السقائين</placeName> متعلق ب<persName>رجل قبطى اسمه المعلم ابراهيم</persName> وذلك فى الساعة الثالثة من يوم الاحد الموافق للثامن والعشرين من صفر الخير الماضى واسعفت بطلومبة من <orgName type="الضابطخانة">الضابطخانة</orgName> وطلومبة من <orgName type="الطلومبخانه">الطلومبخانه</orgName> مع من لزم من الطلومبجية وقد لحقتها اولا طلومبة الثمن الموجود بناحية تلك الحارة واطفئت النار بدون سراية ولم يحترق منها شئ سوى مرتبة ولحافين وثلاث وسادات من الطبقة الثالثة فى البيت التى نشأت الحريقة منها وظهرت <rs type="حريقة">حريقة</rs> ايضا فى حاصل بيت كائن ب<placeName>حارة المراحلية</placeName>فى<placeName>خط قيسون</placeName> متعلق بامرأة اسمها فاطمة فى الساعة الثانية من اليوم المذكور وقد اسعفت بطلومبة الثمن فى الحال مع طلومبجيتها وحصل اطفاؤها بدون سراية . </hi>
-            </p>
+            <head><title>الحوادث الداخليه</title></head>
+            <p>انه قد ظهرت<rs type="حريق">حريقة</rs> ب<placeName type="بيت">بيت</placeName>كائن
+                  ب<placeName type="حارة" ref="حارة-السائقين">حارة السقائين</placeName>متعلق
+                  ب<persName>رجل قبطى اسمه المعلم ابراهيم</persName> وذلك فى الساعة الثالثة من يوم
+               الاحد الموافق للثامن والعشرين من صفر الخير الماضى واسعفت بطلومبة من <orgName
+                  ref="الضابطخانة">الضابطخانة</orgName> وطلومبة من <orgName ref="الطلومبخانه"
+                  >الطلومبخانه</orgName> مع من لزم من الطلومبجية وقد لحقتها اولا طلومبة ال<orgName
+                  type="ثمن">ثمن</orgName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+               <?oxy_comment_start author="Sarah" timestamp="20230518T221939+0200" comment="check in the original" mid="9"?>الموجود<?oxy_custom_end?><?oxy_comment_end mid="9"?>
+               بناحية تلك الحارة واطفئت النار بدون سراية ولم يحترق منها شئ سوى مرتبة ولحافين وثلاث
+               وسادات من الطبقة الثالثة فى البيت التى نشأت الحريقة منها وظهرت <rs type="حريقة"
+                  >حريقة</rs> ايضا فى حاصل <placeName type="بيت">بيت</placeName>كائن ب<placeName
+                  type="حارة" ref="حارة-المراحلية">حارة
+                  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah" timestamp="20230518T222103+0200" comment="check in the original" mid="11"?>المراحلية<?oxy_custom_end?><?oxy_comment_end mid="11"?></placeName>فى<placeName
+                  type="خط" ref="خط-قيسون">خط قيسون</placeName> متعلق بامرأة اسمها فاطمة فى الساعة
+               الثانية من اليوم المذكور وقد اسعفت بطلومبة الثمن فى الحال مع طلومبجيتها وحصل اطفاؤها
+               بدون سراية .</p>
          </div>
          <div xml:id="w10" resp="#eSG">
             <head><date type="1263-03-14">١٤ ربيع الاول ١٢٦٣</date><date when="1847-03-02">٢ مارس
