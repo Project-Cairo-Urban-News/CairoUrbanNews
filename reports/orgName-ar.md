@@ -40,7 +40,6 @@
  * 'الدكريتو'‎: [1299_M-S.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1299_M-S.xml&text=%D8%A7%D9%84%D8%AF%D9%83%D8%B1%D9%8A%D8%AA%D9%88)
  * 'الديوان'‎: [1247.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1247.xml&text=%D8%A7%D9%84%D8%AF%D9%8A%D9%88%D8%A7%D9%86)
  * 'الديوان_الخديوى'‎: [1264.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1264.xml&text=%D8%A7%D9%84%D8%AF%D9%8A%D9%88%D8%A7%D9%86_%D8%A7%D9%84%D8%AE%D8%AF%D9%8A%D9%88%D9%89), [1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1263.xml&text=%D8%A7%D9%84%D8%AF%D9%8A%D9%88%D8%A7%D9%86_%D8%A7%D9%84%D8%AE%D8%AF%D9%8A%D9%88%D9%89)
- * 'الديوان_العالى'‎: [1244.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1244.xml&text=%D8%A7%D9%84%D8%AF%D9%8A%D9%88%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%89)
  * 'الديوان-الخديوى'‎: [1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%D8%A7%D9%84%D8%AF%D9%8A%D9%88%D8%A7%D9%86-%D8%A7%D9%84%D8%AE%D8%AF%D9%8A%D9%88%D9%89)
  * 'الديوان-الخديوي'‎: [1246.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1246.xml&text=%D8%A7%D9%84%D8%AF%D9%8A%D9%88%D8%A7%D9%86-%D8%A7%D9%84%D8%AE%D8%AF%D9%8A%D9%88%D9%8A)
  * 'الرصدخانة'‎: [1283.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1283.xml&text=%D8%A7%D9%84%D8%B1%D8%B5%D8%AF%D8%AE%D8%A7%D9%86%D8%A9)
