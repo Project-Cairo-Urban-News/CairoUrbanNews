@@ -1,135 +1,126 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="../../css/oxygen.css"?>
-<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
-               Project</title>
-            <editor xml:id="eNK">Nour Kanaan</editor>
-            <editor xml:id="eAM">Adam Mestyan</editor>
-            <editor xml:id="eDY">Danah Younis</editor>
-            <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
-            <editor xml:id="eAE">Arif Erbil</editor>
-            <editor xml:id="eAK">Ahmed Kamal</editor>
-            <editor xml:id="eAS">Abram Smith</editor>
-            <editor xml:id="eCH">Clara Harms</editor>
-            <editor xml:id="eHS">Hüseyin Sağlam</editor>
-            <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
-            <editor xml:id="eHL">Hiba Laabadli</editor>
-            <editor xml:id="eOE">Othmane Echchabi</editor>
-            <editor xml:id="eFA">Fatemah Almahana</editor>
-            <respStmt>
-               <resp>Advisor</resp>
-               <name>Hugh Cayless</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Adam Mestyan</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Mercedes Volait</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Sarah Fath Allah</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Karima Nasr</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Rezk Nory</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Arif Erbil</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Ahmed Kamal</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Abram Smith</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Clara Harms</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Hüseyin Sağlam</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Abdulrahman El-Taliawi</name>
-            </respStmt>
-            <sponsor>
-               <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
-                  <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew
-                  W. Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke
-                  University Libraries</orgName>; <orgName>Centre national de la recherche
-                  scientifique</orgName>. </sponsor>
-         </titleStmt>
-         <publicationStmt>
-            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La
-               fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-            <p>
-               <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
-            </p>
-            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
-                  Volait</persName>
-            </p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
-            <p>born digital document</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <projectDesc>
-            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in
-               the project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke
-               University).</p>
-         </projectDesc>
-         <editorialDecl>
-            <p>Rules of TEI XML MarkUp in This Project</p>
-            <p>We use the Arabic script but transliteration into Latin characters follows the
-               Library of Congress (LOC) <ref
-                  target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic
-                  transliteration chart</ref>.</p>
-            <p>Each individual article has an individual xml:id number starting with "w1"</p>
-            <p>We only use persName, orgName, placeName elements, apart from bibliographical
-               elements and notes.</p>
-            <p>If the location or organization of responsibility is known from the text, it can be
-               added in an attribute to a persName.</p>
-            <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-            <p>This project's schema considers Till Grallert's work in his <ref
-                  target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
-                  Editions</ref>.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="ar">Arabic</language>
-            <language ident="en">English</language>
-            <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
-            <language ident="ota">Ottoman</language>
-         </langUsage>
-      </profileDesc>
-   </teiHeader>
-   <text xml:lang="ar">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="css/oxygen.css"?><?xml-model href="schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
+          Project</title>
+        <editor xml:id="eNK">Nour Kanaan</editor>
+        <editor xml:id="eAM">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
+        <editor xml:id="eAE">Arif Erbil</editor>
+        <editor xml:id="eAK">Ahmed Kamal</editor>
+        <editor xml:id="eAS">Abram Smith</editor>
+        <editor xml:id="eCH">Clara Harms</editor>
+        <editor xml:id="eHS">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+        <editor xml:id="eHL">Hiba Laabadli</editor>
+        <editor xml:id="eOE">Othmane Echchabi</editor>
+        <editor xml:id="eFA">Fatemah Almahana</editor>
+        <respStmt>
+          <resp>Advisor</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Mercedes Volait</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Sarah Fathallah Garaa</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Karima Nasr</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Rezk Nory</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Arif Erbil</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Ahmed Kamal</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abram Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Clara Harms</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hüseyin Sağlam</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abdulrahman El-Taliawi</name>
+        </respStmt>
+        <sponsor>
+          <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
+            <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+            Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>.
+        </sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
+          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+        <p>born digital document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Rules of TEI XML MarkUp in This Project</p>
+        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
+        <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
+        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+          Editions</ref>.</p>
+        
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+        <language ident="ota">Ottoman</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <listchange>
+        <change xml:id="FINALDRAFT">Final version.</change>
+      </listchange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="ar">
       <body>
          <div>
-            <head><date when="1297-01-14">يوم الأحد ١٤ محرم الحرام سنة ١٢٩٧ه</date><date
-                  when="1879-12-28"> الموافق ٢٨ ديسمبر الأفرنجي سنة ١٨٧٩م</date>
-               <bibl><biblScope unit="number">نمرة ٨٤١</biblScope><biblScope unit="page"
-                     >ص٤</biblScope></bibl></head>
+            <head><date when="1297-01-14">يوم الأحد ١٤ محرم الحرام سنة ١٢٩٧ه</date><date when="1879-12-28"> الموافق ٢٨ ديسمبر الأفرنجي سنة ١٨٧٩م</date>
+               <bibl><biblScope unit="number">نمرة ٨٤١</biblScope><biblScope unit="page">ص٤</biblScope></bibl></head>
             <head>نص اعلان وارد من ضبطية مصر بتاريخ غرة <date>محرم سنة ٩٧</date></head>
             <p> ان مجلس .... مصر أصدر ضبطية مؤرخة في<sic> ٧ ذي سنة ٩٦ نمرة ٣٣</sic> ووردت نسختها
                للضبطية مشروحا عليها منه في التاريخ<sic> المرقوم نمرة ٩٧</sic> من تلاوتها تبين
@@ -150,9 +141,7 @@
                .... للمعلومية بما توضح</p>
          </div>
          <div>
-            <head><date when="1297-02-20">الأثنين ٢٠ صفر الخير سنة ١٢٩٧ه</date><date
-                  when="1880-02-01">١ فبراير الأفرنجي سنة ١٨٨٠م</date><bibl><biblScope unit="issue"
-                     >نمرة ٨٤٨</biblScope><biblScope unit="page">ص٤</biblScope></bibl></head>
+            <head><date when="1297-02-20">الأثنين ٢٠ صفر الخير سنة ١٢٩٧ه</date><date when="1880-02-01">١ فبراير الأفرنجي سنة ١٨٨٠م</date><bibl><biblScope unit="issue">نمرة ٨٤٨</biblScope><biblScope unit="page">ص٤</biblScope></bibl></head>
             <head>نص اعلان وارد من ديوان الاوقاف بتاريخ ٣ صفر سنة ٩٧</head>
             <p>ثلاثة دكاكين وباب ربع وعلوهم متخربين ومسطح أرضهم ٨٥ و ٨٩ مترا كائنين على رأس درب
                   <placeName type="درب">الدليل</placeName> و<placeName type="درب">حيضان
@@ -163,22 +152,16 @@
                بالوقايع كالجاري لزم ترقيمه ليتنبه بالاجراء حسب ما ذكر</p>
          </div>
          <div>
-            <head>يوم<date when="1297-02-20">الأثنين ٢٠ صفر الخير سنة ١٢٩٧ه </date><date
-                  when="1880-02-01">١ فبراير الأفرنجي سنة ١٨٨٠م</date><bibl><biblScope unit="issue"
-                     >نمرة ٨٤٨</biblScope><biblScope unit="page">ص٤</biblScope></bibl></head>
+            <head>يوم<date when="1297-02-20">الأثنين ٢٠ صفر الخير سنة ١٢٩٧ه </date><date when="1880-02-01">١ فبراير الأفرنجي سنة ١٨٨٠م</date><bibl><biblScope unit="issue">نمرة ٨٤٨</biblScope><biblScope unit="page">ص٤</biblScope></bibl></head>
             <head>اعلان وارد منه أيضًا بتاريخ ١٩ صفر سنة ٩٧</head>
-            <p>يكون معلوما لدي جميع مالكين الأراضي والأطيان بناحية الويلي الكبير من ضواحي<placeName
-                  type="مدينة">المحروسة</placeName> ان مصلحة عموم التاربيع ستبتدئ يوم <date
-                  when="1880-02-07">٧ فبراير سنة ١٨٨٠ </date>الموافق <date when="1297-02-26">٢٦ صفر
+            <p>يكون معلوما لدي جميع مالكين الأراضي والأطيان بناحية الويلي الكبير من ضواحي<placeName type="مدينة">المحروسة</placeName> ان مصلحة عموم التاربيع ستبتدئ يوم <date when="1880-02-07">٧ فبراير سنة ١٨٨٠ </date>الموافق <date when="1297-02-26">٢٦ صفر
                   سنة ١٢٩٧</date> بإجراء عملية المساحة في الناحية المذكورة أعلاه بناء عليه كل منتفع
                أوصاحب ملك بأراضي الناحية المذكورة له الحق في الحضور بهذه العملية للتعريف عن حدود
                أرضه وذلك يكون أما بنفسه أو بتعيين وكيل معتمد لينوب عنه في ذلك لحين انتهاء هذه
                العملية </p>
          </div>
          <div>
-            <head>يوم<date when="1297-02-23">الثلاثاء ٢٣ صفر الخير سنة ١٢٩٧ه</date><date
-                  when="1880-02-03">٣ فبراير الأفرنجي سنة ١٨٨٠م</date><bibl><biblScope unit="issue"
-                     >نمرة ٨٤٩</biblScope><biblScope unit="page">ص٤</biblScope></bibl></head>
+            <head>يوم<date when="1297-02-23">الثلاثاء ٢٣ صفر الخير سنة ١٢٩٧ه</date><date when="1880-02-03">٣ فبراير الأفرنجي سنة ١٨٨٠م</date><bibl><biblScope unit="issue">نمرة ٨٤٩</biblScope><biblScope unit="page">ص٤</biblScope></bibl></head>
             <head>نص اعلان وارد من ضبطية مصر بتاريخ ٣ صفر سنة ٩٧</head>
             <p>مقدما عرض للمحافظة الملغية من الحرمة<persName>نفيسة الخثنية</persName> بان لها خمسة
                عشر قيراط بدكان بجهة<placeName type="حي"> السيد زينب</placeName> وحجتها ضايعة ولما
@@ -196,8 +179,7 @@
                   المتعال</persName> بان حصة الخمسة عشر قيراط من بناء الحانوت المذكورة هي ملك الحرمة
                نفيسة المرقومة وانه لا مانع من التصريح باخراج حجة بدل الضايعة لباقي ما نص عنه
                بالضمانة و<persName type="الشيخ">الشيخ عبد المتعال أحمد</persName> أوضح على نفس
-               الضمانة بان ضمان الحرمة نفيسة والضامن اليها عليه في كل ما يكون وتصدق من <persName
-                  type="شيخ">شيخ طايغة الفرانين</persName> بان ضمان حضور وغروم وتأشر بختم الضبطية
+               الضمانة بان ضمان الحرمة نفيسة والضامن اليها عليه في كل ما يكون وتصدق من <persName type="شيخ">شيخ طايغة الفرانين</persName> بان ضمان حضور وغروم وتأشر بختم الضبطية
                على نفس الضمانة بان ختم<persName> السيد حمودة المبصوم</persName> بها مضاهي للوارد
                بالسجل وحيث من الاقتضا النشر عن ذلك بالجرانيل وتحدد ميعاد واحد وثلاثون يوما لكي اذا
                كان يظهر وجود معارض ولا منازع في ذلك فالمحكمة تجري تحرير حجة بدل الضايعة وبتاريخه
@@ -205,24 +187,19 @@
                ولزم تحريره للمعلومية والنشر حسب ما توضح </p>
          </div>
          <div>
-            <head>يوم <date when="1297-02-27">الاحد ٢٧ صفر الخير سنة ١٢٩٧ه </date><date
-                  when="1880-02-08">٨ فبراير الأفرنجي سنة ١٨٨٠م </date>الموافق ١ أمشير القبطي
-                     ١٥٩٦<bibl><biblScope unit="issue">نمرة ٨٥١</biblScope><biblScope unit="page"
-                     >ص٢</biblScope></bibl></head>
+            <head>يوم <date when="1297-02-27">الاحد ٢٧ صفر الخير سنة ١٢٩٧ه </date><date when="1880-02-08">٨ فبراير الأفرنجي سنة ١٨٨٠م </date>الموافق ١ أمشير القبطي
+                     ١٥٩٦<bibl><biblScope unit="issue">نمرة ٨٥١</biblScope><biblScope unit="page">ص٢</biblScope></bibl></head>
             <head>نص اعلان وارد من نظارة المالية بتاريخ ٥ فبراير سنة ٨٠</head>
             <p>موجود بمخزون الآلات ب<placeName type=" حي">بولاق</placeName> جملة اصناف قطع زهر قديم
                وحديد قديم وأخشاب وخلافه تعلق الميري وسيجرى مبيع ذلك بالمزاد بين الراغبين على مقتضى
                شروط موجودة بقسم <orgName type="إدارة">الأدارة العمومية بنظارة المالية</orgName>
-               بكيفية ان كل من يرغب المشترى بقدم اسعاره داخل مظاريف لغاية يوم<date when="1880-02-12"
-                  > الخميس ١٢ فيراير سنة ١٨٨٠</date> فكل من يرغب المشترى يقدم اسعارد داخل مظروف
+               بكيفية ان كل من يرغب المشترى بقدم اسعاره داخل مظاريف لغاية يوم<date when="1880-02-12"> الخميس ١٢ فيراير سنة ١٨٨٠</date> فكل من يرغب المشترى يقدم اسعارد داخل مظروف
                لغاية الميعاد المذكور فقط لآجل فتحها في يوم<date when="1880-02-14"> السبت ١٤
                   فبراير</date> الساعة ١٠ صباحا بحضور المزايدين بشرط ان تكون المظاريف مختومة بالجمع
                الأحمر ومؤشر على ظهورها ما يفيد أنها عن عطا في تلك الأصناف المعلومية</p>
          </div>
          <div>
-            <head><date when="1297-02-27"> الاحد ٢٧ صفر الخير سنة ١٢٩٧ه </date><date
-                  when="1880-02-08"> ٨ فبراير الأفرنجي سنة ١٨٨٠م</date><bibl><biblScope unit="issue"
-                     >نمرة ٨٥١</biblScope><biblScope unit="page">ص ٤</biblScope></bibl></head>
+            <head><date when="1297-02-27"> الاحد ٢٧ صفر الخير سنة ١٢٩٧ه </date><date when="1880-02-08"> ٨ فبراير الأفرنجي سنة ١٨٨٠م</date><bibl><biblScope unit="issue">نمرة ٨٥١</biblScope><biblScope unit="page">ص ٤</biblScope></bibl></head>
             <head>نص اعلان وارد من ضبطية مصر بتاريخ ٩ صفر سنة ٩٧</head>
             <p>مقدما كان عرض للمحافظة الملغية من مذكورين بأنه مخلف عن جدهم المرحوم سيد<persName>
                   أحمد نجم التراس</persName> منزل كائن<persName> بخوخة سيدي بدر الدين</persName>
@@ -254,9 +231,7 @@
                الضمانة مع كامل الأوراق والأجراء حسب ما ذكر ولزم تحريره للنشر كما توضح </p>
          </div>
          <div>
-            <head><date when="1297-02-27"> الاحد ٢٧ صفر الخير سنة ١٢٩٧ه </date><date
-                  when="1880-02-08"> ٨ فبراير الأفرنجي سنة ١٨٨٠م</date><bibl><biblScope unit="issue"
-                     >نمرة ٨٥١</biblScope><biblScope unit="page">ص٤</biblScope></bibl></head>
+            <head><date when="1297-02-27"> الاحد ٢٧ صفر الخير سنة ١٢٩٧ه </date><date when="1880-02-08"> ٨ فبراير الأفرنجي سنة ١٨٨٠م</date><bibl><biblScope unit="issue">نمرة ٨٥١</biblScope><biblScope unit="page">ص٤</biblScope></bibl></head>
             <head>نص اعلان وارد من ضبطية مصر بتاريخ ١٠ صفر سنة ٩٧</head>
             <p>انه لوجه ما عرض من<persName> درويش مصطفى</persName> شيخ حارة <placeName type="حي">باب
                   الخلق</placeName> وأخته<persName> الحرمة نفيسة بنت مصطفى </persName>بانه مخلف عن
@@ -284,15 +259,12 @@
                عمن ما ذكر واقتضي تحريره للنشر عن بالجرانيل حسب ما توضح </p>
          </div>
          <div>
-            <head><date when="1297-02-29">الثلاثا ٢٩ صفر الخير سنة ١٢٩٧</date>ه الموافق <date
-                  when="1880-02-10">١٠ فبراير الأفرنجي سنة ١٨٨٠م</date> الموافق ٣ أمشير القبطي
-                     ١٥٩٦<bibl><biblScope unit="issue">نمرة ٨٥٢</biblScope><biblScope unit="page"
-                     >ص٣</biblScope></bibl></head>
+            <head><date when="1297-02-29">الثلاثا ٢٩ صفر الخير سنة ١٢٩٧</date>ه الموافق <date when="1880-02-10">١٠ فبراير الأفرنجي سنة ١٨٨٠م</date> الموافق ٣ أمشير القبطي
+                     ١٥٩٦<bibl><biblScope unit="issue">نمرة ٨٥٢</biblScope><biblScope unit="page">ص٣</biblScope></bibl></head>
             <head>نص اعلان وارد من ضبطية مصر بتاريخ ٢٢ صفر سنة ٩٧</head>
             <p>مقدما عرض من المحافظة الملغية من<persName> مصطفى أحمد جاموس</persName> بأنه يمتلك نصف
                منزل كائن ب<placeName type="سوق">سوق الزلط</placeName> بثمن الأزبكية وحجته ضايعة
-               وبناء على ما عطيت به افادة المحكمة نمرة ١٣٩ قد حصلت التحريات بمخابرة <placeName
-                  type="مبنى">بيت مال مصر</placeName> و<orgName type="ديوان">ديوان الأوقاف
+               وبناء على ما عطيت به افادة المحكمة نمرة ١٣٩ قد حصلت التحريات بمخابرة <placeName type="مبنى">بيت مال مصر</placeName> و<orgName type="ديوان">ديوان الأوقاف
                </orgName> والمحكمة ووردت الأفادات بوضاحة ما صار اجراؤه من التحريات والتحقيقات التي
                من ضمن ما أفيد من المحكمة نمرة ٨٨ عما أوضحه<persName>الشيخ مصطفى عبد رب
                   النبي</persName> التي أحد كتاب المحكمة الذي أوري بأنه تحقق لديه أن
@@ -319,10 +291,7 @@
                تحريره ليتنبه بدرج ذلك بالجرانيل حسب ما ذكر </p>
          </div>
          <div>
-            <head>يوم<date when="1297-03-20"> الثلاثا ٢٠ ربيع الأول سنة ١٢٩٧ه</date><date
-                  when="1880-03-01"><sic>غرة مارث</sic> الأفرنجي سنة ١٨٨٠م</date><bibl><biblScope
-                     unit="issue">نمرة  ٨٥٩</biblScope><biblScope unit="page"
-               >ص٤</biblScope></bibl></head>
+            <head>يوم<date when="1297-03-20"> الثلاثا ٢٠ ربيع الأول سنة ١٢٩٧ه</date><date when="1880-03-01"><sic>غرة مارث</sic> الأفرنجي سنة ١٨٨٠م</date><bibl><biblScope unit="issue">نمرة  ٨٥٩</biblScope><biblScope unit="page">ص٤</biblScope></bibl></head>
             <head>نص اعلان وارد من نظارة الأشغال العمومية بتاريخ ١٨ ربيع الأول سنة ١٢٩٧</head>
             <p><orgName type="ديوان">ديوان الأشغال العمومية</orgName> يشهر في المزاد أشغال المكادم
                المقتضى أجراؤها ب<placeName type="شارع ">شارع السيدة زينب</placeName> الموصل لفم
@@ -333,8 +302,7 @@
          <div>
             <head>طبعت بمطبعة بولاق يوم <date when="1297-03-23">الخميس ٢٣ ربيع الأول سنة
                   ١٢٩٧ه</date><date when="1880-03-04">٤ مارث الأفرنجي سنة
-                     ١٨٨٠م</date><bibl><biblScope unit="issue">نمرة ٨٦٠</biblScope><biblScope
-                     unit="page">ص ٤</biblScope></bibl></head>
+                     ١٨٨٠م</date><bibl><biblScope unit="issue">نمرة ٨٦٠</biblScope><biblScope unit="page">ص ٤</biblScope></bibl></head>
             <head>نص اعلان وارد من بيت مال مصر بتاريخ <date when="1297-03-14">١٤ ربيع الأول
                   سنة١٢٩٧</date></head>
             <p>موجود نصف خربة بسوق الخشب القديم<sic>بثمن الأزبكية</sic> سابق ضبطها بناء على
@@ -347,8 +315,7 @@
                من محافظة مصر بعدم مصادفة الخربة المذكورة تضمينات مستجدة هذا ولتقديم تذكرة للمصلحة
                   من<persName>تا.رس أفندي</persName> سيدهم من مستخدمين المالية برغبته مشتري الزراع
                في الخربة المحكمى عنها ب... خمسة قروش صاغ صار الأستئذان
-               من<orgName>الداخلية</orgName>لمبيع النصف المرقوم وصدر أمرها أخيرا في <date
-                  when="1296-06-29">٢٩ جماد الثاني سنة ١٢٩٦</date> نمرة ١١٩ تصريحا باشهار مزاد
+               من<orgName>الداخلية</orgName>لمبيع النصف المرقوم وصدر أمرها أخيرا في <date when="1296-06-29">٢٩ جماد الثاني سنة ١٢٩٦</date> نمرة ١١٩ تصريحا باشهار مزاد
                المبيع بميعاد واحد وتسعين يوم وعلى ذلك تحرر لديوان الأشغال بمقاس الخربة المذكورة
                فوردت افادته رقم ١٧ يوليه سنة ٧٩ نمرة ٤٤ بان مسطحها أربعة وثمانون ذراع وثلث وربع
                وبناء على ما ذكر قد تحررت قايمة مزاد باشهار نصف الخربة البادي ذكرها بالميعاد المرقوم
@@ -365,8 +332,7 @@
          <div>
             <head>طبعت بمطبعة بولاق يوم<date when="1297-03-25"> السبت ٢٥ ربيع الأول سنة
                   ١٢٩٧ه</date><date when="1880-03-06">٦ مارث الأفرنجي سنة
-                     ١٨٨٠م</date><bibl><biblScope unit="issue">نمرة ٨٦١</biblScope><biblScope
-                     unit="page">ص١</biblScope></bibl></head>
+                     ١٨٨٠م</date><bibl><biblScope unit="issue">نمرة ٨٦١</biblScope><biblScope unit="page">ص١</biblScope></bibl></head>
             <head>الحوادث الداخلية</head>
             <p>سبق انه نشر في الصحيفة صورة الأمر العالي الصادر في تاريخ<date when="1880-02-10"> ١٥
                   فبراير سنة ١٨٨٠</date> المتضمن الترخيص بانشاء البنك العقاري المصري وهذه صورة ترجمة
@@ -390,9 +356,7 @@
                ١٨٨٠</date></p>
          </div>
          <div>
-            <head>يوم <date when="1297-03-28">الثلاثا ٢٨ ربيع الأول سنة ١٢٩٧ه</date><date
-                  when="1880-03-09">٩ مارث الأفرنجي سنة ١٨٨٠م</date><bibl><biblScope unit="issue"
-                     >نمرة ٨٦٢</biblScope><biblScope unit="page">ص٤</biblScope></bibl></head>
+            <head>يوم <date when="1297-03-28">الثلاثا ٢٨ ربيع الأول سنة ١٢٩٧ه</date><date when="1880-03-09">٩ مارث الأفرنجي سنة ١٨٨٠م</date><bibl><biblScope unit="issue">نمرة ٨٦٢</biblScope><biblScope unit="page">ص٤</biblScope></bibl></head>
             <head>نص اعلان وارد من ديوان الأوقاف بتاريخ <date when="1296-03-25">٢٥ ربيع الأول سنة
                   ١٢٩٦</date></head>
             <table>
@@ -416,8 +380,7 @@
                <row>
                   <cell>١</cell>
                   <cell>
-                     <p>منزل متخرب كائن ب<placeName type="درب ">درب المزين</placeName> ب<placeName
-                           type="حي">الموسكى</placeName> مسطح أرضه ٢٩٢.٩٠ متر منه حصة مهر ٢٢ متر في
+                     <p>منزل متخرب كائن ب<placeName type="درب ">درب المزين</placeName> ب<placeName type="حي">الموسكى</placeName> مسطح أرضه ٢٩٢.٩٠ متر منه حصة مهر ٢٢ متر في
                         بناه وقف<persName> علي سلامة الدخاخني</persName> مقتضي خروج بناها بطريق
                         الأستبدال وتأجير الأرض وقد صار درجها ضمن خمسة وثلاثين أعلان وتحدد ميعاد لنهو
                         المزاد ثلاثين يوم فكل من له رغبة يتوجه لقسم ثاني ليعطي مزاده بما يرغبه
@@ -435,8 +398,7 @@
             <head>طبعت بمطبعة بولاق يوم الخميس <date when="1297-04-07">٧ ربيع الثاني سنة
                   ١٢٩٧ه</date> الموافق <date when="1880-03-18">١٨ مارث الأفرنجي سنة ١٨٨٠م</date>
                الموافق ١١ برمهات القبطي ١٥٩٦</head>
-            <head><bibl><biblScope unit="issue">نمرة ٨٦٤</biblScope><biblScope unit="page"
-                     >ص٤</biblScope></bibl></head>
+            <head><bibl><biblScope unit="issue">نمرة ٨٦٤</biblScope><biblScope unit="page">ص٤</biblScope></bibl></head>
             <head>نص اعلان وارد من ديوان الأوقاف بتاريخ <date when="1297-04-04">٤ ربيع الثاني سنة
                   ١٢٩٧</date></head>
             <table>
@@ -456,8 +418,7 @@
             </table>
          </div>
          <div>
-            <head><bibl><biblScope unit="issue">نمرة ٨٦٦</biblScope><biblScope unit="page"
-                     >ص٤</biblScope>
+            <head><bibl><biblScope unit="issue">نمرة ٨٦٦</biblScope><biblScope unit="page">ص٤</biblScope>
                </bibl></head>
             <head>نص اعلان وارد من بيت المال</head>
             <head>عن بيان العقار الأيل لبيت المال من مذكورين متوفيين بالمحروسة</head>
@@ -751,8 +712,7 @@
             </table>
          </div>
          <div>
-            <head><bibl>يوم الأحد <date when="1297-02-17">١٧ ربيع الثاني سنة ١٢٩٧ه</date><date
-                     when="1880-03-28">٢٨ مارث الأفرنجي سنة ١٨٨٠م</date><biblScope unit="issue">نمرة
+            <head><bibl>يوم الأحد <date when="1297-02-17">١٧ ربيع الثاني سنة ١٢٩٧ه</date><date when="1880-03-28">٢٨ مارث الأفرنجي سنة ١٨٨٠م</date><biblScope unit="issue">نمرة
                      ٨٦٧</biblScope><biblScope unit="page">ص٤</biblScope></bibl></head>
             <head>تابع ما ورد من بيت المال</head>
             <head>عن بيان العقار الأيل من مذكوريين متوفيين بالمحروسة</head>
@@ -799,8 +759,7 @@
             </table>
          </div>
          <div>
-            <head><date when="1880-03-31">٣١ مارث الافرنجي سنة ١٨٨٠</date><date when="1297-04-20"
-                  >الأربعا ٢٠ ربيع الثاني سنة ١٢٩٧</date><bibl><biblScope unit="issue">نمرة
+            <head><date when="1880-03-31">٣١ مارث الافرنجي سنة ١٨٨٠</date><date when="1297-04-20">الأربعا ٢٠ ربيع الثاني سنة ١٢٩٧</date><bibl><biblScope unit="issue">نمرة
                      ٨٦٨</biblScope><biblScope unit="page">ص٣</biblScope></bibl></head>
             <p>ورد هذا التقرير زيادة عما سلف من حضرة م<sic>أمور الطلومبات بمصر للضبطية المصرية</sic>
                بتفصيلات الحريقالذي حدث بمغالق الخشب ب<placeName type="حي">بولاق</placeName> في ليلة
@@ -847,15 +806,12 @@
                حدوثها ومثل هذه ما يستدعى الحال ادراجها بالوقايع المصرية لاحاطة علم الجميع قد وجب
                تحريره المرجو ارسال هذا التقرير المشتمل على تفصيلات ما تم في أمر الحريق المذكور لقلم
                المطبوعات لأجل تعميم نشره بالوقايع وعدم حصول الأراجيف ممن يعلمون أسباب أفندم</p>
-            <p>فى الواقع ان هذه همة زائدة ليس لها مثيل يستحق عليها حضرات مأمور<orgName
-                  type="الضبطية المصرية"> الضبطية المصرية</orgName> ورجالها ومأمور الطلومبات ورجالها
+            <p>فى الواقع ان هذه همة زائدة ليس لها مثيل يستحق عليها حضرات مأمور<orgName type="الضبطية المصرية"> الضبطية المصرية</orgName> ورجالها ومأمور الطلومبات ورجالها
                الثناء الجميل ولولا هذه الهمة لسرت النيران الى سائر جهات البلدة حيث انها مشحونة
                بالأخشاب سريعة الألتهاب وضرت بعموم الناس فجزاهم الله خيرا وأزال عنهم كل بأس</p>
          </div>
          <div>
-            <head>يوم الأربعا <date when="1297-04-24">٢٤ ربيع الثاني سنة ١٢٩٧</date> الموافق <date
-                  when="1880-04-04">٤ ابريل الافرنجي سنة ١٨٨٠</date><bibl><biblScope unit="issue"
-                     >نمرة  ٨٦٩</biblScope><biblScope unit="page">ص٤</biblScope></bibl></head>
+            <head>يوم الأربعا <date when="1297-04-24">٢٤ ربيع الثاني سنة ١٢٩٧</date> الموافق <date when="1880-04-04">٤ ابريل الافرنجي سنة ١٨٨٠</date><bibl><biblScope unit="issue">نمرة  ٨٦٩</biblScope><biblScope unit="page">ص٤</biblScope></bibl></head>
             <head>نص اعلان وارد من بيت المال بتاريخ <date when="1297-04-07">٧ ربيع الثاني سنة
                   ١٢٩٧</date></head>
             <p>موجود حصة قدرها سبعة قراريط من منزل كائن ب<placeName type="دوار">المناصرة
@@ -879,9 +835,7 @@
                الجاري واذا مضى الميعاد وحضر أحدا بعدها فلا يقبل منه مزاد</p>
          </div>
          <div>
-            <head>يوم الأحد <date when="1297-05-02">٢ جمادى الأولى سنة ١٢٩٧</date> الموافق <date
-                  when="1880-04-11">١١أبريل الافرنجي سنة ١٨٨٠</date><bibl><biblScope unit="page"
-                     >ص٤</biblScope><biblScope unit="issue">نمرة ٨٧١</biblScope></bibl></head>
+            <head>يوم الأحد <date when="1297-05-02">٢ جمادى الأولى سنة ١٢٩٧</date> الموافق <date when="1880-04-11">١١أبريل الافرنجي سنة ١٨٨٠</date><bibl><biblScope unit="page">ص٤</biblScope><biblScope unit="issue">نمرة ٨٧١</biblScope></bibl></head>
             <head>نص اعلان وارد من الأوقاف بتاريخ<date when="1297-04-23"> ٢٣ ربيع الثاني سنة
                   ١٢٩٧</date></head>
             <table>
@@ -892,9 +846,7 @@
                   </cell>
                </row>
                <row>
-                  <cell>نصف منزل ونصف دكان سفله متخربين وقف الجامع الصغير كائنين بجهة كوم <persName
-                        type="الشيخ سلامة">الشيخ سلامة</persName> شركة الخواجه <persName
-                        type="ذكريا قسطندى">ذكريا قسطندى</persName> مقتضى خروجهما بالأستبدال
+                  <cell>نصف منزل ونصف دكان سفله متخربين وقف الجامع الصغير كائنين بجهة كوم <persName type="الشيخ سلامة">الشيخ سلامة</persName> شركة الخواجه <persName type="ذكريا قسطندى">ذكريا قسطندى</persName> مقتضى خروجهما بالأستبدال
                      والخواجه المذكور راغب أخذهما بمبلغ ٨٦٠٥ قرش و ١٦ فضة فكل من كان له رغبة فمن بعد
                      المعاينة يتوجه بطرف مامور قسم ثاني أوقاف ليعطي المزاد االلازم بالقايمة المحررة
                      عن ذلم وقد تحدد ميعاد لنهو المزاد المذكور خمسة عشر يوما من تاريخه أدناه</cell>
@@ -911,8 +863,7 @@
                تحدد لذلك ميعاد خمسة عشر يوما من تاريخه أدناه </p>
          </div>
          <div>
-            <head>يوم <date when="1297-05-04">الثلاثا ٤ جمادى الأولى سنة ١٢٩٧</date> الموافق<date
-                  when="1880-04-13"> ١٣أبريل الافرنجي سنة ١٨٨٠</date> الموافق ٦ برموده القبطي سنة
+            <head>يوم <date when="1297-05-04">الثلاثا ٤ جمادى الأولى سنة ١٢٩٧</date> الموافق<date when="1880-04-13"> ١٣أبريل الافرنجي سنة ١٨٨٠</date> الموافق ٦ برموده القبطي سنة
                      ١٥٩٦<bibl><biblScope unit="page">ص٤</biblScope><biblScope unit="issue">نمرة
                      ٨٧٢</biblScope></bibl></head>
             <head>اعلانات</head>
@@ -926,8 +877,7 @@
                سنة ١٢٩٧ نمرة ٩ بانه جرى التحقيق اللازم بمعرفة<persName> الشيخ مصطفى عبد رب
                   النبى</persName> أحد كتاب المحكمة والشيخ المذكور أوضح بأنه تحقق لديه جريان الحصة
                التي قدرها احدى عشر قيراط ونصف وثلث وثمن قيراط شايعة فى كامل بنا المكان والصهريج سفله
-               والحانوتين بواجهة المكان المذكور المخرجين من منافعه الكائن بخط باب البحر ب<placeName
-                  type="شارع ">الشارع الأعظم</placeName> في ملك<persName> المصونة فاطمة بنت المرحوم
+               والحانوتين بواجهة المكان المذكور المخرجين من منافعه الكائن بخط باب البحر ب<placeName type="شارع ">الشارع الأعظم</placeName> في ملك<persName> المصونة فاطمة بنت المرحوم
                   حسين</persName> فصار لباقي ما أوضحه وتأشر على ما ورد من المحكمة من ورشة الأملاك
                بالضبطية بما يفيد عدم الأستدلال على ذلك وتقدم ضمانة بامضا وأختام كل من
                   الحرمة<persName> فاطمة بنت حسين</persName> والضامن اليها <persName>لاشين حسين
@@ -944,9 +894,7 @@
                عموما أيضا اقتضي تحريره ليتنبه بالنشر بالجرانيل حسب ما توضح </p>
          </div>
          <div>
-            <head>يوم <date when="1297-05-11">الثلاثا ١١ جمادى الأولى سنة ١٢٩٧</date> الموافق <date
-                  when="1880-04-20">٢٠ أبريل الافرنجي سنة ١٨٨٠</date><bibl><biblScope unit="page"
-                     >ص٤</biblScope><biblScope unit="issue">نمرة ٨٧٥</biblScope></bibl></head>
+            <head>يوم <date when="1297-05-11">الثلاثا ١١ جمادى الأولى سنة ١٢٩٧</date> الموافق <date when="1880-04-20">٢٠ أبريل الافرنجي سنة ١٨٨٠</date><bibl><biblScope unit="page">ص٤</biblScope><biblScope unit="issue">نمرة ٨٧٥</biblScope></bibl></head>
             <head>نص اعلان وارد من مجلس ابتداءى مصر بتاريخ ١٠ جمادي الأولي سنة ٩٧</head>
             <head>(نص اعلان)</head>
             <p>يتضمن إشهار مزاد ستة منازل تعلق<sic> الست فيتوريه بارليدس</sic> منهم ثلاثة منازل على
@@ -961,15 +909,13 @@
             <p>بمصر</p>
          </div>
          <div>
-            <head>يوم <date when="1297-05-13">الخميس ١٣ جمادى الأولى سنة ١٢٩٧</date> الموافق <date
-                  when="1880-04-22">٢٢ أبريل الافرنجي سنة ١٨٨٠</date> الموافق ١٥ برموده القبطي سنة
+            <head>يوم <date when="1297-05-13">الخميس ١٣ جمادى الأولى سنة ١٢٩٧</date> الموافق <date when="1880-04-22">٢٢ أبريل الافرنجي سنة ١٨٨٠</date> الموافق ١٥ برموده القبطي سنة
                ١٥٩٦</head>
             <head><bibl><biblScope unit="page">ص٤</biblScope><biblScope unit="issue">نمرة
                      ٨٧٦</biblScope></bibl></head>
             <head>نص اعلان وارد من الدايرة البلدة أيضًا بتاريخ <date when="1297-05-12">١٢ جمادي
                   الأولى سنة ١٢٩٧</date></head>
-            <p>ساحلي <placeName type="ساحل">غلال بولاق البحري</placeName> و<placeName type="ساحل"
-                  >القبلي</placeName> ملك الميري كانوا مؤجرين الى <persName>حضرة عبد الرحيم أفندي
+            <p>ساحلي <placeName type="ساحل">غلال بولاق البحري</placeName> و<placeName type="ساحل">القبلي</placeName> ملك الميري كانوا مؤجرين الى <persName>حضرة عبد الرحيم أفندي
                   عبد الله</persName> رئيس تجار الساحل ببولاق بمدة سنة غايتها ٢٦ ص سنة ٩٧ ما هو
                البحري بمبلغ ١٩٥٠٠ قرش والقبلي بمبلغ ١٨١٠٠ قرش ونظرا لانتهاء مدة التأجير صار اشهارهم
                بالمزاد فرسى مزادهم على حضرة الأفندي المذكورر ما هو الساحل البحري بمبلغ ١١٢٥٠ قرش
@@ -980,15 +926,13 @@
                لأعطاء المزاد لا يقبل منه أفندم</p>
          </div>
          <div>
-            <head>يوم <date when="1297-05-13">الخميس ١٣ جمادى الأولى سنة ١٢٩٧</date> الموافق <date
-                  when="1880-04-22">٢٢ أبريل الافرنجي سنة ١٨٨٠</date> الموافق ١٥ برموده القبطي سنة
+            <head>يوم <date when="1297-05-13">الخميس ١٣ جمادى الأولى سنة ١٢٩٧</date> الموافق <date when="1880-04-22">٢٢ أبريل الافرنجي سنة ١٨٨٠</date> الموافق ١٥ برموده القبطي سنة
                      ١٥٩٦<bibl><biblScope unit="page">ص٤</biblScope><biblScope unit="issue">نمرة
                      ٨٧٦</biblScope></bibl></head>
             <head>نص اعلان وارد من ضبطية مصر بتاريخ<date when="1297-04-20"> ٢٠ ربيع الثاني سنة
                   ١٢٩٧</date></head>
             <p>مقدما عرض للمحافظة الملغية من مذكورين بانهم ورثة <persName>المرحوم الشيخ أحمد الشافعي
-                  الصباغ</persName> بانه من ضمن ما تخلف عن مورثهم المذكور نصف منزل كائن ب<placeName
-                  type="حارة">حارة الحدايدة ببولاق</placeName> وحجته ضايعة ويلتمسوا تحرير بدلها ولما
+                  الصباغ</persName> بانه من ضمن ما تخلف عن مورثهم المذكور نصف منزل كائن ب<placeName type="حارة">حارة الحدايدة ببولاق</placeName> وحجته ضايعة ويلتمسوا تحرير بدلها ولما
                أن حصل التحري بمخابرة بيت مال مصر وديوان الأوقاف والمحكمة ووردت الأفادات بوضاحة ما
                صار اجراؤه من التحريات والتحقيقات التي من ضمنها حصول <sic>النوريه</sic> بما صدر
                   من<placeName> المحكمة للمحافظة</placeName> في <date when="1294-02-21">٢١ صفر سنة
@@ -1021,9 +965,7 @@
                ذكر</p>
          </div>
          <div>
-            <head>يوم <date when="1297-05-13">الخميس ١٣ جمادى الأولى سنة ١٢٩٧</date> الموافق <date
-                  when="1880-04-22">٢٢ أبريل الافرنجي سنة ١٨٨٠</date><bibl><biblScope unit="page"
-                     >ص٤</biblScope>/<biblScope unit="issue">نمرة ٨٧٦</biblScope></bibl></head>
+            <head>يوم <date when="1297-05-13">الخميس ١٣ جمادى الأولى سنة ١٢٩٧</date> الموافق <date when="1880-04-22">٢٢ أبريل الافرنجي سنة ١٨٨٠</date><bibl><biblScope unit="page">ص٤</biblScope>/<biblScope unit="issue">نمرة ٨٧٦</biblScope></bibl></head>
             <head>نص اعلان وارد من بيت المال بتاريخ<date when="1297-04-19">١٩ ربيع الثاني سنة
                   ١٢٩٧</date></head>
             <p>مقدما عرض للمحافظة الملغية من <persName>الحرمة مسعدة بنت الكريمة</persName>
@@ -1049,9 +991,7 @@
                النشر للجهات أيضا واقتضي تحريره. ليتنبه حسب ما ذكر </p>
          </div>
          <div>
-            <head>يوم <date when="1297-05-20">الخميس ٢٠ جمادى الأولى سنة ١٢٩٧</date> الموافق <date
-                  when="1880-04-29">٢٩ أبريل الافرنجي سنة ١٨٨٠</date><bibl><biblScope unit="page"
-                     >ص٦</biblScope><biblScope unit="issue">نمرة ٨٧٨</biblScope></bibl></head>
+            <head>يوم <date when="1297-05-20">الخميس ٢٠ جمادى الأولى سنة ١٢٩٧</date> الموافق <date when="1880-04-29">٢٩ أبريل الافرنجي سنة ١٨٨٠</date><bibl><biblScope unit="page">ص٦</biblScope><biblScope unit="issue">نمرة ٨٧٨</biblScope></bibl></head>
             <head>اعلان وارد من مصلحة عموم البوسطة المصرية</head>
             <p>يكون معلوم ان من أول <sic>ماجيو</sic> القادم سيصيير افتتاح مكتبيين صغيرين بمصر بخلاف
                مكتب الآدارة الموجود الآن فيها أحدهما بناحية <placeName type="حي">بولاق</placeName>
@@ -1062,14 +1002,11 @@
                باسم المكتب الذي يرغب توزيع مراسلاته بواسطته </p>
          </div>
          <div>
-            <head>يوم<date when="1297-05-30"> الثلاثا ٣٠ جمادى الثاني سنة ١٢٩٧</date> الموافق <date
-                  when="1880-06-8">٨ يونيه الافرنجي سنة ١٨٨٠</date><bibl><biblScope unit="page"
-                     >ص٤</biblScope><biblScope unit="issue">نمرة ٨٩٢</biblScope></bibl></head>
+            <head>يوم<date when="1297-05-30"> الثلاثا ٣٠ جمادى الثاني سنة ١٢٩٧</date> الموافق <date when="1880-06-8">٨ يونيه الافرنجي سنة ١٨٨٠</date><bibl><biblScope unit="page">ص٤</biblScope><biblScope unit="issue">نمرة ٨٩٢</biblScope></bibl></head>
             <head>نص اعلان وارد من نظارة الأشغال العمومية بتاريخ <date when="1297-06-29">٢٩ جمادي
                   الثانية سنة ٩٧</date></head>
             <p><orgName type="ديوان">ديوان الأشغال العمومية</orgName> يعلن انه سيجري بطريق المقاولة
-               استعداد محل ب<placeName>سراي الحمرة </placeName>ب<placeName type="حى"
-                  >العباسية</placeName> لجعله اسبتالية للمجاذيب على حسب رسم ومقايسة ابتدائية عن
+               استعداد محل ب<placeName>سراي الحمرة </placeName>ب<placeName type="حى">العباسية</placeName> لجعله اسبتالية للمجاذيب على حسب رسم ومقايسة ابتدائية عن
                تكاليفه بمبلغ ٦٣٥٤٦ قرشا واحد وثلاثين فضة موجودين بقلم العمارات بالديوان وحدد لنهو
                المزاد اللازم عن ذلك يوم الاحد الآتى ٥ رجب سنة ٩٧ الموافق ١٣ يونية سنة ١٨٨٠ فكل من له
                رغبة في اجراء هذه العملية يحضر للديوان لاجل اطلاعه على الرسم والمقايسة وشروط المزاد
@@ -1077,9 +1014,7 @@
                منه </p>
          </div>
          <div>
-            <head>يوم <date when="1297-07-05">الأحد٥ رجب الفرد سنة ١٢٩٧</date> الموافق <date
-                  when="1880-06-13">١٣ يونيه الافرنجي سنة ١٨٨٠</date><bibl><biblScope unit="page"
-                     >ص٤</biblScope><biblScope unit="issue">نمرة ٨٩٤</biblScope></bibl></head>
+            <head>يوم <date when="1297-07-05">الأحد٥ رجب الفرد سنة ١٢٩٧</date> الموافق <date when="1880-06-13">١٣ يونيه الافرنجي سنة ١٨٨٠</date><bibl><biblScope unit="page">ص٤</biblScope><biblScope unit="issue">نمرة ٨٩٤</biblScope></bibl></head>
             <head>نص اعلان وارد من ديوان الاوقاف بتاريخ <date when="1297-06-24">٢٤ جمادي الثاني سنة
                   ١٢٩٧م</date></head>
             <table>
@@ -1111,12 +1046,9 @@
             </table>
          </div>
          <div>
-            <head>يوم <date when="1297-07-09">الخميس ٩ رجب الفرد سنة ١٢٩٧</date> الموافق <date
-                  when="1880-06-17">١٧ يونيه الافرنجي سنة ١٨٨٠</date><bibl><biblScope unit="page"
-                     >ص٤</biblScope><biblScope unit="issue">نمرة ٨٩٦</biblScope></bibl></head>
+            <head>يوم <date when="1297-07-09">الخميس ٩ رجب الفرد سنة ١٢٩٧</date> الموافق <date when="1880-06-17">١٧ يونيه الافرنجي سنة ١٨٨٠</date><bibl><biblScope unit="page">ص٤</biblScope><biblScope unit="issue">نمرة ٨٩٦</biblScope></bibl></head>
             <head>نص اعلان وارد من بيت مال مصر بتاريخ ١١ ج سنة ٩٧</head>
-            <p>موجود حصة قدرها ح ١٥ سهم من منزل كائن بشارع <placeName type="شارع"
-                  >الحسينية</placeName> البالغ قدر مقاسه ١٠٧,٧٨ اذرع تعلق شخص يسمى<persName>حسين
+            <p>موجود حصة قدرها ح ١٥ سهم من منزل كائن بشارع <placeName type="شارع">الحسينية</placeName> البالغ قدر مقاسه ١٠٧,٧٨ اذرع تعلق شخص يسمى<persName>حسين
                   أغا</persName> غايب من مدة أربعين سنة وغير محقق وفاته ولا وجوده وكان سبق اشهار
                مزاده مبيع الحصة المزكورة ورسى العطا فيها على <persName>مصطفي أفندي خليل</persName>
                بمبلغ ٢٠٥ قرش صاغ وتصرح من المالية ضمن افادة فى ١٨ ل سنة نمرة ١٣٢ بالمبيع ولما صار
@@ -1134,9 +1066,7 @@
                عموما وهذا للمعلومية ودرج ذلك بالوقايع والجرنالات حسب الجاري</p>
          </div>
          <div>
-            <head>يوم <date when="1297-07-12">الاحد ١٢ رجب الفرد سنة ١٢٩٧</date> الموافق <date
-                  when="1880-06-20">٢٠ يونيه الافرنجي سنة ١٨٨٠</date><bibl><biblScope unit="page"
-                     >ص٤</biblScope><biblScope unit="column">نمرة ٨٩٧</biblScope></bibl></head>
+            <head>يوم <date when="1297-07-12">الاحد ١٢ رجب الفرد سنة ١٢٩٧</date> الموافق <date when="1880-06-20">٢٠ يونيه الافرنجي سنة ١٨٨٠</date><bibl><biblScope unit="page">ص٤</biblScope><biblScope unit="column">نمرة ٨٩٧</biblScope></bibl></head>
             <head>نص اعلان وارد من هذه النظارة أيضًا بهذا التاريخ</head>
             <table>
                <row>
@@ -1175,9 +1105,7 @@
             </table>
          </div>
          <div>
-            <head>يوم <date when="1297-06-21">الثلاثا ٢١ رجب الفرد سنة ١٢٩٧</date>الموافق<date
-                  when="1880-06-29">٢٩ يونيه الافرنجي سنة ١٨٨٠</date><bibl><biblScope unit="page"
-                     >ص٣</biblScope><biblScope unit="issue">نمرة ٩٠١</biblScope></bibl></head>
+            <head>يوم <date when="1297-06-21">الثلاثا ٢١ رجب الفرد سنة ١٢٩٧</date>الموافق<date when="1880-06-29">٢٩ يونيه الافرنجي سنة ١٨٨٠</date><bibl><biblScope unit="page">ص٣</biblScope><biblScope unit="issue">نمرة ٩٠١</biblScope></bibl></head>
             <head>نص اعلان وارد من ديوان الاشغال العمومية بتاريخ ١٦ رجب سنة ١٢٩٧</head>
             <p>دوان الأشغال العمومية يشهر في المزاد اجرا عمارة عمل <placeName type="مصلحه">الضربخانة
                   المصرية</placeName> بالقلعة بطريق المقاولة معمول عنها مقايسة ابتدائية بمبلغ ١٢٨١٩

@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="css/oxygen.css"?><?xml-model href="schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities Project</title>
+        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
+          Project</title>
         <editor xml:id="eNK">Nour Kanaan</editor>
         <editor xml:id="eAM">Adam Mestyan</editor>
         <editor xml:id="eDY">Danah Younis</editor>
@@ -30,7 +31,7 @@
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
-          <name>Sarah Fath Allah</name>
+          <name>Sarah Fathallah Garaa</name>
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
@@ -66,9 +67,9 @@
         </respStmt>
         <sponsor>
           <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
-          <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
-          Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-          Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>. 
+            <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+            Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>.
         </sponsor>
       </titleStmt>
       <publicationStmt>
@@ -97,6 +98,7 @@
         <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
         <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
           Editions</ref>.</p>
+        
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
@@ -107,6 +109,11 @@
         <language ident="ota">Ottoman</language>
       </langUsage>
     </profileDesc>
+    <revisionDesc>
+      <listchange>
+        <change xml:id="FINALDRAFT">Final version.</change>
+      </listchange>
+    </revisionDesc>
   </teiHeader>
   
   <text xml:lang="ar">
@@ -115,9 +122,7 @@
         <head><date when-custom="1256-08-01">١ شعبان ١٢٥٦</date><date when="1840-08-29">٢٩ أغسطس
             ١٨٤٠</date><bibl><biblScope unit="issue">نمره ٦٢١</biblScope><biblScope unit="page">صفحة
               ١</biblScope></bibl></head>
-        <p>ان <sic>الطريق</sic> المنشأة من الحديد الكائنة ب<placeName type="ناحيه" ref="ناحيه-طره"
-            >ناحيه طره</placeName>و<placeName ref="المعصره">المعصره</placeName> فيما بين <placeName
-            type="جبل">الجبل</placeName> و<placeName type="شاطئ" ref="شاطئ النيل">شاطئ
+        <p>ان <sic>الطريق</sic> المنشأة من الحديد الكائنة ب<placeName type="ناحيه" ref="ناحيه-طره">ناحيه طره</placeName>و<placeName ref="المعصره">المعصره</placeName> فيما بين <placeName type="جبل">الجبل</placeName> و<placeName type="شاطئ" ref="شاطئ النيل">شاطئ
             النيل</placeName> قد بذل الجهد فى انشائها منذ ثلاث سنين حتى وصلت الى حد الختام فى هذه
           السنة المباركة وقد حصل بها السهولة التامة بحيث ان الحجارة الجسيمة التى كانت تنقل بصعوبة
           على العربيات النقالة الكبيرة من الجبل صارت توصل بعد هذا الى شاطئ النيل بواسطة تلك الطريق
@@ -129,8 +134,7 @@
           بالنسبة الى ما فوقها كان المتقدمون يقطعون الحجارة من السفلى لكونها جيدة وينحتون اماكن
           باسفل الجبل فى جانبى الوادى ويصنعون مغارات متسعة ويعملون هنالك <sic>اثافى</sic>
             و<sic>كوانين</sic> حتى انهم صيروا اسفل الجبل خروقا خروقا ونظروا فى قطعها الى جودة
-          الطبقات ونحتوها بكمال الدقة فى صنعة النحت حتى انهم اخذوا حجارة <placeName ref="الاهرام"
-            >الاهرام</placeName> الكبيرة الكائنة فى <placeName ref="الجيزة">الجيزة</placeName>من هذه
+          الطبقات ونحتوها بكمال الدقة فى صنعة النحت حتى انهم اخذوا حجارة <placeName ref="الاهرام">الاهرام</placeName> الكبيرة الكائنة فى <placeName ref="الجيزة">الجيزة</placeName>من هذه
           المحلات كما يعلم ذلك من آثارهم وحيث ان اكثر الحجارة فى هذا الزمان مستعملة بمصر فى الابنية
           والعمارات التى تكون داخل الماء لكونها يتضاعف تصلبها فى الماء انشئت هذه <sic>الطريق</sic>
           من الحديد روما لسهولة النقل على ان الحجارة اللازمة للقناطر والسدود والارصفة تقطع من جوار
@@ -151,8 +155,7 @@
           يقطعون المتر الواحد من الحجر المكعب وينزلونه الى الساحل فى العربيات القديمة بثمانية وعشرين
           قرشا والان قد رضوا بتنزيله باقل مما ذكر بكثير ولما كان هذا الطريق قد حصل بهذه الكلفة
           الكثيرة وهو شئ مستجد وفيه منافع عظيمة وكان من ذهب اليه شر ذمة قليلة من اهالى مصر مع انه
-          على نحو ستة اميال من المحروسة التزم قيده فى الوقائع من طرف <orgName type="ديوان"
-            ref="ديوان-المدارس">ديوان المدارس</orgName> ليكون معلوما للجميع.</p>
+          على نحو ستة اميال من المحروسة التزم قيده فى الوقائع من طرف <orgName type="ديوان" ref="ديوان-المدارس">ديوان المدارس</orgName> ليكون معلوما للجميع.</p>
       </div>
       </body>
    </text>

@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities Project</title>
+        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
+          Project</title>
         <editor xml:id="eNK">Nour Kanaan</editor>
         <editor xml:id="eAM">Adam Mestyan</editor>
         <editor xml:id="eDY">Danah Younis</editor>
@@ -30,7 +32,7 @@
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
-          <name>Sarah Fath Allah</name>
+          <name>Sarah Fathallah Garaa</name>
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
@@ -66,16 +68,17 @@
         </respStmt>
         <sponsor>
           <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
-          <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
-          Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-          Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>. 
+            <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+            Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>.
         </sponsor>
       </titleStmt>
       <publicationStmt>
         <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
           du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
         <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+            Volait</persName></p>
       </publicationStmt>
       <sourceDesc>
         <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
@@ -90,13 +93,17 @@
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
         <p>We use the Arabic script but transliteration into Latin characters follows the Library of
-          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf"
+            >Arabic transliteration chart</ref>.</p>
         <p>Each individual article has an individual xml:id number starting with "w1"</p>
-        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
-        <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
+          and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added
+          in an attribute to a persName.</p>
         <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
-          Editions</ref>.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref
+            target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+            Editions</ref>.</p>
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
@@ -107,35 +114,41 @@
         <language ident="ota">Ottoman</language>
       </langUsage>
     </profileDesc>
+    <revisionDesc>
+      <listchange>
+        <change xml:id="FINALDRAFT">Final version.</change>
+      </listchange>
+    </revisionDesc>
   </teiHeader>
   <standOff>
-      <listPerson type="historical">
-         <person xml:id="pMA">
+    <listPerson type="historical">
+      <person xml:id="pMA">
         <persName xml:lang="en">Muḥammad 'Alī</persName>
         <persName xml:lang="ar">محمد علي</persName>
       </person>
-         <person xml:id="pI">
+      <person xml:id="pI">
         <persName>Ibrāhīm</persName>
         <persName xml:lang="ar">ابراهيم باشا</persName>
       </person>
-      </listPerson>
-   </standOff>
-  <text xml:lang="ar">
-      <body>
-         <div xml:id="w1" resp="#eAM">
+    </listPerson>
+  </standOff>
+  <text xml:lang="ar" ref="#FINALDRAFT">
+    <body>
+      <div xml:id="w1">
         <head><date when-custom="1244-06-9">٩ جمادى الاخر ١٢٤٤</date><date when="1828-12-17">١٧
-            ديسمبر ١٨٢٨</date><bibl><biblScope unit="issue">نمرة ٢</biblScope><biblScope unit="page">صفحة ٢</biblScope>
+            ديسمبر ١٨٢٨</date><bibl><biblScope unit="issue">نمرة ٢</biblScope><biblScope unit="page"
+              >صفحة ٢</biblScope>
           </bibl></head>
-        <p>ان <placeName ref="https://www.geonames.org/7912825/qal-at-muhammad-ali.html" type="قلعة"
-            >القلعة اليوسيفيه</placeName>التى هى محل احكام مصر المحميه قد قاربت اسوارها وابراجها
-          ومحلات حصارها من داخل وخارج درجة الانهدام والت الى الانعدام وذلك من تلون حوادث الازمنة
-          الماضية وتقلبها وضرر طروق وقايعها وما طرى بها وقد كان خطر فى خاطر<roleName role="governor"
-            ref="#pMA" type="سعادة_ولى_النعم">سعادة <sic>[و]لى</sic> النعم</roleName> ان يجد[د]
-          بناها ويشدد اركانها و<sic>انحاها</sic> و<sic>ينشى</sic>
+        <p>ان <placeName ref="https://www.openstreetmap.org/way/24908286" type="قلعة">القلعة
+            اليوسيفيه</placeName>التى هى محل احكام مصر المحميه قد قاربت اسوارها وابراجها ومحلات
+          حصارها من داخل وخارج درجة الانهدام والت الى الانعدام وذلك من تلون حوادث الازمنة الماضية
+          وتقلبها وضرر طروق وقايعها وما طرى بها وقد كان خطر فى خاطر<roleName role="governor"
+            ref="#pMA" type="سعادة_ولى_النعم">سعادة [و]<sic>لى</sic> النعم</roleName> ان<sic>
+            يجد</sic>[د] بناها ويشدد اركانها و<sic>انحاها</sic> و<sic>ينشى</sic>
           <placeName type="جامع"
             ref="http://cairogazetteer.fr/invisu/page/ark:/67717/d6d17aa2c59b28d74d929d50443f1a33"
-            >جامعا شريفا</placeName> بها يكون<sic>م[؟]بد</sic> للخاص والعام مقصودا ومورد ذكر الى
-          الاشياخ العظام مورودا <sic>بعد[د]</sic> من الاثار الخيريه ويذكر الى يوم بعث البرية انما
+            >جامعا شريفا</placeName> بها يكون<sic>م[ع]بد</sic> للخاص والعام مقصودا ومورد ذكر الى
+          الاشياخ العظام مورودا <sic>بعد</sic>[د] من الاثار الخيريه ويذكر الى يوم بعث البرية انما
           حيث انه يجب تقديم بنا ما منه تحرس الرعايا وتحمى وتستريح به البرايا وتنال تنعما وذلك كبناء
           القلع والقناطر وماهو من الحصون والجسور هنا دائر قدم بنا القلعة على بنا الجامع واخر حتى حين
           اقتداء بمن قال الامور مرهونة باوقاتها وبفضله تعالى وببركات همة من اولى الورى نعما وافضالا
@@ -152,41 +165,44 @@
               السعيد<persName><roleName type="افندينا">افندينا</roleName>ابراهيم
             باشا</persName><sic>(والى جده )</sic>وحضرة <persName>ملا افندى <roleName type="قاضى_مصر"
               >قاضى مصر</roleName></persName>
-          <sic>المح[؟]يه</sic> ووجوه الاشراف والسادات الكرام واعيان العلما والفضلا وكافة الاشياخ
-          واهل الفضل والصلاح و<roleName type="حضرة_كتخدا_افندى">حضرة كتخدا بيك افندى</roleName>وسائر
-          الامراء والاكابر من اهل الشورى و<roleName type="حضرة_مأمور_الديوان_العالى">حضرة مأمور
+          <sic>المحيه</sic> ووجوه الاشراف والسادات الكرام واعيان العلما والفضلا وكافة الاشياخ واهل
+          الفضل والصلاح و<roleName type="حضرة_كتخدا_افندى">حضرة كتخدا بيك افندى</roleName>وسائر
+          الامراء والاكابر من اهل الشورى وحضرة <roleName type="حضرة_مأمور_الديوان_العالى">مأمور
             الديوان العالى</roleName> ومن هو متصل فيه وكل الاكابر والنظار المعتبرين وارباب المعرفة
           بالاشغال المشتهرين بالصداقة وكل عبيد احسانه وشاكرى انعامه والطالبين المبتهلين بالدعاء
-          لدوامه وحلوا هناك بقلوب متحدة <sic>لقرا[ء]ة</sic>الفاتحة والدعاء مع ذبح القرابين والضحايا
+          لدوامه وحلوا هناك بقلوب متحدة <sic>لقرا[ء]ة</sic> الفاتحة والدعاء مع ذبح القرابين والضحايا
           وصرفت الهمه بقضاء الامر لوضع اساسه الدايم بالاستعانة باسم الله وصبرت الفقرا والغربا من
           انتشار الدراهم والدنانير اصحاب نصيب من النوال والنعم واتخذت المهندسون والبنايون
             و<sic>القلفات</sic> والمستخدمون بواسطة عبد احسانه<persName>امين افندى <roleName
               type="ناظر_الابنية">ناظر الابنية</roleName></persName>مظهر كرم واحسان ورجعوا الى
-            <orgName type="الديوان_العالى">ديوانهم العالى</orgName> بالدولة والاجلال و بعد ان شوهد
-          ذلك اثبت فى جريدة الوقايع وفق الله تعالى افندينا لانشاء ما هو مثل هذا البناء المتين الذى
-          هو من الاثار الخيرية بلا <sic>ر[ي]ب</sic> امين.</p>
+          ديوانهم العالى بالدولة والاجلال و بعد ان شوهد ذلك اثبت فى جريدة الوقايع وفق الله تعالى
+          افندينا لانشاء ما هو مثل هذا البناء المتين الذى هو من الاثار الخيرية بلا <sic>ر[ي]ب</sic>
+          امين.</p>
       </div>
-         <div xml:id="w2" resp="#eAM">
+      <div xml:id="w2" resp="#eAM" note="IntroductionOfGas">
         <head><date when-custom="1244-10-13">١٣ شوال ١٢٤٤</date>
           <date when="1829-04-18">١٨ ابريل ١٨٢٩</date><bibl>
             <biblScope unit="issue">نمرة ١٩</biblScope>
             <biblScope unit="page">صفحة ١</biblScope></bibl>
         </head>
-        <p>انه لما شاع متواثرا لدى مسامع <roleName type="افندينا">افندينا</roleName><roleName type="ولى_النعم">ولى النعم</roleName> خبر النور الذى اخترعه الانكليز منذ اربع عشرة سنة
+        <p>انه لما شاع متواثرا لدى مسامع <roleName type="افندينا">افندينا</roleName><roleName
+            type="ولى_النعم">ولى النعم</roleName> خبر النور الذى اخترعه الانكليز منذ اربع عشرة سنة
           تقريبا بروح يسمى كاز وبمصروف قليل وعلم انهم قد استعملوه عموما واستعمله ايضا الفرنساويون من
           بعدهم قصد بارادته السليمة ان يطلع على حقيقة هذه الصنعة ويعلم كيفية صبيروتها بعين اليقين
-          فامر بان يوتى بالالات اللازمة لذلك من بلاد الانكليز فأقمها<persName>كالو<roleName type="المهندس">المهندس</roleName></persName> مع بعض فعلة انكليز فى <placeName ref="http://www.geonames.org/347645/tah-shubra.html"><placeName type="جنينة_شبرا">جنينة
-              شبرا</placeName></placeName> بمعمل مناسب واناروا بها <placeName type="قصر" ref="http://www.geonames.org/12070374/qasr-al-ali.html">القصر العالى</placeName>الكاين
-            فوق<placeName type="الحوض_الكبير">الحوض الكبير</placeName> وست اوض فتوجه سعادته الى هناك
-            فى<date when-custom="1244-9-18">اليوم الثامن عشر من شهر رمضان</date> المبارك قريب الغروب
-          وشرف ثراها بقدومه السعيد فلما راى ذلك استحسنه وانسر به واظهر بشاشته لاكابر دولته الذين
-          كانوا معه فتلطف كالو المهندس المرقوم بما ابدى من الكلام اللايق بشان<roleName type="الخديوى">الخديوى</roleName>فانعم عليه سعادته وعلى الفعلة بالفين وخمسماية غرش
-          احسانا وقد كان ذهب لرؤيا ذلك عند الغروب<roleName type="قنصل_الانكليز">قنصل
+          فامر بان يوتى بالالات اللازمة لذلك من بلاد الانكليز فأقمها<persName>كالو<roleName
+              type="المهندس">المهندس</roleName></persName> مع بعض فعلة انكليز فى <placeName
+            ref="https://www.openstreetmap.org/way/28830268"><placeName type="جنينة">جنينة
+              شبرا</placeName></placeName> بمعمل مناسب واناروا بها <placeName type="قصر">القصر
+            العالى</placeName>الكاين فوق<placeName type="الحوض_الكبير">الحوض الكبير</placeName> وست
+          اوض فتوجه سعادته الى هناك فى<date when-custom="1244-9-18">اليوم الثامن عشر من شهر
+            رمضان</date> المبارك قريب الغروب وشرف ثراها بقدومه السعيد فلما راى ذلك استحسنه وانسر به
+          واظهر بشاشته لاكابر دولته الذين كانوا معه فتلطف كالو المهندس المرقوم بما ابدى من الكلام
+          اللايق بشان<roleName type="الخديوى">الخديوى</roleName>فانعم عليه سعادته وعلى الفعلة بالفين
+          وخمسماية غرش احسانا وقد كان ذهب لرؤيا ذلك عند الغروب<roleName type="قنصل_الانكليز">قنصل
             الانكليز</roleName>وعياله واولاده وبعض من طايفة الافرنج القاطنين فى المحروسة منذ زمن
           طويل فاستحسنوا كلهم هذا الصنع وابتهجوا به ومع هذا فان مصاريفه حال كونه يكفى لانارة جنينة
           شبرا كلها لم تزد عن الستة الاف ريال قرائا كذا علم بعد الحساب </p>
-        </div>
-        
-      </body>
-   </text>
+      </div>
+    </body>
+  </text>
 </TEI>

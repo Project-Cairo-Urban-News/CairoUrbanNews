@@ -1,121 +1,122 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="../../css/oxygen.css"?>
-<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities Project</title>
-            <editor xml:id="eNK">Nour Kanaan</editor>
-            <editor xml:id="eAM">Adam Mestyan</editor>
-            <editor xml:id="eDY">Danah Younis</editor>
-            <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
-            <editor xml:id="eAE">Arif Erbil</editor>
-            <editor xml:id="eAK">Ahmed Kamal</editor>
-            <editor xml:id="eAS">Abram Smith</editor>
-            <editor xml:id="eCH">Clara Harms</editor>
-            <editor xml:id="eHS">Hüseyin Sağlam</editor>
-            <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
-            <editor xml:id="eHL">Hiba Laabadli</editor>
-            <editor xml:id="eOE">Othmane Echchabi</editor>
-            <editor xml:id="eFA">Fatemah Almahana</editor>
-            <respStmt>
-               <resp>Advisor</resp>
-               <name>Hugh Cayless</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Adam Mestyan</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Mercedes Volait</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Sarah Fath Allah</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Karima Nasr</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Rezk Nory</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Arif Erbil</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Ahmed Kamal</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Abram Smith</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Clara Harms</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Hüseyin Sağlam</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Abdulrahman El-Taliawi</name>
-            </respStmt>
-            <sponsor>
-               <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
-          <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
-          Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-          Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>. 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="css/oxygen.css"?><?xml-model href="schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
+          Project</title>
+        <editor xml:id="eNK">Nour Kanaan</editor>
+        <editor xml:id="eAM">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
+        <editor xml:id="eAE">Arif Erbil</editor>
+        <editor xml:id="eAK">Ahmed Kamal</editor>
+        <editor xml:id="eAS">Abram Smith</editor>
+        <editor xml:id="eCH">Clara Harms</editor>
+        <editor xml:id="eHS">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+        <editor xml:id="eHL">Hiba Laabadli</editor>
+        <editor xml:id="eOE">Othmane Echchabi</editor>
+        <editor xml:id="eFA">Fatemah Almahana</editor>
+        <respStmt>
+          <resp>Advisor</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Mercedes Volait</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Sarah Fathallah Garaa</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Karima Nasr</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Rezk Nory</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Arif Erbil</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Ahmed Kamal</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abram Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Clara Harms</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hüseyin Sağlam</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abdulrahman El-Taliawi</name>
+        </respStmt>
+        <sponsor>
+          <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
+            <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+            Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>.
         </sponsor>
-         </titleStmt>
-         <publicationStmt>
-            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
+      </titleStmt>
+      <publicationStmt>
+        <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
           du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-            <p>
-               <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
-            </p>
-            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>
-            </p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
-            <p>born digital document</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <projectDesc>
-            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
+        <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+        <p>born digital document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-         </projectDesc>
-         <editorialDecl>
-            <p>Rules of TEI XML MarkUp in This Project</p>
-            <p>We use the Arabic script but transliteration into Latin characters follows the Library of
-          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
-            <p>Each individual article has an individual xml:id number starting with "w1"</p>
-            <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
-            <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
-            <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+      </projectDesc>
+      <editorialDecl>
+        <p>Rules of TEI XML MarkUp in This Project</p>
+        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
+        <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
+        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
           Editions</ref>.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="ar">Arabic</language>
-            <language ident="en">English</language>
-            <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
-            <language ident="ota">Ottoman</language>
-         </langUsage>
-      </profileDesc>
-   </teiHeader>
-   <text xml:lang="ota">
+        
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+        <language ident="ota">Ottoman</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <listchange>
+        <change xml:id="FINALDRAFT">Final version.</change>
+      </listchange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="ota">
       <body>
          <div xml:id="q1" resp="#eAE">
             <head>
@@ -126,8 +127,7 @@
             <p>آثار محاسن نثار ولى النعميدن اوله رق <placeName ref="قلعله-يولى">قلعله
                   يولنده</placeName> صاغده وصولده غرس اولنان آغاجلرك يوله ويردکلری رونق و لطافته
                مبنی مذکور يولك اتصالنده بولنان <placeName ref="روميله">روميله</placeName>
-                  و<placeName ref="قره-میدان">قره میدانده</placeName> دخی اولوجهله ايكى طرفده <rs
-                  type="اشجار-غرسی">اشجار غرسی</rs> نزد مکارمفرد داوريده استحسان بیورلمغله اجراسی
+                  و<placeName ref="قره-میدان">قره میدانده</placeName> دخی اولوجهله ايكى طرفده <rs type="اشجار-غرسی">اشجار غرسی</rs> نزد مکارمفرد داوريده استحسان بیورلمغله اجراسی
                اقتضا ايدنلره فرمان بیورلدیغی خبرى النمشدر </p>
             <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
             <p>آثار محاسن نثار ولى النعميدن اوله رق قلعله يولنده صاغده وصولده غرس اولنان آغاجلرك
@@ -143,8 +143,7 @@
             <p><placeName ref="درب-الاحمر-سمتى">درب الاحمر سمتنده</placeName>
                <placeName ref="حطابه">حطابه نام محله ده</placeName>
                <persName>حاجى حسين ابوشنب</persName> نام کمسنه خانه سندن ماه حالك التنجى کيجه سی
-               ساعت درت صولرنده قضاء <rs type="يانقين">يانقين</rs> ظهور ایدوب در حال <orgName
-                  type="ضابطخانه">ضابطخانه</orgName> طرفندن لازم كلان طلومبه و طلومبه جلر يتشديريلوب
+               ساعت درت صولرنده قضاء <rs type="يانقين">يانقين</rs> ظهور ایدوب در حال <orgName type="ضابطخانه">ضابطخانه</orgName> طرفندن لازم كلان طلومبه و طلومبه جلر يتشديريلوب
                اطرافه سرايتنه وقت ويرلميه رك ايكی ساعت ایچنده باصدیرلمش اولدیغی خبری النمشدر</p>
             <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
             <p>درب الاحمر سمتنده حطابه نام محله ده حاجى حسين ابوشنب نام کمسنه خانه سندن ماه حالك
@@ -162,9 +161,7 @@
                <placeName ref="درب-سعاده-محله-سى">درب سعاده محله سنده</placeName> كائن اوست قاتده
                ایکی خزنه لى برمكان و بر اوطه و بر صفه و برمطبخ و بر کیلار و اوفق بر حمام و الت قاتده
                خزینه لى و مرمر دیرکلی بر سلاملق اوطه و بر منظره و ایکی مغازه و اوچ حيوان آلور بر
-               آخور و بر قیو و اجیق بر حولیسی بولنور <persName>شیخ محمد غلبان</persName> نام شخصك<rs
-                  type=" بیت-المال-معرفتیله"
-                  ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> بیت المال
+               آخور و بر قیو و اجیق بر حولیسی بولنور <persName>شیخ محمد غلبان</persName> نام شخصك<rs type=" بیت-المال-معرفتیله"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> بیت المال
                   معرفتیله<?oxy_custom_end?></rs> بر باب خانه سى صاتيلق اولوب استكاوسى وارا يسه
                دلالباشی <persName>سید مصطفادن</persName> صورمسی اعلان اولنمشدر</p>
             <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
@@ -181,9 +178,7 @@
                   <biblScope unit="page">ص ٤</biblScope></bibl></head>
             <p>محلۀ مذکوره ده كائن اوست قاتده درت اوطه و اوچ كیلار و بر حمام و بر مطبخ والت قاتده بر
                خزنه و بر مرمر ديركلى بر سلاملق و بر صفه و بر اوطه و اوچ مغازه و اوچ حيوان آلور بر
-               آخور و بر دکرمن و بر اوفق منظره و بر فیوسی و آچیق حولیسی بولنور شیخ مذکورك <rs
-                  type=" بیت-المال-معرفتیله"
-                  ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> بیت المال
+               آخور و بر دکرمن و بر اوفق منظره و بر فیوسی و آچیق حولیسی بولنور شیخ مذکورك <rs type=" بیت-المال-معرفتیله"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> بیت المال
                   معرفتیله<?oxy_custom_end?></rs> دكر بر خانه سی صا تيلق اولوب راغبی وار ایسه دلال
                باشئ مومی الیهدن صورمسي بیلديرلمشدر</p>
             <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
@@ -202,8 +197,7 @@
                <placeName ref="دالی-حسین-محله-سى">دالی حسین محله سنده</placeName> واقع اوست قاتده
                صفه وخزنه لى بش اوطه و بر حمام و بر مطبخ و ایکی کيلار و الت قاتده اوچ مغازه و بر اوفق
                منظره و اوچ حيوان آلور بر آخور و بر دکرمن و بر قيو واچيق حولیسی موجود <persName>جندی
-                  باشی مرحوم احمد اغانك</persName> بر باب خانه سی <rs type=" بیت-المال-معرفتیله"
-                  ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> بیت المال
+                  باشی مرحوم احمد اغانك</persName> بر باب خانه سی <rs type=" بیت-المال-معرفتیله"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> بیت المال
                   معرفتیله<?oxy_custom_end?></rs> صاتيلق اولوب طالبی وار ایسه دلال باشئ مومى اليهدن
                استدلال اتمسی اخباراولنمشدر</p>
             <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
@@ -245,8 +239,7 @@
             <p>مصرده <placeName ref=" امام-حسين-حضرتلری-جواری">امام حسين حضرتلری جوارنده</placeName>
                واقع <placeName type="جاده">جاده</placeName>
                <placeName type="یول">یولك</placeName> توسیعنه لازم کلان <persName>ديوان جهادیه
-                  مترجمی محمد صبری افندينك</persName> بش عدد <placeName type="دکان"
-                  >دکانی</placeName> وقف بولندقلرينه مبنی دیوان طرفنه محسوبا دیکرلريله استبدال
+                  مترجمی محمد صبری افندينك</persName> بش عدد <placeName type="دکان">دکانی</placeName> وقف بولندقلرينه مبنی دیوان طرفنه محسوبا دیکرلريله استبدال
                اولنمشدرلر</p>
             <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
             <p>مصرده امام حسين حضرتلری جوارنده واقع جاده یولك توسیعنه لازم کلان ديوان جهادیه مترجمی
@@ -260,8 +253,7 @@
                   <biblScope unit="page">ص ٢</biblScope></bibl></head>
             <head>حوادث داخليه</head>
             <p><placeName ref="اسكى-مصر">اسكى مصرده</placeName>
-               <placeName type="دیرالنحاس-نام-سمتى">دیرالنحاس نام سمتده</placeName> واقع <orgName
-                  type="بشير-اغا-خانى">بشير اغا خانندن</orgName> ماه حالك اون برنجى چهارشنبه کونی
+               <placeName type="دیرالنحاس-نام-سمتى">دیرالنحاس نام سمتده</placeName> واقع <orgName type="بشير-اغا-خانى">بشير اغا خانندن</orgName> ماه حالك اون برنجى چهارشنبه کونی
                قضاء بر <rs type="ينغين">ينغين</rs> ظهور ایدوب اولطرفده موجود بولنان طلومبه لر درحال
                يتشديرلمكله ایکی اوطه دن غيريسنه ضرری طوقنمقسزین باصديرلدیغی ایشديلمشدر</p>
             <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>

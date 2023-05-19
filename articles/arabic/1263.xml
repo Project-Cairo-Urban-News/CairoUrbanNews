@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="css/oxygen.css"?><?xml-model href="schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities Project</title>
+        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
+          Project</title>
         <editor xml:id="eNK">Nour Kanaan</editor>
         <editor xml:id="eAM">Adam Mestyan</editor>
         <editor xml:id="eDY">Danah Younis</editor>
@@ -30,7 +31,7 @@
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
-          <name>Sarah Fath Allah</name>
+          <name>Sarah Fathallah Garaa</name>
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
@@ -66,9 +67,9 @@
         </respStmt>
         <sponsor>
           <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
-          <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
-          Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-          Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>. 
+            <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+            Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>.
         </sponsor>
       </titleStmt>
       <publicationStmt>
@@ -97,6 +98,7 @@
         <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
         <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
           Editions</ref>.</p>
+        
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
@@ -107,173 +109,183 @@
         <language ident="ota">Ottoman</language>
       </langUsage>
     </profileDesc>
+    <revisionDesc>
+      <listchange>
+        <change xml:id="FINALDRAFT">Final version.</change>
+      </listchange>
+    </revisionDesc>
   </teiHeader>
   
   <text xml:lang="ar">
       <body>
          <div xml:id="w1" resp="#eSG">
-            <head>١٢٦٣ هجري</head>
             <head><date when-custom="1263-02-08">٨ صفر ١٢٦٣</date><date when="1847-01-26">٢٦ يناير
                   ١٨٤٧</date><bibl><biblScope unit="issue">نمرة ٤٩</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
-            <p> لما كان <persName>الخواجه اسبروباش قلفة العمارة الحاصلة فى <placeName>سراية
-                     شبرى</placeName></persName> قد اظهر الشطارة والبراعة فى تلك العمارة واقتضى
-               الحال تلطيفه وتشويقه صدرت الارادة الكتخداوية بضم اربعمائة قرش الى اصل ماهيته التى
-               مقدارها خمسمائة قرش كما اخبر به من <orgName type="الديوان_الخديوى">الديوان
-                  الخديوى</orgName>. </p>
+            <p> لما كان <persName>الخواجه اسبروباش قلفة العمارة الحاصلة فى<placeName type="سراية" ref="سراية-شبرى">سراية شبرى</placeName></persName> قد اظهر الشطارة والبراعة فى
+               تلك العمارة واقتضى الحال تلطيفه وتشويقه صدرت الارادة الكتخداوية بضم اربعمائة قرش الى
+               اصل ماهيته التى مقدارها خمسمائة قرش كما اخبر به من <orgName type="ديوان" ref="الديوان_الخديوى">الديوان الخديوى</orgName>.</p>
          </div>
          <div xml:id="w2" resp="#eSG">
             <head><date when-custom="1263-02-08">٨ صفر ١٢٦٣</date><date when="1847-01-26">٢٦ يناير
                   ١٨٤٧</date><bibl><biblScope unit="issue">نمرة ٤٩</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-            <head>اعلانات</head>
-            <p> ان بيت المرحوم <persName>غيطاس افندى الروزنامجى</persName> سابقا الكائن
-                  ب<placeName>خط عابدين</placeName> والمجاور ل<placeName>جامع محمد بك</placeName>
-               تشتمل طبقته العليا على خمس عشرة اودة وحمامين والسفلى على خمسة عشر حاصلا واصطبلات كل
-               واحد منها يسع احد عشر حيوانا وفيه حديقتان احداهما ثلث فدان والاخرى ربع فدان وله مجرى
-               يصل الى النيل المبارك وهو معرض للبيع بمعرفة <orgName type="بيت_المال">بيت
-                  المال</orgName> فمن كان له رغبة فيه فليسأل عنه من دلال باشى المذكور. </p>
-            <p> ان بيتا ب<placeName>زقاق سويقة العزى</placeName> الكائنة ب<placeName>سوق
-                  السلاح</placeName> يراد بيعه بمعرفة <orgName type="الديوان_الخديوى">الديوان
-                  الخديوى</orgName> على ذمة ليرى فيه مقعد بعمودين واودة وفى طبقته العليا عشرون اودة
-               وفى السفلى ثمانية حواصل وله اصطبل يسع ثمانية من المواشى وفيه ساقية وحوض كبير فمن
-               اراده فليسأل عنه من دلال باشى المذكور. </p>
-            <p>
-               <hi>ان منزل <persName>حسن اغا بلوك باشى</persName> الذى ب<placeName>حارة
-                     الصالحية</placeName> فى <orgName type="سوق_خان_الخليلى">سوق خان
-                     الخليلى</orgName> فيه محل سلاملك وعشر اود فى الطبقة العليا و ثلاثة حواصل ومنظرة
-                  ذات فسقية وطاحونة واصطبل يسع ستة من المواشى فى الطبقة السفلى وهو معرض للبيع فمن
-                  اراد شراءه فليستدل عليه من الدلال المذكور.</hi>
-            </p>
-            <p>ان الوكالة الكائنة فى
-                  <placeName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>جادة
-                  سوق خان الخليلى<?oxy_custom_end?></placeName> الجارية فى ملك <persName>محمد سالم
-                  المغربى احد تجار الفحامين</persName> المشهورة ب<orgName type="وكالة_الخيش">وكالة
-                  الخيش</orgName> تشتمل طبقتها العليا على عشرين اودة والسفلى على ثمانية عشر حاصلا
-               كبيرا وثمان خزائن وبها خمسة دكاكين وهى معرضة للبيع من طرف صاحبها فمن اراد ان يراها
-               فليسأل عنها من الدلال المذكور ويرضى صاحبها فى ثمنها.  </p>
+            <head><title>اعلانات</title></head>
+            <p>ان <placeName type="بيت" ref="بيت-المرحوم-غيطاس-افندى-الروزنامجى-سابقا">بيت المرحوم
+                     <persName>غيطاس افندى الروزنامجى</persName> سابقا</placeName> الكائن
+                  ب<placeName type="خط" ref="خط-عابدين">خط عابدين</placeName> والمجاور ل<placeName type="جامع" ref="جامع-محمد-بك">جامع محمد بك</placeName> تشتمل طبقته العليا على خمس
+               عشرة اودة وحمامين والسفلى على خمسة عشر حاصلا واصطبلات كل واحد منها يسع احد عشر حيوانا
+               وفيه حديقتان احداهما ثلث فدان والاخرى ربع فدان وله مجرى يصل الى النيل المبارك وهو
+               معرض للبيع بمعرفة <orgName type="بيت_المال" ref="بيت_المال">بيت المال</orgName>فمن
+               كان له رغبة فيه فليسأل عنه من دلال باشى المذكور. </p>
+            <p>ان<placeName type="بيت" ref="بيت-بزقاق-سويقة-العزى">بيتا ب<placeName type="زقاق" ref="زقاق-سويقة-العزى">زقاق <placeName type="سويقة" ref="سويقة-العزى">سويقة
+                        العزى</placeName></placeName></placeName>الكائنة ب<placeName ref="سوق-السلاح">سوق السلاح</placeName> يراد بيعه بمعرفة <orgName type="ديوان" ref="الديوان_الخديوى">الديوان الخديوى</orgName> على ذمة <sic>ليرى</sic> فيه مقعد
+               بعمودين واودة وفى طبقته العليا عشرون اودة وفى السفلى ثمانية حواصل وله اصطبل يسع
+               ثمانية من المواشى وفيه ساقية وحوض كبير فمن اراده فليسأل عنه من دلال باشى المذكور.</p>
+            <p>ان <placeName type="منزل" ref="منزل-حسن-اغا-بلوك-باشى">منزل<persName>حسن اغا بلوك
+                     باشى</persName></placeName> الذى ب<placeName type="حارة" ref="حارة-الصالحية">حارة الصالحية</placeName> فى <placeName type="سوق" ref="سوق-خان-الخليلى"><orgName type="سوق" ref="سوق_خان_الخليلى">سوق خان الخليلى</orgName></placeName> فيه محل
+               سلاملك وعشر اود فى الطبقة العليا و ثلاثة حواصل ومنظرة ذات فسقية وطاحونة واصطبل يسع
+               ستة من المواشى فى الطبقة السفلى وهو معرض للبيع فمن اراد شراءه فليستدل عليه من الدلال
+               المذكور. </p>
+            <p>ان <placeName type="وكالة">الوكالة</placeName> الكائنة فى <placeName type="جادة" ref="جادة-سوق-خان-الخليلى">جادة سوق خان الخليلى</placeName> الجارية فى
+                  ملك<persName>محمد سالم المغربى احد تجار الفحامين</persName> المشهورة ب<placeName type="وكالة" ref="وكالة-الخيش">وكالة الخيش</placeName> تشتمل طبقتها العليا على
+               عشرين اودة والسفلى على ثمانية عشر حاصلا كبيرا وثمان خزائن وبها خمسة دكاكين وهى معرضة
+               للبيع من طرف صاحبها فمن اراد ان يراها فليسأل عنها من الدلال المذكور ويرضى صاحبها فى
+               ثمنها.</p>
          </div>
          <div xml:id="w3" resp="#eSG">
             <head><date when-custom="1263-02-22">٢٢ صفر ١٢٦٣</date><date when="1847-02-09">٩ فبراير
                   ١٨٤٧</date><bibl><biblScope unit="issue">نمرة ٥١</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-            <head>اعلانات</head>
-            <p> ان بيت
-                  <persName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>قوجه
-                  احمد اغا<?oxy_custom_end?></persName> الكائن ب<placeName>حارة الحمام بخط خان
-                  الخليلى</placeName> تشتمل طبقته العليا على تسع اود ومطبخ والسفلى على ثلاثة حواصل
-               واصطبل يسع بعض حيوانات وطاحونه وله حوش كبير وهو معرض للبيع من طرف صاحبه فمن اراد
-               شرآءه فليسأل عنه من السيد <persName>مصطفى دلال باشى</persName> وليرض صاحبه فى ثمنه. </p>
-            <p> ان <placeName>بيت حسن اغا عمر</placeName> الكائن جادة <placeName>خط
-                  الصليبه</placeName> تشتمل طبقته العليا على ثمانى اود ومقعد بعمودين من المرمر فيه
-               اودة وطبقته السفلى فيها سبعة من الحواصل وله منظرة وحديقة خربة صغيرة وفيه اصطبل ومحل
-               طاحونة وله حوش كبير وهو معرض للبيع فمن كان له رغبة فيه فليسأل عنه من دلال باشى
-               المذكور. </p>
-            <p>ان <placeName>بيت <persName>يوسف افندى ضياء ناظر ورش الوجه القبلى
-                  سابقا</persName></placeName> الكائن <placeName>بزرع النوى فى الدرب
-                  الاحمر</placeName> طبقته العليا فيها عشر اود ومظبخ ومقعد والسفلى فيها ثلاثة حواصل
-               واصطبل وطاحونة وحوش كشف وهو يراد بيعه فمن كان له رغبة فيه فليسأل عنه من الدلال
-               المذكور.</p>
-            <p>ان<placeName> وكالة السيد عثمان السكرى</placeName> الكائنة
-                  ب<placeName>الجمالية</placeName> المشتملة طبقتها العليا على عشرين اودة والسفلى على
-               اثنين وعشرين حاصلا وبجوارها دكانان ولها ربع ذو ست اود يراد بيعها فمن كان له رغبة فيها
-               فليسأل عنها من الدلال المذكور.</p>
-            <p>ان <placeName>حمام محمد باشا الشرقاوى</placeName>الكائن ب<placeName>خط خان
-                  الخليلى</placeName> الكامل جميع لوازمه معرض للبيع فمن كا[؟] (الكلام ممسوح) يطلبه
-               فليسأل عنه من الدلال المذكور.</p>
+            <head><title>اعلانات</title></head>
+            <p>ان<placeName type="بيت" ref="بيت-قوجه-احمد-اغا">بيت
+                     <persName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah" timestamp="20230518T175920+0200" comment="check in the original
+"?>قوجه<?oxy_comment_end?>
+                     احمد اغا<?oxy_custom_end?></persName></placeName> الكائن ب<placeName type="حارة" ref="حارة-الحمام">حارة الحمام</placeName>ب<placeName type="خط-خان-الخليلى">خط خان الخليلى</placeName> تشتمل طبقته العليا على تسع اود
+               ومطبخ والسفلى على ثلاثة حواصل واصطبل يسع بعض حيوانات وطاحونه وله حوش كبير وهو معرض
+               للبيع من طرف صاحبه فمن اراد شرآءه فليسأل عنه من السيد<persName>مصطفى دلال
+                  باشى</persName> وليرض صاحبه فى ثمنه.</p>
+            <p>ان<placeName ref="بيت-حسن-اغا-عمر" type="بيت">بيت حسن اغا عمر</placeName>الكائن
+                  فى<placeName type="جادة" ref="جادة-خط-الصليبه">جادة خط الصليبه</placeName> تشتمل
+               طبقته العليا على ثمانى اود ومقعد بعمودين من المرمر فيه اودة وطبقته السفلى فيها سبعة
+               من الحواصل وله منظرة وحديقة خربة صغيرة وفيه اصطبل ومحل طاحونة وله حوش كبير وهو معرض
+               للبيع فمن كان له رغبة فيه فليسأل عنه من دلال باشى المذكور. </p>
+            <p>ان <placeName type="بيت" ref="بيت-يوسف-افندى-ضياء-ناظر-ورش-الوجه-القبلى-سابقا">بيت<persName>يوسف افندى ضياء ناظر ورش الوجه القبلى
+                  سابقا</persName></placeName> الكائن ب<placeName ref="زرع-النوى">زرع
+                  النوى</placeName> فى<placeName ref="الدرب-الاحمر">الدرب الاحمر</placeName> طبقته
+               العليا فيها عشر اود
+               <?oxy_comment_start author="Sarah" timestamp="20230518T181539+0200" comment="check in the original"?>و<?oxy_custom_start type="oxy_content_highlight" color="255,255,0" mid="3"?>مظبخ<?oxy_comment_end?><?oxy_custom_end mid="3"?>
+               ومقعد والسفلى فيها ثلاثة حواصل واصطبل وطاحونة وحوش كشف وهو يراد بيعه فمن كان له رغبة
+               فيه فليسأل عنه من الدلال المذكور.</p>
+            <p>ان<placeName type="وكالة" ref="وكالة-السيد-عثمان-السكرى">وكالة السيد عثمان
+                  السكرى</placeName>الكائنة ب<placeName ref="الجمالية">الجمالية</placeName>المشتملة
+               طبقتها العليا على عشرين اودة والسفلى على اثنين وعشرين حاصلا وبجوارها دكانان ولها ربع
+               ذو ست اود يراد بيعها فمن كان له رغبة فيها فليسأل عنها من الدلال المذكور.</p>
+            <p>ان <placeName type="حمام" ref="حمام-محمد-باشا-الشرقاوى">حمام محمد باشا
+                  الشرقاوى</placeName>الكائن ب<placeName ref="خط-خان-الخليلى" type="خط">خط خان
+                  الخليلى</placeName> الكامل جميع لوازمه معرض للبيع فمن <sic>كا[ن]</sic>يطلبه فليسأل
+               عنه من الدلال المذكور.</p>
          </div>
          <div xml:id="w4" resp="#eSG">
             <head><date when-custom="1263-02-29">٢٩ صفر ١٢٦٣</date><date when="1847-02-16">١٦ فبراير
                   ١٨٤٧</date><bibl><biblScope unit="issue">نمرة ٥٢</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
-            <head>الحوادث الداخليه</head>
-            <p>
-               <hi>ان ناظر شبرى قد قدم <rs type="عرضا">عرضا</rs> لل<orgName type="ديوان_الخديوى">ديوان الخديوى</orgName> يستدعى فيه بتعمير ما اوشك سقوطه من كروم العنب التى
-                  بتلك الجهة وقد كشف عنها من طرف <orgName type="ديوان_الابنية">ديوانى
-                     الابنية</orgName> و<orgName type="ديوان_المدارس">المدارس</orgName> فتبين انها
-                  محتاجة الى عمارة بمبلغ ستة عشر الف قرش واربعمائة ونيف من القروش وقد عرض ذلك
-                  للاعتاب الداورية فتعلقت الارادة باجراء هذا التعمير بالمبلغ المذكور كما اخبر به من
-                  الديوان الخديوى.</hi>
-            </p>
+            <head><title>الحوادث الداخليه</title></head>
+            <p>ان ناظر<placeName ref="شبرى">شبرى</placeName> قد قدم <rs type="عرضا">عرضا</rs>
+                  لل<orgName type="ديوان" ref="ديوان_الخديوى">ديوان الخديوى</orgName> يستدعى فيه
+               بتعمير ما اوشك سقوطه من كروم العنب التى بتلك الجهة وقد كشف عنها من طرف <orgName type="ديوان" ref="ديوان_الابنية">ديوانى الابنية</orgName> و<orgName type="ديوان" ref="ديوان_المدارس">المدارس</orgName> فتبين انها محتاجة الى عمارة بمبلغ ستة عشر
+               الف قرش واربعمائة ونيف من القروش وقد عرض ذلك للاعتاب الداورية فتعلقت الارادة باجراء
+               هذا التعمير بالمبلغ المذكور كما اخبر به من الديوان الخديوى. </p>
          </div>
          <div xml:id="w5" resp="#eSG">
             <head><date when-custom="1263-02-29">٢٩ صفر ١٢٦٣</date><date when="1847-02-16">١٦ فبراير
                   ١٨٤٧</date><bibl><biblScope unit="issue">نمرة ٥٢</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-            <head>اعلانات</head>
-            <p>ان <placeName>بيت <persName>محمد سعيد اغا كتخدا حريم جناب كتخدا
-                  باشا</persName></placeName> الكائن ب<placeName>الحارة المسماة بحوش قدم</placeName>
-                  فى<placeName>خط الغورية</placeName> تشتمل طبقته العليا على مقعد وثمانى اود وحمام
-               ومطبخ وطبقته السفلى فيها تختبوش بعمود وفيها حاصلان واصطبل يسع اثنتين من المواشى وله
-               بئر وحوش مربع وهو معرض للبيع على ذمة صاحبه وقد بلغ ثمنه الآن خمسة واربعين كيسا فمن
-               كان له رغبة فيه فليسأل عنه من <persName>السيد مصطفى الدلال باشى</persName> وليرض
+            <head><title>اعلانات</title></head>
+            <p>ان<placeName ref="بيت-محمد-سعيد-اغا-كتخدا-حريم-جناب-كتخدا-باشا">بيت<persName>محمد
+                     سعيد اغا كتخدا حريم جناب كتخدا باشا</persName></placeName> الكائن ب<placeName ref="حارة-حوش-قدم">الحارة المسماة بحوش قدم</placeName> فى<placeName type="خط" ref="خط-الغورية">خط الغورية</placeName> تشتمل طبقته العليا على مقعد وثمانى اود
+               وحمام ومطبخ وطبقته السفلى فيها تختبوش بعمود وفيها حاصلان واصطبل يسع اثنتين من المواشى
+               وله بئر وحوش مربع وهو معرض للبيع على ذمة صاحبه وقد بلغ ثمنه الآن خمسة واربعين كيسا
+               فمن كان له رغبة فيه فليسأل عنه من <persName>السيد مصطفى الدلال باشى</persName> وليرض
                صاحبه فى ثمنه. </p>
-            <p> ان <placeName>مطبخ العسل</placeName> الكائن ب<placeName>خط الجمالية</placeName>
-               الجارى فى ملك المرحوم فتوح السخاوى المشتمل على ثمانى اود وستة حواصل ومحل يطبخ فيه
-               العسل وعلى ربع ذى اودتين يراد بيعه على ذمه الميرى وقد وصل ثمنه الآن الى خمسة عشر كيسا
-               ومائة وخمسين قرشا فمن كان له رغبة فيه فليسأل عنه من الدلال المذكور. </p>
-            <p> ان <placeName>مطبخ العسل</placeName> الكائن ب<placeName>حارة شمس
-                  الدوله</placeName>فى<placeName>خط الحمزاوى</placeName> له ثمان اود وخمسة حواصل
-               وفيه محل لطبخ العسل وفيه بئر وهو جارى فى ملك حسن الحامولى وقد بلغ ثمنه اليوم اثنى عشر
-               كيسا وهو معرض للبيع على ذمة الميرى فمن اراده فليستدل عليه من الدلال المذكور.</p>
-            <p> ان البيت الكائن ب<placeName>جادة طريق خط قيسون</placeName> المشتملة طبقته العليا على
-               اودتين والسفلى على ثلاث اود وحوش كبير مشحون بالتراب قد بلغ ثمنه ثلاثة وعشرين كيسا وان
-               البيوت الاربعة الكائنة بشاطئ البحر فى <placeName>مصر القديمة</placeName> يوجد فى
-               الطبقة العليا بكل واحد من ثلاثة منها اربع اود ومطبخ وفى الطبقة السفلى من كل واحد
-               منظرة واصطبل يسع اثنين من المواشى وحاصل والرابع فيه ست اود ومطبخ فى الطبقة العليا
-               ومنظرة وحاصلان واصطبل يسع ثلاثا من المواشى فى السفلى وفى كل من الاربعة حوش مكشوف وقد
-               بلغ ثمن الاربعة ستة وتسعين كيسا ومائة قرش وان البيت الكائن ب<placeName>قلعة
-                  الكبش</placeName> فى <placeName>خط الصليبة</placeName> يوجد فى طبقته العليا اربع
-               من الاود وواحد من المطابخ وفى السفلى منظرة وحاصل واصطبل يسع حيوانين وقد بلغ ثمنه الآن
-               سبعة من الاكياس ومائة من القروش والجميع جارى فى ملك يوسف جوانى المتوفى ويراد بيعهم
-               على ذمة الميرى فمن كان له رغبة فليسأل من الدلال المذكور.</p>
+            <p>ان<placeName type="مطبخ" ref="مطبخ-العسل">مطبخ العسل</placeName>الكائن ب<placeName type="خط" ref="خط-الجمالية">خط الجمالية</placeName>الجارى فى ملك<persName>المرحوم
+                  فتوح السخاوى</persName>المشتمل على ثمانى اود وستة حواصل ومحل يطبخ فيه العسل وعلى
+               ربع ذى اودتين يراد بيعه على ذمه الميرى وقد وصل ثمنه الآن الى خمسة عشر كيسا ومائة
+               وخمسين قرشا فمن كان له رغبة فيه فليسأل عنه من الدلال المذكور.</p>
+            <p>ان<placeName ref="مطبخ-العسل" type="مطبخ">مطبخ العسل</placeName>الكائن ب<placeName type="حارة" ref="حارة-شمس-الدوله">حارة شمس الدوله</placeName>فى<placeName type="خط" ref="خط-الحمزاوى">خط الحمزاوى</placeName> له ثمان اود وخمسة حواصل وفيه
+               محل لطبخ العسل وفيه بئر وهو جارى فى ملك <persName>حسن الحامولى</persName> وقد بلغ
+               ثمنه اليوم اثنى عشر كيسا وهو معرض للبيع على ذمة الميرى فمن اراده فليستدل عليه من
+               الدلال المذكور.</p>
+            <p> ان ال<placeName type="بيت">بيت</placeName> الكائن ب<placeName ref="جادة-طريق-خط-قيسون" type="جادة">جادة طريق<placeName ref="خط-قيسون" type="خط">خط قيسون</placeName></placeName>المشتملة طبقته العليا على اودتين والسفلى على
+               ثلاث اود وحوش كبير مشحون بالتراب قد بلغ ثمنه ثلاثة وعشرين كيسا وان ال<placeName type="بيوت">بيوت</placeName> الاربعة الكائنة بشاطئ البحر فى <placeName ref="مصر-القديمة">مصر القديمة</placeName> يوجد فى الطبقة العليا بكل واحد من ثلاثة
+               منها اربع اود ومطبخ وفى الطبقة السفلى من كل واحد منظرة واصطبل يسع اثنين من المواشى
+               وحاصل والرابع فيه ست اود ومطبخ فى الطبقة العليا ومنظرة وحاصلان واصطبل يسع ثلاثا من
+               المواشى فى السفلى وفى كل من الاربعة حوش مكشوف وقد بلغ ثمن الاربعة ستة وتسعين كيسا
+               ومائة قرش وان ال<placeName type="بيت">بيت</placeName> الكائن ب<placeName ref="قاعة-الكبش">قلعة الكبش</placeName> فى <placeName type="خط" ref="خط-الصليبة">خط الصليبة</placeName> يوجد فى طبقته العليا اربع من الاود وواحد من المطابخ وفى
+               السفلى منظرة وحاصل واصطبل يسع حيوانين وقد بلغ ثمنه الآن سبعة من الاكياس ومائة من
+               القروش والجميع جارى فى ملك <persName>يوسف جوانى</persName> المتوفى ويراد بيعهم على
+               ذمة الميرى فمن كان له رغبة فليسأل من الدلال المذكور.</p>
          </div>
          <div xml:id="w6" resp="#eSG">
             <head><date when-custom="1263-03-07">٧ ربيع الاول ١٢٦٣</date><date when="1847-02-23">٢٣
                   فبراير ١٨٤٧</date><bibl><biblScope unit="issue">نمرة ٥٣</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
             <p> لما كانت جملة مقاصد ولى النعم متسمة بما هو الانفس والاهم لاح بخاطره العالى ذى
-               المكارم والمعالى انشاء حديقة ذات محاسن انيقة فى الارض الخالية من البناء الكائنة فيما
-               بين <placeName>كشك سراية القلعة العامرة</placeName> بمصر المحروسة و<placeName>الجامع
-                  الشريف</placeName> الجارى انشاؤه ب<placeName>القلعة</placeName> المذكورة بحيث تكون
-               مأسسة على عقود متينة تشتمل على اثنين وسبعين مخزنا تختص بحفظ لوازم الجامع الشريف من
-               قناديل وحصر وغيرهما ويفرش فى سطحها اشجار الحديقة بحيث تملاء بالمحاسن ويكون وضعها
-               بالقسمه التى تكون بالتحف متسمه وقد بودر الى بناء المخازن المذكورة واخذ فى الجد الزآئد
-               المؤدى الى انشاء تلك الحديقة حسب المرغوب كما اخبر به حضرة <persName>راشد بيك مفتش
-                  الابنية الميرية</persName></p>
+               المكارم والمعالى انشاء <placeName type="حديقة">حديقة</placeName> ذات محاسن انيقة فى
+                  ال<placeName type="ارض">ارض</placeName> الخالية من البناء الكائنة فيما بين
+                  كشك<placeName ref="سراية-القلعة-العامرة" type="سراية">سراية <placeName type="قلعة" ref="القلعة-العامرة">القلعة العامرة</placeName></placeName>بمصر المحروسة
+                  و<placeName type="جامع">الجامع الشريف</placeName> الجارى انشاؤه بالقلعة المذكورة
+               بحيث تكون مأسسة على عقود متينة تشتمل على اثنين وسبعين <placeName type="مخزن">مخزن</placeName>ا تختص بحفظ لوازم الجامع الشريف من قناديل وحصر وغيرهما ويفرش فى
+               سطحها اشجار الحديقة بحيث تملاء بالمحاسن ويكون وضعها بالقسمه التى تكون بالتحف متسمه
+               وقد بودر الى بناء المخازن المذكورة واخذ فى الجد الزآئد المؤدى الى انشاء تلك الحديقة
+               حسب المرغوب كما اخبر به حضرة <persName>راشد بيك مفتش الابنية الميرية</persName></p>
          </div>
          <div xml:id="w7" resp="#eSG">
             <head><date when-custom="1263-03-07">٧ ربيع الاول ١٢٦٣</date><date when="1847-02-23">٢٣
                   فبراير ١٨٤٧</date><bibl><biblScope unit="issue">نمرة ٥٣</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-            <head>اعلانات</head>
-            <p> ان بيتا كائنا ب<placeName>درب الحصر</placeName> فى<placeName>خط الخليفة</placeName>
-               بالمحروسة تشتمل طبقته العليا على تسع اود وحمام واودة سلاملك كبير ذات عمود من المرمر
-               ومطبخ والسفلى على منظرة واصطبل يسع ثلاثا من المواشى وفيها ثلاثة حواصل وطاحونة وله بئر
-               وحوش كشف مربع يراد بيعه بمعرفة الافندى المومى اليه اذ كان صاحبه معلوما عنده فمن اراده
-               فليستدل عليه من الافندى المومى اليه.</p>
-            <p> ان <placeName>بيت الشيخ ابراهيم</placeName>الذى فى<placeName>حارة
-                  برجوان</placeName>ب<placeName>خط الشعراوى</placeName> تشتمل على خمس اود وحمام و
-               مطبخ واودة سلاملك كبيرة وطبقته السفلى فيها حاصل واصطبل يسع حيوانين وطاحونة وله بئر
-               وحوش صغير بلغ ثمنه الآن عشرة آلاف قرش وهو معرض للبيع فمن كان يطلبه فليسأل عنه من
-               السيد <persName>مصطفى دلال باشى</persName>
+            <head><title>اعلانات</title></head>
+            <p>ان<placeName type="بيت">بيت</placeName>ا كائنا ب<placeName ref="درب-الحصر" type="درب">درب الحصر</placeName> فى<placeName type="خط" ref="خط-الخليفة">خط
+                  الخليفة</placeName> بالمحروسة تشتمل طبقته العليا على تسع اود وحمام واودة سلاملك
+               كبير ذات عمود من المرمر ومطبخ والسفلى على منظرة واصطبل يسع ثلاثا من المواشى وفيها
+               ثلاثة حواصل وطاحونة وله بئر وحوش
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah" timestamp="20230518T190916+0200" comment="check in the original
+" mid="5"?>كشف<?oxy_custom_end?><?oxy_comment_end mid="5"?>
+               مربع يراد بيعه بمعرفة الافندى المومى اليه اذ كان صاحبه معلوما عنده فمن اراده فليستدل
+               عليه من الافندى المومى اليه.</p>
+            <p> ان <placeName type="بيت" ref="بيت-الشيخ-ابراهيم">بيت الشيخ ابراهيم</placeName>الذى
+                  فى<placeName type="حارة" ref="حارة-برجوان">حارة برجوان</placeName>ب<placeName type="خط" ref="خط-الشعراوى">خط الشعراوى</placeName> تشتمل على خمس اود وحمام ومطبخ
+               واودة سلاملك كبيرة وطبقته السفلى فيها حاصل واصطبل يسع حيوانين وطاحونة وله بئر وحوش
+               صغير بلغ ثمنه الآن عشرة آلاف قرش وهو معرض للبيع فمن كان يطلبه فليسأل عنه من السيد
+                  <persName>مصطفى دلال باشى</persName>
             </p>
          </div>
          <div xml:id="w8" resp="#eSG">
             <head><date when-custom="1263-03-07">٧ ربيع الاول ١٢٦٣</date><date when="1847-02-23">٢٣
                   فبراير ١٨٤٧</date><bibl><biblScope unit="issue">نمرة ٥٣</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-            <p>[ا]ن <placeName>حوش الشبراويه</placeName> الذى بجوار<placeName>مسجد سيدنا
-                  الحسين</placeName> المشتمل على خمسة عشر مسكنا كل مسكن منها يشتمل على اودة وحاصل
-               الجارى تأجيره كل شهر بثمانين قرشا معرض للبيع فمن كان له رغبة فيه فليسأل عنه من دلال
-               باشى المذكور. </p>
-            <p>ان <placeName>وكالة الهمشرية</placeName> التى <placeName>بخط المقاصيص</placeName>
-               المشتملة طبقتها العليا على ثلاث عشرة اودة والسفلى على عشرة حواصل وبجوارها سبعة دكاكين
-               يراد بيعها فمن كان له رغبة فيها فليسأل عنها من الدلال باشى المذكور.</p>
-            <p>ان بيتا ب<placeName>درب المحكمة الكائن بخط باب الشعرية</placeName> يشتمل على خمس اود
-               وكلار وحمام ومطبخ بالطبقة العليا وحاصل يسع حيوانين وبئر وحوش مربع بالطبقة السفلى يراد
-               بيعه بمعرفة بيت المال وقد بلغ ثمنه الآن خمسة عشر كيسا فمن اراده فليستخبر عنه من دلال
-               باشى المذكور. </p>
+            <p>[ا]ن<placeName type="حوش" ref="حوش-الشبراويه">حوش الشبراويه</placeName> الذى
+                  بجوار<placeName type="مسجد" ref="مسجد-سيدنا-الحسين">مسجد سيدنا الحسين</placeName>
+               المشتمل على خمسة عشر مسكنا كل مسكن منها يشتمل على اودة وحاصل
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah" timestamp="20230518T220323+0200" comment="check in the original " mid="7"?>الجارى<?oxy_custom_end?><?oxy_comment_end mid="7"?>
+               تأجيره كل شهر بثمانين قرشا معرض للبيع فمن كان له رغبة فيه فليسأل عنه من دلال باشى
+               المذكور.</p>
+            <p>ان <placeName type="وكالة" ref="وكالة-الهمشرية">وكالة الهمشرية</placeName> التى
+                  ب<placeName type="خط" ref="خط-المقاصيص">خط المقاصيص</placeName>المشتملة طبقتها
+               العليا على ثلاث عشرة اودة والسفلى على عشرة حواصل وبجوارها سبعة دكاكين يراد بيعها فمن
+               كان له رغبة فيها فليسأل عنها من الدلال باشى المذكور.</p>
+            <p>ان <placeName type="بيت">بيت</placeName>ا ب<placeName ref="درب-المحكمة" type="درب">درب المحكمة</placeName>الكائن ب<placeName ref="خط-باب-الشعرية" type="خط">خط باب
+                  الشعرية</placeName> يشتمل على خمس اود وكلار وحمام ومطبخ بالطبقة العليا وحاصل يسع
+               حيوانين وبئر وحوش مربع بالطبقة السفلى يراد بيعه بمعرفة <orgName ref="بيت-المال">بيت
+                  المال</orgName>وقد بلغ ثمنه الآن خمسة عشر كيسا فمن اراده فليستخبر عنه من دلال باشى
+               المذكور.</p>
          </div>
          <div xml:id="w9" resp="#eSG">
             <head><date when-custom="1263-03-14">١٤ ربيع الاول ١٢٦٣</date><date when="1847-03-02">٢
                   مارس ١٨٤٧</date><bibl><biblScope unit="issue">نمرة ٥٤</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
-            <head>الحوادث الداخليه</head>
-            <p>
-               <hi xml:space="preserve">انه قد ظهرت <rs type="حريق">حريقة</rs> ببيت كائن ب<placeName>حارة السقائين</placeName> متعلق ب<persName>رجل قبطى اسمه المعلم ابراهيم</persName> وذلك فى الساعة الثالثة من يوم الاحد الموافق للثامن والعشرين من صفر الخير الماضى واسعفت بطلومبة من <orgName type="الضابطخانة">الضابطخانة</orgName> وطلومبة من <orgName type="الطلومبخانه">الطلومبخانه</orgName> مع من لزم من الطلومبجية وقد لحقتها اولا طلومبة الثمن الموجود بناحية تلك الحارة واطفئت النار بدون سراية ولم يحترق منها شئ سوى مرتبة ولحافين وثلاث وسادات من الطبقة الثالثة فى البيت التى نشأت الحريقة منها وظهرت <rs type="حريقة">حريقة</rs> ايضا فى حاصل بيت كائن ب<placeName>حارة المراحلية</placeName>فى<placeName>خط قيسون</placeName> متعلق بامرأة اسمها فاطمة فى الساعة الثانية من اليوم المذكور وقد اسعفت بطلومبة الثمن فى الحال مع طلومبجيتها وحصل اطفاؤها بدون سراية . </hi>
-            </p>
+            <head><title>الحوادث الداخليه</title></head>
+            <p>انه قد ظهرت<rs type="حريق">حريقة</rs> ب<placeName type="بيت">بيت</placeName>كائن
+                  ب<placeName type="حارة" ref="حارة-السائقين">حارة السقائين</placeName>متعلق
+                  ب<persName>رجل قبطى اسمه المعلم ابراهيم</persName> وذلك فى الساعة الثالثة من يوم
+               الاحد الموافق للثامن والعشرين من صفر الخير الماضى واسعفت بطلومبة من <orgName ref="الضابطخانة">الضابطخانة</orgName> وطلومبة من <orgName ref="الطلومبخانه">الطلومبخانه</orgName> مع من لزم من الطلومبجية وقد لحقتها اولا طلومبة ال<orgName type="ثمن">ثمن</orgName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+               <?oxy_comment_start author="Sarah" timestamp="20230518T221939+0200" comment="check in the original" mid="9"?>الموجود<?oxy_custom_end?><?oxy_comment_end mid="9"?>
+               بناحية تلك الحارة واطفئت النار بدون سراية ولم يحترق منها شئ سوى مرتبة ولحافين وثلاث
+               وسادات من الطبقة الثالثة فى البيت التى نشأت الحريقة منها وظهرت <rs type="حريقة">حريقة</rs> ايضا فى حاصل <placeName type="بيت">بيت</placeName>كائن ب<placeName type="حارة" ref="حارة-المراحلية">حارة
+                  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah" timestamp="20230518T222103+0200" comment="check in the original" mid="11"?>المراحلية<?oxy_custom_end?><?oxy_comment_end mid="11"?></placeName>فى<placeName type="خط" ref="خط-قيسون">خط قيسون</placeName> متعلق بامرأة اسمها فاطمة فى الساعة
+               الثانية من اليوم المذكور وقد اسعفت بطلومبة الثمن فى الحال مع طلومبجيتها وحصل اطفاؤها
+               بدون سراية .</p>
          </div>
          <div xml:id="w10" resp="#eSG">
             <head><date type="1263-03-14">١٤ ربيع الاول ١٢٦٣</date><date when="1847-03-02">٢ مارس

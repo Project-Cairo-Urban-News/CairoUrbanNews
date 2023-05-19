@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="css/oxygen.css"?><?xml-model href="schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities Project</title>
+        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
+          Project</title>
         <editor xml:id="eNK">Nour Kanaan</editor>
         <editor xml:id="eAM">Adam Mestyan</editor>
         <editor xml:id="eDY">Danah Younis</editor>
@@ -30,7 +31,7 @@
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
-          <name>Sarah Fath Allah</name>
+          <name>Sarah Fathallah Garaa</name>
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
@@ -66,9 +67,9 @@
         </respStmt>
         <sponsor>
           <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
-          <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
-          Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-          Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>. 
+            <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+            Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>.
         </sponsor>
       </titleStmt>
       <publicationStmt>
@@ -97,6 +98,7 @@
         <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
         <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
           Editions</ref>.</p>
+        
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
@@ -107,6 +109,11 @@
         <language ident="ota">Ottoman</language>
       </langUsage>
     </profileDesc>
+    <revisionDesc>
+      <listchange>
+        <change xml:id="FINALDRAFT">Final version.</change>
+      </listchange>
+    </revisionDesc>
   </teiHeader>
   
   <text xml:lang="ar">
@@ -117,13 +124,11 @@
             <biblScope unit="page">صفحة ٢</biblScope></bibl></head> 
         <head><title>الحوادث الداخلية</title></head>    <p>مما لا يخفى ان وقوع ال<rs type="حريق">حريق</rs> فى مصر المحروسة قليل وانه اذا ظهر يبادر الى
           اطفائه من غير تاخير غير انه والعياذ بالله اذا وقع فى جهة بعيدة يخشى من سرايته وانتشاره الى
-          الاطراف قبل ان يصل الخبر الى <orgName type="الضابطخانه" ref="الضابطخانه"
-            >الضابطخانه</orgName> فستصوب ان يرتب سبع طلمبات زيادة على الاربع الموجودة فى الضابطخانة
+          الاطراف قبل ان يصل الخبر الى <orgName type="الضابطخانه" ref="الضابطخانه">الضابطخانه</orgName> فستصوب ان يرتب سبع طلمبات زيادة على الاربع الموجودة فى الضابطخانة
           رعاية للحزم والاحتياط وان يخصص مركزا لها سبعة اماكن من <orgName type="باش_قرقولات">الباش
             قرقولات</orgName> الموجودة فى المحروسة و<placeName ref="بولاق">بولاق</placeName>
             و<placeName ref="مصر-العتيه">مصر العتيه</placeName>لتوضع فيها حتى اذا وقع حريق فى محل
-          قريب منها يبادر الى اطفائه بالطلومبة الموجودة فى <orgName type="قره-قول"
-          >القرقول</orgName>وان يعين لكل من هذه الطلومبات السبع التى يراد زيادتها واحد من رجال
+          قريب منها يبادر الى اطفائه بالطلومبة الموجودة فى <orgName type="قره-قول">القرقول</orgName>وان يعين لكل من هذه الطلومبات السبع التى يراد زيادتها واحد من رجال
           الجهادية التسعة الكائنين بالضابطخانه الذين اكتسبوا المهارة فى صنعة الطلومبة ويرقى الى رتبة
           الاونباشى وان ينصب من كان فائقا من الاستاذين اللذين فى الضابطخانة ملاحظا عليهم بحيث اذا
           وقع نقص من هؤلاء المستجدين فى اجرآء الصنعة المذكورة يوقفهم عليه كما ينبغى ويضم الى شهريته

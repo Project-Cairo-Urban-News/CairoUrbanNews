@@ -1,130 +1,128 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="../../css/oxygen.css"?>
-<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities Project</title>
-            <editor xml:id="eNK">Nour Kanaan</editor>
-            <editor xml:id="eAM">Adam Mestyan</editor>
-            <editor xml:id="eDY">Danah Younis</editor>
-            <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
-            <editor xml:id="eAE">Arif Erbil</editor>
-            <editor xml:id="eAK">Ahmed Kamal</editor>
-            <editor xml:id="eAS">Abram Smith</editor>
-            <editor xml:id="eCH">Clara Harms</editor>
-            <editor xml:id="eHS">Hüseyin Sağlam</editor>
-            <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
-            <editor xml:id="eHL">Hiba Laabadli</editor>
-            <editor xml:id="eOE">Othmane Echchabi</editor>
-            <editor xml:id="eFA">Fatemah Almahana</editor>
-            <respStmt>
-               <resp>Advisor</resp>
-               <name>Hugh Cayless</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Adam Mestyan</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Mercedes Volait</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Sarah Fath Allah</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Karima Nasr</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Rezk Nory</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Arif Erbil</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Ahmed Kamal</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Abram Smith</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Clara Harms</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Hüseyin Sağlam</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Abdulrahman El-Taliawi</name>
-            </respStmt>
-            <sponsor>
-               <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
-          <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
-          Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-          Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>. 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="css/oxygen.css"?><?xml-model href="schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
+          Project</title>
+        <editor xml:id="eNK">Nour Kanaan</editor>
+        <editor xml:id="eAM">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
+        <editor xml:id="eAE">Arif Erbil</editor>
+        <editor xml:id="eAK">Ahmed Kamal</editor>
+        <editor xml:id="eAS">Abram Smith</editor>
+        <editor xml:id="eCH">Clara Harms</editor>
+        <editor xml:id="eHS">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+        <editor xml:id="eHL">Hiba Laabadli</editor>
+        <editor xml:id="eOE">Othmane Echchabi</editor>
+        <editor xml:id="eFA">Fatemah Almahana</editor>
+        <respStmt>
+          <resp>Advisor</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Mercedes Volait</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Sarah Fathallah Garaa</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Karima Nasr</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Rezk Nory</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Arif Erbil</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Ahmed Kamal</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abram Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Clara Harms</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hüseyin Sağlam</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abdulrahman El-Taliawi</name>
+        </respStmt>
+        <sponsor>
+          <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
+            <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+            Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>.
         </sponsor>
-         </titleStmt>
-         <publicationStmt>
-            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
+      </titleStmt>
+      <publicationStmt>
+        <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
           du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-            <p>
-               <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
-            </p>
-            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>
-            </p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
-            <p>born digital document</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <projectDesc>
-            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
+        <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+        <p>born digital document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-         </projectDesc>
-         <editorialDecl>
-            <p>Rules of TEI XML MarkUp in This Project</p>
-            <p>We use the Arabic script but transliteration into Latin characters follows the Library of
-          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
-            <p>Each individual article has an individual xml:id number starting with "w1"</p>
-            <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
-            <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
-            <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+      </projectDesc>
+      <editorialDecl>
+        <p>Rules of TEI XML MarkUp in This Project</p>
+        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
+        <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
+        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
           Editions</ref>.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="ar">Arabic</language>
-            <language ident="en">English</language>
-            <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
-            <language ident="ota">Ottoman</language>
-         </langUsage>
-      </profileDesc>
-   </teiHeader>
-   <text xml:lang="ar">
+        
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+        <language ident="ota">Ottoman</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <listchange>
+        <change xml:id="FINALDRAFT">Final version.</change>
+      </listchange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="ar">
       <body>
          <div resp="#eHL" xml:id="w100">
-            <head><date when="1295-01-09">٩ محرم الحرام سنة ١٢٩٥هـ</date> الموافق <date
-                  when="1878-01-13">١٣ يناير الأفرنجي سنة ١٨٧٨م</date><bibl><biblScope unit="issue"
-                     >نمرة الوقائع ٧٤٣</biblScope>
+            <head><date when="1295-01-09">٩ محرم الحرام سنة ١٢٩٥هـ</date> الموافق <date when="1878-01-13">١٣ يناير الأفرنجي سنة ١٨٧٨م</date><bibl><biblScope unit="issue">نمرة الوقائع ٧٤٣</biblScope>
                   <biblScope unit="page">ص٣</biblScope></bibl></head>
             <p>تابع ما ورد من <orgName type=" ديوان" ref=" ديوان-الحقانية">ديوان
-               الحقانية</orgName>عن أسماء العزب التابعة <orgName type="محكمة"
-                  ref="محكمة-القناطر-الخيرية">لمحكمة القناطر الخيرية</orgName></p>
+               الحقانية</orgName>عن أسماء العزب التابعة <orgName type="محكمة" ref="محكمة-القناطر-الخيرية">لمحكمة القناطر الخيرية</orgName></p>
             <table>
                <row>
                   <cell>
@@ -155,9 +153,7 @@
             </table>
          </div>
          <div resp="#eHL" xml:id="w101">
-            <head><date when="1295-02-29">الاحد ٢٩ صفر سنة ١٢٩٥هـ</date> الموافق <date
-                  when="1878-03-03">٣ مارث الأفرنجي سنة ١٨٧٨م</date><bibl><biblScope unit="issue"
-                     >نمرة الوقائع ٧٥٠</biblScope>
+            <head><date when="1295-02-29">الاحد ٢٩ صفر سنة ١٢٩٥هـ</date> الموافق <date when="1878-03-03">٣ مارث الأفرنجي سنة ١٨٧٨م</date><bibl><biblScope unit="issue">نمرة الوقائع ٧٥٠</biblScope>
                   <biblScope unit="page">ص٤</biblScope></bibl></head>
             <head>اعلانات</head>
             <head>نص اعلان وارد من <orgName type="ديوان" ref="ديوان-الأوقاف">ديوان الأوقاف</orgName>
@@ -196,8 +192,7 @@
                </row>
                <row>
                   <cell>١</cell>
-                  <cell>أرض جنينة كائنة خارج <placeName>الحسينية</placeName> ب<placeName type="سكة"
-                        >سكة العباسية</placeName> بجهة الظاهر وقف أحمد أغا ميلاده ومقدار مسطحها
+                  <cell>أرض جنينة كائنة خارج <placeName>الحسينية</placeName> ب<placeName type="سكة">سكة العباسية</placeName> بجهة الظاهر وقف أحمد أغا ميلاده ومقدار مسطحها
                      ١٨٧٥٩ ذراع عبارة عن فدانين وكسور مقتضى خروجها بالأستبدال مع ما فيها من الأشجار
                      والألات فكل من يرغب لأخذها بطريق الأستبدال فمن بعد معاينته اياها يتوجه بطرف
                      رئيس دلالين العقارات ويضع مزاده بما يرغبه بقايمة المزاد وتحدد لنهو ذلك واحد
@@ -224,8 +219,7 @@
             </table>
          </div>
          <div resp="#eHL" xml:id="w102">
-            <head><date when="1295-02-27">الاحد ٢٧ ربيع الأول سنة ١٢٩٥هـ</date> الموافق <date
-                  when="1878-03-31">٣١ مارث الأفرنجي سنة ١٨٧٨م</date>
+            <head><date when="1295-02-27">الاحد ٢٧ ربيع الأول سنة ١٢٩٥هـ</date> الموافق <date when="1878-03-31">٣١ مارث الأفرنجي سنة ١٨٧٨م</date>
                <bibl><biblScope unit="issue">نمرة الوقائع ٧٥٤</biblScope>
                   <biblScope unit="page">ص٤</biblScope>
                </bibl></head>
@@ -257,8 +251,7 @@
                ومحمد توفيق ومحمد شاكر ومصطفي ونبيهه ومحمد وتفيدة وحبيبة ومحمد سعيد وتوفى محمد القاصر
                عن والدته الست حسن شاه وشقيقته تفيدة واخوانه لوالده المذكورين المشمولين كامل الورثة
                توكيل اسماعيل بك أباظة ولوجه ما تنوه عن ضياع حجة الحصة البادي الذكر عنها اخطأت
-               التحريرات المقتضية بمخابرة جهات الأقتضاء وكتب ل<orgName type="مديرية"
-                  ref="مديرية-الشرقية">مديرية الشرقية</orgName> باجراء اللازم للاستحصال على الضمانة
+               التحريرات المقتضية بمخابرة جهات الأقتضاء وكتب ل<orgName type="مديرية" ref="مديرية-الشرقية">مديرية الشرقية</orgName> باجراء اللازم للاستحصال على الضمانة
                ممن يفتمد بها ووردت منها الأفادة رقيم ١٧ الجاري نمرة ١٨ ومعها ضمانة بامضاء واختام من
                كل اسماعيل بك أباظة والضامن اليه <persName type="عمدة">محمد صابر عمدة
                   شرويدة</persName> وبتاريخه يحرر ل<orgName type="محكمة" ref="محكمة-مصر">محكمة
@@ -268,24 +261,20 @@
                نحو ما هو حسب الجاري.</p>
          </div>
          <div resp="#eHL" xml:id="w103">
-            <head><date when="1295-04-11">الاحد ١١ ربيع الثاني سنة ١٢٩٥ه</date>ـ الموافق <date
-                  when="1878-04-14">١٤ أبريل الأفرنجي سنة ١٨٧٨م</date>
+            <head><date when="1295-04-11">الاحد ١١ ربيع الثاني سنة ١٢٩٥ه</date>ـ الموافق <date when="1878-04-14">١٤ أبريل الأفرنجي سنة ١٨٧٨م</date>
                <bibl><biblScope unit="issue">نمرة الوقائع ٧٥٦</biblScope>
                   <biblScope unit="page">ص١</biblScope></bibl></head>
             <p>في يوم الاثنين الماضي ثامن هذا الشهر الافرنكي توجه بالهيئة الرسمية الى سراية عابدين
                العالية جناب <sic>مسيو (دراجوميس)</sic> الذي تعين من دولة اليونان للقنصلية الجنرالية
                في مصر المحمية وبعد ان تلاقي مع الحضرة الفخيمة الخديوية وقدم الاوراق الرسمية الموذنة
                باعتماده وأطلقت المدافع حسب المعتاد ركب العربية المزخرفة الذي خصصت لركوبه وامامه
-               الجاوشية الخيالة حتى عاد الى محله وكان حاضرا في رسم الملاقاة حضرتا دولتلو <persName
-                  type=" ناظر-الداخلية">محمد توفيق باشا ناظر الداخلية</persName> وحضر دولتلو
+               الجاوشية الخيالة حتى عاد الى محله وكان حاضرا في رسم الملاقاة حضرتا دولتلو <persName type=" ناظر-الداخلية">محمد توفيق باشا ناظر الداخلية</persName> وحضر دولتلو
                   <persName type=" ناظر-المالية">حسين كامل باشا ناظر المالية</persName> وبعض حضرات
                الذوات الفخام.</p>
          </div>
          <div resp="#eHL" xml:id="w104">
             <head>
-               <date when="1295-04-18">الاحد ١٨ ربيع الثاني سنة ١٢٩٥هـ</date> الموافق <date
-                  when="1878-04-21">٢١ أبريل الأفرنجي سنة ١٨٧٨م</date><bibl><biblScope unit="issue"
-                     >نمرة الوقائع ٧٥٧</biblScope>
+               <date when="1295-04-18">الاحد ١٨ ربيع الثاني سنة ١٢٩٥هـ</date> الموافق <date when="1878-04-21">٢١ أبريل الأفرنجي سنة ١٨٧٨م</date><bibl><biblScope unit="issue">نمرة الوقائع ٧٥٧</biblScope>
                   <biblScope unit="issue">ص٤</biblScope></bibl></head>
             <head>نص اعلان</head>
             <p>مصبغة ومغارتين ب<placeName type="شارع">شارع اللبودية</placeName> مطلعين على الخليج
@@ -296,9 +285,7 @@
                يسأل عن الجميع من الخواجة نيشان قلفياه بالسكة الجديدة .</p>
          </div>
          <div resp="#eHL" xml:id="w105">
-            <head><date when="1295-04-25">الاحد ٢٥ ربيع الثاني سنة ١٢٩٥هـ</date> الموافق <date
-                  when="1878-04-28">٢٨ أبريل الأفرنجي سنة ١٨٧٨م</date><bibl><biblScope unit="issue"
-                     >نمرة الوقائع ٧٥٨</biblScope>
+            <head><date when="1295-04-25">الاحد ٢٥ ربيع الثاني سنة ١٢٩٥هـ</date> الموافق <date when="1878-04-28">٢٨ أبريل الأفرنجي سنة ١٨٧٨م</date><bibl><biblScope unit="issue">نمرة الوقائع ٧٥٨</biblScope>
                   <biblScope unit="page">ص٤</biblScope></bibl></head>
             <head>(اعلانات)</head>
             <head>نص اعلان وارد من <orgName type="محافظة" ref="محافظة-مصر">محافظة مصر</orgName>
@@ -307,8 +294,7 @@
                والدها منزل كائن ب<placeName type="قلعة">قلعة الكبش</placeName> يثمن الخليفة وحجته
                ضايعة ولما ان حصل التحري بمخابرة <orgName type="بيت-المال" ref="بيت-المال-مصر">بيت
                   المال مصر</orgName> و<orgName type="ديوان" ref="ديوان-الاوقاف">ديوان
-                  الاوقاف</orgName> والمحكمة وردت الأفادات وأخيرا من <orgName type=" محكمة "
-                  ref=" محكمة-مصر">محكمة مصر</orgName> رقيم ١٣ الجاري نمرة ٣٨ عرض حالات بايضاح ما
+                  الاوقاف</orgName> والمحكمة وردت الأفادات وأخيرا من <orgName type=" محكمة " ref=" محكمة-مصر">محكمة مصر</orgName> رقيم ١٣ الجاري نمرة ٣٨ عرض حالات بايضاح ما
                صار اجراه التي من ضمنها انه تعين <persName type="كاتب-محكمة">الشيخ على حسين النكلاوي
                   أحد كتاب المحكمة</persName> لاجراء التحقيق وتوضح منه بانه تحقق لديه ملكية المصونة
                بنت المدعوة ذنوبة بنت المرحوم <persName type="خياط">على أغا عبد الرحمن
@@ -326,23 +312,15 @@
                للاجراء حسب ما ذكر </p>
          </div>
          <div resp="#eHL" xml:id="w106">
-            <head><date when="1295-05-24">الاحد ٢٤ جمادي الأولى سنة ١٢٩٥هـ</date> الموافق <date
-                  when="1878-05-26">٢٦ مايه الأفرنجي سنة ١٨٧٨م</date><bibl><biblScope unit="issue"
-                     >نمرة الوقائع ٧٦٢</biblScope>
+            <head><date when="1295-05-24">الاحد ٢٤ جمادي الأولى سنة ١٢٩٥هـ</date> الموافق <date when="1878-05-26">٢٦ مايه الأفرنجي سنة ١٨٧٨م</date><bibl><biblScope unit="issue">نمرة الوقائع ٧٦٢</biblScope>
                   <biblScope unit="page">ص٣</biblScope></bibl></head>
             <head>نص اعلان وارد من <orgName type="محافظة" ref="محافظة-مصر">محافظة مصر</orgName>
                   بتاريخ<date when="1295-05-17">١٧ جا سنة ٩٥</date></head>
             <p>قد عرض على للديوان من شخص يسمى المغربي بان والده <persName>محمد المغربي</persName>
-               توفى عنه وعن اخيه وعن محمد زوجته فطومة وانه مخلف عنه منزل كائن ب<placeName type="درب"
-                  >درب اليازدى</placeName>المعروف ب<placeName type="درب">درب البرابرة</placeName>
+               توفى عنه وعن اخيه وعن محمد زوجته فطومة وانه مخلف عنه منزل كائن ب<placeName type="درب">درب اليازدى</placeName>المعروف ب<placeName type="درب">درب البرابرة</placeName>
                   ب<placeName type="خط">خط السبتية</placeName> ب<placeName>بولاق</placeName> وأما
-               أخوه وزوجته والده المذكورين حرروا حجة ايلوله بما خصهم من <orgName type="محكمة "
-                  ref="محكمة-مصر">محكمة مصر</orgName> وحجرة المنزل الأصلية محررة من <orgName
-                  type="محكمة" ref="محكمة-الأسكندرية">محكمة الأسكندرية</orgName> وضايعه ويلتمس تحرير
-               حجه ايلوله بما يخصه وبالتحري عن ذلك بمخابرة <orgName type="محافظة"
-                  ref="محافظة-الاسكندرية">محافظة الاسكندرية</orgName> و<orgName type="بيت-مال"
-                  ref="بيت-مال-مصر">بيت مال مصر</orgName> و<orgName type="ديوان" ref="ديوان-الاوقاف"
-                  >ديوان الاوقاف</orgName> والمحكمة وردت الأفادات التي من ضمنهم توري محكمة مصر بانه
+               أخوه وزوجته والده المذكورين حرروا حجة ايلوله بما خصهم من <orgName type="محكمة " ref="محكمة-مصر">محكمة مصر</orgName> وحجرة المنزل الأصلية محررة من <orgName type="محكمة" ref="محكمة-الأسكندرية">محكمة الأسكندرية</orgName> وضايعه ويلتمس تحرير
+               حجه ايلوله بما يخصه وبالتحري عن ذلك بمخابرة <orgName type="محافظة" ref="محافظة-الاسكندرية">محافظة الاسكندرية</orgName> و<orgName type="بيت-مال" ref="بيت-مال-مصر">بيت مال مصر</orgName> و<orgName type="ديوان" ref="ديوان-الاوقاف">ديوان الاوقاف</orgName> والمحكمة وردت الأفادات التي من ضمنهم توري محكمة مصر بانه
                جرى التحقيق اللازم بمعرفة <persName type="نايب-محكمة">الشيخ محمد عبد الخالق نايب
                   محكمة بولاق</persName> والشيخ <persName type=" كاتب-المحكمة">محمد الزرقاني كاتب
                   المحكمة</persName> المذكورة والمذكورين أوردوا بانه تحقق لديهم جريان الحصة التي
@@ -351,8 +329,7 @@
                آل ذلك إليه بالأرث من قبل والده المرحوم<persName>الحاج على المغربي</persName> المتوفى
                قبل تاريخه وعن زوجته وولديه محمد المغربي وعلى المغربي وكان من المخلف عنه كامل المكان
                المذكور وانه تحرر للحورمة فطومة الزوجة محمد الأبن المذكورين حجه ايلوله بما يخصهما
-               لباقي وما أوضحوه ولوجه ما أفيد أخيرا من <orgName type="محافظة" ref="محافظة-اسكندرية"
-                  >محافظة اسكندرية</orgName> رقيم ٢٢ را سنة ٩٥ نمرة ٣٤ بما عطيت به الأفادة من
+               لباقي وما أوضحوه ولوجه ما أفيد أخيرا من <orgName type="محافظة" ref="محافظة-اسكندرية">محافظة اسكندرية</orgName> رقيم ٢٢ را سنة ٩٥ نمرة ٣٤ بما عطيت به الأفادة من
                   <orgName type="محكمة" ref="محكمة-الاسكندرية">محكمة الاسكندرية</orgName> بانه صار
                الكشف من السجلات ولم يوجد فاشير يدل على انتقال البيت المذكور لاحد وما تقدمت به
                الضمانة بامضا واختام كل من على المغربي المذكور والضامن اليه <persName>على مصطفى
@@ -379,8 +356,7 @@
                   سنقر</placeName> وستة قراريط من الجدك الموضوع به وان الحجة الشاهدة بالتمليك ضايعة
                وبحصول التحري بمخابرة <orgName type=" بيت-مال " ref=" بيت-مال-مصر">بيت مال
                   مصر</orgName> والمحكمة و<orgName type="ديوان" ref="ديوان-الأوقاف">ديوان
-                  الأوقاف</orgName> وردت الأفادات وأخيرا من <orgName type=" محكمة" ref=" محكمة-مصر"
-                  >محكمة مصر</orgName> رقيم ١١ الجاري نمرة ٥١ عرض حالات بأنه تأشير من مقيدين السجلات
+                  الأوقاف</orgName> وردت الأفادات وأخيرا من <orgName type=" محكمة" ref=" محكمة-مصر">محكمة مصر</orgName> رقيم ١١ الجاري نمرة ٥١ عرض حالات بأنه تأشير من مقيدين السجلات
                بما يفيد حصول الكشف والتسلسل وانه تعيين <persName type="كاتب-محكمة">الشيخ على حسين
                   النكلاوي أحد كتاب المحكمة</persName> وان ما اجراه أوضح عنه بمناظرة ما ذكر تبين ان
                مقيدين السجلات من تاريخ الحجة المقال بانها اضايعه للان فلا كان يتضح خروج شئ من حصة
@@ -408,8 +384,7 @@
                واقتضى تحريره للنشر حسب ما توضح </p>
          </div>
          <div resp="#eHL" xml:id="w108">
-            <head><date when="1295-06-01">الاحد غرة جمادي الثانى سنة ١٢٩٥هـ</date> الموافق <date
-                  when="1878-06-02">٢ يونيه الأفرنجي سنة ١٨٧٨م</date>
+            <head><date when="1295-06-01">الاحد غرة جمادي الثانى سنة ١٢٩٥هـ</date> الموافق <date when="1878-06-02">٢ يونيه الأفرنجي سنة ١٨٧٨م</date>
                <bibl><biblScope unit="issue">نمرة الوقائع ٧٦٣</biblScope>
                   <biblScope unit="page">ص٤</biblScope></bibl></head>
             <head>نص اعلان وارد من <orgName type="محافظة" ref="محافظة-مصر">محافظة مصر</orgName>
@@ -422,8 +397,7 @@
                ووردت الافادات بما صار اجراه من التحريات والتحقيقات التي بالتحري عنها إلي المحكمة
                والايضاح عن مراجعة وتسلسل الكشف من السجلات من تاريخ الحجة المقال بانها ضايعة للآن مع
                اجرى ما تقتضيه الاصول الشرعية والتحديد والمقاس أخيرا وردت افادة المحكمة رقيم ٢٦ جا
-               سنة ٩٥ نمرة ٥٩ بانه تأشر من مقيدين السجلات وانه تعين <persName type="كاتب-محكمة"
-                  >الشيخ أحمد السيوفي أحد كتاب المحكمة</persName> وأن ما أجراه أوضح وحيث أن مقييجين
+               سنة ٩٥ نمرة ٥٩ بانه تأشر من مقيدين السجلات وانه تعين <persName type="كاتب-محكمة">الشيخ أحمد السيوفي أحد كتاب المحكمة</persName> وأن ما أجراه أوضح وحيث أن مقييجين
                السجلات أورد واباته لاحاجة للتسلسل اذان ذلك قيمة وقوع التأشيرات على السجلات ةان مقاس
                ذلك مقيد بالحجة الضايعة و<persName>الشيخ أحمد السيوفي</persName> أوري بانه تحقق لديه
                ان المرحوم <persName>سليمان عبد الله</persName> توفا عن زوجنه الحرمة <persName>أم
@@ -439,11 +413,9 @@
                الضمانة وباقي الأوراق ولزم تحرير للنشر حسب ماذكر.</p>
          </div>
          <div resp="#eHL" xml:id="w109">
-            <head><date when="1295-06-15">الأحد ١٥ جمادي الثاني سنة ١٢٩٥ه</date> الموافق <date
-                  when="1878-06-16">١٦ يونيه الأفرنجي سنة ١٨٧٨م</date>
+            <head><date when="1295-06-15">الأحد ١٥ جمادي الثاني سنة ١٢٩٥ه</date> الموافق <date when="1878-06-16">١٦ يونيه الأفرنجي سنة ١٨٧٨م</date>
                <bibl><biblScope unit="issue">نمرة الوقائع ٧٦٥</biblScope>
-                  <biblScope unit="page">ص٣</biblScope> + <biblScope unit="page"
-                  >ص٤</biblScope></bibl></head>
+                  <biblScope unit="page">ص٣</biblScope> + <biblScope unit="page">ص٤</biblScope></bibl></head>
             <head>اعلانات</head>
             <head>نص أعلان وارد من <orgName type="محافظة" ref="محافظة-مصر">محافظة مصر</orgName>
                بتاريخ <date when="1295-06-07">٧ جمادي الثاني سنة ٩٥</date></head>
@@ -462,8 +434,7 @@
                لديه ملكية الحرمة زهرة بنت المرحوم ابراهيم والحرمة عائشة بنت محمد أغا ومحمود بدران
                ابن المرحوم حسن لكامل المكان والحانوتين بواجهته المخرجين من منافعه الكائنة
                   ب<placeName type="خط">خط الازبكية</placeName> ب<placeName type="شارع">الشارع قريبا
-                  من سيدي محمد البيدق</placeName> وكامل المكان والحانوتين سفله الكائن ب<placeName
-                  type="شارع">شارع كلوب بك</placeName> وكامل المكان وبيت القهوه بواجهته الكائن خارج
+                  من سيدي محمد البيدق</placeName> وكامل المكان والحانوتين سفله الكائن ب<placeName type="شارع">شارع كلوب بك</placeName> وكامل المكان وبيت القهوه بواجهته الكائن خارج
                   <placeName type="باب">باب زويلة</placeName> والخرق بالطريق الموصل إلي الخليج
                الحاكمي وإلى حارة المرحوم عبدين بك ب<placeName type="خط">خط حمام الزمرد</placeName>
                والحصة التي قدرها واحد وعشرين قيراط في كامل المكان الكائن ب<placeName type="خط">خط
@@ -481,32 +452,26 @@
                ما هو لازم.</p>
          </div>
          <div resp="#eHL" xml:id="w110">
-            <head><date when="1295-06-22">الأحد ٢٢ جمادي الثاني سنة ١٢٩٥ه</date>الموافق <date
-                  when="1878-06-23">٢٣ يونيه الأفرنجي سنة ١٨٧٨م</date>
+            <head><date when="1295-06-22">الأحد ٢٢ جمادي الثاني سنة ١٢٩٥ه</date>الموافق <date when="1878-06-23">٢٣ يونيه الأفرنجي سنة ١٨٧٨م</date>
                <bibl><biblScope unit="issue">نمرة الوقائع ٧٦٦</biblScope>
                   <biblScope unit="page">ص٤</biblScope></bibl></head>
             <head>اعلانات</head>
             <head>نص اعلان وارد من <orgName type="محافظة " ref="المحافظة-المصرية">المحافظة
                   المصرية</orgName></head>
             <p>حيث جاري اشهار مزاد استئجار محل القهوه العربي الكائن ب<placeName type="جنينة">جنينة
-                  الأزبكية</placeName> فتحدد ميعاد لحضور الراغبين خمسة عشر يومًا ابتداها يوم <date
-                  when="1295-06-11">١١ جماد آخر سنة ٩٥</date> الموافق <date when="1878-06-12">١٢
+                  الأزبكية</placeName> فتحدد ميعاد لحضور الراغبين خمسة عشر يومًا ابتداها يوم <date when="1295-06-11">١١ جماد آخر سنة ٩٥</date> الموافق <date when="1878-06-12">١٢
                   يونيه سنة ٧٨</date> وغايتها <date when="1295-06-26">٢٦ جمادي آخر سنه ٩٥</date>
-               الموافق <date when="1878-06-27">٢٧ يونيه ٧٨</date>فكل من له رغبة يتوجه ب<placeName
-                  type="جنينة">جنينة الازبكية</placeName> وبعد معاينة المحل وشروط التأجير ويعطي
+               الموافق <date when="1878-06-27">٢٧ يونيه ٧٨</date>فكل من له رغبة يتوجه ب<placeName type="جنينة">جنينة الازبكية</placeName> وبعد معاينة المحل وشروط التأجير ويعطي
                العطا اللازم بما يرغب ومن يتأخر عن الحضور بالميعاد فلا يقبل مزاده.</p>
          </div>
          <div resp="#eHL" xml:id="w111">
-            <head><date when="1295-06-29">الأحد ٢٩ جمادي الثاني سنة ١٢٩٥ه</date> الموافق <date
-                  when="1878-06-30">٣٠ يونيه الأفرنجي سنة ١٨٧٨م</date><bibl><biblScope unit="issue"
-                     >نمرة الوقائع ٧٦٧</biblScope>
+            <head><date when="1295-06-29">الأحد ٢٩ جمادي الثاني سنة ١٢٩٥ه</date> الموافق <date when="1878-06-30">٣٠ يونيه الأفرنجي سنة ١٨٧٨م</date><bibl><biblScope unit="issue">نمرة الوقائع ٧٦٧</biblScope>
                   <biblScope unit="page">ص٤</biblScope></bibl></head>
             <head>اعلانات</head>
             <head>صورة أمر من <orgName type="ديوان " ref="ديوان-الداخلية">ديوان الداخلية</orgName>
                بتاريخ <date when="1295-06-28">٢٨ جمادي الثانية سنة١٢٩٥</date></head>
             <p>بناء على ما ورد للداخلية من <orgName type="ديوان" ref="ديوان-الاشغال-العمومية">ديوان
-                  الاشغال العمومية</orgName> نمرة ٩٧ من انه لمناسبة كون <orgName type="مصلحة "
-                  ref="مصلحة-القناطر-الخيرية">مصلحة القناطر الخيرية</orgName> باشرت اجراء العملية
+                  الاشغال العمومية</orgName> نمرة ٩٧ من انه لمناسبة كون <orgName type="مصلحة " ref="مصلحة-القناطر-الخيرية">مصلحة القناطر الخيرية</orgName> باشرت اجراء العملية
                المطلوب اجرائها بها ويس نمرة ١ من <placeName>بحر الغرب</placeName> الذي ببر الجزيرة
                وسيجرى تركيب تياردو على <placeName>حوض هاويس</placeName> بحر الغرب ويلزم منع مرور
                المراكب مدة خمسة عشر يوما لحين نهو العملية من ابتداء ٧ يوليو القابل قد تحرر للجهات
@@ -566,13 +531,10 @@
             <p>قد عرض لهذا الطرف من الحرمة ستسيته بأن زوجها المرحوم <persName type="مهندس">عبد
                   الغفور أفندي المهندس</persName> يمتلك منزل كائن ب<placeName type="درب">درب
                   العسالة</placeName> ب<placeName>بولاق</placeName> وانه موجود حجة تشهد اليه بتمليكه
-               اثنين وعشرين قيراط وان القيراطين حجتهم ليست موجودة وبالتحري بالمخابرة <orgName
-                  type=" بيت-مال " ref=" بيت-مال-مصر">بيت مال مصر</orgName> و<orgName type="ديوان "
-                  ref="ديوان-الاوقاف">ديوان الاوقاف</orgName> والمحكمة وردت الافادات بوضاحة ما صار
+               اثنين وعشرين قيراط وان القيراطين حجتهم ليست موجودة وبالتحري بالمخابرة <orgName type=" بيت-مال " ref=" بيت-مال-مصر">بيت مال مصر</orgName> و<orgName type="ديوان " ref="ديوان-الاوقاف">ديوان الاوقاف</orgName> والمحكمة وردت الافادات بوضاحة ما صار
                اجراء من التحريات والتحقيقات الذي بالتحري عنها الى المحكمة والايضاح عن اجراء ما
                تقتضيه الأصول الشرعية والتحديد والمقاس فيما وردت به افادة المحكمة رقيم ٤ الجاري نمرة
-               ٦٤ عرض حالات توضح بانه جرى التحقيق اللازم عن ذلك بمعرفة نائب محكمة بولاق و<persName
-                  type="كاتب-محكمة">الشيخ محمد الزرقاني كاتب المحكمة</persName> تحقق جريان الحصة
+               ٦٤ عرض حالات توضح بانه جرى التحقيق اللازم عن ذلك بمعرفة نائب محكمة بولاق و<persName type="كاتب-محكمة">الشيخ محمد الزرقاني كاتب المحكمة</persName> تحقق جريان الحصة
                التي قدرها قيراطين شايعة في كامل بناء لمكان الكائن ب<placeName type="درب">درب
                   العسالة</placeName> في تلك الحرمة <persName>ستيتة بنت المرحوم أحمد محمد
                   الحريري</persName> وولدها <persName>محمد المراهني</persName> ابن المرحوم عبد
@@ -583,8 +545,7 @@
                   <persName type="رئيس-الخشابة">سليم البراد رئيس الخشابة</persName> وما معها بان
                الضامن المذكور معتمد ومقتدر وكفوا لهذه الضمانة وان ضمانه في ذلك عليه ضمان حضور وغروم
                وتأشير من الضبطية على نفس الضمانة بأن ختم السيد <persName>سليم البراد</persName>
-               المبصوم بها مضاهي للوارد سجل الضبطية في تاريخه تحرر ل<orgName type="محكمة"
-                  ref="محكمة-مصر">محكمة مصر</orgName> بما لزم عن ذلك واقتضي تحريره ليتنبه بالنشر عن
+               المبصوم بها مضاهي للوارد سجل الضبطية في تاريخه تحرر ل<orgName type="محكمة" ref="محكمة-مصر">محكمة مصر</orgName> بما لزم عن ذلك واقتضي تحريره ليتنبه بالنشر عن
                ما ذكر بالجرانيل وتحدد معاد واحد وثلاثون يوما وتنوه بما تحرره للمحكمة على انه بانتهاء
                الميعاد المحدد اذا كان لا يتضح وجود معارض أو منازع في ذلك فيجري ما تقتضي في تحرير حجه
                بدل الغير موجود حسب الجاري.</p>
