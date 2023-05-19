@@ -1,125 +1,125 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="../../css/oxygen.css"?>
-<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities Project</title>
-            <editor xml:id="eNK">Nour Kanaan</editor>
-            <editor xml:id="eAM">Adam Mestyan</editor>
-            <editor xml:id="eDY">Danah Younis</editor>
-            <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
-            <editor xml:id="eAE">Arif Erbil</editor>
-            <editor xml:id="eAK">Ahmed Kamal</editor>
-            <editor xml:id="eAS">Abram Smith</editor>
-            <editor xml:id="eCH">Clara Harms</editor>
-            <editor xml:id="eHS">Hüseyin Sağlam</editor>
-            <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
-            <editor xml:id="eHL">Hiba Laabadli</editor>
-            <editor xml:id="eOE">Othmane Echchabi</editor>
-            <editor xml:id="eFA">Fatemah Almahana</editor>
-            <respStmt>
-               <resp>Advisor</resp>
-               <name>Hugh Cayless</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Adam Mestyan</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Mercedes Volait</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Sarah Fath Allah</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Karima Nasr</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Rezk Nory</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Arif Erbil</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Ahmed Kamal</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Abram Smith</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Clara Harms</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Hüseyin Sağlam</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Abdulrahman El-Taliawi</name>
-            </respStmt>
-            <sponsor>
-               <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
-          <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
-          Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-          Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>. 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="css/oxygen.css"?><?xml-model href="schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
+          Project</title>
+        <editor xml:id="eNK">Nour Kanaan</editor>
+        <editor xml:id="eAM">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
+        <editor xml:id="eAE">Arif Erbil</editor>
+        <editor xml:id="eAK">Ahmed Kamal</editor>
+        <editor xml:id="eAS">Abram Smith</editor>
+        <editor xml:id="eCH">Clara Harms</editor>
+        <editor xml:id="eHS">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+        <editor xml:id="eHL">Hiba Laabadli</editor>
+        <editor xml:id="eOE">Othmane Echchabi</editor>
+        <editor xml:id="eFA">Fatemah Almahana</editor>
+        <respStmt>
+          <resp>Advisor</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Mercedes Volait</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Sarah Fathallah Garaa</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Karima Nasr</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Rezk Nory</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Arif Erbil</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Ahmed Kamal</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abram Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Clara Harms</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hüseyin Sağlam</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abdulrahman El-Taliawi</name>
+        </respStmt>
+        <sponsor>
+          <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
+            <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+            Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>.
         </sponsor>
-         </titleStmt>
-         <publicationStmt>
-            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
+      </titleStmt>
+      <publicationStmt>
+        <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
           du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-            <p>
-               <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
-            </p>
-            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>
-            </p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
-            <p>born digital document</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <projectDesc>
-            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
+        <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+        <p>born digital document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-         </projectDesc>
-         <editorialDecl>
-            <p>Rules of TEI XML MarkUp in This Project</p>
-            <p>We use the Arabic script but transliteration into Latin characters follows the Library of
-          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
-            <p>Each individual article has an individual xml:id number starting with "w1"</p>
-            <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
-            <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
-            <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+      </projectDesc>
+      <editorialDecl>
+        <p>Rules of TEI XML MarkUp in This Project</p>
+        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
+        <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
+        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
           Editions</ref>.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="ar">Arabic</language>
-            <language ident="en">English</language>
-            <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
-            <language ident="ota">Ottoman</language>
-         </langUsage>
-      </profileDesc>
-   </teiHeader>
-   <text xml:lang="ar">
+        
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+        <language ident="ota">Ottoman</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <listchange>
+        <change xml:id="FINALDRAFT">Final version.</change>
+      </listchange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="ar">
       <body>
          <div resp="#eHL" xml:id="w100">
-            <head><date when="1299-02-12">الأحد ١٢ صفر ١٢٩٩هـ</date> الموافق <date when="1882-01-02"
-                  >٢ يناير الأفرنكي سنة ١٨٨٢م</date>
+            <head><date when="1299-02-12">الأحد ١٢ صفر ١٢٩٩هـ</date> الموافق <date when="1882-01-02">٢ يناير الأفرنكي سنة ١٨٨٢م</date>
                <bibl><biblScope unit="issue">نمرة الوقايع ١٢٩٧</biblScope>
                   <biblScope unit="page">ص٣</biblScope></bibl></head>
             <head>نص اعلان وارد من <orgName type="بيت-مال" ref="بيت-مال-مصر">بيت مال
@@ -129,8 +129,7 @@
                حبيش الفتي ابن المرحوم محمد أبو عجوة المتوفي في <date when="1278-04-20">٢٠ ربيع آخر
                   سنة ٧٨</date> من زوجته خضيره وولده محمد البالغ الغايب ووفاة خضره لبزوجة المذكورة
                في <date when="1281-03-07">٧ ربيع أول سنة ٨١</date> عن ولدها محمد حبيش المذكور ولتخرب
-               المنزل المحكي عنه وعدم وجود الغايب المثني عنه لحد الآن قد كتب ل<orgName type="ديوان "
-                  ref="ديوان-الأوقاف">ديوان الأوقاف</orgName> بالكشف عن ايقاف المنزل من عدمه فورد
+               المنزل المحكي عنه وعدم وجود الغايب المثني عنه لحد الآن قد كتب ل<orgName type="ديوان " ref="ديوان-الأوقاف">ديوان الأوقاف</orgName> بالكشف عن ايقاف المنزل من عدمه فورد
                شرح منه وليم  <date when="1298-08-14">١٤ شعبان سنة ٩٨</date> نمرة ٣٤٨ بعدم ايقافه كما
                تحرر ل<orgName type="ديوان" ref="ديوان-الأشغال">ديوان الأشغال</orgName> أيضًا بما لزم
                ووردت الأفادة منه رقيمه <date when="1298-10-26">٢٦ شوال سنة ٩٨</date> نمرة ١١٢ بعدم
@@ -150,8 +149,7 @@
                بالمصلحة </p>
          </div>
          <div resp="#eHL" xml:id="w101">
-            <head><date when="1299-02-13">الثلاثاء ١٣ صفر ١٢٩٩هـ</date> الموافق <date
-                  when="1882-01-03">٣ يناير الأفرنكي سنة ١٨٨٢م</date>
+            <head><date when="1299-02-13">الثلاثاء ١٣ صفر ١٢٩٩هـ</date> الموافق <date when="1882-01-03">٣ يناير الأفرنكي سنة ١٨٨٢م</date>
                <bibl><biblScope unit="issue">نمرة الوقايع ١٢٩٨</biblScope>
                   <biblScope unit="page">ص ٤</biblScope></bibl></head>
             <head>نص اعلان وارد من <orgName type="بيت-مال" ref="بيت-مال-مصر">بيت مال مصر</orgName>
@@ -351,23 +349,20 @@
                المذكور بيومين لاجل اتمام المزاد بيت المال </p>
          </div>
          <div resp="#eHL" xml:id="w102">
-            <head><date when="1299-02-14">الأربعاء ١٤ صفر ١٢٩٩هـ</date> الموافق <date
-                  when="1882-01-04">٤ يناير الأفرنكي سنة ١٨٨٢م</date>
+            <head><date when="1299-02-14">الأربعاء ١٤ صفر ١٢٩٩هـ</date> الموافق <date when="1882-01-04">٤ يناير الأفرنكي سنة ١٨٨٢م</date>
                <bibl><biblScope unit="issue">نمرة الوقايع ١٢٩٩</biblScope>
                   <biblScope unit="page">ص٤</biblScope></bibl></head>
             <head>نص اعلان وارد من نظارة المعارف العمومية</head>
             <p>قطعة أرض تعرف بنمرة ٧ بجهة الأزبكية موقعها جهة شرق على الشارع المستجد بالأراضي
                المباعة من <orgName type="ديوان" ref="ديوان-المعارف">ديوان المعارف</orgName>
-                  ب<placeName type="جهة">جهة الأزبكية</placeName> محصورة بين <placeName type="شارع"
-                  >شارعي محمد على وعبد العزيز</placeName></p>
+                  ب<placeName type="جهة">جهة الأزبكية</placeName> محصورة بين <placeName type="شارع">شارعي محمد على وعبد العزيز</placeName></p>
             <p>وحدود هذه القطعة المذكورة من جهة غرب للقطعة نمرة ٨ ومن الجهة البحرية القطعة نمرة ٢٣
                والقبلية القطعة نمرة ٥ ومسطحها ر٤٧٧ متر </p>
             <p>حيث اقتضى الحال بيع هذه القطعة التي في ملك المكاتب الاهلية المعروفة نمرة ٧ المبين
                حدودها أعلاه التي هي من الأراضي الكائنة ب<placeName type="جهة">جهة
                   الأزبكية</placeName> المحصورة بين شارعي محمد على وعبد العزيز فقد صار عمل قائمة
                مزاد عن القطعة المذكورة وتحدد لها ميعاد لحضور الراغبين مقداره ٣٠ يوما غايتها يوم
-                  <date when="1299-03-02">الاحد الموافق ٢ ربيع الاول سنة ١٢٩٩</date> الموافق <date
-                  when="1882-01-22">٢٢ يناير سنة ٨٢</date> فيقتضى ان كل من له رغبة في مشتراها يحضر
+                  <date when="1299-03-02">الاحد الموافق ٢ ربيع الاول سنة ١٢٩٩</date> الموافق <date when="1882-01-22">٢٢ يناير سنة ٨٢</date> فيقتضى ان كل من له رغبة في مشتراها يحضر
                   ل<orgName type="ديوان" ref="ديوان-المعارف">ديوان المعارف</orgName> ويطلع على قائمة
                المزاد والشروط الواضحة بها ورسمها أيضا وبنهاية الميعاد المذكور حضور الراغبين في يوم
                الأحد المذكور يجري عمل مزاد من الساعة ٤ عربي لغاية الساعة ٧ من اليوم المحكي عنه ويرسي
@@ -378,8 +373,7 @@
             <p>تحريرا في محرم سنة ١٢٩٩</p>
          </div>
          <div resp="#eHL" xml:id="w103">
-            <head><date when="1299-02-15">يوم الخميس ١٥ صفر سنة ١٢٩٩</date> الموافق <date
-                  when="1882-01-05">٥ يناير الافرنكى سنة ١٨٨٢</date>
+            <head><date when="1299-02-15">يوم الخميس ١٥ صفر سنة ١٢٩٩</date> الموافق <date when="1882-01-05">٥ يناير الافرنكى سنة ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٠٠</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head>نص اعلان وارد من نظارة المعارف العموميه (اعلان مكرر)</head>
@@ -401,23 +395,19 @@
             <p>تحريرا في محرم سنة ١٢٩٩</p>
          </div>
          <div resp="#eHL">
-            <head><date when="1299-02-15">يوم الخميس ١٥ صفر سنة ١٢٩٩</date> الموافق <date
-                  when="1882-01-05">٥ يناير الافرنكى سنة ١٨٨٢</date><bibl><biblScope unit="issue">
+            <head><date when="1299-02-15">يوم الخميس ١٥ صفر سنة ١٢٩٩</date> الموافق <date when="1882-01-05">٥ يناير الافرنكى سنة ١٨٨٢</date><bibl><biblScope unit="issue">
                      نمرة ١٣٠٠</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head>نص اعلان وارد من <orgName type="نظارة " ref="نظارة-الاشغال-العمومية">نظارة الاشغال
                   العمومية</orgName></head>
             <p>ان المزاد داخل مظاريف مغلوقة فى مقاولة صناعة مكادام فى الشوارع المحصورة ما بين السد و
-                  <placeName>ميدان محمد على</placeName> الذى صار طرحه فى يوم <date when="1881-12-29"
-                  >٢٩ دسمبر سنة ١٨٨١</date> ب<orgName type="نظارة" ref="نظارة-الاشغال-العمومية"
-                  >نظارة الاشغال العمومية</orgName> عنه ما هو آت </p>
+                  <placeName>ميدان محمد على</placeName> الذى صار طرحه فى يوم <date when="1881-12-29">٢٩ دسمبر سنة ١٨٨١</date> ب<orgName type="نظارة" ref="نظارة-الاشغال-العمومية">نظارة الاشغال العمومية</orgName> عنه ما هو آت </p>
             <p>وهو ان ٤ أشخاص من المزايدين قد تقدموا وأعطوا عطاهم على الاسعار المقررة بالمقايسة
                التتمينية كما الموضح أدناه </p>
             <p>أولا الخواجات بركالى اخوان أعطوا نقص ١٥ فى المائة </p>
             <p>ثانيا <persName>خليل ابراهيم</persName> و<persName>محمد عبد الشافى</persName> أعطوا
                نقص ١٨ فى المائة </p>
             <p>ثالثا <persName>حسنين دسوقى</persName> و<persName>محمد شافعى</persName> أعطو نقص
-                  <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"><mfrac
-                     xmlns="http://www.w3.org/1998/Math/MathML">
+                  <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"><mfrac xmlns="http://www.w3.org/1998/Math/MathML">
                      <mrow>
                         <mn>٣</mn>
                      </mrow>
@@ -430,8 +420,7 @@
                بناء عطيه قد استقر مرسى المزاد عليهم باعتبار المائة ١٨ فى ٣١ دسمبر سنة ١٨٨١ </p>
          </div>
          <div resp="#eHL">
-            <head>يوم السبت ١٧ صفر سنة ١٢٩٩ الموافق ٧ يناير الافرنكى سنة ١٨٨١ <bibl><biblScope
-                     unit="issue">نمرة ١٣٠١</biblScope>
+            <head>يوم السبت ١٧ صفر سنة ١٢٩٩ الموافق ٧ يناير الافرنكى سنة ١٨٨١ <bibl><biblScope unit="issue">نمرة ١٣٠١</biblScope>
                   <biblScope unit="page">صفحة ١</biblScope></bibl></head>
             <head>الحوادث الداخليه</head>
             <head>(تابع التعداد العمومى لاهالى القطر المصرى)</head>
@@ -478,16 +467,14 @@
                البنادر ثم يرسلون الى ادارة الاحصاء بنظراة الداخلية كافة الكشوفات التى تكون بطرفهم </p>
             <head>(المادة الخامسة)</head>
             <p>نبتدئ عملية تنمير البيوت فى يوم <date when="1299-02-14">الخميس ١٤ صفر سنة ١٢٩٩</date>
-               الموافق <date when="1882-01-04">٤ يناير سنة ١٨٨٢</date>  وتنتهى فى <date
-                  when="1299-03-10">١٠ ربيع أول سنة ٩٩</date> (الموافق <date when="1882-01-30">٣٠
+               الموافق <date when="1882-01-04">٤ يناير سنة ١٨٨٢</date>  وتنتهى فى <date when="1299-03-10">١٠ ربيع أول سنة ٩٩</date> (الموافق <date when="1882-01-30">٣٠
                   يناير سنة ٨٢</date>) </p>
             <p>رئيس <orgName type="مجلس" ref="مجلس-النظار">مجلس النظار</orgName> و ناظر الداخلية  </p>
             <p>(الامضا)(شريف)</p>
             <p>(البقية تأتى)</p>
          </div>
          <div resp="#eHL">
-            <head>يوم <date when="1299-02-19">الاثنين ١٩ صفر سنة ١٢٩٩</date> الموافق <date
-                  when="1882-01-09">٩ يناير الافرنكى سنة ١٨٨٢</date>
+            <head>يوم <date when="1299-02-19">الاثنين ١٩ صفر سنة ١٢٩٩</date> الموافق <date when="1882-01-09">٩ يناير الافرنكى سنة ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٠٣</biblScope><biblScope unit="page">صفحة
                      ٤</biblScope></bibl></head>
             <head>نص اعلان وارد من نظارة المعارف العمومية (اعلان مكرر)</head>
@@ -510,8 +497,7 @@
             <p>تحريرا في محرم سنة ١٢٩٩</p>
          </div>
          <div resp="#eHL">
-            <head>يوم <date when="12999-02-19">الاثنين ١٩ صفر سنة ١٢٩٩</date> الموافق <date
-                  when="1882-01-09">٩ يناير الافرنكى سنة ١٨٨٢</date>
+            <head>يوم <date when="12999-02-19">الاثنين ١٩ صفر سنة ١٢٩٩</date> الموافق <date when="1882-01-09">٩ يناير الافرنكى سنة ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٠٣</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head>نص اعلان وارد من نظارة الاشغال العمومية</head>
@@ -519,12 +505,10 @@
                اشهار مزاد فى يوم <date when="1882-01-21">السبت ٢١ يناير سنة ٨٢</date> عن اجراء
                ترميمات بمحلين من ضمن محلات السراى الكائن فيها مركز النظارة لاستعدادهما لاقامة
                الروزنامجة ولكن بعد ذا استدعت الحالة لايقاف هذا المزاد الآن فاقتضى الاعلان للمعلومية
-               بما ذكر فى <date when="1882-01-03">٣ يناير سنة ٨٢</date> الموافق <date
-                  when="1299-02-13">١٣ صفر سنة ٩٩</date></p>
+               بما ذكر فى <date when="1882-01-03">٣ يناير سنة ٨٢</date> الموافق <date when="1299-02-13">١٣ صفر سنة ٩٩</date></p>
          </div>
          <div resp="#eHL">
-            <head>يوم الثلاثاء ٢٠ صفر سنة ١٢٩٩ الموافق ١٠ يناير الافرنكى سنة ١٨٨٢ <bibl><biblScope
-                     unit="issue">نمرة ١٣٠٤</biblScope>
+            <head>يوم الثلاثاء ٢٠ صفر سنة ١٢٩٩ الموافق ١٠ يناير الافرنكى سنة ١٨٨٢ <bibl><biblScope unit="issue">نمرة ١٣٠٤</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head>نص اعلان وارد من نظارة المعارف العموميه (اعلان مكرر)</head>
             <p>قطعة أرض تعرف بنمرة ٧ بجهة الأزبكية موقعها جهة شرق على الشارع المستجد بالأراضي
@@ -547,8 +531,7 @@
             <p>تحريرا في محرم سنة ١٢٩٩</p>
          </div>
          <div resp="#eHL">
-            <head>يوم <date when="1299-02-20">الثلاثاء ٢٠ صفر سنة ١٢٩٩</date> الموافق <date
-                  when="1882-01-10">١٠ يناير الافرنكى سنة ١٨٨٢</date>
+            <head>يوم <date when="1299-02-20">الثلاثاء ٢٠ صفر سنة ١٢٩٩</date> الموافق <date when="1882-01-10">١٠ يناير الافرنكى سنة ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٠٤</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head>(جدول)</head>
@@ -573,15 +556,13 @@
                </row>
             </table>
             <p> الاراضى المبينه بعاليه سيجرى مبيعها بالمزاد بديوان ضبطية مصر بالجلسة المزمع انعقادها
-               بيوم <date when="1882-01-11">الاربعاء ١١ يناير سنة ٨٨٢</date> الموافق <date
-                  when="1299-02-21">٢١ صفر سنة ٢٩٩</date> من الساعة اثنين الافرنكى بعد الظهر لغاية
+               بيوم <date when="1882-01-11">الاربعاء ١١ يناير سنة ٨٨٢</date> الموافق <date when="1299-02-21">٢١ صفر سنة ٢٩٩</date> من الساعة اثنين الافرنكى بعد الظهر لغاية
                الساعة ٤ بحضور راغبين المشترى أو من ينوب عنهم للمزايدة بينهم علنا امام القومسيون ومن
                يحضر بعد قفل الجلسة لا يقبل منه مزاد مطلقا وهكذا من يكون تطلب شيا من المطروح فى
                المزاد ولم يحضر فى الجلسة فيعتبر أن تأخيره هو كف يد </p>
          </div>
          <div resp="#eHL">
-            <head>يوم <date when="1299-02-23">الخميس ٢٣ صفر سنة ١٢٩٩</date> الموافق <date
-                  when="1882-01-12">١٢ يناير الافرنكى سنة ١٨٨٢</date>
+            <head>يوم <date when="1299-02-23">الخميس ٢٣ صفر سنة ١٢٩٩</date> الموافق <date when="1882-01-12">١٢ يناير الافرنكى سنة ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٠٦</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head>نص اعلان وارد من <orgName type="نظارة " ref="نظارة-المعارف-العموميه">نظارة المعارف
@@ -606,8 +587,7 @@
             <p>تحريرا في محرم سنة ١٢٩٩</p>
          </div>
          <div resp="#eHL">
-            <head>يوم السبت ٢٤ صفر سنة ١٢٩٩ الموافق ١٤ يناير الافرنكى سنة ١٨٨٢ <bibl><biblScope
-                     unit="issue">نمرة ١٣٠٧</biblScope><biblScope unit="page">صفحة
+            <head>يوم السبت ٢٤ صفر سنة ١٢٩٩ الموافق ١٤ يناير الافرنكى سنة ١٨٨٢ <bibl><biblScope unit="issue">نمرة ١٣٠٧</biblScope><biblScope unit="page">صفحة
                   ٣</biblScope></bibl></head>
             <head>من ضبطيه مصر</head>
             <p>شبت النار بمنزل <persName>محمد بدوى مقدم الفعلة</persName> القائم بجهة قنطرة سنقر
@@ -615,21 +595,18 @@
             </p>
          </div>
          <div resp="#eHL">
-            <head>يوم السبت ٢٤ صفر سنة ١٢٩٩ الموافق ١٤ يناير الافرنكى سنة ١٨٨٢ <bibl><biblScope
-                     unit="issue">نمرة ١٣٠٧</biblScope>
+            <head>يوم السبت ٢٤ صفر سنة ١٢٩٩ الموافق ١٤ يناير الافرنكى سنة ١٨٨٢ <bibl><biblScope unit="issue">نمرة ١٣٠٧</biblScope>
                   <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
             <head>نص اعلان وراد من <orgName type="نظارة " ref="نظارة-الاشغال-العمومية">نظارة الاشغال
                   العمومية</orgName></head>
             <p>ديوان الاشغال العمومية يشهر بالمزاد مشترى ألف وستمائة قنطار فحم حجرى لزوم مصلحة جنينة
                شبرى الكبرى على مقتضى شروط موجودة بقلم المشتروات بالديوان وقد تحدد ميعاد لنهو هذا
-               المزاد يوم <date when="1882-01-21">السبت ٢١ يناير سنة ٨٢</date> الموافق <date
-                  when="1299-03-01">غرة ربيع الاول سنة ٩٩</date> وقبول العطا يكون داخل مظاريف فى
+               المزاد يوم <date when="1882-01-21">السبت ٢١ يناير سنة ٨٢</date> الموافق <date when="1299-03-01">غرة ربيع الاول سنة ٩٩</date> وقبول العطا يكون داخل مظاريف فى
                الساعة ٢ افرنكى بعد الظهر من كل يوم لاطلاعه على الشروط المذكورة والذى لا يحضر فى
                الميعاد المحدد لا يكلف الديوان بانتظاره ولا باخذ أقوال منه فيما بعد </p>
          </div>
          <div resp="#eHL">
-            <head>يوم <date when="1299-02-23">السبت ٢٤ صفر سنة ١٢٩٩</date> الموافق <date
-                  when="1887-01-14">١٤ يناير الافرنكى سنة ١٨٨٢</date>
+            <head>يوم <date when="1299-02-23">السبت ٢٤ صفر سنة ١٢٩٩</date> الموافق <date when="1887-01-14">١٤ يناير الافرنكى سنة ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٠٧</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head>(جدول) هذا الخبر مكرر</head>
@@ -654,15 +631,13 @@
                </row>
             </table>
             <p> الاراضى المبينه بعاليه سيجرى مبيعها بالمزاد بديوان ضبطية مصر بالجلسة المزمع انعقادها
-               بيوم <date when="1882-01-11">الاربعاء ١١ يناير سنة ٨٨٢</date> الموافق <date
-                  when="1299-02-21">٢١ صفر سنة ٢٩٩</date> من الساعة اثنين الافرنكى بعد الظهر لغاية
+               بيوم <date when="1882-01-11">الاربعاء ١١ يناير سنة ٨٨٢</date> الموافق <date when="1299-02-21">٢١ صفر سنة ٢٩٩</date> من الساعة اثنين الافرنكى بعد الظهر لغاية
                الساعة ٤ بحضور راغبين المشترى أو من ينوب عنهم للمزايدة بينهم علنا امام القومسيون ومن
                يحضر بعد قفل الجلسة لا يقبل منه مزاد مطلقا وهكذا من يكون تطلب شيا من المطروح فى
                المزاد ولم يحضر فى الجلسة فيعتبر أن تأخيره هو كف يد </p>
          </div>
          <div resp="#eHL">
-            <head>يوم <date when="1299-02-25">الاحد ٢٥ صفر سنة ١٢٩٩</date> الموافق <date
-                  when="1882-01-15">١٥ يناير الافرنكى سنة ١٨٨٢</date>
+            <head>يوم <date when="1299-02-25">الاحد ٢٥ صفر سنة ١٢٩٩</date> الموافق <date when="1882-01-15">١٥ يناير الافرنكى سنة ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٠٨</biblScope></bibl></head>
             <head>نص اعلان وارد من نظارة المعارف العموميه (اعلان مكرر)</head>
             <p>قطعة أرض تعرف بنمرة ٧ بجهة الأزبكية موقعها جهة شرق على الشارع المستجد بالأراضي
@@ -684,8 +659,7 @@
             <p>تحريرا في محرم سنة ١٢٩٩</p>
          </div>
          <div resp="#eHL">
-            <head>يوم <date when="1299-02-26">الاثنين ٢٦ صفر سنة ١٢٩٩</date> الموافق <date
-                  when="1882-01-16">١٦ يناير الافرنكى سنة ١٨٨٢</date>
+            <head>يوم <date when="1299-02-26">الاثنين ٢٦ صفر سنة ١٢٩٩</date> الموافق <date when="1882-01-16">١٦ يناير الافرنكى سنة ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٠٩</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head>نص اعلان وارد من نظارة المعارف العموميه (اعلان مكرر)</head>
@@ -708,17 +682,14 @@
             <p>تحريرا في محرم سنة ١٢٩٩</p>
          </div>
          <div resp="#eHL">
-            <head>يوم <date when="1299-02-27">الثلاثاء ٢٧ صفر سنة ١٢٩٩</date> الموافق <date
-                  when="1882-01-17">١٧ يناير الافرنكى سنة ١٨٨٢</date>
+            <head>يوم <date when="1299-02-27">الثلاثاء ٢٧ صفر سنة ١٢٩٩</date> الموافق <date when="1882-01-17">١٧ يناير الافرنكى سنة ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣١٠</biblScope>
                   <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
             <head>نص اعلان وارد من <orgName type="نظارة" ref="نظارة-الاشغال-العمومية">نظارة الاشغال
                   العمومية</orgName></head>
             <p>ان المزاد بالمظاريف المغلوقه عن أشغال الحفر والردم وصناعة المكادام المقتضى اجراؤها
                لزوم <placeName type="شارع">شارع مصر القديمة</placeName> من ابتداء سواقى العيون لغاية
-               منزل سليمان باشا الفرنساوى الذى عمل مزايده ب<orgName type="نظارة "
-                  ref="نظارة-الاشغال-العمومية">نظارة الاشغال العمومية</orgName> فى يوم <date
-                  when="1882-01-12">١٢ يناير سنة ٨٢</date> أعطى النتيجة الآتية </p>
+               منزل سليمان باشا الفرنساوى الذى عمل مزايده ب<orgName type="نظارة " ref="نظارة-الاشغال-العمومية">نظارة الاشغال العمومية</orgName> فى يوم <date when="1882-01-12">١٢ يناير سنة ٨٢</date> أعطى النتيجة الآتية </p>
             <p>خمسة مزايدين تقدموا وكان عطاهم تنقيصا من مفردات أثمان المقايسة بالمقادير الموضحة </p>
             <p><persName>محمد حجازى</persName> بنقص سبعة عشر فى كل مائة </p>
             <p>سيد عبد الخالق بنقص ستة وعشرين ونصف فى كل مائة </p>
@@ -733,14 +704,12 @@
             </p>
          </div>
          <div resp="#eHL">
-            <head>يوم <date when="1299-02-27">الثلاثاء ٢٧ صفر سنة ١٢٩٩</date> الموافق <date
-                  when="1882-01-17">١٧ يناير الافرنكى سنة ١٨٨٢</date>
+            <head>يوم <date when="1299-02-27">الثلاثاء ٢٧ صفر سنة ١٢٩٩</date> الموافق <date when="1882-01-17">١٧ يناير الافرنكى سنة ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣١٠</biblScope>
                   <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
             <head>نص اعلان وارد من نظارة الاشغال العمومية</head>
             <p>مزاد عملية ترميمات واعمال سلم بقراقول ضبطية تمن الخليفة على مقتضى مقايسة بمبلغ ٢٣٨٩
-               قرشا و ٢ فضه الذى صار انعقاده ب<orgName type="نظارة" ref="نظارة-الاشغال-العمومية"
-                  >نظارة الاشغال العمومية</orgName> فى <date when="1882-01-14">١٤ يناير سنة
+               قرشا و ٢ فضه الذى صار انعقاده ب<orgName type="نظارة" ref="نظارة-الاشغال-العمومية">نظارة الاشغال العمومية</orgName> فى <date when="1882-01-14">١٤ يناير سنة
                   ٨٢</date> ب<placeName type="طريق">طريق المظروف</placeName> اعطى النتيجة الآتية </p>
             <p>بناقص فى المائة من مبلغ المقايسة</p>
             <table>
@@ -772,12 +741,10 @@
             </p>
          </div>
          <div resp="#eHL">
-            <head>يوم <date when="1299-02-28">الاربعاء ٢٨ صفر سنة ١٢٩٩</date> الموافق <date
-                  when="1882-01-18">١٨ يناير الافرنجى سنة ١٨٨٢</date>
+            <head>يوم <date when="1299-02-28">الاربعاء ٢٨ صفر سنة ١٢٩٩</date> الموافق <date when="1882-01-18">١٨ يناير الافرنجى سنة ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣١١</biblScope>
                   <biblScope unit="page">صفحة ١</biblScope></bibl></head>
-            <p>فى شهر أكتوبر سنة ١٨٨١ رفع حضرة مدير الآثار القديمة مشروعا الى <orgName type="نظارة"
-                  ref="نظارة-الاشغال-العمومية">نظارة الاشغال العمومية</orgName> عن فتح مدرسة لتعليم
+            <p>فى شهر أكتوبر سنة ١٨٨١ رفع حضرة مدير الآثار القديمة مشروعا الى <orgName type="نظارة" ref="نظارة-الاشغال-العمومية">نظارة الاشغال العمومية</orgName> عن فتح مدرسة لتعليم
                الآثار واللغة الهيروجليفية يتخرج فيها فتيان من الوطنين لغاية حسن مستقبل الانتيقخانة
                المصرية فوقع هذا الطلب لدى النظارة المشار اليها موقع الاستحسان وبادرت برفعه الى مجلس
                النظار فاقره فاصدرت تلك النظارة أمرها الى مصلحة الانتيقخانة بالاخذ فى اخراج هذا

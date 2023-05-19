@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="css/oxygen.css"?><?xml-model href="schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities Project</title>
+        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
+          Project</title>
         <editor xml:id="eNK">Nour Kanaan</editor>
         <editor xml:id="eAM">Adam Mestyan</editor>
         <editor xml:id="eDY">Danah Younis</editor>
@@ -30,7 +31,7 @@
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
-          <name>Sarah Fath Allah</name>
+          <name>Sarah Fathallah Garaa</name>
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
@@ -66,9 +67,9 @@
         </respStmt>
         <sponsor>
           <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
-          <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
-          Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-          Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>. 
+            <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+            Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>.
         </sponsor>
       </titleStmt>
       <publicationStmt>
@@ -97,6 +98,7 @@
         <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
         <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
           Editions</ref>.</p>
+        
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
@@ -107,6 +109,11 @@
         <language ident="ota">Ottoman</language>
       </langUsage>
     </profileDesc>
+    <revisionDesc>
+      <listchange>
+        <change xml:id="FINALDRAFT">Final version.</change>
+      </listchange>
+    </revisionDesc>
   </teiHeader>
   
   <text xml:lang="ar">
@@ -141,15 +148,13 @@
             <biblScope unit="page">صفحة ٦</biblScope></bibl></head>
         <head>اعلانات</head>
         <p>بيان ما فى <orgName ref="الدلالة">الدلالة</orgName> من العقارات وغيرها</p>
-        <p>احد عشر<placeName type="دكانا">دكانا</placeName>مسكونة فى<placeName ref="التربيعة"
-            >التربيعة</placeName>بلغت فى الدلالة من القروش ١١٨٠٠</p>
+        <p>احد عشر<placeName type="دكانا">دكانا</placeName>مسكونة فى<placeName ref="التربيعة">التربيعة</placeName>بلغت فى الدلالة من القروش ١١٨٠٠</p>
         <p>تسع<placeName ref="دكاكين-بالعقادين-البلدى">دكاكين ب<placeName ref="العقادين">العقادين
               البلدى</placeName></placeName>بلغت من القروش ٥٣٧٠٠</p>
         <p><placeName ref="وكالة-فى العقادين-البلدى" type="وكالة">وكالة فى العقادين
             البلدى</placeName> فى داخلها دكاكين وحواصل واوض وبيوت وبظهرها خربة بلغت من القروش
           ٢٠٠٠</p>
-        <p><placeName type="دكاكين" ref="دكاكين-خمسة-بخط-الوراقين">دكاكين خمسة ب<placeName type="خط"
-              ref="خط-الوراقين">خط الوراقين</placeName></placeName> بلغت من القروش ٧٠٠٠</p>
+        <p><placeName type="دكاكين" ref="دكاكين-خمسة-بخط-الوراقين">دكاكين خمسة ب<placeName type="خط" ref="خط-الوراقين">خط الوراقين</placeName></placeName> بلغت من القروش ٧٠٠٠</p>
         <p><placeName type="اطيان" ref="اطيان-رزقة">اطيان رزقة</placeName>بلا مال تعلق<persName>عبد
             الرحمن بيك</persName>ب<placeName type="ناحية" ref="ناحيه-سيله-فيوم">ناحية سيله
             فيوم</placeName>جميعها سواد قدرها مائة فدان وبها من المهمات ثلاثة اقواس ومحراث واحد ومن
@@ -159,35 +164,26 @@
           واربعة عشر قوسا ونورج واحد ومن المواشى اربعة اثوار وحمار واحد بلغت من القروش ١٠٠٠٠٠</p>
         <p>ثلاثة<placeName type="مساكن" ref="مساكن-تعلق-المرحوم-خليل-افندى">مساكن تعلق
               المرحوم<persName>خليل افندى</persName></placeName>ووصيه<persName>عارف بيك</persName>
-            ب<placeName ref="الدرب-الاحمر" type="درب">الدرب الاحمر</placeName> فى<placeName
-            ref="التبانه">التبانه</placeName>بلغت فى الدلالة من القروش ٤٠٠٠</p>
+            ب<placeName ref="الدرب-الاحمر" type="درب">الدرب الاحمر</placeName> فى<placeName ref="التبانه">التبانه</placeName>بلغت فى الدلالة من القروش ٤٠٠٠</p>
         <p><placeName type="طيان-رزقة" ref="طيان-رزقة-تعلق-حسن-بيك-مدير-القليوبية">طيان
-              تعلق<persName>حسن بيك مدير<placeName ref="القليوبية"
-              >القليوبية</placeName>سابقا</persName></placeName>ب<placeName type="ناحية"
-            ref="ناحية-ميت-العايد">ناحية ميت العايد</placeName>ب<placeName ref="اقليم-الجيزة"
-            type="اقليم">اقليم الجيزة</placeName>رزقة بلا مال قطعة واحدة قدرها مائتان واربعة وعشرون
+              تعلق<persName>حسن بيك مدير<placeName ref="القليوبية">القليوبية</placeName>سابقا</persName></placeName>ب<placeName type="ناحية" ref="ناحية-ميت-العايد">ناحية ميت العايد</placeName>ب<placeName ref="اقليم-الجيزة" type="اقليم">اقليم الجيزة</placeName>رزقة بلا مال قطعة واحدة قدرها مائتان واربعة وعشرون
           فدانا بلغت فى الدلالة من القروش ٥٠٠٠٠</p>
         <p><placeName type="مسكن" ref="مسكن-تعلق-حسن-بيك-مدير-القليوبية-سابقا">مسكن</placeName> تعلق
           المذكور ب <placeName ref="ناحية-الجيزة" type="ناحية">ناحية الجيزة</placeName>بلغ من القروش
           ٢١٠٠٠ </p>
-        <p><placeName type="اطيان" ref="اطيان-رزقه-تعلق-حسن-بيك-مدير-القليوبية-سابقا-بناحية-الدقى"
-            >اطيان</placeName>تعلق المذكور ب<placeName ref="ناحية-الدقى" type="ناحية">ناحية
+        <p><placeName type="اطيان" ref="اطيان-رزقه-تعلق-حسن-بيك-مدير-القليوبية-سابقا-بناحية-الدقى">اطيان</placeName>تعلق المذكور ب<placeName ref="ناحية-الدقى" type="ناحية">ناحية
             الدقى</placeName>من<placeName type="جهة" ref="جهة-الجيزة">جهة الجيزة</placeName>رزقة بلا
           مال قدرها<sic>ا[ر]بعة</sic> وعشرون فدانا بلغت من القروش ٣٢٥٠٠ </p>
         <p><placeName ref="منزل-بالجيزة-تعلق-حسن-بيك-مدير-القليوبية-سابقا-" type="منزل">منزل
               ب<placeName ref="الجيزة">الجيزة</placeName></placeName>تعلق المذكور بلغ فى الدلالة
           ثمانين الف قرش</p>
         <p>تسعة <placeName type="دكاكين" ref="دكاكين-بسوق-الجيزة">دكاكين
-              بسوق<placeName>الجيزة</placeName></placeName>و<placeName type="طاحونة"
-            >طاحونة</placeName> و<placeName type="فرن">فرن</placeName> و<placeName type="اصطبل"
-            >اصطبل</placeName>كبير بلغت اثنى عشر الف قرش</p>
-        <p>الف وستمائة <placeName type="فدان"
-            ref="فدان-رزقه-تعلق-حسن-بيك-مدير-القليوبية-سابقا-بناحية-بوش">فدان</placeName> تعلق
+              بسوق<placeName>الجيزة</placeName></placeName>و<placeName type="طاحونة">طاحونة</placeName> و<placeName type="فرن">فرن</placeName> و<placeName type="اصطبل">اصطبل</placeName>كبير بلغت اثنى عشر الف قرش</p>
+        <p>الف وستمائة <placeName type="فدان" ref="فدان-رزقه-تعلق-حسن-بيك-مدير-القليوبية-سابقا-بناحية-بوش">فدان</placeName> تعلق
           المذكور رزقة بلا مال ب<placeName type="ناحية" ref="ناحية-بوش">ناحية بوش</placeName> بلغت
           ثلثمائة الف قرش وخمسة وثلاثين الفا</p>
         <p><placeName type="منزل" ref="منزل-بالدرب-الاحمر-تعلق-اسماعيل-باش-جاويش">منزل بالدرب
-            الاحمر</placeName> تعلق<persName>اسماعيل اغا باش جاويش ب<orgName type="ديوان"
-              ref="الديوان-الخديوى">الديوان الخديوى</orgName></persName> بلغ فى الدلالة أحدا وثلاثين
+            الاحمر</placeName> تعلق<persName>اسماعيل اغا باش جاويش ب<orgName type="ديوان" ref="الديوان-الخديوى">الديوان الخديوى</orgName></persName> بلغ فى الدلالة أحدا وثلاثين
           الف قرش وخمسمائة قرش</p>
         <p><placeName type="منزل" ref="منزل-بالباطلية-بناحية-الازهر-تعلق-الحج-علق-الاسكندرانى">منزل
             بالباطلية بناحية الازهر</placeName> تعلق<persName>الحاج على الاسكندرانى</persName> بلغ
