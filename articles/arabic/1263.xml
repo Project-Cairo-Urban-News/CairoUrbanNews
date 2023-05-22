@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="../../css/oxygen.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
@@ -366,11 +366,13 @@
                مربع مكشوف وفيه حاصلان وله صهريج وهو يراد بيعه فمن كان له رغبة فيه فليستدل عليه من
                السيد <persName>مصطفى دلال باشى</persName>
             </p>
-            <p> ان <placeName>بيتا</placeName> كائنا ب<placeName>حارة ابى الليف</placeName> فى
-                  <placeName>خط الاستاذ الحنفى</placeName> له ست اود وحمام ومقعد بخزنه وكلار ومطبخ
-               بطبقته العليا ومنظرة وحاصلان واصطبل يسع حيوانين وبئر وحوش مربع بطبقته السفلى وهو جارى
-               فى ملك احدى اشراقات المرحوم محمود بك وقد بلغ ثمنه الآن خمسة وعشرين كيسا وهو معرض
-               للبيع فمن اراده فليسأل عنه من الدلال باشى المذكور.</p>
+            <p> ان <placeName type="بيت" ref="بيت-بحارة-ابى-الليف">بيتا</placeName> كائنا
+                  ب<placeName type="حارة" ref="حارة-ابى-الليف">حارة ابى الليف</placeName> فى
+                  <placeName type="خط" ref="خط-الاستاذ-الحنفى">خط الاستاذ الحنفى</placeName> له ست
+               اود وحمام ومقعد بخزنه وكلار ومطبخ بطبقته العليا ومنظرة وحاصلان واصطبل يسع حيوانين
+               وبئر وحوش مربع بطبقته السفلى وهو جارى فى ملك احدى اشراقات <persName xmlns="">المرحوم
+                  محمود بك</persName> وقد بلغ ثمنه الآن خمسة وعشرين كيسا وهو معرض للبيع فمن اراده
+               فليسأل عنه من الدلال باشى المذكور.</p>
          </div>
          <div xml:id="w11" resp="#eSG">
             <head><date when-custom="1263-03-14">١٤ ربيع الاول ١٢٦٣</date><date when="1847-03-02">٢
