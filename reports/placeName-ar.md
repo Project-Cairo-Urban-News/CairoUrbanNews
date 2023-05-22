@@ -152,6 +152,7 @@
  * 'عابدين'‎: [1285.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1285.xml&text=%D8%B9%D8%A7%D8%A8%D8%AF%D9%8A%D9%86)
  * 'عطف'‎: [1246.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1246.xml&text=%D8%B9%D8%B7%D9%81)
  * 'عطفة'‎: [1289.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1289.xml&text=%D8%B9%D8%B7%D9%81%D8%A9), [1296.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1296.xml&text=%D8%B9%D8%B7%D9%81%D8%A9), [1284.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1284.xml&text=%D8%B9%D8%B7%D9%81%D8%A9)
+ * 'عطفه'‎: [1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1263.xml&text=%D8%B9%D8%B7%D9%81%D9%87)
  * 'عقارات'‎: [1262.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1262.xml&text=%D8%B9%D9%82%D8%A7%D8%B1%D8%A7%D8%AA)
  * 'عمارة'‎: [1299_M-S.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1299_M-S.xml&text=%D8%B9%D9%85%D8%A7%D8%B1%D8%A9), [1298.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1298.xml&text=%D8%B9%D9%85%D8%A7%D8%B1%D8%A9)
  * 'فبريقه'‎: [1248.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1248.xml&text=%D9%81%D8%A8%D8%B1%D9%8A%D9%82%D9%87)
