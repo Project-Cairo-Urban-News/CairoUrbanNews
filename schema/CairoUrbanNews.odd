@@ -31,7 +31,7 @@
             <moduleRef key="analysis" include="phr w"/>
             <moduleRef key="core" include="author bibl biblScope date editor foreign gap head hi imprint item label list measure milestone name note p ptr pubPlace publisher ref resp respStmt rs sic term textLang time title unclear"/>
             <moduleRef key="figures" except="formula notatedMusic"/>
-            <moduleRef key="header" include="editorialDecl encodingDesc fileDesc funder langUsage language licence profileDesc projectDesc publicationStmt sourceDesc sponsor teiHeader titleStmt"/>
+            <moduleRef key="header" include="change editorialDecl encodingDesc fileDesc funder langUsage language licence listChange profileDesc projectDesc publicationStmt revisionDesc sourceDesc sponsor teiHeader titleStmt"/>
             <moduleRef key="linking" include="standOff"/>
             <moduleRef key="msdescription" include="material"/>
             <moduleRef key="namesdates" except="climate terrain population"/>
