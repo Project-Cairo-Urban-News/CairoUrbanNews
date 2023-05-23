@@ -5,9 +5,9 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2023-02-10T21:19:40Z. .
+Schema generated from ODD source 2023-05-23T19:46:07Z. .
 TEI Edition: Version 4.6.0a. Last updated on
-        5th January 2023, revision 9074b9038
+        4th April 2023, revision 2c79128d9
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0a./
   
 --><!---->
@@ -78,6 +78,23 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0a./
       <optional>
          <attribute name="targetEnd">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(target end) points to the end of the span to which the note is attached, if the note is not embedded in the text at that point.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI">
+                     <param name="pattern">\S+</param>
+                  </data>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="att.ascribed.attributes">
+      <ref name="att.ascribed.attribute.who"/>
+   </define>
+   <define name="att.ascribed.attribute.who">
+      <optional>
+         <attribute name="who">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the person, or group of people, to whom the element content is ascribed.</a:documentation>
             <list>
                <oneOrMore>
                   <data type="anyURI">
@@ -2900,6 +2917,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="model.biblLike"/>
          <ref name="model.listLike"/>
          <ref name="model.annotationLike"/>
+         <ref name="listChange"/>
       </choice>
    </define>
    <define name="att.locatable.attributes">
@@ -3163,7 +3181,7 @@ Sample values include: 1] rubbing (rubbing); 2] mildew (mildew); 3] smoke (smoke
          <optional>
             <attribute name="reason">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates why the material is hard to transcribe.
-Suggested values include: 1] illegible (illegible); 2] inaudible (inaudible); 3] faded (faded); 4] background_noise (background_noise); 5] eccentric_ductus (eccentric_ductus)</a:documentation>
+Suggested values include: 1] illegible (illegible); 2] inaudible (inaudible); 3] faded (faded); 4] background_noise (background noise); 5] eccentric_ductus (eccentric ductus)</a:documentation>
                <list>
                   <oneOrMore>
                      <choice>
@@ -3174,9 +3192,9 @@ Suggested values include: 1] illegible (illegible); 2] inaudible (inaudible); 3]
                         <value>faded</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(faded) </a:documentation>
                         <value>background_noise</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(background_noise) </a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(background noise) </a:documentation>
                         <value>eccentric_ductus</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(eccentric_ductus) indicates illegibility due to an unusual, awkward, or incompetent execution of a glyph or glyphs </a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(eccentric ductus) indicates illegibility due to an unusual, awkward, or incompetent execution of a glyph or glyphs </a:documentation>
                         <data type="token">
                            <param name="pattern">[^\p{C}\p{Z}]+</param>
                         </data>
@@ -3399,13 +3417,6 @@ attributes @target and @cRef may be supplied on <name/>.</report>
             </zeroOrMore>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="CairoUrbanNews-list-untrimmed-spaces-list-constraint-report-18">
-            <rule context="tei:list">
-               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
-            </rule>
-         </pattern>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="CairoUrbanNews-list-gloss-list-must-have-labels-constraint-rule-10">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -3446,7 +3457,7 @@ Suggested values include: 1] gloss (gloss); 2] index (index); 3] instructions (i
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(item) contains one component of a list. [3.8. Lists 2.6. The Revision Description]</a:documentation>
          <ref name="macro.specialPara"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="CairoUrbanNews-item-untrimmed-spaces-item-constraint-report-19">
+                  id="CairoUrbanNews-item-untrimmed-spaces-item-constraint-report-18">
             <rule context="tei:item">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
@@ -3493,7 +3504,7 @@ Suggested values include: 1] gloss (gloss); 2] index (index); 3] instructions (i
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(note) contains a note or annotation. [3.9.1. Notes and Simple Annotation 2.2.6. The Notes Statement 3.12.2.8. Notes and Statement of Language 9.3.5.4. Notes within Entries]</a:documentation>
          <ref name="macro.specialPara"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="CairoUrbanNews-note-untrimmed-spaces-note-constraint-report-20">
+                  id="CairoUrbanNews-note-untrimmed-spaces-note-constraint-report-19">
             <rule context="tei:note">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
@@ -3588,7 +3599,7 @@ Elements]</a:documentation>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(title) contains a title for any kind of work. [3.12.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.5. The Series Statement]</a:documentation>
          <ref name="macro.paraContent"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="CairoUrbanNews-title-untrimmed-spaces-title-constraint-report-21">
+                  id="CairoUrbanNews-title-untrimmed-spaces-title-constraint-report-20">
             <rule context="tei:title">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
@@ -3641,7 +3652,7 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(scope of bibliographic reference) defines the scope of a bibliographic reference, for example as a list of page numbers, or a named subdivision of a larger work. [3.12.2.5. Scopes and Ranges in Bibliographic Citations]</a:documentation>
          <ref name="macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="CairoUrbanNews-biblScope-untrimmed-spaces-biblScope-constraint-report-22">
+                  id="CairoUrbanNews-biblScope-untrimmed-spaces-biblScope-constraint-report-21">
             <rule context="tei:biblScope">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
@@ -3817,15 +3828,15 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">when present, provides information on whether the token in question is adjacent to another, and if so, on which side.</a:documentation>
             <choice>
                <value>no</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(the token is not adjacent to another) </a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the token is not adjacent to another</a:documentation>
                <value>left</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(there is no whitespace on the left side of the token) </a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">there is no whitespace on the left side of the token</a:documentation>
                <value>right</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(there is no whitespace on the right side of the token) </a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">there is no whitespace on the right side of the token</a:documentation>
                <value>both</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(there is no whitespace on either side of the token) </a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">there is no whitespace on either side of the token</a:documentation>
                <value>overlap</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(the token overlaps with another; other devices (specifying the extent and the area of overlap) are needed to more precisely locate this token in the character stream) </a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the token overlaps with another; other devices (specifying the extent and the area of overlap) are needed to more precisely locate this token in the character stream</a:documentation>
             </choice>
          </attribute>
       </optional>
@@ -3852,7 +3863,7 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(phrase) represents a grammatical phrase. [17.1. Linguistic Segment Categories]</a:documentation>
          <ref name="macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="CairoUrbanNews-phr-untrimmed-spaces-phr-constraint-report-23">
+                  id="CairoUrbanNews-phr-untrimmed-spaces-phr-constraint-report-22">
             <rule context="tei:phr">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
@@ -3880,7 +3891,7 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
             </choice>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="CairoUrbanNews-w-untrimmed-spaces-w-constraint-report-24">
+                  id="CairoUrbanNews-w-untrimmed-spaces-w-constraint-report-23">
             <rule context="tei:w">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
@@ -4048,6 +4059,9 @@ Suggested values include: 1] label; 2] data</a:documentation>
             <zeroOrMore>
                <ref name="model.teiHeaderPart"/>
             </zeroOrMore>
+            <optional>
+               <ref name="revisionDesc"/>
+            </optional>
          </group>
          <ref name="att.global.attributes"/>
          <empty/>
@@ -4233,6 +4247,70 @@ Suggested values include: 1] label; 2] data</a:documentation>
          <empty/>
       </element>
    </define>
+   <define name="revisionDesc">
+      <element name="revisionDesc">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(revision description) summarizes the revision history for a file. [2.6. The Revision Description 2.1.1. The TEI Header and Its Components]</a:documentation>
+         <choice>
+            <ref name="list"/>
+            <ref name="listChange"/>
+            <oneOrMore>
+               <ref name="change"/>
+            </oneOrMore>
+         </choice>
+         <ref name="att.global.attributes"/>
+         <ref name="att.docStatus.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="change">
+      <element name="change">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(change) documents a change or set of changes made during the production of a source document, or during the revision of an electronic file. [2.6. The Revision Description 2.4.1. Creation 11.7. Identifying Changes and Revisions]</a:documentation>
+         <ref name="macro.specialPara"/>
+         <ref name="att.ascribed.attributes"/>
+         <ref name="att.datable.attributes"/>
+         <ref name="att.docStatus.attributes"/>
+         <ref name="att.global.attributes"/>
+         <ref name="att.typed.attributes"/>
+         <optional>
+            <attribute name="target">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(target) points to one or more elements that belong to this change.</a:documentation>
+               <list>
+                  <oneOrMore>
+                     <data type="anyURI">
+                        <param name="pattern">\S+</param>
+                     </data>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="listChange">
+      <element name="listChange">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">groups a number of change descriptions associated with either the creation of a source text or the revision of an encoded text. [2.6. The Revision Description 11.7. Identifying Changes and Revisions]</a:documentation>
+         <group>
+            <oneOrMore>
+               <choice>
+                  <ref name="listChange"/>
+                  <ref name="change"/>
+               </choice>
+            </oneOrMore>
+         </group>
+         <ref name="att.global.attributes"/>
+         <ref name="att.sortable.attributes"/>
+         <ref name="att.typed.attributes"/>
+         <optional>
+            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                       name="ordered"
+                       a:defaultValue="true">
+               <a:documentation>indicates whether the ordering of its child <code xmlns="http://www.w3.org/1999/xhtml">&lt;change&gt;</code> elements is to be considered significant or not</a:documentation>
+               <data type="boolean"/>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
    <define name="att.global.linking.attributes">
       <ref name="att.global.linking.attribute.corresp"/>
       <ref name="att.global.linking.attribute.synch"/>
@@ -4369,7 +4447,7 @@ Suggested values include: 1] label; 2] data</a:documentation>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(material) contains a word or phrase describing the material of which the object being described is composed. [10.3.2. Material and Object Type]</a:documentation>
          <ref name="macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="CairoUrbanNews-material-untrimmed-spaces-material-constraint-report-25">
+                  id="CairoUrbanNews-material-untrimmed-spaces-material-constraint-report-24">
             <rule context="tei:material">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
@@ -4713,7 +4791,7 @@ Sample values include: 1] binding; 2] endband; 3] slipcase; 4] support; 5] tie</
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(organization name) contains an organizational name. [13.2.2. Organizational Names]</a:documentation>
          <ref name="macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="CairoUrbanNews-orgName-untrimmed-spaces-orgName-constraint-report-26">
+                  id="CairoUrbanNews-orgName-untrimmed-spaces-orgName-constraint-report-25">
             <rule context="tei:orgName">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -4733,7 +4811,7 @@ Sample values include: 1] binding; 2] endband; 3] slipcase; 4] support; 5] tie</
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(personal name) contains a proper noun or proper-noun phrase referring to a person, possibly including one or more of the person's forenames, surnames, honorifics, added names, etc. [13.2.1. Personal Names]</a:documentation>
          <ref name="macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="CairoUrbanNews-persName-untrimmed-spaces-persName-constraint-report-27">
+                  id="CairoUrbanNews-persName-untrimmed-spaces-persName-constraint-report-26">
             <rule context="tei:persName">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -4792,7 +4870,7 @@ Sample values include: 1] binding; 2] endband; 3] slipcase; 4] support; 5] tie</
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(additional name) contains an additional name component, such as a nickname, epithet, or alias, or any other descriptive phrase used within a personal name. [13.2.1. Personal Names]</a:documentation>
          <ref name="macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="CairoUrbanNews-addName-untrimmed-spaces-addName-constraint-report-28">
+                  id="CairoUrbanNews-addName-untrimmed-spaces-addName-constraint-report-27">
             <rule context="tei:addName">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -4810,11 +4888,19 @@ Sample values include: 1] binding; 2] endband; 3] slipcase; 4] support; 5] tie</
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(role name) contains a name component which indicates that the referent has a particular role or position in society, such as an official title or rank. [13.2.1. Personal Names]</a:documentation>
          <ref name="macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="CairoUrbanNews-roleName-untrimmed-spaces-roleName-constraint-report-29">
+                  id="CairoUrbanNews-roleName-untrimmed-spaces-roleName-constraint-report-28">
             <rule context="tei:roleName">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
+            </rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="CairoUrbanNews-roleName-roleName-deprecated-constraint-report-29">
+            <rule context="tei:roleName">
+               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:xi="http://www.w3.org/2001/XInclude"
+                       test="self::*">Use @type on persName for roles, or don't mark them at all.</report>
             </rule>
          </pattern>
          <ref name="att.global.attributes"/>
@@ -4833,6 +4919,14 @@ Sample values include: 1] binding; 2] endband; 3] slipcase; 4] support; 5] tie</
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
+            </rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="CairoUrbanNews-placeName-no-URL-in-type-constraint-report-31">
+            <rule context="tei:placeName">
+               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:xi="http://www.w3.org/2001/XInclude"
+                       test="contains(@type, 'http')">URLs should go in @ref</report>
             </rule>
          </pattern>
          <ref name="att.datable.attributes"/>
@@ -5910,7 +6004,7 @@ Sample values include: 1] e (e); 2] he (he); 3] she (she); 4] they (they)</a:doc
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="CairoUrbanNews-relation-activemutual-constraint-report-31">
+                  id="CairoUrbanNews-relation-activemutual-constraint-report-32">
             <rule context="tei:relation">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -5918,7 +6012,7 @@ Sample values include: 1] e (e); 2] he (he); 3] she (she); 4] they (they)</a:doc
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="CairoUrbanNews-relation-activepassive-constraint-report-32">
+                  id="CairoUrbanNews-relation-activepassive-constraint-report-33">
             <rule context="tei:relation">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -6146,7 +6240,7 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(name of an object) contains a proper noun or noun phrase used to refer to an object. [13.2.4. Object Names]</a:documentation>
          <ref name="macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="CairoUrbanNews-objectName-untrimmed-spaces-objectName-constraint-report-33">
+                  id="CairoUrbanNews-objectName-untrimmed-spaces-objectName-constraint-report-34">
             <rule context="tei:objectName">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -6346,6 +6440,11 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
                  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                  prefix="rng"
                  uri="http://relaxng.org/ns/structure/1.0"/>
+         <sch:ns xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                 prefix="rna"
+                 uri="http://relaxng.org/ns/compatibility/annotations/1.0"/>
          <ref name="att.global.attributes"/>
          <ref name="att.typed.attributes"/>
          <optional>
@@ -6545,7 +6644,7 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
             </optional>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="CairoUrbanNews-div-abstractModel-structure-div-in-l-or-lg-constraint-report-34">
+                  id="CairoUrbanNews-div-abstractModel-structure-div-in-l-or-lg-constraint-report-35">
             <rule context="tei:div">
                <sch:report xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -6556,7 +6655,7 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="CairoUrbanNews-div-abstractModel-structure-div-in-ab-or-p-constraint-report-35">
+                  id="CairoUrbanNews-div-abstractModel-structure-div-in-ab-or-p-constraint-report-36">
             <rule context="tei:div">
                <sch:report xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
