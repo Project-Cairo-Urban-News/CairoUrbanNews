@@ -1,0 +1,84 @@
+body {
+  margin: 2em;
+  text-align: right;
+  --bs-body-text-align: right;
+}
+div.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2;
+  direction: rtl;
+  margin: auto;
+  width: 80vw;
+}
+div.columns h2#arabic {
+  grid-column: 1;
+  grid-row: 1;
+}
+div.columns ul#arabic_files {
+  grid-column: 1;
+  grid-row: 2;
+}
+div.columns h2#ottoman {
+  grid-column: 2;
+  grid-row: 1;
+}
+div.columns ul#ottoman_files {
+  grid-column: 2;
+  grid-row: 2;
+}
+li {
+  list-style: none;
+}
+span.tag {
+  background-color: silver;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  padding: 2px;
+
+}
+span.start {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+span.end {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+table {
+  border: thin solid black;
+}
+td {
+  border: thin solid silver;
+}
+tei-choice tei-sic {
+  display: none;
+}
+tei-choice tei-corr {
+  border-bottom: thin dotted black;
+}
+tei-div > a {
+  float: right;
+  margin-right: -2em;
+}
+tei-head {
+  display:block;
+  font-size: larger;
+}
+tei-text {
+  display: block;
+  margin: auto;
+  width: 60vw;
+}
+tei-text {
+  font-size: 20pt;
+} 
+*[lang=ar],*[lang=ota] {
+  direction: rtl;
+} 
+tei-persname[ref] {
+  text-decoration: none;
+}
+tei-standoff {
+  display: none
+}

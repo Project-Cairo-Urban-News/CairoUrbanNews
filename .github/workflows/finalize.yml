@@ -1,0 +1,27 @@
+name: Publish Finalized Dcouments
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'articles/arabic/*.xml'
+      - 'articles/ottoman/*.xml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: teic/teidev-docker:latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Generate HTML
+        run: |
+          saxon -it:start -xsl:xslt/finalized.xsl -o:docs/finalized.html
+      - name: Commit
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Published finalized documents
+        
+
