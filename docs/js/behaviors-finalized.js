@@ -1,7 +1,9 @@
 const behaviors = {
   "tei": {
     "choice": function(elt) {
-      elt.querySelector('tei-corr').setAttribute("title", elt.querySelector('tei-sic>span[data-original]').textContent);
+      const sic = elt.querySelector('tei-sic');
+      elt.querySelector('tei-corr').setAttribute("title", sic.textContent);
+      sic.appendChild(document.createTextNode('(!)'));
     },
     "date": ['',' '],
     "div": function(elt) {
@@ -10,7 +12,6 @@ const behaviors = {
       link.innerHTML = `${this.getOrdinality(elt)}.`;
       elt.prepend(link);
     },
-    "sic": ['','(!)'],
     "table": function(elt) {
       const table = document.createElement("table");
       if (elt.firstElementChild.localName == "tei-head") {
