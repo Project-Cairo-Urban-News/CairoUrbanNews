@@ -843,34 +843,51 @@
                وهو يراد بيعه فمن كان له رغبة فيه فليستخبر من الدلال المذكور.</p>
          </div>
          <div xml:id="w32" resp="#eSG">
-            <head><date when-custom="1263-07-01">١ رجب ١٢٦٣</date><date when="1848-06-15">١٥ يونيو
-                  ١٨٤٧</date><bibl><biblScope unit="issue">نمرة ٦٩</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
-            <head> الحوادث الداخليه</head>
-            <p> انه قد اقتضى الحال بعض التعمير فى كل من <placeName>جامع طولون</placeName>
-                  و<placeName>قصر النيل</placeName> و<placeName>ديوان المدارس</placeName> وسياج
-               حديقة النباتات المختصة ب<placeName><orgName type="الاسبتالية_الكبرى">الاسبتالية
-                     الكبرى</orgName></placeName> و<placeName>مدرسة الطب البشرى</placeName> بمصر
-               المحروسة وكذا اسبتالية ناحية <placeName>طحطا</placeName> بالاقليم القبلى فصرف فى تلك
+            <head><date when-custom="1263-07-01">١ رجب ١٢٦٣</date>
+               <date when="1848-06-15">١٥ يونيو ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٦٩</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <head><title>الحوادث الداخليه</title></head>
+            <p>انه قد اقتضى الحال بعض التعمير فى كل من <placeName type="جامع" ref="جامع-طولون">جامع
+                  طولون</placeName> و <placeName ref="قصر-النيل" type="قصر">قصر النيل</placeName> و
+                  <placeName ref="ديوان-المدارس" type="ديوان">ديوان المدارس</placeName> وسياج حديقة
+               النباتات المختصة ب <placeName><orgName type="اسبتالية" ref="الاسبتالية_الكبرى"
+                     >الاسبتالية الكبرى</orgName></placeName> و <placeName ref="مدرسة-الطب-البشرى"
+                  type="مدرسة">مدرسة الطب البشرى</placeName> بمصر المحروسة وكذا <placeName
+                  type="اسبتالية" ref="اسبتالية-ناحية-طحطا">اسبتالية <placeName type="ناحية"
+                     ref="ناحية-طحطا">ناحية طحطا</placeName></placeName> بالاقليم القبلى فصرف فى تلك
                العمارات من طرف الميرى مبلغ مائة وستة وتسعين كيسا وثلاثمائة قرش وستة قروش وثمانية
-               وعشرين نصفا فضه. </p>
+               وعشرين نصفا فضه.</p>
          </div>
          <div xml:id="w33" resp="#eSG">
-            <head><date when-custom="1263-07-08">٨ رجب ١٢٦٣</date><date when="1847-06-22">٢٢ يونيو
-                  ١٨٤٧</date><bibl><biblScope unit="issue">نمرة ٧٠</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
-            <head>الحوادث الداخليه</head>
+            <head><date when-custom="1263-07-08">٨ رجب ١٢٦٣</date>
+               <date when="1847-06-22">٢٢ يونيو ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٧٠</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <head><title>الحوادث الداخليه</title></head>
             <p> انه قد ظهر <rs type="حريق">حريق</rs> فى الساعة الثالثة من ليلة السبت الموافق لثامن
-               وعشرى الشهر الماضى بطاحونة واصطبل من المنزل القاطن فيه <persName>الحاج محمد بنيس
-                  المغربى</persName> الكائن ب<placeName>حديقة حسن بيك القوللى</placeName> المجاورة
-                  ل<orgName type="قراقول_الناصرية">قراقول الناصرية</orgName> بمصر المحروسة واذ كانت
-               تلك الحديقة مجاورة ل<placeName>حديقة <persName>على افندى علوى القائمقام خازن <orgName type="ديوان_المدارس">ديوان المدارس</orgName></persName></placeName> الجارية
-               فى ملكه التى هى محل اقامته حصل ان الافندى المومى اليه بادر الى فتح <placeName>باب
+               وعشرى الشهر الماضى بطاحونة واصطبل من ال <placeName type="منزل"
+                  ref="منزل-بحديقة-حسن-بيك-القوللى">منزل</placeName> القاطن فيه <persName>الحاج محمد
+                  بنيس المغربى</persName> الكائن ب <placeName type="حديقة"
+                  ref="حديقة-حسن-بيك-القوللى">حديقة <persName>حسن بيك القوللى</persName></placeName>
+               المجاورة ل <orgName type="قراقول" ref="قراقول-الناصرية">قراقول الناصرية</orgName>
+               بمصر المحروسة واذ كانت تلك الحديقة مجاورة ل <placeName type="حديقة"
+                  ref="حديقة-على-افندى-علوى-القائمقام-خازن-ديوان-المدارس">حديقة <persName>على افندى
+                     علوى القائمقام
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>خازن
+                        <?oxy_custom_end?><?oxy_comment_start author="Sarah" timestamp="20230525T175041+0200" comment="check in the original"?><orgName
+                        type="ديوان" ref="ديوان_المدارس"><?oxy_comment_end?>ديوان
+                     المدارس</orgName></persName></placeName> الجارية فى ملكه التى هى محل اقامته حصل
+               ان الافندى المومى اليه بادر الى فتح <placeName type="باب" ref="باب-الناصرية">باب
                   الناصرية</placeName> واستطحب اتباعه وضابط القراقول مع بعض اشخاص من عسكره
-                  و<persName>عبد القادر افندى الصاغقول ناظر
-                     <placeName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>مدرسة
+                  و<persName>عبد القادر افندى الصاغقول ناظر <placeName ref="مدرسة-المبتدئين"
+                     type="مدرسة"
+                     ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>مدرسة
                      المبتدئين<?oxy_custom_end?></placeName></persName> مع السقائين وسائر خدمه وأسرع
-               الى محل الحريق وارسل فى الحال الى طلومبة قصر العينى فجلبها وكانت النار قد اشتعلت بوجه
-               شديد ولكنها بسبب ما حصل من الغيرة لم تستمر لانتهاء الساعة الرابعة بل تيسر اطفاؤها
-               بسرعة ولم تضر بما عدا المحل الذى ظهرت منه ولم يضع شئ للمغربى المذكور. </p>
+               الى محل الحريق وارسل فى الحال الى طلومبة <placeName ref="قصر-العينى">قصر
+                  العينى</placeName> فجلبها وكانت النار قد اشتعلت بوجه شديد ولكنها بسبب ما حصل من
+               الغيرة لم تستمر لانتهاء الساعة الرابعة بل تيسر اطفاؤها بسرعة ولم تضر بما عدا المحل
+               الذى ظهرت منه ولم يضع شئ للمغربى المذكور.</p>
          </div>
          <div xml:id="w34" resp="#eSG">
             <head><date when-custom="1263-07-15">١٥ رجب ١٢٦٣</date><date when="1847-06-29">٢٩ يونيو
