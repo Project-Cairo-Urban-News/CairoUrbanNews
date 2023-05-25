@@ -523,15 +523,20 @@
                المذكور </p>
          </div>
          <div xml:id="w17" resp="#eSG">
-            <head><date when-custom="1263-04-19">١٩ ربيع الثاني ١٢٦٣</date><date when="1847-04-06">٦
-                  ابريل ١٨٤٧</date><bibl><biblScope unit="issue">نمرة ٥٩</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
-            <head>حوادث داخليه</head>
-            <p> لما كان الحذر من شر الحريقات المحتمل وقوعها لا يتأتى الا بوجود الطلومبات على قدر
-               لزومها وكانت ناحية <placeName>القصر العالى</placeName> و<placeName>قصر
-                  النيل</placeName> و<placeName>قصر العينى</placeName> لم توجد فيها طلومبة كسائر
-               الموجودات فى كل جانب من مصر المحروسة حصل ترتيب طلومبة مخصوصة لتلك الناحية مع
-               طلومبجيتها لتكون حاضرة هنالك وصدر التنبيه على ناظر <placeName><orgName type="اسبتالية_القصر_العينى">الاسبيتالية</orgName></placeName>التى فى قصر
-               العينى بتخلية محل لحفظها واقامة الطلومبجية </p>
+            <head><date when-custom="1263-04-19">١٩ ربيع الثاني ١٢٦٣</date>
+               <date when="1847-04-06">٦ ابريل ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٩</biblScope>
+                  <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+            <head><title>حوادث داخليه</title></head>
+            <p>لما كان الحذر من شر الحريقات المحتمل وقوعها لا يتأتى الا بوجود الطلومبات على قدر
+               لزومها وكانت  <placeName type="ناحية" ref="ناحية-القصر-العالى">ناحية <placeName
+                     ref="القصر-العالى" type="قصر">القصر العالى</placeName></placeName> و <placeName
+                  type="قصر" ref="قصر-النيل">قصر النيل</placeName> و <placeName ref="قصر-العينى"
+                  type="قصر">قصر العينى</placeName> لم توجد فيها طلومبة كسائر الموجودات فى كل جانب
+               من مصر المحروسة حصل ترتيب طلومبة مخصوصة لتلك الناحية مع طلومبجيتها لتكون حاضرة هنالك
+               وصدر التنبيه على ناظر <placeName><orgName type="اسبيتالية"
+                     ref="اسبتالية_القصر_العينى">الاسبيتالية</orgName></placeName>التى فى قصر العينى
+               بتخلية محل لحفظها واقامة الطلومبجية</p>
          </div>
          <div xml:id="w18" resp="#eSG">
             <head><date when-custom="1263-04-19">١٩ ربيع الثاني ١٢٦٣</date><date when="1847-04-06">٦
