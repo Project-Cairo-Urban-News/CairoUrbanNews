@@ -10,7 +10,7 @@
  * 'ادارة'‎: [1299_M-S.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1299_M-S.xml&text=%D8%A7%D8%AF%D8%A7%D8%B1%D8%A9), [1298.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1298.xml&text=%D8%A7%D8%AF%D8%A7%D8%B1%D8%A9)
  * 'ادارة-الأشغال-العمومية'‎: [1284.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1284.xml&text=%D8%A7%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A3%D8%B4%D8%BA%D8%A7%D9%84-%D8%A7%D9%84%D8%B9%D9%85%D9%88%D9%85%D9%8A%D8%A9)
  * 'اسبتالية'‎: [1289.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1289.xml&text=%D8%A7%D8%B3%D8%A8%D8%AA%D8%A7%D9%84%D9%8A%D8%A9)
- * 'اسبتالية_القصر_العينى'‎: [1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1263.xml&text=%D8%A7%D8%B3%D8%A8%D8%AA%D8%A7%D9%84%D9%8A%D8%A9_%D8%A7%D9%84%D9%82%D8%B5%D8%B1_%D8%A7%D9%84%D8%B9%D9%8A%D9%86%D9%89)
+ * 'اسبيتالية'‎: [1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1263.xml&text=%D8%A7%D8%B3%D8%A8%D9%8A%D8%AA%D8%A7%D9%84%D9%8A%D8%A9)
  * 'اسبيطالية'‎: [1248.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1248.xml&text=%D8%A7%D8%B3%D8%A8%D9%8A%D8%B7%D8%A7%D9%84%D9%8A%D8%A9)
  * 'اصطبل'‎: [1247.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1247.xml&text=%D8%A7%D8%B5%D8%B7%D8%A8%D9%84), [1248.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1248.xml&text=%D8%A7%D8%B5%D8%B7%D8%A8%D9%84)
  * 'الأجزخانة'‎: [1286.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1286.xml&text=%D8%A7%D9%84%D8%A3%D8%AC%D8%B2%D8%AE%D8%A7%D9%86%D8%A9)
