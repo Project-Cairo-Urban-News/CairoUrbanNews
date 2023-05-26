@@ -51,8 +51,11 @@ table {
 td {
   border: thin solid silver;
 }
-.tooltip > .tooltip-inner {
-  font-size: 2rem;
+
+.custom-tooltip {
+  --bs-tooltip-font-size: 2rem;
+  --bs-tooltip-bg: var(--bs-gray-800);
+  --bs-tooltip-opacity: 1;
 }
 tei-choice tei-sic {
   display: none;

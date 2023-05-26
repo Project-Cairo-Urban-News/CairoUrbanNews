@@ -5,7 +5,7 @@ const behaviors = {
       const corr = elt.querySelector('tei-corr');
       corr.setAttribute("title", sic.textContent);
       corr.setAttribute("data-bs-toggle", "tooltip");
-      sic.appendChild(document.createTextNode('(!)'));
+      corr.setAttribute("data-bs-custom-class", "custom-tooltip");
     },
     "date": ['',' '],
     "div": function(elt) {
@@ -14,6 +14,9 @@ const behaviors = {
       link.innerHTML = `${this.getOrdinality(elt)}.`;
       elt.prepend(link);
     },
+    "sic": [
+      [":not(tei-choice) tei-sic", ['','(!)']],
+    ],
     "table": function(elt) {
       const table = document.createElement("table");
       if (elt.firstElementChild.localName == "tei-head") {
