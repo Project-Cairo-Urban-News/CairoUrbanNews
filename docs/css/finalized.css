@@ -51,6 +51,9 @@ table {
 td {
   border: thin solid silver;
 }
+.tooltip > .tooltip-inner {
+  font-size: 2rem;
+}
 tei-choice tei-sic {
   display: none;
 }

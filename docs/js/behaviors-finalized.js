@@ -2,7 +2,9 @@ const behaviors = {
   "tei": {
     "choice": function(elt) {
       const sic = elt.querySelector('tei-sic');
-      elt.querySelector('tei-corr').setAttribute("title", sic.textContent);
+      const corr = elt.querySelector('tei-corr');
+      corr.setAttribute("title", sic.textContent);
+      corr.setAttribute("data-bs-toggle", "tooltip");
       sic.appendChild(document.createTextNode('(!)'));
     },
     "date": ['',' '],
