@@ -429,8 +429,11 @@
         <p> ورد الى <orgName type="مجلس" ref="مجلس-المشورى">مجلس المشورى</orgName> من <orgName
             type="خزينة" ref="الخزينة-العامرة">الخزينة العامرة</orgName>
           <rs type="كشف">كشف</rs> مضمونه انه فى اليوم الثانى عشر من ذى الحجه سنه اربع وثلاثين امر
-          حضرة <persName>محمود بيك افندى كخدا حضرة الداورى سابقا</persName> بان يعطى من <placeName
-            type="شونة" ref="الشونة_العليق">الشونة العليق</placeName> فى <placeName
+          حضرة <persName>محمود بيك افندى <choice>
+              <sic>كخدا</sic>
+              <corr>كتخدا</corr>
+            </choice> حضرة الداورى سابقا</persName> بان يعطى من <placeName type="شونة"
+            ref="الشونة_العليق">الشونة العليق</placeName> فى <placeName
             ref="بولاق https://www.openstreetmap.org/node/317193944">بولاق</placeName> الى
             <persName>عثمان اغا نظر المواشى الميرية</persName> التى فى ناحية ناى ثلثماية اردب فولا
           لاجل ماكل هذه المواشى فاخذ الاغا المومى اليه من <persName>عمر افندى ناظر شونة
