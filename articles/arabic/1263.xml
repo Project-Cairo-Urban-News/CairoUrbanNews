@@ -1273,9 +1273,11 @@
                   سعادة</placeName> وتنمر بالمداد الأحمر</p>
          </div>
          <div xml:id="w44" resp="#eSG">
-            <head><date when-custom="1263-09-14">١٤ رمضان ١٢٦٣</date><date when="1847-08-26">٢٦
-                  اغسطس ١٨٤٧</date><bibl><biblScope unit="issue">نمرة ٧٨</biblScope><biblScope unit="page">صفحة ١-٢</biblScope></bibl></head>
-            <head>الحوادث الداخليه</head>
+            <head><date when-custom="1263-09-14">١٤ رمضان ١٢٦٣</date>
+               <date when="1847-08-26">٢٦ اغسطس ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٧٨</biblScope>
+                  <biblScope unit="page">صفحة ١-٢</biblScope></bibl></head>
+            <head><title>الحوادث الداخليه</title></head>
             <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ترجمة الكشف العربى
                الوارد الآن من <orgName type="الضابطخانه">الضابطخانه</orgName> ببيان التخريبات
                والتلفيات التى نشأت بسبب ال<rs type="زلزلة">زلزلة</rs>المهولة التى وقعت بمصر المحروسة
@@ -1624,13 +1626,16 @@
             </p>
          </div><?oxy_custom_end?>
          <div xml:id="w45" resp="#eSG">
-            <head><date when-custom="1263-09-14">١٤ رمضان ١٢٦٣</date><date when="1847-08-26">٢٦
-                  اغسطس ١٨٤٧</date><bibl><biblScope unit="issue">نمرة ٧٨</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-            <head>اعلانات</head>
-            <p>ان <placeName>منزل السيد محمود عابدين</placeName> الكائن ب<placeName>خط العقادين
-                  الرومى</placeName> طبقته العليا فيها احدى عشرة اودة وثلاث فسحات وحمام ومطبخ
-               والسفلى في[ه]ا طاحونة وله حوش وحديقة وفسحة ومطبخ ارضى يراد بيعه فمن كان له رغبة فيه
-               فليسأل عن[ه] من دلال باشى المذكور. </p>
+            <head><date when-custom="1263-09-14">١٤ رمضان ١٢٦٣</date>
+               <date when="1847-08-26">٢٦ اغسطس ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٧٨</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head><title>اعلانات</title></head>
+            <p>ان <placeName type="منزل" ref="منزل-السيد-محمود-عابدين">منزل <persName>السيد محمود
+                     عابدين</persName></placeName> الكائن ب<placeName type="خط"
+                  ref="خط-العقادين-الرومى">خط العقادين الرومى</placeName> طبقته العليا فيها احدى
+               عشرة اودة وثلاث فسحات وحمام ومطبخ والسفلى <sic>في[ه]ا</sic> طاحونة وله حوش وحديقة
+               وفسحة ومطبخ ارضى يراد بيعه فمن كان له رغبة فيه فليسأل عن[ه] من دلال باشى المذكور.</p>
          </div>
          <div xml:id="w46" resp="#eSG">
             <head><date when-custom="1263-09-21">٢١ رمضان ١٢٦٣</date><date when="1847-09-02">٢
