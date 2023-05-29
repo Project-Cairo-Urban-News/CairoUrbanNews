@@ -1235,30 +1235,42 @@
                تكون حمرآء</p>
          </div>
          <div xml:id="w43" resp="#eSG">
-            <head><date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣</date><date when="1847-08-03">٣ اغسطس
-                  ١٨٤٧</date><bibl><biblScope unit="issue">نمرة ٧٧</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
-            <p> البند الثالث والاربعون ان الطريق الممتدة من الحجر المارة امام <placeName>بيت المرحوم
-                     <persName>ابراهيم باشا يكن</persName></placeName>الواصلة الى <placeName>شارع
-                  سوق السلاح</placeName> تسمى ب<placeName>سكة الكومى</placeName> ونمرتها تبتدأ من
-               جادة <placeName>سوق السلاح</placeName> وتكتب بالمداد الاسود</p>
-            <p> البند الرابع والاربعون ان الطريق الممتدة من امام <orgName type="قرقول_باب_الوزير">قرقول باب الوزير</orgName> الى سكة الكومى تسمى ب<placeName>عطفة
-                  الوسنمة</placeName> وتكون نمرتها سودآء</p>
-            <p>البند الخامس والاربعون ان الطريق المبتدأة من <placeName>شارع
-                     <placeName>القلعة</placeName></placeName> الممتدة الى سكة الكومى تسمى
-                  ب<placeName>درب القزازين</placeName> وتكون نمرتها حمرآء </p>
-            <p>البند السادس والاربعون ان الطريق الممتدة من <placeName>جامع ابراهيم اغا</placeName>
-               الكائن بشارع القلعة الى <placeName>جامع ارسلان</placeName> تسمى ب<placeName>درب
-                  شغلان</placeName> وتنمر بالمداد الاحمر </p>
-            <p>البند السابع والاربعون ان الطريق الممتدة من قرقول الى <placeName>الدرب
-                  المحروق</placeName> تسمى ب<placeName>شارع النبوية</placeName> وتنمر بالاحمر</p>
-            <p>البند الثامن والاربعون ان الطريق الممتدة من <placeName>باب الدرب المحروق</placeName>
-               الى <placeName>باب المحجر</placeName> تسمى بالدرب المحروق وتنمر بالمداد الاحمر </p>
-            <p>البند التاسع والاربعون ان الجادة الممتدة من <placeName>جامع قسماس</placeName>الكائن
-                  ب<placeName>الدرب الاحمر</placeName> فى شارع القلعة الى الدرب المحروق تسمى
-                  ب<placeName>بئر المش</placeName> وتنمر بالمداد الاسود</p>
-            <p>البند المتمم للخمسين ان الطريق المبتدأة من <placeName>باب الخلق</placeName> الممتدة
-               الى جادة <placeName>الحمزاوى</placeName> تسمى ب<placeName>سكة درب سعادة</placeName>
-               وتنمر بالمداد الأحمر</p>
+            <head><date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣</date>
+               <date when="1847-08-03">٣ اغسطس ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٧٧</biblScope>
+                  <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+            <p> البند الثالث والاربعون ان الطريق الممتدة من الحجر المارة امام <placeName type="بيت"
+                  ref="بيت-المرحوم-ابراهيم-باشا-يكن">بيت المرحوم <persName>ابراهيم باشا
+                     يكن</persName></placeName> الواصلة الى <placeName ref="شارع-سوق-السلاح"
+                  type="شارع">شارع سوق السلاح</placeName> تسمى ب<placeName type="سكة"
+                  ref="سكة-الكومى">سكة الكومى</placeName> ونمرتها تبتدأ من <placeName
+                  ref="جادة-سوق-السلاح" type="جادة">جادة سوق السلاح</placeName> وتكتب بالمداد
+               الاسود</p>
+            <p>البند الرابع والاربعون ان الطريق الممتدة من امام <orgName type="قرقول"
+                  ref="قرقول-باب-الوزير">قرقول باب الوزير</orgName> الى سكة الكومى تسمى ب<placeName
+                  ref="عطفة-الوسنمة" type="عطفة">عطفة الوسنمة</placeName> وتكون نمرتها سودآء</p>
+            <p>البند الخامس والاربعون ان الطريق المبتدأة من <placeName ref="شارع-القلعة" type="شارع"
+                  >شارع <placeName ref="القلعة">القلعة</placeName></placeName> الممتدة الى سكة
+               الكومى تسمى ب<placeName ref="درب-القزازين" type="درب">درب القزازين</placeName> وتكون
+               نمرتها حمرآء</p>
+            <p>البند السادس والاربعون ان الطريق الممتدة من <placeName type="جامع"
+                  ref="جامع-ابراهيم-اغا">جامع ابراهيم اغا</placeName> الكائن بشارع القلعة الى
+                  <placeName ref="جامع-ارسلان" type="جامع">جامع ارسلان</placeName> تسمى ب<placeName
+                  ref="درب" type="درب-شغلان">درب شغلان</placeName> وتنمر بالمداد الاحمر</p>
+            <p>البند السابع والاربعون ان الطريق الممتدة من قرقول الى <placeName ref="الدرب-المحروق"
+                  >الدرب المحروق</placeName> تسمى ب<placeName ref="شارع-النبوية" type="شارع">شارع
+                  النبوية</placeName> وتنمر بالاحمر</p>
+            <p>البند الثامن والاربعون ان الطريق الممتدة من <placeName ref="باب-الدرب-المحروق"
+                  type="باب">باب الدرب المحروق</placeName> الى <placeName ref="باب-المحجر"
+                  type="باب">باب المحجر</placeName> تسمى بالدرب المحروق وتنمر بالمداد الاحمر</p>
+            <p>البند التاسع والاربعون ان الجادة الممتدة من <placeName ref="جامع-قسماس" type="جامع"
+                  >جامع قسماس</placeName> الكائن ب<placeName ref="الدرب-الاحمر">الدرب
+                  الاحمر</placeName> فى شارع القلعة الى الدرب المحروق تسمى ب<placeName
+                  ref="جادة-بئر-المش" type="جادة">بئر المش</placeName> وتنمر بالمداد الاسود</p>
+            <p>البند المتمم للخمسين ان الطريق المبتدأة من <placeName ref="باب-الخلق" type="باب">باب
+                  الخلق</placeName> الممتدة الى  <placeName ref="جادة-الحمزاوى" type="جادة">جادة
+                  الحمزاوى</placeName> تسمى ب<placeName type="سكة" ref="سكة-درب-سعادة">سكة درب
+                  سعادة</placeName> وتنمر بالمداد الأحمر</p>
          </div>
          <div xml:id="w44" resp="#eSG">
             <head><date when-custom="1263-09-14">١٤ رمضان ١٢٦٣</date><date when="1847-08-26">٢٦
