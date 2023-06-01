@@ -10,7 +10,6 @@
  * ' الكابجي'‎: [1297.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1297.xml&text=%20%D8%A7%D9%84%D9%83%D8%A7%D8%A8%D8%AC%D9%8A)
  * 'المهندس'‎: [1244.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1244.xml&text=%D8%A7%D9%84%D9%85%D9%87%D9%86%D8%AF%D8%B3)
  * 'امين_افندى_ناظر_ديوان_الابنية'‎: [1248.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1248.xml&text=%D8%A7%D9%85%D9%8A%D9%86_%D8%A7%D9%81%D9%86%D8%AF%D9%89_%D9%86%D8%A7%D8%B8%D8%B1_%D8%AF%D9%8A%D9%88%D8%A7%D9%86_%D8%A7%D9%84%D8%A7%D8%A8%D9%86%D9%8A%D8%A9)
- * 'امين-افندى'‎: [1246.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1246.xml&text=%D8%A7%D9%85%D9%8A%D9%86-%D8%A7%D9%81%D9%86%D8%AF%D9%89)
  * 'بلطهجى'‎: [1246.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1246.xml&text=%D8%A8%D9%84%D8%B7%D9%87%D8%AC%D9%89)
  * ' تسما'‎: [1297.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1297.xml&text=%20%D8%AA%D8%B3%D9%85%D8%A7)
  * ' تيوفيلو-روسى'‎: [1294.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1294.xml&text=%20%D8%AA%D9%8A%D9%88%D9%81%D9%8A%D9%84%D9%88-%D8%B1%D9%88%D8%B3%D9%89)
