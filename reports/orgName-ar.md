@@ -153,6 +153,7 @@
  * 'ديوان-عموم-الأوقاف'‎: [1284.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1284.xml&text=%D8%AF%D9%8A%D9%88%D8%A7%D9%86-%D8%B9%D9%85%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D9%88%D9%82%D8%A7%D9%81)
  * 'ديوان-محافظة-مصر'‎: [1286.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1286.xml&text=%D8%AF%D9%8A%D9%88%D8%A7%D9%86-%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9-%D9%85%D8%B5%D8%B1), [1284.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1284.xml&text=%D8%AF%D9%8A%D9%88%D8%A7%D9%86-%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9-%D9%85%D8%B5%D8%B1)
  * 'ديون'‎: [1299_M-S.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1299_M-S.xml&text=%D8%AF%D9%8A%D9%88%D9%86)
+ * 'ربع'‎: [1247.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1247.xml&text=%D8%B1%D8%A8%D8%B9)
  * 'زاوية'‎: [1296.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1296.xml&text=%D8%B2%D8%A7%D9%88%D9%8A%D8%A9)
  * 'زاوية-الأربعين'‎: [1286.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1286.xml&text=%D8%B2%D8%A7%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9%D9%8A%D9%86)
  * 'زاوية-عثمان-بيك'‎: [1286.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1286.xml&text=%D8%B2%D8%A7%D9%88%D9%8A%D8%A9-%D8%B9%D8%AB%D9%85%D8%A7%D9%86-%D8%A8%D9%8A%D9%83)
