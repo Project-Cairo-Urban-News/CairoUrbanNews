@@ -13,19 +13,27 @@
   <xsl:variable name="standOff">
     <xsl:sequence select="//t:standOff"/>
   </xsl:variable>
+
+  <xsl:variable name="revisionDesc">
+    <xsl:sequence select="//t:revisionDesc"/>
+  </xsl:variable>
   
   <xsl:template match="/">
     <xsl:variable name="wrapper" select="doc('../master_CairoUrbanNews.xml')"/>
     <xsl:apply-templates select="$wrapper" mode="wrap"/>
   </xsl:template>
   
-  <!-- SUppress default attributes -->
+  <!-- Suppress default attributes -->
   <xsl:template match="@part|@default|@sample|@complete|@instant|@org|@status|@full" mode="#all"/>
   
   <xsl:template match="node()|@*" mode="#all">
     <xsl:copy>
       <xsl:apply-templates select="node()|@*" mode="#current"/>
     </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="t:revisionDesc" mode="wrap">
+    <xsl:apply-templates select="$revisionDesc/t:revisionDesc"/>
   </xsl:template>
   
   <xsl:template match="t:text" mode="wrap">

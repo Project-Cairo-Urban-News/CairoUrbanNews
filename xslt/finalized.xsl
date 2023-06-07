@@ -29,7 +29,7 @@
                 <xsl:variable name="vol" select="doc(.)"/>
                 <xsl:variable name="out" select="replace(., '.*/(\w+).xml', 'articles/arabic/$1.html')"/>
                 <xsl:variable name="name" select="replace(., '.*/(\w+).xml', '$1')"/>
-                <xsl:if test="$vol//t:text[@corresp='#FINALDRAFT']">
+                <xsl:if test="$vol//t:revisionDesc[@status='cleared']">
                   <li><a href="{$out}">{$name}</a></li>
                   <xsl:result-document href="../docs/{$out}" method="html">
                     <xsl:apply-templates select="$vol" mode="template"/>
@@ -43,7 +43,7 @@
                 <xsl:variable name="vol" select="doc(.)"/>
                 <xsl:variable name="out" select="replace(., '.*/(\w+).xml', 'articles/ottoman/$1.html')"/>
                 <xsl:variable name="name" select="replace(., '.*/(\w+).xml', '$1')"/>
-                <xsl:if test="$vol//t:text[@corresp='#FINALDRAFT']">
+                <xsl:if test="$vol//t:revisionDesc[@status='cleared']">
                   <li><a href="{$out}">{$name}</a></li>
                   <xsl:result-document href="../docs/{$out}" method="html">
                     <xsl:apply-templates select="$vol" mode="template"/>
