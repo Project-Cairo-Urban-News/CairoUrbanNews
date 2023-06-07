@@ -108,9 +108,9 @@
         <language ident="ota">Ottoman</language>
       </langUsage>
     </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="cleared">
       <listChange>
-        <change/>
+        <change when="2023-05-27" resp="#eAM" status="cleared"/>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -123,7 +123,7 @@
         <persName xml:lang="ar">ابراهيم باشا</persName></person>
     </listPerson>
   </standOff>
-  <text xml:lang="ar" corresp="#FINALDRAFT" resp="#eAM">
+  <text xml:lang="ar" resp="#eAM">
     <body>
       <div xml:id="w3" resp="#eNK #eAM #eSG">
         <head><date when-custom="1245-02-27">٢٧ صفر ١٢٤٥</date>

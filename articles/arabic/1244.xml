@@ -108,9 +108,9 @@
         <language ident="ota">Ottoman</language>
       </langUsage>
     </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="cleared">
       <listChange>
-        <change/>
+        <change when="2023-05-24" resp="#eAM" status="cleared"/>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -126,7 +126,7 @@
       </person>
     </listPerson>
   </standOff>
-  <text corresp="#FINALDRAFT" xml:lang="ar">
+  <text xml:lang="ar">
     <body>
       <div xml:id="w1" resp="#eSG #eAM">
         <head><date when-custom="1244-06-9">٩ جمادى الاخر ١٢٤٤</date>
