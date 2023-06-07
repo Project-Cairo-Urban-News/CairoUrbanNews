@@ -26,6 +26,7 @@
             <h2 id="arabic">العربية</h2>
             <ul id="arabic_files">
               <xsl:for-each select="uri-collection('../articles/arabic/?select=*.xml')">
+                <xsl:sort select="."/>
                 <xsl:variable name="vol" select="doc(.)"/>
                 <xsl:variable name="out" select="replace(., '.*/(\w+).xml', 'articles/arabic/$1.html')"/>
                 <xsl:variable name="name" select="replace(., '.*/(\w+).xml', '$1')"/>
@@ -40,6 +41,7 @@
             <h2 id="ottoman">Osmanlı</h2>
             <ul id="ottoman_files">
               <xsl:for-each select="uri-collection('../articles/ottoman/?select=*.xml')">
+                <xsl:sort select="."/>
                 <xsl:variable name="vol" select="doc(.)"/>
                 <xsl:variable name="out" select="replace(., '.*/(\w+).xml', 'articles/ottoman/$1.html')"/>
                 <xsl:variable name="name" select="replace(., '.*/(\w+).xml', '$1')"/>
