@@ -1,12 +1,1 @@
 # Organization Types
- * 'ایپکخانه'‎: [1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1263.xml&text=%D8%A7%DB%8C%D9%BE%DA%A9%D8%AE%D8%A7%D9%86%D9%87)
- * 'بشير-اغا-خانى'‎: [q8](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/q8&text=%D8%A8%D8%B4%D9%8A%D8%B1-%D8%A7%D8%BA%D8%A7-%D8%AE%D8%A7%D9%86%D9%89)
- * 'بويا-خانه'‎: [1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1263.xml&text=%D8%A8%D9%88%D9%8A%D8%A7-%D8%AE%D8%A7%D9%86%D9%87)
- * 'جامع'‎: [1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1263.xml&text=%D8%AC%D8%A7%D9%85%D8%B9)
- * 'جامع-ازهر'‎: [1265.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1265.xml&text=%D8%AC%D8%A7%D9%85%D8%B9-%D8%A7%D8%B2%D9%87%D8%B1)
- * 'دكرمن'‎: [1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1263.xml&text=%D8%AF%D9%83%D8%B1%D9%85%D9%86)
- * 'ضابطخانه'‎: [1264.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1264.xml&text=%D8%B6%D8%A7%D8%A8%D8%B7%D8%AE%D8%A7%D9%86%D9%87), [1265.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1265.xml&text=%D8%B6%D8%A7%D8%A8%D8%B7%D8%AE%D8%A7%D9%86%D9%87)
- * 'طوپخانه'‎: [1265.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1265.xml&text=%D8%B7%D9%88%D9%BE%D8%AE%D8%A7%D9%86%D9%87)
- * 'عمليات-ورشه-سى'‎: [1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1263.xml&text=%D8%B9%D9%85%D9%84%D9%8A%D8%A7%D8%AA-%D9%88%D8%B1%D8%B4%D9%87-%D8%B3%D9%89)
- * 'مجلس-خصوصی'‎: [1265.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1265.xml&text=%D9%85%D8%AC%D9%84%D8%B3-%D8%AE%D8%B5%D9%88%D8%B5%DB%8C)
- * 'ميری-مكتبلرى'‎: [1265.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1265.xml&text=%D9%85%D9%8A%D8%B1%DB%8C-%D9%85%D9%83%D8%AA%D8%A8%D9%84%D8%B1%D9%89)
