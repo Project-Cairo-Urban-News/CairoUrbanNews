@@ -76,7 +76,8 @@
         <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
           du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
         <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+            Volait</persName></p>
       </publicationStmt>
       <sourceDesc>
         <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
@@ -91,13 +92,17 @@
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
         <p>We use the Arabic script but transliteration into Latin characters follows the Library of
-          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf"
+            >Arabic transliteration chart</ref>.</p>
         <p>Each individual article has an individual xml:id number starting with "w1"</p>
-        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
-        <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
+          and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added
+          in an attribute to a persName.</p>
         <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
-          Editions</ref>.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref
+            target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+            Editions</ref>.</p>
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
@@ -108,53 +113,61 @@
         <language ident="ota">Ottoman</language>
       </langUsage>
     </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="cleared">
       <listChange>
-        <change/>
+        <change status="cleared" when="2023-06-15" resp="#eAM"/>
       </listChange>
     </revisionDesc>
   </teiHeader>
   
   <text xml:lang="ar">
       <body>
-         <div resp="#eSG" xml:id="w100">
+         <div resp="#eSG" xml:id="w100" n="RAILWAY">
         <head><date when-custom="1256-08-01">١ شعبان ١٢٥٦</date><date when="1840-08-29">٢٩ أغسطس
-            ١٨٤٠</date><bibl><biblScope unit="issue">نمره ٦٢١</biblScope><biblScope unit="page">صفحة
+            ١٨٤٠</date>
+          <bibl><biblScope unit="issue">نمره ٦٢١</biblScope><biblScope unit="page">صفحة
               ١</biblScope></bibl></head>
-        <p>ان <sic>الطريق</sic> المنشأة من الحديد الكائنة ب<placeName type="ناحيه" ref="ناحيه-طره">ناحيه طره</placeName>و<placeName ref="المعصره">المعصره</placeName> فيما بين <placeName type="جبل">الجبل</placeName> و<placeName type="شاطئ" ref="شاطئ النيل">شاطئ
+        <p>ان الطريق المنشأة من الحديد الكائنة ب<placeName type="ناحيه" ref="ناحيه-طره">ناحيه
+            طره</placeName> و<placeName ref="المعصره">المعصره</placeName> فيما بين <placeName
+            type="جبل">الجبل</placeName> و<placeName type="شاطئ" ref="شاطئ النيل">شاطئ
             النيل</placeName> قد بذل الجهد فى انشائها منذ ثلاث سنين حتى وصلت الى حد الختام فى هذه
           السنة المباركة وقد حصل بها السهولة التامة بحيث ان الحجارة الجسيمة التى كانت تنقل بصعوبة
           على العربيات النقالة الكبيرة من الجبل صارت توصل بعد هذا الى شاطئ النيل بواسطة تلك الطريق
           وتنزل فى السفن الحاضرة هناك بدون مشقة واستغنى بها عن استعمال الشغالة والبقر وكثير من
           العربيات فى نقل الحجر ومقدار المسافة التى بين محل قطع الحجارة من الجبل وشاطئ النيل ميل
           ونصف وربما يبلغ قريبا من ميلين وقد قطع من هذا الجبل حجارة كثيرة نظرا الى آثار المصريين
-          القديمة التى مضى عليها ثلاثة آلاف سنة اواربعة آلاف سنة ومن حيث ان الجبل المذكور لم تكن
+          القديمة التى مضى عليها ثلاثة آلاف سنة او اربعة آلاف سنة ومن حيث ان الجبل المذكور لم تكن
           حجارته على السوية بل الطبقة العليا منه حجارتها لينة رخوة والطبقة السفلى حجارتها صلبة قوية
           بالنسبة الى ما فوقها كان المتقدمون يقطعون الحجارة من السفلى لكونها جيدة وينحتون اماكن
           باسفل الجبل فى جانبى الوادى ويصنعون مغارات متسعة ويعملون هنالك <sic>اثافى</sic>
             و<sic>كوانين</sic> حتى انهم صيروا اسفل الجبل خروقا خروقا ونظروا فى قطعها الى جودة
-          الطبقات ونحتوها بكمال الدقة فى صنعة النحت حتى انهم اخذوا حجارة <placeName ref="الاهرام">الاهرام</placeName> الكبيرة الكائنة فى <placeName ref="الجيزة">الجيزة</placeName>من هذه
-          المحلات كما يعلم ذلك من آثارهم وحيث ان اكثر الحجارة فى هذا الزمان مستعملة بمصر فى الابنية
-          والعمارات التى تكون داخل الماء لكونها يتضاعف تصلبها فى الماء انشئت هذه <sic>الطريق</sic>
-          من الحديد روما لسهولة النقل على ان الحجارة اللازمة للقناطر والسدود والارصفة تقطع من جوار
-          ما أخذ المتقدمين ومما يحاذى طبقاتهم وتبتدئ هذه الطريق من شاطئ النيل وتنتهى الى الجبل وهى
+          الطبقات ونحتوها بكمال الدقة فى صنعة النحت حتى انهم اخذوا حجارة <placeName ref="الاهرام"
+            >الاهرام</placeName> الكبيرة الكائنة فى <placeName ref="الجيزة">الجيزة</placeName> من
+          هذه المحلات كما يعلم ذلك من آثارهم وحيث ان اكثر الحجارة فى هذا الزمان مستعملة بمصر فى
+          الابنية والعمارات التى تكون داخل الماء لكونها يتضاعف تصلبها فى الماء انشئت هذه الطريق من
+          الحديد روما لسهولة النقل على ان الحجارة اللازمة للقناطر والسدود والارصفة تقطع من جوار ما
+          أخذ المتقدمين ومما يحاذى طبقاتهم وتبتدئ هذه الطريق من شاطئ النيل وتنتهى الى الجبل وهى
           تنقسم الى ثلاثة اقسام ومسافة طولها ميل ونصف وقد وضعت على خطوط مائلة مختلفة نظرا الى كيفية
-          موضعها لنزول العربيات <sic>بثقله[ا]</sic> الى ساحل النيل حيث تنزل بطبعها فى الاقسام
-          الثلاثة وحيث ان القسم القريب من الوسط فيه ميل زآئد <sic>[...؟ ت ]</sic> فيه بكرات مرصوصة
-          على الارض فى بعض المحلات ليكون فيه قابلية لجر العربيات بطبعها وبالجملة فهى على طبقتين طبقة
-          عليا وهى القريبة من الجبل ومسافتها قليلة وطبقة سفلى وهى زوج تتصل بالساحل وقد ركبت فيها
-          آلات من الحديد مخصوصة بجر الاثقال وهى المعبر عنها بالعبارات لتنزيل الحجارة من الطبقة
-          العليا الى الطبقة السفلى بحيث انها تأخذ الحجر من فوق العربية التى فى الطبقة العليا وتضعه
-          على الثانية بقوة رجلين وكذلك ركبت عيارات ايضا فى ساحل النيل على هذا الوجه بحيث ناخذ الحجر
-          من العربية وتضعه فى السفن وقد بنى عند رأس الطريق المذكور رصيف غاية المتانة بحيث لم يكن له
-          نظير فى مصر من جهة الرصانة وذلك لاجل تقريب السفائن الى الساحل كما ينبغى واحضر من
-            <placeName ref="انجلتره">انجلتره</placeName> اثنان من المهندسين لعمل تلك الطريق المذكورة
-          وقد بلغ مقدار ما صرف فى تسويتها وانشائها وحديدها وآلاتها ستة آلاف كيس وثمانمائة وتسعة
-          وعشرين كيسا وهذا شئ مستجد فى جهة الشرق وسترى ثمراته بعد هذا ومن ذلك ان المقاولين كانوا
-          يقطعون المتر الواحد من الحجر المكعب وينزلونه الى الساحل فى العربيات القديمة بثمانية وعشرين
-          قرشا والان قد رضوا بتنزيله باقل مما ذكر بكثير ولما كان هذا الطريق قد حصل بهذه الكلفة
-          الكثيرة وهو شئ مستجد وفيه منافع عظيمة وكان من ذهب اليه شر ذمة قليلة من اهالى مصر مع انه
-          على نحو ستة اميال من المحروسة التزم قيده فى الوقائع من طرف <orgName type="ديوان" ref="ديوان-المدارس">ديوان المدارس</orgName> ليكون معلوما للجميع.</p>
+          موضعها لنزول العربيات <choice>
+            <sic>بثقله</sic>
+            <corr>بثقلها</corr>
+          </choice> الى ساحل النيل حيث تنزل بطبعها فى الاقسام الثلاثة وحيث ان القسم القريب من الوسط
+          فيه ميل زآئد <sic>[...]</sic> فيه بكرات مرصوصة على الارض فى بعض المحلات ليكون فيه قابلية
+          لجر العربيات بطبعها وبالجملة فهى على طبقتين طبقة عليا وهى القريبة من الجبل ومسافتها قليلة
+          وطبقة سفلى وهى زوج تتصل بالساحل وقد ركبت فيها آلات من الحديد مخصوصة بجر الاثقال وهى المعبر
+          عنها بالعبارات لتنزيل الحجارة من الطبقة العليا الى الطبقة السفلى بحيث انها تأخذ الحجر من
+          فوق العربية التى فى الطبقة العليا وتضعه على الثانية بقوة رجلين وكذلك ركبت عيارات ايضا فى
+          ساحل النيل على هذا الوجه بحيث ناخذ الحجر من العربية وتضعه فى السفن وقد بنى عند رأس الطريق
+          المذكور رصيف غاية المتانة بحيث لم يكن له نظير فى مصر من جهة الرصانة وذلك لاجل تقريب
+          السفائن الى الساحل كما ينبغى واحضر من <placeName ref="انجلتره">انجلتره</placeName> اثنان
+          من المهندسين لعمل تلك الطريق المذكورة وقد بلغ مقدار ما صرف فى تسويتها وانشائها وحديدها
+          وآلاتها ستة آلاف كيس وثمانمائة وتسعة وعشرين كيسا وهذا شئ مستجد فى جهة الشرق وسترى ثمراته
+          بعد هذا ومن ذلك ان المقاولين كانوا يقطعون المتر الواحد من الحجر المكعب وينزلونه الى الساحل
+          فى العربيات القديمة بثمانية وعشرين قرشا والان قد رضوا بتنزيله باقل مما ذكر بكثير ولما كان
+          هذا الطريق قد حصل بهذه الكلفة الكثيرة وهو شئ مستجد وفيه منافع عظيمة وكان من ذهب اليه شر
+          ذمة قليلة من اهالى مصر مع انه على نحو ستة اميال من المحروسة التزم قيده فى الوقائع من طرف
+            <orgName type="ديوان" ref="ديوان-المدارس">ديوان المدارس</orgName> ليكون معلوما
+          للجميع.</p>
       </div>
       </body>
    </text>
