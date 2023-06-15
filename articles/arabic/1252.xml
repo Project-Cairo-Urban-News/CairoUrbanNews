@@ -76,7 +76,8 @@
         <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
           du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
         <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+            Volait</persName></p>
       </publicationStmt>
       <sourceDesc>
         <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
@@ -91,13 +92,17 @@
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
         <p>We use the Arabic script but transliteration into Latin characters follows the Library of
-          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf"
+            >Arabic transliteration chart</ref>.</p>
         <p>Each individual article has an individual xml:id number starting with "w1"</p>
-        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
-        <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
+          and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added
+          in an attribute to a persName.</p>
         <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
-          Editions</ref>.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref
+            target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+            Editions</ref>.</p>
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
@@ -108,9 +113,9 @@
         <language ident="ota">Ottoman</language>
       </langUsage>
     </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="cleared">
       <listChange>
-        <change/>
+        <change status="cleared" resp="#eAM" when="2023-06-15"/>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -119,18 +124,16 @@
       <body>
       <div resp="#eNK #eSG" xml:id="W152">
         <head><date when-custom="1252-10-06">٦ شوال ١٢٥٢</date>
-          <date when="1837-01-13">١٣ يناير ١٨٣٧</date><bibl>
+          <date when="1837-01-13">١٣ يناير ١٨٣٧</date>
+          <bibl>
             <biblScope unit="issue">نمرة ٦١٠</biblScope>
-            <biblScope unit="page">صفحة ٣</biblScope>
-          </bibl>
-        </head>
-        <p>ان حضرة البيك ناظر <orgName type="اوقاف">الاوقاف</orgName> المصريه ومدير
-          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah" timestamp="20230427T152306+0200" comment="orgname?"?>الشفلكات<?oxy_comment_end?>
-          البحريه<?oxy_custom_end?> قد عرض لحضرة مأمور <orgName type="ديوان" ref="الديوان-الخديوى">الديوان الخديوى</orgName>انه محتاج الى ديوان يقيم به هو والكتبة الذين معه ورتب له
-            <placeName type="بيت" ref="بيت -من-بيوت-الميرى">بيت</placeName>من بيوت الميرى وحيث ان
-          بعض محلات البيت محتاج الى التعمير وكشف عنه بمعرفة البيك مفتش الابنيه وتبين انه يتم بثلاثه
-          وثلاثين الف قرش وكسور وحرر اشعارا لى المفتش المومى اليه بان يبادر الى عمارته ويسارع فى
-          ختامها.</p>
+            <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
+        <p>ان حضرة البيك ناظر <orgName>الاوقاف المصريه</orgName> ومدير <orgName>الشفلكات
+            البحريه</orgName> قد عرض لحضرة مأمور <orgName type="ديوان" ref="الديوان-الخديوى">الديوان
+            الخديوى</orgName> انه محتاج الى ديوان يقيم به هو والكتبة الذين معه ورتب له بيت من بيوت
+          الميرى وحيث ان بعض محلات البيت محتاج الى التعمير وكشف عنه بمعرفة البيك مفتش الابنيه وتبين
+          انه يتم بثلاثه وثلاثين الف قرش وكسور وحرر <rs type="اشعار">اشعار</rs>ا لى المفتش المومى
+          اليه بان يبادر الى عمارته ويسارع فى ختامها.</p>
       </div>
     </body>
    </text>
