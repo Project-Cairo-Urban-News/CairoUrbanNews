@@ -76,7 +76,8 @@
         <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
           du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
         <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+            Volait</persName></p>
       </publicationStmt>
       <sourceDesc>
         <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
@@ -91,13 +92,17 @@
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
         <p>We use the Arabic script but transliteration into Latin characters follows the Library of
-          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf"
+            >Arabic transliteration chart</ref>.</p>
         <p>Each individual article has an individual xml:id number starting with "w1"</p>
-        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
-        <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
+          and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added
+          in an attribute to a persName.</p>
         <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
-          Editions</ref>.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref
+            target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+            Editions</ref>.</p>
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
@@ -108,9 +113,9 @@
         <language ident="ota">Ottoman</language>
       </langUsage>
     </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="cleared">
       <listChange>
-        <change/>
+        <change status="cleared" resp="#eAM" when="2023-06-17"/>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -118,20 +123,23 @@
   <text xml:lang="ar">
     <body>
       <div xml:id="w1" resp="#eSG">
-        <head><date when-custom="1261-03-27">٢٧ ربيع الاول ١٢٦١</date><date when="1845-04-05">٥
-            ابريل ١٨٤٥</date><bibl><biblScope unit="issue">نمرة ٣</biblScope>
+        <head><date when-custom="1261-03-27">٢٧ ربيع الاول ١٢٦١</date>
+          <date when="1845-04-05">٥ ابريل ١٨٤٥</date><bibl><biblScope unit="issue">نمرة
+              ٣</biblScope>
             <biblScope unit="page">صفحة ٢</biblScope></bibl></head> 
         <head><title>الحوادث الداخلية</title></head>    <p>مما لا يخفى ان وقوع ال<rs type="حريق">حريق</rs> فى مصر المحروسة قليل وانه اذا ظهر يبادر الى
           اطفائه من غير تاخير غير انه والعياذ بالله اذا وقع فى جهة بعيدة يخشى من سرايته وانتشاره الى
-          الاطراف قبل ان يصل الخبر الى <orgName type="الضابطخانه" ref="الضابطخانه">الضابطخانه</orgName> فستصوب ان يرتب سبع طلمبات زيادة على الاربع الموجودة فى الضابطخانة
+          الاطراف قبل ان يصل الخبر الى <orgName type="الضابطخانه" ref="الضابطخانه"
+            >الضابطخانه</orgName> فستصوب ان يرتب سبع طلمبات زيادة على الاربع الموجودة فى الضابطخانة
           رعاية للحزم والاحتياط وان يخصص مركزا لها سبعة اماكن من <orgName type="باش_قرقولات">الباش
             قرقولات</orgName> الموجودة فى المحروسة و<placeName ref="بولاق">بولاق</placeName>
-            و<placeName ref="مصر-العتيه">مصر العتيه</placeName>لتوضع فيها حتى اذا وقع حريق فى محل
-          قريب منها يبادر الى اطفائه بالطلومبة الموجودة فى <orgName type="قره-قول">القرقول</orgName>وان يعين لكل من هذه الطلومبات السبع التى يراد زيادتها واحد من رجال
-          الجهادية التسعة الكائنين بالضابطخانه الذين اكتسبوا المهارة فى صنعة الطلومبة ويرقى الى رتبة
-          الاونباشى وان ينصب من كان فائقا من الاستاذين اللذين فى الضابطخانة ملاحظا عليهم بحيث اذا
-          وقع نقص من هؤلاء المستجدين فى اجرآء الصنعة المذكورة يوقفهم عليه كما ينبغى ويضم الى شهريته
-          مقدار وافى واجرى العمل على الوجه المشروح كما استصوب.</p></div>
+            و<placeName ref="مصر-العتيه">مصر العتيه</placeName> لتوضع فيها حتى اذا وقع حريق فى محل
+          قريب منها يبادر الى اطفائه بالطلومبة الموجودة فى <orgName type="قره-قول"
+              ><sic>القرقول</sic></orgName> وان يعين لكل من هذه الطلومبات السبع التى يراد زيادتها
+          واحد من رجال الجهادية التسعة الكائنين بالضابطخانه الذين اكتسبوا المهارة فى صنعة الطلومبة
+          ويرقى الى رتبة الاونباشى وان ينصب من كان فائقا من الاستاذين اللذين فى الضابطخانة ملاحظا
+          عليهم بحيث اذا وقع نقص من هؤلاء المستجدين فى اجرآء الصنعة المذكورة يوقفهم عليه كما ينبغى
+          ويضم الى شهريته مقدار وافى واجرى العمل على الوجه المشروح كما استصوب.</p></div>
     </body>
   </text>
 </TEI>
