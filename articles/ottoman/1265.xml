@@ -118,15 +118,18 @@
   <text xml:lang="ota">
       <body>
          <div xml:id="w141" resp="#eHS">
-            <head><date when-custom="1265-01-01">٠١ محرم ١٢٦٥</date><bibl><biblScope unit="issue">نمره ١٤١</biblScope><biblScope unit="page">ص ٦</biblScope></bibl></head>
+            <head><date when-custom="1265-01-01">١ محرم ١٢٦٥</date><bibl><biblScope unit="issue"
+                     >نمره ١٤١</biblScope><biblScope unit="page">ص ٦</biblScope></bibl></head>
             <head>اعلانات</head>
-            <p><placeName ref="بركة-الفيل-سمتى https://www.geonames.org/7922138/birkat-al-fil.html">بركة الفيل سمتنده</placeName> واقع اوست قاتده مرمر دوشه لی بش بيوك ومرمر سز اون
+            <p><placeName ref="بركة الفيل سمتى https://www.geonames.org/7922138/birkat-al-fil.html"
+                  >بركة الفيل سمتنده</placeName> واقع اوست قاتده مرمر دوشه لی بش بيوك ومرمر سز اون
                بش  کچوك اوطه والت قاتده سکز اوطه و مرمرلی و فسقيه لی بر منظره ایله ایکی مرمر دیرکلی
                فسحه سی وایکی صفه لی د يکر بر منظره و برمطبخ  و بر حمام و بش مغازه و سکز حيوان آلور
                بر آخور و بر قيو و اچیق حولیسی و فسقیه لی بر اوفق کوشکی و ساقيه سی موجود بر فدان کلور
                بر باغچه سی بولنور اليوم <rs>مزادده</rs> سكسان بشبيك غروشه چیقمش مرحوم
                   <persName>ارنبوط حسن پاشا</persName> وارثلرینك بر باب خانه سی صاتیلق اولوب
-               استکلوسی وار ایسه <persName>دلالباشی سید مصطفادن</persName> استدلال ایتمسی</p>
+               استکلوسی وار ایسه <persName role="دلالباشی">دلالباشی سید مصطفادن</persName> استدلال
+               ایتمسی</p>
          </div>
          <div resp="#eHS" xml:id="w142">
             <head><date when-custom="1265-01-01">٠١ محرم ١٢٦٥</date><bibl><biblScope unit="issue">نمره ١٤١</biblScope><biblScope unit="page">ص ٦</biblScope></bibl></head>
@@ -159,7 +162,9 @@
          </div>
          <div resp="#eHS" xml:id="w145">
             <head><date when-custom="1265-01-08">٠٨ محرم ١٢٦٥</date><bibl><biblScope unit="issue">نمره ١٤٢</biblScope><biblScope unit="page">ص ٢</biblScope></bibl></head>
-            <p><orgName ref="جيزه-مدیريتى">جيزه مدیريتنده</orgName> کائن <placeName ref="منصوريه-قريه-سى">منصوريه قريه سی</placeName>  مشايخى <placeName ref="شرقاويه-ترعه-سى">شرقاويه ترعه سنك</placeName> تطهيری ايچون حصه لرینه اصابت
+            <p><orgName ref="جيزه-مدیريتى">جيزه مدیريتنده</orgName> کائن <placeName
+                  ref="منصوريه-قريه-سى" type="قريه">منصوريه قريه سی</placeName> مشايخى <placeName
+                  ref="شرقاويه-ترعه-سى">شرقاويه ترعه سنك</placeName> تطهيری ايچون حصه لرینه اصابت
                ایدن انفاری تماما كتورمیوب اهمال ایتمش اولدقلرندن <rs type="قانون">قانونك</rs> ٦جى
                بندی موجبنجه مشايخ مرقومه تربیه وتأدیب اولنمشلردر</p>
          </div>
