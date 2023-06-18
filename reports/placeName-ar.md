@@ -1,5 +1,4 @@
 # Place Types
- * 'أودة'‎: [1262.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1262.xml&text=%D8%A3%D9%88%D8%AF%D8%A9)
  * 'ابعادية'‎: [1247.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1247.xml&text=%D8%A7%D8%A8%D8%B9%D8%A7%D8%AF%D9%8A%D8%A9)
  * 'ازقة'‎: [1262.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1262.xml&text=%D8%A7%D8%B2%D9%82%D8%A9), [1247.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1247.xml&text=%D8%A7%D8%B2%D9%82%D8%A9)
  * 'اسبتالية'‎: [1248.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1248.xml&text=%D8%A7%D8%B3%D8%A8%D8%AA%D8%A7%D9%84%D9%8A%D8%A9), [1262.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1262.xml&text=%D8%A7%D8%B3%D8%A8%D8%AA%D8%A7%D9%84%D9%8A%D8%A9)

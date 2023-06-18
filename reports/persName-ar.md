@@ -1,6 +1,7 @@
 # Person Roles
  * 'البصاص'‎: [1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%D8%A7%D9%84%D8%A8%D8%B5%D8%A7%D8%B5)
  * ' الخياط الرومى'‎: [1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%20%D8%A7%D9%84%D8%AE%D9%8A%D8%A7%D8%B7%20%D8%A7%D9%84%D8%B1%D9%88%D9%85%D9%89)
+ * 'الصراف'‎: [1262.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1262.xml&text=%D8%A7%D9%84%D8%B5%D8%B1%D8%A7%D9%81)
  * 'القاطن'‎: [1246.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1246.xml&text=%D8%A7%D9%84%D9%82%D8%A7%D8%B7%D9%86)
  * 'المأمور-باشغال-المحروسة'‎: [1246.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1246.xml&text=%D8%A7%D9%84%D9%85%D8%A3%D9%85%D9%88%D8%B1%20%D8%A8%D8%A7%D8%B4%D8%BA%D8%A7%D9%84%20%D8%A7%D9%84%D9%85%D8%AD%D8%B1%D9%88%D8%B3%D8%A9)
  * 'المأمور بصرف المهمات'‎: [1248.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1248.xml&text=%D8%A7%D9%84%D9%85%D8%A3%D9%85%D9%88%D8%B1%20%D8%A8%D8%B5%D8%B1%D9%81%20%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A7%D8%AA)
@@ -144,6 +145,7 @@
  * ' ملازم-المحروسة'‎: [1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%20%D9%85%D9%84%D8%A7%D8%B2%D9%85%20%D8%A7%D9%84%D9%85%D8%AD%D8%B1%D9%88%D8%B3%D8%A9)
  * 'ملتزم'‎: [1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%D9%85%D9%84%D8%AA%D8%B2%D9%85)
  * 'ملتزم الجلد'‎: [1248.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1248.xml&text=%D9%85%D9%84%D8%AA%D8%B2%D9%85%20%D8%A7%D9%84%D8%AC%D9%84%D8%AF)
+ * 'مملوك سليمان اغا'‎: [1262.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1262.xml&text=%D9%85%D9%85%D9%84%D9%88%D9%83%20%D8%B3%D9%84%D9%8A%D9%85%D8%A7%D9%86%20%D8%A7%D8%BA%D8%A7)
  * 'مهندس'‎: [1246.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1246.xml&text=%D9%85%D9%87%D9%86%D8%AF%D8%B3), [1247.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1247.xml&text=%D9%85%D9%87%D9%86%D8%AF%D8%B3)
  * 'ناظر_دار_الطباعة_العامرة'‎: [1249.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1249.xml&text=%D9%86%D8%A7%D8%B8%D8%B1%20%D8%AF%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B7%D8%A8%D8%A7%D8%B9%D8%A9%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%B1%D8%A9)
  * 'ناظر-ابنية-الجهادية'‎: [1247.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1247.xml&text=%D9%86%D8%A7%D8%B8%D8%B1%20%D8%A7%D8%A8%D9%86%D9%8A%D8%A9%20%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D8%AF%D9%8A%D8%A9)

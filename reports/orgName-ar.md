@@ -15,6 +15,7 @@
  * 'الطوبخانه'‎: [1248.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1248.xml&text=%D8%A7%D9%84%D8%B7%D9%88%D8%A8%D8%AE%D8%A7%D9%86%D9%87)
  * 'المخابز'‎: [1248.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1248.xml&text=%D8%A7%D9%84%D9%85%D8%AE%D8%A7%D8%A8%D8%B2)
  * 'المشورة_الملكية'‎: [1248.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1248.xml&text=%D8%A7%D9%84%D9%85%D8%B4%D9%88%D8%B1%D8%A9%20%D8%A7%D9%84%D9%85%D9%84%D9%83%D9%8A%D8%A9), [1249.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1249.xml&text=%D8%A7%D9%84%D9%85%D8%B4%D9%88%D8%B1%D8%A9%20%D8%A7%D9%84%D9%85%D9%84%D9%83%D9%8A%D8%A9)
+ * 'اورطة'‎: [1262.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1262.xml&text=%D8%A7%D9%88%D8%B1%D8%B7%D8%A9)
  * 'بارودخانه'‎: [1246.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1246.xml&text=%D8%A8%D8%A7%D8%B1%D9%88%D8%AF%D8%AE%D8%A7%D9%86%D9%87)
  * 'باش_قرقولات'‎: [1261.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1261.xml&text=%D8%A8%D8%A7%D8%B4%20%D9%82%D8%B1%D9%82%D9%88%D9%84%D8%A7%D8%AA)
  * 'بصمخانة'‎: [1249.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1249.xml&text=%D8%A8%D8%B5%D9%85%D8%AE%D8%A7%D9%86%D8%A9)
@@ -66,4 +67,4 @@
  * 'وجاق'‎: [1247.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1247.xml&text=%D9%88%D8%AC%D8%A7%D9%82)
  * 'ورشة'‎: [1248.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1248.xml&text=%D9%88%D8%B1%D8%B4%D8%A9)
  * 'وقف'‎: [1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%D9%88%D9%82%D9%81)
- * 'وكالة'‎: [1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%D9%88%D9%83%D8%A7%D9%84%D8%A9)
+ * 'وكالة'‎: [1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%D9%88%D9%83%D8%A7%D9%84%D8%A9), [1262.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1262.xml&text=%D9%88%D9%83%D8%A7%D9%84%D8%A9)
