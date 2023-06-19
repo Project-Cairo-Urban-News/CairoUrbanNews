@@ -4,7 +4,6 @@
  * 'اورطة'‎: [1262.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1262.xml&text=%D8%A7%D9%88%D8%B1%D8%B7%D8%A9)
  * 'بارودخانه'‎: [1246.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1246.xml&text=%D8%A8%D8%A7%D8%B1%D9%88%D8%AF%D8%AE%D8%A7%D9%86%D9%87)
  * 'بصمخانة'‎: [1249.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1249.xml&text=%D8%A8%D8%B5%D9%85%D8%AE%D8%A7%D9%86%D8%A9)
- * 'ترسانات'‎: [1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%D8%AA%D8%B1%D8%B3%D8%A7%D9%86%D8%A7%D8%AA)
  * 'ترسانة'‎: [1248.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1248.xml&text=%D8%AA%D8%B1%D8%B3%D8%A7%D9%86%D8%A9), [1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%D8%AA%D8%B1%D8%B3%D8%A7%D9%86%D8%A9), [1249.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1249.xml&text=%D8%AA%D8%B1%D8%B3%D8%A7%D9%86%D8%A9)
  * 'تفكخانه'‎: [1248.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1248.xml&text=%D8%AA%D9%81%D9%83%D8%AE%D8%A7%D9%86%D9%87)
  * 'تفنكخانه'‎: [1248.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1248.xml&text=%D8%AA%D9%81%D9%86%D9%83%D8%AE%D8%A7%D9%86%D9%87)
