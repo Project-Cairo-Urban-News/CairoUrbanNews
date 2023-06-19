@@ -8,7 +8,6 @@
  * 'اقاليم'‎: [1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%D8%A7%D9%82%D8%A7%D9%84%D9%8A%D9%85)
  * 'اقليم'‎: [1259.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1259.xml&text=%D8%A7%D9%82%D9%84%D9%8A%D9%85), [1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%D8%A7%D9%82%D9%84%D9%8A%D9%85), [1249.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1249.xml&text=%D8%A7%D9%82%D9%84%D9%8A%D9%85)
  * 'الازقة'‎: [1246.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1246.xml&text=%D8%A7%D9%84%D8%A7%D8%B2%D9%82%D8%A9)
- * 'الاسبيطالية'‎: [1248.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1248.xml&text=%D8%A7%D9%84%D8%A7%D8%B3%D8%A8%D9%8A%D8%B7%D8%A7%D9%84%D9%8A%D8%A9)
  * 'الاسواق'‎: [1246.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1246.xml&text=%D8%A7%D9%84%D8%A7%D8%B3%D9%88%D8%A7%D9%82)
  * 'الاهرام'‎: [1244.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1244.xml&text=%D8%A7%D9%84%D8%A7%D9%87%D8%B1%D8%A7%D9%85)
  * 'الدرسخانة'‎: [1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%D8%A7%D9%84%D8%AF%D8%B1%D8%B3%D8%AE%D8%A7%D9%86%D8%A9)
