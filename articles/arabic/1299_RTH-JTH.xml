@@ -119,10 +119,9 @@
   <text xml:lang="ar">
       <body>
          <div resp="#eAK" xml:id="K921">
-            <head><bibl><biblScope unit="issue">نمرة ١٣٤٦</biblScope> يوم <date
-                     when-custom="1299-04-1299">الاربعاء ١١ ربيع الثانى ١٢٩٩</date> الموافق <date
-                     when="1882-03-01">١ مارث ١٨٨٢</date>
-                  <biblScope unit="page">صفحة ٣</biblScope> – العمود ٣</bibl></head>
+            <head><date when-custom="1299-04-1299">الاربعاء ١١ ربيع الثانى ١٢٩٩</date><date
+                  when="1882-03-01">١ مارث ١٨٨٢</date><bibl><biblScope unit="issue">نمرة
+                     ١٣٤٦</biblScope><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
             <head>اعلانات</head>
             <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="نظارة-الاشغال-العمومية"
                   type="نظارة">نظارة الاشغال العمومية</orgName></head>
@@ -140,11 +139,10 @@
             </p>
          </div>
          <div resp="#eAK" xml:id="k922">
-            <head><bibl><biblScope unit="issue">نمرة ١٣٤٦</biblScope> يوم <date
-                     when-custom="1299-04-11">الاربعاء ١١ ربيع الثانى ١٢٩٩</date> الموافق <date
-                     when="1882-03-01">١ مارث ١٨٨٢</date>
-                  <biblScope unit="page">صفحة ٤</biblScope> – العمود ١</bibl></head>
-            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="ضبطية-مصر">ضبطية
+            <head><date when-custom="1299-04-11">الاربعاء ١١ ربيع الثانى ١٢٩٩</date><date
+                  when="1882-03-01">١ مارث ١٨٨٢</date><bibl><biblScope unit="issue">نمرة
+                     ١٣٤٦</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="ضبطية مصر">ضبطية
                   مصر</orgName></head>
             <head>القسم الخامس عشر</head>
             <p>عن بيان أملاك وأراضى الميرى بالمحروسة المقتضى مبيعها من ضمن الاعلانات السابق نشرها
