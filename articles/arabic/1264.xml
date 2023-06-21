@@ -117,67 +117,73 @@
   
   <text xml:lang="ar">
     <body>
-      <div xml:id="A1">
-        <head><date when-custom="1264-01-20">٢٠ محرم ١٢٦٤</date><date when="1847-12-28">٢٨ ديسمبر
-            ١٨٤٧</date><bibl><biblScope unit="issue">نمرة ٩٧</biblScope>
-            <biblScope unit="page">صفحة ١</biblScope>
-            <title>الحوادث الداخلية</title>
-          </bibl></head>
-        <p>لما تبين ان الاشجار المغروسة فى <placeName type="street-name">طريق <placeName ref="http://www.geonames.org/7912825/qal-at-muhammad-ali.html">القلعة</placeName></placeName> على يمنة الماثر ويسرته التى هى من جملة آثار المحاسن
-            <roleName type="ceremonial-title">الداورية</roleName> قد لطفت وزانت الطريق استحسن لدى
-            <roleName type="ceremonial-title">الخديوى</roleName> ان يغرس مثلها على حافتى <placeName type="street-name" ref="http://www.geonames.org/countries/EG/egypt.html">طريق
-            الرميلة</placeName> و<placeName> قرى ميدان</placeName> ايضا وتعلقت الارادة باجرآء
-          ذلك.</p>
-      </div>
-      <div xml:id="A2">
+      <div xml:id="A1" resp="#eSG">
         <head><date when-custom="1264-01-20">٢٠ محرم ١٢٦٤</date>
           <date when="1847-12-28">٢٨ ديسمبر ١٨٤٧</date>
           <bibl><biblScope unit="issue">نمرة ٩٧</biblScope>
-            <biblScope unit="page">صفحة ١</biblScope>
-            <title>الحوادث الداخلية</title>
-          </bibl></head>
-        <p>أنه قد ظهرت <rs type="fire ">حريقة</rs> فى <time when-custom="4:00 "> الساعة
-            الرابعة</time> من <date when-custom="1264-01-06">سادس الشهر</date> الحال بمنزل رجل اسمه
-            <persName>حسين ابو شنب</persName> فى <placeName type="حارة">حارة الحطابه</placeName>
-          الكائنة بخط <placeName type="خط">الدرب الاحمر</placeName> فاسعفت بالطلومبات والطلومبجية من
-          طرف الضابطخانه واطفئت فى ظرف <time>ساعتين</time> بدون سرايتها الى محل آخر.</p>
+            <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+        <head>
+          <title>الحوادث الداخلية</title></head>
+        <p>لما تبين ان الاشجار المغروسة فى <placeName type="طريق" ref="طريق-القلعة">طريق <placeName
+              ref="http://www.geonames.org/7912825/qal-at-muhammad-ali.html" type="قلعة"
+              >القلعة</placeName></placeName> على
+          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah" timestamp="20230621T150705+0200" comment="check in the original" mid="1"?>يمنة<?oxy_custom_end?><?oxy_comment_end mid="1"?>
+          الماثر ويسرته التى هى من جملة آثار المحاسن الداورية قد لطفت وزانت الطريق استحسن لدى
+          الخديوى ان يغرس مثلها على حافتى <placeName type="طريق" ref="طريق-الرميلة">طريق
+            الرميلة</placeName> و<placeName ref="قرى-ميدان">قرى ميدان</placeName> ايضا وتعلقت
+          الارادة باجرآء ذلك.</p>
       </div>
-      <div xml:id="A3">
-        <head><date when-custom="1264-02-06">٦ صفر ١٢٦٤</date> 
-          <date when="1848-01-12">١٢ يناير ١٨٤٨</date> 
+      <div xml:id="A2" resp="#eSG">
+        <head><date when-custom="1264-01-20">٢٠ محرم ١٢٦٤</date>
+          <date when="1847-12-28">٢٨ ديسمبر ١٨٤٧</date>
+          <bibl><biblScope unit="issue">نمرة ٩٧</biblScope>
+            <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+        <head><title>الحوادث الداخلية</title></head>
+        <p>أنه قد ظهرت <rs type="fire ">حريقة</rs> فى الساعة الرابعة من سادس الشهر الحال بمنزل رجل
+          اسمه <persName>حسين ابو شنب</persName> فى <placeName type="حارة" ref="حارة-الحطابه">حارة
+            الحطابه</placeName> الكائنة ب<placeName ref="خط-الدرب-الاحمر" type="خط">خط الدرب
+            الاحمر</placeName> فاسعفت بالطلومبات والطلومبجية من طرف <orgName ref="الضابطخانه"
+            >الضابطخانه</orgName> واطفئت فى ظرف ساعتين بدون سرايتها الى محل آخر.</p>
+      </div>
+      <div xml:id="A3" resp="#eSG">
+        <head><date when-custom="1264-02-06">٦ صفر ١٢٦٤</date>
+          <date when="1848-01-12">١٢ يناير ١٨٤٨</date>
           <bibl><biblScope unit="issue">نمرة ٩٩</biblScope>
-            <biblScope unit="page">صفحة ١</biblScope> <title>الحوادث الداخلية </title></bibl></head>
-        <p> كشف اجمالى مستخرج من دفاتر <orgName type="Engineering-office">قلم الهندسة</orgName>
-            ب<orgName type="Education-Ministry">ديوان المدارس</orgName> عن بيان المبالغ المنصرفة من
-            <roleName type="ceremonial-title">جناب الميرى</roleName> على بعض العمارات الكائنة
-            ب<placeName ref="http://www.geonames.org/360630/cairo.html">مصر</placeName> و<placeName ref="http://www.geonames.org/358048/damietta.html">دمياط</placeName> و<placeName ref="http://www.geonames.org/360689/menufia.html">المنوفية</placeName> ومديريات الوجه
-          القبلى عموما <measure commodity="currency" unit="بارة" quantity="122">بارة (؎) ٢٢
-            ١</measure> ترميمات <placeName>بمصر المحروسة</placeName> وما جاورها <gap reason="editorial" resp="#KN #SFG"/><note resp=" #KN #SFG"> (لم اكتب باقية المصاريف
-            لأنها خاصة بمحافظات اخرى)</note>
-        </p>
+            <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+        <p>كشف اجمالى مستخرج من دفاتر <orgName type="قلم" ref="قلم-الهندسة">قلم الهندسة</orgName>
+            ب<orgName type="ديوان" ref="ديوان-المدارس">ديوان المدارس</orgName> عن بيان المبالغ
+          المنصرفة من جناب الميرى على بعض ال<placeName>عمارات</placeName> الكائنة ب<placeName
+            ref="http://www.geonames.org/360630/cairo.html مصر">مصر</placeName> و<placeName
+            ref="http://www.geonames.org/358048/damietta.html دمياط">دمياط</placeName> و<placeName
+            ref="http://www.geonames.org/360689/menufia.html المنوفية">المنوفية</placeName>
+            و<orgName type="مديريات" ref="مديريات-الوجه-القبلى">مديريات الوجه القبلى</orgName> عموما </p>
+        <p>بارة (؎)</p>
+        <p> ٢٢ ١ ترميمات بمصر المحروسة وما جاورها</p>
       </div>
       <div xml:id="A4" resp="#eSG">
-        <head><date when-custom="1263-02-06">٦ صفر ١٢٦٤</date>
-          <date when="1848-01-12">١٢ يناير ١٨٤٨</date><bibl><biblScope unit="issue"> نمرة
-              ٩٩</biblScope>
-            <biblScope unit="page">صفحة ٤</biblScope>
-          </bibl></head>
-        <p>ان بيت الشيخ<persName> محمد الغلبان</persName> الذى فى <placeName type="حارة">حارة</placeName> درب سعادة الكائنة ب<placeName type="ثمن">ثمن</placeName>
-          <placeName>الدرب الاحمر</placeName> تشتمل طبقته العليا على قاعة كبيرة ذات خزنتين وفسحة
-          وعلى اودة ومطبخ وكيلار و مستحم وتشتمل السفلى على مقعد <sic>سلاملك</sic> ذى عمود من الرخام
-          وخزنة وعلى منظره وحاصلين واصطبل يسع ثلاثة حيوانات وبئر وحوش مكشوف وهو معرض للبيع بمعرفة
-            <orgName>بيت المال</orgName> فمن اراده فليستدل عليه من السيد <persName>مصطفى دلال
+        <head><date when-custom="1264-02-06">٦ صفر ١٢٦٤</date>
+          <date when="1848-01-12">١٢ يناير ١٨٤٨</date>
+          <bibl><biblScope unit="issue">نمرة ٩٩</biblScope>
+            <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+        <p>ان <placeName type="بيت" ref="بيت-الشيخ-محمد-الغلبان">بيت <persName>الشيخ محمد
+              الغلبان</persName></placeName> الذى فى <placeName type="حارة" ref="حارة-درب-سعادة"
+            >حارة درب سعادة</placeName> الكائنة ب<orgName ref="ثمن-الدرب-الاحمر" type="ثمن">ثمن
+            الدرب الاحمر</orgName> تشتمل طبقته العليا على قاعة كبيرة ذات خزنتين وفسحة وعلى اودة
+          ومطبخ وكيلار ومستحم وتشتمل السفلى على مقعد سلاملك ذى عمود من الرخام وخزنة وعلى منظره
+          وحاصلين واصطبل يسع ثلاثة حيوانات وبئر وحوش مكشوف وهو معرض للبيع بمعرفة <orgName
+            ref="بيت-المال">بيت المال</orgName> فمن اراده فليستدل عليه من السيد <persName>مصطفى دلال
             باشى</persName></p>
-        <p> ان بيتا آخر كائنا بجوار البيت المذكور طبقته العليا فيها اربع اود وثلاثة كلارات وحمام
-          ومطبخ والسفلى فيها مقعد ذو عمود من الرخام وخزنة وله فسحة فيها اودة وبه ثلاثة حواصل واصطبل
-          يسع ثلاثة حيوانات وطاحونة ومنظرة صغيرة وبئر وحوش سماوى وهو يراد بيعه بمعرفه بيت المال ايضا
-          فمن له رغبة فيه فليسأل عنه من <roleName type="occupation-title">الدلال</roleName>
+        <p>ان <placeName type="بيت">بيت</placeName>ا آخر كائنا بجوار البيت المذكور طبقته العليا فيها
+          اربع اود وثلاثة كلارات وحمام ومطبخ والسفلى فيها مقعد ذو عمود من الرخام وخزنة وله فسحة فيها
+          اودة وبه ثلاثة حواصل واصطبل يسع ثلاثة حيوانات وطاحونة ومنظرة صغيرة وبئر وحوش سماوى وهو
+          يراد بيعه بمعرفه بيت المال ايضا فمن له رغبة فيه فليسأل عنه من الدلال المذكور</p>
+        <p>ان <placeName type="بيت" ref="بيت-بعطفة-الدالى-حسين">بيت</placeName>ا كائنا ب<placeName
+            ref="عطفة-الدالى-حسين" type="عطفة">عطفة الدالى حسين</placeName> التى فى <placeName
+            type="خط" ref="خط-السروجية">خط السروجية</placeName> يتعلق بالمرحوم <persName>احمد اغا
+            جندى</persName> باشى طبقته العليا تشتمل على خمس اود مكملة بفسحاتها وخزنها وعلى حمام
+          ومطبخ وكلارين والسفلى تشتمل على ثلاثة حواصل ومنظرة صغيرة واصطبل يسع ثلاثة حيوانات وطاحونة
+          وبئر وحوش مكشوف وهو يراد بيعه بمعرفة بيت المال ايضا فمن كان يرغب فيه فليسأل عنه من الدلال
           المذكور</p>
-        <p>ان بيتا كائنا ب<placeName>عطفة الدالى حسين</placeName> التى فى خط <placeName type="خط">السروجية</placeName> يتعلق <addName type="deceased ">بالمرحوم</addName>
-          <persName>احمد اغا جندى</persName> باشى طبقته العليا تشتمل على خمس اود مكملة بفسحاتها
-          وخزنها وعلى حمام ومطبخ وكلارين والسفلى تشتمل على ثلاثة حواصل ومنظرة صغيرة واصطبل يسع ثلاثة
-          حيوانات وطاحونة وبئر وحوش مكشوف وهو يراد بيعه بمعرفة بيت المال ايضا فمن كان يرغب فيه
-          فليسأل عنه من الدلال المذكور</p>
       </div>
       <div xml:id="A5" resp="#eSG">
         <head><date when-custom="1264-02-18">١٨ صفر ١٢٦٤</date>
