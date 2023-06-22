@@ -120,16 +120,17 @@
          <div>
             <head><date when-custom="1282-7 - 1282-8">الموافق من شهر رجب إلي شهر شعبان
                1282ه</date></head>
-            <head><date when="1865-11">شهر نوفمبر 1865</date>
-               <date when-custom="1282-7">الموافق رجب 1282</date></head>
+            <head><date when="1865-11">شهر نوفمبر ١865</date>
+               <date when-custom="1282-7">الموافق رجب ١٢8٢</date></head>
             <p> ملاحظات: بدأت الوقائع المصرية الصدور في ثوبها الجديد وهذا بعد إضافة التقويم الهجري
                والميلادي وذلك بمسلسل جديد بدأ من العدد رقم (1) الصادر بتاريخ 25/11 الموافق 7 رجب. قد
                صدرت أعداد أخرى تركية مناظرة للأعداد العربية وتم التنوية عن هذا في نفس العدد. </p>
          </div>
          <div xml:id="w1" resp="#eSG">
-            <head><date when-custom="1282-7-26">26 رجب الفرد سنة 1282</date>
-               <date when="1865-12">14 ديسمبر افرنجي سنة 1865م</date><bibl><biblScope unit="issue"
-                     >نمرة 4</biblScope><biblScope unit="page">صفحة 1</biblScope></bibl></head>
+            <head><date when-custom="1282-7-26">٢٦ رجب الفرد سنة ١٢٨٢</date>
+               <date when="1865-12-14">١٤ ديسمبر افرنجي سنة ١٨٦٥</date>
+               <bibl><biblScope unit="issue">نمرة ٤</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
             <p>لما كان عزتلو <persName>محمد شافعي بيك حكيم باشي</persName> ال<orgName type="دائرة"
                   ref="الدائرة-الخديوية">دائرة الخديوية</orgName> الذي هو أحد مشاهير الأطباء المصرية
                وأساتيذ الفنون الطبية جديرًا بالتفضلات الدوارية ومستحقًا للرعاية الخديوية استحصل له
@@ -138,19 +139,32 @@
                   خانات</orgName></persName> برتبة ميرالاي المعتبرة والي <persName>أحمد ندى أفندي
                   خوجة العلوم الطبيعية والكيماوية والنباتية ب<placeName type="مدرسة"
                      ref="المدرسة-الطبية">المدرسة الطبية</placeName></persName> بالرتبة الرابعة.</p>
-            <p>
-               <sic><bibl>ص1 -عمود 3</bibl></sic>
-            </p>
-            <p>قد نعين كلا من سعادة على <persName>سري باشا</persName> رئيس<orgName
-                  type="مجلس-العسكرية">مجلس العسكرية</orgName> سابق وسعادة <persName>رامه لي عارف
-                  باشا</persName>وسعادة <persName>محمد حاذق باشا</persName> أعضاء بمجلس الأحكام كما
-                  اقتضيه<orgName>الأدارة السنية الخديوية</orgName>.</p>
          </div>
-         <div>
-            <p> *(نمرة الوقائع 6) </p>
-            <p> طبعت<orgName type="مطبعة-بولاق">بمطبعة بولاق</orgName>
-               <date when-custom="10-8-1282">يوم الخميس 10 شعبان سنة 1282ه</date> الموافق 20 كيهك
-               سنة 1582 و<date type="1865-12">28 ديسمبر افرنجي سنة 1865م</date>
+         <div resp="#eSG" xml:id="w2">
+            <head><date when-custom="1282-7-26">٢٦ رجب الفرد سنة ١٢٨٢</date>
+               <date when="1865-12-14">١٤ ديسمبر افرنجي سنة ١٨٦٥</date>
+               <bibl><biblScope unit="issue">نمرة ٤</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>قد
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah" timestamp="20230622T235715+0200" comment="check all the highlighted in the original" mid="1"?>نعين<?oxy_custom_end?><?oxy_comment_end mid="1"?>
+               كلا من سعادة <persName>على سري باشا</persName> رئيس<orgName type="مجلس"
+                  ref="مجلس-العسكرية">مجلس العسكرية</orgName>
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>سابق<?oxy_custom_end?>
+               وسعادة
+                  <persName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>رامه
+                  لي<?oxy_custom_end?> عارف باشا</persName> وسعادة <persName>محمد حاذق
+                  باشا</persName> أعضاء ب<orgName type="مجلس" ref="مجلس-الأحكام">مجلس
+                  الأحكام</orgName>
+               كما<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> اقتضيه
+                  <?oxy_custom_end?><orgName type="ادارة" ref="الأدارة-السنية-الخديوية">الأدارة
+                  السنية الخديوية</orgName>.</p>
+         </div>
+         <div resp="#eSG" xml:id="w3">
+            <head><date when-custom="1282-8-10">١٠ شعبان سنة ١٢٨٢</date>
+               <date when="1865-12-28">٢٨ ديسمبر افرنجي سنة ١٨٦٥</date>
+               <bibl><biblScope unit="issue">نمرة ٦</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p><date type="1865-12">28 ديسمبر افرنجي سنة 1865م</date>
             </p>
             <p>
                <sic>ص1 -عمود 3</sic>
@@ -178,7 +192,9 @@
             <head><date when="1866-01">شهر يناير 1866</date>
                <date when-custom="8/9-1282">الموافق من شهر شعبان إلى رمضان 1282ه</date></head>
             <p> *(نمرة الوقائع 7) </p>
-            <p> طبعت <orgName type="مطبعة-بولاق">بمطبعة بولاق</orgName><date when-custom="17-8-1282">يوم الخميس 17 شعبان سنة 1282ه</date>الموافق 27 كيهك سنة 1582<date when="1866-01">و4 يناير سنة 1866م</date></p>
+            <p> طبعت <orgName type="مطبعة-بولاق">بمطبعة بولاق</orgName><date when-custom="17-8-1282"
+                  >يوم الخميس 17 شعبان سنة 1282ه</date>الموافق 27 كيهك سنة 1582<date when="1866-01"
+                  >و4 يناير سنة 1866م</date></p>
             <p>
                <sic>ص1 -عمود 1</sic>
             </p>
