@@ -284,15 +284,27 @@
                بالقبول والأكرام والأحترام وحيث انا تحصلنا على جدول الخيول الجيدات السابقة الحائزات
                قصب السبق في مضمار المسابقة ادرجناه. </p>
          </div>
-         <div resp="#eSG">
-            <p>
-               <sic>ص1 -عمود 2</sic>
-            </p>
-            <p>بعد مضي نحو ثمان ساعات ونصف من ليلة الأثنين الموافق 12 من هذا الشهر ظهر حريق بمزل ملك
-               شخص يدعي عامر أفندي كائن بحارة البهلوان التابعة درب الجماميز سكن كل من محمد الشحري
-               وابراهيم افندي عوضين بمجرد وصول الخبر إلى ضبطية صار الأسعاف في الحال بإرسال ما يلزم
-               من الأشخاص والطلومبات واطفئت في نصف ساعة ولم تسير إلى الجهة أخرى ولم يحترق سوى زكيبة
-               فيها القليل من القطن وبعض سقف فسحة المنزل التي في السكن الوسط كما علم بالاستعلام.</p>
+         <div resp="#eSG" xml:id="w9">
+            <head><date when-custom="1282-8-24">٢٤ شعبان سنة ١٢٨٢</date>
+               <date when="1866-01-11">١١ يناير سنة ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ٨</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>بعد مضي نحو ثمان ساعات ونصف من ليلة الأثنين الموافق ١٢ من هذا الشهر ظهر <rs
+                  type="حريق">حريق</rs>
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah" timestamp="20230623T112229+0200" comment="check in the original" mid="24"?>ب<?oxy_custom_end?><?oxy_comment_end mid="24"?><placeName
+                  type="منزل" ref="منزل-عامر-أفندى"
+                  ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>مزل<?oxy_custom_end?></placeName>
+               ملك شخص يدعي <persName>عامر أفندي</persName> كائن ب<placeName type="حارة"
+                  ref="حارة-البهلوان">حارة البهلوان</placeName> التابعة <placeName type="درب"
+                  ref="درب-الجماميز"
+                  ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah" timestamp="20230625T181800+0200" comment="check in the original لدرب
+" mid="27"?>درب<?oxy_custom_end?><?oxy_comment_end mid="27"?>
+                  الجماميز</placeName> سكن كل من <persName>محمد الشحري</persName> و<persName>ابراهيم
+                  افندي عوضين</persName> بمجرد وصول الخبر إلى <orgName type="ضبطية"
+                  ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah" timestamp="20230625T181947+0200" comment="check in the original ال " mid="29"?>ضبطية<?oxy_custom_end?><?oxy_comment_end mid="29"?></orgName>
+               صار الأسعاف في الحال بإرسال ما يلزم من الأشخاص والطلومبات واطفئت في نصف ساعة ولم تسير
+               إلى الجهة أخرى ولم يحترق سوى <placeName type="زكيبة">زكيبة</placeName> فيها القليل من
+               القطن وبعض سقف فسحة المنزل التي في السكن الوسط كما علم بالاستعلام.</p>
             <p>
                <sic>ص3 -عمود 3</sic>
             </p>
