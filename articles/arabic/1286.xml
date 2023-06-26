@@ -131,31 +131,30 @@
             <div xml:id="w100" resp="#eSG #eAM">
                 <head><date when-custom="1286-01-03">٣ محرم ١٢۸٦</date>
                     <date when="1869-04-15">١٥ ابريل ١٨٦٩</date>
-                    <date when-custom="1585-04-08">٨ برموده ١٥٨٥</date>
-                    <bibl> <biblScope unit="issue">نمرة ۲٧٨</biblScope>
-                         <biblScope unit="page">صفحة ٤</biblScope></bibl>
+                    <bibl>
+                        <biblScope unit="issue">نمرة ۲٧٨</biblScope>
+                        <biblScope unit="page">صفحة ٤</biblScope></bibl>
                 </head>
-                <p> وردت افادة من  <orgName type="ديوان-الأوقاف">ديوان الأوقاف</orgName>  تتضمن انه
-                    اسيغ شرعا استبدال المنزل<orgName type="وقف"> وقف
-                            المرحوم<persName>عثمان</persName>
-                        <roleName>اغا</roleName></orgName> نظارة <persName> مصطفى</persName>
-                    <roleName role="اغا ">اغا</roleName> والست <persName>مهتاب</persName> الكائن
-                        <placeName>بحارة الانسية</placeName>
-                    <placeName>بالمغربلين</placeName> البالغ مسطحه  <measure unit="cubit">بالأذرع
-                        ۱۲٠٥</measure>وحرر في ذلك لاشهاره بقائمة مزايدة لمن يرغب الى <roleName role="معاون-أوقاف">معاون الأوقاف</roleName>
-                </p>
+                <p> وردت افادة من <orgName type="ديوان" ref="ديوان الأوقاف">ديوان الأوقاف</orgName>
+                    تتضمن انه اسيغ شرعا استبدال المنزل <orgName type="وقف">وقف المرحوم
+                            <persName>عثمان اغا</persName></orgName> نظارة <persName>مصطفى
+                        اغا</persName> و<persName>الست مهتاب</persName> الكائن <placeName
+                        type="حارة" ref="حارة الانسية">بحارة الانسية</placeName>
+                    <placeName ref="المغربلين">بالمغربلين</placeName> البالغ مسطحه بالأذرع ۱۲٠٥ وحرر
+                    في ذلك الى معاون الأوقاف لاشهاره بقائمة مزايدة لمن يرغب.</p>
             </div>
             <div xml:id="w101" resp="#eSG #eAM">
                 <head><date when-custom="1286-01-03">٣ محرم ١٢۸٦</date>
                     <date when="1869-04-15">۱٥ ابريل ١٨٦٩</date>
                     <bibl><biblScope unit="issue">نمرة ۲٧٨</biblScope>
                         <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-                <p> قد اشهر المرحوم <persName>علي سري باشا</persName> الذي كان من أعضاء<orgName type=" مجلس-الأحكام ">مجلس الأحكام</orgName><sic>الكائن</sic> <placeName ref="https://www.geonames.org/359824/as-sayyidah-zaynab.html">بدرب
-                        الجماميز</placeName> بجوار حضرة <placeName><persName>الشيخ
-                            السادات</persName></placeName>للمزايدة فيه وسلمت قائمته إلى
-                        الحاج<persName>مصطفى الجبوقجي</persName> <roleName type="دلال-العقارات">دلال
-                        العقارات</roleName> الذي سكنه ب<placeName ref="https://www.geonames.org/359824/as-sayyidah-zaynab.html">السيدة
-                        زينب</placeName>فكل من كان له رغبة في اشتراء هذا<placeName type="منزل">المنزل</placeName>فعليه بالدلال المذكور</p>
+                <p>قد اشهر منزل المرحوم <persName>علي سري باشا</persName> الذي كان من أعضاء <orgName
+                        ref="مجلس-الأحكام " type="مجلس ">مجلس الأحكام</orgName> الكائن <placeName
+                        ref="درب الجماميز" type="درب">بدرب الجماميز</placeName> بجوار حضرة
+                        <persName>شيخ السادات</persName> للمزايدة فيه وسلمت قائمته إلى <persName
+                        role="دلال العقارات">الحاج مصطفى الجبوقجي دلال العقارات</persName>  الذي
+                    سكنه ب<placeName ref="السيدة زينب">السيدة زينب</placeName> فكل من كان له رغبة في
+                    اشتراء هذا المنزل فعليه بالدلال المذكور.</p>
             </div>
             <div xml:id="w102" resp="#eSG #eAM">
                 <head><date when-custom="1286-02-09">٩ صفر ١٢۸٦</date>
