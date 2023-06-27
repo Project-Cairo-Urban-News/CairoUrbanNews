@@ -145,7 +145,7 @@
         document.querySelector("body").appendChild(data);
         if (url.searchParams.get('text')) {
           window.sessionStorage.removeItem(window.location + "-scroll")
-          window.find(url.searchParams.get('text').replace('+',' '));
+          window.find(url.searchParams.get('text').replace('+',' '), false, false, false, true);
         } 
       });
     } else {
