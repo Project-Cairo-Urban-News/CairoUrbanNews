@@ -63,6 +63,9 @@ tei-choice tei-sic {
 tei-choice tei-corr {
   border-bottom: thin dotted black;
 }
+tei-div {
+  display: block;
+}
 tei-div > a {
   float: right;
   margin-right: -2em;
