@@ -161,25 +161,25 @@
                     <date when="1869-05-21">۲۱ مايه ١٨٦٩</date>
                     <bibl><biblScope unit="issue">نمرة ۲٩٩</biblScope><biblScope unit="page">صفحة
                             ۳۱</biblScope></bibl></head>
-                <head><title>اعلان ب<date>تاريخ ۱٤ صفر سنة ۸٦</date></title></head>
+                <head><title>اعلان بتاريخ ۱٤ صفر سنة ۸٦</title></head>
                 <p>
                     <list>
-                        <item>عدد ۱<rs type="منزل">منزل ب</rs><placeName type="شارع">شارع اللبودية
-                              </placeName>  ب<placeName>درب الجماميز</placeName>
-                            <orgName type="وقف">وقف السيدة زينب</orgName> والمرحوم <persName>حسن بك
-                                ماهر</persName>
-                            <measure type="area">مسطحه ۱٥٩</measure>
-                        </item>
-                        <item>۱ منزل ب<placeName>عطفة الغباشي</placeName>ب<placeName>خط الشيخ
-                                كشك</placeName>ب<placeName ref="https://www.geonames.org/9180123/qism-al-khalifa.html">ثمن
+                        <item>عدد ۱ منزل ب<placeName type="شارع" ref="شارع اللبودية">شارع
+                                اللبودية</placeName> ب<placeName type="درب" ref="درب الجماميز">درب
+                                الجماميز</placeName>
+                            <orgName type="وقف" ref="وقف السيدة زينب">وقف السيدة زينب</orgName>
+                            والمرحوم <persName>حسن بك ماهر</persName> مسطحه ۱٥٩.</item>
+                        <item>۱ منزل ب<placeName ref="عطفة الغباشي" type="عطفة">عطفة
+                                الغباشي</placeName> ب<placeName ref="خط الشيخ كشك" type="خط">خط
+                                الشيخ كشك</placeName> ب<placeName ref="ثمن الخليفة" type="ثمن">ثمن
                                 الخليفة</placeName>
-                            <orgName type="وقف">وقف المرحومة<persName>نفيسة
-                                البيضاء</persName></orgName>
-                            <measure type="area">مسطحه ٩۲</measure></item>
+                            <orgName type="وقف" ref="وقف المرحومة نفيسة البيضاء">وقف المرحومة
+                                    <persName>نفيسة البيضاء</persName></orgName> مسطحه ٩۲.</item>
                     </list> اسيغ شرعا بيع أنقاض المحلين المذكورين وتأجير أرضهما واجراء الخلو فيهما
-                        وأرسلت<measure>خمسة وثلاثون</measure> اعلانا <orgName type="ضبطية">للضبطية</orgName>بهذا التاريخ لتوضع على القره قولات وكتب إلى <persName>محمد
-                        افندي سليمان</persName><roleName ref="معاون_قضايا_الأوقاف">معاون قضايا
-                        الأوقاف</roleName>باشهار ذلك بقوائم مزايدة بين الراغبين</p>
+                    وأرسلت خمسة وثلاثون اعلانا <orgName type="ضبطية" ref="ضبطية">للضبطية</orgName>
+                    بهذا التاريخ لتوضع على القره قولات وكتب إلى <persName role="معاون قضايا الأوقاف"
+                        >محمد افندي سليمان معاون قضايا الأوقاف</persName> باشهار ذلك بقوائم مزايدة
+                    بين الراغبين.</p>
             </div>
             <div xml:id="w103" resp="#eSG">
                 <head><date when-custom="1286-02-29">۲٩ صفر ١٢۸٦</date><date when="1869-06-10">۱٠
