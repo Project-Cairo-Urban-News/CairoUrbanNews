@@ -196,7 +196,8 @@
                         type="طائفة" ref="طائفة دلال العقارات">طائفة دلال العقارات</orgName>
                     لاشهارها بين الراغبين فمن كان له رغبة فليذهب اليه ويزايد فيها.</p>
             </div>
-            <div xml:id="w104" resp="#eSG">
+            <div xml:id="w104" resp="#eSG"
+                corresp="http://ddsnext.crl.edu/titles/260?terms=&amp;item_id=692134#?c=1&amp;m=257&amp;s=0&amp;cv=2&amp;r=0&amp;xywh=-1809%2C-2%2C5928%2C3256">
                 <head><date when-custom="1286-02-06">٦ صفر ١٢۸٦</date><date when="1869-06-16">۱٦
                         يونيه ١٨٦٩</date>
                     <bibl>
@@ -207,8 +208,8 @@
                 <p>من حيث صار اشهار مزاد مبيع محل <orgName type="الأجزخانة">الأجزخانة</orgName>
                     المستجدة والمنزل علوها تعلق المسيري الكائنة ب<placeName ref="الموسكي"
                         >الموسكي</placeName> ادارة الخواجة <persName role="أجزجي">ناردي
-                        الأجزجي</persName>  سابقا بقائمة مزاد عن يد الخواجة <persName role="سمسار"
-                        >سوتيري اسطاسيادي السمسار</persName>  لعرضها وقبول المزاد فيها من الراغبين
+                        الأجزجي</persName> سابقا بقائمة مزاد عن يد الخواجة <persName role="سمسار"
+                        >سوتيري اسطاسيادي السمسار</persName> لعرضها وقبول المزاد فيها من الراغبين
                     ومقتضي عقد جمعية عنها بديوان المحافظة ب<placeName ref="الأزبكية"
                         >الأزبكية</placeName> فقد تحدد ميعاد لحضور كل من كان له رغبة فيها في يوم
                     الأثنين ۱۱ ربيع أول ۸٦ الموافق ۲۱ يونيه سنة ٦٩ لأجراء المزاد من ابتداء الساعة
@@ -217,32 +218,36 @@
                     المثني عنه ومن لم يحضر وتأخر من الطرف المحدد فلا يقبل له قول.</p>
             </div>
             <div xml:id="w105" resp="#eSG">
-                <head><date when-custom="1286-03-14">۱٤ ربيع أول ١٢۸٦</date><date when="1869-06-24">۲٤ يونيه ١٨٦٩</date><bibl><biblScope unit="issue">نمرة
-                            ۳٠٥</biblScope><biblScope unit="page">صفحة ۳</biblScope></bibl></head>
-                <head><title>اعلان من حضرة وكيل عموم الأوقاف بتاريخ <date when-custom="1286-03-06">٦
-                            ربيع أول سنة ۸٦</date></title></head>
+                <head><date when-custom="1286-03-14">۱٤ ربيع أول ١٢۸٦</date><date when="1869-06-24"
+                        >۲٤ يونيه ١٨٦٩</date>
+                    <bibl><biblScope unit="issue">نمرة ۳٠٥</biblScope><biblScope unit="page">صفحة
+                            ۳</biblScope></bibl></head>
+                <head><title>اعلان من حضرة وكيل <orgName ref="عموم الأوقاف">عموم الأوقاف</orgName>
+                        بتاريخ ٦ ربيع أول سنة ۸٦</title></head>
                 <p>
                     <list>
-                        <item>عدد ۱ منزل وقاعة حرير في أسفله بجوار الجدرية <orgName type="وقف">وقف
-                                زاوية الشامية</orgName>
-                            <measure type="area">مسطحه ٦۱٤</measure> مقتضى الحال</item>
-                        <item>۱ منزل ب<placeName ref="https://www.geonames.org/7912828/al-abajiyah.html">درب
-                                الحبالة</placeName> ب<placeName ref="https://www.geonames.org/9180123/qism-al-khalifa.html">ثمن
+                        <item>۱ منزل وقاعة حرير في أسفله بجوار الجدرية <orgName type="وقف"
+                                ref="وقف زاوية الشامية">وقف زاوية الشامية</orgName> مسطحه ٦۱٤</item>
+                        <item>۱ منزل ب<placeName ref="درب الحبالة" type="درب">درب
+                                الحبالة</placeName> ب<placeName ref="ثمن الخليفة" type="ثمن">ثمن
                                 الخليفة</placeName>
-                            <orgName type="وقف">وقف موسى العربجي</orgName>
-                            <measure type="area">مسطحه ۱۱٤</measure> استبدالها</item>
-                        <item>۱ منزل ب<placeName ref="https://www.geonames.org/7913957/ad-darb-al-ahmar.html">درب
+                            <orgName type="وقف" ref="وقف موسى العربجي">وقف موسى العربجي</orgName>
+                            مسطحه ۱۱٤</item>
+                        <item>مقتضى الحال استبدالها</item>
+                        <item>۱ منزل ب<placeName ref="درب الجماميز" type="درب">درب
                                 الجماميز</placeName>
-                            <orgName type="وقف">وقف الأستاذ الشيخ يوسف الكردي</orgName>
-                            <measure type="area">مسطحه ٥٦</measure>
-                        </item>
-                        <item>۱ أربعة دكاكين في <placeName>سويقة اللالة </placeName>ب<placeName ref="https://www.geonames.org/359824/as-sayyidah-zaynab.html">خط
-                                الحنفي</placeName> <orgName type="وقف">وقف محرم أفندي</orgName>
-                            الحال مقتضي مبيع أنقاضها وتأجير أرضها</item>
-                        <item> ____ ٤</item>
+                            <orgName type="وقف" ref="وقف الأستاذ الشيخ يوسف الكردي">وقف الأستاذ
+                                الشيخ يوسف الكردي</orgName> مسطحه ٥٦</item>
+                        <item>۱ أربعة دكاكين في <placeName ref="سويقة اللالة">سويقة
+                                اللالة</placeName> ب<placeName ref="خط الحنفي" type="خط">خط
+                                الحنفي</placeName>
+                            <orgName type="وقف" ref="وقف محرم أفندي">وقف محرم أفندي</orgName> الحال
+                            مقتضي مبيع أنقاضها وتأجير أرضها</item>
+                        <item>٤</item>
                     </list> حيث أسيغ شرعًا استبدال بعض المحال المذكورة وبيع أنقاض بعضها وتأجير أرضها
-                    كما هو مبين أعلاه حررت بذلك خمسة وثلاثون اعلانا وأرسلت لل<orgName type="ضبطية">ضبطية</orgName> في ذلك التاريخ لتوضع لأشهارها بقوائم مزايدة بين .الراغبين
-                    فلزم إحاطة الناس بهذا أجمعين </p>
+                    كما هو مبين أعلاه حررت بذلك خمسة وثلاثون اعلانا وأرسلت <orgName ref="ضبطية"
+                        >للضبطية</orgName> في ذلك التاريخ لتوضع لأشهارها بقوائم مزايدة بين .الراغبين
+                    فلزم إحاطة الناس بهذا أجمعين.</p>
             </div>
             <div xml:id="w106" resp="#eSG">
                 <head><date when-custom="1286-04-06">٦ ربيع الآخر ١٢۸٦</date><date when="1869-07-15">۱٥ يوليه ١٨٦٩</date><bibl><biblScope unit="issue">نمرة
