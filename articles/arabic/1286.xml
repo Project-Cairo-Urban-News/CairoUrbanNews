@@ -442,12 +442,15 @@
                     الأشعار بذلك ليعلم كل من كان له قضية تتعلق به أنه صار في ذلك المحل.</p>
             </div>
             <div xml:id="w109" resp="#eSG">
-                <head><date when-custom="1286-04-27">۲۷ ربيع الآخر ١٢۸٦</date><date when="1869-08-05">٥ أغسطس ١٨٦٩</date><bibl><biblScope unit="issue">نمرة
-                            ۳۱۷</biblScope><biblScope unit="page">صفحة ۲</biblScope></bibl></head>
-                <head><title>الحوادث الداخلية</title></head>
-                <p>احيلت على عهده حضرة سعادتلو <persName>على مبارك باشا</persName> نظارة <orgName type="ديوان-الأشغال-العمومية">ديوان الأشغال العمومية</orgName> زيادة عن
-                        <orgName type="إدارة-عموم-المدارس">إدارة عموم المدارس</orgName> و<orgName type="نظارة-الأوقاف-المصرية">نظارة الأوقاف المصرية</orgName>
-                </p>
+                <head><date when-custom="1286-04-27">۲۷ ربيع الآخر ١٢۸٦</date><date
+                        when="1869-08-05">٥ أغسطس ١٨٦٩</date><bibl><biblScope unit="issue">نمرة
+                            ۳۱۷</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
+                <head>الحوادث الداخلية</head>
+                <p>احيلت على عهده حضرة سعادتلو <persName>على مبارك باشا</persName> نظارة <orgName
+                        ref="ديوان-الأشغال-العمومية" type="ديوان">ديوان الأشغال العمومية</orgName>
+                    زيادة عن <orgName type="إدارة" ref="إدارة-عموم-المدارس">إدارة عموم
+                        المدارس</orgName> و<orgName type="نظارة" ref="نظارة-الأوقاف-المصرية">نظارة
+                        الأوقاف المصرية</orgName>.</p>
             </div>
             <div xml:id="w110" resp="#eSG">
                 <head><date when-custom="1286-05-15">۱٥ جمادى الأولى ١٢۸٦</date><date when="1869-08-23">۲۳ أغسطس١٨٦٩</date><bibl><biblScope unit="issue">نمرة
