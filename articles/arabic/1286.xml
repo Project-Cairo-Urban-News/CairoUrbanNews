@@ -464,28 +464,58 @@
                         الماليه</orgName>.</p>
             </div>
             <div xml:id="w111" resp="#eSG">
-                <head><date when-custom="1286-05-18">۱۸ جمادى الأولى ١٢۸٦</date><date when="1869-08-26">۲٦ أغسطس١٨٦٩</date><bibl><biblScope unit="issue">نمرة
-                            ۳۲٠</biblScope><biblScope unit="page">صفحة ۳</biblScope></bibl></head>
-                <head><title>لفظ اعلان وارد من المحافظة المصرية بتاريخ <date when-custom="08-05-1286">۸ جمادي الأولى سنة ۱۲۸٦ه</date></title></head>
-                <p><list>
-                        <item>عدد ۱ ربع خراب وخرابة بجواره ب<placeName ref="https://www.geonames.org/425184/al-azbakiyah.html">الأزبكية</placeName> امام محل <orgName type="ديوان-المالية">ديوان
-                                المالية</orgName> القديم والضبطية الأن</item>
-                        <item>۱ خرابة محل تحت زيوة ب<placeName>القوطية</placeName> ب<placeName ref="https://www.geonames.org/9179530/al-muski.html">درب
-                                القطة</placeName>ب <placeName ref="https://www.geonames.org/425184/al-azbakiyah.html">ثمن
-                                الأزبكية</placeName></item>
-                        <item>۱ منزل ب<placeName ref="https://www.geonames.org/7922106/bab-al-khalq.html">باب
-                                الخلق</placeName> ب<placeName ref="https://www.geonames.org/7922574/maydan-abidin.html">ثمن
-                                عابدين</placeName></item>
-                    </list> ان الثلاثة محلات المرقومة أعلاه من ضمن أماكن الميري صار اشهار مزاد
-                    مبيعها على يد الخواجه <persName>سونبري انسطاسيادي</persName><roleName type="سمسار">السمسار</roleName> لعرضها وقبول المزاد من الراغبين ومقتضى عقد
-                    جمعيه عنها فقد تحدد ميعاد <time>خمسة عشر يوما</time> تمضي من تاريخه انما تكون
-                    الجمعية ب<orgName type="ديوان-محافظة-مصر">ديوان محافظة مصر</orgName>فى يوم
-                    الأثنين الواقع في <date when-custom="1286-05-22">۲۲ جماد أول سنة ٨٦</date>
-                    الموافق <date when-custom="1585-12-25">۲٥ مسري سنة ٨٥</date> قبطي حتى بحضور
-                    الراغبين تحصل المزايده بينهم من ابتداء <time>الساعة أربعة عربي لغاية الساعة
-                        ٩</time>باليوم المذكور وبمرسى المزاد يجري ما يقتضي حسبما هو مدون بقائمة
-                    المزاد وقد تحرر هذا اعلانا لكل من يرغب المشترى يحضر بالميعاد المثني عنه ومن لم
-                    يحضر وتأخر عن الميعاد المحدد فلا يقبل منه قول</p>
+                <head><date when-custom="1286-05-18">۱۸ جمادى الأولى ١٢۸٦</date><date
+                        when="1869-08-26">۲٦ أغسطس ١٨٦٩</date>
+                    <bibl><biblScope unit="issue">نمرة ۳۲٠</biblScope><biblScope unit="page">صفحة
+                            ۳</biblScope></bibl></head>
+                <head>لفظ اعلان وارد من <orgName ref="المحافظة المصرية">المحافظة المصرية</orgName>
+                    بتاريخ ۸ جمادي الأولى سنة ۱۲۸٦</head>
+                <p>
+                    <table rows="4" cols="3">
+                        <row role="label">
+                            <cell>عدد</cell>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>۱</cell>
+                            <cell> ربع خراب وخرابه بجواره  ب<placeName ref="الأزبكية"
+                                    >الأزبكية</placeName> امام محل <orgName type="ديوان"
+                                    ref="ديوان-المالية">ديوان المالية</orgName> القديم و<orgName
+                                    ref="الضبطية">الضبطية</orgName> الآن</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>۱</cell>
+                            <cell>خرابة محل تحت زيوة ب<placeName ref="القوطية">القوطية</placeName>
+                                    ب<placeName ref="درب القطة" type="درب">درب القطة</placeName> ب
+                                    <placeName ref="ثمن الأزبكية" type="ثمن">ثمن
+                                    الأزبكية</placeName></cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>۱</cell>
+                            <cell>منزل ب<placeName ref="باب الخلق" type="باب">باب الخلق</placeName>
+                                    ب<placeName ref="ثمن عابدين" type="ثمن">ثمن
+                                عابدين</placeName></cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                        </row>
+                    </table>
+                </p>
+                <p> ان الثلاثة محلات المرقومة أعلاه من ضمن أماكن الميري صار اشهار مزاد مبيعها على يد
+                    الخواجه <persName role="سمسار">سونبري انسطاسيادي  السمسار</persName> لعرضها
+                    وقبول المزاد من الراغبين ومقتضى عقد جمعيه عنها فقد تحدد ميعاد خمسة عشر يوما تمضي
+                    من تاريخه انما تكون الجمعية ب<orgName type="ديوان" ref="ديوان محافظة مصر">ديوان
+                        محافظة مصر</orgName> فى يوم الأثنين الواقع في ۲۲ جماد أول سنة ٨٦ الموافق ۲٥
+                    مسري سنة ٨٥ قبطي حتى بحضور الراغبين تحصل المزايده بينهم من ابتداء الساعة أربعة
+                    عربي لغاية الساعة ٩ باليوم المذكور وبمرسى المزاد يجري ما يقتضي حسبما هو مدون
+                    بقائمة المزاد وقد تحرر هذا اعلانا لكل من يرغب المشترى يحضر بالميعاد المثني عنه
+                    ومن لم يحضر وتأخر عن الميعاد المحدد فلا يقبل منه قول.</p>
             </div>
             <div xml:id="w112" resp="#eSG">
                 <head><date when-custom="1286-05-18">۱۸ جمادى الأولى ١٢۸٦</date><date when="1869-08-26">۲٦ أغسطس ١٨٦٩</date><bibl><biblScope unit="issue">نمرة
