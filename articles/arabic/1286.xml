@@ -601,20 +601,110 @@
             </div>
             <div xml:id="w115" resp="#eSG">
                 <head><date when-custom="1286-09-06">٦ رمضان ١٢۸٦</date><date when="1869-12-09">٩
-                        دسمبر ١٨٦٩</date><bibl><biblScope unit="issue">نمرة
-                            ۳۳٦</biblScope><biblScope unit="page">صفحة ۳</biblScope></bibl></head>
+                        دسمبر ١٨٦٩</date>
+                    <bibl><biblScope unit="issue">نمرة ۳۳٦</biblScope><biblScope unit="page">صفحة
+                            ۳</biblScope></bibl></head>
                 <p>علم من افادة واردة شرحا على كشف ان من المتن الألهية ما كان في عصر الحضرة الخديوية
                     من عمارة المساجد الشهيرة التي كانت آلت إلي الأندراس فضلا عن المساجد والتكايا
                     والمدارس اللاتي بذلك الكشف المؤسسة بمصر والأسكندرية على أقوم أساس لاسيما
-                        <orgName>المسجد الحسيني</orgName> الجاري انشاؤه من لدن الجناب
-                        <roleName>الخديوي</roleName> أحسن انشا و<orgName>مسجد سيدي على
-                        الرفاعي</orgName> الجاري انشاؤه من لدن سعادة دولتلو والده باشا وهذه صورة
-                    الكشف الواردة لاحاطة الجميع بتلك الفائدة العائده بيان المساجد والزوايا والأضرحة
-                    اللاتي صار انشاؤها واللاتي صار تجديدها بمصر وسكندرية جمله بمصر المحروسة <list>
-                        <item>عدد ۱ <orgName type="مسجد-ضريح-الشيخ-صالح">مسجد وضريح الشيخ
-                                صالح</orgName> ب<placeName>سويقة السباعين</placeName></item>
-                        <item>۲ ۱ <orgName ref="مسجد-ضريح-الشيخ-عبدالله">مسجد وضريح الشيخ عبد
-                                الله</orgName> ب<placeName>خط الشيخ ريحان</placeName></item>
+                        <placeName ref="المسجد الحسيني" type="مسجد">المسجد الحسيني</placeName>
+                    الجاري انشاؤه من لدن الجناب الخديوي أحسن انشا و<placeName
+                        ref="مسجد سيدي على الرفاعي" type="مسجد">مسجد سيدي على الرفاعي</placeName>
+                    الجاري انشاؤه من لدن سعادة دولتلو والده باشا وهذه صورة الكشف الواردة لاحاطة
+                    الجميع بتلك الفائدة العائده بيان المساجد والزوايا والأضرحة اللاتي صار انشاؤها
+                    واللاتي صار تجديدها بمصر وسكندرية جمله بمصر المحروسة <table rows="16" cols="3">
+                        <row role="label">
+                            <cell>عدد</cell>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>۱</cell>
+                            <cell><orgName type="مسجد" ref="مسجد-ضريح-الشيخ-صالح">مسجد وضريح الشيخ
+                                    صالح</orgName> ب<placeName ref="سويقة السباعين">سويقة
+                                    السباعين</placeName></cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>۲ ۱ </cell>
+                            <cell><orgName ref="مسجد-ضريح-الشيخ-عبدالله" type="مسجد">مسجد وضريح
+                                    الشيخ عبد الله</orgName> ب<placeName ref="خط الشيخ ريحان"
+                                    type="خط">خط الشيخ ريحان</placeName></cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>۱</cell>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>۱</cell>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>۱</cell>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>۲ ۱</cell>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                        </row>
+                    </table><list>
+                        <item> </item>
+                        <item/>
                         <item>۱ <orgName type="مسجد-على-قمرى">مسجد على القمري</orgName> تجديد سعادة
                                 <persName>حسين باشا أمين</persName><orgName type="بيت-مال-مصر">بيت
                                 مال مصر</orgName></item>
@@ -625,50 +715,71 @@
                                 الأحكام</orgName>تجديد سعادة السيد <persName>أبو بكر راتب
                                 باشا</persName> من أعضاء الخصوصي</item>
                         <item>عدد ۱ <orgName type="زاوية-وضريح-السيدة-أم-كلثوم">زاوية وضريح السيدة
-                                أم كلثوم</orgName> ب<placeName ref="https://www.geonames.org/357879/al-imam-ash-shafi-i.html">الأمام الشافعي</placeName></item>
+                                أم كلثوم</orgName> ب<placeName
+                                ref="https://www.geonames.org/357879/al-imam-ash-shafi-i.html"
+                                >الأمام الشافعي</placeName></item>
                         <item>۲ ۱ <persName type="زاوية-وضريح-سيدى-كعب-الأحبار">زاوية وضريح سيدي كعب
                                 الأحبار</persName> بالمصرية</item>
                         <item>۱ <orgName type="تكية-مسجد-خليل-أغا">تكية ومدرسة انشا
                                         <persName><sic>...... خليل أغا</sic></persName></orgName>
                                 ب<orgName>المشهد الحسيني</orgName></item>
-                        <item>۱ زاوية ب<placeName ref="https://www.geonames.org/7913987/khan-al-khalili.html">خان
+                        <item>۱ زاوية ب<placeName
+                                ref="https://www.geonames.org/7913987/khan-al-khalili.html">خان
                                 الخليلي</placeName> تجديد دائرة مرحوم <persName>أحمد
                             باشا</persName></item>
                         <item>۱ <orgName type="زاوية-عثمان-بيك">زاوية عثمان بيك</orgName>
-                                ب<placeName ref="https://www.geonames.org/359824/as-sayyidah-zaynab.html">خط
+                                ب<placeName
+                                ref="https://www.geonames.org/359824/as-sayyidah-zaynab.html">خط
                                 السيدة زينب</placeName> تجديد حرم مرحوم <persName>حسن بيك
                                 ساطع</persName></item>
                         <item>۱ مسجد المعرف ب<orgName type="مسجد-القبر-الطويل">القبر
-                                الطويل</orgName> ب<placeName ref="https://www.geonames.org/7913030/al-khalifah.html">خط
+                                الطويل</orgName> ب<placeName
+                                ref="https://www.geonames.org/7913030/al-khalifah.html">خط
                                 الخليفة</placeName> تجديد <persName>جمعة
                                 راجح</persName><roleName>شيخ المهندسين</roleName></item>
                         <item>۱ <placeName type="زاوية-العنبرى">زاوية العنبري</placeName>
                                 ب<placeName>كفر الطماعين</placeName> تجديد السيد <persName>محمد حسن
                                 الصباغ</persName></item>
-                        <item>۱ <orgName type="مسجد-الكريدى">مسجد الكريدي</orgName>ب<placeName ref="https://www.geonames.org/359454/bab-al-luq.html">باب
+                        <item>۱ <orgName type="مسجد-الكريدى">مسجد الكريدي</orgName>ب<placeName
+                                ref="https://www.geonames.org/359454/bab-al-luq.html">باب
                                 اللوق</placeName> تجديد الحاج <persName>حسن حجاب
                             المابغي</persName></item>
                         <item>۱ <orgName type="مسجد-الشيخ-عبد-الدائم">مسجد الشيخ عبد
                                 الدائم</orgName> بالخط المذكور وتجديد الحاج <persName>ابراهيم
-                                دوايدر</persName><roleName type="المدابغى">المدابغي</roleName></item>
+                                دوايدر</persName><roleName type="المدابغى"
+                            >المدابغي</roleName></item>
                         <item>۱ <orgName type="زاوية-وضريح-سيدى-حسن-الأنوار">زاوية وضريح سيدي حسن
-                                الأنور</orgName>ب<placeName ref="https://www.geonames.org/7922737/nuqtat-shurtat-fam-al-khalij.html">فم الخليج</placeName> تجديد <persName>أبو زيد
+                                الأنور</orgName>ب<placeName
+                                ref="https://www.geonames.org/7922737/nuqtat-shurtat-fam-al-khalij.html"
+                                >فم الخليج</placeName> تجديد <persName>أبو زيد
                             الجيار</persName></item>
                         <item>۱ <orgName type="زاوية-وضريح-الأستاذ-صارم">زاوية وضريح الأستاذ
-                                صارم</orgName> ب<placeName ref="https://www.geonames.org/359449/bab-ash-sha-riyah.html">الحسينية</placeName> تجديد <persName>يوسف عانوس
+                                صارم</orgName> ب<placeName
+                                ref="https://www.geonames.org/359449/bab-ash-sha-riyah.html"
+                                >الحسينية</placeName> تجديد <persName>يوسف عانوس
                             الحريري</persName></item>
-                        <item>۱ <orgName type="مسجد-سالمة">مسجد سالمة</orgName> ب<placeName ref="https://www.geonames.org/9179538/bab-al-bahr.html">باب
+                        <item>۱ <orgName type="مسجد-سالمة">مسجد سالمة</orgName> ب<placeName
+                                ref="https://www.geonames.org/9179538/bab-al-bahr.html">باب
                                 البحر</placeName> تجديد <persName>عمر الصباغ</persName></item>
-                        <item>۱ مسجد ب<placeName ref="https://www.geonames.org/7914348/al-jamaliyah.html">الجملية</placeName> تجديد السيد <persName>محمود
+                        <item>۱ مسجد ب<placeName
+                                ref="https://www.geonames.org/7914348/al-jamaliyah.html"
+                                >الجملية</placeName> تجديد السيد <persName>محمود
                             الحتو</persName></item>
                         <item>۱ <orgName type="مسجد-السيدة-أم-الغلام">مسجد السيدة أم
-                                الغلام</orgName> ب<placeName ref="https://www.geonames.org/7913985/maydan-al-husayn.html">خط
+                                الغلام</orgName> ب<placeName
+                                ref="https://www.geonames.org/7913985/maydan-al-husayn.html">خط
                                 سيدنا الحسين</placeName> تجديد ناظرة الوقف</item>
-                        <item> ۱ <orgName type="زاوية-الأربعين">زاوية الأربعين</orgName> ب<placeName ref="https://www.geonames.org/7921967/mintaqat-al-bataniyah.html">الباطنية</placeName> تجديد أهل الخير</item>
+                        <item> ۱ <orgName type="زاوية-الأربعين">زاوية الأربعين</orgName> ب<placeName
+                                ref="https://www.geonames.org/7921967/mintaqat-al-bataniyah.html"
+                                >الباطنية</placeName> تجديد أهل الخير</item>
                         <item>۱ <orgName type="مسجد-الأستاذ-الرملى">مسجد الأستاذ
                             الرملي</orgName>تجديد ناظر الوقف</item>
-                        <item>۱ <orgName type="مسجد-الشيخ-عطية">مسجد الشيخ عطية</orgName>ب<placeName ref="https://www.geonames.org/358683/bulaq-abu-al-ila.html">بولاق</placeName> تجديد أهل الخير</item>
-                        <item>۱ <orgName type="مسجد-أبو-الفضل">مسجد أبو الفضل</orgName> ب<placeName ref="https://www.geonames.org/358683/bulaq-abu-al-ila.html">بولاق</placeName> تجديد الناظر تجديد <orgName>ديوان
+                        <item>۱ <orgName type="مسجد-الشيخ-عطية">مسجد الشيخ عطية</orgName>ب<placeName
+                                ref="https://www.geonames.org/358683/bulaq-abu-al-ila.html"
+                                >بولاق</placeName> تجديد أهل الخير</item>
+                        <item>۱ <orgName type="مسجد-أبو-الفضل">مسجد أبو الفضل</orgName> ب<placeName
+                                ref="https://www.geonames.org/358683/bulaq-abu-al-ila.html"
+                                >بولاق</placeName> تجديد الناظر تجديد <orgName>ديوان
                                 الاوقاف</orgName></item>
                         <item>عدد ۱ <orgName>مسجد الأشرف برسباي</orgName>
                                 ب<placeName>الأشرفية</placeName></item>
