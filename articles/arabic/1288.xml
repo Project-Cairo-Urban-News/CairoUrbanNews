@@ -118,29 +118,25 @@
   <text xml:lang="ar" resp="#eAT">
     <body>
       <div>
-        <head><bibl><biblScope unit="issue">نمره ٤۳۸</biblScope></bibl>
-          <date calendar="hijri" when-custom="1288-10-28">۲۸ شوال سنة ۱۲۸۸</date>
-          <date calendar="gregorian" when-custom="1872-01-09">۹ يناير سنة ۱۸٧۲</date>
-          <bibl><biblScope unit="page">صفحة ۳</biblScope> – <biblScope unit="column">العمود
-              ۳</biblScope></bibl></head>
+        <head><date when-custom="1288-10-28">۲۸ شوال ۱۲۸۸</date>
+          <date when="1872-01-09">۹ يناير ۱۸٧۲</date>
+          <bibl><biblScope unit="issue">نمره ٤۳۸</biblScope><biblScope unit="page">صفحة
+              ۳</biblScope>
+          </bibl></head>
         <head>اعلانات</head>
-        <head><rs>صورة اعلان</rs> وارد من <persName>حضرة عزتلو رئيس مجلس عسكريه</persName> بتاريخ
-            <date calendar="hijri" when-custom="1288-10-22">۲۲ شوال سنة ۸۸</date></head>
+        <head>صورة اعلان وارد من حضرة عزتلو رئيس <orgName ref="مجلس عسكريه" type="مجلس">مجلس
+            عسكريه</orgName> بتاريخ ۲۲ شوال سنة ۸۸</head>
         <p>حيث جارى اعمال مزاد بالمجلس عن بنا سور حول قطعة الارض المجاورة للترسانة
             ب<placeName>بولاق</placeName> المقتضى اعمالها شون غلال عموم الجهاديه يبلغ مقدار مكعباتها
-          ذراع ۱٥۳۳ بالمقاوله وتحدد ميعاد لانتهاء المزاد لغاية <date when-custom="1288-11-5">٥
-            القعدة سنة ۸۸</date> الموافق يوم الثلاثا ومن اللزوم اعلان ذلك بالوقايع فلزم ترقيمه لكى
-          يجرى درج تلك بالوقايع المصريه لاجل كل من له رغبة يحضر للمجلس ومن بعد اطلاعه على شروط
-          المزاد يعطى القول اللازم فى <date calendar="hijri" when-custom="1288-10-22">۲۲ شوال سنة
-            ۸۸</date>
-        </p>
+          ذراع ۱٥۳۳ بالمقاوله وتحدد ميعاد لانتهاء المزاد لغاية ٥ القعدة سنة ۸۸ الموافق يوم الثلاثا
+          ومن اللزوم اعلان ذلك بالوقايع فلزم ترقيمه لكى يجرى درج تلك بالوقايع المصريه لاجل كل من له
+          رغبة يحضر للمجلس ومن بعد اطلاعه على شروط المزاد يعطى القول اللازم فى ۲۲ شوال سنة ۸۸ </p>
       </div>
       
       <div>
-        <head>نمره ٤٤۱ يوم الثلاثاء <date calendar="hijri">۱۳ ذى القعدة سنة ۱۲۸۸</date> الموافق
-            <date when="1872-01-23">۲۳ يناير الافرنجى سنة ۱۸٧۲</date>
-          <bibl><biblScope unit="page">صفحة ۳</biblScope> – <biblScope unit="column">العمود
-              ۳</biblScope></bibl>
+        <head>نمره ٤٤۱ يوم الثلاثاء <date calendar="hijri">۱۳ ذى القعدة سنة ۱۲۸۸</date> الموافق ۲۳
+          يناير الافرنجى سنة ۱۸٧۲ <bibl><biblScope unit="page">صفحة ۳</biblScope> – <biblScope
+              unit="column">العمود ۳</biblScope></bibl>
           <rs>اعلانات</rs> صورة اعلان وارد من <persName>حضرة عزتلو وكيل عموم الاوقاف</persName>
           بتاريخ 6 ذى سنة ۸۸</head>
         <p>بيان الجهات المقتضى خروجها من الاوقاف كالموضح أدناه جهة </p>
