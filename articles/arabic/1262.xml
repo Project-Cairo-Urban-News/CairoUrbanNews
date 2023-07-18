@@ -92,16 +92,14 @@
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
         <p>We use the Arabic script but transliteration into Latin characters follows the Library of
-          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf"
-            >Arabic transliteration chart</ref>.</p>
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
         <p>Each individual article has an individual xml:id number starting with "w1"</p>
         <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
           and notes.</p>
         <p>If the location or organization of responsibility is known from the text, it can be added
           in an attribute to a persName.</p>
         <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-        <p>This project's schema considers Till Grallert's work in his <ref
-            target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
             Editions</ref>.</p>
       </editorialDecl>
     </encodingDesc>
@@ -122,7 +120,7 @@
   
   <text xml:lang="ar">
       <body>
-         <div resp="#eSG" xml:id="w100">
+         <div xml:id="W1262001101" resp="#eSG">
             <head><date when-custom="1262-05-13">١٣ جمادى الاول ١٢٦٢</date><date when="1846-05-09">٩
             مايو ١٨٤٦</date><bibl><biblScope unit="issue">نمرة ١١</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
         <head><title>الحوادث الداخلية</title></head>
@@ -130,28 +128,22 @@
           وازدحام بسبب ذلك وكانت اهالى مصر قد انشأت عربيات لحمل الماء والاثقال وكانت الذوات اصحاب
           الثروة يركبون العربيات عند ذهابهم الى مصالحهم وايابهم منها وكان من آمال الخديوى الاكرم ان
           يرفع الازدحام الواقع فى الاسواق والازقة حتى تسير الاهالى فيها مع الاطمئنان والانشراح صدرت
-          الارادة السنية سابقا بتسوية <placeName type="طريق" ref="طريق-القلعة"
-              >طرق<placeName>القلعة</placeName></placeName> و<placeName type="طريق"
-            ref="طريق-مصر-القديمة">مصر القديمة</placeName> وان يفتح طريق مستقيم من <placeName
-            ref="الازبكية">الازبكية</placeName> الى <placeName type="شارع" ref="شارع-الموسكى">شارع
+          الارادة السنية سابقا بتسوية <placeName type="طريق" ref="طريق-القلعة">طرق<placeName>القلعة</placeName></placeName> و<placeName type="طريق" ref="طريق-مصر-القديمة">مصر القديمة</placeName> وان يفتح طريق مستقيم من <placeName ref="الازبكية">الازبكية</placeName> الى <placeName type="شارع" ref="شارع-الموسكى">شارع
             الموسكى</placeName> مارا من <placeName ref="كوم-الشيخ-سلامه" type="كوم">كوم الشيخ
-            سلامه</placeName> فعرض حضرة <persName role="مدير ديوان المدارس">ادهم بيك مدير <orgName
-              type="ديوان" ref="ديوان-المدارس">ديوان المدارس</orgName></persName> شفاها للاعتاب
+            سلامه</placeName> فعرض حضرة <persName role="مدير ديوان المدارس">ادهم بيك مدير <orgName type="ديوان" ref="ديوان-المدارس">ديوان المدارس</orgName></persName> شفاها للاعتاب
           السنية انه متى انشئت بنايات يترك منها حصة توسعة للطريق على مقتضى الامر المرقوم لكن لما
             كانت<placeName type="سكة" ref="سكة-الموسكى">سكة الموسكى</placeName> تفتح من جهة والجهة
           الاخرى مسدودة وكانت الطرق الموجودة فى الجانبين ضيقة ومعوجة صدرت الارادة الخديوية فى ١٩ شهر
           ربيع الاخر سنة ٦٢ بان تعمل طريق على الاصول الجديدة مبتدأة من مقابل سكة الموسكى ومنتهية الى
             <placeName ref="جادة-الاشرافية" type="جادة">جادة الاشرافية</placeName> ليعم نفعها ويحصل
           ثمرة المراد منها وان البيوت وسائر العقارات التى تكون على هذا الطريق تشترى بما يساوى قيمتها
-          من الاثمان بمعرفة اهل الخبرة وتدفع مبالغها من <orgName type="خزينة" ref="الخزينة_الخديوية"
-            >الخزينة الخديوية</orgName> وكذلك الطريق المتسع المبتدأ من الازبكيه الى <placeName
-            ref="بولاق">بولاق</placeName> المزين من الطرفين بالاشجار لما كان منتهاه من عند
+          من الاثمان بمعرفة اهل الخبرة وتدفع مبالغها من <orgName type="خزينة" ref="الخزينة_الخديوية">الخزينة الخديوية</orgName> وكذلك الطريق المتسع المبتدأ من الازبكيه الى <placeName ref="بولاق">بولاق</placeName> المزين من الطرفين بالاشجار لما كان منتهاه من عند
             <placeName ref="مسجد-الاستاذ-ابى-العلى">مسجد الاستاذ ابى العلى</placeName> الى
             <placeName ref="الساحل">الساحل</placeName> طرقا ضيقة معوجة لزم ان تفتح طريق من صوب ابى
           العلى الى الساحل وان البيوت التى تكون على الطريق يجرى العمل فيها على الوجه المشروح وان
           الاشعارات اللازمة لذلك تحرر من طرف الامير المومى اليه.</p>
          </div>
-         <div resp="#eSG" xml:id="w101">
+         <div xml:id="W1262002402" resp="#eSG">
             <head><date when-custom="1262-08-10">١٠ شعبان ١٢٦٢</date><date when="1846-08-03">٣ اغسطس
             ١٨٤٦</date>
           <bibl><biblScope unit="issue">نمرة ٢٤</biblScope><biblScope unit="page">صفحة
@@ -164,32 +156,26 @@
           القرابين تشكرا للطفه تعالى المبين بناء على القواعد المرغوبه والاثار المستحسنة المندوبه
           وسيشرع فى تدوير القبة المذكوره كما اخبر حضرة مفتش الابنية الميرية المعموره.</p>
          </div>
-         <div resp="#eSG" xml:id="w102">
+         <div xml:id="W1262002403" resp="#eSG">
             <head><date when-custom="1262-08-10">١٠ شعبان ١٢٦٢</date><date when="1846-08-03">٣ اغسطس
             ١٨٤٦</date>
           <bibl><biblScope unit="issue">نمرة ٢٤</biblScope><biblScope unit="page">صفحة
             ٢</biblScope></bibl></head>
-            <p>انه فى الساعة السابعة من ليلة الخميس التاسع والعشرين من الشهر الماضى قد ظهرت <rs
-            type="حريقة">حريقة</rs> فى <placeName type="منزل"
-            ref="منزل-كائن-بالدرب-الابراهميى-فى-ثمن-الازبكية">منزل</placeName> كائن ب<placeName
-            type="درب" ref="الدرب-الابراهميى">الدرب الابراهميى</placeName> فى <placeName
-            ref="ثمن الازبكية" type="ثمن"><orgName ref="ثمن-الازبكية" type="ثمن">ثمن
+            <p>انه فى الساعة السابعة من ليلة الخميس التاسع والعشرين من الشهر الماضى قد ظهرت <rs type="حريقة">حريقة</rs> فى <placeName type="منزل" ref="منزل-كائن-بالدرب-الابراهميى-فى-ثمن-الازبكية">منزل</placeName> كائن ب<placeName type="درب" ref="الدرب-الابراهميى">الدرب الابراهميى</placeName> فى <placeName ref="ثمن الازبكية" type="ثمن"><orgName ref="ثمن-الازبكية" type="ثمن">ثمن
               الازبكية</orgName></placeName> سكن <persName>رجل قبطى اسمه تادرس نخله</persName> ولما
           وصل الخبر الى <orgName ref="الضابطخانة">الضابطخانة</orgName> ارسلت اربع طلومبات فى الوقت
           والساعة وحيث كانت <placeName type="ازقة">الازقة</placeName> الواقعة فيها تلك الحريق ضيقة
           جدا انحلت اطراف الطلومبات وحصل بذل المجهود فى اطفاء تلك الحريقة بالطلومبات وبهدم المحلات
           اللازم هدمها من المنزل المذكور حتى تيسر اخماد النار بعناية الله الملك القهار وهمدت مرة
           واحدة فى نصف الساعة الثامنة غير انه بسبب ضيق تلك الازقة وازدحام الخلائق فيها وقع رجلان من
-          ضباط الطلومباجاية فى تلك النار ولكنهما قد اسعفا بتخليصهما وارسلا الى <placeName
-            type="اسبتالية">الاسبتالية</placeName> ليعالجا وايضا حصلت <rs type="حريقة">حريقة</rs>
+          ضباط الطلومباجاية فى تلك النار ولكنهما قد اسعفا بتخليصهما وارسلا الى <placeName type="اسبتالية">الاسبتالية</placeName> ليعالجا وايضا حصلت <rs type="حريقة">حريقة</rs>
           اخرى فى بيت كائن ب<placeName type="درب" ref="درب-السماكين">درب السماكين</placeName> فى
-            <placeName ref="ثمن باب الشعرية" type="ثمن"><orgName type="ثمن" ref="ثمن-باب-الشعرية"
-              >ثمن باب الشعرية</orgName></placeName> تعلق رجل اسمه <persName>الريس محمد
+            <placeName ref="ثمن باب الشعرية" type="ثمن"><orgName type="ثمن" ref="ثمن-باب-الشعرية">ثمن باب الشعرية</orgName></placeName> تعلق رجل اسمه <persName>الريس محمد
             الجمال</persName> وكان ذلك فى يوم السبت الموافق لغرة الشهر الحال وبكرمه تعالى لم تترك بل
           ادركت قبل سرابتها الى الاطراف واسعفت بطلومبتين فى الحال واخمدت فى ظرف ساعة ونصف حسبما اخبر
           به من الضابطخانه.</p>
          </div>
-         <div resp="#eSG" xml:id="w103" n="STONEANDFIRE">
+         <div xml:id="W1262002404" resp="#eSG" n="STONEANDFIRE">
         <head><date when-custom="1262-08-10">١٠ شعبان ١٢٦٢</date><date when="1846-08-03">٣ اغسطس
             ١٨٤٦</date>
           <bibl><biblScope unit="issue">نمرة ٢٤</biblScope><biblScope unit="page">صفحة
@@ -198,43 +184,32 @@
           نادر ومن حيث انها كانت عندما تظهر بها حريقة فى بيت تسرى النار منه الى ما حواليه بوسطة
           الرواشن والمشربيات الخشب التى على اوجه البيوت ويترتب على ذلك خسارات كثيرة حصل منذ سنين
           ايجاد <orgName ref="اورطة طلومباجية" type="اورطة">اورطة طلومباجية</orgName> واعد لها محل
-          وبذل الجهد فى تكثير الطلومبات ووضع طلومبات فى محلات عديدة غير <orgName ref="الطلومباخانه"
-            >الطلومباخانه</orgName> حتى اذا ظهرت الحريقات لا يمضى عليها وقت يسع سرايتها الى الاطراف
+          وبذل الجهد فى تكثير الطلومبات ووضع طلومبات فى محلات عديدة غير <orgName ref="الطلومباخانه">الطلومباخانه</orgName> حتى اذا ظهرت الحريقات لا يمضى عليها وقت يسع سرايتها الى الاطراف
           بل يتيسر اطفاؤها فى وقت ظهورها وبناء على هذا قد شوهدت الفوائد العميمة من اعداد تلك
           الطلومبات ووجود الطلومباجية وظهرت ثمراتها ظهور <sic>الا</sic> يقبل الاشتباه.</p>
       </div>
-         <div resp="#eSG" xml:id="w104">
+         <div xml:id="W1262002605" resp="#eSG">
             <head><date when-custom="1262-08-24">٢٤ شعبان ١٢٦٢</date><date when="1846-08-17">١٧
             اغسطس ١٨٤٦</date>
           <bibl><biblScope unit="issue">نمرة ٢٦</biblScope><biblScope unit="page">صفحة
             ٢</biblScope></bibl></head>
         <head><title>الحوادث الداخلية</title></head>
             <p>انه فى ليلة الاحد الموافق العاشر من هذا الشهر قد حدثت <rs type="حريقة">حريقة</rs> فى
-          سقف <orgName type="شون" ref="شون_الجلد">شون الجلد</orgName> الكائن ب<placeName ref="بولاق"
-            >بولاق</placeName> وهو سقف من بوص فبودر الى اطفائها واخمادها قبل ان تسرى الى الاطراف
+          سقف <orgName type="شون" ref="شون_الجلد">شون الجلد</orgName> الكائن ب<placeName ref="بولاق">بولاق</placeName> وهو سقف من بوص فبودر الى اطفائها واخمادها قبل ان تسرى الى الاطراف
           وطفئت بوقتها كما علم من <orgName ref="الضابطخانه">الضابطخانه</orgName>.</p>
          </div>
-         <div resp="#eSG" xml:id="w105">
+         <div xml:id="W1262003806" resp="#eSG">
             <head><date when-custom="1262-11-20">٢٠ ذى القعدة ١٢٦٢</date><date when="1846-11-09">٩
             نوفمبر ١٨٤٦</date>
           <bibl><biblScope unit="issue">نمرة ٣٨</biblScope><biblScope unit="page">صفحة
             ١</biblScope></bibl></head>
             <p> انه قد ظهرت <rs type="حريقة">حريقة</rs> بأودة <persName role="الصراف">استفان الصراف
-              ب<orgName ref="وكالة العشماوى" type="وكالة"><placeName type="وكالة"
-                ref="وكالة_العشماوى">وكالة العشماوى</placeName></orgName></persName> الكائنة
+              ب<orgName ref="وكالة العشماوى" type="وكالة"><placeName type="وكالة" ref="وكالة_العشماوى">وكالة العشماوى</placeName></orgName></persName> الكائنة
             ب<placeName ref="بولاق">بولاق</placeName> فى الساعة التاسعة من يوم الثلاثاء الموافق
           للسابع من هذا الشهر فاسعفت فى الوقت والساعة بلطلومبه التى فى بولاق واطفئت بدون سرايتها الى
-          الاطراف ولم يحترق منها سوى صندوق واحد وكذا قد التهب <placeName type="بيت"
-            ref="بيت-محمد-الدسوقى">بيت <persName>محمد الدسوقى</persName></placeName> الذى بقرب
-            <placeName type="جامع" ref="الجامع-الاحمر">الجامع الاحمر</placeName> ب<placeName
-            type="خط" ref="خط-الازبكية">خط الازبكية</placeName> ولما وصل الخبر الى <orgName
-            type="ضابطخانة" ref="الضابطخانة">الضابطخانة</orgName> بعث اليه الطلومبة ولوازمها واطفئت
-          ولم يحترق منها خلاف مبرومتين من سقف الاودة وبعض اشياء لم تكن ذات قيمة وظهرت <rs
-            type="حريقة">حريقة</rs> ايضا ب<placeName type="منزل"
-            ref="منزل-مصطفى-اغا-مملوك-سليمان-اغا-الوكيل">منزل <persName role="مملوك سليمان اغا"
-              >مصطفى اغا مملوك سليمان اغا الوكيل</persName></placeName> الذى هو ساكن فيه ب<placeName
-            type="حارة" ref="حارة-غيط-العدة">حارة غيط العدة</placeName> ب<placeName ref="عابدين"
-              ><orgName ref="ثمن-عابدين" type="ثمن">ثمن <choice>
+          الاطراف ولم يحترق منها سوى صندوق واحد وكذا قد التهب <placeName type="بيت" ref="بيت-محمد-الدسوقى">بيت <persName>محمد الدسوقى</persName></placeName> الذى بقرب
+            <placeName type="جامع" ref="الجامع-الاحمر">الجامع الاحمر</placeName> ب<placeName type="خط" ref="خط-الازبكية">خط الازبكية</placeName> ولما وصل الخبر الى <orgName type="ضابطخانة" ref="الضابطخانة">الضابطخانة</orgName> بعث اليه الطلومبة ولوازمها واطفئت
+          ولم يحترق منها خلاف مبرومتين من سقف الاودة وبعض اشياء لم تكن ذات قيمة وظهرت <rs type="حريقة">حريقة</rs> ايضا ب<placeName type="منزل" ref="منزل-مصطفى-اغا-مملوك-سليمان-اغا-الوكيل">منزل <persName role="مملوك سليمان اغا">مصطفى اغا مملوك سليمان اغا الوكيل</persName></placeName> الذى هو ساكن فيه ب<placeName type="حارة" ref="حارة-غيط-العدة">حارة غيط العدة</placeName> ب<placeName ref="عابدين"><orgName ref="ثمن-عابدين" type="ثمن">ثمن <choice>
                 <sic>عبدين</sic>
                 <corr>عابدين</corr>
               </choice></orgName></placeName> ولما وصل خبره الى الضابطخانة فى الساعة الثالثة من يوم

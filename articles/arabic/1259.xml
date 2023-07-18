@@ -92,16 +92,14 @@
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
         <p>We use the Arabic script but transliteration into Latin characters follows the Library of
-          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf"
-            >Arabic transliteration chart</ref>.</p>
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
         <p>Each individual article has an individual xml:id number starting with "w1"</p>
         <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
           and notes.</p>
         <p>If the location or organization of responsibility is known from the text, it can be added
           in an attribute to a persName.</p>
         <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-        <p>This project's schema considers Till Grallert's work in his <ref
-            target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
             Editions</ref>.</p>
       </editorialDecl>
     </encodingDesc>
@@ -122,7 +120,7 @@
   
   <text xml:lang="ar">
       <body>
-         <div resp="#eNK #eSG" xml:id="W150">
+         <div xml:id="W1259062401" resp="#eNK #eSG">
         <head><date when-custom="1259-04-22">٢٢ ربيع الثاني <choice>
               <sic>١٢٥٨</sic>
               <corr>١٢٥٩</corr>
@@ -135,8 +133,7 @@
             طائفة الصعائدة</persName> عوضا عن المرحوم <persName type=" شيخ-على-طائفة-الصعائدة">الشيخ
             عبد الله القاضى</persName> فى هذا الخصوص بداعى ان الشيخ المذكور صعيدى وشيخ المالكية
           المتولى الان بحيرى وقد جرت العادة انه بعد اتحاف شيخ المذهب <sic>بفرو سمور</sic> من الخديوى
-          وبفرو من حضرة شيخ الجامع قبل ذلك ينزل حالا الى <placeName type="بيت"
-            ref="بيت-حضرة-نقيب-الاشراف">بيت حضرة نقيب الاشراف</placeName> وحضرة شيخ السادات الوفائية
+          وبفرو من حضرة شيخ الجامع قبل ذلك ينزل حالا الى <placeName type="بيت" ref="بيت-حضرة-نقيب-الاشراف">بيت حضرة نقيب الاشراف</placeName> وحضرة شيخ السادات الوفائية
           فيتحف عند كل منهما بفرو سمور وقد حصل ذلك <persName>للشيخ الحبيشى</persName> ثم بعد ذلك
           يطوف ببيوت الاعيان الذين لهم عادة الاتحاف المذكور فيكسوه كل على حسب مقامه وكذلك مشايخ
           الاروقة الكبيرة فلبس شيخ المالكية المذكور زيادة على ذلك صوفا من عند حضرة قاضى الاسلام
@@ -144,12 +141,11 @@
           وفرجية جوخ من <persName role="مفتى السادة الحنفية">حضرة الشيخ التميمى مفتى السادة
             الحنفية</persName> وشالا كشميريا من <persName>حضرة مصطفى باشا العروسى</persName> وفرجية
           من عند <persName>الشيخ عبد الفتاح العنانى</persName> وكذلك لبس من عند <persName>السيد حنفى
-            مكرم</persName> وغيره من اصحاب العادات وكل من هؤلاء المذكورين اتحف <persName
-            role="شيخ رواق الصعائدة">السيد القيصاوى شيخ رواق الصعائدة</persName>
+            مكرم</persName> وغيره من اصحاب العادات وكل من هؤلاء المذكورين اتحف <persName role="شيخ رواق الصعائدة">السيد القيصاوى شيخ رواق الصعائدة</persName>
           <sic>بفرحية</sic> ومن جملتهم <persName>الشيخ محمد الحبيشى</persName> نفسه فقد كساه كما
           كساه غيره واجاز من مدحه من الشعراء.</p>
       </div>
-         <div resp="#eNK #eSG" xml:id="W151" n="RIZQA">
+         <div xml:id="W1259062402" resp="#eNK #eSG" n="RIZQA">
         <head><date when-custom="1259-04-22">٢٢ ربيع الثاني <choice>
               <sic>١٢٥٨</sic>
               <corr>١٢٥٩</corr>
@@ -168,8 +164,7 @@
           ٢٠٠٠</p>
         <p>دكاكين خمسة ب<placeName type="خط" ref="خط-الوراقين">خط الوراقين</placeName> بلغت من
           القروش ٧٠٠٠</p>
-        <p>اطيان رزقة بلا مال تعلق <persName>عبد الرحمن بيك</persName> ب<placeName type="ناحية"
-            ref="ناحيه-سيله-فيوم">ناحية سيله فيوم</placeName> جميعها سواد قدرها مائة فدان وبها من
+        <p>اطيان رزقة بلا مال تعلق <persName>عبد الرحمن بيك</persName> ب<placeName type="ناحية" ref="ناحيه-سيله-فيوم">ناحية سيله فيوم</placeName> جميعها سواد قدرها مائة فدان وبها من
           المهمات ثلاثة اقواس ومحراث واحد ومن المواشى ثور واحد بلغت من القروش ٢٠٠٠</p>
         <p>خمسمائة فدان رزقة بلا مال تعلق البيك المذكور ب<placeName ref="الفيوم">الفيوم</placeName>
           بها من المهمات محراثان واربعة عشر قوسا ونورج واحد ومن المواشى اربعة اثوار وحمار واحد بلغت
@@ -177,9 +172,7 @@
         <p>ثلاثة مساكن تعلق المرحوم <persName>خليل افندى</persName> ووصيه <persName>عارف
             بيك</persName> ب<placeName ref="الدرب-الاحمر" type="درب">الدرب الاحمر</placeName> فى
             <placeName ref="التبانه">التبانه</placeName> بلغت فى الدلالة من القروش ٤٠٠٠</p>
-        <p>طيان تعلق<persName role="مديرالقليوبية">حسن بيك مدير<placeName ref="القليوبية"
-              >القليوبية</placeName> سابقا</persName> ب<placeName type="ناحية"
-            ref="ناحية-ميت-العايد">ناحية ميت <choice>
+        <p>طيان تعلق<persName role="مديرالقليوبية">حسن بيك مدير<placeName ref="القليوبية">القليوبية</placeName> سابقا</persName> ب<placeName type="ناحية" ref="ناحية-ميت-العايد">ناحية ميت <choice>
               <sic>العايد</sic>
               <corr>القايد</corr>
             </choice></placeName> ب<placeName ref="اقليم-الجيزة" type="اقليم">اقليم
@@ -194,17 +187,12 @@
           </choice> وعشرون فدانا بلغت من القروش ٣٢٥٠٠ </p>
         <p>منزل ب<placeName ref="الجيزة">الجيزة</placeName> تعلق المذكور بلغ فى الدلالة ثمانين الف
           قرش</p>
-        <p>تسعة دكاكين ب<placeName ref="سوق الجيزة" type="سوق">سوق الجيزة</placeName> و<placeName
-            type="طاحونة">طاحونة</placeName> و<placeName type="فرن">فرن</placeName> و<placeName
-            type="اصطبل">اصطبل</placeName> كبير بلغت اثنى عشر الف قرش</p>
+        <p>تسعة دكاكين ب<placeName ref="سوق الجيزة" type="سوق">سوق الجيزة</placeName> و<placeName type="طاحونة">طاحونة</placeName> و<placeName type="فرن">فرن</placeName> و<placeName type="اصطبل">اصطبل</placeName> كبير بلغت اثنى عشر الف قرش</p>
         <p>الف وستمائة فدان تعلق المذكور رزقة بلا مال ب<placeName type="ناحية" ref="ناحية-بوش">ناحية
             بوش</placeName> بلغت ثلثمائة الف قرش وخمسة وثلاثين الفا</p>
-        <p>منزل ب<placeName ref="الدرب الاحمر">الدرب الاحمر</placeName> تعلق <persName
-            role="باش جاويش بالديوان الخديوى">اسماعيل اغا باش جاويش ب<orgName type="ديوان"
-              ref="الديوان-الخديوى">الديوان الخديوى</orgName></persName> بلغ فى الدلالة أحدا وثلاثين
+        <p>منزل ب<placeName ref="الدرب الاحمر">الدرب الاحمر</placeName> تعلق <persName role="باش جاويش بالديوان الخديوى">اسماعيل اغا باش جاويش ب<orgName type="ديوان" ref="الديوان-الخديوى">الديوان الخديوى</orgName></persName> بلغ فى الدلالة أحدا وثلاثين
           الف قرش وخمسمائة قرش</p>
-        <p>منزل ب<placeName ref="الباطلية">الباطلية</placeName> ب<placeName ref="ناحية الازهر"
-            type="ناحية">ناحية الازهر</placeName> تعلق <persName>الحاج على الاسكندرانى</persName>
+        <p>منزل ب<placeName ref="الباطلية">الباطلية</placeName> ب<placeName ref="ناحية الازهر" type="ناحية">ناحية الازهر</placeName> تعلق <persName>الحاج على الاسكندرانى</persName>
           بلغ من القروش ٦٢٥٠ </p>
       </div>
       </body>
