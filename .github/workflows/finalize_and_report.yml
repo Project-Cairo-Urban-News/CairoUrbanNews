@@ -18,6 +18,12 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
+      - name: Add IDs
+        run: |
+          mkdir articles/arabic-out
+          saxon -s:articles/arabic -xsl:xslt/add-id.xsl -o:articles/arabic-out
+          rsync -av articles/arabic-out/ articles/arabic/
+          rm -rf articles/arabic-out
       - name: Generate HTML
         run: |
           saxon -it:start -xsl:xslt/finalized.xsl -o:docs/finalized.html
