@@ -1,5 +1,6 @@
 # Person Roles
  * 'أجزجي': ‎[1286.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1286.xml&text=%D8%A3%D8%AC%D8%B2%D8%AC%D9%8A)
+ * ' أمين بيت مال مصر': ‎[1286.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1286.xml&text=%20%D8%A3%D9%85%D9%8A%D9%86%20%D8%A8%D9%8A%D8%AA%20%D9%85%D8%A7%D9%84%20%D9%85%D8%B5%D8%B1)
  * 'البصاص': ‎[1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%D8%A7%D9%84%D8%A8%D8%B5%D8%A7%D8%B5)
  * ' الخياط الرومى': ‎[1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%20%D8%A7%D9%84%D8%AE%D9%8A%D8%A7%D8%B7%20%D8%A7%D9%84%D8%B1%D9%88%D9%85%D9%89)
  * 'الصراف': ‎[1262.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1262.xml&text=%D8%A7%D9%84%D8%B5%D8%B1%D8%A7%D9%81)
@@ -38,7 +39,6 @@
  * 'جارية': ‎[1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9)
  * 'جبجى باشى': ‎[1248.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1248.xml&text=%D8%AC%D8%A8%D8%AC%D9%89%20%D8%A8%D8%A7%D8%B4%D9%89)
  * 'حداد': ‎[1246.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1246.xml&text=%D8%AD%D8%AF%D8%A7%D8%AF)
- * 'حسين باشا أمين بيت مال مصر': ‎[1286.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1286.xml&text=%D8%AD%D8%B3%D9%8A%D9%86%20%D8%A8%D8%A7%D8%B4%D8%A7%20%D8%A3%D9%85%D9%8A%D9%86%20%D8%A8%D9%8A%D8%AA%20%D9%85%D8%A7%D9%84%20%D9%85%D8%B5%D8%B1)
  * 'خباز': ‎[1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%D8%AE%D8%A8%D8%A7%D8%B2)
  * 'خبازة': ‎[1246.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1246.xml&text=%D8%AE%D8%A8%D8%A7%D8%B2%D8%A9)
  * 'خدام': ‎[1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%D8%AE%D8%AF%D8%A7%D9%85)
