@@ -118,52 +118,75 @@
   <text xml:lang="ar">
       <body>
          <div>
-            <head>1283</head>
+            <head>١٢٨٣</head>
          </div>
          <div xml:id="w1" resp="#eSG">
-            <head><date when-custom="1283-01-03'">٣ محرم ١٢٨٣</date><date when="1866-05-17">١٧ مايه
-                  ١٨٦٦</date><bibl><biblScope unit="issue">نمره ٢٤</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head><date when-custom="1283-01-03'">٣ محرم ١٢٨٣</date>
+               <date when="1866-05-17">١٧ مايه ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمره ٢٤</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head><title>اعلانات</title></head>
-            <p>اعلان وارد من وكيل <orgName type="بيت_مال_مصر">بيت مال مصر</orgName> فى ٢٩ ذى الحجة
-               ٨٢ قد توفى المرحوم <persName>خورشيد باشا الذى كان معاونا بالمعية السنية</persName>
-               ومن مخلفاته منزل كائن ب<placeName>عطفة حضرة السيد البكرى</placeName> فحررت قائمة
-               تتضمن اشهار المزايدة فيه بيد <persName>السيد محمد مصطفى الجنيدى وكيل طائفة دلالى
-                  العقارات</persName> فمن كان له رغبة فى الشراء فعليه بالإطلاع عليها وإجراء المزايدة
-               بعد الإحاطة بالشروط و الصفحات الموضحة بها ومعاينة ذلك.</p>
+            <p>اعلان وارد من وكيل <orgName ref="بيت-مال-مصر" type="بيت-مال">بيت مال مصر</orgName> فى
+               ٢٩ ذى الحجة ٨٢ قد توفى المرحوم <persName>خورشيد باشا الذى كان معاونا بالمعية
+                  السنية</persName> ومن مخلفاته <placeName type="منزل"
+                  ref="منزل-بعطفة-حضرة-السيد-البكرى">منزل كائن ب<placeName type="عطفة"
+                     ref="عطفة-حضرة-السيد-البكرى">عطفة حضرة السيد البكرى</placeName></placeName>
+               فحررت قائمة تتضمن اشهار المزايدة فيه بيد <persName>السيد محمد مصطفى الجنيدى وكيل
+                  طائفة دلالى العقارات</persName> فمن كان له رغبة فى الشراء فعليه بالإطلاع عليها
+               وإجراء المزايدة بعد الإحاطة بالشروط والصفحات الموضحة بها ومعاينة ذلك.</p>
          </div>
          <div xml:id="w2" resp="#eSG">
-            <head><date when-custom="1283-01-16">١٦ محرم ١٢٨٣</date><date when="1866-05-31">٣١ مايه
-                  ١٨٦٦</date><bibl><biblScope unit="issue">نمره ٢٦</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
-            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-            <p>بلغنا أنه يوم الاثنين الماضى سادس الشهر الحال هبأ ابهتلو دولتلو ناظر الخارجية ضيافة
-               بهية إلى الحضرة الداورية دعا إليها بعض الوكلاء الفخام و المأمورين
-               الكرام.<?oxy_custom_end?></p>
+            <head><date when-custom="1283-01-16">١٦ محرم ١٢٨٣</date>
+               <date when="1866-05-31">٣١ مايه ١٨٦٦</date><bibl><biblScope unit="issue">نمره
+                     ٢٦</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>بلغنا أنه يوم الاثنين الماضى سادس الشهر الحال
+               <?oxy_comment_start author="Sarah" timestamp="20230719T183135+0200" comment="check in the original"?>هبأ<?oxy_comment_end?>
+               ابهتلو دولتلو ناظر الخارجية ضيافة بهية إلى الحضرة الداورية دعا إليها بعض الوكلاء
+               الفخام والمأمورين الكرام.</p>
          </div>
          <div xml:id="w3" resp="#eSG">
             <head><date when="1283-01-16">١٦ محرم ١٢٨٣</date><date unit="1866-05-31">٣١ مايه سنة
                   ١٨٦٦</date><bibl><biblScope unit="issue">نمره ٢٦</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
-            <p>بعد مضى ثلاث ساعات ونصف من يوم الاربعاء غرة الشهر الحالى ظهر <rs>حريق</rs> ب<orgName type="وكالة_الكتان">وكالة الكتان</orgName>الكائنة ب<placeName>ساحة
-                  الحمير</placeName> التابعة <orgName type="ثمن_الازبكية"><placeName>ثمن
-                     الازبكية</placeName></orgName> وكذا فى الساعة الثالثة من ليلة الجمعة المارة ظهر
-               حريق بمنزل امرأة كائن ب<placeName>حارة الحميرية</placeName> ب<orgName type="ثمن_قيسون"><placeName>ثمن قيسون</placeName></orgName>ففى ارسل إلى الجهتين
-               المذكورتين من <orgName type="الضبطية">الضبطية</orgName> ما يلزم من آلات الإطفاء
-               والأشخاص الكافية وبمنه تعالى صار إطفاء كل منهما فى الوقت بدون أن يسرى إلى جهة
-               أخرى.</p>
+            <p>بعد مضى ثلاث ساعات ونصف من يوم الاربعاء غرة الشهر الحالى ظهر <rs type="حريق"
+                  >حريق</rs> ب<orgName type="وكالة" ref="وكالة-الكتان">وكالة الكتان</orgName>
+               الكائنة ب<placeName type="ساحة" ref="ساحة-الحمير">ساحة الحمير</placeName>
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>التابعة <orgName
+                  type="ثمن" ref="ثمن-الازبكية"><placeName>ثمن
+                     <?oxy_comment_start author="Sarah" timestamp="20230719T183413+0200" comment="check in the original لثمن
+" mid="2"?>الازبكية<?oxy_custom_end?><?oxy_comment_end mid="2"?></placeName></orgName>
+               وكذا فى الساعة الثالثة من ليلة الجمعة
+               <?oxy_comment_start author="Sarah" timestamp="20230719T183440+0200" comment="check in the original
+"?>المارة<?oxy_comment_end?>
+               ظهر <rs type="حريق">حريق</rs> ب<placeName type="منزل" ref="منزل-بحارة-الحميرية"
+                  >منزل</placeName> امرأة كائن ب<placeName type="حارة" ref="حارة-الحميرية">حارة
+                  الحميرية</placeName> ب<orgName type="ثمن" ref="ثمن-قيسون"><placeName>ثمن
+                     قيسون</placeName></orgName><?oxy_comment_start author="Sarah" timestamp="20230719T183758+0200" comment="check in the original"?>
+               ففى<?oxy_comment_end?> ارسل إلى الجهتين المذكورتين من <orgName type="الضبطية"
+                  >الضبطية</orgName> ما يلزم من آلات الإطفاء والأشخاص الكافية وبمنه تعالى صار إطفاء
+               كل منهما فى الوقت بدون أن يسرى إلى جهة أخرى.</p>
          </div>
          <div xml:id="w4" resp="#eSG">
             <head><date when-custom="1283-01-30">غاية محرم سنة ١٢٨٣</date><date when="1866-06-14">١٤
                   يونيه سنة ١٨٦٦</date><bibl><biblScope unit="issue">نمرة ٢٨</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
             <p>من التقدمات الفائقة العزيزية والمحسنات الرائقة البديعة والمشروعات السنية والمسموعات
                السمية العائدة على قطر مصر بالفخر فى كل عصر ونجاحه وملاحه ورباحه وفلاحه وحسن حاله
-               وكماله وزهوره بين أمثاله إنجاز ما كان مزمعا عليه وأمتدت أيدى الآمال إليه وهو <rs type="افتتاح">افتتاح</rs><orgName type="مدرسة_المهندسخانة_الخديوية">مدرسة
-                  المهندسخانة الخديوية</orgName> و<rs type="إنشاء">إنشاء</rs><orgName type="الرصدخانة">الرصدخانة</orgName> الآن ب<placeName>العباسية</placeName> وجعلهما
-               فى إدارة وحيد الامراء وفريد الأقران والنظراء الشاهد بفوقانه العيان وهو غنى عن البيان
-               لا سيما الفتوح والافاضة عليه فنون الرياضة حليف الصدق اجى الوفا عزتلو <persName>إسمعيل
-                  بيك مصطفى</persName> و إن شاء الله محسن سيره فى الطلال الداورية سيد وقريباً صلاحها
-               وتقتطف أزهارها الرياضية وقد أنشأ فى ذلك يوم الافتتاح الناطق لسان براعه بما فوق
-               الاقتراح جانى ثمار الفضل من عرجونه وهو الفارس عزتلو <persName>رفاعه بيك ناظر <orgName type="قلم_الترجمة">قلم الترجمة</orgName> ورئيس <orgName type="قومسيون_المدارس">قومسيون المدارس</orgName></persName> مقالة يشهد برقتها سلامة الطباع وتشرب
-               الفاظها افواه الاسماع مزيلا لها بتاريخ يحيى نظمه سيره ابن مليك لنجلة الاصغر
-                  النجيب<persName> على فهمى بيك</persName>.</p>
+               وكماله وزهوره بين أمثاله إنجاز ما كان مزمعا عليه وأمتدت أيدى الآمال إليه وهو <rs
+                  type="افتتاح">افتتاح</rs>
+               <orgName type="مدرسة" ref="مدرسة-المهندسخانة-الخديوية">مدرسة المهندسخانة
+                  الخديوية</orgName> و<rs type="إنشاء">إنشاء</rs>
+               <orgName type="الرصدخانة">الرصدخانة</orgName> الآن ب<placeName ref="العباسية"
+                  >العباسية</placeName> وجعلهما فى إدارة وحيد الامراء وفريد الأقران والنظراء الشاهد
+               <?oxy_comment_start author="Sarah" timestamp="20230719T184055+0200" comment="check in the original
+"?>بفوقانه<?oxy_comment_end?>
+               العيان وهو غنى عن البيان لا سيما الفتوح والافاضة عليه فنون الرياضة حليف الصدق اجى
+               الوفا عزتلو <persName>إسمعيل بيك مصطفى</persName> وإن شاء الله محسن سيره فى الطلال
+               الداورية سيد وقريبا صلاحها وتقتطف أزهارها الرياضية وقد أنشأ فى ذلك يوم الافتتاح
+               الناطق لسان براعه بما فوق الاقتراح جانى ثمار الفضل من عرجونه وهو الفارس عزتلو
+                  <persName>رفاعه بيك ناظر <orgName type="قلم" ref="قلم-الترجمة">قلم
+                     الترجمة</orgName> ورئيس <orgName type="قومسيون" ref="قومسيون-المدارس">قومسيون
+                     المدارس</orgName></persName> مقالة يشهد برقتها سلامة الطباع وتشرب الفاظها افواه
+               الاسماع مزيلا لها بتاريخ يحيى نظمه سيره ابن مليك لنجلة الاصغر النجيب <persName>على
+                  فهمى بيك</persName>.</p>
          </div>
          <div xml:id="w5" resp="#eSG">
             <head><date when-custom="1283-02-07">٧ صفر سنة ١٢٨٣</date><date type="1866-06-21">٢١
