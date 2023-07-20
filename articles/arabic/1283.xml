@@ -353,35 +353,55 @@
             <p>تعين <persName>أحمد أفندي خطاب ذو الرتبة الرابعة معاونًا ب<orgName
                      ref="تفتيش-عموم-الاقاليم">تفتيش عموم الأقاليم</orgName></persName>
                   ومثله<persName>أحمد أفندي بعد الأحسان إليه بالرتبة الخامسة</persName>.</p>
-            <p>احسن إلى <persName>مصطفى افندي الصاغقول اغا سي أحد مأموري المطابخ السنية</persName>
-               برتبة البيكاشي احسن بالرتبة الرابعة إلى <persName>محمد أفندي يحيي أحد معاوني المالية
-                  المنوط ومأمورية مؤقتة ب<orgName type="ديوان_الأمور_الخاصة_الخديوية">ديوان الأمور
-                     الخاصة الخديوية</orgName></persName> يستفاد من بوصلة واردة من <orgName type="ديوان_الجهادية">ديوان الجهادية</orgName>انه أحسن برتبة <sic>اكييكباس</sic>
-               إلي <persName>عبد الله افندي عزت الذي كان معاونًا ب<orgName type="مجلس_العسكرية">مجلس
-                     العسكرية</orgName></persName> برتبة الصاعقول اغاسي والحق بالاي السواري
-               الثالث.</p>
+            <p>احسن الى <persName>مصطفى افندي الصاغقول اغا سي أحد مأموري
+                  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>المطابخ
+                  <?oxy_comment_start author="Sarah" timestamp="20230720T235340+0200" comment="check in the original" mid="32"?>السنية<?oxy_custom_end?><?oxy_comment_end mid="32"?></persName>
+               برتبة البيكاشي احسن بالرتبة الرابعة إلى <persName>محمد أفندي يحيي أحد
+                  معاوني<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> المالية
+                  المنوط <?oxy_custom_end?>ومأمورية مؤقتة ب<orgName type="ديوان"
+                     ref="ديوان-الأمور-الخاصة-الخديوية">ديوان الأمور الخاصة
+                  الخديوية</orgName></persName> يستفاد من
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>بوصلة<?oxy_custom_end?>
+               واردة من <orgName type="ديوان" ref="ديوان-الجهادية">ديوان الجهادية</orgName> انه أحسن
+               برتبة
+                  <sic><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>اكييكباس<?oxy_custom_end?></sic>
+               إلي <persName>عبد الله افندي عزت الذي كان معاونًا ب<orgName type="مجلس"
+                     ref="مجلس-العسكرية">مجلس العسكرية</orgName></persName> برتبة
+               الصا<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>عق<?oxy_custom_end?>ول
+               اغاسي والحق بالاي السواري الثالث.</p>
          </div>
          <div xml:id="w14" resp="#eSG">
-            <head><date>١٤ ربيع الآخر سنة ١٢٨٣</date><date>٢٦ أوغسطس سنة
-                     ١٨٦٦</date><bibl><biblScope unit="issue">نمرة ٣٨</biblScope>
+            <head><date when-custom="1283-04-14">١٤ ربيع الآخر ١٢٨٣</date>
+               <date when="1866-08-26">٢٦ أوغسطس ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ٣٨</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-            <head><title>اعلانات (اعلان من <orgName type="ديوان_المالية">ديوان
-                  المالية</orgName>)</title></head>
-            <p>ترك المرحوم السبد <persName>بدوي غانم الذي كان صرافًا ب<orgName type="الروزنامجة">الروزنامجة</orgName></persName>منزلين معرضين للبيع بمعرفة المالية أحداهما جديد
-                  ب<placeName>الزير المعلق</placeName>وقف في المزايدة على سعادة فاضل باشا بمبلغ قدره
-               مائه وعشرة آلاف قرش والثاني قديم ب<placeName>سويقة اللاله</placeName> بلغ في المزايدة
-               ثلاثة وتسعين ألف قرش وقد ضربت لمبيعهما مدة ثمانية أيام ابتداؤها ١٥ ربيع الثاني إلى
-               غاية ٢٣ منه فمن يرغب في ذلك فعليه بالمالية قبل حلول الميعاد وكل من طلب بعد لا يقبل في
-               الميري بل يكون المتصرف بلا انتظار.</p>
+            <head><title>اعلانات (اعلان من <orgName type="ديوان" ref="ديوان-المالية">ديوان
+                     المالية</orgName>)</title></head>
+            <p>ترك المرحوم <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah" timestamp="20230721T000153+0200" comment=" check
+ " mid="38"?>السبد<?oxy_custom_end?><?oxy_comment_end mid="38"?>
+               <persName>بدوي غانم الذي كان صرافا ب<orgName type="الروزنامجة" ref="الروزنامجة"
+                     >الروزنامجة</orgName></persName>
+               <placeName type="منزل" ref="منزلين-السيد-بدوى-غانم">منزلين</placeName> معرضين للبيع
+               بمعرفة المالية أحداهما جديد ب<placeName ref="الزير-المعلق">الزير المعلق</placeName>
+               وقف في المزايدة على <persName>سعادة فاضل باشا</persName> بمبلغ قدره مائه وعشرة آلاف
+               قرش والثاني قديم ب<placeName type="سويقة" ref="سويقة-اللاله">سويقة اللاله</placeName>
+               بلغ في المزايدة ثلاثة وتسعين ألف قرش وقد ضربت لمبيعهما مدة ثمانية أيام ابتداؤها ١٥
+               ربيع الثاني إلى غاية ٢٣ منه فمن يرغب في ذلك فعليه بالمالية قبل حلول الميعاد وكل من
+               طلب بعد لا يقبل في الميري بل يكون المتصرف بلا انتظار.</p>
          </div>
          <div xml:id="w15" resp="#eSG">
-            <head><date when-custom="1283-04-21">٢١ ربيع الآخر سنة ١٢٨٣</date><date when="1866-09-02">٢ سبتمبر سنة ١٨٦٦</date><bibl><biblScope unit="issue">نمرة
-                     ٣٩</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
-            <p>صار عزتلو <persName>أحمد كمال بيك الذي كان وكيل المالية وكيل <orgName type="ديوان_الأمور_الخاصة">ديوان الأمور الخاصة</orgName></persName>.</p>
-            <p>أحسن إلى رفعتلو <persName>عبد القادر افندي مأمور<orgName type="أوقاف_الحرمين_الشريفين">أوقاف الحرمين الشريفين</orgName></persName>
+            <head><date when-custom="1283-04-21">٢١ ربيع الآخر ١٢٨٣</date>
+               <date when="1866-09-02">٢ سبتمبر ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ٣٩</biblScope><biblScope unit="page">صفحة
+                     ١</biblScope></bibl></head>
+            <p>صار عزتلو <persName>أحمد كمال بيك الذي كان وكيل المالية وكيل <orgName type="ديوان"
+                     ref="ديوان-الأمور-الخاصة">ديوان الأمور الخاصة</orgName></persName>.</p>
+            <p>أحسن إلى رفعتلو <persName>عبد القادر افندي مأمور <orgName type="اوقاف"
+                     ref="أوقاف-الحرمين-الشريفين">أوقاف الحرمين الشريفين</orgName></persName>
                بالرتبة الثالثة </p>
-            <p>أحسن إلي فتوتلو <persName>حسن أفندي على ناظر <orgName type="أوقاف_السيدين">أوقاف
-                     السيدين</orgName></persName> بالرتبة الرابعة .</p>
+            <p>أحسن إلي <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>فتوتلو<?oxy_custom_end?>
+               <persName>حسن أفندي على ناظر <orgName type="اوقاف" ref="أوقاف-السيدين">أوقاف
+                     السيدين</orgName></persName> بالرتبة الرابعة.</p>
             <p>أحسن إلى عزتلو <persName>موسي بيك العقاد أحد تجار مصر المعتبرين</persName> بنيشان
                همايوني مجيدي من الرتبة الثالثة.</p>
          </div>
