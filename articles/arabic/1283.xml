@@ -402,8 +402,8 @@
                      ref="السكة-الحديدية">السكة الحديدية</orgName></persName>.</p>
             <p>أحسن إلى فتوتلو <persName>أحمد سبكي افندي المهندس الذي بمعية عزتلو <persName>محمود
                      بيك الفلكي</persName></persName> بالرتبة الرابعة.</p>
-            <p>أحسن إلى فتوتلو <persName>ولي حلمي بيك أحد معاوني المعية السنية</persName> بالرتبة
-               الرابعة.</p>
+            <p>أحسن إلى فتوتلو <persName>ولي حلمي بيك أحد معاوني <orgName type="المعية-السنية"
+                     >المعية السنية</orgName></persName> بالرتبة الرابعة.</p>
          </div>
          <div xml:id="w17" resp="#eSG">
             <head><date when-custom="1283-05-07">٧ جمادي الأولى ١٢٨٣</date>
@@ -422,31 +422,50 @@
                تسعف هذه العربخانة بواسطة قرب الضبطية لانتشر الحريق لاتساعها وكثرة أمتعتها.</p>
          </div>
          <div xml:id="w18" resp="#eSG">
-            <head><date when-custom="1283-05-21">٢١ جمادي الأولى ١٢٨٣</date><date when="1866-10-01">١ أقتوبر ١٨٦٦</date><bibl><biblScope unit="issue">نمرة ٤٤</biblScope>
+            <head><date when-custom="1283-05-21">٢١ جمادي الأولى ١٢٨٣</date>
+               <date when="1866-10-01">١ أقتوبر ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ٤٤</biblScope>
                   <biblScope unit="page">صفحة ١</biblScope></bibl></head>
             <head><title>حوادث داخلية</title></head>
-            <p>علقت الأدارة السنية الخديوية بتوجية <orgName type="نظارة_المسافرخانة_المصرية">نظارة
-                  المسافر خانة المصرية</orgName> إلى حضرة عزتلو <persName>أزمرلي أمين بيلط أفندي أحد
-                  أعضاء <orgName type="مجلس_استئناف_مصر">مجلس استئناف مصر</orgName> سابقا</persName>
-               لما فيه من حسن الأستقامة والأستعداد التام وكمال الأهلية للقيام بها أتم قيام.</p>
-            <p>ألحق حضرة عزتلو <persName>على جودت بك الذي كان وكيل <orgName type="محافظة_مصر">محافظة
-                     مصر</orgName></persName> ب<orgName type="المعية_السنية">المعية السنية</orgName>
-               واستعوض بحضرة عزتلو <persName>جليل بيامي بك الذي كان أحد أعضاء مجلس الأستئناف
-                  المصري</persName> كما تعلقت به الأدارة الكريمة.</p>
+            <p>علقت الأدارة السنية الخديوية بتوجية <orgName type="نظارة"
+                  ref="نظارة-المسافرخانة-المصرية">نظارة المسافرخانة المصرية</orgName> إلى حضرة عزتلو
+                  <persName>أزمرلي أمين بيلط أفندي أحد أعضاء <orgName type="مجلس"
+                     ref="مجلس-استئناف-مصر">مجلس استئناف مصر</orgName> سابقا</persName> لما فيه من
+               حسن الأستقامة والأستعداد التام وكمال الأهلية للقيام بها أتم قيام.</p>
+            <p>ألحق حضرة عزتلو <persName>على جودت بك الذي كان وكيل <orgName type="محافظة_مصر"
+                     ref="محافظة-مصر">محافظة مصر</orgName></persName> ب<orgName type="المعية-السنية"
+                  >المعية السنية</orgName> واستعوض بحضرة عزتلو <persName>جليل بيامي بك الذي كان أحد
+                  أعضاء مجلس الأستئناف المصري</persName> كما تعلقت به الأدارة الكريمة.</p>
          </div>
          <div xml:id="w19" resp="#eSG">
-            <head><date when-custom="1283-06-01">غرة جمادي الثانى سنة ١٢٨٣</date><date when="1866-10-11">١١ أكتوبر ١٨٦٦</date><bibl><biblScope unit="issue">نمرة
-                     ٤٧</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head><date when-custom="1283-06-01">غرة جمادي الثانى ١٢٨٣</date>
+               <date when="1866-10-11">١١ أكتوبر ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ٤٧</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head><title>اعلانات</title></head>
-            <p>منزلان ب<placeName>شارع البيدق بالأزبكية</placeName> نظارة أحمد ريحان </p>
-            <p>منزل ب<placeName>درب العسل بخط الصليبة</placeName><orgName type="وقف_الجعافرة">وقف
-                  الجعافرة</orgName></p>
-            <p>خرابة ب<placeName>حارة الأربعين</placeName>نظارة محمد أفندي نجيب والحرمة الزاهرة </p>
-            <p>ربع منزل ب<placeName>حارة ضاحي بالحسينية</placeName><orgName type="وقف_الحرمة_غزالة">وقف الحرمة غزالة</orgName> نظارة أحمد محمد الخامي القباني .</p>
-            <p>منزل ب<placeName>حارة الأمير بخط الأزهر</placeName><orgName type="وقف_عبدالرحمن_الطحلاوى">وقف عبد الرحمن الطحلاوي</orgName> نظارة مصطفى
-               الطحلاوي.</p>
+            <p><placeName ref="منزلان-بشارع-البيدق-بالازبكية" type="منزلان">منزلان ب<placeName
+                     type="شارع" ref="شارع-البيدق">شارع البيدق ب<placeName ref="الازبكية"
+                        >الأزبكية</placeName></placeName></placeName> نظارة <persName>أحمد
+                  ريحان</persName></p>
+            <p><placeName ref="منزل-وقف-الجعافرة" type="منزل">منزل</placeName> ب<placeName
+                  type="درب" ref="درب-العسل">درب العسل</placeName> ب<placeName ref="خط-الصليبة"
+                  type="خط">خط الصليبة</placeName>
+               <orgName type="وقف" ref="وقف-الجعافرة">وقف الجعافرة</orgName></p>
+            <p><placeName type="خرابة" ref="خرابة-بحارة-الأربعين">خرابة ب<placeName
+                     ref="حارة-الاربعين" type="حارة">حارة الأربعين</placeName></placeName> نظارة
+                  <persName>محمد أفندي نجيب</persName> و<persName>الحرمة الزاهرة</persName></p>
+            <p>ربع <placeName type="منزل" ref="منزل-بحارة-ضاحى">منزل ب<placeName ref="حارة-ضاحى"
+                     type="حارة">حارة ضاحي</placeName></placeName> ب<placeName ref="الحسينية"
+                  >الحسينية</placeName>
+               <orgName type="وقف" ref="وقف-الحرمة-غزالة">وقف الحرمة غزالة</orgName> نظارة
+                  <persName>أحمد محمد الخامي القباني</persName>.</p>
+            <p><placeName ref="منزل-وقف-عبد-الرحمن-الطحلاوى">منزل</placeName> ب<placeName
+                  ref="حارة-الامير" type="حارة">حارة الأمير</placeName> ب<placeName type="خط"
+                  ref="خط-الازهر">خط الأزهر</placeName>
+               <orgName type="وقف" ref="وقف-عبدالرحمن-الطحلاوى">وقف عبد الرحمن الطحلاوي</orgName>
+               نظارة <persName>مصطفى الطحلاوي</persName>.</p>
             <p>حيث قد ساغ شرعا بيع انقاض الأماكن المذكورة ومؤاجرة أرضها والخلق فيها لمن يرغب كتب إلي
-               معاون الأوقاف باشهار ذلك بقوائم المزايدة فمن كان له رغبة فليتوجه هناك لذلك . </p>
+               معاون الأوقاف باشهار ذلك بقوائم المزايدة فمن كان له رغبة فليتوجه هناك لذلك .</p>
          </div>
          <div xml:id="w20" resp="#eSG">
             <head><date when-custom="1283-06-05">٥ جمادي الثانى سنة ١٢٨٣</date><date when="1866-10-15">١٥ أكتوبر ١٨٦٦</date><bibl><biblScope unit="issue">نمرة ٤٨</biblScope>
