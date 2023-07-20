@@ -21,7 +21,7 @@ jobs:
       - name: Add IDs
         run: |
           mkdir articles/arabic-out
-          saxon -s:articles/arabic -xsl:xslt/add-id.xsl -o:articles/arabic-out
+          saxon -s:articles/arabic -xsl:xslt/add-ids.xsl -o:articles/arabic-out
           rsync -av articles/arabic-out/ articles/arabic/
           rm -rf articles/arabic-out
       - name: Generate HTML
