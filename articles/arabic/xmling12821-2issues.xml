@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="../../css/oxygen.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
+          Project</title>
+            <editor xml:id="eNK">Nour Kanaan</editor>
+            <editor xml:id="eAM">Adam Mestyan</editor>
+            <editor xml:id="eDY">Danah Younis</editor>
+            <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
+            <editor xml:id="eAE">Arif Erbil</editor>
+            <editor xml:id="eAK">Ahmed Kamal</editor>
+            <editor xml:id="eAS">Abram Smith</editor>
+            <editor xml:id="eCH">Clara Harms</editor>
+            <editor xml:id="eHS">Hüseyin Sağlam</editor>
+            <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+            <editor xml:id="eHL">Hiba Laabadli</editor>
+            <editor xml:id="eOE">Othmane Echchabi</editor>
+            <editor xml:id="eFA">Fatemah Almahana</editor>
+            <respStmt>
+               <resp>Advisor</resp>
+               <name>Hugh Cayless</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Adam Mestyan</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Mercedes Volait</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Sarah Fathallah Garaa</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Karima Nasr</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Rezk Nory</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Arif Erbil</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Ahmed Kamal</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abram Smith</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Clara Harms</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Hüseyin Sağlam</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abdulrahman El-Taliawi</name>
+            </respStmt>
+            <sponsor>
+               <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
+            <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+            Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>.
+        </sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
+          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+            <p>
+               <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
+            </p>
+            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+            <p>born digital document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Rules of TEI XML MarkUp in This Project</p>
+            <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
+            <p>Each individual article has an individual xml:id number starting with "w1"</p>
+            <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
+            <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
+            <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+          Editions</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+            <language ident="ota">Ottoman</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change/>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="ar">
+      <body>
+         <div>
+            <head>*(نمرة الوقائع ١)</head>
+            <head>طبعت بمطبعة بولاق يوم السبت ٧ رجب الفرد سنة ١٢٨٢ه الموافق ١٧ هاتور سنة ١٥٨٢ و٢٥ نوفمبر سنة ١٨٦٥م</head>
+            <p>
+               <sic>ص١ -عمود ١</sic>
+            </p>
+            <p> قد أحسن إلى صاحب العزة أحمد قائد بك برتبة متمايز الصنف الأول من الرتبة الثانية لما شوهد من اقدامه ومزيد من اهتمامه في الخدمة المشكورة والمساعي المبرورة اذ لم تزل العوارف العلية الخديوية تشمل أرباب المعارف والحمية.</p>
+         </div>
+         <div>
+            <head>*(نمرة الوقائع ٢)</head>
+            <head>طبعت بمطبعة بولاق يوم السبت ١٢ رجب الفرد سنة ١٢٨٢ه الموافق ٢٢ هاتور سنة ١٥٨٢ و٣٠ نوفمبر سنة ١٨٦٥م</head>
+            <p>
+               <anchor xml:id="Hlk17563076"/>
+               <sic>ص١ -عمود ٣،٢</sic>
+            </p>
+            <p>من أجل مشروع ما هو مسموع ان من طاب نفسًا وضبط جأشًا المفخم سعادة شريف باشا ناظر الداخلية والخارجية والمدارس المصرية تأهب لتهيئ ضيافة رسمية موسمية في ليلة تحسب غرة في جبهة الليال وهي السابعة عشرة من رجب الحرام الحال الموافقة موسمًا تتيه بهلاه الدهور وتتجلى بتنظيم حلية حلاه البخور ألا وهو مولد صاحب السعادة ومعدن السيادة من له فعل الخير عادة الخديوي الأجل والداوري المبجل لازالت الأنام مسرورة بوجوده والكرام مشمولة بفضله وجوده وفي صبحية تلك الليلة تعمل تعليمات عسكرية وتدريبات حربية بميدان العباسية بغاية اللطافة والظرافة تهيأ عند الغروب ضيافة تليق بالطلعة البهية العزيزية وتكون خدمة كافة الجهادية.</p>
+         </div>
+         <div>
+            <head>*(نمرة الوقائع ٢)</head>
+            <head>طبعت بمطبعة بولاق يوم السبت ١٢ رجب الفرد سنة ١٢٨٢ه الموافق ٢٢ هاتور سنة ١٥٨٢ و٣٠ نوفمبر سنة ١٨٦٥م</head>
+            <p>
+               <sic>ص١ -عمود ٣</sic>
+            </p>
+            <p>ان عزتلو خورشيد بيك الذي كان مأمور ضبطية سكندرية صار وكيل عموم السكة الحديد وقد استعوض بعزتلو على كوجك بيك الذي كان وكيل محافظ الكنال (اي جدول السويس) وكذلك استعوض هو بعزتلو مصطفى شاري بيك الذي كان وكيل هذه الضبطية وعزتلو ابراهيم أدهم بيك الذي كان بمعية الجناب الخديوي ناظر قلم التكية تعيين الآن ناظر قلم دعاوي بمديرية الغربية.</p>
+         </div>
+         <div>
+            <head>*(نمرة الوقائع ٢)</head>
+            <head>طبعت بمطبعة بولاق يوم السبت ١٢ رجب الفرد سنة ١٢٨٢ه الموافق ٢٢ هاتور سنة ١٥٨٢ و٣٠ نوفمبر سنة ١٨٦٥م</head>
+            <p>
+               <sic>ص٢ -عمود ٣،٢</sic>
+            </p>
+            <p>بلغنا ان سفير جناب امبراطور الكسيتا بالدولة العلية الذي جاء مصر منذ عدة أيام لتغيير الهواء وأجريت له رسوم الضيافة واعد لنزوله سراية النزهة المرونقة بشبرا تشرف بمقابلة الجناب الخديو المفخم يوم الأثنين الماضي بقصر النيل وتفضل سعادته بزيارته ولما علم منه الرغبة في التفرج على الأهرام وما فيها من الأعاجيب اكرمه بالأمر بتخصيص وابور بحري لركوبه إلى الجيزة بما فيه من اللوازم وخيول ... للركوب بعد خروجه منه متوجهًا إلى مارام وهو الأهرام.</p>
+         </div>
+         <div>
+            <head>*(نمرة الوقائع ٢)</head>
+            <head>طبعت بمطبعة بولاق يوم السبت ١٢ رجب الفرد سنة ١٢٨٢ه الموافق ٢٢ هاتور سنة ١٥٨٢ و٣٠ نوفمبر سنة ١٨٦٥م</head>
+            <p>
+               <sic>ص٢ -عمود ٣</sic>
+            </p>
+            <p>ان جناب رفعتلو طرابوليجية محمد قبودان الذي كان معاونًا بمجلس الأحكام المصرية قلد بوظيفة المعاون بالضبطية.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
