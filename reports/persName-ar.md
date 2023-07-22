@@ -13,6 +13,5 @@
  * 'معاون-لمأمور-اشغال-المحروسة: '‎[1247.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1247.xml&text=%D9%85%D8%B9%D8%A7%D9%88%D9%86%20%D9%84%D9%85%D8%A3%D9%85%D9%88%D8%B1%20%D8%A7%D8%B4%D8%BA%D8%A7%D9%84%20%D8%A7%D9%84%D9%85%D8%AD%D8%B1%D9%88%D8%B3%D8%A9)
  * 'ناظر-الابنية: '‎[1244.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1244.xml&text=%D9%86%D8%A7%D8%B8%D8%B1%20%D8%A7%D9%84%D8%A7%D8%A8%D9%86%D9%8A%D8%A9)
  * 'ناظر-القناطر-الخيرية: '‎[1282.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1282.xml&text=%D9%86%D8%A7%D8%B8%D8%B1%20%D8%A7%D9%84%D9%82%D9%86%D8%A7%D8%B7%D8%B1%20%D8%A7%D9%84%D8%AE%D9%8A%D8%B1%D9%8A%D8%A9)
- * 'ناظرة-وقف-على-حمزة: '‎[1282.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1282.xml&text=%D9%86%D8%A7%D8%B8%D8%B1%D8%A9%20%D9%88%D9%82%D9%81%20%D8%B9%D9%84%D9%89%20%D8%AD%D9%85%D8%B2%D8%A9)
  * 'ناظر-وقف-المرحومة-حفيظة: '‎[1282.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1282.xml&text=%D9%86%D8%A7%D8%B8%D8%B1%20%D9%88%D9%82%D9%81%20%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%88%D9%85%D8%A9%20%D8%AD%D9%81%D9%8A%D8%B8%D8%A9)
  * 'والى-جده: '‎[1244.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1244.xml&text=%D9%88%D8%A7%D9%84%D9%89%20%D8%AC%D8%AF%D9%87)
