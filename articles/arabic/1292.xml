@@ -92,16 +92,14 @@
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
         <p>We use the Arabic script but transliteration into Latin characters follows the Library of
-          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf"
-            >Arabic transliteration chart</ref>.</p>
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
         <p>Each individual article has an individual xml:id number starting with "w1"</p>
         <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
           and notes.</p>
         <p>If the location or organization of responsibility is known from the text, it can be added
           in an attribute to a persName.</p>
         <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-        <p>This project's schema considers Till Grallert's work in his <ref
-            target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
             Editions</ref>.</p>
       </editorialDecl>
     </encodingDesc>
@@ -122,7 +120,7 @@
   
   <text xml:lang="ar">
       <body>
-      <div xml:id="w160" resp="#eNK">
+      <div xml:id="W1292000001" resp="#eNK">
         <head><date when-custom="1292-06-22">٢٢ جمادى الثانى ١٢٩٢</date>
           <date when="1875-07-25">٢٥ يوليو ١٨٧٥</date><bibl><biblScope unit="issue ">نمرة
               ٦١٦</biblScope>
@@ -161,7 +159,7 @@
           النظافة على غير ما عليه أمهاتهن بل يحملن الناس على دعائهن بالسيدات حقا لما يكن عليه بعد فى
           منازلهن من حسن الادارات وكمال الترتيبات الصادرة عن جمال التربية والنظافات.</p>
       </div>
-      <div xml:id="w162" resp="#eNK">
+      <div xml:id="W1292000002" resp="#eNK">
         <head><date when-custom="1292-07-07">٧ رجب ١٢٩٢</date>
           <date when="1875-08-08">٨ اغسطس ١٨٧٥</date>
           <bibl><biblScope unit="issue ">نمرة ٦١٨</biblScope>
@@ -192,7 +190,7 @@
           واعرب عن عظم وقعها وتلا <persName>على حمدى</persName> أول تلامذة أولى فرقها النجيب هذه
           الخطبة الثنائية الدعائية الناطقة بما يحلو ويطيب: ... </p>
       </div>
-      <div xml:id="w164" resp="#eNK">
+      <div xml:id="W1292062403" resp="#eNK">
         <head><date when-custom="1292-08-19">١٩ شعبان ١٢٩٢</date>
           <date when="1875-09-19">١٩ سبتمبر ١٨٧٥</date>
           <bibl><biblScope unit="issue">نمرة ٦٢٤</biblScope>
@@ -264,7 +262,7 @@
           باشباله الفخام وانجاله الكرام بجاه نبينا عليه وعلى آله أوفر الصلاة وأوفى السلام آمين آمين
           آمين.</p>
       </div>
-      <div xml:id="w165" resp="#eNK">
+      <div xml:id="W1292022504" resp="#eNK">
         <head><date when-custom="1292-08-26">٢٦ شعبان ١٢٩٢</date>
           <date when="1875-09-26">٢٦ سبتمبر ١٨٧٥</date>
           <bibl><biblScope unit="issue">نمرة ٢٢٥</biblScope>
@@ -275,7 +273,7 @@
             <persName>حضرة ذات الخلال الحميده حضرة والدة المرحوم الهامى باشا المجيده</persName> فعدم
           ذكرها الاتفاقى فى مقدمتهما جاء من باب الاجلال و زيادة الكمال.</p>
       </div>
-      <div xml:id="w166" resp="#eNK">
+      <div xml:id="W1292022605" resp="#eNK">
         <head><date when-custom="1292-09-04">٤ رمضان ١٢٩٢</date>
           <date when="1875-10-03">٣ اوكتوبر ١٨٧٥</date>
           <bibl><biblScope unit="issue">نمرة ٢٢٦</biblScope>
@@ -284,7 +282,7 @@
         <p>سبق التنبيه فى الصحيفة على حضور اقلام الحقانية من <placeName ref="الاسكندرية">الاسكندرية</placeName> الى مصر المحمية والآن علم انها رتبت موقتا فى <placeName type="قصر" ref="قصر النيل">قصر النيل</placeName> الى حين انتهاء عملية الاصلاحات اللازمة
           للمحل الذى خصص له <placeName type="شارع" ref="شارع عابدين">بشارع عابدين</placeName>.</p>
       </div>
-      <div resp="#eNK" xml:id="w167">
+      <div xml:id="W1292063406" resp="#eNK">
         <head>
           <date when-custom="1292-11-08">٨ ذى القعده ١٢٩٢</date>
           <date when="1875-12-06">٦ ديسمبر ١٨٧٥</date><bibl>
@@ -293,7 +291,7 @@
         <head>الحوادث الداخليه</head>
         <p>بعد ظهر السادس والعشرين من نوامبر الماضى اجريت رسوم بناء <placeName type="كنيسة" ref="كنيسة الامريقان">كنيسة الامريقان</placeName> بقرب <placeName type="لوقانده" ref="لوقانده (اوتل شبرت)">لوقانده <sic>(اوتل شبرت)</sic></placeName> التى ب<placeName ref="الازبكية">الازبكية</placeName> حضرها كثير من المعتبرين منهم <persName role="سفير">جناب مسيو (بانقروفت دويس) سفير امريقا ببرلين</persName> المقيم بمصر الآن و<persName role="قنصل">جناب قنصل امريقا الجنرال بها</persName> و غيرها من الامريقانيين</p>
       </div>
-      <div resp="#eNK" xml:id="w168">
+      <div xml:id="W1292063907" resp="#eNK">
         <head><date when-custom="1292-12-13">١٣ ذو الحجة ١٢٩٢</date>
           <date when="1876-01-09">٩ يناير ١٨٧٦</date>
           <bibl><biblScope unit="issue">نمرة ٦٣٩</biblScope><biblScope unit="page">صفحة
@@ -317,7 +315,7 @@
           اقدماتكم ومساعيكم تكون مصروفة إلى أعلى مقصد مرغوب وها أنا أعلن فيكم اليوم رسميا افتتاح تلك
           المحاكم.</p>
       </div>
-      <div>
+      <div xml:id="W000008">
         <head>(كيفية افتتاح <placeName><orgName type="محكمة">المحكمة
             الابتدائية</orgName></placeName> بمصر المحروسة المحمية)</head>
         <p>فى تلك الساعة بعينها من ذلك الشهر افتتحت هذه المحكمة وذلك ان كلا من اعضاء المحاكم الجديدة
@@ -326,7 +324,7 @@
           الفرنساوية من الكلام معلنا بفتح تلك المحكمة المصرية باسم <orgName ref="الحكومة الخديوية">الحكومة الخديوية</orgName> ثم اجتمع أولئك الأعضاء فى محل أخر وتحادثوا متآلفين فى
           المساهرة ثم انصرفوا فى الساعة الحادية عشرة.</p>
       </div>
-      <div>
+      <div xml:id="W000009">
         <head>(وهذا مضمون ما أورده الوكيل بالنيابة عن حضرة ذلك الباشا الأصيل)</head>
         <p>يا سيادتى حيث ان <persName role="ناظر الحقانية">حضرة سعادتلو رياض باشا ناظر <orgName ref="الحقانية">الحقانية</orgName></persName> توجه إلى
             <placeName>الاسكندرية</placeName> لاجراء رسم فتح محكمتها الأستئنافية قد وكلنى فى فتح
