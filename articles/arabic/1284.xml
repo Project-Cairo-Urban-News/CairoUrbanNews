@@ -117,19 +117,20 @@
   
   <text xml:lang="ar">
       <body>
-         <div>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١١٠</biblScope></bibl>)</head>
-            <head>طبعت بمطبعة بولاق يوم الأحد <date when-custom="1284-01-29">٢٩ محرم سنة
-                  ١٢٨٤هـ</date>الموافق ٢٦ بشنس القبطي ١٥٨٣ <date when="1867-06-02">و٢ يونيه الأفرنجي
-                  ١٨٦٧م</date></head>
-            <p>صار حضرة سعادتلو <persName>ثابت باشا أمين كرك سكندرية</persName> وكيل <orgName type="نظارة-الداخلية">نظارة الداخلية</orgName> واستعوض بسعادتلو <persName>أحمد
-                  باشا ناظر الوادرا</persName> واستعوض هذا أيضًا ب<persName>سعادتلو صفر باشا وكيل
-                     <orgName type="مجلس-استئناف-سكندرية">مجلس استئناف
-               سكندرية</orgName></persName>.</p>
-            <p>جعل سعدتلو <persName>حسين باشا رئيس مجلس استئناف مصر</persName> أمينا على
-                  <orgName>بيت المال</orgName> واستعوض بعزتلو <persName>مختار بيك الذي كان وكيل
-                  نظارة الداخلية</persName>.</p>
-         </div>
+         <div resp="#eSG" xml:id="w1">
+                        <head><date when-custom="1284-01-29">٢٩ محرم ١٢٨٤</date>
+                              <date when="1867-06-02">٢ يونيه ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١١٠</biblScope> صفحة </bibl></head>
+                        <p>صار حضرة سعادتلو <persName>ثابت باشا أمين كرك سكندرية</persName> وكيل
+                                    <orgName type="نظارة-الداخلية">نظارة الداخلية</orgName> واستعوض
+                              بسعادتلو <persName>أحمد باشا ناظر الوادرا</persName> واستعوض هذا أيضًا
+                                    ب<persName>سعادتلو صفر باشا وكيل <orgName
+                                          type="مجلس-استئناف-سكندرية">مجلس استئناف
+                                    سكندرية</orgName></persName>.</p>
+                        <p>جعل سعدتلو <persName>حسين باشا رئيس مجلس استئناف مصر</persName> أمينا على
+                                    <orgName>بيت المال</orgName> واستعوض بعزتلو <persName>مختار بيك
+                                    الذي كان وكيل نظارة الداخلية</persName>.</p>
+                  </div>
          <div>
             <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١١١</biblScope></bibl>)</head>
             <head>طبعت بمطبعة بولاق يوم الخميس <date when-custom="1284-02-3">٣صفر سنة ١٢٨٤هـ</date>
