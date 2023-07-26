@@ -30,7 +30,7 @@
     
     <xsl:template match="@role[.='data']"/>
     
-    <xsl:template match="t:div[t:p][//t:revisionDesc[@status='cleared']]">
+    <xsl:template match="t:div[t:head[t:date/@when-custom]][//t:revisionDesc[@status='cleared']]">
         <xsl:copy>
             <xsl:choose>
                 <xsl:when test="matches(@xml:id, 'W\d{10}')">
