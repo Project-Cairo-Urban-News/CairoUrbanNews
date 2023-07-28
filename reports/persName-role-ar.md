@@ -66,6 +66,7 @@
  * 'رئيس مطبعة المبتديان': ‎[1286.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1286.xml&text=%D8%B1%D8%A6%D9%8A%D8%B3%20%D9%85%D8%B7%D8%A8%D8%B9%D8%A9%20%D8%A7%D9%84%D9%85%D8%A8%D8%AA%D8%AF%D9%8A%D8%A7%D9%86)
  * 'رجل-من-جماعة-قللق-الموسكى': ‎[1247.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1247.xml&text=%D8%B1%D8%AC%D9%84%20%D9%85%D9%86%20%D8%AC%D9%85%D8%A7%D8%B9%D8%A9%20%D9%82%D9%84%D9%84%D9%82%20%D8%A7%D9%84%D9%85%D9%88%D8%B3%D9%83%D9%89)
  * 'رجل-من-رجال-الجهادية-السقط': ‎[1247.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1247.xml&text=%D8%B1%D8%AC%D9%84%20%D9%85%D9%86%20%D8%B1%D8%AC%D8%A7%D9%84%20%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D8%AF%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B3%D9%82%D8%B7)
+ * 'روزنامجى': ‎[1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1263.xml&text=%D8%B1%D9%88%D8%B2%D9%86%D8%A7%D9%85%D8%AC%D9%89)
  * 'سفير': ‎[1292.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1292.xml&text=%D8%B3%D9%81%D9%8A%D8%B1)
  * 'سلام اغاسى': ‎[1248.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1248.xml&text=%D8%B3%D9%84%D8%A7%D9%85%20%D8%A7%D8%BA%D8%A7%D8%B3%D9%89)
  * 'سمسار': ‎[1286.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1286.xml&text=%D8%B3%D9%85%D8%B3%D8%A7%D8%B1)
