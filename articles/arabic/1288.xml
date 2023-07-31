@@ -202,10 +202,13 @@
           وهى كافية فى انتهاء اشغاله اللازمة فى المياه والذى يراه ذلك المهندس بمقتضى سرعة العمل
           الحاصلة فيه انه يتحقق تمام تركيب أجزائه فى أخر فصل الصيف ويمر عليه العالم.</p>
       </div>
-      <div>
-        <head>نمرة ٤٠٦, ٤ مايو ١٨٧١ (١٤ صفر ١٢٨٨)</head>
-        <head>صفحة ٤</head>
-        <head>اعلانات - (لفظ اعلان وارد من الاوقاف بتاريخ ١٣ صفر سنة ٨٦ )</head>
+      <div resp="#eSG" xml:id="w3">
+        <head><date when-custom="1288-02-14">١٤ صفر ١٢٨٨</date>
+          <date when="1871-05-04">٤ مايو ١٨٧١</date>
+          <bibl><biblScope unit="issue">نمرة ٤٠٦</biblScope>
+            <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+        <head><title>اعلانات (لفظ اعلان وارد من <orgName ref="الاوقاف">الاوقاف</orgName> بتاريخ ١٣
+            صفر سنة ٨٦ )</title></head>
         <table>
           <row>
             <cell>عدد</cell>
@@ -213,22 +216,45 @@
           </row>
           <row>
             <cell>١</cell>
-            <cell>منزل كائن بسويقة السباعين وقف المرحومه سعده نظارة ابراهيم محمد والحرمه قشطه ارضه
-              اذرع ٢١٦ وكسور مقتضى خروجه من وقفه بطريق الاستبدال فكل من كان يرغب لاخذه بالاستبدال
-              فكل من كان يرغب لاخذه بالاستبدال فبعد المعاينة يتوجه لطرف معاون قسم رابع اوقاف ويوضع
-              مزاده بما يرغب دفعه عن مبلغ استبداله بقائمة المزاد.</cell>
+            <cell><placeName type="منزل" ref="منزل-وقف-المرحومه-سعده">منزل</placeName> كائن
+                ب<placeName ref="سويقة-السباعين" type="سويقة">سويقة السباعين</placeName>
+              <orgName type="وقف" ref="وقف-المرحومه-سعده">وقف <persName>المرحومه
+                سعده</persName></orgName>
+              <persName>نظارة ابراهيم محمد</persName> و<persName type="ناظرة--وقف-المرحومه-سعده"
+                >الحرمه قشطه</persName> ارضه اذرع ٢١٦ وكسور مقتضى خروجه من وقفه بطريق الاستبدال
+              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>فكل من كان يرغب
+              لاخذه بالاستبدال<?oxy_custom_end?>
+              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>فكل من كان يرغب
+              لاخذه بالاستبدال <?oxy_custom_end?>فبعد المعاينة يتوجه لطرف معاون <orgName
+                ref="قسم-رابع-اوقاف" type="قسم">قسم رابع اوقاف</orgName> ويوضع مزاده بما يرغب دفعه
+              عن مبلغ استبداله بقائمة المزاد.</cell>
           </row>
         </table>
       </div>
-      <div>
-        <head>نمرة ٤٠٩, ٢٥ مايو ١٨٧١ (٦ ربيع الاول ١٢٨٨)</head>
-        <head>صفحة ٤ </head>
-        <head>اعلانات- اعلان وارد من ديوان الاوقاف بتاريخ ١٨ محرم سنة ٨٨</head>
-        <p> [م]نزل كائن بحارة البرقوقيه بالخرنفش وقف المرحوم الشيخ (الصفحة مقطوعة ) مصطفى ابو الفتح
-          نظارة محمد امين مقدار مسطحه ٧٢ ذراعا مقتضى(الصفحة مقطوعة) خروجه من وقفه بطريق (الصفحة
-          مقطوعة) التآجر فيقتضى كل من رغب لاخذه بالتاجر فبعد معاينته يتوجه لطرف معاون قسم اول أوقاف
-          (الصفحة مقطوعة) ويوضع مزاده بقائمة المزاد عن ما يرغب دفعه عن ثمن أنقاضه (الصفحة مقطوعة)
-          واجرة ارضه لكل سنه.</p>
+      <div resp="#eSG" xml:id="w4">
+        <head><date when-custom="1288-03-06">٦ ربيع الاول ١٢٨٨</date>
+          <date when="1871-05-25">٢٥ مايو ١٨٧١</date>
+          <bibl><biblScope unit="issue">نمرة ٤٠٩</biblScope>
+            <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+        <head><title>اعلانات- اعلان وارد من <orgName ref="ديوان-الاوقاف" type="ديوان">ديوان
+              الاوقاف</orgName> بتاريخ ١٨ محرم سنة ٨٨</title></head>
+        <p><placeName type="منزل" ref="منزل-وقف-المرحوم-الشيخ-مصطفى-ابو-الفتح"
+            ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>[م]نزل<?oxy_custom_end?></placeName>
+          كائن ب<placeName ref="حارة-البرقوقيه" type="حارة">حارة البرقوقيه</placeName> ب<placeName
+            ref="الخرنفش">الخرنفش</placeName>
+          <orgName type="وقف" ref="وقف-المرحوم-الشيخ-مصطفى-ابو الفتح">وقف المرحوم الشيخ
+            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>(الصفحة مقطوعة
+            )<?oxy_custom_end?> مصطفى ابو الفتح</orgName>
+          <persName>نظارة محمد امين</persName> مقدار مسطحه ٧٢ ذراعا
+          مقتضى<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>(الصفحة
+          مقطوعة)<?oxy_custom_end?> خروجه من وقفه بطريق
+          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>(الصفحة
+          مقطوعة)<?oxy_custom_end?> التآجر فيقتضى كل من رغب لاخذه بالتاجر فبعد معاينته يتوجه لطرف
+          معاون <orgName type="قسم" ref="قسم-اول-اوقاف">قسم اول أوقاف</orgName>
+          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>(الصفحة
+          مقطوعة)<?oxy_custom_end?> ويوضع مزاده بقائمة المزاد عن ما يرغب دفعه عن ثمن أنقاضه
+          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>(الصفحة
+          مقطوعة)<?oxy_custom_end?> واجرة ارضه لكل سنه.</p>
       </div>
       <div>
         <head>نمرة ٤١٩, ٣ اغستوس ١٨٧١ (١٦ جمادى الاول ١٢٨٨)</head>
