@@ -36,6 +36,7 @@
  * 'باش-اغا': ‎[1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%D8%A8%D8%A7%D8%B4%20%D8%A7%D8%BA%D8%A7)
  * 'باش-تبديل': ‎[1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%D8%A8%D8%A7%D8%B4%20%D8%AA%D8%A8%D8%AF%D9%8A%D9%84)
  * 'باش جاويش بالديوان الخديوى': ‎[1259.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1259.xml&text=%D8%A8%D8%A7%D8%B4%20%D8%AC%D8%A7%D9%88%D9%8A%D8%B4%20%D8%A8%D8%A7%D9%84%D8%AF%D9%8A%D9%88%D8%A7%D9%86%20%D8%A7%D9%84%D8%AE%D8%AF%D9%8A%D9%88%D9%89)
+ * 'باش قلفة العمارة': ‎[1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1263.xml&text=%D8%A8%D8%A7%D8%B4%20%D9%82%D9%84%D9%81%D8%A9%20%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D8%B1%D8%A9)
  * 'بخرجى': ‎[1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1263.xml&text=%D8%A8%D8%AE%D8%B1%D8%AC%D9%89)
  * 'برنجى دومنجى باشا': ‎[1282.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1282.xml&text=%D8%A8%D8%B1%D9%86%D8%AC%D9%89%20%D8%AF%D9%88%D9%85%D9%86%D8%AC%D9%89%20%D8%A8%D8%A7%D8%B4%D8%A7)
  * 'برنجى طوبجى باشا': ‎[1282.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1282.xml&text=%D8%A8%D8%B1%D9%86%D8%AC%D9%89%20%D8%B7%D9%88%D8%A8%D8%AC%D9%89%20%D8%A8%D8%A7%D8%B4%D8%A7)
