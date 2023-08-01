@@ -5,7 +5,6 @@
  * 'اسبيتالية': ‎[1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1263.xml&text=%D8%A7%D8%B3%D8%A8%D9%8A%D8%AA%D8%A7%D9%84%D9%8A%D8%A9)
  * 'اسبيطالية': ‎[1248.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1248.xml&text=%D8%A7%D8%B3%D8%A8%D9%8A%D8%B7%D8%A7%D9%84%D9%8A%D8%A9)
  * 'اصطبل': ‎[1248.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1248.xml&text=%D8%A7%D8%B5%D8%B7%D8%A8%D9%84), [1247.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1247.xml&text=%D8%A7%D8%B5%D8%B7%D8%A8%D9%84)
- * 'الاوقاف': ‎[1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1263.xml&text=%D8%A7%D9%84%D8%A7%D9%88%D9%82%D8%A7%D9%81)
  * 'الباقرخانه': ‎[1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1263.xml&text=%D8%A7%D9%84%D8%A8%D8%A7%D9%82%D8%B1%D8%AE%D8%A7%D9%86%D9%87)
  * 'السكة-الحديد': ‎[1282.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1282.xml&text=%D8%A7%D9%84%D8%B3%D9%83%D8%A9%20%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AF)
  * 'الضابخانة': ‎[1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1263.xml&text=%D8%A7%D9%84%D8%B6%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D8%A9)

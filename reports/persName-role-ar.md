@@ -104,6 +104,7 @@
  * 'شيخ رواق الصعائدة': ‎[1259.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1259.xml&text=%D8%B4%D9%8A%D8%AE%20%D8%B1%D9%88%D8%A7%D9%82%20%D8%A7%D9%84%D8%B5%D8%B9%D8%A7%D8%A6%D8%AF%D8%A9)
  * 'شيخ طائفة الصعائدة': ‎[1259.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1259.xml&text=%D8%B4%D9%8A%D8%AE%20%D8%B7%D8%A7%D8%A6%D9%81%D8%A9%20%D8%A7%D9%84%D8%B5%D8%B9%D8%A7%D8%A6%D8%AF%D8%A9)
  * 'صراف-مصلحة-الجير-والجص': ‎[1247.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1247.xml&text=%D8%B5%D8%B1%D8%A7%D9%81%20%D9%85%D8%B5%D9%84%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AC%D9%8A%D8%B1%20%D9%88%D8%A7%D9%84%D8%AC%D8%B5)
+ * 'ضابط': ‎[1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1263.xml&text=%D8%B6%D8%A7%D8%A8%D8%B7)
  * 'طوبجى': ‎[1248.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1248.xml&text=%D8%B7%D9%88%D8%A8%D8%AC%D9%89)
  * 'طوب صقال': ‎[1248.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1248.xml&text=%D8%B7%D9%88%D8%A8%20%D8%B5%D9%82%D8%A7%D9%84)
  * 'عطار': ‎[1246.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1246.xml&text=%D8%B9%D8%B7%D8%A7%D8%B1)
