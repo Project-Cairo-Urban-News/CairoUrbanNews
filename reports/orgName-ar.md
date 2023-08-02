@@ -1,6 +1,5 @@
 # Organization Types
  * 'إدارة': ‎[1282.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1282.xml&text=%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9), [1286.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1286.xml&text=%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9)
- * 'ادارة': ‎[1282.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1282.xml&text=%D8%A7%D8%AF%D8%A7%D8%B1%D8%A9)
  * 'اسبتالية': ‎[1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1263.xml&text=%D8%A7%D8%B3%D8%A8%D8%AA%D8%A7%D9%84%D9%8A%D8%A9)
  * 'اسبيتالية': ‎[1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1263.xml&text=%D8%A7%D8%B3%D8%A8%D9%8A%D8%AA%D8%A7%D9%84%D9%8A%D8%A9)
  * 'اسبيطالية': ‎[1248.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1248.xml&text=%D8%A7%D8%B3%D8%A8%D9%8A%D8%B7%D8%A7%D9%84%D9%8A%D8%A9)
