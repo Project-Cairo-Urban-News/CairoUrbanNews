@@ -1,0 +1,2465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <author/>
+         </titleStmt>
+         <publicationStmt>
+            <p>No publication statement</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file automatically converted from a XSLX file.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <table>
+            <head>Feuil1</head>
+            <row n="1">
+               <cell>OSM_map</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>Cairo_News</cell>
+               <cell/>
+               <cell>WM_PlaceNames</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>Cairo Gazetteer</cell>
+            </row>
+            <row n="2">
+               <cell>col. A-B:osm_buildings</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>fid du point</cell>
+               <cell/>
+            </row>
+            <row n="3">
+               <cell>à faire</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>Code provisoire pour les toponymes : année heg (4 digits)+n° volume (4 digits)+n°ordre news (2 digits)_n°ordre du toponyme (2 digits)</cell>
+               <cell>Nom préféré: sans diacritiques, en translittération, en arabe</cell>
+               <cell/>
+               <cell/>
+               <cell>Variante du nom</cell>
+               <cell/>
+               <cell>GIS Layers</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>ID in HtlmDB</cell>
+            </row>
+            <row n="4">
+               <cell>osm_id</cell>
+               <cell>osm_name</cell>
+               <cell>osm-type</cell>
+               <cell>Geonames</cell>
+               <cell>GIS_ID</cell>
+               <cell>News_ID</cell>
+               <cell>WM_EnName</cell>
+               <cell>WM_Name</cell>
+               <cell>WM_ArName</cell>
+               <cell>WM_AltName</cell>
+               <cell>WM_ArAltName</cell>
+               <cell>WM_Class</cell>
+               <cell>Geometry</cell>
+               <cell>X</cell>
+               <cell>Y</cell>
+               <cell>WM_Year</cell>
+               <cell>WM_HegYear</cell>
+               <cell>WM_IDNews</cell>
+               <cell>WM_Ref</cell>
+               <cell>WM_Object</cell>
+               <cell>WM_Description</cell>
+               <cell>Remarques</cell>
+            </row>
+            <row n="5">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>uri_geonames</cell>
+               <cell>fid du point</cell>
+               <cell>Code provisoire</cell>
+               <cell>PrefName sans diacritique</cell>
+               <cell>PrefName translittéré</cell>
+               <cell>PrefName arabe</cell>
+               <cell>autre nom</cell>
+               <cell>autre nom arabe</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>ID Index html</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>ID_CG</cell>
+               <cell>CG_EnName</cell>
+               <cell>CG_Name</cell>
+               <cell>CG_ArName</cell>
+            </row>
+            <row n="6">
+               <cell>n/a</cell>
+               <cell>n/a</cell>
+               <cell>n/a</cell>
+               <cell>
+                  <ptr target="https://www.geonames.org/7913721/qal-at-salah-ad-din-al-ayyubi.html"/>
+               </cell>
+               <cell>1</cell>
+               <cell>1244000201_01</cell>
+               <cell>Cairo Citadel</cell>
+               <cell>al-Qal‘a</cell>
+               <cell>القلعة</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell>3479911</cell>
+               <cell>3507373</cell>
+               <cell>1828</cell>
+               <cell>1244</cell>
+               <cell/>
+               <cell>n°2, 9 <hi rend="italic">ǧumādā</hi> II 1244/17 décembre 1828, p. 2, col. 2</cell>
+               <cell>Restauration de la Citadelle</cell>
+               <cell>Cérémonie du 19 <hi rend="italic">ǧumādā</hi> I 1244/27 novembre 1828. Amīn efendi, directeur des bâtiments</cell>
+            </row>
+            <row n="7">
+               <cell>n/a</cell>
+               <cell>n/a</cell>
+               <cell>n/a</cell>
+               <cell>
+                  <ptr target="https://www.geonames.org/9972593/palace-of-muhammad-ali.html"/>
+               </cell>
+               <cell>2</cell>
+               <cell>1244001901_01</cell>
+               <cell>Shubra Palace</cell>
+               <cell>Sarāy Šubrā</cell>
+               <cell>سراي شبرا</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell>3478252</cell>
+               <cell>3518446</cell>
+               <cell>1829</cell>
+               <cell>1244</cell>
+               <cell/>
+               <cell>n°19, 13 <hi rend="italic">šawwāl</hi> 1244/18 avril 1829, p. 1, col. 2</cell>
+               <cell>Éclairage au gaz</cell>
+               <cell>Suivre l’exemple des Anglais qui ont adopté l’éclairage au gaz, “il y a environ 14 ans”, et des Français qui les ont suivis. Muḥammad ‘Alī a ordonné que soit importés d’Angleterre les équipements nécessaires et chargé l’ingénieur Gallo, aidé de quelques ouvriers anglais, de l’éclairage au gaz du jardin de Šubrā et du kiosque qui ouvre sur le grand bassin. Il visite le chantier à la fin des travaux, le 18 <hi rend="italic">ramaḍān</hi> 1244/24 mars 1829, au coucher du soleil. Ravi du résultat, il donne à Gallo et à ses ouvriers anglais une gratification de 2 500 <hi rend="italic">qurš.</hi> Coût des travaux: 6 000 <hi rend="italic">riyāl </hi>corona<hi rend="italic">.</hi>
+               </cell>
+            </row>
+            <row n="8">
+               <cell>n/a</cell>
+               <cell>n/a</cell>
+               <cell>n/a</cell>
+               <cell>n/a</cell>
+               <cell>3</cell>
+               <cell>1245004701_01</cell>
+               <cell>Gabal al-Guyushi</cell>
+               <cell>Ǧabal al-Ǧuyūšī</cell>
+               <cell>جبل الجيوشي</cell>
+               <cell/>
+               <cell/>
+               <cell>Placename</cell>
+               <cell>Point</cell>
+               <cell>3480746</cell>
+               <cell>3506636</cell>
+               <cell>1829</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°47, 27 <hi rend="italic">ṣafar</hi> 1245/28 août 1829, p. 2; col. 2</cell>
+               <cell>Poudrière d’Aṯar al-Nabī [Iṣṭabl ‘Anṭar]</cell>
+               <cell>Il a été décidé d’abandonner le dépôt de munitions du Ǧabal al-Ǧuyūṣī et d’en construire un nouveau à Qadam al-Nabī [Aṭar al-Nabī]. C’est un bâtiment de 230x200 coudées, avec quatre tours d’angle, construit en pierres de taille, d’un volume total de 920 000 <hi rend="italic">qinṭār</hi>. 900 ouvriers ont été employés à la construction, d’un coût total de 1 003 bourses.</cell>
+               <cell/>
+               <cell/>
+               <cell>Ribat al-Athar</cell>
+               <cell>Ribāṭ al-Āṯār</cell>
+               <cell>رباط الأثار</cell>
+            </row>
+            <row n="9">
+               <cell>n/a</cell>
+               <cell>n/a</cell>
+               <cell>n/a</cell>
+               <cell>
+                  <ptr target="https://www.geonames.org/7912825/qal-at-muhammad-ali.html"/>
+               </cell>
+               <cell>4</cell>
+               <cell>1245004701_02</cell>
+               <cell>Gabal al-Guyushi Fort</cell>
+               <cell>Ǧabhḫānat Ǧabal al-Ǧuyūšī</cell>
+               <cell>جبه خانة جبل الجيوشي</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell>3480799</cell>
+               <cell>3506766</cell>
+               <cell>1829</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°47, 27 <hi rend="italic">ṣafar</hi> 1245/28 août 1829, p. 2; col. 2</cell>
+               <cell>Poudrière d’Aṯar al-Nabī [Iṣṭabl ‘Anṭar]</cell>
+               <cell>Il a été décidé d’abandonner le dépôt de munitions du Ǧabal al-Ǧuyūṣī et d’en construire un nouveau à Qadam al-Nabī [Aṭar al-Nabī]. C’est un bâtiment de 230x200 coudées, avec quatre tours d’angle, construit en pierres de taille, d’un volume total de 920 000 <hi rend="italic">qinṭār</hi>. 900 ouvriers ont été employés à la construction, d’un coût total de 1 003 bourses.</cell>
+            </row>
+            <row n="10">
+               <cell>202133508</cell>
+               <cell>NULL</cell>
+               <cell>Buildings</cell>
+               <cell>n/a</cell>
+               <cell>5</cell>
+               <cell>1245004701_03</cell>
+               <cell>Athar al-Nabī Fort</cell>
+               <cell>Ǧabhḫānat Aṯar al-Nabī</cell>
+               <cell>جبه خانة اثر النبي</cell>
+               <cell>Iṣtabl ‘Anṭar</cell>
+               <cell>اصطبل عنتر</cell>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell>3477590</cell>
+               <cell>3502367</cell>
+               <cell>1829</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°47, 27 <hi rend="italic">ṣafar</hi> 1245/28 août 1829, p. 2; col. 2</cell>
+               <cell>Dépôt de munitions d’Aṯar al-Nabī [Iṣṭabl ‘Anṭar]</cell>
+               <cell>Il a été décidé d’abandonner le dépôt de munitions du Ǧabal al-Ǧuyūṣī et d’en construire un nouveau à Qadam al-Nabī [Aṭar al-Nabī]. C’est un bâtiment de 230x200 coudées, avec quatre tours d’angle, construit en pierres de taille, d’un volume total de 920 000 <hi rend="italic">qinṭār</hi>. 900 ouvriers ont été employés à la construction, d’un coût total de 1 003 bourses.</cell>
+               <cell>Il s’agit en réalité du magasin aux poudres d’Isṭabl ‘Anṭar</cell>
+            </row>
+            <row n="11">
+               <cell>n/a</cell>
+               <cell>n/a</cell>
+               <cell>n/a</cell>
+               <cell>n/a</cell>
+               <cell>6</cell>
+               <cell>1245004701_04</cell>
+               <cell>Athar al-Nabi Mosque</cell>
+               <cell>Ǧāmi‘ Aṯar al-Nabī</cell>
+               <cell>جامع اثر النبي</cell>
+               <cell>Ribāṭ al-Āṯār</cell>
+               <cell>رباط الأثار</cell>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell>3476797</cell>
+               <cell>3502149</cell>
+               <cell>1829</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°47, 27 <hi rend="italic">ṣafar</hi> 1245/28 août 1829, p. 2; col. 2</cell>
+               <cell>Poudrière d’Aṯar al-Nabī [Iṣṭabl ‘Anṭar]</cell>
+               <cell>Il a été décidé d’abandonner le dépôt de munitions du Ǧabal al-Ǧuyūṣī et d’en construire un nouveau à Qadam al-Nabī [Aṭar al-Nabī]. C’est un bâtiment de 230x200 coudées, avec quatre tours d’angle, construit en pierres de taille, d’un volume total de 920 000 <hi rend="italic">qinṭār</hi>. 900 ouvriers ont été employés à la construction, d’un coût total de 1 003 bourses.</cell>
+            </row>
+            <row n="12">
+               <cell>n/a</cell>
+               <cell>n/a</cell>
+               <cell>n/a</cell>
+               <cell>
+                  <ptr target="https://www.geonames.org/359745/athar-an-nabi.html"/>
+               </cell>
+               <cell>7</cell>
+               <cell>1245004701_05</cell>
+               <cell>Athar al-Nabi</cell>
+               <cell>Aṯar al-Nabī</cell>
+               <cell>اثر النبي</cell>
+               <cell>Qadam al-Nabī</cell>
+               <cell>قدم النبي</cell>
+               <cell>Village</cell>
+               <cell>Point</cell>
+               <cell>3476731</cell>
+               <cell>3502259</cell>
+               <cell>1829</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°47, 27 <hi rend="italic">ṣafar</hi> 1245/28 août 1829, p. 2; col. 2</cell>
+               <cell>Poudrière d’Aṯar al-Nabī [Iṣṭabl ‘Anṭar]</cell>
+               <cell>Il a été décidé d’abandonner le dépôt de munitions du Ǧabal al-Ǧuyūṣī et d’en construire un nouveau à Qadam al-Nabī [Aṭar al-Nabī]. C’est un bâtiment de 230x200 coudées, avec quatre tours d’angle, construit en pierres de taille, d’un volume total de 920 000 <hi rend="italic">qinṭār</hi>. 900 ouvriers ont été employés à la construction, d’un coût total de 1 003 bourses.</cell>
+            </row>
+            <row n="13">
+               <cell>108122057</cell>
+               <cell>دار المحفوظات</cell>
+               <cell>Buildings</cell>
+               <cell>
+                  <ptr target="https://www.geonames.org/7913729/dar-al-mahfuzat.html"/>
+               </cell>
+               <cell>8</cell>
+               <cell>1245004702_01</cell>
+               <cell>al-Daftarkhana</cell>
+               <cell>al-Daftarḫāna</cell>
+               <cell>الدفترخانة</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell>3479931</cell>
+               <cell>3507646</cell>
+               <cell>1829</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°47, 27 <hi rend="italic">ṣafar</hi> 1245/28 août 1829, p. 3; col. 2</cell>
+               <cell>Fondation de la Daftarḫāna</cell>
+               <cell>Comme il n’y a pas d’endroit convenable dans la Citadelle pour conserver les registres des provinces d’Egypte, il a été décidé en <hi rend="italic">ḏū al-qa‘da </hi>1244<hi rend="italic">/</hi>mai 1829 de fonder à la porte de la Citadelle une grande <hi rend="italic">daftarḫāna</hi> de 41 magasins. Le bâtiment est long de 150 coudées et large de 80. Sa construction a coûté 1011 bourses.</cell>
+            </row>
+            <row n="14">
+               <cell>768552658</cell>
+               <cell>جزيرة الرضى</cell>
+               <cell>Places</cell>
+               <cell>n/a</cell>
+               <cell>9</cell>
+               <cell>1245004703_01</cell>
+               <cell>Gazirat al-Rawda</cell>
+               <cell>Ǧazīrat al-Rawḍa</cell>
+               <cell>جزيرة الروصة</cell>
+               <cell/>
+               <cell/>
+               <cell>Placename</cell>
+               <cell>Point</cell>
+               <cell>3475894</cell>
+               <cell>3505707</cell>
+               <cell>1829</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°47, 27 <hi rend="italic">ṣafar</hi> 1245/28 août 1829, p. 3; col. 2</cell>
+               <cell>Transformation de la poudrière de Rawḍa</cell>
+               <cell>Transformation de deux bassins pour le séchage de la poudre en ateliers, pour prévenir les risques d’incendie ou d’explosion. Le nombre de magasins à poudre est ainsi porté de neuf à onze. Coût total de cette transformation : 300 bourses. [Localisation d’après le plan de Pascal Coste : il s’agit des deux « séchoirs » qui sont immédiatement au sud de la poudrière : légendés L sur le plan]</cell>
+            </row>
+            <row n="15">
+               <cell>n/a</cell>
+               <cell>n/a</cell>
+               <cell>n/a</cell>
+               <cell>n/a</cell>
+               <cell>10</cell>
+               <cell>1245004703_02</cell>
+               <cell>Former Site of Barudkhanat al-Rawda</cell>
+               <cell>Mawqi‘ al-Bārūdḫāna bi-Ǧazīrat al-Rawḍa</cell>
+               <cell>موقع البارودخانة بجزيرة الروصة</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell>3475858</cell>
+               <cell>3504657</cell>
+               <cell>1829</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°47, 27 <hi rend="italic">ṣafar</hi> 1245/28 août 1829, p. 3; col. 2</cell>
+               <cell>Transformation de la poudrière de Rawḍa</cell>
+               <cell>Transformation de deux bassins pour le séchage de la poudre en ateliers pour prévenir les risques d’incendie ou d’explosion. Le nombre de magasins à poudre est ainsi porté de neuf à onze. Coût total de cette transformation : 300 bourses. [Localisation d’après le plan de Pascal Coste : il s’agit des deux « séchoirs » qui sont immédiatement au sud de la poudrière : légendés L sur le plan]</cell>
+            </row>
+            <row n="16">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>n/a</cell>
+               <cell>11</cell>
+               <cell>1245007101_01</cell>
+               <cell>al-Husayniyya</cell>
+               <cell>al-Ḥusayniyya</cell>
+               <cell>الحسينية</cell>
+               <cell/>
+               <cell/>
+               <cell>Neighbourhood</cell>
+               <cell>Point</cell>
+               <cell>3480656</cell>
+               <cell>3510830</cell>
+               <cell>1829</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°71, 23 <hi rend="italic">rabī‘</hi> II 1245/22 octobre 1829</cell>
+               <cell>Muqāṭa‘a de la Wikālat al-Tamr à Ḥusayniyya</cell>
+               <cell>La <hi rend="italic">muqāṭa‘a</hi> de la Wikālat al-Tamr à Ḥusayniyya a été vendue l’an dernier [ie en 1244] 4 500 <hi rend="italic">qurš.</hi> Un certain Ibrāhīm Muǧallī propose de la prendre cette année à 7 500 <hi rend="italic">qurš</hi> à condition de pouvoir payer en deux fois. L’offre est acceptée</cell>
+            </row>
+            <row n="17">
+               <cell>n/a</cell>
+               <cell>n/a</cell>
+               <cell>n/a</cell>
+               <cell/>
+               <cell>12</cell>
+               <cell>1245007101_02</cell>
+               <cell>Wikalat al-Tamr</cell>
+               <cell>Wikālat al-Tamr</cell>
+               <cell>وكالة التمر</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1829</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°71, 23 <hi rend="italic">rabī‘</hi> II 1245/22 octobre 1829</cell>
+               <cell>Muqāṭa‘a de la Wikālat al-Tamr à Ḥusayniyya</cell>
+               <cell>La <hi rend="italic">muqāṭa‘a</hi> de la Wikālat al-Tamr à Ḥusayniyya a été vendue l’an dernier [ie en 1244] 4 500 <hi rend="italic">qurš.</hi> Un certain Ibrāhīm Muǧallī propose de la prendre cette année à 7 500 <hi rend="italic">qurš</hi> à condition de pouvoir payer en deux fois. L’offre est acceptée</cell>
+               <cell>non localisée</cell>
+            </row>
+            <row n="18">
+               <cell>n/a</cell>
+               <cell>n/a</cell>
+               <cell>n/a</cell>
+               <cell>
+                  <ptr target="https://www.geonames.org/9972593/palace-of-muhammad-ali.html"/>
+               </cell>
+               <cell>2</cell>
+               <cell>1245007401_01</cell>
+               <cell>Shubra Palace</cell>
+               <cell>Sarāy Šubrā</cell>
+               <cell>سراي شبرا</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell>3478252</cell>
+               <cell>3518446</cell>
+               <cell>1829</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°74, 28 <hi rend="italic">rabī‘ </hi>II 1245/27 octobre 1829</cell>
+               <cell>Irrigation du jardin de Šubrā</cell>
+               <cell>Rapport d’Ismā‘īl agha, directeur de l’agriculture de la <hi rend="italic">ūsiya</hi> de Šubrā sur l’irrigation des 170 <hi rend="italic">faddān</hi> (71,4 ha) du domaine. En 1244, 60 bœufs avaient été affectés aux <hi rend="italic">sāqiya </hi>; 50 <hi rend="italic">fiḍḍa</hi> par tête avaient été affectés à leur entretien. Cela suffisait à l’arrosage du jardin et au remplissage des bassins, mais pas à l’irrigation des cultures de coton, légumes, etc. Cette année, 35 <hi rend="italic">faddān</hi> supplémentaires seront cultivés en vigne et olivier. Il faut donc acheter des animaux supplémentaires et augmenter les sommes affectées à leur entretien. Pour les trente <hi rend="italic">sāqiya</hi> du domaine, il faut 90 bœufs, dont deux seront affectés aux labours. Le Maǧlis al-Mašwara [Meclis-i Meşvere] donne son accord à l’aquisition des animaux, mais maintient le budget de 50 <hi rend="italic">fiḍḍa</hi> par tête.</cell>
+            </row>
+            <row n="19">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>
+                  <ptr target="https://www.geonames.org/360735/al-ma-sarah.html"/>
+               </cell>
+               <cell>13</cell>
+               <cell>1245008801_01</cell>
+               <cell>Tura al-Ma'sara</cell>
+               <cell>Ṭura al-Ma‘ṣara</cell>
+               <cell>طرة المعصرة </cell>
+               <cell/>
+               <cell/>
+               <cell>Village</cell>
+               <cell>Point</cell>
+               <cell>3482812</cell>
+               <cell>3491250</cell>
+               <cell>1829</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°88, 29 <hi rend="italic">ǧumādā </hi>I 1245/26 novembre 1829</cell>
+               <cell>Fours à chaux et fours à plâtre de Ṭura al-Ma‘ṣara et Aṯar al-Nabī</cell>
+               <cell>Rapport de Ḥasan Agha, directeur du bétail, sur la fourniture de 300 boeufs pour le transport des pierres nécessaires aux fours à chaux et à plâtre de Ṭūra al-Ma‘ṣara et Aṯar al-Nabī. On manque d’animaux dans tous les services de l’Etat. Le prix du marché est de 200 à 300 <hi rend="italic">riyāl.</hi> Il demande s’il peut confirmer la commande à ce prix-là.</cell>
+            </row>
+            <row n="20">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>
+                  <ptr target="https://www.geonames.org/359745/athar-an-nabi.html"/>
+               </cell>
+               <cell>7</cell>
+               <cell>1245008801_02</cell>
+               <cell>Athar al-Nabi</cell>
+               <cell>Aṯar al-Nabī</cell>
+               <cell>اثر النبي</cell>
+               <cell/>
+               <cell/>
+               <cell>Village</cell>
+               <cell>Point</cell>
+               <cell>3476731</cell>
+               <cell>3502259</cell>
+               <cell>1829</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°88, 29 <hi rend="italic">ǧumādā </hi>I 1245/26 novembre 1829</cell>
+               <cell>Fours à chaux et fours à plâtre de Ṭura al-Ma‘ṣara et Aṯar al-Nabī</cell>
+               <cell>Rapport de Ḥasan Agha, directeur du bétail, sur la fourniture de 300 boeufs pour le transport des pierres nécessaires aux fours à chaux et à plâtre de Ṭūra al-Ma‘ṣara et Aṯar al-Nabī. On manque d’animaux dans tous les services de l’Etat. Le prix du marché est de 200 à 300 <hi rend="italic">riyāl.</hi> Il demande s’il peur confirmer la commande à ce prix-là.</cell>
+            </row>
+            <row n="21">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245009001_01</cell>
+               <cell>Za'farani Canal</cell>
+               <cell>al-Ḫalīǧ al-Za‘farānī</cell>
+               <cell>الخليج الزعفراني</cell>
+               <cell/>
+               <cell/>
+               <cell>Waterway</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1829</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°90, 6 <hi rend="italic">ǧumādā</hi> II 1245/3 décembre 1829</cell>
+               <cell>Construction d’un pont sur le Ḫalīǧ al-Za‘farānī</cell>
+               <cell>Rapport de Salīm Agha, directeur du chantier des ponts du Ḫalīǧ al-Za‘farānī. Les ponts sur le Ḫalīǧ al-Za‘farāni dont la construction avait été demandée par le khedive sont achevés jusqu’à l’entrée du Wādī [=Wādī Tumīlāt). Celle du pont de Ṣafṭ al-Hinnā, Šarqiyya, requiert encore, selon la liste transmise par al-Sayyid Aḥmad Bārūdī, ingénieur en chef de la Šarqiyya, 5 000 pierres de taille <hi rend="italic">dastūr</hi>, 3 000 dalles pour le radier, 60 000 moëllons (<hi rend="italic">dabš</hi>), 250 poutres de <hi rend="italic">sahm aḥmar</hi> et 20 de <hi rend="italic">sahma kāmil</hi> pour les fondations. Les pierres seront transportées de Ṭura al-Ma‘ṣara au canal de Zaqāzīq par 20 ‘<hi rend="italic">uqba </hi>et du canal de Zaqāzīq à Ṣafṭ al-Ḥinnā par 20 barques. Pour le déchargement, il faudra 120 hommes du Wādī et pour le transbordement des grandes barques aux petites 16 portefaix. Une telle demande doit être confirmée par décret du Dīwān à l’intention de Ḫalil effendi, directeur de l’arsenal pour l’envoi des barques; de Muḥammad Agha, <hi rend="italic">āġā ḫuftān aġasī, </hi>directeur des fours à chaux et fours à plâtre, pour l’envoi des pierres; de Taymūr Agha, <hi rend="italic">ma’mūr </hi>du troisième district de la Šarqiyya pour la main d’oeuvre; et d’Amīn effendi, directeur des bâtiments pour qu’il demande aux cheikh des portefaix l’envoi des 16 hommes demandés.</cell>
+            </row>
+            <row n="22">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245009902_01</cell>
+               <cell>Madrasat al-Habbaniyya</cell>
+               <cell>Madrasat al-Ḥabbāniyya</cell>
+               <cell>مدرسة الحبانية</cell>
+               <cell>Takiyyat al-Ḥabbāniyya</cell>
+               <cell>تكية الحبانية</cell>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell>3478954</cell>
+               <cell>3508540</cell>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°99, 18 <hi rend="italic">raǧab</hi> 1245/13 janvier 1830</cell>
+               <cell>Dispute entre les résidents (tous des <hi rend="italic">muǧāwirūn</hi>) de la Madrasat al-Ḥabbaniyya </cell>
+               <cell>Compte-rendu des interrogatoires conduits après une plainte déposée par l’un des residents. Il s’agit probablement de la Takiyyat al-Ḥabbāniyya de la DE (03026), située Sikkat al-Ḥabbāniyya (DE 03018, OSM Šāri‘ Sikkat al-Ḥabbāniyya), aujourd'hui intégrée à la fondation du Sultan Maḥmūd. Ce devait être la Takiyya al-Qādiriyya, portée sur le 1/1000, pour un bâtiment neuf, un peu plus au nord, à côté de la Zāwiyat al-Hindī.</cell>
+            </row>
+            <row n="23">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245010302_01</cell>
+               <cell>al-Badrashayn</cell>
+               <cell>al-Badrašayn</cell>
+               <cell>البدرشين</cell>
+               <cell/>
+               <cell/>
+               <cell>Village</cell>
+               <cell>Point</cell>
+               <cell>3481364</cell>
+               <cell>3484368</cell>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n° 103, 29 <hi rend="italic">raǧab</hi> 1245/24 janvier 1830</cell>
+               <cell>Salpêtrière de Badrašayn (güherçile ḫāne</cell>
+               <cell>Rapport de Muḥammad bey directeur des approvisionnements militaires, sur une note de Sulaymān effendi directeur de la poudrière : le devis réalisé sous l’autorité de Hasan bey, gouverneur de Ǧīza, pour les réparations à faire à la salpêtrière de Badrašayn s’élève à 19 400 <hi rend="italic">qurš.</hi> L’usage d’autre part, est d’importer de Haute-Egypte les roseaux utilisés comme combustible : il faut faire en sorte que ce bois de chauffage soit disponible.</cell>
+               <cell> </cell>
+            </row>
+            <row n="24">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245010302_02</cell>
+               <cell>Salpetriere of Badrashayn (former site)</cell>
+               <cell>Güherçile Hane of Badrašayn (former site)</cell>
+               <cell>كهرجلة خانة البدرشين</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell>3480708</cell>
+               <cell>3485201</cell>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n° 103, 29 <hi rend="italic">raǧab</hi> 1245/24 janvier 1830</cell>
+               <cell>Salpêtrière de Badrašayn (güherçile ḫāne</cell>
+               <cell>Rapport de Muḥammad bey directeur des approvisionnements militaires, sur une note de Sulaymān effendi directeur de la poudrière : le devis réalisé sous l’autorité de Hasan bey, gouverneur de Ǧīza, pour les réparations à faire à la salpêtrière de Badrašayn s’élève à 19 400 <hi rend="italic">qurš.</hi> L’usage d’autre part, est d’importer de Haute-Egypte les roseaux utilisés comme combustible : il faut faire en sorte que ce bois de chauffage soit disponible.</cell>
+               <cell>à l'emplacement de ‘Izbat al-Ma‘mal (=Ma‘mal al-Bārūd al-Šamsī, autre nom de la salpétrière)</cell>
+            </row>
+            <row n="25">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245010701_01</cell>
+               <cell>Harat Hawsh Qadam</cell>
+               <cell>Ḥārat Ḥawš Qadam</cell>
+               <cell>حارة حوش قدم </cell>
+               <cell/>
+               <cell/>
+               <cell>Street</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°107, 11 ša‘bān 1245/</cell>
+               <cell>Vol</cell>
+               <cell>Plainte pour vol d’une dame Naṣra domiciliée à Ḥārat Ḥawš Qadam, Ǧamāliyya    </cell>
+            </row>
+            <row n="26">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245010701_02</cell>
+               <cell>al-Gamaliyya</cell>
+               <cell>al-Ǧamāliyya</cell>
+               <cell>الجمليه</cell>
+               <cell/>
+               <cell/>
+               <cell>Neighbourhood</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°107, 11 ša‘bān 1245/</cell>
+               <cell>Vol</cell>
+               <cell>Plainte pour vol d’une dame Naṣra domiciliée à Ḥārat Ḥawš Qadam, Ǧamāliyya    </cell>
+            </row>
+            <row n="27">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245010801_01</cell>
+               <cell>al-Daftarkhana</cell>
+               <cell>al-Daftarḫāna</cell>
+               <cell>الدفترخانة</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°108, 16 <hi rend="italic">ša‘bān</hi> 1245/26 janvier 1830</cell>
+               <cell>Chronogramme de la Daftarḫāna</cell>
+               <cell>Kāšif effendi a preparé un chronogramme en turc qui est présenté au Maǧlis. Il y a débat sur la valeur en chiffres des lettres, notamment en raison de l’emploi d’un mot turc (ṣū) pour l’eau</cell>
+               <cell> </cell>
+            </row>
+            <row n="28">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245010802_01</cell>
+               <cell>Bulaq</cell>
+               <cell>Būlāq</cell>
+               <cell>بولاق</cell>
+               <cell/>
+               <cell/>
+               <cell>Neighbourhood</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°108, 16 <hi rend="italic">ša‘bān</hi> 1245/10 févrierr 1830</cell>
+               <cell>Organisation du service de la <hi rend="italic">ḥisba </hi>après la nomination d’un nouveau<hi rend="italic"> muḥtasib</hi>
+               </cell>
+               <cell>Six aghas du palais, sachant lire, seront chargés de faire des rondes à Būlāq et au Vieux-Caire (ie dans les deux ports su Caire). On leur remettra la liste des prix. Ils seront sous l’autorité du lieutenant Ramzī effendi. Muṣṭafā bey, gouverneur du Caire, convoque tous les cheikhs de corporations des métiers de l’alimentation pour les informer des nouvelles dispositions règlementaires (liste complete des noms et des fonctions). </cell>
+               <cell>Ce texte est long, détaillé et mériterait d’être repris en detail.</cell>
+            </row>
+            <row n="29">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245010802_02</cell>
+               <cell>Masr al-Qadima</cell>
+               <cell>Maṣr al-Qadīma</cell>
+               <cell>مصر القديمة</cell>
+               <cell/>
+               <cell/>
+               <cell>Neighbourhood</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°108, 16 <hi rend="italic">ša‘bān</hi> 1245/10 février 1830</cell>
+               <cell>Organisation du service de la <hi rend="italic">ḥisba </hi>après la nomination d’un nouveau<hi rend="italic"> muḥtasib</hi>
+               </cell>
+               <cell>Six aghas du palais, sachant lire, seront chargés de faire des rondes à Būlāq et au Vieux-Caire (ie dans les deux ports su Caire). On leur remettra la liste des prix. Ils seront sous l’autorité du lieutenant Ramzī effendi. Muṣṭafā bey, gouverneur du Caire, convoque tous les cheikhs de corporations des métiers de l’alimentation pour les informer des nouvelles dispositions règlementaires (liste complete des noms et des fonctions). </cell>
+               <cell>Ce texte est long, détaillé et mériterait d’être repris en detail.</cell>
+            </row>
+            <row n="30">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245010901_01</cell>
+               <cell>al-Daftarkhana</cell>
+               <cell>al-Daftarḫāna</cell>
+               <cell>الدفترخانة</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°109, 17 <hi rend="italic">ša‘bān 1245/11 février 1830</hi>
+               </cell>
+               <cell>Daftarḫāna</cell>
+               <cell>Rédaction du règlement de la Daftarḫāna, par le <hi rend="italic">ḫawāǧā </hi>Yuḥannā et nomination comme directeur de Rāġib effendi, jusque là directeur de la Monnaie.</cell>
+               <cell/>
+            </row>
+            <row n="31">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245011401_01</cell>
+               <cell>Abu al-'Aqarib</cell>
+               <cell>Abū al-‘Aqārib</cell>
+               <cell>أبو العقارب</cell>
+               <cell>Kawm Abū al-‘Aqārib</cell>
+               <cell>كوم أبو العقاري</cell>
+               <cell>Placename</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°114, 2 <hi rend="italic">ramaḍān</hi> 1245/25 février 1830</cell>
+               <cell>Destruction de monticules de décombres et de cimetières à l’ouest du Caire</cell>
+               <cell>Le projet en a été formé par Ibrāhīm pacha. Durant son séjour en Morée, c’est ‘Alī effendi, kātib al-ḫazīna qui entreprend la destruction du Kawm al-‘Aqārib (1245011401_1), une colline située entre al-Qaṣr al-‘Ālī et le Caire: 9 faddān 233 qaṣaba  de déblais ont été évacués par 394 hommes en 93 jours. Une autre colline, appelée Abū al-Šamāṭ (1245011401_2), haute comme une montagne et s’étendant de Bāb al-Naṣriyya jusqu’aux abords du Qaṣr al-‘Ālī, représentait 38 faddān 195 qaṣaba, d’une qaṣaba de six coudées et 1/6e, et d’un faddān de 333 qaṣaba et 1/6e. Elle a été arasée par le même effendi en 807 jours par 375 hommes. A son retour de Morée, Ibrāhīm pacha confia l’achèvement des travaux à Ǧawqdār Agha qui termina le travail en 231 jours avec une main d’oeuvre de 542 hommes. Le coût total de l’opération pour ces deux collines s’éleva à 1 721 bourses et 222 qurš (860 722 qurš). Aujourd’hui, on a l’impression qu’il n’y avait rien à leur emplacement. On y planta des oliviers et autres arbres et on prit l’habitude de designer l’endroit du nom d’Ibrāhīm (ie Ibrāhīmiyya).</cell>
+               <cell>à placer sur le plan des environs du Caire.</cell>
+            </row>
+            <row n="32">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245011401_02</cell>
+               <cell>Abu al-Shamat</cell>
+               <cell>Abū al-Šamāṭ</cell>
+               <cell>ابو الشماط </cell>
+               <cell>Kawm Abu al-Šamāṭ</cell>
+               <cell>كوم ابو الشماط </cell>
+               <cell>Placename</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°114, 2 <hi rend="italic">ramaḍān</hi> 1245/25 février 1830</cell>
+               <cell>Destruction de monticules de décombres et de cimetières à l’ouest du Caire</cell>
+               <cell>Le projet en a été formé par Ibrāhīm pacha. Durant son séjour en Morée, c’est ‘Alī effendi,<hi rend="italic"> kātib al-ḫazīna</hi> qui entreprend la destruction du Kawm al-‘Aqārib (1245011401_1), une colline située entre al-Qaṣr al-‘Ālī et le Caire: 9 <hi rend="italic">faddān</hi> 233 <hi rend="italic">qaṣaba</hi>  de déblais ont été évacués par 394 hommes en 93 jours. Une autre colline, appelée Abū al-Šamāṭ (1245011401_2), haute comme une montagne et s’étendant de Bāb al-Naṣriyya jusqu’aux abords du Qaṣr al-‘Ālī, représentait 38 <hi rend="italic">faddān</hi> 195 <hi rend="italic">qaṣaba,</hi> d’une <hi rend="italic">qaṣaba</hi> de six coudées et 1/6e, et d’un <hi rend="italic">faddān</hi> de 333 <hi rend="italic">qaṣaba</hi> et 1/6e. Elle a été arasée par le même effendi en 807 jours par 375 hommes. A son retour de Morée, Ibrāhīm pacha confia l’achèvement des travaux à Ǧawqdār Agha qui termina le travail en 231 jours avec une main d’oeuvre de 542 hommes. Le coût total de l’opération pour ces deux collines s’éleva à 1 721 bourses et 222 <hi rend="italic">qurš</hi> (860 722 <hi rend="italic">qurš</hi>). Aujourd’hui, on a l’impression qu’il n’y avait rien à leur emplacement. On y planta des oliviers et autres arbres et on prit l’habitude de designer l’endroit du nom d’Ibrāhīm (ie Ibrāhīmiyya).</cell>
+            </row>
+            <row n="33">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245011601_01</cell>
+               <cell>al-Fahhamin</cell>
+               <cell>al-Faḥḥāmīn</cell>
+               <cell>الفحامين</cell>
+               <cell/>
+               <cell/>
+               <cell>Neighbourhood</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°116, 6 <hi rend="italic">ramaḍān</hi> 1245/</cell>
+               <cell>Vol</cell>
+               <cell>Vol dans un logement de la Wikālat al-Faḥḥāmīn </cell>
+               <cell>C'est le quartier qui a été indexé, la <hi rend="italic">wikāla</hi> n'étant pas précisément localisée.</cell>
+            </row>
+            <row n="34">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245011701_01</cell>
+               <cell>Rumayla</cell>
+               <cell>al-Rumayla</cell>
+               <cell>الرميلة</cell>
+               <cell/>
+               <cell/>
+               <cell>Neighbourhood</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°117, 7 <hi rend="italic">ramaḍān</hi> 1245/</cell>
+               <cell>Vol</cell>
+               <cell>Vol dans un logement d’une wikāla à Rumayla. Tous les acteurs de cette affaire sont des artisans ou ouvriers grecs et chypriotes</cell>
+               <cell>C'est le quartier qui a été indexé, la <hi rend="italic">wikāla</hi> n'étant pas précisément localisée.</cell>
+            </row>
+            <row n="35">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245011801_01</cell>
+               <cell>Harat al-Atrak</cell>
+               <cell>Ḥārat al-Atrāk</cell>
+               <cell>حارة الاتراك</cell>
+               <cell/>
+               <cell/>
+               <cell>Street</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°118, 8 <hi rend="italic">ramaḍān</hi> 1245/</cell>
+               <cell>Vol</cell>
+               <cell>Vol dans une maison (manzil) à Ḥarat al-Atrāk, al-Ḥilmiyya</cell>
+            </row>
+            <row n="36">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245011801_02</cell>
+               <cell>Hilmiyya</cell>
+               <cell>al-Ḥilmiyya</cell>
+               <cell>الحلمية</cell>
+               <cell/>
+               <cell/>
+               <cell>Neighbourhood</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°118, 8 <hi rend="italic">ramaḍān</hi> 1245/</cell>
+               <cell>Vol</cell>
+               <cell>Vol dans une maison (manzil) à Ḥarat al-Atrāk, al-Ḥilmiyya</cell>
+            </row>
+            <row n="37">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245012101_01</cell>
+               <cell>Suq al-Silah</cell>
+               <cell>Sūq al-Silāḥ</cell>
+               <cell>سوق السلاح</cell>
+               <cell/>
+               <cell/>
+               <cell>Street</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°121, 15 <hi rend="italic">ramaḍān </hi>1245</cell>
+               <cell>Vol</cell>
+               <cell>Vol dans un <hi rend="italic">rab‘</hi> à Sūq al-Silāḥ </cell>
+            </row>
+            <row n="38">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245012102_01</cell>
+               <cell>Taht al-Rab'</cell>
+               <cell>Taḥt al-Rab‘</cell>
+               <cell>تحت الربع</cell>
+               <cell/>
+               <cell/>
+               <cell>Street</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°121, 15 <hi rend="italic">ramaḍān </hi>1245</cell>
+               <cell>Vol</cell>
+               <cell>Vol dans une maison à Taḥt al-Rab‘ </cell>
+            </row>
+            <row n="39">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245012201_01</cell>
+               <cell>Wayli Bridge</cell>
+               <cell>Qanṭarat al-Wāylī</cell>
+               <cell>قنطرة الوايلي</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°122, 19 <hi rend="italic">ramaḍān</hi> 1245/</cell>
+               <cell>Chronogrammes des ponts du Ḫalīǧ [al-Za‘farānī]</cell>
+               <cell>Texte du Chronogramme</cell>
+            </row>
+            <row n="40">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245012201_02</cell>
+               <cell>Musturud Bridge</cell>
+               <cell>Qanṭarat Musturud</cell>
+               <cell>قنطرة مسطرد</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°122, 19 <hi rend="italic">ramaḍān</hi> 1245/</cell>
+               <cell>Chronogrammes des ponts du Ḫalīǧ [al-Za‘farānī]</cell>
+               <cell>Texte du Chronogramme</cell>
+            </row>
+            <row n="41">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245012201_03</cell>
+               <cell>Uzbakiyya Bridge</cell>
+               <cell>Qanṭarat al-Uzbakiyya</cell>
+               <cell>قنطرة الازبكية</cell>
+               <cell>Qanṭarat al-Maġribī</cell>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°122, 19 <hi rend="italic">ramaḍān</hi> 1245/</cell>
+               <cell>Chronogrammes des ponts du Ḫalīǧ [al-Za‘farānī]</cell>
+               <cell>Texte du Chronogramme</cell>
+            </row>
+            <row n="42">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245012201_04</cell>
+               <cell>Fumm al-Khalig Bridge</cell>
+               <cell>Qanṭarat Fumm al-Ḫalīǧ bi-Būlāq</cell>
+               <cell>قنطرة فم الخليج ببولاق</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°122, 19 <hi rend="italic">ramaḍān</hi> 1245/</cell>
+               <cell>Chronogrammes des ponts du Ḫalīǧ [al-Za‘farānī]</cell>
+               <cell>Texte du Chronogramme</cell>
+            </row>
+            <row n="43">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245012201_05</cell>
+               <cell>Līmūn Bridge</cell>
+               <cell>Qanṭarat al-Līmūn</cell>
+               <cell>قنطرة الليمون</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°122, 19 <hi rend="italic">ramaḍān</hi> 1245/</cell>
+               <cell>Chronogrammes des ponts du Ḫalīǧ [al-Za‘farānī]</cell>
+               <cell>Texte du Chronogramme</cell>
+            </row>
+            <row n="44">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245012201_06</cell>
+               <cell>Zāwiya al-Ḥamrā Bridge</cell>
+               <cell>Qanṭarat al-Zāwiya al-Ḥamrā</cell>
+               <cell>قىطرة الزاوية الحمرا</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°122, 19 <hi rend="italic">ramaḍān</hi> 1245/</cell>
+               <cell>Chronogrammes des ponts du Ḫalīǧ [al-Za‘farānī]</cell>
+               <cell>Texte du Chronogramme</cell>
+            </row>
+            <row n="45">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245012201_07</cell>
+               <cell>Siryaqus Bridge</cell>
+               <cell>Qanṭarat Siryāqūs</cell>
+               <cell>قنطرة سرياقوس</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°122, 19 <hi rend="italic">ramaḍān</hi> 1245/</cell>
+               <cell>Chronogrammes des ponts du Ḫalīǧ [al-Za‘farānī]</cell>
+               <cell>Texte du Chronogramme</cell>
+            </row>
+            <row n="46">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245012401_01</cell>
+               <cell>Khalil Pasha Yeghen's Sabil</cell>
+               <cell>Sabīl Ḫalīl Pašā Yeghen</cell>
+               <cell>سبيل خليل باشا يكن</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell>3479991</cell>
+               <cell>3509769</cell>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°124, 21 <hi rend="italic">ramaḍan </hi>1245/</cell>
+               <cell>Construction du <hi rend="italic">sabīl </hi>al-Naḥḥāsīn pour Ḫalīl pacha Yeghen et Ismā‘īl fils de Muḥammad ‘Alī</cell>
+               <cell>Avec texte de l'inscription de fondation. Sur le monument, voir ‘Alī Mubarāk, <hi rend="italic">Ḫiṭaṭ,</hi> II, p. 14</cell>
+            </row>
+            <row n="47">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245012401_02</cell>
+               <cell>Nahhasin</cell>
+               <cell>al-Naḥḥāsīn</cell>
+               <cell>النحاسين</cell>
+               <cell/>
+               <cell/>
+               <cell>Street</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°124, 21 <hi rend="italic">ramaḍan </hi>1245/</cell>
+               <cell>Construction du <hi rend="italic">sabīl </hi>al-Naḥḥāsīn pour Ḫalīl pacha Yeghen et Ismā‘īl fils de Muḥammad ‘Alī</cell>
+               <cell>Avec texte de l'inscription de fondation. Sur le monument, voir ‘Alī Mubarāk, <hi rend="italic">Ḫiṭaṭ,</hi> II, p. 14</cell>
+            </row>
+            <row n="48">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245012501_01</cell>
+               <cell>Khalig Za'farani</cell>
+               <cell>al-Ḫalīǧ al-Za‘farānī</cell>
+               <cell>الخليج الزغفراني</cell>
+               <cell/>
+               <cell/>
+               <cell>Placename</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°125, 22 <hi rend="italic">ramadān</hi> 1245/</cell>
+               <cell>Chantier du Ḫalīǧ al-Za‘farānī </cell>
+               <cell>Rapport d’Ismā‘īı Kāšif sur l’acquisition des <hi rend="italic">fās</hi> qui ont été distribués aux ouvriers des diverses brigades</cell>
+            </row>
+            <row n="49">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245013101_01</cell>
+               <cell>Wikalat al-Ša‘īr</cell>
+               <cell>Wikālat al-Ša‘īr</cell>
+               <cell>وكالة الشعير</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°131, 12 <hi rend="italic">sawwāl</hi> 1245/</cell>
+               <cell>Wikālat al-Sadāt à côté de la Wikālat al-Ša‘īr</cell>
+               <cell>Rapport du cheikh al-Sadate, signalant que la <hi rend="italic">wikāla</hi> située à côté de la Wikālat al-Šā‘ir appartient auWaqf al-Sādāt et qu’il a l’intention de la rénover. Il n’est pas possible de faire un <hi rend="italic">istibdāl</hi> sur ce bien, car l’<hi rend="italic">istibdāl</hi> est proscrit par les clauses du <hi rend="italic">waqf.</hi> En conséquence de quoi, l’armée devra chercher un autre endroit pour l’entreposage de ses équipements</cell>
+            </row>
+            <row n="50">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245013101_02</cell>
+               <cell>Wikālat al-Sādāt</cell>
+               <cell>Wikālat al-Sādāt</cell>
+               <cell>وكالة السادات</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°131, 12 <hi rend="italic">sawwāl</hi> 1245/</cell>
+               <cell>Wikālat al-Sadāt à côté de la Wikālat al-Ša‘īr</cell>
+               <cell>Rapport du cheikh al-Sadate, signalant que la <hi rend="italic">wikāla</hi> située à côté de la Wikālat al-Šā‘ir appartient auWaqf al-Sādāt et qu’il a l’intention de la rénover. Il n’est pas possible de faire un <hi rend="italic">istibdāl</hi> sur ce bien, car l’<hi rend="italic">istibdāl</hi> est proscrit par les clauses du <hi rend="italic">waqf.</hi> En consequence de suoi, l’armée devra chercher un autre endroit pour l’entreposage de ses équipements</cell>
+            </row>
+            <row n="51">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245013901_01</cell>
+               <cell>Rumayla</cell>
+               <cell>al-Rumayla</cell>
+               <cell>الرميلة</cell>
+               <cell/>
+               <cell/>
+               <cell>Neighbourhood</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°139, 6<hi rend="italic"> ḏū al-qa‘da</hi> 1245/</cell>
+               <cell>Vol</cell>
+               <cell>Vol dans une Wikāla à Rumayla   </cell>
+            </row>
+            <row n="52">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245013901_02</cell>
+               <cell>Takiyyat al-Hunud</cell>
+               <cell>Takiyyat al-Hunūd</cell>
+               <cell>تكية الهنود</cell>
+               <cell>Takiyyat al-Hindiyyīn</cell>
+               <cell>تكية الهنديين</cell>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°139, 6<hi rend="italic"> ḏū al-qa‘da</hi> 1245/</cell>
+               <cell>Vol</cell>
+               <cell>Vol dans une Wikāla à Rumayla   </cell>
+            </row>
+            <row n="53">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245013901_03</cell>
+               <cell>Wikalat Taylun</cell>
+               <cell>Wikālat Ṭaylūn</cell>
+               <cell>وكالة طيلون </cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°139, 6<hi rend="italic"> ḏū al-qa‘da</hi> 1245/</cell>
+               <cell>Vol</cell>
+               <cell>Vol dans une Wikāla à Rumayla   </cell>
+            </row>
+            <row n="54">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245014001_01</cell>
+               <cell>Darb Mustafa</cell>
+               <cell>Darb Muṣṭafā</cell>
+               <cell>درب مصطفى </cell>
+               <cell>Darb al-Muṣṭafā</cell>
+               <cell>درب المصطفى </cell>
+               <cell>Street</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°140, 8 <hi rend="italic">ḏū al-qa‘da</hi> 1245</cell>
+               <cell>Vol</cell>
+               <cell>Vol  dans un logement au Darb Muṣṭafa</cell>
+            </row>
+            <row n="55">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245014002_01</cell>
+               <cell>Suq al-Silah</cell>
+               <cell>Sūq al-Silāḥ</cell>
+               <cell>سوق السلاح</cell>
+               <cell/>
+               <cell/>
+               <cell>Street</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°140, 8 <hi rend="italic">ḏū al-qa‘da</hi> 1245</cell>
+               <cell>Vol</cell>
+               <cell>Vol dans la Wikālat al-Ḥalawānī à Sūq al-Silāḥ</cell>
+            </row>
+            <row n="56">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245014002_02</cell>
+               <cell>Wikālat al-Halawani</cell>
+               <cell>Wikālat al-Ḥalawānī</cell>
+               <cell>وكالة الحلواني</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°140, 8 <hi rend="italic">ḏū al-qa‘da</hi> 1245</cell>
+               <cell>Vol</cell>
+               <cell>Vol dans la Wikālat al-Ḥalawānī à Sūq al-Silāḥ</cell>
+            </row>
+            <row n="57">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245014003_01</cell>
+               <cell>Khan al-Khalili</cell>
+               <cell>Ḫān al-Ḫalīlī</cell>
+               <cell>خان الخليلي</cell>
+               <cell/>
+               <cell/>
+               <cell>Neighbourhood</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°140, 8 <hi rend="italic">ḏū al-qa‘da</hi> 1245</cell>
+               <cell>Vol</cell>
+               <cell>Vol dans une <hi rend="italic">wikāla</hi> du Ḫan al-Ḫalīlī, près d’al-Ḥusayn</cell>
+            </row>
+            <row n="58">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245014003_02</cell>
+               <cell>al-Husayn Mosque</cell>
+               <cell>Ǧamī' al-Ḥusayn</cell>
+               <cell>جامع الحسين</cell>
+               <cell>al-Ḥusayn</cell>
+               <cell>الحسين</cell>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°140, 8 <hi rend="italic">ḏū al-qa‘da</hi> 1245</cell>
+               <cell>Vol</cell>
+               <cell>Vol dans une <hi rend="italic">wikāla</hi> du Ḫan al-Ḫalīlī, près d’al-Ḥusayn</cell>
+            </row>
+            <row n="59">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245014004_01</cell>
+               <cell>Wikalat al-Silahdar</cell>
+               <cell>Wikālat al-Silāḥdār</cell>
+               <cell>وكالة السلاحدار</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°140, 8 <hi rend="italic">ḏū al-qa‘da</hi> 1245</cell>
+               <cell>Vol</cell>
+               <cell>Vol dans la Wikālat al-Silāḥdār à Ǧamāliyya</cell>
+            </row>
+            <row n="60">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245014004_02</cell>
+               <cell>al-Gamaliyya</cell>
+               <cell>al-Ǧamāliyya</cell>
+               <cell>الجمالية</cell>
+               <cell/>
+               <cell/>
+               <cell>Neighbourhood</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°140, 8 <hi rend="italic">ḏū al-qa‘da</hi> 1245</cell>
+               <cell>Vol</cell>
+               <cell>Vol dans la Wikālat al-Silāḥdār à Ǧamāliyya</cell>
+            </row>
+            <row n="61">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245014101_01</cell>
+               <cell>Bab al-Luq</cell>
+               <cell>Bāb al-Lūq</cell>
+               <cell>باب اللوق</cell>
+               <cell/>
+               <cell/>
+               <cell>Neighbourhood</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°141, 11 <hi rend="italic">ḏū al-qa‘da 1245/</hi>
+               </cell>
+               <cell>Vol</cell>
+               <cell>Vol dans une maison à Bāb al-Lūq. Le voleur est un adolescent : il est condamné à aller travailler pendant trois mois à la fabrique d’al-Ḫayyāṭīn.</cell>
+            </row>
+            <row n="62">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245014101_02</cell>
+               <cell>Karakhanat al-Khayyatin</cell>
+               <cell>Karaḫānat al-Ḫayyāṭīn</cell>
+               <cell>كرخانة الخياطسن</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°141, 11 <hi rend="italic">ḏū al-qa‘da 1245/</hi>
+               </cell>
+               <cell>Vol</cell>
+               <cell>Vol dans une maison à Bāb al-Lūq. Le voleur est un adolescent : il est condamné à aller travailler pendant trois mois à la fabrique d’al-Ḫayyāṭīn.</cell>
+            </row>
+            <row n="63">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245014201_01</cell>
+               <cell>Bab al-Kharq</cell>
+               <cell>Bāb al-Ḫarq</cell>
+               <cell>باب الخرق</cell>
+               <cell>Bāb al-Ḫalq</cell>
+               <cell>باب الخلق</cell>
+               <cell>Neighbourhood</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°142, 12 <hi rend="italic">ḏū al-qa‘da</hi> 1245/</cell>
+               <cell>Incendie</cell>
+               <cell>Incendie dans la boutique d’un <hi rend="italic">faṭāṭīrī</hi> à Bāb al-Ḫarq</cell>
+            </row>
+            <row n="64">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245014401_01</cell>
+               <cell>Khalig Za'farani Dam</cell>
+               <cell>Qanṭarat al-Ḫalīǧ al-Za‘farānī</cell>
+               <cell>قنطرة خليج الزعفران </cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°144, 18 <hi rend="italic">ḏū al-qa‘da</hi> 1245/</cell>
+               <cell>Chantier du Ḫalīǧ al-Za‘farānī </cell>
+               <cell>Fourniture de chaux et de pierres pour le chantier. Pas assez de bois pour preparer la chaux. Mêmes besoins pour le chantier du barrage de Zaqāzīq.</cell>
+            </row>
+            <row n="65">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245014401_02</cell>
+               <cell>Zaqaziq Dam</cell>
+               <cell>Qanṭarat al-Zaqāzīq</cell>
+               <cell>قنطرة زقازيق </cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°144, 18 <hi rend="italic">ḏū al-qa‘da</hi> 1245/</cell>
+               <cell>Barrage de Zaqāzīq</cell>
+               <cell>Fourniture de chaux et de pierres pour le chantier. Pas assez de bois pour preparer la chaux. Mêmes besoins pour le chantier du barrage de Zaqāzīq.</cell>
+            </row>
+            <row n="66">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245015001_01</cell>
+               <cell>Khalig Za'farani Dam</cell>
+               <cell>Qanṭarat al-Ḫalīǧ al-Za‘farānī</cell>
+               <cell>قنطرة خليج الزعفران </cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°150, 9 <hi rend="italic">ḏū al-ḥiǧǧā</hi> 1245</cell>
+               <cell>Barrage du Ḫalīǧ al-Za‘farānī</cell>
+               <cell>Le chantier a besoin de 40 chameaux et de paille pour le brûlage de la chaux</cell>
+            </row>
+            <row n="67">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245015101_01</cell>
+               <cell>Harat al-Shaykh Mas'ud</cell>
+               <cell>Ḥārat al-Šayḫ Mas‘ūd</cell>
+               <cell>حارة الشيخ مسعود </cell>
+               <cell/>
+               <cell/>
+               <cell>Street</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°151, 16 <hi rend="italic">ḏū al-ḥiǧǧā </hi>/</cell>
+               <cell>Vol</cell>
+               <cell>Vol dans une maison à Ḥārat al-Šayḫ Mas‘ūd, à Bāb al-Šā‘riyya.</cell>
+            </row>
+            <row n="68">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245015101_02</cell>
+               <cell>Bab al-Sha'riyya</cell>
+               <cell>Bāb al-Šā‘riyya</cell>
+               <cell>باب الشعرية </cell>
+               <cell/>
+               <cell/>
+               <cell>Neighbourhood</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1245</cell>
+               <cell/>
+               <cell>n°151, 16 <hi rend="italic">ḏū al-ḥiǧǧā </hi>/</cell>
+               <cell>Vol</cell>
+               <cell>Vol dans une maison à Ḥārat al-Šayḫ Mas‘ūd, à Bāb al-Šā‘riyya.</cell>
+            </row>
+            <row n="69">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1245015901_01</cell>
+               <cell>Bab al-Sha'riyya</cell>
+               <cell>Bāb al-Šā‘riyya</cell>
+               <cell>باب الشعرية </cell>
+               <cell/>
+               <cell/>
+               <cell>Street</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1246</cell>
+               <cell/>
+               <cell>n°159, 13 <hi rend="italic">muḥarram</hi> 1246/4 juillet 1830</cell>
+               <cell>Vol</cell>
+               <cell>Plainte d’un meunier de Bāb al-Ša‘riyya contre son ouvrier, lequel pretend que son patron lui devait 10 <hi rend="italic">qurš </hi> pour solde de son salaire et qu’il a pris les objets comme garantie du règlement de la dette. Il a été arrêté par les gens du quartier avec les objets pris à son patron. L’affaire reste cependant traitée comme un vol: on bat le voleur qui rend les objets à leur propriétaire. </cell>
+            </row>
+            <row n="70">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1246016001_01</cell>
+               <cell>Qalyubiyya Canal</cell>
+               <cell>Tur‘at al-Qalyūbiyya</cell>
+               <cell>ترعة القليوبية</cell>
+               <cell/>
+               <cell/>
+               <cell>Waterway</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1246</cell>
+               <cell/>
+               <cell>n°160, 14 <hi rend="italic">muḥarram</hi> 1246/5 juillet 1839</cell>
+               <cell>Besoins en main d’œuvre du service de la chaux et du plâtre </cell>
+               <cell>Rapport du directeur du service de la chaux et du plâtre rappelant que son service a besoin de pierres pour la production de la chaux et qu’elles doivent être livrées avant la crue du Nil. Il a par ailleurs demandé au <hi rend="italic">Ma’mūr</hi> de Gīza l’envoi de 400 hommes, mais celui-ci lui a répondu qu’il avait déjà fourni 10 000 hommes pour le canal de la Qalyūbiyya et ne pouvait en donner advantage. Le Maǧlis al-Mišwara tranche en répondant que le creusement du Tur‘a al-Qalyūbiyya serait prochainement terminé et que le Ma‘mūr de Gīza pourra alors envoyer la main d’oeuvre demandée.</cell>
+            </row>
+            <row n="71">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1246016002_01</cell>
+               <cell>al-Darb al-Gadid</cell>
+               <cell>al-Darb al-Ǧadīḍ</cell>
+               <cell>الدرب الجديد</cell>
+               <cell/>
+               <cell/>
+               <cell>Street</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1246</cell>
+               <cell/>
+               <cell>n°160, 14 <hi rend="italic">muḥarram</hi> 1246/5 juillet 1839</cell>
+               <cell>Vol</cell>
+               <cell>Vol dans une maison du Darb al-Ǧadīḍ à ‘Ābdīn. La voleuse a été prise en flagrant délit. Comme elle est de Kafr al-Bāǧūr, Minūfiyya, elle est conduite sous la garde d'un gendarme jusqu’à une barque qui la ramènera à son village</cell>
+            </row>
+            <row n="72">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1246016002_02</cell>
+               <cell>Abdin</cell>
+               <cell>‘Ābdīn</cell>
+               <cell>عابدين</cell>
+               <cell/>
+               <cell/>
+               <cell>Neighbourhood</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1246</cell>
+               <cell/>
+               <cell>n°160, 14 <hi rend="italic">muḥarram</hi> 1246/5 juillet 1839</cell>
+               <cell>Vol</cell>
+               <cell>Vol dans une maison du Darb al-Ǧadīḍ à ‘Ābdīn. La voleuse a été prise en flagrant délit. Comme elle est de Kafr al-Bāǧūr, Minūfiyya, elle est conduite sous la garde d'un gendarme jusqu’à une barque qui la ramènera à son village</cell>
+            </row>
+            <row n="73">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1246016201_01</cell>
+               <cell>Khan al-Khalili</cell>
+               <cell>al-Ḫān al-Ḫalīlī</cell>
+               <cell>الخان الخليلي</cell>
+               <cell/>
+               <cell/>
+               <cell>Neighbourhood</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1246</cell>
+               <cell/>
+               <cell>n°162, 17 <hi rend="italic">muḥarram</hi> 1246/8 juillet 1830</cell>
+               <cell>Vol</cell>
+               <cell>Vol chez un marchand au detail du Ḫān al-Ḫalīlī. La voleuse habite à Naṣriyya. Elle est incarcérée, puis libérée parce que malade et irresponsable</cell>
+            </row>
+            <row n="74">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1246016201_02</cell>
+               <cell>Nasriyya</cell>
+               <cell>al-Naṣriyya</cell>
+               <cell>النصرية</cell>
+               <cell/>
+               <cell/>
+               <cell>Neighbourhood</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1830</cell>
+               <cell>1246</cell>
+               <cell/>
+               <cell>n°162, 17 <hi rend="italic">muḥarram</hi> 1246/8 juillet 1830</cell>
+               <cell>Vol</cell>
+               <cell>Vol chez un marchand au detail du Ḫān al-Ḫalīlī. La voleuse habite à Naṣriyya. Elle est incarcérée, puis libérée parce que malade et irresponsable</cell>
+            </row>
+            <row n="75">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+            </row>
+            <row n="76">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+            </row>
+            <row n="77">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+            </row>
+            <row n="78">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+            </row>
+            <row n="79">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_01</cell>
+               <cell>Mosque and Tomb of Shaykh Ṣāliḥ </cell>
+               <cell>Masǧid wa-ḍarīḥ al-Shaykh Ṣāliḥ</cell>
+               <cell>مسجد وضريح الشيخ صالح بسويقة السباعين</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>à Suwayqat al-Sibā‘īn</cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="80">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_02</cell>
+               <cell>Mosque and Tomb of Šaykh ‘Abd Allah</cell>
+               <cell>Masǧid wa-ḍarīḥ al-Shaykh ‘Abd Allāh</cell>
+               <cell>مسجد وضريح الشيخ عبد الله بخط الشيخ ريحان</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>à Ḫaṭṭ al-Ṣayḫ Rīḥān</cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="81">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_03</cell>
+               <cell>‘Ali al-Qimari Mosque</cell>
+               <cell>Masǧid ‘Alī al-Qimarī</cell>
+               <cell>مسجد على القمري تجديد سعادة حسين باشا أمين بيت مال مصر</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>Reconstruite par Ḥusayn pacha, <hi rend="italic">amīn Bayt al-Mal. </hi>Appelée sur la carte Ḥusayn pacha Abū Usbā‘ (al-Qimarī)</cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="82">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_04</cell>
+               <cell>Sidi 'Ali Zayn al-'Abidin Mosque</cell>
+               <cell>Masǧid Sīdī ‘Alī Zayn al-‘Ābidīn</cell>
+               <cell>مسجد سيدي على زين العابدين تجديد حضرة قفطان باشا</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>Reconstruite par Qufṭān pacha</cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="83">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_05</cell>
+               <cell>Zawiyat ‘Arif Pasha</cell>
+               <cell>Zāwiyat ‘Ārif pacha</cell>
+               <cell>مسجد بالتبانة تجديد سعادة عارف باشا من أعضاء مجلس الأحكام تجديد سعادة السيد أبو بكر راتب باشا من أعضاء الخصوصي</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>à Tabbāna, reconstruite par ‘Ārif pacha, membre du Maǧlis al-Aḥkām</cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="84">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_06</cell>
+               <cell>Mosque and Tomb of al-Sayyida Umm Kulthum</cell>
+               <cell>Zāwiya wa-ḍarīḥ al-Sayyida Umm Kulṯum</cell>
+               <cell>زاوية وضريح السيدة أم كلثوم بالأمام الشافعي</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>à l'Imām al-Šāfi‘ī</cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="85">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_07</cell>
+               <cell>Mosque and Tomb of Sidi Ka‘b al-Abhar</cell>
+               <cell>Zāwiya wa-ḍarīḥ Sīdī Ka‘b al-Abḥār</cell>
+               <cell>زاوية وضريح سيدي كعب الأحبار بالنصرية</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>à Naṣriyya</cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="86">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_08</cell>
+               <cell>Takiyya wa-Madrasat Khalil Agha</cell>
+               <cell>Takiyya wa-Madrasat Ḫalīl aġā</cell>
+               <cell>تكية ومدرسة انشا ...... خليل أغا بالمشهد الحسيني </cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>à Sayyid-nā al-Ḥusayn</cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="87">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_09</cell>
+               <cell>Zawiya, Khan al-Khalili</cell>
+               <cell>Zāwiya au Ḫān al-Ḫalīlī</cell>
+               <cell>زاوية بخان الخليلي تجديد دائرة مرحوم أحمد باشا </cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>au Ḫān al-Ḫalīlī, reconstruite par la <hi rend="italic">dā’ira </hi>de feu Aḥmad pacha</cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="88">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_10</cell>
+               <cell>Zawiyat 'Uthman bey</cell>
+               <cell>Zāwiyat ‘Uṯmān bey</cell>
+               <cell>زاوية عثمان بيك بخط السيدة زينب تجديد حرم مرحوم حسن بيك ساطع</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>à Ḫaṭṭ al-Sayyida Zaynab, reconstruite par l'épouse de feu Ḥasan bey Sāṭi‘</cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="89">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_11</cell>
+               <cell>al-Mu'arrif Mosque</cell>
+               <cell>Masǧid al-Mu‘arrif</cell>
+               <cell>مسجد المعرف بالقبر الطويل بخط الخليفة تجديد جمعة راجح شيخ المهندسين</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>à Qabr al-Ṭawīl, Ḫaṭṭ al-Ḫalīfa, reconstruite par Ǧum‘a Rāǧīḥ, <hi rend="italic">šayḫ al-muhandisīn</hi>
+               </cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="90">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_12</cell>
+               <cell>Zawiyat al-'Anbari </cell>
+               <cell>Zāwiyat al-‘Anbarī </cell>
+               <cell>زاوية العنبري بكفر الطماعين تجديد السيد محمد حسن الصباغ </cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>à Kafr al-Ṭammā‘īn, reconstruite par <hi rend="italic">al-sayyid</hi> Muḥammad Ḥasan al-Ṣabbāġ</cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="91">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_13</cell>
+               <cell>al-Kiridi Mosque</cell>
+               <cell>Masǧid al-Karīdī</cell>
+               <cell>مسجد الكريدي بباب اللوق تجديد الحاج حسن حجاب المابغي</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>à Bāb al-Lūq, reconstruite par le <hi rend="italic">ḥāǧǧ</hi> Muḥammad Ḥasan al-Madābiġī</cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="92">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_14</cell>
+               <cell>Šaykh ‘Abd al-Da’im Mosque</cell>
+               <cell>Masǧid al-Shaykh ‘Abd al-Dā’im</cell>
+               <cell>مسجد الشيخ عبد الدائم بالخط المذكور وتجديد الحاج ابراهيم دوايدر المدابغي</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>à Bāb al-Lūq, reconstruite par le <hi rend="italic">ḥāǧǧ</hi> Ḥasan Ḥiǧāb al-Madābiġī</cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="93">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_15</cell>
+               <cell>Mosque and Tomb of Sidi Hasan al-Anwar</cell>
+               <cell>Zāwiya wa-ḍārīḥ Sīdī Ḥasan al-Anwar</cell>
+               <cell>زاوية وضريح سيدي حسن الأنور بفم الخليج تجديد أبو زيد الجيار</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>à Fumm al-Ḫalīǧ, reconstruite par Abū Zayd al-Ǧayyār</cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="94">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_16</cell>
+               <cell>Mosque and Tomb of al-Ustaḏ Ṣarim</cell>
+               <cell>Zāwiya wa-ḍārīḥ al-Ustāḏ Ṣārim</cell>
+               <cell>زاوية وضريح الأستاذ صارم بالحسينية تجديد يوسف عانوس الحريري</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>à Ḥusayniyya, reconstruite par Yūsuf ‘Ānūs al-Ḥarīrī</cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="95">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_17</cell>
+               <cell>Salima Mosque</cell>
+               <cell>Masǧid Sālima</cell>
+               <cell>مسجد سالمة بباب البحر تجديد عمر الصباغ</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>à Bāb al-Baḥr, reconstruite par ‘Umar al-Ṣabbāġ</cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="96">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_18</cell>
+               <cell>Mosque, Ǧamaliyya</cell>
+               <cell>Mosquée à Ǧamāliyya</cell>
+               <cell>مسجد بالجملية تجديد السيد محمود الحتو</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>à Ǧamāliyya, reconstruite par Maḥmūd al-Ḥatū</cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="97">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_19</cell>
+               <cell>al-Sayyida Umm al-Ġulam Mosque</cell>
+               <cell>Masǧid al-Sayyida Umm al-Ġulām</cell>
+               <cell>مسجد السيدة أم الغلام بخط سيدنا الحسين تجديد ناظرة الوقف</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>à Ṣayyid-nā al-Ḥusayn, reconstruite par la gérante du <hi rend="italic">waqf</hi>
+               </cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="98">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_20</cell>
+               <cell>Zawiyat al-Arba‘in</cell>
+               <cell>Zāwiyat al-Arba‘īn</cell>
+               <cell>زاوية الأربعين بالباطنية تجديد أهل الخير</cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>à Bāṭniyya, reconstruite par des bienfaiteurs</cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="99">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_21</cell>
+               <cell>al-Ustaḏ al-Ramli Mosque</cell>
+               <cell>Masǧid al-Ustāḏ al-Ramlī</cell>
+               <cell>مسجد الأستاذ الرملي تجديد ناظر الوقف </cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>Reconstruite par le gérant du <hi rend="italic">waqf</hi>
+               </cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="100">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_22</cell>
+               <cell>Shaykh ‘Aṭiyya Mosque</cell>
+               <cell>Masǧid al-Shaykh ‘Aṭiyya</cell>
+               <cell>مسجد الشيخ عطية ببولاق تجديد أهل الخير </cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>à Būlāq, reconstruite par des bienfaiteurs</cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="101">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_23</cell>
+               <cell>Abu al-Fadl Mosque</cell>
+               <cell>Masǧid Abū al-Faḍl</cell>
+               <cell>مسجد أبو الفضل ببولاق تجديد الناظر </cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>à Būlāq, reconstruite par le gérant</cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="102">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_24</cell>
+               <cell>al-Sulṭan Barsbay Mosque</cell>
+               <cell>Masǧid al-Sulṭān Barsbāy</cell>
+               <cell>مسجد الأشرف برسباي بالأشرفية </cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>à Ašrafiyya</cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="103">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_25</cell>
+               <cell>Mahmud Pasha Mosque</cell>
+               <cell>Masǧid Maḥmūd Pāšā </cell>
+               <cell>مسجد محمود باشا بميدان محمد على باشا </cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>Mīdān Muḥammad ‘Alī</cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="104">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_26</cell>
+               <cell>Madrasa of Sulṭan Qala’ūn</cell>
+               <cell>Madrasat al-Sulṭān Qalā’ūn</cell>
+               <cell>مدرسة السلطان قلاوون </cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell> </cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="105">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_27</cell>
+               <cell>Mosque of  Waqf Qanibay al-Rammah</cell>
+               <cell>Masǧid Waqf Qānibāy al-Rammāḥ</cell>
+               <cell>مسجد وقف قانباي الرماح بالنصرية </cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>à Naṣriyya</cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+            <row n="106">
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>1286033601_28</cell>
+               <cell>Mosque of  Waqf Qanibay al-Rammah</cell>
+               <cell>Masǧid Waqf Qānibāy al-Rammāḥ</cell>
+               <cell>مسجد الوقف المذكور بميدان محمد على </cell>
+               <cell/>
+               <cell/>
+               <cell>Building</cell>
+               <cell>Point</cell>
+               <cell/>
+               <cell/>
+               <cell>1869</cell>
+               <cell>1286</cell>
+               <cell/>
+               <cell>n°336, 6 <hi rend="italic">ramaḍān</hi> 1286/9 décembre 1869, p. 3, col. 1</cell>
+               <cell>Note (<hi rend="italic">ifāda</hi>)<hi rend="italic"> </hi>accompagnant un état (<hi rend="italic">kašf</hi>) des mosquées, <hi rend="italic">ṭakiyya </hi>et<hi rend="italic"> madrasa</hi> menaçant ruine, dressé pour Alexandrie et le Caire. L'état a pour titre: "Liste des mosquées, <hi rend="italic">zāwiya</hi> et tombes construites ou rénovées à Alexandrie et au Caire"</cell>
+               <cell>Mīdān Muḥammad ‘Alī</cell>
+               <cell>La liste qui suit ne comporte que le Caire</cell>
+            </row>
+         </table>
+      </body>
+   </text>
+</TEI>
