@@ -31,7 +31,39 @@
       <xsl:call-template name="wm_arname"></xsl:call-template>
       <xsl:call-template name="osm_name"/>
       <xsl:call-template name="osm_id"/>
+      <xsl:call-template name="wm_year"/>
+      <xsl:call-template name="wm_higyear"/>
+      <xsl:call-template name="gis_id"/>
+      <xsl:call-template name="wm_ref"/>
     </place>
+  </xsl:template>
+  
+  <xsl:template name="wm_ref">
+    <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'WM_Ref'))"/>
+    <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+      <idno type="OSM">{$val}</idno>
+    </xsl:if>
+  </xsl:template>
+  
+  <xsl:template name="gis_id">
+    <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'GIS_ID'))"/>
+    <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+      <idno type="OSM">{$val}</idno>
+    </xsl:if>
+  </xsl:template>
+  
+  <xsl:template name="wm_higyear">
+    <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'WM_HegYear'))"/>
+    <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+      <idno type="OSM">{$val}</idno>
+    </xsl:if>
+  </xsl:template>
+  
+  <xsl:template name="wm_year">
+    <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'WM_Year'))"/>
+    <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+      <idno type="OSM">{$val}</idno>
+    </xsl:if>
   </xsl:template>
   
   <xsl:template name="osm_id">
@@ -75,6 +107,8 @@
       <placeName type="OSM">{$val}</placeName>
     </xsl:if>
   </xsl:template>
+  
+  
   
   <xsl:function name="fn:col">
     <xsl:param name="table"/>
