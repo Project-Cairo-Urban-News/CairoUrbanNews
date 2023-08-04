@@ -1319,7 +1319,8 @@
             <table rend="rules">
                <row>
                   <cell rend="both" cols="3">
-                     <hi><orgName type="ثمن" ref="ثمن-الدرب-الاحمر">ثمن الدرب الاحمر</orgName></hi>
+                     <hi><placeName ref="ثمن الدرب الاحمر" type="ثمن"><orgName type="ثمن"
+                              ref="ثمن-الدرب-الاحمر">ثمن الدرب الاحمر</orgName></placeName></hi>
                   </cell>
                </row>
                <row>
@@ -1345,7 +1346,7 @@
                </row>
                <row>
                   <cell rend="both" cols="3">
-                     <hi xml:space="preserve"><orgName ref="ثمن-الجماليه" type="ثمن">ثمن الجماليه</orgName></hi>
+                     <hi xml:space="preserve"><placeName ref="ثمن الجماليه" type="ثمن"><orgName ref="ثمن-الجماليه" type="ثمن">ثمن الجماليه</orgName></placeName></hi>
                   </cell>
                </row>
                <row>
@@ -1368,7 +1369,7 @@
                </row>
                <row>
                   <cell rend="both" cols="3">
-                     <hi xml:space="preserve"><orgName type="ثمن" ref="ثمن-الازبكيه">ثمن الازبكيه</orgName></hi>
+                     <hi xml:space="preserve"><placeName ref="ثمن الازبكيه" type="ثمن"><orgName type="ثمن" ref="ثمن-الازبكيه">ثمن الازبكيه</orgName></placeName></hi>
                   </cell>
                </row>
                <row>
@@ -1377,7 +1378,7 @@
                      <hi>١٤</hi>
                   </cell>
                   <cell rend="both">
-                     <hi><placeName type="بيت">بيوت</placeName> هدمت بعض محلاتها</hi>
+                     <hi>بيوت هدمت بعض محلاتها</hi>
                   </cell>
                </row>
                <row>
@@ -1386,7 +1387,7 @@
                      <hi>٠١</hi>
                   </cell>
                   <cell rend="both">
-                     <hi><placeName type="بيت">بيت</placeName> هدم كله</hi>
+                     <hi>بيت هدم كله</hi>
                   </cell>
                </row>
                <row>
@@ -1403,18 +1404,14 @@
                   <cell rend="both">
                      <hi>٠٢</hi>
                   </cell>
-                  <cell rend="both">
-                     <hi xml:space="preserve">راس مناره كذا</hi>
-                  </cell>
+                  <cell rend="both"> راس مناره كذا </cell>
                </row>
                <row>
                   <cell rend="both"/>
                   <cell rend="both">
                      <hi>٠١</hi>
                   </cell>
-                  <cell rend="both">
-                     <hi xml:space="preserve">كذا      كذا  اصابت امرأة فماتت منها</hi>
-                  </cell>
+                  <cell rend="both"> كذا      كذا  اصابت امرأة فماتت منها </cell>
                </row>
                <row>
                   <cell rend="both">
@@ -1423,13 +1420,12 @@
                   <cell rend="both">
                      <hi>٠١</hi>
                   </cell>
-                  <cell rend="both">
-                     <hi xml:space="preserve">صهريج   كذا</hi>
-                  </cell>
+                  <cell rend="both"> صهريج   كذا </cell>
                </row>
                <row>
                   <cell rend="both" cols="3">
-                     <hi><orgName type="ثمن" ref="ثمن-درب-الجماميز">ثمن درب الجماميز</orgName></hi>
+                     <hi><placeName ref="ثمن درب الجماميز" type="ثمن"><orgName type="ثمن"
+                              ref="ثمن-درب-الجماميز">ثمن درب الجماميز</orgName></placeName></hi>
                   </cell>
                </row>
                <row>
@@ -1437,27 +1433,21 @@
                   <cell rend="both">
                      <hi>١٦</hi>
                   </cell>
-                  <cell rend="both">
-                     <hi xml:space="preserve"><placeName type="بيوت">بيوت</placeName> انهدم بعضها وتخرب</hi>
-                  </cell>
+                  <cell rend="both"> بيوت انهدم بعضها وتخرب </cell>
                </row>
                <row>
                   <cell rend="both"/>
                   <cell rend="both">
                      <hi>٠١</hi>
                   </cell>
-                  <cell rend="both">
-                     <hi>اودة كذا</hi>
-                  </cell>
+                  <cell rend="both"> اودة كذا </cell>
                </row>
                <row>
                   <cell rend="both"/>
                   <cell rend="both">
                      <hi>٠٢</hi>
                   </cell>
-                  <cell rend="both">
-                     <hi xml:space="preserve">صهريج  كذا</hi>
-                  </cell>
+                  <cell rend="both"> صهريج  كذا </cell>
                </row>
                <row>
                   <cell rend="both">
@@ -1472,7 +1462,8 @@
                </row>
                <row>
                   <cell rend="both" cols="3">
-                     <hi><orgName type="ثمن" ref="ثمن-الخليفة">ثمن الخليفة</orgName></hi>
+                     <hi><placeName ref="ثمن الخليفة" type="ثمن"><orgName type="ثمن"
+                              ref="ثمن-الخليفة">ثمن الخليفة</orgName></placeName></hi>
                   </cell>
                </row>
                <row>
@@ -1481,7 +1472,7 @@
                      <hi>٢٧</hi>
                   </cell>
                   <cell rend="both">
-                     <hi><placeName type="بيوت">بيوت</placeName> هدم بعضها</hi>
+                     <hi>بيوت هدم بعضها</hi>
                   </cell>
                </row>
                <row>
@@ -1490,7 +1481,7 @@
                      <hi>٠١</hi>
                   </cell>
                   <cell rend="both">
-                     <hi><placeName type="طاحونه">طاحونه</placeName> كذا</hi>
+                     <hi>طاحونه كذا</hi>
                   </cell>
                </row>
                <row>
@@ -1500,12 +1491,11 @@
                   <cell rend="both">
                      <hi>٠٢</hi>
                   </cell>
-                  <cell rend="both"><hi xml:space="preserve"><placeName type="ربع">ربع</placeName>  كذا</hi>
-                  </cell>
+                  <cell rend="both">ربع  كذا </cell>
                </row>
                <row>
                   <cell rend="both" cols="3">
-                     <hi xml:space="preserve"><orgName type="ثمن" ref="ثمن-عابدين">ثمن عابدين</orgName></hi>
+                     <hi xml:space="preserve"><placeName ref="ثمن عابدين" type="ثمن"><orgName type="ثمن" ref="ثمن-عابدين">ثمن عابدين</orgName></placeName></hi>
                   </cell>
                </row>
                <row>
@@ -1514,7 +1504,7 @@
                      <hi>٠٤</hi>
                   </cell>
                   <cell rend="both">
-                     <hi><placeName type="بيوت">بيوت</placeName> تخرب بعضها</hi>
+                     <hi>بيوت تخرب بعضها</hi>
                   </cell>
                </row>
                <row>
@@ -1538,9 +1528,7 @@
                   <cell rend="both">
                      <hi>٠٧</hi>
                   </cell>
-                  <cell rend="both">
-                     <hi><placeName type="بيوت">بيوت</placeName> تخرب بعض من محلاتها</hi>
-                  </cell>
+                  <cell rend="both"> بيوت تخرب بعض من محلاتها </cell>
                </row>
                <row>
                   <cell rend="both">
@@ -1549,9 +1537,7 @@
                   <cell rend="both">
                      <hi>٠١</hi>
                   </cell>
-                  <cell rend="both">
-                     <hi xml:space="preserve"><placeName type="مسجد">مسجد</placeName>  كذا</hi>
-                  </cell>
+                  <cell rend="both"> مسجد  كذا </cell>
                </row>
                <row>
                   <cell rend="both" cols="3">
@@ -1564,7 +1550,7 @@
                      <hi>٠٢</hi>
                   </cell>
                   <cell rend="both">
-                     <hi xml:space="preserve"><placeName type="بيوت">بيوت</placeName> انهدم محل منها ومات حصان من حائط اصابته</hi>
+                     <hi xml:space="preserve">بيوت انهدم محل منها ومات حصان من حائط اصابته</hi>
                   </cell>
                </row>
                <row>
@@ -1573,7 +1559,7 @@
                      <hi>٠١</hi>
                   </cell>
                   <cell rend="both">
-                     <hi><placeName type="مصبغه">مصبغه</placeName> انصدعت وهدم بعضها</hi>
+                     <hi>مصبغه انصدعت وهدم بعضها</hi>
                   </cell>
                </row>
                <row>
@@ -1582,7 +1568,7 @@
                      <hi>٠١</hi>
                   </cell>
                   <cell rend="both">
-                     <hi><placeName type="زاوية">زاوية</placeName> كذا</hi>
+                     <hi>زاوية كذا</hi>
                   </cell>
                </row>
                <row>
@@ -1593,7 +1579,7 @@
                      <hi>٠١</hi>
                   </cell>
                   <cell rend="both">
-                     <hi><placeName type="ربع">ربع</placeName> كذا</hi>
+                     <hi>ربع كذا</hi>
                   </cell>
                </row>
                <row>
@@ -1609,7 +1595,7 @@
                      <hi>٠٣</hi>
                   </cell>
                   <cell rend="both">
-                     <hi xml:space="preserve"><placeName type="بيوت">بيوت</placeName> هدم بعض محلاتها</hi>
+                     <hi xml:space="preserve">بيوت هدم بعض محلاتها</hi>
                   </cell>
                </row>
                <row>
@@ -1622,18 +1608,14 @@
                   <cell rend="both">
                      <hi>٠١</hi>
                   </cell>
-                  <cell rend="both">
-                     <hi><placeName type="بيوت">بيوت</placeName> تخرب بعض من محلاتها</hi>
-                  </cell>
+                  <cell rend="both"> بيوت تخرب بعض من محلاتها </cell>
                </row>
                <row>
                   <cell rend="both"/>
                   <cell rend="both">
                      <hi>٠٣</hi>
                   </cell>
-                  <cell rend="both">
-                     <hi xml:space="preserve">اود  كذا</hi>
-                  </cell>
+                  <cell rend="both"> اود  كذا </cell>
                </row>
                <row>
                   <cell rend="both">
@@ -1642,9 +1624,7 @@
                   <cell rend="both">
                      <hi>٠١</hi>
                   </cell>
-                  <cell rend="both">
-                     <hi xml:space="preserve">مناره  كذا</hi>
-                  </cell>
+                  <cell rend="both"> مناره  كذا </cell>
                </row>
                <row>
                   <cell rend="both">
@@ -1655,27 +1635,35 @@
                   </cell>
                </row>
             </table>
-            <p><hi xml:space="preserve">انه على موجب ما امكن من التحقيق تبين ان الزلزلة المذكورة امتدت دقيقتين تقريبا وحصلت منها المضرات المبينة اعلاه وبحفظه تعالى لم يمت بسببها سوى أمرأة وطفل وحصان واذ كانت هذه الزلزلة لم يعاين احد من الناس وقوع مثلها فى مصر المحروسة اوجبت دهشة العالم واستوجبت حيرتها الا ان البارى سبحانه وتعالى حفظهم من المضار والاضمحلال فله الحمد والثناء على كل حال</hi>
-            </p>
+            <p>انه على موجب ما امكن من التحقيق تبين ان الزلزلة المذكورة امتدت دقيقتين تقريبا وحصلت
+               منها المضرات المبينة اعلاه وبحفظه تعالى لم يمت بسببها سوى أمرأة وطفل وحصان واذ كانت
+               هذه الزلزلة لم يعاين احد من الناس وقوع مثلها فى مصر المحروسة اوجبت دهشة العالم
+               واستوجبت حيرتها الا ان البارى سبحانه وتعالى حفظهم من المضار والاضمحلال فله الحمد
+               والثناء على كل حال.</p>
          </div>
          <div xml:id="W1263007845" resp="#eSG">
             <head><date when-custom="1263-09-4">٤ رمضان ١٢٦٣</date>
                <date when="1847-08-16">١٦ اغسطس ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٧٨</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-            <head><title>اعلانات</title></head>
+            <head>اعلانات</head>
             <p>ان <placeName type="منزل" ref="منزل-السيد-محمود-عابدين">منزل <persName>السيد محمود
-                     عابدين</persName></placeName> الكائن ب<placeName type="خط" ref="خط-العقادين-الرومى">خط العقادين الرومى</placeName> طبقته العليا فيها احدى
-               عشرة اودة وثلاث فسحات وحمام ومطبخ والسفلى <sic>في[ه]ا</sic> طاحونة وله حوش وحديقة
-               وفسحة ومطبخ ارضى يراد بيعه فمن كان له رغبة فيه فليسأل <sic>عن[ه]</sic> من دلال باشى
-               المذكور.</p>
+                     عابدين</persName></placeName> الكائن ب<placeName type="خط"
+                  ref="خط-العقادين-الرومى">خط العقادين الرومى</placeName> طبقته العليا فيها احدى
+               عشرة اودة وثلاث فسحات وحمام ومطبخ والسفلى <choice>
+                  <sic>فيا</sic>
+                  <corr>فيها</corr>
+               </choice> طاحونة وله حوش وحديقة وفسحة ومطبخ ارضى يراد بيعه فمن كان له رغبة فيه فليسأل <choice>
+                  <sic>عن</sic>
+                  <corr>عنه</corr>
+               </choice> من دلال باشى المذكور.</p>
          </div>
          <div xml:id="W1263007946" resp="#eSG">
             <head><date when-custom="1263-09-21">٢١ رمضان ١٢٦٣</date>
                <date when="1847-09-02">٢ سبتمبر ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٧٩</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-            <head><title>اعلانات</title></head>
+            <head>اعلانات</head>
             <p>ان <placeName ref="بيت-خورشد-اغا-شيخ-خان-الخليلى" type="بيت">بيت</placeName>ا
                   ب<placeName ref="سوق-السلاح">سوق السلاح</placeName> يتعلق ب<persName>خورشد اغا شيخ
                      <placeName ref="خان-الخليلى" type="خان">خان الخليلى</placeName></persName>
