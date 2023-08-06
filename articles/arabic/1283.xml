@@ -93,8 +93,7 @@
          <editorialDecl>
             <p>Rules of TEI XML MarkUp in This Project</p>
             <p>We use the Arabic script but transliteration into Latin characters follows the
-               Library of Congress (LOC) <ref
-                  target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic
+               Library of Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic
                   transliteration chart</ref>.</p>
             <p>Each individual article has an individual xml:id number starting with "w1"</p>
             <p>We only use persName, orgName, placeName elements, apart from bibliographical
@@ -102,8 +101,7 @@
             <p>If the location or organization of responsibility is known from the text, it can be
                added in an attribute to a persName.</p>
             <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-            <p>This project's schema considers Till Grallert's work in his <ref
-                  target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
                   Editions</ref>.</p>
          </editorialDecl>
       </encodingDesc>
@@ -127,7 +125,7 @@
          <div>
             <head>١٢٨٣</head>
          </div>
-         <div xml:id="w1" resp="#eSG">
+         <div xml:id="W1283002402" resp="#eSG">
             <head><date when-custom="1283-01-03'">٣ محرم ١٢٨٣</date>
                <date when="1866-05-17">١٧ مايه ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمره ٢٤</biblScope>
@@ -140,7 +138,7 @@
                   طائفة دلالى العقارات</persName> فمن كان له رغبة فى الشراء فعليه بالإطلاع عليها
                وإجراء المزايدة بعد الإحاطة بالشروط والصفحات الموضحة بها ومعاينة ذلك.</p>
          </div>
-         <div xml:id="w2" resp="#eSG">
+         <div xml:id="W1283002603" resp="#eSG">
             <head><date when-custom="1283-01-16">١٦ محرم ١٢٨٣</date>
                <date when="1866-05-31">٣١ مايه ١٨٦٦</date><bibl><biblScope unit="issue">نمره
                      ٢٦</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
@@ -160,7 +158,7 @@
                يلزم من آلات الإطفاء والأشخاص الكافية وبمنه تعالى صار إطفاء كل منهما فى الوقت بدون أن
                يسرى إلى جهة أخرى.</p>
          </div>
-         <div xml:id="w4" resp="#eSG">
+         <div xml:id="W1283002805" resp="#eSG">
             <head><date when-custom="1283-01-30">غاية محرم ١٢٨٣</date>
                <date when="1866-06-14">١٤ يونيه ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٢٨</biblScope>
@@ -181,7 +179,7 @@
                الاسماع مزيلا لها بتاريخ يحيى نظمه سيره ابن مليك لنجلة الاصغر النجيب <persName>على
                   فهمى بيك</persName>.</p>
          </div>
-         <div xml:id="w5" resp="#eSG">
+         <div xml:id="W1283002906" resp="#eSG">
             <head><date when-custom="1283-02-07">٧ صفر ١٢٨٣</date>
                <date type="1866-06-21">٢١ يونيه ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٢٩</biblScope>
@@ -196,7 +194,7 @@
                الوظائف الملكيه والعسكريه استقر رأى ناظر الداخليه ومدير المدارس المصرية على المواد
                الاتية وذلك من بعد ما وافق الادارة السنية <sic>احراؤه</sic>.</p>
          </div>
-         <div xml:id="w6" resp="#eSG">
+         <div xml:id="W1283003007" resp="#eSG">
             <head><date when-custom="1283-02-14">١٤ صفر ١٢٨٣</date>
                <date when="1866-06-28">٢٨ يونيه ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٣٠</biblScope>
@@ -216,7 +214,7 @@
                   <persName>خورشيد بيك مدير <orgName type="السكة-الحديد">السكة
                   الحديد</orgName></persName>.</p>
          </div>
-         <div xml:id="w8" resp="#eSG">
+         <div xml:id="W1283003209" resp="#eSG">
             <head><date when-custom="1283-02-28">٢٨ صفر ١٢٨٣</date>
                <date when="1866-07-12">١٢ يوليه ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٣٢</biblScope>
@@ -246,7 +244,7 @@
             <p>تعيين <persName>محمد بيك رضى ميرالاى ٣جي سوارى سابقا</persName> على الاى الغارديا
                السوارى الذي افتتح.</p>
          </div>
-         <div xml:id="w9" resp="#eSG">
+         <div xml:id="W1283003310" resp="#eSG">
             <head><date when-custom="1283-03-06">٦ ربيع الأول ١٢٨٣</date>
                <date when="1866-07-19">١٩ يوليه ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٣٣</biblScope>
@@ -264,7 +262,7 @@
                وللزوم إعلان كافة الراغبين بذلك فكل من كان له رغبة يعاين المنازل المذكورة ويعطي
                المزاد بما يرغبه في القوائم المحكي عنهم.</p>
          </div>
-         <div xml:id="w10" resp="#eSG">
+         <div xml:id="W1283003411" resp="#eSG">
             <head><date when-custom="1283-03-17">١٧ ربيع الأول ١٢٨٣</date>
                <date when="1866-07-30">٣٠ يوليه ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٣٤</biblScope>
@@ -276,7 +274,7 @@
             <p>وجه إلى عزتلو <persName>جرجس تادرس بيك ملتزم الملاحة</persName> الرتبة الثانية
                المعتبرة.</p>
          </div>
-         <div xml:id="w11" resp="#eSG">
+         <div xml:id="W1283003512" resp="#eSG">
             <head><date when-custom="1283-03-24">٢٤ ربيع الأول ١٢٨٣</date>
                <date when="1866-08-06">٦ أوغسطس ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٣٥</biblScope>
@@ -299,7 +297,7 @@
                   الحرب</placeName> وذلك لما فيهم من الأهلية وكمال الأستحقاقية مع بقاؤهم جميعًا
                بالمدارس الحربية.</p>
          </div>
-         <div xml:id="w12" resp="#eSG">
+         <div xml:id="W1283003613" resp="#eSG">
             <head><date when-custom="1283-03-30">غاية ربيع الأول ١٢٨٣</date>
                <date when="1866-08-12">١٢ أوغسطس ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٣٦</biblScope>
@@ -311,7 +309,7 @@
                   المعاونين بتفتيش عموم الأقاليم</persName> و<persName ref="باش-كاتب-تفتيش-عموم-الأقاليم">حسين افندي كامل باش كاتب ذلك التفتيش</persName>
                   و<persName>حسن افندي الكاتب التركي</persName>.</p>
          </div>
-         <div xml:id="w13" resp="#eSG">
+         <div xml:id="W1283003814" resp="#eSG">
             <head><date when-custom="1283-04-14">١٤ ربيع الآخر ١٢٨٣</date>
                <date when="1866-08-26">٢٦ أوغسطس ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٣٨</biblScope>
@@ -325,7 +323,7 @@
                البيكباشى إلى <persName>عبد الله افندى عزت الذي كان معاونا ب<orgName type="مجلس" ref="مجلس-العسكرية">مجلس العسكرية</orgName></persName> برتبة الصاغقول اغاسى
                والحق بالاى السوارى الثالث.</p>
          </div>
-         <div xml:id="w14" resp="#eSG">
+         <div xml:id="W1283003815" resp="#eSG">
             <head><date when-custom="1283-04-14">١٤ ربيع الآخر ١٢٨٣</date>
                <date when="1866-08-26">٢٦ أوغسطس ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٣٨</biblScope>
@@ -341,7 +339,7 @@
                ربيع الثاني إلى غاية ٢٣ منه فمن يرغب في ذلك فعليه بالمالية قبل حلول الميعاد وكل من
                طلب بعد لا يقبل في الميري بل يكون المتصرف بلا انتظار.</p>
          </div>
-         <div xml:id="w15" resp="#eSG">
+         <div xml:id="W1283003916" resp="#eSG">
             <head><date when-custom="1283-04-21">٢١ ربيع الآخر ١٢٨٣</date>
                <date when="1866-09-02">٢ سبتمبر ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٣٩</biblScope>
@@ -353,7 +351,7 @@
             <p>أحسن إلى عزتلو <persName>موسي بيك العقاد أحد تجار مصر المعتبرين</persName> بنيشان
                همايوني مجيدي من الرتبة الثالثة.</p>
          </div>
-         <div xml:id="w16" resp="#eSG">
+         <div xml:id="W1283004017" resp="#eSG">
             <head><date when-custom="1283-04-28">٢٨ ربيع الآخر ١٢٨٣</date>
                <date when="1866-09-09">٩ سبتمبر ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٤٠</biblScope>
@@ -363,7 +361,7 @@
                      بيك الفلكي</persName></persName> بالرتبة الرابعة.</p>
             <p>أحسن إلى فتوتلو <persName>ولي حلمي بيك أحد معاوني <orgName type="المعية-السنية">المعية السنية</orgName></persName> بالرتبة الرابعة.</p>
          </div>
-         <div xml:id="w17" resp="#eSG">
+         <div xml:id="W1283004118" resp="#eSG">
             <head><date when-custom="1283-05-07">٧ جمادي الأولى ١٢٨٣</date>
                <date when="1866-09-17">١٧ سبتمبر ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٤١</biblScope>
@@ -377,7 +375,7 @@
                عربيتين وبعض أقطان وجلود فلو لم تسعف هذه العربخانة بواسطة قرب الضبطية لانتشر الحريق
                لاتساعها وكثرة أمتعتها.</p>
          </div>
-         <div xml:id="w18" resp="#eSG">
+         <div xml:id="W1283004419" resp="#eSG">
             <head><date when-custom="1283-05-21">٢١ جمادي الأولى ١٢٨٣</date>
                <date when="1866-10-01">١ اقتوبر ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٤٤</biblScope>
@@ -389,7 +387,7 @@
             <p>ألحق حضرة عزتلو <persName>على جودت بك الذي كان وكيل <orgName type="محافظة_مصر" ref="محافظة-مصر">محافظة مصر</orgName></persName> ب<orgName type="المعية-السنية">المعية السنية</orgName> واستعوض بحضرة عزتلو <persName>جليل بيامي بك الذي كان أحد
                   أعضاء مجلس الأستئناف المصري</persName> كما تعلقت به الأدارة الكريمة.</p>
          </div>
-         <div xml:id="w19" resp="#eSG">
+         <div xml:id="W1283004720" resp="#eSG">
             <head><date when-custom="1283-06-01">غرة جمادي الثانى ١٢٨٣</date>
                <date when="1866-10-11">١١ اقتوبر ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٤٧</biblScope>
@@ -411,7 +409,7 @@
                معاون <orgName ref="الاوقاف">الأوقاف</orgName> باشهار ذلك بقوائم المزايدة فمن كان له
                رغبة فليتوجه هناك لذلك.</p>
          </div>
-         <div xml:id="w20" resp="#eSG">
+         <div xml:id="W1283004821" resp="#eSG">
             <head><date when-custom="1283-06-05">٥ جمادي الثانى ١٢٨٣</date>
                <date when="1866-10-15">١٥ اكتوبر ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٤٨</biblScope>
@@ -423,7 +421,7 @@
                لاطفائه من طلومبات وغيرها فكان ذلك في زمن يسير بعد أن احترق حاصل مملوء بحطب قطن وسقف
                رواق بأعلاه وجميع ما فيه وفسحة وبالألطاف انه لم يسر إلى جهة أخرى.</p>
          </div>
-         <div xml:id="w21" resp="#eSG">
+         <div xml:id="W1283004922" resp="#eSG">
             <head><date when-custom="1283-06-08">٨ جمادي الثانى ١٢٨٣</date>
                <date when="1866-10-18">١٨ اكتوبر ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٤٩</biblScope>
@@ -433,7 +431,7 @@
                الطلومبات التجارية وبعد مدة طويلة أطفئ مع عدم السراية إلى جهة أخرى مع أن الأشياء
                التالفة بذلك الحريق تبلغ ٢٠٠٠٠٠ مأتي ألف ليرا وهي تعادل خمسة ملايين من الفرنقات.</p>
          </div>
-         <div xml:id="w22" resp="#eSG">
+         <div xml:id="W1283005023" resp="#eSG">
             <head><date when-custom="1283-06-12">١٢ جمادي الثاني ١٢٨٣</date>
                <date when="1866-10-22">٢٢ اكتوبر ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٥٠</biblScope>
@@ -445,7 +443,7 @@
                واضحة الحدود والمساحة والشروط اللازمة وسلمت إلى شيخ الدلالين ليشهرها للمزايدة فمن كان
                له رغبة فعليه بها وأجراء الأصول.</p>
          </div>
-         <div xml:id="w23" resp="#eSG">
+         <div xml:id="W1283005424" resp="#eSG">
             <head><date when-custom="1283-06-26">٢٦ جمادي الآخرة ١٢٨٣</date>
                <date when="1866-11-05">٥ نوامبر ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٥٤</biblScope>
@@ -455,7 +453,7 @@
                   <orgName type="مجلس" ref="مجلس-الاحكام-المصرية">مجلس الأحكام المصرية</orgName> كما
                تعلقت بذلك الادارة الخديوية.</p>
          </div>
-         <div xml:id="w24" resp="#eSG">
+         <div xml:id="W1283005725" resp="#eSG">
             <head><date when-custom="1283-07-07">٧ رجب ١٢٨٣</date>
                <date when="1866-11-15">١٥ نوامبر ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٥٧</biblScope>
@@ -503,7 +501,7 @@
                تشاهد بها كيفية فقس بيض الدجاج بالعيان فانها ستكون بالقطعة الارض المخصصة لها في الجهة
                المعدة لتجربة ما يتعلق بالزراعة والحراثة حسب التماس القومسيون الايمبراطوري. </p>
          </div>
-         <div xml:id="w26" resp="#eSG">
+         <div xml:id="W1283010127" resp="#eSG">
             <head><date when-custom="1283-10-28">٢٨ ذي الحجة ١٢٨٣</date>
                <date when="1867-05-02">٢ مايه ١٨٦٧</date>
                <bibl><biblScope unit="issue">نمرة ١٠١</biblScope>
