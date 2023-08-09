@@ -400,10 +400,14 @@
           وغيرها وال<placeName type="ترع">ترع</placeName> وال<placeName type="جسور">جسور</placeName>
           وتوسيع ال<placeName type="ازقة">ازقة</placeName> وتنظيم ال<placeName type="مدن">مدن</placeName> وتنظيفها </p>
       </div>
-      <div>
-        <head>نمرة ٤٣١, نوفمبر ١٨٧١ (٢٤ شعبان ١٢٨٨)</head>
-        <head>صفحة ٣ – العمود ٢</head>
-        <head>اعلانات لفظ اعلان وارد من الاوقاف</head>
+      <div resp="#eSG" xml:id="w9">
+        <head><date when-custom="1288-08-24">٢٤ شعبان ١٢٨٨</date>
+          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><date>نوفمبر
+            ١٨٧١</date><?oxy_custom_end?>
+          <bibl><biblScope unit="issue">نمرة ٤٣١</biblScope>
+            <biblScope unit="page">صفحة ٣</biblScope></bibl>
+        </head>
+        <head>اعلانات لفظ اعلان وارد من <orgName ref="الاوقاف">الاوقاف</orgName></head>
         <table>
           <row>
             <cell>عدد</cell>
@@ -411,14 +415,19 @@
           </row>
           <row>
             <cell>١</cell>
-            <cell>قطعه خربه من منزل كائن بدرب المبيضه بالصليبه وقف المرحوم حسين أغا ابن عبد الله
-              نظارة محمد حسين واخيه مسطحها متر ٢٨٥ فى ٤١ مقتضى خروجها بالتواجر بمعنى بيع انقاضها
-              وتأجير أرضها سنوى</cell>
+            <cell>قطعه خربه من <placeName type="منزل" ref="منزل-وقف-المرحوم-حسين-أغا-ابن-عبد-الله"
+                >منزل</placeName> كائن ب<placeName type="درب" ref="درب-المبيضه">درب
+                المبيضه</placeName> ب<placeName ref="الصليبه">الصليبه</placeName>
+              <orgName ref="وقف-المرحوم-حسين-أغا-ابن-عبد-الله" type="وقف">وقف المرحوم حسين أغا ابن
+                عبد الله</orgName>
+              <persName>نظارة محمد حسين</persName> واخيه مسطحها متر ٢٨٥ فى ٤١ مقتضى خروجها بالتواجر
+              بمعنى بيع انقاضها وتأجير أرضها سنوى</cell>
           </row>
           <row>
             <cell>١</cell>
-            <cell>نصف منزل كائن بحارة حمام بابا بخط الخضيرى وقف موره لى خليل أغا نظارة ابراهيم أفندى
-              أحمد مسطحه ذراع ٥١٨ ومقتضى خروجه من وقفه بطريق الاستبدال</cell>
+            <cell>نصف <placeName type="منزل">منزل</placeName> كائن بحارة حمام بابا بخط الخضيرى وقف
+              موره لى خليل أغا نظارة ابراهيم أفندى أحمد مسطحه ذراع ٥١٨ ومقتضى خروجه من وقفه بطريق
+              الاستبدال</cell>
           </row>
         </table>
       </div>
