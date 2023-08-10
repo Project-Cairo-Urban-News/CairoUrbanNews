@@ -748,43 +748,70 @@
           سيتحرر للمحكمه بتحرير الحجة اللازمة لمن يرسى عليه فلزم ترقيمه لحضرتكم ليجرى درج ذلك
           بالوقايع كالجارى</p>
       </div>
-      <div>
-        <head><bibl><biblScope unit="issue">نمره ٤٤٥</biblScope></bibl> يوم الثلاثاء <date when-custom="1288-12-18">۱۸ ذى الحجة سنة ۱۲۸۸</date> ه الموافق <date when="1872-02-27">۲٧ فبراير سنة ۱۸٧۲</date><bibl><biblScope unit="page">صفحة ۱</biblScope> - <biblScope unit="column">العمود ۲</biblScope></bibl> الحوادث الداخليه</head>
-        <p>من ابتداء شهر ذى الحجة سنة 1288 الذى هو عاشر شهر فبراير<bibl><biblScope unit="page">صفحة
-              ۱</biblScope> – <biblScope unit="column">العمود ۳</biblScope></bibl> باقية المقال</p>
-        <p>الافرنكى شرع فى العبور من فوق القنطرة المنشأة بجهة قصر النيل والرسوم اللازم أخذها من
-          المارة عليها تذكر فى الاعلانات كما ذكرت فى روزنامة الوقايع المصرية ونشرت بالصفة
+      <div resp="#eSG" xml:id="w17">
+        <head><date when-custom="1288-12-18">۱۸ ذى الحجة ۱۲۸۸</date>
+          <date when="1872-02-27">۲٧ فبراير سنة ۱۸٧۲</date>
+          <bibl><biblScope unit="issue">نمره ٤٤٥</biblScope>
+            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><biblScope
+              unit="page">صفحة
+              <?oxy_comment_start author="Sarah" timestamp="20230810T181421+0200" comment="check if the news on page 1 or 1 &amp;2" mid="51"?>۱<?oxy_custom_end?><?oxy_comment_end mid="51"?></biblScope></bibl></head>
+        <head><title>الحوادث الداخليه</title></head>
+        <p>من ابتداء شهر ذى الحجة سنة ۱۲۸۸ الذى هو عاشر شهر فبراير الافرنكى شرع فى العبور من فوق
+            ال<placeName ref="قنطرة-بجهة-قصر-النيل" type="قنطرة">قنطرة</placeName> المنشأة
+            ب<placeName ref="قنطرة-قصر-النيل" type="جهة">جهة قصر النيل</placeName> والرسوم اللازم
+          أخذها من المارة عليها تذكر فى الاعلانات كما ذكرت فى روزنامة الوقايع المصرية ونشرت بالصفة
           الرسمية</p>
       </div>
-      <div>
-        <head><bibl><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-        <head>اعلانات</head>
-        <head>صوره <rs>اعلان</rs> وارد من حضرة وكيل <orgName>ديوان الاوقاف</orgName> بتاريخ ۸ ذ سنة
-          ۱۲۸۸</head>
-        <p>عن بيان المحلات المقتضى خروجها من اوقافها بطريق الاستبدال جهة </p>
-        <table rend="rules">
+      <div resp="#eSG" xml:id="w18">
+        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+        <head><date when-custom="1288-12-18">۱۸ ذى الحجة ۱۲۸۸</date>
+          <date when="1872-02-27">۲٧ فبراير سنة ۱۸٧۲</date>
+          <bibl><biblScope unit="issue">نمره ٤٤٥</biblScope>
+            <biblScope unit="page">صفحة
+          ٤</biblScope></bibl><?oxy_custom_end?><?oxy_comment_start author="Sarah" timestamp="20230810T181707+0200" comment="check in the original"?></head><?oxy_comment_end?>
+        <head><title>اعلانات صوره اعلان وارد من حضرة وكيل <orgName ref="ديوان-الاوقاف" type="ديوان"
+              >ديوان الاوقاف</orgName> بتاريخ ۸ ذ سنة ۱۲۸۸</title></head>
+        <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>عن بيان المحلات
+          المقتضى خروجها من اوقافها بطريق الاستبدال جهة </p><?oxy_custom_end?>
+        <?oxy_comment_start author="Sarah" timestamp="20230810T181909+0200" comment="check if this is a part of the main title
+"?>
+        <table rend="rules"><?oxy_comment_end?>
           <row>
             <cell>عدد</cell>
             <cell/>
           </row>
           <row>
             <cell>1 </cell>
-            <cell>منزل كائن <placeName>بدرب السياغ بالدرب الاحمر</placeName> وقف<persName>مصطفى
-                افندى ياقوت</persName> و<persName>الاستاذ المردانى</persName> كل منهما بحق النصف
-              ومقدار مسطح ارضه اذرع 1080 وقائمة مزاده بطرف معاون قسم ثالث اوقاف </cell>
+            <cell><placeName type="منزل" ref="منزل-وقف-مصطفى-افندى-ياقوت">منزل</placeName> كائن
+                ب<placeName ref="درب-السياغ" type="درب">درب السياغ</placeName> ب<placeName
+                ref="الدرب-الاحمر">الدرب الاحمر</placeName>
+              <orgName type="وقف" ref="وقف-مصطفى-افندى-ياقوت-والاستاذ-المردانى">وقف<persName>مصطفى
+                  افندى ياقوت</persName> و<persName>الاستاذ المردانى</persName></orgName> كل منهما
+              بحق النصف ومقدار مسطح
+              ارضه<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> اذرع
+              ۱٠۸٠<?oxy_custom_end?> وقائمة مزاده بطرف معاون <orgName type="قسم"
+                ref="قسم-ثالث-اوقاف">قسم ثالث اوقاف</orgName>
+            </cell>
           </row>
           <row>
             <cell>1</cell>
-            <cell>حصه بحق قيراط 16 وقف <persName>السيد على الحلوانى</persName> فى منزل كائن
-                <placeName>بحارة برج على بباب الشعريه</placeName> مسطح ارضها اذرع لو 149 وقائمة
-              اشهارها بقسم ثانى اوقاف </cell>
+            <cell>حصه بحق <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>قيراط ۱٦<?oxy_custom_end?>
+              <orgName type="وقف" ref="وقف-السيد-على-الحلوانى">وقف <persName>السيد على
+                  الحلوانى</persName></orgName> فى منزل كائن ب<placeName ref="حارة-برج-على"
+                type="حارة">حارة برج على</placeName> ب<placeName ref="باب-الشعريه">باب
+                الشعريه</placeName> مسطح ارضها
+              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>اذرع لو ۱٤٩
+              <?oxy_custom_end?>وقائمة اشهارها ب<orgName ref="قسم-ثانى-اوقاف">قسم ثانى
+                اوقاف</orgName>
+            </cell>
           </row>
           <row>
             <cell>1</cell>
-            <cell>دكان كائنة <placeName>بشارع الخيميه</placeName> سفل منزل <persName>محمد افندى
-                لبيب</persName> يتبقى منها بعد التنظيم خمسة وتسعين سانتى راغب لاخذها محمد افندى
-              المذكور وباشمهندس الاوقاف قدر قيمة استبدالها خمسة عشر يوما تمضى من تاريخه وقائمة
-              اشهارها (مكتوب كدا) بقسم ثالث اوقاف </cell>
+            <cell>دكان كائنة ب<placeName type="شارع" ref="شارع-الخيميه">شارع الخيميه</placeName> سفل
+                <placeName type="منزل" ref="منزل-محمد-افندى-لبيب">منزل <persName>محمد افندى
+                  لبيب</persName></placeName> يتبقى منها بعد التنظيم خمسة وتسعين سانتى راغب لاخذها
+              محمد افندى المذكور وباشمهندس الاوقاف قدر قيمة استبدالها خمسة عشر يوما تمضى من تاريخه
+              وقائمة اشهارها بقسم ثالث اوقاف </cell>
           </row>
           <row>
             <cell>1</cell>
