@@ -236,11 +236,13 @@
             <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
         <head><title>اعلانات- اعلان وارد من <orgName ref="ديوان-الاوقاف" type="ديوان">ديوان
               الاوقاف</orgName> بتاريخ ١٨ محرم سنة ٨٨</title></head>
-        <p><placeName type="منزل" ref="منزل-وقف-المرحوم-الشيخ-مصطفى-ابو-الفتح"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>[م]نزل<?oxy_custom_end?></placeName>
-          كائن ب<placeName ref="حارة-البرقوقيه" type="حارة">حارة البرقوقيه</placeName> ب<placeName ref="الخرنفش">الخرنفش</placeName>
-          <orgName type="وقف" ref="وقف-المرحوم-الشيخ-مصطفى-ابو الفتح">وقف المرحوم الشيخ
-            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>(الصفحة مقطوعة
-            )<?oxy_custom_end?> مصطفى ابو الفتح</orgName>
+        <p><placeName type="منزل" ref="منزل-وقف-المرحوم-الشيخ-مصطفى-ابو-الفتح"
+            ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>[م]نزل<?oxy_custom_end?></placeName>
+          كائن ب<placeName ref="حارة-البرقوقيه" type="حارة">حارة البرقوقيه</placeName> ب<placeName
+            ref="الخرنفش">الخرنفش</placeName>
+          <orgName type="وقف" ref="وقف-المرحوم-الشيخ-مصطفى-ابو الفتح">وقف المرحوم <persName>الشيخ
+              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>(الصفحة مقطوعة
+              )<?oxy_custom_end?> مصطفى ابو الفتح</persName></orgName>
           <persName>نظارة محمد امين</persName> مقدار مسطحه ٧٢ ذراعا
           مقتضى<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>(الصفحة
           مقطوعة)<?oxy_custom_end?> خروجه من وقفه بطريق
@@ -284,9 +286,13 @@
           <row>
             <cell>١</cell>
             <cell><placeName ref="قطعة-ارض-وقف-الشيخ-نصر">قطعة أرض</placeName> براح خالية البناء
-              والانقاض <orgName ref="وقف-الشيخ-نصر" type="وقف">وقف الشيخ نصر</orgName>
-              <persName>نظارة الحاج أحمد زهده</persName> مجاورة للتل داخل <placeName ref="حوش-الجنينة" type="حوش">حوش الجنينة</placeName> ب<placeName ref="بولاق">بولاق</placeName> مقتضى اعطاؤها بطريق التآجر ومسطحها يبلغ ١٤٠ متر مربع وقائمه
-              مزادها ب<placeName ref="قسم-اول-اوقاف" type="قسم"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>قسيم<?oxy_custom_end?>
+              والانقاض <orgName ref="وقف-الشيخ-نصر" type="وقف">وقف <persName>الشيخ
+                نصر</persName></orgName>
+              <persName>نظارة الحاج أحمد زهده</persName> مجاورة للتل داخل <placeName
+                ref="حوش-الجنينة" type="حوش">حوش الجنينة</placeName> ب<placeName ref="بولاق"
+                >بولاق</placeName> مقتضى اعطاؤها بطريق التآجر ومسطحها يبلغ ١٤٠ متر مربع وقائمه
+              مزادها ب<placeName ref="قسم-اول-اوقاف" type="قسم"
+                ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>قسيم<?oxy_custom_end?>
                 أول أوقاف</placeName></cell>
           </row>
           <row>
@@ -337,34 +343,40 @@
           <row>
             <cell>١</cell>
             <cell>نصف <placeName type="منزل" ref="منزل-وقف-عثمان-اغا-ملاطيه-لى">منزل</placeName>
-                ب<placeName ref="حارة-الحماقية" type="حارة">حارة الحماقية</placeName> ب<placeName ref="المغربلين">المغربلين</placeName>
-              <orgName type="وقف" ref="وقف-عثمان-اغا-ملاطيه-لى">وقف عثمان أغا
-                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ملاطيه
-                لى<?oxy_custom_end?></orgName>
+                ب<placeName ref="حارة-الحماقية" type="حارة">حارة الحماقية</placeName> ب<placeName
+                ref="المغربلين">المغربلين</placeName>
+              <orgName type="وقف" ref="وقف-عثمان-اغا-ملاطيه-لى">وقف <persName>عثمان أغا
+                  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ملاطيه
+                  لى<?oxy_custom_end?></persName></orgName>
               <persName>نظارة احمد افندى خيرى</persName> يبلغ مسطح أرضه ٧٤ ذراعا وقائمة مزاده بطرف
               معاون <orgName type="قسم" ref="قسم-ثالث-اوقاف">قسم ثالث أوقاف</orgName></cell>
           </row>
           <row>
             <cell>١</cell>
-            <cell><placeName ref="منزل-وقف-حسن-اغا-بشناق" type="منزل">منزل</placeName> ب<placeName ref="شارع-باب-الخلق" type="شارع">شارع باب الخلق</placeName>
-              <orgName type="وقف" ref="وقف-حسن-اغا-بشناق">وقف حسن أغا بشناق</orgName> مسطح أرضه ١٥٣
-              ذراع وسفله خمسة <placeName type="دكاكين" ref="دكاكين-وقف-السلطان-قلاوون">دكاكين
-                  <orgName ref="وقف-السلطان-قلاون" type="وقف">وقف <persName>السلطان
-                    قلاوون</persName></orgName></placeName> نظارة الديوان مسطح أرضهم ٤٠ ذراع راسى
-              مزاد استبدالهم بالعمله الصاغ ما هو المنزل بمبلغ ١٩٦٠٠ وما هو الدكاكين بمبلغ ٣١٠٠
-              وقائمة مزاد ذلك بالديوان وقد تحدد لنهاية مزادهم خمسة عشر يوم من تاريخه</cell>
+            <cell><placeName ref="منزل-وقف-حسن-اغا-بشناق" type="منزل">منزل</placeName> ب<placeName
+                ref="شارع-باب-الخلق" type="شارع">شارع باب الخلق</placeName>
+              <orgName type="وقف" ref="وقف-حسن-اغا-بشناق">وقف <persName>حسن أغا
+                بشناق</persName></orgName> مسطح أرضه ١٥٣ ذراع وسفله خمسة <placeName type="دكاكين"
+                ref="دكاكين-وقف-السلطان-قلاوون">دكاكين <orgName ref="وقف-السلطان-قلاون" type="وقف"
+                  >وقف <persName>السلطان قلاوون</persName></orgName></placeName> نظارة الديوان مسطح
+              أرضهم ٤٠ ذراع راسى مزاد استبدالهم بالعمله الصاغ ما هو المنزل بمبلغ ١٩٦٠٠ وما هو
+              الدكاكين بمبلغ ٣١٠٠ وقائمة مزاد ذلك بالديوان وقد تحدد لنهاية مزادهم خمسة عشر يوم من
+              تاريخه</cell>
           </row>
           <row>
             <cell>١</cell>
             <cell><placeName ref="منزل-وقف-المرحومه-زهرة" type="منزل">منزل</placeName>
-              <placeName ref="تحت-الربع"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>تحت
+              <placeName ref="تحت-الربع"
+                ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>تحت
                 الربع<?oxy_custom_end?></placeName>
-              <orgName type="وقف" ref="وقف-المرحومه-زهرة">وقف المرحومه زهرة</orgName>
+              <orgName type="وقف" ref="وقف-المرحومه-زهرة">وقف <persName>المرحومه
+                زهرة</persName></orgName>
               <persName>نظارة محمد
               أغا</persName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> مراد
               <?oxy_custom_end?>مسطح أرضه ٤٩ ذراع خلاف ركوب علو دكان ملك الغير
               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>سفله<?oxy_custom_end?>
-              مسطحه اثنين وعشرون ذراع وقائمة مزاده بطرف معاون <orgName type="قسم" ref="قسم-ثالث-اوقاف">قسم ثالث أوقاف</orgName></cell>
+              مسطحه اثنين وعشرون ذراع وقائمة مزاده بطرف معاون <orgName type="قسم"
+                ref="قسم-ثالث-اوقاف">قسم ثالث أوقاف</orgName></cell>
           </row>
           <row>
             <cell>٣</cell>
@@ -415,10 +427,11 @@
           </row>
           <row>
             <cell>١</cell>
-            <cell>قطعه خربه من <placeName type="منزل" ref="منزل-وقف-المرحوم-حسين-أغا-ابن-عبد-الله">منزل</placeName> كائن ب<placeName type="درب" ref="درب-المبيضه">درب
+            <cell>قطعه خربه من <placeName type="منزل" ref="منزل-وقف-المرحوم-حسين-أغا-ابن-عبد-الله"
+                >منزل</placeName> كائن ب<placeName type="درب" ref="درب-المبيضه">درب
                 المبيضه</placeName> ب<placeName ref="الصليبه">الصليبه</placeName>
-              <orgName ref="وقف-المرحوم-حسين-أغا-ابن-عبد-الله" type="وقف">وقف المرحوم حسين أغا ابن
-                عبد الله</orgName>
+              <orgName ref="وقف-المرحوم-حسين-أغا-ابن-عبد-الله" type="وقف">وقف المرحوم <persName>حسين
+                  أغا ابن عبد الله</persName></orgName>
               <persName>نظارة محمد حسين</persName> واخيه مسطحها متر ٢٨٥ فى ٤١ مقتضى خروجها بالتواجر
               بمعنى بيع انقاضها وتأجير أرضها سنوى</cell>
           </row>
@@ -428,7 +441,8 @@
                 ب<placeName type="حارة" ref="حارة-حمام-بابا">حارة حمام
                 <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah" timestamp="20230810T132500+0200" comment="check in the original" mid="31"?>بابا<?oxy_custom_end?><?oxy_comment_end mid="31"?></placeName>
                 ب<placeName type="خط" ref="خط-الخضيرى">خط الخضيرى</placeName>
-              <orgName type="وقف" ref="وقف-موره-لى-خليل-أغا">وقف موره لى خليل أغا</orgName>
+              <orgName type="وقف" ref="وقف-موره-لى-خليل-أغا">وقف <persName>موره لى خليل
+                  أغا</persName></orgName>
               <persName>نظارة ابراهيم أفندى أحمد</persName> مسطحه ذراع ٥١٨ ومقتضى خروجه من وقفه
               بطريق الاستبدال</cell>
           </row>
@@ -674,26 +688,29 @@
           اللازم للقره قولات والضبطيه شهر كيهك سنة ٨٨ مقتضى اعلانهم بالوقايع على الوجه ما توضح أعلاه
           فيقتضى اعلانهم تطبيقا لما صدر به الامر العالى </p>
       </div>
-      <div>
+      <div resp="#eSG" xml:id="w15">
         <head><date when-custom="1288-10-28">۲۸ شوال ۱۲۸۸</date>
           <date when="1872-01-09">۹ يناير ۱۸٧۲</date>
           <bibl><biblScope unit="issue">نمره ٤۳۸</biblScope><biblScope unit="page">صفحة
               ۳</biblScope>
           </bibl></head>
-        <head>اعلانات</head>
-        <head>صورة اعلان وارد من حضرة عزتلو رئيس <orgName ref="مجلس عسكريه" type="مجلس">مجلس
-            عسكريه</orgName> بتاريخ ۲۲ شوال سنة ۸۸</head>
-        <p>حيث جارى اعمال مزاد بالمجلس عن بنا سور حول قطعة الارض المجاورة للترسانة
-            ب<placeName>بولاق</placeName> المقتضى اعمالها شون غلال عموم الجهاديه يبلغ مقدار مكعباتها
-          ذراع ۱٥۳۳ بالمقاوله وتحدد ميعاد لانتهاء المزاد لغاية ٥ القعدة سنة ۸۸ الموافق يوم الثلاثا
-          ومن اللزوم اعلان ذلك بالوقايع فلزم ترقيمه لكى يجرى درج تلك بالوقايع المصريه لاجل كل من له
-          رغبة يحضر للمجلس ومن بعد اطلاعه على شروط المزاد يعطى القول اللازم فى ۲۲ شوال سنة ۸۸ </p>
+        <head><title>اعلانات صورة اعلان وارد من حضرة عزتلو رئيس <orgName ref="مجلس عسكريه"
+              type="مجلس">مجلس عسكريه</orgName> بتاريخ ۲۲ شوال سنة ۸۸</title></head>
+        <p>حيث جارى اعمال مزاد بالمجلس عن بنا سور حول قطعة الارض المجاورة لل<orgName type="ترسانة"
+            ref="الترسانة-ببولاق">ترسانة ب<placeName>بولاق</placeName></orgName> المقتضى اعمالها
+            <orgName type="شون" ref="شون-غلال-عموم-الجهاديه">شون غلال عموم الجهاديه</orgName> يبلغ
+          مقدار مكعباتها ذراع ۱٥۳۳ بالمقاوله وتحدد ميعاد لانتهاء المزاد لغاية ٥ القعدة سنة ۸۸
+          الموافق يوم الثلاثا ومن اللزوم اعلان ذلك بالوقايع فلزم ترقيمه لكى يجرى درج تلك بالوقايع
+          المصريه لاجل كل من له رغبة يحضر للمجلس ومن بعد اطلاعه على شروط المزاد يعطى القول اللازم فى
+          ۲۲ شوال سنة ۸۸ </p>
       </div>
-      <div>
-        <head>نمره ٤٤۱ يوم الثلاثاء <date calendar="hijri">۱۳ ذى القعدة سنة ۱۲۸۸</date> الموافق ۲۳
-          يناير الافرنجى سنة ۱۸٧۲ <bibl><biblScope unit="page">صفحة ۳</biblScope> – <biblScope unit="column">العمود ۳</biblScope></bibl>
-          <rs>اعلانات</rs> صورة اعلان وارد من <persName>حضرة عزتلو وكيل عموم الاوقاف</persName>
-          بتاريخ 6 ذى سنة ۸۸</head>
+      <div resp="#eSG" xml:id="w16">
+        <head><date when-custom="1288-11-13">۱۳ ذى القعدة ۱۲۸۸</date>
+          <date when="1872-01-23">۲۳ يناير ۱۸٧۲</date>
+          <bibl><biblScope unit="issue">نمره ٤٤۱</biblScope>
+            <biblScope unit="page">صفحة ۳</biblScope></bibl></head>
+        <head><title>اعلانات صورة اعلان وارد من حضرة عزتلو وكيل <orgName ref="عموم-الاوقاف">عموم
+              الاوقاف</orgName> بتاريخ ٦ ذى سنة ۸۸</title></head>
         <p>بيان الجهات المقتضى خروجها من الاوقاف كالموضح أدناه جهة </p>
         <table rend="rules">
           <row>
@@ -701,40 +718,55 @@
             <cell/>
           </row>
           <row>
-            <cell>1</cell>
-            <cell>منزل كبير ومنزل صغير وقاعة حرير متخربين ومجاورين لبعضهم <placeName type="حارة">بحارة الشنوانى</placeName>
-              <placeName type="خط">بخط سيدنا الحسين</placeName> وقف بنت قلاوون على سيدنا الحسين يبلغ
-              مسطحهم بوجه التقريب الف وربعمائة متر مقتضى خروجهم من الوقف بطريق الاستبدال وتقدر قيمة
-              استبدالهم بمعرفة باشمهندس الاوقاف مبلغ ثمنمائة جنيه مصرى وقائمة مزادهم بطرف معاون قسم
-              اول أوقاف وتحدد لنهو مزادهم عشرون يوما من تاريخه راغب لاخذهم <persName>حضرة العلامة
-                الشيخ حسن العدوى</persName></cell>
+            <cell>۱</cell>
+            <cell>منزل كبير ومنزل صغير وقاعة حرير متخربين ومجاورين لبعضهم ب<placeName type="حارة"
+                ref="حارة-الشنوانى">حارة الشنوانى</placeName> ب<placeName type="خط"
+                ref="خط-سيدنا-الحسين">خط سيدنا الحسين</placeName>
+              <orgName ref="وقف-بنت-قلاون" type="وقف">وقف <persName>بنت قلاوون</persName></orgName>
+              على <placeName ref="سيدنا-الحسين"><orgName ref="سيدنا-الحسين">سيدنا
+                الحسين</orgName></placeName> يبلغ مسطحهم بوجه التقريب الف وربعمائة متر مقتضى خروجهم
+              من الوقف بطريق الاستبدال وتقدر قيمة استبدالهم بمعرفة باشمهندس الاوقاف مبلغ ثمنمائة
+              جنيه مصرى وقائمة مزادهم بطرف معاون <orgName type="قسم" ref="قسم-اول-اوقاف">قسم اول
+                أوقاف</orgName> وتحدد لنهو مزادهم عشرون يوما من تاريخه راغب لاخذهم <persName>حضرة
+                العلامة الشيخ حسن العدوى</persName></cell>
           </row>
           <row>
-            <cell>1</cell>
-            <cell>جزء يبلغ مسطحه ذراع – 94 من منزل كائن <placeName type="درب">بدرب التنايفه بقلعة
-                الكبش</placeName> وقف <persName>الحاجه امنه البرادعيه</persName> مقتضى مؤاجرة أرضه
-              ومبيع انقاصه (الصح ض بدلا من ص) وقائمة مزاده بطرف معاون قسم رابع اوقاف وتحدد لنهو
-              مزاده خمسة عشر يوما من تاريخه </cell>
+            <cell>۱</cell>
+            <cell>جزء يبلغ مسطحه<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+              ذراع ۹٤ <?oxy_custom_end?>من منزل كائن ب<placeName type="درب" ref="درب-التنايفه">درب
+                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>التنايفه<?oxy_custom_end?></placeName>
+                ب<placeName ref="قلعة-الكبش">قلعة الكبش</placeName>
+              <orgName>وقف <persName>الحاجه امنه البرادعيه</persName></orgName> مقتضى مؤاجرة أرضه
+              ومبيع <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>انقاصه (الصح
+              ض بدلا من ص)<?oxy_custom_end?> وقائمة مزاده بطرف معاون <orgName ref="قسم-رابع-اوقاف"
+                type="قسم">قسم رابع اوقاف</orgName> وتحدد لنهو مزاده خمسة عشر يوما من تاريخه </cell>
           </row>
           <row>
-            <cell>1</cell>
-            <cell> منزل متخرب وقف <orgName type="بطركخانة-الأقباط">بطركخانة الاقباط</orgName>
-                ب<placeName>درب جنينة الطورى بالازبكية</placeName> يبلغ مسطحه ذراع 125 مرغوب
-              استبداله وراسى مزاده بمبلغ 7700 صاغ وقائمة مزاده ب<orgName type="ديوان-الأوقاف">ديوان
-                الاوقاف</orgName> وتحدد لنهو مزاده خمسة عشر يوما من تاريخه </cell>
+            <cell>۱</cell>
+            <cell>
+              <placeName type="منزل" ref="منزل-وقف-بطركخانة-الاقباط">منزل</placeName> متخرب وقف
+                <orgName type="بطركخانة" ref="بطركخانة-الأقباط">بطركخانة الاقباط</orgName>
+                ب<placeName type="درب" ref="درب-جنينة-الطورى">درب <placeName type="جنينة"
+                  ref="جنينة-الطورى">جنينة الطورى</placeName></placeName> ب<placeName ref="الازبكية"
+                >الازبكية</placeName> يبلغ
+              مس<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>طحه ذراع ۱۲٥
+              م<?oxy_custom_end?>رغوب استبداله وراسى مزاده بمبلغ ٧٧٠٠ صاغ وقائمة مزاده ب<orgName
+                type="ديوان" ref="ديوان-الأوقاف">ديوان الاوقاف</orgName> وتحدد لنهو مزاده خمسة عشر
+              يوما من تاريخه </cell>
           </row>
           <row>
-            <cell>3</cell>
+            <cell>۳</cell>
             <cell/>
           </row>
         </table>
         <p>بما انه تجوز شرعا مؤاجرة أرض بعض ما هو مرقوم أعلاه ومبيع الانقاض المختصة به واستبدال
-          البعض وتحرر بذلك خمسة وثلاثون اعلان ارسلوا للضبطية بافادة فى تاريخه لوضعهم على القره قولات
-          وكتب أيضا الى من لزم من معاونين الاوقاف باشهار ذلك بقوائم مزاد بين الراغبين كالموضح قرين
-          كل جهة ما عدا المنزل وقف <orgName type="بطركخانة-الأقباط">بطركخانة الآقباط</orgName> فان
-          قائمة مزاده بالديوان ومن الاقتضاء ان يكون ذلك محيط علم الجميع كى كل من كان يرغب لاخذ شئ
-          مما ذكر فبعد معاينته اياه يعطى المزاد اللازم بما يرغبه وبالمرسى سيتحرر للمحكمه بتحرير
-          الحجة اللازمة لمن يرسى عليه فلزم ترقيمه لحضرتكم ليجرى درج ذلك بالوقايع كالجارى</p>
+          البعض وتحرر بذلك خمسة وثلاثون اعلان ارسلوا لل<orgName type="ضبطية">ضبطية</orgName> بافادة
+          فى تاريخه لوضعهم على ال<orgName type="قره-قولات">قره قولات</orgName> وكتب أيضا الى من لزم
+          من معاونين الاوقاف باشهار ذلك بقوائم مزاد بين الراغبين كالموضح قرين كل جهة ما عدا المنزل
+          وقف بطركخانة الآقباط فان قائمة مزاده بالديوان ومن الاقتضاء ان يكون ذلك محيط علم الجميع كى
+          كل من كان يرغب لاخذ شئ مما ذكر فبعد معاينته اياه يعطى المزاد اللازم بما يرغبه وبالمرسى
+          سيتحرر للمحكمه بتحرير الحجة اللازمة لمن يرسى عليه فلزم ترقيمه لحضرتكم ليجرى درج ذلك
+          بالوقايع كالجارى</p>
       </div>
       <div>
         <head><bibl><biblScope unit="issue">نمره ٤٤٥</biblScope></bibl> يوم الثلاثاء <date when-custom="1288-12-18">۱۸ ذى الحجة سنة ۱۲۸۸</date> ه الموافق <date when="1872-02-27">۲٧ فبراير سنة ۱۸٧۲</date><bibl><biblScope unit="page">صفحة ۱</biblScope> - <biblScope unit="column">العمود ۲</biblScope></bibl> الحوادث الداخليه</head>
