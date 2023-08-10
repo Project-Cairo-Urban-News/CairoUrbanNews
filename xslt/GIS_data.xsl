@@ -16,13 +16,14 @@
       <teiHeader>
         <fileDesc>
           <titleStmt>
-            <title>GOS Data from al-Waqāʾiʿ al-Miṣrīyah</title>
+            <title>GIS Data from al-Waqāʾiʿ al-Miṣrīyah</title>
           </titleStmt>
           <publicationStmt>
             <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
               du Caire moderne, 2018-2021" (IFAO-InVisu-Duke University).</p>
             <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
+            <p>"Digital Cairo" sub-project, supported by NEH.</p>
+            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>, <persName>Hugh Cayless</persName>
           </publicationStmt>
           <sourceDesc>
             <p>Data gathered by Ghislaine Alleaume</p>
