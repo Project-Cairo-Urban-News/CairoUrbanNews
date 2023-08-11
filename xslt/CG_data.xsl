@@ -16,16 +16,16 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>GOS Data from al-Waqāʾiʿ al-Miṣrīyah</title>
+                        <title>Data from Cairo Gazetteer</title>
                     </titleStmt>
                     <publicationStmt>
                         <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
                             du Caire moderne, 2018-2021" (IFAO-InVisu-Duke University).</p>
                         <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-                        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
+                        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>, <persName>Hugh Cayless</persName></p>
                     </publicationStmt>
                     <sourceDesc>
-                        <p>Data gathered by Ghislaine Alleaume</p>
+                        <p>Data gathered by Cairo Gazetteer team</p>
                     </sourceDesc>
                 </fileDesc>
                 <profileDesc>
@@ -52,8 +52,8 @@
     
     <xsl:template match="t:row">
         
-        <place source="#GISDATA">
-            <xsl:call-template name="news_id"/>
+        <place source="#CGDATA">
+            <xsl:call-template name="numero"/>
             <xsl:call-template name="wm_class"/>
             <xsl:call-template name="wm_enname"/>
             <xsl:call-template name="wm_name"/>
@@ -77,10 +77,10 @@
     </xsl:template>
     
     <!-- Named Templates -->
-    <xsl:template name="news_id">
-        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'News_ID'))"/>
+    <xsl:template name="numero">
+        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'numéro du monument'))"/>
         <xsl:if test="fn:has_data($val)">
-            <xsl:attribute name="xml:id">W{$val}</xsl:attribute>
+            <xsl:attribute name="xml:id">CG{$val}</xsl:attribute>
         </xsl:if>
     </xsl:template>
     
