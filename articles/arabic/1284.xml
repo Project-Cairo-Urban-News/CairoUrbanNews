@@ -353,32 +353,91 @@
                         <head><title>اعلان</title></head>
                         <p>عن <rs type="بيان">بيان</rs> الأماكن الوقف الخربة التي اقتضت المصلحة بيع
                               انقاضها وتأجير أرضها للراغبين والأذن بأحداث الخلو فيها على سبيل البقاء
-                              بوجه القرار حسب الإفادة الواردة من <orgName type="ديوان-عموم-الأوقاف"
-                                    >ديوان عموم الأوقاف</orgName> في 20 ربيع الأول</p>
-                        <p>عدد ذراع مسطح </p>
-                        <p>١ خربة بمنطقة <persName>عبد الله بيك</persName>
-                                    ب<placeName>السروجية</placeName> في <orgName
-                                    type="وقف-الأمامين-وسيدنا-الحسين">وقف الأمامين <persName>وسيدنا
-                                          الحسين</persName></orgName> ٦٦ </p>
-                        <p>١ خربة بحوش قدم في وقف سيدنا الحسين ٤٤١</p>
-                        <p>١ خربة في <placeName type="حارة">حارة الحمزية</placeName>
-                                    ب<placeName>الداودية</placeName> في وقف الأمامين ١٥٦</p>
-                        <p>١ خربة في <placeName type="زقاق">زقاق الشعراني</placeName> في <orgName
-                                    type="وقف-سيدي-عقبة">وقف <persName>سيدي
-                                    عقبة</persName></orgName> ٥٨٠</p>
-                        <p>١ خربة في <placeName type="درب">درب الشيخ مسعود</placeName>
-                                    ب<placeName>بولاق</placeName> من <orgName
-                                    type="وقف-سيدنا-الحسين">وقف سيدنا الحسين</orgName> ١٣٦</p>
-                        <p>١ خربة في <placeName type="عطفة">عطفة القرافة</placeName> ب<placeName
-                                    type="جهة">جهة قصر الشوك</placeName> من وقف الأمامين ٣٣٠</p>
-                        <p>__</p>
-                        <p>٦</p>
-                        <p> وحيث انه موجود بعض اشخاص يرغبون في أخذ هذه الأماكن بالزيادة عما جرت به
-                              مساومتها فقد عين لذلك عشرون يوما ابتدؤها يوم الثلثا ٢٠ الشهر الحال
-                              وحرر بذلك خمسة وثلاثون اعلانا ونشرت علة القره قولات وادراج هنا أيضا
-                              ليعم الأعلان به حيث انه بعد مضي الميعاد سيحرّر إلى المحكمة بكتابة
-                              الحجة اللازمة لمن يرسي مزاد أى محل منها عليه بما تنتهي الرغبة
-                              اليه.</p>
+                              بوجه القرار حسب الإفادة الواردة من <orgName type="ديوان"
+                                    ref="ديوان-عموم-الأوقاف">ديوان عموم الأوقاف</orgName> في ٢٠ ربيع
+                                    الأول<table rows="8" cols="3">
+                                    <row role="label">
+                                          <cell>عدد مسطح</cell>
+                                          <cell/>
+                                          <cell> ذراع</cell>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell><placeName type="خربة"
+                                                  ref="خربة-فى-وقف-الامامين-وسيدنا-الحسين"
+                                                  >خربة</placeName> ب<placeName type="منطقة"
+                                                  ref="منطقة-عبد-الله-بيك">منطقة <persName>عبد الله
+                                                  بيك</persName></placeName> ب<placeName
+                                                  ref="السروجية">السروجية</placeName> في <orgName
+                                                  type="وقف" ref="وقف-الأمامين-وسيدنا-الحسين">وقف
+                                                  الأمامين و<persName>سيدنا
+                                                  الحسين</persName></orgName></cell>
+                                          <cell>٦٦</cell>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell><placeName ref="خربة-وقف-سيدنا-الحسين" type="خربة"
+                                                  >خربة</placeName> ب<placeName ref="حوش-قدم"
+                                                  type="حوش">حوش قدم</placeName> في <orgName
+                                                  ref="وقف-سيدنا-الحسين" type="وقف">وقف سيدنا
+                                                  الحسين</orgName></cell>
+                                          <cell>٤٤١</cell>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell><placeName ref="خربة-فى-وقف-الامامين" type="خربة"
+                                                  >خربة</placeName> في <placeName type="حارة"
+                                                  ref="حارة-الحمزية">حارة الحمزية</placeName>
+                                                  ب<placeName ref="الداودية">الداودية</placeName> في
+                                                  <orgName ref="وقف-الامامين" type="وقف">وقف
+                                                  الأمامين</orgName></cell>
+                                          <cell>١٥٦</cell>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell><placeName ref="خربة-وقف-سيدى-عقبة" type="خربة"
+                                                  >خربة</placeName> في <placeName type="زقاق"
+                                                  ref="زقاق-الشعرانى">زقاق الشعراني</placeName> في
+                                                  <orgName type="وقف" ref="وقف-سيدي-عقبة">وقف
+                                                  <persName>سيدي عقبة</persName></orgName></cell>
+                                          <cell>٥٨٠</cell>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell><placeName type="خربة" ref="خربة-وقف-سيدنا-الحسين"
+                                                  >خربة</placeName> في <placeName type="درب"
+                                                  ref="درب-الشيخ-مسعود">درب الشيخ مسعود</placeName>
+                                                  ب<placeName ref="بولاق">بولاق</placeName> من
+                                                  <orgName type="وقف" ref="وقف-سيدنا-الحسين">وقف
+                                                  سيدنا الحسين</orgName></cell>
+                                          <cell>١٣٦</cell>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell><placeName ref="خربة-وقف-الامامين" type="خربة"
+                                                  >خربة</placeName> في <placeName type="عطفة"
+                                                  ref="عطفة-القرافة">عطفة القرافة</placeName>
+                                                  ب<placeName type="جهة" ref="جهة-قصر-الشوك">جهة قصر
+                                                  الشوك</placeName> من <orgName type="وقف"
+                                                  ref="وقف-الامامين">وقف الأمامين</orgName></cell>
+                                          <cell>٣٣٠</cell>
+                                    </row>
+                                    <row>
+                                          <cell>__</cell>
+                                          <cell/>
+                                          <cell/>
+                                    </row>
+                                    <row>
+                                          <cell>٦</cell>
+                                          <cell/>
+                                          <cell/>
+                                    </row>
+                              </table> وحيث انه موجود بعض اشخاص يرغبون في أخذ هذه الأماكن بالزيادة
+                              عما جرت به مساومتها فقد عين لذلك عشرون يوما ابتدؤها يوم الثلثا ٢٠
+                              الشهر الحال وحرر بذلك خمسة وثلاثون اعلانا ونشرت <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>علة<?oxy_custom_end?>
+                              <orgName type="قره-قولات">القره قولات</orgName> وادراج هنا أيضا ليعم
+                              الأعلان به حيث انه بعد مضي الميعاد سيحرّر إلى المحكمة بكتابة الحجة
+                              اللازمة لمن يرسي مزاد أى محل منها عليه بما تنتهي الرغبة اليه.</p>
                         <p>(علم <rs type="بيان">بيان</rs> زيادة النيل المبارك)</p>
                         <table rend="rules">
                               <row>
