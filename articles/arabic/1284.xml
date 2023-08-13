@@ -579,10 +579,13 @@
                                     <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
                         <p>من <rs type="افادة">افادة</rs> ال<orgName type="ضبطية">ضبطية</orgName>
                               يعلم انه في ليلة الأربعاء ثاني عشر الشهر رؤى <rs type="حريق">حريق</rs>
-                                    ب<placeName>دكان</placeName> امرأة فسخانية يقال لها حرب
-                                    ب<placeName type="باب">باب الشعرية</placeName> فأسعفت باللازم من
-                              طلومبة وغيرها وأطفئ بلا سراية ولا احتراقشئ سوى ثلاثة زنابيل أو أربعة
-                              وطبلية خشب وبعض ملابس الكهنة</p>
+                                    ب<placeName type="دكان" ref="دكان-الفسخانية-حرب"
+                                    >دكان</placeName> امرأة فسخانية يقال لها <persName type="حرب"
+                                    >حرب</persName> ب<placeName type="باب" ref="باب-الشعرية">باب
+                                    الشعرية</placeName> فأسعفت باللازم من طلومبة وغيرها وأطفئ بلا
+                              سراية ولا احتراق شئ سوى ثلاثة زنابيل أو أربعة وطبلية خشب
+                              وبعض<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                              ملابس<?oxy_custom_end?> الكهنة</p>
                         <p><bibl><biblScope unit="page">ص٤</biblScope></bibl></p>
                   </div>
          <div>
