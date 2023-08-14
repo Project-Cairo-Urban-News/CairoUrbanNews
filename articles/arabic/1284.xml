@@ -796,111 +796,149 @@
                               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>مكافأتله<?oxy_custom_end?>
                               على خدمته السابقة.</p>
                   </div>
-         <div>
-            <head><bibl><biblScope unit="issue">نمرة الوقائع ١٦٠</biblScope><biblScope unit="page"
-                                          >ص١</biblScope></bibl>)</head>
-            <head>طبعت بمطبعة بولاق يوم الخميس <date when-custom="1284-08-01">غرة شعبان سنة
-                  ١٢٨٤هـ</date> الموافق ١٩ هاتور القبطي ١٥٨٤ و<date when="1867-11-28">٢٨ نونمبر
-                  الأفرنجي ١٨٦٧م</date></head>
-            <p>استحصل ل<persName>سعادة نوبار باشا ناظر الخارجية</persName> على نيشان مجيدي من الرتبة
-               الأولى </p>
-         </div>
-         <div>
-            <head>شهر ديسمبر سنة ١٨٦٧م الموافق من شهر شعبان إلى شهر رمضان سنة ١٢٨٤هـ</head>
-            <p>ملاحظات:</p>
-         </div>
-         <div>
-            <head>العدد رقم (١٦٩) الصادر يوم الأثنين ٣٠/١٢ الموافق ٢ رمضان غير موجود.</head>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٦١</biblScope></bibl>)</head>
-            <head>طبعت بمطبعة بولاق يوم الأثنين <date when-custom="1284-08-05">٥ شعبان سنة
-                  ١٢٨٤هـ</date> الموافق ٢٣ هاتور القبطي ١٥٨٤ و<date when="1867-12-02">٢ دسمبر
-                  الأفرنجي ١٨٦٧م</date></head>
-            <head>لا يوجد خبر مهم ...</head>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٦٢</biblScope><biblScope unit="page">ص٢</biblScope></bibl>)</head>
-            <head>طبعت بمطبعة بولاق يوم الخميس <date when-custom="1284-08-08">٨ شعبان سنة
-                  ١٢٨٤هـ</date> الموافق ٢٦ هاتور القبطي ١٥٨٤ و<date when="1867-12-05">٥ دسمبر
-                  الأفرنجي ١٨٦٧م</date></head>
-            <p>فى الساعة السادسة من يوم سادس هذا الشهر ظهر حريق بمنزل المرأة نفيسة الكائن
-                  ب<placeName type="حارة">حارة جامع أصلان</placeName> بثمن الدرب الأحمر ففي الوقت
-               أرسلت الطلومبات ومن لزم من الضبطية واطفئ في زمن يسير بدون سراية إلى جهة أخرى ولم
-               يحترق سوى أوطة صغيرة بالمنزل.</p>
-                        <p><bibl><biblScope unit="page">ص٤</biblScope></bibl></p>
-         </div>
-         <div>
-            <head>اعلانات</head>
-            <head>(اعلان وارد من محافظة مصر)</head>
-            <p>صورة كشف مقدم من <persName>السيد محمد مصطفى الجندي</persName> ب<rs type="بيان-املاك">بيان أملاك</rs>
-            </p>
-            <p>حضرات ورثة <persName>المرحوم محمود بك</persName> المعرضة للبيع<table rows="6" cols="2">
+         <div resp="#eSG" xml:id="w27">
+                        <head><date when-custom="1284-08-01">غرة شعبان ١٢٨٤</date>
+                              <date when="1867-11-28">٢٨ نونمبر ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٦٠</biblScope>
+                                    <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+                        <p>استحصل ل<persName>سعادة نوبار باشا ناظر <orgName ref="الخارجية"
+                                          >الخارجية</orgName></persName> على نيشان مجيدي من الرتبة
+                              الأولى </p>
+                  </div>
+         <div resp="#eSG" xml:id="w28">
+                        <head><bibl><date when-custom="1284-08-08">٨ شعبان ١٢٨٤</date>
+                                    <date when="1867-12-05">٥ دسمبر ١٨٦٧</date>
+                                    <biblScope unit="issue">نمرة ١٦٢</biblScope>
+                                    <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+                        <p>فى الساعة السادسة من يوم سادس هذا الشهر ظهر <rs type="حريق">حريق</rs>
+                                    ب<placeName type="منزل" ref="منزل-المرأة-نفيسة">منزل
+                                          <persName>المرأة نفيسة</persName></placeName> الكائن
+                                    ب<placeName type="حارة" ref="حارة-جامع-أصلان">حارة <orgName
+                                          ref="جامع-أصلان" type="جامع"><placeName type="جامع"
+                                                ref="جامع-أصلان">جامع
+                                    أصلان</placeName></orgName></placeName> ب<orgName
+                                    ref="ثمن-الدرب-الأحمر" type="ثمن"><placeName
+                                          ref="ثمن-الدرب-الأحمر" type="ثمن">ثمن الدرب
+                                          الأحمر</placeName></orgName> ففي الوقت أرسلت الطلومبات ومن
+                              لزم من ال<orgName type="ضبطية">ضبطية</orgName> واطفئ في زمن يسير بدون
+                              سراية إلى جهة أخرى ولم يحترق سوى أوطة صغيرة بالمنزل.</p>
+                  </div>
+         <div resp="#eSG" xml:id="w29">
+                        <head><bibl><date when-custom="1284-08-08">٨ شعبان ١٢٨٤</date>
+                                    <date when="1867-12-05">٥ دسمبر ١٨٦٧</date>
+                                    <biblScope unit="issue">نمرة ١٦٢</biblScope>
+                                    <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+                        <head><title>اعلانات</title></head>
+                        <head><title>اعلان وارد من محافظة مصر</title></head>
+                        <p>صورة كشف مقدم من <persName>السيد محمد مصطفى الجندي</persName> ب<rs
+                                    type="بيان-املاك">بيان أملاك</rs>
+                        </p>
+                        <p>حضرات ورثة <persName>المرحوم محمود بك</persName> المعرضة للبيع<table
+                                    rows="6" cols="2">
                                     <row>
-                                          <cell/>
                                           <cell>عدد</cell>
-                                    </row>
-                                    <row>
-                                          <cell>قائمة <orgName type="وكالة-الجمالية">وكالة
-                                                  الجمالية</orgName> شهيرة ب<orgName type="وكالة-ابي-شنب">وكالة ابي شنب</orgName>
-                                                بالربع الذي فوقها وثمانية دكاكين بواجهتها واجرتها
-                                                السنوية مأتا جنيه مصري وعليها حكر سنوي خمسة وأربعون
-                                                غرشًا فتح با بها بمبلغ الفي جنيه مصري</cell>
                                           <cell/>
                                     </row>
                                     <row>
-                                          <cell>قائمة بمنزل كائن ب<placeName type="درب">درب
-                                                  قرمز</placeName> ب<placeName>الجمالية</placeName>
-                                                لم يؤاجره المالكون ولا حكر عليه.</cell>
-                                          <cell/>
+                                          <cell>١</cell>
+                                          <cell>قائمة <orgName type="وكالة" ref="وكالة-الجمالية"
+                                                  ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>وكالة
+                                                  <?oxy_comment_start author="Sarah" timestamp="20230814T132541+0200" comment="بوكالة؟" mid="38"?>الجمالية<?oxy_custom_end?><?oxy_comment_end mid="38"?></orgName>
+                                                شهيرة ب<orgName type="وكالة" ref="وكالة-ابي-شنب"
+                                                  >وكالة ابي شنب</orgName> بالربع الذي فوقها وثمانية
+                                                دكاكين بواجهتها واجرتها السنوية مأتا جنيه مصري
+                                                وعليها حكر سنوي خمسة وأربعون غرشا فتح
+                                                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>بابها<?oxy_custom_end?>
+                                                بمبلغ الفي جنيه مصري</cell>
                                     </row>
                                     <row>
-                                          <cell>قائمة بمنزل ب<placeName type="جهة">جهة الشيخ نور
-                                                  الظلام</placeName> ب<placeName>الحلمية</placeName>
-                                                  ب<placeName>عطفة الرزاز</placeName> أجرته الشهرية
-                                                مأتان وسبعون قرشا ميريه ولا حكر عليه</cell>
-                                          <cell/>
+                                          <cell>١</cell>
+                                          <cell>قائمة بمنزل كائن ب<placeName type="درب"
+                                                  ref="درب-قرمز">درب قرمز</placeName> ب<placeName
+                                                  ref="الجمالية">الجمالية</placeName> لم يؤاجره
+                                                المالكون ولا حكر عليه.</cell>
                                     </row>
                                     <row>
+                                          <cell>١</cell>
+                                          <cell>قائمة بمنزل ب<placeName type="جهة"
+                                                  ref="جهة-الشيخ-نور-الظلام">جهة الشيخ نور
+                                                  الظلام</placeName> ب<placeName ref="الحلمية"
+                                                  >الحلمية</placeName> ب<placeName
+                                                  type="عطفة-الرزاز">عطفة الرزاز</placeName> أجرته
+                                                الشهرية مأتان وسبعون قرشا ميريه ولا حكر عليه</cell>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
                                           <cell>قائمة خمسة أماكن علوية وخمسة اوط بأسفلها وخمسة حواصل
-                                                أرضية بوكالة الركن ب<placeName>الجمالية</placeName>
-                                                الشهيرة ب<orgName type="وكالة-الحمير">وكالة
+                                                أرضية ب<orgName ref="وكالة-الركن" type="وكالة">وكالة
+                                                  الركن</orgName> بالجمالية الشهيرة ب<orgName
+                                                  type="وكالة" ref="وكالة-الحمير">وكالة
                                                   الحمير</orgName> أجرتها الشهرية مأتان وستون قرشا
-                                                ميريه وعليها حكر سنوي عشرون غرشا ديوانيا</cell>
-                                          <cell/>
+                                                ميريه وعليها حكر سنوى عشرون غرشا ديوانيا</cell>
                                     </row>
                                     <row>
-                                          <cell>قائمة بمنزل بالعلوه ب<placeName type="درب">درب
-                                                  اللبنانة</placeName> وخربة بجواره بثمن الدرب
-                                                الأحمر أجرتهما في كل شهر مأته قرش وعشرة قروش ميرية
-                                                وليس عليهما حكر</cell>
-                                          <cell/>
+                                          <cell>١</cell>
+                                          <cell>قائمة بمنزل ب<placeName ref="العلوه"
+                                                  >العلوه</placeName> ب<placeName type="درب"
+                                                  ref="درب-اللبنانة"
+                                                  >درب<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                                                  اللبنانة<?oxy_custom_end?></placeName> وخربة
+                                                بجواره ب<orgName ref="ثمن-الدرب-الأحمر" type="ثمن"
+                                                  ><placeName ref="ثمن-الدرب-الأحمر" type="ثمن">ثمن
+                                                  الدرب الأحمر</placeName></orgName> أجرتهما في كل
+                                                شهر مأته قرش وعشرة قروش ميرية وليس عليهما حكر</cell>
                                     </row>
                               </table></p>
-         </div>
+                        <p>أماكن ببولاق<table rows="2" cols="2">
+                                    <row role="label">
+                                          <cell>عدد</cell>
+                                          <cell/>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell>قائمة بوكالة ودكاكين بأسفلها بشارع السبتية أجرتهما
+                                                في كل شهر مأتان وخمسة وأربعون قرشًا ميرية والوكالة
+                                                لم يؤاجرها المالكون وعلى الجميع حكر سنوي خمسة عشر
+                                                غرشًا وعشرة فضة ميريه</cell>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell>قائمة أربعة عشر دكانًا بالسبتية منها ثلاثة دكاكين
+                                                أجرتها ثلاثون غرشًا ميريا والباقي غير مؤاجر وليس على
+                                                الجميع حكر</cell>
+                                    </row>
+                              </table></p>
+                  </div>
+         <div resp="#eSG" xml:id="w30">
+                        <head><date when-custom="1284-08-19">١٩ شعبان ١٢٨٤</date>
+                              <date when="1867-12-16">١٦ دسمبر ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٦٥</biblScope>
+                                    <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+                        <p>في<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                              لية<?oxy_custom_end?> الجمعة الماضية ظهر <rs type="حريق">حريق</rs>
+                                    ب<placeName type="فرن" ref="فرن-محمد-أبى-سلامة">فرن</placeName>
+                              <persName>محمد أبي سلامة الفران</persName> ب<placeName ref="التبليطة"
+                                    >التبليطة</placeName> ب<placeName ref="الدرب-الأحمر">الدرب
+                                    الأحمر</placeName> فأسعف من ال<orgName type="ضبطية"
+                                    >ضبطية</orgName> بالطلومبات ورجالها وأطفئ في أقرب زمان بدون
+                              سراية إلي الجيران ولا احتراق شئ سوى ما فوق الفرن من السقف
+                              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ويعلم
+                              من يوصله<?oxy_custom_end?> وارده من عموم الطلومبات انه في الساعة
+                              التاسعة من ليلة الأثنين ٢٨ رجب سنة ٨٤
+                              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>حصل
+                              آخر<?oxy_custom_end?> هائل في <orgName ref="مدينة-الفيوم" type="مدينة"
+                                          ><placeName type="مدينة" ref="مدينة-الفيوم">مدينة
+                                          الفيوم</placeName></orgName> ب<placeName
+                                    ref="مخزن-على-افندى-رمزى" type="مخزن">مخزن <persName>على أفندى
+                                          رمزى</persName></placeName> ملاحظها سابقا وبالاستشعار وجهت
+                              الطلومبة ورجالها فأطفئت في أقرب زمن
+                              النيران<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                              اللاتي<?oxy_custom_end?> كانت مشتعلة في الأوط بما تحتها من الحاصل
+                              المشتملة علي القطن الذي لم يخلص بذره بدون ان تسري ولا تتجاوز ما كانت
+                              فيه وذلك بحضور ضبطية تلك الجهة وجمع من المشايخ والخفراء وغيرهم.</p>
+                  </div>
          <div>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٦٣</biblScope></bibl>)</head>
-            <head>طبعت بمطبعة بولاق يوم الأثنين <date when-custom="1284-08-12">١٢ شعبان سنة
-                  ١٢٨٤هـ</date> الموافق ٣٠ هاتور القبطي ١٥٨٤ و<date type="1867-12-09">٩ دسمبر
-                  الأفرنجي ١٨٦٧م</date></head>
-            <head>لا يوجد خبر مهم ...</head>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٦٤</biblScope></bibl>)</head>
-            <head>طبعت بمطبعة بولاق يوم الخميس <date when-custom="1284-08-15">١٥ شعبان سنة
-                  ١٢٨٤هـ</date> الموافق ٣ كيهك القبطي ١٥٨٤ و<date when="1867-12-12">١٢ دسمبر
-                  الأفرنجي ١٨٦٧م</date></head>
-            <head>لا يوجد خبر مهم ...</head>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٦٥</biblScope><biblScope unit="page">ص١</biblScope></bibl>)</head>
-            <head>طبعت بمطبعة بولاق يوم الأثنين <date when-custom="1284-08-19">١٩ شعبان سنة
-                  ١٢٨٤هـ</date> الموافق ٧ كيهك القبطي ١٥٨٤ و<date when="1867-12-16">١٦ دسمبر
-                  الأفرنجي ١٨٦٧م</date></head>
-            <p>في لية الجمعة الماضية ظهر حريق بفرن <persName>محمد أبي سلامة الفران</persName>
-               بالتبليطة بالدرب الأحمر فأسعف من الضبطية بالطلومبات ورجالها وأطفئ في أقرب زمان بدون
-               سراية إلي الجيران ولا احتراق شئ سوى ما فوق الفرن من السقف ويعلم من يوصله وارده من
-               عموم الطلومبات انه في الساعة التاسعة من ليلة الأثنين ٢٨ رجب سنة ٨٤ حصل آخر هائل في
-                  <placeName>مدينة الفيوم</placeName> بمخزن <persName>علي أفندي رمزي</persName>
-               ملاحظها سابقا وبالاستشعار وجهت الطلومبة ورجالها فأطفئت في أقرب زمن النيران اللاتي
-               كانت مشتعلة في الأوط بما تحتها من الحاصل المشتملة علي القطن الذي لم يخلص بذره بدون ان
-               تسري ولا تتجاوز ما كانت فيه وذلك بحضور ضبطية تلك الجهة وجمع من المشايخ والخفراء
-               وغيرهم.</p>
-                        <p><bibl><biblScope unit="page">ص٢</biblScope></bibl></p>
-         </div>
-         <div>
+                        <head><bibl><biblScope unit="page">ص٢</biblScope></bibl></head>
             <head>(اعلان)</head>
             <p>عدد</p>
          </div>
