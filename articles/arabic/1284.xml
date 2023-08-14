@@ -663,39 +663,57 @@
                                     ادهم بيك افندي</persName> بعد أن أحسن اليه برتبة المتمايز من
                               الدرجة الثانية السمية.</p>
                   </div>
-         <div>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٤١</biblScope><biblScope unit="page">ص٢</biblScope></bibl>)</head>
-            <head>طبعت بمطبعة بولاق يوم الأثنين <date when-custom="1284-05-24">٢٤ جمادي الأولى سنة
-                  ١٢٨٤هـ</date> الموافق ١٣ توت القبطي ١٥٨٤ و<date when="1867-09-23">٢٣ سبتمبر
-                  الأفرنجي ١٨٦٧م</date></head>
-            <p>وفيها بتاريخ 5 منه انه حرر من (لوم) ان الريح العاصف الذي كان ثار بها هدم منارة
-                  <placeName type="جامع">جامع القلعة</placeName> وسقفه ومنازل بجواره وبعض مداخن جملة
-               دور وجدرانها وقلع أشجار كبيرة كانت مثمرة في حدائقها وحطم بالساحل سفينته لرجل يقال له
-               (آدم) كانت راسية هناك فانكسر مقعدها والصواري التي بموخرها ووسطها وفصل أخرى من مرساها
-               وصار يتلاعب بها مدة لكنها لم يتلف منها سوى دفتها.</p>
-                        <p><bibl><biblScope unit="page">ص٣</biblScope></bibl></p>
-            <p>يستفاد من أشعار الضبطية انه في الساعة الثانية من ليلة الأربعاء ثالث عشر هذا الشهر ظهر
-               حريق بعشة من الخشب والبوص ب<placeName>الرميلة</placeName> تجاه عدة دكاكين وقهاوي
-               فاسعفت من الضبطية بالطلومبة ومن لزم واطفئت بدون سراية ولا تلف شئ سواها </p>
-         </div>
-         <div>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٤٢</biblScope></bibl>)</head>
-            <head>طبعت بمطبعة بولاق يوم الخميس <date when-custom="1284-05-27">٢٧ جمادي الأولى سنة
-                  ١٢٨٤هـ</date> الموافق ١٦ توت القبطي ١٥٨٤ و<date when="1867-09-26">٢٦ سبتمبر
-                  الأفرنجي ١٨٦٧م</date></head>
-            <head>لا يوجد خبر مهم ...</head>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٤٣</biblScope><biblScope unit="page">ص٢</biblScope></bibl>)</head>
-            <head>طبعت بمطبعة بولاق يوم الأثنين <date when-custom="1284-06-01">غرة جمادي الثاني سنة
-                  ١٢٨٤هـ</date> الموافق ٢٠ توت القبطي ١٥٨٤ و<date when="1867-09-30">٣٠ سبتمبر
-                  الأفرنجي ١٨٦٧م</date></head>
-            <p>وانه في الساعة السابعة من ليلة الجمعة الماضية ظهر حريق هائل من منزل شخص يسمى
-                  ب<persName>محمد منير</persName> كائن ب<placeName type="شارع">شارع
-                  الحمراوي</placeName> التابع ثمن باب الشعرية سكن <persName>الخواجة (كيورك
-                  اسبتان)</persName> وشريكه قبودر من الضبطية بارسال سبع طلومبات برجالها ولوازمها
-               واطفئ بالاقدامات المتوالية بدوت أن يسرى الى أسفل المنزل ولا الى ما جاوره من الاماكن
-               اللاتي فيها الأشياء السريعة الوقود كالاسبيرتو ولم يحترق منه سوى أوطتين بالدور الأوسط
-               بما فيها من الأشياء </p>
-         </div>
+         <div resp="#eSG" xml:id="w19">
+                        <head><date when-custom="1284-05-24">٢٤ جمادي الأولى ١٢٨٤</date>
+                              <date when="1867-09-23">٢٣ سبتمبر ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٤١</biblScope>
+                                    <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+                        <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>وفيها
+                              <?oxy_custom_end?><?oxy_comment_start author="Sarah" timestamp="20230814T113538+0200" comment="check if there is a title for the text or a pre part"?>بتاريخ<?oxy_comment_end?>
+                              ٥ منه انه حرر من (لوم) ان الريح العاصف الذي كان ثار بها هدم منارة
+                                    <orgName type="جامع" ref="جامع-القلعة"><placeName type="جامع"
+                                          ref="جامع-القلعة">جامع القلعة</placeName></orgName> وسقفه
+                              ومنازل بجواره وبعض مداخن جملة دور وجدرانها وقلع أشجار كبيرة كانت مثمرة
+                              في حدائقها وحطم بالساحل سفينته لرجل يقال له (آدم) كانت راسية هناك
+                              فانكسر مقعدها والصواري التي بموخرها ووسطها وفصل أخرى من مرساها وصار
+                              يتلاعب بها مدة لكنها لم يتلف منها سوى دفتها.</p>
+                  </div>
+                  <div resp="#eSG" xml:id="w20">
+                        <head><date when-custom="1284-05-24">٢٤ جمادي الأولى ١٢٨٤</date>
+                              <date when="1867-09-23">٢٣ سبتمبر ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٤١</biblScope>
+                                    <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
+                        <p>يستفاد من أشعار ال<orgName type="ضبطية">ضبطية</orgName> انه في الساعة
+                              الثانية من ليلة الأربعاء ثالث عشر هذا الشهر ظهر <rs type="حريق"
+                                    >حريق</rs> بعشة من الخشب والبوص ب<placeName ref="الرميلة"
+                                    >الرميلة</placeName> تجاه عدة دكاكين وقهاوي فاسعفت من الضبطية
+                              بالطلومبة<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                              ومن لزم<?oxy_custom_end?> واطفئت بدون سراية ولا تلف شئ سواها </p>
+                  </div>
+         <div resp="#eSG" xml:id="w21">
+                        <head><date when-custom="1284-06-01">غرة جمادي الثانى ١٢٨٤</date>
+                              <date when="1867-09-30">٣٠ سبتمبر ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٤٣</biblScope>
+                                    <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+                        <p>وانه في الساعة السابعة من ليلة الجمعة الماضية ظهر <rs type="حريق"
+                                    >حريق</rs> هائل من <placeName type="منزل" ref="منزل-محمد-منير"
+                                    >منزل</placeName> شخص يسمى ب<persName>محمد منير</persName> كائن
+                                    ب<placeName type="شارع" ref="شارع-الحمراوى">شارع
+                                    الحمراوى</placeName> التابع <orgName type="ثمن"
+                                    ref="ثمن-باب-الشعرية"><placeName type="ثمن"
+                                          ref="ثمن-باب-الشعرية">ثمن باب
+                                    الشعرية</placeName></orgName> سكن <persName>الخواجة (كيورك
+                                    اسبتان)</persName> وشريكه
+                              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah" timestamp="20230814T114834+0200" comment="فبودر؟" mid="29"?>ق<?oxy_custom_end?>بودر<?oxy_comment_end mid="29"?>
+                              من ال<orgName type="ضبطية">ضبطية</orgName> بارسال سبع طلومبات برجالها
+                              ولوازمها واطفئ بالاقدامات
+                              <?oxy_comment_start author="Sarah" timestamp="20230814T114913+0200" comment="بدون"?>المتوالية<?oxy_comment_end?><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                              بدوت<?oxy_custom_end?> أن يسرى الى أسفل المنزل ولا الى ما جاوره من
+                              الاماكن اللاتي فيها الأشياء السريعة
+                              الوقود<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                              كالاسبيرتو<?oxy_custom_end?> ولم يحترق منه سوى أوطتين بالدور الأوسط
+                              بما فيها من الأشياء </p>
+                  </div>
          <div>
             <head>شهر اكتوبر سنة ١٨٦٧م الموافق من شهر جمادي الثاني إلي رجب سنة ١٢٨٤هـ</head>
             <p>ملاحظات:</p>
