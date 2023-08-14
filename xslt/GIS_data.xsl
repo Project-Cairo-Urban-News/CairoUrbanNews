@@ -16,7 +16,7 @@
       <teiHeader>
         <fileDesc>
           <titleStmt>
-            <title>GOS Data from al-Waqāʾiʿ al-Miṣrīyah</title>
+            <title>GIS Data from al-Waqāʾiʿ al-Miṣrīyah</title>
           </titleStmt>
           <publicationStmt>
             <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
@@ -25,7 +25,7 @@
             <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
           </publicationStmt>
           <sourceDesc>
-            <p>Data gathered by Ghislaine Alleaume</p>
+            <p>Data gathered by Ghislaine Alleaume.</p>
           </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -52,7 +52,7 @@
   
   <xsl:template match="t:row">
     
-    <place source="#GISDATA">
+    <place>
       <xsl:call-template name="news_id"/>
       <xsl:call-template name="wm_class"/>
       <xsl:call-template name="wm_enname"/>
@@ -63,16 +63,13 @@
       <xsl:call-template name="osm_name"/>
       <!-- Not sure what reference system the points are using, so also not sure how to use them. -->
       <!--<xsl:call-template name="geo"/>-->
-      <xsl:call-template name="wm_year"/>
-      <xsl:call-template name="wm_higyear"/>
       <xsl:call-template name="wm_object"/>
       <xsl:call-template name="wm_desc"/>
       <xsl:call-template name="remarques"/>
       <xsl:call-template name="wm_ref"/>
       <xsl:call-template name="osm_id"/>
       <xsl:call-template name="gis_id"/>
-      <xsl:call-template name="geonames"/>
-      <xsl:call-template name="wm_idnews"/>  
+      <xsl:call-template name="geonames"/>  
     </place>
   </xsl:template>
   
@@ -84,65 +81,51 @@
     </xsl:if>
   </xsl:template>
   
-  <xsl:template name="wm_description">
-    <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'WM_Description'))"/>
-    <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
-      <idno type="OSM">{$val}</idno>
-    </xsl:if>
-  </xsl:template>
-    
-  <xsl:template name="wm_idnews">
-    <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'WM_IDNews'))"/>
-    <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
-      <idno type="OSM">{$val}</idno>
-    </xsl:if>
-  </xsl:template>
-  
   <xsl:template name="wm_araltname">
     <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'WM_ArAltName'))"/>
-    <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+    <xsl:if test="fn:has_data($val)">
       <placeName type="alternate" xml:lang="ar">{$val}</placeName>
     </xsl:if>
   </xsl:template>
   
   <xsl:template name="wm_altname"> 
     <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'WM_AltName'))"/>
-    <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+    <xsl:if test="fn:has_data($val)">
       <placeName type="alternate" xml:lang="ar-Latn">{$val}</placeName>
     </xsl:if>
   </xsl:template>
     
   <xsl:template name="geonames">
     <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'Geonames'))"/>
-    <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+    <xsl:if test="fn:has_data($val)">
       <ptr target="{$val}"/>
     </xsl:if>
   </xsl:template>
   
   <xsl:template name="osm_type">
     <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'osm_type'))"/>
-    <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+    <xsl:if test="fn:has_data($val)">
       <idno type="OSM">{$val}</idno>
     </xsl:if>
   </xsl:template>
   
   <xsl:template name="gis_id">
     <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'GIS_ID'))"/>
-    <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
-      <idno type="OSM">{$val}</idno>
+    <xsl:if test="fn:has_data($val)">
+      <idno type="GIS">{$val}</idno>
     </xsl:if>
   </xsl:template>
   
   <xsl:template name="wm_higyear">
     <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'WM_HegYear'))"/>
-    <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+    <xsl:if test="fn:has_data($val)">
       <date when-custom="{$val}" datingMethod="#hijri"/>
     </xsl:if>
   </xsl:template>
   
   <xsl:template name="wm_year">
     <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'WM_Year'))"/>
-    <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+    <xsl:if test="fn:has_data($val)">
       <date when="{$val}"/>
     </xsl:if>
   </xsl:template>
@@ -201,7 +184,11 @@
   <xsl:template name="wm_ref">
     <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'WM_Ref'))"/>
     <xsl:if test="fn:has_data($val)">
-      <bibl>{$val}</bibl>
+      <bibl>
+        <ref>{$val}</ref>
+        <xsl:call-template name="wm_year"/>
+        <xsl:call-template name="wm_higyear"/>
+      </bibl>
     </xsl:if>
   </xsl:template>
   
@@ -242,7 +229,7 @@
   
   <xsl:function name="fn:has_data" as="xs:boolean">
     <xsl:param name="value"/>
-    <xsl:sequence select="not($value = ('', ' ', 'n/a', 'NULL'))"/>
+    <xsl:sequence select="not(normalize-space($value) = ('', ' ', 'n/a', 'NULL'))"/>
   </xsl:function>
     
 </xsl:stylesheet>
