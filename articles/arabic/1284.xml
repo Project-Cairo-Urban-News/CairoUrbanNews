@@ -677,14 +677,14 @@
                               <bibl><biblScope unit="issue">نمرة ١٤١</biblScope>
                                     <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
                         <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>وفيها
-                              <?oxy_custom_end?><?oxy_comment_start author="Sarah" timestamp="20230814T113538+0200" comment="check if there is a title for the text or a pre part"?>بتاريخ<?oxy_comment_end?>
-                              ٥ منه انه حرر من (لوم) ان الريح العاصف الذي كان ثار بها هدم منارة
-                                    <orgName type="جامع" ref="جامع-القلعة"><placeName type="جامع"
-                                          ref="جامع-القلعة">جامع القلعة</placeName></orgName> وسقفه
-                              ومنازل بجواره وبعض مداخن جملة دور وجدرانها وقلع أشجار كبيرة كانت مثمرة
-                              في حدائقها وحطم بالساحل سفينته لرجل يقال له (آدم) كانت راسية هناك
-                              فانكسر مقعدها والصواري التي بموخرها ووسطها وفصل أخرى من مرساها وصار
-                              يتلاعب بها مدة لكنها لم يتلف منها سوى دفتها.</p>
+                              <?oxy_custom_end?>بتاريخ ٥ منه انه حرر من (لوم) ان الريح العاصف الذي
+                              كان ثار بها هدم منارة <orgName type="جامع" ref="جامع-القلعة"
+                                          ><placeName type="جامع" ref="جامع-القلعة">جامع
+                                          القلعة</placeName></orgName> وسقفه ومنازل بجواره وبعض
+                              مداخن جملة دور وجدرانها وقلع أشجار كبيرة كانت مثمرة في حدائقها وحطم
+                              بالساحل سفينته لرجل يقال له (آدم) كانت راسية هناك فانكسر مقعدها
+                              والصواري التي بموخرها ووسطها وفصل أخرى من مرساها وصار يتلاعب بها مدة
+                              لكنها لم يتلف منها سوى دفتها.</p>
                   </div>
                   <div resp="#eSG" xml:id="w20">
                         <head><date when-custom="1284-05-24">٢٤ جمادي الأولى ١٢٨٤</date>
@@ -695,8 +695,10 @@
                               الثانية من ليلة الأربعاء ثالث عشر هذا الشهر ظهر <rs type="حريق"
                                     >حريق</rs> بعشة من الخشب والبوص ب<placeName ref="الرميلة"
                                     >الرميلة</placeName> تجاه عدة دكاكين وقهاوي فاسعفت من الضبطية
-                              بالطلومبة<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-                              ومن لزم<?oxy_custom_end?> واطفئت بدون سراية ولا تلف شئ سواها </p>
+                              بالطلومبة و<choice>
+                                    <sic>من لزم</sic>
+                                    <corr>ما يلزم</corr>
+                              </choice> واطفئت بدون سراية ولا تلف شئ سواها </p>
                   </div>
          <div resp="#eSG" xml:id="w21">
                         <head><date when-custom="1284-06-01">غرة جمادي الثانى ١٢٨٤</date>
@@ -712,7 +714,7 @@
                                           ref="ثمن-باب-الشعرية">ثمن باب
                                     الشعرية</placeName></orgName> سكن <persName>الخواجة (كيورك
                                     اسبتان)</persName> وشريكه
-                              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah" timestamp="20230814T114834+0200" comment="فبودر؟" mid="4"?>ق<?oxy_custom_end?>بودر<?oxy_comment_end mid="4"?>
+                              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah" timestamp="20230814T114834+0200" comment="فبودر؟" mid="2"?>ق<?oxy_custom_end?>بودر<?oxy_comment_end mid="2"?>
                               من ال<orgName type="ضبطية">ضبطية</orgName> بارسال سبع طلومبات برجالها
                               ولوازمها واطفئ بالاقدامات
                               المتوالية<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
@@ -851,7 +853,7 @@
                                           <cell>١</cell>
                                           <cell>قائمة <orgName type="وكالة" ref="وكالة-الجمالية"
                                                   ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>وكالة
-                                                  <?oxy_comment_start author="Sarah" timestamp="20230814T132541+0200" comment="بوكالة؟" mid="13"?>الجمالية<?oxy_custom_end?><?oxy_comment_end mid="13"?></orgName>
+                                                  <?oxy_comment_start author="Sarah" timestamp="20230814T132541+0200" comment="بوكالة؟" mid="11"?>الجمالية<?oxy_custom_end?><?oxy_comment_end mid="11"?></orgName>
                                                 شهيرة ب<orgName type="وكالة" ref="وكالة-ابي-شنب"
                                                   >وكالة ابي شنب</orgName> بالربع الذي فوقها وثمانية
                                                 دكاكين بواجهتها واجرتها السنوية مأتا جنيه مصري
