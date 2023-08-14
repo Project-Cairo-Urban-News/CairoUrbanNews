@@ -586,41 +586,83 @@
                               سراية ولا احتراق شئ سوى ثلاثة زنابيل أو أربعة وطبلية خشب
                               وبعض<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
                               ملابس<?oxy_custom_end?> الكهنة</p>
-                        <p><bibl><biblScope unit="page">ص٤</biblScope></bibl></p>
                   </div>
-         <div>
-            <head>(اعلان)</head>
-            <p>عدد</p>
-            <p>1 نصف منزل ب<placeName type="حارة">حارة اليهود</placeName> وقف <persName>السيد محمد
-                  ابو النجا</persName>
-               <orgName type="نظارة-المصونة-حسيبة">نظارة المصونة حسيبة</orgName> يراد استبداله </p>
-            <p>1 حصة قدرها ثمانية عشر قيراطا في خرابة ب<placeName type="درب">درب سناتات</placeName>
-               وقف المرحومة هنا <orgName type="نظارة-محمد-شهاد">نظارة <persName>محمد
-                  شهاب</persName></orgName> يراد احداث الخلو فيها </p>
-            <p>قد أسبغ شرعا استبدال ذلك المنزل وأحداث الخلو في تلك الحصة وحرر بذلك خمسة وثلاثون اعلانا أرسلت إلى الضبطية لتوضع على القره قولات وكتب إلى معاون الأوقاف باشهار ذلك في المزايدة حتى يكون معلوما للخاص والعام.</p>
-         </div>
-         <div>
-            <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٤٠</biblScope><biblScope unit="page">ص١</biblScope></bibl>)</head>
-            <head>طبعت بمطبعة بولاق يوم الخميس <date when-custom="1284-05-20">٢٠ جمادي الأولى سنة
-                  ١٢٨٤هـ</date> الموافق ٩ توت القبطي ١٥٨٤ و<date when="1867-09-19">١٩سبتمبر الأفرنجي
-                  ١٨٦٧م</date></head>
-            <p>وجهت <orgName type="نظارة-الداخلية">نظارتا الداخلية والمالية</orgName> و<orgName type="ادارة-الأشغال-العمومية">ادارة الأشغال العمومية</orgName> إلى <persName>حضرة
-                  سعادتلو راغب باشا</persName>
-            </p>
-            <p>وجهت رئاسة <orgName type="مجلس-الأحكام">مجلس الأحكام</orgName> إلى <persName>حضرة
-                  سعادتلو شريف باشا زايد</persName> عما كان في عهدته من <orgName type="نظارة-المدارس">نظارة المدارس</orgName> واعضائية <orgName type="المجلس-الخصوصي">المجلس الخصوصي</orgName>.</p>
-            <p>وجهت اعضائية المجلس الخصوصي إلى كل من <persName>حضرتي سعادتلو أحمد رشيد باشا محافظ
-                  مصر</persName>
-               <persName>وسعادتلو حسين باشا أمين بيت المال</persName> زيادة عن مأموريتها </p>
-            <p>وكذا وجهت هذه الأعضائية الى كل من حضرتي <persName>سعادتلو عبد الله باشا بدلا عن رئاسة
-                  مجلس الأحكام</persName> والى <persName>سعادتلو حسن راسم باشا بدلا عن <orgName type="نظارة-الدائرة-السنية">نظارة الدائرة السنية</orgName></persName></p>
-            <p>وجهت نظارة الدائرة السنية الى حضرة <persName>سعادتلو حافظ باشا بدلا عن <orgName type="نظارة-المالية">نظارة المالية</orgName></persName>
-            </p>
-            <p>تعين مفتشا لعموم <orgName type="الجفالك-السنية">الجفالك السنية</orgName>
-               <persName>سعادتلو أحمد باشا الدرامه لي</persName> الذي كان مأمور الضبطية المصرية
-               وتقلد بمأموريته هذه وكيلها <persName>عزتلو ادهم بيك افندي</persName> بعد أن أحسن اليه
-               برتبة المتمايز من الدرجة الثانية السمية.</p>
-         </div>
+         <div resp="#eSG" xml:id="w17">
+                        <head><date when-custom="1284-05-17">١٧ جمادي الأولى ١٢٨٤</date>
+                              <date when="1867-09-16">١٦ سبتمبر ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٣٩</biblScope>
+                                    <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+                        <head><title>اعلان</title></head>
+                        <table rows="2" cols="2">
+                              <row>
+                                    <cell>عدد</cell>
+                                    <cell/>
+                              </row>
+                              <row>
+                                    <cell>١</cell>
+                                    <cell>نصف <placeName type="منزل"
+                                                ref="منزل-وقف-السيد-محمد-ابو-النجا">منزل</placeName>
+                                                ب<placeName type="حارة" ref="حارة-اليهود">حارة
+                                                اليهود</placeName>
+                                          <orgName type="وقف" ref="وقف-السيد-محمد-ابو-النجا">وقف
+                                                  <persName>السيد محمد ابو
+                                                النجا</persName></orgName>
+                                          <persName>نظارة المصونة حسيبة</persName> يراد استبداله
+                                    </cell>
+                              </row>
+                              <row>
+                                    <cell>١</cell>
+                                    <cell>حصة قدرها ثمانية عشر قيراطا فى <placeName type="خرابة"
+                                                ref="خرابة-وقف-المرحومة-هنا">خرابة</placeName>
+                                                ب<placeName type="درب" ref="درب-سناتات">درب
+                                                سناتات</placeName>
+                                          <orgName ref="وقف-المرحومة-هنا" type="وقف">وقف
+                                                  <persName>المرحومة هنا</persName></orgName>
+                                          <persName>نظارة محمد شهاب</persName> يراد احداث الخلو فيها
+                                    </cell>
+                              </row>
+                        </table>
+                        <p>قد<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                              أسبغ<?oxy_custom_end?> شرعا استبدال ذلك المنزل وأحداث الخلو في تلك
+                              الحصة وحرر بذلك خمسة وثلاثون اعلانا أرسلت إلى ال<orgName type="ضبطية"
+                                    >ضبطية</orgName> لتوضع على ال<orgName type="قره-قولات">قره
+                                    قولات</orgName> وكتب إلى معاون الأوقاف باشهار ذلك في المزايدة
+                              حتى يكون معلوما للخاص والعام.</p>
+                  </div>
+         <div resp="#eSG" xml:id="w18">
+                        <head><date when-custom="1284-05-20">٢٠ جمادي الأولى ١٢٨٤</date>
+                              <date when="1867-09-19">١٩سبتمبر ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٤٠</biblScope>
+                                    <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+                        <p>وجهت <orgName type="نظارة" ref="نظارة-الداخلية">نظارتا الداخلية</orgName>
+                                    و<orgName type="نظارة" ref="نظارة-المالية">المالية</orgName>
+                                    و<orgName type="ادارة" ref="ادارة-الأشغال-العمومية">ادارة
+                                    الأشغال العمومية</orgName> إلى <persName>حضرة سعادتلو راغب
+                                    باشا</persName>
+                        </p>
+                        <p>وجهت رئاسة <orgName type="مجلس" ref="مجلس-الأحكام">مجلس الأحكام</orgName>
+                              إلى <persName>حضرة سعادتلو شريف باشا</persName>
+                              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>زايد<?oxy_custom_end?>
+                              عما كان في عهدته من <orgName type="نظارة" ref="نظارة-المدارس">نظارة
+                                    المدارس</orgName> واعضائية <orgName type="مجلس"
+                                    ref="المجلس-الخصوصي">المجلس الخصوصي</orgName>.</p>
+                        <p>وجهت اعضائية المجلس الخصوصي إلى كل من <persName>حضرتي سعادتلو أحمد رشيد
+                                    باشا محافظ مصر</persName>
+                              <persName>وسعادتلو حسين باشا أمين <orgName type="بيت-المال">بيت
+                                          المال</orgName></persName> زيادة عن مأموريتها </p>
+                        <p>وكذا وجهت هذه الأعضائية الى كل من حضرتي <persName>سعادتلو عبد الله
+                                    باشا</persName> بدلا عن رئاسة مجلس الأحكام والى
+                                    <persName>سعادتلو حسن راسم باشا</persName> بدلا عن نظارة
+                                    <orgName ref="الدائرة-السنية">الدائرة السنية</orgName></p>
+                        <p>وجهت نظارة الدائرة السنية الى حضرة <persName>سعادتلو حافظ باشا</persName>
+                              بدلا عن نظارة المالية</p>
+                        <p>تعين مفتشا لعموم <orgName type="الجفالك-السنية">الجفالك السنية</orgName>
+                              <persName>سعادتلو أحمد باشا الدرامه لي</persName> الذي كان مأمور
+                                    <orgName ref="الضبطية-المصرية" type="ضبطية">الضبطية
+                                    المصرية</orgName> وتقلد بمأموريته هذه وكيلها <persName>عزتلو
+                                    ادهم بيك افندي</persName> بعد أن أحسن اليه برتبة المتمايز من
+                              الدرجة الثانية السمية.</p>
+                  </div>
          <div>
             <head>(* <bibl><biblScope unit="issue">نمرة الوقائع ١٤١</biblScope><biblScope unit="page">ص٢</biblScope></bibl>)</head>
             <head>طبعت بمطبعة بولاق يوم الأثنين <date when-custom="1284-05-24">٢٤ جمادي الأولى سنة
