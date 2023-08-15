@@ -380,53 +380,70 @@
             <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
         <head><title>إفادة واردة من <orgName ref="الاوقاف">الأوقاف</orgName> فى ١٠ رمضان سنة
             ١٢٨٥هـ</title></head>
-        <table rows="7" cols="2">
+        <table rows="6" cols="1">
           <row role="label">
             <cell/>
             <cell>مسطح</cell>
           </row>
           <row>
-            <cell>منزل متخرب ب<placeName type="درب-برجوان">درب بيرجوان</placeName> وقف
-                <persName>نفيسة</persName> نظارة الديوان</cell>
-            <cell>233</cell>
+            <cell><placeName ref="منزل-وقف-نفيسة" type="منزل">منزل</placeName> متخرب ب<placeName
+                type="درب" ref="درب-برجوان">درب
+                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>بيرجوان<?oxy_custom_end?></placeName>
+              <orgName type="وقف" ref="وقف-نفيسة">وقف <persName>نفيسة</persName></orgName> نظارة
+              الديوان</cell>
+            <cell>٢٣٣</cell>
           </row>
           <row>
-            <cell>منزل متخرب بشارع <placeName type="باب-الشعرية">باب الشعرية</placeName> وقف
-                <persName>يوسف الجابي</persName> مثله</cell>
-            <cell>105</cell>
+            <cell><placeName type="منزل" ref="منزل-وقف-يوسف-الجابى">منزل</placeName> متخرب
+                ب<placeName type="شارع" ref="شارع-باب-الشعرية">شارع باب الشعرية</placeName>
+              <orgName ref="وقف-يوسف-الجابى" type="وقف">وقف
+                  <persName>يوسف<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                  الجابى<?oxy_custom_end?></persName></orgName> مثله</cell>
+            <cell>١٠٥</cell>
           </row>
           <row>
-            <cell>خربه ب<placeName type="الحطابة">الحطابة</placeName>
-              <placeName type="بولاق">ببولاق</placeName> وقف <persName>سيدي أبي العلا</persName>
+            <cell><placeName type="خربه" ref="خربه-وقف-سيدى-أبى-العلا">خربه</placeName> ب<placeName
+                type="الحطابة" ref="الحطابة">الحطابة</placeName> ب<placeName ref="type"
+                >بولاق</placeName>
+              <orgName ref="وقف-سيدى-أبى-العلا" type="وقف">وقف <persName>سيدي أبي
+                العلا</persName></orgName> مثله</cell>
+            <cell>٧٤</cell>
+          </row>
+          <row>
+            <cell><placeName type="خربة" ref="خربة-وقف-سيدنا-الحسين">خربة</placeName> ب<placeName
+                type="درب" ref="درب-المسمط">درب المسمط</placeName> ب<placeName ref="الجمالية"
+                >الجمالية</placeName>
+              <orgName type="وقف" ref="وقف-سيدنا-الحسين">وقف <persName>سيدنا
+                الحسين</persName></orgName> مثله</cell>
+            <cell>٥٥</cell>
+          </row>
+          <row>
+            <cell>خربه ب<placeName ref="قصر-الشوك">قصر الشوك</placeName> وقفه أيضا مثله</cell>
+            <cell>٢٤٧</cell>
+          </row>
+          <row>
+            <cell><placeName type="خربه" ref="خربه-وقف-كلشنى">خربه</placeName> ب<placeName
+                type="درب" ref="درب-التضييقة"
+                >درب<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                التضييقة<?oxy_custom_end?></placeName> ب<placeName ref="باب-الوزير">باب
+                الوزير</placeName>
+              <orgName type="وقف" ref="وقف-كلشنى">وقف
+                  <persName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>كلشن<?oxy_custom_end?>ى</persName></orgName>
               مثله</cell>
-            <cell>74</cell>
-          </row>
-          <row>
-            <cell>خربة ب<placeName type="درب-المسمط">درب المسمط</placeName> ب<placeName
-                type="الجمالية">الجمالية</placeName> وقف <persName>سيدنا الحسين</persName>
-              مثله</cell>
-            <cell>55</cell>
-          </row>
-          <row>
-            <cell>خربه ب<placeName type="قصر-الشوك">قصر الشوك</placeName> وقفه أيضا مثله</cell>
-            <cell/>
-          </row>
-          <row>
-            <cell/>
-            <cell/>
-          </row>
-          <row>
-            <cell/>
-            <cell/>
+            <cell>١٤٠</cell>
           </row>
         </table>
-        <p>          247 خربه ب<placeName type="درب-التضييقة">درب التضييقة</placeName> ب<placeName
-            type="باب-الوزير">باب الوزير</placeName> وقف <persName>كلشني</persName> مثله 140 هذه
-          أماكن اقتضى الحال اخراجها من أوقافها التابعة لها للراغبين فيها بالأستبدأ والمؤاجرة وحرر في
-          ذلك خمسة وثلاثون اعلانا أرسلت إلى الضبطية بإفادة مؤرخة بالتاريخ السابق لتوضح على القره
-          قولات وحرر إلى <roleName role="معاون-أوقاف">معاون الأوقاف</roleName> بإشهارها بين الراغبين
-          بقوا مزايدة تتضمن اما الأستبدال واما بيع الأنقاض وتأجير الأرض ليحيط الجميع بذلك وبإنتهاء
-          المزايدة يكون الديوان الخيار بينهما </p>
+        <p>هذه أماكن اقتضى الحال اخراجها من أوقافها التابعة لها للراغبين
+          فيها<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+          بالأستبدأ<?oxy_custom_end?> والمؤاجرة وحرر في ذلك خمسة وثلاثون اعلانا أرسلت إلى ال<orgName
+            type="ضبطية">ضبطية</orgName> بإفادة مؤرخة بالتاريخ السابق
+          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>لتوضح<?oxy_custom_end?>
+          على ال<orgName type="قره-قولات">قره قولات</orgName> وحرر إلى معاون الأوقاف بإشهارها بين
+          الراغبين<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+          بقوا<?oxy_custom_end?> مزايدة تتضمن اما الأستبدال واما بيع الأنقاض وتأجير الأرض ليحيط
+          الجميع بذلك وبإنتهاء المزايدة
+          يكون<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+          الديوان<?oxy_custom_end?> الخيار بينهما </p>
       </div>
       <div resp="#eAK" xml:id="k804">
         <head>
