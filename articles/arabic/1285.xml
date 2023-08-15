@@ -360,7 +360,7 @@
           <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>بت
           <?oxy_custom_end?>البيع حسب الشروط ومن حضر بعد ذلك فلا تقبل المزايدة </p>
       </div>
-      <div xml:id="K803" resp="#eAK">
+      <div xml:id="K803" resp="#eAK #eSG">
         <head><date when-custom="1285-08-13">١٣ شعبان ١٢٨٥</date>
           <date when="1868-11-26">٢٦ نوامبر ١٨٦٨</date>
           <bibl><biblScope unit="issue">نمرة ٢٤٧</biblScope>
@@ -373,28 +373,60 @@
           الطلومبات واللازم وبلطف الله أطفئ فى نصف ساعة بدون أن يحترق من القطن إلا القليل وأن يسرى
           الحريق إلى جهة أخرى</p>
       </div>
-      <div resp="#eAK" xml:id="k810">
-        <head><bibl> نمرة الوقائع <biblScope unit="issue">261</biblScope>) ص<biblScope unit="page"
-              >3</biblScope></bibl> طبعت بمطبعة بولاق يوم <date when-custom="1285-09-14">الاثنين 14
-            رمضان سنة 1285هـ</date> الموافق <date when-custom="1585-04-20">20 كيهك القبطي
-            1585</date> و<date when="1868-12-28">28 دسمبر الأفرنجي 1868م</date></head>
-        <p> إفادة واردة من <orgName type="الاوقاف">الأوقاف</orgName> في <date
-            when-custom="1285-09-10">10 رمضان سنة 1285هـ</date> مسطح منزل متخرب ب<placeName
-            type="درب-برجوان">درب بيرجوان</placeName> وقف <persName>نفيسة</persName> نظارة الديوان
-          233 منزل متخرب بشارع <placeName type="باب-الشعرية">باب الشعرية</placeName> وقف
-            <persName>يوسف الجابي</persName> مثله 105 خربه ب<placeName type="الحطابة"
-            >الحطابة</placeName>
-          <placeName type="بولاق">ببولاق</placeName> وقف <persName>سيدي أبي العلا</persName> مثله 74
-          خربة ب<placeName type="درب-المسمط">درب المسمط</placeName> ب<placeName type="الجمالية"
-            >الجمالية</placeName> وقف <persName>سيدنا الحسين</persName> مثله 55 خربه ب<placeName
-            type="قصر-الشوك">قصر الشوك</placeName> وقفه أيضا مثله 247 خربه ب<placeName
-            type="درب-التضييقة">درب التضييقة</placeName> ب<placeName type="باب-الوزير">باب
-            الوزير</placeName> وقف <persName>كلشني</persName> مثله 140 هذه أماكن اقتضى الحال اخراجها
-          من أوقافها التابعة لها للراغبين فيها بالأستبدأ والمؤاجرة وحرر في ذلك خمسة وثلاثون اعلانا
-          أرسلت إلى الضبطية بإفادة مؤرخة بالتاريخ السابق لتوضح على القره قولات وحرر إلى <roleName
-            role="معاون-أوقاف">معاون الأوقاف</roleName> بإشهارها بين الراغبين بقوا مزايدة تتضمن اما
-          الأستبدال واما بيع الأنقاض وتأجير الأرض ليحيط الجميع بذلك وبإنتهاء المزايدة يكون الديوان
-          الخيار بينهما </p>
+      <div resp="#eAK #eSG" xml:id="k810">
+        <head><date when-custom="1285-09-14">١٤ رمضان ١٢٨٥</date>
+          <date when="1868-12-28">٢٨ دسمبر ١٨٦٨</date>
+          <bibl><biblScope unit="issue">نمرة ٢٦١</biblScope>
+            <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
+        <head><title>إفادة واردة من <orgName ref="الاوقاف">الأوقاف</orgName> فى ١٠ رمضان سنة
+            ١٢٨٥هـ</title></head>
+        <table rows="7" cols="2">
+          <row role="label">
+            <cell/>
+            <cell>مسطح</cell>
+          </row>
+          <row>
+            <cell>منزل متخرب ب<placeName type="درب-برجوان">درب بيرجوان</placeName> وقف
+                <persName>نفيسة</persName> نظارة الديوان</cell>
+            <cell>233</cell>
+          </row>
+          <row>
+            <cell>منزل متخرب بشارع <placeName type="باب-الشعرية">باب الشعرية</placeName> وقف
+                <persName>يوسف الجابي</persName> مثله</cell>
+            <cell>105</cell>
+          </row>
+          <row>
+            <cell>خربه ب<placeName type="الحطابة">الحطابة</placeName>
+              <placeName type="بولاق">ببولاق</placeName> وقف <persName>سيدي أبي العلا</persName>
+              مثله</cell>
+            <cell>74</cell>
+          </row>
+          <row>
+            <cell>خربة ب<placeName type="درب-المسمط">درب المسمط</placeName> ب<placeName
+                type="الجمالية">الجمالية</placeName> وقف <persName>سيدنا الحسين</persName>
+              مثله</cell>
+            <cell>55</cell>
+          </row>
+          <row>
+            <cell>خربه ب<placeName type="قصر-الشوك">قصر الشوك</placeName> وقفه أيضا مثله</cell>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell/>
+          </row>
+        </table>
+        <p>          247 خربه ب<placeName type="درب-التضييقة">درب التضييقة</placeName> ب<placeName
+            type="باب-الوزير">باب الوزير</placeName> وقف <persName>كلشني</persName> مثله 140 هذه
+          أماكن اقتضى الحال اخراجها من أوقافها التابعة لها للراغبين فيها بالأستبدأ والمؤاجرة وحرر في
+          ذلك خمسة وثلاثون اعلانا أرسلت إلى الضبطية بإفادة مؤرخة بالتاريخ السابق لتوضح على القره
+          قولات وحرر إلى <roleName role="معاون-أوقاف">معاون الأوقاف</roleName> بإشهارها بين الراغبين
+          بقوا مزايدة تتضمن اما الأستبدال واما بيع الأنقاض وتأجير الأرض ليحيط الجميع بذلك وبإنتهاء
+          المزايدة يكون الديوان الخيار بينهما </p>
       </div>
       <div resp="#eAK" xml:id="k804">
         <head>
