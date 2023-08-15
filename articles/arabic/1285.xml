@@ -361,18 +361,17 @@
           <?oxy_custom_end?>البيع حسب الشروط ومن حضر بعد ذلك فلا تقبل المزايدة </p>
       </div>
       <div xml:id="K803" resp="#eAK">
-        <head>
-          <bibl>( <biblScope unit="issue">نمرة الوقائع 247</biblScope>) طبعت بمطبعة بولاق يوم <date
-              when-custom="1285-08-13">الخميس 13 شعبان سنة 1285هـ</date> الموافق <date
-              when-custom="1585-03-18">18 هاتور القبطي 1585</date> و<date when="1868-11-26">26
-              نوامبر الأفرنجي 1868م</date>
-            <biblScope unit="page">ص3</biblScope>
-          </bibl></head>
-        <p> بلغنا أنه ظهر <rs type="fire">حريق</rs> في قطن بمنزل سكن <persName>محمد عيد
-            التاجر</persName> كائن ب<placeName type="درب-الدالي-حسين">درب الدالي حسين</placeName>
-            بـ<orgName type="ثمن-قيسون">ثمن قيسون</orgName> فبودر من الضبطية إلى ارسال الطلومبات
-          واللازم وبلطف الله أطفئ في نصف ساعة بدون أن يحترق من القطن إلا القليل وأن يسرى الحريق إلى
-          جهة أخرى </p>
+        <head><date when-custom="1285-08-13">١٣ شعبان ١٢٨٥</date>
+          <date when="1868-11-26">٢٦ نوامبر ١٨٦٨</date>
+          <bibl><biblScope unit="issue">نمرة ٢٤٧</biblScope>
+            <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
+        <p>بلغنا أنه ظهر <rs type="fire">حريق</rs> فى قطن ب<placeName type="منزل"
+            ref="منزل-سكن-محمد-عيد-التاجر">منزل</placeName> سكن <persName>محمد عيد التاجر</persName>
+          كائن ب<placeName type="درب" ref="درب-الدالى-حسين">درب الدالى حسين</placeName> بـ<orgName
+            type="ثمن" ref="ثمن-قيسون"><placeName ref="ثمن-قيسون" type="ثمن">ثمن
+            قيسون</placeName></orgName> فبودر من ال<orgName type="ضبطية">ضبطية</orgName> إلى ارسال
+          الطلومبات واللازم وبلطف الله أطفئ فى نصف ساعة بدون أن يحترق من القطن إلا القليل وأن يسرى
+          الحريق إلى جهة أخرى</p>
       </div>
       <div resp="#eAK" xml:id="k810">
         <head><bibl> نمرة الوقائع <biblScope unit="issue">261</biblScope>) ص<biblScope unit="page"
