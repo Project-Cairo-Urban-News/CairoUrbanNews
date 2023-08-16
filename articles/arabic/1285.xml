@@ -570,22 +570,28 @@
             <persName>جناب حسن أفندي مسعود أحد معاوني الديوان</persName> باشهارهما بقوائم مزايدة لمن
           يرغب.</p>
       </div>
-      <div resp="#eAK" xml:id="k809">
-        <head>
-          <bibl>نمرة الوقائع <biblScope unit="isuue">282</biblScope>) طبعت بمطبعة بولاق يوم <date
-              when-custom="1285-12-16">الأثنين 16 ذي الحجة سنة 1285هـ</date> الموافق <date
-              when-custom="1585-07-21">21 برمهات القبطي 1585</date> و<date when="1869">29 مارت
-              الأفرنجي 1869م</date> ص<biblScope unit="page">4</biblScope>
-          </bibl></head>
-        <p> (<rs type="اعلان">اعلانات</rs>) لفظ اعلان وارد من حضرة <roleName
-            role="وكيل-عموم-البوستة-الخديوية-المصرية">وكيل عموم البوستة الخديوية المصرية</roleName>
-          يكون معلوما لدى الجميع بأن في يوم <date when="1869-04-01">الخميس غرة شهر ابريل الأفرنكي
-            سنة 69</date> الموافق <date when-custom="1285-12-19">19 الحجة سنة 85</date> ينتقل توكيل
-            <placeName type="بوسطة-مصر">بوسطة مصر</placeName> من المحل الموجود به الآن لمحل
-            <persName>الخواجات اخوان فوتيارس</persName> الكائن أما الديوان الذي كانت فيه الضبطية
-          اخيرا تحريرا في <date when="1569-03-24">24 مارس <sic>ينة</sic> 69</date>
-          <date when-custom="1285-12-11">11 الحجة سنة 85</date>
-        </p>
+      <div resp="#eAK #eSG" xml:id="k809">
+        <head><date when-custom="1285-12-16">١٦ ذى الحجة ١٢٨٥</date>
+          <date when="1869">٢٩ مارت ١٨٦٩</date>
+          <bibl><biblScope unit="isuue">نمرة ٢٨٢</biblScope>
+            <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+        <head><title>اعلانات</title></head>
+        <head><?oxy_comment_start author="Sarah" timestamp="20230816T130316+0200" comment="check if it is a title"?><title><?oxy_comment_end?>لفظ
+            اعلان وارد من حضرة وكيل عموم <orgName ref="البوستة-الخديوية-المصرية" type="بوستة"
+              >البوس<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>تة
+              ا<?oxy_custom_end?>لخديوية المصرية</orgName></title></head>
+        <p>يكون معلوما لدى الجميع بأن في يوم الخميس غرة شهر ابريل الأفرنكى سنة ٦٩ الموافق ١٩ الحجة
+          سنة ٨٥ ينتقل توكيل <orgName ref="بوسطة-مصر" type="بوسطة"
+            >بوس<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>طة
+            م<?oxy_custom_end?>صر</orgName> من المحل الموجود به الآن ل<placeName
+            ref="محل-الخواجات-اخوان-فوتيارس" type="محل">محل <persName>الخواجات اخوان
+              فوتيارس</persName></placeName>
+          الكائن<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> أما
+            ال<?oxy_custom_end?><orgName type="ديوان" ref="ديوان-الضبطية">ديوان</orgName> الذي كانت
+          فيه ال<orgName type="ضبطية">ضبطية</orgName> اخيرا
+          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>تحريرا
+          فى<?oxy_custom_end?> ٢٤ مارس<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+          <sic>ينة</sic><?oxy_custom_end?> ٦٩ ١١ الحجة سنة ٨٥ </p>
       </div>
     </body>
    </text>
