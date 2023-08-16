@@ -119,9 +119,9 @@
             <language ident="ota">Ottoman</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc>
+      <revisionDesc status="cleared">
          <listChange>
-            <change/>
+            <change status="cleared" resp="#eAM" when="2023-08-15"/>
          </listChange>
       </revisionDesc>
    </teiHeader>
@@ -376,59 +376,57 @@
             <p>كذران ایدن ماه جمادی الاخراده<orgName ref=" دیوان-مدارس" type="مدرسه">دیوان
                   مدارسه</orgName> کلان کشف موجبنجه مؤخرا اقليم قبلیده بعض <rs type="تعميرات"
                   >تعميراته</rs> جانب ميریدن صرف اولنان مبالغك اجمالی</p>
-            <?oxy_comment_start author="ariferbil" timestamp="20230617T165530+0300" comment="the last column should be the first column. "?>
-            <table>
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+            <table cols="3">
                <row>
+                  <cell>---</cell>
                   <cell/>
                   <cell>….</cell>
-                  <cell>---</cell>
                </row>
                <row>
+                  <cell>١٦</cell>
                   <cell><placeName ref="فیوم">فیومده</placeName> واقع <orgName ref="کهرجله-خانه"
                         type="کهرجله-خانه">کهرجله خانه ده</orgName> اجرا الونان تعمیرات</cell>
                   <cell>٠١٠٩٩</cell>
-                  <cell>١٦</cell>
                </row>
                <row>
+                  <cell>٣٤</cell>
                   <cell><placeName ref="اهناسيه-قریه-سى">اهناسيه قریه سنده</placeName>
                      <orgName ref="یکی-کهرجله-خانه" type="کهرجله-خانه">یکی کهرجله خانه ده</orgName>
                      كذا</cell>
                   <cell>٠٠٤٨٥٠</cell>
-                  <cell>٣٤</cell>
                </row>
                <row>
+                  <cell>٢٨</cell>
                   <cell>قريۀ مذکوره نك <orgName ref="اسکی-کهرجله-خانه" type="کهرجله-خانه">اسکی
                         کهرجله خانه ده</orgName> كذا</cell>
                   <cell>٠١٠٩٨١</cell>
-                  <cell>٢٨</cell>
                </row>
                <row>
+                  <cell>٠٨</cell>
                   <cell><placeName ref="شیخ-عباده-قریه-سى">شیخ عباده قریه سنده</placeName> واقع
                         <orgName ref="کهرجله-خانه" type="کهرجله-خانه">کهرجله خانه ده</orgName>
                      كذا</cell>
                   <cell>٢١٧٩٢٨</cell>
-                  <cell>٠٨</cell>
                </row>
                <row>
+                  <cell>١٦</cell>
                   <cell><placeName ref="بنى-سويف-قريه-سى">بنى سويف قريه سنده</placeName> فابريقه و
                      ذخيره مخزنى و اخور و قشله مثللو بعض اماكنده كذا</cell>
                   <cell>٠٠٥١٦٨</cell>
-                  <cell>١٦</cell>
                </row>
                <row>
+                  <cell>٣٧</cell>
                   <cell><placeName ref="اسيوط-مديريتى">اسيوط مديريتنده</placeName><placeName
                         ref="محدوب-قريه-سى">محدوب قريه سنده</placeName> كائن <orgName
                         ref="مدیریت-ديوانى" type="مدیریت">مدیریت ديواننده</orgName> كذا</cell>
                   <cell>٠٢١٤٠</cell>
-                  <cell>٣٧</cell>
                </row>
                <row>
+                  <cell>١٩</cell>
                   <cell>يكون</cell>
                   <cell>٢٦٦٣٨٠</cell>
-                  <cell>١٩</cell>
-               </row><?oxy_custom_end?>
-            </table><?oxy_comment_end?>
+               </row>
+            </table>
          </div>
          <div resp="#eAE" xml:id="q19">
             <head>
