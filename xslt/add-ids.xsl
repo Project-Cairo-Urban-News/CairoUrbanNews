@@ -49,7 +49,7 @@
         <xsl:variable name="article" select="ancestor::t:div[t:head[t:date/@when-custom]]"/>
         <xsl:variable name="i" select="count(preceding::t:placeName[ancestor::t:div = $article]) + 1"/>
         <xsl:copy>
-            <xsl:attribute name="xml:id">{fn:div-id($article)}_{$i}</xsl:attribute>
+            <xsl:attribute name="xml:id">place-{fn:div-id($article)}_{$i}</xsl:attribute>
             <xsl:copy-of select="@*"/>
             <xsl:apply-templates/>
         </xsl:copy>
@@ -57,7 +57,7 @@
     
     <xsl:function name="fn:div-id">
         <xsl:param name="div"/>
-        <xsl:sequence>place-W{substring($div/t:head/t:date[@when-custom]/@when-custom, 1, 4)}{normalize-space(fn:pad(fn:convert($div/t:head/t:bibl/t:biblScope[@unit='issue']), 4))}{fn:pad(string(count($div/preceding-sibling::t:div) + 1), 2)}</xsl:sequence>
+        <xsl:sequence>W{substring($div/t:head/t:date[@when-custom]/@when-custom, 1, 4)}{normalize-space(fn:pad(fn:convert($div/t:head/t:bibl/t:biblScope[@unit='issue']), 4))}{fn:pad(string(count($div/preceding-sibling::t:div) + 1), 2)}</xsl:sequence>
     </xsl:function>
     
     <xsl:function name="fn:pad">
