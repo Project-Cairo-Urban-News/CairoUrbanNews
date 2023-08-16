@@ -445,23 +445,26 @@
           يكون<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
           الديوان<?oxy_custom_end?> الخيار بينهما </p>
       </div>
-      <div resp="#eAK" xml:id="k804">
-        <head>
-          <bibl>نمرة الوقائع <biblScope unit="issue">264</biblScope> طبعت بمطبعة بولاق يوم <date
-              when-custom="1285-09-24">الخميس 24 رمضان سنة 1285هـ</date> الموافق <date
-              when-custom="1585-04-30">30 كيهك القبطي 1585</date> و<date when="1869-01-07">7 زانويه
-              الأفرنجي 1869م</date> ص<biblScope unit="page">3</biblScope></bibl>
-        </head>
-        <p>
-          <rs type="اعلان">اعلان</rs> عرض للبيع منزل ب<placeName type="بندر-طنتدا">بندر
-            طنتدا</placeName> بالبناء المستجد ب<placeName type="المنشية-الجديد">المنشية
-            الجديد</placeName> بالملقة الكبيرة ملك حضرة <persName>احمد أفندي نابي المهندس ب<orgName
-              type="ديوان-الخاصة-الخديوية">ديوان الخاصة الخديوية</orgName></persName> ومفتاحه عند
-            <persName>سليمان أفندي فائز <roleName role="كاتب-هندسة-المديرية">كاتب هندسة
-              المديرية</roleName></persName> بذلك البندر قائمة المزايدة عند <persName>اصلان موسى
-              <roleName role="سمسار">السمسار</roleName></persName> المجاور <placeName
-            type="حارة-السقايين">حارة السقايين</placeName> والثمن بالنقد <measure
-            unit="الصاغ-الديواني">الصاغ الديواني</measure>. </p>
+      <div resp="#eAK #eSG" xml:id="k804">
+        <head><date when-custom="1285-09-24">٢٤ رمضان ١٢٨٥</date>
+          <date when="1869-01-07">٧ زانويه ١٨٦٩</date>
+          <bibl><biblScope unit="issue">نمرة ٢٦٤</biblScope>
+            <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
+        <head><title>اعلان</title></head>
+        <p>عرض للبيع <placeName type="منزل"
+            ref="منزل-ملك-أحمد-أفندى-نابى-المهندس-بديوان-الخاصة-الخديوية">منزل</placeName>
+            ب<placeName type="بندر" ref="بندر-طنتدا">بندر طنتدا</placeName> بالبناء المستجد
+            ب<placeName ref="المنشية-الجديد">المنشية
+            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الجديد<?oxy_custom_end?></placeName>
+            ب<placeName ref="الملقة-الكبيرة">الملقة الكبيرة</placeName> ملك حضرة <persName>احمد
+            أفندى نابى المهندس ب<orgName type="ديوان" ref="ديوان-الخاصة-الخديوية">ديوان الخاصة
+              الخديوية</orgName></persName> ومفتاحه عند <persName>سليمان أفندى فائز كاتب <orgName
+              ref="هندسة-المديرية-ببندر-طنطا">هندسة ال<orgName type="مديرية" ref="مديرية-بندر-طنطا"
+                >مديرية</orgName></orgName></persName> بذلك البندر قائمة المزايدة عند
+            <persName>اصلان موسى السمسار</persName> المجاور <placeName type="حارة"
+            ref="حارة-السقايين"
+            ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah" timestamp="20230816T112453+0200" comment="لحارة" mid="13"?>حارة<?oxy_custom_end?><?oxy_comment_end mid="13"?>
+            السقايين</placeName> والثمن بالنقد الصاغ الديواني.</p>
       </div>
       <div resp="#eAK" xml:id="K805">
         <head><bibl> نمرة الوقائع <biblScope unit="issue">270</biblScope>) طبعت بمطبعة بولاق يوم
