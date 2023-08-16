@@ -57,7 +57,7 @@
     
     <xsl:template match="t:table">
         <listPlace>
-            <xsl:apply-templates select="t:row[xs:int(@n) gt 5]">
+            <xsl:apply-templates select="t:row[xs:int(@n) gt 3]">
                 <xsl:sort select="@n"/>
             </xsl:apply-templates>
         </listPlace>
@@ -68,7 +68,7 @@
         <place source="#CGDATA">
             <xsl:call-template name="numero"/>
        
-            <xsl:call-template name="URI"/>
+            <xsl:call-template name="URI_Main"/>
              
         </place>
     </xsl:template>
@@ -81,12 +81,16 @@
         </xsl:if>
     </xsl:template>
     
-    <xsl:template name="URI">
-        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'URI'))"/>
+    
+    
+    <xsl:template name="URI_Main">
+        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'URI_Main'))"/>
         <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
-            <idno type="OSM">{$val}</idno>
+            <idno type="URI">{$val}</idno>
         </xsl:if>
     </xsl:template>
+    
+    
     
     <xsl:template name="wm_idnews">
         <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'WM_IDNews'))"/>
