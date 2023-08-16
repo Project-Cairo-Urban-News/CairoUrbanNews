@@ -532,23 +532,43 @@
           يرغب فى شرائه فليحضر ويعاين اذ ليس الخبر كالعيان والبيع بالعملة الصاغ الديوانى وقايمة
           المزايدة بالمنزل.</p>
       </div>
-      <div resp="#eAK" xml:id="K808">
-        <head>
-          <bibl>نمرة الوقائع <biblScope unit="issue">279</biblScope>) طبعت بمطبعة بولاق يوم <date
-              when-custom="1285-11-28">الخميس 28 ذي القعدة سنة 1285هـ</date> الموافق <date
-              when-custom="1585-07-03">3 برمهات القبطي 1585</date> و<date when="1869-03-11">11 مارت
-              الأفرنجي 1869م</date> ص <biblScope unit="page">3</biblScope>
-          </bibl></head>
-        <p> (<rs type="اعلان">اعلانات</rs>) اعلان من عموم <orgName type="الأوقاف">الأوقاف</orgName>
-          بتاريخ <date when-custom="1285-11-24">24 ذي القعدة سنة 85</date> 1 طاحونة ب<placeName
-            type="شارع-البيدق">شارع البيدق</placeName> مسطحها <measure unit="ذراع">368
-            ذراعا</measure> وقف الأمامين و<placeName type="رواق-الأتراك">رواق الأتراك</placeName>. 1
-          خربة بـ<placeName type="خط-غيط-العدّة">خط غيط العدّة</placeName>
-          <measure type="area">مسطحها 252</measure> نظارة <persName>حضرة بك طبوزا</persName> وعلى
-          يرغب فيها <persName>الشيخ على القباني</persName> بـ<measure type="قرش-دارج">عشرين ألف قرش
-            دارجه</measure> ____ 2 اقتضي الحال استبدال المحلين المذكورين وارسل بهما 35 اعلانا إلى
-          الضبطية لتوضع على القره قولات وحرر إلى <persName>جناب حسن أفندي مسعود أحد معاوني
-            الديوان</persName> باشهارهما بقوائم مزايدة لمن يرغب. </p>
+      <div resp="#eAK  #eSG" xml:id="K808">
+        <head><date when-custom="1285-11-28">٢٨ ذى القعدة ١٢٨٥</date>
+          <date when="1869-03-11">١١ مارت ١٨٦٩</date>
+          <bibl><biblScope unit="issue">نمرة ٢٧٩</biblScope>
+            <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
+        <head><title>اعلانات</title></head>
+        <head><title>اعلان من عموم <orgName ref="الأوقاف">الأوقاف</orgName> بتاريخ ٢٤ ذى القعدة سنة
+            ٨٥</title></head>
+        <table rows="3" cols="2">
+          <row role="label">
+            <cell>١</cell>
+            <cell><placeName type="طاحونة">طاحونة</placeName> ب<placeName type="شارع"
+                ref="شارع-البيدق">شارع البيدق</placeName> مسطحها ٣٦٨ ذراعا <orgName type="وقف"
+                ref="وقف-الامامين-ورواق-الاتراك">وقف الأمامين ورواق الأتراك</orgName></cell>
+          </row>
+          <row>
+            <cell>١</cell>
+            <cell>خربة بـ<placeName type="خط" ref="خط-غيط-العدة">خط غيط
+              العدة</placeName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+              مسطحها ٢٥٢ نظارة <persName>حضرة بك طبوزا</persName><?oxy_custom_end?> وعلى
+              يرغب<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> فيها
+                <persName>الشيخ <?oxy_custom_end?>على القباني</persName> بـعشرين ألف قرش
+              دارجه</cell>
+          </row>
+          <row>
+            <cell>____</cell>
+            <cell/>
+          </row>
+          <row>
+            <cell>٢</cell>
+            <cell/>
+          </row>
+        </table>
+        <p>اقتضي الحال استبدال المحلين المذكورين وارسل بهما ٣٥ اعلانا إلى ال<orgName type="ضبطية"
+            >ضبطية</orgName> لتوضع على ال<orgName type="قره-قولات">قره قولات</orgName> وحرر إلى
+            <persName>جناب حسن أفندي مسعود أحد معاوني الديوان</persName> باشهارهما بقوائم مزايدة لمن
+          يرغب.</p>
       </div>
       <div resp="#eAK" xml:id="k809">
         <head>
