@@ -57,7 +57,7 @@
     
     <xsl:function name="fn:div-id">
         <xsl:param name="div"/>
-        <xsl:sequence>W{substring($div/t:head/t:date[@when-custom]/@when-custom, 1, 4)}{normalize-space(fn:pad(fn:convert($div/t:head/t:bibl/t:biblScope[@unit='issue']), 4))}{fn:pad(string(count($div/preceding-sibling::t:div) + 1), 2)}</xsl:sequence>
+        <xsl:sequence>place-W{substring($div/t:head/t:date[@when-custom]/@when-custom, 1, 4)}{normalize-space(fn:pad(fn:convert($div/t:head/t:bibl/t:biblScope[@unit='issue']), 4))}{fn:pad(string(count($div/preceding-sibling::t:div) + 1), 2)}</xsl:sequence>
     </xsl:function>
     
     <xsl:function name="fn:pad">
