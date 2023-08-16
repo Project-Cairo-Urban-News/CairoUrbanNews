@@ -1,565 +1,511 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
-               Project</title>
-            <editor xml:id="eNK">Nour Kanaan</editor>
-            <editor xml:id="eAM">Adam Mestyan</editor>
-            <editor xml:id="eDY">Danah Younis</editor>
-            <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
-            <editor xml:id="eAE">Arif Erbil</editor>
-            <editor xml:id="eAK">Ahmed Kamal</editor>
-            <editor xml:id="eAS">Abram Smith</editor>
-            <editor xml:id="eCH">Clara Harms</editor>
-            <editor xml:id="eHS">Hüseyin Sağlam</editor>
-            <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
-            <editor xml:id="eHL">Hiba Laabadli</editor>
-            <editor xml:id="eOE">Othmane Echchabi</editor>
-            <editor xml:id="eFA">Fatemah Almahana</editor>
-            <respStmt>
-               <resp>Advisor</resp>
-               <name>Hugh Cayless</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Adam Mestyan</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Mercedes Volait</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Sarah Fathallah Garaa</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Karima Nasr</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Rezk Nory</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Arif Erbil</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Ahmed Kamal</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Abram Smith</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Clara Harms</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Hüseyin Sağlam</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Abdulrahman El-Taliawi</name>
-            </respStmt>
-            <sponsor>
-               <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
-                  <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew
-                  W. Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke
-                  University Libraries</orgName>; <orgName>Centre national de la recherche
-                  scientifique</orgName>. </sponsor>
-         </titleStmt>
-         <publicationStmt>
-            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La
-               fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-            <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
-                  Volait</persName></p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
-            <p>born digital document</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <projectDesc>
-            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in
-               the project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke
-               University).</p>
-         </projectDesc>
-         <editorialDecl>
-            <p>Rules of TEI XML MarkUp in This Project</p>
-            <p>We use the Arabic script but transliteration into Latin characters follows the
-               Library of Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic
-                  transliteration chart</ref>.</p>
-            <p>Each individual article has an individual xml:id number starting with "w1"</p>
-            <p>We only use persName, orgName, placeName elements, apart from bibliographical
-               elements and notes.</p>
-            <p>If the location or organization of responsibility is known from the text, it can be
-               added in an attribute to a persName.</p>
-            <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
-                  Editions</ref>.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="ar">Arabic</language>
-            <language ident="en">English</language>
-            <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
-            <language ident="ota">Ottoman</language>
-         </langUsage>
-      </profileDesc>
-      <revisionDesc status="cleared">
-         <listChange>
-            <change status="cleared" resp="#eAM" when="2023-08-05"/>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
+          Project</title>
+        <editor xml:id="eNK">Nour Kanaan</editor>
+        <editor xml:id="eAM">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
+        <editor xml:id="eAE">Arif Erbil</editor>
+        <editor xml:id="eAK">Ahmed Kamal</editor>
+        <editor xml:id="eAS">Abram Smith</editor>
+        <editor xml:id="eCH">Clara Harms</editor>
+        <editor xml:id="eHS">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+        <editor xml:id="eHL">Hiba Laabadli</editor>
+        <editor xml:id="eOE">Othmane Echchabi</editor>
+        <editor xml:id="eFA">Fatemah Almahana</editor>
+        <respStmt>
+          <resp>Advisor</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Mercedes Volait</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Sarah Fathallah Garaa</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Karima Nasr</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Rezk Nory</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Arif Erbil</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Ahmed Kamal</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abram Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Clara Harms</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hüseyin Sağlam</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abdulrahman El-Taliawi</name>
+        </respStmt>
+        <sponsor>
+          <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
+            <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+            Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>.
+        </sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
+          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+        <p>born digital document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Rules of TEI XML MarkUp in This Project</p>
+        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
+        <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
+        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+          Editions</ref>.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+        <language ident="ota">Ottoman</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change/>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
   
   <text xml:lang="ar">
       <body>
          <div>
             <head>١٢٨٣</head>
          </div>
-         <div xml:id="W1283002402" resp="#eSG">
+         <div xml:id="w1" resp="#eSG">
             <head><date when-custom="1283-01-03'">٣ محرم ١٢٨٣</date>
                <date when="1866-05-17">١٧ مايه ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمره ٢٤</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-            <head>اعلانات</head>
-            <p>اعلان وارد من وكيل <orgName ref="بيت-مال-مصر">بيت مال مصر</orgName> فى ٢٩ ذى الحجة ٨٢
-               قد توفى المرحوم <persName ref="معاون">خورشيد باشا الذى كان معاونا بالمعية
+            <head><title>اعلانات</title></head>
+            <p>اعلان وارد من وكيل <orgName ref="بيت-مال-مصر" type="بيت-مال">بيت مال مصر</orgName> فى
+               ٢٩ ذى الحجة ٨٢ قد توفى المرحوم <persName>خورشيد باشا الذى كان معاونا بالمعية
                   السنية</persName> ومن مخلفاته <placeName type="منزل" ref="منزل-بعطفة-حضرة-السيد-البكرى">منزل كائن ب<placeName type="عطفة" ref="عطفة-حضرة-السيد-البكرى">عطفة حضرة السيد البكرى</placeName></placeName>
-               فحررت قائمة تتضمن اشهار المزايدة فيه بيد <persName role="وكيل طائفة دلالى العقارات">السيد محمد مصطفى الجنيدى وكيل طائفة دلالى العقارات</persName> فمن كان له رغبة فى
-               الشراء فعليه بالإطلاع عليها وإجراء المزايدة بعد الإحاطة بالشروط والصفحات الموضحة بها
-               ومعاينة ذلك.</p>
+               فحررت قائمة تتضمن اشهار المزايدة فيه بيد <persName>السيد محمد مصطفى الجنيدى وكيل
+                  طائفة دلالى العقارات</persName> فمن كان له رغبة فى الشراء فعليه بالإطلاع عليها
+               وإجراء المزايدة بعد الإحاطة بالشروط والصفحات الموضحة بها ومعاينة ذلك.</p>
          </div>
-         <div xml:id="W1283002603" resp="#eSG">
+         <div xml:id="w2" resp="#eSG">
             <head><date when-custom="1283-01-16">١٦ محرم ١٢٨٣</date>
                <date when="1866-05-31">٣١ مايه ١٨٦٦</date><bibl><biblScope unit="issue">نمره
                      ٢٦</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
-            <p>بلغنا أنه يوم الاثنين الماضى سادس الشهر الحال هيأ ابهتلو دولتلو ناظر الخارجية ضيافة
-               بهية إلى الحضرة الداورية دعا إليها بعض الوكلاء الفخام والمأمورين الكرام.</p>
+            <p>بلغنا أنه يوم الاثنين الماضى سادس الشهر الحال
+               <?oxy_comment_start author="Sarah" timestamp="20230719T183135+0200" comment="check in the original"?>هبأ<?oxy_comment_end?>
+               ابهتلو دولتلو ناظر الخارجية ضيافة بهية إلى الحضرة الداورية دعا إليها بعض الوكلاء
+               الفخام والمأمورين الكرام.</p>
          </div>
          <div xml:id="w3" resp="#eSG">
             <head><date when="1283-01-16">١٦ محرم ١٢٨٣</date>
                <date unit="1866-05-31">٣١ مايه ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمره ٢٦</biblScope>
-                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
-            <p>بعد مضى ثلاث ساعات ونصف من يوم الاربعاء غرة الشهر الحالى ظهر <rs type="حريق">حريق</rs> ب<placeName ref="وكالة الكتان" type="وكالة"><orgName type="وكالة" ref="وكالة-الكتان">وكالة الكتان</orgName></placeName> الكائنة ب<placeName type="ساحة" ref="ساحة-الحمير">ساحة الحمير</placeName> التابعة <orgName type="ثمن" ref="ثمن-الازبكية"><placeName type="ثمن" ref="ثمن-الازبكية">ثمن
-                     الازبكية</placeName></orgName> وكذا فى الساعة الثالثة من ليلة الجمعة المارة ظهر
-                  <rs type="حريق">حريق</rs> بمنزل امرأة كائن ب<placeName type="حارة" ref="حارة-الحميرية">حارة الحميرية</placeName> ب<orgName type="ثمن" ref="ثمن-قيسون"><placeName type="ثمن" ref="ثمن-قيسون">ثمن قيسون</placeName></orgName> ففى
-               الحال ارسل إلى الجهتين المذكورتين من <orgName type="الضبطية">الضبطية</orgName> ما
-               يلزم من آلات الإطفاء والأشخاص الكافية وبمنه تعالى صار إطفاء كل منهما فى الوقت بدون أن
-               يسرى إلى جهة أخرى.</p>
+                  <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+            <p>بعد مضى ثلاث ساعات ونصف من يوم الاربعاء غرة الشهر الحالى ظهر <rs type="حريق">حريق</rs> ب<orgName type="وكالة" ref="وكالة-الكتان">وكالة الكتان</orgName>
+               الكائنة ب<placeName type="ساحة" ref="ساحة-الحمير">ساحة الحمير</placeName>
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>التابعة <orgName type="ثمن" ref="ثمن-الازبكية"><placeName>ثمن
+                     <?oxy_comment_start author="Sarah" timestamp="20230719T183413+0200" comment="check in the original لثمن
+" mid="2"?>الازبكية<?oxy_custom_end?><?oxy_comment_end mid="2"?></placeName></orgName>
+               وكذا فى الساعة الثالثة من ليلة الجمعة
+               <?oxy_comment_start author="Sarah" timestamp="20230719T183440+0200" comment="check in the original
+"?>المارة<?oxy_comment_end?>
+               ظهر <rs type="حريق">حريق</rs> ب<placeName type="منزل" ref="منزل-بحارة-الحميرية">منزل</placeName> امرأة كائن ب<placeName type="حارة" ref="حارة-الحميرية">حارة
+                  الحميرية</placeName> ب<orgName type="ثمن" ref="ثمن-قيسون"><placeName>ثمن
+                     قيسون</placeName></orgName><?oxy_comment_start author="Sarah" timestamp="20230719T183758+0200" comment="check in the original"?>
+               ففى<?oxy_comment_end?> ارسل إلى الجهتين المذكورتين من <orgName type="الضبطية">الضبطية</orgName> ما يلزم من آلات الإطفاء والأشخاص الكافية وبمنه تعالى صار إطفاء
+               كل منهما فى الوقت بدون أن يسرى إلى جهة أخرى.</p>
          </div>
-         <div xml:id="W1283002805" resp="#eSG">
+         <div xml:id="w4" resp="#eSG">
             <head><date when-custom="1283-01-30">غاية محرم ١٢٨٣</date>
                <date when="1866-06-14">١٤ يونيه ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٢٨</biblScope>
-                  <biblScope unit="page">صفحة ٢-٣</biblScope></bibl></head>
+                  <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
             <p>من التقدمات الفائقة العزيزية والمحسنات الرائقة البديعة والمشروعات السنية والمسموعات
                السمية العائدة على قطر مصر بالفخر فى كل عصر ونجاحه وملاحه ورباحه وفلاحه وحسن حاله
                وكماله وزهوره بين أمثاله إنجاز ما كان مزمعا عليه وأمتدت أيدى الآمال إليه وهو <rs type="افتتاح">افتتاح</rs>
                <orgName type="مدرسة" ref="مدرسة-المهندسخانة-الخديوية">مدرسة المهندسخانة
                   الخديوية</orgName> و<rs type="إنشاء">إنشاء</rs>
-               <placeName ref="الرصدخانة"><orgName type="الرصدخانة">الرصدخانة</orgName></placeName>
-               الآن ب<placeName ref="العباسية">العباسية</placeName> وجعلهما فى إدارة وحيد الامراء
-               وفريد الأقران والنظراء الشاهد بفوقانه العيان وهو غنى عن البيان لا سيما الفتوح
-               والافاضة عليه فنون الرياضة حليف الصدق اجى الوفا عزتلو <persName>إسمعيل بيك
-                  مصطفى</persName> وإن شاء الله بحسن سيره فى الظلال الداورية يبدو قريبا صلاحها
-               وتقتطف أزهارها الرياضية وقد أنشأ فى ذلك يوم الافتتاح الناطق لسان يراعه بما فوق
-               الاقتراح جانى ثمار الفضل من عرجونه وهو الفارس عزتلو <persName role="ناظر قلم الترجمة">رفاعه بيك ناظر <orgName type="قلم" ref="قلم-الترجمة">قلم الترجمة</orgName> ورئيس
-                     <orgName type="قومسيون" ref="قومسيون-المدارس">قومسيون
-                  المدارس</orgName></persName> مقالة يشهد برقتها سلامة الطباع وتشرب الفاظها افواه
-               الاسماع مزيلا لها بتاريخ يحيى نظمه سيره ابن مليك <choice>
-                  <sic>لنجلة</sic>
-                  <corr>لنجله</corr>
-               </choice> الاصغر النجيب <persName>على فهمى بيك</persName>.</p>
+               <orgName type="الرصدخانة">الرصدخانة</orgName> الآن ب<placeName ref="العباسية">العباسية</placeName> وجعلهما فى إدارة وحيد الامراء وفريد الأقران والنظراء الشاهد
+               <?oxy_comment_start author="Sarah" timestamp="20230719T184055+0200" comment="check in the original
+"?>بفوقانه<?oxy_comment_end?>
+               العيان وهو غنى عن البيان لا سيما الفتوح والافاضة عليه فنون الرياضة حليف الصدق اجى
+               الوفا عزتلو <persName>إسمعيل بيك مصطفى</persName> وإن شاء الله محسن سيره فى الطلال
+               الداورية سيد وقريبا صلاحها وتقتطف أزهارها الرياضية وقد أنشأ فى ذلك يوم الافتتاح
+               الناطق لسان براعه بما فوق الاقتراح جانى ثمار الفضل من عرجونه وهو الفارس عزتلو
+                  <persName>رفاعه بيك ناظر <orgName type="قلم" ref="قلم-الترجمة">قلم
+                     الترجمة</orgName> ورئيس <orgName type="قومسيون" ref="قومسيون-المدارس">قومسيون
+                     المدارس</orgName></persName> مقالة يشهد برقتها سلامة الطباع وتشرب الفاظها افواه
+               الاسماع مزيلا لها بتاريخ يحيى نظمه سيره ابن مليك لنجلة الاصغر النجيب <persName>على
+                  فهمى بيك</persName>.</p>
          </div>
-         <div xml:id="W1283002906" resp="#eSG">
+         <div xml:id="w5" resp="#eSG">
             <head><date when-custom="1283-02-07">٧ صفر ١٢٨٣</date>
                <date type="1866-06-21">٢١ يونيه ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٢٩</biblScope>
                   <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
             <head><title>صورة ما ورد من <orgName type="ديوان" ref="ديوان-المدارس">ديوان
                      المدارس</orgName></title></head>
-            <p>لما كان من الامور المهمة المؤدية لحصول المقاصد الخيريه التى توجهت لاجل تحصيلها
-               العناية السنية الداوريه الى احداث مدارس متعدده مصريه ان يوضع ترتيب للدروس التى تناسب
-               قراءتها فى كل مدرسة وان تحرر بها جداول جيدة النظام والتأسيس وان ترتب طرق التعليم
-               واصول التدريس وأن تحدد شروط الاستعداد والقابليه التى ينبغى أن تتوفر فى التلامذة لاجل
-               انتقالهم من مدرسة الى أخرى أعلى منها ولاجل دخولهم فى المصالح العموميه وتقلدهم فى
-               الوظائف الملكيه والعسكريه استقر رأى ناظر الداخليه ومدير المدارس المصرية على المواد
-               الاتية وذلك من بعد ما وافق الادارة السنية <choice>
-                  <sic>احراؤه</sic>
-                  <corr>اجراؤه</corr>
-               </choice>.</p>
-         </div>
-         <div xml:id="W1283003007" resp="#eSG">
+            <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>لما كان من الامور
+               المهمة المؤدية
+               <?oxy_comment_start author="Sarah" timestamp="20230719T185321+0200" comment="check in the original"?>الحصول<?oxy_comment_end?>
+               المقاصد الخيرية التى توجهت لاجل تحصيلها العناية السنية الداوريه إلى أحداث مدارس
+               متعددة مصرية ان يوضع ترتيب الدروس التى تناسب قراءتها فى كل
+               مدرسة<?oxy_comment_start author="Sarah" timestamp="20230719T185356+0200" comment="check in the original"?>
+               وأن مدرس<?oxy_comment_end?>ة وان تحرر بها جداول جيدة النظام والتأسيس وان ترتب طرق
+               التعليم وأصول التدريس وأن تحدد شروط الاستعداد والقابلية التى ينبغى أن تتوفر فى
+               التلامذة لاجل انتقالهم من مدرسة إلى أخرى أعلى منها ولأجل دخولهم فى المصالح العمومية
+               وتقلدهم فى الوظائف الملكية والعسكرية استقر رأى ناظر الداخليه ومدير المدارس المصرية
+               على المواد الاتية وذلك من بعد
+               ما<?oxy_comment_start author="Sarah" timestamp="20230719T185505+0200" comment="check in the original"?>
+               وافق<?oxy_comment_end?> الادارة السنية اجراؤه.</p>
+         </div><?oxy_custom_end?>
+         <div xml:id="w6" resp="#eSG">
             <head><date when-custom="1283-02-14">١٤ صفر ١٢٨٣</date>
                <date when="1866-06-28">٢٨ يونيه ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٣٠</biblScope>
                   <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
-            <p>لما علم من <persName role="فريق الجهادية">سعادتلو شاهين باشا فريق الجهادية</persName>
-               كمال اللياقة والاهلية وجهت إليه وظيفة سردار العسكرية زيادة على وظيفة محافظة القلاع
-               المصرية.</p>
-            <p>أحيلت وظيفة التفتيش العمومية على عهدة سعادتلو <persName role="مفتش الاقاليم البحرية">إسماعيل صديق باشا</persName> مفتش الاقاليم البحرية المتجلى برتبة البكلريكى
-               الرفيعة السنية لما فيه من مزيد التأهل والاستحقاقية.</p>
+            <p>لما علم من <persName>سعادتلو شاهين باشا فريق الجهادية</persName> كمال اللياقة
+               والاهلية وجهت إليه وظيفة سردار العسكرية زيادة على وظيفة محافظة القلاع المصرية.</p>
+            <p>أحيلت <persName>وظيفة التفتيش العمومية على عهدة سعادتلو إسماعيل صديق باشا مفتش
+                  الاقاليم البحرية</persName> المتجلى برتبة البكلريكى الرفيعة السنية لما فيه من مزيد
+               التأهل والاستحقاقية.</p>
          </div>
          <div xml:id="w7" resp="#eSG">
             <head><date>٢١ صفر الخير ١٢٨٣</date>
                <date>٥ يوليه ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٣١</biblScope>
                   <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
-            <p>قد أحسن إلى حضره عزتلو <persName role="مأمور ضبطية مصر">صالح بيك مأمور <orgName ref="ضبطية-مصر">ضبطية مصر</orgName></persName> بنشان مجيدي من الرتبة الثالثة
-               ومثله حضرة <persName role="مدير السكة الحديد">خورشيد بيك مدير <orgName type="السكة-الحديد">السكة الحديد</orgName></persName>.</p>
+            <p>قد أحسن إلى حضره <persName>عزتلو صالح بيك مأمور <orgName type="ضبطية" ref="ضبطية-مصر">ضبطية مصر</orgName></persName> بنشان مجيدي من الرتبة الثالثة ومثله حضرة
+                  <persName>خورشيد بيك مدير <orgName type="السكة-الحديد">السكة
+                  الحديد</orgName></persName>.</p>
          </div>
-         <div xml:id="W1283003209" resp="#eSG">
+         <div xml:id="w8" resp="#eSG">
             <head><date when-custom="1283-02-28">٢٨ صفر ١٢٨٣</date>
                <date when="1866-07-12">١٢ يوليه ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٣٢</biblScope>
                   <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
-            <p>وجهت رتبة الفريق السمية إلى سعادتلو <persName>راتب باشا أحد باشا أحد ياوران الحضرة
-                  الخديوية</persName> لما فيه من الأهلية.</p>
-            <p>تعين سعادتلو <persName role="وكيل مجلس الأحكام">منصور باشا وكيل <orgName ref="مجلس-الاحكام" type="مجلس">مجلس الأحكام</orgName></persName> أحد أعضائه
-               الكرام.</p>
-            <p>تعين  سعادتلو <persName role="رئيس مجلس مصر">عارف باشا فهمي الذي كان رئيس <orgName ref="مجلس-مصر" type="مجلس">مجلس مصر</orgName></persName> أحد أعضاء مجلس
-               الأحكام.</p>
-            <p>تعين سعادتلو <persName role="مدير">حيدر باشا مديرًا ل<orgName type="مديرية" ref="مديرية-القليوبية">مديرية القليوبية</orgName></persName>.</p>
-            <p>تعين حضرة <persName role="مدير الغربية">نوري بيك الذي كان مدير الغربية</persName>
-               وكيل <orgName type="ديوان" ref="ديوان-تفتيش-بحرى">ديوان تفتيش بحري</orgName>.</p>
-            <p>تعين عزتلو <persName role="مدير القليوبية">محمد بيك صالح الذي كان مدير
-                  القليوبية</persName> مديرا للغربية.</p>
-            <p>صار عزتلو <persName>محمد بيك فؤاد نجل سعادة <persName>حسن باشا رأفت</persName> من
-                  ياوران الخديوى</persName>.</p>
-            <p>وجهت الرتبة الثانية إلى عزتلو <persName role="باشمهندس التلغرافات">سلامة بيك باشمهندس
-                  التلغرافات</persName>.</p>
-            <p>وجهت الرتبة الثانية أيضًا إلى عزتلو <persName role="مفتش الجفالك">سليمان بيك أباظة
-                  مفتش الجفالك والعهد بالشرقية</persName>.</p>
-            <p>وجهت الرتبة الثالثة إلي رفعتلو <persName role="معاون">حسن أفندي الباردوي أحد معاوني
-                     <orgName type="دائرة" ref="دائرة-دولتلو-عصمتلو-والدة-باشا">دائرة دولتلو عصمتلو
-                     والدة باشا</orgName></persName>.</p>
-            <p>اخيلت على عهدة عزتلو <persName>على بيك مبارك نظارة <placeName type="قناطر" ref="القناطر-الخيرية"><sic>القناطز</sic> الخيرية</placeName></persName> زيادة
-               على مأموريته.</p>
-            <p>تعيين عزتلو <persName>عبد القادر بيك</persName> الذي كان من الاى دردنجي بيادة ووظف
-               موقتا بوظيفة الياورية بالمعية ميرالاى على الاي الغارديا وصارعزتلو <persName role="ميرالاى">بكرى بيك ثابت ميرالاى ١ جى بياده سابقا</persName> وكان بالاى
-               الغارديا موقتا من زمرة ياوران الخديوى.</p>
-            <p>تعيين <persName role="ميرالاى">محمد بيك رضى ميرالاى ٣جي سوارى سابقا</persName> على
-               الاى الغارديا السوارى الذي افتتح.</p>
+            <p>وجهت رتبة الفريق السمية إلى <persName>سعادتلو راتب باشا أحد باشا أحد
+                  <?oxy_comment_start author="Sarah" timestamp="20230719T190511+0200" comment="check in the original"?>باوران<?oxy_comment_end?>
+                  الحضرة الخديوية</persName> لما فيه من الأهلية.</p>
+            <p>تعين <persName>سعادتلو منصور باشا وكيل <orgName ref="مجلس-الاحكام" type="مجلس">مجلس
+                     الأحكام</orgName> أحد أعضائه</persName> الكرام.</p>
+            <p>تعين <persName>سعادتلو عارف باشا فهمي الذي كان رئيس <orgName ref="مجلس-مصر" type="مجلس">مجلس مصر</orgName> أحد أعضاء مجلس الأحكام</persName>.</p>
+            <p>تعين <persName>سعادتلو حيدر باشا مديرًا ل<orgName type="مديرية" ref="مديرية-القليوبية">مديرية القليوبية</orgName></persName>.</p>
+            <p>تعين حضرة <persName>نوري بيك الذي كان مدير الغربية وكيل <orgName type="ديوان" ref="ديوان-تفتيش-بحرى">ديوان تفتيش بحري</orgName></persName>.</p>
+            <p>تعين <persName>عزتلو محمد بيك صالح الذي كان مدير القليوبية مديرا
+               للغربية</persName>.</p>
+            <p>صار <persName>عزتلو محمد بيك فؤاد نجل سعادة حسن باشا رأفت
+                  <?oxy_comment_start author="Sarah" timestamp="20230719T190829+0200" comment="check in the original
+"?>من
+                  باوران<?oxy_comment_end?> الخديوي</persName>.</p>
+            <p>وجهت الرتبة الثانية إلى <persName>عزتلو سلامة بيك باشمهندس التلغرافات</persName>.</p>
+            <p>وجهت الرتبة الثانية أيضًا إلى <persName>عزتلو سليمان بيك أباظة مفتش الجفالك والعهد
+                  بالشرقية</persName>.</p>
+            <p>وجهت الرتبة الثالثة إلي رفعتلو <persName>حسن أفندي الباردوي أحد معاوني <orgName type="دائرة" ref="دائرة-دولتلو-عصمتلو-والدة-باشا">دائرة دولتلو عصمتلو والدة
+                     باشا</orgName></persName>.</p>
+            <p>اخيلت على عهدة <persName>عزتلو على بيك مبارك <orgName type="نظارة" ref="نظارة-الخيرية"><?oxy_comment_start author="Sarah" timestamp="20230719T191001+0200" comment="check in the original"?>نظارة
+                     الخيرية<?oxy_comment_end?></orgName></persName> زيادة على مأموريته.</p>
+            <p>تعيين عزتلو <persName>عبد القادر بيك الذي كان من
+                  <?oxy_comment_start author="Sarah" timestamp="20230719T191109+0200" comment="check
+"?>الأتي<?oxy_comment_end?>
+                  دردنجي بيادة ووظف موقتا بوظيفة الباورية بالمعية ميرالاى على الاي
+                  العارديا</persName> وصار <persName>عزتلو بكرى بيك ثابت ميرالاى
+                  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah" timestamp="20230719T191145+0200" comment="check
+"?>.<?oxy_comment_end?>..جي<?oxy_custom_end?>
+                  بيادة سابقًا</persName> وكان بالاي الغارديا مؤقتًا من زمرة
+               <?oxy_comment_start author="Sarah" timestamp="20230719T191200+0200" comment="check "?>باوران<?oxy_comment_end?>
+               الخديوى.</p>
+            <p>تعيين <persName>محمد بيك رضي
+                  <?oxy_comment_start author="Sarah" timestamp="20230719T191250+0200" comment="check
+"?>ميرلاي٣جي<?oxy_comment_end?>
+                  سواري سابقا</persName>
+               <?oxy_comment_start author="Sarah" timestamp="20230719T191347+0200" comment="check"?>على
+               الى العارديا السواري<?oxy_comment_end?> الذي افتتح.</p>
          </div>
-         <div xml:id="W1283003310" resp="#eSG">
+         <div xml:id="w9" resp="#eSG">
             <head><date when-custom="1283-03-06">٦ ربيع الأول ١٢٨٣</date>
                <date when="1866-07-19">١٩ يوليه ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٣٣</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head><title>اعلانات</title></head>
-            <head>صورة اعلان وراد من <orgName ref="بيت-مال-المحروسة">بيت مال المحروسة</orgName>
-                  ب<rs>افادة</rs> رقيم ٤ ربيع أول سنة ١٢٨٣هـ نمرة ٢٥</head>
-            <p>ان من ضمن املاك المرحوم <persName role="محافظ">خورشيد باشا <choice>
-                     <sic>محافظة سكندريه</sic>
-                     <corr>محافظ اسكندريه</corr>
-                  </choice> سابق</persName> اربعة منازل صغيرين مستخرجين من المنزل الكبير الكائن
-               بوجهه <placeName type="بركة" ref="بركة-الازبكية">بركة الأزبكية</placeName> بجوار
-                  <placeName type="منزل" ref="منزل-حضرة-السيد-على-أفندى-البكرى">منزل حضرة السيد على
-                  أفندى البكرى</placeName> تحرر عنهم قوائم مزاد باشهارهم و<sic>تسلموا</sic> الى
-                  <persName role="وكيل رئيس طائفة دلالين العقارات بالمحروسة">السيد محمد مصطفى وكيل
-                  رئيس طائفة دلالين العقارات بالمحروسة</persName> وللزوم إعلان كافة الراغبين بذلك
-               فكل من كان له رغبة يعاين المنازل المذكورة ويعطي المزاد بما يرغبه في القوائم المحكي
-               عنهم.</p>
+            <head><title>صورة اعلان وراد من <orgName type="بيت-مال" ref="بيت-مال-المحروسة">بيت مال
+                     المحروسة</orgName> باعادة رقيم ٤ ربيع أول سنة ١٢٨٣هـ نمرة ٢٥</title></head>
+            <p>ان من ضمن املاك المرحوم <persName>خورشيد باشا
+                  <?oxy_comment_start author="Sarah" timestamp="20230719T192419+0200" comment="check in the original"?><?oxy_custom_start type="oxy_content_highlight" color="255,255,0" mid="20"?>محافظة<?oxy_comment_end?>
+                  سكندرية سابق<?oxy_custom_end mid="20"?></persName> اربعة <placeName type="منازل" ref="منازل-خورشيد-باشا-محافظ-الاسكندرية-سابقا">منازل</placeName> صغيرين مستخرجين
+               من ال<placeName ref="منزل-خورشيد-باشا-محافظ-الاسكندرية-سابقا">منزل</placeName> الكبير
+               الكائن بوجهه <placeName type="بركة" ref="بركة-الازبكية">بركة الأزبكية</placeName>
+               بجوار <placeName type="منزل" ref="منزل-حضرة-السيد-على-أفندى-البكرى">منزل حضرة السيد
+                  على أفندى البكرى</placeName> تحرر عنهم قوائم مزاد باشهارهم
+               <?oxy_comment_start author="Sarah" timestamp="20230719T193050+0200" comment="check in the original"?>و<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>تسلمو<?oxy_custom_end?>ا<?oxy_comment_end?>
+               الى <persName>السيد محمد مصطفى وكيل رئيس طائفة دلالين العقارات بالمحروسة</persName>
+               وللزوم إعلان كافة الراغبين بذلك فكل من كان له رغبة يعاين المنازل المذكورة ويعطي
+               المزاد بما يرغبه في القوائم المحكي عنهم.</p>
          </div>
-         <div xml:id="W1283003411" resp="#eSG">
-            <head><date when-custom="1283-03-17">١٧ ربيع الأول ١٢٨٣</date>
-               <date when="1866-07-30">٣٠ يوليه ١٨٦٦</date>
-               <bibl><biblScope unit="issue">نمرة ٣٤</biblScope>
-                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
-            <p>صار سعادة <persName role="محافظ مصر">أحمد راشد باشا</persName> ذى الاحترام الذي كان
-               أحد أعضاء <orgName type="مجلس" ref="المجلس-الخصوصى">المجلس الخصوصى</orgName> الكرام
-               محافظ مصر المحميه وسعادة المحترم <persName role="أمين كمرك">ثابت باشا</persName> الذي
-               كان محافظها أمين <orgName type="كمرك" ref="كمرك-سكندرية">كمرك
-                  <sic>سكندرية</sic></orgName>.</p>
-            <p>وجه إلى عزتلو <persName role="ملتزم الملاحة">جرجس تادرس بيك ملتزم الملاحة</persName>
-               الرتبة الثانية المعتبرة.</p>
+         <div xml:id="w10" resp="#eSG">
+            <head><date when-custom="1283-03-17">١٧ ربيع الأول سنة ١٢٨٣</date><date when="1866-07-30">٣٠ يوليه سنة ١٨٦٦</date><bibl><biblScope unit="issue">نمرة
+                     ٣٤</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>صار سعادة <persName>أحمد راشد باشا ذي الأحترام الذي كان أحد اعضاء المجلس الخصوصي
+                  الكرام محافظ المحمية</persName> وسعادة المحترم<persName>ثابت باشا الذي كان محافظها
+                  أمين كمرك سكندرية</persName>.</p>
+            <p>وجه إلى عزتلو <persName>جرجس نادرس بيك ملتزم الملاحة</persName> الرتبة الثانية
+               المعتبرة.</p>
          </div>
-         <div xml:id="W1283003512" resp="#eSG">
-            <head><date when-custom="1283-03-24">٢٤ ربيع الأول ١٢٨٣</date>
-               <date when="1866-08-06">٦ أوغسطس ١٨٦٦</date>
-               <bibl><biblScope unit="issue">نمرة ٣٥</biblScope>
-                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
-            <p>قد استحصل على رتبة الميرميران العلية لسعادتلو <persName role="وكيل تفتيش الأقاليم البحرية">فيض الله نوري باشا وكيل <orgName ref="تفتيش-الاقاليم-البحرية">تفتيش الأقاليم البحرية</orgName></persName> لما
-               فيه من الأستحقاق والأهلية.</p>
-            <p>أحسن بالأنشنة المجيدية لهما من الرتبة الرابعة إلى كل من عزتلو <persName role="ناظر مدرسة البيادة">(ده برناردي) بيك ناظر <orgName ref="مدرسة البيادة" type="مدرسة"><placeName type="مدرسة" ref="مدرسة-البيادة">مدرسة
-                        البيادة</placeName></orgName></persName> و<persName role="ناظر مدرسة الطوبجية">مسيو (لارمه) ناظر <orgName ref="مدرسة الطوبجية" type="مدرسة"><placeName type="مدرسة" ref="مدرسة-الطوبجية">مدرسة
-                        الطوبجية</placeName></orgName></persName> و<persName role="ناظر مدرسة السواري">مسيو(بولار) ناظر <orgName ref="مدرسة السواري" type="مدرسة"><placeName ref="مدرسة-السوارى" type="مدرسة">مدرسة
-                        السواري</placeName></orgName></persName> وكدا بعد الامتحان أحسن برتبة
-               الملازم الثاني إلى كل من الأفندية الذين كان بعضهم برتبة الباش جاويش وهما
-                  <persName>شعبان رشدي</persName> و<persName>عمر رحمي</persName> وبعضهم برتبة البلوك
-               أمين وهو <persName>مصطفى أمين الجميع</persName> من تلامذة مدرسة البيادة وبعضهم باش
-               جاويشية وهو <persName>ابراهيم انس</persName> و<persName>خليل كامل</persName>
-                  و<persName>محمود سامي</persName> لكنهم من تلامذة مدرسة السواري وبعضهم جاويشية وهم
-                  <persName>أحمد نجيب</persName> و<persName>أحمد حادق</persName> و<persName>درويش
-                  فهمي</persName> و<persName>حامد نيازي</persName> عن كانوا بالمدرسة الطوبجية
-               وألحقوا ب<orgName ref="مدرسة اركان الحرب" type="مدرسة"><placeName type="مدرسة" ref="مدرسة-اركان-الحرب">مدرسة اركان الحرب</placeName></orgName> وذلك لما فيهم
-               من الأهلية وكمال الأستحقاقية مع بقاؤهم جميعًا بالمدارس الحربية.</p>
+         <div xml:id="w11" resp="#eSG">
+            <head><date when-custom="1283-03-24">٢٤ ربيع الأول سنة ١٢٨٣</date><date when="1866-08-06">٦ أوغسطس سنة ١٨٦٦</date><bibl><biblScope unit="issue">نمرة
+                     ٣٥</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>قد استحصل على رتبة الميرميران العلية لسعادتلو <persName>فيض الله نوري باشا وكيل تفتيش
+                  الأقاليم البحرية</persName>لما فيه من الأستحقاق والأهلية .</p>
+            <p>أحسن بالأنشنة المجيدية لهما من الرتبة الرابعة إلى كل من عزتلو <persName>(ده برناردي)
+                  بيك ناظر <placeName>مدرسة البيادة</placeName></persName> و<persName>مسيو (لارمه)
+                  ناظر <placeName>مدرسة الطوبجية</placeName></persName> و<persName>مسيو(بولار) ناظر
+                     <placeName>مدرسة السواري</placeName></persName> وكدا بعد الأمتحان أحسن برتبة
+               الملازم الثاني إلى كل من الأفندية الذين كان بعضهم برتبة <persName>الباش جاويش وهما
+                  شعبان رشدي وعمر رحمي</persName> وبعضهم برتبة <persName>البلوك أمين وهو مطظفى أمين
+                  الجميع من تلامذة <placeName>مدرسة البيادة</placeName></persName> وبعضهم
+                  <persName>باش جاويشية وهو ابراهيم انس وخليل كامل ومحمود سامي</persName> لكنهم من
+               تلامذة مدرسة السواري وبعضهم <persName>جاويشية وهم أحمد نجيب وأحمد حادق ودرويش فهمي
+                  وحامد نيازي</persName> عن كانوا بالمدرسة الطوبجية وألحقوا ب<placeName>مدرسة اركان
+                  الحرب</placeName> وذلك لما فيهم من الأهلية وكمال الأستحقاقية مع بقاؤهم جميعًا
+               بالمدارس الحربية. </p>
          </div>
-         <div xml:id="W1283003613" resp="#eSG">
-            <head><date when-custom="1283-03-30">غاية ربيع الأول ١٢٨٣</date>
-               <date when="1866-08-12">١٢ أوغسطس ١٨٦٦</date>
-               <bibl><biblScope unit="issue">نمرة ٣٦</biblScope>
-                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
-            <p>احسن بالرتبة الثانية إلى كل من عزتلو <persName role="باشمهندس ورشة العمليات">اسماعيل
-                  بيك باشمهندس <orgName ref="ورشة-العمليات" type="ورشة">ورشة
-                  العمليات</orgName></persName> وعزتلو <persName role="باش مهندس الاستحكامات بالسودان">عرفة بيك باش مهندس الاستحكامات
-                  بالسودان</persName> وعزتلو <persName role="مأمور أشغال القناطر">محمد بيك المنشاوي
-                  مأمور أشغال القناطر والبرامج والمحطات الصاير عملها ب<orgName type="مديرية" ref="مديرية-الغربية">مديرية الغربية</orgName></persName>.</p>
-            <p>كذا أحسن بالرتبة الرابعة إلى كل من <persName>محمد أفندي رفعت</persName>
-                  و<persName>محمد أفندي حسن</persName> المعاونين ب<orgName ref="تفتيش عموم الأقاليم" type="تفتيش">تفتيش عموم الأقاليم</orgName> و<persName role="باش كاتب">حسين افندي
-                  كامل باش كاتب ذلك التفتيش</persName> و<persName ref="كاتب تركي">حسن افندي الكاتب
+         <div xml:id="w12" resp="#eSG">
+            <head><date when-custom="1283-03-30">غاية ربيع الأول سنة ١٢٨٣</date><date when="1866-08-12">١٢ أوغسطس سنة ١٨٦٦</date><bibl><biblScope unit="issue">نمرة
+                     ٣٦</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>احسن بالرتبة الثانية إلى كل من عزتلو <persName>اسماعيل بيك باشمهندس ورشة
+                  العمليات</persName> وعزتلو <persName>عرفة بيك باش مهندس الأستحكامات
+                  بالسودان</persName> وعزتلو <persName>محمد بيك المنشاوي مأمور أشغال القناطر
+                  والبرامج والمحطات الصاير عملها بمديرية الغربية</persName>.</p>
+            <p>كذا أحسن بالرتبة الرابعة إلى كل من <persName>محمد أفندي رفعت ومحمد أفندي حسن
+                  المعاونين بتفتيش عموم الأقاليم</persName> و<persName ref="تفتيش_عموم_الأقاليم">حسين افندي كامل باش كاتب ذلك التفتيش</persName> و<persName>حسن افندي الكاتب
                   التركي</persName>.</p>
          </div>
-         <div xml:id="W1283003814" resp="#eSG">
-            <head><date when-custom="1283-04-14">١٤ ربيع الآخر ١٢٨٣</date>
-               <date when="1866-08-26">٢٦ أوغسطس ١٨٦٦</date>
-               <bibl><biblScope unit="issue">نمرة ٣٨</biblScope>
-                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
-            <p>تعين <persName role="معاون">أحمد أفندى خطاب ذو الرتبة الرابعة معاونا ب<orgName ref="تفتيش-عموم-الاقاليم" type="تفتيش">تفتيش عموم الأقاليم</orgName></persName>
-               ومثله أحمد أفندى بعد الأحسان إليه بالرتبة الخامسة.</p>
-            <p>احسن الى <persName role="مأمور المطابخ السنية">مصطفى افندى الصاغقول اغاسى أحد مأمورى
-                     <orgName ref="المطابخ-السنية">المطابخ السنية</orgName></persName> برتبة
-               البيكاشى احسن بالرتبة الرابعة إلى <persName role="معاون">محمد أفندى يحيى أحد معاونى
-                  المالية المنوط بمأمورية مؤقتة ب<orgName type="ديوان" ref="ديوان-الأمور-الخاصة-الخديوية">ديوان الأمور الخاصة
-                  الخديوية</orgName></persName> يستفاد من بوصلة واردة من <orgName type="ديوان" ref="ديوان-الجهادية">ديوان الجهادية</orgName> انه أحسن برتبة البيكباشى إلى
-                  <persName role="معاون">عبد الله افندى عزت الذي كان معاونا ب<orgName type="مجلس" ref="مجلس-العسكرية">مجلس العسكرية</orgName></persName> برتبة الصاغقول اغاسى
-               والحق بالاى السوارى الثالث.</p>
+         <div xml:id="w13" resp="#eSG">
+            <head><date when-custom="1283-04-14">١٤ ربيع الآخر سنة ١٢٨٣</date><date when="1866-08-26">٢٦ أوغسطس سنة ١٨٦٦</date><bibl><biblScope unit="issue">نمرة
+                     ٣٨</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>تعين<persName>أحمد أفندي خطاب ذو الرتبة الرابعة معاونًا بتفتيش عموم
+                  الأقاليم</persName> ومثله<persName>أحمد أفندي بعد الأحسان إليه بالرتبة
+                  الخامسة</persName>.</p>
+            <p>احسن إلى <persName>مصطفى افندي الصاغقول اغا سي أحد مأموري المطابخ السنية</persName>
+               برتبة البيكاشي احسن بالرتبة الرابعة إلى <persName>محمد أفندي يحيي أحد معاوني المالية
+                  المنوط ومأمورية مؤقتة ب<orgName type="ديوان_الأمور_الخاصة_الخديوية">ديوان الأمور
+                     الخاصة الخديوية</orgName></persName> يستفاد من بوصلة واردة من <orgName type="ديوان_الجهادية">ديوان الجهادية</orgName>انه أحسن برتبة <sic>اكييكباس</sic>
+               إلي <persName>عبد الله افندي عزت الذي كان معاونًا ب<orgName type="مجلس_العسكرية">مجلس
+                     العسكرية</orgName></persName> برتبة الصاعقول اغاسي والحق بالاي السواري
+               الثالث.</p>
          </div>
-         <div xml:id="W1283003815" resp="#eSG" n="RUZNAMA">
-            <head><date when-custom="1283-04-14">١٤ ربيع الآخر ١٢٨٣</date>
-               <date when="1866-08-26">٢٦ أوغسطس ١٨٦٦</date>
-               <bibl><biblScope unit="issue">نمرة ٣٨</biblScope>
+         <div xml:id="w14" resp="#eSG">
+            <head><date>١٤ ربيع الآخر سنة ١٢٨٣</date><date>٢٦ أوغسطس سنة
+                     ١٨٦٦</date><bibl><biblScope unit="issue">نمرة ٣٨</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-            <head>اعلانات</head>
-            <head>(اعلان من <orgName type="ديوان" ref="ديوان-المالية">ديوان
-               المالية</orgName>)</head>
-            <p>ترك المرحوم السيد <persName role="صرّاف بالروزنامجة">بدوى غانم الذى كان صرّافا
-                     ب<orgName type="الروزنامجة" ref="الروزنامجة">الروزنامجة</orgName></persName>
-               منزلين معرضين للبيع بمعرفة المالية أحداهما جديد بالزير المعلق وقف في المزايدة على
-                  <persName>سعادة فاضل باشا</persName> بمبلغ قدره مائه وعشرة آلاف قرش والثاني قديم
-                  ب<placeName type="سويقة" ref="سويقة-اللاله">سويقة اللاله</placeName> بلغ في
-               المزايدة ثلاثة وتسعين ألف قرش وقد ضربت لمبيعهما مدة ثمانية أيام ابتداؤها ١٥ ربيع
-               الثاني إلى غاية ٢٣ منه فمن يرغب في ذلك فعليه بالمالية قبل حلول الميعاد وكل من طلب بعد
-               لا يقبل في الميري بل يكون المتصرف بلا انتظار.</p>
+            <head><title>اعلانات (اعلان من <orgName type="ديوان_المالية">ديوان
+                  المالية</orgName>)</title></head>
+            <p>ترك المرحوم السبد <persName>بدوي غانم الذي كان صرافًا ب<orgName type="الروزنامجة">الروزنامجة</orgName></persName>منزلين معرضين للبيع بمعرفة المالية أحداهما جديد
+                  ب<placeName>الزير المعلق</placeName>وقف في المزايدة على سعادة فاضل باشا بمبلغ قدره
+               مائه وعشرة آلاف قرش والثاني قديم ب<placeName>سويقة اللاله</placeName> بلغ في المزايدة
+               ثلاثة وتسعين ألف قرش وقد ضربت لمبيعهما مدة ثمانية أيام ابتداؤها ١٥ ربيع الثاني إلى
+               غاية ٢٣ منه فمن يرغب في ذلك فعليه بالمالية قبل حلول الميعاد وكل من طلب بعد لا يقبل في
+               الميري بل يكون المتصرف بلا انتظار.</p>
          </div>
-         <div xml:id="W1283003916" resp="#eSG">
-            <head><date when-custom="1283-04-21">٢١ ربيع الآخر ١٢٨٣</date>
-               <date when="1866-09-02">٢ سبتمبر ١٨٦٦</date>
-               <bibl><biblScope unit="issue">نمرة ٣٩</biblScope>
+         <div xml:id="w15" resp="#eSG">
+            <head><date when-custom="1283-04-21">٢١ ربيع الآخر سنة ١٢٨٣</date><date when="1866-09-02">٢ سبتمبر سنة ١٨٦٦</date><bibl><biblScope unit="issue">نمرة
+                     ٣٩</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>صار عزتلو <persName>أحمد كمال بيك الذي كان وكيل المالية وكيل <orgName type="ديوان_الأمور_الخاصة">ديوان الأمور الخاصة</orgName></persName>.</p>
+            <p>أحسن إلى رفعتلو <persName>عبد القادر افندي مأمور<orgName type="أوقاف_الحرمين_الشريفين">أوقاف الحرمين الشريفين</orgName></persName>
+               بالرتبة الثالثة </p>
+            <p>أحسن إلي فتوتلو <persName>حسن أفندي على ناظر <orgName type="أوقاف_السيدين">أوقاف
+                     السيدين</orgName></persName> بالرتبة الرابعة .</p>
+            <p>أحسن إلى عزتلو <persName>موسي بيك العقاد أحد تجار مصر المعتبرين</persName> بنيشان
+               همايوني مجيدي من الرتبة الثالثة.</p>
+         </div>
+         <div xml:id="w16" resp="#eSG">
+            <head><date when-custom="1283-04-28">٢٨ ربيع الآخر سنة ١٢٨٣</date><date when="1866-09-09">٩ سبتمبر سنة ١٨٦٦</date><bibl><biblScope unit="issue">نمرة
+                     ٤٠</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>وجهت رتبة الميرميران العلية إلي سعادتلو <persName>محمد خورشيد باشا مدير عموم السكة
+                  الحديدية</persName>.</p>
+            <p>أحسن إلى فتوتلو <persName>أحمد سبكي افندي المهندس الذي بمعية عزتلو <persName>محمود
+                     بيك الفلكي</persName></persName> بالرتبة الرابعة.</p>
+            <p>أحسن إلى فتوتلو <persName>ولي حلمي بيك أحد معاوني المعية السنية</persName> بالرتبة
+               الرابعة.</p>
+         </div>
+         <div xml:id="w17" resp="#eSG">
+            <head><date when-custom="1283-05-07">٧ جمادي الأولى ١٢٨٣</date><date when="1866-09-17">١٧ سبتمبر ١٨٦٦</date><bibl><biblScope unit="issue">نمرة ٤١</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+            <p>في منتصف الساعة الثالثة ليلة الأحد ٢٨ ربيع الثاني ظهر <rs type="حريق">حريق</rs>ب<orgName type="عربخانة_ملك_حريم_المرحوم_أحمد_باشا_ظاهر">عربخانة</orgName> كائنة ب<placeName>الأزبكية</placeName> بجوار <orgName type="الضبطية">الضبطية</orgName>ملك حريم المرحوم<persName>أحمد باشا
+                  ظاهر</persName> سكن <persName>مدام كليور زوجة <persName>الخواجة رسلاس
+                     قبودر</persName></persName> من الضبطية بارسال اللازم من طلومبات وخلافها وأطفشت
+               في نصف ساعة بدون أن تسري إلى جهة أخرى ولم يحترق سوى عربيتين وبعض أقطان وجلود فلو لم
+               تسعف هذه العربخانة بواسطة قرب الضبطية لانتشر الحريق لاتساعها وكثرة أمتعتها .</p>
+         </div>
+         <div xml:id="w18" resp="#eSG">
+            <head><date when-custom="1283-05-21">٢١ جمادي الأولى ١٢٨٣</date><date when="1866-10-01">١ أقتوبر ١٨٦٦</date><bibl><biblScope unit="issue">نمرة ٤٤</biblScope>
                   <biblScope unit="page">صفحة ١</biblScope></bibl></head>
-            <p>صار عزتلو <persName role="وكيل المالية">أحمد كمال بيك الذي كان وكيل المالية وكيل
-                     <orgName type="ديوان" ref="ديوان-الأمور-الخاصة">ديوان الأمور
-                  الخاصة</orgName></persName>.</p>
-            <p>أحسن إلى رفعتلو <persName role="مأمور أوقاف الحرمين الشريفين">عبد القادر افندي مأمور
-                     <orgName ref="أوقاف-الحرمين-الشريفين">أوقاف الحرمين
-                  الشريفين</orgName></persName> بالرتبة الثالثة </p>
-            <p>أحسن الى فتوتلو <persName role="ناظر أوقاف السيدين">حسن أفندي على ناظر <orgName ref="أوقاف-السيدين">أوقاف السيدين</orgName></persName> بالرتبة الرابعة.</p>
-            <p>أحسن إلى عزتلو <persName role="تاجر">موسي بيك العقاد أحد تجار مصر
-                  المعتبرين</persName> بنيشان همايوني مجيدي من الرتبة الثالثة.</p>
+            <head><title>حوادث داخلية</title></head>
+            <p>علقت الأدارة السنية الخديوية بتوجية <orgName type="نظارة_المسافرخانة_المصرية">نظارة
+                  المسافر خانة المصرية</orgName> إلى حضرة عزتلو <persName>أزمرلي أمين بيلط أفندي أحد
+                  أعضاء <orgName type="مجلس_استئناف_مصر">مجلس استئناف مصر</orgName> سابقا</persName>
+               لما فيه من حسن الأستقامة والأستعداد التام وكمال الأهلية للقيام بها أتم قيام.</p>
+            <p>ألحق حضرة عزتلو <persName>على جودت بك الذي كان وكيل <orgName type="محافظة_مصر">محافظة
+                     مصر</orgName></persName> ب<orgName type="المعية_السنية">المعية السنية</orgName>
+               واستعوض بحضرة عزتلو <persName>جليل بيامي بك الذي كان أحد أعضاء مجلس الأستئناف
+                  المصري</persName> كما تعلقت به الأدارة الكريمة.</p>
          </div>
-         <div xml:id="W1283004017" resp="#eSG">
-            <head><date when-custom="1283-04-28">٢٨ ربيع الآخر ١٢٨٣</date>
-               <date when="1866-09-09">٩ سبتمبر ١٨٦٦</date>
-               <bibl><biblScope unit="issue">نمرة ٤٠</biblScope>
-                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
-            <p>وجهت رتبة الميرميران العلية إلي سعادتلو <persName role="مدير عموم السكة الحديدية">محمد خورشيد باشا مدير عموم <orgName ref="السكة-الحديدية">السكة
-                  الحديدية</orgName></persName>.</p>
-            <p>أحسن إلى فتوتلو <persName role="مهندس">أحمد سبكي افندي المهندس الذي بمعية عزتلو
-                     <persName>محمود بيك الفلكي</persName></persName> بالرتبة الرابعة.</p>
-            <p>أحسن إلى فتوتلو <persName role="معاون">ولي حلمي بيك أحد معاوني <orgName type="المعية-السنية">المعية السنية</orgName></persName> بالرتبة الرابعة.</p>
-         </div>
-         <div xml:id="W1283004118" resp="#eSG">
-            <head><date when-custom="1283-05-07">٧ جمادي الأولى ١٢٨٣</date>
-               <date when="1866-09-17">١٧ سبتمبر ١٨٦٦</date>
-               <bibl><biblScope unit="issue">نمرة ٤١</biblScope>
-                  <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
-            <p>في منتصف الساعة الثالثة ليلة الأحد ٢٨ ربيع الثاني ظهر <rs type="حريق">حريق</rs>
-                  ب<orgName type="عربخانة" ref="عربخانة-ملك-حريم-المرحوم-أحمد-باشا-ظاهر">عربخانة</orgName> كائنة ب<placeName ref="الازبكية">الأزبكية</placeName> بجوار
-                  <orgName type="الضبطية">الضبطية</orgName> ملك <persName>حريم المرحوم
-                     <persName>أحمد باشا طاهر</persName></persName> سكن <persName>مدام كليور زوجة
-                     <persName>الخواجة رسلاس قبودر</persName></persName> من الضبطية بارسال اللازم من
-               طلومبات وخلافها وأطفئت في نصف ساعة بدون أن تسري إلى جهة أخرى ولم يحترق سوى عربيتين
-               وبعض أقطان وجلود فلو لم تسعف هذه العربخانة بواسطة قرب الضبطية لانتشر الحريق لاتساعها
-               وكثرة أمتعتها.</p>
-         </div>
-         <div xml:id="W1283004419" resp="#eSG">
-            <head><date when-custom="1283-05-21">٢١ جمادي الأولى ١٢٨٣</date>
-               <date when="1866-10-01">١ <choice>
-                     <sic>اقتوبر</sic>
-                     <corr>اكتوبر</corr>
-                  </choice> ١٨٦٦</date>
-               <bibl><biblScope unit="issue">نمرة ٤٤</biblScope>
-                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
-            <head>حوادث داخلية</head>
-            <p>علقت الارادة السنية الخديوية بتوجية <orgName type="نظارة" ref="نظارة-المسافرخانة-المصرية">نظارة المسافرخانة المصرية</orgName> إلى حضرة عزتلو
-                  <persName>ازمرلي أمين بيلط أفندي أحد أعضاء <orgName type="مجلس" ref="مجلس-استئناف-مصر">مجلس استئناف مصر</orgName> سابقا</persName> لما فيه من
-               حسن الأستقامة والأستعداد التام وكمال الأهلية للقيام بها أتم قيام.</p>
-            <p>ألحق حضرة عزتلو <persName role="وكيل محافظة مصر">على جودت بك الذي كان وكيل <orgName type="محافظة_مصر" ref="محافظة-مصر">محافظة مصر</orgName></persName> ب<orgName type="المعية-السنية">المعية السنية</orgName> واستعوض بحضرة عزتلو <persName>جليل
-                  بيامي بك الذي كان أحد أعضاء <orgName ref="مجلس الأستئناف المصري" type="مجلس">مجلس
-                     الأستئناف المصري</orgName></persName> كما تعلقت به الارادة الكريمة.</p>
-         </div>
-         <div xml:id="W1283004720" resp="#eSG">
-            <head><date when-custom="1283-06-01">غرة جمادي الثانى ١٢٨٣</date>
-               <date when="1866-10-11">١١ <choice>
-                     <sic>اقتوبر</sic>
-                     <corr>اكتوبر</corr>
-                  </choice> ١٨٦٦</date>
-               <bibl><biblScope unit="issue">نمرة ٤٧</biblScope>
-                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-            <head>اعلانات</head>
-            <table rows="5" cols="2">
-               <row role="label">
-                  <cell>منزلان ب<placeName ref="شارع البيدق" type="شارع">شارع البيدق</placeName>
-                        ب<placeName ref="الازبكية">الأزبكية</placeName> نظارة <persName>أحمد
-                        ريحان</persName></cell>
-                  <cell/>
-               </row>
-               <row>
-                  <cell>منزل ب<placeName type="درب" ref="درب-العسل">درب العسل</placeName>
-                        ب<placeName ref="خط-الصليبة" type="خط">خط الصليبة</placeName>
-                     <orgName type="وقف" ref="وقف-الجعافرة">وقف الجعافرة</orgName></cell>
-                  <cell/>
-               </row>
-               <row>
-                  <cell><placeName type="خرابة" ref="خرابة-بحارة-الأربعين">خرابة ب<placeName ref="حارة-الاربعين" type="حارة">حارة الأربعين</placeName></placeName>
-                     نظارة <persName>محمد أفندي نجيب</persName> و<persName>الحرمة
-                     الزاهرة</persName></cell>
-                  <cell/>
-               </row>
-               <row>
-                  <cell>ربع <placeName type="منزل" ref="منزل-بحارة-ضاحى">منزل ب<placeName ref="حارة-ضاحى" type="حارة">حارة ضاحي</placeName></placeName> ب<placeName ref="الحسينية">الحسينية</placeName>
-                     <orgName type="وقف" ref="وقف-الحرمة-غزالة">وقف الحرمة غزالة</orgName> نظارة
-                        <persName>أحمد محمد الخامي القباني</persName>.</cell>
-                  <cell/>
-               </row>
-               <row>
-                  <cell><placeName ref="منزل-وقف-عبد-الرحمن-الطحلاوى">منزل</placeName> ب<placeName ref="حارة-الامير" type="حارة">حارة الأمير</placeName> ب<placeName type="خط" ref="خط-الازهر">خط الأزهر</placeName>
-                     <orgName type="وقف" ref="وقف-عبدالرحمن-الطحلاوى">وقف عبد الرحمن
-                        الطحلاوي</orgName> نظارة <persName>مصطفى الطحلاوي</persName>.</cell>
-                  <cell/>
-               </row>
-               <row>
-                  <cell/>
-                  <cell/>
-               </row>
-            </table>
-            <p>حيث قد ساغ شرعا بيع انقاض الأماكن المذكورة ومؤاجرة أرضها والخلق فيها لمن يرغب كتب إلي
-               معاون <orgName ref="الاوقاف">الأوقاف</orgName> باشهار ذلك بقوائم المزايدة فمن كان له
-               رغبة فليتوجه هناك لذلك.</p>
-         </div>
-         <div xml:id="W1283004821" resp="#eSG">
-            <head><date when-custom="1283-06-05">٥ جمادي الثانى ١٢٨٣</date>
-               <date when="1866-10-15">١٥ اكتوبر ١٨٦٦</date>
-               <bibl><biblScope unit="issue">نمرة ٤٨</biblScope>
-                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
-            <p>في الثامن من ليلة الجمعة الماضية ظهر <rs type="حريق">حريق</rs> ب<placeName type="منزل" ref="منزل-ورثة-المرحوم-حسن-المهندس">منزل ورثة المرحوم حسن
-                  المهندس</placeName> ب<placeName type="درب" ref="درب-القطة">درب القطة</placeName>
-                  ب<orgName type="ثمن" ref="ثمن-الأزبكية"><placeName type="ثمن" ref="ثمن-الازبكية">ثمن الأزبكية</placeName></orgName> سكن <persName>الشيخ شاكر عمر</persName>
-               فبودر من <orgName type="الضبطية">الضبطية</orgName> حين وصول الخبر بارسال ما يلزم
-               لاطفائه من طلومبات وغيرها فكان ذلك في زمن يسير بعد أن احترق حاصل مملوء بحطب قطن وسقف
-               رواق بأعلاه وجميع ما فيه وفسحة وبالألطاف انه لم يسر إلى جهة أخرى.</p>
-         </div>
-         <div xml:id="W1283005023" resp="#eSG">
-            <head><date when-custom="1283-06-12">١٢ جمادي الثاني ١٢٨٣</date>
-               <date when="1866-10-22">٢٢ اكتوبر ١٨٦٦</date>
-               <bibl><biblScope unit="issue">نمرة ٥٠</biblScope>
-                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+         <div xml:id="w19" resp="#eSG">
+            <head><date when-custom="1283-06-01">غرة جمادي الثانى سنة ١٢٨٣</date><date when="1866-10-11">١١ أكتوبر ١٨٦٦</date><bibl><biblScope unit="issue">نمرة
+                     ٤٧</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head><title>اعلانات</title></head>
-            <p>حيث أن الطريق المقاطع ل<placeName type="خط" ref="خط-شارع-الاشرفية">خط <placeName ref="شارع-الاشرافية" type="شارع">شارع الأشرفية</placeName></placeName> الذي
-               أنفذه الميري إلى جهة <placeName type="مشهد" ref="المشهد-الحسينى">المشهد
-                  الحسيني</placeName> زادت قطعات من الأملاك اللاتى كانت مشتراه لاجله وهو مستغن عنها
-               حررت بها قوائم مزايدة واضحة الحدود والمساحة والشروط اللازمة وسلمت إلى شيخ الدلالين
-               ليشهرها للمزايدة فمن كان له رغبة فعليه بها وأجراء الأصول.</p>
+            <p>منزلان ب<placeName>شارع البيدق بالأزبكية</placeName> نظارة أحمد ريحان </p>
+            <p>منزل ب<placeName>درب العسل بخط الصليبة</placeName><orgName type="وقف_الجعافرة">وقف
+                  الجعافرة</orgName></p>
+            <p>خرابة ب<placeName>حارة الأربعين</placeName>نظارة محمد أفندي نجيب والحرمة الزاهرة </p>
+            <p>ربع منزل ب<placeName>حارة ضاحي بالحسينية</placeName><orgName type="وقف_الحرمة_غزالة">وقف الحرمة غزالة</orgName> نظارة أحمد محمد الخامي القباني .</p>
+            <p>منزل ب<placeName>حارة الأمير بخط الأزهر</placeName><orgName type="وقف_عبدالرحمن_الطحلاوى">وقف عبد الرحمن الطحلاوي</orgName> نظارة مصطفى
+               الطحلاوي.</p>
+            <p>حيث قد ساغ شرعا بيع انقاض الأماكن المذكورة ومؤاجرة أرضها والخلق فيها لمن يرغب كتب إلي
+               معاون الأوقاف باشهار ذلك بقوائم المزايدة فمن كان له رغبة فليتوجه هناك لذلك . </p>
          </div>
-         <div xml:id="W1283005424" resp="#eSG">
-            <head><date when-custom="1283-06-26">٢٦ جمادي الآخرة ١٢٨٣</date>
-               <date when="1866-11-05">٥ نوامبر ١٨٦٦</date>
-               <bibl><biblScope unit="issue">نمرة ٥٤</biblScope>
+         <div xml:id="w20" resp="#eSG">
+            <head><date when-custom="1283-06-05">٥ جمادي الثانى سنة ١٢٨٣</date><date when="1866-10-15">١٥ أكتوبر ١٨٦٦</date><bibl><biblScope unit="issue">نمرة ٤٨</biblScope>
                   <biblScope unit="page">صفحة ١</biblScope></bibl></head>
-            <p>عاد سعادتلو <persName>قاسم باشا إلى نظارة <orgName type="دائرة" ref="الدائرة-الخاصة-السنية">الدائرة الخاصة السنية</orgName></persName> ومن كان
-               قد خلفه فيها سعادة <persName role="من-اعضاء-مجلس-الاحكام-المصرية">سليم باشا
-                  الجزايرلي</persName> صار من أعضاء <orgName type="مجلس" ref="مجلس-الاحكام-المصرية">مجلس الأحكام المصرية</orgName> كما تعلقت بذلك الارادة الخديوية.</p>
+            <p>في الثامن من ليلة الجمعة الماضية ظهر<rs type="حريق">حريق</rs>بمنزل ورثة المرحوم حسن
+               المهندس ب<placeName>درب القطة</placeName>ب<orgName type="ثمن_الأزبكية">ثمن
+                  الأزبكية</orgName>سكن<persName>الشيخ شاكر عمر</persName>فبودر من <orgName type="الضبطية">الضبطية</orgName> حين وصول الخبر بارسال ما يلزم لاطفائه من طلومبات
+               وغيرها فكان ذلك في زمن يسير بعد أن احترق حاصل مملوء بحطب قطن وسقف رواق بأعلاه وجميع
+               ما فيه وفسحة وبالألطاف انه لم يسر إلى جهة أخرى.</p>
          </div>
-         <div xml:id="W1283005725" resp="#eSG">
-            <head><date when-custom="1283-07-07">٧ رجب ١٢٨٣</date>
-               <date when="1866-11-15">١٥ نوامبر ١٨٦٦</date>
-               <bibl><biblScope unit="issue">نمرة ٥٧</biblScope>
-                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
-            <p>وجهت رياسة <orgName type="مجلس" ref="مجلس-شورى-الوطنية-المصرية">مجلس شورى الوطنية
-                  المصرية</orgName> إلي عهدة سعادتلو <persName role="رئيس-مجلس-شورى-الوطنية-المصرية">راغب باشا مأمور <orgName ref="الامور-الخارجية">الأمور
-                  الخارجية</orgName></persName>.</p>
+         <div xml:id="w21" resp="#eSG">
+            <head><date when-custom="1283-06-08">٨ جمادي الثانى سنة ١٢٨٣</date><date when="1866-10-18">١٨ أكتوبر ١٨٦٦</date><bibl><biblScope unit="issue">نمرة
+                     ٤٩</biblScope><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
+            <p>عشية ثالث عشر سبتمبر حصل <rs type="حريق">حريق</rs>عظيم في مفازات سكك الحديد الشرقية
+               والغربية<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+               بلوندرة<?oxy_custom_end?> حتي ارتفع لهيبه نحو السماء ارتفاعا فاحشا فبادر المأمورين
+               بجلب الطلومبات التجارية وبعد مدة طويلة أطفئ مع عدم السراية إلى جهة أخرى مع أن الأشياء
+               التالفة بذلك الحريق تبلغ 200000 مأتي ألف ليرا وهي تعادل خمسة ملايين من الفرنقات.</p>
+         </div>
+         <div xml:id="w22" resp="#eSG">
+            <head><date when-custom="1283-06-12">١٢ جمادي الثاني سنة ١٢٨٣</date><date when="1866-10-22">٢٢ أكتوبر أفرنجي ١٨٦٦</date><bibl><biblScope unit="issue">نمرة
+                     ٥٠</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head><title>اعلانات</title></head>
+            <p>حيث أن الطريق المقاطع ل<placeName>خط شارع الأشرفية</placeName>الذي أنفذه الميري إلى
+               جهة <placeName>المشهد الحسيني</placeName> زادت قطعات من الأملاك اللاتى كانت مشتراه
+               لاجله وهو مستغن عنها حررت بها قوائم <rs type="مزايدة">مزايدة</rs> واضحة الحدود
+               والمساحة والشروط اللازمة وسلمت إلى شيخ الدلالين ليشهرها للمزايدة فمن كان له رغبة
+               فعليه بها وأجراء الأصول.</p>
+         </div>
+         <div xml:id="w23" resp="#eSG">
+            <head><date when-custom="1283-06-26">٢٦ جمادي الآخرة سنة ١٢٨٣</date><date when="1866-11-05">٥ نوامبر ١٨٦٦</date><bibl><biblScope unit="issue">نمرة
+                     ٥٤</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>عاد سعادتلو<persName>قاسم باشا إلى <orgName type="نظارة_الدائرة_الخاصة_السنية">نظارة
+                     الدائرة الخاصة السنية</orgName></persName>ومن كان قد خلفه فيها سعادة<persName ref="من_اعضاء_مجلس_الاحكام_المصرية">سليم باشا الجزايرلي</persName>صارمن
+                  أعضاء<orgName type="مجلس_الاحكام_المصرية">مجلس الأحكام المصرية</orgName>كما تعلقت
+               بذلك الأدارة الخديوية.</p>
+         </div>
+         <div xml:id="w24" resp="#eSG">
+            <head><date when-custom="1283-07-07">٧ رجب سنة ١٢٨٣</date><date when="1866-11-15">١٥
+                  نوامبر ١٨٦٦</date><bibl><biblScope unit="issue">نمرة ٥٧</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>وجهت رياسة<orgName type="مجلس_شورى_الوطنية_المصرية">مجلس شورى الوطنية
+                  المصرية</orgName>إلي عهدة سعادتلو <persName ref="رئيس_مجلس_شورى_الوطنية_المصرية">راغب باشا مأمور الأمور الخارجية</persName>.</p>
          </div>
          <div xml:id="w25" resp="#eSG">
-            <head><date>٧ رجب سنة ١٢٨٣</date>
-               <date>١٥ نوامبر ١٨٦٦</date>
-               <bibl><biblScope unit="issue">نمرة ٥٧</biblScope>
-                  <biblScope unit="page">صفحة ٢ – ٣</biblScope></bibl></head>
-            <head>(ملحوظ روزنامة الوقايع)</head>
-            <p>قد تحرر بغازيته المانيتور ما هو مسطور بناء على ما علم من مدة ست شهور والحال أنه من
-               ذلك الزمان إلى الآن حصل بخريطة الأبنية بعض تعديل واستحسن بعض تبديل برأي القومسيون أى
-               المخصوصين بهذا الشأن المجرى العمل بأحكم اتقان على حسب مرغوب الحضرة الخديوية وأفكارها
-               السنية ولنذكر ما صار بالتعديل والتبديل بلا تطويل فنقول ان <placeName ref="سركى مصر"><orgName ref="سركى-مصر">سركى مصر</orgName></placeName> الآن يشتمل أربعة اماكن
-               بالبنيان</p>
+            <head><date>٧ رجب سنة ١٢٨٣</date><date>١٥ نوامبر ١٨٦٦</date><bibl><biblScope unit="issue">نمرة
+                     ٥٧</biblScope><biblScope unit="page">صفحة ٢ – ٣</biblScope></bibl></head>
+            <head><title>(ملحوظ روزنامة الوقايع)</title></head>
+            <p>قد تحرر ب<orgName type="غازيته_المانيتور"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>غازيته
+                  المانيتور<?oxy_custom_end?></orgName> ما هو مسطور بناء على ما علم من مدة ست شهور
+               والحال أنه من ذلك الزمان إلى الآن حصل بخريطة الأبنية بعض تعديل واستحسن بعض تبديل برأي
+               القومسيون أى المخصوصين بهذا الشأن المجرى العمل بأحكم اتقان على حسب مرغوب الحضرة
+               الخديوية وأفكارها السنية ولنذكر ما صار بالتعديل والتبديل بلا تطويل فنقول</p>
+            <p>ان <orgName type="سركى_مصر"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>سركي
+                  مصر<?oxy_custom_end?></orgName> الأن يشتمل أربعة أماكن بالبنيان </p>
             <p>الأول رحبة فسيحة محوطة وطولها اثنان وثمانون ومائه متر وهي تجاه رحبة الدولة العلية
-               وبينهما الطريق في خلال ابنية المعرض ب<placeName ref="ميدان-شندمارس" type="ميدان">الميدان المعروف بشندمارس</placeName> بحيث يتصور السالك في هذه الجهة التي هي احدى
-               جهات برّ مصر وجهات برّ الترك وستوضع بها أنواع المزروعات المصرية ومصنوعتها العصرية
-               التي رتبت بمعرفة <orgName type="قومسيون" ref="قومسيون-مصر">قومسيون مصر</orgName>
-               لعرضها على المتفرجين وتعريضها للناظرين.</p>
+               وبينهما الطريق في خلال ابنية المعرض ب<placeName>الميدان المعروف
+               بشندمارس</placeName>بحيث يتصور السالك في هذه الجهة التي هي احدى جهات برّ مصر وجهات
+               برّ الترك وستوضع بها أنواع المزروعات المصرية ومصنوعتها العصرية التي رتبت بمعرفة
+               قومسيون مصر لعرضها على المتفرجين وتعريضها للناظرين.</p>
             <p>الثاني شكل هيكل أي معبد قديم يدل على ما كان في قديم الزمان من أشكال البنيان وقد ذكر
                بيان رسمه ووضعه في غازيته المونيتور بأوضح افادة فلا حاجة إلى الاعادة وانما نقول ان
                بناؤه قد كمل الأن ونقشه جار بالألوان وان كل من شاهد شكله الغريب وحسن انتظامه العجيب
                الخالي عن القصور الفائق على القصور رأى أجمل شكل يحير العقل.</p>
-            <p>الثالث سلاملك وهو دارة معدة لسعادة الخديو الأعظم الداور الاكرم بها محلان أحدهما مثل
-               منزل ب<placeName ref="خط-الجمالية" type="خط">خط الجمالية</placeName> بمصر وهو نموذج
-               مباني الأعصار الأخيرة وثانيها محل طوله تسعة أمتار وعرضه ست وسيوضع به مجسم رسم الأقليم
-               المصري من <placeName type="بحر" ref="البحر-الابيض">البحر الأبيض</placeName> إلى
-                  <placeName ref="منية-ابن-الخصيب">منية ابن الخصيب</placeName> منتظما بأجمل ترتيب
+            <p>الثالث سلاملك وهودارة معدة لسعادة <persName>الخديو الأعظم</persName> الدواور الأكرم
+               بها محلان أحدهما مثل منزل ب<placeName>خط الجمالية</placeName> بمصر وهو نموذج مباني
+               الأعصار الأخيرة وثانيها محل طوله تسعة أمتار وعرضه ست وسيوضع به مجسم رسم الأقليم
+               المصري من البحر الأبيض إلى <placeName>منية ابن الخصيب</placeName> منتظما بأجمل ترتيب
                يتضح به حسن تلك الرسوم للأنظار على وجه العموم.</p>
-            <p>الرابع وكالة أى خان مثل <placeName type="وكالة" ref="وكالة-منصور">وكالة
-                  منصور</placeName> الموجودة في <placeName ref="الصعيد">الصعيد</placeName>
-                  ب<placeName ref="اسوان">أسوان</placeName> بها بعض دكاكين معدة لاناس من المحترفين
-               وأرباب الصنائع والبائعين ليشتغل كل منهم بشأنه أمام المتفرجين وبها اصطبل معد لحمارين
-               وهجان واحد وغير ذلك مما يبتهج به المشاهد وبالجملة فالطبقة الأولي من سركى مصر مشتملة
-               على أماكن وجملة مساكن تكفي لإقامة أربعين من الأشخاص المذكورين ومن ملاحي الذهبية وهي
-               سفينة من نوع جميل من أنواع سفن النيل ومن هذا المكان يعلم ما بجهة السعيد من أوضاع
-               البنيان والغالب أنه يكون كثير الأزدحام على الدوام لان كل دخله يظن أنه انتقل بغتة إلى
-               مصر ويشاهد اهلها وحرفهم وعوائدهم وصنائعهم مع غرابة البنيان المقدمة في الذكر وجميع ذلك
-               خلاف الافران الستة التي تشاهد بها كيفية فقس بيض الدجاج بالعيان فانها ستكون بالقطعة
-               الارض المخصصة لها في الجهة المعدة لتجربة ما يتعلق بالزراعة والحراثة حسب التماس
-               القومسيون الايمبراطوري. </p>
+            <p>الرابع وكالة أى خان مثل وكالة منصور الموجودة في الصعيد بأسوان بها بعض دكاكين معدة
+               لاناس من المحترفين وأرباب الصنائع والبائعين ليشتغل كل منهم بشأنه أمام المتفرجين وبها
+               اصطبل معد لحمارين وهجان واحد وغير ذلك مما يبتهج به المشاهد وبالجملة فالطبقة الأولي من
+               سركى مصر مشتملة على أماكن وجملة مساكن تكفي لإقامة أربعين من الأشخاص المذكورين ومن
+               ملاحي الذهبية وهي سفينة من نوع جميل من أنواع سفن النيل ومن هذا المكان يعلم ما بجهة
+               السعيد من أوضاع البنيان والغالب أنه يكون كثير الأزدحام على الدوام لان كل دخله يظن أنه
+               انتقل بغتة إلى مصر ويشاهد اهلها وحرقهم وعوائدهم وصنائعهم مع غرابة البنيان المقدمة في
+               الذكر وجميع ذلك الخلاف الأفران الستة التي تشاهد بها كيفية فقس بيض الدجاج بالعيان
+               فانها ستكون بالقطعة الأرض المخصصة لها في الجهة المعدة لتجربة ما يتعلق بالزراعة
+               والحراثة حسب التماس القومسيون الايمبراطوري. </p>
          </div>
-         <div xml:id="W1283010127" resp="#eSG" n="RUZNAMJE">
-            <head><date when-custom="1283-10-28">٢٨ ذي الحجة ١٢٨٣</date>
-               <date when="1867-05-02">٢ مايه ١٨٦٧</date>
-               <bibl><biblScope unit="issue">نمرة ١٠١</biblScope>
-                  <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
-            <p>علم من افادة واردة من <orgName type="الضبطية">الضبطية</orgName> انه بعد مضي ثلاث
-               ساعات وربع من ليلة الخميس الماضي الموافق ٢١ من الشهر الحال وقع <rs type="حريق">حريق</rs> ب<placeName ref="وكالة-مطبخ-العسل" type="وكالة">وكالة مطبخ
-                  العسل</placeName> ب<placeName ref="الاشرافية">الأشرفية</placeName> ب<orgName type="ثمن" ref="ثمن-الدرب-الأحمر"><placeName type="ثمن" ref="ثمن-الدرب-الاحمر">ثمن
-                     الدرب الأحمر</placeName></orgName> فاحترق منها أوضة بما فيها من بذر القطن وأخر
-               بعد ست ساعات ونصف من يوم الجمعة ب<placeName type="منزل" ref="منزل-رزين-البردعى">منزل
-                  رزين البردعي</placeName> الكائن ب<placeName ref="حارة-الفجالة" type="حارة">حارة
-                  الفجالة</placeName> ب<orgName type="ثمن" ref="ثمن-باب-الشعرية"><placeName type="ثمن" ref="ثمن-باب-الشعرية">ثمن باب الشعرية</placeName></orgName> فاحترق
-               سقف عشة بوسطه بما عليها من السرجين وأخر فى الساعة الرابعة من ليلة السبت ب<placeName ref="منزل-حضرة-السيد-بيومى-مكرم">منزل حضرة السيد بيومى مكرم</placeName> المجاور
-                  لل<orgName type="جامع" ref="جامع-الازهر"><placeName ref="جامع-الازهر" type="جامع">جامع الأزهر</placeName></orgName> فاحترق منه اوضه بممر بيتها ومعظم ما كان فيها
-               من القطن وآخر من الساعة الثانية عشر من يوم السبت ب<placeName ref="منزل-السيد-على-صيام" type="منزل">منزل السيد على صيام</placeName> الكائن
-                  ب<placeName ref="حارة-التبليطة" type="حارة">حارة التبليطة</placeName> ب<orgName ref="ثمن-قيسون" type="ثمن"><placeName type="ثمن" ref="ثمن-قيسون">ثمن
-                     قيسون</placeName></orgName> فاحترق منه مقدار من القطن ووسادة ولحاف قديم وآخر في
-               الساعة السابعة من ليلة الأثنين الموافق ٢٥ منه ب<placeName type="منزل" ref="منزل-اسماعيل-افندى-عبد-الخالق-باش-كاتب-الروزنامة">منزل <persName role="باش كاتب الروزنامة">اسماعيل افندي عبد الخالق باش كاتب
-                     الروزنامة</persName></placeName> الكائن ب<placeName ref="عطفة-السادات" type="عطفة">عطفة السادات</placeName> ب<orgName type="ثمن" ref="ثمن-درب-الجماميز"><placeName type="ثمن" ref="ثمن-درب-الجماميز">ثمن درب
-                  الجماميز</placeName></orgName> فاحترق منه سقف مطبخه فبمجرد بلوغ الخبر إلى الضبطية
-               بودر بارسال اللازم من الطلومبات والأعوان الكافيه وبذلت الهمة الزائدة في الأطفاء حتى
-               كان ذلك كله في أقرب زمن بدون سراية إلي جهة أخرى وانتشار للنيران.</p>
+         <div xml:id="w26" resp="#eSG">
+            <head><date when-custom="1283-10-28">٢٨ ذي الحجة سنة ١٢٨٣</date><date when="1867-05-02">٢ مايه ١٨٦٧</date><bibl><biblScope unit="issue">نمرة ١٠١</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+            <p>علم من أفادة واردة من من <orgName type="الضبطية">الضبطية</orgName>انه بعد مضي ثلاث
+               ساعات وربع من ليلة الخميس الماضي الموافق ٢١ من الشهر الحال وقع <rs type="حريق">حريق</rs>ب<orgName type="وكالة_مطبخ_العسل">وكالة مطبخ
+                  العسل</orgName>ب<placeName>الأشرفية</placeName>ب<orgName type="ثمن_الدرب_الأحمر"><placeName>ثمن الدرب الأحمر</placeName></orgName>فاحترق منها أوضة بما فيها من
+               بذر القطن و<rs type="حريق"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>أخر<?oxy_custom_end?></rs>
+               بعد ست ساعات ونصف من يوم الجمعة ب<placeName>منزل رزين البردعي</placeName> الكائن
+                  ب<placeName>حارة الفجالة</placeName> ب<orgName type="ثمن_باب_الشعرية"><placeName>ثمن باب الشعرية</placeName></orgName>فاحترق سقف عشة بوسطه بما عليها
+               من السرجين وأخر فى الساعة الرابعة من ليلة السبت بمنزل حضرة السيد بيومي مكرم المجاور
+               للجامع الأزهر فاحترق منه اوضه بممر بيتها ومعظم ما كان فيها من القطن و<rs type="حريق">آخر</rs> من الساعة الثانية عشر من يوم السبت ب<placeName>منزل السيد على
+                  صيام</placeName> الكائن ب<placeName>حارة التبليطة</placeName>
+                     ب<orgName><placeName>ثمن قيسون</placeName></orgName>فاحترق منه مقدار من القطن
+               ووسادة ولحاف قديم و<rs type="حريق"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>آخر<?oxy_custom_end?></rs>
+               في الساعة السابعة من ليلة الأثنين الموافق ٢٥ منه ب<placeName>منزل اسماعيل افندي عبد
+                  الخالق باش كاتب الروزنامة</placeName> الكائن ب<placeName>عطفة
+                  السادات</placeName>ب<orgName type="ثمن_درب_الجماميز"><placeName>ثمن درب
+                     الجماميز</placeName></orgName> فاحترق منه سقف مطبخه فبمجرد بلوغ الخبر إلى
+               الضبطية بودر بارسال اللازم من الطلومبات والأعوان الكافيه وبذلت الهمة الزائدة في
+               الأطفاء حتى كان ذلك كله في أقرب زمن بدون سراية إلي جهة أخرى وانتشار للنيران.</p>
          </div>
       </body>
    </text>

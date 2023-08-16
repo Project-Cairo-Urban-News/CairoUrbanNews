@@ -24,6 +24,10 @@ jobs:
           saxon -s:articles/arabic -xsl:xslt/add-ids.xsl -o:articles/arabic-out
           rsync -av articles/arabic-out/ articles/arabic/
           rm -rf articles/arabic-out
+          mkdir articles/ottoman-out
+          saxon -s:articles/ottoman -xsl:xslt/add-ids.xsl -o:articles/ottoman-out
+          rsync -av articles/ottoman-out/ articles/ottoman/
+          rm -rf articles/ottoman-out
       - name: Generate HTML
         run: |
           saxon -it:start -xsl:xslt/finalized.xsl -o:docs/finalized.html
