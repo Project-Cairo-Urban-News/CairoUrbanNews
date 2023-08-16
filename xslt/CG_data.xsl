@@ -17,6 +17,19 @@
                 <fileDesc>
                     <titleStmt>
                         <title>Data from Cairo Gazetteer</title>
+                                                  
+                            <author>Emmanuelle?</author>
+                            <author>Anita Conrade</author> 
+                            <author>Antonio Mendes da Silva</author>
+                            <author>Emmanuelle Perrin</author>
+                            <author>Juliette Hueber</author>
+                            <author>Pierre Mounier</author>
+                            <author>Racha El-Sayed</author>
+                            <author>Maryse Bideault</author>
+                            <author>Bassam Ayoub</author>
+                       
+                            <author>Mercedes Volait</author>
+                                                    
                     </titleStmt>
                     <publicationStmt>
                         <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
@@ -54,25 +67,9 @@
         
         <place source="#CGDATA">
             <xsl:call-template name="numero"/>
-            <xsl:call-template name="wm_class"/>
-            <xsl:call-template name="wm_enname"/>
-            <xsl:call-template name="wm_name"/>
-            <xsl:call-template name="wm_arname"/>
-            <xsl:call-template name="wm_altname"/>
-            <xsl:call-template name="wm_araltname"/> 
-            <xsl:call-template name="osm_name"/>
-            <!-- Not sure what reference system the points are using, so also not sure how to use them. -->
-            <!--<xsl:call-template name="geo"/>-->
-            <xsl:call-template name="wm_year"/>
-            <xsl:call-template name="wm_higyear"/>
-            <xsl:call-template name="wm_object"/>
-            <xsl:call-template name="wm_desc"/>
-            <xsl:call-template name="remarques"/>
-            <xsl:call-template name="wm_ref"/>
-            <xsl:call-template name="osm_id"/>
-            <xsl:call-template name="gis_id"/>
-            <xsl:call-template name="geonames"/>
-            <xsl:call-template name="wm_idnews"/>  
+       
+            <xsl:call-template name="URI"/>
+             
         </place>
     </xsl:template>
     
@@ -84,8 +81,8 @@
         </xsl:if>
     </xsl:template>
     
-    <xsl:template name="wm_description">
-        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'WM_Description'))"/>
+    <xsl:template name="URI">
+        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'URI'))"/>
         <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
             <idno type="OSM">{$val}</idno>
         </xsl:if>
