@@ -20,6 +20,7 @@ jobs:
           fetch-depth: 0
       - name: Add IDs
         run: |
+          git config --global --add safe.directory "*"
           mkdir articles/arabic-out
           saxon -s:articles/arabic -xsl:xslt/add-ids.xsl -o:articles/arabic-out
           rsync -av articles/arabic-out/ articles/arabic/
