@@ -1,10 +1,12 @@
 # Person Roles
  * 'جندی باشی': ‎[1264.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1264.xml&text=%D8%AC%D9%86%D8%AF%DB%8C%20%D8%A8%D8%A7%D8%B4%DB%8C)
  * 'خلیل بازاری شيخى': ‎[1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1263.xml&text=%D8%AE%D9%84%DB%8C%D9%84%20%D8%A8%D8%A7%D8%B2%D8%A7%D8%B1%DB%8C%20%D8%B4%D9%8A%D8%AE%D9%89)
+ * 'دلال باشى': ‎[1264.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1264.xml&text=%D8%AF%D9%84%D8%A7%D9%84%20%D8%A8%D8%A7%D8%B4%D9%89)
  * 'دلالباشی': ‎[1264.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1264.xml&text=%D8%AF%D9%84%D8%A7%D9%84%D8%A8%D8%A7%D8%B4%DB%8C)
  * 'دلال باشی': ‎[1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1263.xml&text=%D8%AF%D9%84%D8%A7%D9%84%20%D8%A8%D8%A7%D8%B4%DB%8C)
  * 'ديوان جهادیه مترجمی': ‎[1264.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1264.xml&text=%D8%AF%D9%8A%D9%88%D8%A7%D9%86%20%D8%AC%D9%87%D8%A7%D8%AF%DB%8C%D9%87%20%D9%85%D8%AA%D8%B1%D8%AC%D9%85%DB%8C)
  * 'سابق جهادیه مدیری': ‎[1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1263.xml&text=%D8%B3%D8%A7%D8%A8%D9%82%20%D8%AC%D9%87%D8%A7%D8%AF%DB%8C%D9%87%20%D9%85%D8%AF%DB%8C%D8%B1%DB%8C)
  * 'سروجی': ‎[1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1263.xml&text=%D8%B3%D8%B1%D9%88%D8%AC%DB%8C)
+ * 'فشنکجي': ‎[1264.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1264.xml&text=%D9%81%D8%B4%D9%86%DA%A9%D8%AC%D9%8A)
  * 'معلم': ‎[1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1263.xml&text=%D9%85%D8%B9%D9%84%D9%85)
  * 'وکیل': ‎[1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1263.xml&text=%D9%88%DA%A9%DB%8C%D9%84)
