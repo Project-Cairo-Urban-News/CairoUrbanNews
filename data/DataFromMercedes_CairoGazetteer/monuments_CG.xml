@@ -101,7 +101,7 @@
      <cell>forme courante en français</cell>
      <cell/>
      <cell>URI</cell>
-     <cell>libellé arabe</cell>
+     <cell>libellé arabe_type</cell>
      <cell>libellé français</cell>
      <cell>libellé arabe</cell>
      <cell>translittération iso</cell>
@@ -149,10 +149,8 @@
     <row n="3">
      <cell/>
      <cell>skos:Concept</cell>
-     <cell>
-      <hi rend="color(FFC00000)">skos:prefLabel@ar</hi></cell>
-     <cell>
-      <hi rend="color(FFC00000)">skos:altLabel@ar</hi></cell>
+     <cell>skos:prefLabel@ar</cell>
+     <cell>skos:altLabel@ar</cell>
      <cell>skos:prefLabel@ISO</cell>
      <cell>skos:altlabel@ISO</cell>
      <cell>dc:source </cell>

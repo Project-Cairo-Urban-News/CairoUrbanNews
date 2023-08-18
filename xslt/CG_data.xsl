@@ -67,9 +67,16 @@
         
         <place source="#CGDATA">
             <xsl:call-template name="numero"/>
-       
             <xsl:call-template name="URI_Main"/>
-             
+            <xsl:call-template name="type_number"/>
+            <xsl:call-template name="pref_arabname"/>
+            <xsl:call-template name="alt_arabname"/>
+            <xsl:call-template name="ISO_translitname"/>
+            <xsl:call-template name="ALA-LC_translitname"/>
+            <xsl:call-template name="type_inarabic"/>
+            
+            
+
         </place>
     </xsl:template>
     
@@ -81,8 +88,6 @@
         </xsl:if>
     </xsl:template>
     
-    
-    
     <xsl:template name="URI_Main">
         <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'URI_Main'))"/>
         <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
@@ -90,28 +95,53 @@
         </xsl:if>
     </xsl:template>
     
-    
-    
-    <xsl:template name="wm_idnews">
-        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'WM_IDNews'))"/>
+    <xsl:template name="type_number">
+        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'skos:broader'))"/>
         <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
-            <idno type="OSM">{$val}</idno>
+            <idno type="URI_type">{$val}</idno>
         </xsl:if>
     </xsl:template>
     
-    <xsl:template name="wm_araltname">
-        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'WM_ArAltName'))"/>
+    <xsl:template name="pref_arabname">
+        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'skos:prefLabel@ar'))"/>
+        <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+            <placeName xml:lang="ar">{$val}</placeName>
+        </xsl:if>
+    </xsl:template>
+    
+    <xsl:template name="alt_arabname">
+        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'skos:altLabel@ar'))"/>
         <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
             <placeName type="alternate" xml:lang="ar">{$val}</placeName>
         </xsl:if>
     </xsl:template>
     
-    <xsl:template name="wm_altname"> 
-        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'WM_AltName'))"/>
+    <xsl:template name="ISO_translitname"> 
+        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'skos:prefLabel@ISO'))"/>
         <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
             <placeName type="alternate" xml:lang="ar-Latn">{$val}</placeName>
         </xsl:if>
     </xsl:template>
+    
+    
+    <xsl:template name="ALA-LC_translitname"> 
+        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'skos:preflabel@ALA'))"/>
+        <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+            <placeName type="alternate" xml:lang="ar-Latn">{$val}</placeName>
+        </xsl:if>
+    </xsl:template>
+    
+    <!-- I have no better idea to express a type of building in an element (in TEI it is an attribute) -->
+    <xsl:template name="type_inarabic"> 
+        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'libellé arabe_type'))"/>
+        <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+            <label xml:lang="ar">{$val}</label>
+        </xsl:if>
+    </xsl:template>
+    
+    
+    
+    
     
     <xsl:template name="geonames">
         <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'Geonames'))"/>
