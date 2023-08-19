@@ -9,4 +9,5 @@
  * 'سروجی': ‎[1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1263.xml&text=%D8%B3%D8%B1%D9%88%D8%AC%DB%8C)
  * 'فشنکجي': ‎[1264.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1264.xml&text=%D9%81%D8%B4%D9%86%DA%A9%D8%AC%D9%8A)
  * 'معلم': ‎[1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1263.xml&text=%D9%85%D8%B9%D9%84%D9%85)
+ * 'وكيل': ‎[1264.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1264.xml&text=%D9%88%D9%83%D9%8A%D9%84)
  * 'وکیل': ‎[1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1263.xml&text=%D9%88%DA%A9%DB%8C%D9%84)
