@@ -16,10 +16,9 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Data from Cairo Gazetteer</title>
+                        <title>Selected Data from Cairo Gazetteer</title>
                                                   
-                            <author>Emmanuelle?</author>
-                            <author>Anita Conrade</author> 
+                             <author>Anita Conrade</author> 
                             <author>Antonio Mendes da Silva</author>
                             <author>Emmanuelle Perrin</author>
                             <author>Juliette Hueber</author>
@@ -39,6 +38,7 @@
                     </publicationStmt>
                     <sourceDesc>
                         <p>Data gathered by Cairo Gazetteer team</p>
+                        <p>XSLT transformation and selection by Adam Mestyan</p>
                     </sourceDesc>
                 </fileDesc>
                 <profileDesc>
@@ -74,6 +74,13 @@
             <xsl:call-template name="ISO_translitname"/>
             <xsl:call-template name="ALA-LC_translitname"/>
             <xsl:call-template name="type_inarabic"/>
+            <xsl:call-template name="neighbourhood_inarabic"/>
+            <xsl:call-template name="neighbourhood_geocoordinates"/>
+            
+            <!--continue from hijri year -->
+            
+            <!-- not yet working
+            <xsl:call-template name="neighbourhood_geonamesLink"/> -->
             
             
 
@@ -119,7 +126,7 @@
     <xsl:template name="ISO_translitname"> 
         <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'skos:prefLabel@ISO'))"/>
         <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
-            <placeName type="alternate" xml:lang="ar-Latn">{$val}</placeName>
+            <placeName type="alternate_ISO" xml:lang="ar-Latn">{$val}</placeName>
         </xsl:if>
     </xsl:template>
     
@@ -127,7 +134,7 @@
     <xsl:template name="ALA-LC_translitname"> 
         <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'skos:preflabel@ALA'))"/>
         <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
-            <placeName type="alternate" xml:lang="ar-Latn">{$val}</placeName>
+            <placeName type="alternate_ALA-LC" xml:lang="ar-Latn">{$val}</placeName>
         </xsl:if>
     </xsl:template>
     
@@ -139,16 +146,32 @@
         </xsl:if>
     </xsl:template>
     
-    
-    
-    
-    
-    <xsl:template name="geonames">
-        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'Geonames'))"/>
+    <xsl:template name="neighbourhood_inarabic">
+        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'libellé arabe'))"/>
         <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
-            <ptr target="{$val}"/>
+            <placeName type="neighbourhood" xml:lang="ar">{$val}</placeName>
         </xsl:if>
     </xsl:template>
+    
+    <!-- it is already a ptr in file so we should just simply copy but it does not want to make it 
+    
+    <xsl:template name="neighbourhood_geonamesLink">
+        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'skos:relatedMatch_URI'))"/>
+        <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+            {$val}
+        </xsl:if>
+    </xsl:template>
+    -->
+    
+    <xsl:template name=" neighbourhood_geocoordinates">
+        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'coordonnées géographiques'))"/>
+        <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+            <geo corresp="neighbourhood">{$val}</geo>
+        </xsl:if>
+    </xsl:template>
+    
+   
+    
     
     <xsl:template name="osm_type">
         <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'osm_type'))"/>
