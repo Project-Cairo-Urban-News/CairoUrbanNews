@@ -46,6 +46,9 @@
                         <calendar xml:id="hijri">
                             <p>The Islamic (Hijri) calendar,ٱلتَّقْوِيم ٱلْهِجْرِيّ</p>
                         </calendar>
+                        <calendar xml:id="gregorian">
+                            <p>The Gregorian calendar</p>
+                        </calendar>
                     </calendarDesc>
                 </profileDesc>
             </teiHeader>
@@ -76,11 +79,15 @@
             <xsl:call-template name="type_inarabic"/>
             <xsl:call-template name="neighbourhood_inarabic"/>
             <xsl:call-template name="neighbourhood_geocoordinates"/>
+            <xsl:call-template name="foundationyear_hijri"/>
+            <xsl:call-template name="foundationyear_gregorian"/>
+            <!--continue from libelle Grand Bey -->
             
-            <!--continue from hijri year -->
+            
+            
             
             <!-- not yet working
-            <xsl:call-template name="neighbourhood_geonamesLink"/> -->
+            <xsl:call-template name="neighbourhood_geonameslink"/> -->
             
             
 
@@ -155,7 +162,7 @@
     
     <!-- it is already a ptr in file so we should just simply copy but it does not want to make it 
     
-    <xsl:template name="neighbourhood_geonamesLink">
+    <xsl:template name="neighbourhood_geonameslink">
         <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'skos:relatedMatch_URI'))"/>
         <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
             {$val}
@@ -170,8 +177,21 @@
         </xsl:if>
     </xsl:template>
     
-   
+    <xsl:template name="foundationyear_hijri">
+        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'anno hegirae'))"/>
+        <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+            <date datingMethod="#hijri">{$val}</date>
+        </xsl:if>
+    </xsl:template>
     
+    <xsl:template name="foundationyear_gregorian">
+        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'anno domini'))"/>
+        <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+            <date datingMethod="#gregorian">{$val}</date>
+        </xsl:if>
+    </xsl:template>
+    
+   
     
     <xsl:template name="osm_type">
         <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'osm_type'))"/>
@@ -187,12 +207,7 @@
         </xsl:if>
     </xsl:template>
     
-    <xsl:template name="wm_higyear">
-        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'WM_HegYear'))"/>
-        <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
-            <date when-custom="{$val}" datingMethod="#hijri"/>
-        </xsl:if>
-    </xsl:template>
+  
     
     <xsl:template name="wm_year">
         <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'WM_Year'))"/>

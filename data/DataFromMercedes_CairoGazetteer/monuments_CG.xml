@@ -21,6 +21,7 @@
    </publicationStmt>
    <sourceDesc>
     <p>A TEI file automatically converted from the Cairo Gazeteer XSLX file through OxGarage, by Adam Mestyan on 9 July 2023.</p>
+    <p>Some categories had to be slightly modified for transformation XSLT.</p>
    </sourceDesc>
   </fileDesc>
  </teiHeader>
@@ -52,8 +53,8 @@
      <cell>état</cell>
      <cell>période/style</cell>
      <cell>période/style</cell>
-     <cell>anno hegirae (A.H.)</cell>
-     <cell>anno domini (A. D.)</cell>
+     <cell>anno hegirae</cell>
+     <cell>anno domini</cell>
      <cell>fondateurs</cell>
      <cell/>
      <cell>variantes du nom</cell>
