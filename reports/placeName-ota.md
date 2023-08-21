@@ -9,7 +9,6 @@
  * 'خليج: '‎[1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1263.xml&text=%D8%AE%D9%84%D9%8A%D8%AC)
  * 'درب: '‎[1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1263.xml&text=%D8%AF%D8%B1%D8%A8)
  * 'زقاق: '‎[1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1263.xml&text=%D8%B2%D9%82%D8%A7%D9%82)
- * ' ساقيه: '‎[1264.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1264.xml&text=%20%D8%B3%D8%A7%D9%82%D9%8A%D9%87)
  * 'سبیل: '‎[1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1263.xml&text=%D8%B3%D8%A8%DB%8C%D9%84), [1264.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1264.xml&text=%D8%B3%D8%A8%DB%8C%D9%84)
  * 'سكة: '‎[1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1263.xml&text=%D8%B3%D9%83%D8%A9)
  * 'سمت: '‎[1263.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1263.xml&text=%D8%B3%D9%85%D8%AA), [1264.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=ottoman/1264.xml&text=%D8%B3%D9%85%D8%AA)
