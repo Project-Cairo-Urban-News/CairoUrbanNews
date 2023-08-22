@@ -81,13 +81,17 @@
             <xsl:call-template name="neighbourhood_geocoordinates"/>
             <xsl:call-template name="foundationyear_hijri"/>
             <xsl:call-template name="foundationyear_gregorian"/>
-            <!--continue from libelle Grand Bey -->
+            <xsl:call-template name="altname_GrandBeyMap"/>
+            <xsl:call-template name="altname_Fachinelli"/>
+            <xsl:call-template name="URI_Fachinelli"/>
             
             
-            
+            <!--continue for last three FrENgArab notices -->
             
             <!-- not yet working
-            <xsl:call-template name="neighbourhood_geonameslink"/> -->
+            <xsl:call-template name="neighbourhood_geonameslink"/> 
+            <xsl:call-template name="geonamesLink"/>
+            -->
             
             
 
@@ -192,6 +196,47 @@
     </xsl:template>
     
    
+    <xsl:template name="altname_GrandBeyMap">
+        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'libellé-Plan-Grand-bey-1874'))"/>
+        <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+            <placeName type="GrandBeyMap">{$val}</placeName>
+        </xsl:if>
+    </xsl:template>
+    
+    <xsl:template name="altname_Fachinelli">
+        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'libellé-Facchinelli'))"/>
+        <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+            <placeName type="Fachinelli">{$val}</placeName>
+        </xsl:if>
+    </xsl:template>
+    
+    
+    <xsl:template name="URI_Fachinelli">
+        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'URI Facchinelli'))"/>
+        <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+            <idno type="URI_Fachinelli">{$val}</idno>
+        </xsl:if>
+    </xsl:template>
+    
+<!--  I do not know why but it's not working either - it's already a ptr element and we should get the full element
+        
+    <xsl:template name="geonamesLink">
+        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'alignement_GEO'))"/>
+        <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+            {$val}
+        </xsl:if>
+    </xsl:template> 
+    
+    -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     <xsl:template name="osm_type">
         <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'osm_type'))"/>
