@@ -69,21 +69,25 @@
     <xsl:template match="t:row">
         
         <place source="#CGDATA">
+           
             <xsl:call-template name="numero"/>
-            <xsl:call-template name="URI_Main"/>
-            <xsl:call-template name="type_number"/>
-            <xsl:call-template name="pref_arabname"/>
+                        <xsl:call-template name="pref_arabname"/>
             <xsl:call-template name="alt_arabname"/>
             <xsl:call-template name="ISO_translitname"/>
             <xsl:call-template name="ALA-LC_translitname"/>
+          
+            <xsl:call-template name="altname_Fachinelli"/>
+            <xsl:call-template name="altname_GrandBeyMap"/>
+                    
             <xsl:call-template name="type_inarabic"/>
             <xsl:call-template name="neighbourhood_inarabic"/>
             <xsl:call-template name="neighbourhood_geocoordinates"/>
-            <xsl:call-template name="foundationyear_hijri"/>
-            <xsl:call-template name="foundationyear_gregorian"/>
-            <xsl:call-template name="altname_GrandBeyMap"/>
-            <xsl:call-template name="altname_Fachinelli"/>
+            
+            <xsl:call-template name="foundationyear"/>
+            
+                                   <xsl:call-template name="type_number"/>
             <xsl:call-template name="URI_Fachinelli"/>
+            <xsl:call-template name="URI_Main"/> 
             <xsl:call-template name="notice_francais"/>
             <xsl:call-template name="notice_anglais"/>
             <xsl:call-template name="notice_arabe"/>
@@ -91,37 +95,27 @@
             
             <!--some data - for instance notices - are not coming through properly in some cases, also let's discuss coordinates -->
             
-            <!-- not yet working
+            
             <xsl:call-template name="neighbourhood_geonameslink"/> 
+            <!--
             <xsl:call-template name="geonamesLink"/>
             -->
-            
+           
             
 
         </place>
     </xsl:template>
     
     <!-- Named Templates -->
+    
     <xsl:template name="numero">
         <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'numéro du monument'))"/>
         <xsl:if test="fn:has_data($val)">
             <xsl:attribute name="xml:id">CG{$val}</xsl:attribute>
         </xsl:if>
     </xsl:template>
-    
-    <xsl:template name="URI_Main">
-        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'URI_Main'))"/>
-        <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
-            <idno type="URI">{$val}</idno>
-        </xsl:if>
-    </xsl:template>
-    
-    <xsl:template name="type_number">
-        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'skos:broader'))"/>
-        <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
-            <idno type="URI_type">{$val}</idno>
-        </xsl:if>
-    </xsl:template>
+ 
+   
     
     <xsl:template name="pref_arabname">
         <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'skos:prefLabel@ar'))"/>
@@ -152,6 +146,20 @@
         </xsl:if>
     </xsl:template>
     
+    <xsl:template name="type_number">
+        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'skos:broader'))"/>
+        <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+            <idno type="URI_type">{$val}</idno>
+        </xsl:if>
+    </xsl:template>
+    
+    <xsl:template name="URI_Main">
+        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'URI_Main'))"/>
+        <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+            <idno type="URI">{$val}</idno>
+        </xsl:if>
+    </xsl:template>
+    
     <!-- I have no better idea to express a type of building in an element (in TEI it is an attribute) -->
     <xsl:template name="type_inarabic"> 
         <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'libellé arabe_type'))"/>
@@ -167,34 +175,36 @@
         </xsl:if>
     </xsl:template>
     
-    <!-- it is already a ptr in file so we should just simply copy but it does not want to make it 
-    
+   
     <xsl:template name="neighbourhood_geonameslink">
         <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'skos:relatedMatch_URI'))"/>
         <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
-            {$val}
+          <xsl:copy-of select="$val"/>
         </xsl:if>
     </xsl:template>
-    -->
+   
     
     <xsl:template name=" neighbourhood_geocoordinates">
         <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'coordonnées géographiques'))"/>
         <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
-            <geo corresp="neighbourhood">{$val}</geo>
+           <location> <geo corresp="neighbourhood">{$val}</geo> </location>
         </xsl:if>
     </xsl:template>
     
     <xsl:template name="foundationyear_hijri">
         <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'anno hegirae'))"/>
         <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
-            <date datingMethod="#hijri">{$val}</date>
-        </xsl:if>
+            <date datingMethod="#hijri">{$val}</date>       </xsl:if>
     </xsl:template>
     
-    <xsl:template name="foundationyear_gregorian">
+    <xsl:template name="foundationyear">
         <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'anno domini'))"/>
         <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
-            <date datingMethod="#gregorian">{$val}</date>
+            <note type="foundationdates">
+                <date datingMethod="#gregorian">{$val}</date>
+                <xsl:call-template name="foundationyear_hijri"/>
+            </note>
+            
         </xsl:if>
     </xsl:template>
     
