@@ -84,9 +84,12 @@
             <xsl:call-template name="altname_GrandBeyMap"/>
             <xsl:call-template name="altname_Fachinelli"/>
             <xsl:call-template name="URI_Fachinelli"/>
+            <xsl:call-template name="notice_francais"/>
+            <xsl:call-template name="notice_anglais"/>
+            <xsl:call-template name="notice_arabe"/>
             
             
-            <!--continue for last three FrENgArab notices -->
+            <!--some data - for instance notices - are not coming through properly in some cases, also let's discuss coordinates -->
             
             <!-- not yet working
             <xsl:call-template name="neighbourhood_geonameslink"/> 
@@ -229,12 +232,28 @@
     
     -->
     
+    <xsl:template name="notice_francais">
+        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'Notice en français'))"/>
+        <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+            <note xml:lang="fr">{$val}</note>
+        </xsl:if>
+    </xsl:template>
     
+    <xsl:template name="notice_anglais">
+        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'Notices en anglais'))"/>
+        <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+            <note xml:lang="en">{$val}</note>
+        </xsl:if>
+    </xsl:template>
+        
+    <xsl:template name="notice_arabe">
+        <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'Notices en arabe'))"/>
+        <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
+            <note xml:lang="ar">{$val}</note>
+        </xsl:if>
+    </xsl:template>
     
-    
-    
-    
-    
+        
     
     
     
