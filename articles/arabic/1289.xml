@@ -117,27 +117,38 @@
   
   <text xml:lang="ar">
       <body>
-         <div resp="#eAK" xml:id="K811">
-            <head><bibl><biblScope unit="issue">نمره ٤٤٦</biblScope><biblScope unit="page">صفحة
-                     ٤</biblScope></bibl></head>
-            <head>يوم <date when-custom="1288-12-25">الثلاثاء ٢٥ ذى الحجة ١٢٨٨</date> الموافق <date when="1872-03-05">٥ <sic>مارث</sic>  ١٨٧٢</date></head>
-            <head>اعلانات</head>
-            <head>صورة <rs type="اعلان">اعلان</rs> وارد من حضرة وكيل <orgName ref="بيت-المال-بمصر">بيت المال بمصر</orgName> بتاريخ <date when-custom="1288-12-18">١٨ ذى سنة
-                  ٨٨</date></head>
-            <p>منزل كائن بشارع <placeName type="ميدان" ref="ميدان-محمد-علي">ميدان محمد
-                  على</placeName> ب<orgName type="ثمن" ref="ثمن-قيسون">ثمن قيسون</orgName> تعلق
-                  <persName>حسن الافندى أنور المهدى</persName> مرهون بصندوق الايتام ولداعى تأخيره فى
-               السداد تحرر به قائمة لاشهار مبيعه فى المزاد لمن يرغب وتسلمت الى <persName>محمد افندى
-                  حنفى رئيس طائفة دلالين العقارات <sic>بالمحررسه</sic></persName> فلهذا اقتضى تحريره
-               لحضرتكم ليجرى نشره بالوقايع عربى وتوركى مرارا وكل من له رغبة يتوجه الى رئيس الدلالين
-               المذكور ويطلع على القـ[ا]ئمة وبعد المعاينة يعطى المزاد على حسب الشروط الموضحة
-               بالقائمة المذكورة </p>
-         </div>
-         <div resp="#eAK" xml:id="k812">
-            <head><bibl><biblScope unit="issue">نمره ٤٤٩</biblScope>
+         <div resp="#eAK #eSG" xml:id="K811">
+            <head><date when-custom="1288-12-25">٢٥ ذى الحجة ١٢٨٨</date>
+               <date when="1872-03-05">٥ مارث ١٨٧٢</date>
+               <bibl><biblScope unit="issue">نمره ٤٤٦</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-            <head>يوم <date when-custom="1289-01-17">الثلاثاء ١٧ محرم ١٢٨٩</date> الموافق <date when="1872-03-26">٢٦ <sic>مارث</sic> ١٨٧٢</date></head>
-            <head>صورة <rs type="اعلان">اعلان</rs> وارد من حضرة وكيل مكاتب أهليه بتاريخ <date when-custom="1289-01-11">١١ محرم سنة ٨٩</date></head>
+            <head><title>اعلانات</title></head>
+            <head><title>صورة <rs type="اعلان">اعلان</rs> وارد من حضرة وكيل <orgName
+                     ref="بيت-المال-بمصر" type="بيت-مال">بيت المال بمصر</orgName> بتاريخ ١٨ ذى سنة
+                  ٨٨</title></head>
+            <p><placeName type="منزل" ref="منزل-تعلق-حسن-الافندى-أنور-المهدى">منزل</placeName> كائن
+                  ب<placeName type="شارع" ref="شارع-ميدان-محمد-على">شارع <placeName type="ميدان"
+                     ref="ميدان-محمد-علي">ميدان محمد على</placeName></placeName> ب<placeName
+                  type="ثمن" ref="ثمن-قيسون"><orgName type="ثمن" ref="ثمن-قيسون">ثمن
+                  قيسون</orgName></placeName> تعلق
+                  <persName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>حسن
+                  افندى أنور المهدى<?oxy_custom_end?></persName> مرهون ب<orgName ref="صندوق-الايتام"
+                  type="صندوق">صندوق الايتام</orgName> ولداعى تأخيره فى السداد تحرر به قائمة لاشهار
+               مبيعه فى المزاد لمن يرغب
+               و<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>تسلمت<?oxy_custom_end?>
+               الى <persName>محمد افندى حنفى رئيس طائفة دلالين العقارات
+                  <sic>بالمحررسه</sic></persName> فلهذا اقتضى تحريره لحضرتكم ليجرى نشره بالوقايع
+               عربى وتوركى مرارا وكل من له رغبة يتوجه الى رئيس الدلالين المذكور ويطلع على
+                  <sic>القـ[ا]ئمة</sic> وبعد المعاينة يعطى المزاد على حسب الشروط الموضحة بالقائمة
+               المذكورة</p>
+         </div>
+         <div resp="#eAK #eSG" xml:id="k812">
+            <head><date when-custom="1289-01-17">١٧ محرم ١٢٨٩</date>
+               <date when="1872-03-26">٢٦ مارث ١٨٧٢</date>
+               <bibl><biblScope unit="issue">نمره ٤٤٩</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head><title>صورة <rs type="اعلان">اعلان</rs> وارد من حضرة وكيل مكاتب أهليه بتاريخ ١١
+                  محرم سنة ٨٩</title></head>
             <table rend="rules">
                <row>
                   <cell style="text-align: justify;">
@@ -147,23 +158,39 @@
                </row>
                <row>
                   <cell style="text-align: justify;">
-                     <hi style="font-size:14ptdirection:rtl;">1</hi>
+                     <hi style="font-size:14ptdirection:rtl;">١</hi>
                   </cell>
                   <cell style="text-align: justify;">حصة ثمانية عشر قيراط من منزل به فرن
                         بـ<placeName type="حارة" ref="حارة-غيط-العده">حارة غيط العده</placeName>
-                        بـ<orgName type="ثمن" ref="ثمن-عابدين">ثمن عابدين</orgName> مخلف عن المرحوم
-                        <persName>يحيى افندى الحكيم</persName> من ضمن الاملاك الايلة لـ<orgName type="بيت-المال" ref="بيت-المال">بيت المال</orgName> المحروسة بمبيعها بمعرفه
-                        <orgName type="ديوان-المكاتب-الاهلية" ref="ديوان">ديوان المكاتب
-                        الاهلية</orgName> حسب الامر الكريم راسى ثمن الحصة المذكورة على
-                        <persName>احمد افندى الكفراوى حكيم الضبطية</persName> بمبلغ اربعة عشر ألف
-                     ومائتين وخمسين قرش عمله صاغ وكافة المصاريف من طرف الراسى عليه المزاد يبلغ مقاس
-                     ذلك طول فى عرض مكسر فى قلب بعضه اذرع ٢١٨ </cell>
+                        بـ<placeName type="ثمن" ref="ثمن-عابدين"><orgName type="ثمن"
+                           ref="ثمن-عابدين">ثمن عابدين</orgName></placeName> مخلف عن المرحوم
+                        <persName>يحيى افندى الحكيم</persName> من ضمن الاملاك الايلة
+                        لـ<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><orgName
+                        type="بيت-المال" ref="بيت-المال-المحروسة">بيت المال المحروسة</orgName>
+                     بمبيعها <?oxy_custom_end?>بمعرفه <orgName ref="ديوان-المكاتب-الاهلية"
+                        type="ديوان">ديوان المكاتب الاهلية</orgName> حسب الامر الكريم راسى ثمن الحصة
+                     المذكورة على <persName>احمد افندى الكفراوى حكيم ال<orgName type="ضبطية"
+                           >ضبطية</orgName></persName> بمبلغ اربعة عشر ألف ومائتين وخمسين قرش عمله
+                     صاغ وكافة المصاريف من طرف الراسى عليه المزاد يبلغ مقاس ذلك طول فى عرض مكسر فى
+                     قلب بعضه اذرع ٢١٨ </cell>
                </row>
             </table>
+            <p>ان من ضمن الاملاك الايلة ل<orgName type="بيت-مال-المحروسة" ref="بيت-مال">بيت مال
+                  المحروسة</orgName> بمبيعها بمعرفة <orgName type="ديوان"
+                  ref="ديوان-المكاتب-الاهلية">ديوان المكاتب الاهليه</orgName> الحصة المشروحة بهذا
+               رسى مزادها على الافندى المذكور ومقتضى درج ذلك بالوقايع المصرية تركى عربى فلزم تحريره
+               لعزتكم ليصير درج الحصة المذكوره بالوقايع وقد تحدد خمسة عشر يوما من تاريخه لاتمام
+               المزاد وكل من كان له رغبة يحضر بديوان المكاتب ب<placeName type="سراى"
+                  ref="سراى-درب-الجماميز">سراى درب الجماميز</placeName> وبعد انتهاء الميعاد وانقطاع
+               الامل من وجود راغب يصير التسليم للراسى عليه المزاد</p>
          </div>
-         <div resp="#eAK" xml:id="k813">
-            <head><bibl><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-            <head>صورة <rs type="اعلان">اعلان</rs> وارد من وكيل عموم الاوقاف بتاريخ <date when-custom="1289-01-09">٩ محرم سنة ٨٩</date></head>
+         <div resp="#eAK #eSG" xml:id="k813">
+            <head><date when-custom="1289-01-17">١٧ محرم ١٢٨٩</date>
+               <date when="1872-03-26">٢٦ مارث ١٨٧٢</date>
+               <bibl><biblScope unit="issue">نمره ٤٤٩</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head><title>صورة <rs type="اعلان">اعلان</rs> وارد من وكيل عموم الاوقاف بتاريخ <date
+                     when-custom="1289-01-09">٩ محرم سنة ٨٩</date></title></head>
             <table rend="rules">
                <row>
                   <cell style="text-align: justify;">
@@ -173,33 +200,50 @@
                </row>
                <row>
                   <cell style="text-align: justify;">
-                     <hi style="font-size:14ptdirection:rtl;">1</hi>
+                     <hi style="font-size:14ptdirection:rtl;">١</hi>
                   </cell>
-                  <cell style="text-align: justify;"> منزل بـ<placeName ref="سوق-الازبكيه">سوق
-                        الازبكيه</placeName> وقف <orgName ref="بطركخانة-الاقباط">بطركخانة
-                        الاقباط</orgName> يبلغ مسطحه ذراع ٣٧٢ مقتضى استبداله الى ورثة
-                        <persName>اسكندر خليل الجارلى</persName> وشركاهم بمبلغ كيسه ١٧٥ دارجه وقائمة
-                     مزاده بطرف معاون قسم ثانى اوقاف </cell>
+                  <cell style="text-align: justify;"><placeName type="منزل"
+                        ref="منزل-وقف-بطركخانة-الاقباط">منزل</placeName> بـ<placeName
+                        ref="سوق-الازبكيه" type="سوق">سوق الازبكيه</placeName>
+                     <orgName type="وقف" ref="وقف-بطركخانة-الاقباط">وقف <orgName
+                           ref="بطركخانة-الاقباط">بطركخانة الاقباط</orgName></orgName> يبلغ مسطحه
+                     ذراع ٣٧٢ مقتضى استبداله الى ورثة <persName>اسكندر خليل الجارلى</persName>
+                     وشركاهم بمبلغ كيسه ١٧٥ دارجه وقائمة مزاده بطرف معاون <orgName
+                        ref="قسم-ثانى-اوقاف" type="قسم">قسم ثانى اوقاف</orgName></cell>
                </row>
                <row>
                   <cell style="text-align: justify;">
-                     <hi style="font-size:14ptdirection:rtl;">1</hi>
+                     <hi style="font-size:14ptdirection:rtl;">١</hi>
                   </cell>
                   <cell style="text-align: justify;">
-                     <p style="text-align: justify;"> ص ٤ – العمود ٣ </p>
-                     <p style="text-align: justify;"> حصه بحق الربع من المنزل الكائن بـ<placeName ref="ربع-الخردجيه" type="ربع">ربع الخردجيه</placeName> بـ<placeName ref="خط-باب-الزهومة" type="خط">خط باب الزهومه</placeName> وقف
-                           <persName>الحاج يوسف النحاس</persName> نظارة <persName>الست
-                           زهره</persName> يبلغ مسطحها ذراع – ٣٢ مقتضى استبدالها وقائمة مزادها بطرف
-                        معاون قسم اول اوقاف </p>
+                     <p style="text-align: justify;"> حصه بحق الربع من المنزل الكائن بـ<placeName
+                           ref="ربع-الخردجيه" type="ربع">ربع الخردجيه</placeName> بـ<placeName
+                           ref="خط-باب-الزهومة" type="خط">خط <placeName type="باب" ref="باب-الزهومه"
+                              >باب الزهومه</placeName></placeName>
+                        <orgName type="وقف" ref="وقف-الحاج-يوسف-النحاس">وقف <persName>الحاج يوسف
+                              النحاس</persName></orgName> نظارة <persName>الست زهره</persName> يبلغ
+                        مسطحها
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ذراع
+                        –<?oxy_custom_end?> ٣٢ مقتضى استبدالها وقائمة مزادها بطرف معاون <orgName
+                           ref="قسم-اول-اوقاف" type="قسم">قسم اول اوقاف</orgName></p>
                   </cell>
                </row>
                <row>
                   <cell style="text-align: justify;">
-                     <hi style="font-size:14ptdirection:rtl;">2</hi>
+                     <hi style="font-size:14ptdirection:rtl;">٢</hi>
                   </cell>
                   <cell style="text-align: justify;"/>
                </row>
             </table>
+            <p>بما انه تجوز شرعا من حضرة مفتى الديوان باستبدال ما هو مشروح اعلاه فقد تحرر به خمسة
+               وثلاثون اعلان ارسلوا لل<orgName type="ضبطية">ضبطية</orgName> بافادة فى تاريخه لوضعهم
+               على ال<orgName type="قره-قولات">قره قولات</orgName> وكتب إيضا الى من لزم من معاونين
+               الاوقاف باشهار ذلك بقوائم مزاد بين الراغبين بميعاد خمسة عشر يوما تمضى من تاريخه وحيث
+               من الاقتضاء ان يكون ذلك محيطا علم الجميع حتى كل من كان يرغب اخذ شئ من المحلات
+               المرقومه فبعد معاينته اياه يتوجه لى المعاون الذى بطرفه قائمة
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>مزاد<?oxy_custom_end?>
+               ويعطى المزاد اللازم بها كى بالمرسى وكف ايدى الراغبين يتحرر للمحكمه بتحرير الحجج
+               اللازمة لمن يرسى عليه فلزم ترقيمه لحضرتكم ليجرى درج ذلك بالوقايع كالجارى</p>
          </div>
          <div resp="#eAK" xml:id="k814">
             <head><bibl><biblScope unit="issue">نمره ٤٥٢</biblScope>
