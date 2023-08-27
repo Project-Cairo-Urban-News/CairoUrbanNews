@@ -1,119 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
-          Project</title>
-        <editor xml:id="eNK">Nour Kanaan</editor>
-        <editor xml:id="eAM">Adam Mestyan</editor>
-        <editor xml:id="eDY">Danah Younis</editor>
-        <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
-        <editor xml:id="eAE">Arif Erbil</editor>
-        <editor xml:id="eAK">Ahmed Kamal</editor>
-        <editor xml:id="eAS">Abram Smith</editor>
-        <editor xml:id="eCH">Clara Harms</editor>
-        <editor xml:id="eHS">Hüseyin Sağlam</editor>
-        <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
-        <editor xml:id="eHL">Hiba Laabadli</editor>
-        <editor xml:id="eOE">Othmane Echchabi</editor>
-        <editor xml:id="eFA">Fatemah Almahana</editor>
-        <respStmt>
-          <resp>Advisor</resp>
-          <name>Hugh Cayless</name>
-        </respStmt>
-        <respStmt>
-          <resp>Project leader</resp>
-          <name>Adam Mestyan</name>
-        </respStmt>
-        <respStmt>
-          <resp>Project leader</resp>
-          <name>Mercedes Volait</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Sarah Fathallah Garaa</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Karima Nasr</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Rezk Nory</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Arif Erbil</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Ahmed Kamal</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Abram Smith</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Clara Harms</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Hüseyin Sağlam</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Abdulrahman El-Taliawi</name>
-        </respStmt>
-        <sponsor>
-          <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
-            <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
-            Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>.
-        </sponsor>
-      </titleStmt>
-      <publicationStmt>
-        <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
-          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
-        <p>born digital document</p>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <projectDesc>
-        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
-          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-      </projectDesc>
-      <editorialDecl>
-        <p>Rules of TEI XML MarkUp in This Project</p>
-        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
-          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
-        <p>Each individual article has an individual xml:id number starting with "w1"</p>
-        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
-        <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
-        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
-          Editions</ref>.</p>
-      </editorialDecl>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="ar">Arabic</language>
-        <language ident="en">English</language>
-        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
-        <language ident="ota">Ottoman</language>
-      </langUsage>
-    </profileDesc>
-    <revisionDesc>
-      <listChange>
-        <change/>
-      </listChange>
-    </revisionDesc>
-  </teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
+               Project</title>
+            <editor xml:id="eNK">Nour Kanaan</editor>
+            <editor xml:id="eAM">Adam Mestyan</editor>
+            <editor xml:id="eDY">Danah Younis</editor>
+            <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
+            <editor xml:id="eAE">Arif Erbil</editor>
+            <editor xml:id="eAK">Ahmed Kamal</editor>
+            <editor xml:id="eAS">Abram Smith</editor>
+            <editor xml:id="eCH">Clara Harms</editor>
+            <editor xml:id="eHS">Hüseyin Sağlam</editor>
+            <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+            <editor xml:id="eHL">Hiba Laabadli</editor>
+            <editor xml:id="eOE">Othmane Echchabi</editor>
+            <editor xml:id="eFA">Fatemah Almahana</editor>
+            <respStmt>
+               <resp>Advisor</resp>
+               <name>Hugh Cayless</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Adam Mestyan</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Mercedes Volait</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Sarah Fathallah Garaa</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Karima Nasr</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Rezk Nory</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Arif Erbil</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Ahmed Kamal</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abram Smith</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Clara Harms</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Hüseyin Sağlam</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abdulrahman El-Taliawi</name>
+            </respStmt>
+            <sponsor>
+               <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
+                  <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew
+                  W. Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke
+                  University Libraries</orgName>; <orgName>Centre national de la recherche
+                  scientifique</orgName>. </sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La
+               fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+            <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
+            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+                  Volait</persName></p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+            <p>born digital document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in
+               the project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke
+               University).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Rules of TEI XML MarkUp in This Project</p>
+            <p>We use the Arabic script but transliteration into Latin characters follows the
+               Library of Congress (LOC) <ref
+                  target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic
+                  transliteration chart</ref>.</p>
+            <p>Each individual article has an individual xml:id number starting with "w1"</p>
+            <p>We only use persName, orgName, placeName elements, apart from bibliographical
+               elements and notes.</p>
+            <p>If the location or organization of responsibility is known from the text, it can be
+               added in an attribute to a persName.</p>
+            <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+            <p>This project's schema considers Till Grallert's work in his <ref
+                  target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+                  Editions</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+            <language ident="ota">Ottoman</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="cleared">
+         <listChange>
+            <change status="cleared" resp="#eAM" when="2023-08-23"/>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
   
   <text xml:lang="ota">
       <body>
@@ -609,53 +616,59 @@
                <bibl><biblScope unit="issue">نمره ١٦٢</biblScope>
                   <biblScope unit="page">ص ١</biblScope></bibl></head>
             <head>حوادث داخليه</head>
-            <p>وارستۀ قید بيان اولديغى اوزره <placeName ref="نيل">نيل</placeName> مباركك اوان
-               فيضاننده اقتضا ایدن <placeName type="سد">سد</placeName> و <placeName type="ترعه">ترعه
-                  لرك</placeName> حفر و اعمالى اشغالی زمان مارالبیان حلولندن مقدم تتمیم و اكمال
-               اولنمسی لازمۀ حالدن بولنديغنه و سائر ابنيه اشغالنه دخی مدت مذكوره ظرفنده رخاوت عارض
-               اوله جغنه مبنى كرك مزبور ترع و جسور و كرك كافۀ اقاليم مصريه ده سائر انشا و تعمير
-               اولنمقده بولنوب هنوز ختامپذير اولمیان ابنيه اشغالنه بذل غيرت و مقدور اولنه رق اشبو
-               ماه رجب الفردك يكرمی يديسنه مصادف نقطه تعبير اولنان مبادئ تزايد نيل وقته قدر اتمام و
-               تکمیل اولنمسى <orgName ref="مجلسى-احكام-مصريه" type="مجلس">مجلسى احكام مصريه
-                  ده</orgName> بالتنسب اقتضاسی ایجاب ایدنلره تنبيه اولنمشدر</p>
+            <p>وارستۀ قید بيان اولديغى اوزره نيل مباركك اوان فيضاننده اقتضا ایدن سد و ترعه لرك حفر و
+               اعمالى اشغالی زمان مارالبیان حلولندن مقدم تتمیم و اكمال اولنمسی لازمۀ حالدن بولنديغنه
+               و سائر ابنيه اشغالنه دخی مدت مذكوره ظرفنده رخاوت عارض اوله جغنه مبنى كرك مزبور ترع و
+               جسور و كرك كافۀ اقاليم مصريه ده سائر انشا و تعمير اولنمقده بولنوب هنوز ختامپذير
+               اولمیان ابنيه اشغالنه بذل غيرت و مقدور اولنه رق اشبو ماه رجب الفردك يكرمی يديسنه
+               مصادف نقطه تعبير اولنان مبادئ تزايد نيل وقته قدر اتمام و تکمیل اولنمسى <orgName
+                  ref="مجلسى-احكام-مصريه" type="مجلس">مجلسى احكام مصريه ده</orgName> بالتنسب اقتضاسی
+               ایجاب ایدنلره تنبيه اولنمشدر.</p>
          </div>
          <div resp="#eHS" xml:id="w179">
             <head><date when-custom="1265-07-21">٢٧ رجب ١٢٦٥</date>
                <bibl><biblScope unit="issue">نمره ١٦٤</biblScope>
                   <biblScope unit="page">ص ١</biblScope></bibl></head>
             <head>حوادث داخليه</head>
-            <p>ماه حالك ابتدا کیجه سی ساعت اون صولرنده <placeName ref="درب-سعاده">درب سعاده
-                  ده</placeName> كائن فروندن و كذلك فرداسی کیجه ساعت اون راده لرنده <placeName ref="خلیفه-ثمنى" type="ثمن">خلیفه ثمننده</placeName> واقع <placeName ref="قبر-الطويل" type="محله">قبر الطويل</placeName> نام محله ده بر خانه دن حریق
+            <p>ماه حالك ابتدا کیجه سی ساعت اون صولرنده <placeName ref="درب-سعاده" type="درب">درب
+                  سعاده ده</placeName> كائن فروندن و كذلك فرداسی کیجه ساعت اون راده لرنده <placeName
+                  ref="خلیفه-ثمنى" type="ثمن">خلیفه ثمننده</placeName> واقع <placeName
+                  ref="قبر-الطويل" type="محله">قبر الطويل</placeName> نام محله ده بر خانه دن حریق
                ظهور ايتمش و درعقب ضبطيه طرفندن طلومبه و مأمورلر يتشدير يله رك بلطفه تعالى اطرافلرینه
-               سرایت ايتمکسزين اطفا اولنمشدر</p>
+               سرایت ايتمکسزين اطفا اولنمشدر.</p>
          </div>
-         <div resp="#eHS" xml:id="w180">
+         <div resp="#eHS" xml:id="w180" n="earthquake">
             <head><date when-custom="1265-09-15">١٥ رمضان ١٢٦٥</date>
                <bibl><biblScope unit="issue">نمره ١٦٨</biblScope>
                   <biblScope unit="page">ص ١</biblScope></bibl></head>
             <head>حوادث داخليه</head>
-            <p>اشبو ماه رمضان شریف دردنجى صالی کیجه سی ساعت التى يى بکرمی دقيقه كچرك <placeName ref="محروسۀ-مصر">محروسۀ مصرده</placeName> خفيفجه حرکت ارض وقوعه کلوب بر دقيقه
-               مقداری ممتد اولمش ايسه ده له الحمد بر كونه ضرر و زیان حصوله كلمامشدر </p>
+            <p>اشبو ماه رمضان شریف دردنجى صالی کیجه سی ساعت التى يى بکرمی دقيقه كچرك محروسۀ مصرده
+               خفيفجه حرکت ارض وقوعه کلوب بر دقيقه مقداری ممتد اولمش ايسه ده له الحمد بر كونه ضرر و
+               زیان حصوله كلمامشدر.</p>
          </div>
          <div resp="#eHS" xml:id="w181">
             <head><date when-custom="1265-09-27">٢٧ رمضان ١٢٦٥</date>
                <bibl><biblScope unit="issue">نمره ١٦٩</biblScope>
                   <biblScope unit="page">ص ١</biblScope></bibl></head>
             <head>حوادث داخليه</head>
-            <p><placeName type="نیل">نیل</placeName> مبارك آوان فيضا ننده چند ماه مقداری <placeName ref="محروسۀ-مصر">محروسۀ مصر</placeName> درونندن كذران ایدن <placeName type="خليج">خليج</placeName> اشبو سال ميمنت فالده دخی میعادی حلول ايلمش اولمسيله ماه حالك اون
-               يدنجی پازارایرته سى کونى بر معتاد <placeName ref="اسکی-مصر">اسکی مصر</placeName>
-               جوارنده كائن سدی فتخ و كشاد اولنه رق بر وجه مشروح درون محروسه يه اجرا اولنمشدر</p>
+            <p>نیل مبارك آوان فيضا ننده چند ماه مقداری محروسۀ مصر درونندن كذران ایدن <placeName
+                  type="خليج">خليج</placeName> اشبو سال ميمنت فالده دخی میعادی حلول ايلمش اولمسيله
+               ماه حالك اون يدنجی پازارایرته سى کونى بر معتاد <placeName
+                  ref="اسکی مصر جوارنده كائن سدی" type="سد"><placeName ref="اسکی-مصر">اسکی
+                     مصر</placeName> جوارنده كائن سدی</placeName> فتخ و كشاد اولنه رق بر وجه مشروح
+               درون محروسه يه اجرا اولنمشدر.</p>
          </div>
          <div resp="#eHS" xml:id="w182">
             <head><date when-custom="1265-10-18">١٨ شوال ١٢٦٥</date>
                <bibl><biblScope unit="issue">نمره ١٧٠</biblScope>
                   <biblScope unit="page">ص ١</biblScope></bibl></head>
             <head>حوادث داخليه</head>
-            <p>دیکر بعض مديريات مثللو <orgName ref="خیزه-مدریتى" type="مدریت">خیزه
-                  مدریتنده</orgName> دخی تداوی و اسكان خستكانه مخصوص بر <orgName type="اسپتاليه">اسپتاليه</orgName> انشا سيله فقرا و ضعفانك معالجه جهتنده کسب سهولت ايتمسی مقصود
-                  <sic>مراحمنمود</sic>
-               <persName role="حضرت آصفى">حضرت آصفى</persName> اولمقدنناشی خصوص مذکور <orgName ref="مجلس-احکام-مصريه" type="مجلس">مجلس احکام مصريه ده</orgName> لدى المداوله مراد
-               خیریت معتاد حضرت آصفى وجهله و ایجابنك حسن اجراسی اقتضا ایدنلره يازلمشدر</p>
+            <p>دیکر بعض مديريات مثللو <orgName ref="جیزه-مدریتى" type="مدریت">جیزه
+                  مدریتنده</orgName> دخی تداوی و اسكان خستكانه مخصوص بر <orgName type="اسپتاليه"
+                  >اسپتاليه</orgName> انشا سيله فقرا و ضعفانك معالجه جهتنده کسب سهولت ايتمسی مقصود
+                  <sic>مراحمنمود</sic> حضرت آصفى اولمقدنناشی خصوص مذکور <orgName
+                  ref="مجلس-احکام-مصريه" type="مجلس">مجلس احکام مصريه ده</orgName> لدى المداوله مراد
+               خیریت معتاد حضرت آصفى وجهله و ایجابنك حسن اجراسی اقتضا ایدنلره يازلمشدر.</p>
          </div>
          <div resp="#eHS" xml:id="w183">
             <head><date when-custom="1265-10-25">٢٥ شوال ١٢٦٥</date>
@@ -669,18 +682,18 @@
                باغچه واچيق حولى يى مشتمل مزادده ٢٣٠٠٠ غروشه چیقمش بر باب خانه كذلك محلۀ مذکوره ده
                اغای مومی الیهه متعلق اوست قاتده سکزاوطه و بر حمام و الت قاتده بر مطبخ  و برقيو و
                برکيلار و بر منظره و بر دكرمن و ايكى حيوان الور بر اخور و ایکی مغازه  و براچیق حولى و
-               بر كوچك باغچه يی محتوى مزایده ١٣٠٠٠ غروشه جیقمش برباب خانه</p>
+               بر كوچك باغچه يی محتوى مزایده ١٣٠٠٠ غروشه جیقمش برباب خانه.</p>
          </div>
          <div resp="#eHS" xml:id="w184">
             <head><date when-custom="1265-10-25">٢٥ شوال ١٢٦٥</date>
                <bibl><biblScope unit="issue">نمره ١٧١</biblScope>
                   <biblScope unit="page">ص ٤</biblScope></bibl></head>
-            <p><placeName ref="درب-الاحمر-ثمنى https://www.geonames.org/7913957/ad-darb-al-ahmar.html" type="ثمن">درب الاحمر ثمننده</placeName>
+            <p><placeName ref="درب-الاحمر-ثمنى" type="ثمن">درب الاحمر ثمننده</placeName>
                <placeName ref="درب-الدلیل-محله-سى" type="محله">درب الدلیل محله سنده</placeName>
                <persName role="دمياط محافظی">سابق دمياط محافظی مرحوم خليل بك</persName> حضرتلرینه
                متعلق اوست قاتده اون بش يتاق اوطسى و اون اوچ فامليه اوطه سی و مرمرلى درت فسحه و مکمل
                ایکى حمام و الت قاتده برقاعه و بر کوچك منظره و بش مغازه و بیوك بر مطبخ و ایكی كيلار و
-               برکوچك باغچه و بر قيو و بر اچیق حولیسی بولنور يکی بر باب خانه</p>
+               برکوچك باغچه و بر قيو و بر اچیق حولیسی بولنور يکی بر باب خانه.</p>
          </div>
          <div resp="#eHS" xml:id="w185">
             <head><date when-custom="1265-10-25">٢٥ شوال ١٢٦٥</date>
@@ -688,14 +701,16 @@
                   <biblScope unit="page">ص ٤</biblScope></bibl></head>
             <p>كذلك بيت مذکور جوارنده ميرمومى اليهه متعلق اوست قاتده اون سکز اوطه و مكمل برحمام و
                الت قاتده سکز مغازه و بیوك برمطبخ و برساقيه و بر دكرمن و يوز اللى حیوان الور بر اخوری
-               مشتمل ترميمه محتاج بر سلاملق صاتیلق اولوب خواهشكرى وار ایسه <persName role="دلالباشی">دلالباشی سید مصطفی دن</persName> استدلال اتمسى اعلان اولنمشدر</p>
+               مشتمل ترميمه محتاج بر سلاملق صاتیلق اولوب خواهشكرى وار ایسه <persName role="دلالباشی"
+                  >دلالباشی سید مصطفی دن</persName> استدلال اتمسى اعلان اولنمشدر.</p>
          </div>
          <div xml:id="w186" resp="#eHS">
             <head><date when-custom="1265-11-21">٢١ ذى القعده ١٢٦٥</date>
                <bibl><biblScope unit="issue">نمره ١٧٢</biblScope>
                   <biblScope unit="page">ص ١</biblScope></bibl></head>
             <head>حوادث داخليه</head>
-            <p>ماه سابقك اون درد نجی پازارایرتسی کونی ساعت يارم قرارلرنده <placeName ref="قيسون">قيسون</placeName> تحتنده واقع <placeName ref="سيوفيه-خطى" type="خط">سيوفيه
+            <p>ماه سابقك اون درد نجی پازارایرتسی کونی ساعت يارم قرارلرنده <placeName ref="قيسون"
+                  >قيسون</placeName> تحتنده واقع <placeName ref="سيوفيه-خطى" type="خط">سيوفيه
                   خطنده</placeName>
                <placeName ref="حارة الالفى" type="محله">حارة الالفى</placeName> نام محله ده كائن
                   <persName>الفى ابراهيم بکك</persName> خانه سندن <rs type="يانقين">يانقين</rs> ظهور
@@ -703,10 +718,11 @@
                   شاهين</persName> و شریکی <persName>سلیمان</persName> نامان اشخاصك كراسته لری
                طوتشمش و در عقب <orgName type="ضبطيه">ضبطيه</orgName> طرفندن طلومبه و سقا و سائر
                لوازم اطفائيه نك يتشدرلمسيله مأمورلرك ثمرۀ غیرت و اقداملری اوله رق له الحمد سائر
-               محللره سرایت ايتمکسزين اطفاسی  میسراولمشدر</p>
+               محللره سرایت ايتمکسزين اطفاسی  میسراولمشدر.</p>
          </div>
-         <div resp="#eHS" xml:id="w187">
-            <head><date when-custom="1265-12-18">١٨ ذى الحجه ١٢٦٥</date><bibl><biblScope unit="issue">نمره ١٧٤</biblScope><biblScope unit="page">ص
+         <div resp="#eHS" xml:id="w187" n="Basilius Bey">
+            <head><date when-custom="1265-12-18">١٨ ذى الحجه ١٢٦٥</date><bibl><biblScope
+                     unit="issue">نمره ١٧٤</biblScope><biblScope unit="page">ص
                ٤</biblScope></bibl></head>
             <head>اعلانات</head>
             <p>
@@ -718,21 +734,20 @@
                ایکى فسحه لى و ابكى باغچه لى بر بيوك اوطه و مرمر دیرکلی بر تخته پوش و باغچه يه بقار
                فسحه لی بر منظره و درت آخور و سكز مغازه و تخمينا بربچق فدان کلور ایکى ساقيه لى بر
                باغچه و ایکی مرمر دیرکلی ایکی باغچه لى بر اچيق حولی يی محتوی برکه جمعا ایکى باب خانه
-               و <placeName ref="ازبكيه https://www.geonames.org/425184/al-azbakiyah.html">ازبكيه
-                  ده</placeName> واقع <rs type="مزاد">مزادده</rs> يتمش ایکى بیك بشيوز غروشه چیقمش
-               بیوك برعرصه</p>
+               و <placeName ref="ازبكيه">ازبكيه ده</placeName> واقع <rs type="مزاد">مزادده</rs> يتمش
+               ایکى بیك بشيوز غروشه چیقمش بیوك برعرصه.</p>
          </div>
          <div resp="#eHS" xml:id="w188">
             <head><date when-custom="1265-12-18">١٨ ذى الحجه ١٢٦٥</date><bibl><biblScope unit="issue">نمره ١٧٤</biblScope><biblScope unit="page">ص
                ٤</biblScope></bibl></head>
-            <p><placeName ref="عابدین-ثمنى https://www.geonames.org/7922574/maydan-abidin.html" type="ثمن">عابدين ثمننده</placeName>
+            <p><placeName ref="عابدین-ثمنى" type="ثمن">عابدين ثمننده</placeName>
                <persName role="شربتجی باشی">مرحوم شربتجی باشی نك</persName> ورثه سنه متعلق اوست
                قاتده بيوك و كوچك اون التى اوطه ايله کيلاری و مکمل بر حمام و طوانلى و طوانسز درت فسحه
                لى و الت قاتده فسقيه وصفه لي و ايكى بيوك اوطه ایله برمطبخ و ایكى کیلاری و اون مغازه
                ایله اون حيوان الور براخوری و يکرمى دوه الور بر دوه لك ايله بر غزاوی ساقیه سی و مکمل
                بر د كرمن ايله <placeName ref="هس-اسميله-معروف-بركه" type="بركه">هس اسميله معروف
                   بركه</placeName> كنارنده واقع ساقيه لى يارم فدان بر باغچه ايله اچيق بر حولی يی
-               مشتمل بر باب خانه</p>
+               مشتمل بر باب خانه.</p>
          </div>
       </body>
    </text>
