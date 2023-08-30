@@ -751,7 +751,7 @@
                لطرف الناظر المذكور ويعطى مزاده وبما انه مقتضى درج ذلك ضمن الوقايع المصرية كما
                المنشورالصادر فلهذا لزم تحريره لحضرتكم للاجراء كما ذكر</p>
          </div>
-         <div xml:id="k833" resp="#eAK">
+         <div xml:id="k833" resp="#eAK #eSG">
             <head><date when-custom="1289-04-05">٥ ربيع ثانى ١٢٨٩</date>
                <date when="1872-06-11">١١ يونيه ١٨٧٢</date>
                <bibl><biblScope unit="issue">نمره ٤٦٠</biblScope>
@@ -771,9 +771,13 @@
                لطرف الناظر المذكور ويعطى مزاده وبما انه مقتضى درج ذلك ضمن الوقايع المصرية كما
                المنشور الصادر فلهذا لزم تحريره لحضرتكم للاجراء كما ذكر</p>
          </div>
-         <div xml:id="k836" resp="#eAK">
-            <head><bibl><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-            <head>صورة <rs type="اعلان">اعلان</rs> وارد من حضرة محافظ مصر بتاريخ <date><date when-custom="1289-03-27">٢٧ ربيع الاول ١٢٨٩</date></date></head>
+         <div xml:id="k836" resp="#eAK #eSG">
+            <head><date when-custom="1289-04-05">٥ ربيع ثانى ١٢٨٩</date>
+               <date when="1872-06-11">١١ يونيه ١٨٧٢</date>
+               <bibl><biblScope unit="issue">نمره ٤٦٠</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head><title>صورة <rs type="اعلان">اعلان</rs> وارد من حضرة محافظ مصر بتاريخ ٢٧ ربيع
+                  الاول ١٢٨٩</title></head>
             <p>بيان المحلات والاراضى تعلق الميرى مقتضى مبيعها </p>
             <table rend="rules">
                <row>
@@ -783,8 +787,8 @@
                </row>
                <row>
                   <cell/>
-                  <cell>بـ<orgName ref="ثمن-الازبكيه" type="ثمن">ثمن الازبكيه</orgName>
-                  </cell>
+                  <cell>بـ<placeName type="ثمن" ref="ثمن-الازبكيه"><orgName ref="ثمن-الازبكيه"
+                           type="ثمن">ثمن الازبكيه</orgName></placeName></cell>
                   <cell/>
                </row>
                <row>
@@ -794,30 +798,31 @@
                </row>
                <row>
                   <cell/>
-                  <cell>1</cell>
-                  <cell>محل <orgName ref="الاسبتالية-المعروفة-بمحل-الضبطية-القديمة" type="اسبتالية">الاسبتالية المعروفة بمحل الضبطية القديمة</orgName> وبجواره قطعة أرض </cell>
+                  <cell>١</cell>
+                  <cell>محل <orgName ref="الاسبتالية-المعروفة-بمحل-الضبطية-القديمة" type="اسبتالية"
+                        >الاسبتالية المعروفة بمحل <orgName type="ضبطية" ref="الضبطية-القديمة"
+                           >الضبطية القديمة</orgName></orgName> وبجواره قطعة أرض</cell>
                </row>
                <row>
                   <cell/>
-                  <cell>1</cell>
-                  <cell>محل <orgName ref="تفتيش-صحة-مصر-المعروف-بمدرسة-الولادة" type="تفتيش">تفتيش
-                        صحة مصر المعروف بمدرسة الولادة</orgName>
-                  </cell>
+                  <cell>١</cell>
+                  <cell>محل <orgName type="تفتيش" ref="تفتيش-صحة-مصر">تفتيش صحة مصر</orgName>
+                     المعروف ب<placeName ref="مدرسة-الولادة">مدرسة الولادة</placeName></cell>
                </row>
                <row>
                   <cell/>
-                  <cell>1</cell>
-                  <cell>محل <orgName ref="البوزخانة">البوزخانة</orgName></cell>
+                  <cell>١</cell>
+                  <cell>محل <placeName type="بوزخانة">البوزخانة</placeName></cell>
                </row>
                <row>
                   <cell/>
-                  <cell>1</cell>
+                  <cell>١</cell>
                   <cell>قطع أراضى باقيين من أراضى <placeName ref="بركة-الازبكية">بركة
                         الازبكية</placeName> يبلغ مقاسهم ٥٧٤٥ ذراعا </cell>
                </row>
                <row>
-                  <cell>5</cell>
-                  <cell>1</cell>
+                  <cell>٥</cell>
+                  <cell>١</cell>
                   <cell>قطعة أرض بـ<placeName ref="شارع-باب-البحر" type="شارع">شارع باب
                         البحر</placeName> تجاه منزل <persName>بدر افندى الحكيم</persName> يبلغ
                      مقاسها نحو السبعين ذراعا </cell>
@@ -944,7 +949,8 @@
                <row>
                   <cell/>
                   <cell>1</cell>
-                  <cell>قطعتين أرض باقين من محلات الميرى من ابتداء <placeName ref="شارع-كلوت-بيك" type="شارع">شارع كلوت بيك</placeName> جهة الكوبرى أحدهم ١٦٨ مترا والثانية
+                  <cell>قطعتين أرض باقين من محلات الميرى من ابتداء <placeName ref="شارع-كلوت-بيك"
+                        type="شارع">شارع كلوت بيك</placeName> جهة الكوبرى أحدهم ١٦٨ مترا والثانية
                      ٢١٣٥ مترا </cell>
                </row>
                <row>
@@ -964,7 +970,8 @@
                </row>
             </table>
             <p>قد صار الشروع فى مبيع اماكن وقطع أراضى تعلق الميرى بالمحروسة غير لازمين للميرى الموضح
-               بيانهم اعلاه فكل من يرغب المشترى يحضر لـ<orgName ref="ديوان-المحافظة" type="ديوان">ديوان المحافظة</orgName> لاطلاعه على شروط المبيع والنهو وما يرغب مشتراه يجرى
+               بيانهم اعلاه فكل من يرغب المشترى يحضر لـ<orgName ref="ديوان-المحافظة" type="ديوان"
+                  >ديوان المحافظة</orgName> لاطلاعه على شروط المبيع والنهو وما يرغب مشتراه يجرى
                اللازم نحوه وتحرر هذا اعلانا بما ذكر</p>
          </div>
          <div xml:id="k837" resp="#eAK">
