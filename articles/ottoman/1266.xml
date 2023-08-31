@@ -76,7 +76,8 @@
         <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
           du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
         <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+            Volait</persName></p>
       </publicationStmt>
       <sourceDesc>
         <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
@@ -91,13 +92,17 @@
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
         <p>We use the Arabic script but transliteration into Latin characters follows the Library of
-          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf"
+            >Arabic transliteration chart</ref>.</p>
         <p>Each individual article has an individual xml:id number starting with "w1"</p>
-        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
-        <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
+          and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added
+          in an attribute to a persName.</p>
         <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
-          Editions</ref>.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref
+            target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+            Editions</ref>.</p>
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
@@ -108,9 +113,9 @@
         <language ident="ota">Ottoman</language>
       </langUsage>
     </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="cleared">
       <listChange>
-        <change/>
+        <change status="cleared" resp="#eAM" when="2023-08-30"/>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -346,24 +351,23 @@
           <bibl><biblScope unit="issue">نمره ١٩٥</biblScope>
             <biblScope unit="page">ص ١</biblScope></bibl></head>
         <head>حوادث داخلية</head>
-        <p><orgName ref="منوفیه-مدیریتنده" type="مدیریت">منوفیه مدیریتنده</orgName> کائن <placeName ref="طملاى-قریه-سی" type="قریه">طملاى قریه سی</placeName> مشايخنك اهمال وعدم انتباه
-          لرندن ناشی قريۀ مذکوره ایله <placeName ref="شبشیر-قریه-سى">شبشیر قریه سنده</placeName> اوج
-            <orgName ref="سد">سد</orgName> قريله رق موجب خسارات جسيمه اولمش اولمسيله مشايخ مذکوره نك
-          برای تأديب <orgName ref="لیمان-اسکندريه " type="لیمان">لیمان اسکندريه يه</orgName>
-          کوندرلملری <orgName type="مجلس">مجلسجه</orgName> حكم وتنسيب اولنه رق اولوجهله اجرا
-          اولنمشدر</p>
+        <p><orgName ref="منوفیه-مدیریتنده" type="مدیریت">منوفیه مدیریتنده</orgName> کائن <placeName
+            ref="طملاى-قریه-سی" type="قریه">طملاى قریه سی</placeName> مشايخنك اهمال وعدم انتباه
+          لرندن ناشی قريۀ مذکوره ایله <placeName ref="شبشیر-قریه-سى" type="قریه">شبشیر قریه
+            سنده</placeName> اوج سد قريله رق موجب خسارات جسيمه اولمش اولمسيله مشايخ مذکوره نك برای
+          تأديب <orgName ref="لیمان-اسکندريه " type="لیمان">لیمان اسکندريه يه</orgName> کوندرلملری
+            <orgName type="مجلس">مجلسجه</orgName> حكم وتنسيب اولنه رق اولوجهله اجرا اولنمشدر.</p>
       </div>
       <div resp="#eHS" xml:id="w219">
         <head><date when-custom="1266-09-08">٨ رمضان ١٢٦٦</date>
           <bibl><biblScope unit="issue">نمره ١٩٦</biblScope>
             <biblScope unit="page">ص ١</biblScope></bibl></head>
         <head>حوادث داخلية</head>
-        <p><persName role="باشمهندس">دقهلیه مدیریتی باشمهندسی</persName>
-          <placeName ref="محروسۀ-مصر">محروسۀ مصرده</placeName> وقوعبوله جق ابنيه وسائر خصوصات لازمه
-          نك اقتضا ایدن مقایسه لرینی اعمال ايتمك خصوصنه مأمور قلنمش اولديغندن بدلنه بر مناسبنك
-          تعيينى لازمکلمش اولمسيله <orgName ref="زمرۀ-مهندسین">زمرۀ مهندسیندن</orgName>
+        <p>دقهلیه مدیریتی باشمهندسی محروسۀ مصرده وقوعبوله جق ابنيه وسائر خصوصات لازمه نك اقتضا ایدن
+          مقایسه لرینی اعمال ايتمك خصوصنه مأمور قلنمش اولديغندن بدلنه بر مناسبنك تعيينى لازمکلمش
+          اولمسيله <orgName ref="زمرۀ-مهندسین">زمرۀ مهندسیندن</orgName>
           <persName role="ملازم-اول ">ملازم اول عبد آه حسين افندى</persName> بالتنسيب عهده سنه
-          یوزباشیلق رتبه سی اعطاسیله مدیریت مذکوره يه باشمهندس نصب وتعیین اولنمشدر </p>
+          یوزباشیلق رتبه سی اعطاسیله مدیریت مذکوره يه باشمهندس نصب وتعیین اولنمشدر.</p>
       </div>
       <div resp="#eHS" xml:id="w220">
         <head><date when-custom="1266-09-20">٢٠ رمضان ١٢٦٦</date>
@@ -371,23 +375,24 @@
             <biblScope unit="page">ص ١</biblScope>
           </bibl></head>
         <head>حوادث داخلية</head>
-        <p>بهر سنه فیضان <placeName ref="نیل">نیل</placeName> اواننده بالجمله جسور وسدلر تجديد
-          وتحكيم اولنه رق اراضئ مزروعه حفظ ووقايه اولنه کلدیکی مثللو جناب معلا القاب خديو اعظمی بو
-          دفعه جهت بحریه یی تشریف بیوردقارنده بو خصوصه دائر اجرا اولنمقده اولان عملياتك عوق وتأخرى
-          مشهود اصابتنمود داورانه لری اولمش اولمسیله اشبو اشغالك بردم اقدم اتمام واستكمالى ضمننده
-          اقتضا ایدن محللره مخصوص ذواتك تعيينى خصوصنه <rs type="اراده">ارادۀ</rs> عليه صدور بيوريله
-          رق <persName role="مجلس-احکام-وکیلی">مجلس احکام وکیلی سعادتلو سليم پاشا</persName>
-          <orgName ref="دقهليه-مديريتى">دقهليه</orgName>
-          <persName role="مجلس-احکام-وکیلی">ومجلس مذكور اعضاسندن سعادتلو راتب پاشا</persName>
+        <p>بهر سنه فیضان نیل اواننده بالجمله جسور وسدلر تجديد وتحكيم اولنه رق اراضئ مزروعه حفظ
+          ووقايه اولنه کلدیکی مثللو جناب معلا القاب خديو اعظمی بو دفعه جهت بحریه یی تشریف
+          بیوردقارنده بو خصوصه دائر اجرا اولنمقده اولان عملياتك عوق وتأخرى مشهود اصابتنمود داورانه
+          لری اولمش اولمسیله اشبو اشغالك بردم اقدم اتمام واستكمالى ضمننده اقتضا ایدن محللره مخصوص
+          ذواتك تعيينى خصوصنه <rs type="اراده">ارادۀ</rs> عليه صدور بيوريله رق <persName
+            role="مجلس-احکام-وکیلی">مجلس احکام وکیلی سعادتلو سليم پاشا</persName>
+          <persName role="دقهليه ومجلس اعضو">دقهليه ومجلس مذكور اعضاسندن سعادتلو راتب
+            پاشا</persName>
           <orgName ref="شرقيه-مديريتى">شرقيه</orgName>
           <persName>وعزتلو رشيد پاشا</persName>
-          <orgName ref="قليوبيه-مديريتى">قليوبيه</orgName> ایله <orgName ref="جيزه-مديريتى">جيزه</orgName>
+          <orgName ref="قليوبيه-مديريتى">قليوبيه</orgName> ایله <orgName ref="جيزه-مديريتى"
+            >جيزه</orgName>
           <persName>وعزتلو رستم پاشا</persName>
           <orgName ref="مجيره-مديريتى">مجيره</orgName>
           <persName>وعزتلو حسين پاشا</persName>
           <orgName ref="منوفيه-مديريتى">منوفيه</orgName>
           <persName>وسعادتلو برهان پاشا</persName>
-          <orgName ref="غربيه-مديريتى">غربيه مديريتلرينه</orgName> مأمور وتعيين بيورلمشلردر </p>
+          <orgName ref="غربيه-مديريتى">غربيه مديريتلرينه</orgName> مأمور وتعيين بيورلمشلردر.</p>
       </div>
       <div resp="#eHS" xml:id="w221">
         <head><date when-custom="1266-11-18">١٨ ذى القعده ١٢٦٦</date>
@@ -395,12 +400,13 @@
             <biblScope unit="page">ص ١</biblScope></bibl>
         </head>
         <head>حوادث داخلية</head>
-        <p>مجاورينده کائن بستان علما قطعه سنده دفين خاكغفران اولان <persName role="شیخ">شیخ علی
-            نجاری</persName> قدّس سره الباری حضرتلرينك <orgName type="تربه ">تربه سی</orgName> كهنه
-          لنه رك تجديده محتاج بولنمسى واشبو خصوصك اجراسی شيخ مشار اليهك حقنده بشقه جه رعایت وتعظيم
-          اوله جغندن فضله مثوبات عظيم حصوله کله جکی درکار ایدوکنه بناء تربۀ شريفۀ مذكوره نك تجديد
-          وانشاسی خصوصنه دائر بو دفعه <rs type="اراده">ارادۀ</rs> اصابتعادۀ حضرت آصفی شرفصدور
-          بیورلمش اولمسيله اقتضاسی لازمکلان محللره امر واشعار اولنمشدر</p>
+        <p>مجاورينده کائن بستان علما قطعه سنده دفين خاكغفران اولان <placeName
+            ref="شیخ علی نجاری تربه سی"><persName role="شیخ">شیخ علی نجاری</persName> قدّس سره
+            الباری حضرتلرينك تربه سی</placeName> كهنه لنه رك تجديده محتاج بولنمسى واشبو خصوصك اجراسی
+          شيخ مشار اليهك حقنده بشقه جه رعایت وتعظيم اوله جغندن فضله مثوبات عظيم حصوله کله جکی درکار
+          ایدوکنه بناء تربۀ شريفۀ مذكوره نك تجديد وانشاسی خصوصنه دائر بو دفعه <rs type="اراده"
+            >ارادۀ</rs> اصابتعادۀ حضرت آصفی شرفصدور بیورلمش اولمسيله اقتضاسی لازمکلان محللره امر
+          واشعار اولنمشدر.</p>
       </div>
       <div resp="#eHS" xml:id="w222">
         <head><date when-custom="1266-11-18">١٨ ذى القعده ١٢٦٦</date>
@@ -408,10 +414,12 @@
             <biblScope unit="page">ص ١</biblScope></bibl>
         </head>
         <head>حوادث داخلية</head>
-        <p>چيقان ماه شوّالك يكرمى ایکنجی جمعه کونی ساعت طقوز صولرنده <placeName ref="حسینیه-سمتى" type="سمت">حسینیه سمتنده</placeName> کائن <placeName ref="شیخ-صوابی-حضرتلرينك-خطى" type="خط">شیخ صوابی حضرتلرينك خطنده</placeName>
+        <p>چيقان ماه شوّالك يكرمى ایکنجی جمعه کونی ساعت طقوز صولرنده <placeName ref="حسینیه-سمتى"
+            type="سمت">حسینیه سمتنده</placeName> کائن <placeName ref="شیخ-صوابی-حضرتلرينك-خطى"
+            type="خط">شیخ صوابی حضرتلرينك خطنده</placeName>
           <orgName ref="برسيم-وكاله-سى" type="وكاله">برسيم وكاله سندن</orgName> قضاء يانقين ظهور
           ايدرك درحال مأمورلر طرفندن ادوات <orgName type="اطفائيه">اطفائيه نك</orgName> ايصاليله
-          بعونه تعالى ديكر بر يره سرایت ایتمکسزين اطفا اولنمشدر</p>
+          بعونه تعالى ديكر بر يره سرایت ایتمکسزين اطفا اولنمشدر.</p>
       </div>
       <div resp="#eHS" xml:id="w223">
         <head><date when-custom="1266-12-24">٢٤ ذي الحجه ١٢٦٦</date>
@@ -419,11 +427,12 @@
             <biblScope unit="page">ص ٤</biblScope></bibl>
         </head>
         <head>اعلانات</head>
-        <p>كذلك افندئ مومى اليهك [<persName>محمد راغب افندى</persName>] تعلقی اوله رق <placeName ref="درب-جمامیز" type="درب">درب جمامیزده</placeName>
+        <p>كذلك افندئ مومى اليهك تعلقی اوله رق <placeName ref="درب-جمامیز" type="درب">درب
+            جمامیزده</placeName>
           <placeName ref="هياتم-محله-سى" type="محله">هياتم محله سنه</placeName> قریب اوست قاتی سکز
           اوطه ومکمل اوله رق بر حمام وبر مطبخ والت قاتى فسقيه لى بر منظره ودرت حيوان الور بر اخور
           واوچ مغازه واچيق بر بيوك حولى وبر قيويي محتوى مزادده اوتوز بش بيك غروشه بالغ اولمش بر باب
-          خانه ویانی باشنده بر قطعه ير</p>
+          خانه ویانی باشنده بر قطعه ير.</p>
       </div>
       <div>
         <head><date when-custom="1266-12-24">٢٤ ذي الحجه ١٢٦٦</date>
@@ -435,7 +444,7 @@
           <placeName ref="خطیری-حمامى" type="حمام">خطیری حمامنه</placeName> قریب <persName>رجب
             اغایه</persName> متعلق اوست قاتی برى بيوك وبرى صفه لى ودیكرلری صفه سز بش اوطه وبر حمام
           یری وبر مطبخ وبر كيلار وبر کچوك حمام وآلت قاتی بر مغازه ودرت حيوان الور بر اخور وبر قيو
-          وبر اچيق حولی يی محتوى بر باب خانه</p>
+          وبر اچيق حولی يی محتوى بر باب خانه.</p>
       </div>
     </body>
    </text>
