@@ -149,7 +149,7 @@
     <xsl:template name="type_number">
         <xsl:variable name="val" select="fn:cell(parent::t:table, xs:int(@n), fn:col(parent::t:table, 'skos:broader'))"/>
         <xsl:if test="not($val = ('', 'n/a', 'NULL'))">
-            <idno type="URI_type">{$val}</idno>
+            <idno type="URI">{$val}</idno>
         </xsl:if>
     </xsl:template>
     
