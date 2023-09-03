@@ -96,8 +96,7 @@
          <editorialDecl>
             <p>Rules of TEI XML MarkUp in This Project</p>
             <p>We use the Arabic script but transliteration into Latin characters follows the
-               Library of Congress (LOC) <ref
-                  target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic
+               Library of Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic
                   transliteration chart</ref>.</p>
             <p>Each individual article has an individual xml:id number starting with "w1"</p>
             <p>We only use persName, orgName, placeName elements, apart from bibliographical
@@ -105,8 +104,7 @@
             <p>If the location or organization of responsibility is known from the text, it can be
                added in an attribute to a persName.</p>
             <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-            <p>This project's schema considers Till Grallert's work in his <ref
-                  target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
                   Editions</ref>.</p>
          </editorialDecl>
       </encodingDesc>
@@ -132,21 +130,18 @@
                   <biblScope unit="page">ص ١</biblScope></bibl></head>
             <head>حوادث داخلية</head>
             <p><placeName ref="اماكن طاهره">اماكن طاهره ده</placeName> دفین خاكعطرناك اولان صحابۀ
-               كرام ومحدثين عظام حضراتندن <placeName ref="سید عبد الله بن عباس حضرتلرينك مقام"
-                  type="مقام"><persName>سید عبد الله بن عباس</persName> حضرتلرينك مقام</placeName>
+               كرام ومحدثين عظام حضراتندن <placeName ref="سید عبد الله بن عباس حضرتلرينك مقام" type="مقام"><persName>سید عبد الله بن عباس</persName> حضرتلرينك مقام</placeName>
                کرامت ارتساملرینه بر کسوه اعمال و<placeName ref="مکۀ مکرمه">مکۀ مکرمه</placeName>
                جانب عالیسنه اسبال اولنمسی خصوصنه <rs type="اراده">ارادۀ</rs> عليۀ جناب داوری شرفتعلق
                بیوریله رق اولوجهله اقتضاسی اجرا قلنمشدر.</p>
          </div>
          <div resp="#eHS" xml:id="w301"><head><date when-custom="1267-01-03">٣ محرم ١٢٦٧</date>
                <bibl><biblScope unit="issue">نمره ٢٠٣</biblScope>
-                  <biblScope unit="page">ص ١</biblScope></bibl></head><head>حوادث داخلية</head><p>بوندن مقدم چیقاريلان نسخ وقايعك برنده تسطير اولنديغي وجهله <placeName ref="طريق نقشبنديه تكيه"
-                  type="تكيه"><orgName ref="طريق نقشبنديه">طريق نقشبنديه</orgName> فقراسنه مخصوص بر
+                  <biblScope unit="page">ص ١</biblScope></bibl></head><head>حوادث داخلية</head><p>بوندن مقدم چیقاريلان نسخ وقايعك برنده تسطير اولنديغي وجهله <placeName ref="طريق نقشبنديه تكيه" type="تكيه"><orgName ref="طريق نقشبنديه">طريق نقشبنديه</orgName> فقراسنه مخصوص بر
                   باب تكيه</placeName> بنا وانشا ومصاريف لازمه سی جانب میریدن تسویه وادا اولنمق
                ضمننده <rs type="اراده">ارادۂ</rs> خیریت عادۀ حضرت آصفی شرفتعلق بيورلمشیدی بو دفعه
                دخی تکیۀ مذکوره شیخی افندينك التماسنه مبنی بر صهريج ایله شیخ مومی اليهه مخصوص اولمق
-               اوزره بر محلك يكيدن بنا وانشا اولنمسی خصوصنه <rs type="امر">امر</rs> و<rs
-                  type="اراده">اراده</rs> بيورلمش اولمغین اولوجهله اقتضاسنك اجراسی لازمکلانلره امر
+               اوزره بر محلك يكيدن بنا وانشا اولنمسی خصوصنه <rs type="امر">امر</rs> و<rs type="اراده">اراده</rs> بيورلمش اولمغین اولوجهله اقتضاسنك اجراسی لازمکلانلره امر
                واشعار اولنمشدر.</p></div>
          <div resp="#eHS" xml:id="w302"><head><date when-custom="1267-01-17">١٧ محرم ١٢٦٧</date>
                <bibl><biblScope unit="issue">نمره ٢٠٤</biblScope>
@@ -238,8 +233,7 @@
             <head><date when-custom="1267-06-05">٥ جمادى الاخرة ١٢٦٧</date>
                <bibl><biblScope unit="issue">نمره ٢١٤</biblScope>
                   <biblScope unit="page">ص ٤</biblScope></bibl></head><head>إعلانات</head><p><placeName ref="حسنین حضرتلری خطى" type="خط">حسنین حضرتلری خطنده</placeName>
-               <placeName ref="شیخ حلوه جی">شیخ حلوه جی</placeName> قارشوسنده بولنان <placeName
-                  ref="عطفة العسل محله سى" type="محله">عطفة العسل محله سنده</placeName>
+               <placeName ref="شیخ حلوه جی">شیخ حلوه جی</placeName> قارشوسنده بولنان <placeName ref="عطفة العسل محله سى" type="محله">عطفة العسل محله سنده</placeName>
                <persName>مرحوم عثمان كاشفك</persName> ورثه سنه متعلق اوست قاتی سكز اوطه وبر مطبخ وبر
                كيلار وبر لطیف قصر وخزینه ومنافع سايره لى ومرمرلى بر بيوك كوشك ومكمل بر حمامی شامل
                والت قاتی برى فسقيه لى وديكرى فسقيه سز ايكى بيوك قاعه وبر كوچك منظره ومرمر دیركلی
@@ -249,8 +243,7 @@
             <head><date when-custom="1267-06-05">٥ جمادى الاخرة ١٢٦٧</date>
                <bibl><biblScope unit="issue">نمره ٢١٤</biblScope>
                   <biblScope unit="page">ص ٤</biblScope></bibl></head><head>إعلانات</head><p>كذلك خانۀ مذکوره قربنده ورثۀ مرقومه يه متعلق بری درت اوطه وبر مطبخ وبر کيلاری مشتمل و دیكری ایکی
-               اوطه وبر مطبخ وبر کیلاری محتوی ایکی باب خانه صاتیلق اولوب راغبلری وار ایسه <persName
-                  role="دلالباشی">دلالباشی سید مصطفادن</persName> استدلال ایلمسی.</p></div>
+               اوطه وبر مطبخ وبر کیلاری محتوی ایکی باب خانه صاتیلق اولوب راغبلری وار ایسه <persName role="دلالباشی">دلالباشی سید مصطفادن</persName> استدلال ایلمسی.</p></div>
          <div resp="#eHS" xml:id="w316">
             <head><date when-custom="1267-06-21">٢١ جمادى الاخرة ١٢٦٧</date>
                <bibl><biblScope unit="issue">نمره ٢١٥</biblScope>
@@ -265,8 +258,7 @@
                   <biblScope unit="page">ص ٤</biblScope></bibl></head><head>إعلانات</head><p>كذلك قريۀ مرقومه ده ينه اغاى مومى اليهك مخلفاتندن برينك اوست قاتنده اوچ اوطه وبر فسحه والت قاتنده
                اوچ مغازه وايكى حيوان الور بر اخور وبر اچیق حولیسی بولنور ودیكرينك اوست قاتی ایکی
                اوطه وبر حمامجه وبر کیلار وبر مطبخ وبر فسحه یی والت قاتی ایکی مغازه وایکی حیوان الور
-               بر اخور وكوچك بر حولی یی مشتمل ایکی باب خانه صاتيلق اولوب استکلوسی وار ایسه <persName
-                  role="دلالباشی">دلالباشی سید مصطفادن</persName> استدلال ايلمسی.</p></div>
+               بر اخور وكوچك بر حولی یی مشتمل ایکی باب خانه صاتيلق اولوب استکلوسی وار ایسه <persName role="دلالباشی">دلالباشی سید مصطفادن</persName> استدلال ايلمسی.</p></div>
          <div resp="#eHS" xml:id="w318">
             <head><date when-custom="1267-07-04">٤ رجب ١٢٦٧</date>
                <bibl><biblScope unit="issue">نمره ٢١٦</biblScope>
@@ -279,8 +271,7 @@
             <head><date when-custom="1267-07-16">١٦ رجب ١٢٦٧</date>
                <bibl><biblScope unit="issue">نمره ٢١٧</biblScope>
                   <biblScope unit="page">ص ١</biblScope></bibl></head><head>حوادث داخلية</head><p>
-               <placeName ref="شیخ ظلام خطى" type="خط">شیخ ظلام خطنده</placeName> کائن <orgName
-                  type="مسجد-شریف">مسجد شریف</orgName> مشرف خراب اولوب تعمیر وترمیمه محتاج بولندیغنه
+               <placeName ref="شیخ ظلام خطى" type="خط">شیخ ظلام خطنده</placeName> کائن <orgName type="مسجد-شریف">مسجد شریف</orgName> مشرف خراب اولوب تعمیر وترمیمه محتاج بولندیغنه
                وهمت والا منقبت حضرت آصفی بو كونه امور خیریه نك اجراسی بابنده همیشه مبذول ودرکار
                اولنديغنه بناء مسجد شريف مذكورك تعمیری خصوصنه بو دفعه <rs type="اراده">ارادۀ</rs>
                خیریت عادۀ جناب داوری شرفتعلق بيورلمش اولمسيله اقتضاسنك اجراسى لازمکلانلره
@@ -288,11 +279,9 @@
          <div resp="#eHS" xml:id="w320">
             <head><date when-custom="1267-07-28">٢٨ رجب ١٢٦٧</date>
                <bibl><biblScope unit="issue">نمره ٢١٨</biblScope>
-                  <biblScope unit="page">ص ١</biblScope></bibl></head><head>إعلانات</head><p>ماه مذكورك يكرمى طقوزنجي پنجشنبه کیجه سی ساعت اوچ راده لرنده <placeName ref="شعراوی سمتى"
-                  type="سمت">شعراوی سمتنده</placeName>
+                  <biblScope unit="page">ص ١</biblScope></bibl></head><head>إعلانات</head><p>ماه مذكورك يكرمى طقوزنجي پنجشنبه کیجه سی ساعت اوچ راده لرنده <placeName ref="شعراوی سمتى" type="سمت">شعراوی سمتنده</placeName>
                <persName>هواجه انطون ظلوطه نك</persName> ساكن اولديغي خانه دن قضاء يانقين ظهور ايدرك
-               درحال <orgName type="ضبطيه">ضبطيه</orgName> طرفندن اسباب <orgName type="اطفائیه"
-                  >اطفائیه نك</orgName> ايصاليله بحوله تعالى ديكر بر يره سرایت اتمكسزين اطفا
+               درحال <orgName type="ضبطيه">ضبطيه</orgName> طرفندن اسباب <orgName type="اطفائیه">اطفائیه نك</orgName> ايصاليله بحوله تعالى ديكر بر يره سرایت اتمكسزين اطفا
                اولنمشدر.</p></div>
          <div resp="#eHS" xml:id="w321">
             <head><date when-custom="1267-07-28">٢٨ رجب ١٢٦٧</date>
@@ -304,13 +293,11 @@
                الافرانقه اوله رق اوچ اخوری مشتمل بر دوار ودرت بچقى ميشه لك وديكر درت بچقى دخی اشجار
                كونا كون اوله رق درتيوز اللى اغاج والافرانقه مثلث اوله رق اوچ ساقيه ونيل مبارك صويندن
                کتورمك اوزره اوزرنده بر ساقیه بولنور بر كولی شامل طقوز فدانه بالغ بر باغچه یی محتوی
-               مذکور نیل مبارکه بقار بر باب خانه صاتیلق اولوب راغبلری <persName role="دلالباشی"
-                  >دلالباشی سید مصطفادن</persName> استدلال ایلمسی.</p></div>
+               مذکور نیل مبارکه بقار بر باب خانه صاتیلق اولوب راغبلری <persName role="دلالباشی">دلالباشی سید مصطفادن</persName> استدلال ایلمسی.</p></div>
          <div resp="#eHS" xml:id="w322">
             <head><date when-custom="1267-08-05">٥ شعبان ١٢٦٧</date>
                <bibl><biblScope unit="issue">نمره ٢١٩</biblScope>
-                  <biblScope unit="page">ص ٤</biblScope></bibl></head><head>حوادث داخلية</head><p>ماه هرقومك يكرمى بشنجی پازار ایرتسی کیجه سی لیلا ساعت ایکی راده لرنده <orgName
-                  ref="بولاق ترسانه سی" type="ترسانه">بولاق ترسانه سی</orgName> داخلنده تیمورجیلر
+                  <biblScope unit="page">ص ٤</biblScope></bibl></head><head>حوادث داخلية</head><p>ماه هرقومك يكرمى بشنجی پازار ایرتسی کیجه سی لیلا ساعت ایکی راده لرنده <orgName ref="بولاق ترسانه سی" type="ترسانه">بولاق ترسانه سی</orgName> داخلنده تیمورجیلر
                ورشه سندن يانقين ظهور اتمکله در حال اسباب <orgName type="اطفائيه">اطفائيه
                   نك</orgName> ايصاليله مأمورلرى ثمرۀ غيرتى اوله رق اصلا بر سقامت حاصل اولمقسزين
                اطفاسی میسر اولمشدر.</p></div>         
