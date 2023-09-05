@@ -804,7 +804,8 @@
                   <cell/>
                   <cell>١</cell>
                   <cell>محل <orgName type="تفتيش" ref="تفتيش-صحة-مصر">تفتيش صحة مصر</orgName>
-                     المعروف ب<placeName ref="مدرسة-الولادة">مدرسة الولادة</placeName></cell>
+                     المعروف ب<placeName ref="مدرسة-الولادة" type="مدرسة">مدرسة
+                     الولادة</placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -814,51 +815,21 @@
                <row>
                   <cell/>
                   <cell>١</cell>
-                  <cell>قطع أراضى باقيين من أراضى <placeName ref="بركة-الازبكية">بركة
-                        الازبكية</placeName> يبلغ مقاسهم ٥٧٤٥ ذراعا </cell>
+                  <cell>قطع أراضى باقيين من أراضى <placeName ref="بركة-الازبكية" type="بركة">بركة
+                        الازبكية</placeName> يبلغ مقاسهم ٥٧٤٥ ذراعا</cell>
                </row>
                <row>
                   <cell>٥</cell>
                   <cell>١</cell>
-                  <cell>قطعة أرض بـ<placeName ref="شارع-باب-البحر" type="شارع">شارع باب
-                        البحر</placeName> تجاه منزل <persName>بدر افندى الحكيم</persName> يبلغ
-                     مقاسها نحو السبعين ذراعا </cell>
+                  <cell>قطعة أرض بـ<placeName ref="شارع-باب-البحر" type="شارع">شارع <placeName
+                           type="باب" ref="باب-البحر">باب البحر</placeName></placeName> تجاه
+                        <placeName type="منزل" ref="منزل-بدر-افندى-حكيم">منزل <persName>بدر افندى
+                           الحكيم</persName></placeName> يبلغ مقاسها نحو السبعين ذراعا</cell>
                </row>
                <row>
                   <cell/>
-                  <cell>ثمن باب الشعريه </cell>
-                  <cell/>
-               </row>
-               <row>
-                  <cell/>
-                  <cell>عدد</cell>
-                  <cell/>
-               </row>
-               <row>
-                  <cell/>
-                  <cell>1</cell>
-                  <cell>نصف نحت <placeName ref="بين-الصورين">بين الصورين</placeName></cell>
-               </row>
-               <row>
-                  <cell>2</cell>
-                  <cell>1</cell>
-                  <cell>محل قاعه داخل برج بـ<placeName ref="سوق-الزلط">سوق الزلط</placeName> بصور
-                     البلد </cell>
-               </row>
-               <row>
-                  <cell>1</cell>
-                  <cell>دكان بالقبر الطويل </cell>
-                  <cell/>
-               </row>
-               <row>
-                  <cell>1</cell>
-                  <cell>مخزن الاخشاب بـ<placeName ref="حوش-بردق">حوش بردق</placeName>
-                  </cell>
-                  <cell/>
-               </row>
-               <row>
-                  <cell/>
-                  <cell><orgName ref="ثمن-مصر-القديمة" type="ثمن">ثمن مصر القديمة</orgName>
+                  <cell><orgName type="ثمن" ref="ثمن-باب-الشعريه"><placeName type="ثمن"
+                           ref="ثمن-باب-الشعريه">ثمن باب الشعريه</placeName></orgName>
                   </cell>
                   <cell/>
                </row>
@@ -869,21 +840,60 @@
                </row>
                <row>
                   <cell/>
-                  <cell>1</cell>
+                  <cell>١</cell>
+                  <cell>نصف<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> نحت
+                        <?oxy_custom_end?><placeName ref="بين-الصورين">بين
+                     الصورين</placeName></cell>
+               </row>
+               <row>
+                  <cell>٢</cell>
+                  <cell>١</cell>
+                  <cell>محل قاعه داخل <placeName type="برج" ref="برج-بسوق-الزلط">برج بـ<placeName
+                           ref="سوق-الزلط" type="سوق">سوق الزلط</placeName></placeName> بصور
+                     البلد</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell><placeName ref="دكان-بالقبر-الطويل" type="دكان">دكان ب<placeName
+                           ref="القبر-الطويل">القبر الطويل</placeName></placeName></cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell><placeName type="مخزن" ref="مخزن-الاخشاب-حوش-بردق">مخزن الاخشاب بـ<placeName
+                           ref="حوش-بردق" type="حوش">حوش بردق</placeName></placeName></cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell><placeName type="ثمن" ref="ثمن-مصر-القديمة"><orgName ref="ثمن-مصر-القديمة"
+                           type="ثمن">ثمن مصر القديمة</orgName></placeName></cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>عدد</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
                   <cell>قطعة أرض بـ<placeName ref="مصر-القديمة">مصر القديمة</placeName> باقية من
-                     الارض الذى بنى فيها المدابغ </cell>
+                     الارض الذى بنى فيها <placeName type="مدابغ" ref="مدابغ-بمصر-القديمة"
+                        >المدابغ</placeName></cell>
                </row>
                <row>
-                  <cell>3</cell>
-                  <cell>2</cell>
-                  <cell>اودتين بـ<placeName ref="فم-الخليج">فم الخليج</placeName> مهدومين </cell>
+                  <cell>٣</cell>
+                  <cell>٢</cell>
+                  <cell>اودتين بـ<placeName ref="فم-الخليج">فم الخليج</placeName> مهدومين</cell>
                </row>
                <row>
                   <cell/>
-                  <cell>محلات تداخل بعضهم يتنظيم <placeName ref="ميدان-محمد-علي" type="ميدان">ميدان
-                        محمد على</placeName> والباقى منهم من بعد لزوم التنظيم يصير مبيعه جميعهم
-                        بـ<placeName ref="قرا-ميدان">قرا ميدان</placeName>
-                  </cell>
+                  <cell>محلات تداخل
+                     بعضهم<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> يتنظيم
+                        <?oxy_custom_end?><placeName ref="ميدان-محمد-علي" type="ميدان">ميدان محمد
+                        على</placeName> والباقى منهم من بعد لزوم التنظيم يصير مبيعه جميعهم
+                        بـ<placeName ref="قراميدان">قراميدان</placeName></cell>
                   <cell/>
                </row>
                <row>
@@ -893,65 +903,70 @@
                </row>
                <row>
                   <cell/>
-                  <cell>1</cell>
+                  <cell>١</cell>
                   <cell><placeName ref="اسطبل-خيول-الطوبجية" type="اسطبل">اسطبل خيول
                         الطوبجية</placeName>
                   </cell>
                </row>
                <row>
                   <cell/>
-                  <cell>1</cell>
-                  <cell>محل <orgName ref="قشلاق-الطوبجية">قشلاق الطوبجيية</orgName>
+                  <cell>١</cell>
+                  <cell>محل <orgName ref="قشلاق-الطوبجية" type="قشلاق">قشلاق الطوبجيية</orgName>
                   </cell>
                </row>
                <row>
                   <cell/>
-                  <cell>1</cell>
-                  <cell>ورشة الحدادين والنجارين </cell>
+                  <cell>١</cell>
+                  <cell><placeName type="ورشة" ref="ورشة-الحدادين-والنجارين">ورشة الحدادين
+                        والنجارين</placeName></cell>
                </row>
                <row>
                   <cell/>
-                  <cell>1</cell>
-                  <cell><orgName ref="طوبخانة-المدافع-الطوبجية">طوبخانة المدافع الطوبجية</orgName>
+                  <cell>١</cell>
+                  <cell><orgName ref="طوبخانة-المدافع-الطوبجية" type="طوبخانة">طوبخانة المدافع
+                        الطوبجية</orgName></cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>خمسة اود بـ<placeName ref="قراميدان">قراميدان</placeName>
                   </cell>
                </row>
                <row>
                   <cell/>
-                  <cell>1</cell>
-                  <cell>خمسة اود بـ<placeName ref="قرا-ميدان">قرا ميدان</placeName>
-                  </cell>
+                  <cell>١</cell>
+                  <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>هرجلة
+                     <?oxy_comment_start author="Sarah" timestamp="20230905T153554+0200" comment="check in org and meaning
+" mid="46"?>الخيول<?oxy_custom_end?><?oxy_comment_end mid="46"?></cell>
                </row>
                <row>
-                  <cell/>
-                  <cell>1</cell>
-                  <cell>هرجلة الخيول </cell>
+                  <cell>٧</cell>
+                  <cell>١</cell>
+                  <cell><placeName ref="ورشة-الخارخانة" type="ورشة">ورشة
+                     الخارخانة</placeName></cell>
                </row>
                <row>
-                  <cell>7</cell>
-                  <cell>1</cell>
-                  <cell><placeName ref="ورشة-الخارخانة">ورشة الخارخانة</placeName></cell>
-               </row>
-               <row>
-                  <cell>ص 4 – العمود 2 </cell>
+                  <cell> </cell>
                   <cell/>
                   <cell/>
                </row>
                <row>
                   <cell/>
-                  <cell>1</cell>
+                  <cell>١</cell>
                   <cell>محل <orgName ref="ديوان-الرسائل-ببولاق" type="ديوان">ديوان الرسايل
-                        ببولاق</orgName> مركب فوق <orgName ref="تكية-بابا-حافظ">تكية بابا
-                        حافظ</orgName></cell>
+                           ب<placeName ref="بولاق">بولاق</placeName></orgName> مركب فوق <orgName
+                        ref="تكية-بابا-حافظ" type="تكية"><placeName type="تكية" ref="تكية-بابا-حافظ"
+                           >تكية بابا حافظ</placeName></orgName></cell>
                </row>
                <row>
                   <cell/>
-                  <cell>1</cell>
+                  <cell>١</cell>
                   <cell>قطعتين أرض باقين من محلات الميرى من ابتداء <placeName ref="شارع-كلوت-بيك" type="شارع">شارع كلوت بيك</placeName> جهة الكوبرى أحدهم ١٦٨ مترا والثانية
                      ٢١٣٥ مترا </cell>
                </row>
                <row>
                   <cell/>
-                  <cell>1</cell>
+                  <cell>١</cell>
                   <cell>قطع وفضلات بالشوارع المستجدة </cell>
                </row>
                <row>
@@ -961,7 +976,7 @@
                </row>
                <row>
                   <cell/>
-                  <cell>22</cell>
+                  <cell>٢٢</cell>
                   <cell/>
                </row>
             </table>
