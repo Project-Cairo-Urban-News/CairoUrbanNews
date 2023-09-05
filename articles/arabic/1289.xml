@@ -975,128 +975,158 @@
                بيانهم اعلاه فكل من يرغب المشترى يحضر لـ<orgName ref="ديوان-المحافظة" type="ديوان">ديوان المحافظة</orgName> لاطلاعه على شروط المبيع والنهو وما يرغب مشتراه يجرى
                اللازم نحوه وتحرر هذا اعلانا بما ذكر</p>
          </div>
-         <div xml:id="k837" resp="#eAK">
-            <head><bibl><biblScope unit="issue">نمره ٤٦١</biblScope>
+         <div xml:id="k837" resp="#eAK #eSG">
+            <head><date when-custom="1289-04-12">١٢ ربيع الثانى ١٢٨٩</date>
+               <date when="1872-06-18">١٨ يونيه ١٨٧٢</date>
+               <bibl><biblScope unit="issue">نمره ٤٦١</biblScope>
                   <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
-            <head>يوم الثلاثاء <date when-custom="1289-04-12">١٢ ربيع الثانى ١٢٨٩</date> الموافق
-                  <date when="1872-06-18">١٨ يونيه ١٨٧٢</date></head>
-            <head>اعلانات</head>
-            <head>صورة <rs type="اعلان">اعلان</rs> وارد من حضرة عموم ناظر الاوقاف بتاريخ <date when-custom="1289-04-04">٤ ربيع الآخر ١٢٨٩</date></head>
-            <p>بيان المحلات المقتضى خروجها من الاوقاف التابعة اليها كالموضح أدناه </p>
+            <head><title>اعلانات</title></head>
+            <head><title>صورة <rs type="اعلان">اعلان</rs> وارد من حضرة عموم ناظر <orgName
+                     ref="الاوقاف">الاوقاف</orgName> بتاريخ ٤ ربيع الآخر ١٢٨٩</title></head>
+            <p>بيان المحلات المقتضى خروجها من الاوقاف التابعة اليها كالموضح أدناه</p>
             <table rend="rules">
                <row>
                   <cell>عدد</cell>
                   <cell/>
                </row>
                <row>
-                  <cell>1</cell>
-                  <cell>منزل خرب كائن بـ<placeName ref="حارة-السقايين" type="حارة">حارة
-                        السقايين</placeName> وقف <persName>الحرمه جميانه</persName> على فقراء
-                        <orgName ref="دير-القمامة" type="دير">دير القمامة</orgName> و<orgName ref="دير-ماري-مرقص" type="دير">دير مارى مرقص</orgName> يبلغ مسطحه ٢٣١ ذراع
-                     مقتضى استبداله وراسى على <persName>المعلم حسين بدوى الصرماتى</persName> بمبلغ
-                     ٥٢٣٠ صاغ وقائمة مزاده بالديوان وتحدد لنهو مزاده خمسة عشر يوم من تاريخه </cell>
+                  <cell>١</cell>
+                  <cell><placeName type="منزل" ref="منزل-وقف-الحرمه-جميانه">منزل</placeName> خرب
+                     كائن بـ<placeName ref="حارة-السقايين" type="حارة">حارة السقايين</placeName>
+                     <orgName ref="وقف-الحرمه-جميانه" type="وقف">وقف <persName>الحرمه
+                           جميانه</persName></orgName> على فقراء <placeName type="دير"
+                        ref="دير-القمامة"><orgName ref="دير-القمامة" type="دير">دير
+                           القمامة</orgName></placeName> و<placeName ref="دير-مارى-مرقص" type="دير"
+                           ><orgName ref="دير-ماري-مرقص" type="دير">دير مارى
+                        مرقص</orgName></placeName> يبلغ مسطحه ٢٣١ ذراع مقتضى استبداله وراسى على
+                        <persName>المعلم حسين بدوى الصرماتى</persName> بمبلغ ٥٢٣٠ صاغ وقائمة مزاده
+                     بالديوان وتحدد لنهو مزاده خمسة عشر يوم من تاريخه</cell>
                </row>
                <row>
-                  <cell>1</cell>
-                  <cell>منزل بـ<placeName ref="عطفة-الوزان" type="عطفة">عطفة الوزان</placeName>
-                        بـ<placeName type="درب">درب الجماميز</placeName> وقف <persName>محمد
-                        كاشف</persName> نظارة حضرة <persName>محمد افندى السادات</persName> يبلغ
-                     مسطحه ١٢٠٠ ذراع تقريبا مقتضى استبداله وراسى على <persName>المعلم حسين بدوى
-                        الصرماتى</persName> بمبلغ ٥٢٣٠ صاغ وقائمة مزاده بطرف معاون قسم رابع اوقاف
-                     وتحدد له خمسة عشر يوما من تاريخه </cell>
+                  <cell>١</cell>
+                  <cell><placeName type="منزل" ref="منزل-وقف-محمد-كاشف">منزل</placeName>
+                        بـ<placeName ref="عطفة-الوزان" type="عطفة">عطفة الوزان</placeName>
+                        بـ<placeName type="درب" ref="درب-الجماميز">درب الجماميز</placeName>
+                     <orgName type="وقف" ref="وقف-محمد-كاشف">وقف <persName>محمد
+                        كاشف</persName></orgName> نظارة حضرة <persName>محمد افندى السادات</persName>
+                     يبلغ مسطحه ١٢٠٠ ذراع تقريبا مقتضى استبداله وراسى على <persName>المعلم حسين بدوى
+                        الصرماتى</persName> بمبلغ ٥٢٣٠ صاغ وقائمة مزاده بطرف معاون<orgName
+                        type="قسم" ref="قسم-رابع-اوقاف">قسم رابع اوقاف</orgName> وتحدد له خمسة عشر
+                     يوما من تاريخه</cell>
                </row>
                <row>
-                  <cell>1</cell>
-                  <cell>منزلين واصلهم منزل كائنين أمام <orgName ref="مسجد-جاني-بيك">مسجد جانى
-                        بيك</orgName> بـ<placeName ref="المغربلين">المغربلين</placeName> وقف
-                        <persName>المرحومة حميده</persName> لنظارة <persName>الست زنوبه بنت المرحوم
-                        على الروبى</persName> يبلغ مسطحه ٤٧٩ ذراع مقتضى استبداله وقائمة مزاده بطرف
-                     معاون قسم ثالث اوقاف </cell>
+                  <cell>١</cell>
+                  <cell><placeName type="منزلين" ref="منزلين-وقف-المرحومه-حميده">منزلين</placeName>
+                     واصلهم منزل كائنين أمام <placeName type="مسجد" ref="مسجد-جانى-بيك"><orgName
+                           ref="مسجد-جاني-بيك">مسجد جانى بيك</orgName></placeName> بـ<placeName
+                        ref="المغربلين">المغربلين</placeName>
+                     <orgName type="وقف" ref="وقف-المرحومة-حميده">وقف <persName>المرحومة
+                           حميده</persName></orgName> لنظارة <persName>الست زنوبه بنت
+                           <persName>المرحوم على الروبى</persName></persName> يبلغ مسطحه ٤٧٩ ذراع
+                     مقتضى استبداله وقائمة مزاده بطرف معاون <orgName type="قسم" ref="قسم-ثالث-اوقاف"
+                        >قسم ثالث اوقاف</orgName></cell>
                </row>
                <row>
-                  <cell>1</cell>
-                  <cell>أربعة دكاكين بـ<placeName ref="السيوفية">السيوفية</placeName> وقف
-                        <persName>الفرقانى</persName> نظاره <persName>حميده محمد</persName> يبلغ
-                     مسطح أرضهم ٦٠ ذراع مقتضى <sic>اشتبدالهم</sic> وقائمة مزادهم بطرف معاون قسم ثالث
-                     اوقاف وتحدد لنهو مزادهم خمسة عشر يوما من تاريخه </cell>
+                  <cell>١</cell>
+                  <cell>أربعة <placeName type="دكاكين" ref="دكاكين-وقف-الفرقانى">دكاكين</placeName>
+                        بـ<placeName ref="السيوفية">السيوفية</placeName>
+                     <orgName type="وقف" ref="وقف-الفرقانى">وقف
+                        <persName>الفرقانى</persName></orgName> نظاره <persName>حميده
+                        محمد</persName> يبلغ مسطح أرضهم ٦٠ ذراع مقتضى
+                        <sic>ا<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>شتبدالهم<?oxy_custom_end?></sic>
+                     وقائمة مزادهم بطرف معاون قسم ثالث اوقاف وتحدد لنهو مزادهم خمسة عشر يوما من
+                     تاريخه</cell>
                </row>
                <row>
-                  <cell/>
-                  <cell>
-                     <p>
-                        <hi rend="color(FF0000)" xml:space="preserve">صفحة ٢ – العمود ٣ </hi>
-                     </p>
-                     <p>
-                        <hi rend="color(FF0000)">باقية المقال</hi>
-                     </p>
-                  </cell>
-               </row>
-               <row>
-                  <cell>1</cell>
-                  <cell>منزل متخرب بـ<placeName ref="الدرب-الاصفر" type="درب">الدرب
-                        الاصفر</placeName> بـ<placeName ref="الجمالية">الجمليه</placeName> وقف
-                        <persName>عبد الرحمن سليم</persName> نظارة <persName>عبد الرحمن افندى
+                  <cell>١</cell>
+                  <cell><placeName type="منزل" ref="منزل-وقف-عبدالرحمن-سليم">منزل</placeName> متخرب
+                        بـ<placeName ref="الدرب-الاصفر" type="درب">الدرب الاصفر</placeName>
+                        بـ<placeName ref="الجمالية">الجمليه</placeName>
+                     <orgName type="وقف" ref="وقف-عبدالرحمن-سليم">وقف <persName>عبد الرحمن
+                           سليم</persName></orgName> نظارة <persName>عبد الرحمن افندى
                         واصف</persName> يبلغ مسطحه ١٤٠ ذراع مقتضى مبيع انقاضه وتاجير أرضه وقائمة
-                     مزاده يطرف معاون قسم اول اوقاف </cell>
+                     مزاده
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>يطرف<?oxy_custom_end?>
+                     معاون <orgName type="قسم" ref="قسم-اول-اوقاف">قسم اول اوقاف</orgName></cell>
                </row>
                <row>
-                  <cell>5</cell>
+                  <cell>٥</cell>
                   <cell/>
                </row>
             </table>
             <p>خمسة جنيهات لا غير </p>
-            <p>بما انه تجوز شرعا باستبدال بعض المحلات الموضحه أعلاه مؤاجرة البعض فقد تحرر بهم خمسة
-               وثلاثون <rs type="اعلان">اعلان</rs> ارسلوا للضبطية بافادة فى تاريخه لوضعهم على القره
-               قولات وكتب أيضا الى من لزم من معاونين الاوقاف باشهار المحلات المذكورة بقوايم مزاد بين
-               الراغبين وحيث من الاقتضاء ان يكون ذلك محيط علم الجميع فلزم ترقيمه لجنابكم ليجرى درج
-               [ت]لك المحلات بالوقايع كالجارى كى كل من كان يرغب لاخذ شئ منها فبعد معاينته اياه يتوجه
-               الى المعاون الذى بطرفه قائمة مزاده ويعطى المزاد اللازم بها حتى بالمرسى سيتحرر للمحكمة
-               باخراج الحجة اللازمة لمن يرسى عليه أى محل من ذلك حسب الاصول </p>
+            <p>بما انه تجوز شرعا باستبدال بعض المحلات الموضحه أعلاه<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+               <?oxy_comment_start author="Sarah" timestamp="20230905T162157+0200" comment=" مؤاجرة
+ " mid="50"?>مؤاجرة<?oxy_custom_end?><?oxy_comment_end mid="50"?>
+               البعض فقد تحرر بهم خمسة وثلاثون اعلان ارسلوا لل<orgName type="ضبطية">ضبطية</orgName>
+               بافادة فى تاريخه لوضعهم على ال<orgName type="قره-قولات">قره قولات</orgName> وكتب أيضا
+               الى من لزم من معاونين الاوقاف باشهار المحلات المذكورة بقوايم مزاد بين الراغبين وحيث
+               من الاقتضاء ان يكون ذلك محيط علم الجميع فلزم ترقيمه لجنابكم ليجرى درج
+                  <sic>[ت]لك</sic> المحلات بالوقايع كالجارى كى كل من كان يرغب لاخذ شئ منها فبعد
+               معاينته اياه يتوجه الى المعاون الذى بطرفه قائمة مزاده ويعطى المزاد اللازم بها حتى
+               بالمرسى سيتحرر لل<orgName type="محكمة">محكمة</orgName> باخراج الحجة اللازمة لمن يرسى
+               عليه أى محل من ذلك حسب الاصول</p>
          </div>
-         <div xml:id="k838" resp="#eAK">
-            <head><bibl><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
-            <head>صورة <rs type="اعلان">اعلان</rs> وارد من حضرة وكيل <orgName ref="ديوان-المكاتب-الأهلية" type="ديوان">ديوان مكاتب اهليه</orgName> بتاريخ <date when-custom="1289-04-04">٤ ربيع الآخر ١٢٨٩</date></head>
-            <p>عن بيان الحصص الايلة لـ<orgName ref="بيت-مال-المحروسة">بيت مال المحروسة</orgName>
-               واحيلت للمكاتب الاهلية وصار اشهارها بالبيع ورسيت كما المشروح أدناه </p>
+         <div xml:id="k838" resp="#eAK #eSG">
+            <head><date when-custom="1289-04-12">١٢ ربيع الثانى ١٢٨٩</date>
+               <date when="1872-06-18">١٨ يونيه ١٨٧٢</date>
+               <bibl><biblScope unit="issue">نمره ٤٦١</biblScope>
+                  <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+            <head><title>صورة <rs type="اعلان">اعلان</rs> وارد من حضرة وكيل <orgName
+                     ref="ديوان-المكاتب-الأهلية" type="ديوان">ديوان مكاتب اهليه</orgName> بتاريخ ٤
+                  ربيع الآخر ١٢٨٩</title></head>
+            <p>عن بيان الحصص الايلة لـ<orgName ref="بيت-مال-المحروسة" type="بيت-مال">بيت مال
+                  المحروسة</orgName> واحيلت للمكاتب الاهلية وصار اشهارها بالبيع ورسيت كما المشروح
+               أدناه </p>
             <table rend="rules">
                <row>
                   <cell>عدد</cell>
                   <cell/>
                </row>
                <row>
-                  <cell>1</cell>
-                  <cell>نصف منزل بـ<placeName ref="حارة-شارع-المناصره" type="حارة">حارة شارع
-                        المناصره</placeName> بـ<orgName ref="ثمن-الازبكيه" type="ثمن">ثمن
-                        الازبكيه</orgName> مخلف عن <persName>الحرمه فاطمه بنت ابراهيم
-                        تعليب</persName> مقاسه /// ١٠٠ ذراع بما فيه الركوب ى ١٦ راسى على
-                        <persName>حسن الترجمان</persName> بمبلغ ٣١٥٠ قرش والمصاريف جميعها عليه
-                  </cell>
+                  <cell>١</cell>
+                  <cell>نصف منزل بـ<placeName ref="حارة-شارع-المناصره" type="حارة">حارة <placeName
+                           type="شارع" ref="شارع-المناصره">شارع المناصره</placeName></placeName>
+                        بـ<placeName type="ثمن-الازبكيه"><orgName ref="ثمن-الازبكيه" type="ثمن">ثمن
+                           الازبكيه</orgName></placeName> مخلف عن <persName>الحرمه فاطمه بنت
+                           <persName>ابراهيم تعليب</persName></persName> مقاسه /// ١٠٠ ذراع بما فيه
+                     الركوب ى ١٦ راسى على <persName>حسن الترجمان</persName> بمبلغ ٣١٥٠ قرش والمصاريف
+                     جميعها عليه</cell>
                </row>
                <row>
-                  <cell>1</cell>
+                  <cell>١</cell>
                   <cell>حصة تسعة قراريط من منزل بـ<placeName ref="حارة-درب-عباس" type="حارة">حارة
-                        درب عباس</placeName> بـ<orgName ref="ثمن-بولاق" type="ثمن">ثمن
-                        بولاق</orgName> مخلفة عن <persName>قاسم الحداد الكتاتنى</persName> مقاسه ٨٢
-                     دراع راسية على <persName>ابراهيم شلتوت النجار</persName> بمبلغ ٤٧٥ قرش وكافة
-                     المصاريف عليه </cell>
+                           <placeName type="درب" ref="درب-عباس">درب عباس</placeName></placeName>
+                        بـ<orgName ref="ثمن-بولاق" type="ثمن">ثمن بولاق</orgName> مخلفة عن
+                        <persName>قاسم الحداد الكتاتنى</persName> مقاسه ٨٢
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>دراع<?oxy_custom_end?>
+                     راسية على <persName>ابراهيم شلتوت النجار</persName> بمبلغ ٤٧٥ قرش وكافة
+                     المصاريف عليه</cell>
                </row>
                <row>
-                  <cell>1</cell>
-                  <cell>حصة ع قيراط وسهم س ٤ من منزل بـ<placeName ref="حارة-درب-الملاح" type="حارة">حارة درب الملاح</placeName> بـ<placeName ref="باب-البحر">باب
-                        البحر</placeName> بـ<orgName ref="ثمن-الازبكيه">ثمن الازبكيه</orgName> مخلفة
-                     عن المرحوم <persName>عبد القادر افندى قبودان</persName> مقاسه ١٢٨ ذراع راسية
-                     على <persName>محمد أبو سعده الدلال</persName>
-                     <sic>الدلال</sic> بمبلغ ٣١٠١ وكافة المصاريف عليه </cell>
+                  <cell>١</cell>
+                  <cell>حصة ع قيراط وسهم س ٤ من منزل بـ<placeName ref="حارة-درب-الملاح" type="حارة"
+                        >حارة <placeName type="درب" ref="درب-الملاح">درب
+                        الملاح</placeName></placeName> بـ<placeName ref="باب-البحر">باب
+                        البحر</placeName> بـ<placeName type="ثمن" ref="ثمن-الازبكيه"><orgName
+                           ref="ثمن-الازبكيه">ثمن الازبكيه</orgName></placeName> مخلفة عن المرحوم
+                        <persName>عبد القادر افندى قبودان</persName> مقاسه ١٢٨ ذراع راسية على
+                        <persName>محمد أبو سعده
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الدلال</persName>
+                     <sic>الدلال</sic><?oxy_custom_end?> بمبلغ ٣١٠١ وكافة المصاريف عليه</cell>
                </row>
                <row>
-                  <cell>3</cell>
+                  <cell>٣</cell>
                   <cell/>
                </row>
             </table>
             <p>الثلاثة حصص المشروحة أعلاه من ضمن الاملاك الايلة لبيت المال واحيلت للمكاتب الاهلية
                صار اشهار مزادهم ورسى العطاء على الاشخاص المذكورة بالاثمان الموضحة وحيث مقتضى درج ذلك
                بالوقايع لاحاطة الجميع وقد تحدد ميعاد خمسة عشر يوما من تاريخه واقتضى تحريره لحضرتكم
-               لينتبه (؟) بدرج ذلك بوقايع جمعة تاريخه </p>
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>لينتبه
+               (؟)<?oxy_custom_end?> بدرج ذلك بوقايع
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>جمعة<?oxy_custom_end?>
+               تاريخه </p>
          </div>
          <div xml:id="k839" resp="#eAK">
             <head><bibl><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
