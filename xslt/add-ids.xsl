@@ -33,7 +33,7 @@
     <xsl:template match="t:div[t:head[t:date/@when-custom]][//t:revisionDesc[@status='cleared']]">
         <xsl:copy>
             <xsl:choose>
-                <xsl:when test="matches(@xml:id, 'W\d{10}')">
+                <xsl:when test="matches(@xml:id, 'W[0-9]{10}')">
                     <xsl:copy-of select="@*"/>
                 </xsl:when>
                 <xsl:otherwise>
@@ -45,12 +45,12 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="t:placeName[not(@xml:id)][//t:revisionDesc[@status='cleared']]">
+    <xsl:template match="t:placeName[not(matches(@xml:id,'^place-[0-9]{10}_\d+$'))][//t:revisionDesc[@status='cleared']]">
         <xsl:variable name="article" select="ancestor::t:div[t:head[t:date/@when-custom]][1]"/>
         <xsl:variable name="i" select="count(preceding::t:placeName[ancestor::t:div = $article]) + count(ancestor::t:placeName) + 1"/>
         <xsl:copy>
             <xsl:attribute name="xml:id">place-{fn:div-id($article)}_{$i}</xsl:attribute>
-            <xsl:apply-templates select="@*"/>
+            <xsl:apply-templates select="@*[name != 'xml:id']"/>
             <xsl:apply-templates/>
         </xsl:copy>
     </xsl:template>
