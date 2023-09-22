@@ -352,62 +352,93 @@
                فتؤخذ عليه الضمانه ويحضر للمصلحة بالافاده اللازمه قبل مضى الميعاد المبدى ذكره بيومين
                اثنين لاتمام المزايدة حسب ما ذكر</p>
          </div>
-         <div resp="#eNK" xml:id="W207">
-            <head>
-               <date when-custom="1293-04-24">٢٤ ربيع الثاني ١٢٩٣</date>
+         <div resp="#eNK #eSG" xml:id="W207">
+            <head><date when-custom="1293-04-24">٢٤ ربيع الثاني ١٢٩٣</date>
                <date when="1876-05-18">١٨ مايو ١٨٧٦</date>
                <bibl><biblScope unit="issue">نمرة ٦٥٨</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-            <head>نص اعلان وارد من ديوان المعارف والاوقاف بتاريخ ١٥ ربيع الثانى سنة ٩٣</head>
+            <head>نص اعلان وارد من <orgName ref="ديوان-المعارف" type="ديوان">ديوان المعارف</orgName>
+                  و<orgName ref="الاوقاف">الاوقاف</orgName> بتاريخ ١٥ ربيع الثانى سنة ٩٣</head>
             <table rend="rules">
                <row>
-                  <cell style="text-align: justify;">
-                     <hi style="font-size:14ptdirection:rtl;">قيراط</hi>
-                  </cell>
+                  <cell style="text-align: justify;">قيراط</cell>
                   <cell style="text-align: justify;"/>
                </row>
                <row>
-                  <cell style="text-align: justify;">
-                     <hi style="font-size:14ptdirection:rtl;">٩</hi>
-                  </cell>
-                  <cell style="text-align: justify;">
-                     <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">حصه من منزل كائن ب<placeName type="حارة" ref="حارة-شق-التعبان">حارة شق التعبان</placeName> بتمن عابدين مخلف عن <persName>فاطمة السوداء المتوفية</persName> </hi>
-                  </cell>
+                  <cell style="text-align: justify;">٩</cell>
+                  <cell style="text-align: justify;">حصه من منزل كائن ب<placeName type="حارة"
+                        ref="حارة-شق-التعبان">حارة شق التعبان</placeName> ب<placeName
+                        ref="تمن-عابدين" type="تمن"><orgName ref="تمن-عابدين" type="تمن">تمن
+                           عابدين</orgName></placeName> مخلف عن <persName>فاطمة السوداء
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah" timestamp="20230922T103756+0200" comment="is the sentence ended with this word?" mid="11"?>المتوفية<?oxy_custom_end?><?oxy_comment_end mid="11"?></persName></cell>
                </row>
                <row>
-                  <cell style="text-align: justify;">
-                     <hi style="font-size:14ptdirection:rtl;">٣</hi>
-                  </cell>
-                  <cell style="text-align: justify;">
-                     <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">حصة من منزل كائن ب<placeName type="خط" ref="خط-الحمزاوي">خط الحمزاوى</placeName> </hi>
-                  </cell>
+                  <cell style="text-align: justify;">٣</cell>
+                  <cell style="text-align: justify;">حصة من منزل كائن ب<placeName type="خط"
+                        ref="خط-الحمزاوي">خط
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الحمزاوى</placeName><?oxy_custom_end?></cell>
                </row>
             </table>
+            <p>الحصتان الموضح مقدارهما اعلاه بالمنزلين المشروحين تعلق <orgName ref="المكاتب-الاهلية"
+                  >المكاتب الاهلية</orgName> قد وافق مبيعها فتحررت عنهما قائمتا مزاد وارسلا لشيخ
+               الدلالين وتحدد ميعاد لاخذ اقوال الراغبين لمشتراهما اولاحدهما مدة ثلاثين يوما من تاريخ
+               ١١ الحاضر ليكون انتهاء اخذ عطا الراغبين يوم ٢٠ جماد الثانى سنة ٩٣ فيقتضى ان كل راغب
+               يتوجه لشيخ الدلالين ليعطى عطاءه على الشروط الواضحة بقائمة المزاد بعد معاينة المحلين
+               وبانتهاء المدة وتقديم المزاد ل<orgName ref="ديولن-المدارس" type="ديوان">ديوان
+                  المدارس</orgName> من طرف المرقوم حين ذاك يكون ديوان المدارس مخيرا فى التسليم
+               بالمبيع وعدمه بعد النظر واجراء اللازم</p>
+            <p>كذلك موجود نصف منزل ب<placeName ref="طيلون">طيلون</placeName> مخلف عن المرحومه فاطمه
+               البربريه جرى فيه كما الموضح
+               اعلاه<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> وكيله
+               معلوم<?oxy_custom_end?></p>
+            <p>ثم تحررت قايمة مزاد عن مبيع حصص فى ثمانية دكاكين ب<orgName ref="وكاله-القبورجيه"
+                  type="وكاله"><placeName ref="وكاله-القبورجيه" type="وكاله">وكاله
+                     القبورجيه</placeName></orgName> وب<placeName ref="شارع-الغوريه" type="شارع"
+                  >شارع الغوريه</placeName> وصار ارسالها طرف الشيخ للاجراء كما ذكر فى الاعلان</p>
          </div>
-         <div resp="#eNK" xml:id="W208">
+         <div resp="#eNK #eSG" xml:id="W208">
             <head>
-               <date when-custom="1293-04-26">٢٦ جمادى الاول ١٢٩٣</date>
+               <date when-custom="1293-05-26">٢٦ جمادى الاول ١٢٩٣</date>
                <date when="1876-06-18">١٨ يونيو ١٨٧٦</date>
                <bibl><biblScope unit="issue">نمرة ٦٦٢</biblScope>
                   <biblScope unit="page">صفحة ١</biblScope></bibl></head>
             <head>الحوادث الداخليه</head>
-            <p>قد صار افتتاح مدرسة جديدة سميت بمدرسة باب المعارف كما هو مرسوم على بابها بالخط الجلى
-               وهى فى بولاق ب<placeName type="شارع" ref="شارع-السكة-الجديدة">شارع السكة
-                  الجديدة</placeName> بجوار سيدى الكحكى معدة لتعليم الاطفال ذكورا واناثا تحت نظارة
-               النجيب الاريب <persName>حضرة محمود حسنى افندى</persName> معلم اللغة الفرنساوية بمدرسة
-               العمليات وسيجرى فيها تعليم القرآن الشريف والنحو والحساب والفرنساوى والخط العربى والخط
-               الفرنساوى والجغرافيا فمن كان له رغبة فى تعليم نجله فليحضر به فى هذه المدرسة لقيد اسمه
-               وكان ابتداء التعليم فيها يوم الاحد المبارك الموافق تاسع عشر جمادى الاولى سنة ١٢٩٣
-               هجرية وفى كل شهر يجرى امتحان فى هذه المدرسة لتظهر نتيجة التعليم وبمنه تعالى يتقدمون
-               فى عهد قريب وبذلك يجب على الآباء الدعاء للساحة الخديوية بدوام الغز والبقا حيث مهد
-               بيان المعارف والتحصيل عليها بأحسن الطرق وفى انتهاء كل سنة يجرى امتحان عمومى فى جميع
-               الدروس التى اعطيت لهم ويحضره من شاء من آباء الاطفال ويأخذ كل واحد من الاطفال شهادة
-               بيده تتضمن درجاته التى يستحقها على حسب اجابته فى الدروس </p>
-            <head>بيان المرتب الذى يدفع فى كل شهر مقدما بالعملة الصاغ </head>
-            <p>؎ </p>
-            <p>٢٠ الدرجة الاولى </p>
-            <p>١٥ الدرجة الثانية </p>
-            <p>١٠ الدرجة الثالثة </p>
+            <p>قد صار افتتاح مدرسة جديدة سميت ب<orgName type="مدرسة" ref="مدرسة-باب-المعارف"
+                     ><placeName ref="مدرسة-باب-المعارف" type="مدرسة">مدرسة باب
+                  المعارف</placeName></orgName> كما هو مرسوم على بابها بالخط الجلى وهى فى <placeName
+                  ref="بولاق">بولاق</placeName> ب<placeName type="شارع" ref="شارع-السكة-الجديدة"
+                  >شارع السكة الجديدة</placeName> بجوار <placeName ref="سيدى-الكحكى">سيدى
+                  الكحكى</placeName> معدة لتعليم الاطفال ذكورا واناثا تحت نظارة النجيب الاريب
+                  <persName>حضرة محمود حسنى افندى معلم اللغة الفرنساوية ب<orgName
+                     ref="مدرسة-العمليات" type="مدرسة"><placeName type="مدرسة" ref="مدرسة-العمليات"
+                        >مدرسة العمليات</placeName></orgName></persName> وسيجرى فيها تعليم القرآن
+               الشريف والنحو والحساب والفرنساوى والخط العربى والخط الفرنساوى والجغرافيا فمن كان له
+               رغبة فى تعليم نجله فليحضر به فى هذه المدرسة لقيد اسمه وكان ابتداء التعليم فيها يوم
+               الاحد المبارك الموافق تاسع عشر جمادى الاولى سنة ١٢٩٣ هجرية وفى كل شهر يجرى امتحان فى
+               هذه المدرسة لتظهر نتيجة التعليم وبمنه تعالى يتقدمون فى عهد قريب وبذلك يجب على الآباء
+               الدعاء للساحة الخديوية بدوام الغز والبقا حيث مهد بيان المعارف والتحصيل عليها بأحسن
+               الطرق وفى انتهاء كل سنة يجرى امتحان عمومى فى جميع الدروس التى اعطيت لهم ويحضره من شاء
+               من آباء الاطفال ويأخذ كل واحد من الاطفال شهادة بيده تتضمن درجاته التى يستحقها على حسب
+               اجابته فى الدروس</p>
+            <table rows="3" cols="2">
+               <head>بيان المرتب الذى يدفع فى كل شهر مقدما بالعملة الصاغ</head>
+               <row>
+                  <cell>؎</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٢٠</cell>
+                  <cell>الدرجة الاولى</cell>
+               </row>
+               <row>
+                  <cell>١٥</cell>
+                  <cell>الدرجة الثانية</cell>
+               </row>
+               <row>
+                  <cell>١٠</cell>
+                  <cell>الدرجة الثالثة</cell>
+               </row>
+            </table>
          </div>
          <div resp="#eNK" xml:id="W209">
             <head><date when-custom="1293-02-16">١٦ صفر ١٢٩٣</date>
