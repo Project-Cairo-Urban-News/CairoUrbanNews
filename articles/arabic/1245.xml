@@ -17,8 +17,9 @@
         <editor xml:id="eHL">Hiba Laabadli</editor>
         <editor xml:id="eOE">Othmane Echchabi</editor>
         <editor xml:id="eFA">Fatemah Almahana</editor>
+        <editor xml:id="eMZ">Mahmoud Zaki</editor>
         <respStmt>
-          <resp>Advisor</resp>
+          <resp>Project leader</resp>
           <name>Hugh Cayless</name>
         </respStmt>
         <respStmt>
@@ -65,18 +66,37 @@
           <resp>Research Assistant</resp>
           <name>Abdulrahman El-Taliawi</name>
         </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hiba Laabadli</name> 
+        </respStmt>
+     <respStmt>
+       <resp>Research Assistant</resp>
+       <name>Othmane Echchabi</name>
+     </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Fatemah Almahana</name> 
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Mahmoud Zaki</name> 
+        </respStmt>
         <sponsor>
+          <orgName>National Endowment for the Humanities</orgName>,
+          and
           <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
             <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
             Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>.
+            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName> 
         </sponsor>
       </titleStmt>
       <publicationStmt>
         <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
           du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
         <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>, <persName>Hugh Cayless</persName></p>
       </publicationStmt>
       <sourceDesc>
         <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
@@ -87,6 +107,7 @@
       <projectDesc>
         <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
       </projectDesc>
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
@@ -108,9 +129,9 @@
         <language ident="ota">Ottoman</language>
       </langUsage>
     </profileDesc>
-    <revisionDesc status="cleared">
+    <revisionDesc>
       <listChange>
-        <change when="2023-05-27" resp="#eAM" status="cleared"/>
+        <change when="2023-05-27" resp="#eAM"/>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -125,7 +146,7 @@
   </standOff>
   <text xml:lang="ar" resp="#eAM">
     <body>
-      <div xml:id="W1245004701" resp="#eNK #eAM #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245004701" resp="#eNK #eAM #eSG">
         <head><date when-custom="1245-02-27">٢٧ صفر ١٢٤٥</date>
           <date when="1829-08-28">٢٨ أغسطس ١٨٢٩</date>
           <bibl><biblScope unit="issue">نمره ٤٧</biblScope><biblScope unit="page">صفحة
@@ -171,7 +192,7 @@
             <corr>انشاء</corr>
           </choice> فى غاية صفر سنه اربع واربعين بمصروف قدره عشرون الف قرش.</p>
       </div>
-      <div xml:id="W1245004702" n="DaftarKhaneEstablishment" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245004702" n="DaftarKhaneEstablishment">
         <head><date when-custom="1245-02-27">٢٧ صفر ١٢٤٥</date>
           <date when="1829-08-28">٢٨ أغسطس ١٨٢٩</date>
           <bibl>
@@ -189,7 +210,7 @@
           وعلى جميع ما يلزم لها طولها ماية وخمسون ذراعا وعرضها ثمانون ذراعا وذلك فى ذى القعدة سنة
           اربع واربعين وقد بلغت مصاريفها الف كيس واحدى عشر كيسا.</p>
       </div>
-      <div xml:id="W1245004703" resp="#eAM #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245004703" resp="#eAM #eSG">
         <head>
           <date when-custom="1245-02-27">٢٧ صفر ١٢٤٥</date>
           <date when="1829-08-28">٢٨ أغسطس ١٨٢٩</date>
@@ -206,7 +227,7 @@
           الباروت دولابان بجميع ادواتهما والاتهما فانشيا بموجب الامر فى صفر سنة اربع واربعين فبلغ
           عدد جميع الدواليب احدى عشر بمصروف قدره ثلثماية كيس واذ علم ذلك من <persName role="ناظر-الابنية">امين افندى ناظر الابنية</persName> اثبت فى جريدة الوقايع.</p>
       </div>
-      <div xml:id="W1245006404" n="SalaryOfScribes" resp="#eSG #eAM" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245006404" n="SalaryOfScribes" resp="#eSG #eAM">
         <head><date when-custom="1245-04-08">٨ ربيع الاخر ١٢٤٥</date>
           <date when="1829-10-07">٧ أكتوبر ١٨٢٩</date>
           <bibl><biblScope unit="issue">نمرة ٦٤</biblScope><biblScope unit="page">صفحة
@@ -224,7 +245,7 @@
           المجلس المنعقد فى<placeName xml:id="place-W1245006404_1">القصر العالى</placeName> فى
           اليوم السابع عشر من شهر ربيع الاول.</p>
       </div>
-      <div xml:id="W1245006605" resp="#eAM #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245006605" resp="#eAM #eSG">
         <head><date when-custom="1245-04-10">١٠ ربيع الاخر ١٢٤٥</date>
           <date when="1829-10-09">٩ أكتوبر ١٨٢٩</date>
           <bibl><biblScope unit="issue">نمرة ٦٦</biblScope>
@@ -254,7 +275,7 @@
             المحروسة</persName> اشعارا له بذلك كما استقر الراى فى المجلس المنعقد فى<placeName xml:id="place-W1245006605_2">القصر العالى</placeName> فى اليوم الثامن عشر من شهر ربيع
           الاول.</p>
       </div>
-      <div xml:id="W1245007106" resp="#eDY #eAM #eSG" n="Taksit" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245007106" resp="#eDY #eAM #eSG" n="Taksit">
         <head><date when-custom="1245-04-23">٢٣ ربيع الاخر ١٢٤٥</date>
           <date when="1829-10-22">٢٢ أكتوبر ١٨٢٩</date>
           <bibl><biblScope unit="issue">نمرة ٧١</biblScope><biblScope unit="page">صفحة
@@ -269,7 +290,7 @@
           فى المجلس المنعقد فى <placeName xml:id="place-W1245007106_3">القصر العالى</placeName> فى
           اليوم الخامس والعشرين من شهر ربيع الاول.</p>
       </div>
-      <div xml:id="W1245007507" resp="#eDY #eAM #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245007507" resp="#eDY #eAM #eSG">
         <head>
           <date when-custom="1245-04-29">٢٩ ربيع الاخر ١٢٤٥</date>
           <date when="1829-10-28">٢٨ أكتوبر ١٨٢٩</date>
@@ -295,7 +316,7 @@
           استقر الراى فى المجلس المنعقد فى <placeName xml:id="place-W1245007507_1">القصر
             العالى</placeName> فى اليوم الثانى من شهر ربيع الاخر. </p>
       </div>
-      <div xml:id="W1245007608" resp="#eNK #eAM #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245007608" resp="#eNK #eAM #eSG">
         <head><date when-custom="1245-04-30">غاية ربيع الأخر ١٢٤٥</date>
           <date when="1829-10-29">٣٠ أكتوبر ١٨٢٩</date>
           <bibl>
@@ -313,7 +334,7 @@
           المنعقد فى <placeName xml:id="place-W1245007608_2">القصر العالى</placeName> فى اليوم
           الثالث من شهر ربيع الاخر.</p>
       </div>
-      <div xml:id="W1245007909" resp="#eDY #eAM #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245007909" resp="#eDY #eAM #eSG">
         <head><date when-custom="1245-05-08">٨ جماذ الاول ١٢٤٥</date>
           <date when="1829-11-05">٥ نوفمبر ١٨٢٩</date>
           <bibl><biblScope unit="issue">نمرة ٧٩</biblScope>
@@ -346,7 +367,7 @@
             القليوبيه</persName> والى <persName role=" ناظر-القصاب-خانه">احمد بيك ناظر القصاب
             خانه</persName> اشعارا بذلك كما استقر الراى فى اليوم السابع من شهر ربيع الاخر.</p>
       </div>
-      <div xml:id="W1245008010" resp="#eNK #eAM #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245008010" resp="#eNK #eAM #eSG">
         <head>
           <date when-custom="1245-05-11">١١ جماذ الأول ١٢٤٥</date>
           <date when="1829-11-08">٨ نوفمبر ١٨٢٩</date>
@@ -366,7 +387,7 @@
           الى الافندى المومى اليه اشعارا بذلك كما استقر الراى فى اليوم الحادى عشر من شهر ربيع
           الاخر.</p>
       </div>
-      <div xml:id="W1245008111" resp="#eDY #eAM #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245008111" resp="#eDY #eAM #eSG">
         <head><date when-custom="1245-05-12">١٢ جماذ الأول ١٢٤٥</date>
           <date when="1829-11-09">٩ نوفمبر ١٨٢٩</date>
           <bibl><biblScope unit="issue">نمرة ٨١</biblScope><biblScope unit="page">صفحة
@@ -386,7 +407,7 @@
             <sic>الكاسف</sic> المومى اليه تنبيها بذلك كما استقر الراى فى اليوم الثانى عشر من شهر
           ربيع الاخر.</p>
       </div>
-      <div xml:id="W1245008112" resp="#eNK #eAM #eSG" n="ANIMALS" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245008112" resp="#eNK #eAM #eSG" n="ANIMALS">
         <head><date when-custom="1245-05-12">١٢ جماذ الأول ١٢٤٥</date>
           <date when="1829-11-09">٩ نوفمبر ١٨٢٩</date>
           <bibl><biblScope unit="issue">نمرة ٨١</biblScope><biblScope unit="page">صفحة
@@ -413,7 +434,7 @@
           الى <orgName type="خزينة" ref="الخزينة-العامرة ">الخزينة العامرة</orgName> شعارا بذلك كما
           استقر الراى فى اليوم الثانى عشر من شهر ربيع الاخر.</p>
       </div>
-      <div xml:id="W1245008213" resp="#eNK #eAM #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245008213" resp="#eNK #eAM #eSG">
         <head><date when-custom="1245-05-14">١٤ جماذ الاول ١٢٤٥</date>
           <date when="1829-11-11">١١ نوفمبر ١٨٢٩</date>
           <bibl><biblScope unit="issue">نمرة ٨٢</biblScope>
@@ -429,7 +450,7 @@
             الخديوى</orgName> الى <persName>على افندى مأمور اشغال المحروسة</persName> اشعارا بذلك
           كما استقر الراى فى اليوم الثالث عشر من شهر ربيع الاخر.</p>
       </div>
-      <div xml:id="W1245008214" resp="#eNK #eAM #eSG" n="STONES-ANIMALS" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245008214" resp="#eNK #eAM #eSG" n="STONES-ANIMALS">
         <head>
           <date when-custom="1245-05-14">١٤ جماذ الاول ١٢٤٥</date>
           <date when="1829-11-11">١١ نوفمبر ١٨٢٩</date>
@@ -453,7 +474,7 @@
           كما انهى به الاغا المومى اليه ويخصص قواص من <orgName type="ديوان" ref="الديوان-الخديوى">الديوان الخديوى</orgName> لكى يجلبها ويحرر امر من الديوان الخديوى الى مأمورى
           الماموريتين اشعارا بذلك كما استقر الراى فى اليوم الخامس عشر من ربيع الاخر. </p>
       </div>
-      <div xml:id="W1245008315" resp="#eNK #eAM #eSG" n="ATYAN" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245008315" resp="#eNK #eAM #eSG" n="ATYAN">
         <head>
           <date when-custom="1245-05-17">١٧ جماذ الاول ١٢٤٥</date>
           <date when="1829-11-14">١٤ نوفمبر ١٨٢٩</date>
@@ -488,7 +509,7 @@
           واردب الفول يباع بعشرة ريالات ونصف فينبغى ان يحصل ثمن تقاوى البرسيم والفول بهذين السعرين
           كما استقر الراى فى اليوم الثالث والعشرين من شهر ربيع الاخر.</p>
       </div>
-      <div xml:id="W1245008417" resp="#eNK #eAM #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245008417" resp="#eNK #eAM #eSG">
         <head><date when-custom="1245-05-18">١٨ جماذ الاول ١٢٤٥</date>
           <date when="1829-11-15">١٥ نوفمبر ١٨٢٩</date>
           <bibl><biblScope unit="issue">نمرة ٨٤</biblScope><biblScope unit="page">صفحة
@@ -518,7 +539,7 @@
             الخديوى</orgName> الى الخزينة العامرة اشعارا بذلك كما استقر الراى فى اليوم الخامس
           والعشرين من شهر ربيع الاخر. </p>
       </div>
-      <div xml:id="W1245008718" resp="#eNK #eAM #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245008718" resp="#eNK #eAM #eSG">
         <head><date when-custom="1245-05-26">٢٦ جماذ الاول ١٢٤٥</date>
           <date when="1829-11-23">٢٣ نوفمبر ١٨٢٩</date>
           <bibl><biblScope unit="issue">نمرة ٨٧</biblScope>
@@ -543,7 +564,7 @@
           وتعطى باكثر من السعر المذكور فى الكشف كما استقر الراى فى اليوم الثالث عشر من شهر جمادى
           الاولى.</p>
       </div>
-      <div xml:id="W1245008719" resp="#eNK #eAM #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245008719" resp="#eNK #eAM #eSG">
         <head><date when-custom="1245-05-26">٢٦ جماذ الاول ١٢٤٥</date>
           <date when="1829-11-23">٢٣ نوفمبر ١٨٢٩</date>
           <bibl><biblScope unit="issue">نمرة ٨٧</biblScope><biblScope unit="page">
@@ -575,7 +596,7 @@
           منوف لكى يرسلا الثيران الباقية المطلوبة من مأموريتهما كما استقر الراى فى اليوم السابع عشر
           من شهر جمادى الاولى.</p>
       </div>
-      <div xml:id="W1245008820" resp="#eNK #eAM #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245008820" resp="#eNK #eAM #eSG">
         <head><date when-custom="1245-05-29">٢٩ جماذ الاول ١٢٤٥</date>
           <date when="1829-11-26">٢٦ نوفمبر ١٨٢٩</date>
           <bibl><biblScope unit="issue">نمرة ٨٨</biblScope>
@@ -592,7 +613,7 @@
           ويحرر امر من <orgName type="ديوان" ref="الديوان-الخديوى">الديوان الخديوى</orgName> الى
           الاغا المومى اليه اشعارا بذلك كما استقر الراى فى اليوم الثامن عشر من شهر جمادى الاول.</p>
       </div>
-      <div xml:id="W1245009021" resp="#eDY #eAM #eSG" n="WOOD" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245009021" resp="#eDY #eAM #eSG" n="WOOD">
         <head>
           <date when-custom="1245-06-06">٦ جماذ الاخر ١٢٤٥</date>
           <date when="1829-12-03">٣ ديسمبر ١٨٢٩</date>
@@ -625,7 +646,7 @@
           ستة عشر عتالا ويكشف هل تلك الاحجار والمهمات حسبما ذكر ام لا ثم ينهى خبرها الى <orgName type="مجلس" ref="المجلس-العالى">المجلس العالى</orgName> كما استقر الراى على ذلك فى اليوم
           الخامس والعشرين من شهر جمادى الاولى. </p>
       </div>
-      <div xml:id="W1245009922" resp="#eDY #eAM #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245009922" resp="#eDY #eAM #eSG">
         <head>
           <date when-custom="1245-07-18">١٨رجب ١٢٤٥</date>
           <date when="1830-01-13">١٣ يناير١٨٣٠</date>
@@ -639,7 +660,7 @@
           الخديوى الى الافندى ناظر الترسانات لكى يعطى ذلك المركب والى الاغا ناظر الجير والجبس ليعطى
           العربايات المذكورة </p>
       </div>
-      <div xml:id="W1245009923" resp="#eDY #eAM #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245009923" resp="#eDY #eAM #eSG">
         <head><date when-custom="1245-07-18">١٨رجب ١٢٤٥</date>
           <date when="1830-01-13">١٣ يناير١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ٩٩</biblScope>
@@ -692,7 +713,7 @@
             <sic>القال</sic> والقيل فنبه على صاحب العرضحال ان ينتقل من المدرسة الى الاوضة التى فى
           مدرسة السليمانية واذ تبين ذلك من جرنال الديوان الخديوى حرر فى جريدة الوقايع.</p>
       </div>
-      <div xml:id="W1245009924" resp="#eSG #eAM #eDY" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245009924" resp="#eSG #eAM #eDY">
         <head><date when-custom="1245-07-18">١٨رجب ١٢٤٥</date>
           <date when="1830-01-13">١٣ يناير١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ٩٩</biblScope>
@@ -702,7 +723,7 @@
             <sic>يك</sic> له بيت يلق بمقامه انعم عليه سعادة الاصفى بخمسة عشر الفا قرشا ليشترى بيتا
           مناسبا لحاله.</p>
       </div>
-      <div xml:id="W1245010025" resp="#eDY #eAM" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245010025" resp="#eDY #eAM">
         <head><date when-custom="1245-07-23">٢٣ رجب ١٢٤٥</date>
           <date when="1830-01-18">١٨ يناير١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٠٠</biblScope>
@@ -723,7 +744,7 @@
             المذكورة</persName> لاجل ارسال الافندى المومى اليه والى على افندى اشعارا بذلك كما استقر
           على ذلك الراى فى اليوم الثالث من شهر رجب المرجب.</p>
       </div>
-      <div xml:id="W1245010326" resp="#eDY #eAM" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245010326" resp="#eDY #eAM">
         <head><date when-custom="1245-07-29">٢٩ رجب ١٢٤٥</date>
           <date when="1830-01-24">٢٤ يناير١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٠٣</biblScope>
@@ -741,7 +762,7 @@
             <corr>لاعطاء</corr>
           </choice> هذه المبالغ حررت تذكرة كما بان ذلك من جرنال معاون <orgName ref="الخزينة">الخزينة</orgName> وقد اثبت فى الوقائع.</p>
       </div>
-      <div xml:id="W1245010327" resp="#eDY #eAM #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245010327" resp="#eDY #eAM #eSG">
         <head><date when-custom="1245-07-29">٢٩ رجب ١٢٤٥</date>
           <date when="1830-01-24">٢٤ يناير١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٠٣</biblScope>
@@ -757,7 +778,7 @@
             الجيزة</persName> اشعارا بذلك كما استقر الراى على ذلك فى اليوم الخامس من شهر رجب الفرد.
         </p>
       </div>
-      <div xml:id="W1245010528" resp="#eDY #eAM #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245010528" resp="#eDY #eAM #eSG">
         <head><date when-custom="1245-08-07">٧ شعبان ١٢٤٥</date>
           <date when="1830-02-01">١ فبراير ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٠٥</biblScope>
@@ -774,7 +795,7 @@
             <corr>اعطاء</corr>
           </choice> تلك التعريفات كما استقر الراى على ذلك فى اليوم السادس عشر من شهر رجب الفرد. </p>
       </div>
-      <div xml:id="W1245010729" resp="#eDY #eAM 3eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245010729" resp="#eDY #eAM 3eSG">
         <head><date when-custom="1245-08-11">١١ شعبان ١٢٤٥</date>
           <date when="1830-02-05">٥ فبراير١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٠٧</biblScope>
@@ -798,7 +819,7 @@
             الخديوى</orgName> امر ان بان يوبخ ويعاقب واذ عوقب قال ان اتى بالنجار فاعطى له اجازة ولما
           لم يجده حبس. </p>
       </div>
-      <div xml:id="W1245010830" resp="#eDY #eAM #eSG" n="دفترخانة" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245010830" resp="#eDY #eAM #eSG" n="دفترخانة">
         <head><date when-custom="1245-08-16">١٦ شعبان ١٢٤٥</date>
           <date when="1830-02-10">١٠ فبراير ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٠٨</biblScope><biblScope unit="page">صفحة
@@ -817,7 +838,7 @@
           على نوع من انواع البديع وهو المعمى وان كان بسبب ذلك زاد عن المقصود الا انه من حيث قد حوى
           التورية التى هى نوع عظيم من صنايع البديع سومح فيه.</p>
       </div>
-      <div xml:id="W1245010831" resp="#eDY #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245010831" resp="#eDY #eSG">
         <head><date when-custom="1245-08-16">١٦ شعبان ١٢٤٥</date>
           <date when="1830-02-10">١٠ فبراير ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٠٨</biblScope>
@@ -897,7 +918,7 @@
             المحروسة</persName> وباش تبديل مصر ومحتسب اغا والجواسيس و ناظرهم نسخة منها وبالله
           التوفيق .</p>
       </div>
-      <div xml:id="W1245010932" resp=" #eDY #eAM #eSG" n="DaftarKhanaArrangement" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245010932" resp=" #eDY #eAM #eSG" n="DaftarKhanaArrangement">
         <head><date when-custom="1245-08-17">١٧ شعبان ١٢٤٥</date>
           <date when="1830-11-11">١١ فبراير ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٠٩</biblScope>
@@ -923,7 +944,7 @@
           نظارة الضربخانه على عهدة <persName role="معاون-الخزينة-العامره">يحيى افندى معاون <orgName type="خزينة" ref="الخزينة_العامرة">الخزينة العامره</orgName></persName> بدا من غرة
           شعبان واذ تقرر الرأى على ذلك اثبت فى الوقايع.</p>
       </div>
-      <div xml:id="W1245011433" resp="#eDY #eAM #eSG" n="ELIMINATING-TWO-MOUNTAINS" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245011433" resp="#eDY #eAM #eSG" n="ELIMINATING-TWO-MOUNTAINS">
         <head><date when-custom="1245-09-02">٢ رمضان ١٢٤٥</date>
           <date when="1830-02-25">٢٥ فبراير ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١١٤</biblScope>
@@ -945,7 +966,7 @@
           سبعماية واحدى وعشرين كيسا ومائتين واثنى وعشرين قرشا والان لو راى محلها يظن كان لم يكن شيئا
           وغرست فيها اشجار الزيتون وغيرها واثرت خاصة اسم ابراهيم فصارت معمورة بها.</p>
       </div>
-      <div xml:id="W1245011534" resp="#eNK #eAM #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245011534" resp="#eNK #eAM #eSG">
         <head>
           <date when-custom="1245-09-04">٤ رمضان ١٢٤٥</date>
           <date when="1830-02-27">٢٧ فبراير ١٨٣٠</date><bibl>
@@ -980,7 +1001,7 @@
           تلك الدفاتر والشيخ حماد ويرى حسابه على الوجه الحق فى <orgName ref="الدرسخانة">الدرسخانة</orgName> المهمة لكى يسكت ويلزم ويحرر من <orgName type="ديوان" ref="الديوان-الخديوى">الديوان الخديوى</orgName> الى الباشا المشار اليه لكى يرسل
           المرقومين والدفاتر كما استقر الراى على ذلك فى اليوم الخامس عشر من شهر شعبان الشريف.</p>
       </div>
-      <div xml:id="W1245011635" resp="#eAM #eNK #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245011635" resp="#eAM #eNK #eSG">
         <head>
           <date when-custom="1245-09-06">٦ رمضان ١٢٤٥</date>
           <date when="1830-03-01">١ مارس ١٨٣٠</date>
@@ -1009,7 +1030,7 @@
           فقال من حيث ان صاحب الدعوى راض بذلك وطلب ان يطبق سبيل البواب فينبغى ان يطلق سبيله وتم
           الامر عل هذا المنوال. </p>
       </div>
-      <div xml:id="W1245011736" resp="#eNK #eAM #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245011736" resp="#eNK #eAM #eSG">
         <head><date when-custom="1245-09-07">٧ رمضان ١٢٤٥</date><date when="1830-03-02">٢ مارس
             ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ١١٧</biblScope>
             <biblScope unit="page">صفحة ٣-٤</biblScope></bibl></head>
@@ -1038,7 +1059,7 @@
           فان احيلت هذه الدعوى الى الشرع يكون ذلك اولى من ان يحبسوا وانما ينبغى ان تخرج المراة من
           الوكالة التى فيها عذابه لان ذلك لا يناسب فلذا عمل بموجب امره.</p>
       </div>
-      <div xml:id="W1245011837" resp="#eNK #eAM #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245011837" resp="#eNK #eAM #eSG">
         <head><date when-custom="1245-09-08">٨ رمضان ١٢٤٥</date>
           <date when="1830-03-03">٣ مارس ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١١٨</biblScope>
@@ -1071,7 +1092,7 @@
           المأمور الذى فى مأموريته موجود اخوه كى يرسله وتم الامر على هذا المنوال واذ علم ذلك من
           جرنال الديوان الخديوى قيد بالوقايع.</p>
       </div>
-      <div xml:id="W1245012138" resp="#eNK #eAM #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245012138" resp="#eNK #eAM #eSG">
         <head><date when-custom="1245-09-15">١٥ رمضان ١٢٤٥</date><date when="1830-03-10">١٠ مارس
             ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٢١</biblScope><biblScope unit="page">صفحة
@@ -1089,7 +1110,7 @@
           وقفلت الباب ومضت ولم تعد فرميت بنفسى من الشباك فسئل كيف اخذت الثياب فقال رأيتها منشورة على
           الحبل فاغوانى الشيطان على اخذها فعرض ذلك الى الافندى مأمور <orgName type="ديوان" ref="الديوان-الخديوى">الديوان الخديوى</orgName> فامر ان يسلم الى وكيل <placeName xml:id="place-W1245012138_4">اسنا</placeName> لكى يرسله الى بلده وتم الامر على هذا المنوال.</p>
       </div>
-      <div xml:id="W1245012139" resp="#eNK #eAM #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245012139" resp="#eNK #eAM #eSG">
         <head><date when-custom="1245-09-15">١٥ رمضان ١٢٤٥</date><date when="1830-03-10">١٠ مارس
             ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٢١</biblScope>
@@ -1106,7 +1127,7 @@
             الخديوى</orgName> فقال لتعط الحله الى الحرمه وليحبس الرجل بحيث ان له عادة على فعل ذلك
           سابقه وعلى هذا الامر تم المنوال.</p>
       </div>
-      <div xml:id="W1245012240" resp="#eNK #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245012240" resp="#eNK #eSG">
         <head><date when-custom="1245-09-19">١٩ رمضان ١٢٤٥</date>
           <date when="1830-03-14">١٤ مارس ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٢٢</biblScope>
@@ -1131,7 +1152,7 @@
           درة الزمان ومن به * قويت عصابة دينه واشتدت صدر الصدور محمد الصنع الذى * انواره فى الخافقين
           امتدت والنيل يجرى بالمصرة مذرأى * تاريخ قنطرة بعز جدتها سنة ١٢٤٤</p>
       </div>
-      <div xml:id="W1245012441" resp="#eNK #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245012441" resp="#eNK #eSG">
         <head><date when-custom="1245-09-21">٢١ رمضان ١٢٤٥</date>
           <date when="1830-03-16">١٦ مارس ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٢٤</biblScope>
@@ -1170,7 +1191,7 @@
             تسبيل ايلرم تاريخ ايله * كل كوزم عين عبى پاشادن آل ماء الحيات</sic>
         </p>
       </div>
-      <div xml:id="W1245012542" resp="#eNK #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245012542" resp="#eNK #eSG">
         <head><date when-custom="1245-09-22">٢٢ رمضان ١٢٤٥</date>
           <date when="1830-03-17">١٧ مارس ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٢٥</biblScope>
@@ -1190,7 +1211,7 @@
           الاقسام المذكورة والى سليم اغا اشعارا لهم بذلك كما استقر الرأى على ذلك فى اليوم الحادى عشر
           من رمضان.</p>
       </div>
-      <div xml:id="W1245013143" resp="#eAK #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245013143" resp="#eAK #eSG">
         <head><date when-custom="1245-10-12">١٢ شوال ١٢٤٥</date>
           <date when="1830-04-06">٦ ابريل ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٣١</biblScope>
@@ -1210,7 +1231,7 @@
             <persName role="ناظر-الابنية">امين افندى ناظر الابنية</persName> اشعارا له بذلك كما
           استقر الراى على ذلك فى اليوم السادس والعشرين من شهر رمضان.</p>
       </div>
-      <div xml:id="W1245013944" resp="#eAK #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245013944" resp="#eAK #eSG">
         <head><date when-custom="1245-11-06">٦ ذى القعدة ١٢٤٥</date>
           <date when="1830-04-29">٢٩ ابريل ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٣٩</biblScope>
@@ -1267,7 +1288,7 @@
           ابراهيم فذلك دليل على انه ذو حيل مخادعه فيجب اذا ان تلقى الاشيا التى عنده خارجا ويطرح هو
           فى <orgName type="سجن">السجن</orgName> وتم الامر على هذا المنوال. </p>
       </div>
-      <div xml:id="W1245014045" resp="#eAK #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245014045" resp="#eAK #eSG">
         <head>
           <date when-custom="1245-11-08">٨ ذى القعدة ١٢٤٥</date>
           <date when="1830-05-01">١ مايو ١٨٣٠</date>
@@ -1295,7 +1316,7 @@
           ربما يكفان عن ذلك وتصلح حالهما فمن ثم وضعا فى الحبس على عزم ان يرسلا فيما بعد الى
             <placeName xml:id="place-W1245014045_8">اللومان</placeName>.</p>
       </div>
-      <div xml:id="W1245014046" resp="#eAK #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245014046" resp="#eAK #eSG">
         <head><date when-custom="1245-11-08">٨ ذى القعدة ١٢٤٥</date>
           <date when="1830-05-01">١ مايو ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٤٠</biblScope>
@@ -1318,7 +1339,7 @@
           وانما ينبه عليه انه اذا رجع من بلده لبى هذه النواحى يقتل قتلا فاعطى له تذكرة بموجب الامر
           وتم الامر على هذا المنوال.</p>
       </div>
-      <div xml:id="W1245014047" resp="#eAK #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245014047" resp="#eAK #eSG">
         <head><date when-custom="1245-11-08">٨ ذى القعدة ١٢٤٥</date><date when="1830-05-01">١ مايو
             ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ١٤٠</biblScope><biblScope unit="page">صفحة
               ٢-٣</biblScope></bibl></head>
@@ -1339,7 +1360,7 @@
           ذلك لحضرة مأمور الديوان الخديوى فقال ينبغى ان يهدد بدر فهدد ولم يظهر عليه شئ فامر
             <sic>ح</sic> ان يرسلوا الى الشرع الشريف وتم الامر على هذا المنوال.</p>
       </div>
-      <div xml:id="W1245014048" resp="#eSG #eAK" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245014048" resp="#eSG #eAK">
         <head><date when-custom="1245-11-08">٨ ذى القعدة ١٢٤٥</date>
           <date when="1830-05-01">١ مايو ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٤٠</biblScope>
@@ -1388,7 +1409,7 @@
           شنيع كذا فلذا اطلق سبيله بامر حضرة مأمور الديوان الخديوى وطلب سيد الجارية ان تهدد فسلمت
           لـحموده الصوباشى لكى يقررها وتم الامر على هذا المنوال.</p>
       </div>
-      <div xml:id="W1245014149" resp="#eAk #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245014149" resp="#eAk #eSG">
         <head>
           <date when-custom="1245-11-11">١١ ذى القعدة ١٢٤٥</date>
           <date when="1830-05-04">٤ مايو ١٨٣٠</date>
@@ -1407,7 +1428,7 @@
             الخياطين</orgName> فيشتغل فيها محبوسا ثلاثة اشهر وبعد ذلك ان ظهر انه يشتغل مجتهدا وفى
           شغله نفع يرتب له كامثاله وعلى هذا المنوال تم الامر.</p>
       </div>
-      <div xml:id="W1245014250" resp="#eAK #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245014250" resp="#eAK #eSG">
         <head><date when-custom="1245-11-12">١٢ ذى القعدة ١٢٤٥</date>
           <date when="1830-05-05">٥ مايو ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٤٢</biblScope>
@@ -1419,7 +1440,7 @@
           اشتغل فطيرا الى وقت السحور وقفل دكانه من دون ان يطفئ النار كلها فنظر <placeName xml:id="place-W1245014250_3">القوللق</placeName> ذلك اللهيب فارسل خبرا الى باش اغا فارسل المومى اليه
           رجالا اطفاؤا النار فلم يحصل بذا مضرة لاحد.</p>
       </div>
-      <div xml:id="W1245014451" resp="#eAK #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245014451" resp="#eAK #eSG">
         <head><date when-custom="1245-11-18">١٨ ذى القعدة ١٢٤٥</date>
           <date when="1830-05-11">١١ مايو ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٤٤</biblScope>
@@ -1438,7 +1459,7 @@
           الناظر المومى اليه والى <persName>حسن افندى وراتب افندى مأمورى الشرقية</persName> لكى
           يهتموا جميعا بتهئ الحطب اللازم لحرق الجير كما استقر الراى على ذلك فى غرة ذى القعدة .</p>
       </div>
-      <div xml:id="W1245014552" resp="#eAK" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245014552" resp="#eAK">
         <head><date when-custom="1245-11-19">١٩ ذى القعدة ١٢٤٥</date>
           <date when="1830-05-12">١٢ مايو ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٤٥</biblScope>
@@ -1459,7 +1480,7 @@
           التبن الاسود بموجب الخلاصة التى ارسلت اليه قبل هذا بخصوص ذلك ويحرر امر الى الاغا المومى
           اليه اشعارا له بذلك كما استقر الراى على ذلك فى اليوم اليوم الثانى من شهر ذى القعدة.</p>
       </div>
-      <div xml:id="W1245015053" resp="#eAK #eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245015053" resp="#eAK #eSG">
         <head><date when-custom="1245-12-09">٩ الحجة ١٢٤٥</date>
           <date when="1830-06-01">١ يونيو ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٥٠</biblScope><biblScope unit="page">صفحة
@@ -1477,7 +1498,7 @@
           <sic>با</sic> ياخذ رجعة بها من الاغا المومى اليه كما استقر الرأى على ذلك فى اليوم الرابع
           والعشرين من ذى القعدة.</p>
       </div>
-      <div xml:id="W1245015154" part="N" org="uniform" sample="complete">
+      <div xml:id="W1245015154">
         <head><date when-custom="1245-12-16">١٦ الحجة ١٢٤٥</date>
           <date when="1830-06-07">٧ يونيو ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٥١</biblScope>

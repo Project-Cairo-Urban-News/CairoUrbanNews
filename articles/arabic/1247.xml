@@ -17,8 +17,9 @@
         <editor xml:id="eHL">Hiba Laabadli</editor>
         <editor xml:id="eOE">Othmane Echchabi</editor>
         <editor xml:id="eFA">Fatemah Almahana</editor>
+        <editor xml:id="eMZ">Mahmoud Zaki</editor>
         <respStmt>
-          <resp>Advisor</resp>
+          <resp>Project leader</resp>
           <name>Hugh Cayless</name>
         </respStmt>
         <respStmt>
@@ -65,18 +66,37 @@
           <resp>Research Assistant</resp>
           <name>Abdulrahman El-Taliawi</name>
         </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hiba Laabadli</name> 
+        </respStmt>
+     <respStmt>
+       <resp>Research Assistant</resp>
+       <name>Othmane Echchabi</name>
+     </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Fatemah Almahana</name> 
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Mahmoud Zaki</name> 
+        </respStmt>
         <sponsor>
+          <orgName>National Endowment for the Humanities</orgName>,
+          and
           <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
             <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
             Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>.
+            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName> 
         </sponsor>
       </titleStmt>
       <publicationStmt>
         <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
           du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
         <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>, <persName>Hugh Cayless</persName></p>
       </publicationStmt>
       <sourceDesc>
         <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
@@ -87,6 +107,7 @@
       <projectDesc>
         <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
       </projectDesc>
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
@@ -108,15 +129,16 @@
         <language ident="ota">Ottoman</language>
       </langUsage>
     </profileDesc>
-    <revisionDesc status="cleared">
+    <revisionDesc>
       <listChange>
-        <change when="2023-06-04" resp="#eAM" status="cleared"/>
+        <change when="2023-06-04" resp="#eAM"/>
       </listChange>
     </revisionDesc>
   </teiHeader>
+  
   <text xml:lang="ar" resp="#eAM">
     <body>
-      <div xml:id="W1247030201" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247030201" resp="#eSG">
         <head><date when-custom="1247-04-25">٢٥ ربيع الاخر ١٢٤٧</date>
           <date when="1831-10-03">٣ أكتوبر ١٨٣١</date>
           <bibl><biblScope unit="issue">نمرة ٣٠٢</biblScope>
@@ -134,7 +156,7 @@
             <orgName type="ديوان" ref="الديوان-الخديوى">الديوان الخديوى</orgName> الى حضرة مقدم هذا
           الانهاء اشعارا له بما ذكر واستقر الراى عليه فى اليوم السادس عشر من شهر ربيع الاخر.</p>
       </div>
-      <div xml:id="W1247030502" resp="#eSG" n="DAFTARKHANE" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247030502" resp="#eSG" n="DAFTARKHANE">
         <head><date when-custom="1247-05-07">٧ جمادى الاول ١٢٤٧</date><date when="1831-10-14">١٤
             أكتوبر ١٨٣١</date>
           <bibl><biblScope unit="issue">نمرة ٣٠٥</biblScope><biblScope unit="page">صفحة
@@ -153,7 +175,7 @@
           ليوذن بالاذان المحمدى وترتب شهريتهما فى الخزينة العامرة وذلك يوجب صدور <rs type="علم">علم</rs> الى حضرة الافندى مأمور الديوان الخديوى اشعارا له بما ذكر واستقر الراى عليه فى
           اليوم السابع والعشرين من شهر ربيع الاخر.</p>
       </div>
-      <div xml:id="W1247031203" resp="#eSG" n="FIRE" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247031203" resp="#eSG" n="FIRE">
         <head><date when-custom="1247-05-26">٢٦ جمادى الاول ١٢٤٧</date><date when="1831-11-02">٢
             نوفمبر ١٨٣١</date>
           <bibl><biblScope unit="issue">نمرة ٣١٢</biblScope><biblScope unit="page">صفحة
@@ -168,7 +190,7 @@
           يثبت عليهم ذنب ينبغى اطلاقهم وذلك موجب لصدور <rs type="علم">علم</rs> من <orgName type="ديوان" ref="الديوان-الخديوى">الديوان الخديوى</orgName> الى <persName role="ناظر-فبريقات-الوجه-القبلى">خير الله افندى ناظر فبريقات الوجه القبلى</persName>
           عموما اشعارا له بما ذكر واستقر الراى على ذلك فى اليوم العاشر من شهر جمادى الاولى. </p>
       </div>
-      <div xml:id="W1247031204" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247031204" resp="#eSG">
         <head><date when-custom="1247-05-26">٢٦ جمادى الاول ١٢٤٧</date><date when="1831-11-02">٢
             نوفمبر ١٨٣١</date>
           <bibl><biblScope unit="issue">نمرة ٣١٢</biblScope><biblScope unit="page">صفحة
@@ -186,7 +208,7 @@
           من كلامه انه مذنب ارسل الى <placeName xml:id="place-W1247031204_4">ميناء
             الاسكندرية</placeName> ليستخدم فى التراب ستة اشهر.</p>
       </div>
-      <div xml:id="W1247031305" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247031305" resp="#eSG">
         <head><date when-custom="1247-05-28">٢٨ جمادى الاول ١٢٤٧</date><date when="1831-11-04">٤
             نوفمبر ١٨٣١</date>
           <bibl><biblScope unit="issue">نمرة ٣١٣</biblScope><biblScope unit="page">صفحة
@@ -215,7 +237,7 @@
           سلمت الاشيا المسروقة لصاحبها وكان ثمنها نحو ثلاثمائة قرش وارسل هو الى <placeName xml:id="place-W1247031305_6">مينا الاسكندرية</placeName> ليستخدم فيها بحمل التراب
           ستة اشهر وتم الامر على هذا.</p>
       </div>
-      <div xml:id="W1247031306" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247031306" resp="#eSG">
         <head><date when-custom="1247-05-28">٢٨ جمادى الاول ١٢٤٧</date><date when="1831-11-04">٤
             نوفمبر ١٨٣١</date>
           <bibl><biblScope unit="issue">نمرة ٣١٣</biblScope><biblScope unit="page">صفحة
@@ -246,7 +268,7 @@
             <orgName type="ديوان" ref="ديوان-الابنية">ديوان الابنية</orgName> ليستخدم فيه بحمل
           التراب ستة اشهر لانه قبض عليه قبل الان مرات عديدة واتهم بالسرقة وتم الامر على هذا.</p>
       </div>
-      <div xml:id="W1247031407" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247031407" resp="#eSG">
         <head><date when-custom="1247-06-02">٢ جمادى الاخر ١٢٤٧</date><date when="1831-11-08">٨
             نوفمبر ١٨٣١</date>
           <bibl><biblScope unit="issue">نمرة ٣١٤</biblScope><biblScope unit="page">صفحة
@@ -291,7 +313,7 @@
           </choice> ليخبر المأمور المومى اليه بما ذكر واستقر الراى عليه فى اليوم الثالث عشر من شهر
           جمادى الاولى.</p>
       </div>
-      <div xml:id="W1247031408" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247031408" resp="#eSG">
         <head><date when-custom="1247-06-02">٢ جمادى الاخر ١٢٤٧</date><date when="1831-11-08">٨
             نوفمبر ١٨٣١</date>
           <bibl><biblScope unit="issue">نمرة ٣١٤</biblScope><biblScope unit="page">صفحة
@@ -312,7 +334,7 @@
           هذين العلمين من طرف حضرة بيك افندى ناظر الجهادية كما استقر الراى على ذلك فى اليوم التاسع
           عشر من شهر جمادى الاولى.</p>
       </div>
-      <div xml:id="W1247031509" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247031509" resp="#eSG">
         <head><date when-custom="1247-06-05">٥ جمادى الاخر ١٢٤٧</date><date when="1831-11-11">١١
             نوفمبر ١٨٣١</date>
           <bibl><biblScope unit="issue">نمرة ٣١٥</biblScope><biblScope unit="page">صفحة
@@ -365,7 +387,7 @@
           ليستخدم فيه بالاجرة واشبع ذلك لينتبه الباقون وياتوا للخدمة وذلك حماية للناس من اذاهم
             و<sic>استكفا</sic> لشرهم ووقاية لهم من السرقة.</p>
       </div>
-      <div xml:id="W1247031710" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247031710" resp="#eSG">
         <head><date when-custom="1247-06-11">١١ جمادى الاخر ١٢٤٧</date><date when="1831-11-17">١٧
             نوفمبر ١٨٣١</date><bibl><biblScope unit="issue">نمرة ٣١٧</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
         <head><title>حوادث <orgName type="ديوان" ref="ديوان_الخديوى">الديوان
@@ -408,7 +430,7 @@
           عشر من شهر جمادى الاولى سنة سبع واربعين وقالت انى تركت السوال عن باقى امتعتى فارسل علم
           حينئذ باطلاق ام الخير فاطلقت وخلى سبيلها وتم الامر على هذا.</p>
       </div>
-      <div xml:id="W1247031711" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247031711" resp="#eSG">
         <head><date when-custom="1247-06-11">١١ جمادى الاخر ١٢٤٧</date><date when="1831-11-17">١٧
             نوفمبر ١٨٣١</date>
           <bibl><biblScope unit="issue">نمرة ٣١٧</biblScope><biblScope unit="page">صفحة
@@ -443,7 +465,7 @@
           الثانى والعشرين من الشهر المذكور <sic>جا</sic>
           <sic>مشيخ الحارة</sic> واحضر المدعى وارسل الجميع الى الشرع الشريف.</p>
       </div>
-      <div xml:id="W1247031812" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247031812" resp="#eSG">
         <head><date when-custom="1247-06-14">١٤ جمادى الاخر ١٢٤٧</date><date when="1831-11-20">٢٠
             نوفمبر ١٨٣١</date>
           <bibl><biblScope unit="issue">نمرة ٣١٨</biblScope><biblScope unit="page">صفحة
@@ -465,7 +487,7 @@
           امس عشاء ولكنى لم ار دراهمه فضيق عليه ولم تبد منه نتيجة فاحيلت دعواهما على حاكم الشرع
           الشريف.</p>
       </div>
-      <div xml:id="W1247031813" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247031813" resp="#eSG">
         <head><date when-custom="1247-06-14">١٤ جمادى الاخر ١٢٤٧</date><date when="1831-11-20">٢٠
             نوفمبر ١٨٣١</date>
           <bibl><biblScope unit="issue">نمرة ٣١٨</biblScope><biblScope unit="page">صفحة
@@ -497,7 +519,7 @@
           فاخذت منه مع ثمن الاخفاف وسلمت للمراة واما غنيمه فمن حيث توفيت سلمت امتعتها ل<persName role="ناظر-بيت-المال">على اغا ناظر <orgName ref="بيت_المال">بيت
             المال</orgName></persName> وارسل السارق الى <orgName type="ديوان" ref="ديوان-الجهادية">ديوان الجهادية</orgName> لتفصل دعواه فيه.</p>
       </div>
-      <div xml:id="W1247032014" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247032014" resp="#eSG">
         <head><date when-custom="1247-06-18">١٨ جمادى الاخر ١٢٤٧</date><date when="1831-11-24">٢٤
             نوفمبر ١٨٣١</date>
           <bibl><biblScope unit="issue">نمرة ٣٢٠</biblScope><biblScope unit="page">صفحة
@@ -546,7 +568,7 @@
           زينب ارسلنا الى <orgName ref="بيت-الوالى">بيت الوالى</orgName> لان فيهما شبهة قوية ولما لم
           تحصل منهما فائدة بعد حبسهما هنالك اياما احيل فصل هذه الدعوى على الشرع الشريف.</p>
       </div>
-      <div xml:id="W1247033015" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247033015" resp="#eSG">
         <head><date when-custom="1247-07-14">١٤ رجب ١٢٤٧</date><date when="1831-12-19">١٩ ديسمبر
             ١٨٣١</date>
           <bibl><biblScope unit="issue">نمرة ٣٣٠</biblScope><biblScope unit="page">صفحة
@@ -564,7 +586,7 @@
           عليه فى <placeName xml:id="place-W1247033015_2">ابعادية الفردة</placeName> كما
           استقر الرأى على ذلك فى اليوم الخامس و العشرين من شهر جمادى الاخرة.</p>
       </div>
-      <div xml:id="W1247033016" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247033016" resp="#eSG">
         <head><date when-custom="1247-07-14">١٤ رجب ١٢٤٧</date><date when="1831-12-19">١٩ ديسمبر
             ١٨٣١</date>
           <bibl><biblScope unit="issue">نمرة ٣٣٠</biblScope><biblScope unit="page">صفحة
@@ -580,7 +602,7 @@
           الى حضرة الافندى المومى اليه اشعارا له بما ذكر واستقر الراى عليه فى اليوم الثامن والعشرين
           من شهر جمادى الثانية.</p>
       </div>
-      <div xml:id="W1247033117" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247033117" resp="#eSG">
         <head><date when-custom="1247-07-16">١٦ رجب ١٢٤٧</date><date when="1831-12-21">٢١ ديسمبر
             ١٨٣١</date>
           <bibl><biblScope unit="issue">نمرة ٣٣١</biblScope><biblScope unit="page">صفحة
@@ -597,7 +619,7 @@
           اليه بان يحقق ثمن الفول الذى تقدم ذكره آنفا لاجل ان يخصم للمحبوس كما استقر الراى على ذلك
           فى اليوم التاسع والعشرين من شهر جمادى الثانية.</p>
       </div>
-      <div xml:id="W1247033718" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247033718" resp="#eSG">
         <head><date when-custom="1247-08-1">١ شهر شعبان ١٢٤٧</date><date when="1832-01-05">٥ يناير
             ١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٣٧</biblScope><biblScope unit="page">صفحة
@@ -614,7 +636,7 @@
           حضرة الافندى مأمور الديوان بان يؤنب مقدم هذا العرض على ما فعله كما استقر الراى على ذلك فى
           اليوم الثالث عشر من شهر رجب.</p>
       </div>
-      <div xml:id="W1247034419" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247034419" resp="#eSG">
         <head><date when-custom="1247-08-23">٢٣ شعبان ١٢٤٧</date><date when="1832-01-27">٢٧ يناير
             ١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٤٤</biblScope><biblScope unit="page">صفحة
@@ -633,7 +655,7 @@
           اليه والى حضرة المير المسطر اسمه اعلاه اشعارا لهما بما ذكر واستقر الراى عليه فى اليوم
           الثامن عشر من شهر رجب الفرد.</p>
       </div>
-      <div xml:id="W1247034720" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247034720" resp="#eSG">
         <head><date when-custom="1247-08-30">٣٠ شعبان ١٢٤٧</date><date when="1832-02-04">٤
             فبراير١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٤٧</biblScope><biblScope unit="page">صفحة
@@ -651,7 +673,7 @@
           محكمة وتمكث فى ساحة البقاء زمنا طويلا كما استقر الراى على هذا فى اليوم التاسع من شهر شعبان
           المكرم.</p>
       </div>
-      <div xml:id="W1247034821" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247034821" resp="#eSG">
         <head><date when-custom="1247-09-03">٣ رمضان ١٢٤٧</date><date when="1832-02-05">٥
             فبراير١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٤٨</biblScope><biblScope unit="page">صفحة
@@ -672,7 +694,7 @@
           يرسله الى <placeName xml:id="place-W1247034821_3">جدة</placeName> ويحرر علم اخر الى محافظ ذلك الوجه بان يرسله
           الى مكة المكرمة كما استقر الراى على هذا فى اليوم الثامن من شهر شعبان المكرم.</p>
       </div>
-      <div xml:id="W1247035222" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247035222" resp="#eSG">
         <head><date when-custom="1247-09-14">١٤ رمضان ١٢٤٧</date><date when="1832-02-16">١٦
             فبراير١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٥٢</biblScope><biblScope unit="page">صفحة
@@ -692,7 +714,7 @@
           هذا الانهاء اشعارا له بما ذكر واستقر الراى عليه فى اليوم التاسع عشر من شهر شعبان
           المكرم.</p>
       </div>
-      <div xml:id="W1247035523" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247035523" resp="#eSG">
         <head><date when-custom="1247-09-24">٢٤ رمضان ١٢٤٧</date><date when="1832-02-26">٢٦
             فبراير١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٥٥</biblScope><biblScope unit="page">صفحة
@@ -716,7 +738,7 @@
             افندينا</persName> اشعارا لهم بما استقر الراى عليه فى اليوم السادس والعشرين من شهر شعبان
           المكرم.</p>
       </div>
-      <div xml:id="W1247035624" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247035624" resp="#eSG">
         <head><date when-custom="1247-09-26">٢٦ رمضان ١٢٤٧</date><date when="1832-02-28">٢٨
             فبراير١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٥٦</biblScope><biblScope unit="page">صفحة
@@ -731,7 +753,7 @@
           الى القايمقام المومى اليه اشعارا له بما ذكر واستقر الراى عليه فى اليوم السادس عشر من شهر
           شعبان المكرم.</p>
       </div>
-      <div xml:id="W1247035725" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247035725" resp="#eSG">
         <head><date when-custom="1247-09-28">٢٨ رمضان ١٢٤٧</date><date when="1832-03-01">١ مارس
             ١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٥٧</biblScope><biblScope unit="page">صفحة
@@ -747,7 +769,7 @@
           يجمعه ومشايخ الاثمان فى محل ويحرر ما يقال منهم فى <rs type="جرنال">جرنال</rs> ويقدم لمجلس
           المشورة لتقع المذاكرة على مقتضاه كما استقر الراى على هذا فى غره شهر رمضان المعظم.</p>
       </div>
-      <div xml:id="W1247035726" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247035726" resp="#eSG">
         <head><date when-custom="1247-09-28">٢٨ رمضان ١٢٤٧</date><date unit="1832-03-01">١ مارس
             ١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٥٧</biblScope><biblScope unit="page">صفحة
@@ -768,7 +790,7 @@
             الكلار</orgName> ايضا صدقة عن راس جناب افندينا ولى النعم ويحرر اخر الى كل من <persName role="محاسب">على افندى</persName> و<persName role="محاسب">يعقوب افندى</persName>
           المحاسبين اشعارا لهما بما ذكر واستقر الراى عليه فى غرة شهر رمضان المعظم.</p>
       </div>
-      <div xml:id="W1247035827" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247035827" resp="#eSG">
         <head><date when-custom="1247-10-09">٩ شوال ١٢٤٧</date><date when="1832-03-12">١٢ مارس
             ١٨٣٢</date><bibl><biblScope unit="issue">نمرة ٣٥٨</biblScope><biblScope unit="page">صفحة
               ١</biblScope></bibl></head>
@@ -797,7 +819,7 @@
             <persName role="معاون">عبد الرحمن افندى معاون جناب افندينا ولى النعم</persName> كما
           استقر الراى على ذلك فى غرة شهر رمضان المعظم.</p>
       </div>
-      <div xml:id="W1247035928" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247035928" resp="#eSG">
         <head><date when-custom="1247-10-11">١١ شوال ١٢٤٧</date><date when="1832-03-14">١٤ مارس
             ١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٥٩</biblScope><biblScope unit="page">صفحة
@@ -814,7 +836,7 @@
           لدن سعادة افندينا ولى النعم ويخصمه فى جانب ديوانه كما ذكر واستقر الراى عليه فى اليوم
           الثالث من شهر رمضان المعظم.</p>
       </div>
-      <div xml:id="W1247035929" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247035929" resp="#eSG">
         <head><date when-custom="1247-10-11">١١ شوال ١٢٤٧</date><date when="1832-03-14">١٤ مارس
             ١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٥٩</biblScope><biblScope unit="page">صفحة
@@ -829,7 +851,7 @@
             المشورة</orgName> بمقدار المصاريف اللازمة له ويشرع حينئذ فى تعميره ويحرر <rs type="علم">علم</rs> اخر الى البيك المومى اليه اشعارا له بما ذكر واستقر الراى عليه فى اليوم الثالث
           عشر من شهر رمضان المبارك.</p>
       </div>
-      <div xml:id="W1247036030" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247036030" resp="#eSG">
         <head><date when-custom="1247-10-15">١٥ شوال ١٢٤٧</date><date when="1832-03-18">١٨ مارس
             ١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٦٠</biblScope><biblScope unit="page">صفحة
@@ -842,7 +864,7 @@
           الى البيك المتقدم ذكره اشعارا له بما ذكر و استقر الراى عليه فى اليوم الرابع من شهر رمضان
           المبارك.</p>
       </div>
-      <div xml:id="W1247036131" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247036131" resp="#eSG">
         <head><date when-custom="1247-10-17">١٧ شوال ١٢٤٧</date><date when="1832-03-20">٢٠ مارس
             ١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٦١</biblScope><biblScope unit="page">صفحة
@@ -857,7 +879,7 @@
           القبانى ويستخدمه بشهريته القديمة كما ذكر واستقر الراى عليه فى اليوم الحادى عشر من شهر
           رمضان المبارك.</p>
       </div>
-      <div xml:id="W1247036332" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247036332" resp="#eSG">
         <head><date when-custom="1247-10-22">٢٢ شوال ١٢٤٧</date><date when="1832-03-25">٢٥ مارس
             ١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٦٣</biblScope><biblScope unit="page">صفحة
@@ -875,7 +897,7 @@
           بانه يهتم فى انشأ المحلات المذكورة على موجب الكشف كما استقر الراى عليه فى اليوم الخامس
           والعشرين من شهر رمضان المعظم.</p>
       </div>
-      <div xml:id="W1247037033" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247037033" resp="#eSG">
         <head><date when-custom="1247-11-10">١٠ ذى القعده ١٢٤٧</date><date when="1832-04-11">١١
             ابريل ١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٧٠</biblScope><biblScope unit="page">صفحة
@@ -891,7 +913,7 @@
             <corr><sic>اشعارا</sic></corr>
           </choice> له بما استقر الراى عليه فى اليوم الخامس عشر من شهر شوال المنور.</p>
       </div>
-      <div xml:id="W1247037034" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247037034" resp="#eSG">
         <head><date when-custom="1247-11-10">١٠ ذى القعده ١٢٤٧</date><date when="1832-04-11">١١
             ابريل ١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٧٠</biblScope><biblScope unit="page">صفحة
@@ -913,7 +935,7 @@
           الى الافندى ناظر المبيعات بانه يخصم مصاريفها فى حساب ديوانه كما استقر الراى عليه فى اليوم
           السادس عشر من شوال المنور.</p>
       </div>
-      <div xml:id="W1247037335" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247037335" resp="#eSG">
         <head><date when-custom="1247-11-17">١٧ ذى القعده ١٢٤٧</date><date when="1832-04-18">١٨
             ابريل ١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٧٣</biblScope><biblScope unit="page">صفحة
@@ -925,7 +947,7 @@
           من محلاتها ويحرر <rs type="علم">علم</rs> الى الناظر المومى اليه اشعارا له بما استقر الراى
           عليه فى اليوم الخامس والعشرين من شوال المنور.</p>
       </div>
-      <div xml:id="W1247037436" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247037436" resp="#eSG">
         <head><date when-custom="1247-11-20">٢٠ ذى القعده ١٢٤٧</date><date when="1832-04-21">٢١
             ابريل ١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٧٤</biblScope><biblScope unit="page">صفحة
@@ -946,7 +968,7 @@
             والجص</persName> اشعارا له بما ذكر واستقر الراى عليه فى اليوم السادس والعشرين من شوال
           المنور.</p>
       </div>
-      <div xml:id="W1247037437" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247037437" resp="#eSG">
         <head><date when-custom="1247-11-20">٢٠ ذى القعده ١٢٤٧</date><date when="1832-04-21">٢١
             ابريل ١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٧٤</biblScope><biblScope unit="page">صفحة
@@ -968,7 +990,7 @@
           علم اشعارا له بانه يعطى ما يطلب منها سريعا اذ وقت مجئ الخيل من مرعى البرسيم قد ازف وعلى
           هذا استقر الراى فى اليوم السابع والعشرين من شوال المنور.</p>
       </div>
-      <div xml:id="W1247037838" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247037838" resp="#eSG">
         <head><date when-custom="1247-11-30">٣٠ ذى القعده ١٢٤٧</date><date when="1832-05-02">٢ مايو
             ١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٧٨</biblScope><biblScope unit="page">صفحة
@@ -984,7 +1006,7 @@
           ذلك المحل رجلا مهندسا ليهتم ويسعى فى اتمام مرمته فى ظرف يومين ويحرر الى حضرة اميراللوا
           المومى اليه اشعارا له بما ذكر واستقر الراى عليه فى اليوم الخامس من ذى القعده الحرام.</p>
       </div>
-      <div xml:id="W1247038039" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247038039" resp="#eSG">
         <head><date when-custom="1247-12-05">٥ ذى الحجه ١٢٤٧</date><date when="1832-05-06">٦ مايو
             ١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٨٠</biblScope><biblScope unit="page">صفحة
@@ -1003,7 +1025,7 @@
             الحربية عموما</persName> اشعارا له بما ذكر واستقر الراى عليه فى اليوم السابع من ذى
           القعده الحرام.</p>
       </div>
-      <div xml:id="W1247038040" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247038040" resp="#eSG">
         <head><date when-custom="1247-12-05">٥ ذى الحجه ١٢٤٧</date><date when="1832-05-06">٦ مايو
             ١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٨٠</biblScope><biblScope unit="page">صفحة
@@ -1017,7 +1039,7 @@
           اشعارا له بانه يهتم بعمل سقفه كما استقر الراى عليه فى اليوم الرابع عشر من ذى القعده
           الحرام.</p>
       </div>
-      <div xml:id="W1247038141" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247038141" resp="#eSG">
         <head><date when-custom="1247-12-07">٧ ذى الحجه ١٢٤٧</date><date when="1832-05-08">٨ مايو
             ١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٨١</biblScope><biblScope unit="page">صفحة
@@ -1036,7 +1058,7 @@
           ويحرر اعلام الى محمود افندى ناظر المبيعات عموما اشعارا له بما ذكر واستقر الراى عليه فى
           اليوم الثالث عشر من ذى القعده الحرام.</p>
       </div>
-      <div xml:id="W1247038142" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247038142" resp="#eSG">
         <head><date when-custom="1247-12-07">٧ ذى الحجه ١٢٤٧</date><date when="1832-05-08">٨ مايو
             ١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٨١</biblScope><biblScope unit="page">صفحة
@@ -1052,7 +1074,7 @@
           يكشف عن هذين المحلين ويحرر قائمة بمفردات ما يلزم لهما ويقدمها لمجلس الجهادية ليعلم مقدار
           ما يصرف فى عمارتهما وعلى هذا استقر الراى فى اليوم الثالث عشر من ذى القعده الحرام.</p>
       </div>
-      <div xml:id="W1247038343" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247038343" resp="#eSG">
         <head><date when-custom="1247-12-19">١٩ ذى الحجه ١٢٤٧</date><date when="1832-05-20">٢٠ مايو
             ١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٨٣</biblScope><biblScope unit="page">صفحة
@@ -1070,7 +1092,7 @@
             البارودخانات</persName> اشعارا له بما ذكر واستقر الراى عليه فى اليوم الخامس والعشرين من
           ذى القعده الحرام.</p>
       </div>
-      <div xml:id="W1247038744" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1247038744" resp="#eSG">
         <head><date when-custom="1247-12-28">٢٨ ذى الحجه ١٢٤٧</date><date when="1832-05-29">٢٩ مايو
             ١٨٣٢</date>
           <bibl><biblScope unit="issue">نمرة ٣٨٧</biblScope><biblScope unit="page">صفحة

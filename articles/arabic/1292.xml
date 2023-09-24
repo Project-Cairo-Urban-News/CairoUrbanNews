@@ -17,8 +17,9 @@
         <editor xml:id="eHL">Hiba Laabadli</editor>
         <editor xml:id="eOE">Othmane Echchabi</editor>
         <editor xml:id="eFA">Fatemah Almahana</editor>
+        <editor xml:id="eMZ">Mahmoud Zaki</editor>
         <respStmt>
-          <resp>Advisor</resp>
+          <resp>Project leader</resp>
           <name>Hugh Cayless</name>
         </respStmt>
         <respStmt>
@@ -65,19 +66,37 @@
           <resp>Research Assistant</resp>
           <name>Abdulrahman El-Taliawi</name>
         </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hiba Laabadli</name> 
+        </respStmt>
+     <respStmt>
+       <resp>Research Assistant</resp>
+       <name>Othmane Echchabi</name>
+     </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Fatemah Almahana</name> 
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Mahmoud Zaki</name> 
+        </respStmt>
         <sponsor>
+          <orgName>National Endowment for the Humanities</orgName>,
+          and
           <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
             <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
             Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>.
+            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName> 
         </sponsor>
       </titleStmt>
       <publicationStmt>
         <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
           du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
         <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
-            Volait</persName></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>, <persName>Hugh Cayless</persName></p>
       </publicationStmt>
       <sourceDesc>
         <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
@@ -88,19 +107,18 @@
       <projectDesc>
         <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
       </projectDesc>
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
         <p>We use the Arabic script but transliteration into Latin characters follows the Library of
-          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
         <p>Each individual article has an individual xml:id number starting with "w1"</p>
-        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
-          and notes.</p>
-        <p>If the location or organization of responsibility is known from the text, it can be added
-          in an attribute to a persName.</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
         <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
         <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
-            Editions</ref>.</p>
+          Editions</ref>.</p>
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
@@ -111,16 +129,16 @@
         <language ident="ota">Ottoman</language>
       </langUsage>
     </profileDesc>
-    <revisionDesc status="cleared">
+    <revisionDesc>
       <listChange>
-        <change status="cleared" resp="#eAM" when="2023-07-24"/>
+        <change resp="#eAM" when="2023-07-24"/>
       </listChange>
     </revisionDesc>
   </teiHeader>
   
   <text xml:lang="ar">
       <body>
-      <div xml:id="W1292000001" resp="#eNK" part="N" org="uniform" sample="complete">
+      <div xml:id="W1292000001" resp="#eNK">
         <head><date when-custom="1292-06-22">٢٢ جمادى الثانى ١٢٩٢</date>
           <date when="1875-07-25">٢٥ يوليو ١٨٧٥</date><bibl><biblScope unit="issue ">نمرة
               ٦١٦</biblScope>
@@ -190,7 +208,7 @@
           واعرب عن عظم وقعها وتلا <persName>على حمدى</persName> أول تلامذة أولى فرقها النجيب هذه
           الخطبة الثنائية الدعائية الناطقة بما يحلو ويطيب: ... </p>
       </div>
-      <div xml:id="W1292062403" resp="#eNK" part="N" org="uniform" sample="complete">
+      <div xml:id="W1292062403" resp="#eNK">
         <head><date when-custom="1292-08-19">١٩ شعبان ١٢٩٢</date>
           <date when="1875-09-19">١٩ سبتمبر ١٨٧٥</date>
           <bibl><biblScope unit="issue">نمرة ٦٢٤</biblScope>
@@ -262,7 +280,7 @@
           باشباله الفخام وانجاله الكرام بجاه نبينا عليه وعلى آله أوفر الصلاة وأوفى السلام آمين آمين
           آمين.</p>
       </div>
-      <div xml:id="W1292022504" resp="#eNK" part="N" org="uniform" sample="complete">
+      <div xml:id="W1292022504" resp="#eNK">
         <head><date when-custom="1292-08-26">٢٦ شعبان ١٢٩٢</date>
           <date when="1875-09-26">٢٦ سبتمبر ١٨٧٥</date>
           <bibl><biblScope unit="issue">نمرة ٢٢٥</biblScope>
@@ -273,7 +291,7 @@
             <persName>حضرة ذات الخلال الحميده حضرة والدة المرحوم الهامى باشا المجيده</persName> فعدم
           ذكرها الاتفاقى فى مقدمتهما جاء من باب الاجلال و زيادة الكمال.</p>
       </div>
-      <div xml:id="W1292022605" resp="#eNK" part="N" org="uniform" sample="complete">
+      <div xml:id="W1292022605" resp="#eNK">
         <head><date when-custom="1292-09-04">٤ رمضان ١٢٩٢</date>
           <date when="1875-10-03">٣ اوكتوبر ١٨٧٥</date>
           <bibl><biblScope unit="issue">نمرة ٢٢٦</biblScope>
@@ -282,7 +300,7 @@
         <p>سبق التنبيه فى الصحيفة على حضور اقلام الحقانية من <placeName xml:id="place-W1292022605_1">الاسكندرية</placeName> الى مصر المحمية والآن علم انها رتبت موقتا فى <placeName xml:id="place-W1292022605_2">قصر النيل</placeName> الى حين انتهاء عملية الاصلاحات اللازمة
           للمحل الذى خصص له <placeName xml:id="place-W1292022605_3">بشارع عابدين</placeName>.</p>
       </div>
-      <div xml:id="W1292063406" resp="#eNK" part="N" org="uniform" sample="complete">
+      <div xml:id="W1292063406" resp="#eNK">
         <head>
           <date when-custom="1292-11-08">٨ ذى القعده ١٢٩٢</date>
           <date when="1875-12-06">٦ ديسمبر ١٨٧٥</date><bibl>
@@ -291,7 +309,7 @@
         <head>الحوادث الداخليه</head>
         <p>بعد ظهر السادس والعشرين من نوامبر الماضى اجريت رسوم بناء <placeName xml:id="place-W1292063406_1">كنيسة الامريقان</placeName> بقرب <placeName xml:id="place-W1292063406_2">لوقانده <sic>(اوتل شبرت)</sic></placeName> التى ب<placeName xml:id="place-W1292063406_3">الازبكية</placeName> حضرها كثير من المعتبرين منهم <persName role="سفير">جناب مسيو (بانقروفت دويس) سفير امريقا ببرلين</persName> المقيم بمصر الآن و<persName role="قنصل">جناب قنصل امريقا الجنرال بها</persName> و غيرها من الامريقانيين</p>
       </div>
-      <div xml:id="W1292063907" resp="#eNK" part="N" org="uniform" sample="complete">
+      <div xml:id="W1292063907" resp="#eNK">
         <head><date when-custom="1292-12-13">١٣ ذو الحجة ١٢٩٢</date>
           <date when="1876-01-09">٩ يناير ١٨٧٦</date>
           <bibl><biblScope unit="issue">نمرة ٦٣٩</biblScope><biblScope unit="page">صفحة
