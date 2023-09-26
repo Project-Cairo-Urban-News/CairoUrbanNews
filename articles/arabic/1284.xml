@@ -1,140 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
-          Project</title>
-        <editor xml:id="eNK">Nour Kanaan</editor>
-        <editor xml:id="eAM">Adam Mestyan</editor>
-        <editor xml:id="eDY">Danah Younis</editor>
-        <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
-        <editor xml:id="eAE">Arif Erbil</editor>
-        <editor xml:id="eAK">Ahmed Kamal</editor>
-        <editor xml:id="eAS">Abram Smith</editor>
-        <editor xml:id="eCH">Clara Harms</editor>
-        <editor xml:id="eHS">Hüseyin Sağlam</editor>
-        <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
-        <editor xml:id="eHL">Hiba Laabadli</editor>
-        <editor xml:id="eOE">Othmane Echchabi</editor>
-        <editor xml:id="eFA">Fatemah Almahana</editor>
-        <editor xml:id="eMZ">Mahmoud Zaki</editor>
-        <respStmt>
-          <resp>Project leader</resp>
-          <name>Hugh Cayless</name>
-        </respStmt>
-        <respStmt>
-          <resp>Project leader</resp>
-          <name>Adam Mestyan</name>
-        </respStmt>
-        <respStmt>
-          <resp>Project leader</resp>
-          <name>Mercedes Volait</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Sarah Fathallah Garaa</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Karima Nasr</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Rezk Nory</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Arif Erbil</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Ahmed Kamal</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Abram Smith</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Clara Harms</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Hüseyin Sağlam</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Abdulrahman El-Taliawi</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Hiba Laabadli</name> 
-        </respStmt>
-     <respStmt>
-       <resp>Research Assistant</resp>
-       <name>Othmane Echchabi</name>
-     </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Fatemah Almahana</name> 
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Mahmoud Zaki</name> 
-        </respStmt>
-        <sponsor>
-          <orgName>National Endowment for the Humanities</orgName>,
-          and
-          <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
-            <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
-            Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName> 
-        </sponsor>
-      </titleStmt>
-      <publicationStmt>
-        <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
-          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
-        <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>, <persName>Hugh Cayless</persName></p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
-        <p>born digital document</p>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <projectDesc>
-        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
-          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
-      </projectDesc>
-      <editorialDecl>
-        <p>Rules of TEI XML MarkUp in This Project</p>
-        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
-          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
-        <p>Each individual article has an individual xml:id number starting with "w1"</p>
-        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
-        <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
-        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
-          Editions</ref>.</p>
-      </editorialDecl>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="ar">Arabic</language>
-        <language ident="en">English</language>
-        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
-        <language ident="ota">Ottoman</language>
-      </langUsage>
-    </profileDesc>
-    <revisionDesc>
-      <listChange>
-        <change/>
-      </listChange>
-    </revisionDesc>
-  </teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital
+                              Humanities Project</title>
+                        <editor xml:id="eNK">Nour Kanaan</editor>
+                        <editor xml:id="eAM">Adam Mestyan</editor>
+                        <editor xml:id="eDY">Danah Younis</editor>
+                        <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
+                        <editor xml:id="eAE">Arif Erbil</editor>
+                        <editor xml:id="eAK">Ahmed Kamal</editor>
+                        <editor xml:id="eAS">Abram Smith</editor>
+                        <editor xml:id="eCH">Clara Harms</editor>
+                        <editor xml:id="eHS">Hüseyin Sağlam</editor>
+                        <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+                        <editor xml:id="eHL">Hiba Laabadli</editor>
+                        <editor xml:id="eOE">Othmane Echchabi</editor>
+                        <editor xml:id="eFA">Fatemah Almahana</editor>
+                        <editor xml:id="eMZ">Mahmoud Zaki</editor>
+                        <respStmt>
+                              <resp>Project leader</resp>
+                              <name>Hugh Cayless</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Project leader</resp>
+                              <name>Adam Mestyan</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Project leader</resp>
+                              <name>Mercedes Volait</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Research Assistant</resp>
+                              <name>Sarah Fathallah Garaa</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Research Assistant</resp>
+                              <name>Karima Nasr</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Research Assistant</resp>
+                              <name>Rezk Nory</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Research Assistant</resp>
+                              <name>Arif Erbil</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Research Assistant</resp>
+                              <name>Ahmed Kamal</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Research Assistant</resp>
+                              <name>Abram Smith</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Research Assistant</resp>
+                              <name>Clara Harms</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Research Assistant</resp>
+                              <name>Hüseyin Sağlam</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Research Assistant</resp>
+                              <name>Abdulrahman El-Taliawi</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Research Assistant</resp>
+                              <name>Hiba Laabadli</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Research Assistant</resp>
+                              <name>Othmane Echchabi</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Research Assistant</resp>
+                              <name>Fatemah Almahana</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Research Assistant</resp>
+                              <name>Mahmoud Zaki</name>
+                        </respStmt>
+                        <sponsor>
+                              <orgName>National Endowment for the Humanities</orgName>, and
+                                    <orgName>Institut français d’archéologie orientale</orgName>
+                              (Ifao, Cairo); <orgName>Franklin Humanities Institute and the Office
+                                    of Global Affairs / Andrew W. Mellon Endowment for Global
+                                    Studies, Duke University</orgName>; <orgName>Duke University
+                                    Libraries</orgName>; <orgName>Centre national de la recherche
+                                    scientifique</orgName>
+                        </sponsor>
+                  </titleStmt>
+                  <publicationStmt>
+                        <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
+                              project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke
+                              University).</p>
+                        <p>"Digital Cairo" project sponsored by the National Endowment for the
+                              Humanities.</p>
+                        <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
+                        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+                                    Volait</persName>, <persName>Hugh Cayless</persName></p>
+                  </publicationStmt>
+                  <sourceDesc>
+                        <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+                        <p>born digital document</p>
+                  </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                  <projectDesc>
+                        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ
+                              al-Miṣriyya" in the project "La fabrique du Caire moderne, 2018-2021"
+                              (Ifao-InVisu-Duke University).</p>
+                        <p>"Digital Cairo" project sponsored by the National Endowment for the
+                              Humanities.</p>
+                  </projectDesc>
+                  <editorialDecl>
+                        <p>Rules of TEI XML MarkUp in This Project</p>
+                        <p>We use the Arabic script but transliteration into Latin characters
+                              follows the Library of Congress (LOC) <ref
+                                    target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf"
+                                    >Arabic transliteration chart</ref>.</p>
+                        <p>Each individual article has an individual xml:id number starting with
+                              "w1"</p>
+                        <p>We only use persName, orgName, placeName elements, apart from
+                              bibliographical elements and notes.</p>
+                        <p>If the location or organization of responsibility is known from the text,
+                              it can be added in an attribute to a persName.</p>
+                        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+                        <p>This project's schema considers Till Grallert's work in his <ref
+                                    target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open
+                                    Arabic Periodical Editions</ref>.</p>
+                  </editorialDecl>
+            </encodingDesc>
+            <profileDesc>
+                  <langUsage>
+                        <language ident="ar">Arabic</language>
+                        <language ident="en">English</language>
+                        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to
+                              ALA-LC</language>
+                        <language ident="ota">Ottoman</language>
+                  </langUsage>
+            </profileDesc>
+            <revisionDesc status="cleared">
+                  <listChange>
+                        <change status="cleared" when="2023-09-26" resp="#eAM"/>
+                  </listChange>
+            </revisionDesc>
+      </teiHeader>
   
   <text xml:lang="ar">
       <body>
@@ -179,33 +192,42 @@
                         <p>في الساعة الخامسة من ليلة الخميس الماضي ظهر <rs type="حريق">حريق</rs>
                                     ب<placeName type="منزل" ref="منزل-سويلم-دياب-الحجراتى">منزل
                                           <persName role="الحجراتي">سويلم دياب
-                                    الحجراتي</persName></placeName> ب<placeName type="درب" ref="درب-العجوز">درب العجوز</placeName> ب<placeName type="ثمن" ref="ثمن-باب-الشعرية"><orgName type="ثمن" ref="ثمن-باب-الشعرية">ثمن باب الشعرية</orgName></placeName> قبودر من الضبطية
-                              بارسال الطلومبات وغيرها اليه وكان سقفه الأسفل قد اشتعل فنزع ما كان
-                              بالأوطة التي عليه الساكن بها <persName role="الحجار">محمد غطاس
-                                    الحجار</persName> ثم أنزل السقف وتيسر الأطفاء في ساعتين بدون
-                              سراية إلى جهة أخرى.</p>
+                                    الحجراتي</persName></placeName> ب<placeName type="درب"
+                                    ref="درب-العجوز">درب العجوز</placeName> ب<placeName type="ثمن"
+                                    ref="ثمن-باب-الشعرية"><orgName type="ثمن" ref="ثمن-باب-الشعرية"
+                                          >ثمن باب الشعرية</orgName></placeName> قبودر من <orgName
+                                    ref="ضبطية">الضبطية</orgName> بارسال الطلومبات وغيرها اليه وكان
+                              سقفه الأسفل قد اشتعل فنزع ما كان بالأوطة التي عليه الساكن بها
+                                    <persName role="الحجار">محمد غطاس الحجار</persName> ثم أنزل
+                              السقف وتيسر الأطفاء في ساعتين بدون سراية إلى جهة أخرى.</p>
                   </div>
                   <div resp="#eSG" xml:id="w4">
                         <head><date when-custom="1284-02-06">٦ صفر ١٢٨٤</date>
                               <date when="1867-06-09">٩ يونيه ١٨٦٧</date>
                               <bibl><biblScope unit="issue">نمرة ١١٢</biblScope>
                                     <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-                        <p>اعلان قنصلاتوا دولة اليونان وارد من الضبطية بلفظه أيضا انه تنفيذ الأمر
-                              الصادر في ١٨ و٣٠ <choice>
+                        <p>اعلان <orgName ref="قنصلاتوا دولة اليونان" type="قنصلاتوا">قنصلاتوا دولة
+                                    اليونان</orgName> وارد من <orgName ref="ضبطية">الضبطية</orgName>
+                              بلفظه أيضا انه تنفيذ الأمر الصادر في ١٨ و٣٠ <choice>
                                     <sic>أبريله</sic>
                                     <corr>أبريل</corr>
                               </choice> سنة ١٨٦٧ على العرض المتقدم من <persName>الست ايرينه أبوسطو
                                     لو</persName> ضد <persName>الخواجه ميكيله لالا</persName> سيصير
                               طرح <placeName type="بيت" ref="بيت-ملك-الخواجه-ميكيله-لالا">البيت ملك
-                                    الخواجه المذكور</placeName> الكائن ب<placeName type="سكة" ref="سكة-باب-الحديد">سكة باب الحديد</placeName> بالقرب إلى
-                                    <placeName ref="لوكاندت-جريفتس" type="لوكاندة"><sic>لوكاندت</sic> جريفتس</placeName> المعروفة
-                                    ب<placeName type="لوكاندة" ref="لوكاندت-أوروبا"><sic>لوكاندت</sic> أوروبا</placeName> لبيعه بالمزاد
+                                    الخواجه المذكور</placeName> الكائن ب<placeName type="سكة"
+                                    ref="سكة-باب-الحديد">سكة باب الحديد</placeName> بالقرب إلى
+                                    <placeName ref="لوكاندت-جريفتس" type="لوكاندة"
+                                          ><sic>لوكاندت</sic> جريفتس</placeName> المعروفة
+                                    ب<placeName type="لوكاندة" ref="لوكاندت-أوروبا"
+                                          ><sic>لوكاندت</sic> أوروبا</placeName> لبيعه بالمزاد
                               وليعلم لدى العموم انه قد دفع بالبيت المذكور <choice>
                                     <sic>مبلع</sic>
                                     <corr>مبلغ</corr>
                               </choice> ثلاثة آلاف وستمائة جنيه انكليزي من المداينة أول عطي وتعين
                               يوم الأحد الواقع في ١٦ وفي ٢٨ يوليو سنة ١٨٦٧ للبدأ فى المزاد المذكور
-                              من الساعة ١٠ للساعة ١٢ افرنجي ب<placeName type="قهوة" ref="قهوة-البورصة">قهوة البورصة</placeName> ب<placeName ref="الموسكى">الموسكي</placeName> والشروط التي سيكون البيع علي
+                              من الساعة ١٠ للساعة ١٢ افرنجي ب<placeName type="قهوة"
+                                    ref="قهوة-البورصة">قهوة البورصة</placeName> ب<placeName
+                                    ref="الموسكى">الموسكي</placeName> والشروط التي سيكون البيع علي
                               موجبها وعلم التتمين وحجة التمليك موجودين بالقونصلاتو للاطلاع عليهم
                               تحريرا فى ٣٠ ماجيو سنة ١٨٦٧.</p>
                         <p><persName role="كنشلير">الكنشلير دينزو</persName></p>
@@ -242,26 +264,34 @@
                                     <cell>٩٢ و ٢٩٣</cell>
                                     <cell>قطعة أرض باقية من المحل المتقدم تعرف بنمرة ٢ حدها القبلي
                                                 لل<placeName type="شارع" ref="الشارع-المستجد">شارع
-                                                المستجد</placeName> الفاصل بينها وبين <orgName type="ديوان" ref="ديوان-الخارجية">ديوان
-                                                الخارجية</orgName> يبلغ طوله ٢٠ مترا و٨٠ سانتي
-                                          والبحري للمدرسة السابقة ويبلغ طوله ٢٠ مترًا و٢٠ سانتي
-                                          والشرقي لحوش هذه المدرسة ويبلغ طوله ثمانية أمتار والغربي
-                                          للشارع الفاصل بينها وبين الجنينة المذكورة وطوله كالذي قبله
-                                          ومساحتها بالمتر ٤٣ و١٦٥ وبالذراع المعماري ٢٩٣ و٩٢ من مائه
-                                          من الذراع</cell>
+                                                المستجد</placeName> الفاصل بينها وبين <placeName
+                                                ref="ديوان الخارجية" type="ديوان"><orgName
+                                                  type="ديوان" ref="ديوان-الخارجية">ديوان
+                                                  الخارجية</orgName></placeName> يبلغ طوله ٢٠ مترا
+                                          و٨٠ سانتي والبحري للمدرسة السابقة ويبلغ طوله ٢٠ مترًا و٢٠
+                                          سانتي والشرقي لحوش هذه المدرسة ويبلغ طوله ثمانية أمتار
+                                          والغربي للشارع الفاصل بينها وبين الجنينة المذكورة وطوله
+                                          كالذي قبله ومساحتها بالمتر ٤٣ و١٦٥ وبالذراع المعماري ٢٩٣
+                                          و٩٢ من مائه من الذراع</cell>
                               </row>
                               <row>
                                     <cell>٩٦ و١٥٠</cell>
-                                    <cell>قطعة أرض باقية من <orgName ref="محل-المحافظة-القديم">محل
-                                                المحافظة القديم</orgName> بجوار <orgName ref="ديوان-الخارجية" type="ديوان">ديوان
+                                    <cell>قطعة أرض باقية من <placeName ref="محل المحافظة القديم"
+                                                  ><orgName ref="محل-المحافظة-القديم">محل المحافظة
+                                                  القديم</orgName></placeName> بجوار <orgName
+                                                ref="ديوان-الخارجية" type="ديوان">ديوان
                                                 الخارجية</orgName> تعرف بنمرة ٤ حدّها القبلي
                                                 ل<placeName type="شارع" ref="شارع-الاسماعيلية">شارع
                                                 الاسماعيلية</placeName> الفاصل بينها بين هذا الديوان
-                                          ويبلغ طوله ١٦ مترا و٧٥ سانتي والبحري ل<orgName type="ديوان" ref="ديوان-الصحة">ديوان الصحة</orgName>
-                                          طوله كالذي قبله والشرقي ل<placeName type="شارع" ref="شارع-الضبطية">شارع الضبطية</placeName> وطوله ٥
-                                          أمتار و٧٠ سانتي والغربي لبعض المدرسة السابقة وطوله أربعة
-                                          أمتار ونصف ومساحتها بالمتر ٨٤ و٩١ سانتي وبالذراع المعماري
-                                          ١٥٠ و٩٦ من مائة من الذراع</cell>
+                                          ويبلغ طوله ١٦ مترا و٧٥ سانتي والبحري ل<placeName
+                                                ref="ديوان الصحة"><orgName type="ديوان"
+                                                  ref="ديوان-الصحة">ديوان
+                                                الصحة</orgName></placeName> طوله كالذي قبله والشرقي
+                                                ل<placeName type="شارع" ref="شارع-الضبطية">شارع
+                                                الضبطية</placeName> وطوله ٥ أمتار و٧٠ سانتي والغربي
+                                          لبعض المدرسة السابقة وطوله أربعة أمتار ونصف ومساحتها
+                                          بالمتر ٨٤ و٩١ سانتي وبالذراع المعماري ١٥٠ و٩٦ من مائة من
+                                          الذراع</cell>
                               </row>
                         </table>
                         <p>هذه القطع الثلاث من جملة املاك الميري المستغني عنها ولاجل الأنتفاع بها
@@ -289,12 +319,16 @@
                               <bibl><biblScope unit="issue">نمرة ١٢٣</biblScope>
                                     <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
                         <head><title>اعلان</title></head>
-                        <p>مضمون <rs type="افادة">افادة</rs> واردة من الضبطية في ثالث عشر الشهر
-                              الحال ان الأماكن والمزروعات التي بضواحي <placeName ref="شبرا-الخيمة">شبرا الخيمة</placeName> الجارية في ملك <persName>محمد بيك أمين
-                                    نجل <persName role="مدير الدقهلية">المرحوم خورشيد باشا مدير
-                                                <placeName ref="الدقهلية">الدقهلية</placeName>
+                        <p>مضمون <rs type="افادة">افادة</rs> واردة من <orgName ref="ضبطية"
+                                    >الضبطية</orgName> في ثالث عشر الشهر الحال ان الأماكن والمزروعات
+                              التي بضواحي <placeName ref="شبرا-الخيمة">شبرا الخيمة</placeName>
+                              الجارية في ملك <persName>محمد بيك أمين نجل <persName
+                                          role="مدير الدقهلية">المرحوم خورشيد باشا مدير <placeName
+                                                ref="الدقهلية">الدقهلية</placeName>
                                           سابقًا</persName></persName> معرضة للمبيع والمزايدة في
-                              مساومتها بمقتضى قائمة مزاد بختم البيك المومي اليه بطرف <orgName ref="الخواجه انطوان شراباتي السمسار وشركاه"><persName role="سمسار">الخواجه انطوان شراباتي السمسار</persName>
+                              مساومتها بمقتضى قائمة مزاد بختم البيك المومي اليه بطرف <orgName
+                                    ref="الخواجه انطوان شراباتي السمسار وشركاه"><persName
+                                          role="سمسار">الخواجه انطوان شراباتي السمسار</persName>
                                     وشركاه</orgName> وهي بهذا البيان.<table rows="7" cols="2">
                                     <row>
                                           <cell>عدد</cell>
@@ -302,12 +336,14 @@
                                     </row>
                                     <row>
                                           <cell>١</cell>
-                                          <cell><placeName type="منزل" ref="منزل-محمد-بيك-أمين">منزل</placeName>
+                                          <cell><placeName type="منزل" ref="منزل-محمد-بيك-أمين"
+                                                  >منزل</placeName>
                                                 <persName>كامل <choice>
                                                   <sic>لبنا</sic>
                                                   <corr>البنا</corr>
                                                   </choice></persName> مستوفي المنافع بانمله من
-                                                الجهة الغربية ثمانية دكاكين مسكونة ب<placeName type="جهة" ref="جهة-شبرا">جهة
+                                                الجهة الغربية ثمانية دكاكين مسكونة ب<placeName
+                                                  type="جهة" ref="جهة-شبرا">جهة
                                                 شبرا</placeName></cell>
                                     </row>
                                     <row>
@@ -337,8 +373,9 @@
                               </table>وحيث بلغت المزايدة في تلك الأماكن والمزروعات إلى ألف ومائتين
                               من الجنيه الأنكليزي وربما يوجد من يرغب في الأخذ بالزيادة فقد حدّد لذلك
                               ثلاثة شهور ابتداؤها ١٣ ربيع الأول سنة ١٢٨٤ ولزم اعلان ذلك بالوقائع
-                              ليتوجه كل من له رغبة في الزيادة إلي دكان السمسار لمذكور بالسكة الجديدة
-                              تجاه <placeName ref="وكالة قاسم كتخدا" type="وكالة">وكالة قاسم
+                              ليتوجه كل من له رغبة في الزيادة إلي دكان السمسار لمذكور ب<placeName
+                                    ref="السكة الجديدة" type="سكة">السكة الجديدة</placeName> تجاه
+                                    <placeName ref="وكالة قاسم كتخدا" type="وكالة">وكالة قاسم
                                     كتخدا</placeName> ويضع اسمه مع مقدار ما يعطيه من الزيادة
                               بالقائمة المذكورة.</p>
                   </div>
@@ -372,30 +409,41 @@
                         <head><title>اعلان</title></head>
                         <p>عن <rs type="بيان">بيان</rs> الأماكن الوقف الخربة التي اقتضت المصلحة بيع
                               انقاضها وتأجير أرضها للراغبين والأذن بأحداث الخلو فيها على سبيل البقاء
-                              بوجه القرار حسب الإفادة الواردة من <orgName type="ديوان" ref="ديوان-عموم-الأوقاف">ديوان عموم الأوقاف</orgName> في ٢٠ ربيع
+                              بوجه القرار حسب الإفادة الواردة من <orgName type="ديوان"
+                                    ref="ديوان-عموم-الأوقاف">ديوان عموم الأوقاف</orgName> في ٢٠ ربيع
                                     الأول<table rows="8" cols="3">
                                     <row role="label">
-                                          <cell>عدد مسطح</cell>
+                                          <cell>عدد </cell>
                                           <cell/>
-                                          <cell> ذراع</cell>
+                                          <cell> ذراع مسطح </cell>
                                     </row>
                                     <row>
                                           <cell>١</cell>
-                                          <cell><placeName type="خربة" ref="خربة-فى-وقف-الامامين-وسيدنا-الحسين">خربة</placeName> ب<placeName type="منطقة" ref="منطقة-عبد-الله-بيك">منطقة <persName>عبد الله
-                                                  بيك</persName></placeName> ب<placeName ref="السروجية">السروجية</placeName> في <orgName type="وقف" ref="وقف-الامامين-وسيدنا-الحسين">وقف
+                                          <cell><placeName type="خربة"
+                                                  ref="خربة-فى-وقف-الامامين-وسيدنا-الحسين"
+                                                  >خربة</placeName> ب<placeName type="منطقة"
+                                                  ref="منطقة-عبد-الله-بيك">منطقة <persName>عبد الله
+                                                  بيك</persName></placeName> ب<placeName
+                                                  ref="السروجية">السروجية</placeName> في <orgName
+                                                  type="وقف" ref="وقف-الامامين-وسيدنا-الحسين">وقف
                                                   الامامين و<persName>سيدنا
                                                   الحسين</persName></orgName></cell>
                                           <cell>٦٦</cell>
                                     </row>
                                     <row>
                                           <cell>١</cell>
-                                          <cell><placeName ref="خربة-وقف-سيدنا-الحسين" type="خربة">خربة</placeName> ب<placeName ref="حوش-قدم" type="حوش">حوش قدم</placeName> في <orgName ref="وقف-سيدنا-الحسين" type="وقف">وقف سيدنا
+                                          <cell><placeName ref="خربة-وقف-سيدنا-الحسين" type="خربة"
+                                                  >خربة</placeName> ب<placeName ref="حوش-قدم"
+                                                  type="حوش">حوش قدم</placeName> في <orgName
+                                                  ref="وقف-سيدنا-الحسين" type="وقف">وقف سيدنا
                                                   الحسين</orgName></cell>
                                           <cell>٤٤١</cell>
                                     </row>
                                     <row>
                                           <cell>١</cell>
-                                          <cell><placeName ref="خربة-فى-وقف-الامامين" type="خربة">خربة</placeName> في <placeName type="حارة" ref="حارة-الحمزية">حارة الحمزية</placeName>
+                                          <cell><placeName ref="خربة-فى-وقف-الامامين" type="خربة"
+                                                  >خربة</placeName> في <placeName type="حارة"
+                                                  ref="حارة-الحمزية">حارة الحمزية</placeName>
                                                   ب<placeName ref="الداودية">الداودية</placeName> في
                                                   <orgName ref="وقف-الامامين" type="وقف">وقف
                                                   الأمامين</orgName></cell>
@@ -403,14 +451,18 @@
                                     </row>
                                     <row>
                                           <cell>١</cell>
-                                          <cell><placeName ref="خربة-وقف-سيدى-عقبة" type="خربة">خربة</placeName> في <placeName type="زقاق" ref="زقاق-الشعرانى">زقاق الشعراني</placeName> في
+                                          <cell><placeName ref="خربة-وقف-سيدى-عقبة" type="خربة"
+                                                  >خربة</placeName> في <placeName type="زقاق"
+                                                  ref="زقاق-الشعرانى">زقاق الشعراني</placeName> في
                                                   <orgName type="وقف" ref="وقف-سيدي-عقبة">وقف
                                                   <persName>سيدي عقبة</persName></orgName></cell>
                                           <cell>٥٨٠</cell>
                                     </row>
                                     <row>
                                           <cell>١</cell>
-                                          <cell><placeName type="خربة" ref="خربة-وقف-سيدنا-الحسين">خربة</placeName> في <placeName type="درب" ref="درب-الشيخ-مسعود">درب الشيخ مسعود</placeName>
+                                          <cell><placeName type="خربة" ref="خربة-وقف-سيدنا-الحسين"
+                                                  >خربة</placeName> في <placeName type="درب"
+                                                  ref="درب-الشيخ-مسعود">درب الشيخ مسعود</placeName>
                                                   ب<placeName ref="بولاق">بولاق</placeName> من
                                                   <orgName type="وقف" ref="وقف-سيدنا-الحسين">وقف
                                                   سيدنا الحسين</orgName></cell>
@@ -418,9 +470,12 @@
                                     </row>
                                     <row>
                                           <cell>١</cell>
-                                          <cell><placeName ref="خربة-وقف-الامامين" type="خربة">خربة</placeName> في <placeName type="عطفة" ref="عطفة-القرافة">عطفة القرافة</placeName>
+                                          <cell><placeName ref="خربة-وقف-الامامين" type="خربة"
+                                                  >خربة</placeName> في <placeName type="عطفة"
+                                                  ref="عطفة-القرافة">عطفة القرافة</placeName>
                                                   ب<placeName type="جهة" ref="جهة-قصر-الشوك">جهة قصر
-                                                  الشوك</placeName> من <orgName type="وقف" ref="وقف-الامامين">وقف الأمامين</orgName></cell>
+                                                  الشوك</placeName> من <orgName type="وقف"
+                                                  ref="وقف-الامامين">وقف الأمامين</orgName></cell>
                                           <cell>٣٣٠</cell>
                                     </row>
                                     <row>
@@ -518,9 +573,14 @@
                                     ١٢٨٤</date>
                               <date when="1867-08-22">٢٢ أغسطس ١٨٦٧</date>
                               <bibl><biblScope unit="issue">نمرة ١٣٢</biblScope><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
-                        <p>وعلم من أخبار الضبطية أيضّا أنه في الساعة السابعة من ليلة الأثنين الماضي
-                              ظهر <rs type="حريق">حريق</rs> في حاصل من <placeName ref="منزل-جرجس-قدسى" type="منزل">منزل</placeName> لشخص اسمه
-                                    <persName>جرجس قدسي</persName> ب<placeName type="درب" ref="درب-حيدر">درب حيدر</placeName> من <orgName type="ثمن" ref="ثمن-عابدين">ثمن عابدين</orgName> وبما أبدته ال<orgName type="ضبطية">ضبطية</orgName> من الهمة في ارسال الطلومبات وما
+                        <p>وعلم من أخبار <orgName ref="الضبطية">الضبطية</orgName> أيضّا أنه في
+                              الساعة السابعة من ليلة الأثنين الماضي ظهر <rs type="حريق">حريق</rs> في
+                              حاصل من <placeName ref="منزل-جرجس-قدسى" type="منزل">منزل</placeName>
+                              لشخص اسمه <persName>جرجس قدسي</persName> ب<placeName type="درب"
+                                    ref="درب-حيدر">درب حيدر</placeName> من <placeName
+                                    ref="ثمن عابدين"><orgName type="ثمن" ref="ثمن-عابدين">ثمن
+                                          عابدين</orgName></placeName> وبما أبدته ال<orgName
+                                    type="ضبطية">ضبطية</orgName> من الهمة في ارسال الطلومبات وما
                               يلزم لها من المهمات والأدوات تيسر اطفاؤه في ربع الساعة ولم يحترق به
                               سوى ما كان في الحاصل المذكور من بعض أخشاب وقش.</p>
                   </div>
@@ -601,7 +661,8 @@
                               </choice> شرعا استبدال ذلك المنزل وأحداث الخلو في تلك الحصة وحرر بذلك
                               خمسة وثلاثون اعلانا أرسلت إلى ال<orgName type="ضبطية">ضبطية</orgName>
                               لتوضع على ال<orgName type="قره-قولات">قره قولات</orgName> وكتب إلى
-                              معاون الأوقاف باشهار ذلك في المزايدة حتى يكون معلوما للخاص والعام.</p>
+                              معاون <orgName ref="الأوقاف">الأوقاف</orgName> باشهار ذلك في المزايدة
+                              حتى يكون معلوما للخاص والعام.</p>
                   </div>
          <div resp="#eSG" xml:id="w18">
                         <head><date when-custom="1284-05-20">٢٠ جمادي الأولى ١٢٨٤</date>
@@ -653,8 +714,10 @@
                               <bibl><biblScope unit="issue">نمرة ١٤١</biblScope>
                                     <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
                         <p>يستفاد من أشعار ال<orgName type="ضبطية">ضبطية</orgName> انه في الساعة
-                              الثانية من ليلة الأربعاء ثالث عشر هذا الشهر ظهر <rs type="حريق">حريق</rs> بعشة من الخشب والبوص ب<placeName ref="الرميلة">الرميلة</placeName> تجاه عدة دكاكين وقهاوي فاسعفت من الضبطية
-                              بالطلومبة و<choice>
+                              الثانية من ليلة الأربعاء ثالث عشر هذا الشهر ظهر <rs type="حريق"
+                                    >حريق</rs> ب<placeName ref="عشة بالرميلة">عشة</placeName> من
+                              الخشب والبوص ب<placeName ref="الرميلة">الرميلة</placeName> تجاه عدة
+                              دكاكين وقهاوي فاسعفت من الضبطية بالطلومبة و<choice>
                                     <sic>من لزم</sic>
                                     <corr>ما يلزم</corr>
                               </choice> واطفئت بدون سراية ولا تلف شئ سواها.</p>
@@ -695,9 +758,13 @@
                               <date when="1867-10-17">١٧ اوقتوبر ١٨٦٧</date>
                               <bibl><biblScope unit="issue">نمرة ١٤٨</biblScope>
                                     <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
-                        <p>علم من <rs type="اشعار">اشعار</rs> وارد من ال<orgName type="ضبطية">ضبطية</orgName> انه سقط سقف عشة ب<placeName type="جزيرة" ref="جزيرة-بدران">جزيرة بدران</placeName> ليلا فأرسل رجال من
-                              الضبطية فأخرجوا من تحته امرأتين ميتتين ورجلين وصبيا على قيد الحياة الا
-                              ان الصبي أصيبت احدى رجليه بجراحة فأرسل الى ال<orgName type="اسبيتالية">اسبتالية</orgName> للمعالجة ودفنت المرأتان بعد كشف الحكيم وها
+                        <p>علم من <rs type="اشعار">اشعار</rs> وارد من ال<orgName type="ضبطية"
+                                    >ضبطية</orgName> انه سقط سقف <placeName ref="عشة بجزيرة بدران"
+                                    >عشة ب<placeName type="جزيرة" ref="جزيرة-بدران">جزيرة
+                                          بدران</placeName></placeName> ليلا فأرسل رجال من الضبطية
+                              فأخرجوا من تحته امرأتين ميتتين ورجلين وصبيا على قيد الحياة الا ان
+                              الصبي أصيبت احدى رجليه بجراحة فأرسل الى ال<orgName type="اسبيتالية"
+                                    >اسبتالية</orgName> للمعالجة ودفنت المرأتان بعد كشف الحكيم وها
                               هو جار تحقيق القضية ب<orgName type="ديوان" ref="ديوان-الضبطية">ديوان
                                     الضبطية</orgName>.</p>
                   </div>
@@ -760,47 +827,63 @@
                         <head><title>اعلانات</title></head>
                         <head><title>اعلان وارد من <orgName ref="محافظة مصر">محافظة
                                     مصر</orgName></title></head>
-                        <p>صورة كشف مقدم من <persName>السيد محمد مصطفى الجندي</persName> ب<rs type="بيان-املاك">بيان أملاك</rs>
-                        </p>
-                        <p>حضرات ورثة <persName>المرحوم محمود بك</persName> المعرضة للبيع<table rows="6" cols="2">
+                        <p>صورة كشف مقدم من <persName>السيد محمد مصطفى الجندي</persName> ب<rs
+                                    type="بيان-املاك">بيان أملاك</rs> حضرات ورثة <persName>المرحوم
+                                    محمود بك</persName> المعرضة للبيع</p>
+                        <p>
+                              <table rows="6" cols="2">
                                     <row>
                                           <cell>عدد</cell>
                                           <cell/>
                                     </row>
                                     <row>
                                           <cell>١</cell>
-                                          <cell>قائمة وكالة ب<placeName ref="الجماليه">الجماليه</placeName> شهيرة ب<orgName type="وكالة" ref="وكالة-ابي-شنب">وكالة ابي شنب</orgName> بالربع
+                                          <cell>قائمة وكالة ب<placeName ref="الجماليه"
+                                                  >الجماليه</placeName> شهيرة ب<orgName type="وكالة"
+                                                  ref="وكالة-ابي-شنب">وكالة ابي شنب</orgName> بالربع
                                                 الذي فوقها وثمانية دكاكين بواجهتها واجرتها السنوية
                                                 مأتا جنيه مصري وعليها حكر سنوي خمسة وأربعون غرشا فتح
                                                 بابها بمبلغ الفى جنيه مصرى</cell>
                                     </row>
                                     <row>
                                           <cell>١</cell>
-                                          <cell>قائمة بمنزل كائن ب<placeName type="درب" ref="درب-قرمز">درب قرمز</placeName> ب<placeName ref="الجمالية">الجمالية</placeName> لم يؤاجره
+                                          <cell>قائمة بمنزل كائن ب<placeName type="درب"
+                                                  ref="درب-قرمز">درب قرمز</placeName> ب<placeName
+                                                  ref="الجمالية">الجمالية</placeName> لم يؤاجره
                                                 المالكون ولا حكر عليه.</cell>
                                     </row>
                                     <row>
                                           <cell>١</cell>
-                                          <cell>قائمة بمنزل ب<placeName type="جهة" ref="جهة-الشيخ-نور-الظلام">جهة الشيخ نور
-                                                  الظلام</placeName> ب<placeName ref="الحلمية">الحلمية</placeName> ب<placeName type="عطفة-الرزاز">عطفة الرزاز</placeName> أجرته
+                                          <cell>قائمة بمنزل ب<placeName type="جهة"
+                                                  ref="جهة-الشيخ-نور-الظلام">جهة الشيخ نور
+                                                  الظلام</placeName> ب<placeName ref="الحلمية"
+                                                  >الحلمية</placeName> ب<placeName
+                                                  type="عطفة-الرزاز">عطفة الرزاز</placeName> أجرته
                                                 الشهرية مأتان وسبعون قرشا ميريه ولا حكر عليه</cell>
                                     </row>
                                     <row>
                                           <cell>١</cell>
                                           <cell>قائمة خمسة أماكن علوية وخمسة اوط بأسفلها وخمسة حواصل
-                                                أرضية ب<orgName ref="وكالة-الركن" type="وكالة">وكالة
-                                                  الركن</orgName> بالجمالية الشهيرة ب<orgName type="وكالة" ref="وكالة-الحمير">وكالة
-                                                  الحمير</orgName> أجرتها الشهرية مأتان وستون قرشا
-                                                ميريه وعليها حكر سنوى عشرون غرشا ديوانيا</cell>
+                                                أرضية ب<placeName ref="وكالة الركن" type="وكالة"
+                                                  ><orgName ref="وكالة-الركن" type="وكالة">وكالة
+                                                  الركن</orgName></placeName> بالجمالية الشهيرة
+                                                  ب<placeName ref="وكالة الحمير" type="وكالة"
+                                                  ><orgName type="وكالة" ref="وكالة-الحمير">وكالة
+                                                  الحمير</orgName></placeName> أجرتها الشهرية مأتان
+                                                وستون قرشا ميريه وعليها حكر سنوى عشرون غرشا
+                                                ديوانيا</cell>
                                     </row>
                                     <row>
                                           <cell>١</cell>
-                                          <cell>قائمة بمنزل ب<placeName ref="العلوه">العلوه</placeName> ب<placeName type="درب" ref="درب-اللبانه">درب اللبانه</placeName> وخربة
-                                                بجواره ب<orgName ref="ثمن-الدرب-الأحمر" type="ثمن"><placeName ref="ثمن-الدرب-الأحمر" type="ثمن">ثمن
+                                          <cell>قائمة بمنزل بالعلوه ب<placeName type="درب"
+                                                  ref="درب-اللبانه">درب اللبانه</placeName> وخربة
+                                                بجواره ب<orgName ref="ثمن-الدرب-الأحمر" type="ثمن"
+                                                  ><placeName ref="ثمن-الدرب-الأحمر" type="ثمن">ثمن
                                                   الدرب الأحمر</placeName></orgName> أجرتهما في كل
                                                 شهر مأته قرش وعشرة قروش ميرية وليس عليهما حكر</cell>
                                     </row>
-                              </table></p>
+                              </table>
+                        </p>
                         <p>أماكن ببولاق<table rows="2" cols="2">
                                     <row role="label">
                                           <cell>عدد</cell>
@@ -884,9 +967,13 @@
                                     <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
                         <head><title>اعلان من <orgName ref="محافظة مصر">محافظة
                               مصر</orgName></title></head>
-                        <p>حيث انه موجود قطع أراضى تعلق <orgName type="الميرى">الميرى</orgName>
-                              متخلفة من الطريق الذي صار تنفيذه من أمام محل <placeName ref="ديوان الخارجية القديم"><orgName type="ديوان" ref="ديوان-الخارجية-القديم">ديوان الخارجية
-                                          القديم</orgName></placeName> لل<placeName ref="موسكى">موسكي</placeName> وغيره ومن محل <orgName type="ديوان" ref="ديوان-الجناين">ديوان الجناين</orgName> ب<placeName ref="الازبكية">الأزبكية</placeName> ولعدم لزومها قد تحرر بها
+                        <p>حيث انه موجود قطع أراضى تعلق الميرى متخلفة من الطريق الذي صار تنفيذه من
+                              أمام محل <placeName ref="ديوان الخارجية القديم"><orgName type="ديوان"
+                                          ref="ديوان-الخارجية-القديم">ديوان الخارجية
+                                          القديم</orgName></placeName> لل<placeName ref="موسكى"
+                                    >موسكي</placeName> وغيره ومن محل <orgName type="ديوان"
+                                    ref="ديوان-الجناين">ديوان الجناين</orgName> ب<placeName
+                                    ref="الازبكية">الأزبكية</placeName> ولعدم لزومها قد تحرر بها
                               خمسة قوائم مزاد وأعطيت إلى <persName role="وكيل دلالين العقارات">السيد
                                     محمد مصطفي الجنيدى وكيل دلالين العقارات</persName> لاشهارها لمن
                               يرغب الشراء وتوضح المقاس أعلاه واقتضي الاعلان بها فكل من يكون له رغبة
@@ -1027,7 +1114,7 @@
                                           وقصبه</cell>
                               </row>
                               <row>
-                                    <cell/>
+                                    <cell>١</cell>
                                     <cell/>
                                     <cell> الباقي من المنزل والجنينة المأخوذين من <persName>حضرة
                                                 رفاعي بك</persName> من بعد المأخوذ منها ل<placeName type="جسر" ref="جسر-الترعة-الاسماعيلية">جسر
