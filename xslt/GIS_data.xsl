@@ -23,7 +23,7 @@
               du Caire moderne, 2018-2021" (IFAO-InVisu-Duke University).</p>
             <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
             <p>"Digital Cairo" sub-project, supported by NEH.</p>
-            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>, <persName>Hugh Cayless</persName>
+            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>, <persName>Hugh Cayless</persName></p>
           </publicationStmt>
           <sourceDesc>
             <p>Data gathered by Ghislaine Alleaume.</p>

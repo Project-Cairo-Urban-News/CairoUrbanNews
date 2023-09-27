@@ -75,7 +75,7 @@
     
     <xsl:function name="fn:convert">
         <xsl:param name="num"/>
-        <xsl:sequence select="replace(translate($num,'١٢٣٤٥٦٧٨٩٠','1234567890'),'\D','')"/>
+        <xsl:sequence select="replace(translate($num,'١٢٣٤٥٦٧٨٩٠۱۲۳۴۵۶۷۸۹۰','12345678901234567890'),'\D','')"/>
     </xsl:function>
     
 </xsl:stylesheet>
