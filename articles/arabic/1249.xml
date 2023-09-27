@@ -17,8 +17,9 @@
         <editor xml:id="eHL">Hiba Laabadli</editor>
         <editor xml:id="eOE">Othmane Echchabi</editor>
         <editor xml:id="eFA">Fatemah Almahana</editor>
+        <editor xml:id="eMZ">Mahmoud Zaki</editor>
         <respStmt>
-          <resp>Advisor</resp>
+          <resp>Project leader</resp>
           <name>Hugh Cayless</name>
         </respStmt>
         <respStmt>
@@ -65,19 +66,37 @@
           <resp>Research Assistant</resp>
           <name>Abdulrahman El-Taliawi</name>
         </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hiba Laabadli</name> 
+        </respStmt>
+     <respStmt>
+       <resp>Research Assistant</resp>
+       <name>Othmane Echchabi</name>
+     </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Fatemah Almahana</name> 
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Mahmoud Zaki</name> 
+        </respStmt>
         <sponsor>
+          <orgName>National Endowment for the Humanities</orgName>,
+          and
           <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
             <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
             Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>.
+            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName> 
         </sponsor>
       </titleStmt>
       <publicationStmt>
         <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
           du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
         <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
-            Volait</persName></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>, <persName>Hugh Cayless</persName></p>
       </publicationStmt>
       <sourceDesc>
         <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
@@ -88,19 +107,18 @@
       <projectDesc>
         <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
       </projectDesc>
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
         <p>We use the Arabic script but transliteration into Latin characters follows the Library of
-          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
         <p>Each individual article has an individual xml:id number starting with "w1"</p>
-        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
-          and notes.</p>
-        <p>If the location or organization of responsibility is known from the text, it can be added
-          in an attribute to a persName.</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
         <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
         <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
-            Editions</ref>.</p>
+          Editions</ref>.</p>
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
@@ -111,16 +129,16 @@
         <language ident="ota">Ottoman</language>
       </langUsage>
     </profileDesc>
-    <revisionDesc status="cleared">
+    <revisionDesc>
       <listChange>
-        <change status="cleared" resp="#eAM" when="2023-06-11"/>
+        <change resp="#eAM" when="2023-06-11"/>
       </listChange>
     </revisionDesc>
   </teiHeader>
   
   <text xml:lang="ar">
       <body>
-         <div xml:id="W1249053301" resp="#eSG #eAM" part="N" org="uniform" sample="complete">
+         <div xml:id="W1249053301" resp="#eSG #eAM">
             <head><date when-custom="1249-02-21">٢١ صفر ١٢٤٩</date><date when="1833-07-10">١٠ يوليو
             ١٨٣٣</date>
           <bibl><biblScope unit="issue">نمره ٥٣٣</biblScope>
@@ -139,7 +157,7 @@
           ديوان الترسانة ويحرر <rs type="امر">امر</rs> من <orgName type="ديوان" ref="الديوان_الخديوى">الديوان الخديوى</orgName> الى شرمى افندى المومى اليه والى <orgName type="خزينة" ref="الخزينة_العامرة">الخزينة العامرة</orgName> بخصوص ذلك كما استقر الرأى
           عليه فى مجلس المشورة.</p>
          </div>
-         <div xml:id="W1249053402" resp="#eSG #eAM" part="N" org="uniform" sample="complete">
+         <div xml:id="W1249053402" resp="#eSG #eAM">
             <head><date when-custom="1249-02-23">٢٣ صفر الخير ١٢٤٩</date><date when="1833-07-12">١٢
                   يوليو ١٨٣٣</date>
                <bibl><biblScope unit="issue">نمره ٥٣٤</biblScope><biblScope unit="page">صفحة
@@ -198,7 +216,7 @@
           المعلوم المقدار و<persName role="ناظر الدرسخانه"><sic>عر</sic> الافندى ناظر
             الدرسخانه</persName> ارسال الافندى المعاون.</p>
          </div>
-         <div xml:id="W1249053503" resp="#eSG #eAM" part="N" org="uniform" sample="complete">
+         <div xml:id="W1249053503" resp="#eSG #eAM">
             <head><date when-custom="1249-02-26">٢٦ صفر الخير ١٢٤٩</date><date when="1833-07-15">١٥
             يوليو ١٨٣٣</date>
           <bibl><biblScope unit="issue">نمره ٥٣٥</biblScope><biblScope unit="page">صفحة
@@ -214,7 +232,7 @@
           ادهم بيك ووكيل الافندى ناظر الابنية وقاسم افندى وان يعرف اهل المشورة العسكرية بمقدار ما
           يتم به تعميره من المصاريف ليجرى الامر على مقتضاه بالمذاكره حرر <rs type="اشعار">اشعارا</rs> لى حضرة ادهم بيك ووكيل ناظر الابنية بايقاع الحركة على موجب ذلك.</p>
          </div>
-         <div xml:id="W1249053504" resp="#eSG #eAM" part="N" org="uniform" sample="complete">
+         <div xml:id="W1249053504" resp="#eSG #eAM">
             <head><date when-custom="1249-02-26">٢٦ صفر الخير ١٢٤٩</date><date when="1833-07-15">١٥
             يوليو ١٨٣٣</date>
           <bibl><biblScope unit="issue">نمره ٥٣٥</biblScope><biblScope unit="page">صفحة
@@ -229,7 +247,7 @@
           ذلك حرر <rs type="اشعار">اشعارا</rs> لى الافندى ناظر الابنية الميرية بان يكشف عن مقدار ما
           يتم به ذلك ويقدم شورته للمشورة العسكرية.</p>
          </div>
-         <div xml:id="W1249053505" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1249053505" resp="#eSG">
             <head><date when-custom="1249-02-26">٢٦ صفر الخير ١٢٤٩</date><date when="1833-07-15">١٥
             يوليو ١٨٣٣</date>
           <bibl><biblScope unit="issue">نمره ٥٣٥</biblScope><biblScope unit="page">صفحة
@@ -238,7 +256,7 @@
           بالجير وان يبنى فيها حوضان لغسل الثياب حرر <rs type="اشعار">اشعارا</rs> ل<persName role="ناظر الابنية الميرية">امين افندى ناظر الابنية الميرية</persName> بأن يبنى فيها
           الحوضين لغسل الثياب ويبيضها بالجير.</p>
          </div>
-         <div xml:id="W1249053706" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1249053706" resp="#eSG">
             <head><date when-custom="1249-03-03">٣ شهر ربيع الاول ١٢٤٩</date><date when="1833-07-21">٢١ يوليو ١٨٣٣</date><bibl><biblScope unit="issue">نمره ٥٣٧</biblScope><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
             <head>حوادث <orgName ref="المشورة_الملكية">المشورة الملكية</orgName></head>
             <p><persName role="ناظر الجير والجص">محمد اغا ناظر الجير والجص</persName> انهى فى <rs type="رسالة">رسالة</rs> ارسالها الى حضرة الافندى ناظر المشورة الملكية انه وردت عليه <rs type="خلاصة">خلاصة</rs> باحضار خمسمائة الف وتسعة وستمائة وستة وثمانين قنطارا من حجر
@@ -259,7 +277,7 @@
           واشعر الناظر المومى اليه بانه عند تمام ارسال الحجر المعلوم المقدار الى المحلين المذكورين
           يعيد القواسين المرقومين الى الديوان ويسعى فى الاشغال بوقتها وزمانها.</p>
          </div>
-         <div xml:id="W1249054007" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1249054007" resp="#eSG">
             <head><date when-custom="1249-03-15">١٥ شهر ربيع الاول ١٢٤٩</date><date when="1833-08-02">٢ أغسطس ١٨٣٣</date>
           <bibl><biblScope unit="issue">نمره ٥٤٠</biblScope><biblScope unit="page">صفحة
               ٣</biblScope></bibl></head>
@@ -273,7 +291,7 @@
           الـتأخير حرر اليه <rs type="اشعار">اشعار</rs> بان يبادر الى اتمام المحل المذكور على موجب
           الكشف ويقدم دفتر مفرداته لديوان الجهادية.</p>
          </div>
-         <div xml:id="W1249054508" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1249054508" resp="#eSG">
             <head><date when-custom="1249-03-23">٢٣ ربيع الاول ١٢٤٩</date><date when="1833-08-10">١٠
             أغسطس ١٨٣٣</date>
           <bibl><biblScope unit="issue">نمره ٥٤٥</biblScope><biblScope unit="page">صفحة

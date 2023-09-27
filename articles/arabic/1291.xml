@@ -17,8 +17,9 @@
         <editor xml:id="eHL">Hiba Laabadli</editor>
         <editor xml:id="eOE">Othmane Echchabi</editor>
         <editor xml:id="eFA">Fatemah Almahana</editor>
+        <editor xml:id="eMZ">Mahmoud Zaki</editor>
         <respStmt>
-          <resp>Advisor</resp>
+          <resp>Project leader</resp>
           <name>Hugh Cayless</name>
         </respStmt>
         <respStmt>
@@ -65,18 +66,37 @@
           <resp>Research Assistant</resp>
           <name>Abdulrahman El-Taliawi</name>
         </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hiba Laabadli</name> 
+        </respStmt>
+     <respStmt>
+       <resp>Research Assistant</resp>
+       <name>Othmane Echchabi</name>
+     </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Fatemah Almahana</name> 
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Mahmoud Zaki</name> 
+        </respStmt>
         <sponsor>
+          <orgName>National Endowment for the Humanities</orgName>,
+          and
           <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
             <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
             Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>.
+            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName> 
         </sponsor>
       </titleStmt>
       <publicationStmt>
         <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
           du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
         <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>, <persName>Hugh Cayless</persName></p>
       </publicationStmt>
       <sourceDesc>
         <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
@@ -87,6 +107,7 @@
       <projectDesc>
         <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
       </projectDesc>
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
@@ -123,9 +144,8 @@
           <bibl><biblScope unit="issue">نمرة ٥٤٦</biblScope>
             <biblScope unit="page">صفحة ٥</biblScope></bibl></head>
         <?oxy_comment_start author="Sarah" timestamp="20230906T193444+0200" comment="check if there is any issues after this date in the copy of Dar al-Kutub for year 1874  and 1291 "?>
-        <head><?oxy_comment_end?>صورة اعلان وارد من حضرة وكيل <orgName type="ديوان" ref="ديوان-اوقاف">ديوان<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-            أوقاف<?oxy_custom_end?></orgName> بتاريخ ٤ محرم سنة
-          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>٩<?oxy_custom_end?></head>
+        <head><?oxy_comment_end?>صورة اعلان وارد من حضرة وكيل <orgName type="ديوان" ref="ديوان-اوقاف">ديوان <sic>أوقاف</sic>
+            <corr>الاوقاف</corr></orgName> بتاريخ ٤ محرم سنة ٩١</head>
         <table rows="4" cols="2">
           <row role="label">
             <cell>عدد</cell>
@@ -151,22 +171,19 @@
           <row>
             <cell>١</cell>
             <cell>فرن وطاحونة <orgName type="وقف" ref="وقف-السلطان-الاشرف"><placeName type="وقف" ref="وقف-السلطان-الاشرف">وقف <persName>السلطان
-                الأشرف</persName></placeName></orgName> ب<placeName type="جهة" ref="جهة-تحت-الربع">جهة تحت الربع</placeName> نظارة الديوان مقدار مسطح أرضها
-              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>متر ٧٠٠
-              تقريبا<?oxy_custom_end?> مقتضى خروجهم من الوقف بالاستبدال وتحدد لنهو مزادهم خمسة عشر
-              يوم من تاريخه وقائمة المزاد بطرف معاون قسم ثالث</cell>
+                الأشرف</persName></placeName></orgName> ب<placeName type="جهة" ref="جهة-تحت-الربع">جهة تحت الربع</placeName> نظارة الديوان مقدار مسطح أرضها متر ٧٠٠ تقريبا مقتضى
+              خروجهم من الوقف بالاستبدال وتحدد لنهو مزادهم خمسة عشر يوم من تاريخه وقائمة المزاد بطرف
+              معاون قسم ثالث</cell>
           </row>
           <row>
             <cell>١</cell>
             <cell>منزل خرب <placeName type="وقف" ref="وقف-الاقباط">وقف الأقباط</placeName> كائن
                 ب<placeName type="حارة" ref="حارة-الروم">حارة الروم</placeName> راغب أخذه
-                <persName>على محمد الصرماتي</persName> بالاستبدال
-              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ومقدار<?oxy_custom_end?>
-              لقيمة استبداله بمعرفة أهل الخبرة قرش ٢١٤٥ وتحدد لنهو مزاده خمسة عشر يوم من تاريخه
-              وقائمة مزاده بطرف معاون قسم ثالث</cell>
+                <persName>على محمد الصرماتي</persName> بالاستبدال ومقدر لقيمة استبداله بمعرفة أهل
+              الخبرة قرش ٢١٤٥ وتحدد لنهو مزاده خمسة عشر يوم من تاريخه وقائمة مزاده بطرف معاون قسم
+              ثالث</cell>
           </row>
-          <?oxy_comment_start author="Sarah" timestamp="20230906T193120+0200" comment="check if there is a rest for the news "?>
-        </table><?oxy_comment_end?>
+        </table>
       </div>
     </body>
   </text>

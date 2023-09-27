@@ -17,8 +17,9 @@
         <editor xml:id="eHL">Hiba Laabadli</editor>
         <editor xml:id="eOE">Othmane Echchabi</editor>
         <editor xml:id="eFA">Fatemah Almahana</editor>
+        <editor xml:id="eMZ">Mahmoud Zaki</editor>
         <respStmt>
-          <resp>Advisor</resp>
+          <resp>Project leader</resp>
           <name>Hugh Cayless</name>
         </respStmt>
         <respStmt>
@@ -65,18 +66,37 @@
           <resp>Research Assistant</resp>
           <name>Abdulrahman El-Taliawi</name>
         </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hiba Laabadli</name> 
+        </respStmt>
+     <respStmt>
+       <resp>Research Assistant</resp>
+       <name>Othmane Echchabi</name>
+     </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Fatemah Almahana</name> 
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Mahmoud Zaki</name> 
+        </respStmt>
         <sponsor>
+          <orgName>National Endowment for the Humanities</orgName>,
+          and
           <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
             <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
             Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>.
+            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName> 
         </sponsor>
       </titleStmt>
       <publicationStmt>
         <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
           du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
         <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>, <persName>Hugh Cayless</persName></p>
       </publicationStmt>
       <sourceDesc>
         <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
@@ -87,6 +107,7 @@
       <projectDesc>
         <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
       </projectDesc>
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
@@ -108,9 +129,9 @@
         <language ident="ota">Ottoman</language>
       </langUsage>
     </profileDesc>
-    <revisionDesc status="cleared">
+    <revisionDesc>
       <listChange>
-        <change when="2023-05-31" resp="#eAM" status="cleared"/>
+        <change when="2023-05-31" resp="#eAM"/>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -128,7 +149,7 @@
   </standOff>
   <text xml:lang="ar" resp="#eSG #eAM">
     <body>
-      <div xml:id="W1246015901" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246015901">
         <head><date when-custom="1246-01-13">١٣ محرم الحرام ١٢٤٦</date>
           <date when="1830-07-04">٤ يوليو ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٥٩</biblScope>
@@ -144,7 +165,7 @@
           مأمور الديوان الخديوى فقال وان كان قوله حقا فلا يخلو من ارتكاب السرقة فينبغى ان يضرب وتعطى
           الاشياء لصاحبها فضرب ابراهيم وسلمت الاشيا لصاحبها وتم الامر على هذا الوجه.</p>
       </div>
-      <div xml:id="W1246016002" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246016002" resp="#eSG">
         <head><date when-custom="1246-01-14">١٤ محرم الحرام ١٢٤٦</date><date when="1830-07-05">٥
             يوليو ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ١٦٠</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
         <head><title>حوادث <orgName type="مجلس" ref="مجلس-المشورة">مجلس
@@ -164,7 +185,7 @@
             الخديوى</orgName> الى حسن بيك المومى اليه اشعارا له بذلك كما استقر الراى على ذلك فى غرة
           ذى الحجة.</p>
       </div>
-      <div xml:id="W1246016003" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246016003" resp="#eSG">
         <head><date when-custom="1246-01-14">١٤ محرم الحرام ١٢٤٦</date><date when="1830-07-05">٥
             يوليو ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٦٠</biblScope><biblScope unit="page">صفحة
@@ -190,7 +211,7 @@
           الى الامام افندى حتى اذا وجد مركب سائر الى قريتها وضعت فيه بمعرفة قواص وارسلت اليها وتم
           الامر على هذا المنوال.</p>
       </div>
-      <div xml:id="W1246016204" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246016204" resp="#eSG">
         <head><date when-custom="1246-01-17">١٧ محرم الحرام ١٢٤٦</date>
           <date when="1830-07-08">٨ يوليو ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٦٢</biblScope><biblScope unit="page">صفحة
@@ -208,7 +229,7 @@
           باش اغا وهو ارسلها الى هنا فامر مأمورالديوان الخديوىان ترسل الى <placeName xml:id="place-W1246016204_3">بيت الامام</placeName> احتياطا من الهرب وبعد مدة اخبر الامام انها مريضة
           وانه لم يبحث عن الاشياء ولم تسأل فاطلقت وتم الامر على ذلك.</p>
       </div>
-      <div xml:id="W1246016305" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246016305" resp="#eSG">
         <head><date when-custom="1246-01-20">٢٠ محرم الحرام ١٢٤٦</date><date when="1830-07-11">١١
             يوليو ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٦٣</biblScope><biblScope unit="page">صفحة
@@ -253,7 +274,7 @@
           محمد فعل ذلك هذا وان مشايخ الاصناف يتعهدون بحسن سيرته وانه من كلام الامراتين ينفهم ان
           بينهما اختلافا فالمقتضى ان يذهبوا جميعهم الى الشرع فارسلوا وتم الامر على هذا المنوال.</p>
       </div>
-      <div xml:id="W1246016306" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246016306" resp="#eSG">
         <head><date when-custom="1246-01-20">٢٠ محرم الحرام ١٢٤٦</date><date when="1830-07-11">١١
             يوليو ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ١٦٣</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
         <head><title>حوادث <orgName type="مجلس" ref="مجلس-المشورة">مجلس
@@ -272,7 +293,7 @@
           معدلا لذهاب المراكب وورودها ولاجل النظارة على ذلك يرسل واحد من طرف ال<placeName xml:id="place-W1246016306_2">ترسانة</placeName> واخر من طرف <orgName type="ديوان" ref="ديوان-المحروسة">ديوان المحروسة</orgName> ويحرر الى على افندى علم يشعره بذلك كما استقر على ذلك
           الراى.</p>
       </div>
-      <div xml:id="W1246016307" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246016307" resp="#eSG">
         <head><date when-custom="1246-01-20">٢٠ محرم الحرام ١٢٤٦</date>
           <date when="1830-07-11">١١ يوليو ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٦٣</biblScope><biblScope unit="page">صفحة
@@ -290,7 +311,7 @@
             ال<orgName type="ديوان" ref=" ديوان-الخديوى">ديوان الخديوى</orgName> الى الافنديين
           المومى اليهما ليقتسما الاخشاب بينهما مناصفة كما استقر على ذلك الراى.</p>
       </div>
-      <div xml:id="W1246016308" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246016308" resp="#eSG">
         <head><date when-custom="1246-01-20">٢٠ محرم الحرام ١٢٤٦</date><date when="1830-07-11">١١
             يوليو ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٦٣</biblScope><biblScope unit="page">صفحة
@@ -318,7 +339,7 @@
           ايام آت بهذا الرجل فعرض ذلك على الافندى مأمور الديوان الخديوى فقال ليطلف الدلال وليحبس
           احمد السايس الى ان ياتى باخيه وحينئذ يحضر خصمه وتنظر دعواهما وتم الامر على هذا الوجه </p>
       </div>
-      <div xml:id="W1246016409" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246016409" resp="#eSG">
         <head><date when-custom="1246-01-21">٢١ محرم الحرام ١٢٤٦</date><date when="1830-07-12">١٢
             يوليو ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٦٤</biblScope><biblScope unit="page">صفحة
@@ -339,7 +360,7 @@
             <persName role="خفتان اغا">محمد اغا خفتان اغاسى</persName> اشعارا لهما ذاك كما استقر
           الرأى على ذلك.</p>
       </div>
-      <div xml:id="W1246016510" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246016510" resp="#eSG">
         <head><date when-custom="1246-01-23">٢٣ محرم ١٢٤٦</date><date when="1830-07-14">١٤ يوليو
             ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٦٥</biblScope><biblScope unit="page">صفحة
@@ -352,7 +373,7 @@
             افندى ناظر الترسانة</persName> اشعارا له باعطاء المراكب المذكورة والى الناظر المومى اليه
           اخبارا له بذلك كما استقر الراى على ذلك.</p>
       </div>
-      <div xml:id="W1246016911" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246016911" resp="#eSG">
         <head><date when-custom="1246-02-05">٥ صفر ١٢٤٦</date><date when="1830-07-26">٢٦ يوليو ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٦٩</biblScope><biblScope unit="page">صفحة
               ١</biblScope></bibl></head>
@@ -369,7 +390,7 @@
           ذلك له والى الناظر المومى اليه لكى يوصل الحجارة المطلوبة الى محلها سريعا كما استقر على ذلك
           الرأى.</p>
       </div>
-      <div xml:id="W1246016912" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246016912" resp="#eSG">
         <head><date when-custom="1246-02-05">٥ صفر ١٢٤٦</date><date when="1830-07-26">٢٦ يوليو ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٦٩</biblScope><biblScope unit="page">صفحة
               ٢</biblScope></bibl></head>
@@ -394,7 +415,7 @@
             <corr>يرسل</corr>
           </choice>  الخمسة والاربعين قنطارا الباقية سريعا كما استقر الرأى على ذلك.</p>
       </div>
-      <div xml:id="W1246016913" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246016913">
         <head><date when-custom="1246-02-05">٥ صفر ١٢٤٦</date><date when="1830-07-26">٢٦ يوليو
               ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ١٦٩</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
         <head><title>حوادث <orgName type="مجلس" ref="مجلس_المشورة">مجلس
@@ -407,7 +428,7 @@
           علم من ال<orgName type="ديوان" ref="ديوان-الخديوى">ديوان الخديوى</orgName>الى مأمورى
           الاقاليم البحرية والى الاغا المومى اليه اشعارا لهم بذلك استقر الرأى على هذا</p>
       </div>
-      <div xml:id="W1246017414" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246017414" resp="#eSG">
         <head><date when-custom="1246-02-17">١٧ صفر ١٢٤٦</date><date when="1830-08-07">٧ أغسطس
             ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٧٤</biblScope><biblScope unit="page">صفحة
@@ -421,7 +442,7 @@
           يصغ لكلامى فحرر صورة هذا الجرنال وارسل الى الناظر المومى اليه لاجل تحقيق ذلك وذكر فيه انه
           بعد ان يطلع عليه يجاوب عما سئل.</p>
       </div>
-      <div xml:id="W1246017415" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246017415" resp="#eSG">
         <head><date when-custom="1246-02-17">١٧ صفر ١٢٤٦</date><date when="1830-08-07">٧ أغسطس
             ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٧٤</biblScope><biblScope unit="page">صفحة
@@ -451,7 +472,7 @@
             بيك</persName> اشعارا لهم كما استقر عليه رأى ارباب المجلس تحريرا فى اليوم الثانى من صفر
           الخير.</p>
       </div>
-      <div xml:id="W1246017516" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246017516" resp="#eSG">
         <head><date when-custom="1246-02-19">١٩ صفر ١٢٤٦</date><date when="1830-08-09">٩ أغسطس
             ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٧٥</biblScope>
@@ -471,7 +492,7 @@
           رأيت مسمارا واحدا سحب من اسفل الضبة وليس ذلك جديدا بل هو قديم فلما قال البصاص هذا ولم يكن
           للمدعى علامة تدل على خصمه انه سارق ارسلا الى الشرع.</p>
       </div>
-      <div xml:id="W1246017517" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246017517" resp="#eSG">
         <head><date when-custom="1246-02-19">١٩ صفر ١٢٤٦</date><date when="1830-08-09">٩ أغسطس
             ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٧٥</biblScope>
@@ -488,7 +509,7 @@
           على لا وجه له اذ هو افترا فهدد فقال ان الشيطان اغوانى فادب وارسل الى <persName>ادهم
             بيك</persName> ليشتغل ثلاثة اشهر محبوسا</p>
       </div>
-      <div xml:id="W1246017618" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246017618" resp="#eSG">
         <head><date when-custom="1246-02-21">٢١ صفر ١٢٤٦</date><date when="1830-08-11">١١ أغسطس
             ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٧٦</biblScope><biblScope unit="page">صفحة
@@ -513,7 +534,7 @@
           اخذ شيأ فمن اجل ذلك القى فى السجن ولما لم يكن شهود ولا اثبات ولا دليل على انه سرق ارسل
           للشرع فى اليوم السابع من صفر.</p>
       </div>
-      <div xml:id="W1246017619" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246017619" resp="#eSG">
         <head><date when-custom="1246-02-21">٢١ صفر ١٢٤٦</date><date when="1830-08-11">١١ أغسطس
             ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٧٦</biblScope><biblScope unit="page">صفحة
@@ -532,7 +553,7 @@
             <orgName type="خزينة" ref="الخزينة-العامرة">الخزينة العامرة</orgName> بخصوص ذلك كما
           استقر الرأى عليه فى مجلس المشورة.</p>
       </div>
-      <div xml:id="W1246017720" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246017720" resp="#eSG">
         <head><date when-custom="1246-02-24">٢٤ صفر ١٢٤٦</date><date when="1830-08-14">١٤ أغسطس
             ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٧٧</biblScope><biblScope unit="page">صفحة
@@ -554,7 +575,7 @@
           ستيته لها عادة على امر مثل هذا ولم يظهرعلامة تدل على ذلك احيلت دعواهما الى الشرع
           الشريف.</p>
       </div>
-      <div xml:id="W1246017921" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246017921" resp="#eSG">
         <head><date when-custom="1246-02-29">٢٩ صفر ١٢٤٦</date><date when="1830-08-19">١٩ أغسطس
             ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٧٩</biblScope><biblScope unit="page">صفحة
@@ -575,7 +596,7 @@
           ذلك لا يلزم له كفيل حيث هو قليل ثمنه فقيل له هل أحد رأى هذا الفم معك قبل العيد فقال نعم
           واتى بشهود ولم يقنع الجاويش فارسلا الى الشرع </p>
       </div>
-      <div xml:id="W1246018922" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246018922" resp="#eSG">
         <head><date when-custom="1246-03-23">٢٣ ربيع اول ١٢٤٦</date><date when="1830-09-11">١١
             سبتمبر١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٨٩</biblScope><biblScope unit="page">صفحة
@@ -601,7 +622,7 @@
             <persName role="ناظر-الابنية">امين افندى ناظر الابنية</persName> كما استقر عليه
           الرأى.</p>
       </div>
-      <div xml:id="W1246018923" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246018923" resp="#eSG">
         <head><date when-custom="1246-03-23">٢٣ ربيع اول ١٢٤٦</date><date when="1830-09-11">١١
             سبتمبر١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٨٩</biblScope><biblScope unit="page">صفحة
@@ -617,7 +638,7 @@
           المحتاجة فيه الى العمارة ويحرر علم من الديوان الخديوى الى <persName role="وكيل-ناظر-الابنية">احمد اغا وكيل ناظر الابنية</persName> اشعارا له بذلك كما استقر
           عليه الرأى فى اليوم الثانى عشر من شهر ربيع الاول.</p>
       </div>
-      <div xml:id="W1246018924" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246018924" resp="#eSG">
         <head><date when-custom="1246-03-23">٢٣ ربيع اول ١٢٤٦</date><date when="1830-09-11">١١
             سبتمبر١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٨٩</biblScope><biblScope unit="page">صفحة
@@ -634,7 +655,7 @@
             ال<orgName type="ديوان" ref="ديوان-الخديوى">ديوان الخديوى</orgName> الى المامورين لاجل
           ارسال التبن الباقى دون تاخر كنا استقر الرأى على ذلك.</p>
       </div>
-      <div xml:id="W1246019125" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246019125" resp="#eSG">
         <head><date when-custom="1246-04-02">٢ ربيع اخر١٢٤٦</date><date when="1830-09-20">٢٠
             سبتمبر١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٩١</biblScope><biblScope unit="page">صفحة
@@ -663,7 +684,7 @@
             الجير والجص</persName> ويتم الحساب ويشطب لئلا يبقى اخذ وعطاء بين الدواوين البتة ويحرر
           علم الى مأمور القليوبية اشعارا له بذلك كما استقر الرأى عليه.</p>
       </div>
-      <div xml:id="W1246019626" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246019626" resp="#eSG">
         <head><date when-custom="1246-04-18">١٨ ربيع اخر ١٢٤٦</date><date when="1830-10-06">٦ أكتوبر
             ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٩٦</biblScope><biblScope unit="page">صفحة
@@ -680,7 +701,7 @@
             الخديوى</orgName> الى <persName role="وكيل-ناظر-الابنية">احمد اغا وكيل ناظر
             الابنية</persName> كما استقر عليه رأى أرباب المجلس.</p>
       </div>
-      <div xml:id="W1246019727" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246019727" resp="#eSG">
         <head><date when-custom="1246-04-22">٢٢ ربيع اخر١٢٤٦</date><date when="1830-10-10">١٠ أكتوبر
             ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ١٩٧</biblScope><biblScope unit="page">صفحة ٢-
@@ -698,7 +719,7 @@
           </choice> ان يحرر <rs type="علم">علم</rs> من ال<orgName type="ديوان" ref="ديوان-الخديوى">ديوان الخديوى</orgName> الى <persName role="ناظر-ديوان-الابنية">امين افندى ناظر ديوان
             الابنية</persName> اشعارا له بالشروع فى انشائها كما استقر عليه الرأى.</p>
       </div>
-      <div xml:id="W1246020528" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246020528" resp="#eSG">
         <head><date when-custom="1246-05-14">١٤ جمادى الاولى ١٢٤٦</date><date when="1830-10-31">٣١
             أكتوبر ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ٢٠٥</biblScope><biblScope unit="page">صفحة
@@ -724,7 +745,7 @@
           وقدره ثمانية وثلاثون الفا وثلاثمائة وتسعة وخمسون قرشا وتسعة وعشرون نصفا فضة يخصم فى
           ابعادية الديوان وذلك يحتاج الى صدور علم الى على افندى المومى اليه.</p>
       </div>
-      <div xml:id="W1246020829" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246020829" resp="#eSG">
         <head><date when-custom="1246-05-23">٢٣ جمادى الاولى ١٢٤٦</date><date when="1830-11-09">٩
             نوفمبر ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ٢٠٨</biblScope><biblScope unit="page">صفحة
@@ -745,7 +766,7 @@
           المبالغ الازمة للطرنبات من ديوان الفبريقات يحرر علم من <orgName type="ديوان" ref="الديوان_الخديوى">الديوان الخديوى</orgName> الى <sic>حير</sic> الله افندى المومى
           اليه اشعارا له بهذا كما استقر الرأى عليه. </p>
       </div>
-      <div xml:id="W1246020830" resp="#eSG" n="NitronForMatb3a" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246020830" resp="#eSG" n="NitronForMatb3a">
         <head><date when-custom="1246-05-23">٢٣ جمادى الاولى ١٢٤٦</date><date when="1830-11-09">٩
             نوفمبر ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ٢٠٨</biblScope><biblScope unit="page">صفحة
@@ -762,7 +783,7 @@
           من <orgName type="ديوان" ref="الديوان-الخديوى">الديوان الخديوى</orgName> الى <persName role="مأمور-النجيلة-وشبرا-خيت">فرهاد بيك مأمور النجيلة وشبرا خيت</persName> اشعارا له
           بارسال هذا المقدار المطلوب لاشغال المطبعة من هذا الصنف سريعا كما استقر الرأى على ذلك.</p>
       </div>
-      <div xml:id="W1246020831" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246020831" resp="#eSG">
         <head><date when-custom="1246-05-23">٢٣ جمادى الاولى ١٢٤٦</date><date when="1830-11-09">٩
             نوفمبر ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ٢٠٨</biblScope><biblScope unit="page">صفحة
@@ -783,7 +804,7 @@
           رطلا وتعطى الرؤسا عن كل قنطار ثمانين نصفا فضة اجرة ولاجل اعطاء رجعة على هذه الصورة يحرر
           علم من الديوان الخديوى الى امين افندى المومى اليه اشعارا له بذلك كما استقر عليه الرأى.</p>
       </div>
-      <div xml:id="W1246021132" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246021132" resp="#eSG">
         <head><date when-custom="1246-06-04">٤ جمادى الاخر ١٢٤٦</date><date when="1830-11-21">٢١
             نوفمبر ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ٢١١</biblScope><biblScope unit="page">صفحة
@@ -798,7 +819,7 @@
           الذمة التى عليه منه وترسل رجعة الاضافة الى ديوان اشغال المحروسة وذلك يوجب صدور <rs type="علم">علم</rs> من الديوان الخديوى الى حضرة <persName role="مدير-الاقاليم-الوسطى">احمد باشا مدير الاقاليم الوسطى</persName> والى على افندى المومى اليه اشعارا لهما بهذا
           كما استقر عليه الرأى.</p>
       </div>
-      <div xml:id="W1246021133" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246021133" resp="#eSG">
         <head><date when-custom="1246-06-04">٤ جمادى الاخر ١٢٤٦</date><date when="1830-11-21">٢١
             نوفمبر ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ٢١١</biblScope><biblScope unit="page">صفحة
@@ -832,7 +853,7 @@
             الخديوى</orgName> الى <persName role="ناظر-الابنية">امين افندى ناظر الابنية</persName>
           والى <persName>محمد بيك ميراللوا</persName> اشعارا لهما بهذا كما استقر الرأى على ذلك.</p>
       </div>
-      <div xml:id="W1246021735" resp="#eSG" n="ALEX" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246021735" resp="#eSG" n="ALEX">
         <head><date when-custom="1246-06-19">١٩ جمادى الاخر ١٢٤٦</date><date when="1830-12-05">٥
             ديسمبر ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ٢١٧</biblScope><biblScope unit="page">صفحة
@@ -849,7 +870,7 @@
           رجعتها وتقييدها ب<orgName type="ديوان" ref="ديوان-العموم">ديوان العموم</orgName> وتقديم
           علمها الى المجلس كما استقر الرأى على ذلك. </p>
       </div>
-      <div xml:id="W1246022036" resp="#eSG" n="ALEX" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246022036" resp="#eSG" n="ALEX">
         <head><date when-custom="1246-06-26">٢٦ جمادى الاخر ١٢٤٦</date><date when="1830-12-12">١٢
             ديسمبر ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ٢٢٠</biblScope><biblScope unit="page">صفحة
@@ -866,7 +887,7 @@
             ب<orgName type="ديوان" ref="ديوان-العموم">ديوان العموم</orgName> وتقديم علمه الى المجلس
           كما استقر الرأى على ذلك.</p>
       </div>
-      <div xml:id="W1246022337" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246022337" resp="#eSG">
         <head><date when-custom="1246-07-04">٤ رجب الاصم ١٢٤٦</date><date when="1830-12-19">١٩
             ديسمبر ١٨٣٠</date><bibl><biblScope unit="issue">نمرة ٢٢٣</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
         <head>حوادث <orgName type="مجلس" ref="مجلس-مصر">مجلس مصر</orgName></head>
@@ -886,7 +907,7 @@
           ناظر الوقف من ابتدا تاريخ الخلاصة واقتطاعها من ايراد التحميص كما استقر الرأى عليه فى
             <orgName type="مجلس" ref="المجلس-العمومى">المجلس العمومى</orgName> المنعقد ب<placeName xml:id="place-W1246022337_7">القصر العالى</placeName>.</p>
       </div>
-      <div xml:id="W1246022338" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246022338" resp="#eSG">
         <head><date when-custom="1246-07-04">٤ رجب الاصم ١٢٤٦</date><date when="1830-12-19">١٩
             ديسمبر ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ٢٢٣</biblScope><biblScope unit="page">صفحة
@@ -904,7 +925,7 @@
             <corr>ان</corr>
           </choice> طلقها قدمت هذا العرض نكالا عليه فاطلق كل من الرجل والمرأة وخلى سبيلهما.</p>
       </div>
-      <div xml:id="W1246022739" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246022739" resp="#eSG">
         <head><date when-custom="1246-07-14">١٤ رجب الاصم ١٢٤٦</date><date when="1830-12-29">٢٩
             ديسمبر ١٨٣٠</date>
           <bibl><biblScope unit="issue">نمرة ٢٢٧</biblScope><biblScope unit="page">صفحة
@@ -921,7 +942,7 @@
             العمومى</orgName> المنعقد ب<placeName xml:id="place-W1246022739_2">القصر
             العالى</placeName>.</p>
       </div>
-      <div xml:id="W1246022840" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246022840" resp="#eSG">
         <head><date when-custom="1246-07-18">١٨ رجب الاصم ١٢٤٦</date><date when="1831-01-02">٢ يناير
             ١٨٣١</date>
           <bibl><biblScope unit="issue">نمرة ٢٢٨</biblScope><biblScope unit="page">صفحة
@@ -936,7 +957,7 @@
           كما استقر الرأى عليه فى <orgName type="مجلس" ref="المجلس-العمومى">المجلس العمومى</orgName>
           المنعقد ب<placeName xml:id="place-W1246022840_1">القصر العالى</placeName>.</p>
       </div>
-      <div xml:id="W1246022941" resp="#eSG" n="BASILEUS" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246022941" resp="#eSG" n="BASILEUS">
         <head><date when-custom="1246-07-21">٢١ رجب الاصم ١٢٤٦</date><date when="1831-01-05">٥ يناير
             ١٨٣١</date>
           <bibl><biblScope unit="issue">نمرة ٢٢٩</biblScope><biblScope unit="page">صفحة
@@ -959,7 +980,7 @@
             <orgName type="ديوان" ref="الديوان-الخديوى">الديوان الخديوى</orgName> الى مأمور اشغال
           المحروسة اشعارا له بذلك كما استقر عليه الرأى فى المجلس العمومى المنعقد ب<placeName xml:id="place-W1246022941_1">القصرالعالى</placeName>.</p>
       </div>
-      <div xml:id="W1246023042" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246023042" resp="#eSG">
         <head><date when-custom="1246-07-22">٢٢ رجب الاصم ١٢٤٦</date><date when="1831-01-06">٦ يناير
             ١٨٣١</date>
           <bibl><biblScope unit="issue">نمرة ٢٣٠</biblScope><biblScope unit="page">صفحة
@@ -977,7 +998,7 @@
           علم من <orgName type="ديوان" ref="الديوان-الخديوى">الديوان الخديوى</orgName> الى المومى
           اليهم اشعارا لهم بذلك كما استقر الرأى عليه.</p>
       </div>
-      <div xml:id="W1246023243" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246023243" resp="#eSG">
         <head><date when-custom="1246-07-29">٢٩ رجب الاصم ١٢٤٦</date><date when="1831-01-13">١٣
             يناير ١٨٣١</date>
           <bibl><biblScope unit="issue">نمرة ٢٣٢</biblScope><biblScope unit="page">صفحة
@@ -997,7 +1018,7 @@
           على ذلك فى <orgName type="مجلس" ref="المجلس-العمومى">المجلس العمومى</orgName> المنعقد
             ب<placeName xml:id="place-W1246023243_1">القصر العالى</placeName>.</p>
       </div>
-      <div xml:id="W1246024144" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246024144" resp="#eSG">
         <head><date when-custom="1246-08-24">٢٤ شعبان ١٢٤٦</date><date when="1831-02-07">٧ فبراير
             ١٨٣١</date>
           <bibl><biblScope unit="issue">نمرة ٢٤١</biblScope><biblScope unit="page">صفحة
@@ -1017,7 +1038,7 @@
           كان ذلك ينبغى ان يشرع فى ترميمه ويعطى المصروف اللازم له من <orgName type="خزينة" ref="خزينة-المبيعات">خزينة المبيعات</orgName> ويحرر <rs type="علم">علم</rs> من <orgName type="ديوان" ref="الديوان-الخديوى">الديوان الخديوى</orgName> الى الافندى المومى اليه
           اشعارا له بهذا كما استقر الراى عليه.</p>
       </div>
-      <div xml:id="W1246024345" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246024345" resp="#eSG">
         <head><date when-custom="1246-09-01">يوم الاحد سلخ شعبان ١٢٤٦</date><date when="1831-02-13">١٣ فبراير ١٨٣١</date>
           <bibl><biblScope unit="issue">نمرة ٢٤٣</biblScope><biblScope unit="page">صفحة
               ١</biblScope></bibl></head>
@@ -1033,7 +1054,7 @@
             الخديوى</orgName> الى <persName role="ناظر-ديوان-الابنية">امين افندى ناظر ديوان
             الابنية</persName> اشعارا له بارسال النفر المذكور كما استقر الرأى على ذلك.</p>
       </div>
-      <div xml:id="W1246024646" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246024646" resp="#eSG">
         <head><date when-custom="1246-09-09">٩ رمضان ١٢٤٦</date><date when="1831-02-21">٢١ فبراير
             ١٨٣١</date><bibl><biblScope unit="issue">نمرة ٢٤٦</biblScope><biblScope unit="page">صفحة
               ٤</biblScope></bibl></head>
@@ -1050,7 +1071,7 @@
               العامرة</orgName></persName> والى المأمور المومى اليه اشعارا لهما بذلك كما استقر الرأى
           عليه .</p>
       </div>
-      <div xml:id="W1246025747" resp="#eSG" part="N" org="uniform" sample="complete">
+      <div xml:id="W1246025747" resp="#eSG">
         <head><date when-custom="1246-10-22">٢٢ شوال ١٢٤٦</date><date when="1831-04-05">٥ ابريل
             ١٨٣١</date>
           <bibl><biblScope unit="issue">نمرة ٢٥٧</biblScope><biblScope unit="page">صفحة

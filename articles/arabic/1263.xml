@@ -1,128 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
-               Project</title>
-            <editor xml:id="eNK">Nour Kanaan</editor>
-            <editor xml:id="eAM">Adam Mestyan</editor>
-            <editor xml:id="eDY">Danah Younis</editor>
-            <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
-            <editor xml:id="eAE">Arif Erbil</editor>
-            <editor xml:id="eAK">Ahmed Kamal</editor>
-            <editor xml:id="eAS">Abram Smith</editor>
-            <editor xml:id="eCH">Clara Harms</editor>
-            <editor xml:id="eHS">Hüseyin Sağlam</editor>
-            <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
-            <editor xml:id="eHL">Hiba Laabadli</editor>
-            <editor xml:id="eOE">Othmane Echchabi</editor>
-            <editor xml:id="eFA">Fatemah Almahana</editor>
-            <respStmt>
-               <resp>Advisor</resp>
-               <name>Hugh Cayless</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Adam Mestyan</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Mercedes Volait</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Sarah Fathallah Garaa</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Karima Nasr</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Rezk Nory</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Arif Erbil</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Ahmed Kamal</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Abram Smith</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Clara Harms</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Hüseyin Sağlam</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Abdulrahman El-Taliawi</name>
-            </respStmt>
-            <sponsor>
-               <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
-                  <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew
-                  W. Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke
-                  University Libraries</orgName>; <orgName>Centre national de la recherche
-                  scientifique</orgName>. </sponsor>
-         </titleStmt>
-         <publicationStmt>
-            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La
-               fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-            <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
-                  Volait</persName></p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
-            <p>born digital document</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <projectDesc>
-            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in
-               the project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke
-               University).</p>
-         </projectDesc>
-         <editorialDecl>
-            <p>Rules of TEI XML MarkUp in This Project</p>
-            <p>We use the Arabic script but transliteration into Latin characters follows the
-               Library of Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic
-                  transliteration chart</ref>.</p>
-            <p>Each individual article has an individual xml:id number starting with "w1"</p>
-            <p>We only use persName, orgName, placeName elements, apart from bibliographical
-               elements and notes.</p>
-            <p>If the location or organization of responsibility is known from the text, it can be
-               added in an attribute to a persName.</p>
-            <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
-                  Editions</ref>.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="ar">Arabic</language>
-            <language ident="en">English</language>
-            <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
-            <language ident="ota">Ottoman</language>
-         </langUsage>
-      </profileDesc>
-      <revisionDesc status="cleared">
+    <fileDesc>
+      <titleStmt>
+        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
+          Project</title>
+        <editor xml:id="eNK">Nour Kanaan</editor>
+        <editor xml:id="eAM">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
+        <editor xml:id="eAE">Arif Erbil</editor>
+        <editor xml:id="eAK">Ahmed Kamal</editor>
+        <editor xml:id="eAS">Abram Smith</editor>
+        <editor xml:id="eCH">Clara Harms</editor>
+        <editor xml:id="eHS">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+        <editor xml:id="eHL">Hiba Laabadli</editor>
+        <editor xml:id="eOE">Othmane Echchabi</editor>
+        <editor xml:id="eFA">Fatemah Almahana</editor>
+        <editor xml:id="eMZ">Mahmoud Zaki</editor>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Mercedes Volait</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Sarah Fathallah Garaa</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Karima Nasr</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Rezk Nory</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Arif Erbil</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Ahmed Kamal</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abram Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Clara Harms</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hüseyin Sağlam</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abdulrahman El-Taliawi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hiba Laabadli</name> 
+        </respStmt>
+     <respStmt>
+       <resp>Research Assistant</resp>
+       <name>Othmane Echchabi</name>
+     </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Fatemah Almahana</name> 
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Mahmoud Zaki</name> 
+        </respStmt>
+        <sponsor>
+          <orgName>National Endowment for the Humanities</orgName>,
+          and
+          <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
+            <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+            Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName> 
+        </sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
+          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+        <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>, <persName>Hugh Cayless</persName></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+        <p>born digital document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Rules of TEI XML MarkUp in This Project</p>
+        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
+        <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
+        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+          Editions</ref>.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+        <language ident="ota">Ottoman</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
          <listChange>
-            <change status="cleared" resp="#eAM" when="2023-07-27"/>
+            <change resp="#eAM" when="2023-07-27"/>
          </listChange>
       </revisionDesc>
-   </teiHeader>
+  </teiHeader>
   
   <text xml:lang="ar">
       <body>
-         <div xml:id="W1263004901" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263004901" resp="#eSG">
             <head><date when-custom="1263-02-08">٨ صفر ١٢٦٣</date>
                <date when="1847-01-26">٢٦ يناير ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٤٩</biblScope>
@@ -134,7 +150,7 @@
                الكتخداوية بضم اربعمائة قرش الى اصل ماهيته التى مقدارها خمسمائة قرش كما اخبر به من
                   <orgName type="ديوان" ref="الديوان_الخديوى">الديوان الخديوى</orgName>.</p>
          </div>
-         <div xml:id="W1263004902" resp="#eSG" n="RUZNAMJI" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263004902" resp="#eSG" n="RUZNAMJI">
             <head><date when-custom="1263-02-08">٨ صفر ١٢٦٣</date>
                <date when="1847-01-26">٢٦ يناير ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٤٩</biblScope>
@@ -149,7 +165,7 @@
                المبارك وهو معرض للبيع بمعرفة <orgName ref="بيت-المال">بيت المال</orgName> فمن كان له
                رغبة فيه فليسأل عنه من دلال باشى المذكور.</p>
          </div>
-         <div xml:id="W1263004903" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263004903">
             <head><date when-custom="1263-02-08">٨ صفر ١٢٦٣</date>
                <date when="1847-01-26">٢٦ يناير ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٤٩</biblScope>
@@ -162,7 +178,7 @@
                وله اصطبل يسع ثمانية من المواشى وفيه ساقية وحوض كبير فمن اراده فليسأل عنه من دلال
                باشى المذكور.</p>
          </div>
-         <div xml:id="W1263004904" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263004904">
             <head><date when-custom="1263-02-08">٨ صفر ١٢٦٣</date>
                <date when="1847-01-26">٢٦ يناير ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٤٩</biblScope>
@@ -173,7 +189,7 @@
                ستة من المواشى فى الطبقة السفلى وهو معرض للبيع فمن اراد شراءه فليستدل عليه من الدلال
                المذكور. </p>
          </div>
-         <div xml:id="W1263004905" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263004905">
             <head><date when-custom="1263-02-08">٨ صفر ١٢٦٣</date>
                <date when="1847-01-26">٢٦ يناير ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٤٩</biblScope>
@@ -185,7 +201,7 @@
                كبيرا وثمان خزائن وبها خمسة دكاكين وهى معرضة للبيع من طرف صاحبها فمن اراد ان يراها
                فليسأل عنها من الدلال المذكور ويرضى صاحبها فى ثمنها.</p>
          </div>
-         <div xml:id="W1263005106" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005106" resp="#eSG">
             <head><date when-custom="1263-02-22">٢٢ صفر ١٢٦٣</date>
                <date when="1847-02-09">٩ فبراير ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥١</biblScope>
@@ -198,7 +214,7 @@
                شرآءه فليسأل عنه من السيد <persName role="دلال باشى">مصطفى دلال باشى</persName> وليرض
                صاحبه فى ثمنه.</p>
          </div>
-         <div xml:id="W1263005107" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005107">
             <head><date when-custom="1263-02-22">٢٢ صفر ١٢٦٣</date>
                <date when="1847-02-09">٩ فبراير ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥١</biblScope>
@@ -209,7 +225,7 @@
                من الحواصل وله منظرة وحديقة خربة صغيرة وفيه اصطبل ومحل طاحونة وله حوش كبير وهو معرض
                للبيع فمن كان له رغبة فيه فليسأل عنه من دلال باشى المذكور.</p>
          </div>
-         <div xml:id="W1263005108" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005108">
             <head><date when-custom="1263-02-22">٢٢ صفر ١٢٦٣</date>
                <date when="1847-02-09">٩ فبراير ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥١</biblScope>
@@ -222,7 +238,7 @@
                واصطبل وطاحونة وحوش كشف وهو يراد بيعه فمن كان له رغبة فيه فليسأل عنه من الدلال
                المذكور.</p>
          </div>
-         <div xml:id="W1263005109" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005109">
             <head><date when-custom="1263-02-22">٢٢ صفر ١٢٦٣</date>
                <date when="1847-02-09">٩ فبراير ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥١</biblScope>
@@ -232,7 +248,7 @@
                المشتملة طبقتها العليا على عشرين اودة والسفلى على اثنين وعشرين حاصلا وبجوارها دكانان
                ولها ربع ذو ست اود يراد بيعها فمن كان له رغبة فيها فليسأل عنها من الدلال المذكور.</p>
          </div>
-         <div xml:id="W1263005110" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005110">
             <head><date when-custom="1263-02-22">٢٢ صفر ١٢٦٣</date>
                <date when="1847-02-09">٩ فبراير ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥١</biblScope>
@@ -244,7 +260,7 @@
                   <corr>كان</corr>
                </choice> يطلبه فليسأل عنه من الدلال المذكور.</p>
          </div>
-         <div xml:id="W1263005211" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005211" resp="#eSG">
             <head><date when-custom="1263-02-29">٢٩ صفر ١٢٦٣</date>
                <date when="1847-02-16">١٦ فبراير ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥٢</biblScope>
@@ -256,7 +272,7 @@
                الف قرش واربعمائة ونيف من القروش وقد عرض ذلك للاعتاب الداورية فتعلقت الارادة باجراء
                هذا التعمير بالمبلغ المذكور كما اخبر به من الديوان الخديوى.</p>
          </div>
-         <div xml:id="W1263005212" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005212" resp="#eSG">
             <head><date when-custom="1263-02-29">٢٩ صفر ١٢٦٣</date>
                <date when="1847-02-16">١٦ فبراير ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥٢</biblScope>
@@ -270,7 +286,7 @@
                فليسأل عنه من <persName role="الدلال باشى">السيد مصطفى الدلال باشى</persName> وليرض
                صاحبه فى ثمنه.</p>
          </div>
-         <div xml:id="W1263005213" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005213">
             <head><date when-custom="1263-02-29">٢٩ صفر ١٢٦٣</date>
                <date when="1847-02-16">١٦ فبراير ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥٢</biblScope>
@@ -280,7 +296,7 @@
                يطبخ فيه العسل وعلى ربع ذى اودتين يراد بيعه على ذمه الميرى وقد وصل ثمنه الآن الى خمسة
                عشر كيسا ومائة وخمسين قرشا فمن كان له رغبة فيه فليسأل عنه من الدلال المذكور.</p>
          </div>
-         <div xml:id="W1263005214" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005214">
             <head><date when-custom="1263-02-29">٢٩ صفر ١٢٦٣</date>
                <date when="1847-02-16">١٦ فبراير ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥٢</biblScope>
@@ -290,7 +306,7 @@
                ثمنه اليوم اثنى عشر كيسا وهو معرض للبيع على ذمة الميرى فمن اراده فليستدل عليه من
                الدلال المذكور.</p>
          </div>
-         <div xml:id="W1263005215" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005215">
             <head><date when-custom="1263-02-29">٢٩ صفر ١٢٦٣</date>
                <date when="1847-02-16">١٦ فبراير ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥٢</biblScope>
@@ -310,7 +326,7 @@
                سبعة من الاكياس ومائة من القروش والجميع جارى فى ملك <persName>يوسف جوانى</persName>
                المتوفى ويراد بيعهم على ذمة الميرى فمن كان له رغبة فليسأل من الدلال المذكور.</p>
          </div>
-         <div xml:id="W1263005316" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005316" resp="#eSG">
             <head><date when-custom="1263-03-07">٧ ربيع الاول ١٢٦٣</date>
                <date when="1847-02-23">٢٣ فبراير ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥٣</biblScope>
@@ -325,7 +341,7 @@
                ويكون وضعها بالقسمه التى تكون بالتحف متسمه وقد بودر الى بناء المخازن المذكورة واخذ فى
                الجد الزآئد المؤدى الى انشاء تلك الحديقة حسب المرغوب كما اخبر به حضرة <persName role="مفتش الابنية الميرية">راشد بيك مفتش الابنية الميرية</persName>.</p>
          </div>
-         <div xml:id="W1263005317" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005317" resp="#eSG">
             <head><date when-custom="1263-03-07">٧ ربيع الاول ١٢٦٣</date>
                <date when="1847-02-23">٢٣ فبراير ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥٣</biblScope>
@@ -338,7 +354,7 @@
                مربع يراد بيعه بمعرفة الافندى المومى اليه اذ كان صاحبه معلوما عنده فمن اراده فليستدل
                عليه من الافندى المومى اليه.</p>
          </div>
-         <div xml:id="W1263005318" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005318">
             <head><date when-custom="1263-03-07">٧ ربيع الاول ١٢٦٣</date>
                <date when="1847-02-23">٢٣ فبراير ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥٣</biblScope>
@@ -349,7 +365,7 @@
                صغير بلغ ثمنه الآن عشرة آلاف قرش وهو معرض للبيع فمن كان يطلبه فليسأل عنه من السيد
                   <persName role="دلال باشى">مصطفى دلال باشى</persName>.</p>
          </div>
-         <div xml:id="W1263005319" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005319" resp="#eSG">
             <head><date when-custom="1263-03-07">٧ ربيع الاول ١٢٦٣</date>
                <date when="1847-02-23">٢٣ فبراير ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥٣</biblScope>
@@ -364,7 +380,7 @@
                كل شهر بثمانين قرشا معرض للبيع فمن كان له رغبة فيه فليسأل عنه من دلال باشى
                المذكور.</p>
          </div>
-         <div xml:id="W1263005320" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005320">
             <head><date when-custom="1263-03-07">٧ ربيع الاول ١٢٦٣</date>
                <date when="1847-02-23">٢٣ فبراير ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥٣</biblScope>
@@ -374,7 +390,7 @@
                العليا على ثلاث عشرة اودة والسفلى على عشرة حواصل وبجوارها سبعة دكاكين يراد بيعها فمن
                كان له رغبة فيها فليسأل عنها من الدلال باشى المذكور.</p>
          </div>
-         <div xml:id="W1263005321" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005321">
             <head><date when-custom="1263-03-07">٧ ربيع الاول ١٢٦٣</date>
                <date when="1847-02-23">٢٣ فبراير ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥٣</biblScope>
@@ -385,7 +401,7 @@
                السفلى يراد بيعه بمعرفة <orgName ref="بيت-المال">بيت المال</orgName> وقد بلغ ثمنه
                الآن خمسة عشر كيسا فمن اراده فليستخبر عنه من دلال باشى المذكور.</p>
          </div>
-         <div xml:id="W1263005422" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005422" resp="#eSG">
             <head><date when-custom="1263-03-14">١٤ ربيع الاول ١٢٦٣</date>
                <date when="1847-03-02">٢ مارس ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥٤</biblScope>
@@ -400,7 +416,7 @@
                الثانية من اليوم المذكور وقد اسعفت بطلومبة الثمن فى الحال مع طلومبجيتها وحصل اطفاؤها
                بدون سراية .</p>
          </div>
-         <div xml:id="W1263005423" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005423" resp="#eSG">
             <head><date when-custom="1263-03-14">١٤ ربيع الاول ١٢٦٣</date>
                <date when="1847-03-02">٢ مارس ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥٤</biblScope>
@@ -420,7 +436,7 @@
                   بك</persName> وقد بلغ ثمنه الآن خمسة وعشرين كيسا وهو معرض للبيع فمن اراده فليسأل
                عنه من الدلال باشى المذكور.</p>
          </div>
-         <div xml:id="W1263005424" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005424" resp="#eSG">
             <head><date when-custom="1263-03-14">١٤ ربيع الاول ١٢٦٣</date>
                <date when="1847-03-02">٢ مارس ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥٤</biblScope>
@@ -432,7 +448,7 @@
                على منظرة وحاصل واصطبل يسع ثنتين من المواشى وفيه بئر وحوش مربع مكشوف وهو يراد بيعه من
                طرف الورثة فمن كان يطلبه فليستدل عليه من دلال باشى المذكور.</p>
          </div>
-         <div xml:id="W1263005425" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005425">
             <head><date when-custom="1263-03-14">١٤ ربيع الاول ١٢٦٣</date>
                <date when="1847-03-02">٢ مارس ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥٤</biblScope>
@@ -444,7 +460,7 @@
                وتختبوش وبئر وحوش صغير وهو معرض للبيع وقد بلغ ثمنه خمسة وعشرين كيسا فمن كان له رغبة
                فيه فليرض صاحبه فى ثمنه. </p>
          </div>
-         <div xml:id="W1263005426" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005426">
             <head><date when-custom="1263-03-14">١٤ ربيع الاول ١٢٦٣</date>
                <date when="1847-03-02">٢ مارس ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥٤</biblScope>
@@ -456,7 +472,7 @@
                كبير مكشوف وحديقة صغيرة وهو جارى فى ملك <persName>صالح الحلبى</persName> وقد بلغ ثمنه
                خمسين كيسا فمن كان له رغبة فيه فليسأل عنه من دلال باشى المذكور.</p>
          </div>
-         <div xml:id="W1263005427" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005427">
             <head><date when-custom="1263-03-14">١٤ ربيع الاول ١٢٦٣</date>
                <date when="1847-03-02">٢ مارس ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥٤</biblScope>
@@ -513,7 +529,7 @@
                وحوش مكشوف وهو معرض للبيع فمن كان له رغبة فيه فليستدل عليه من الدلال باشى
                المذكور.</p>
          </div>
-         <div xml:id="W1263005632" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005632" resp="#eSG">
             <head><date when-custom="1263-03-28">٢٨ ربيع الاول ١٢٦٣</date>
                <date when="1848-03-16">١٦ مارس ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥٦</biblScope>
@@ -526,7 +542,7 @@
                تحت الربع والآخر من درب سعاده وقد بلغ ثمنه خمسة واربعين كيسا فمن كان له رغبة فيه
                فليسأل عنه من السيد <persName role="دلال باشى">مصطفى دلال باشى</persName>.</p>
          </div>
-         <div xml:id="W1263005633" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005633">
             <head><date when-custom="1263-03-28">٢٨ ربيع الاول ١٢٦٣</date>
                <date when="1848-03-16">١٦ مارس ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥٦</biblScope>
@@ -536,7 +552,7 @@
                وكلار وحمام والسفلى على الطاحونة وحوش واصطبل يسع ثنتين من المواشى وحاصل وبئر وقد بلغ
                ثمنه عشرة آلاف قرش فمن كان له رغبة فيه فليسأل عنه من الدلال باشى المذكور.</p>
          </div>
-         <div xml:id="W1263005634" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005634">
             <head><date when-custom="1263-03-28">٢٨ ربيع الاول ١٢٦٣</date>
                <date when="1848-03-16">١٦ مارس ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥٦</biblScope>
@@ -548,7 +564,7 @@
                اربع اود ومطبخ وكلار والسفلى على منظرة وبئر واصطبل يسع حيوانين وحاصل وحوش مكشوف سماوى
                وهو معرض للبيع فمن كان يريد شرآءه فليسأل عنه الدلال المذكور.</p>
          </div>
-         <div xml:id="W1263005635" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005635">
             <head><date when-custom="1263-03-28">٢٨ ربيع الاول ١٢٦٣</date>
                <date when="1848-03-16">١٦ مارس ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥٦</biblScope>
@@ -559,7 +575,7 @@
                العليا على ثلاث اود ومطبخ وكلار والسفلى على منظرة واصطبل يسع حيوانين وحاصل وحوش سماوى
                وهو يراد بيعه ايضا فمن كان له رغبة فيه فليسأل عنه من الدلال المذكور.</p>
          </div>
-         <div xml:id="W1263005736" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005736" resp="#eSG">
             <head><date when-custom="1263-04-05">٥ ربيع الثانى ١٢٦٣</date>
                <date when="1847-03-23">٢٣ مارس ١٨٤٧</date><bibl><biblScope unit="issue">نمرة ٥٧</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
@@ -579,7 +595,7 @@
                اثنين وعشرين الف قرش وخمسمائة قرش فمن كان يريد شرآءه فليسأل عنه من دلال باشى
                المذكور.</p>
          </div>
-         <div xml:id="W1263005837" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005837" resp="#eSG">
             <head><date when-custom="1263-04-12">١٢ ربيع الثاني ١٢٦٣</date>
                <date when="1847-03-30">٣٠ مارس ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥٨</biblScope>
@@ -600,7 +616,7 @@
                ولدى المذاكرة بالمجلس المذكور استنسب رأى الامير المومى اليه كل من اعضاء المجلس وصدقوا
                عليه جميعا واستقر رأيهم على اجرائه وتعلقت الارادة السنية بمقتضاه.</p>
          </div>
-         <div xml:id="W1263005838" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005838" resp="#eSG">
             <head><date when-custom="1263-04-12">١٢ ربيع الثاني ١٢٦٣</date>
                <date when="1847-03-30">٣٠ مارس ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥٨</biblScope>
@@ -624,7 +640,7 @@
                منظرة وحاصل وحوش سماوى وهو ايضا مطل على الخليج وقد بلغ ثمنه عشرة اكياس واجرتهما فى كل
                شهر ستون قرشا فمن كان له رغبة فيهما فليستدل عليهما من دلال باشى المذكور.</p>
          </div>
-         <div xml:id="W1263005939" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005939" resp="#eSG">
             <head><date when-custom="1263-04-19">١٩ ربيع الثاني ١٢٦٣</date>
                <date when="1847-04-06">٦ ابريل ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥٩</biblScope>
@@ -636,7 +652,7 @@
                وصدر التنبيه على ناظر <placeName xml:id="place-W1263005939_5"><orgName type="اسبيتالية" ref="اسبتالية-القصر-العينى">الاسبيتالية</orgName></placeName> التى فى قصر
                العينى بتخلية محل لحفظها واقامة الطلومبجية.</p>
          </div>
-         <div xml:id="W1263005940" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263005940" resp="#eSG">
             <head><date when-custom="1263-04-19">١٩ ربيع الثاني ١٢٦٣</date>
                <date when="1847-04-06">٦ ابريل ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٥٩</biblScope>
@@ -656,7 +672,7 @@
                وحاصلان وبئر وحديقة صغيرة وحوش سماوى وهو معرض للبيع فمن كان يريد شرآءه فليسأل عنه من
                الدلال المذكور.</p>
          </div>
-         <div xml:id="W1263006041" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263006041" resp="#eSG">
             <head><date when-custom="1263-04-26">٢٦ ربيع الثاني ١٢٦٣</date>
                <date when="1847-04-13">١٣ ابريل ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٦٠</biblScope>
@@ -668,7 +684,7 @@
                تسعة الآف خمسمائة قرش كما تبين من مقايسته وكذا <placeName xml:id="place-W1263006041_2">جامع حضرة الشيخ الحلوجى</placeName> فانه لزم تعميره
                بنحو اربعة آلاف قرش فاجريت عمارتهما طبق الارادة الآصفية.</p>
          </div>
-         <div xml:id="W1263006042" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263006042" resp="#eSG">
             <head><date when-custom="1263-04-26">٢٦ ربيع الثاني ١٢٦٣</date>
                <date when="1847-04-13">١٣ ابريل ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٦٠</biblScope>
@@ -687,7 +703,7 @@
                   <corr>الخزينة</corr>
                </choice> المذكورة.</p>
          </div>
-         <div xml:id="W1263006143" resp="#eSG" n="TREES" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263006143" resp="#eSG" n="TREES">
             <head><date when-custom="1263-05-04">٤ جمادى الاول ١٢٦٣</date>
                <date when="1848-04-20">٢٠ ابريل ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٦١</biblScope>
@@ -707,7 +723,7 @@
                      ب<orgName type="ديوان" ref="ديوان-المدارس">ديوان المدارس</orgName></persName>
                صورة بناء هذا الباب وبعث بها الى <orgName ref="ديوان-الابنية-الميرية" type="ديوان">ديوان الابنية الميرية</orgName> ليجرى العمل على مقتضاها.</p>
          </div>
-         <div xml:id="W1263006144" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263006144" resp="#eSG">
             <head><date when-custom="1263-05-04">٤ جمادى الاول ١٢٦٣</date>
                <date when="1847-04-20">٢٠ ابريل ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٦١</biblScope>
@@ -722,7 +738,7 @@
                فيها اشجارا من اللبخ فكان سعيه سعيا مشكورا وصنعه صنعا مبرورا وصارت تلك الطريق مزينة
                بصفوف الاشجار عن يمين ويسار.</p>
          </div>
-         <div xml:id="W1263006245" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263006245" resp="#eSG">
             <head><date when-custom="1263-05-11">١١ جمادى الاول ١٢٦٣</date>
                <date when="1847-04-27">٢٧ ابريل ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٦٢</biblScope>
@@ -734,7 +750,7 @@
                صرف المبلغ من <orgName type="خزينة" ref="الخزينة-العامرة">الخزينة العامرة</orgName>
                حسب الارادة السنية وشرع فى ترميمه.</p>
          </div>
-         <div xml:id="W1263006246" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263006246" resp="#eSG">
             <head><date when-custom="1263-05-11">١١ جمادى الاول ١٢٦٣</date>
                <date when="1847-04-27">٢٧ ابريل ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٦٢</biblScope>
@@ -745,7 +761,7 @@
                الجارى فى حق التلاميذ وتعلقت الارادة السنية باصعاده الى تلك الرتبة واعطائه نشانها وقد
                قرت عيناه بهذا السرور والحظ الموفور.</p>
          </div>
-         <div xml:id="W1263006247" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263006247" resp="#eSG">
             <head><date when-custom="1263-05-11">١١ جمادى الاول ١٢٦٣</date>
                <date when="1847-04-27">٢٧ ابريل ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٦٢</biblScope>
@@ -774,7 +790,7 @@
                المواشى وهو معرض للبيع وقد بلغ ثمنه اربعين كيسا فمن كان له رغبة فيه فليسأل عنه من
                دلال باشى المذكور.</p>
          </div>
-         <div xml:id="W1263006448" resp="#eSG" n="NUMBERS FOR HOUSES" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263006448" resp="#eSG" n="NUMBERS FOR HOUSES">
             <head><date when-custom="1263-05-25">٢٥ جمادى الاول ١٢٦٣</date>
                <date when="1847-05-11">١١ مايو ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٦٤</biblScope>
@@ -805,7 +821,7 @@
                   المدارس</orgName>.</p>
          </div>
          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-         <div xml:id="W1263006449" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263006449" resp="#eSG">
             <head><date when-custom="1263-05-25">٢٥ جمادى الاول ١٢٦٣</date>
                <date when="1847-05-11">١١ مايو ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٦٤</biblScope>
@@ -823,7 +839,7 @@
                      و<placeName xml:id="place-W1263006449_4"><orgName ref="الباقرخانه">الباقرخانه</orgName></placeName> وامثالها
                من محلات اخرى</p>
          </div><?oxy_custom_end?>
-         <div xml:id="W1263006550" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263006550" resp="#eSG">
             <head><date when-custom="1263-06-02">٢ جمادى الاخر ١٢٦٣</date>
                <date when="1847-05-18">١٨ مايو ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٦٥</biblScope>
@@ -847,7 +863,7 @@
                وكلارين والسفلى على منظرة وتختبوش وطاحونة واصطبل يسع حيوانا واحدا وحاصل وبئر وحوش
                مكشوف وهو معرض للبيع فمن كان له رغبة فيه فليسال عنه من الدلال المذكور.</p>
          </div>
-         <div xml:id="W1263006651" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263006651" resp="#eSG">
             <head><date when-custom="1263-06-09">٩ جمادى الاخر ١٢٦٣</date>
                <date when="1847-05-25">٢٥ مايو ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٦٦</biblScope>
@@ -859,7 +875,7 @@
                الله عنهم بحيث انه اذا علم ان بعض محلات الاوقاف المذكورة من مساجد ومكاتب ودكاكين
                وامثالها مما يحتاج الى العمارة بودر الى اجراء مقتضياتها.</p>
          </div>
-         <div xml:id="W1263006652" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263006652" resp="#eSG">
             <head><date when-custom="1263-06-09">٩ جمادى الاخر ١٢٦٣</date>
                <date when="1847-05-25">٢٥ مايو ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٦٦</biblScope>
@@ -875,7 +891,7 @@
                ومطبخ كلار والسفلى على منظرة وحاصل وحوش وهو معرض للبيع فمن كان له رغبة فيه فليسال عنه
                من الدلال المذكور.</p>
          </div>
-         <div xml:id="W1263006753" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263006753" resp="#eSG">
             <head><date when-custom="1263-06-16">١٦ جمادى الاخر ١٢٦٣</date>
                <date when="1847-06-01">١ يونيو ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٦٧</biblScope>
@@ -893,7 +909,7 @@
                ثلاث اود ومطبخ وكلار والسفلى على حاصل واصطبل يسع حيوانين وبئر وحوش وقد بلغ ثمنه عشرة
                اكياس وهو يراد بيعه فمن كان له رغبة فيه فليستخبر من الدلال المذكور.</p>
          </div>
-         <div xml:id="W1263006954" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263006954" resp="#eSG">
             <head><date when-custom="1263-07-01">١ رجب ١٢٦٣</date>
                <date when="1848-06-15">١٥ يونيو ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٦٩</biblScope>
@@ -908,7 +924,7 @@
                القبلى فصرف فى تلك العمارات من طرف الميرى مبلغ مائة وستة وتسعين كيسا وثلاثمائة قرش
                وستة قروش وثمانية وعشرين نصفا فضه.</p>
          </div>
-         <div xml:id="W1263007055" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263007055" resp="#eSG">
             <head><date when-custom="1263-07-08">٨ رجب ١٢٦٣</date>
                <date when="1847-06-22">٢٢ يونيو ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٧٠</biblScope>
@@ -927,7 +943,7 @@
                الغيرة لم تستمر لانتهاء الساعة الرابعة بل تيسر اطفاؤها بسرعة ولم تضر بما عدا المحل
                الذى ظهرت منه ولم يضع شئ للمغربى المذكور.</p>
          </div>
-         <div xml:id="W1263007156" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263007156" resp="#eSG">
             <head><date when-custom="1263-07-15">١٥ رجب ١٢٦٣</date>
                <date when="1847-06-29">٢٩ يونيو ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٧١</biblScope>
@@ -939,7 +955,7 @@
                   <corr>من</corr>
                </choice> طرف الميرى كما يجب.</p>
          </div>
-         <div xml:id="W1263007157" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263007157" resp="#eSG">
             <head><date when-custom="1263-07-15">١٥ رجب ١٢٦٣</date>
                <date when="1847-06-29">٢٩ يونيو ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٧١</biblScope>
@@ -954,7 +970,7 @@
                وجامكاه وحديقة صغيرة ومنظرة ذات فسقية وثلاث اود كلار ومطبخ وبئر وهو معرض للبيع فمن
                طلبه فليسال عنه من دلال باشى المذكور.</p>
          </div>
-         <div xml:id="W1263007358" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263007358" resp="#eSG">
             <head><date when-custom="1263-07-29">٢٩ رجب ١٢٦٣</date>
                <date when="1847-06-29">٢٩ يونيو ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٧٣</biblScope>
@@ -1059,7 +1075,7 @@
                   ان كل من نظر الى اللوحة يعلم اسم المحل الذى هو فيه.</p>
             </div>
          </div>
-         <div xml:id="W1263007359" resp="#eSG" n="RUZNAME" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263007359" resp="#eSG" n="RUZNAME">
             <head><date when-custom="1263-07-29">٢٩ رجب ١٢٦٣</date>
                <date when="1847-06-29">٢٩ يونيو ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٧٣</biblScope>
@@ -1073,7 +1089,7 @@
                بالطبقة العليا والاخرى ارضية على العادة وله طاحونة وحوش سماوى وقد بلغ ثمنه سبعين كيسا
                يراد بيعه على ذمته فمن كان له رغبة فيه فليستدل عليه من الدلال المذكور.</p>
          </div>
-         <div xml:id="W1263007460" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263007460" resp="#eSG">
             <head><date when-custom="1263-08-06">٦ شعبان ١٢٦٣</date>
                <date when="1847-07-20">٢٠ يوليو ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٧٤</biblScope>
@@ -1085,7 +1101,7 @@
                وثلاث اود للغلال وبئر وهو متعلق بمالكته المشمولة بوكالة <persName>السيد مصطفى الكتبى
                   الدواياتى</persName> وهى تريد بيعه فمن رغب فيه فليسأل عنه من الدلال المذكور.</p>
          </div>
-         <div xml:id="W1263007561" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263007561" resp="#eSG">
             <head><date when-custom="1263-08-13">١٣ شعبان ١٢٦٣</date>
                <date when="1848-07-27">٢٧ يوليو ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٧٥</biblScope>
@@ -1104,7 +1120,7 @@
                الكائنة ب<placeName xml:id="place-W1263007561_2">بولاق</placeName> المخصصة للعمليات * وحصل تركيب تلك
                الآلات والادوات.</p>
          </div>
-         <div xml:id="W1263007562" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263007562" resp="#eSG">
             <head><date when-custom="1263-08-13">١٣ شعبان ١٢٦٣</date>
                <date when="1847-07-27">٢٧ يوليو ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٧٥</biblScope>
@@ -1121,7 +1137,7 @@
                واحدا وطاحونة وبئر وحوش صغير مكشوف وقد بلغ ثمنه خمسا وعشرين كيسا فمن كان له رغبة فيه
                فليستدل عليه من دلال باشى المذكور.</p>
          </div>
-         <div xml:id="W1263007663" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263007663" resp="#eSG">
             <head><date when-custom="1263-08-20">٢٠ شعبان ١٢٦٣</date>
                <date when="1847-08-03">٣ اغسطس ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٧٦</biblScope>
@@ -1139,7 +1155,7 @@
                وحوش يراد بيعه وقد بلغ ثمنه ستة اكياس فمن كان يريده فليسأل عنه من دلال باشى
                المذكور.</p>
          </div>
-         <div xml:id="W1263007764" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263007764" resp="#eSG">
             <head><date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣</date>
                <date when="1847-08-10">١٠ اغسطس ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٧٧</biblScope>
@@ -1270,7 +1286,7 @@
                   ونمرتها تكون حمرآء.</p>
             </div>
          </div>
-         <div xml:id="W1263007765" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263007765" resp="#eSG">
             <head><date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣</date>
                <date when="1847-08-10">١٠ اغسطس ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٧٧</biblScope>
@@ -1306,7 +1322,7 @@
                      درب سعادة</placeName> وتنمر بالمداد الأحمر.</p>
             </div>
          </div>
-         <div xml:id="W1263007866" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263007866" resp="#eSG">
             <head><date when-custom="1263-09-4">٤ رمضان ١٢٦٣</date>
                <date when="1847-08-16">١٦ اغسطس ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٧٨</biblScope>
@@ -1638,7 +1654,7 @@
                واستوجبت حيرتها الا ان البارى سبحانه وتعالى حفظهم من المضار والاضمحلال فله الحمد
                والثناء على كل حال.</p>
          </div>
-         <div xml:id="W1263007867" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263007867" resp="#eSG">
             <head><date when-custom="1263-09-4">٤ رمضان ١٢٦٣</date>
                <date when="1847-08-16">١٦ اغسطس ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٧٨</biblScope>
@@ -1654,7 +1670,7 @@
                   <corr>عنه</corr>
                </choice> من دلال باشى المذكور.</p>
          </div>
-         <div xml:id="W1263007968" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263007968" resp="#eSG">
             <head><date when-custom="1263-09-11">١١ رمضان ١٢٦٣</date>
                <date when="1847-08-23">٢٣ اغسطس ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٧٩</biblScope>
@@ -1675,7 +1691,7 @@
                وتختبوش وحاصل وبئر معين وحوش سماوى وهو معرض للبيع وقد بلغ ثمنه سبعة آلاف قرش
                وثمانمائة فمن كان له رغبة فيه فليسأل عنه من الدلال المذكور.</p>
          </div>
-         <div xml:id="W1263008169" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263008169" resp="#eSG">
             <head><date when-custom="1263-09-25">٢٥ رمضان ١٢٦٣</date>
                <date when="1847-09-06">٦ سبتمبر ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٨١</biblScope>
@@ -1693,7 +1709,7 @@
                وله حوش مكشوف فمن اراده فليسأل عنه من <persName role="دلال باشى">السيد مصطفى دلال
                   باشى</persName>.</p>
          </div>
-         <div xml:id="W1263008370" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263008370" resp="#eSG">
             <head><date when-custom="1263-10-10">١٠ شوال ١٢٦٣</date>
                <date when="1847-09-21">٢١ سبتمبر ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٨٣</biblScope>
@@ -1705,7 +1721,7 @@
                التدارك بطلومبة الخط المذكور ايضا فحصل اخمادها سريعا ولكنه قد مات فيها بقرتان وثوران
                وحمار كانوا مربوطين فى مكان من الامكنة التى سرت اليها تلك الحريقة.</p>
          </div>
-         <div xml:id="W1263008471" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263008471" resp="#eSG">
             <head><date when-custom="1263-10-17">١٧ شوال ١٢٦٣</date>
                <date when="1847-09-28">٢٨ سبتمبر ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٨٤</biblScope>
@@ -1718,7 +1734,7 @@
                الزآئد مع الطلونبجية المختصة ب<placeName xml:id="place-W1263008471_3">بولاق</placeName> فأخمدوها ولم
                يحترق سوى جانب ليف كان موجودا فى المخزن المذكور.</p>
          </div>
-         <div xml:id="W1263008472" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263008472" resp="#eSG">
             <head><date when-custom="1263-10-17">١٧ شوال ١٢٦٣</date>
                <date when="1847-09-28">٢٨ سبتمبر ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٨٤</biblScope>
@@ -1730,7 +1746,7 @@
                منظرتين وحديقة صغيرة واصطبل يسع ثنتين من المواشى وحاصل وحوش سماوى وبئر وهو جديد ويراد
                بيعه وقد بلغ ثمنه اثنين وخمسين كيسا فمن اراده فليسأل عنه من <persName role="صطفى دلال باشى">السيد مصطفى دلال باشى</persName>.</p>
          </div>
-         <div xml:id="W1263008673" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263008673" resp="#eSG">
             <head><date when-custom="1263-11-02">٢ ذي القعدة ١٢٦٣</date>
                <date when="1847-10-12">١٢ اكتوبر ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٨٦</biblScope>
@@ -1749,7 +1765,7 @@
                وحوش كبير وهو يراد بيعه بتوكيل <persName>محمد المحروقى العقاد</persName> وقد بلغ فى
                الزيادة اربعين كيسا فمن كان له رغبة فيه فليستدل عليه من دلال باشى المذكور.</p>
          </div>
-         <div xml:id="W1263008774" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263008774" resp="#eSG">
             <head><date when-custom="1263-11-09">٩ ذي القعدة ١٢٦٣</date>
                <date when="1847-10-19">١٩ اكتوبر ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٨٧</biblScope>
@@ -1762,7 +1778,7 @@
                وحصل اخمادها من غير توان قبل سرايتها ولم يحترق من البيت المذكور سوى خزنة بما فيها كما
                اخبر به من <orgName ref="الضبطية">الضبطية</orgName>.</p>
          </div>
-         <div xml:id="W1263008975" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263008975" resp="#eSG">
             <head><date when-custom="1263-11-22">٢٢ ذي القعدة ١٢٦٣</date>
                <date when="1847-11-01">١ نوفمبر ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٨٩</biblScope>
@@ -1773,7 +1789,7 @@
                   محسن</persName> له دكانين ايضا فى <placeName xml:id="place-W1263008975_3">باب الخلق</placeName>
                وقد لزم الجميع لتوسيع الجادة حصل الشرآء من كل منهما لجانب <orgName ref="الميرى">الميرى</orgName> بالثمن اللائق.</p>
          </div>
-         <div xml:id="W1263008976" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263008976" resp="#eSG">
             <head><date when-custom="1263-11-22">٢٢ ذي القعدة ١٢٦٣</date>
                <date when="1847-11-01">١ نوفمبر ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٨٩</biblScope>
@@ -1793,7 +1809,7 @@
                واصطبل يسع ثلاثا من الموشى وطاحونة وبئر وحوش سماوى وهو يراد بيعه بتوكيل <persName role="كاتب ديوان الابنية الميريه">الشيخ محمد حسين احد كتبة <orgName type="ديوان" ref="ديوان-الابنية-الميريه">ديوان الابنية الميريه</orgName></persName> فمن كان
                له رغبة فيه فليسأل عنه من دلال باشى المذكور.</p>
          </div>
-         <div xml:id="W1263009477" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1263009477" resp="#eSG">
             <head><date when-custom="1263-12-30">غاية شهر ذى الحجه ١٢٦٣</date>
                <date when="1847-12-10">١٠ ديسمبر ١٨٤٧</date>
                <bibl><biblScope unit="issue">نمرة ٩٤</biblScope>

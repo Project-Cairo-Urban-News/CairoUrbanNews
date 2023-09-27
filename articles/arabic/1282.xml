@@ -1,128 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
-               Project</title>
-            <editor xml:id="eNK">Nour Kanaan</editor>
-            <editor xml:id="eAM">Adam Mestyan</editor>
-            <editor xml:id="eDY">Danah Younis</editor>
-            <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
-            <editor xml:id="eAE">Arif Erbil</editor>
-            <editor xml:id="eAK">Ahmed Kamal</editor>
-            <editor xml:id="eAS">Abram Smith</editor>
-            <editor xml:id="eCH">Clara Harms</editor>
-            <editor xml:id="eHS">Hüseyin Sağlam</editor>
-            <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
-            <editor xml:id="eHL">Hiba Laabadli</editor>
-            <editor xml:id="eOE">Othmane Echchabi</editor>
-            <editor xml:id="eFA">Fatemah Almahana</editor>
-            <respStmt>
-               <resp>Advisor</resp>
-               <name>Hugh Cayless</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Adam Mestyan</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Mercedes Volait</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Sarah Fathallah Garaa</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Karima Nasr</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Rezk Nory</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Arif Erbil</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Ahmed Kamal</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Abram Smith</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Clara Harms</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Hüseyin Sağlam</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Abdulrahman El-Taliawi</name>
-            </respStmt>
-            <sponsor>
-               <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
-                  <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew
-                  W. Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke
-                  University Libraries</orgName>; <orgName>Centre national de la recherche
-                  scientifique</orgName>. </sponsor>
-         </titleStmt>
-         <publicationStmt>
-            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La
-               fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-            <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
-                  Volait</persName></p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
-            <p>born digital document</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <projectDesc>
-            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in
-               the project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke
-               University).</p>
-         </projectDesc>
-         <editorialDecl>
-            <p>Rules of TEI XML MarkUp in This Project</p>
-            <p>We use the Arabic script but transliteration into Latin characters follows the
-               Library of Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic
-                  transliteration chart</ref>.</p>
-            <p>Each individual article has an individual xml:id number starting with "w1"</p>
-            <p>We only use persName, orgName, placeName elements, apart from bibliographical
-               elements and notes.</p>
-            <p>If the location or organization of responsibility is known from the text, it can be
-               added in an attribute to a persName.</p>
-            <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
-                  Editions</ref>.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="ar">Arabic</language>
-            <language ident="en">English</language>
-            <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
-            <language ident="ota">Ottoman</language>
-         </langUsage>
-      </profileDesc>
-      <revisionDesc status="cleared">
+    <fileDesc>
+      <titleStmt>
+        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
+          Project</title>
+        <editor xml:id="eNK">Nour Kanaan</editor>
+        <editor xml:id="eAM">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
+        <editor xml:id="eAE">Arif Erbil</editor>
+        <editor xml:id="eAK">Ahmed Kamal</editor>
+        <editor xml:id="eAS">Abram Smith</editor>
+        <editor xml:id="eCH">Clara Harms</editor>
+        <editor xml:id="eHS">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+        <editor xml:id="eHL">Hiba Laabadli</editor>
+        <editor xml:id="eOE">Othmane Echchabi</editor>
+        <editor xml:id="eFA">Fatemah Almahana</editor>
+        <editor xml:id="eMZ">Mahmoud Zaki</editor>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project leader</resp>
+          <name>Mercedes Volait</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Sarah Fathallah Garaa</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Karima Nasr</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Rezk Nory</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Arif Erbil</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Ahmed Kamal</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abram Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Clara Harms</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hüseyin Sağlam</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abdulrahman El-Taliawi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hiba Laabadli</name> 
+        </respStmt>
+     <respStmt>
+       <resp>Research Assistant</resp>
+       <name>Othmane Echchabi</name>
+     </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Fatemah Almahana</name> 
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Mahmoud Zaki</name> 
+        </respStmt>
+        <sponsor>
+          <orgName>National Endowment for the Humanities</orgName>,
+          and
+          <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
+            <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+            Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName> 
+        </sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
+          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+        <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>, <persName>Hugh Cayless</persName></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+        <p>born digital document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Rules of TEI XML MarkUp in This Project</p>
+        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
+        <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
+        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+          Editions</ref>.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+        <language ident="ota">Ottoman</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
          <listChange>
-            <change status="cleared" resp="#eAM" when="2023-07-21"/>
+            <change resp="#eAM" when="2023-07-21"/>
          </listChange>
       </revisionDesc>
-   </teiHeader>
+  </teiHeader>
   
   <text xml:lang="ar">
       <body>
-         <div xml:id="W1282000101" resp="#eAM" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282000101" resp="#eAM">
             <head><date when-custom="1282-07-26">٧ رجب ١٢٨٢</date>
                <date when="1865-11-25">٢٥ نوفمبر ١٨٦٥</date>
                <bibl><biblScope unit="issue">نمرة ١</biblScope><biblScope unit="page">صفحة
@@ -131,7 +147,7 @@
                الرتبة الثانية لما شوهد من اقدامه ومزيد من اهتمامه في الخدمة المشكورة والمساعي
                المبرورة اذ لم تزل العوارف العلية الخديوية تشمل أرباب المعارف والحمية.</p>
          </div>
-         <div xml:id="W1282000202" resp="#eAM" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282000202" resp="#eAM">
             <head>
                <date when-custom="1282-07-12">١٢ رجب ١٢٨٢</date>
                <date when="1865-11-30">٣٠ نوفمبر ١٨٦٥</date><bibl><biblScope unit="issue">نمرة
@@ -146,7 +162,7 @@
                اللطافة والظرافة تهيأ عند الغروب ضيافة تليق بالطلعة البهية العزيزية وتكون خدمة كافة
                الجهادية.</p>
          </div>
-         <div xml:id="W1282000203" resp="#eAM" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282000203" resp="#eAM">
             <head>
                <date when-custom="1282-07-12">١٢ رجب ١٢٨٢</date>
                <date when="1865-11-30">٣٠ نوفمبر ١٨٦٥</date><bibl><biblScope unit="issue">نمرة
@@ -158,7 +174,7 @@
                وعزتلو <persName role="ناظر قلم دعاوي">ابراهيم أدهم بيك</persName> الذي كان بمعية
                الجناب الخديوي ناظر قلم التكية تعيين الآن ناظر قلم دعاوي بمديرية الغربية.</p>
          </div>
-         <div xml:id="W1282000204" resp="#eAM" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282000204" resp="#eAM">
             <head>
                <date when-custom="1282-07-12">١٢ رجب ١٢٨٢</date>
                <date when="1865-11-30">٣٠ نوفمبر ١٨٦٥</date><bibl><biblScope unit="issue">نمرة
@@ -170,7 +186,7 @@
                بالأمر بتخصيص وابور بحري لركوبه إلى <placeName xml:id="place-W1282000204_5">الجيزة</placeName> بما
                فيه من اللوازم وخيول ... للركوب بعد خروجه منه متوجهًا إلى مارام وهو الأهرام.</p>
          </div>
-         <div xml:id="W1282000205" resp="#eAM" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282000205" resp="#eAM">
             <head>
                <date when-custom="1282-07-12">١٢ رجب ١٢٨٢</date>
                <date when="1865-11-30">٣٠ نوفمبر ١٨٦٥</date><bibl><biblScope unit="issue">نمرة
@@ -178,7 +194,7 @@
             <p>ان جناب رفعتلو <persName>طرابوليجية محمد قبودان</persName> الذي كان معاونًا ب<orgName ref="مجلس الأحكام المصرية" type="مجلس">مجلس الأحكام المصرية</orgName> قلد بوظيفة
                المعاون بالضبطية.</p>
          </div>
-         <div xml:id="W1282000406" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282000406" resp="#eSG">
             <head><date when-custom="1282-07-26">٢٦ رجب ١٢٨٢</date>
                <date when="1865-12-14">١٤ ديسمبر ١٨٦٥</date>
                <bibl><biblScope unit="issue">نمرة ٤</biblScope>
@@ -191,7 +207,7 @@
                المعتبرة والي <persName role="خوجة العلوم الطبيعية والكيماوية والنباتية بالمدرسة الطبية">أحمد ندى أفندي
                   خوجة العلوم الطبيعية والكيماوية والنباتية ب<placeName xml:id="place-W1282000406_1">المدرسة الطبية</placeName></persName> بالرتبة الرابعة.</p>
          </div>
-         <div xml:id="W1282000407" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282000407" resp="#eSG">
             <head><date when-custom="1282-07-26">٢٦ رجب ١٢٨٢</date>
                <date when="1865-12-14">١٤ ديسمبر ١٨٦٥</date>
                <bibl><biblScope unit="issue">نمرة ٤</biblScope>
@@ -202,7 +218,7 @@
                   <orgName type="إدارة" ref="الإدارة-السنية-الخديوية">الادارة السنية
                   الخديوية</orgName>.</p>
          </div>
-         <div xml:id="W1282000608" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282000608" resp="#eSG">
             <head><date when-custom="1282-8-10">١٠ شعبان ١٢٨٢</date>
                <date when="1865-12-28">٢٨ ديسمبر ١٨٦٥</date>
                <bibl><biblScope unit="issue">نمرة ٦</biblScope>
@@ -214,7 +230,7 @@
                والباشجاويش إلى درجة الاسبران وأربعة جاويشية إلى باشجاويشية واثني عشر شخصا اونباشية
                إلى درجة الجاويش وسبعة وستين شخصا الى درجة الاونباشي.</p>
          </div>
-         <div xml:id="W1282000609" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282000609" resp="#eSG">
             <head><date when-custom="1282-8-10">١٠ شعبان ١٢٨٢</date>
                <date when="1865-12-28">٢٨ ديسمبر ١٨٦٥</date>
                <bibl><biblScope unit="issue">نمرة ٦</biblScope>
@@ -226,7 +242,7 @@
                تحرر إلي معاون <orgName ref="الأوقاف">الأوقاف</orgName> لأجل إشهار ذلك بقائمة مزايدة
                بين الراغبين فمن اراد ذلك فعليه بالديوان المذكور.</p>
          </div>
-         <div xml:id="W1282000710" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282000710" resp="#eSG">
             <head><date when-custom="1282-8-17">١٧ شعبان ١٢٨٢</date>
                <date when="1866-01-04">٤ يناير ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٧</biblScope>
@@ -264,7 +280,7 @@
                والمجدد الثاني داعين ومتشكرين وان شاء الله تعالى عند اختتام الأمتحان وظهور درجات
                التلامذة يبادر ببيان مقدراهم وتبيين درجاتهم على حسب اختبارهم. </p>
          </div>
-         <div xml:id="W1282000711" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282000711" resp="#eSG">
             <head><date when-custom="1282-8-17">١٧ شعبان ١٢٨٢</date>
                <date when="1866-01-04">٤ يناير ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٧</biblScope>
@@ -274,7 +290,7 @@
                التشويقات الجليلة الواقعة من طرف الحضرة الخديوية المعدودة من المحاسن التمدنية وحيث لم
                يوجد وقت لتحرير مفصلاتها بها هذه الدفعة اضطررنا لتأخيرها للدفعة الأتية.</p>
          </div>
-         <div xml:id="W1282000712" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282000712" resp="#eSG">
             <head><date when-custom="1282-8-17">١٧ شعبان ١٢٨٢</date>
                <date when="1866-01-04">٤ يناير ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٧</biblScope>
@@ -286,7 +302,7 @@
                   الاستاندليه</persName> وفي الحال صار الاسعاف من طرف <orgName type="ضبطية">الضبطية</orgName> باجراء ما يلزم لاطفائها قبل سرايتها الى جهات أخر بدون احتياج
                الى الطلومبا ولم يحترق منه سوى بعض امتعه جزئية كمفروشات وملبوسات واهية.</p>
          </div>
-         <div xml:id="W1282000813" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282000813" resp="#eSG">
             <head><date when-custom="1282-8-24">٢٤ شعبان ١٢٨٢</date>
                <date when="1866-01-11">١١ يناير ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٨</biblScope>
@@ -302,7 +318,7 @@
                الحائزات قصب السبق في مضمار المسابقة ادرجناه كما تراه في الصحيفة الاخيرة بجل
                مبناه.</p>
          </div>
-         <div xml:id="W1282000814" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282000814" resp="#eSG">
             <head><date when-custom="1282-8-24">٢٤ شعبان ١٢٨٢</date>
                <date when="1866-01-11">١١ يناير ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٨</biblScope>
@@ -313,7 +329,7 @@
                الأشخاص والطلومبات واطفئت في نصف ساعة ولم تسير إلى الجهة أخرى ولم يحترق سوى زكيبة
                فيها القليل من القطن وبعض سقف فسحة المنزل التي في السكن الوسط كما علم بالاستعلام.</p>
          </div>
-         <div xml:id="W1282000815" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282000815" resp="#eSG">
             <head><date when-custom="1282-8-24">٢٤ شعبان ١٢٨٢</date>
                <date when="1866-01-11">١١ يناير ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٨</biblScope>
@@ -329,7 +345,7 @@
                المنزل والسلاملك المذكوران بعد مضي خمسة وأربعين يوما من تاريخ البيع وقبض الثمن كما هو
                مبين بالقائمتين المذكورتين هذا ما لزم اشهاره واعلانه.</p>
          </div>
-         <div xml:id="W1282000916" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282000916" resp="#eSG">
             <head><date when-custom="1282-09-02">٢ رمضان ١٢٨٢</date>
                <date when="1866-01-18">١٨ يناير ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٩</biblScope>
@@ -342,7 +358,7 @@
                الداخليه وانيط <persName>سعادة نوبار باشا</persName> لدرايته وأهليته ب<orgName type="نظارة" ref="نظارة-الخارجيه">نظارة الخارجيه</orgName> وصدرت بذلك الأوامر
                العلية من الحضرة الكريمة الخديوية.</p>
          </div>
-         <div xml:id="W1282000917" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282000917" resp="#eSG">
             <head><date when-custom="1282-09-02">٢ رمضان ١٢٨٢</date>
                <date when="1866-01-18">١٨ يناير ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٩</biblScope>
@@ -353,14 +369,14 @@
                   الفقار باشا</persName> بعد أن كان من الأعضاء الكرام ب<orgName type="مجلس" ref="المجلس-الخصوصى">المجلس الخصوصى</orgName> و<orgName type="مديرية" ref="مديرية-الغربية">مديرية الغربية</orgName>
                <persName>سعادة حسن باشا حقي</persName> بعد أن كان من أعضاء <orgName type="مجلس" ref="مجلس-الاحكام">مجلس الأحكام</orgName>.</p>
          </div>
-         <div xml:id="W1282000918" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282000918" resp="#eSG">
             <head><date when-custom="1282-09-02">٢ رمضان ١٢٨٢</date>
                <date when="1866-01-18">١٨ يناير ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٩</biblScope>
                   <biblScope unit="page">صفحة ١</biblScope></bibl></head>
             <p>قد تعين سعادة <persName>منصور باشا يكن زادة</persName> من اعضاء <orgName type="مجلس" ref="مجلس-الاحكام">مجلس الأحكام</orgName> المصرية.</p>
          </div>
-         <div xml:id="W1282000919" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282000919" resp="#eSG">
             <head><date when-custom="1282-09-02">٢ رمضان ١٢٨٢</date>
                <date when="1866-01-18">١٨ يناير ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٩</biblScope>
@@ -370,14 +386,14 @@
                ادارتها وقد قلد بمأمورية مديريتها حضرة <persName role="مدير-السكة-الحديد">خورشيد بك
                   الذي كان مامور ضبطية سكندرية</persName> وبوكالتها <persName role="وكيل-السكة-الحديد">حضرة عمر بك لطفى الذى كان مدير الغربيه</persName>.</p>
          </div>
-         <div xml:id="W1282000920" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282000920" resp="#eSG">
             <head><date when-custom="1282-09-02">٢ رمضان ١٢٨٢</date>
                <date when="1866-01-18">١٨ يناير ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٩</biblScope>
                   <biblScope unit="page">صفحة ١</biblScope></bibl></head>
             <p>ان حضرة <persName type="ناظر-القناطر-الخيرية">على بيك مبارك</persName> صار ب<orgName ref="المعية-السنية">المعية السنية</orgName> بعد أن كان ناظر <placeName xml:id="place-W1282000920_1">القناطر الخيرية</placeName>.</p>
          </div>
-         <div xml:id="W1282001221" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282001221" resp="#eSG">
             <head><date when-custom="1282-09-23">٢٣ رمضان ١٢٨٢</date>
                <date when="1866-02-08">٨ فبراير سنة ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ١٢</biblScope>
@@ -388,7 +404,7 @@
             <p>وجهت رتبة المتمايز الى صاحب العزة <persName>مراد غالب بك من الذوات المشرفين بالركاب
                   العالى</persName> واحسن اليه أيضا من نشان مجيدى من الرتبة الثالثة.</p>
          </div>
-         <div xml:id="W1282001222" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282001222" resp="#eSG">
             <head><date when-custom="1282-09-23">٢٣ رمضان ١٢٨٢</date>
                <date when="1866-02-08">٨ فبراير ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ١٢</biblScope>
@@ -401,7 +417,7 @@
                      <orgName ref="الاوقاف">الاوقاف</orgName></persName> ويضع زيادته بقائمة المزايدة
                   و<sic>بعدد</sic> الانتهاء تتحرر الحجج اللازمة من <orgName type="محكمة" ref="المحكمة-الشرعية">المحكمة الشرعية</orgName>.</p>
          </div>
-         <div xml:id="W1282001323" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282001323" resp="#eSG">
             <head><date when-custom="1282-10-06">٦ شوال ١٢٨٢</date>
                <date when="1866-02-08">٢٠ فبراير ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ١٣</biblScope>
@@ -411,7 +427,7 @@
                الخديو الأفخم بالقبول والأكرام واستلم النشان المذكور مع مكتوب الأمبراطور بغاية
                الأحترام ثم أطلقت المدافع تعظيمًا له واعلامًا للجميع وتفهيمًا. </p>
          </div>
-         <div xml:id="W1282001324" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282001324" resp="#eSG">
             <head><date when-custom="1282-10-06">٦ شوال ١٢٨٢</date>
                <date when="1866-02-08">٢٠ فبراير ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ١٣</biblScope>
@@ -421,7 +437,7 @@
                   دومنجى باشا</persName> المستخدمين ب<placeName xml:id="place-W1282001324_1">وابور محمد على أحد السفائن الميرية المصرية</placeName> وذلك لاهليتهما ومهارتهما
                ومكافاءة لما صار منهما من بذل الهمة ومزيد الاجتهاد في خدمتها.</p>
          </div>
-         <div xml:id="W1282001325" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282001325" resp="#eSG">
             <head><date when-custom="1282-10-06">٦ شوال ١٢٨٢</date>
                <date when="1866-02-08">٢٠ فبراير ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ١٣</biblScope>
@@ -433,7 +449,7 @@
                   السنية</orgName></persName> لاحضار ما يجلب منها من الجهات القبلية وعزتلو
                   <persName>سامي بيك أحد مستخدمي <orgName ref="الخارجية">الخارجية</orgName></persName> لاحضار ما يجلب من الجهات البحرية.</p>
          </div>
-         <div xml:id="W1282001426" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282001426" resp="#eSG">
             <head><date when-custom="1282-10-14">١٤ شوال ١٢٨٢</date>
                <date when="1866-02-28">٢٨ فبراير ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ١٤</biblScope>
@@ -444,7 +460,7 @@
                والباقي في السنين الأربع المتقدمة فاذا حسب أن كلا منهم كلف <orgName ref="الخزينة-السلطانية" type="خزينة">الخزينة السلطانية</orgName> عشرين ليرة فقط
                كانت الجملة عشرين مليونًا فهذا ما تنفقه الدولة العلية في سبيل البر والأحسان.</p>
          </div>
-         <div xml:id="W1282001527" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282001527" resp="#eSG">
             <head><date when-custom="1282-10-21">٢١ شوال ١٢٨٢</date>
                <date when="1866-03-07">٧ مارث ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ١٥</biblScope>
@@ -454,7 +470,7 @@
                الجمعة الأعتاب الخديوية شكرًا على ما ناله من الألتفات وكمال التلطفات والتعطفات وعاد
                بسرور ونعمة وحبور.</p>
          </div>
-         <div xml:id="W1282001528" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282001528" resp="#eSG">
             <head><date when-custom="1282-10-21">٢١ شوال ١٢٨٢</date>
                <date when="1866-03-07">٧ مارث ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ١٥</biblScope>
@@ -462,7 +478,7 @@
             <p>ان عزتلو <persName>اسمعيل دانش بيك</persName> بعد أن كان أحد أعضاء <orgName ref="مجلس-الأستئناف-بالجهة-القبلية" type="مجلس">مجلس الأستئناف بالجهة
                   القبلية</orgName> تعيين الآن وكيل <orgName type="ضبطية" ref="الضبطية-المصرية">الضبطية المصرية</orgName>.</p>
          </div>
-         <div xml:id="W1282001529" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282001529" resp="#eSG">
             <head><date when-custom="1282-10-21">٢١ شوال ١٢٨٢</date>
                <date when="1866-03-07">٧ مارث ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ١٥</biblScope>
@@ -470,7 +486,7 @@
             <p>ان <persName>حميتلو أبا العينين أفندي أحمد ملاحظ <orgName type="مطبعة" ref="المطبعة-الزاهرة-ببولاق">المطبعة الزاهرة ب<placeName xml:id="place-W1282001529_1">بولاق</placeName></orgName></persName> مصر القاهرة قد أحسن بالرتبة الخامسة
                إليه فتلقاها بشكر المنعم على انعامه إليه.</p>
          </div>
-         <div xml:id="W1282001530" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282001530" resp="#eSG">
             <head><date when-custom="1282-10-21">٢١ شوال ١٢٨٢</date>
                <date when="1866-03-07">٧ مارث ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ١٥</biblScope>
@@ -481,7 +497,7 @@
                جهة أخرى <sic>ويحترق</sic> من المنزل المذكور شئ سوى بعض سقف مطبخه كما علم من حوادث
                ضبطية مصر.</p>
          </div>
-         <div xml:id="W1282001631" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282001631" resp="#eSG">
             <head><date when-custom="1282-10-29">٢٩ شوال ١٢٨٢</date>
                <date when="1866-03-15">١٥ مارث ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ١٦</biblScope>
@@ -491,7 +507,7 @@
                   السنية</orgName></persName> وعين بهذه الرتبة قائمقاما إلى الاى <sic>القارديا</sic>
                السوارى.</p>
          </div>
-         <div xml:id="W1282001632" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282001632" resp="#eSG">
             <head><date when-custom="1282-10-29">٢٩ شوال ١٢٨٢</date>
                <date when="1866-03-15">١٥ مارث ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ١٦</biblScope>
@@ -502,7 +518,7 @@
                   <orgName ref="الضبطية">الضبطية</orgName> بإرسال ما يلزم من الطلومبات وغيرها اخرجت
                قطعة الخشب المحترقة بالنار وأطفشت بدون أن تسري إلى الجهة الأخرى.</p>
          </div>
-         <div xml:id="W1282001633" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282001633" resp="#eSG">
             <head><date when-custom="1282-10-29">٢٩ شوال ١٢٨٢</date>
                <date when="1866-03-15">١٥ مارث ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ١٦</biblScope>
@@ -523,7 +539,7 @@
                      <orgName ref="الاوقاف">الاوقاف</orgName></persName> باشهار ما ذكر بالمزاد ومن
                الأقتضا درج ذلك بالوقائع الجاري في مثل هذا.</p>
          </div>
-         <div xml:id="W1282001834" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282001834" resp="#eSG">
             <head><date when-custom="1282-11-13">١٣ ذي القعدة ١٢٨٢</date>
                <date when="1866-03-29">٢٩ مارث ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ١٨</biblScope>
@@ -533,7 +549,7 @@
                الهواء وأحيلت <orgName type="إدارة" ref="إدارة-الخارجية">إدارة الخارجية</orgName> في
                مدة غيبته على عهدة سعادة <persName>راغب باشا</persName>.</p>
          </div>
-         <div xml:id="W1282001935" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282001935" resp="#eSG">
             <head><date when-custom="1282-11-20">٢٠ ذي القعدة ١٢٨٢</date>
                <date when="1866-04-05">٥ ابريل ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ١٩</biblScope>
@@ -551,7 +567,7 @@
             <p>قد أحسن إلى عزتلو <persName role="أعيان مصر">موسى بيك العقاد أحد مشاهير أعيان
                   مصر</persName> بالنشان المجيدي الهمايوني من الرتبة الرابعة. </p>
          </div>
-         <div xml:id="W1282001936" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282001936" resp="#eSG">
             <head><date when-custom="1282-11-20">٢٠ ذي القعدة ١٢٨٢</date>
                <date when="1866-04-05">٥ ابريل ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ١٩</biblScope>
@@ -564,7 +580,7 @@
                انتشار النار في سائر جهات هذا الحانوت الذي استدعى هدم جوار المنزل الذي بأعلاه ولم تسر
                إلى الجهه الأخرى.</p>
          </div>
-         <div xml:id="W1282002137" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282002137" resp="#eSG">
             <head><date when-custom="1282-12-04">٤ ذي الحجة ١٢٨٢</date>
                <date when="1866-04-19">١٩ ابريل ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٢١</biblScope>
@@ -573,7 +589,7 @@
             <p>قد وجهت الرتبة الثانية إلى عهدة عزتلو <persName role="مأمور محطة سكة الحديد">على صادق
                   بك مأمور محطة سكة الحديد بمصر</persName>.</p>
          </div>
-         <div xml:id="W1282002138" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282002138" resp="#eSG">
             <head><date when-custom="1282-12-04">٤ ذي الحجة ١٢٨٢</date>
                <date when="1866-04-19">١٩ ابريل ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٢١</biblScope>
@@ -588,7 +604,7 @@
                أخرى وان احترق من المنزل المذكور قائمة وخزنة ورواق بفسحته بما فيها من القرش وبعض صيغة
                ونقود.</p>
          </div>
-         <div xml:id="W1282002239" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282002239" resp="#eSG">
             <head><date when-custom="1282-12-18">١٨ ذي الحجة ١٢٨٢</date>
                <date when="1866-05-03">٣ مايه ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٢٢</biblScope>
@@ -596,7 +612,7 @@
             <p>قد أحيلت مأمورية القائمقامية الجليلة الجسيمة على عهدة الجناب المحترم <persName role="ناظر الداخلية">سعادتلو شريف باشا ناظر <orgName ref="الداخلية">الداخلية</orgName></persName> ونشرت بذلك الأوامر العلية إلى كافة مأموري
                الحكومة المصرية.</p>
          </div>
-         <div xml:id="W1282002240" resp="#eSG" part="N" org="uniform" sample="complete">
+         <div xml:id="W1282002240" resp="#eSG">
             <head><date when-custom="1282-12-18">١٨ ذي الحجة ١٢٨٢</date>
                <date when="1866-05-03">٣ مايه ١٨٦٦</date>
                <bibl><biblScope unit="issue">نمرة ٢٢</biblScope>
