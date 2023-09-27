@@ -26,6 +26,10 @@
   <!-- Suppress default attributes -->
   <xsl:template match="@part|@default|@sample|@complete|@instant|@org|@status|@full" mode="#all"/>
   
+  <xsl:template match="t:change/@status">
+    <xsl:copy-of select="."/>
+  </xsl:template>
+  
   <xsl:template match="node()|@*" mode="#all">
     <xsl:copy>
       <xsl:apply-templates select="node()|@*" mode="#current"/>
