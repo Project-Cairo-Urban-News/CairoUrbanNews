@@ -68,27 +68,26 @@
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
-          <name>Hiba Laabadli</name> 
-        </respStmt>
-     <respStmt>
-       <resp>Research Assistant</resp>
-       <name>Othmane Echchabi</name>
-     </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Fatemah Almahana</name> 
+          <name>Hiba Laabadli</name>
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
-          <name>Mahmoud Zaki</name> 
+          <name>Othmane Echchabi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Fatemah Almahana</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Mahmoud Zaki</name>
         </respStmt>
         <sponsor>
-          <orgName>National Endowment for the Humanities</orgName>,
-          and
-          <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
-            <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
-            Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName> 
+          <orgName>National Endowment for the Humanities</orgName>, and <orgName>Institut français
+            d’archéologie orientale</orgName> (Ifao, Cairo); <orgName>Franklin Humanities Institute
+            and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
+            University</orgName>; <orgName>Duke University Libraries</orgName>; <orgName>Centre
+            national de la recherche scientifique</orgName>
         </sponsor>
       </titleStmt>
       <publicationStmt>
@@ -96,7 +95,8 @@
           du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
         <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
         <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>, <persName>Hugh Cayless</persName></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+            Volait</persName>, <persName>Hugh Cayless</persName></p>
       </publicationStmt>
       <sourceDesc>
         <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
@@ -112,13 +112,17 @@
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
         <p>We use the Arabic script but transliteration into Latin characters follows the Library of
-          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf"
+            >Arabic transliteration chart</ref>.</p>
         <p>Each individual article has an individual xml:id number starting with "w1"</p>
-        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
-        <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
+          and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added
+          in an attribute to a persName.</p>
         <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
-          Editions</ref>.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref
+            target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+            Editions</ref>.</p>
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
@@ -129,9 +133,9 @@
         <language ident="ota">Ottoman</language>
       </langUsage>
     </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="cleared">
       <listChange>
-        <change/>
+        <change status="cleared" resp="#eAM" when="2023-10-01"/>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -391,13 +395,14 @@
             <cell>مسطح</cell>
           </row>
           <row>
-            <cell><placeName ref="منزل-وقف-نفيسة" type="منزل">منزل</placeName> متخرب ب<placeName type="درب" ref="درب-بيرجوان">درب بيرجوان</placeName>
+            <cell><placeName ref="منزل-وقف-نفيسة" type="منزل">منزل متخرب</placeName>  ب<placeName
+                type="درب" ref="درب-بيرجوان">درب بيرجوان</placeName>
               <orgName type="وقف" ref="وقف-نفيسة">وقف <persName>نفيسة</persName></orgName> نظارة
               الديوان</cell>
             <cell>٢٣٣</cell>
           </row>
           <row>
-            <cell><placeName type="منزل" ref="منزل-وقف-يوسف-الجابى">منزل</placeName> متخرب
+            <cell><placeName type="منزل" ref="منزل-وقف-يوسف-الجابى">منزل متخرب</placeName>
                 ب<placeName type="شارع" ref="شارع-باب-الشعرية">شارع باب الشعرية</placeName>
               <orgName ref="وقف-يوسف-الجابى" type="وقف">وقف <persName>يوسف
                 الجابى</persName></orgName> مثله</cell>
@@ -508,8 +513,8 @@
           <bibl><biblScope unit="issue">نمرة ٢٧٩</biblScope>
             <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
         <head><title>اعلانات</title></head>
-        <head><title>اعلان من عموم <orgName ref="الأوقاف">الأوقاف</orgName> بتاريخ ٢٤ ذى القعدة سنة
-            ٨٥</title></head>
+        <head><title>اعلان من  <orgName ref="عموم الأوقاف">عموم الأوقاف</orgName> بتاريخ ٢٤ ذى
+            القعدة سنة ٨٥</title></head>
         <table rows="3" cols="2">
           <row role="label">
             <cell>١</cell>
@@ -533,8 +538,9 @@
             <cell/>
           </row>
         </table>
-        <p>اقتضي الحال استبدال المحلين المذكورين وارسل بهما ٣٥ اعلانا إلى ال<orgName ref="ضبطية">ضبطية</orgName> لتوضع على القره قولات وحرر إلى جناب <persName role="معاون">حسن أفندي
-            مسعود أحد معاوني الديوان</persName> باشهارهما بقوائم مزايدة لمن يرغب.</p>
+        <p>اقتضي الحال استبدال المحلين المذكورين وارسل بهما <sic>٣٥</sic> اعلانا إلى ال<orgName
+            ref="ضبطية">ضبطية</orgName> لتوضع على القره قولات وحرر إلى جناب <persName role="معاون"
+            >حسن أفندي مسعود أحد معاوني الديوان</persName> باشهارهما بقوائم مزايدة لمن يرغب.</p>
       </div>
       <div resp="#eAK #eSG" xml:id="k809">
         <head><date when-custom="1285-12-16">١٦ ذى الحجة ١٢٨٥</date>
@@ -542,7 +548,8 @@
           <bibl><biblScope unit="isuue">نمرة ٢٨٢</biblScope>
             <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
         <head><title>اعلانات</title></head>
-        <head><title>لفظ اعلان وارد من حضرة وكيل عموم <orgName ref="البوستة-الخديوية-المصرية">البوستة الخديوية المصرية</orgName></title></head>
+        <head><title>لفظ اعلان وارد من حضرة وكيل <orgName ref="البوستة-الخديوية-المصرية">عموم
+              البوستة الخديوية المصرية</orgName></title></head>
         <p>يكون معلوما لدى الجميع بأن في يوم الخميس غرة شهر ابريل الأفرنكى سنة ٦٩ الموافق ١٩ الحجة
           سنة ٨٥ ينتقل توكيل <orgName ref="بوسطة-مصر">بوسطة مصر</orgName> من المحل الموجود به الآن
             ل<placeName ref="محل-الخواجات-اخوان-فوتيارس" type="محل">محل <persName>الخواجات اخوان
