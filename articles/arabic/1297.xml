@@ -457,36 +457,53 @@
                بالضمانة والأفادة المقتضية قبل حلول الميعاد المرقوم بيومين لاعمال المزاد بالمصلحة حسب
                الجارى </p>
          </div>
-         <div>
-            <head>طبعت بمطبعة بولاق يوم<date when="1297-03-25"> السبت ٢٥ ربيع الأول سنة
-                  ١٢٩٧ه</date><date when="1880-03-06">٦ مارث الأفرنجي سنة
-                     ١٨٨٠م</date><bibl><biblScope unit="issue">نمرة ٨٦١</biblScope><biblScope unit="page">ص١</biblScope></bibl></head>
+         <div resp="#eSG" xml:id="w11">
+            <head><date when="1297-03-25">٢٥ ربيع الأول ١٢٩٧</date>
+               <date when="1880-03-06">٦ مارث ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٦١</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
             <head>الحوادث الداخلية</head>
-            <p>سبق انه نشر في الصحيفة صورة الأمر العالي الصادر في تاريخ<date when="1880-02-10"> ١٥
-                  فبراير سنة ١٨٨٠</date> المتضمن الترخيص بانشاء البنك العقاري المصري وهذه صورة ترجمة
-               نظامنا منه بالتفصيل </p>
+            <p>سبق انه نشر فى الصحيفة صورة الأمر العالى الصادر في تاريخ  ١٥ فبراير سنة ١٨٨٠ المتضمن
+               الترخيص بانشاء <orgName type="بنك" ref="البنك-العقارى-المصرى">البنك العقارى
+                  المصرى</orgName> وهذه صورة ترجمة نظامنا منه
+               <?oxy_comment_start author="Sarah" timestamp="20231003T215825+0200" comment="is that is the end of the news in the original copy"?>بالتفصيل<?oxy_comment_end?></p>
          </div>
-         <div>
-            <head>طبعت بمطبعة بولاق يوم<date when="1297-03-25"> السبت ٢٥ ربيع الأول سنة
-                  ١٢٩٧ه</date><date when="1880-03-06">٦ مارث الأفرنجي سنة ١٨٨٠م
-                     </date><bibl><biblScope unit="issue">نمرة ٨٦١</biblScope></bibl></head>
-            <head>نص اعلان وارد من ضبطية مصر بتاريخ ١١ ربيع الاول سنة ١٢٩٧</head>
-            <p>صورة ترجمة ورقتي اعلانات انه بناء على طلب كل من<persName> الخواجات بهوده</persName>
-                  و<persName>افرايم ليفي</persName> بقصد اعلان كل من<persName type=" الكابجي">
-                  الكابجي</persName> و<persName>الحاج رضوان الكابجي</persName> وبمقتضى المحضر المحرر
-               من الخواجة اسكندر لنسواني نائب رئيس كاتب المحكمة الأبتدائية المختلطة بمصر بتاريخ ٤
-               فبراير الجاري الذي به يوضح ان الخواجات المذكورين وضعوا بقلم كتاب المحكمة المذكورة
-               دفترشر وطات المزاد للاستحصال على البيه بالمزاد العمومي على المنزل الكائن بدرب قرمز
-               فبمقتضى ما ذكر قد نهيت على كل من أحمد الكابجي والحاج ورضوان الكابجي بانهم يفهموا
-               مضمون دفر الشروطات المذكور ويعطوا الأقوال والملحوظات التي تترآى لهم وقد تحرر هذا
-               للمعلومية هذا ولما توجه المحضر لاعلان ذلك اني احمد رضوان الكابجي فوجد منزلهم مغلوق
-               ولذا أحضر هذين الورقتين للضبطية في<date when="1880-02-14"> ١٤ فبراير سنة
-               ١٨٨٠</date></p>
+         <div resp="#eSG" xml:id="w12">
+            <head><date when="1297-03-25">٢٥ ربيع الأول ١٢٩٧</date>
+               <date when="1880-03-06">٦ مارث ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٦١</biblScope>
+                  <biblScope unit="page"
+                     ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>صفحة<?oxy_custom_end?></biblScope></bibl></head>
+            <head>نص اعلان وارد من <orgName ref="ضبطية-مصر" type="ضبطية">ضبطية مصر</orgName> بتاريخ
+               ١١ ربيع الاول سنة ١٢٩٧</head>
+            <p>صورة ترجمة ورقتى اعلانات انه بناء على طلب كل من
+                  <persName>الخواجات<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                  بهوده<?oxy_custom_end?></persName> و<persName>افرايم ليفى</persName> بقصد
+               اع<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>لان كل من
+               الكابجى و<?oxy_custom_end?><persName>الحاج رضوان الكابجى</persName> وبمقتضى المحضر
+               المحرر من <persName>الخواجة اسكندر لنسوانى نائب رئيس كاتب <orgName
+                     ref="المحكمة-الابتدائية-المختلطة" type="محكمة">المحكمة الأبتدائية
+                     المختلطة</orgName></persName> بمصر بتاريخ ٤ فبراير الجارى الذى به يوضح ان
+               الخواجات المذكورين وضعوا بقلم كتاب المحكمة المذكورة دفتر شروطات المزاد
+               للاستحصال<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> على
+               البيه <?oxy_custom_end?>بالمزاد العمومى على المنزل الكائن ب<placeName ref="درب-قرمز"
+                  type="درب">درب قرمز</placeName> فبمقتضى ما
+               ذكر<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> قد نهيت
+               <?oxy_custom_end?>على كل من <persName>أحمد الكابجى</persName>
+               والحاج<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+               و<?oxy_custom_end?>رضوان الكابجى بانهم يفهموا مضمون دفر الشروطات المذكور ويعطوا
+               الأقوال والملحوظات التى تترآى لهم وقد تحرر هذا للمعلومية هذا ولما توجه
+               الم<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>حضر لاعلان ذلك
+               ان<?oxy_custom_end?>ى احمد رضوان الكابجى فوجد منزلهم مغلوق ولذا أحضر هذين الورقتين
+               للضبطية فى ١٤ فبراير سنة ١٨٨٠</p>
          </div>
-         <div>
-            <head>يوم <date when="1297-03-28">الثلاثا ٢٨ ربيع الأول سنة ١٢٩٧ه</date><date when="1880-03-09">٩ مارث الأفرنجي سنة ١٨٨٠م</date><bibl><biblScope unit="issue">نمرة ٨٦٢</biblScope><biblScope unit="page">ص٤</biblScope></bibl></head>
-            <head>نص اعلان وارد من ديوان الأوقاف بتاريخ <date when="1296-03-25">٢٥ ربيع الأول سنة
-                  ١٢٩٦</date></head>
+         <div resp="#eSG" xml:id="w13">
+            <head><date when="1297-03-28">٢٨ ربيع الأول ١٢٩٧</date>
+               <date when="1880-03-09">٩ مارث ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٦٢</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص اعلان وارد من <orgName ref="ديوان-الاوقاف" type="ديوان">ديوان الأوقاف</orgName>
+               بتاريخ ٢٥ ربيع الأول سنة ١٢٩٦</head>
             <table>
                <row>
                   <cell>
@@ -497,18 +514,21 @@
                <row>
                   <cell>١</cell>
                   <cell>
-                     <p>نصف منزل متخرب كائن ب<placeName type="درب">درب الشيخ صالح</placeName>
-                           ب<placeName type=" حي">باب اللوق</placeName> يبلغ مقاسه ٣٠ متر وكور
-                           وقف<persName type=" سليمان أبو طويلة "> سليمان أبو طويلة </persName>مقتضى
-                        خروجه بطريق الأستبدال لعدم المنفعة منه ومشترى ما هو أنفع لجهة وقفه وتحدد
-                        ميعاد لاشعار مزاده ١٥ يوم فكل من له رغبة فبعد المعاينة يتوجه لقسم رابع ليعطي
-                        المزاد اللازم هناك</p>
+                     <p>نصف منزل متخرب كائن ب<placeName type="درب" ref="درب-الشيخ-صالح">درب الشيخ
+                           صالح</placeName> ب<placeName ref="باب-اللوق">باب اللوق</placeName> يبلغ
+                        مقاسه ٣٠
+                        <?oxy_comment_start author="Sarah" timestamp="20231003T220913+0200" comment="كسور"?>متر<?oxy_comment_end?><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> وكور<?oxy_custom_end?>
+                        <orgName ref="وقف-سليمان-أبو-طويلة" type="وقف">وقف<persName>سليمان أبو
+                              طويلة</persName></orgName> مقتضى خروجه بطريق الأستبدال لعدم المنفعة
+                        منه ومشترى ما هو أنفع لجهة وقفه وتحدد ميعاد لاشعار مزاده ١٥ يوم فكل من له
+                        رغبة فبعد المعاينة يتوجه لقسم رابع ليعطي المزاد اللازم هناك</p>
                   </cell>
                </row>
                <row>
                   <cell>١</cell>
                   <cell>
-                     <p>منزل متخرب كائن ب<placeName type="درب ">درب المزين</placeName> ب<placeName type="حي">الموسكى</placeName> مسطح أرضه ٢٩٢.٩٠ متر منه حصة مهر ٢٢ متر في
+                     <p>منزل متخرب كائن ب<placeName type="درب ">درب المزين</placeName> ب<placeName
+                           type="حي">الموسكى</placeName> مسطح أرضه ٢٩٢.٩٠ متر منه حصة مهر ٢٢ متر في
                         بناه وقف<persName> علي سلامة الدخاخني</persName> مقتضي خروج بناها بطريق
                         الأستبدال وتأجير الأرض وقد صار درجها ضمن خمسة وثلاثين أعلان وتحدد ميعاد لنهو
                         المزاد ثلاثين يوم فكل من له رغبة يتوجه لقسم ثاني ليعطي مزاده بما يرغبه
