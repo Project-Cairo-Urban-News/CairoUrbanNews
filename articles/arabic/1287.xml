@@ -303,10 +303,11 @@
                </row>
             </table>
          </div>
-         <div resp="#eAM">
+         <div resp="#eAM" xml:id="x002">
             <head>
                <date when-custom="1287-03-04">٤ ربيع اول ١٢٨٧</date><date when="1270-06-02">٢ يونيو
-                  ١٨٧٠</date><bibl><biblScope unit="issue">نمرة ٣٦٠</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+                  ١٨٧٠</date><bibl><biblScope unit="issue">نمرة ٣٦٠</biblScope><biblScope
+                     unit="page">صفحة ٤</biblScope></bibl></head>
             <head>اعلانات</head>
             <head>صورة اعلان من <orgName ref="عموم الاوقاف">عموم الاوقاف</orgName></head>
             <table>
@@ -318,7 +319,8 @@
                   <cell>١</cell>
                   <cell>منزل كائن ب<placeName ref="درب شكنبه" type="درب">درب شكنبه</placeName>
                         ب<placeName ref="خط السيدة زينب" type="خط">خط السيدة زينب</placeName>
-                     <orgName ref="وقف الحرمه صاوحه ام أمين" type="وقف">وقف الحرمه <persName role="ناظرة">صاوحه ام أمين</persName></orgName> نظارة المذكور مقدار مسطحه
+                     <orgName ref="وقف الحرمه صاوحه ام أمين" type="وقف">وقف الحرمه <persName
+                           role="ناظرة">صاوحه ام أمين</persName></orgName> نظارة المذكور مقدار مسطحه
                      خمسة وسبعون مترا مسطحا مقتضى خروجه من وقفها بطريق الاستبدال فكل من له رغبه
                      لاخذه بالاستبدال يتوجه لطرف <persName role="معاون">عبد المقصود افندى معاون
                            <orgName ref="قسم رابع اوقاف">قسم رابع اوقاف</orgName></persName> ويوضع
@@ -334,7 +336,7 @@
             </table>
          </div>
      
-  <div resp="#eAM">
+  <div resp="#eAM" xml:id="x003">
             <head><date when="1870-07-16">١٦ يونيو ١٨٧٠</date>
                <date when-custom="1287-03-17">١٢٨٧ ربيع اول ١٧</date>
                <bibl><biblScope unit="page">صفحة ٤</biblScope><biblScope unit="issue">نمرة
@@ -356,7 +358,8 @@
                   <sic>التمن</sic> فورا وفيما بعد يجرى التسليم وعلى ذلك كل من يروم المشترى يتوجه
                اطرف ملاحظ الشوارع بمحل وجود المخلفات المذكورة بالشارع الجارى تنفيذه من جانب
                   <placeName ref="لوقاندة كولمب" type="لوقاندة">لوقاندة كولمب</placeName> الى
-                  <placeName ref="الفجالة">الفجالة</placeName> أو بجهة <placeName ref="باب اللوق">باب اللوق</placeName> و<placeName ref="قصر النيل" type="قصر">قصر
+                  <placeName ref="الفجالة">الفجالة</placeName> أو بجهة <placeName ref="باب اللوق"
+                  >باب اللوق</placeName> و<placeName ref="قصر النيل" type="قصر">قصر
                   النيل</placeName> وقد تحرر هذا اعلان عمومى للراغبين.</p>
          </div>
          <div resp="#eAK #eSG" xml:id="k76">
@@ -676,7 +679,7 @@
                </row>
             </table>
          </div>
-         <div resp="#eAM">
+         <div resp="#eAM" xml:id="x004">
             <head><date when-custom="1287-09-01">١ رمضان ١٢٨٧</date><date when="1870-11-24">٢٤
                   نوفمبر ١٨٧٠</date><bibl><biblScope unit="issue">نمرة ٣٨٥</biblScope></bibl></head>
             <head>صورة اعلان من حضرة وكيل <orgName ref="عموم الاوقاف">عموم الاوقاف</orgName> بتاريخ
@@ -688,10 +691,13 @@
                </row>
                <row>
                   <cell>١</cell>
-                  <cell>حصه بحق خمسة عشر قيراطا <orgName ref="وقف المرحوم السيد عمر الحسينى" type="وقف">وقف المرحوم السيد <persName>عمر الحسينى</persName></orgName> فى
-                     منزل كائن بال<placeName ref="جودريه">جودريه</placeName> نظارة حضرة<persName role="ناظر">السيد احمد مصطفى العروسى</persName> مقدار مسطح ارضها ذراع مع ٢٥٨
+                  <cell>حصه بحق خمسة عشر قيراطا <orgName ref="وقف المرحوم السيد عمر الحسينى"
+                        type="وقف">وقف المرحوم السيد <persName>عمر الحسينى</persName></orgName> فى
+                     منزل كائن بال<placeName ref="جودريه">جودريه</placeName> نظارة حضرة<persName
+                        role="ناظر">السيد احمد مصطفى العروسى</persName> مقدار مسطح ارضها ذراع مع ٢٥٨
                      والحصة المذكورة مقتضى خروجها فى وقفها بطريق الاستبدال يقتضى كل من له رغبة فى
-                     أخذها بالاستبدال فمن بعد معاينته اياها يتوجه لطرف معاون <orgName ref="قسم اول اوقاف">قسم اول اوقاف</orgName> ويوضع قراره بما يرغب دفعه عن
+                     أخذها بالاستبدال فمن بعد معاينته اياها يتوجه لطرف معاون <orgName
+                        ref="قسم اول اوقاف">قسم اول اوقاف</orgName> ويوضع قراره بما يرغب دفعه عن
                      قينة استبدالها بقائمة المزاد وتحدد له قرارها خمسة عشر يوما تمضى من تاريخه
                      أدناه</cell>
                </row>
