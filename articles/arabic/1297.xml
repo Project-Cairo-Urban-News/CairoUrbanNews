@@ -645,143 +645,152 @@
                وأرسلت اليها الضمانة وباقى الأوراق كما وصار النشر للجهات عموما عن ما توضح وبناء عليه
                اقتضى تحريره ليتنبه بالنشر بالجرانيل حسب ما ذكر</p>
          </div>
-         <div>
-            <head><bibl><biblScope unit="issue">نمرة ٨٦٦</biblScope><biblScope unit="page">ص٤</biblScope>
+         <div resp="#eSG" xml:id="w17">
+            <head><bibl><biblScope unit="issue">نمرة ٨٦٦</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope>
                </bibl></head>
-            <head>نص اعلان وارد من بيت المال</head>
+            <head>نص اعلان وارد من <orgName type="بيت-المال" ref="بيت-المال">بيت
+               المال</orgName></head>
             <head>عن بيان العقار الأيل لبيت المال من مذكورين متوفيين بالمحروسة</head>
             <table>
                <row>
-                  <cell>عدد بثمن الجمالية</cell>
+                  <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>عدد<?oxy_custom_end?>
+                        ب<placeName ref="ثمن-الجمالية" type="ثمن"><orgName type="ثمن"
+                           ref="ثمن-الجمالية">ثمن الجمالية</orgName></placeName></cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>عدد</cell>
                   <cell/>
                </row>
                <row>
                   <cell>١</cell>
-                  <cell>حصة ..... من منزل<persName> بيير جوان</persName> مخلفة عن <persName>الست شمس
-                        نور البيضا </persName>بحجة لم يوضح بها حكر ومقاس المنزل الذي منه الحصة
-                     المذكورة ١٣٢,٨٤ متر مسطح</cell>
+                  <cell>حصة
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>.....<?oxy_custom_end?>
+                     من منزل
+                     <?oxy_comment_start author="Sarah" timestamp="20231012T180142+0200" comment="ببيرجوان؟"?>بييرجوان<?oxy_comment_end?>
+                     مخلفة عن <persName>الست شمس نور البيضا</persName> بحجة لم يوضح بها حكر ومقاس
+                     المنزل الذى منه الحصة المذكورة ١٣٢,٨٤ متر مسطح</cell>
                </row>
                <row>
                   <cell>١</cell>
-                  <cell>دكان بخط الأمشاطية مخلفة عن <persName>الست شمس نور البيضا </persName>مستولده
-                        المرحوم<persName> سليمان أغا السلحدار</persName> بغير حجة ومقاسها ٣,٢ زراع
-                     وآخرمرساها بسعر ٢٧٠٠ قرش صاغ</cell>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>نص دكان بالصنادقية مخلفة عن<persName> زبيدة معتوقة زهرة</persName> بحجة لم
-                     يوضح بها حكر ومقاسها ١٤,١٧ ذراع وأخر مرساها بسعر ٣٦٥٠ قرش صاغ</cell>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>
-                     <p>حصة ٦ قراريط من خربة بها طاحونة كائنة بحارة<placeName> بير جوان</placeName>
-                        مخلفة عن <persName>ذنوبة بنت على بك الشرابي</persName> بحجة لم يوضح بها حكر
-                        ومقاسها ١٢٥٩,١١ ذراع جميع أرضيه الخربة ٤٨,٦٤ ذراع جميع أرضيه الخربة و٤٨,٦٤
-                        ذراع مسطح الركوب التي لها الراكب على أرضيه منها منزل الجار وآخر مرسى المزاد
-                        بسعر ٥٣٠٠ قرش صاغ</p>
-                  </cell>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>
-                     <p>حصة ٩ قراريط من منزل ب<placeName>حارة الشنواني</placeName> مخلف عن<persName>
-                           محمد أغا خربوطلى</persName> بحجه لم يوضح بها حكر ومقاسه ٢٥٣,٢٤ ذراع وآخر
-                        مرساها بمبلغ ١٤١٥٠ قرش صاغ</p>
-                  </cell>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>
-                     <p>منزل بعطفة حمام الأفندي مخلف عن<persName> ابراهيم أغا اخسخهلي</persName>
-                        وزوجته بحجه لم يوضح بها حكر ومقاسه ١٧٠,٢٣ متر</p>
-                  </cell>
-               </row>
-               <row>
-                  <cell>
-                     <p>عدد بثمن الخليفة</p>
-                  </cell>
-                  <cell/>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>
-                     <p>منزل بعطفة شيقون مخلف عن<persName> آمنه زوجة سعد الدين أغا</persName> بحجج
-                        لم يوضح بهم حكر ومقاسه ٣٦٠,٤٨ ذراع آخر المرسي فيه بمبلغ ٢٣٠٣٥ قرش صاغ</p>
-                  </cell>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>منزل <placeName type="درب">بدرب الزيني</placeName> مخلف عن<persName> أمونة
-                        بنت حموده أغا جركس</persName> ومقاسه ٥٠,٠٠ متر وركوب الجار من جهة الشرق
-                     بالدور الثالث ١٦,٠٠ متر بغير حجة</cell>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>
-                     <p>حصة ١٨ قيراط من منزل بطليون مخلفة عن الشيخ أحمد السروجي بحجة لم بها حكر
-                        ومقاسه ٨٣,٢٣ ذراع آخر المرسي فيها بسعر ٩٠٢ قرش صاغ</p>
-                  </cell>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>
-                     <p>منزل ب<placeName>حارة العيادية</placeName> متخرب مخلف عن <persName>المرحومة
-                           حنيفة بنت محمد</persName> بغير حجة ومقاسه ٥٩,٧٨ متر</p>
-                  </cell>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>منزل قيراطين ونصف من منزل بالصليبة مخلف عن <persName>زبيدة البيضا
-                     </persName>بغير حجة ومقاس المنزل ٩٧,٥٦</cell>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>منزل خرب ب<placeName>قلعة الكبش</placeName> مخلف عن<persName> زبيدة بنت
-                        ابراهيم</persName> بغير حجة مقاسه ٢٠,٢٤ متر</cell>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>
-                     <p>منزل ب<placeName type="درب">درب الحص</placeName>ر مخلف عن <persName>عثمان
-                           أغا ديار بكرلي</persName> بحجة لم يوضح بها حكر ومقاسه ٨٩,٦٧ متر</p>
-                  </cell>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>
-                     <p>منزل ب<placeName type="درب">حارة الحنة</placeName> وبأسفله دكان مخلفين عن
-                        بنبة حرم<persName> اسماعيل أفندي شكري </persName>ومقاسه ١٨٨,٩٤ متر بحجة لم
-                        يعين بها حكر</p>
-                  </cell>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>
-                     <p>منزل <placeName>بقلعة الكبش</placeName> مخلف عن<persName> حنفي القيسوني
-                           القهوجي </persName>بحجة لم يعين بها حكر ومقاسه ٨٤,٣٥ متر</p>
-                  </cell>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>
-                     <p>منزل ب<placeName type="درب ">درب العبيد</placeName> باسفله دكان مخلفين
-                           عن<persName> حنيفة بنت محمد</persName> بحجة لم يوضح بها حكر ومقاسه ٥٩,٧٨
-                        متر</p>
-                  </cell>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>حصة ٥ قراريط من منزل بحارة بنت المعمار مخلفه عن <persName>بنبة معتوقة سلوناس
-                        بغير</persName> حجة ومقاسه ٣٢٤٧,٠٥ متر آخر المرسى فيها بمبلغ ١٦٤٠٠
+                  <cell>دكان ب<placeName type="خط" ref="خط-الامشاطية">خط الأمشاطية</placeName> مخلفة
+                     عن <persName>الست شمس نور البيضا</persName>مستولده المرحوم <persName>سليمان أغا
+                        السلحدار</persName> بغير حجة ومقاسها ٣,٢ زراع وآخر مرساها بسعر ٢٧٠٠ قرش
                      صاغ</cell>
                </row>
                <row>
                   <cell>١</cell>
-                  <cell>
-                     <p>حصة ٣ قراريط من منزل ب<placeName type="درب ">درب السماكين</placeName> مخلفة
-                        عن <persName>حنيفة بنت حسن محسن</persName> ومقاسه ٣٦١,٧٨ متر</p>
-                  </cell>
+                  <cell>نص دكان ب<placeName ref="الصنادقية">الصنادقية</placeName> مخلفة عن
+                        <persName>زبيدة معتوقة <persName>زهرة</persName></persName> بحجة لم يوضح بها
+                     حكر ومقاسها ١٤,١٧ ذراع وأخر مرساها بسعر ٣٦٥٠ قرش صاغ</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>حصة ٦ قراريط من خربة بها طاحونة كائنة ب<placeName ref="حارة-بيرجوان"
+                        type="حارة">حارة بيرجوان</placeName> مخلفة عن
+                        <persName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ذن<?oxy_custom_end?>وبة
+                        بنت <persName>على بك الشرابى</persName></persName> بحجة لم يوضح بها حكر
+                     ومقاسها ١٢٥٩,١١ ذراع
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>جميع أرضيه
+                     الخربة ٤٨,٦٤ ذراع جميع أرضيه الخربة و٤٨,٦٤ ذراع<?oxy_custom_end?> مسطح الركوب
+                     التى لها الراكب على أرضيه منها منزل الجار وآخر مرسى المزاد بسعر ٥٣٠٠ قرش
+                     صاغ</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>حصة ٩ قراريط من منزل ب<placeName ref="حارة-الشنوانى" type="حارة">حارة
+                        الشنوانى</placeName> مخلف عن <persName>محمد أغا خربوطلى</persName> بحجه لم
+                     يوضح بها حكر ومقاسه ٢٥٣,٢٤ ذراع وآخر مرساها بمبلغ ١٤١٥٠ قرش صاغ</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>منزل ب<placeName ref="عطفة-حمام-الافندى" type="عطفة">عطفة <placeName
+                           type="حمام" ref="حمام-الافندى">حمام الأفندى</placeName></placeName> مخلف
+                     عن <persName>ابراهيم أغا
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>اخسخهل<?oxy_custom_end?>ى</persName>
+                     وزوجته بحجه لم يوضح بها حكر ومقاسه ١٧٠,٢٣ متر</cell>
+               </row>
+               <row>
+                  <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>عدد
+                        ب<orgName ref="ثمن-الخليفة" type="ثمن"><placeName ref="ثمن-الخليفة"
+                           type="ثمن">ثمن الخليفة<?oxy_custom_end?></placeName></orgName></cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>منزل ب<placeName ref="عطفة-شيقون" type="عطفة"
+                        ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>عطفة
+                        شيقون<?oxy_custom_end?></placeName> مخلف عن <persName>آمنه زوجة
+                           <persName>سعد الدين أغا</persName></persName> بحجج لم يوضح بهم حكر ومقاسه
+                     ٣٦٠,٤٨ ذراع آخر المرسى فيه بمبلغ ٢٣٠٣٥ قرش صاغ</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>منزل ب<placeName type="درب" ref="درب-الزينى">درب الزينى</placeName> مخلف عن
+                        <persName>أمونة بنت <persName>حموده أغا جركس</persName></persName> ومقاسه
+                     ٥٠,٠٠ متر وركوب الجار من جهة الشرق بالدور الثالث ١٦,٠٠ متر بغير حجة</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>حصة ١٨ قيراط من منزل ب<placeName ref="طليون"
+                        ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>طليون<?oxy_custom_end?></placeName>
+                     مخلفة عن <persName>الشيخ أحمد السروجى</persName> بحجة
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>لم بها
+                     حكر<?oxy_custom_end?> ومقاسه ٨٣,٢٣ ذراع آخر المرسى فيها بسعر ٩٠٢ قرش صاغ</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>منزل ب<placeName ref="حارة-العيادية" type="حارة">حارة العيادية</placeName>
+                     متخرب مخلف عن <persName>المرحومة حنيفة بنت محمد</persName> بغير حجة ومقاسه
+                     ٥٩,٧٨ متر</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>منزل قيراطين ونصف من منزل ب<placeName ref="الصليبة">الصليبة</placeName> مخلف
+                     عن <persName>زبيدة البيضا</persName> بغير حجة ومقاس المنزل ٩٧,٥٦</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>منزل خرب ب<placeName ref="قلعة-الكبش">قلعة الكبش</placeName> مخلف عن
+                        <persName>زبيدة بنت ابراهيم</persName> بغير حجة مقاسه ٢٠,٢٤ متر</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>منزل ب<placeName type="درب" ref="درب-الحصر">درب الحصر</placeName> مخلف عن
+                        <persName>عثمان أغا ديار بكرلى</persName> بحجة لم يوضح بها حكر ومقاسه ٨٩,٦٧
+                     متر</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>منزل ب<placeName type="حارة" ref="حارة-الحنة">حارة الحنة</placeName> وبأسفله
+                     دكان مخلفين عن <persName>بنبة حرم <persName>اسماعيل أفندى
+                        شكرى</persName></persName> ومقاسه ١٨٨,٩٤ متر بحجة لم يعين بها حكر</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>منزل ب<placeName ref="قلعة-الكبش">قلعة الكبش</placeName> مخلف عن
+                        <persName>حنفى القيسونى القهوجى</persName> بحجة لم يعين بها حكر ومقاسه ٨٤,٣٥
+                     متر</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>منزل ب<placeName type="درب " ref="درب-العبيد">درب العبيد</placeName> باسفله
+                     دكان مخلفين عن <persName>حنيفة بنت محمد</persName> بحجة لم يوضح بها حكر ومقاسه
+                     ٥٩,٧٨ متر</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>حصة ٥ قراريط من منزل ب<placeName ref="حارة-بنت-المعمار" type="حارة">حارة بنت
+                        المعمار</placeName> مخلفه عن <persName>بنبة معتوقة
+                           <persName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>سلوناس<?oxy_custom_end?></persName></persName>
+                     بغير حجة ومقاسه ٣٢٤٧,٠٥ متر آخر المرسى فيها بمبلغ ١٦٤٠٠ صاغ</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>حصة ٣ قراريط من منزل ب<placeName type="درب " ref="درب-السماكين">درب
+                        السماكين</placeName> مخلفة عن <persName>حنيفة بنت حسن محسن</persName> ومقاسه
+                     ٣٦١,٧٨ متر</cell>
                </row>
                <row>
                   <cell>١٢</cell>
@@ -796,141 +805,132 @@
                   <cell/>
                </row>
                <row>
-                  <cell>
-                     <p>عدد بثمن الأزبكية</p>
-                  </cell>
+                  <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>عدد<?oxy_custom_end?>
+                        ب<placeName ref="ثمن-الازبكية" type="ثمن"><orgName ref="ثمن-الازبكية"
+                           type="ثمن">ثمن الأزبكية</orgName></placeName></cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>منزل ب<placeName ref="كوم-الشيخ-سلامة">كوم الشيخ سلامة</placeName>مخلف منه
+                     ١٨ قيراط عن <persName>أمنة روميه</persName> بحجة ليس بها حكر و٦ قراريط باقى
+                     المنزل تعلق شخص غايب لا يعلم محله ومقاسه ١٧,٤٨ ذراع آخر مرساه بمبلغ ١٥٠٠ قرش
+                     صاغ</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>حصة ١٦ قيراط من منزل ب<persName type="عطفة" ref="عطفة-سنان">عطفة
+                        سنان</persName> مخلفة عن<persName>ترك الداية</persName> ومقاسه ٥٦,٥٨ متر
+                     بحجج لم يوضح بهم حكر</cell>
+               </row>
+               <row>
+                  <cell>عدد ب<orgName ref="ثمن-عابدين" type="ثمن"><placeName ref="ثمن-عابدين"
+                           type="ثمن">ثمن عابدين</placeName></orgName></cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>حصة ٨
+                     قراريط<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> .. من
+                     <?oxy_custom_end?>منزل ب<placeName type="درب" ref="درب-الحمام">درب
+                        الحمام</placeName> مخلفين عن <persName>استيته بنت أحمد تره</persName>
+                        و<persName>أحمد النجار</persName> بحجج ليس بها حكر ومقاسه ١٢٤,٤٦ متر</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>نصف منزل ب<placeName ref="حارة-الزياتين" type="حارة">حارة
+                        الزياتين</placeName> مخلف عن <persName>أم النيل بنت محمد</persName> بحجة ليس
+                     لها حكر آخر المرسى فيه بمبلغ ٣٢٥٠ قرش صاغ ومقاسه ٦٦,٨٠</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>حصة ٩ قراريط من منزل ب<placeName ref="حارة-مشمش" type="حارة">حارة
+                        مشمش</placeName> مخلفه عن<persName>حسين بيرم الصباغ</persName> بحجة
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>لم بها
+                     <?oxy_custom_end?>حكر ومقاسه ١٦٤,٢١ متر</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>حصة ١٦ قيراط من منزل ب<placeName type="درب" ref="درب-الملاح">درب
+                        الملاح</placeName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                     فيه<?oxy_custom_end?> مخلفه عن <persName>أم نصير</persName> ومقاسه ١٨٠,٠٨ متر
+                     بحجة<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                     فائدة<?oxy_custom_end?></cell>
+               </row>
+               <row>
+                  <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>عدد<?oxy_custom_end?>
+                        ب<placeName ref="ثمن-باب-الشعرية" type="ثمن"><orgName ref="ثمن-باب-الشعرية"
+                           type="ثمن">ثمن باب الشعرية</orgName></placeName></cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>حصة<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                     قيراطين .. من<?oxy_custom_end?> منزل ب<placeName ref="العدوى"
+                        >العدوى</placeName> مخلفة عن <persName>محمد رمضان الدخاخنى</persName> بحجة
+                     ليس بها حكر آخر
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>مرصاها<?oxy_custom_end?>
+                     بمبلغ ١٩٠ قرش صاغ</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>منزل ب<placeName type="درب " ref="درب-الفراخة">درب الفراخة</placeName> مخلف
+                     نصفه عن <persName>فاطمة الحبشية</persName> والنصف الآخر رغب مبيعه الشريك مع
+                     النصف تعلق بيت المال بحجة لم يوضح بها حكر ومقاسه ١١٦,٤٦ ذراع</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>حصة ٩ قراريط من منزل ب<placeName type="درب" ref="درب-المهتار">درب
+                        المهتار</placeName> ب<placeName type="درب" ref="درب-الافاعية">درب
+                        الأفاعية</placeName> مخلفة عن <persName>عائشة بنت محمد</persName> بحجج لم
+                     يوضح بهم حكر ومقاسه ١١٣,٣٣ متر</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>حصة ٣ قراريط من منزل ب<placeName ref="خوخة-القطانين">خوخة
+                        القطانين</placeName> مخلفة عن عائشة بنت محمد المذكورة أعلاه بحجج لم يوضح بها
+                     حكر ومقاسه ٥١,٨٩ متر</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>حصة ١٨ قيراط من بنا منزل ب<placeName ref="العباسية">العباسية</placeName>
+                     بغير حجة مخلف عن <persName>أحمد أفندى حمدى اليوزباشى</persName> ومقاسه ٦٣,٦١
+                     متر</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>منزل ب<placeName ref="الحرنفش">الحرنفش</placeName> مخلف عن <persName>ظريفه
+                        بنت <persName>محمد أغا</persName></persName> ومقاسه ٦٨,٨٠ بحجج لم يوضح بهم
+                     حكر</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>حصة ٦ قراريط وسهم من منزل ودكان أسفله ب<placeName type="شارع"
+                        ref="شارع-خان-ابو-طاقيه">شارع خان أبو طاقيه</placeName> مخلفين عن ظريفة بنت
+                     محمد أغا ومقاسه ١٠٩,٠٠ متر بحجة لم يوضح بها حكر</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>حصة قيراط ونصف من خربه ب<placeName ref="حوش-البغالى" type="حوش">حوش
+                        البغالى</placeName> ب<placeName ref="درب-عجور" type="درب">درب
+                        عجور</placeName> بها سبعة قيعان مخلفة عن <persName>زهره السودا معتوقة
+                           <persName>نفيسة الروزنامجة</persName></persName> بغير حجة ومقاسها قدره
+                     ١٦١,٢٠ مترا آخر المرسى بمبلغ ٥٤٠ قرش صاغ ويخص
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>زوج المرحومة
+                     عائشة<?oxy_custom_end?> نصف قيراط من ذلك وآخر المرسى بمبلغ ٩٠٠ قرش صاغ</cell>
+               </row>
+               <row>
+                  <cell>عدد ب<orgName ref="ثمن-بولاق" type="ثمن"><placeName ref="ثمن-بولاق"
+                           type="ثمن">ثمن بولاق</placeName></orgName> جمعية</cell>
                   <cell/>
                </row>
                <row>
                   <cell>١</cell>
                   <cell>
-                     <p>منزل ب<placeName>كوم الشيخ سلامة </placeName>مخلف منه ١٨ قيراط عن
-                           <persName>أمنة روميه</persName> بحجة ليس بها حكر و٦ قراريط باقي المنزل
-                        تعلق شخص غايب لا يعلم محله ومقاسه ١٧,٤٨ ذراع آخر مرساه بمبلغ ١٥٠٠ قرش
-                        صاغ</p>
-                  </cell>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>حصة ١٦ قيراط من منزل ب<persName>عطفة سنان</persName> مخلفة عن<persName> ترك
-                        الداية</persName> ومقاسه ٥٦,٥٨ متر بحجج لم يوضح بهم حكر</cell>
-               </row>
-               <row>
-                  <cell>
-                     <p>عدد بثمن عابدين</p>
-                  </cell>
-                  <cell/>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>حصة ٨ قراريط .. من منزل ب<placeName type="درب">درب الحمام</placeName> مخلفين
-                     عن استيته<persName> بنت أحمد تره </persName>و<persName>أحمد النجار</persName>
-                     بحجج ليس بها حكر ومقاسه ١٢٤,٤٦ متر</cell>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>
-                     <p>نصف منزل ب<placeName>حارة الزياتين</placeName> مخلف عن <persName>أم النيل
-                           بنت محمد</persName> بحجة ليس لها حكر آخر المرسى فيه بمبلغ ٣٢٥٠ قرش صاغ
-                        ومقاسه ٦٦,٨٠</p>
-                  </cell>
-               </row>
-               <row>
-                  <cell>
-                     <p>١</p>
-                  </cell>
-                  <cell>
-                     <p>حصة ٩ قراريط من منزل ب<placeName>حارة مشمش</placeName> مخلفه عن<persName>
-                           حسين بيرم الصباغ</persName> بحجة لم بها حكر ومقاسه ١٦٤,٢١ متر</p>
-                  </cell>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>حصة ١٦ قيراط من منزل ب<placeName type="درب">درب الملاح</placeName> فيه مخلفه
-                     عن <persName>أم نصير</persName> ومقاسه ١٨٠,٠٨ متر بحجة فائدة</cell>
-               </row>
-               <row>
-                  <cell>
-                     <p>عدد بثمن باب الشعرية</p>
-                  </cell>
-                  <cell/>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>
-                     <p>حصة قيراطين .. من منزل بالعدوى مخلفة عن <persName>محمد رمضان الدخاخني
-                        </persName>بحجة ليس بها حكر آخر مرصاها بمبلغ ١٩٠ قرش صاغ</p>
-                  </cell>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>
-                     <p>منزل ب<placeName type="درب ">درب الفراخة</placeName> مخلف نصفه عن<persName>
-                           فاطمة الحبشية </persName>والنصف الآخر رغب مبيعه الشريك مع النصف تعلق بيت
-                        المال بحجة لم يوضح بها حكر ومقاسه ١١٦,٤٦ ذراع</p>
-                  </cell>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>
-                     <p>حصة ٩ قراريط من منزل ب<placeName type="درب">درب المهتار</placeName>
-                           ب<placeName type="درب">درب الأفاعية</placeName> مخلفة عن <persName>عائشة
-                           بنت محمد</persName> بحجج لم يوضح بهم حكر ومقاسه ١١٣,٣٣ متر</p>
-                  </cell>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>
-                     <p>حصة ٣ قراريط من منزل بخوخة القطانين مخلفة عن عائشة بنت محمد المذكورة أعلاه
-                        بحجج لم يوضح بها حكر ومقاسه ٥١,٨٩ متر</p>
-                  </cell>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>
-                     <p>حصة ١٨ قيراط من بنا منزل بالعباسية بغير حجة مخلف عن<persName> أحمد أفندي
-                           حمدي اليوزباشي</persName> ومقاسه ٦٣,٦١ متر</p>
-                  </cell>
-               </row>
-               <row>
-                  <cell/>
-                  <cell/>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>
-                     <p>منزل ب<placeName>الحرنفش</placeName> مخلف عن<persName> ظريفه بنت محمد
-                           أغا</persName> ومقاسه ٦٨,٨٠ بحجج لم يوضح بهم حكر</p>
-                  </cell>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>
-                     <p>حصة ٦ قراريط وسهم من منزل ودكان أسفله ب<placeName type="شارع">شارع خان أبو
-                           طاقيه</placeName> مخلفين عن <persName>ظريفة بنت محمد أغا</persName>
-                        ومقاسه ١٠٩,٠٠ متر بحجة لم يوضح بها حكر</p>
-                  </cell>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>
-                     <p>حصة قيراط ونصف من خربه بحوش البغالي بدرب عجور بها سبعة قيعان مخلفة عن زهره
-                        السودا معتوقة نفيسة الروزنامجة بغير حجة ومقاسها قدره ١٦١,٢٠ مترا آخر المرسى
-                        بمبلغ ٥٤٠ قرش صاغ ويخص زوج المرحومة عائشة نصف قيراط من ذلك وآخر المرسى بمبلغ
-                        ٩٠٠ قرش صاغ</p>
-                  </cell>
-               </row>
-               <row>
-                  <cell>
-                     <p>عدد بثمن بولاق جمعية</p>
-                  </cell>
-                  <cell/>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>
-                     <p>حصة ١٨ قيراط من منزل بطاروق الخصوصي بربع الجواير مخلفة عن أمونة الشهيرة
-                        بالبيطارة ومقاسه ١٠,٩٢ متر ١٩,٤١ ذراع</p>
+                     <p>حصة ١٨ قيراط من منزل ب<placeName ref="طاروق-الخصوصى">طاروق
+                           الخصوصى</placeName> ب<placeName ref="ربع-الجواير" type="ربع">ربع
+                           الجواير</placeName> مخلفة عن <persName>أمونة الشهيرة بالبيطارة</persName>
+                        ومقاسه ١٠,٩٢ متر ١٩,٤١ ذراع</p>
                   </cell>
                </row>
                <row>
