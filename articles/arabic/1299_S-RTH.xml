@@ -1274,13 +1274,16 @@
             </p>
          </div>
          <div xml:id="w126" resp="#eAK">
-            <head>نمرة ١٣١٩</head>
-            <head>يوم السبت ٨ ربيع الاول سنة ١٢٩٩ الموافق ٢٨ يناير الافرنكى سنة ١٨٨٢ الموافق ٢٤ طوبه
-               القبطى سنة ١٥٩٨</head>
-            <head>صفحة ٤ – العمود ٢</head>
+            <head><date when-custom="1299-03-08">٨ ربيع الاول ١٢٩٩</date>
+               <date when="1882-01-28">٢٨ يناير ١٨٨٢</date>
+               <bibl><biblScope unit="issue">نمرة ١٣١٩</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head/>
             <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName type="نظارة" ref="نظارة-الاشغال-العمومية">نظارة الاشغال العمومية</orgName></head>
             <p>عن توريد فحم حجرى </p>
-            <p>انه بتاريخ ١٥ فبراير سنة ٨٢ الساعه ٢ افرنكى بعد الظهر قلم التوريدات سيشهر بال<rs type="مزاد">مزاد</rs> بحضور مفتش عموم التطهيرات الفحومات الآتيه</p>
+            <p>انه بتاريخ <date when="1882-02-15">١٥ فبراير سنة ٨٢</date> الساعه ٢ افرنكى بعد الظهر
+               قلم التوريدات سيشهر بال<rs type="مزاد">مزاد</rs> بحضور مفتش عموم التطهيرات الفحومات
+               الآتيه</p>
             <table>
                <row>
                   <cell>قنطار</cell>
@@ -1288,8 +1291,9 @@
                </row>
                <row>
                   <cell>٠١٣٣٠٠</cell>
-                  <cell>عن المقتضى توريده من الفحم الحجرى نيوكستل دافيدس لجهة العطف والتسليم بمخازن
-                     الجهة المذكورة وذلك فى ميعاد ثلاثين يوما</cell>
+                  <cell>عن المقتضى توريده من الفحم الحجرى نيوكستل دافيدس لجهة <placeName ref="العطف"
+                        >العطف</placeName> والتسليم بمخازن الجهة المذكورة وذلك فى ميعاد ثلاثين
+                     يوما</cell>
                </row>
                <row>
                   <cell>٠١٣٣٠٠</cell>
@@ -1298,8 +1302,9 @@
                </row>
                <row>
                   <cell>٠٢١٣٠٠</cell>
-                  <cell>عن المقتضى توريده من الفحم الحجرى نيوكستل دافيدس لجهة أسيوط والتسليم بمخازن
-                     الجهة المذكورة وذلك فى ميعاد خمسة وأربعين يوما</cell>
+                  <cell>عن المقتضى توريده من الفحم الحجرى نيوكستل دافيدس لجهة <placeName ref="اسيوط"
+                        >أسيوط</placeName> والتسليم بمخازن الجهة المذكورة وذلك فى ميعاد خمسة وأربعين
+                     يوما</cell>
                </row>
                <row>
                   <cell>٠٢١٣٠٠</cell>
@@ -1338,18 +1343,22 @@
             </table>
             <p> ان الفحومات الموضحه اعلاه ينبغى ان يكون جميعها من الجنس الجيد ويكون توريدها فى
                المواعيد الموضحة أعلاه اعتبارا من تاريخ الاذن الذى يصدر للمتعهد بالتوريد على مقتضى
-               شروط موجودة بقلم المشتروات ب<orgName ref="ديوان الاشغال العمومية" type="ديوان">ديوان
-                  الاشغال العمومية</orgName> وتقديم العطا يكون داخل مظاريف مختوم عليها بالشمع الاحمر
-               فكل من يرغب الدخول فى هذا المزاد فيحضر فى كل يوم من الساعه احدى عشر افرنكى لغاية
-               الساعه ٤ بعد الظهر لاجل اطلاعه على الشروط وتقديم عطاه على موجبها ومن لا يحضر لغاية
-               الميعاد المحدد فلا يكلف الديوان بانتظاره فى غرة ربيع الاول سنة ١٢٩٩ </p>
+               شروط موجودة بـ<orgName ref="قلم المشتروات بديوان الاشغال العمومية" type="قلم">قلم
+                  المشتروات ب<orgName ref="ديوان الاشغال العمومية" type="ديوان">ديوان الاشغال
+                     العمومية</orgName></orgName> وتقديم العطا يكون داخل مظاريف مختوم عليها بالشمع
+               الاحمر فكل من يرغب الدخول فى هذا المزاد فيحضر فى كل يوم من الساعه احدى عشر افرنكى
+               لغاية الساعه ٤ بعد الظهر لاجل اطلاعه على الشروط وتقديم عطاه على موجبها ومن لا يحضر
+               لغاية الميعاد المحدد فلا يكلف الديوان بانتظاره فى <date when-custom="1299-03-01">غرة
+                  ربيع الاول سنة ١٢٩٩</date>
+            </p>
          </div>
          <div xml:id="w127" resp="#eAK">
-            <head>نمرة ١٣٢٠</head>
-            <head>يوم الاحد ٩ ربيع الاول سنة ١٢٩٩ الموافق ٢٩ يناير الافرنكى سنة ١٨٨٢ الموافق ٢٢ طوبه
-               القبطى سنة ١٥٩٨</head>
-            <head>صفحة ٢ – العمود ٢ النصف الاسفل من الصفحة</head>
-            <head>كشف عن الايرادات والمصروفات من أول يناير لغاية ٣١ دسمبر سنة ١٨٨١</head>
+            <head><date when-custom="1299-03-09">٩ ربيع الاول ١٢٩٩</date>
+               <date when="1882-01-29">٢٩ يناير ١٨٨٢</date>
+               <bibl><biblScope unit="issue">نمرة ١٣٢٠</biblScope>
+                  <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+            <head>كشف عن الايرادات والمصروفات من أول يناير لغاية <date when-custom="1881-12-31">٣١
+                  دسمبر سنة ١٨٨١</date></head>
             <table>
                <row>
                   <cell>ربط سنة ١٨٨١</cell>
@@ -1391,91 +1400,105 @@
                   <cell>٠٠٠٨٩٣٢</cell>
                   <cell>٠٠٠٤١٨٥</cell>
                   <cell>٠٠٠٣٣٦</cell>
-                  <cell>(٥) مجلس النظار</cell>
+                  <cell>(٥) <orgName type="مجلس" ref="مجلس-النظار">مجلس النظار</orgName></cell>
                </row>
                <row>
                   <cell>٠٠١٣١٦٢</cell>
                   <cell>٠٠١١٢٨٨</cell>
                   <cell>٠٠٠٧٩٧</cell>
-                  <cell>(٦) نظارة الخارجيه</cell>
+                  <cell>(٦) <orgName ref="نظارة الخارجيه" type="نظارة">نظارة
+                     الخارجيه</orgName></cell>
                </row>
                <row>
                   <cell>٠٥٨١٤٨٠</cell>
                   <cell>٠٤٨٧٩٠٢</cell>
                   <cell>٠٥٦٢٢٦</cell>
-                  <cell>(٧) نظارة الماليه</cell>
+                  <cell>(٧) <orgName ref="نظارة الماليه" type="نظارة">نظارة الماليه</orgName></cell>
                </row>
                <row>
                   <cell/>
                   <cell/>
                   <cell/>
-                  <cell>(٨) نظارتى الجهادية والبحرية</cell>
+                  <cell>(٨) <orgName ref="نظارة-الجهادية" type="نظارة">نظارتى الجهادية</orgName>
+                        و<orgName ref="نظارة-البحرية" type="نظارة">البحرية</orgName></cell>
                </row>
                <row>
                   <cell>٠٣٦٨٠٠٠</cell>
                   <cell>٠٤١٧٣٢٨</cell>
                   <cell>٠٥١٥٨١</cell>
-                  <cell>٠٠ الجهادية</cell>
+                  <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>٠٠<?oxy_custom_end?>
+                     <orgName ref="الجهادية">الجهادية</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٥٤٧٣٤</cell>
                   <cell>٠٠٤٩٤٠٤</cell>
                   <cell>٠٠٥٦٩٤</cell>
-                  <cell>٠٠ البحريه</cell>
+                  <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>٠٠<?oxy_custom_end?>
+                     <orgName ref="البحريه">البحريه</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٨١٩٤٩</cell>
                   <cell>٠٠٥٨٢٢١</cell>
                   <cell>٠٠٧٣٨٦</cell>
-                  <cell>(٩) نظارة المدارس</cell>
+                  <cell>(٩) <orgName ref="نظارة-المدارس" type="نظارة">نظارة المدارس</orgName></cell>
                </row>
                <row>
                   <cell>٠٥٢١٦١٢</cell>
                   <cell>٠٤٣٥٣٩٧</cell>
                   <cell>٠٥١١٠٣</cell>
-                  <cell>(١٠) نظاره الداخلية</cell>
+                  <cell>(١٠) <orgName ref="نظارة-الداخليه" type="نظاره">نظاره
+                     الداخليه</orgName></cell>
                </row>
                <row>
                   <cell>٠٢٤٦٣٤٢</cell>
                   <cell>٠٢٣٠٧٨٦</cell>
                   <cell>٠٢٢٢٩٦</cell>
-                  <cell>(١١) نظاره الحقانية</cell>
+                  <cell>(١١) <orgName ref="نظارة-الحقانية" type="نظارة">نظاره
+                     الحقانية</orgName></cell>
                </row>
                <row>
                   <cell>٠٤٣٩٢٧٠</cell>
                   <cell>٠٣٩٤٦٠٥</cell>
                   <cell>٠٤٥٠٨٩</cell>
-                  <cell>(١٢) نظارة الاشغال العمومية</cell>
+                  <cell>(١٢) <orgName type="نظارة" ref="نظارة-الاشغال-العمومية">نظارة الاشغال
+                        العمومية</orgName></cell>
                </row>
                <row>
                   <cell/>
                   <cell/>
                   <cell/>
-                  <cell>(١٣) السكك الحديد والتلغرافات ومينا اسكندرية</cell>
+                  <cell>(١٣) <orgName ref="السكك-الحديد">السكك الحديد</orgName> و<orgName
+                        ref="التلغرافات">التلغرافات</orgName> و<orgName ref="مينا-اسكندرية"
+                           ><placeName ref="مينا-اسكندرية" type="مينا">مينا
+                        اسكندرية</placeName></orgName></cell>
                </row>
                <row>
                   <cell>٠٤٤٢٦٦٠</cell>
                   <cell>٠٣٩٨٨٦٥</cell>
                   <cell>٠٤٣٠٣٢</cell>
-                  <cell>٠٠ السكك الحديد والتلغرافات</cell>
+                  <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>٠٠<?oxy_custom_end?>
+                     السكك الحديد والتلغرافات</cell>
                </row>
                <row>
                   <cell>٠٠١٩٠٠٠</cell>
                   <cell>٠٠١١٤٧٥</cell>
                   <cell>٠٠١٦٧٣</cell>
-                  <cell>٠٠ مينا اسكندرية</cell>
+                  <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>٠٠<?oxy_custom_end?>
+                     مينا اسكندرية</cell>
                </row>
                <row>
                   <cell>٠٠٠٥٤٦٦</cell>
                   <cell>٠٠٠٦٦٣٢</cell>
                   <cell>٠٠٠٣٣٩</cell>
-                  <cell>٠٠ سكة حديد حلوان</cell>
+                  <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>٠٠<?oxy_custom_end?>
+                     <orgName ref="سكة-حديد-حلوان">سكة حديد <placeName ref="حلوان"
+                        >حلوان</placeName></orgName></cell>
                </row>
                <row>
                   <cell>٠٠٦٠١٦٤</cell>
                   <cell>٠٠٦٠٥١٠٠</cell>
                   <cell>٠٠٥٤٦٧</cell>
-                  <cell>(١٤) الكمارك</cell>
+                  <cell>(١٤) <orgName ref="كمارك">الكمارك</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٧٢٥٠٠</cell>
@@ -1487,7 +1510,8 @@
                   <cell>٠١٢٦٩٤٥</cell>
                   <cell>٠١٢٢٧٨٤</cell>
                   <cell>٠١٠٤٥٧</cell>
-                  <cell>(١٦) وابورات البوستة الخديوية</cell>
+                  <cell>(١٦) <orgName ref="وابورات-البوستة-الخديوية">وابورات البوستة
+                        الخديوية</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٣٨٩٢١</cell>
@@ -1525,12 +1549,13 @@
             </table>
          </div>
          <div xml:id="w128" resp="#eAK">
-            <head>نمرة ١٣٢٠</head>
-            <head>يوم الاحد ٩ ربيع الاول سنة ١٢٩٩ الموافق ٢٩ يناير الافرنكى سنة ١٨٨٢ الموافق ٢٢ طوبه
-               القبطى سنة ١٥٩٨</head>
-            <head>صفحة ٣ – العمود ٢</head>
-            <head>كشف مضاهى بين الايرادات والمصروفات من ابتداء يناير لغاية ٣١ ستمبر سنة ٨١ وبين
-               ايرادات ومصروفات تسعة شهور من سنة ١٨٨٠</head>
+            <head><date when-custom="1299-03-09">٩ ربيع الاول ١٢٩٩</date>
+               <date ref="1882-01-29">٢٩ يناير ١٨٨٢</date>
+               <bibl><biblScope unit="issue">نمرة ١٣٢٠</biblScope>
+                  <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
+            <head>كشف مضاهى بين الايرادات والمصروفات من ابتداء يناير لغاية
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>٣١
+               ستمبر<?oxy_custom_end?> سنة ٨١ وبين ايرادات ومصروفات تسعة شهور من سنة ١٨٨٠</head>
             <table>
                <row>
                   <cell>فرق فى سنة ١٨٨١</cell>
@@ -1588,77 +1613,85 @@
                   <cell>٠٠٠١٠٨</cell>
                   <cell>٠٠٠٤١٨٥</cell>
                   <cell>٠٠٠٤٠٧٧</cell>
-                  <cell>(٥) مجلس النظار</cell>
+                  <cell>(٥) <orgName type="مجلس" ref="مجلس-النظار">مجلس النظار</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٠٠٧٢٠</cell>
                   <cell>٠٠١١٢٨٨</cell>
                   <cell>٠٠١٠٥٦٨</cell>
-                  <cell>(٦) نظارة الخارجيه</cell>
+                  <cell>(٦) <orgName ref="نظارة الخارجيه" type="نظارة">نظارة
+                     الخارجيه</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٤٨٥٣٩</cell>
                   <cell>٠٤٨٧٩٠٢</cell>
                   <cell>٠٤٣٩٣٦٣</cell>
-                  <cell>(٧) نظارة الماليه</cell>
+                  <cell>(٧) <orgName ref="نظارة الماليه" type="نظارة">نظارة الماليه</orgName></cell>
                </row>
                <row>
                   <cell/>
                   <cell/>
                   <cell/>
                   <cell/>
-                  <cell>(٨) نظارتى الجهاديه والبحريه</cell>
+                  <cell>(٨) <orgName ref="نظارة-الجهادية" type="نظارة">نظارتى الجهادية</orgName>
+                        و<orgName ref="نظارة-البحرية" type="نظارة">البحرية</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٩٣٥٦٥</cell>
                   <cell>٠٤١٧٣٢٨</cell>
                   <cell>٠٣٢٣٧٦٣</cell>
-                  <cell>الجهاديه</cell>
+                  <cell><orgName ref="الجهادية">الجهادية</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٠٦٧٦١</cell>
                   <cell>٠٠٤٩٤٠٤</cell>
                   <cell>٠٠٤٢٦٤٣</cell>
-                  <cell>البحريه</cell>
+                  <cell><orgName ref="البحريه">البحريه</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠١٤٥٥٢</cell>
                   <cell>٠٠٥٨٢٢١</cell>
                   <cell>٠٠٤٣٦٦٩</cell>
-                  <cell>(٩) نظارة المعارف</cell>
+                  <cell>(٩) <orgName ref="نظارة المعارف" type="نظارة">نظارة المعارف</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٤٧٣٩٦</cell>
                   <cell>٠٤٣٥٣٩٧</cell>
                   <cell>٠٣٨٨٠٠١</cell>
-                  <cell>(١٠) نظاره الداخليه</cell>
+                  <cell>(١٠) <orgName ref="نظارة-الداخليه" type="نظاره">نظاره
+                     الداخليه</orgName></cell>
                </row>
                <row>
                   <cell>٠٢٠٢٨٣</cell>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٢٣٠٧٨٦</cell>
                   <cell>٠٢٥١٠٦٩</cell>
-                  <cell>(١١) نظاره الحقانيه</cell>
+                  <cell>(١١) <orgName ref="نظارة-الحقانية" type="نظارة">نظاره
+                     الحقانية</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٧٦٨٦٨</cell>
                   <cell>٠٣٩٤٦٠٥</cell>
                   <cell>٠٣١٧٧٣٧</cell>
-                  <cell>(١٢) نظاره الاشغال العموميه</cell>
+                  <cell>(١٢) <orgName ref="نظارة-الاشغال-العمومية" type="نظارة">نظارة الاشغال
+                        العمومية</orgName></cell>
                </row>
                <row>
                   <cell/>
                   <cell/>
                   <cell/>
                   <cell/>
-                  <cell>(١٣) السكك الحديد والتلغراف ومينا اسكندريه</cell>
+                  <cell>(١٣) <orgName ref="السكك-الحديد">السكك الحديد</orgName> و<orgName
+                        ref="التلغرافات">التلغرافات</orgName> و<orgName ref="مينا-اسكندرية"
+                           ><placeName ref="مينا-اسكندرية" type="مينا">مينا
+                        اسكندرية</placeName></orgName></cell>
                </row>
                <row>
                   <cell>٠١١٩٩٢</cell>
@@ -1679,14 +1712,15 @@
                   <cell>٠٠٠٤٧٧</cell>
                   <cell>٠٠٠٦٦٣٢</cell>
                   <cell>٠٠٠٦١٥٥</cell>
-                  <cell>سكة حديد حلوان</cell>
+                  <cell><orgName ref="سكة-حديد-حلوان">سكة حديد <placeName ref="حلوان"
+                           >حلوان</placeName></orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٠٤٩٦٩</cell>
                   <cell>٠٠٦٠٥١٠</cell>
                   <cell>٠٠٥٥٥٤١</cell>
-                  <cell>(١٤) كمارك</cell>
+                  <cell>(١٤) <orgName ref="كمارك">كمارك</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
@@ -1700,7 +1734,8 @@
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠١٢٢٧٨٤</cell>
                   <cell>٠١٣٨٣٥٩</cell>
-                  <cell>(١٦) وابورات البوسته الخديويه</cell>
+                  <cell>(١٦) <orgName ref="وابورات-البوستة-الخديوية">وابورات البوستة
+                        الخديوية</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
@@ -1740,12 +1775,12 @@
             </table>
          </div>
          <div xml:id="w129" resp="#eAK">
-            <head>نمرة ١٣٢٠</head>
-            <head>يوم الاحد ٩ ربيع الاول سنة ١٢٩٩ الموافق ٢٩ يناير الافرنكى سنة ١٨٨٢ الموافق ٢٢ طوبه
-               القبطى سنة ١٥٩٨</head>
-            <head>صفحة ٣</head>
-            <head>ميزانية غير اعتياديه عن سنة ١٨٨١ مصدقا عليها من الحضرة الخديويه بتاريخ ١٦ لوليه
-               سنة ١٨٨١</head>
+            <head><date when-custom="1299-03-09">٩ ربيع الاول ١٢٩٩</date>
+               <date when="1882-01-29">٢٩ يناير ١٨٨٢</date>
+               <bibl><biblScope unit="issue">نمرة ١٣٢٠</biblScope>
+                  <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
+            <head>ميزانية غير اعتياديه عن سنة ١٨٨١ مصدقا عليها من الحضرة الخديويه بتاريخ <date
+                  when="1881-07-16">١٦ لوليه سنة ١٨٨١</date></head>
             <head>(كشف عن المصروفات التى صار اجراؤها من الميزانيه الغير الاعتيادية عن سنة
                ١٨٨١)</head>
             <table>
@@ -1777,13 +1812,15 @@
                   <cell>٠٠١٩٩١</cell>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٠٠٠٠</cell>
-                  <cell>(٢) نظارتى الجهادية والبحرية</cell>
+                  <cell>(٢) <orgName ref="نظارة-الجهادية" type="نظارة">نظارتى الجهادية</orgName>
+                        و<orgName ref="نظارة-البحرية" type="نظارة">البحرية</orgName></cell>
                </row>
                <row>
                   <cell>٠٠١٠١٥</cell>
                   <cell>٠٠٠١٧٣</cell>
                   <cell>٠٠١٧٣</cell>
-                  <cell>(٣) نظارة الداخلية</cell>
+                  <cell>(٣) <orgName ref="نظارة الداحلية" type="نظارة">نظارة
+                     الداخلية</orgName></cell>
                </row>
                <row>
                   <cell>١٩٨٢٧٢</cell>
@@ -1796,7 +1833,10 @@
                   <cell/>
                   <cell/>
                   <cell/>
-                  <cell>(٥) السكك الحديد والتلغراف ومينا اسكندرية</cell>
+                  <cell>(٥) <orgName ref="السكك-الحديد">السكك الحديد</orgName> و<orgName
+                        ref="التلغرافات">التلغرافات</orgName> و<orgName ref="مينا-اسكندرية"
+                           ><placeName ref="مينا-اسكندرية" type="مينا">مينا
+                        اسكندرية</placeName></orgName></cell>
                </row>
                <row>
                   <cell>٠٩٩٢٥٢</cell>
@@ -1814,13 +1854,17 @@
                   <cell>٠٧٥٠٠٠</cell>
                   <cell>٠٤٨٥١٦</cell>
                   <cell>٠٦٣١٢</cell>
-                  <cell>(٦) وابورات البوسته الخديوية</cell>
+                  <cell>(٦) <orgName ref="وابورات-البوستة-الخديوية">وابورات البوستة
+                        الخديوية</orgName></cell>
                </row>
                <row>
                   <cell>١٠٠٠٠٠</cell>
                   <cell>٠١٤٩٥٥</cell>
                   <cell>٠٠٨١١</cell>
-                  <cell>(٧) حكمدارية السودان وسواحل البحر الاحمر ومديرية هرر</cell>
+                  <cell>(٧) <orgName ref="حكمدارية السودان وسواحل البحر الاحمر ومديرية هرر"
+                        type="حكمدارية">حكمدارية <placeName ref="السودان">السودان</placeName> وسواحل
+                           <placeName ref="البحر الاحمر">البحر الاحمر</placeName> و<orgName
+                           ref="مديرية هرر" type="مديرية">مديرية هرر</orgName></orgName></cell>
                </row>
                <row>
                   <cell>٠٤٠٧٠٥</cell>
@@ -1837,52 +1881,61 @@
             </table>
          </div>
          <div xml:id="w130" resp="#eAK">
-            <head>نمرة ١٣٢١</head>
-            <head>يوم الاثنين ١٠ ربيع الاول سنة ١٢٩٩ الموافق ٣٠ يناير الافرنكى سنة ١٨٨٢ الموافق ٢٣
-               طوبه القبطى سنة ١٥٩٨</head>
-            <head>صفحة ٣ – العمود ٣</head>
+            <head><date when-custom="1299-03-10">١٠ ربيع الاول ١٢٩٩</date>
+               <date when="1882-01-30">٣٠ يناير ١٨٨٢</date>
+               <bibl><biblScope unit="issue">نمرة ١٣٢١</biblScope>
+                  <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
             <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="ديوان الاشغال العمومية" type="ديوان">ديوان الاشغال العمومية</orgName></head>
             <p>بما انه سبق الاعلان بالجرانيل الرسمية عن اشهار <rs type="مزاد">مزاد</rs> محل القهوة
-               المعروف بمحل لعب الكورة بجنينه الازبكية فى يوم ٢٧ مايه سنة ٨٢ وبحضور الراغبين فى
-               اليوم المذكور لم يبلغ ايجار حد القيمة ولهذا رؤى موافقة اعادة اشهاره علنا فى يوم ٢٠
-               يونيه سنة ٨٢ من الساعة ٩ افرنكى قبل الظهر لغاية الساعة ١٢ على مقتضى الشروط الموجودة
-               بقلم مشتروات الاشغال فاقتضى الاعلان لمعلومية العموم بذلك وحضور الراغبين فى اليوم
-               المذكور لاطلاعهم على الشروط واعطاء عطاهم فى قايمة المزاد ومن لا يحضر لغاية الميعاد
-               المذكور فلا يكلف الديوان بانتظاره ولا باخذ أقوال منه فيما بعد</p>
+               المعروف بمحل لعب الكورة بـ<placeName ref="جنينة الازبكية" type="جنينه">جنينه
+                  الازبكية</placeName> فى يوم <date when="1882-05-27">٢٧ مايه سنة ٨٢</date> وبحضور
+               الراغبين فى اليوم المذكور لم يبلغ ايجار حد القيمة ولهذا رؤى موافقة اعادة اشهاره علنا
+               فى يوم <date when="1882-06-20">٢٠ يونيه سنة ٨٢</date> من الساعة ٩ افرنكى قبل الظهر
+               لغاية الساعة ١٢ على مقتضى الشروط الموجودة بـ<orgName ref="قلم مشتروات الاشغال"
+                  type="قلم">قلم مشتروات الاشغال</orgName> فاقتضى الاعلان لمعلومية العموم بذلك وحضور
+               الراغبين فى اليوم المذكور لاطلاعهم على الشروط واعطاء عطاهم فى قايمة المزاد ومن لا
+               يحضر لغاية الميعاد المذكور فلا يكلف الديوان بانتظاره ولا باخذ أقوال منه فيما بعد</p>
          </div>
          <div xml:id="w131" resp="#eAK">
-            <head>نمرة ١٣٢١</head>
-            <head>يوم الاثنين ١٠ ربيع الاول سنة ١٢٩٩ الموافق ٣٠ يناير الافرنكى سنة ١٨٨٢ الموافق ٢٣
-               طوبه القبطى سنة ١٥٩٨</head>
-            <head>صفحة ٣ – العمود ٣</head>
+            <head><date when-custom="1299-03-10">١٠ ربيع الاول ١٢٩٩</date>
+               <date when="1882-01-30">٣٠ يناير ١٨٨٢</date>
+               <bibl><biblScope unit="issue">نمرة ١٣٢١</biblScope>
+                  <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
             <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="ديوان الاشغال العمومية" type="ديوان">ديوان الاشغال العمومية</orgName></head>
-            <p>فى يوم الخميس ٢٩ يونيه سنة ٨٢ ديوان الاشغال العمومية سيشهر فى ال<rs type="مزاد">مزاد</rs> مشترى ثلاثين فم رش صناعة يروكن لينبه على مقتضى شروط ورسم موجودين بقلم
-               مشتروات الديوان وقبول العطايات عن ذلك يكون داخل مظاريف مختومة بالشمع الاحمر يصير
+            <p>فى يوم الخميس <date when="1882-06-29">٢٩ يونيه سنة ٨٢</date> ديوان الاشغال العمومية
+               سيشهر فى ال<rs type="مزاد">مزاد</rs> مشترى ثلاثين فم رش صناعة يروكن لينبه على مقتضى
+               شروط ورسم موجودين بـ<orgName ref="قلم مشتروات ديوان الاشغال" type="قلم">قلم مشتروات
+                  الديوان</orgName> وقبول العطايات عن ذلك يكون داخل مظاريف مختومة بالشمع الاحمر يصير
                فتحها بحضور أربابها فى الساعة ١١ افرنكى قبل الظهر من اليوم المذكور فكل من يرغب توريد
                ذلك فليحضر للقلم المذكور فى كل يوم من الساعة ٩ افرنكى قبل الظهر لغاية الساعة ١٢
                لاطلاعه على الشروط والرسم المذكورين وتقديم عطاه بالكيفية المذكورة ومن لا يحضر لغاية
                ذلك الميعاد فلا يكلف الديوان بانتظاره ولا بأخذ أقوال منه فيما بعد </p>
          </div>
          <div xml:id="w132" resp="#eAK">
-            <head>نمرة ١٣٢١</head>
-            <head>يوم الاثنين ١٠ ربيع الاول سنة ١٢٩٩ الموافق ٣٠ يناير الافرنكى سنة ١٨٨٢ الموافق ٢٣
-               طوبه القبطى سنة ١٥٩٨</head>
-            <head>صفحة ٤ – العمود ١</head>
+            <head><date when-custom="1299-03-10">١٠ ربيع الاول ١٢٩٩</date>
+               <date when="1882-01-30">٣٠ يناير ١٨٨٢</date>
+               <bibl><biblScope unit="issue">نمرة ١٣٢١</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="ديوان الاشغال العمومية" type="ديوان">ديوان الاشغال العمومية</orgName></head>
-            <p>فى يوم الاثنين ١٩ يونيه سنة ٨٢ ديوان الاشغال العمومية سيشهر فى ال<rs type="مزاد">مزاد</rs> مبيع الاخشاب والمهمات الموضوعة بحاصل أسفل المقعد المحكمة الشرعية على
-               مقتضى شروط موجودة بقلم مشتروات الديوان ونهو المزاد يكون لغاية الساعة ١٢ افرنكى من
-               اليوم المذكور فكل من يرغب مشترى الاصناف المذكورة فيتوجه لمحل وجودها ويعاينها وبعد ذلك
-               يحضر للديوان للاطلاع على الشروط واعطا عطاه ومن لا يحضر لغاية اليوم المذكور فلا يكلف
-               الديوان بانتظاره ولا باخذ أقوال منه فيما بعد</p>
+            <p>فى يوم الاثنين <date when="1882-06-19">١٩ يونيه سنة ٨٢</date> ديوان الاشغال العمومية
+               سيشهر فى ال<rs type="مزاد">مزاد</rs> مبيع الاخشاب والمهمات الموضوعة بحاصل أسفل المقعد
+               المحكمة الشرعية على مقتضى شروط موجودة بـ<orgName ref="قلم مشتروات ديوان الاشغال"
+                  type="قلم">قلم مشتروات الديوان</orgName> ونهو المزاد يكون لغاية الساعة ١٢ افرنكى
+               من اليوم المذكور فكل من يرغب مشترى الاصناف المذكورة فيتوجه لمحل وجودها ويعاينها وبعد
+               ذلك يحضر للديوان للاطلاع على الشروط واعطا عطاه ومن لا يحضر لغاية اليوم المذكور فلا
+               يكلف الديوان بانتظاره ولا باخذ أقوال منه فيما بعد</p>
          </div>
          <div xml:id="w133" resp="#eAK">
-            <head>نمرة ١٣٢١</head>
-            <head>يوم الاثنين ١٠ ربيع الاول سنة ١٢٩٩ الموافق ٣٠ يناير الافرنكى سنة ١٨٨٢ الموافق ٢٣
-               طوبه القبطى سنة ١٥٩٨</head>
-            <head>صفحة ٤ – العمود ٢</head>
+            <head><date when-custom="1299-03-10">١٠ ربيع الاول ١٢٩٩</date>
+               <date when="1882-01-30">٣٠ يناير ١٨٨٢</date>
+               <bibl><biblScope unit="issue">نمرة ١٣٢١</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="ديوان الاشغال العمومية" type="ديوان">ديوان الاشغال العمومية</orgName></head>
-            <p>فى يوم الاثنين ٢٦ يونيه سنة ٨٢ ديوان الاشغال العمومية سيشهر فى ال<rs type="مزاد">مزاد</rs> مشترى خمسة عربيات فنطاس لزوم مصلحة الرش على مقتضى شروط ورسومات موجودين
-               بقلم مشتروات الديوان وقبول العطا عن ذلك يكون داخل مظاريف مختومه بالشمع الاحمر يصير
+            <p>فى يوم الاثنين <date when="1882-06-26">٢٦ يونيه سنة ٨٢</date> ديوان الاشغال العمومية
+               سيشهر فى ال<rs type="مزاد">مزاد</rs> مشترى خمسة عربيات فنطاس لزوم <orgName
+                  ref="مصلحة الرش" type="مصلحة">مصلحة الرش</orgName> على مقتضى شروط ورسومات موجودين
+                  بـ<orgName ref="قلم مشتروات ديوان الاشغال" type="قلم">قلم مشتروات
+                  الديوان</orgName> وقبول العطا عن ذلك يكون داخل مظاريف مختومه بالشمع الاحمر يصير
                فتحها بحضور أربابها فى الساعة ١٢ افرنكى من اليوم المذكور فكل من يرغب توريد ذلك فليحضر
                للقلم المذكور فى كل يوم من الساعة ٩ افرنكى قبل الظهر لغاية الساعه ١٢ لاطلاعه على
                الشروط والرسومات المذكورة وتقديم عطاه بالكيفية المذكورة ومن لا يحضر لغاية ذلك الميعاد
@@ -2313,77 +2366,85 @@
                   <cell>٠٠٠١٤٢</cell>
                   <cell>٠٠٠٤٢٥٠</cell>
                   <cell>٠٠٠٤١٠٨</cell>
-                  <cell>(٥) مجلس النظار</cell>
+                  <cell>(٥) <orgName type="مجلس" ref="مجلس-النظار">مجلس النظار</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٠٠٦٩٧</cell>
                   <cell>٠٠١١٤٢٧</cell>
                   <cell>٠٠١٠٧٣٠</cell>
-                  <cell>(٦) نظارة الخارجيه</cell>
+                  <cell>(٦) <orgName ref="نظارة الخارجيه" type="نظارة">نظارة
+                     الخارجيه</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٧٢٠٨٠</cell>
                   <cell>٠٥١٣٣٦٥</cell>
                   <cell>٠٤٤١٢٨٥</cell>
-                  <cell>(٧) نظارة الماليه</cell>
+                  <cell>(٧) <orgName ref="نظارة الماليه" type="نظارة">نظارة الماليه</orgName></cell>
                </row>
                <row>
                   <cell/>
                   <cell/>
                   <cell/>
                   <cell/>
-                  <cell>(٨) نظارتى الجهاديه والبحريه</cell>
+                  <cell>(٨) <orgName ref="نظارة-الجهادية" type="نظارة">نظارتى الجهادية</orgName>
+                        و<orgName ref="نظارة-البحرية" type="نظارة">البحرية</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٨٨٨٦٦</cell>
                   <cell>٠٤٢٩١٤١</cell>
                   <cell>٠٣٤٠٢٧٥</cell>
-                  <cell>الجهاديه</cell>
+                  <cell><orgName ref="الجهادية">الجهادية</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٠٣٥٧٨</cell>
                   <cell>٠٠٥٠٥٢١</cell>
                   <cell>٠٠٤٦٩٤٣</cell>
-                  <cell>البحريه</cell>
+                  <cell><orgName ref="البحريه">البحريه</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠١٥٠٣٣</cell>
                   <cell>٠٠٦١٣٦٦</cell>
                   <cell>٠٠٤٦٣٣٣</cell>
-                  <cell>(٩) نظارة المعارف</cell>
+                  <cell>(٩) <orgName ref="نظارة المعارف" type="نظارة">نظارة المعارف</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٢٢٩٦١</cell>
                   <cell>٠٤٤٩٠٣٠</cell>
                   <cell>٠٤٢٦٠٦٩</cell>
-                  <cell>(١٠) نظاره الداخليه</cell>
+                  <cell>(١٠) <orgName ref="نظارة-الداخليه" type="نظاره">نظاره
+                     الداخليه</orgName></cell>
                </row>
                <row>
                   <cell>٠٢٠٤٦٠</cell>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٢٣٣١٠٣</cell>
                   <cell>٠٢٥٣٥٦٣</cell>
-                  <cell>(١١) نظاره الحقانيه</cell>
+                  <cell>(١١) <orgName ref="نظارة-الحقانية" type="نظارة">نظاره
+                     الحقانية</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٧٧٢٨٠</cell>
                   <cell>٠٤٢٦٠٧٤</cell>
                   <cell>٠٣٤٨٧٩٤</cell>
-                  <cell>(١٢) نظاره الاشغال العموميه</cell>
+                  <cell>(١٢) <orgName ref="نظارة-الاشغال-العمومية" type="نظارة">نظارة الاشغال
+                        العمومية</orgName></cell>
                </row>
                <row>
                   <cell/>
                   <cell/>
                   <cell/>
                   <cell/>
-                  <cell>(١٣) السكك الحديد والتلغراف ومينا اسكندريه</cell>
+                  <cell>(١٣) <orgName ref="السكك-الحديد">السكك الحديد</orgName> و<orgName
+                        ref="التلغرافات">التلغرافات</orgName> و<orgName ref="مينا-اسكندرية"
+                           ><placeName ref="مينا-اسكندرية" type="مينا">مينا
+                        اسكندرية</placeName></orgName></cell>
                </row>
                <row>
                   <cell>٠٣٩٣٥٥</cell>
@@ -2404,14 +2465,15 @@
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٠٠٦٧٧٩</cell>
                   <cell>٠٠٠٨١٠٥</cell>
-                  <cell>سكة حديد حلوان</cell>
+                  <cell><orgName ref="سكة-حديد-حلوان">سكة حديد <placeName ref="حلوان"
+                           >حلوان</placeName></orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٠٤٩٥٥</cell>
                   <cell>٠٠٦٠٥١٠</cell>
                   <cell>٠٠٥٥٥٥٥</cell>
-                  <cell>(١٤) كمارك</cell>
+                  <cell>(١٤) <orgName ref="كمارك">كمارك</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
@@ -2505,13 +2567,15 @@
                   <cell>٠٠١٩٩١</cell>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٠٠٠٠</cell>
-                  <cell>(٢) نظارتى الجهادية والبحرية</cell>
+                  <cell>(٢) <orgName ref="نظارة-الجهادية" type="نظارة">نظارتى الجهادية</orgName>
+                        و<orgName ref="نظارة-البحرية" type="نظارة">البحرية</orgName></cell>
                </row>
                <row>
                   <cell>٠٠١٠١٥</cell>
                   <cell>٠٠٠١٧٥</cell>
                   <cell>٠٠٠٠٢</cell>
-                  <cell>(٣) نظارة الداخلية</cell>
+                  <cell>(٣) <orgName ref="نظارة الداحلية" type="نظارة">نظارة
+                     الداخلية</orgName></cell>
                </row>
                <row>
                   <cell>١٩٨٢٧٢</cell>
@@ -2524,7 +2588,10 @@
                   <cell/>
                   <cell/>
                   <cell/>
-                  <cell>(٥) السكك الحديد والتلغراف ومينا اسكندرية</cell>
+                  <cell>(٥) <orgName ref="السكك-الحديد">السكك الحديد</orgName> و<orgName
+                        ref="التلغرافات">التلغرافات</orgName> و<orgName ref="مينا-اسكندرية"
+                           ><placeName ref="مينا-اسكندرية" type="مينا">مينا
+                        اسكندرية</placeName></orgName></cell>
                </row>
                <row>
                   <cell>٠٩٩٢٥٢</cell>
@@ -2542,13 +2609,17 @@
                   <cell>٠٧٥٠٠٠</cell>
                   <cell>٠٤٨٥١٦</cell>
                   <cell>٠٠٠٠٠</cell>
-                  <cell>(٦) وابورات البوسته الخديوية</cell>
+                  <cell>(٦) <orgName ref="وابورات-البوستة-الخديوية">وابورات البوستة
+                        الخديوية</orgName></cell>
                </row>
                <row>
                   <cell>١٠٠٠٠٠</cell>
                   <cell>٠٧١٠٤١</cell>
                   <cell>٥٦٠٨٦</cell>
-                  <cell>(٧) حكمدارية السودان وسواحل البحر الاحمر ومديرية هرر</cell>
+                  <cell>(٧) <orgName ref="حكمدارية السودان وسواحل البحر الاحمر ومديرية هرر"
+                        type="حكمدارية">حكمدارية <placeName ref="السودان">السودان</placeName> وسواحل
+                           <placeName ref="البحر الاحمر">البحر الاحمر</placeName> و<orgName
+                           ref="مديرية هرر" type="مديرية">مديرية هرر</orgName></orgName></cell>
                </row>
                <row>
                   <cell>٠٤٠٧٠٥</cell>
@@ -2615,67 +2686,75 @@
                   <cell>٠٠٠٨٩٣٢</cell>
                   <cell>٠٠٠٤٢٥٠</cell>
                   <cell>٠٠٠٠٦٥</cell>
-                  <cell>(٥) مجلس النظار</cell>
+                  <cell>(٥) <orgName type="مجلس" ref="مجلس-النظار">مجلس النظار</orgName></cell>
                </row>
                <row>
                   <cell>٠٠١٣١٦٢</cell>
                   <cell>٠٠١١٤٢٧</cell>
                   <cell>٠٠٠١٣٩</cell>
-                  <cell>(٦) نظارة الخارجيه</cell>
+                  <cell>(٦) <orgName ref="نظارة الخارجيه" type="نظارة">نظارة
+                     الخارجيه</orgName></cell>
                </row>
                <row>
                   <cell>٠٥٨١٤٨٠</cell>
                   <cell>٠٥١٣٣٦٥</cell>
                   <cell>٠٢٥٤٦٣</cell>
-                  <cell>(٧) نظارة الماليه</cell>
+                  <cell>(٧) <orgName ref="نظارة الماليه" type="نظارة">نظارة الماليه</orgName></cell>
                </row>
                <row>
                   <cell/>
                   <cell/>
                   <cell/>
-                  <cell>(٨) نظارتى الجهادية والبحرية</cell>
+                  <cell>(٨) <orgName ref="نظارة-الجهادية" type="نظارة">نظارتى الجهادية</orgName>
+                        و<orgName ref="نظارة-البحرية" type="نظارة">البحرية</orgName></cell>
                </row>
                <row>
                   <cell>٠٣٦٨٠٠٠</cell>
                   <cell>٠٤٢٩١٤١</cell>
                   <cell>٠١١٨١٣</cell>
-                  <cell>٠٠ الجهادية</cell>
+                  <cell>٠٠ <orgName ref="الجهادية">الجهادية</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٥٤٧٣٤</cell>
                   <cell>٠٠٥٠٥٢١</cell>
                   <cell>٠٠١١١٧</cell>
-                  <cell>٠٠ البحريه</cell>
+                  <cell>٠٠ <orgName ref="البحريه">البحريه</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٨١٩٤٩</cell>
                   <cell>٠٠٦١٣٦٦</cell>
                   <cell>٠٠٣١٤٥</cell>
-                  <cell>(٩) نظارة المدارس</cell>
+                  <cell>(٩) <orgName ref="نظارة-المدارس" type="نظارة">نظارة المدارس</orgName></cell>
                </row>
                <row>
                   <cell>٠٥٢١٦١٢</cell>
                   <cell>٠٤٤٩٠٣٠</cell>
                   <cell>٠١٣٦٣٣</cell>
-                  <cell>(١٠) نظاره الداخلية</cell>
+                  <cell>(١٠) <orgName ref="نظارة-الداخليه" type="نظاره">نظاره
+                     الداخليه</orgName></cell>
                </row>
                <row>
                   <cell>٠٢٤٦٣٤٢</cell>
                   <cell>٠٢٣٣١٠٣</cell>
                   <cell>٠٠٢٣١٧</cell>
-                  <cell>(١١) نظاره الحقانية</cell>
+                  <cell>(١١) <orgName ref="نظارة-الحقانية" type="نظارة">نظاره
+                     الحقانية</orgName></cell>
                </row>
                <row>
                   <cell>٠٤٣٩٢٧٠</cell>
                   <cell>٠٤٢٦٠٧٤</cell>
                   <cell>٠٣١٤٦٩</cell>
-                  <cell>(١٢) نظارة الاشغال العمومية</cell>
+                  <cell>(١٢) <orgName type="نظارة" ref="نظارة-الاشغال-العمومية">نظارة الاشغال
+                        العمومية</orgName></cell>
                </row>
                <row>
                   <cell/>
                   <cell/>
                   <cell/>
-                  <cell>(١٣) السكك الحديد والتلغرافات ومينا اسكندرية</cell>
+                  <cell>(١٣) <orgName ref="السكك-الحديد">السكك الحديد</orgName> و<orgName
+                        ref="التلغرافات">التلغرافات</orgName> و<orgName ref="مينا-اسكندرية"
+                           ><placeName ref="مينا-اسكندرية" type="مينا">مينا
+                        اسكندرية</placeName></orgName></cell>
                </row>
                <row>
                   <cell>٠٤٤٢٦٦٠</cell>
@@ -2693,13 +2772,14 @@
                   <cell>٠٠٠٥٤٦٦</cell>
                   <cell>٠٠٠٦٧٧٩</cell>
                   <cell>٠٠٠١٤٧</cell>
-                  <cell>٠٠ سكة حديد حلوان</cell>
+                  <cell>٠٠ <orgName ref="سكة-حديد-حلوان">سكة حديد <placeName ref="حلوان"
+                           >حلوان</placeName></orgName></cell>
                </row>
                <row>
                   <cell>٠٠٦٠١٦٤</cell>
                   <cell>٠٠٦٠٥١٠</cell>
                   <cell>٠٠٠٠٠٠</cell>
-                  <cell>(١٤) الكمارك</cell>
+                  <cell>(١٤) <orgName ref="كمارك">الكمارك</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٧٢٥٠٠</cell>
@@ -2711,7 +2791,8 @@
                   <cell>٠١٢٦٩٤٥</cell>
                   <cell>٠١٣٤١٠٥</cell>
                   <cell>٠١١٣٢١</cell>
-                  <cell>(١٦) وابورات البوستة الخديوية</cell>
+                  <cell>(١٦) <orgName ref="وابورات-البوستة-الخديوية">وابورات البوستة
+                        الخديوية</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٣٨٩٢١</cell>
