@@ -112,16 +112,14 @@
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
         <p>We use the Arabic script but transliteration into Latin characters follows the Library of
-          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf"
-            >Arabic transliteration chart</ref>.</p>
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
         <p>Each individual article has an individual xml:id number starting with "w1"</p>
         <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
           and notes.</p>
         <p>If the location or organization of responsibility is known from the text, it can be added
           in an attribute to a persName.</p>
         <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-        <p>This project's schema considers Till Grallert's work in his <ref
-            target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
             Editions</ref>.</p>
       </editorialDecl>
     </encodingDesc>
@@ -147,9 +145,7 @@
           <date when="1874-02-03">٣ فبراير ١٨٧٤</date><bibl><biblScope unit="issue">نمرة
               ٥٤٤</biblScope>
             <biblScope unit="page">صفحة ٢</biblScope></bibl></p>
-        <p>نقل <placeName ref="مكتبادارة البوسطة الميرية" type="مكتب"><orgName
-              ref="مكتب ادارة البوسطة الميرية" type="مكتب">مكتب <orgName ref="ادارة البوسطة الميرية"
-                type="ادارة">ادارة البوسطة الميرية</orgName></orgName></placeName> من محله الى
+        <p>نقل <placeName xml:id="place-W000001_1"><orgName ref="مكتب ادارة البوسطة الميرية" type="مكتب">مكتب <orgName ref="ادارة البوسطة الميرية" type="ادارة">ادارة البوسطة الميرية</orgName></orgName></placeName> من محله الى
           الأبنية الجديدة التي فيها <orgName ref="ادارة التلغراف الميري" type="ادارة">ادارة التلغراف
             الميري</orgName> وبوشرت أعماله وأديرت على أقوم محور من ابتداء عاشر ذى الحجة الذي هو يوم
           العيد الأكبر ولاجل كمال تنجيز المراسلات التجارية أحدثت صناديق لمن يرغب من التجار أن يكون
