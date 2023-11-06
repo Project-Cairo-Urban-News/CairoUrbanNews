@@ -4091,18 +4091,24 @@
                </table>
             </div>
          </div>
-         <div xml:id="w154" resp="#eFA">
-            <head><date when="1298-03-17">١٧ ربيع الاول سنة١٢٩٨</date>
-               <date when="1881-02-16">١٦ فبراير سنة ١٨٨١</date><bibl><biblScope unit="issue">نمره
-                     ١٠٣٩</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+         <div xml:id="w154" resp="#eFA #eSG">
+            <head><date when="1298-03-17">١٧ ربيع الاول ١٢٩٨</date>
+               <date when="1881-02-16">١٦ فبراير ١٨٨١</date>
+               <bibl><biblScope unit="issue">نمره ١٠٣٩</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head>اعلانات</head>
             <head>نص اعلان</head>
-            <p>من ضمن أملاك الميرى الخالين من الايجار موجود بجهتى<placeName type="باب">باب
-                  النصر</placeName> والاثر الشريف سنة وخمسين طواحين هوا ولهذا مقتضى تعميم النشر عن
-               تاجيرهم مدة سنة كاملة وقد تحدد ميعاد ثمانية ايام لحضور الراغبين بديوان الدائرة
-               للتاجير عما يرغب استئجاره كل راغب من افراد الستة وخمسون طاحونة بادية الذكر ومن يحضر
-               بعد انقضاء هذا الميعاد فلا يقبل مزاده وبمرسى المزاد يكون الخيار للدائرة فى التسليم
-               وعدمه</p>
+            <p>من ضمن أملاك الميرى الخالين من الايجار موجود ب<placeName ref="جهة-باب-النصر"
+                  type="جهة">جهتى <placeName type="باب" ref="باب-النصر">باب
+                  النصر</placeName></placeName> و<placeName ref="جهة-الاثر-الشريف" type="جهة">الاثر
+                  الشريف</placeName>
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah" timestamp="20231106T234852+0200" comment="ستة زى اما قايل بعدين
+؟"?>سنة<?oxy_comment_end?><?oxy_custom_end?>وخمسين
+                  <placeName type="طواحين-هوا">طواحين هوا</placeName> ولهذا مقتضى تعميم النشر عن
+               تاجيرهم مدة سنة كاملة وقد تحدد ميعاد ثمانية ايام لحضور الراغبين ب<orgName
+                  ref="ديوان-الدائرة" type="ديوان">ديوان الدائرة</orgName> للتاجير عما يرغب استئجاره
+               كل راغب من افراد الستة وخمسون طاحونة بادية الذكر ومن يحضر بعد انقضاء هذا الميعاد فلا
+               يقبل مزاده وبمرسى المزاد يكون الخيار للدائرة فى التسليم وعدمه</p>
          </div>
          <div xml:id="w155" resp="#eFA">
             <head><date when="1298-03-17">١٧ ربيع الاول سنة١٢٩٨</date>
