@@ -3692,26 +3692,39 @@
                <head>(جدول من قسم أملاك الميرى بالمالية )</head>
                <p>ببيان المباع من الاملاك الاميريه والمتحصل من كمالة أثمان السابق مبيعه فى شهر يناير
                   سنة ١٨٨١ خلاف أثمان زوايد التنظيم فى بعض جهات التى ما ورد منها كشوفه </p>
-               <table>
-                  <row>
+               <table rows="0" cols="14">
+                  <row role="label">
                      <cell>جملة</cell>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
                      <cell/>
                   </row>
                   <row>
                      <cell>-</cell>
                      <cell>؎</cell>
                      <cell>جنيه مصرى</cell>
-                     <cell>مباع مما ومندرج بالكشوفة المتقدمة من الجهات عن اللازم مبيعه وصار وصاير
-                        طبع جداول ببيانها ونشرها</cell>
+                     <cell cols="12">مباع مما ومندرج بالكشوفة المتقدمة من الجهات عن اللازم مبيعه
+                        وصار وصاير طبع جداول ببيانها ونشرها</cell>
                   </row>
                   <row>
                      <cell/>
                      <cell/>
                      <cell/>
-                     <cell>الثمن الواقع به البيع</cell>
-                     <cell>تتمين القومسيونات السابق تعيينهم للتتمين</cell>
-                     <cell>مقادير المباع</cell>
-                     <cell>قيمة الزيادة عن الثمن</cell>
+                     <cell cols="3">الثمن الواقع به البيع</cell>
+                     <cell cols="3">تتمين القومسيونات السابق تعيينهم للتتمين</cell>
+                     <cell cols="3">مقادير المباع</cell>
+                     <cell cols="3">قيمة الزيادة عن الثمن</cell>
                   </row>
                   <row>
                      <cell/>
@@ -3725,7 +3738,7 @@
                      <cell>جنيه</cell>
                      <cell>س</cell>
                      <cell>متر</cell>
-                     <cell>بالمحروسه</cell>
+                     <cell>بالمحروسة</cell>
                      <cell>-</cell>
                      <cell>؎</cell>
                      <cell>جنيه</cell>
@@ -3742,7 +3755,7 @@
                      <cell>٠٨٦٢</cell>
                      <cell>٧٥</cell>
                      <cell>٣٤٤٨</cell>
-                     <cell>قطع أراضى <placeName type="جهة">بجهة<persName>الشيخ عبد
+                     <cell>قطع أراضى ب<placeName type="جهة">جهة<persName>الشيخ عبد
                            الله</persName></placeName> ضمن نمرة ١</cell>
                      <cell>١٠</cell>
                      <cell>٤٣</cell>
@@ -4015,7 +4028,7 @@
                      <cell/>
                      <cell/>
                      <cell/>
-                     <cell>بيانه</cell>
+                     <cell cols="3">بيانه</cell>
                      <cell/>
                      <cell/>
                      <cell/>
@@ -4050,7 +4063,7 @@
                      <cell>١٠</cell>
                      <cell>٥٤</cell>
                      <cell>٥٤٣٨</cell>
-                     <cell>تثمين القومسيونات</cell>
+                     <cell cols="3">تثمين القومسيونات</cell>
                      <cell/>
                      <cell/>
                      <cell/>
@@ -4065,9 +4078,7 @@
                      <cell>٢٠</cell>
                      <cell>٤٢</cell>
                      <cell>٤١٣٢</cell>
-                     <cell>قيمة الزيادة عن التتمين</cell>
-                     <cell/>
-                     <cell/>
+                     <cell cols="3">قيمة الزيادة عن التتمين</cell>
                      <cell/>
                      <cell/>
                      <cell/>
@@ -4077,7 +4088,7 @@
                      <cell/>
                      <cell/>
                      <cell/>
-                     <cell>كماله أتمان</cell>
+                     <cell cols="3">كماله أتمان</cell>
                      <cell/>
                      <cell/>
                      <cell/>
