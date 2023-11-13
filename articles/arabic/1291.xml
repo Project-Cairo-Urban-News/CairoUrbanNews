@@ -68,27 +68,26 @@
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
-          <name>Hiba Laabadli</name> 
-        </respStmt>
-     <respStmt>
-       <resp>Research Assistant</resp>
-       <name>Othmane Echchabi</name>
-     </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Fatemah Almahana</name> 
+          <name>Hiba Laabadli</name>
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
-          <name>Mahmoud Zaki</name> 
+          <name>Othmane Echchabi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Fatemah Almahana</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Mahmoud Zaki</name>
         </respStmt>
         <sponsor>
-          <orgName>National Endowment for the Humanities</orgName>,
-          and
-          <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
-            <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
-            Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName> 
+          <orgName>National Endowment for the Humanities</orgName>, and <orgName>Institut français
+            d’archéologie orientale</orgName> (Ifao, Cairo); <orgName>Franklin Humanities Institute
+            and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
+            University</orgName>; <orgName>Duke University Libraries</orgName>; <orgName>Centre
+            national de la recherche scientifique</orgName>
         </sponsor>
       </titleStmt>
       <publicationStmt>
@@ -96,7 +95,8 @@
           du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
         <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
         <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>, <persName>Hugh Cayless</persName></p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+            Volait</persName>, <persName>Hugh Cayless</persName></p>
       </publicationStmt>
       <sourceDesc>
         <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
@@ -112,13 +112,15 @@
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
         <p>We use the Arabic script but transliteration into Latin characters follows the Library of
-          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
         <p>Each individual article has an individual xml:id number starting with "w1"</p>
-        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
-        <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
+          and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added
+          in an attribute to a persName.</p>
         <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
         <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
-          Editions</ref>.</p>
+            Editions</ref>.</p>
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
@@ -129,16 +131,16 @@
         <language ident="ota">Ottoman</language>
       </langUsage>
     </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="cleared">
       <listChange>
-        <change/>
+        <change status="cleared" resp="#eAM" when="2023-10-28"/>
       </listChange>
     </revisionDesc>
   </teiHeader>
   
-  <text xml:lang="ar" xml:id="w169" resp="#eNK #eSG">
+  <text xml:lang="ar" resp="#eNK #eSG">
     <body>
-      <div>
+      <div xml:id="W1291054601">
         <head><date when-custom="1291-01-07">٧ محرم ١٢٩١</date>
           <date when="1874-02-24">٢٤ فبراير ١٨٧٤</date>
           <bibl><biblScope unit="issue">نمرة ٥٤٦</biblScope>
@@ -153,47 +155,47 @@
           </row>
           <row>
             <cell>١</cell>
-            <cell>وكالة وربع علوها <orgName type="وقف" ref="وقف-الحاج-محمد-امام"><placeName type="وقف" ref="وقف-الحاج-محمد-امام">وقف <persName>الحاج محمد
-                  امام</persName></placeName></orgName> ب<placeName type="خط" ref="خط-المشهد-الحسينى">خط <placeName ref="المشهد-الحسينى" type="مشهد"><orgName type="مشهد" ref="المشهد-الحسينى">المشهد
-                الحسينى</orgName></placeName></placeName> نظارة <persName>أسعد أفندى أمام</persName>
-              مقدار مسطح أرض الوكالة أذرع ١١٠٠ مقتضى خروجهم من الوقف بالاستبدال وتحدد لنهو مزادهم
-              خمسة عشر يوم من تاريخه وقائمة مزادهم بطرف معاون <orgName ref="قسم-ثالث-اوقاف" type="قسم">قسم ثالث أوقاف</orgName></cell>
+            <cell>وكالة وربع علوها <orgName type="وقف" ref="وقف-الحاج-محمد-امام"><placeName xml:id="place-W1291054601_1">وقف <persName>الحاج محمد
+                امام</persName></placeName></orgName> ب<placeName xml:id="place-W1291054601_2">خط
+                  <placeName xml:id="place-W1291054601_3"><orgName type="مشهد" ref="المشهد-الحسينى">المشهد الحسينى</orgName></placeName></placeName> نظارة <persName role="ناظر">أسعد أفندى أمام</persName> مقدار مسطح أرض الوكالة أذرع ١١٠٠ مقتضى خروجهم من الوقف
+              بالاستبدال وتحدد لنهو مزادهم خمسة عشر يوم من تاريخه وقائمة مزادهم بطرف معاون <orgName ref="قسم-ثالث-اوقاف" type="قسم">قسم ثالث أوقاف</orgName></cell>
           </row>
           <row>
             <cell>١</cell>
-            <cell>حصة أربعة عشر سهم وخمسين من سهم من <placeName ref="مطبخ-العسل-بشارع-امير-الجيوش" type="مطبخ">مطبخ العسل ب<placeName type="شارع" ref="أمير-الجيوش">شارع أمير
-                  الجيوش</placeName></placeName>
-              <orgName ref="وقف-محمد-كتخدا" type="وقف"><placeName type="وقف" ref="وقف-محمد-كتخدا">وقف <persName>محمد كتخدا</persName></placeName></orgName>
-              <persName>نظارة الست بنبة البيضا</persName> بالغ مسطح أرض المطبخ جميعه اذرع ٨٠٢ مقتضى
+            <cell>حصة أربعة عشر سهم وخمسين من سهم من <placeName xml:id="place-W1291054601_4">مطبخ
+                العسل ب<placeName xml:id="place-W1291054601_5">شارع أمير
+                الجيوش</placeName></placeName>
+              <orgName ref="وقف-محمد-كتخدا" type="وقف"><placeName xml:id="place-W1291054601_6">وقف
+                    <persName>محمد كتخدا</persName></placeName></orgName> نظارة <persName role="ناظرة">الست بنبة البيضا</persName> بالغ مسطح أرض المطبخ جميعه اذرع ٨٠٢ مقتضى
               خروج الحصة المذكورة بالاستبدال وتحدد لنهو مزادها شرح ما قبله وقائمة المزاد بطرف معاون
                 <orgName type="قسم" ref="قسم-اول">قسم أول</orgName></cell>
           </row>
           <row>
             <cell>١</cell>
-            <cell>فرن وطاحونة <orgName type="وقف" ref="وقف-السلطان-الاشرف"><placeName type="وقف" ref="وقف-السلطان-الاشرف">وقف <persName>السلطان
-                الأشرف</persName></placeName></orgName> ب<placeName type="جهة" ref="جهة-تحت-الربع">جهة تحت الربع</placeName> نظارة الديوان مقدار مسطح أرضها متر ٧٠٠ تقريبا مقتضى
-              خروجهم من الوقف بالاستبدال وتحدد لنهو مزادهم خمسة عشر يوم من تاريخه وقائمة المزاد بطرف
-              معاون قسم ثالث</cell>
+            <cell>فرن وطاحونة <orgName type="وقف" ref="وقف-السلطان-الاشرف"><placeName xml:id="place-W1291054601_7">وقف <persName>السلطان
+                الأشرف</persName></placeName></orgName> بجهة <placeName xml:id="place-W1291054601_8">تحت الربع</placeName> نظارة الديوان مقدار مسطح أرضها متر ٧٠٠ تقريبا مقتضى خروجهم من
+              الوقف بالاستبدال وتحدد لنهو مزادهم خمسة عشر يوم من تاريخه وقائمة المزاد بطرف معاون قسم
+              ثالث</cell>
           </row>
           <row>
             <cell>١</cell>
-            <cell>منزل خرب <placeName type="وقف" ref="وقف-الاقباط">وقف الأقباط</placeName> كائن
-                ب<placeName type="حارة" ref="حارة-الروم">حارة الروم</placeName> راغب أخذه
+            <cell>منزل خرب <placeName xml:id="place-W1291054601_9">وقف الأقباط</placeName> كائن
+                ب<placeName xml:id="place-W1291054601_10">حارة الروم</placeName> راغب أخذه
                 <persName>على محمد الصرماتي</persName> بالاستبدال ومقدر لقيمة استبداله بمعرفة أهل
               الخبرة قرش ٢١٤٥ وتحدد لنهو مزاده خمسة عشر يوم من تاريخه وقائمة مزاده بطرف معاون قسم
               ثالث</cell>
           </row>
         </table>
       </div>
-      <div resp="#eSG">
+      <div xml:id="W1291057602" resp="#eSG">
         <head><date when-custom="1291-08-12">١٢ شعبان ١٢٩١</date>
           <date when="1874-09-23">٢٣ سبتمبر ١٨٧٤</date>
           <bibl><biblScope unit="issue">نمرة ٥٧٦</biblScope>
             <biblScope unit="page">صفحة ١</biblScope></bibl></head>
-        <p>لما كان محل <orgName ref="ديوان-الامور-الخارجية" type="ديوان">ديوان الأمور
-            الخارجية</orgName> الذي ب<placeName ref="الازبكية">الأزبكية</placeName> جاريا فيه بعض
-          ترميمات وعمارات ضرورية ولا يتأتى اذا اقامة مأمورية واقلامه فيه بعد العود من <placeName ref="الاسكندرية">الأسكندرية</placeName> تدورك له محل آخر ب<placeName ref="المحلة-الجديدة">المحلة الجديدة</placeName> المعروفة ب<placeName ref="الاسماعيلية">الأسماعيلية</placeName> وشرع في فرشه وما يلزم لشأنه من النظام وبأتمام ذلك تنتقل فيه
-          أولئك المأمورين والأقلام بعد أيام.</p>
+        <p>لما كان محل <placeName xml:id="place-W1291057602_1"><orgName ref="ديوان-الامور-الخارجية" type="ديوان">ديوان الأمور الخارجية</orgName></placeName> الذي ب<placeName xml:id="place-W1291057602_2">الأزبكية</placeName> جاريا فيه بعض ترميمات وعمارات ضرورية
+          ولا يتأتى اذا اقامة مأمورية واقلامه فيه بعد العود من <placeName xml:id="place-W1291057602_3">الأسكندرية</placeName> تدورك له محل آخر بالمحلة الجديدة
+          المعروفة ب<placeName xml:id="place-W1291057602_4">الأسماعيلية</placeName> وشرع في فرشه وما
+          يلزم لشأنه من النظام وبأتمام ذلك تنتقل فيه أولئك المأمورين والأقلام بعد أيام.</p>
       </div>
     </body>
   </text>
