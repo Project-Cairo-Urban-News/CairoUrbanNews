@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
+          Project</title>
+            <editor xml:id="eNK">Nour Kanaan</editor>
+            <editor xml:id="eAM">Adam Mestyan</editor>
+            <editor xml:id="eDY">Danah Younis</editor>
+            <editor xml:id="eSG">Sarah Fathallah Garaa</editor>
+            <editor xml:id="eAE">Arif Erbil</editor>
+            <editor xml:id="eAK">Ahmed Kamal</editor>
+            <editor xml:id="eAS">Abram Smith</editor>
+            <editor xml:id="eCH">Clara Harms</editor>
+            <editor xml:id="eHS">Hüseyin Sağlam</editor>
+            <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+            <editor xml:id="eHL">Hiba Laabadli</editor>
+            <editor xml:id="eOE">Othmane Echchabi</editor>
+            <editor xml:id="eFA">Fatemah Almahana</editor>
+            <respStmt>
+               <resp>Advisor</resp>
+               <name>Hugh Cayless</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Adam Mestyan</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Mercedes Volait</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Sarah Fathallah Garaa</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Karima Nasr</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Rezk Nory</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Arif Erbil</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Ahmed Kamal</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abram Smith</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Clara Harms</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Hüseyin Sağlam</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abdulrahman El-Taliawi</name>
+            </respStmt>
+            <sponsor>
+               <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
+            <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
+            Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
+            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>.
+        </sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
+          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+            <p>
+               <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
+            </p>
+            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+            <p>born digital document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Rules of TEI XML MarkUp in This Project</p>
+            <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
+            <p>Each individual article has an individual xml:id number starting with "w1"</p>
+            <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
+            <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
+            <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+          Editions</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+            <language ident="ota">Ottoman</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change/>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="ota">
+      <body>
+         <div>
+            <head>صلیبیه ده مرحوم دیوان افندیسنه متعلق اوست قاتی يدی اوطه ومرمرلى بر فسحه یی مشتمل والت قاتى برفسحه ومرمر ايله مفروش مع خزينه وفسقيه بر بيوك اوطه دن بشقه كوچك اوله رق درت اوطه واون بش حيوان الور بر اخور والتى مغازه ومكمل بر دكرمن ومستكمل الآلات بر ساقيه ايله بيوك واچيق بر حولی يی محتوى بر باب سلاملق وينه سلاملق مذكورك جوارنده افندی مومى اليهه متعلق اوست قاتنده اون عدد دوشمه اوطه سی ومکمل بر حمامى والت قاتنده بيوك بر فسحه سی و فسقیه لى ومرمرلی بر بیوك اوطه سى و كوچك اوله رق دیكر درت اوطه سی وبر اخوری والتی کیلار وبر مطبخ والتى مغازه وحرم اغالرينه مخصوص فسحه لى اوچ اوطه وبر حديقه واچيق وبيوك بر حولیسی اولدینی حالده اوچ قیولی دیكر خانه سی صاتلق اولوب راغبلری وار ايسه دلالباشی سید مصطفی دن سؤال اولنمسی اعلان قلنمشدر</head>
+            <p>نمره ٢١٢ في يوم الثلاث ٨ جماد اول ١٢٦٧ </p>
+            <milestone n="ص - 4"/>
+            <p>إعلانات</p>
+            <p>مطريه قریه سنده مرحوم على بصيلى اغايه متعلق اوچ قصر ومکمل بر دكرمن ايله دكرمن يری وبهری ایکی چرخلی اوچ ساقیه یی مشتمل كوفا كون اغاجلی ماللی اون ایکی فدان </p>
+            <p>نمره ٢١٤ في يوم الاثنين ٥ جمادى الاخرة ١٢٦٧ </p>
+            <milestone n="ص - 4"/>
+            <p>إعلانات</p>
+            <p>حسنین حضرتلری خطنده شیخ حلوه جی قارشوسنده بولنان عطفة العسل محله سنده مرحوم عثمان كاشفك ورثه سنه متعلق اوست قاتی سكز اوطه وبر مطبخ وبر كيلار وبر لطیف قصر وخزینه ومنافع سايره لى ومرمرلى بر بيوك كوشك ومكمل بر حمامی شامل والت قاتی برى فسقيه لى وديكرى فسقيه سز ايكى بيوك قاعه وبر كوچك منظره ومرمر دیركلی تخته بوش وبر دكرمن ودردر</p>
+            <p>حيوان الور ايكى اخور وبر قيو واچيق وبيوك اوله رق ايکی حرلیسی بولنور بر بیوك باب خانه</p>
+            <p>نمره ٢١٤ في يوم الاثنين ٥ جمادى الاخرة ١٢٦٧ </p>
+            <milestone n="ص - 4"/>
+            <p>إعلانات</p>
+            <p>كذلك خانۀ مذکوره قربنده ورثۀ مرقومه يه متعلق بری درت اوطه وبر مطبخ وبر کيلاری مشتمل و دیكری ایکی اوطه وبر مطبخ وبر کیلاری محتوی ایکی باب خانه صاتیلق اولوب راغبلری وار ایسه دلالباشی سید مصطفادن استدلال ایلمسی</p>
+            <p>نمره ٢١٥ في يوم الاربع ٢١ جمادى الاخرة ١٢٦٧ </p>
+            <milestone n="ص - 4"/>
+            <p>إعلانات</p>
+            <p>
+               <anchor type="commentRangeStart" n="0"/>جيزه قریه سنده <anchor type="commentRangeEnd" n="0"/>
+               <note place="comment" resp="#Hüseyin_Sağlam" n="0">
+                  <date when="2023-08-12T12:35:00Z"/>Not sure if this is in Cairo</note>مرحوم زعیمزاده حسن اغانك متروكاتندن اوست قاتی نیل مبارك ایله ایکی باغچه يه بقار سکز اوطه و برفسحه یی مشتمل والت قاتی سکز اوطه ومكمل بر حمام وبر مطبخ وایکی کیلار وبری بر وکسور ودیكری بر ثلث فدّان بر ساقیه لی ایکی باغچه یی محتوی بری نیل طرفندن دیكری قریه ایچی طرفندن اچیلور ایکی قبولی بر باب خانه</p>
+            <p>نمره ٢١٥ في يوم الاربع ٢١ جمادى الاخرة ١٢٦٧ </p>
+            <milestone n="ص - 4"/>
+            <p>إعلانات</p>
+            <p>كذلك قريۀ مرقومه ده ينه اغاى مومى اليهك مخلفاتندن برينك اوست قاتنده اوچ اوطه وبر فسحه والت قاتنده اوچ مغازه وايكى حيوان الور بر اخور وبر اچیق حولیسی بولنور ودیكرينك اوست قاتی ایکی اوطه وبر حمامجه وبر کیلار وبر مطبخ وبر فسحه یی والت قاتی ایکی مغازه وایکی حیوان الور بر اخور وكوچك بر حولی یی مشتمل ایکی باب خانه صاتيلق اولوب استکلوسی وار ایسه دلالباشی سید مصطفادن استدلال ايلمسی </p>
+            <p>نمره ٢١٦ في يوم الاثنين ٤ رجب ١٢٦٧ </p>
+            <milestone n="ص - 4"/>
+            <p>إعلانات</p>
+            <p>شعراوی خطنده اغای مرقومك متروكاتندن اوست قاتی اوچ اوطه وبر مطبخ وبر كيلار ومکمل بر حمامی شامل وآلت قاتی بر منظره وبر دكرمن وایکی حیوان الور بر اخور وبر قيو وبر اچيق حولی يی محتوی بر باب خانه صاتیلق اولوب راغبلری وار ایسه دلالباشی سید مصطفادن استدلال ایلمسی</p>
+            <p>نمره ٢١٧ في يوم السبت ١٦ رجب ١٢٦٧ </p>
+            <milestone n="ص - 1"/>
+            <p>حوادث داخلية</p>
+            <p>شیخ <anchor type="commentRangeStart" n="1"/>ظلام <anchor type="commentRangeEnd" n="1"/>
+               <note place="comment" resp="#Hüseyin_Sağlam" n="1">
+                  <date when="2023-08-13T01:13:00Z"/>طلام or ظلام?</note>خطنده کائن مسجد شریف مشرف خراب اولوب تعمیر وترمیمه محتاج بولندیغنه وهمت والا منقبت حضرت آصفی بو كونه امور خیریه نك اجراسی بابنده همیشه مبذول ودرکار اولنديغنه بناء مسجد شريف مذكورك تعمیری خصوصنه بو دفعه ارادۀ خیریت عادۀ جناب داوری شرفتعلق بيورلمش اولمسيله اقتضاسنك اجراسى لازمکلانلره يازلمشدر</p>
+            <p>نمره ٢١٨ في يوم الخميس ٢٨ رجب ١٢٦٧ </p>
+            <milestone n="ص - 1"/>
+            <p>حوادث داخلية</p>
+            <p>ماه مذكورك يكرمى طقوزنجي پنجشنبه کیجه سی ساعت اوچ راده لرنده شعراوی سمتنده هواجه انطون ظلوطه نك ساكن اولديغي خانه دن قضاء يانقين ظهور ايدرك درحال ضبطيه طرفندن اسباب اطفائیه نك ايصاليله بحوله تعالى ديكر بر يره سرایت اتمكسزين اطفا اولنمشدر</p>
+            <p>نمره ٢١٨ في يوم الخميس ٢٨ رجب ١٢٦٧ </p>
+            <milestone n="ص - 4"/>
+            <p>إعلانات</p>
+            <p>
+               <anchor type="commentRangeStart" n="2"/>جیزه<anchor type="commentRangeEnd" n="2"/>
+               <note place="comment" resp="#Hüseyin_Sağlam" n="2">
+                  <date when="2023-08-13T01:14:00Z"/>Not sure?</note> ده سابق سواری مدرسه سی ناظری وسیله بکه متعلق اوسته قاتي الافرانقه طقوز اوطه والافرانقه ایکی مطبخ وثلث فدان كلور ساقيه لى بر حديقه ويدي اوطه ودرت مغازه واونر حیوان الور ايكيسی بیاغی وبرى الافرانقه اوله رق اوچ اخوری مشتمل بر دوار ودرت بچقى ميشه لك وديكر درت بچقى دخی اشجار كونا كون اوله رق درتيوز اللى اغاج والافرانقه مثلث اوله رق اوچ ساقيه ونيل مبارك صويندن کتورمك اوزره اوزرنده بر ساقیه بولنور بر كولی شامل طقوز فدانه بالغ بر باغچه یی محتوی مذکور نیل مبارکه بقار بر باب خانه صاتیلق اولوب راغبلری دلالباشی سید مصطفادن استدلال ایلمسی</p>
+            <p>نمره ٢١٩ في يوم الخميس ٥ شعبان ١٢٦٧</p>
+            <p>لا يوجد !</p>
+            <p>نمره ٢٢٠ في يوم الثلاث ٢٤ شعبان ١٢٦٧</p>
+            <milestone n="ص - 1"/>
+            <p>حوادث داخلية</p>
+            <p>ماه هرقومك يكرمى بشنجی پازار ایرتسی کیجه سی لیلا ساعت ایکی راده لرنده بولاق ترسانه سی داخلنده تیمورجیلر ورشه سندن يانقين ظهور اتمکله در حال اسباب اطفائيه نك ايصاليله مأمورلرى ثمرۀ غيرتى اوله رق اصلا بر سقامت حاصل اولمقسزين اطفاسی میسر اولمشدر</p>
+            <p>نمره ٢٢٠ في يوم الثلاث ٢٤ شعبان ١٢٦٧</p>
+            <milestone n="ص - 1"/>
+            <p>حوادث داخلية</p>
+            <p>ماه حالك التنجي جمعه کیجه سی لیلا درب الاحمر سمتنده کائن محمد عبداه نام عطارك دكانندن یانقين ظهور اتمش اولديغی خبری ضبطیه يه واصل اولمغله درحال مأمورلر ايصاليله بحوله تعالى ديكر يره سرایت ایتمکسزین اطفاسی میسر اولمشدر</p>
+            <p>نمره ٢٢٠ في يوم الثلاث ٢٤ شعبان ١٢٦٧</p>
+            <milestone n="ص - 4"/>
+            <p>إعلانات</p>
+            <p>منیلده دیوان جهادیه ده محاسبه قلمی ناظری رفعتلو ابراهیم رأفت بکه متعلق اوست قاتی يدیسی دوشمش وایکیسی تبعه اوطه سی اوله رق طقوز اوطه وبر مکمل حمام وبر مطبخ وایکی كيلار والت قاتی اوچ منظره والتى حيوان الور بر اخور وبر مغازه وبر دكرمن وبر قيو واشجار مثمره ایله مفروش بر فدانه وارر بر حديقه وبر ساقيه یی محتوی مزادده قرق بر بيك غروشه چيقمش بر باب قصر</p>
+            <p>نمره ٢٢٠ في يوم الثلاث ٢٤ شعبان ١٢٦٧</p>
+            <milestone n="ص - 4"/>
+            <p>إعلانات</p>
+            <p>سوق السلاح سمتنده داده محمد الدرويشه متعلق اوست قاتی درت دوشمه اوطه سی ومکمل بر حمام وبر مطبخ وبر كيلار والت قاتی بر منظره وبر دكرمن وبر اخور وایکی مغازه وبر قیويی مشتمل مزادده اوتوز بيك غروشه بالغ اولمش بر باب خانه صاتيلق اولوب راغبلری وار ایسه دلالباشی سید مصطفادن استدلال ایلمسی </p>
+            <p>نمره ٢٢١ في يوم السبت ٦ رمضان ١٢٦٧</p>
+            <milestone n="ص - 1"/>
+            <p>حوادث داخلية</p>
+         </div>
+         <div>
+            <head>جناب رب عزت پیرایه بخش باغ عدالت و رونقفزاى ریاض سماحت اولان ذات مكارمسمات حضرت آصفی یی کافۀ عاهات كونيه وجمله آفات دهریه دن مصونیتله دائما متنسم کلکشت عافیت ومتنزه كلزار شان ودولت ايدرك مجلبۀ خير دعا اولور نیجه آثار خیریه ابداعنه موفق مظفر بيوره آمين ذات ملكى الصفات حضرت خديو اعظمينك موصوف ومتخلق اولدقلرى شيمۀ رعیت پروری وشنشنۀ خیریت کستری اقتضاسنجه نسائم الطاف عليۀ داورانه لرى جمله حقنده دائمی الظهور اوله کلدیکنه واكثر بلاد مشهوره ده اهالی وبرایایه نزهتكاه اولمق اوزره معمور ومعتنا باغچه ومسیره کاهلر موجود اولوب هرکس سير وتماشاسنه عزیمت ایله کلچین ذوق ومسرت اوله کلدکلری مثللو بو راده دخی تماشای خلق ایچون بويله نزهتكاهك بولنمسی محسنات بلده یی مستلزم اوله جغی بدیهی بولنديغنه مبنى منيل وفم الخليجده كائن ثانئ باغ ارم ورشك مسائر اربعۀ عالم اولان باغچه لرك طرف مستجمع الشرف حضرت آصفیدن لطفا واحسانا نزهتكاه خاص وعام تخصیصیله کافۀ زیر دستان وسائر زمرۀ تماشایاندن استجلاب خیر دعا قلنمق اراده سیله ذکر اولنان منيل باغچه سنه نزهة الاهم وفم الخليج باغچه سنه فرحة النفوس تسمیه اولنه رق اعیاد وسائر مواسم سیر وتماشادن ماعدا هفته ده بر كون دخی تنزه عامه ايچون رخصت تامه ارزان واعطا بیورلمش اولمغين اشبو خصوص خيريت منصوصك وقوعى مسرات عمومیه یی مستوجب اوله جغندن جمله نك معلومى اولمق ومحسنات عصر خیریت حصر حضرت داوری یاد وتذکار قلنمق ايچون درج نسخ وقایع ايله اعلان كيفيته ابتدار اولنمشدر</head>
+            <p>نمره ٢٢١ في يوم السبت ٦ رمضان ١٢٦٧</p>
+            <milestone n="ص - 4"/>
+            <p>إعلانات</p>
+            <p>حوش قدم سمتنده بيت الماله متعلق اوست قاتی درت دوشمه اوطه سی وبر مکمل حمام وایكى کیلار وبر مطبخ والت قاتی مرمر دیرکلی بر كوچك سلاملق وبر دكرمن وایکی مغازه وبر قيو وبر اچیق حولی يی مشتمل مزادده اون طقوز بيك ايکی يوز غروشه چيقمش بر باب خانه صاتيلق اولوب راغبلری دلالباشی سید مصطفادن استدلال ايلملرى</p>
+            <p>نمره ٢٢٢ في يوم الاحد ٢١ رمضان ١٢٦٧</p>
+            <milestone n="ص – 1-2"/>
+            <p>حوادث داخلية</p>
+            <p>ماه حالك التنجى سبت كيجه سی لیلا ساعت اوچ صولرنده حسنین افندمز حضرتلرينك خطنده كائن لاظ محمد افندينك خانه سندن يانقين  ظهور ايدرك بعونه تعالی اوچ ساعت ظرفنده اطفا اولنمشدر</p>
+            <p>نمره ٢٢٢ في يوم الاحد ٢١ رمضان ١٢٦٧</p>
+            <milestone n="ص - 4"/>
+            <p>إعلانات</p>
+            <p>منصوره ده مرحوم خورشید باشانك متروكاتندن مزادده مومی اليهك دائره سی وکیلی اوزرینه اللى بيك غروشه جيقمش بر باب قصر وازبکیه ده رویعی حضرتلری جوارنده میری يه متعلق بر قطعه عرصه</p>
+            <p>نمره ٢٢٢ في يوم الاحد ٢١ رمضان ١٢٦٧</p>
+            <milestone n="ص - 4"/>
+            <p>إعلانات</p>
+            <p>حسنين افندمز حضرتلرينك مقام شریفی قربنده درب مقدمده مرحوم حسين بك حضرتلرينك والده لرینه سنه متعلق اوست قاتی يکرمی بش دوشمه اوطه سی واون عدد خدمه وتبعه اوطه سی ومکمل ایکی حمام والت قاتی ایکی منظره ویکرمی بش حيوان الور بر اخور والتى مغازه ومکمل بر مطبخ وبر حديقه وبر ساقيه وبر قيو وبيوك بر اجيق حولى يى مشتمل هواجه بانفور وكالتيله صاتيلق اولوب راغبلری دلالباشی سید مصطفادن ایلملری</p>
+            <p>نمره ٢٢٣ في يوم الاثنين ٦ شوال ١٢٦٧</p>
+            <milestone n="ص - 4"/>
+            <p>إعلانات</p>
+            <p>حلمیه خطنده شیخ الماس حضرتلريك محله سنده مرحوم محمد سهراب پاشانك مرحومه حليله سنك مخلفاتندن اوست قاتی اوتوز اوطه وبر مطبخ وایکی کیلار ومکمل بر حمام وبر سلاملق والت قانی اوتوز حيوان الور بر اخور واون مغازه وبر ساقیه وبر باغچه واچیق بر بيوك حولى يى مشتمل مزادده اللى بش بيك غروشه چیقمش بر باب خانه صاتيلق اولوب راغبلری دلالباشی سید مصطفادن استدلال ایلمسی اعلان اولنمشدر</p>
+            <p>نمره ٢٢٤ في يوم الاثنين ٢٠ شوال ١٢٦٧</p>
+            <p>لا يوجد !</p>
+            <p>نمره ٢٢٥ في يوم الاحد ٤ ذى القعدة ١٢٦٧</p>
+            <p>لا يوجد !</p>
+            <p>نمره ٢٢٦ في يوم الخميس ١٥ ذى القعدة ١٢٦٧</p>
+            <milestone n="ص - 1"/>
+            <p>حوادث داخلية</p>
+            <p>درب الاحمر ثمننده مديح محله سنده حاجی محمد نام کمسنه نك خانه سنده ماه حالك غره سی پنجشنبه کونی قضاء يانقين ظهور اتمکله مأمورلر طرفندن درحال اسباب اطفائيه نك ايصاليله بلطفه تعالى سويندرلمشدر</p>
+            <p>نمره ٢٢٧ في يوم الثلاثا ٢٧ ذى القعدة ١٢٦٧</p>
+            <p>لا يوجد !</p>
+            <p>نمره ٢٢٨ في يوم الخميس ٢٧ ذو الحجة ١٢٦٧</p>
+            <p>لا يوجد !</p>
+         </div>
+      </body>
+   </text>
+</TEI>

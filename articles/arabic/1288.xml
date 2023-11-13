@@ -138,7 +138,7 @@
   
   <text xml:lang="ar" resp="#eAT #eSG">
     <body>
-      <div xml:id="w1">
+      <div>
         <head><date when-custom="1288-01-23">٢٣ محرم ١٢٨٨</date>
           <date when="1871-04-13">١٣ ابريل ١٨٧١</date>
           <bibl><biblScope unit="issue">نمرة ٤٠٣</biblScope>
@@ -192,7 +192,7 @@
           للنوع الانسانى وهو من جملة ما للحضرة الخديوية من الخيرات الكثيره والمبرات الشهيره وجب
           علينا المبادرة باعلانه تعميما باعلانه تعميما للسرور بهذا العمل المبرور.</p>
       </div>
-      <div xml:id="w2" resp="#eSG">
+      <div resp="#eSG">
         <head>
           <date when-custom="1288-02-14">١٤ صفر ١٢٨٨</date>
           <date when="1871-05-04">٤ مايو ١٨٧١</date>
@@ -219,7 +219,7 @@
           وهى كافية فى انتهاء اشغاله اللازمة فى المياه والذى يراه ذلك المهندس بمقتضى سرعة العمل
           الحاصلة فيه انه يتحقق تمام تركيب أجزائه فى أخر فصل الصيف ويمر عليه العالم.</p>
       </div>
-      <div resp="#eSG" xml:id="w3">
+      <div resp="#eSG">
         <head><date when-custom="1288-02-14">١٤ صفر ١٢٨٨</date>
           <date when="1871-05-04">٤ مايو ١٨٧١</date>
           <bibl><biblScope unit="issue">نمرة ٤٠٦</biblScope>
@@ -244,7 +244,7 @@
           </row>
         </table>
       </div>
-      <div resp="#eSG" xml:id="w4">
+      <div resp="#eSG">
         <head><date when-custom="1288-03-06">٦ ربيع الاول ١٢٨٨</date>
           <date when="1871-05-25">٢٥ مايو ١٨٧١</date>
           <bibl><biblScope unit="issue">نمرة ٤٠٩</biblScope>
@@ -262,7 +262,7 @@
           كل من رغب لاخذه بالتاجر فبعد معاينته يتوجه لطرف معاون <orgName type="قسم" ref="قسم-اول-اوقاف">قسم اول أوقاف</orgName> [...] ويوضع مزاده بقائمة المزاد عن ما يرغب
           دفعه عن ثمن أنقاضه  [...] واجرة ارضه لكل سنه.</p>
       </div>
-      <div xml:id="w5" resp="#eSG">
+      <div resp="#eSG">
         <head><date when-custom="1288-05-16">١٦ جمادى الاول ١٢٨٨</date>
           <date when="1871-08-03">٣ اغستوس ١٨٧١</date>
           <bibl><biblScope unit="issue">نمرة ٤١٩</biblScope>
@@ -316,7 +316,7 @@
             لل<orgName type="محكمة">محكمة</orgName> بتحرير الحجة اللازمة لمن يرسى عليه المزاد فلهذا
           لزم احاطة علم الجميع بذلك.</p>
       </div>
-      <div resp="#eSG" xml:id="w6">
+      <div resp="#eSG">
         <head><date when="1871-09-26">٢٦ سبتمبر ١٨٧١</date>
           <date when-custom="1288-07-11">١١ رجب ١٢٨٨</date>
           <bibl><biblScope unit="issue">نمرة ٤٢٥</biblScope>
@@ -332,7 +332,7 @@
           يحضر ل<orgName ref="ديوان-الاوقاف" type="ديوان">ديوان الاوقاف</orgName> قبل الميعاد الموضح
           عنه يمينه لوضع مزاد.</p>
       </div>
-      <div resp="#eSG" xml:id="w7">
+      <div resp="#eSG">
         <head><date when-custom="1288-07-18">١٨ رجب ١٢٨٨</date>
           <date when="1871-10-03">٣ اوكتوبر ١٨٧١</date>
           <bibl><biblScope unit="issue">نمرة ٤٢٦</biblScope>
@@ -390,7 +390,7 @@
             ال<orgName type="ضبطية">ضبطية</orgName> بافادة فى تاريخه لوضعهم على ال<orgName type="قره-قولات">قره قولات</orgName> وحيث من الاقتضاء أن يكون ذلك فى علم الجميع فيجرى
           درج ذلك بالوقائع حسب ما ذكر.</p>
       </div>
-      <div resp="#eSG" xml:id="w8">
+      <div resp="#eSG">
         <head><date when-custom="1288-08-17">١٧ شعبان ١٢٨٨</date>
           <date when="1871-10-31">٣١ اوكتوبر ١٨٧١</date>
           <bibl><biblScope unit="issue">نمرة ٤٣٠</biblScope>
@@ -405,7 +405,7 @@
           وغيرها وال<placeName type="ترع">ترع</placeName> وال<placeName type="جسور">جسور</placeName>
           وتوسيع ال<placeName type="ازقة">ازقة</placeName> وتنظيم ال<placeName type="مدن">مدن</placeName> وتنظيفها </p>
       </div>
-      <div resp="#eSG" xml:id="w9">
+      <div resp="#eSG">
         <head><date when-custom="1288-08-24">٢٤ شعبان ١٢٨٨</date>
           <date>٧ نونمبر ١٨٧١</date>
           <bibl><biblScope unit="issue">نمرة ٤٣١</biblScope>
@@ -437,7 +437,7 @@
           </row>
         </table>
       </div>
-      <div resp="#eSG" xml:id="w10">
+      <div resp="#eSG">
         <head><date when-custom="1288-08-24">٢٤ شعبان ١٢٨٨</date>
           <date>٧ نونمبر ١٨٧١</date>
           <bibl><biblScope unit="issue">نمرة ٤٣١</biblScope>
@@ -495,7 +495,7 @@
           بالقوايم فيحضر للمجلس لاعطاء الزيادة وبعد كف يد الراغبين ومضى الميعاد يجرى اللازم فى
           استولاء الثمن لسداده للديانة وتوقيع المبايعة اللازمة تحريرا فى ٢٢ ش سنة ٨٨ </p>
       </div>
-      <div resp="#eSG" xml:id="w11">
+      <div resp="#eSG">
         <head><date>٢٤ شعبان ١٢٨٨</date>
           <date>٧ نونمبر ١٨٧١</date>
           <bibl><biblScope unit="issue">نمرة ٤٣١</biblScope>
@@ -607,7 +607,7 @@
           </row>
         </table>
       </div>
-      <div resp="#eSG" xml:id="w12">
+      <div resp="#eSG">
         <head><date when-custom="1288-09-02">٢ رمضان ١٢٨٨</date>
           <date when="1871-11-14">١٤ نوفمبر ١٨٧١</date>
           <bibl><biblScope unit="issue">نمرة ٤٣٢</biblScope>
@@ -619,7 +619,7 @@
           مؤلفا من رجال المهندسين يسمى ب<orgName ref="قلم-الهندسة" type="قلم">قلم الهندسة</orgName>
           وبالعمل بمقتضى ذلك صدرت الارادة السنيه.</p>
       </div>
-      <div resp="#eSG" xml:id="w13">
+      <div resp="#eSG">
         <head><date when-custom="1288-09-16">١٦ رمضان ١٢٨٨</date>
           <date when="1871-11-28">٢٨ نونمبر ١٨٧١</date>
           <bibl><biblScope unit="issue">نمرة ٤٣٤</biblScope>
@@ -632,7 +632,7 @@
           الميعاد فلا يقبل منه مزاد بعد ذلك ولزم الاشعار ليجرى اعلان ما ذكر بالوقايع المصريه
           كالجارى</p>
       </div>
-      <div resp="#eSG" xml:id="w14">
+      <div resp="#eSG">
         <head><date when-custom="1288-09-23">٢٣ رمضان ١٢٨٨</date>
           <date when="1871-12-05">٥ ديسمبر ١٨٧١</date>
           <bibl><biblScope unit="issue">نمرة ٤٣٥</biblScope>
@@ -666,7 +666,7 @@
           اللازم للقره قولات والضبطيه شهر كيهك سنة ٨٨ مقتضى اعلانهم بالوقايع على الوجه ما توضح أعلاه
           فيقتضى اعلانهم تطبيقا لما صدر به الامر العالى </p>
       </div>
-      <div resp="#eSG" xml:id="w15">
+      <div resp="#eSG">
         <head><date when-custom="1288-10-28">۲۸ شوال ۱۲۸۸</date>
           <date when="1872-01-09">۹ يناير ۱۸٧۲</date>
           <bibl><biblScope unit="issue">نمره ٤۳۸</biblScope><biblScope unit="page">صفحة
@@ -680,7 +680,7 @@
           المصريه لاجل كل من له رغبة يحضر للمجلس ومن بعد اطلاعه على شروط المزاد يعطى القول اللازم فى
           ۲۲ شوال سنة ۸۸ </p>
       </div>
-      <div resp="#eSG" xml:id="w16">
+      <div resp="#eSG">
         <head><date when-custom="1288-11-13">۱۳ ذى القعدة ۱۲۸۸</date>
           <date when="1872-01-23">۲۳ يناير ۱۸٧۲</date>
           <bibl><biblScope unit="issue">نمره ٤٤۱</biblScope>
@@ -738,7 +738,7 @@
           سيتحرر للمحكمه بتحرير الحجة اللازمة لمن يرسى عليه فلزم ترقيمه لحضرتكم ليجرى درج ذلك
           بالوقايع كالجارى</p>
       </div>
-      <div resp="#eSG" xml:id="w17">
+      <div resp="#eSG">
         <head><date when-custom="1288-12-18">۱۸ ذى الحجة ۱۲۸۸</date>
           <date when="1872-02-27">۲٧ فبراير سنة ۱۸٧۲</date>
           <bibl><biblScope unit="issue">نمره ٤٤٥</biblScope>
@@ -750,7 +750,7 @@
           أخذها من المارة عليها تذكر فى الاعلانات كما ذكرت فى روزنامة الوقايع المصرية ونشرت بالصفة
           الرسمية</p>
       </div>
-      <div resp="#eSG" xml:id="w18">
+      <div resp="#eSG">
         <head><date when-custom="1288-12-18">۱۸ ذى الحجة ۱۲۸۸</date>
           <date when="1872-02-27">۲٧ فبراير سنة ۱۸٧۲</date>
           <bibl><biblScope unit="issue">نمره ٤٤٥</biblScope>
