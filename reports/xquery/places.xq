@@ -3,6 +3,7 @@ declare namespace tf = "http://www.tei-c.org/ns/1.0/functions";
 declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
 declare option output:indent "yes";
 declare variable $dir external;
+declare variable $dataDir external;
 
 declare function tf:value_or_ref($val as node()) as xs:string {
     if ($val/@ref) then (
@@ -30,6 +31,7 @@ declare function tf:empty($val) {
           <listPlace xmlns="http://www.tei-c.org/ns/1.0">
           {
             let $coll := collection($dir || "?select=*.xml")
+            let $buildings := doc($dataDir || 'WM_Buildings.xml')
             (: use the Arabic collation for sorting :)
             let $ARABIC := "http://www.w3.org/2013/collation/UCA?lang=ar"
             (: make a list in $places of NAME|@type|@ref to try to get actually distinct places :)
@@ -59,7 +61,12 @@ declare function tf:empty($val) {
                 {
                   if (count($place) gt 0) then
                     for $p in $place 
-                    return <idno>{xs:string($p/@xml:id)}</idno>
+                    return 
+                      ((if($buildings/id(substring-after($p/@xml:id, 'place-'))) then 
+                        for $elt in $buildings/id(substring-after($p/@xml:id,'place-'))/*
+                        return $elt
+                        else ''),
+                    <idno>{xs:string($p/@xml:id)}</idno>)
                   else <idno>{xs:string($place/@xml:id)}</idno>
                 }
                 {if ($place[1]/@ref/contains(., 'http')) then (
