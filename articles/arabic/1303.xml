@@ -581,38 +581,41 @@
                   <cell>١</cell>
                   <cell>الشارع المسمي ب<placeName ref="شارع مصر القديمة" type="شارع">شارع مصر
                         القديمة</placeName></cell>
-                  <cell>مصر القديمة</cell>
-                  <cell>١٩ ابريل ١٨٨٣</cell>
+                  <cell><orgName ref="ثمن مصر القديمة" type="ثمن"><placeName ref="مصر القديمة">مصر
+                           القديمة</placeName></orgName></cell>
+                  <cell><date when="1883-04-19">١٩ ابريل ١٨٨٣</date></cell>
                </row>
                <row>
                   <cell>٢</cell>
                   <cell><placeName ref="شارع جزيرة بدران" type="شارع">شارع جزيرة
                      بدران</placeName></cell>
-                  <cell>شبرا</cell>
+                  <cell><orgName ref="ثمن شبرا" type="ثمن"><placeName ref="شبرا"
+                        >شبرا</placeName></orgName></cell>
                   <cell>١٩ ابريل ١٨٨٣</cell>
                </row>
                <row>
                   <cell>١٤</cell>
                   <cell><placeName ref="شارع اللبودية" type="شارع">شارع اللبودية</placeName></cell>
-                  <cell>السيدة زينب</cell>
-                  <cell>٣ ابريل ١٨٨٣</cell>
+                  <cell><orgName ref="ثمن السيدة زينب" type="ثمن"><placeName ref="السيدة زينب"
+                           >السيدة زينب</placeName></orgName></cell>
+                  <cell><date when="1883-04-03">٣ ابريل ١٨٨٣</date></cell>
                </row>
                <row>
                   <cell>١٥</cell>
                   <cell><placeName ref="درب الشيمى" type="درب">درب الشيمى</placeName></cell>
                   <cell>السيدة زينب</cell>
-                  <cell>٢ ابريل ١٨٨٣</cell>
+                  <cell><date when="1883-04-02">٢ ابريل ١٨٨٣</date></cell>
                </row>
                <row>
                   <cell>١٦</cell>
                   <cell><placeName ref="حارة عمر شاه" type="حارة">حارة عمر شاه</placeName>
-                        و<placeName ref="عطفة البراغيث">عطفة البراغيث</placeName></cell>
+                        و<placeName ref="عطفة البراغيث" type="عطفة">عطفة البراغيث</placeName></cell>
                   <cell>السيدة زينب</cell>
-                  <cell>١٠ مارس ١٨٨٣</cell>
+                  <cell><date when="1883-03-10">١٠ مارس ١٨٨٣</date></cell>
                </row>
                <row>
                   <cell>١٧</cell>
-                  <cell><placeName ref="عطفة الحطابة">عطفة الحطابة</placeName></cell>
+                  <cell><placeName ref="عطفة الحطابة" type="عطفة">عطفة الحطابة</placeName></cell>
                   <cell>السيدة زينب</cell>
                   <cell>١٠ مارس ١٨٨٣</cell>
                </row>
@@ -621,7 +624,7 @@
                   <cell><placeName ref="حارة حبيب افندى" type="حارة">حارة حبيب
                      افندى</placeName></cell>
                   <cell>السيدة زينب</cell>
-                  <cell>١٨ مارس ١٨٨٣</cell>
+                  <cell><date when="1883-03-18">١٨ مارس ١٨٨٣</date></cell>
                </row>
                <row>
                   <cell>١٩</cell>
@@ -664,37 +667,44 @@
                </row>
                <row>
                   <cell>٢٥</cell>
-                  <cell><placeName ref="شارع ظهر قره قول باب الحديد" type="شارع">شارع ظهر قره قول
-                        باب الحديد</placeName></cell>
-                  <cell>الازبكية</cell>
+                  <cell><placeName ref="شارع ظهر قره قول باب الحديد" type="شارع">شارع ظهر <orgName
+                           ref="قره قول باب الحديد" type="قره قول">قره قول باب
+                        الحديد</orgName></placeName></cell>
+                  <cell><orgName ref="ثمن الازبكية" type="ثمن"><placeName ref="الازبكية"
+                           >الازبكية</placeName></orgName></cell>
                   <cell>١٨ مارس ١٨٨٣</cell>
                </row>
                <row>
                   <cell>٢٦</cell>
                   <cell><placeName ref="حارة السادات" type="حارة">حارة السادات</placeName>
-                        و<placeName ref="سكة بركة الفيل">سكة بركة الفيل</placeName> و<placeName ref="شارع ازبك" type="شارع">شارع ازبك</placeName> و<placeName ref="عمارة حسن باشا طاهر">عمارة حسن باشا طاهر</placeName> و<placeName ref="عطفة حسن باشا راسم" type="عطفة">عطفة حسن باشا راسم</placeName>
+                        و<placeName ref="سكة بركة الفيل" type="سكة">سكة بركة الفيل</placeName>
+                        و<placeName ref="شارع ازبك" type="شارع">شارع ازبك</placeName> و<placeName
+                        ref="عمارة حسن باشا طاهر">عمارة حسن باشا طاهر</placeName> و<placeName
+                        ref="عطفة حسن باشا راسم" type="عطفة">عطفة حسن باشا راسم</placeName>
                         و<placeName ref="عطفة روينه" type="عطفة">عطفة روينه</placeName></cell>
                   <cell>السيدة زينب</cell>
-                  <cell>٢٨ مارس ١٨٨٣</cell>
+                  <cell><date when="1883-03-28">٢٨ مارس ١٨٨٣</date></cell>
                </row>
                <row>
                   <cell>٢٧</cell>
-                  <cell><placeName ref="خريطة الترعة البولاقية">خريطة الترعة
-                     البولاقية</placeName></cell>
-                  <cell>بولاق</cell>
-                  <cell>١٥ مايو ١٨٨٣</cell>
+                  <cell>خريطة <placeName ref="الترعة البولاقية" type="ترعة">الترعة
+                        البولاقية</placeName></cell>
+                  <cell><orgName ref="ثمن بولاق" type="ثمن"><placeName ref="بولاق"
+                        >بولاق</placeName></orgName></cell>
+                  <cell><date when="1883-05-15">١٥ مايو ١٨٨٣</date></cell>
                </row>
                <row>
                   <cell>٣٠</cell>
                   <cell><placeName ref="الدورة الكبيرة">الدورة الكبيرة</placeName> و<placeName ref="عطفة الفراس" type="عطفة">عطفتى الفراس</placeName> و<placeName ref="عطفة التنبوتي" type="عطفة">التنبوتي</placeName></cell>
-                  <cell>عابدين</cell>
-                  <cell>٩ ابريل ١٨٨٣</cell>
+                  <cell><orgName ref="ثمن عابدين" type="ثمن"><placeName ref="عابدين"
+                           >عابدين</placeName></orgName></cell>
+                  <cell><date when="1883-04-09">٩ ابريل ١٨٨٣</date></cell>
                </row>
                <row>
                   <cell>٣١</cell>
                   <cell><placeName ref="درب المزين" type="درب">درب المزين</placeName></cell>
                   <cell>عابدين</cell>
-                  <cell>١٢ ابريل ١٨٨٣</cell>
+                  <cell><date when="1883-04-12">١٢ ابريل ١٨٨٣</date></cell>
                </row>
                <row>
                   <cell>٣٢</cell>
@@ -706,7 +716,7 @@
                   <cell>٣٣</cell>
                   <cell><placeName ref="درب الحمام" type="درب">درب الحمام</placeName></cell>
                   <cell>عابدين</cell>
-                  <cell>٢٤ ابريل ١٨٨٣</cell>
+                  <cell><date when="1883-04-24">٢٤ ابريل ١٨٨٣</date></cell>
                </row>
                <row>
                   <cell>٣٤</cell>
@@ -716,7 +726,8 @@
                </row>
                <row>
                   <cell>٣٥</cell>
-                  <cell><placeName ref="سويقة السباعين">سويقة السباعين</placeName></cell>
+                  <cell><placeName ref="سويقة السباعين" type="سويقة">سويقة
+                     السباعين</placeName></cell>
                   <cell>عابدين</cell>
                   <cell>٩ ابريل ١٨٨٣</cell>
                </row>
@@ -782,7 +793,7 @@
                </row>
                <row>
                   <cell>٤٦</cell>
-                  <cell><placeName ref="خوخة سعدان">خوخة سعدان</placeName></cell>
+                  <cell><placeName ref="خوخة سعدان" type="خوخة">خوخة سعدان</placeName></cell>
                   <cell>عابدين</cell>
                   <cell>٢ ابريل ١٨٨٣</cell>
                </row>
@@ -807,8 +818,9 @@
                <row>
                   <cell>٥٠</cell>
                   <cell><placeName ref="شارع سوق السلاح" type="شارع">شارع سوق السلاح</placeName>
-                        و<placeName ref="سويقة العزه">سويقة العزه</placeName></cell>
-                  <cell>قيسون</cell>
+                        و<placeName ref="سويقة العزه" type="سويقة">سويقة العزه</placeName></cell>
+                  <cell><orgName ref="ثمن قيسون" type="ثمن"><placeName ref="قيسون"
+                        >قيسون</placeName></orgName></cell>
                   <cell>١٢ ابريل ١٨٨٣</cell>
                </row>
                <row>
@@ -833,7 +845,8 @@
                   <cell>٥٤</cell>
                   <cell><placeName ref="كمالة حارة باب التربه" type="حارة">كمالة حارة باب
                         التربه</placeName></cell>
-                  <cell><placeName ref="الدرب الاحمر" type="درب">الدرب الاحمر</placeName></cell>
+                  <cell><placeName ref="الدرب الاحمر" type="درب"><orgName ref="ثمن الدرب الاحمر"
+                           type="ثمن">الدرب الاحمر</orgName></placeName></cell>
                   <cell>١٢ ابريل ١٨٨٣</cell>
                </row>
                <row>
@@ -841,7 +854,7 @@
                   <cell><placeName ref="حارة باب التربة" type="حارة">حارة باب
                      التربة</placeName></cell>
                   <cell>الدرب الاحمر</cell>
-                  <cell>٩ مايو ١٨٨٣</cell>
+                  <cell><date when="1883-05-09">٩ مايو ١٨٨٣</date></cell>
                </row>
                <row>
                   <cell>٥٦</cell>
@@ -865,7 +878,8 @@
                </row>
                <row>
                   <cell>٥٩</cell>
-                  <cell><placeName ref="سكة رحبة عابدين">سكة رحبة عابدين</placeName></cell>
+                  <cell><placeName ref="سكة رحبة عابدين" type="سكة">سكة رحبة
+                     عابدين</placeName></cell>
                   <cell>عابدين</cell>
                   <cell>٩ ابريل ١٨٨٣</cell>
                </row>
@@ -886,8 +900,12 @@
                <row>
                   <cell>٦٢</cell>
                   <cell><placeName ref="حارة سليم باشا" type="حارة">حارة سليم باشا</placeName>
-                        و<placeName ref="سكة حارة سليم باشا">سكة حارة سليم باشا</placeName>
-                        و<placeName ref="قبوة القرانفيلي">قبوة القرانفيلي</placeName> و<placeName ref="عطفة القبوة" type="عطفة">عطفة القبوة</placeName> و<placeName ref="عطفة الناجوه" type="عطفة">عطفة الناجوه</placeName> و<placeName ref="سكة حارة حلوات">سكة حارة حلوات</placeName></cell>
+                        و<placeName ref="سكة حارة سليم باشا" type="سكة">سكة حارة سليم
+                        باشا</placeName> و<placeName ref="قبوة القرانفيلي" type="قبوة">قبوة
+                        القرانفيلي</placeName> و<placeName ref="عطفة القبوة" type="عطفة">عطفة
+                        القبوة</placeName> و<placeName ref="عطفة الناجوه" type="عطفة">عطفة
+                        الناجوه</placeName> و<placeName ref="سكة حارة حلوات" type="سكة">سكة حارة
+                        حلوات</placeName></cell>
                   <cell>قيسون</cell>
                   <cell>٩ مايو ١٨٨٣</cell>
                </row>
@@ -903,7 +921,7 @@
                         المركز</placeName> و<placeName ref="درب البير" type="درب">درب
                         البير</placeName> و<placeName ref="عطفة الحاج شريف الساعاتي" type="عطفة">عطفة الحاج شريف الساعاتي</placeName> و<placeName ref="عطفة الفار" type="عطفة">عطفة الفار</placeName></cell>
                   <cell>الدرب الاحمر</cell>
-                  <cell>٢٣ يونيه ١٨٨٣</cell>
+                  <cell><date when="1883-06-23">٢٣ يونيه ١٨٨٣</date></cell>
                </row>
                <row>
                   <cell>٦٤</cell>
@@ -996,8 +1014,10 @@
                </row>
                <row>
                   <cell>٨١ و٨٢ و٨٣ و٨٤</cell>
-                  <cell><placeName ref="سكة سوق مسكه">سكة سوق مسكه</placeName> و<placeName ref="سوق مسكه">سوق مسكه</placeName> و<placeName ref="عطفة الوزه" type="عطفة">عطفة الوزه</placeName> و<placeName ref="عطفة ابراهيم باشا" type="عطفة">عطفة
-                        ابراهيم باشا</placeName></cell>
+                  <cell><placeName ref="سكة سوق مسكه" type="سكة">سكة سوق مسكه</placeName>
+                        و<placeName ref="سوق مسكه">سوق مسكه</placeName> و<placeName ref="عطفة الوزه"
+                        type="عطفة">عطفة الوزه</placeName> و<placeName ref="عطفة ابراهيم باشا"
+                        type="عطفة">عطفة ابراهيم باشا</placeName></cell>
                   <cell>السيدة زينب</cell>
                   <cell>١٢ ابريل ١٨٨٣</cell>
                </row>
@@ -1017,7 +1037,8 @@
                   <cell>٨٧</cell>
                   <cell><placeName ref="شارع التنباكشيه" type="شارع">شارع
                      التنباكشيه</placeName></cell>
-                  <cell>الجمالية</cell>
+                  <cell><orgName ref="ثمن الجمالية" type="ثمن"><placeName ref="الجمالية"
+                           >الجمالية</placeName></orgName></cell>
                   <cell>٩ مايو ١٨٨٣</cell>
                </row>
                <row>
@@ -1059,8 +1080,9 @@
                </row>
                <row>
                   <cell>٩٤</cell>
-                  <cell>رسم جزؤ من <placeName ref="عشش وقف المشهدى">عشش وقف المشهدى</placeName> وجزء
-                     من <placeName ref="حارة الفوالة" type="حارة">حارة الفوالة</placeName></cell>
+                  <cell>رسم جزؤ من <placeName ref="عشش وقف المشهدى" type="عشش">عشش وقف
+                        المشهدى</placeName> وجزء من <placeName ref="حارة الفوالة" type="حارة">حارة
+                        الفوالة</placeName></cell>
                   <cell>عابدين</cell>
                   <cell>٩ مايو ١٨٨٣</cell>
                </row>
@@ -1072,7 +1094,8 @@
                </row>
                <row>
                   <cell>٩٦</cell>
-                  <cell><placeName ref="سكة سيدى علم الدين">سكة سيدى علم الدين</placeName></cell>
+                  <cell><placeName ref="سكة سيدى علم الدين" type="سكة">سكة سيدى علم
+                        الدين</placeName></cell>
                   <cell>عابدين</cell>
                   <cell>٩ مايو ١٨٨٣</cell>
                </row>
@@ -1084,7 +1107,7 @@
                </row>
                <row>
                   <cell>٩٨</cell>
-                  <cell><placeName ref="ساحة الحمير">ساحة الحمير</placeName></cell>
+                  <cell><placeName ref="ساحة الحمير" type="ساحة">ساحة الحمير</placeName></cell>
                   <cell>عابدين</cell>
                   <cell>٩ مايو ١٨٨٣</cell>
                </row>
@@ -1114,9 +1137,11 @@
                </row>
                <row>
                   <cell>١٠٣</cell>
-                  <cell><placeName ref="سكة قواديس">سكة قواديس</placeName> و<placeName ref="عطفة عجورة" type="عطفة">عطفة عجورة</placeName> و<placeName ref="حارة الحلواتي" type="حارة">حارة الحلواتي</placeName></cell>
+                  <cell><placeName ref="سكة قواديس" type="سكة">سكة قواديس</placeName> و<placeName
+                        ref="عطفة عجورة" type="عطفة">عطفة عجورة</placeName> و<placeName
+                        ref="حارة الحلواتي" type="حارة">حارة الحلواتي</placeName></cell>
                   <cell>عابدين</cell>
-                  <cell>٢٠ يونيه ١٨٨٣</cell>
+                  <cell><date when="1883-06-20">٢٠ يونيه ١٨٨٣</date></cell>
                </row>
                <row>
                   <cell>١٠٤</cell>
@@ -1218,13 +1243,13 @@
                   <cell><placeName ref="حارة زرع النوى الكبير" type="حارة">حارة زرع النوى
                         الكبير</placeName></cell>
                   <cell>الدرب الاحمر</cell>
-                  <cell>٤ نوفمبر ١٨٨٣</cell>
+                  <cell><date when="1883-11-04">٤ نوفمبر ١٨٨٣</date></cell>
                </row>
                <row>
                   <cell>١٢١</cell>
-                  <cell><placeName ref="عطفة مشعل" type="عطفة">عطفة مشعل</placeName> و<placeName ref="عطفة الجمال">الجمال</placeName></cell>
+                  <cell><placeName ref="عطفة مشعل" type="عطفة">عطفة مشعل والجمال</placeName></cell>
                   <cell>الدرب الاحمر</cell>
-                  <cell>٧ نوفمبر ١٨٨٣</cell>
+                  <cell><date when="1883-11-07">٧ نوفمبر ١٨٨٣</date></cell>
                </row>
                <row>
                   <cell>١٢٢</cell>
@@ -1249,7 +1274,7 @@
                   <cell>١٢٥</cell>
                   <cell><placeName ref="حارة الدود" type="حارة">حارة الدود</placeName></cell>
                   <cell>قيسون</cell>
-                  <cell>غرة اكتوبر ١٨٨٣</cell>
+                  <cell><date when="1883-10-01">غرة اكتوبر ١٨٨٣</date></cell>
                </row>
                <row>
                   <cell>١٢٦</cell>
@@ -1279,7 +1304,8 @@
                </row>
                <row>
                   <cell>١٣٠</cell>
-                  <cell><placeName ref="قنطرة سنقر">قنطرة سنقر</placeName> و<placeName ref="شارع درب الحجر" type="شارع">شارع درب الحجر</placeName></cell>
+                  <cell><placeName ref="قنطرة سنقر" type="قنطرة">قنطرة سنقر</placeName> و<placeName
+                        ref="شارع درب الحجر" type="شارع">شارع درب الحجر</placeName></cell>
                   <cell>السيدة زينب</cell>
                   <cell>غرة اكتوبر ١٨٨٣</cell>
                </row>
@@ -1306,14 +1332,17 @@
                </row>
                <row>
                   <cell>١٣٤</cell>
-                  <cell><placeName ref="درب العوالم" type="درب">درب العوالم</placeName> و<placeName ref="درب الزيتونه">الزيتونه</placeName></cell>
+                  <cell><placeName ref="درب العوالم والزيتونه" type="درب">درب العوالم
+                        والزيتونه</placeName></cell>
                   <cell>عابدين</cell>
                   <cell>غرة اكتوبر ١٨٨٣</cell>
                </row>
                <row>
                   <cell>١٣٥</cell>
-                  <cell><placeName ref="حارة وعطفة العراوية" type="حارة">حارة و<placeName ref="عطفة العراوية" type="عطفة">عطفة العراوية</placeName></placeName>
-                        و<placeName ref="ميدان غيط العدة">ميدان غيط العدة</placeName></cell>
+                  <cell><placeName ref="حارة وعطفة العراوية" type="حارة">حارة و<placeName
+                           ref="عطفة العراوية" type="عطفة">عطفة العراوية</placeName></placeName>
+                        و<placeName ref="ميدان غيط العدة" type="ميدان">ميدان غيط
+                     العدة</placeName></cell>
                   <cell>عابدين</cell>
                   <cell>٧ نوفمبر ١٨٨٣</cell>
                </row>
@@ -1349,7 +1378,8 @@
                </row>
                <row>
                   <cell>١٤١</cell>
-                  <cell><placeName ref="زقاق المسك">زقاق المسك</placeName> و<placeName ref="عطفة الاربعين" type="عطفة">عطفة الاربعين</placeName></cell>
+                  <cell><placeName ref="زقاق المسك" type="زقاق">زقاق المسك</placeName> و<placeName
+                        ref="عطفة الاربعين" type="عطفة">عطفة الاربعين</placeName></cell>
                   <cell>الدرب الاحمر</cell>
                   <cell>غرة اكتوبر ١٨٨٣</cell>
                </row>
@@ -1357,13 +1387,13 @@
                   <cell>١٤٢</cell>
                   <cell><placeName ref="حارة ابو كلبه" type="حارة">حارة ابو كلبه</placeName></cell>
                   <cell>الدرب الاحمر</cell>
-                  <cell>٢٢ نوفمبر ١٨٨٣</cell>
+                  <cell><date when="1883-11-22">٢٢ نوفمبر ١٨٨٣</date></cell>
                </row>
                <row>
                   <cell>١٤٣</cell>
                   <cell><placeName ref="حارة بير المش" type="حارة">حارة بير المش</placeName></cell>
                   <cell>الدرب الاحمر</cell>
-                  <cell>٤ نوفمبر ١٨٨٣</cell>
+                  <cell><date when="1883-11-04">٤ نوفمبر ١٨٨٣</date></cell>
                </row>
                <row>
                   <cell>١٤٤</cell>
@@ -1408,7 +1438,9 @@
                <row>
                   <cell>١٥٠</cell>
                   <cell><placeName ref="عطفة الهداره" type="عطفة">عطفة الهداره</placeName>
-                        و<placeName ref="حارة الصحة" type="حارة">حارة الصحة</placeName> و<placeName ref="ميدان قره قول عابدين">ميدان قره قول عابدين</placeName></cell>
+                        و<placeName ref="حارة الصحة" type="حارة">حارة الصحة</placeName> و<placeName
+                        ref="ميدان قره قول عابدين" type="ميدان">ميدان <orgName ref="قره قول عابدين"
+                           type="قره قول">قره قول عابدين</orgName></placeName></cell>
                   <cell>عابدين</cell>
                   <cell>٤ نوفمبر ١٨٨٣</cell>
                </row>
@@ -1446,8 +1478,9 @@
                </row>
                <row>
                   <cell>١٥٦</cell>
-                  <cell><placeName ref="سكة حيضان الموصلي">سكة حيضان الموصلي</placeName> وجزء من
-                        <placeName ref="شارع البطنيه" type="شارع">شارع البطنيه</placeName></cell>
+                  <cell><placeName ref="سكة حيضان الموصلي" type="سكة">سكة حيضان الموصلي</placeName>
+                     وجزء من <placeName ref="شارع البطنيه" type="شارع">شارع
+                     البطنيه</placeName></cell>
                   <cell>الدرب الاحمر</cell>
                   <cell>٤ نوفمبر ١٨٨٣</cell>
                </row>
@@ -1578,7 +1611,8 @@
                </row>
                <row>
                   <cell>١٧٧</cell>
-                  <cell><placeName ref="كوم الصعايدة">كوم الصعايدة</placeName> وفروعه</cell>
+                  <cell><placeName ref="كوم الصعايدة" type="كوم">كوم الصعايدة</placeName>
+                     وفروعه</cell>
                   <cell>قيسون</cell>
                   <cell>غرة اكتوبر ١٨٨٣</cell>
                </row>
@@ -1614,9 +1648,11 @@
                </row>
                <row>
                   <cell>١٨٣</cell>
-                  <cell><placeName ref="شارع مدرسة الطب" type="شارع">شارع مدرسة
-                     الطب</placeName></cell>
-                  <cell>مصر القديمة والقصر العيني</cell>
+                  <cell><placeName ref="شارع مدرسة الطب" type="شارع">شارع <orgName type="مدرسة"
+                           ref="مدرسة الطب">مدرسة الطب</orgName></placeName></cell>
+                  <cell><orgName ref="ثمن مصر القديمة والقصر العيني" type="ثمن">مصر القديمة
+                           و<placeName ref="القصر العيني" type="القصر"><orgName>القصر
+                              العيني</orgName></placeName></orgName></cell>
                   <cell>غرة اكتوبر ١٨٨٣</cell>
                </row>
                <row>
@@ -1709,7 +1745,7 @@
                   <cell><placeName ref="شارع الباب الاخضر وام الغلام" type="شارع">شارع الباب الاخضر
                         وام الغلام</placeName></cell>
                   <cell>الجمالية</cell>
-                  <cell>٢٩ نوفمبر ١٨٨٣</cell>
+                  <cell><date when="1883-11-29">٢٩ نوفمبر ١٨٨٣</date></cell>
                </row>
                <row>
                   <cell>١٩٨</cell>
@@ -1881,7 +1917,7 @@
                   <cell><placeName ref="شارع حارة الروم" type="شارع">شارع حارة
                      الروم</placeName></cell>
                   <cell>الدرب الاحمر</cell>
-                  <cell>١٩ ديسمبر ١٨٨٣</cell>
+                  <cell><date when="1883-12-19">١٩ ديسمبر ١٨٨٣</date></cell>
                </row>
                <row>
                   <cell>٢٢٦</cell>
@@ -1926,7 +1962,7 @@
                   <cell>٢٣٣</cell>
                   <cell><placeName ref="عطفة المكتب" type="عطفة">عطفة المكتب</placeName></cell>
                   <cell>عابدين</cell>
-                  <cell>٢٣ ديسمبر ١٨٨٣</cell>
+                  <cell><date when="1883-12-23">٢٣ ديسمبر ١٨٨٣</date></cell>
                </row>
                <row>
                   <cell>٢٣٤</cell>
@@ -1945,7 +1981,7 @@
                   <cell><placeName ref="حارة الفرقاني وجمعه" type="حارة">حارة الفرقاني
                         وجمعه</placeName></cell>
                   <cell>قيسون</cell>
-                  <cell>٢٣ يناير ١٨٨٤</cell>
+                  <cell><date when="1884-01-23">٢٣ يناير ١٨٨٤</date></cell>
                </row>
                <row>
                   <cell>٢٣٨</cell>
@@ -1974,17 +2010,17 @@
                </row>
                <row>
                   <cell>٢٤٢</cell>
-                  <cell><placeName ref="خريطة ارض مقلد بالسبتية">خريطة ارض مقلد
+                  <cell>خريطة <placeName ref="ارض مقلد بالسبتية">ارض مقلد
                      بالسبتية</placeName></cell>
                   <cell>بولاق</cell>
-                  <cell>١٣ يونية ١٨٨٤</cell>
+                  <cell><date when="1884-06-13">١٣ يونية ١٨٨٤</date></cell>
                </row>
                <row>
                   <cell>٢٤٣</cell>
                   <cell><placeName ref="شارع قصر الشوق" type="شارع">شارع قصر
                      الشوق</placeName></cell>
                   <cell>الجمالية</cell>
-                  <cell>٢٧ فبراير ١٨٨٤</cell>
+                  <cell><date when="1884-02-27">٢٧ فبراير ١٨٨٤</date></cell>
                </row>
                <row>
                   <cell>٢٤٤</cell>
@@ -2038,7 +2074,8 @@
                </row>
                <row>
                   <cell>٢٥٢</cell>
-                  <cell><placeName ref="عطفة خاتون" type="عطفة">عطفة خاتون</placeName> و<placeName ref="عطفة شيحه">شيحه</placeName> و<placeName ref="عطفة الترزى">الترزى</placeName></cell>
+                  <cell><placeName ref="عطفة خاتون وشيحه" type="عطفة">عطفة خاتون وشيحه</placeName>
+                        و<placeName ref="عطفة الترزى">الترزى</placeName></cell>
                   <cell>عابدين</cell>
                   <cell>٢٧ فبراير ١٨٨٤</cell>
                </row>
@@ -2168,7 +2205,7 @@
                   <cell><placeName ref="حارة درب الخف وحسن الاشعل" type="حارة">حارة درب الخف وحسن
                         الاشعل</placeName></cell>
                   <cell>الازبكية</cell>
-                  <cell>٢٧ مارس ١٨٨٤</cell>
+                  <cell><date when="1884-03-27">٢٧ مارس ١٨٨٤</date></cell>
                </row>
                <row>
                   <cell>٢٧٢</cell>
@@ -2236,7 +2273,7 @@
                   <cell><placeName ref="حارة الشيخ يوسف" type="حارة">حارة الشيخ
                      يوسف</placeName></cell>
                   <cell>عابدين</cell>
-                  <cell>٢٢ مارس ١٨٨٤</cell>
+                  <cell><date when="1884-03-22">٢٢ مارس ١٨٨٤</date></cell>
                </row>
                <row>
                   <cell>٢٨٢</cell>
@@ -2251,19 +2288,19 @@
                            البنات</orgName> و<orgName ref="قبة الفداويه" type="قبة">قبة
                            الفداويه</orgName></placeName></cell>
                   <cell>الوايلي</cell>
-                  <cell>١ مارس ١٨٨٤</cell>
+                  <cell><date when="1884-03-01">١ مارس ١٨٨٤</date></cell>
                </row>
                <row>
                   <cell>٢٨٤</cell>
                   <cell><placeName ref="كفر الصغاري">كفر الصغاري</placeName></cell>
                   <cell>الجمالية</cell>
-                  <cell>٢٤ مايو ١٨٨٤</cell>
+                  <cell><date when="1884-05-24">٢٤ مايو ١٨٨٤</date></cell>
                </row>
                <row>
                   <cell>٢٨٥</cell>
                   <cell><placeName ref="شارع الغورية" type="شارع">شارع الغورية</placeName></cell>
                   <cell>الدرب الأحمر</cell>
-                  <cell>١ مايو ١٨٨٤</cell>
+                  <cell><date when="1884-05-01">١ مايو ١٨٨٤</date></cell>
                </row>
                <row>
                   <cell>٢٨٦</cell>
@@ -2277,12 +2314,12 @@
                   <cell><placeName ref="عطفة الشنداويه" type="عطفة">عطفة
                      الشنداويه</placeName></cell>
                   <cell>الدرب الاحمر</cell>
-                  <cell>٦ مايو ١٨٨٤</cell>
+                  <cell><date when="1884-05-06">٦ مايو ١٨٨٤</date></cell>
                </row>
                <row>
                   <cell>٢٨٨</cell>
-                  <cell>رسم <placeName ref="عزبة على حيدر باشا">عزبة على حيدر
-                     باشا</placeName></cell>
+                  <cell>رسم <placeName ref="عزبة على حيدر باشا" type="عزبة">عزبة على حيدر
+                        باشا</placeName></cell>
                   <cell>شبرا</cell>
                   <cell>٢٧ مارس ١٨٨٤</cell>
                </row>
@@ -2304,7 +2341,7 @@
                   <cell><placeName ref="عطفة الست بيرم" type="عطفة">عطفة الست
                      بيرم</placeName></cell>
                   <cell>قيسون</cell>
-                  <cell>١١ مايو ١٨٨٤</cell>
+                  <cell><date when="1884-05-11">١١ مايو ١٨٨٤</date></cell>
                </row>
                <row>
                   <cell>٢٩٢</cell>
@@ -2347,7 +2384,8 @@
                </row>
                <row>
                   <cell>٢٩٩</cell>
-                  <cell><placeName ref="ميدان باب الحديد">ميدان باب الحديد</placeName></cell>
+                  <cell><placeName ref="ميدان باب الحديد" type="ميدان">ميدان باب
+                     الحديد</placeName></cell>
                   <cell>الازبكية</cell>
                   <cell>٢٤ مايو ١٨٨٤</cell>
                </row>
@@ -2394,15 +2432,18 @@
                <row>
                   <cell>٣٠٧</cell>
                   <cell><placeName ref="الدرب الواسع" type="درب">الدرب الواسع</placeName>
-                        و<placeName ref="سكة شق الثعبان">سكة شق الثعبان</placeName></cell>
+                        و<placeName ref="سكة شق الثعبان" type="سكة">سكة شق
+                     الثعبان</placeName></cell>
                   <cell>الازبكية</cell>
                   <cell>٤ ديسمبر ١٨٨٤</cell>
                </row>
                <row>
                   <cell>٣٠٨</cell>
-                  <cell><placeName ref="شارع الرملى" type="شارع">شارع الرملى</placeName> و<placeName ref="ميدان القطن">ميدان القطن</placeName></cell>
-                  <cell>باب الشعريه</cell>
-                  <cell>١٥ ديسمبر ١٨٨٤</cell>
+                  <cell><placeName ref="شارع الرملى" type="شارع">شارع الرملى</placeName> و<placeName
+                        ref="ميدان القطن" type="ميدان">ميدان القطن</placeName></cell>
+                  <cell><orgName ref="ثمن باب الشعريه" type="ثمن"><placeName ref="باب الشعريه">باب
+                           الشعريه</placeName></orgName></cell>
+                  <cell><date when="1884-12-15">١٥ ديسمبر ١٨٨٤</date></cell>
                </row>
                <row>
                   <cell>٣٠٩</cell>
@@ -2437,8 +2478,8 @@
                </row>
                <row>
                   <cell>٣١٤</cell>
-                  <cell><placeName ref="شارع جامع الاسماعيلي" type="شارع">شارع جامع
-                        الاسماعيلي</placeName></cell>
+                  <cell><placeName ref="شارع جامع الاسماعيلي" type="شارع">شارع <orgName type="جامع"
+                           ref="جامع الاسماعيلي">جامع الاسماعيلي</orgName></placeName></cell>
                   <cell>السيدة زينب</cell>
                   <cell>١٩ يونيه ١٨٨٤</cell>
                </row>
@@ -2468,8 +2509,8 @@
                </row>
                <row>
                   <cell>٣١٩</cell>
-                  <cell><placeName ref="حارة زاوية العميان" type="حارة">حارة زاوية
-                        العميان</placeName></cell>
+                  <cell><placeName ref="حارة زاوية العميان" type="حارة">حارة <orgName
+                           ref="زاوية العميان">زاوية العميان</orgName></placeName></cell>
                   <cell>الجمالية</cell>
                   <cell>٤ ديسمبر ١٨٨٤</cell>
                </row>
@@ -2562,23 +2603,25 @@
                </row>
                <row>
                   <cell>٣٣٥</cell>
-                  <cell>رسم <placeName ref="ارض العليمي والخربناويه والأوقاف">ارض العليمي
+                  <cell>رسم <placeName ref="ارض العليمي والخربناويه والأوقاف" type="ارض">ارض العليمي
                         والخربناويه والأوقاف</placeName></cell>
                   <cell>بولاق</cell>
                   <cell>٢٣ يناير ١٨٨٤</cell>
                </row>
                <row>
                   <cell>٣٣٦</cell>
-                  <cell>رسم <placeName ref="تقسيم ارض الميري الكائنة بالعباسية بالقرب من باب الحسينية">تقسيم ارض
+                  <cell>رسم تقسيم <placeName
+                        ref="ارض الميري الكائنة بالعباسية بالقرب من باب الحسينية" type="ارض">ارض
                         الميري الكائنة بـ<placeName ref="العباسية">العباسية</placeName> بالقرب من
                            <placeName ref="باب الحسينية">باب الحسينية</placeName></placeName></cell>
-                  <cell>الوايلي</cell>
+                  <cell><orgName type="ثمن" ref="ثمن الوايلي"><placeName ref="الوايلي"
+                           >الوايلي</placeName></orgName></cell>
                   <cell>٢٤ أغسطس ١٨٨٤</cell>
                </row>
                <row>
                   <cell>٣٣٧</cell>
-                  <cell>خريطة رسم قطعتين <placeName ref="ارض وقف ابوالعلا وزين العابدين">ارض وقف
-                        ابوالعلا وزين العابدين</placeName></cell>
+                  <cell>خريطة رسم قطعتين <placeName ref="ارض وقف ابوالعلا وزين العابدين" type="ارض"
+                        >ارض وقف ابوالعلا وزين العابدين</placeName></cell>
                   <cell>بولاق</cell>
                   <cell>٢٢ مارس ١٨٨٤</cell>
                </row>
@@ -2586,7 +2629,8 @@
                   <cell>٣٣٨</cell>
                   <cell><placeName ref="درب السهاريج" type="درب">درب السهاريج</placeName>
                         و<placeName ref="عطفة الحطابه" type="عطفة">عطفة الحطابه</placeName></cell>
-                  <cell>الخليفه</cell>
+                  <cell><orgName ref="ثمن الخليفه" type="ثمن"><placeName ref="الخليفه"
+                           >الخليفه</placeName></orgName></cell>
                   <cell>٤ ديسمبر ١٨٨٤</cell>
                </row>
                <row>
@@ -2636,33 +2680,33 @@
                   <cell><placeName ref="حارة قاضي البهار" type="حارة">حارة قاضي
                      البهار</placeName></cell>
                   <cell>باب الشعرية</cell>
-                  <cell>١٣ ابريل ١٨٨٥</cell>
+                  <cell><date when="1885-04-13">١٣ ابريل ١٨٨٥</date></cell>
                </row>
                <row>
                   <cell>٣٥٠</cell>
                   <cell><placeName ref="حارة الجنينة بالوايلي الصغري" type="حارة">حارة الجنينة
                         بالوايلي الصغري</placeName></cell>
                   <cell>الوايلي</cell>
-                  <cell>٢٧ يناير ١٨٨٥</cell>
+                  <cell><date when="1885-01-27">٢٧ يناير ١٨٨٥</date></cell>
                </row>
                <row>
                   <cell>٣٥١</cell>
                   <cell><placeName ref="حارة ابوعاليه" type="حارة">حارة ابوعاليه</placeName></cell>
                   <cell>الوايلي</cell>
-                  <cell>١٢ يناير ١٨٨٥</cell>
+                  <cell><date when="1885-01-12">١٢ يناير ١٨٨٥</date></cell>
                </row>
                <row>
                   <cell>٣٥٢</cell>
                   <cell><placeName ref="درب قضيب بحارة اليهود" type="درب">درب قضيب ب<placeName ref="حارة اليهود" type="حارة">حارة اليهود</placeName></placeName></cell>
                   <cell>الازبكية</cell>
-                  <cell>٢ فبراير ١٨٨٥</cell>
+                  <cell><date when="1885-02-02">٢ فبراير ١٨٨٥</date></cell>
                </row>
                <row>
                   <cell>٣٥٣</cell>
                   <cell><placeName ref="حارة عبدالله افندى نصرت" type="حارة">حارة عبدالله افندى
                         نصرت</placeName></cell>
                   <cell>الوايلي</cell>
-                  <cell>٧ مارس ١٨٨٥</cell>
+                  <cell><date when="1885-03-07">٧ مارس ١٨٨٥</date></cell>
                </row>
                <row>
                   <cell>٣٥٤</cell>
@@ -2680,7 +2724,7 @@
                   <cell>٣٥٦</cell>
                   <cell><placeName ref="عطفة السلحدار" type="عطفة">عطفة السلحدار</placeName></cell>
                   <cell>باب الشعرية</cell>
-                  <cell>١٢ مارس ١٨٨٥</cell>
+                  <cell><date when="1885-03-12">١٢ مارس ١٨٨٥</date></cell>
                </row>
                <row>
                   <cell>٣٥٧</cell>
@@ -2780,14 +2824,14 @@
                </row>
                <row>
                   <cell>٢٧٨</cell>
-                  <cell><placeName ref="ميدان طرطور">ميدان طرطور</placeName></cell>
+                  <cell><placeName ref="ميدان طرطور" type="ميدان">ميدان طرطور</placeName></cell>
                   <cell>الخليفة</cell>
                   <cell>١٢ مارس ١٨٨٥</cell>
                </row>
                <row>
                   <cell>٣٨٠</cell>
-                  <cell><placeName ref="شارع الانتيقخانة" type="شارع">شارع
-                     الانتيقخانة</placeName></cell>
+                  <cell><placeName ref="شارع الانتيقخانة" type="شارع">شارع <orgName
+                           ref="الانتيقخانة">الانتيقخانة</orgName></placeName></cell>
                   <cell>بولاق</cell>
                   <cell>١٣ ابريل ١٨٨٥</cell>
                </row>
@@ -2796,12 +2840,12 @@
                   <cell><placeName ref="حارة درب التركمان" type="حارة">حارة درب
                      التركمان</placeName></cell>
                   <cell>باب الشعريه</cell>
-                  <cell>١٤ مارس ١٨٨٥</cell>
+                  <cell><date when="1885-03-14">١٤ مارس ١٨٨٥</date></cell>
                </row>
                <row>
                   <cell>٣٨٢</cell>
-                  <cell>خريطة <placeName ref="تقسيم ارض الجماشرجيه">تقسيم ارض
-                     الجماشرجيه</placeName></cell>
+                  <cell>خريطة تقسيم <placeName ref="تقسيم ارض الجماشرجيه" type="ارض">ارض
+                        الجماشرجيه</placeName></cell>
                   <cell>الازبكيه</cell>
                   <cell>٢٢ ديسمبر ١٨٨٥</cell>
                </row>
@@ -2839,7 +2883,12 @@
                <row>
                   <cell>٢٣٦</cell>
                   <cell><placeName ref="الدرب الجديد" type="درب">الدرب الجديد</placeName>
-                        و<placeName ref="سكة سويقة اللاله">سكة سويقة اللاله</placeName> و<placeName ref="شارع الحنفى" type="شارع">شارع الحنفى</placeName> و<placeName ref="شارع الشيخ صالح" type="شارع">شارع الشيخ صالح</placeName> و<placeName ref="عطفة الامير يوسف" type="عطفة">عطفة الامير يوسف</placeName> و<placeName ref="عطفة القلل" type="عطفة">عطفة القلل</placeName> و<placeName ref="عطفة المواشي" type="عطفة">عطفة المواشي</placeName></cell>
+                        و<placeName ref="سكة سويقة اللاله" type="سكة">سكة سويقة اللاله</placeName>
+                        و<placeName ref="شارع الحنفى" type="شارع">شارع الحنفى</placeName>
+                        و<placeName ref="شارع الشيخ صالح" type="شارع">شارع الشيخ صالح</placeName>
+                        و<placeName ref="عطفة الامير يوسف" type="عطفة">عطفة الامير يوسف</placeName>
+                        و<placeName ref="عطفة القلل" type="عطفة">عطفة القلل</placeName> و<placeName
+                        ref="عطفة المواشي" type="عطفة">عطفة المواشي</placeName></cell>
                   <cell>السيدة زينب</cell>
                   <cell>٤ ديسمبر ١٨٨٤</cell>
                </row>
