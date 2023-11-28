@@ -5239,43 +5239,45 @@
                   اثنين<?oxy_custom_end?> من المديرين أو وكيليهما ويوضع عليها دمغة الشركة</p>
             </div>
          </div>
-         <div resp="#eFA">
+         <div resp="#eFA #eSG" xml:id="w165">
             <head><date when="1298-03-25">٢٥ ربيع الاول ١٢٩٨</date>
-               <date when="1881-02-24">٢٤ فبراير ١٨٨١</date><bibl><biblScope unit="issue">نمرة
-                     ١٠٤٦</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+               <date when="1881-02-24">٢٤ فبراير ١٨٨١</date>
+               <bibl><biblScope unit="issue">نمرة ١٠٤٦</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head>نص اعلان وارد من <orgName type="ضبطية" ref="ضبطية-مصر">ضبطية مصر</orgName></head>
             <p>القسم السابع من ابتداء يوم الخميس ٣ فبراير سنة ١٨٨١ الموافق ٤ ربيع أول سنة ١٢٩٨ لغاية
-               يوم السبت ١٩ مارث سنة ١٨٨١ الموافق ١٩ ربيع آخر ١٢٩٨ </p>
+               يوم السبت ١٩ مارث سنة ١٨٨١ الموافق ١٩ ربيع آخر ١٢٩٨</p>
             <p>بيان أملاك وأراضى الميرى المقتضى بيعها بحسب نص اللائحة المندرجة بالجداول المطبوعة
                ومنشورة لعموم الجهات بالنمر الآتى بيانها وسيقبل المزاد فيها بالمظروف لغاية التاريخ
                المرقوم أعلاه </p>
-            <table>
+            <table rows="5" cols="6">
                <row>
                   <cell>عدد</cell>
                   <cell>نمرة الجداول</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
                   <cell/>
                </row>
                <row>
                   <cell>٠١</cell>
                   <cell>٠٣١</cell>
-                  <cell>قطعة أرض تعرف بنمرة ٣ كائنة <placeName type="جهة">بجهة عابدين
+                  <cell cols="4">قطعة أرض تعرف بنمرة ٣ كائنة <placeName type="جهة">بجهة عابدين
                         بحرى</placeName> القطعة نمرة ٣٢ بالجدول السابق بيعها ومقاسها ١٠٨,٠٠
                      متر</cell>
                </row>
                <row>
-                  <cell>٠١</cell>
-                  <cell>٠٤٢</cell>
-                  <cell>قطعة أرض تعرف بنمرة ٩١ كائنة <placeName type="جهة">بجهة عابدين</placeName>
-                     بجوار <placeName type="منزل">منزل <persName>سعادة حسين
-                        باشا</persName></placeName> أو أصبع ومقاسها ٣٠٢ متر</cell>
+                  <cell rows="2">٠١</cell>
+                  <cell rows="2">٠٤٢</cell>
+                  <cell cols="4">قطعة أرض تعرف بنمرة ٩١ كائنة <placeName type="جهة">بجهة
+                        عابدين</placeName> بجوار <placeName type="منزل">منزل <persName>سعادة حسين
+                           باشا</persName></placeName> أو أصبع ومقاسها ٣٠٢ متر</cell>
                </row>
                <row>
-                  <cell/>
-                  <cell/>
-                  <cell>أرض الزراعة الكائنة <placeName type="جهة">بجهة القصر العالى</placeName>
-                     بجوار <placeName type="منزل">منازل <persName>سعادة عمر باشا لطفى</persName>
-                           و<persName>يوسف باشا فهمى</persName></placeName> والخليج المصرى مقسمه نمر
-                     كالموضح أدناه</cell>
+                  <cell cols="4">أرض الزراعة الكائنة <placeName type="جهة">بجهة القصر
+                        العالى</placeName> بجوار <placeName type="منزل">منازل <persName>سعادة عمر
+                           باشا لطفى</persName> و<persName>يوسف باشا فهمى</persName></placeName>
+                     والخليج المصرى مقسمه نمر كالموضح أدناه</cell>
                </row>
                <row>
                   <cell/>
@@ -5336,120 +5338,128 @@
                <row>
                   <cell/>
                   <cell/>
-                  <cell>عنها ىلو ه (رمز يشبه ال ر والهاء) ٧ باعتبار كل فدان ٤٢٠٠ متر</cell>
+                  <cell cols="4">عنها ىلو ه (رمز يشبه ال ر والهاء) ٧ باعتبار كل فدان ٤٢٠٠ متر</cell>
                </row>
                <row>
                   <cell/>
                   <cell/>
-                  <cell><placeName type="شارع">بشارع محمد على</placeName></cell>
+                  <cell cols="4"><placeName type="شارع">بشارع محمد على</placeName></cell>
                </row>
                <row>
                   <cell/>
                   <cell/>
-                  <cell>قطعة أرض نمرة ٢٤٨ مشترى الميرى من<sic>الست الرزنامجية</sic>و جرؤ من نمرة ٢٤٩
-                     من الساقية <sic>وقف قيسون</sic></cell>
+                  <cell cols="4">قطعة أرض نمرة ٢٤٨ مشترى الميرى من <sic>الست الرزنامجية</sic> وجرؤ
+                     من نمرة ٢٤٩ من الساقية <sic>وقف قيسون</sic></cell>
                </row>
-            </table>
-            <table>
                <row>
                   <cell>عدد</cell>
                   <cell>نمرة الجداول</cell>
-                  <cell/>
+                  <cell cols="4"/>
                </row>
                <row>
                   <cell/>
                   <cell/>
                   <cell>س</cell>
                   <cell>متر</cell>
-                  <cell/>
+                  <cell cols="2"/>
                </row>
                <row>
                   <cell/>
                   <cell/>
                   <cell>٢١</cell>
                   <cell>٢٥٨</cell>
-                  <cell>القطعة المعروفة بنمرة ٢٤٨</cell>
+                  <cell cols="2">القطعة المعروفة بنمرة ٢٤٨</cell>
                </row>
                <row>
                   <cell/>
                   <cell/>
                   <cell>٩٠</cell>
                   <cell>٠١٨</cell>
-                  <cell>قطعة بنمرة ٢٤٩ باقية من ساقية قسيون</cell>
+                  <cell cols="2">قطعة بنمرة ٢٤٩ باقية من ساقية قسيون</cell>
                </row>
                <row>
                   <cell>٠١</cell>
                   <cell>٠٦٨</cell>
                   <cell>١١</cell>
                   <cell>٢٧٧</cell>
-                  <cell/>
+                  <cell cols="2"/>
                </row>
                <row>
                   <cell/>
                   <cell/>
-                  <cell>عنها</cell>
-                  <cell/>
+                  <cell cols="2">عنها</cell>
+                  <cell cols="2"/>
                </row>
                <row>
                   <cell/>
                   <cell/>
-                  <cell>قطعة أراضى بجوار بعض شرقى صور الحلميه</cell>
+                  <cell cols="4">قطعة أراضى بجوار بعض شرقى صور الحلميه</cell>
                </row>
                <row>
                   <cell/>
                   <cell/>
                   <cell>س</cell>
                   <cell>متر</cell>
-                  <cell/>
+                  <cell cols="2"/>
                </row>
                <row>
                   <cell>٠١</cell>
                   <cell>٠٦٩</cell>
                   <cell>٦٤</cell>
                   <cell>٠٣٥</cell>
-                  <cell>قطعة تعرف بنمرة ٢٥٧</cell>
+                  <cell cols="2">قطعة تعرف بنمرة ٢٥٧</cell>
                </row>
                <row>
                   <cell>٠١</cell>
                   <cell>٠٧٠</cell>
                   <cell>٦٧</cell>
                   <cell>٢٠٥</cell>
-                  <cell>قطعة تعرف بنمرة ٢٥٩</cell>
+                  <cell cols="2">قطعة تعرف بنمرة ٢٥٩</cell>
                </row>
                <row>
                   <cell/>
                   <cell/>
                   <cell>٣١</cell>
                   <cell>٢٤١</cell>
-                  <cell/>
+                  <cell cols="2"/>
                </row>
                <row>
                   <cell>٠١</cell>
                   <cell>٠٧١</cell>
-                  <cell>قطعة أرض نمرة ٢٦٤ ونمرة ٢٦٦ من <placeName type="منزل">منزل<persName>يعقوب
-                           باشا صبرى</persName></placeName> مقاسها ٣٥٣,٦٨ متر</cell>
+                  <cell cols="4">قطعة أرض نمرة ٢٦٤ ونمرة ٢٦٦ من <placeName type="منزل"
+                           >منزل<persName>يعقوب باشا صبرى</persName></placeName> مقاسها ٣٥٣,٦٨
+                     متر</cell>
                </row>
                <row>
                   <cell>٠١</cell>
                   <cell>٠٧٢</cell>
-                  <cell>منزل يعرف بنمرة ٢٦١ <placeName type="حارة">بحارة مراد بيك</placeName> وجزؤا
-                     على الشارع ١١٩٠,٨٦ متر</cell>
+                  <cell cols="4">منزل يعرف بنمرة ٢٦١ <placeName type="حارة">بحارة مراد
+                        بيك</placeName> وجزؤا على الشارع ١١٩٠,٨٦ متر</cell>
                </row>
                <row>
                   <cell>٠١</cell>
                   <cell>١٠٨</cell>
-                  <cell>حوش وابور المياه الكائن ببولاق بجوار <placeName>الانتيكاخانه</placeName>
-                     والحوش المجاور اليه بما فيها من البنا ما عدا عدة الوابور مقاسهما ١٨١٦,٠٠ متر
-                     وكسور</cell>
+                  <cell cols="4">حوش وابور المياه الكائن ببولاق بجوار
+                        <placeName>الانتيكاخانه</placeName> والحوش المجاور اليه بما فيها من البنا ما
+                     عدا عدة الوابور مقاسهما ١٨١٦,٠٠ متر وكسور</cell>
                </row>
                <row>
                   <cell>٠١</cell>
                   <cell/>
-                  <cell>قطعة أرض كائنة خارج <placeName type="باب">بوابة الحسانية</placeName> على
-                     يمين السالك <placeName type="جهة">لجهة العباسية</placeName> مقاسها ٢٨٥ متر
-                     وكسور</cell>
+                  <cell cols="4">قطعة أرض كائنة خارج <placeName type="باب">بوابة
+                        الحسانية</placeName> على يمين السالك <placeName type="جهة">لجهة
+                        العباسية</placeName> مقاسها ٢٨٥ متر وكسور</cell>
                </row>
             </table>
+            <p>سيجرى بيع العقارات تعلق الميرى الكائنة بالمحروسه من المندرج بالجداول المطبوعة السابق
+               نشرهما لعموم الجهات المقسم ذلك على عشرة أقسام وهذا عن سابع قسم نمرة ٣١ ونمرة ٤٢ ونمرة
+               ٤٥ ومن نمرة ٦٨ لغايه نمرة ٧٢ ونمرة ١٠٨ ونمرة ١٢٩ بحسب نص اللائحة بالمزاد العمومى فكل
+               من يرغب شئ من ذلك يقدم مزاده داخل مظروف مختوم عليه ووضعه بالصندوق المعد لذلك بالضبطية
+               وذلك فى مدة خمسة وأربعين يوما من تاريخه لغاية يوم السبت ١٩ مارث سنة ١٨٨١ الموافق ١٩
+               شهر ربيع الثانى سنة ٩٨ وفى اليوم المذكور تفتح ظروف المزايدات بجلسة علانية أمام
+               القومسيون فى الساعة واحدة افرنكى بعد الظهر والاجراء حسب ما نص باللائحة ولمعلومية
+               الجميع بذلك لزم تحريره فى يوم الخميس ٣ فبراير سنة ١٨٨١ الموافق ٤ ربيع الاول سنة
+               ٩٨</p>
          </div>
          <div>
             <head><date when="1298-03-27">٢٧ ربيع الاول سنة ١٢٩٨</date>
