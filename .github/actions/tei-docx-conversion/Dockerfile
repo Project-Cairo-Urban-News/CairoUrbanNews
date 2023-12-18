@@ -1,7 +1,7 @@
-FROM debian:bullseye-slim
+FROM debian:bookworm-slim
 # Enable contrib repo
 RUN sed -i "s#deb http://deb.debian.org/debian bullseye main#deb http://deb.debian.org/debian bullseye main contrib#g" /etc/apt/sources.list
-RUN apt-get update && apt-get -y install openjdk-11-jdk-headless \
+RUN apt-get update && apt-get -y install openjdk-17-jre-headless \
   rename \
   wget \
   curl \

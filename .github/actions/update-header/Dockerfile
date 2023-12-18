@@ -1,5 +1,5 @@
-FROM debian:buster-slim
-RUN apt-get update && apt-get -y install openjdk-11-jdk-headless \
+FROM debian:bookworm-slim
+RUN apt-get update && apt-get -y install openjdk-17-jre-headless \
   rename \
   wget \
   curl \
