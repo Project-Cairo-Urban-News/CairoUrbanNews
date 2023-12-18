@@ -4,20 +4,20 @@
       <titleStmt>
         <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
           Project</title>
-        <editor>Nour Kanaan</editor>
-        <editor>Adam Mestyan</editor>
-        <editor>Danah Younis</editor>
-        <editor>Sarah Fathallah Garaa</editor>
-        <editor>Arif Erbil</editor>
-        <editor>Ahmed Kamal</editor>
-        <editor>Abram Smith</editor>
-        <editor>Clara Harms</editor>
-        <editor>Hüseyin Sağlam</editor>
-        <editor>Abdulrahman El-Taliawi</editor>
-        <editor>Hiba Laabadli</editor>
-        <editor>Othmane Echchabi</editor>
-        <editor>Fatemah Almahana</editor>
-        <editor>Mahmoud Zaki</editor>
+        <editor xml:id="eNK">Nour Kanaan</editor>
+        <editor xml:id="eAM">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <editor xml:id="eSG">Sarah Fathallah Gaara</editor>
+        <editor xml:id="eAE">Arif Erbil</editor>
+        <editor xml:id="eAK">Ahmed Kamal</editor>
+        <editor xml:id="eAS">Abram Smith</editor>
+        <editor xml:id="eCH">Clara Harms</editor>
+        <editor xml:id="eHS">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+        <editor xml:id="eHL">Hiba Laabadli</editor>
+        <editor xml:id="eOE">Othmane Echchabi</editor>
+        <editor xml:id="eFA">Fatemah Almahana</editor>
+        <editor xml:id="eMZ">Mahmoud Zaki</editor>
         <respStmt>
           <resp>Project leader</resp>
           <name>Hugh Cayless</name>
@@ -32,7 +32,7 @@
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
-          <name>Sarah Fathallah Garaa</name>
+          <name>Sarah Fathallah Gaara</name>
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
@@ -89,7 +89,7 @@
             <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
             Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
             Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName> 
-        </sponsor>
+        </sponsor>; <orgName>the Office of the Hungarian Cultural Counsellor in Cairo</orgName>.
       </titleStmt>
       <publicationStmt>
         <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
@@ -129,7 +129,7 @@
         <language ident="ota">Ottoman</language>
       </langUsage>
     </profileDesc>
-    <revisionDesc status="cleared">
+    <revisionDesc>
       <listChange>
         <change when="2023-05-27" resp="#eAM" status="cleared"/>
       </listChange>
