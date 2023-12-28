@@ -131,7 +131,7 @@
     </profileDesc>
     <revisionDesc>
       <listChange>
-        <change/>
+        <change status="draft"/>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -355,7 +355,7 @@
             </table>
          </div>
          <div>
-            <head><note resp="#eAM"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>(I (AM)
+            <head><note resp="#eAM" anchored="true"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>(I (AM)
                   DELETED DATA BECAUSE IT WAS SO BADLY TRANSCRIBED – ONE HAS TO GO AND RE-CHECK THE
                   ORIGINAL INCLUDING THE TABLES ABOVE<?oxy_custom_end?>)</note></head>
             <p>الأطيان البالغ قدرها

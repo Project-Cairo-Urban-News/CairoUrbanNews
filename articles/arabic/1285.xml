@@ -129,7 +129,7 @@
         <language ident="ota">Ottoman</language>
       </langUsage>
     </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="cleared">
       <listChange>
         <change status="cleared" resp="#eAM" when="2023-10-01"/>
       </listChange>
@@ -149,7 +149,7 @@
         </head>
         <p>
           <table rows="4" cols="4">
-            <row role="label">
+            <row>
               <cell>عدد</cell>
               <cell/>
               <cell>مسطحه</cell>
@@ -208,7 +208,7 @@
             السكة</placeName> المستجدة فى <placeName xml:id="place-W1285019802_02">جهة سيدنا
             الحسين</placeName> إلى الخلاء</p>
         <table rows="30" cols="2">
-          <row role="label">
+          <row>
             <cell>اذرع</cell>
             <cell/>
           </row>
@@ -386,7 +386,7 @@
         <head><title>إفادة واردة من <orgName ref="الاوقاف">الأوقاف</orgName> فى ١٠ رمضان سنة
             ١٢٨٥هـ</title></head>
         <table rows="6">
-          <row role="label">
+          <row>
             <cell/>
             <cell>مسطح</cell>
           </row>
@@ -511,7 +511,7 @@
         <head><title>اعلان من  <orgName ref="عموم الأوقاف">عموم الأوقاف</orgName> بتاريخ ٢٤ ذى
             القعدة سنة ٨٥</title></head>
         <table rows="3" cols="2">
-          <row role="label">
+          <row>
             <cell>١</cell>
             <cell><placeName xml:id="place-W1285027901_01">طاحونة</placeName> ب<placeName xml:id="place-W1285027901_02">شارع البيدق</placeName> مسطحها ٣٦٨ ذراعا <orgName type="وقف" ref="وقف-الامامين-ورواق-الاتراك">وقف الامامين ورواق الأتراك</orgName></cell>
           </row>

@@ -129,7 +129,7 @@
         <language ident="ota">Ottoman</language>
       </langUsage>
     </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="cleared">
          <listChange>
             <change status="cleared" resp="#eAM" when="2023-10-27"/>
          </listChange>
@@ -1786,7 +1786,7 @@
             <head>صورة <rs type="اعلان">اعلان</rs> وارد من حضرة وكيل <orgName ref="عموم-الأوقاف">عموم الأوقاف</orgName> بتاريخ <date when-custom="1289-12-01">غرة ذا سنة
                ٨٩</date></head>
             <table rows="2" cols="2">
-               <row role="label">
+               <row>
                   <cell>عدد</cell>
                   <cell/>
                </row>
@@ -1841,7 +1841,7 @@
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head>صورة من <rs type="اعلان">اعلان</rs> وارد من حضرة وكيل <orgName ref="عموم-الاوقاف">عموم الأوقاف</orgName> بتاريخ ٢ ذا سنة ٨٩</head>
             <table cols="2">
-               <row role="label">
+               <row>
                   <cell>عدد</cell>
                   <cell/>
                </row>
