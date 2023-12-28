@@ -29,6 +29,10 @@
   <xsl:template match="t:change/@status">
     <xsl:copy-of select="."/>
   </xsl:template>
+
+  <xsl:template match="t:revisionDesc/@status">
+    <xsl:copy-of select="."/>
+  </xsl:template>
   
   <xsl:template match="node()|@*" mode="#all">
     <xsl:copy>

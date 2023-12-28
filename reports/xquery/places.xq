@@ -63,8 +63,7 @@ declare function tf:empty($val) {
                     for $p in $place 
                     return 
                       ((if($buildings/id(substring-after($p/@xml:id, 'place-'))) then 
-                        for $elt in $buildings/id(substring-after($p/@xml:id,'place-'))/*
-                        return $elt
+                        <ptr target="buildings:{xs:string($p/@xml:id)}"/>
                         else ''),
                     <idno>{xs:string($p/@xml:id)}</idno>)
                   else <idno>{xs:string($place/@xml:id)}</idno>

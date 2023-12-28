@@ -47,7 +47,6 @@
                </constraintSpec>
             </elementSpec>
             <elementSpec ident="biblScope" module="core" mode="change">
-               
                <constraintSpec ident="untrimmed-spaces-biblScope" scheme="schematron">
                   <constraint>
                      <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
@@ -61,6 +60,13 @@
                <constraintSpec ident="untrimmed-spaces-date" scheme="schematron">
                   <constraint>
                      <report xmlns="http://purl.oclc.org/dsdl/schematron" test="starts-with(node()[1], ' ') or ends-with(node()[last()], ' ')">Move space outside <name/>.</report>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            <elementSpec ident="head" module="core" mode="change">
+               <constraintSpec ident="consistent-dates" scheme="schematron">
+                  <constraint>
+                     <report xmlns="http://purl.oclc.org/dsdl/schematron" test="count(date/@when) gt 1 or count(date/@when-custom) gt 1">Multiple dates of the same type in header.</report>
                   </constraint>
                </constraintSpec>
             </elementSpec>
