@@ -6034,9 +6034,11 @@
                <date when="1881-03-13">١٣ مارث ١٨٨١</date>
                <bibl><biblScope unit="issue">نمره ١٠٦٠</biblScope>
                   <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
-            <head>(جدول من قسم أملاك الميرى بالماليه)</head>
-            <p>بيان المباع من الاملاك الميريه والمتحصل من كمالة أتمان السابق مبيعه وذلك عن شهر
-               فبراير سنة ٨١ خلاف أتمان زويد التنظيم فى بعض الجهات التى لم ترد كشوفه عنها </p>
+            <head>(جدول من <orgName type="قسم" ref="قسم-أملاك-الميرى-بالماليه">قسم أملاك الميرى
+                     ب<orgName ref="الماليه">الماليه</orgName></orgName>)</head>
+            <p>بيان المباع من <orgName ref="الاملاك-الميريه">الاملاك الميريه</orgName> والمتحصل من
+               كمالة أتمان السابق مبيعه وذلك عن شهر فبراير سنة ٨١ خلاف أتمان زويد التنظيم فى بعض
+               الجهات التى لم ترد كشوفه عنها</p>
             <table rows="5" cols="15">
                <row>
                   <cell cols="3">اجمال</cell>
@@ -6081,7 +6083,7 @@
                   <cell/>
                   <cell/>
                   <cell/>
-                  <cell cols="8">تتمين القومسيونات السابق</cell>
+                  <cell cols="8">تتمين <orgName type="قومسيونات">القومسيونات</orgName> السابق</cell>
                   <cell/>
                   <cell/>
                   <cell/>
@@ -6126,8 +6128,10 @@
                   <cell/>
                   <cell/>
                   <cell/>
-                  <cell>بالمحروسة وذلك خلاف تمن قطع أراضى بقنطرة الدكه تصرح بمبيعها فى شهر فبراير
-                     سنة ٨١ تحت معرفة كمية مقادير مقاسها وتمنها</cell>
+                  <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>بالمحرو<?oxy_custom_end?>سة
+                     وذلك خلاف تمن قطع أراضى ب<placeName type="قنطرة" ref="قنطرة-الدكه">قنطرة
+                        الدكه</placeName> تصرح بمبيعها فى شهر فبراير سنة ٨١ تحت معرفة كمية مقادير
+                     مقاسها وتمنها</cell>
                   <cell/>
                   <cell/>
                   <cell/>
@@ -6144,7 +6148,7 @@
                   <cell>٠٠٤٥</cell>
                   <cell>٢٩</cell>
                   <cell>٠٠٧٦٤</cell>
-                  <cell>قطعة أرض <placeName type="شارع">بالشارع الموصل للعباسية</placeName> نمرة
+                  <cell>قطعة أرض بالشارع الموصل لل<placeName ref="العباسية">عباسية</placeName> نمرة
                      ٩٩</cell>
                   <cell>١٠</cell>
                   <cell>٠٠</cell>
@@ -6162,8 +6166,8 @@
                   <cell>٠١٥٢</cell>
                   <cell>١٧</cell>
                   <cell>٠٠٢٠٢</cell>
-                  <cell>منازل <placeName type="حارة">بحارة الداوديه الكبيره</placeName> نمرة ٦٤ و ٦٥
-                     و ٦٦</cell>
+                  <cell>منازل ب<placeName type="حارة" ref="حارة-الداوديه-الكبيره">حارة الداوديه
+                        الكبيره</placeName> نمرة ٦٤ و ٦٥ و ٦٦</cell>
                   <cell>٠٠</cell>
                   <cell>٠٠</cell>
                   <cell>٠٠٦٣</cell>
@@ -6180,8 +6184,9 @@
                   <cell>٠٠٣١</cell>
                   <cell>٧٠</cell>
                   <cell>٠٠١٠٨</cell>
-                  <cell>قطع أراضى بجوار <placeName type="منزل">منزل <persName>سعادة على باشا
-                           ابراهيم</persName></placeName> نمرة ٧٣ و ٧٤</cell>
+                  <cell>قطع أراضى بجوار <placeName type="منزل" ref="منزل-على-باشا-ابراهيم">منزل
+                           <persName>سعادة على باشا ابراهيم</persName></placeName> نمرة ٧٣ و
+                     ٧٤</cell>
                   <cell>٠٠</cell>
                   <cell>٠٠</cell>
                   <cell>٠٠٠٠</cell>
@@ -6215,8 +6220,8 @@
                   <cell>٠١١٩</cell>
                   <cell>٦٩</cell>
                   <cell>٠٠٢٣٨</cell>
-                  <cell>قطعه<placeName type="شارع">بشارع محمد على</placeName> نمرة ٧٧ و ٧٨ و ٧٩ و
-                     ٨٠</cell>
+                  <cell>قطعه ب<placeName type="شارع" ref="شارع-محمد-على">شارع محمد على</placeName>
+                     نمرة ٧٧ و ٧٨ و ٧٩ و ٨٠</cell>
                   <cell>١٠</cell>
                   <cell>٦٠</cell>
                   <cell>٠١٤١</cell>
@@ -6233,7 +6238,10 @@
                   <cell>٠٠٢٠</cell>
                   <cell>٤٠</cell>
                   <cell>٠٠١٠٣</cell>
-                  <cell>قطغة (حرف ال ع عليه نقطة) أرض ضمن <placeName type="حوش">حوش
+                  <cell><choice>
+                        <sic>قطغة</sic>
+                        <corr>قطعة</corr>
+                     </choice> أرض ضمن <placeName type="حوش" ref="حوش-الشرقاوى">حوش
                         الشرقاوى</placeName> نمرة ٨٢</cell>
                   <cell>٠٠</cell>
                   <cell>٠٧</cell>
@@ -6251,7 +6259,8 @@
                   <cell>٠٠٣٠</cell>
                   <cell>٥٤</cell>
                   <cell>٠٠٦٣٨</cell>
-                  <cell>حوش <placeName type="جهة">بجهة القلعة بالحطابه</placeName> نمرة ٨٣</cell>
+                  <cell>حوش ب<placeName ref="جهة-القلعة" type="جهة">جهة القلعة</placeName>
+                        ب<placeName ref="الحطابه">الحطابه</placeName> نمرة ٨٣</cell>
                   <cell>٠٠</cell>
                   <cell>٠٠</cell>
                   <cell>٠٠٦٥</cell>
@@ -6268,7 +6277,8 @@
                   <cell>٠٠٩٢</cell>
                   <cell>٥٠</cell>
                   <cell>٠٠٢٣٠</cell>
-                  <cell>خرابه <placeName type="محل">محل تخت زيوت بالفوطية</placeName> نمرة ٨٩</cell>
+                  <cell>خرابه محل تخت زيوت ب<placeName ref="الفوطية">الفوطية</placeName> نمرة
+                     ٨٩</cell>
                   <cell>١٠</cell>
                   <cell>٦٣</cell>
                   <cell>٠٠٨٥</cell>
@@ -6285,8 +6295,8 @@
                   <cell>٠١٨٠</cell>
                   <cell>٨١</cell>
                   <cell>٠٠١٧٩</cell>
-                  <cell>قطعة أرض <placeName type="شارع">بشارع سليمان باشا</placeName> بما فيها من
-                     البنا نمرة ١٢</cell>
+                  <cell>قطعة أرض ب<placeName type="شارع" ref="شارع-سليمان-باشا">شارع سليمان
+                        باشا</placeName> بما فيها من البنا نمرة ١٢</cell>
                   <cell>٠٠</cell>
                   <cell>٠٠</cell>
                   <cell>٠٢٨٠</cell>
@@ -6303,8 +6313,9 @@
                   <cell>٠١١٠</cell>
                   <cell>٢٩</cell>
                   <cell>٠٠١٣١</cell>
-                  <cell>منزلين بحارة المقدم <placeName type="جهة">بجهة الزير المعلق</placeName>نمرة
-                     ٣٩ و ٤٠</cell>
+                  <cell>منزلين ب<placeName type="حارة" ref="حارة-المقدم">حارة المقدم</placeName>
+                        ب<placeName type="جهة" ref="جهة-الزير-المعلق">جهة الزير المعلق</placeName>
+                     نمرة ٣٩ و ٤٠</cell>
                   <cell>٠٠</cell>
                   <cell>٥٠</cell>
                   <cell>٠٠١٢</cell>
@@ -6321,8 +6332,8 @@
                   <cell>٠٠٤٦</cell>
                   <cell>٠٠</cell>
                   <cell>٠٠٢٣٤</cell>
-                  <cell>قطعة أرض تعرف بنمرة ٢٩٤ <placeName type="جهة">بجهة عابدين</placeName> وهى
-                     نمرة ٤١</cell>
+                  <cell>قطعة أرض تعرف بنمرة ٢٩٤ ب<placeName type="جهة" ref="جهة-عابدين">جهة
+                        عابدين</placeName> وهى نمرة ٤١</cell>
                   <cell>٠٠</cell>
                   <cell>٧٤</cell>
                   <cell>٠٠٢٥</cell>
@@ -6339,9 +6350,11 @@
                   <cell>٢٢٢٠</cell>
                   <cell>٣٤</cell>
                   <cell>١٨٥٠٦</cell>
-                  <cell>قطع أراضى كائنه قبلى <placeName type="مدرسة">مدرسة
-                        البنات</placeName><placeName type="شارع">بشارع القصر العالى</placeName> نمره
-                     ٤٤</cell>
+                  <cell>قطع أراضى كائنه قبلى <orgName ref="مدرسة-البنات-بشارع-القصر-العالى"
+                        type="مدرسة"><placeName ref="مدرسة-البنات-بشارع-القصر-العالى" type="مدرسة"
+                           >مدرسة البنات ب<placeName type="شارع" ref="شارع-القصر-العالى">شارع
+                                 <placeName ref="القصر-العالى" type="قصر">القصر
+                              العالى</placeName></placeName></placeName></orgName> نمره ٤٤</cell>
                   <cell>١٦</cell>
                   <cell>٢٤</cell>
                   <cell>١٢٣٠</cell>
@@ -6358,7 +6371,8 @@
                   <cell>٠٠٣٠</cell>
                   <cell>٣٥</cell>
                   <cell>٠٠٢٠٦</cell>
-                  <cell>قطعة أرض بجوار الكهرجلات<placeName>بفم الخليج</placeName> نمرة ٤٦</cell>
+                  <cell>قطعة أرض بجوار <placeName ref="الكهرجالات">الكهرجلات</placeName>ب<placeName
+                        ref="فم-الخليج">فم الخليج</placeName> نمرة ٤٦</cell>
                   <cell>٣٠</cell>
                   <cell>٠٤</cell>
                   <cell>٠٠٢٩</cell>
@@ -6375,7 +6389,9 @@
                   <cell>٠٠٩٨</cell>
                   <cell>٠٦</cell>
                   <cell>١٦٤٧٧</cell>
-                  <cell>قطعة أرض تعرف بالتل بمصر القديمه نمره ٥٢</cell>
+                  <cell><placeName ref="قطعة-ارض-تعرف-بالتل-بمصر-القديمة" type="قطعة-أرض">قطعة أرض
+                        تعرف بالتل ب<placeName ref="مصر-القديمه">مصر القديمه</placeName></placeName>
+                     نمره ٥٢</cell>
                   <cell>٠٠</cell>
                   <cell>٩١</cell>
                   <cell>٠٢٦٢</cell>
@@ -6392,8 +6408,10 @@
                   <cell>٠٠١٠</cell>
                   <cell>٠٠</cell>
                   <cell>٠٠٠٠٠</cell>
-                  <cell>انقاض قايمة بنا المدبح المجاور<placeName type="مسجد">لمسجد الاستاذ
-                        عمرو</placeName> نمرة ٥٣</cell>
+                  <cell>انقاض قايمة بنا <placeName type="مدبح"
+                        ref="المدبح-المجاور-لمسجد-الاستاذ-عمرو">المدبح المجاور ل<placeName
+                           type="مسجد" ref="مسجد-الاستاذ-عمرو">مسجد الاستاذ
+                        عمرو</placeName></placeName> نمرة ٥٣</cell>
                   <cell>٠٠</cell>
                   <cell>٠٠</cell>
                   <cell>٠٠٠٢</cell>
@@ -6426,7 +6444,8 @@
                   <cell>٠٢٠٢</cell>
                   <cell>٤٣٨</cell>
                   <cell>٠٠٠٠٠</cell>
-                  <cell>قطعة أرض من أراضى الطرطوشى مجاوره <placeName type="جنينة">لجنينة
+                  <cell>قطعة أرض من <placeName ref="أراضى-الطرطوشى" type="أراضى">أراضى
+                        الطرطوشى</placeName> مجاوره ل<placeName type="جنينة" ref="جنينة-ذكلى">جنينة
                         ذكلى</placeName> نمرة ٨٩</cell>
                   <cell>٣٠</cell>
                   <cell>١٣</cell>
@@ -6461,8 +6480,9 @@
                   <cell>٠٠٠٣</cell>
                   <cell>٠٠</cell>
                   <cell>٠٠٤٨٠</cell>
-                  <cell>قطعة أرض من <placeName type="جنينة">جنينة الحمره</placeName>مباعه الى
-                     قومبانية المياه بمصر</cell>
+                  <cell>قطعة أرض من <placeName type="جنينة" ref="جنينة-الحمره">جنينة
+                        الحمره</placeName> مباعه الى <orgName type="قومبانية"
+                        ref="قومبانية-المياه-بمصر">قومبانية المياه بمصر</orgName></cell>
                   <cell>٢٥</cell>
                   <cell>٢٨</cell>
                   <cell>٠٠٠٢</cell>
@@ -6520,7 +6540,9 @@
                   <cell>١٩</cell>
                   <cell>٩٨</cell>
                   <cell>٣٤٣٥</cell>
-                  <cell cols="3">سمين القومسيونات السابق تعيينهم للتتمين</cell>
+                  <cell cols="3"
+                     ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>سمين<?oxy_custom_end?>
+                     القومسيونات السابق تعيينهم للتتمين</cell>
                   <cell/>
                   <cell/>
                   <cell/>
@@ -6612,8 +6634,10 @@
                   <cell>٠٠</cell>
                   <cell>٠٠</cell>
                   <cell>قطع أراضى ظهرت زيادة حق الميرى بجهات وغير مندرجه بالجداول بما فى ذلك ٩٥٠ متر
-                     من شاطئ البحر باسكندريه مباعين الى كنيسة البرتستانت باقل تمن مساعدة من الجناب
-                     الخديوى وحكومته السنية </cell>
+                     من شاطئ البحر باسكندريه مباعين الى <orgName type="كنيسة" ref="كنيسة-البرتستانت"
+                           ><placeName ref="كنيسة-البرتستانت" type="كنيسة">كنيسة
+                           البرتستانت</placeName></orgName> باقل تمن مساعدة من الجناب الخديوى
+                     وحكومته السنية </cell>
                </row>
                <row>
                   <cell> </cell>
