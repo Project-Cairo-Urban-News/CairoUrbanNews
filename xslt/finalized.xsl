@@ -28,8 +28,8 @@
               <xsl:for-each select="uri-collection('../articles/arabic/?select=*.xml')">
                 <xsl:sort select="."/>
                 <xsl:variable name="vol" select="doc(.)"/>
-                <xsl:variable name="out" select="replace(., '.*/(\w+).xml', 'articles/arabic/$1.html')"/>
-                <xsl:variable name="name" select="replace(., '.*/(\w+).xml', '$1')"/>
+                <xsl:variable name="out" select="replace(., '.*/(.+)\.xml', 'articles/arabic/$1.html')"/>
+                <xsl:variable name="name" select="replace(., '.*/(.+)\.xml', '$1')"/>
                 <xsl:if test="$vol//t:revisionDesc[@status='cleared']">
                   <li><a href="{$out}">{$name}</a></li>
                   <xsl:result-document href="../docs/{$out}" method="html">
@@ -43,8 +43,8 @@
               <xsl:for-each select="uri-collection('../articles/ottoman/?select=*.xml')">
                 <xsl:sort select="."/>
                 <xsl:variable name="vol" select="doc(.)"/>
-                <xsl:variable name="out" select="replace(., '.*/(\w+).xml', 'articles/ottoman/$1.html')"/>
-                <xsl:variable name="name" select="replace(., '.*/(\w+).xml', '$1')"/>
+                <xsl:variable name="out" select="replace(., '.*/(.+)\.xml', 'articles/ottoman/$1.html')"/>
+                <xsl:variable name="name" select="replace(., '.*/(.+)\.xml', '$1')"/>
                 <xsl:if test="$vol//t:revisionDesc[@status='cleared']">
                   <li><a href="{$out}">{$name}</a></li>
                   <xsl:result-document href="../docs/{$out}" method="html">

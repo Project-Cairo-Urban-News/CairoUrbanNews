@@ -256,7 +256,7 @@
       .then(response => response.json())
       .then(data => {
         data.forEach(file => {
-          if (file.name.match(/\d{4}\.xml/)) {
+          if (file.name.match(/.+\.xml/)) {
             let li = document.createElement("li");
             li.innerHTML = "<a href=\"?name=arabic/" + file.name + "\">" + file.name.replace(".xml","") + "</a>"
             document.getElementById("arabic_files").appendChild(li)
@@ -267,7 +267,7 @@
       .then(response => response.json())
       .then(data => {
         data.forEach(file => {
-          if (file.name.match(/\d{4}\.xml/)) {
+          if (file.name.match(/.+\.xml/)) {
             let li = document.createElement("li");
             li.innerHTML = "<a href=\"?name=ottoman/" + file.name + "\">" + file.name.replace(".xml","") + "</a>"
             document.getElementById("ottoman_files").appendChild(li)
