@@ -6888,8 +6888,8 @@
          </div>
          <div resp="#eSG" xml:id="w187">
             <head><date when="1298-04-15">١٥ ربيع الثانى ١٢٩٨</date>
-               <date when="1881-03-15">١٥ مارث ١٨٨١</date><bibl><biblScope unit="issue">نمره
-                     ١٠٦٢</biblScope>
+               <date when="1881-03-15">١٥ مارث ١٨٨١</date>
+               <bibl><biblScope unit="issue">نمره ١٠٦٢</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head>نص اعلان وارد من <orgName ref="ضبطية-مصر" type="ضبطية">ضبطية مصر</orgName></head>
             <p>القسم التاسع من ابتداء يوم الاثنين ٢١ فبراير سنة ٨١ الموافق ٢٢ ربيع أول سنة ٩٨ لغاية
@@ -6911,10 +6911,11 @@
                <row>
                   <cell/>
                   <cell/>
-                  <cell cols="6">أرض الميرى الكائنة <placeName type="جهة">بجهة <persName>الشيخ عبد
-                           الله</persName></placeName> المبنى بها محلات من طرف أربابها وموضح مقاسها
-                     على حسب مقاس المنازل القايمة عليها منزل بمنزل كما الموضح أدناه من ضمن نمرة ٢٣
-                     المندرجة بالجدول</cell>
+                  <cell cols="6">أرض الميرى الكائنة ب<placeName type="جهة" ref="جهة-الشيخ-عبد-الله"
+                        >جهة <persName>الشيخ عبد الله</persName></placeName> المبنى بها محلات من طرف
+                     أربابها وموضح مقاسها على حسب مقاس المنازل القايمة عليها منزل
+                     بمنزل<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> كما
+                     الموضح<?oxy_custom_end?> أدناه من ضمن نمرة ٢٣ المندرجة بالجدول</cell>
                </row>
                <row>
                   <cell/>
@@ -6932,8 +6933,9 @@
                   <cell>٥٦</cell>
                   <cell>ان</cell>
                   <cell>٣٩</cell>
-                  <cell cols="2">أرض<placeName type="منزل">منزل<persName>فرج أفندى
-                        موسى</persName></placeName></cell>
+                  <cell cols="2"><placeName type="أرض" ref="أرض-منزل-فرج-أفندى-موسى">أرض<placeName
+                           type="منزل" ref="منزل-فرج-أفندى-موسى">منزل<persName>فرج أفندى
+                              موسى</persName></placeName></placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -6942,7 +6944,9 @@
                   <cell>٨٨</cell>
                   <cell>اع</cell>
                   <cell>٤١</cell>
-                  <cell cols="2">,, <persName>خليل النحات</persName></cell>
+                  <cell cols="2"><placeName ref="أرض-منزل-خليل-النحات" type="ارض"><placeName
+                           type="منزل" ref="منزل-خليل-النحات">,, <persName>خليل
+                           النحات</persName></placeName></placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -6951,7 +6955,9 @@
                   <cell>٦٢</cell>
                   <cell>اق</cell>
                   <cell>٤٤</cell>
-                  <cell cols="2">,,<persName>الحرمة سليمة الطحانه</persName></cell>
+                  <cell cols="2"><placeName ref="منزل-الحرمة-سليمة-الطحانه" type=" منزل"><placeName
+                           ref="ارض-الحرمة-سليمة-الطحانه" type="ارض">,,<persName>الحرمة سليمة
+                              الطحانه</persName></placeName></placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -6960,7 +6966,9 @@
                   <cell>٦٧</cell>
                   <cell>اش</cell>
                   <cell>٤٦</cell>
-                  <cell cols="2">,, <persName>شاكر أفندى هندى</persName></cell>
+                  <cell cols="2"><placeName ref="ارض-منزل-شاكر-أفندى-هندى" type="ارض"><placeName
+                           ref="منزل-شاكر-أفندى-هندى" type="منزل">,, <persName>شاكر أفندى
+                              هندى</persName></placeName></placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -6969,7 +6977,9 @@
                   <cell>٦٦</cell>
                   <cell>اث</cell>
                   <cell>٤٧</cell>
-                  <cell cols="2">,, <persName>الحرمه فاطمه أم مصطفى</persName></cell>
+                  <cell cols="2"><placeName ref="منزل-الحرمه-فاطمه-أم-مصطفى" type="منزل"><placeName
+                           ref="ارض-منزل-الحرمه-فاطمه-أم-مصطفى" type="ارض">,, <persName>الحرمه فاطمه
+                              أم مصطفى</persName></placeName></placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -6978,7 +6988,9 @@
                   <cell>١١٦</cell>
                   <cell>اث</cell>
                   <cell>٤٨</cell>
-                  <cell cols="2">,, <persName>ابراهيم خليل</persName></cell>
+                  <cell cols="2"><placeName ref="ارض-منزل-ابراهيم-خليل" type="ارض"><placeName
+                           ref="منزل-ابراهيم-خليل" type="منزل">,, <persName>ابراهيم
+                           خليل</persName></placeName></placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -6987,7 +6999,9 @@
                   <cell>٢٦</cell>
                   <cell>اخ</cell>
                   <cell>٤٩</cell>
-                  <cell cols="2">,, <persName>الحرمه أم هانم</persName></cell>
+                  <cell cols="2"><placeName ref="ارض-منزل-الحرمه-أم-هانم" type="ارض"><placeName
+                           type="منزل" ref="منزل-الحرمه-أم-هانم">,, <persName>الحرمه أم
+                              هانم</persName></placeName></placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -6996,7 +7010,9 @@
                   <cell>٧٩</cell>
                   <cell>ب ح</cell>
                   <cell>٥٣</cell>
-                  <cell cols="2">,,<persName>الحاجه حفيظه</persName></cell>
+                  <cell cols="2"><placeName ref="ارض-منزل-الحاجة-حفيظة" type="ارض"><placeName
+                           ref="منزل-الحاجه-حفيظه" type="منزل">,,<persName>الحاجه
+                           حفيظه</persName></placeName></placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -7005,7 +7021,9 @@
                   <cell>٨٠</cell>
                   <cell>ب ه</cell>
                   <cell>٥٥</cell>
-                  <cell cols="2">,, <persName>الحرمه أم الهند</persName></cell>
+                  <cell cols="2"><placeName ref="ارض-منزل-الحرمه-أم-الهند"><placeName
+                           ref="منزل-الحرمه-ام-الهند" type="منزل">,, <persName>الحرمه أم
+                              الهند</persName></placeName></placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -7014,7 +7032,9 @@
                   <cell>٤١</cell>
                   <cell>ب و</cell>
                   <cell>٥٦</cell>
-                  <cell cols="2">,, <sic>البطش</sic></cell>
+                  <cell cols="2"
+                     ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>,,
+                        <sic>البطش</sic><?oxy_custom_end?></cell>
                </row>
                <row>
                   <cell/>
@@ -7023,7 +7043,9 @@
                   <cell>٣٤</cell>
                   <cell>ب ز</cell>
                   <cell>٥٧</cell>
-                  <cell cols="2">,, <persName>محمد الخضراوى</persName></cell>
+                  <cell cols="2"><placeName ref="ارض-منزل-محمد-الخضراوى" type="ارض"><placeName
+                           ref="منزل-محمد-الخضراوى" type="منزل">,, <persName>محمد
+                              الخضراوى</persName></placeName></placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -7032,7 +7054,9 @@
                   <cell>٤٦</cell>
                   <cell>ب ح</cell>
                   <cell>٥٨</cell>
-                  <cell cols="2">,, <persName>فطومه أم محمد</persName></cell>
+                  <cell cols="2"><placeName ref="ارض-منزل-فطومه-أم-محمد" type="ارض"><placeName
+                           ref="منزل-فطومه-أم-محمد" type="منزل">,, <persName>فطومه أم
+                              محمد</persName></placeName></placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -7041,7 +7065,9 @@
                   <cell>٧٧</cell>
                   <cell>ب ط</cell>
                   <cell>٥٩</cell>
-                  <cell cols="2">,, <persName>عبود أفندى</persName></cell>
+                  <cell cols="2"><placeName ref="منزل-عبود-أفندى" type="منزل"><placeName
+                           ref="ارض-منزل-عبود-أفندى" type="ارض">,, <persName>عبود
+                           أفندى</persName></placeName></placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -7050,7 +7076,9 @@
                   <cell>٦٦</cell>
                   <cell>ب ى</cell>
                   <cell>٦٠</cell>
-                  <cell cols="2">,, <persName>أحمد أفندى الياسرجى</persName></cell>
+                  <cell cols="2"><placeName type="ارض" ref="ارض-منزل-أحمد-أفندى-الياسرجى"><placeName
+                           ref="منزل-أحمد-أفندى-الياسرجى" type="منزل">,, <persName>أحمد أفندى
+                              الياسرجى</persName></placeName></placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -7059,7 +7087,10 @@
                   <cell>٣١</cell>
                   <cell>ب ك</cell>
                   <cell>٦١</cell>
-                  <cell cols="2">,,<persName>الرحمه نفيسه</persName></cell>
+                  <cell cols="2"><placeName ref="منزل-الرحمه-نفيسه" type="منزل"><placeName
+                           ref="ارض-منزل-الرحمه-نفيسه" type="ارض"
+                              >,,<persName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah" timestamp="20240115T140144+0200" comment="الحرمه؟" mid="192"?>الرحمه<?oxy_custom_end?><?oxy_comment_end mid="192"?>
+                              نفيسه</persName></placeName></placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -7068,8 +7099,9 @@
                   <cell>٥٥</cell>
                   <cell>ب م</cell>
                   <cell>٦٣</cell>
-                  <cell cols="2">أرض <placeName type="منزل">منزل <persName>الحرمه
-                        خديجه</persName></placeName></cell>
+                  <cell cols="2"><placeName ref="ارض-منزل-الحرمه-خديجه" type="ارض">أرض <placeName
+                           type="منزل" ref="منزل-الحرمه-خديجه">منزل <persName>الحرمه
+                              خديجه</persName></placeName></placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -7078,7 +7110,10 @@
                   <cell>٧١</cell>
                   <cell>ب س</cell>
                   <cell>٦٥</cell>
-                  <cell cols="2">,,<persName>الحرمه بهانه أم السيد وأم محمد</persName></cell>
+                  <cell cols="2"><placeName ref="ارض-منزل-الحرمه-بهانه-أم-السيد-وأم-محمد" type="ارض"
+                           ><placeName ref="منزل-الحرمه-بهانه-أم-السيد-وأم-محمد" type="منزل"
+                              >,,<persName>الحرمه بهانه أم السيد وأم
+                        محمد</persName></placeName></placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -7087,7 +7122,9 @@
                   <cell>٣٨</cell>
                   <cell>ب ق</cell>
                   <cell>٦٩</cell>
-                  <cell cols="2">,, <persName>الحرمه فطومه أم عوض</persName></cell>
+                  <cell cols="2"><placeName type="ارض" ref="ارض-منزل-الحرمه-فطومه-أم-عوض"><placeName
+                           ref="منزل-الحرمه-فطومه-أم-عوض" type="منزل">,, <persName>الحرمه فطومه أم
+                              عوض</persName></placeName></placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -7096,7 +7133,9 @@
                   <cell>٢٦</cell>
                   <cell>ج ح</cell>
                   <cell>٧٨</cell>
-                  <cell cols="2">,, <persName>الشيخ أحمد خليل</persName></cell>
+                  <cell cols="2"><placeName ref="ارض-منزل-الحرمه-فطومه-أم-عوض" type="ارض"><placeName
+                           ref="منزل-الشيخ-أحمد-خليل" type="منزل">,, <persName>الشيخ أحمد
+                              خليل</persName></placeName></placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -7105,7 +7144,9 @@
                   <cell>٣٢</cell>
                   <cell>ج د</cell>
                   <cell>٧٩</cell>
-                  <cell cols="2">,,<persName>محمد شاكر</persName></cell>
+                  <cell cols="2"><placeName ref="ارض-منزل-محمد-شاكر" type="ارض"><placeName
+                           ref="منزل-محمد-شاكر" type="منزل">,,<persName>محمد
+                           شاكر</persName></placeName></placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -7123,11 +7164,16 @@
                   <cell/>
                   <cell/>
                   <cell/>
-                  <cell cols="2">أرض <placeName type="منزل">منزل <persName>بدوى
-                        أفندى</persName></placeName>
+                  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                  <cell cols="2"><placeName ref="ارض-منزل-بدوى-أفندى" type="ارض">أرض <placeName
+                           type="منزل" ref="منزل-بدوى-أفندى">منزل <persName>بدوى
+                           أفندى</persName></placeName></placeName>
                      <sic>المنسى ٢ جى بيكباشى طوبجية غارديا الوارد</sic> بالجدول باسم
-                        <persName>عائشة شرف الدين</persName>مع الارض الفضا امامه وسبق الممارسة معه
-                     وعرص (مكتوب كدا) للمالية وصدر الامر نمرة ١٠٢ باعلانها بالمزاد العمومى</cell>
+                        <persName>عائشة شرف الدين</persName>مع الارض الفضا امامه وسبق الممارسة معه و<choice>
+                        <sic><?oxy_comment_start author="Sarah" timestamp="20240115T141858+0200" comment="in proper word in the egyptian culture"?>عرص<?oxy_comment_end?></sic>
+                        <corr>عرض</corr>
+                     </choice> لل<orgName ref="المالية">مالية</orgName> وصدر الامر نمرة ١٠٢ باعلانها
+                     بالمزاد العمومى</cell><?oxy_custom_end?>
                </row>
                <row>
                   <cell/>
@@ -7157,7 +7203,9 @@
                   <cell>ج ى</cell>
                   <cell>٨٥</cell>
                   <cell>١٠٨,٦٦</cell>
-                  <cell>الارض الفضا امام المركبة من جزؤين</cell>
+                  <cell>الارض
+                     الفضا<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> امام
+                     المركبة<?oxy_custom_end?> من جزؤين</cell>
                </row>
                <row>
                   <cell/>
@@ -7166,8 +7214,9 @@
                   <cell>٠٧١</cell>
                   <cell>ج ع</cell>
                   <cell>٩١</cell>
-                  <cell cols="2">أرض <placeName type="منزل">منزل <persName>الحرمه
-                        فاطمه</persName></placeName></cell>
+                  <cell cols="2"><placeName ref="ارض-منزل-الحرمه-فاطمه" type="ارض">أرض <placeName
+                           type="منزل" ref="منزل-الحرمه-فاطمه">منزل <persName>الحرمه
+                              فاطمه</persName></placeName></placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -7176,7 +7225,9 @@
                   <cell>٠٤٧</cell>
                   <cell>ج د</cell>
                   <cell>١٠٠</cell>
-                  <cell cols="2">,, <persName>عرفه محمد</persName></cell>
+                  <cell cols="2"><placeName ref="ارض-منزل-عرفه-محمد" type="ارض"><placeName
+                           ref="منزل-عرفه-محمد" type="منزل">,, <persName>عرفه
+                           محمد</persName></placeName></placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -7185,7 +7236,9 @@
                   <cell>١٠٤</cell>
                   <cell>د ج</cell>
                   <cell>١٠٣</cell>
-                  <cell cols="2">,, <persName>الحرمه شريفه</persName></cell>
+                  <cell cols="2"><placeName ref="ارض-منزل-الحرمه-شريفه"><placeName type="منزل"
+                           ref="منزل-الحرمه-شريفه">,, <persName>الحرمه
+                        شريفه</persName></placeName></placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -7194,7 +7247,9 @@
                   <cell>٠٣٣</cell>
                   <cell>د ه</cell>
                   <cell>١٠٥</cell>
-                  <cell cols="2">,, <persName>الحاج أحمد الخضرى</persName></cell>
+                  <cell cols="2"><placeName ref="ارض-منزل-الحاج-أحمد-الخضرى" type="ارض"><placeName
+                           ref="منزل-الحاج-أحمد-الخضرى" type="منزل">,, <persName>الحاج أحمد
+                              الخضرى</persName></placeName></placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -7203,7 +7258,9 @@
                   <cell>٠٢٩</cell>
                   <cell>در</cell>
                   <cell>١٠٦</cell>
-                  <cell cols="2">,,<persName>على الحداد</persName></cell>
+                  <cell cols="2"><placeName ref="ارض-منزل-على-الحداد" type="ارض"><placeName
+                           ref="منزل-على-الحداد" type="منزل">,,<persName>على
+                           الحداد</persName></placeName></placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -7212,8 +7269,10 @@
                   <cell>١٢٨</cell>
                   <cell>د ز</cell>
                   <cell>١٠٧</cell>
-                  <cell cols="2">جزء من أرض<placeName type="منزل">منزل <persName>محمد أفندى
-                           توفيق</persName></placeName> المندرج بالجدول ٢٩٨,٤٢ متر</cell>
+                  <cell cols="2">جزء من <placeName ref="ارض-منزل-محمد-افندى-توفيق" type="ارض">أرض
+                           <placeName type="منزل" ref="منزل-محمد-أفندى-توفيق">منزل <persName>محمد
+                              أفندى توفيق</persName></placeName></placeName> المندرج بالجدول ٢٩٨,٤٢
+                     متر</cell>
                </row>
                <row>
                   <cell>٢٩</cell>
@@ -7224,8 +7283,9 @@
                </row>
             </table>
             <table rows="4" cols="7">
-               <head>قطع أرض بجهة بوابة حجاج من ضمن نمرة ١٢٧ المقسمة قطع بنمر حسب الرسم الموجود
-                  بالضبطية </head>
+               <head>قطع أرض ب<placeName ref="جهة-بوابة-حجاج" type="جهة">جهة <placeName type="بوابة"
+                        ref="بوابة-حجاج">بوابة حجاج</placeName></placeName> من ضمن نمرة ١٢٧ المقسمة
+                  قطع بنمر حسب الرسم الموجود بالضبطية</head>
                <row>
                   <cell>عدد</cell>
                   <cell>نمرة</cell>
@@ -7643,11 +7703,14 @@
             <p>سيجرى بيع العقار تعلق الميرى الكائن بالمحروسة من المندرج بالجداول المطبوعة السابق
                نشرهم لعموم الجهات المقسم ذلك على عشرة أقسام وهذا عن القسم التاسع من ضمن نمرة ٢٣
                ونمرة ٢٧ بحسب نص اللائحة بالمزاد العمومى فكل من يرغب شئ من ذلك يقدم مزاده داخل مظروف
-               مختوم عليه ووضعه بالصندوق المعد لذلك بالضبطية وذلك فى مدة خمسة وأربعين يوما من تاريخه
-               لغاية يوم الاربعا ٦ ابريل سنة ١٨٨١ الموافق ٧ جماد أول سنة ١٢٩٨ وفى اليوم المذكور تفتح
-               ظروف المزايدات بجلسة علانية امام القومسيون من الساعة واحدة افرنكى بعد الظهر والاجراء
-               حسب ما نص باللائحة ولمعلومية الجميع من ذلك لزم تحريره فى يوم الاثنين ٢١ فبراير سنة
-               ١٨٨١ الموافق ٢٢ ربيع أول سنة ١٢٩٨</p>
+               مختوم عليه<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+               <?oxy_comment_start author="Sarah" timestamp="20240115T143352+0200" comment="يضعه"?>ووضعه<?oxy_comment_end?>
+               بالصندوق<?oxy_custom_end?> المعد لذلك بالضبطية وذلك فى مدة خمسة وأربعين يوما من
+               تاريخه لغاية يوم الاربعا ٦ ابريل سنة ١٨٨١ الموافق ٧ جماد أول سنة ١٢٩٨ وفى اليوم
+               المذكور تفتح ظروف المزايدات بجلسة علانية امام <orgName type="القومسيون"
+                  >القومسيون</orgName> من الساعة واحدة افرنكى بعد الظهر والاجراء حسب ما نص باللائحة
+               ولمعلومية الجميع من ذلك لزم تحريره فى يوم الاثنين ٢١ فبراير سنة ١٨٨١ الموافق ٢٢ ربيع
+               أول سنة ١٢٩٨</p>
          </div>
          <div resp="w189">
             <head><date when="1298-04-15">١٥ ربيع الثانى سنة ١٢٩٨</date><date when="1881-03-15">١٥
