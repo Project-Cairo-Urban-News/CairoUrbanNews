@@ -145,9 +145,9 @@
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head><title>اعلانات</title></head>
             <head><title>صورة <rs type="اعلان">اعلان</rs> من <orgName ref="مجلس تجار مصر" type="مجلس">مجلس تجار مصر</orgName> الى <orgName ref="قلم الوقايع" type="قلم">قلم الوقايع</orgName></title></head>
-            <p>موجود واحد وعشرون قيراطا من منزل بـ<placeName xml:id="place-W1287035101_01">سويقة
-                  اللاله</placeName> بـ<placeName xml:id="place-W1287035101_02">خط الحنفى</placeName>
-                  بـ<placeName xml:id="place-W1287035101_03">حارة <placeName xml:id="place-W1287035101_04">حمام مرزوق</placeName></placeName> تابع <placeName xml:id="place-W1287035101_05"><orgName ref="ثمن درب الجماميز" type="ثمن">ثمن
+            <p>موجود واحد وعشرون قيراطا من منزل بـ<placeName ref="سويقة اللاله" xml:id="place-W1287035101_01">سويقة
+                  اللاله</placeName> بـ<placeName type="خط" ref="خط الحنفي" xml:id="place-W1287035101_02">خط الحنفى</placeName>
+                  بـ<placeName type="حارة" ref="حارة حمام مرزوق" xml:id="place-W1287035101_03">حارة <placeName type="حمام" ref="حمام-مرزوق" xml:id="place-W1287035101_04">حمام مرزوق</placeName></placeName> تابع <placeName type="ثمن" ref="ثمن درب الجماميز" xml:id="place-W1287035101_05"><orgName ref="ثمن درب الجماميز" type="ثمن">ثمن
                      درب الجماميز</orgName></placeName> تعلق المرحوم <persName role="شيخ النجارين">على بصبوص شيخ النجارين سابقا</persName> المديون ومنظورة قضية الديون المطلوبه منه
                بالمجلس مقتضى مبيعها لمن يرغب لسداد اثمنها لديانته وكان سبق اشهار مزاد مبيعها وآخر
                عطا عطى بالقائمة على <persName role="خشاب">السيد على عوف الخشاب</persName> بمبلغ
@@ -167,16 +167,16 @@
                واسعه ومناهج بهيجة محجرة الاراضى نافعه وميزت أعظم امتياز بتنويرها بفوانيس الغاز
                وبالتسهيلات الحاصله والتشويقات المتواصله رغب الناس أن يبنوا فى جانبى خطها الطويل
                المديد مساكن مشيدة ودكاكين حسنة على الطراز الجديد واحدثت ميادين فائقه ومتنزهات رائقه
-               يقر بها الناظر ويسر بها الخاطر والآن أخذ فى فتح طريق موصل بين (<placeName xml:id="place-W1287035201_01">اوتل دوريان</placeName>) و (<placeName xml:id="place-W1287035201_02">اوتل ده زامبا صادور</placeName>) الكائنتين
-                  بـ<placeName xml:id="place-W1287035201_03">الازبكية</placeName> الى الميدان الذى على القرب من
-               القنطرة البهية المستجدة على القنال بقرب <placeName xml:id="place-W1287035201_04">موقف <choice>
+               يقر بها الناظر ويسر بها الخاطر والآن أخذ فى فتح طريق موصل بين (<placeName type="اوتل" ref="اوتيل دوريان" xml:id="place-W1287035201_01">اوتل دوريان</placeName>) و (<placeName type="اوتل" ref="اوتل ده زامبا صادور" xml:id="place-W1287035201_02">اوتل ده زامبا صادور</placeName>) الكائنتين
+                  بـ<placeName ref="الازبكية" xml:id="place-W1287035201_03">الازبكية</placeName> الى الميدان الذى على القرب من
+               القنطرة البهية المستجدة على القنال بقرب <placeName type="موقف" ref="موقف السكة الحديد" xml:id="place-W1287035201_04">موقف <choice>
                      <sic>لسكة</sic>
                      <corr>السكة</corr>
                   </choice> الحديد</placeName> والظاهر ان هذه لا تنقص فى الحسن والمنفعة عن غيرها مما
                أحدث على الطرز الجديد لاسيما ان بها زوال صعوبة المرور التى قد تقع من الازدحام الحاصل
                من أنواع العربيات وغيرها أمام ذلك الموقف ليلا ونهارا المعلوم انه مانع من المرام
                ولاشبهة فى ان سعتها وان لم تعلم الآن تكون بحسب موقعها وما يليق به من الاستحسان وما هو
-               جار الآن بمعرفة المهرة بـ<placeName xml:id="place-W1287035201_05">حديقة
+               جار الآن بمعرفة المهرة بـ<placeName type="حديقة" ref="حديقة الازبكية" xml:id="place-W1287035201_05">حديقة
                   الازبكية</placeName> ليكون خير منتزه عام من منتزهات الدنيا التامة النظام فما هو
                عليه من كمال الرونق والزين لا تدرك حقيقته بالوصف بل برأى العين والمأمول ان ينتهى عما
                قريب على وجه بهى.</p>
@@ -196,11 +196,11 @@
                </row>
                <row>
                   <cell>١</cell>
-                  <cell><placeName xml:id="place-W1287035202_01">خربه</placeName> كائنه بـ<placeName xml:id="place-W1287035202_02">حارة
-                        كمونه</placeName> بـ<placeName xml:id="place-W1287035202_03">الزير المعلق</placeName>
-                        بـ<placeName xml:id="place-W1287035202_04">عابدين</placeName>
-                     <orgName type="وقف" ref="وقف-سيدنا-الحسين-والسيدة-زينب">وقف <placeName xml:id="place-W1287035202_05"><persName>سيدنا الحسين</persName></placeName>
-                           و<placeName xml:id="place-W1287035202_06"><persName>السيدة
+                  <cell><placeName type="خربه" ref="خربه-وقف-سيدنا-الحسين-والسيدة-زينب" xml:id="place-W1287035202_01">خربه</placeName> كائنه بـ<placeName type="حارة" ref="حارة كمونة" xml:id="place-W1287035202_02">حارة
+                        كمونه</placeName> بـ<placeName ref="الزير المعلق" xml:id="place-W1287035202_03">الزير المعلق</placeName>
+                        بـ<placeName ref="عابدين" xml:id="place-W1287035202_04">عابدين</placeName>
+                     <orgName type="وقف" ref="وقف-سيدنا-الحسين-والسيدة-زينب">وقف <placeName ref="سيدنا-الحسين" xml:id="place-W1287035202_05"><persName>سيدنا الحسين</persName></placeName>
+                           و<placeName ref="السيدة-زينب" xml:id="place-W1287035202_06"><persName>السيدة
                            زينب</persName></placeName></orgName> نظارة الديوان ومقدار مسطحها اذرع
                      ١٤٩٢ ذراعا مسطحا وآخر العطا فيها على <persName role="مهندس">المعلم محمد رجب
                         المهندس</persName> بطريق البدل بمبلغ ستين ألف غرش دارجه وكل من رغب لاخذها
@@ -212,16 +212,16 @@
                            <sic>المرحوم</sic>
                         <persName>بغداد بنت <persName>المرحوم سعد
                         المعصرانى</persName></persName></orgName> نظارة <persName role="حلاق">محمد
-                        السقا الحلاق</persName> بمنزل كائن ب<placeName xml:id="place-W1287035202_07">حارة الجمة</placeName> بـ<placeName xml:id="place-W1287035202_08">سوق
-                        البكرى</placeName> بـ<placeName xml:id="place-W1287035202_09"><orgName ref="ثمن الازبكية" type="ثمن">ثمن الازبكيه</orgName></placeName> وراسى
+                        السقا الحلاق</persName> بمنزل كائن ب<placeName type="حارة" ref="حارة الجمة" xml:id="place-W1287035202_07">حارة الجمة</placeName> بـ<placeName type="سوق" ref="سوق-البكري" xml:id="place-W1287035202_08">سوق
+                        البكرى</placeName> بـ<placeName type="ثمن" ref="ثمن الازبكية" xml:id="place-W1287035202_09"><orgName ref="ثمن الازبكية" type="ثمن">ثمن الازبكيه</orgName></placeName> وراسى
                      مزادها على <persName>محمد أفندى المصرى</persName> بطريق البدل بمبلغ ألفين قرش
                      دارجه وكل من رغب لاخذها بالزياده عنما ذكر فبعد معاينته اياها يحضر للديوان ويعطى
                      قوله بما يرغبه</cell>
                </row>
                <row>
                   <cell>١</cell>
-                  <cell>نصف <placeName xml:id="place-W1287035202_10">طاحونه</placeName> كائنه بـ<placeName xml:id="place-W1287035202_11">درب
-                        البزازره</placeName> بـ<placeName xml:id="place-W1287035202_12">الحسينيه</placeName>
+                  <cell>نصف <placeName type="طاحونة" ref="طاحونه-وقف-الست-حنيفه-قادن" xml:id="place-W1287035202_10">طاحونه</placeName> كائنه بـ<placeName type="درب" ref="درب البزازره" xml:id="place-W1287035202_11">درب
+                        البزازره</placeName> بـ<placeName ref="الحسينية" xml:id="place-W1287035202_12">الحسينيه</placeName>
                      <orgName type="وقف" ref="وقف-الست-حنيفه-قادن-معتوقة-وزوجة-مرحوم-على-بيك-ضابط-مصر-سابق">وقف
                            <persName>الست حنيفه قادن معتوقة وزوجة <persName role="ضابط">مرحوم على
                               بيك ضابط مصر سابق</persName></persName></orgName> ومقدار مسطحها ٢٥٦
@@ -246,8 +246,8 @@
                   <cell>١</cell>
                   <cell>حصه بحق قيراط ٦ <orgName type="وقف" ref="وقف-الحرمه-هنا-بنت-عبد-المتعال">وقف
                            <persName>الحرمه هنا بنت عبد المتعال</persName></orgName> بالمنزل الكائن
-                        بـ<placeName xml:id="place-W1287035801_01">حاره البلاحه</placeName>
-                        بـ<placeName xml:id="place-W1287035801_02">خط الحسينيه</placeName> البالغ
+                        بـ<placeName type="حارة" ref="حارة البلاحه" xml:id="place-W1287035801_01">حاره البلاحه</placeName>
+                        بـ<placeName type="خط" ref="خط الحسينية" xml:id="place-W1287035801_02">خط الحسينيه</placeName> البالغ
                      مقدار مقاس أرضها واحد وخمسين ذراع مسطح ومقتضى خروجها بالاستبدال فكل من له رغبة
                      فى ذلك بطريق الاستبدال يتوجه لطرف <persName role="معاون">حسن افندى مسعود معاون
                            <orgName ref="قسم أول أوقاف" type="قسم">قسم اول
@@ -255,10 +255,10 @@
                </row>
                <row>
                   <cell>١</cell>
-                  <cell><placeName xml:id="place-W1287035801_03">حوش</placeName>
+                  <cell><placeName type="حوش" ref="حوش-وقف-سكينه-خاتون" xml:id="place-W1287035801_03">حوش</placeName>
                      <orgName type="وقف" ref="وقف-سكينه-خاتون">وقف <persName>سكينه
-                        خاتون</persName></orgName> بـ<placeName xml:id="place-W1287035801_04">القير
-                        الطويل</placeName> بـ<placeName xml:id="place-W1287035801_05"><orgName ref="ثمن-الخليفة" type="ثمن">ثمن الخليفة</orgName></placeName> نظارة
+                        خاتون</persName></orgName> بـ<placeName ref="القير الطويل" xml:id="place-W1287035801_04">القير
+                        الطويل</placeName> بـ<placeName type="ثمن" ref="ثمن الخليفة" xml:id="place-W1287035801_05"><orgName ref="ثمن-الخليفة" type="ثمن">ثمن الخليفة</orgName></placeName> نظارة
                         <persName role="ناظر">الشيخ فرج</persName> البالغ مقاس ارضه مائتان وثمانون
                      متر وكسور مسطح ومقتضى خروجه من الوقف بطريق التآجر فكل من يرغب لاخذه بطريق
                      التاجر يتوجه لطرف <persName role="معاون">عبد المقصود افندى معاون <orgName ref="قسم رابع اوقاف" type="قسم">قسم رابع اوقاف</orgName></persName> ويوضع
@@ -266,8 +266,8 @@
                </row>
                <row>
                   <cell>١</cell>
-                  <cell><placeName xml:id="place-W1287035801_06">منزل</placeName> كائن بـ<placeName xml:id="place-W1287035801_07">حدرة الحنا</placeName>
-                        بـ<placeName xml:id="place-W1287035801_08">الصليبه</placeName>
+                  <cell><placeName type="منزل" ref="منزل-وقف-مصطفى-افندى-الخضيرى-وزوجته" xml:id="place-W1287035801_06">منزل</placeName> كائن بـ<placeName ref="حدرة الحنا" xml:id="place-W1287035801_07">حدرة الحنا</placeName>
+                        بـ<placeName ref="الصليبه" xml:id="place-W1287035801_08">الصليبه</placeName>
                      <orgName ref="وقف-مصطفى-افندى-الخضرى-وزوجته">وقف <persName>مصطفى افندى
                            الخضيرى</persName> وزوجته</orgName> نظارة <persName role="ناظرة">الست
                         صديقه</persName> البالغ مقاس ارضه اربعمائة ستة وثمانون متر وكسور مسطح ومقتضى
@@ -277,7 +277,7 @@
                </row>
                <row>
                   <cell>١</cell>
-                  <cell>منزل كائن بـ<placeName xml:id="place-W1287035801_09">حارة
+                  <cell>منزل كائن بـ<placeName type="حارة" ref="حارة الست فاطمة النبوية" xml:id="place-W1287035801_09">حارة
                            <persName>الست فاطمة النبوية</persName></placeName> وقفها نظارة الديوان
                      البالغ مقدار مسطح ذراع ١١٩ مسطح مقتضى خروجه من الوقف بطريق التآجر فكل من رغب
                      ذلك يتوجه لطرف <persName role="معاون">عثمان افندى فهمى معاون <orgName ref="قسم ثاني اوقاف" type="قسم">قسم ثانى اوقاف</orgName></persName> ويوضع
@@ -285,8 +285,8 @@
                </row>
                <row>
                   <cell>١</cell>
-                  <cell>منزل كائن بـ<placeName xml:id="place-W1287035801_10">حارة
-                        الزياده</placeName> بـ<placeName xml:id="place-W1287035801_11">طيلون</placeName>
+                  <cell>منزل كائن بـ<placeName type="حارة" ref="حارة الزيادة" xml:id="place-W1287035801_10">حارة
+                        الزياده</placeName> بـ<placeName ref="طيلون" xml:id="place-W1287035801_11">طيلون</placeName>
                      <orgName type="وقف" ref="وقف-المرحومه-زبيدة-بنت-حسن-المقدم">وقف المرحومه
                            <persName>زبيدة بنت حسن المقدم</persName></orgName> نظاره الحرمه
                         <persName role="ناظرة">زينب</persName> البالغ مقدار مسطحه مائة وعشرة أمتار
@@ -309,8 +309,8 @@
                </row>
                <row>
                   <cell>١</cell>
-                  <cell>منزل كائن ب<placeName xml:id="place-W1287036001_01">درب شكنبه</placeName>
-                        ب<placeName xml:id="place-W1287036001_02">خط السيدة زينب</placeName>
+                  <cell>منزل كائن ب<placeName type="درب" ref="درب شكنبه" xml:id="place-W1287036001_01">درب شكنبه</placeName>
+                        ب<placeName type="خط" ref="خط السيدة زينب" xml:id="place-W1287036001_02">خط السيدة زينب</placeName>
                      <orgName ref="وقف الحرمه صاوحه ام أمين" type="وقف">وقف الحرمه <persName role="ناظرة">صاوحه ام أمين</persName></orgName> نظارة المذكور مقدار مسطحه
                      خمسة وسبعون مترا مسطحا مقتضى خروجه من وقفها بطريق الاستبدال فكل من له رغبه
                      لاخذه بالاستبدال يتوجه لطرف <persName role="معاون">عبد المقصود افندى معاون
@@ -348,8 +348,8 @@
                ينتهى عليه الحال بالمزاد بالثمن الموافق على حسب حالة كل نوع يجرى توريد
                   <sic>التمن</sic> فورا وفيما بعد يجرى التسليم وعلى ذلك كل من يروم المشترى يتوجه
                اطرف ملاحظ الشوارع بمحل وجود المخلفات المذكورة بالشارع الجارى تنفيذه من جانب
-                  <placeName xml:id="place-W1287036201_01">لوقاندة كولمب</placeName> الى
-                  <placeName xml:id="place-W1287036201_02">الفجالة</placeName> أو بجهة <placeName xml:id="place-W1287036201_03">باب اللوق</placeName> و<placeName xml:id="place-W1287036201_04">قصر
+                  <placeName type="لوقاندة" ref="لوقاندة كولمب" xml:id="place-W1287036201_01">لوقاندة كولمب</placeName> الى
+                  <placeName ref="الفجالة" xml:id="place-W1287036201_02">الفجالة</placeName> أو بجهة <placeName ref="باب اللوق" xml:id="place-W1287036201_03">باب اللوق</placeName> و<placeName type="قصر" ref="قصر النيل" xml:id="place-W1287036201_04">قصر
                   النيل</placeName> وقد تحرر هذا اعلان عمومى للراغبين.</p>
          </div>
          <div xml:id="W1287036301" resp="#eAK #eSG">
@@ -367,8 +367,8 @@
                   </row>
                   <row>
                      <cell>١</cell>
-                     <cell><placeName xml:id="place-W1287036301_01">ربع</placeName>
-                        كبير بـ<placeName xml:id="place-W1287036301_02">طاروق العامود</placeName> بـ<placeName xml:id="place-W1287036301_03">بولاق</placeName>
+                     <cell><placeName type="ربع" ref="ربع-وقف-المرحومه-رابيبه-خاتون" xml:id="place-W1287036301_01">ربع</placeName>
+                        كبير بـ<placeName ref="طاروق العامود" xml:id="place-W1287036301_02">طاروق العامود</placeName> بـ<placeName ref="بولاق" xml:id="place-W1287036301_03">بولاق</placeName>
                         <orgName type="وقف" ref="وقف-المرحومه-رابيبه-خاتون">وقف المرحومه
                               <persName>رابيبه خاتون</persName></orgName> نظارة <persName role="ناظر">محمد احمد مرزه</persName> مقتضى خروجه من الوقف المذكور بطريق
                         التآجر ومقدار مسطحه اذرع ١٤٠٢ مسطح فيقتضى كل من له رغبة فى اخذه بالتآجر
@@ -378,7 +378,7 @@
                   </row>
                   <row>
                      <cell>١</cell>
-                     <cell><placeName xml:id="place-W1287036301_04">منزل</placeName> كائن بـ<placeName xml:id="place-W1287036301_05">مرجوش</placeName>
+                     <cell><placeName type="منزل" ref="منزل-وقف-المقرى-ومقرى-السعديه" xml:id="place-W1287036301_04">منزل</placeName> كائن بـ<placeName ref="مرجوش" xml:id="place-W1287036301_05">مرجوش</placeName>
                         <orgName type="وقف" ref="وقف-المقرى-الكبرى-ومقرى-السعديه">وقف المقرى الكبرى
                            ومقرى السعديه</orgName> نظارة <persName role="ناظر">الشيخ خليفة
                            الصفتى</persName> مقتضى خروجه من الوقف بطريق التآجر دون ما باسفله من
@@ -411,9 +411,9 @@
                </row>
                <row>
                   <cell>١</cell>
-                  <cell><placeName xml:id="place-W1287037201_01">منزل</placeName>
-                     متخرب كائن بـ<placeName xml:id="place-W1287037201_02">عطفة الامير</placeName>
-                        بـ<placeName xml:id="place-W1287037201_03">خط الازهر</placeName>
+                  <cell><placeName type="منزل" ref="منزل-وقف-ابراهيم-اغا-مستحفظان" xml:id="place-W1287037201_01">منزل</placeName>
+                     متخرب كائن بـ<placeName type="عطفة" ref="عطفة الامير" xml:id="place-W1287037201_02">عطفة الامير</placeName>
+                        بـ<placeName type="خط" ref="خط الازهر" xml:id="place-W1287037201_03">خط الازهر</placeName>
                      <orgName type="وقف" ref="وقف-ابراهيم-اغا-مستحفظان">وقف <persName>ابراهيم أغا
                            مستحفظان</persName></orgName> نظارة <persName role="ناظر">محمود افندى
                         حلمى</persName> مقدار مسطح ازرعه ٤٢٧ مقتضى خروجه من وقفه بالتآجر فيقتضى كل
@@ -426,9 +426,9 @@
                </row>
                <row>
                   <cell>١</cell>
-                  <cell><placeName xml:id="place-W1287037201_04">منزل</placeName> كائن
-                        بـ<placeName xml:id="place-W1287037201_05">حارة الجن على</placeName>
-                        بـ<placeName xml:id="place-W1287037201_06">الحلميه</placeName>
+                  <cell><placeName type="منزل" ref="منزل-وقف-خليل-النمر" xml:id="place-W1287037201_04">منزل</placeName> كائن
+                        بـ<placeName type="حارة" ref="حارة الجن علي" xml:id="place-W1287037201_05">حارة الجن على</placeName>
+                        بـ<placeName ref="الحلمية" xml:id="place-W1287037201_06">الحلميه</placeName>
                      <orgName type="وقف" ref="وقف-خليل-النمر">وقف <persName>خليل
                         النمر</persName></orgName> مقدار مسطح أرضه اذرع ٤٤٨ مقتضى خروجه من وقفه
                      بالاستبدال فيقتضى كل من له رغبة فى أخذه بالاستبدال بالزيادة عن ماقدره اهل
@@ -444,8 +444,8 @@
                <bibl><biblScope unit="issue">نمرة ٣٧٢</biblScope>
                   <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
             <head><title>صورة <rs type="اعلان">اعلان</rs> أخر</title></head>
-            <p>ال<placeName xml:id="place-W1287037202_01">منزل</placeName> تعلق
-                  <persName>حضرة اسماعيل بك عزمى</persName> الكائن ب<placeName xml:id="place-W1287037202_02">درب سعاده</placeName> بجوار <placeName xml:id="place-W1287037202_03">سراى حضرة <persName>والدة <persName>المرحوم
+            <p>ال<placeName type="منزل" ref="منزل-تعلق-حضرة-اسماعيل-بك-عزمى" xml:id="place-W1287037202_01">منزل</placeName> تعلق
+                  <persName>حضرة اسماعيل بك عزمى</persName> الكائن ب<placeName type="درب" ref="درب سعادة" xml:id="place-W1287037202_02">درب سعاده</placeName> بجوار <placeName type="سراى" ref="سراى-حضرة-والدة-المرحوم-على-بك" xml:id="place-W1287037202_03">سراى حضرة <persName>والدة <persName>المرحوم
                         على بك</persName></persName></placeName> المحتوى ذلك على اربعة بلوكات وكل
                منها يشتمل على جملة محلات ويليها كثير من المنافع العموميه وبه حمام ومطبخ واصطبل وحوش
                سماوى جار اشهاره بالمبيع فكل من اراد مشترى ذلك فمن بعد المعاينة يوضع عطاءه بالقائمة
@@ -468,7 +468,7 @@
                </row>
                <row>
                   <cell>١</cell>
-                  <cell>منزل كائن بـ<placeName xml:id="place-W1287037601_01">شارع
+                  <cell>منزل كائن بـ<placeName type="شارع" ref="شارع الداوديه" xml:id="place-W1287037601_01">شارع
                         الداوديه</placeName>
                      <orgName type="وقف" ref="وقف-الست-زليخه-خاتون">وقف الست <persName>زليخه
                            خاتون</persName></orgName> نظارة الحرمه <persName role="ناظرة">فاطمه</persName> ومقدار مسطح ارضه اذرع ٩١ مقتضى خروجه من وقفه بطريق
@@ -479,7 +479,7 @@
                </row>
                <row>
                   <cell>١</cell>
-                  <cell>حوش كائن بـ<placeName xml:id="place-W1287037601_02">زند الفيل</placeName> بـ<placeName xml:id="place-W1287037601_03">خط باب الشعريه</placeName>
+                  <cell>حوش كائن بـ<placeName ref="زند الفيل" xml:id="place-W1287037601_02">زند الفيل</placeName> بـ<placeName type="خط" ref="خط باب الشعرية" xml:id="place-W1287037601_03">خط باب الشعريه</placeName>
                      <orgName ref="وقف-عائشة-ايواز" type="وقف">وقف <persName>عائشه
                         ايواز</persName></orgName> نظارة الديوان ومقدار مسطح ارضه اذرع ٤١٠ مقتضى
                      خروجه من وقفه بالتآجر فيقتضى كل من يرغب لاخذه بطريق التآجر بالزيادة عما قدره
@@ -501,15 +501,15 @@
                <bibl><biblScope unit="issue">نمرة ٣٧٧</biblScope>
                   <biblScope unit="page">صفحة ١</biblScope></bibl></head>
             <head><title>الحوادث الداخليه</title></head>
-            <p>قد استحصلنا على نسخة من قانون <placeName xml:id="place-W1287037701_01"><orgName ref="الكتابخانة الخديويه">الكتابخانة الخديويه</orgName></placeName> المطبوع
+            <p>قد استحصلنا على نسخة من قانون <placeName ref="الكتابخانة الخديويه" xml:id="place-W1287037701_01"><orgName ref="الكتابخانة الخديويه">الكتابخانة الخديويه</orgName></placeName> المطبوع
                المنشور فى الديار المصريه لاحاطة الخاص والعام بمحاسن ذلك النظام وها هو لفظه المطبوع
                على طبق ما هو مطبوع </p>
             <p>قانون الكتبخانة الخديوية</p>
             <p>*(مقدمة)*</p>
             <p>لما سخ لخاطر ولى النعم الخديوى الاعظم جمع المشتت من الكتب الموجودة بالجهات الميرية
-               وخزائن الاوقاف وحفظها من التلف فى مكان مخصوص تعلقت ارادته السنية بانشاء <placeName xml:id="place-W1287037701_02"><orgName type="كتبخانة-عمومية">كتبخانة
+               وخزائن الاوقاف وحفظها من التلف فى مكان مخصوص تعلقت ارادته السنية بانشاء <placeName ref="كتبخانة عمومية" xml:id="place-W1287037701_02"><orgName type="كتبخانة-عمومية">كتبخانة
                   عمومية</orgName></placeName> ليتأتى فيها صيانة هذه الكتب وغيرها من الآلات الهندسية
-               والرسومات والادوات اللازمة لعموم الاشغال وعند تمام انشائها بـ<placeName xml:id="place-W1287037701_03">سراى <placeName xml:id="place-W1287037701_04">درب الجماميز</placeName></placeName> عرض للاعتاب بصددها من سعادة الباشا مدير
+               والرسومات والادوات اللازمة لعموم الاشغال وعند تمام انشائها بـ<placeName type="سراي" ref="سراي درب الجماميز" xml:id="place-W1287037701_03">سراى <placeName type="درب" ref="درب-الجماميز" xml:id="place-W1287037701_04">درب الجماميز</placeName></placeName> عرض للاعتاب بصددها من سعادة الباشا مدير
                المدارس فى ٥ الحجة سنة ١٢٨٦ نمرة ٢ عما سيأتى بيانه وهو انه لما كانت الاماكن المعدة
                بالمحروسة وغيرها من مدن الديار المصرية للاحتواء على الكتب التابعة للاوقاف وخلافها
                ليست مستوفية للشروط اللازمة لوقايتها من التلف وكان تشتت هذه الكتب فى جهات متعددة مع
@@ -525,7 +525,7 @@
                النافعة جار تداركها جميعها بتلك الكتبخانة التى صار انشاؤها بمكان مستقل فى سراى درب
                الجماميز لينتفع بها المهندسون ورجال الديوان وخوجات المدارس والتلامذة والراغبون من غير
                استثناء وقد نقل الآن بالفعل الى هذه الكتبخانة المستجدة العظيمة جميع الكتب التى كانت
-               فى <placeName xml:id="place-W1287037701_05"><orgName ref="الكتبخانة الخديوية القديمة" type="كتبخانة">الكتبخانة الخديوية
+               فى <placeName ref="الكتبخانة الخديوية القديمة" xml:id="place-W1287037701_05"><orgName ref="الكتبخانة الخديوية القديمة" type="كتبخانة">الكتبخانة الخديوية
                      القديمة</orgName></placeName> وغيرها من الكتب الميرية التى اشتراها <orgName ref="ديوان محافظة مصر" type="ديوان">ديوان محافظة مصر</orgName> بمعرفته مع كتب
                الاوقاف الجارى فرزها من خزنها وحيث ان ترتيب هذه الكتب وتوضيبها ووضعها فى الدواليب
                المعدة لها يحتاج الى مستخدمين لاجل القيام بنظافتها وحفظها وصيانتها وتغييرها لكل من
@@ -619,18 +619,18 @@
                </row>
                <row>
                   <cell>٥</cell>
-                  <cell><placeName xml:id="place-W1287037702_01">خرابه</placeName> وأربعة دكاكين أسفلها متخربة كائنة بـ<placeName xml:id="place-W1287037702_02">شارع باب الفوطيه</placeName>
+                  <cell><placeName type="خرابه" ref="خرابه-وقف-سيدى-ابراهيم-الدسوقى" xml:id="place-W1287037702_01">خرابه</placeName> وأربعة دكاكين أسفلها متخربة كائنة بـ<placeName type="شارع" ref="شارع باب الفوطيه" xml:id="place-W1287037702_02">شارع باب الفوطيه</placeName>
                      <orgName type="وقف" ref="وقف-سيدى-ابراهيم-الدسوقى">وقف <persName>سيدى ابراهيم
                            الدسوقى</persName></orgName> راسى مزادها على <persName>ابراهيم أفندى
                         المليجى</persName> بطريق التآجر ما هو ثمن انقاضها بمبلغ احدى عشر ألف غرش
                      دارجه واجرة الارض سنوى بمبلغ مائتين غرش صاغ ومقدار مسطحها اذرع ١٤٠ فيقتضى كل من
-                     له رغبة لاخذها بالتاجر بزيادة عما ذكر فبعد المعاينة يتوجه لطرف <persName role="معاون">عثمان افندى فهمى معاون <placeName xml:id="place-W1287037702_03">قسم ثان أوقاف</placeName></persName> ويوضع مزاده بما يرغبه
+                     له رغبة لاخذها بالتاجر بزيادة عما ذكر فبعد المعاينة يتوجه لطرف <persName role="معاون">عثمان افندى فهمى معاون <placeName type="قسم" ref="قسم ثان اوقاف" xml:id="place-W1287037702_03">قسم ثان أوقاف</placeName></persName> ويوضع مزاده بما يرغبه
                      بقائمة المزاد</cell>
                </row>
                <row>
                   <cell>١</cell>
-                  <cell><placeName xml:id="place-W1287037702_04">خربه</placeName> كائنه بـ<placeName xml:id="place-W1287037702_05">الحاره
-                        الوسخه</placeName> بـ<placeName xml:id="place-W1287037702_06">باب الوزير</placeName>
+                  <cell><placeName type="خربه" ref="خربه-وقف-السيدة-نفيسه-والامامين-والدسوقى" xml:id="place-W1287037702_04">خربه</placeName> كائنه بـ<placeName type="حارة" ref="الحارة الوسخة" xml:id="place-W1287037702_05">الحاره
+                        الوسخه</placeName> بـ<placeName ref="باب الوزير" xml:id="place-W1287037702_06">باب الوزير</placeName>
                      <orgName type="وقف" ref="وقف-السيدة-نفيسه-والامامين-والدسوقى">وقف
                            <persName>السيده نفيسه</persName> و<persName>الامامين</persName>
                            و<persName>الدسوقى</persName></orgName> أهل الخبره قدر الى استبدالها خمسة
@@ -659,9 +659,9 @@
                </row>
                <row>
                   <cell>١</cell>
-                  <cell><placeName xml:id="place-W1287038301_01">منزل</placeName> متخرب
+                  <cell><placeName type="منزل" ref="منزل-وقف-الامامين" xml:id="place-W1287038301_01">منزل</placeName> متخرب
                         <orgName type="وقف" ref="وقف-الامامين">وقف
-                        <persName>الامامين</persName></orgName> كائن بـ<placeName xml:id="place-W1287038301_02">حارة الحمزيه</placeName> مقدار مسطحه ١٠٠ ذراع وراسى مزاد تآجره
+                        <persName>الامامين</persName></orgName> كائن بـ<placeName type="حاره" ref="حارة الحمزيه" xml:id="place-W1287038301_02">حارة الحمزيه</placeName> مقدار مسطحه ١٠٠ ذراع وراسى مزاد تآجره
                      على <persName>صالح افندى محمد</persName> ما هو ثمن أنقاضه بمبلغ سبعة الآلف
                      وخمسين قرش دارجه وما هو أجرة أرضه لكل سنة أربعين قرشا دارجه فيقتضى كل من رغب
                      لاخذه بالزيادة عن ما ذكر فبعد معاينه المنزل المذكور يتوجه لطرف معاون <orgName ref="قسم ثالث أوقاف" type="قسم">قسم ثالث أوقاف</orgName> ويوضع مزاده بما
@@ -682,7 +682,7 @@
                <row>
                   <cell>١</cell>
                   <cell>حصه بحق خمسة عشر قيراطا <orgName ref="وقف المرحوم السيد عمر الحسينى" type="وقف">وقف المرحوم السيد <persName>عمر الحسينى</persName></orgName> فى
-                     منزل كائن بال<placeName xml:id="place-W1287038501_01">جودريه</placeName> نظارة حضرة<persName role="ناظر">السيد احمد مصطفى العروسى</persName> مقدار مسطح ارضها ذراع مع ٢٥٨
+                     منزل كائن بال<placeName ref="جودريه" xml:id="place-W1287038501_01">جودريه</placeName> نظارة حضرة<persName role="ناظر">السيد احمد مصطفى العروسى</persName> مقدار مسطح ارضها ذراع مع ٢٥٨
                      والحصة المذكورة مقتضى خروجها فى وقفها بطريق الاستبدال يقتضى كل من له رغبة فى
                      أخذها بالاستبدال فمن بعد معاينته اياها يتوجه لطرف معاون <orgName ref="قسم اول اوقاف">قسم اول اوقاف</orgName> ويوضع قراره بما يرغب دفعه عن
                      قينة استبدالها بقائمة المزاد وتحدد له قرارها خمسة عشر يوما تمضى من تاريخه
