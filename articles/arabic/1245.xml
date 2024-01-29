@@ -155,9 +155,9 @@
             <sic>انشا</sic>
             <corr>انشاء</corr>
           </choice>
-          <orgName ref="الجبه-خانه-فى-قدم-النبى">الجبه خانه</orgName> فى <placeName xml:id="place-W1245004701_01">قدم النبى</placeName> لسبب بعض ملاحظات وجب ابطال <orgName ref="الجبه-خانه">الجبه
-            خانه</orgName> الكاينة تجاه<placeName xml:id="place-W1245004701_02">جبل الجيوشى</placeName> الواقع شرقى
-            <placeName xml:id="place-W1245004701_03">قلعة
+          <orgName ref="الجبه-خانه-فى-قدم-النبى">الجبه خانه</orgName> فى <placeName ref="قدم-النبى" xml:id="place-W1245004701_01">قدم النبى</placeName> لسبب بعض ملاحظات وجب ابطال <orgName ref="الجبه-خانه">الجبه
+            خانه</orgName> الكاينة تجاه<placeName type="جبل" ref="https://www.openstreetmap.org/node/768552478" xml:id="place-W1245004701_02">جبل الجيوشى</placeName> الواقع شرقى
+            <placeName type="قلعة" ref="قلعة_مصر https://www.openstreetmap.org/way/24908286" xml:id="place-W1245004701_03">قلعة
             مصر</placeName> و<choice>
             <sic>انشا</sic>
             <corr>انشاء</corr>
@@ -203,9 +203,9 @@
               <sic>انشا</sic>
               <corr>انشاء</corr>
             </choice>
-            <placeName xml:id="place-W1245004702_01">الدفترخانه</placeName></title></head>
-        <p> لما لم يكن فى <placeName xml:id="place-W1245004702_02">القلعة</placeName> محل مناسب يوضع فيه دفاتر مهمات اقليم مصر نطقت الارادة
-          السنية بان ينشاء دفتر خانه متسعه حذا <placeName xml:id="place-W1245004702_03">باب
+            <placeName ref="دفتر-خانه" xml:id="place-W1245004702_01">الدفترخانه</placeName></title></head>
+        <p> لما لم يكن فى <placeName type="قلعة" ref="قلعة_مصر https://www.openstreetmap.org/way/24908286" xml:id="place-W1245004702_02">القلعة</placeName> محل مناسب يوضع فيه دفاتر مهمات اقليم مصر نطقت الارادة
+          السنية بان ينشاء دفتر خانه متسعه حذا <placeName type="باب" ref="باب-القلعة" xml:id="place-W1245004702_03">باب
             القلعة</placeName> فأنشا فى ذلك المحل مستحكمة مشيدة البنيان تشتمل على احدى واربعين مخزنا
           وعلى جميع ما يلزم لها طولها ماية وخمسون ذراعا وعرضها ثمانون ذراعا وذلك فى ذى القعدة سنة
           اربع واربعين وقد بلغت مصاريفها الف كيس واحدى عشر كيسا.</p>
@@ -217,8 +217,8 @@
           <bibl><biblScope unit="issue">نمره ٤٧</biblScope>
             <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
         <head><title>انشاء <placeName xml:id="place-W1245004703_01"><orgName ref="الباروتخانه">الباروتخانه</orgName></placeName></title></head>
-        <p>ان الباروتخانه التى انشيت من قبل فى<placeName xml:id="place-W1245004703_02">جزيرة الروضة</placeName>
-          الكاينة بين <placeName xml:id="place-W1245004703_03">الجيزة</placeName> و<placeName xml:id="place-W1245004703_04">مصر العتيقة</placeName>
+        <p>ان الباروتخانه التى انشيت من قبل فى<placeName type="جزيرة" ref="جزيرة-الروضة https://www.openstreetmap.org/way/24763856" xml:id="place-W1245004703_02">جزيرة الروضة</placeName>
+          الكاينة بين <placeName ref="الجيزة https://www.openstreetmap.org/node/5217365043" xml:id="place-W1245004703_03">الجيزة</placeName> و<placeName ref="مصر-العتيقة https://www.openstreetmap.org/node/5218109287" xml:id="place-W1245004703_04">مصر العتيقة</placeName>
           ليس فيها خلل الا انه من حيث لم تخل عن ظهور<rs ref="fire">الحريق</rs> ولا عن سريان النار
           منها الى المحل الكاين جانب الشمال عند دواليبها حيث ينشر الباروت لزم ان يغير المحل الذى
           ينشر فيه الباروت من الشمال الى الجنوب واستنسب ان يكون بعيدا عن الباروتخانه ثلثماية ذراع

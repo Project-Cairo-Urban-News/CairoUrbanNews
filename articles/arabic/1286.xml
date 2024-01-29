@@ -159,8 +159,8 @@
                 <p> وردت افادة من <orgName type="ديوان" ref="ديوان الأوقاف">ديوان الأوقاف</orgName>
                     تتضمن انه اسيغ شرعا استبدال المنزل <orgName type="وقف">وقف المرحوم
                             <persName>عثمان اغا</persName></orgName> نظارة <persName>مصطفى
-                        اغا</persName> و<persName>الست مهتاب</persName> الكائن <placeName xml:id="place-W1286028701_01">بحارة الانسية</placeName>
-                    <placeName xml:id="place-W1286028701_02">بالمغربلين</placeName> البالغ مسطحه بالأذرع ۱۲٠٥ وحرر
+                        اغا</persName> و<persName>الست مهتاب</persName> الكائن <placeName type="حارة" ref="حارة الانسية" xml:id="place-W1286028701_01">بحارة الانسية</placeName>
+                    <placeName ref="المغربلين" xml:id="place-W1286028701_02">بالمغربلين</placeName> البالغ مسطحه بالأذرع ۱۲٠٥ وحرر
                     في ذلك الى معاون الأوقاف لاشهاره بقائمة مزايدة لمن يرغب.</p>
             </div>
             <div xml:id="W1286028702" resp="#eSG #eAM">
@@ -168,9 +168,9 @@
                     <date when="1869-04-15">۱٥ ابريل ١٨٦٩</date>
                     <bibl><biblScope unit="issue">نمرة ٢٨٧</biblScope>
                         <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-                <p>قد اشهر منزل المرحوم <persName>علي سري باشا</persName> الذي كان من أعضاء <orgName ref="مجلس-الأحكام " type="مجلس">مجلس الأحكام</orgName> الكائن <placeName xml:id="place-W1286028702_01">بدرب الجماميز</placeName> بجوار حضرة
+                <p>قد اشهر منزل المرحوم <persName>علي سري باشا</persName> الذي كان من أعضاء <orgName ref="مجلس-الأحكام " type="مجلس">مجلس الأحكام</orgName> الكائن <placeName type="درب" ref="درب الجماميز" xml:id="place-W1286028702_01">بدرب الجماميز</placeName> بجوار حضرة
                         <persName>شيخ السادات</persName> للمزايدة فيه وسلمت قائمته إلى <persName role="دلال العقارات">الحاج مصطفى الجبوقجي دلال العقارات</persName> الذي سكنه
-                        ب<placeName xml:id="place-W1286028702_02">السيدة زينب</placeName> فكل من كان له رغبة في
+                        ب<placeName ref="السيدة زينب" xml:id="place-W1286028702_02">السيدة زينب</placeName> فكل من كان له رغبة في
                     اشتراء هذا المنزل فعليه بالدلال المذكور.</p>
             </div>
             <div xml:id="W1286029901" resp="#eSG #eAM">
