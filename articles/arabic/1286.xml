@@ -159,8 +159,8 @@
                 <p> وردت افادة من <orgName type="ديوان" ref="ديوان الأوقاف">ديوان الأوقاف</orgName>
                     تتضمن انه اسيغ شرعا استبدال المنزل <orgName type="وقف">وقف المرحوم
                             <persName>عثمان اغا</persName></orgName> نظارة <persName>مصطفى
-                        اغا</persName> و<persName>الست مهتاب</persName> الكائن <placeName type="حارة" ref="حارة الانسية" xml:id="place-W1286028701_01">بحارة الانسية</placeName>
-                    <placeName ref="المغربلين" xml:id="place-W1286028701_02">بالمغربلين</placeName> البالغ مسطحه بالأذرع ۱۲٠٥ وحرر
+                        اغا</persName> و<persName>الست مهتاب</persName> الكائن <placeName xml:id="place-W1286028701_01" type="حارة" ref="حارة الانسية">بحارة الانسية</placeName>
+                    <placeName xml:id="place-W1286028701_02" ref="المغربلين">بالمغربلين</placeName> البالغ مسطحه بالأذرع ۱۲٠٥ وحرر
                     في ذلك الى معاون الأوقاف لاشهاره بقائمة مزايدة لمن يرغب.</p>
             </div>
             <div xml:id="W1286028702" resp="#eSG #eAM">
@@ -168,9 +168,9 @@
                     <date when="1869-04-15">۱٥ ابريل ١٨٦٩</date>
                     <bibl><biblScope unit="issue">نمرة ٢٨٧</biblScope>
                         <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-                <p>قد اشهر منزل المرحوم <persName>علي سري باشا</persName> الذي كان من أعضاء <orgName ref="مجلس-الأحكام " type="مجلس">مجلس الأحكام</orgName> الكائن <placeName type="درب" ref="درب الجماميز" xml:id="place-W1286028702_01">بدرب الجماميز</placeName> بجوار حضرة
+                <p>قد اشهر منزل المرحوم <persName>علي سري باشا</persName> الذي كان من أعضاء <orgName ref="مجلس-الأحكام " type="مجلس">مجلس الأحكام</orgName> الكائن <placeName xml:id="place-W1286028702_01" type="درب" ref="درب الجماميز">بدرب الجماميز</placeName> بجوار حضرة
                         <persName>شيخ السادات</persName> للمزايدة فيه وسلمت قائمته إلى <persName role="دلال العقارات">الحاج مصطفى الجبوقجي دلال العقارات</persName> الذي سكنه
-                        ب<placeName ref="السيدة زينب" xml:id="place-W1286028702_02">السيدة زينب</placeName> فكل من كان له رغبة في
+                        ب<placeName xml:id="place-W1286028702_02" ref="السيدة زينب">السيدة زينب</placeName> فكل من كان له رغبة في
                     اشتراء هذا المنزل فعليه بالدلال المذكور.</p>
             </div>
             <div xml:id="W1286029901" resp="#eSG #eAM">
@@ -376,7 +376,7 @@
                         </row>
                         <row>
                             <cell>۱</cell>
-                            <cell>حصة بحق ۱۱ قيراطا من منزل ب<placeName xml:id="place-W17-0031401_09">حارة الشنواني</placeName> ب<placeName type="ثمن" ref="ثمن الجمالية" xml:id="place-W17-0031401_10">ثمن الجمالية</placeName> مخلف عن
+                            <cell>حصة بحق ۱۱ قيراطا من منزل ب<placeName xml:id="place-W17-0031401_09">حارة الشنواني</placeName> ب<placeName xml:id="place-W17-0031401_10" type="ثمن" ref="ثمن الجمالية">ثمن الجمالية</placeName> مخلف عن
                                 المرحومة <persName>فطومة بنت المرحوم الشيخ على الجوربجي</persName>
                                 المتوفية عن زوجها <persName>الشيخ صالح محمد</persName> و<orgName ref="بيت-المال">بيت المال</orgName> راسى مزاده على
                                     <persName>الشيخ صالح محمد</persName>.</cell>
@@ -384,7 +384,7 @@
                         </row>
                         <row>
                             <cell>۱</cell>
-                            <cell>منزل خرب ب<placeName type="حارة" ref="حارة البلقيني" xml:id="place-W17-0031401_11">حارة
+                            <cell>منزل خرب ب<placeName xml:id="place-W17-0031401_11" type="حارة" ref="حارة البلقيني">حارة
                                     البلقيني</placeName> تعلق مذكورين راسي مزاده على <persName>الحاج
                                     أحمد موسى الطحان</persName> بين السيارج بالتوكيل عن الحرمة
                                     <persName role="دايه">عيشة الدايه</persName>.</cell>
@@ -392,7 +392,7 @@
                         </row>
                         <row>
                             <cell>۱</cell>
-                            <cell>حصة بحق ۱۲ قيراطا بمنزل خرب ب<placeName type="حارة" ref="حارة الريق الغريب" xml:id="place-W17-0031401_12">حارة الريق الغريب</placeName> مخلف عن المرحومة
+                            <cell>حصة بحق ۱۲ قيراطا بمنزل خرب ب<placeName xml:id="place-W17-0031401_12" type="حارة" ref="حارة الريق الغريب">حارة الريق الغريب</placeName> مخلف عن المرحومة
                                     <persName>هنا</persName> المتوفية في سنة ۷٩ عن ولدها
                                     <persName>مصطفى</persName> الغايب راسى مزاده على <persName>منصور
                                     محمد</persName></cell>
@@ -400,15 +400,15 @@
                         </row>
                         <row>
                             <cell>۱</cell>
-                            <cell>منزلين ب<placeName type="كوم" ref="كوم الشيخ سلامة" xml:id="place-W17-0031401_13">كوم الشيخ
-                                    سلامة</placeName> ب<placeName type="عطفه" ref="عطفه الطراطره" xml:id="place-W17-0031401_14">عطفه الطراطره</placeName> مخلفين عن المرحومة <persName>فاطمة
+                            <cell>منزلين ب<placeName xml:id="place-W17-0031401_13" type="كوم" ref="كوم الشيخ سلامة">كوم الشيخ
+                                    سلامة</placeName> ب<placeName xml:id="place-W17-0031401_14" type="عطفه" ref="عطفه الطراطره">عطفه الطراطره</placeName> مخلفين عن المرحومة <persName>فاطمة
                                     بنت حسن ابو قابيل</persName> راسى مزادهما على <persName>حسن
                                     البديهى</persName></cell>
                             <cell/>
                         </row>
                         <row>
                             <cell>۱</cell>
-                            <cell>حصة بحق ۱٠ قراريط من منزل ب<placeName type="كوم" ref="كوم الشيخ ريحان" xml:id="place-W17-0031401_15">كوم الشيخ ريحان</placeName> ب<placeName type="ثمن" ref="ثمن عابدين" xml:id="place-W17-0031401_16">ثمن عابدين</placeName> مخلفة عن
+                            <cell>حصة بحق ۱٠ قراريط من منزل ب<placeName xml:id="place-W17-0031401_15" type="كوم" ref="كوم الشيخ ريحان">كوم الشيخ ريحان</placeName> ب<placeName xml:id="place-W17-0031401_16" type="ثمن" ref="ثمن عابدين">ثمن عابدين</placeName> مخلفة عن
                                 المرحوم <persName>الحاج مصطفى عبد الرحمن</persName> زوج الحرمه
                                     <persName>هندومة بنت حجازي اليوز</persName> المتوفي راسي مزاده
                                 على <persName>علي سليم البنا</persName></cell>
@@ -655,7 +655,7 @@
                         <row>
                             <cell/>
                             <cell>۱</cell>
-                            <cell><placeName xml:id="place-W1286033601_09">مسجد ب<placeName ref="التبانة" xml:id="place-W1286033601_10">التبانة</placeName></placeName> تجديد
+                            <cell><placeName xml:id="place-W1286033601_09">مسجد ب<placeName xml:id="place-W1286033601_10" ref="التبانة">التبانة</placeName></placeName> تجديد
                                     <persName>سعادة عارف باشا</persName> من أعضاء <orgName type="مجلس" ref="مجلس-الأحكام">مجلس الأحكام</orgName></cell>
                             <cell/>
                             <cell/>
@@ -679,15 +679,15 @@
                             <cell/>
                             <cell/>
                             <cell>۱</cell>
-                            <cell><placeName type="زاوية-وضريح" ref="زاوية وضريح السيدة أم كلثوم" xml:id="place-W1286033601_11"><orgName type="زاوية-وضريح" ref="زاوية-وضريح-السيدة-أم-كلثوم">زاوية وضريح السيدة أم
-                                        كلثوم</orgName></placeName> ب<placeName ref="الامام الشافعي" xml:id="place-W1286033601_12">الامام الشافعي</placeName></cell>
+                            <cell><placeName xml:id="place-W1286033601_11" type="زاوية-وضريح" ref="زاوية وضريح السيدة أم كلثوم"><orgName type="زاوية-وضريح" ref="زاوية-وضريح-السيدة-أم-كلثوم">زاوية وضريح السيدة أم
+                                        كلثوم</orgName></placeName> ب<placeName xml:id="place-W1286033601_12" ref="الامام الشافعي">الامام الشافعي</placeName></cell>
                             <cell/>
                         </row>
                         <row>
                             <cell/>
                             <cell/>
                             <cell>۱</cell>
-                            <cell><placeName type="زاوية-وضريح" ref="زاوية وضريح سيدي كعب الأحبار" xml:id="place-W1286033601_13">زاوية وضريح سيدي كعب الأحبار</placeName> ب<placeName ref="النصرية" xml:id="place-W1286033601_14">النصرية</placeName></cell>
+                            <cell><placeName xml:id="place-W1286033601_13" type="زاوية-وضريح" ref="زاوية وضريح سيدي كعب الأحبار">زاوية وضريح سيدي كعب الأحبار</placeName> ب<placeName xml:id="place-W1286033601_14" ref="النصرية">النصرية</placeName></cell>
                             <cell/>
                         </row>
                         <row>
@@ -700,15 +700,15 @@
                         <row>
                             <cell/>
                             <cell>۱ </cell>
-                            <cell><placeName type="تكية-ومدرسة" ref="تكية ومدرسة انشا سعادة خليل أغا" xml:id="place-W1286033601_15">تكية ومدرسة انشا سعادة <persName>خليل
-                                        أغا</persName></placeName> ب<placeName type="مشهد" ref="المشهد الحسيني" xml:id="place-W1286033601_16">المشهد الحسيني</placeName></cell>
+                            <cell><placeName xml:id="place-W1286033601_15" type="تكية-ومدرسة" ref="تكية ومدرسة انشا سعادة خليل أغا">تكية ومدرسة انشا سعادة <persName>خليل
+                                        أغا</persName></placeName> ب<placeName xml:id="place-W1286033601_16" type="مشهد" ref="المشهد الحسيني">المشهد الحسيني</placeName></cell>
                             <cell/>
                             <cell/>
                         </row>
                         <row>
                             <cell/>
                             <cell>۱ </cell>
-                            <cell><placeName type="زاوية" ref="زاوية بخان الخليلي" xml:id="place-W1286033601_17">زاوية ب<placeName type="خان" ref="خان الخليلي" xml:id="place-W1286033601_18">خان
+                            <cell><placeName xml:id="place-W1286033601_17" type="زاوية" ref="زاوية بخان الخليلي">زاوية ب<placeName xml:id="place-W1286033601_18" type="خان" ref="خان الخليلي">خان
                                     الخليلي</placeName></placeName>تجديد <orgName ref="دائرة مرحوم أحمد باشا" type="دائرة">دائرة مرحوم
                                         <persName>أحمد باشا</persName></orgName></cell>
                             <cell/>
@@ -717,8 +717,8 @@
                         <row>
                             <cell/>
                             <cell>۱ </cell>
-                            <cell><placeName type="زاوية" ref="زاوية عثمان بيك" xml:id="place-W1286033601_19">زاوية عثمان
-                                    بيك</placeName> ب<placeName type="خط" ref="خط السيدة زينب" xml:id="place-W1286033601_20">خط
+                            <cell><placeName xml:id="place-W1286033601_19" type="زاوية" ref="زاوية عثمان بيك">زاوية عثمان
+                                    بيك</placeName> ب<placeName xml:id="place-W1286033601_20" type="خط" ref="خط السيدة زينب">خط
                                     السيدة زينب</placeName> تجديد <persName>حرم مرحوم <persName>حسن
                                         بيك ساطع</persName></persName></cell>
                             <cell/>
@@ -727,16 +727,16 @@
                         <row>
                             <cell/>
                             <cell>۱ </cell>
-                            <cell><placeName type="مسجد" ref="مسجد المعرف بالقبر الطويل" xml:id="place-W1286033601_21">مسجد المعرف
-                                    بالقبر الطويل</placeName> ب<placeName type="خط" ref="خط الخليفة" xml:id="place-W1286033601_22">خط الخليفة</placeName> تجديد <persName role="شيخ المهندسين">جمعة راجح شيخ المهندسين</persName></cell>
+                            <cell><placeName xml:id="place-W1286033601_21" type="مسجد" ref="مسجد المعرف بالقبر الطويل">مسجد المعرف
+                                    بالقبر الطويل</placeName> ب<placeName xml:id="place-W1286033601_22" type="خط" ref="خط الخليفة">خط الخليفة</placeName> تجديد <persName role="شيخ المهندسين">جمعة راجح شيخ المهندسين</persName></cell>
                             <cell/>
                             <cell/>
                         </row>
                         <row>
                             <cell/>
                             <cell>۱</cell>
-                            <cell><placeName type="زاوية" ref="زاوية-العنبرى" xml:id="place-W1286033601_23">زاوية
-                                    العنبري</placeName> ب<placeName type="كفر" ref="كفر الطماعين" xml:id="place-W1286033601_24">كفر الطماعين</placeName> تجديد السيد <persName>محمد حسن
+                            <cell><placeName xml:id="place-W1286033601_23" type="زاوية" ref="زاوية-العنبرى">زاوية
+                                    العنبري</placeName> ب<placeName xml:id="place-W1286033601_24" type="كفر" ref="كفر الطماعين">كفر الطماعين</placeName> تجديد السيد <persName>محمد حسن
                                     الصباغ</persName></cell>
                             <cell/>
                             <cell/>
@@ -744,8 +744,8 @@
                         <row>
                             <cell/>
                             <cell>۱</cell>
-                            <cell><placeName type="مسجد" ref="مسجد الكريدي" xml:id="place-W1286033601_25">مسجد الكريدي</placeName>
-                                    ب<placeName ref="باب اللوق" xml:id="place-W1286033601_26">باب اللوق</placeName> تجديد الحاج
+                            <cell><placeName xml:id="place-W1286033601_25" type="مسجد" ref="مسجد الكريدي">مسجد الكريدي</placeName>
+                                    ب<placeName xml:id="place-W1286033601_26" ref="باب اللوق">باب اللوق</placeName> تجديد الحاج
                                     <persName>حسن حجاب المابغي</persName></cell>
                             <cell/>
                             <cell/>
@@ -753,7 +753,7 @@
                         <row>
                             <cell/>
                             <cell>۱</cell>
-                            <cell><placeName type="مسجد" ref="مسجد الشيخ عبد الدائم" xml:id="place-W1286033601_27">مسجد الشيخ عبد
+                            <cell><placeName xml:id="place-W1286033601_27" type="مسجد" ref="مسجد الشيخ عبد الدائم">مسجد الشيخ عبد
                                     الدائم</placeName> بالخط المذكور وتجديد الحاج <persName>ابراهيم
                                     دوايدر المدابغي</persName></cell>
                             <cell/>
@@ -762,7 +762,7 @@
                         <row>
                             <cell/>
                             <cell>۱</cell>
-                            <cell><placeName type="زاوية-وضريح" ref="زاوية وضريح سيدي حسن الأنور" xml:id="place-W1286033601_28">زاوية وضريح سيدي حسن الأنور</placeName> ب<placeName ref="فم الخليج" xml:id="place-W1286033601_29">فم الخليج</placeName> تجديد <persName>أبو زيد
+                            <cell><placeName xml:id="place-W1286033601_28" type="زاوية-وضريح" ref="زاوية وضريح سيدي حسن الأنور">زاوية وضريح سيدي حسن الأنور</placeName> ب<placeName xml:id="place-W1286033601_29" ref="فم الخليج">فم الخليج</placeName> تجديد <persName>أبو زيد
                                     الجيار</persName></cell>
                             <cell/>
                             <cell/>
@@ -770,8 +770,8 @@
                         <row>
                             <cell/>
                             <cell>۱</cell>
-                            <cell><placeName type="زاوية-وضريح" ref="زاوية وضريح الأستاذ صارم" xml:id="place-W1286033601_30">زاوية
-                                    وضريح الأستاذ صارم</placeName> ب<placeName ref="الحسينية" xml:id="place-W1286033601_31">الحسينية</placeName> تجديد <persName>يوسف عانوس
+                            <cell><placeName xml:id="place-W1286033601_30" type="زاوية-وضريح" ref="زاوية وضريح الأستاذ صارم">زاوية
+                                    وضريح الأستاذ صارم</placeName> ب<placeName xml:id="place-W1286033601_31" ref="الحسينية">الحسينية</placeName> تجديد <persName>يوسف عانوس
                                     الحريري</persName></cell>
                             <cell/>
                             <cell/>
@@ -779,8 +779,8 @@
                         <row>
                             <cell/>
                             <cell>۱</cell>
-                            <cell><placeName type="مسجد" ref="مسجد سالمة" xml:id="place-W1286033601_32">مسجد سالمة</placeName>
-                                    ب<placeName ref="باب البحر" xml:id="place-W1286033601_33">باب البحر</placeName> تجديد
+                            <cell><placeName xml:id="place-W1286033601_32" type="مسجد" ref="مسجد سالمة">مسجد سالمة</placeName>
+                                    ب<placeName xml:id="place-W1286033601_33" ref="باب البحر">باب البحر</placeName> تجديد
                                     <persName>عمر الصباغ</persName></cell>
                             <cell/>
                             <cell/>
@@ -788,7 +788,7 @@
                         <row>
                             <cell/>
                             <cell>۱</cell>
-                            <cell>مسجد ب<placeName ref="الجملية" xml:id="place-W1286033601_34">الجملية</placeName> تجديد
+                            <cell>مسجد ب<placeName xml:id="place-W1286033601_34" ref="الجملية">الجملية</placeName> تجديد
                                     <persName>السيد محمود الحتو</persName></cell>
                             <cell/>
                             <cell/>
@@ -797,23 +797,23 @@
                             <cell/>
                             <cell>۱</cell>
                             <cell>
-                                <placeName type="مسجد" ref="مسجد السيدة أم الغلام" xml:id="place-W1286033601_35">مسجد السيدة أم
-                                    الغلام</placeName> ب<placeName type="خط" ref="خط سيدنا الحسين" xml:id="place-W1286033601_36">خط سيدنا الحسين</placeName> تجديد ناظرة الوقف</cell>
+                                <placeName xml:id="place-W1286033601_35" type="مسجد" ref="مسجد السيدة أم الغلام">مسجد السيدة أم
+                                    الغلام</placeName> ب<placeName xml:id="place-W1286033601_36" type="خط" ref="خط سيدنا الحسين">خط سيدنا الحسين</placeName> تجديد ناظرة الوقف</cell>
                             <cell/>
                             <cell/>
                         </row>
                         <row>
                             <cell/>
                             <cell>۱</cell>
-                            <cell><placeName type="زاوية" ref="زاوية الأربعين" xml:id="place-W1286033601_37">زاوية
-                                    الأربعين</placeName> ب<placeName ref="الباطنية" xml:id="place-W1286033601_38">الباطنية</placeName> تجديد أهل الخير</cell>
+                            <cell><placeName xml:id="place-W1286033601_37" type="زاوية" ref="زاوية الأربعين">زاوية
+                                    الأربعين</placeName> ب<placeName xml:id="place-W1286033601_38" ref="الباطنية">الباطنية</placeName> تجديد أهل الخير</cell>
                             <cell/>
                             <cell/>
                         </row>
                         <row>
                             <cell/>
                             <cell>۱</cell>
-                            <cell><placeName type="مسجد" ref="مسجد الأستاذ الرملي" xml:id="place-W1286033601_39">مسجد الأستاذ
+                            <cell><placeName xml:id="place-W1286033601_39" type="مسجد" ref="مسجد الأستاذ الرملي">مسجد الأستاذ
                                     الرملي</placeName> تجديد ناظر الوقف</cell>
                             <cell/>
                             <cell/>
@@ -821,8 +821,8 @@
                         <row>
                             <cell/>
                             <cell>۱</cell>
-                            <cell><placeName type="مسجد" ref="مسجد الشيخ عطية" xml:id="place-W1286033601_40">مسجد الشيخ
-                                    عطية</placeName> ب<placeName ref="بولاق" xml:id="place-W1286033601_41">بولاق</placeName> تجديد
+                            <cell><placeName xml:id="place-W1286033601_40" type="مسجد" ref="مسجد الشيخ عطية">مسجد الشيخ
+                                    عطية</placeName> ب<placeName xml:id="place-W1286033601_41" ref="بولاق">بولاق</placeName> تجديد
                                 أهل الخير</cell>
                             <cell/>
                             <cell/>
@@ -830,8 +830,8 @@
                         <row>
                             <cell/>
                             <cell>۱</cell>
-                            <cell><placeName type="مسجد" ref="مسجد أبو الفضل" xml:id="place-W1286033601_42">مسجد أبو
-                                    الفضل</placeName> ب<placeName ref="بولاق" xml:id="place-W1286033601_43">بولاق</placeName>
+                            <cell><placeName xml:id="place-W1286033601_42" type="مسجد" ref="مسجد أبو الفضل">مسجد أبو
+                                    الفضل</placeName> ب<placeName xml:id="place-W1286033601_43" ref="بولاق">بولاق</placeName>
                                 تجديد الناظر</cell>
                             <cell/>
                             <cell/>
@@ -855,23 +855,23 @@
                             <cell/>
                             <cell/>
                             <cell>۱</cell>
-                            <cell><placeName type="مسجد" ref="مسجد الأشرف برسباي" xml:id="place-W1286033601_44">مسجد الأشرف
-                                    برسباي</placeName> ب<placeName ref="الأشرفية" xml:id="place-W1286033601_45">الأشرفية</placeName></cell>
+                            <cell><placeName xml:id="place-W1286033601_44" type="مسجد" ref="مسجد الأشرف برسباي">مسجد الأشرف
+                                    برسباي</placeName> ب<placeName xml:id="place-W1286033601_45" ref="الأشرفية">الأشرفية</placeName></cell>
                             <cell/>
                         </row>
                         <row>
                             <cell/>
                             <cell/>
                             <cell>۱</cell>
-                            <cell><placeName type="مسجد" ref="مسجد محمود باشا" xml:id="place-W1286033601_46">مسجد محمود
-                                    باشا</placeName> ب<placeName type="ميدان" ref="ميدان محمد على باشا" xml:id="place-W1286033601_47">ميدان محمد على باشا</placeName></cell>
+                            <cell><placeName xml:id="place-W1286033601_46" type="مسجد" ref="مسجد محمود باشا">مسجد محمود
+                                    باشا</placeName> ب<placeName xml:id="place-W1286033601_47" type="ميدان" ref="ميدان محمد على باشا">ميدان محمد على باشا</placeName></cell>
                             <cell/>
                         </row>
                         <row>
                             <cell/>
                             <cell/>
                             <cell>۱</cell>
-                            <cell><placeName type="مدرسة " ref="مدرسة السلطان قلاوون" xml:id="place-W1286033601_48">مدرسة السلطان
+                            <cell><placeName xml:id="place-W1286033601_48" type="مدرسة " ref="مدرسة السلطان قلاوون">مدرسة السلطان
                                     قلاوون</placeName></cell>
                             <cell/>
                         </row>
@@ -879,15 +879,15 @@
                             <cell/>
                             <cell/>
                             <cell>۱</cell>
-                            <cell><placeName type="مسجد" ref="مسجد وقف قايبتاي الرماح" xml:id="place-W1286033601_49">مسجد <orgName ref="وقف قايبتاي الرماح" type="وقف">وقف قايبتاي
-                                        الرماح</orgName></placeName> ب<placeName ref="النصرية" xml:id="place-W1286033601_50">النصرية</placeName></cell>
+                            <cell><placeName xml:id="place-W1286033601_49" type="مسجد" ref="مسجد وقف قايبتاي الرماح">مسجد <orgName ref="وقف قايبتاي الرماح" type="وقف">وقف قايبتاي
+                                        الرماح</orgName></placeName> ب<placeName xml:id="place-W1286033601_50" ref="النصرية">النصرية</placeName></cell>
                             <cell/>
                         </row>
                         <row>
                             <cell/>
                             <cell/>
                             <cell>۱</cell>
-                            <cell>مسجد الوقف المذكور ب<placeName type="ميدان" ref="ميدان محمد على" xml:id="place-W1286033601_51">ميدان محمد على</placeName></cell>
+                            <cell>مسجد الوقف المذكور ب<placeName xml:id="place-W1286033601_51" type="ميدان" ref="ميدان محمد على">ميدان محمد على</placeName></cell>
                             <cell/>
                         </row>
                         <row>
