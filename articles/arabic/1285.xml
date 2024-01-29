@@ -157,8 +157,8 @@
             </row>
             <row>
               <cell>١</cell>
-              <cell><placeName xml:id="place-W1285019801_01">منزل</placeName> داخله 
-                خربه ب<placeName xml:id="place-W1285019801_02">درب السماكين</placeName> ب<placeName xml:id="place-W1285019801_03">جهة الرميله</placeName>
+              <cell><placeName type="منزل" ref="منزل-وقف-مصطفى-أغا-أباظة" xml:id="place-W1285019801_01">منزل</placeName> داخله 
+                خربه ب<placeName type="درب" ref="درب-السماكين" xml:id="place-W1285019801_02">درب السماكين</placeName> ب<placeName type="جهة" ref="جهة-الرميله" xml:id="place-W1285019801_03">جهة الرميله</placeName>
                 <orgName type="وقف" ref="وقف-مصطفى-أغا-أباظه">وقف <persName>مصطفى أغا
                     أباظه</persName></orgName></cell>
               <cell>٢٦٩</cell>
@@ -166,22 +166,22 @@
             </row>
             <row>
               <cell>١</cell>
-              <cell><placeName xml:id="place-W1285019801_04">منزل</placeName> ب<placeName xml:id="place-W1285019801_05">حارة الزياتين</placeName> ب<placeName xml:id="place-W1285019801_06">عابدين</placeName>
+              <cell><placeName type="منزل" ref="منزل-وقف-صالح-المنشاتى" xml:id="place-W1285019801_04">منزل</placeName> ب<placeName type="حارة" ref="حارة-الزياتين" xml:id="place-W1285019801_05">حارة الزياتين</placeName> ب<placeName ref="عابدين" xml:id="place-W1285019801_06">عابدين</placeName>
                 <orgName ref="وقف-صالح-المنشاتى" type="وقف">وقف <persName>صالح
                   المنشاتى</persName></orgName></cell>
               <cell>١١٥</cell>
             </row>
             <row>
               <cell>١</cell>
-              <cell><placeName xml:id="place-W1285019801_07">خربه</placeName> ب<placeName xml:id="place-W1285019801_08">سوق مسكه</placeName> ب<placeName xml:id="place-W1285019801_09">جهة الحنفى</placeName>
+              <cell><placeName type="خربه" ref="خربه-وقف-الست-آمنه" xml:id="place-W1285019801_07">خربه</placeName> ب<placeName type="سوق" ref="سوق-مسكه" xml:id="place-W1285019801_08">سوق مسكه</placeName> ب<placeName type="جهة" ref="جهة-الحنفى" xml:id="place-W1285019801_09">جهة الحنفى</placeName>
                 <orgName type="وقف" ref="وقف-الست-آمنه">وقف <persName>الست
                 آمنه</persName></orgName></cell>
               <cell>٤١١</cell>
             </row>
             <row>
               <cell>١</cell>
-              <cell><placeName xml:id="place-W1285019801_10">منزل</placeName>
-                  ب<placeName xml:id="place-W1285019801_11">خط الرويعى</placeName>
+              <cell><placeName type="منزل" ref="منزل-وقف-ابراهيم-اغا-الخازن-دار" xml:id="place-W1285019801_10">منزل</placeName>
+                  ب<placeName type="خط" ref="خط-الرويعي" xml:id="place-W1285019801_11">خط الرويعى</placeName>
                 <orgName type="وقف" ref="وقف-ابراهيم-اغا-الخازن-دار">وقف <persName role="خازن دار">ابراهيم اغا الخازن دار</persName></orgName></cell>
               <cell>٧٦٦</cell>
               <cell>اقتضى الحال استبداله</cell>
@@ -204,8 +204,8 @@
         <head><title>اعلانات</title></head>
         <head><title>اعلان من <orgName ref="المحافظة المصرية" type="محافظة">المحافظة
               المصرية</orgName></title></head>
-        <p> بيان الباقى من اماكن الميرى اللاتى ب<placeName xml:id="place-W1285019802_01">شارع
-            السكة</placeName> المستجدة فى <placeName xml:id="place-W1285019802_02">جهة سيدنا
+        <p> بيان الباقى من اماكن الميرى اللاتى ب<placeName type="شارع" ref="شارع-السكة" xml:id="place-W1285019802_01">شارع
+            السكة</placeName> المستجدة فى <placeName type="جهة" ref="جهة-سيدنا-الحسين" xml:id="place-W1285019802_02">جهة سيدنا
             الحسين</placeName> إلى الخلاء</p>
         <table rows="30" cols="2">
           <row>
@@ -218,53 +218,53 @@
           </row>
           <row>
             <cell>٣٧٠</cell>
-            <cell>باقي <placeName xml:id="place-W1285019802_03">منزل</placeName> مأخوذ من
+            <cell>باقي <placeName type="منزل" ref="منزل-وقف-سيدنا-الحسين" xml:id="place-W1285019802_03">منزل</placeName> مأخوذ من
                 <orgName type="وقف" ref="وقف-سيدنا-الحسين">وقف <persName>سيدنا
                 الحسين</persName></orgName></cell>
           </row>
           <row>
             <cell>٠٩٨</cell>
-            <cell>باقي <placeName xml:id="place-W1285019802_04">منزل</placeName> مأخوذ
+            <cell>باقي <placeName type="منزل" ref="منزل-الحرمة-فاطمة-أم-محمد" xml:id="place-W1285019802_04">منزل</placeName> مأخوذ
               من <persName>الحرمة فاطمة أم محمد</persName></cell>
           </row>
           <row>
             <cell>١٥٤</cell>
-            <cell>باقي <placeName xml:id="place-W1285019802_05">منزل</placeName> مأخوذ من
+            <cell>باقي <placeName ref="منزل-الشيخ-أحمد-العنانى-وشريكه" xml:id="place-W1285019802_05">منزل</placeName> مأخوذ من
                 <persName>الشيخ أحمد العنانى</persName> وشريكه</cell>
           </row>
           <row>
             <cell>٠٢٧</cell>
-            <cell>باقي <placeName xml:id="place-W1285019802_06">منزل</placeName> مأخوذ من باش
+            <cell>باقي <placeName type="منزل" ref="منزل-للحرمه-جازيه" xml:id="place-W1285019802_06">منزل</placeName> مأخوذ من باش
               كاتب المحكمة وأصله كان لل<persName>حرمه جازيه</persName></cell>
           </row>
           <row>
             <cell>٠٣٠</cell>
-            <cell>باقي <placeName xml:id="place-W1285019802_07">منزل</placeName> مأخوذ من
+            <cell>باقي <placeName type="منزل" ref="منزل-لورثة-رضوان-شمس" xml:id="place-W1285019802_07">منزل</placeName> مأخوذ من
               المذكور وأصله لورثة <persName>رضوان شمس</persName></cell>
           </row>
           <row>
             <cell>٠٣٠</cell>
-            <cell>باقي <placeName xml:id="place-W1285019802_08">منزل</placeName> مأخوذ من
+            <cell>باقي <placeName type="منزل" ref="منزل-ورثة-ضوان-شمس" xml:id="place-W1285019802_08">منزل</placeName> مأخوذ من
               ورثة <persName>حبيب الزيات</persName></cell>
           </row>
           <row>
             <cell>٠٦٠</cell>
-            <cell>باقي <placeName xml:id="place-W1285019802_09">منزل</placeName> مأخوذ من
+            <cell>باقي <placeName type="منزل" ref="منزل-أحمد-سويلم-الزيات" xml:id="place-W1285019802_09">منزل</placeName> مأخوذ من
                 <persName>أحمد سويلم الزيات</persName></cell>
           </row>
           <row>
             <cell>٠٤٨</cell>
-            <cell>باقي <placeName xml:id="place-W1285019802_10">منزل</placeName> مأخوذ من
+            <cell>باقي <placeName type="منزل" ref="منزل-الست-حسنه" xml:id="place-W1285019802_10">منزل</placeName> مأخوذ من
                 <persName>الست حسنه</persName></cell>
           </row>
           <row>
             <cell>١١٥</cell>
-            <cell>باقي <placeName xml:id="place-W1285019802_11">منزل</placeName> مأخوذ من
+            <cell>باقي <placeName type="منزل" ref="منزل-محمد-أفندى-على" xml:id="place-W1285019802_11">منزل</placeName> مأخوذ من
                 <persName>محمد أفندي على</persName></cell>
           </row>
           <row>
             <cell>٠٨٠</cell>
-            <cell>باقي <placeName xml:id="place-W1285019802_12">منزل</placeName>
+            <cell>باقي <placeName type="منزل" ref="منزل-ورثة-الشيخ-أحمد-التهامى" xml:id="place-W1285019802_12">منزل</placeName>
               مأخوذ من ورثة <persName>الشيخ أحمد التهامي</persName></cell>
           </row>
           <row>
@@ -274,28 +274,28 @@
           </row>
           <row>
             <cell>٠٥٢</cell>
-            <cell>باقي <placeName xml:id="place-W1285019802_13">منزل</placeName> مأخوذ من
+            <cell>باقي <placeName type="منزل" ref="منزل-السيد-أحمد-الفخاخ" xml:id="place-W1285019802_13">منزل</placeName> مأخوذ من
                 <persName>السيد أحمد الفخفاخ</persName></cell>
           </row>
           <row>
             <cell>١٤٩</cell>
-            <cell>باقي <placeName xml:id="place-W1285019802_14">منزل</placeName> مأخوذ من
+            <cell>باقي <placeName type="منزل" ref="منزل-ورثة-على-الصعيدى" xml:id="place-W1285019802_14">منزل</placeName> مأخوذ من
               ورثة <persName>على الصعيدي</persName></cell>
           </row>
           <row>
             <cell>١٢٦</cell>
-            <cell>باقي <placeName xml:id="place-W1285019802_15">منزل</placeName> مأخوذ
+            <cell>باقي <placeName type="منزل" ref="منزل-زوجة-عدنان-أفندى" xml:id="place-W1285019802_15">منزل</placeName> مأخوذ
                 من<persName>زوجة <persName>عنان أفندي</persName></persName></cell>
           </row>
           <row>
             <cell>٠١١</cell>
-            <cell>باقي <placeName xml:id="place-W1285019802_16">منزل</placeName>
+            <cell>باقي <placeName type="منزل" ref="منزل-وقف-السيد-معاذ-وشركاه" xml:id="place-W1285019802_16">منزل</placeName>
               مأخوذ من <orgName type="وقف" ref="وقف-السيد-معاذ-وشركاه">وقف <persName>السيد
                   معاذ</persName> وشركاه</orgName></cell>
           </row>
           <row>
             <cell>٠١٠</cell>
-            <cell>باقي <placeName xml:id="place-W1285019802_17">منزل</placeName>
+            <cell>باقي <placeName type="منزل" ref="منزل-ورثة-السيد-محمد-مأمون" xml:id="place-W1285019802_17">منزل</placeName>
               مأخوذ من ورثة <persName>السيد محمد مأمون</persName></cell>
           </row>
           <row>
@@ -304,7 +304,7 @@
           </row>
           <row>
             <cell>١١٥</cell>
-            <cell>باقي <placeName xml:id="place-W1285019802_18">منزل</placeName> مأخوذ من
+            <cell>باقي <placeName type="منزل" ref="منزل-سليمان-افندى-فوزى" xml:id="place-W1285019802_18">منزل</placeName> مأخوذ من
                 <persName>سليمان افندي فوزي</persName></cell>
           </row>
           <row>
@@ -313,45 +313,45 @@
           </row>
           <row>
             <cell>٣٧١</cell>
-            <cell>باقي <placeName xml:id="place-W1285019802_19">منزل</placeName> مأخوذ من
+            <cell>باقي <placeName type="منزل" ref="منزل-وقف-السيد-معاذ" xml:id="place-W1285019802_19">منزل</placeName> مأخوذ من
                 <orgName type="وقف" ref="وقف-السيد-معاذ">وقف <persName>السيد
                 معاذ</persName></orgName></cell>
           </row>
           <row>
             <cell>٠٢٨</cell>
-            <cell>باقي <placeName xml:id="place-W1285019802_20">منزل</placeName>
+            <cell>باقي <placeName type="منزل" ref="منزل-وقف-السيد-معاذ-وشركاه" xml:id="place-W1285019802_20">منزل</placeName>
               مأخوذ من <orgName ref="وقف-السيد-معاذ-وشركاه">وقف <persName>السيد معاذ</persName>
                 وشركاه</orgName></cell>
           </row>
           <row>
             <cell>٠٦٠</cell>
-            <cell>باقي <placeName xml:id="place-W1285019802_21">منزل</placeName> مأخوذ من
+            <cell>باقي <placeName type="منزل" ref="منزل-حسن-الطوخى-وشريكه" xml:id="place-W1285019802_21">منزل</placeName> مأخوذ من
                 <persName>حسن الطوخى</persName> وشريكه</cell>
           </row>
           <row>
             <cell>١٣٠</cell>
-            <cell>باقي <placeName xml:id="place-W1285019802_22">منزل</placeName> مأخوذ
+            <cell>باقي <placeName type="منزل" ref="منزل-وقف-الزرقانى-وشريكه" xml:id="place-W1285019802_22">منزل</placeName> مأخوذ
               من <orgName type="وقف" ref="وقف-الزرقانى-وشريكه">وقف <persName>الزرقانى</persName>
                 وشريكه</orgName></cell>
           </row>
           <row>
             <cell>٠١٠</cell>
-            <cell>باقي <placeName xml:id="place-W1285019802_23">منزل</placeName> مأخوذ من <persName>الحرمه
+            <cell>باقي <placeName ref="منزل-الحرمه-نايله" xml:id="place-W1285019802_23">منزل</placeName> مأخوذ من <persName>الحرمه
                 نايله</persName></cell>
           </row>
           <row>
             <cell>٠٠٨</cell>
-            <cell>باقي <placeName xml:id="place-W1285019802_24">دكاكين</placeName> مأخوذ
+            <cell>باقي <placeName type="دكاكين" ref="دكاكين-وقف-الازهر" xml:id="place-W1285019802_24">دكاكين</placeName> مأخوذ
                 <orgName type="وقف" ref="وقف-الازهر">وقف <orgName type="الازهر">الأزهر</orgName></orgName></cell>
           </row>
           <row>
             <cell>٠١٢</cell>
-            <cell>باقي <placeName xml:id="place-W1285019802_25">منزل</placeName> مأخوذ من
+            <cell>باقي <placeName ref="منزل-حسنين-بدوى-الحلاق-وأخيه" xml:id="place-W1285019802_25">منزل</placeName> مأخوذ من
                 <persName>حسنين بدوى الحلاق</persName> واخيه</cell>
           </row>
           <row>
             <cell>٠٤٨</cell>
-            <cell>باقي منزل مأخوذ من ناظر <orgName ref="وقف-رواق-الأتراك" type="وقف">وقف <placeName xml:id="place-W1285019802_26">رواق الأتراك</placeName></orgName></cell>
+            <cell>باقي منزل مأخوذ من ناظر <orgName ref="وقف-رواق-الأتراك" type="وقف">وقف <placeName type="رواق-الاتراك" xml:id="place-W1285019802_26">رواق الأتراك</placeName></orgName></cell>
           </row>
           <row>
             <cell> _____</cell>
@@ -364,7 +364,7 @@
         </table>
         <p>فقط ثمانية وعشرون لا غير</p>
         <p>هذه المواضع الميرية المبينه فوق اشهرت للمزايدة فيها بموجب قوائم بيد رئيس دلالى العقارات
-          وضرب ميعاد لتتميم ذلك يوم الأثنين ١٨ من محرم سنه ٨٥ فمن يرغب فليحضر في الميعاد ب<placeName xml:id="place-W1285019802_27">المسافرخانة</placeName> ب<placeName xml:id="place-W1285019802_28">الازبكية</placeName> من ابتداء الساعة الثالثة العربية إلى غاية الساعة التاسعة من النهار
+          وضرب ميعاد لتتميم ذلك يوم الأثنين ١٨ من محرم سنه ٨٥ فمن يرغب فليحضر في الميعاد ب<placeName ref="المسافر-خانة" xml:id="place-W1285019802_27">المسافرخانة</placeName> ب<placeName ref="الازبكية" xml:id="place-W1285019802_28">الازبكية</placeName> من ابتداء الساعة الثالثة العربية إلى غاية الساعة التاسعة من النهار
           وحينئذ يكون بت البيع حسب الشروط ومن حضر بعد ذلك فلا تقبل المزايدة.</p>
       </div>
       <div xml:id="W1285024701" resp="#eAK #eSG">
@@ -372,8 +372,8 @@
           <date when="1868-11-26">٢٦ نوامبر ١٨٦٨</date>
           <bibl><biblScope unit="issue">نمرة ٢٤٧</biblScope>
             <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
-        <p>بلغنا أنه ظهر <rs type="fire">حريق</rs> فى قطن ب<placeName xml:id="place-W1285024701_01">منزل</placeName> سكن <persName>محمد عيد التاجر</persName>
-          كائن ب<placeName xml:id="place-W1285024701_02">درب الدالى حسين</placeName> بـ<orgName type="ثمن" ref="ثمن-قيسون"><placeName xml:id="place-W1285024701_03">ثمن
+        <p>بلغنا أنه ظهر <rs type="fire">حريق</rs> فى قطن ب<placeName type="منزل" ref="منزل-سكن-محمد-عيد-التاجر" xml:id="place-W1285024701_01">منزل</placeName> سكن <persName>محمد عيد التاجر</persName>
+          كائن ب<placeName type="درب" ref="درب-الدالى-حسين" xml:id="place-W1285024701_02">درب الدالى حسين</placeName> بـ<orgName type="ثمن" ref="ثمن-قيسون"><placeName type="ثمن" ref="ثمن-قيسون" xml:id="place-W1285024701_03">ثمن
             قيسون</placeName></orgName> فبودر من ال<orgName type="ضبطية">ضبطية</orgName> إلى ارسال
           الطلومبات واللازم وبلطف الله أطفئ فى نصف ساعة بدون أن يحترق من القطن إلا القليل وأن يسرى
           الحريق إلى جهة أخرى</p>
@@ -391,36 +391,36 @@
             <cell>مسطح</cell>
           </row>
           <row>
-            <cell><placeName xml:id="place-W1285026101_01">منزل متخرب</placeName>  ب<placeName xml:id="place-W1285026101_02">درب بيرجوان</placeName>
+            <cell><placeName type="منزل" ref="منزل-وقف-نفيسة" xml:id="place-W1285026101_01">منزل متخرب</placeName>  ب<placeName type="درب" ref="درب-بيرجوان" xml:id="place-W1285026101_02">درب بيرجوان</placeName>
               <orgName type="وقف" ref="وقف-نفيسة">وقف <persName>نفيسة</persName></orgName> نظارة
               الديوان</cell>
             <cell>٢٣٣</cell>
           </row>
           <row>
-            <cell><placeName xml:id="place-W1285026101_03">منزل متخرب</placeName>
-                ب<placeName xml:id="place-W1285026101_04">شارع باب الشعرية</placeName>
+            <cell><placeName type="منزل" ref="منزل-وقف-يوسف-الجابى" xml:id="place-W1285026101_03">منزل متخرب</placeName>
+                ب<placeName type="شارع" ref="شارع-باب-الشعرية" xml:id="place-W1285026101_04">شارع باب الشعرية</placeName>
               <orgName ref="وقف-يوسف-الجابى" type="وقف">وقف <persName>يوسف
                 الجابى</persName></orgName> مثله</cell>
             <cell>١٠٥</cell>
           </row>
           <row>
-            <cell><placeName xml:id="place-W1285026101_05">خربه</placeName> ب<placeName xml:id="place-W1285026101_06">الحطابة</placeName> ب<placeName xml:id="place-W1285026101_07">بولاق</placeName>
+            <cell><placeName type="خربه" ref="خربه-وقف-سيدى-أبى-العلا" xml:id="place-W1285026101_05">خربه</placeName> ب<placeName type="الحطابة" ref="الحطابة" xml:id="place-W1285026101_06">الحطابة</placeName> ب<placeName ref="type" xml:id="place-W1285026101_07">بولاق</placeName>
               <orgName ref="وقف-سيدى-أبى-العلا" type="وقف">وقف <persName>سيدي أبي
                 العلا</persName></orgName> مثله</cell>
             <cell>٧٤</cell>
           </row>
           <row>
-            <cell><placeName xml:id="place-W1285026101_08">خربة</placeName> ب<placeName xml:id="place-W1285026101_09">درب المسمط</placeName> ب<placeName xml:id="place-W1285026101_10">الجمالية</placeName>
+            <cell><placeName type="خربة" ref="خربة-وقف-سيدنا-الحسين" xml:id="place-W1285026101_08">خربة</placeName> ب<placeName type="درب" ref="درب-المسمط" xml:id="place-W1285026101_09">درب المسمط</placeName> ب<placeName ref="الجمالية" xml:id="place-W1285026101_10">الجمالية</placeName>
               <orgName type="وقف" ref="وقف-سيدنا-الحسين">وقف <persName>سيدنا
                 الحسين</persName></orgName> مثله</cell>
             <cell>٥٥</cell>
           </row>
           <row>
-            <cell>خربه ب<placeName xml:id="place-W1285026101_11">قصر الشوك</placeName> وقفه أيضا مثله</cell>
+            <cell>خربه ب<placeName ref="قصر-الشوك" xml:id="place-W1285026101_11">قصر الشوك</placeName> وقفه أيضا مثله</cell>
             <cell>٢٤٧</cell>
           </row>
           <row>
-            <cell><placeName xml:id="place-W1285026101_12">خربه</placeName> ب<placeName xml:id="place-W1285026101_13">درب التضبيقة</placeName> ب<placeName xml:id="place-W1285026101_14">باب الوزير</placeName>
+            <cell><placeName type="خربه" ref="خربه-وقف-كلشنى" xml:id="place-W1285026101_12">خربه</placeName> ب<placeName type="درب" ref="درب-التضبيقة" xml:id="place-W1285026101_13">درب التضبيقة</placeName> ب<placeName ref="باب-الوزير" xml:id="place-W1285026101_14">باب الوزير</placeName>
               <orgName type="وقف" ref="وقف-الكلشنى">وقف <persName>الكلشنى</persName></orgName>
               مثله</cell>
             <cell>١٤٠</cell>
@@ -442,13 +442,13 @@
           <bibl><biblScope unit="issue">نمرة ٢٦٤</biblScope>
             <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
         <head><title>اعلان</title></head>
-        <p>عرض للبيع <placeName xml:id="place-W1285026401_01">منزل</placeName>
-            ب<placeName xml:id="place-W1285026401_02">بندر طنتدا</placeName> بالبناء المستجد
-            ب<placeName xml:id="place-W1285026401_03">المنشية الجديد</placeName> ب<placeName xml:id="place-W1285026401_04">الملقة الكبيرة</placeName> ملك حضرة <persName role="مهندس">احمد
+        <p>عرض للبيع <placeName type="منزل" ref="منزل-ملك-أحمد-أفندى-نابى-المهندس-بديوان-الخاصة-الخديوية" xml:id="place-W1285026401_01">منزل</placeName>
+            ب<placeName type="بندر" ref="بندر-طنتدا" xml:id="place-W1285026401_02">بندر طنتدا</placeName> بالبناء المستجد
+            ب<placeName ref="المنشية-الجديد" xml:id="place-W1285026401_03">المنشية الجديد</placeName> ب<placeName ref="الملقة-الكبيرة" xml:id="place-W1285026401_04">الملقة الكبيرة</placeName> ملك حضرة <persName role="مهندس">احمد
             أفندى نابى المهندس ب<orgName type="ديوان" ref="ديوان-الخاصة-الخديوية">ديوان الخاصة
               الخديوية</orgName></persName> ومفتاحه عند <persName role="كاتب هندسة">سليمان أفندى
             فائز كاتب <orgName ref="هندسة-المديرية-ببندر-طنطا">هندسة ال<orgName type="مديرية" ref="مديرية-بندر-طنطا">مديرية</orgName></orgName></persName> بذلك البندر قائمة
-          المزايدة عند <persName role="سمسار">اصلان موسى السمسار</persName> المجاور <placeName xml:id="place-W1285026401_05">حارة السقايين</placeName> والثمن بالنقد الصاغ
+          المزايدة عند <persName role="سمسار">اصلان موسى السمسار</persName> المجاور <placeName type="حارة" ref="حارة-السقايين" xml:id="place-W1285026401_05">حارة السقايين</placeName> والثمن بالنقد الصاغ
           الديواني.</p>
       </div>
       <div xml:id="W1285027001" resp="#eAK #eSG">
@@ -461,7 +461,7 @@
           <choice>
             <sic>بتارند</sic>
             <corr>بتاريخ</corr>
-          </choice> ٢٠ شوال سنة ٨٥ حيث تحرر <rs type="اعلان">اعلان</rs> اشهار مبيع <placeName xml:id="place-W1285027001_01">قطع ارض</placeName> ب<placeName xml:id="place-W1285027001_02">بركه الأزبكية</placeName> من المتخلف من التنظيم بها وذكر به ان تحدد
+          </choice> ٢٠ شوال سنة ٨٥ حيث تحرر <rs type="اعلان">اعلان</rs> اشهار مبيع <placeName type="قطع-ارض" ref="قطع-ارض-ببركة-الازبكية" xml:id="place-W1285027001_01">قطع ارض</placeName> ب<placeName type="بركة" ref="بركة-الأزبكية" xml:id="place-W1285027001_02">بركه الأزبكية</placeName> من المتخلف من التنظيم بها وذكر به ان تحدد
           ميعاد لاجتماع المزايدين في يوم ٢٥ شوال سنة ٨٥ الموافق ٧ فبراير سنة ١٨٦٩ قد تحدد ميعاد
           اجتماع المزايدين في اليوم المذكور من ابتداء الساعة الثامنة العربية إلى نهاية الساعة
           الحادية عشرة فاقتضي الحال تحرير هذا ليدرج في الوقائع التركية والعربية لمعلومية الراغبين في
@@ -474,10 +474,10 @@
             <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
         <head><title><rs type="اعلان">اعلان</rs> من <orgName type="ديوان" ref="ديوان-الأوقاف">ديوان
               الأوقاف</orgName> فى ١٨ شوال سنة ٨٥</title></head>
-        <p><placeName xml:id="place-W1285027002_01">منزل</placeName> ب<placeName xml:id="place-W1285027002_02">الدوادية</placeName>
+        <p><placeName type="منزل" ref="منزل-وقف-الست-زبيدة-وحليمة" xml:id="place-W1285027002_01">منزل</placeName> ب<placeName ref="الداودية" xml:id="place-W1285027002_02">الدوادية</placeName>
           <orgName type="وقف" ref="وقف-الست-زبيدة-وحليمة">وقف <persName>الست زبيدة</persName>
               و<persName>حليمة</persName></orgName> مسطحه ٦٠ اقتضى الحال استبداله</p>
-        <p>ربع منزل ب<placeName xml:id="place-W1285027002_03">قلعة الكبش</placeName>
+        <p>ربع منزل ب<placeName ref="قلعة-الكبش" xml:id="place-W1285027002_03">قلعة الكبش</placeName>
           <orgName ref="وقف-الاستاذ-الخضيرى">وقف <persName>الأستاذ الخضيرى</persName></orgName>
           مسطحه <sic>س</sic> ١٠ اقتضي الحال بيع انقاضه وتأجير أرضه</p>
         <p>ما ذكر تحرر به خمسة وثلاثون اعلانا ارسلت إلى ال<orgName ref="ضبطية">ضبطية</orgName>
@@ -493,7 +493,7 @@
         <head><rs type="اعلان">اعلان</rs> وارد من حضرة <persName role="وكيل مديرية الروضة">محمد بك
             وكيل <orgName ref="مديرية-الروضة" type="مديرية">مديرية الروضة</orgName>
             سابقًا</persName> بتاريخ <date when-custom="1285-10-25">٢٥ شوال سنة</date></head>
-        <p>لنا ولشركائنا <placeName xml:id="place-W1285027401_01">منزل</placeName> ب<placeName xml:id="place-W1285027401_02">جهة <placeName xml:id="place-W1285027401_03">بركة
+        <p>لنا ولشركائنا <placeName type="منزل" ref="منزل-حضرة-محمد-بك-وكيل-مديرية-الروضة-سابقا-وشركاه" xml:id="place-W1285027401_01">منزل</placeName> ب<placeName type="جهة" ref="جهة-بركة-الافيلة" xml:id="place-W1285027401_02">جهة <placeName type="بركة" ref="بركة-الافيلة" xml:id="place-W1285027401_03">بركة
               الأفيلة</placeName></placeName> تبلغ مساحة مسطحه نحو ثمانية آلاف ذراع معمارى ويشتمل
           على جنينتين احداهما نحو نصف فدان والأخرى قيراط وعلى حوش سماوى نحو ألف ذراع وساقية وصهريج
           مياه يسع خمسة عشر ألف قربة وبجهة الحريم أوط متسعة وفسقية بالرخام ودواوين نحو الثلاثين
@@ -513,11 +513,11 @@
         <table rows="3" cols="2">
           <row>
             <cell>١</cell>
-            <cell><placeName xml:id="place-W1285027901_01">طاحونة</placeName> ب<placeName xml:id="place-W1285027901_02">شارع البيدق</placeName> مسطحها ٣٦٨ ذراعا <orgName type="وقف" ref="وقف-الامامين-ورواق-الاتراك">وقف الامامين ورواق الأتراك</orgName></cell>
+            <cell><placeName type="طاحونة" xml:id="place-W1285027901_01">طاحونة</placeName> ب<placeName type="شارع" ref="شارع-البيدق" xml:id="place-W1285027901_02">شارع البيدق</placeName> مسطحها ٣٦٨ ذراعا <orgName type="وقف" ref="وقف-الامامين-ورواق-الاتراك">وقف الامامين ورواق الأتراك</orgName></cell>
           </row>
           <row>
             <cell>١</cell>
-            <cell>خربة بـ<placeName xml:id="place-W1285027901_03">خط غيط العدة</placeName> مسطحها ٢٥٢
+            <cell>خربة بـ<placeName type="خط" ref="خط-غيط-العدة" xml:id="place-W1285027901_03">خط غيط العدة</placeName> مسطحها ٢٥٢
               نظارة حضرة بك <persName>طبوزا</persName> و<choice>
                 <sic>غلى</sic>
                 <corr>على</corr>
@@ -545,7 +545,7 @@
               البوستة الخديوية المصرية</orgName></title></head>
         <p>يكون معلوما لدى الجميع بأن في يوم الخميس غرة شهر ابريل الأفرنكى سنة ٦٩ الموافق ١٩ الحجة
           سنة ٨٥ ينتقل توكيل <orgName ref="بوسطة-مصر">بوسطة مصر</orgName> من المحل الموجود به الآن
-            ل<placeName xml:id="place-W1285000001_01">محل <persName>الخواجات اخوان
+            ل<placeName type="محل" ref="محل-الخواجات-اخوان-فوتيارس" xml:id="place-W1285000001_01">محل <persName>الخواجات اخوان
               فوتيارس</persName></placeName> الكائن امام ال<orgName type="ديوان" ref="ديوان-الضبطية">ديوان</orgName> الذي كانت فيه ال<orgName ref="ضبطية">ضبطية</orgName> اخيرا تحريرا فى ٢٤
           مارس سنة ٦٩ ١١ الحجه سنة ٨٥.</p>
       </div>
