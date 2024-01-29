@@ -144,9 +144,9 @@
                <bibl><biblScope unit="issue">نمره ٧٥</biblScope><biblScope unit="page">ص
                      ١</biblScope></bibl></head>
             <head>حوادث داخليه</head>
-            <p><placeName xml:id="place-W1263007501_01">سویش يولنك</placeName> دردست اجرا بولنان تصليح وتسویه سی
-               محضا <placeName xml:id="place-W1263007501_02">مذبح</placeName> نام <placeName xml:id="place-W1263007501_03">محلدن</placeName>
-               <placeName xml:id="place-W1263007501_04">سويشه</placeName> دك ایسه ده عمل مذکور <placeName xml:id="place-W1263007501_05">باب الحديد</placeName> نام <placeName xml:id="place-W1263007501_06">قپودن</placeName> محل مزبوره قدر اجرا اولنمق لازم كلديكندن ومار الذكر يولك
+            <p><placeName ref="سویش-يولى" xml:id="place-W1263007501_01">سویش يولنك</placeName> دردست اجرا بولنان تصليح وتسویه سی
+               محضا <placeName type="مذبح" xml:id="place-W1263007501_02">مذبح</placeName> نام <placeName type="محل" xml:id="place-W1263007501_03">محلدن</placeName>
+               <placeName type="سويش" xml:id="place-W1263007501_04">سويشه</placeName> دك ایسه ده عمل مذکور <placeName ref="باب-الحديد" xml:id="place-W1263007501_05">باب الحديد</placeName> نام <placeName type=" قپو" xml:id="place-W1263007501_06">قپودن</placeName> محل مزبوره قدر اجرا اولنمق لازم كلديكندن ومار الذكر يولك
                توسیعچون جوارنده واقع باغچه لرك برجانبی اشترا قلنمق مقتضى بولندیغندن اول وجهله
                اجراسنه <rs type="ارادۀ-سنیه">ارادۀ سنیه</rs> شرفسنوح بیورلشدر.</p>
          </div>
@@ -154,11 +154,11 @@
             <head><date when-custom="1263-08-13">١٣ شعبان ١٢٦٣</date>
                <bibl><biblScope unit="issue">نمره ٧٥</biblScope><biblScope unit="page">ص
                      ١</biblScope></bibl></head>
-            <p>نفس مصرك <placeName xml:id="place-W1263007502_01">حسینیه قپوسی</placeName> خارجنده واقع <orgName ref="کاغد-خانه">کاغد خانه نك</orgName> جرخلری طرز قدیم اوزره دواب ومواشی ایله
+            <p>نفس مصرك <placeName ref="حسینیه-قپوسی" xml:id="place-W1263007502_01">حسینیه قپوسی</placeName> خارجنده واقع <orgName ref="کاغد-خانه">کاغد خانه نك</orgName> جرخلری طرز قدیم اوزره دواب ومواشی ایله
                اداره اولنوب مأمول اولان ثمره سی کورلميه رك بر مدت ترك اولنمش ایسه ده اصول جديده
                اوزره يكپاره اوزون کاغد چیقاروب صكره مطلوب اولان قياسلرده طبقه طبقه کسلمكه لازم اولان
                آلت واشغالنه مقتضی بولنان سائر ادوات ايله برنفرماهر استاد دیار اوروپادن جلب اولنمش و
-               واپور ایله اداره اولنمق اوزره ایجاب ایدن واپور آلاتى دخی <placeName xml:id="place-W1263007502_02">بولاقده</placeName> كائن <orgName type="ورشه" ref="عمليات-ورشه-سى">عمليات ورشه
+               واپور ایله اداره اولنمق اوزره ایجاب ایدن واپور آلاتى دخی <placeName type="بولاق" xml:id="place-W1263007502_02">بولاقده</placeName> كائن <orgName type="ورشه" ref="عمليات-ورشه-سى">عمليات ورشه
                   سنده</orgName> ياپدرلمش اولمغله الحالة هذه آلات وادوات مرقومنك کاغدخانۀ مذکوره ده
                يرلو يرنده ترکینه باقلمقده در.</p>
          </div>
@@ -167,7 +167,7 @@
                <bibl><biblScope unit="issue">نمره ٧٥</biblScope><biblScope unit="page">ص
                      ٤</biblScope></bibl></head>
             <head>اعلانات</head>
-            <p><placeName xml:id="place-W1263007503_01">عابدین سمتنده</placeName> اوست قاتده بش اوطه
+            <p><placeName type="سمت" ref="عابدین-سمتى" xml:id="place-W1263007503_01">عابدین سمتنده</placeName> اوست قاتده بش اوطه
                و برمطمخ وایکى کیلار و بر حمام والت فاتده دیرکلی بر سلاملیق اوطه و بر اوفق منظره
                وایكی مغازه و اوج حيوان الور بر اخور و بر قيو و اچیق حولیسی بولنور
                   <persName>حنیفه</persName> نام خاتونك <persName role="وکیل">محمد جنیدی نام
@@ -176,7 +176,7 @@
          </div>
          <div xml:id="W1263007504" resp="#eAE">
             <head><date when-custom="1263-08-13">١٣ شعبان ١٢٦٣</date><bibl><biblScope unit="issue">نمره ٧٥</biblScope><biblScope unit="page">ص ٤</biblScope></bibl></head>
-            <p><placeName xml:id="place-W1263007504_01">استاذ حنفی حضرتلری
+            <p><placeName type="سمت" ref="استاذ-حنفی-حضرتلری-سمتى" xml:id="place-W1263007504_01">استاذ حنفی حضرتلری
                   سمتنده</placeName> اوست قاتده التى اوطه و بر مطبخ و بر کیلار و بر حمام والت قاتده
                ایکی منظره و بر تخته پوش و ایکی مغازه و اوج حيوان الور بر اخور و بر دکرمن و بر قيو و
                اجیق حولى و بر اوفق باغچه سی بولنور <persName>شيخ احمد اصيلینك</persName> خانه سی
@@ -187,8 +187,8 @@
                <bibl><biblScope unit="issue">نمره ٧٥</biblScope><biblScope unit="page">ص
                      ٤</biblScope></bibl></head>
             <p>
-               <placeName xml:id="place-W1263007505_01">خمزاویه سمتنده</placeName>
-               <placeName xml:id="place-W1263007505_02">سبع قاعات</placeName> نام محله ده كائن اوست قاتده التي
+               <placeName type="سمت" ref="خمزاویه-سمتى" xml:id="place-W1263007505_01">خمزاویه سمتنده</placeName>
+               <placeName ref="سبع-قاعات" xml:id="place-W1263007505_02">سبع قاعات</placeName> نام محله ده كائن اوست قاتده التي
                اوطه و بر حمام و بر مطبخ و بر كيلار و الت قاتده بر منظره و بر تخته بوش وبر مغازه و
                برحيوان الور بر اخور و بر دکرمن و بر قیوسی و اجیق بر اوفق حولیسی موجود <persName>سيد
                   على زيات</persName> نام شخصك اليوم <rs type="مزاد">مزادده</rs> یکرمی بش کیسه اقچه
@@ -200,9 +200,9 @@
                <bibl><biblScope unit="issue">نمره ٧٦</biblScope><biblScope unit="page">ص
                      ٤</biblScope></bibl></head>
             <head>اعلانات</head>
-            <p><placeName xml:id="place-W1263007601_01"><orgName ref="سوق-سلاح" type="سوق">سوق
+            <p><placeName type="سوق" ref="سوق سلاح" xml:id="place-W1263007601_01"><orgName ref="سوق-سلاح" type="سوق">سوق
                      سلاحده</orgName></placeName>
-               <placeName xml:id="place-W1263007601_02">استاذ رفاعی محله سنده</placeName>
+               <placeName type="محله" ref="استاذ-رفاعی-محله-سى" xml:id="place-W1263007601_02">استاذ رفاعی محله سنده</placeName>
                كائن اوست قاتده التى اوطه وبر مطبخ والت قاتده بر مغازه و ایكی ات آلور بر آخور و بر
                اوفق حولیسی بولنور <persName role="سروجی">وهبه</persName> نام سروجینك اليوم <rs type="مزاد">مزادده</rs> يدی کیسه اقچه يه جیقمش بر باب خانه سی صاتلق اولوب استکلوسی
                وار ایسه <persName role="دلال باشی">دلال باشی سيد مصطفادن</persName> صور لمسی اعلان
@@ -212,8 +212,8 @@
             <head><date when-custom="1263-08-20 ">٢٠ شعبان ١٢٦٣</date>
                <bibl><biblScope unit="issue">نمره ٧٦</biblScope><biblScope unit="page">ص
                      ٤</biblScope></bibl></head>
-            <p> <placeName xml:id="place-W1263007602_01">باب الشعريه سمتنده</placeName>
-               <placeName xml:id="place-W1263007602_02">استاذ محمد طمار محله
+            <p> <placeName type="سمت" ref="باب-الشعريه-سمتى" xml:id="place-W1263007602_01">باب الشعريه سمتنده</placeName>
+               <placeName type="محله" ref="استاذ-محمد-طمار-محله-سى" xml:id="place-W1263007602_02">استاذ محمد طمار محله
                   سنده</placeName> واقع اوست قاتده اوج اوطه و بر مطبخ و بر حمام و الت قاتده بر اوفق
                منظره و بر آخور وبر قيو و بر حولیسی  بولنور بو كونلرده التى کيسه اقچه كتورمش بر باب
                خانه صاتیلق اولوب راغبی وار ایسه دلال باشئ مومی الیهدن استدلال ایلمسی
@@ -226,146 +226,146 @@
                   مصلحتی</orgName> بر قدم اقدم بتورلمسی <rs type="ارادۀ-سنیه">ارادۀ سنیه</rs>
                افتضاسندن اولمغين تعیین اولنان مأمورین و عمله نك غیرتیله ذکری آتی جاده زقاقلرده كائن
                خانه لرك نمره لری دخی ختامپذیر اولمغله جمله نك معلومی اولمق ايچون <rs type="درج-وقایع">درج وقایع</rs> قلنمشدر</p>
-            <p>(بند سادس عشر) <placeName xml:id="place-W1263007701_01">سیده زینب قنطره
-                  سندن</placeName> بدأ ايله <placeName xml:id="place-W1263007701_02">شارع درب
-                  الحجرك</placeName> اتهاسنده كائن <placeName xml:id="place-W1263007701_03">زیر
-                  المعلقك</placeName> بوابه سنه قدر اولان  يوله <placeName xml:id="place-W1263007701_04">شارع نصريه</placeName> تسمیه سیله نمره سی قرمزی يازیله.</p>
-            <p>(بند سابع عشر) <placeName xml:id="place-W1263007701_05">سنقر قنطره
-                  سندن</placeName> بدأ ايله <placeName xml:id="place-W1263007701_06">زير معلقك</placeName> بوابه
-               سنه قدر اولان يوله <placeName xml:id="place-W1263007701_07">شارع درب
+            <p>(بند سادس عشر) <placeName type="قنطره" ref="سیده زینب قنطره" xml:id="place-W1263007701_01">سیده زینب قنطره
+                  سندن</placeName> بدأ ايله <placeName type="شارع" ref="شارع-درب-الحجر" xml:id="place-W1263007701_02">شارع درب
+                  الحجرك</placeName> اتهاسنده كائن <placeName ref="زیر-المعلق" xml:id="place-W1263007701_03">زیر
+                  المعلقك</placeName> بوابه سنه قدر اولان  يوله <placeName type="شارع" ref="شارع-نصريه" xml:id="place-W1263007701_04">شارع نصريه</placeName> تسمیه سیله نمره سی قرمزی يازیله.</p>
+            <p>(بند سابع عشر) <placeName type="قنطره" ref="سنقر-قنطره-سى" xml:id="place-W1263007701_05">سنقر قنطره
+                  سندن</placeName> بدأ ايله <placeName ref="زير-معلق" xml:id="place-W1263007701_06">زير معلقك</placeName> بوابه
+               سنه قدر اولان يوله <placeName type="شارع" ref="شارع-درب-الحجر" xml:id="place-W1263007701_07">شارع درب
                   الحجر</placeName> دينلوب نمره سی سیاه اوله.</p>
-            <p>(بند ثامن عشر) <placeName xml:id="place-W1263007701_08">نصريه شارعنده</placeName>
+            <p>(بند ثامن عشر) <placeName type="شارع" ref="نصريه-شارعى" xml:id="place-W1263007701_08">نصريه شارعنده</placeName>
                <orgName ref="سباعين-باش-قره-قولى">سباعين باش قره قولنك</orgName> مقابله سندن بدأ
-               ايله <placeName xml:id="place-W1263007701_09">حارة السقاينه</placeName> قدر کیدن
-               يوله <placeName xml:id="place-W1263007701_10">شارع درب الحمام</placeName> تسمیه
+               ايله <placeName type="حارة" ref="حارة-السقاين" xml:id="place-W1263007701_09">حارة السقاينه</placeName> قدر کیدن
+               يوله <placeName type="شارع" ref="شارع-درب-الحمام" xml:id="place-W1263007701_10">شارع درب الحمام</placeName> تسمیه
                اولنوب نمرہ سی سیاه اوله. </p>
-            <p>(بند تاسع عشر) <placeName xml:id="place-W1263007701_11">درب الحجرك</placeName> انتهاسنده
-               كائن <placeName xml:id="place-W1263007701_12">زیر المعلق</placeName> بوابه سندن بدأ ايله
-                  <placeName xml:id="place-W1263007701_13">شربتجی باشینك قوناغنه</placeName>
-               قدر اولان يوله <placeName xml:id="place-W1263007701_14">سكة زیر معلق</placeName>
+            <p>(بند تاسع عشر) <placeName type="درب" ref="درب-الحجر" xml:id="place-W1263007701_11">درب الحجرك</placeName> انتهاسنده
+               كائن <placeName ref="زیر-المعلق" xml:id="place-W1263007701_12">زیر المعلق</placeName> بوابه سندن بدأ ايله
+                  <placeName type="قوناك" ref="شربتجی-باشی-قوناغى" xml:id="place-W1263007701_13">شربتجی باشینك قوناغنه</placeName>
+               قدر اولان يوله <placeName type="سكة" ref="سكة-زیر-معلق" xml:id="place-W1263007701_14">سكة زیر معلق</placeName>
                دينلوب نمره سی قرمزی اوله.</p>
-            <p>(بند عشرين) <placeName xml:id="place-W1263007701_15">درب الحجر شارعنك</placeName>
-               انتها سندن بدأ ايله <placeName xml:id="place-W1263007701_16">عابديندن</placeName> مرور ايدوب
-                  <placeName xml:id="place-W1263007701_17">باب اللوق جاده سنه</placeName>
-               قدرممتد اولان يوله <placeName xml:id="place-W1263007701_18">شارع عابدين</placeName>
+            <p>(بند عشرين) <placeName type="درب" ref="درب-الحجر-شارعى" xml:id="place-W1263007701_15">درب الحجر شارعنك</placeName>
+               انتها سندن بدأ ايله <placeName ref="عابدين" xml:id="place-W1263007701_16">عابديندن</placeName> مرور ايدوب
+                  <placeName type="جاده" ref="باب-اللوق-جاده-سى" xml:id="place-W1263007701_17">باب اللوق جاده سنه</placeName>
+               قدرممتد اولان يوله <placeName type="شارع" ref="شارع-عابدين" xml:id="place-W1263007701_18">شارع عابدين</placeName>
                تسمیه اولنوب نمره سی قرمزی اوله.</p>
-            <p>(بند حادی و عشرین) باب اللوق شارعندن بدأ ايله <placeName xml:id="place-W1263007701_19">ماليه مدیری پاشا حضرتلرينك
-                  قوناغی</placeName> پیشکاهندن مرور برله <placeName xml:id="place-W1263007701_20">تربه
-                  يولنه</placeName> قدر اولان جاده يه <placeName xml:id="place-W1263007701_21">شارع
+            <p>(بند حادی و عشرین) باب اللوق شارعندن بدأ ايله <placeName type="قوناك" ref="ماليه-مدیری-پاشا-حضرتلرينك-قوناغی" xml:id="place-W1263007701_19">ماليه مدیری پاشا حضرتلرينك
+                  قوناغی</placeName> پیشکاهندن مرور برله <placeName type="يول" ref="تربه-يولى" xml:id="place-W1263007701_20">تربه
+                  يولنه</placeName> قدر اولان جاده يه <placeName type="شارع" ref="شارع بیدق" xml:id="place-W1263007701_21">شارع
                   بیدق</placeName> تسمیه اولنوب نمره سی قرمزی اوله.</p>
-            <p>(بند ثانى وعشرين) <placeName xml:id="place-W1263007701_22">باب الخوخه دن</placeName> بدأ ايله باب
-               اللوق شارعنه قدر اولان يول <placeName xml:id="place-W1263007701_23">شارع
+            <p>(بند ثانى وعشرين) <placeName ref="باب-الخوخه" xml:id="place-W1263007701_22">باب الخوخه دن</placeName> بدأ ايله باب
+               اللوق شارعنه قدر اولان يول <placeName type="شارع" ref="شارع-البلاسقه" xml:id="place-W1263007701_23">شارع
                   البلاسقه</placeName> تسمیه سیله نمره سی قرمزی اوله.</p>
-            <p>(بند ثالث و عشرين) <placeName xml:id="place-W1263007701_24">درب ابو الليف
-                  قپوسندن</placeName> بدأ ايله تا <placeName xml:id="place-W1263007701_25">شيخ
-                  ريحان شارعنه</placeName> قدر اولان يول <placeName xml:id="place-W1263007701_26">شارع حارة السقايين</placeName> تسميه سيله نمره ی قرمزی وضع اولنه.</p>
-            <p>(بند رابع وعشرين) نصريه شارعنده <placeName xml:id="place-W1263007701_27">ابو الليف
+            <p>(بند ثالث و عشرين) <placeName type="درب" ref="درب-ابو-الليف-قپوسى" xml:id="place-W1263007701_24">درب ابو الليف
+                  قپوسندن</placeName> بدأ ايله تا <placeName type="شارع" ref="شيخ-ريحان-شارعى" xml:id="place-W1263007701_25">شيخ
+                  ريحان شارعنه</placeName> قدر اولان يول <placeName type="شارع" ref="شارع-حارة-السقايين" xml:id="place-W1263007701_26">شارع حارة السقايين</placeName> تسميه سيله نمره ی قرمزی وضع اولنه.</p>
+            <p>(بند رابع وعشرين) نصريه شارعنده <placeName ref="ابو-الليف-قپوسي" xml:id="place-W1263007701_27">ابو الليف
                   قپوسندن</placeName>
-               <placeName xml:id="place-W1263007701_28">درب السقايين قپوسنه</placeName> وارجه اولان يوله
-                  <placeName xml:id="place-W1263007701_29">شارع ابو الليف</placeName> دينلوب نمره
+               <placeName ref="درب-السقايين-قپوسى" xml:id="place-W1263007701_28">درب السقايين قپوسنه</placeName> وارجه اولان يوله
+                  <placeName type="شارع-ابو-الليف" ref="شارع" xml:id="place-W1263007701_29">شارع ابو الليف</placeName> دينلوب نمره
                سی قرمزی وضع اولنه.</p>
-            <p> (بند خامس وعشرين) <placeName xml:id="place-W1263007701_30">شارع حنفى
+            <p> (بند خامس وعشرين) <placeName type="شارع" ref="شارع-حنفي-حضرتلرى" xml:id="place-W1263007701_30">شارع حنفى
                   حضرتلرندن</placeName>
-               <placeName xml:id="place-W1263007701_31">نصريه جاده سنه</placeName> وارجه اولان
-               يوله <placeName xml:id="place-W1263007701_32">درب القرودی</placeName> تسمه سيله نمره
+               <placeName type="جاده" ref="نصريه-جاده-سى" xml:id="place-W1263007701_31">نصريه جاده سنه</placeName> وارجه اولان
+               يوله <placeName type="درب" ref="درب-القرودی" xml:id="place-W1263007701_32">درب القرودی</placeName> تسمه سيله نمره
                سی قرمزی يازیله.</p>
-            <p>(بند سادس وعشرين) <placeName xml:id="place-W1263007701_33">سیده زينب قنطره
-                  سندن</placeName> بدأ ايله <placeName xml:id="place-W1263007701_34">عمارشه عطفه
-                  سنه</placeName> قدراولان يوله <placeName xml:id="place-W1263007701_35">شارع
-                  درب الجديد</placeName> وينه <placeName xml:id="place-W1263007701_36">عمارشه عطفه سی قپوسندن</placeName>
-               <placeName xml:id="place-W1263007701_37">هياتم</placeName> و <placeName xml:id="place-W1263007701_38">درب القرود حاره لری</placeName> پیشكاهنه قدراولان يو له <placeName xml:id="place-W1263007701_39">شارع سواقة اللالى</placeName> ومذکور محلدن
-               نصريه جاده سنه  قدر اولان يوله <placeName xml:id="place-W1263007701_40">شارع
-                  حنفى</placeName> دينلوب نمره لری قرمزی وضع اولنه و <placeName xml:id="place-W1263007701_41">حنفى جاده سندن</placeName>
-               <placeName xml:id="place-W1263007701_42">خليجه</placeName> طوغری <placeName xml:id="place-W1263007701_43">سبیله</placeName> قدر اولان يوله <placeName xml:id="place-W1263007701_44">شارع
+            <p>(بند سادس وعشرين) <placeName type="قنطره" ref="سیده-زينب-قنطره-سى" xml:id="place-W1263007701_33">سیده زينب قنطره
+                  سندن</placeName> بدأ ايله <placeName type="عطفه" ref="عمارشه-عطفه-سى" xml:id="place-W1263007701_34">عمارشه عطفه
+                  سنه</placeName> قدراولان يوله <placeName type="شارع" ref="شارع-درب-الجديد" xml:id="place-W1263007701_35">شارع
+                  درب الجديد</placeName> وينه <placeName type="عطفه" ref="عمارشه-عطفه-سی-قپوسى" xml:id="place-W1263007701_36">عمارشه عطفه سی قپوسندن</placeName>
+               <placeName ref="هياتم" xml:id="place-W1263007701_37">هياتم</placeName> و <placeName type="حاره" ref="درب-القرود-حاره-سى" xml:id="place-W1263007701_38">درب القرود حاره لری</placeName> پیشكاهنه قدراولان يو له <placeName type="شارع" ref="شارع-سواقة-اللالي" xml:id="place-W1263007701_39">شارع سواقة اللالى</placeName> ومذکور محلدن
+               نصريه جاده سنه  قدر اولان يوله <placeName type="شارع" ref="شارع-حنفى" xml:id="place-W1263007701_40">شارع
+                  حنفى</placeName> دينلوب نمره لری قرمزی وضع اولنه و <placeName type="جاده" ref="حنفى-جاده-سى" xml:id="place-W1263007701_41">حنفى جاده سندن</placeName>
+               <placeName type="خليج" ref="خليج" xml:id="place-W1263007701_42">خليجه</placeName> طوغری <placeName type="سبیل" xml:id="place-W1263007701_43">سبیله</placeName> قدر اولان يوله <placeName type="شارع" ref="شارع-هياتم" xml:id="place-W1263007701_44">شارع
                   هياتم</placeName> تسميه اولنوب سیاه نمره يازيله.</p>
-            <p>(بند سابع وعشرين) <placeName xml:id="place-W1263007701_45">عمارشه قنطره
-                  سندن</placeName> شارع درب الجديده قدر اولان يوله <placeName xml:id="place-W1263007701_46">شارع عمارشه</placeName> دنلوب نمره سی سیاه يا زيله.</p>
-            <p>(بند ثامن وعشرين) <placeName xml:id="place-W1263007701_47">درب الجماميز جاده
-                  سندن</placeName> بدأ ايله <placeName xml:id="place-W1263007701_48">کور اوغلى
-                  عطفه سنه</placeName> قدر ممتد اولان يول <placeName xml:id="place-W1263007701_49">شق
+            <p>(بند سابع وعشرين) <placeName type="قنطره" ref="عمارشه-قنطره-سى" xml:id="place-W1263007701_45">عمارشه قنطره
+                  سندن</placeName> شارع درب الجديده قدر اولان يوله <placeName type="شارع" ref="شارع-عمارشه" xml:id="place-W1263007701_46">شارع عمارشه</placeName> دنلوب نمره سی سیاه يا زيله.</p>
+            <p>(بند ثامن وعشرين) <placeName type="جاده" ref="درب-الجماميز-جاده-سى" xml:id="place-W1263007701_47">درب الجماميز جاده
+                  سندن</placeName> بدأ ايله <placeName type="عطفه" ref="کور-اوغلى-عطفه-سى" xml:id="place-W1263007701_48">کور اوغلى
+                  عطفه سنه</placeName> قدر ممتد اولان يول <placeName type="شق" ref="شق-العرسه" xml:id="place-W1263007701_49">شق
                   العرسه</placeName> تسمیه سیله نمره سی سیاه اوله.</p>
-            <p>(بند تاسع و عشرین) <placeName xml:id="place-W1263007701_50">سیده زينب جاده
+            <p>(بند تاسع و عشرین) <placeName type="جاده" ref="سیده-زينب-جاده-سى" xml:id="place-W1263007701_50">سیده زينب جاده
                   سندن</placeName>
-               <placeName xml:id="place-W1263007701_51">شیخ سادات عطفه سنه</placeName> قدر
+               <placeName type="عطفه" ref="شیخ-سادات-عطفه-سى" xml:id="place-W1263007701_51">شیخ سادات عطفه سنه</placeName> قدر
                اولان يول كور اوغلى عطفه سی تسميه سيله نمره سی سیاه وضع اولنه.</p>
-            <p>(بند ثلاثين) <placeName xml:id="place-W1263007701_52">درب جماميز قنطره
+            <p>(بند ثلاثين) <placeName type="قنطره" ref="درب-جماميز-قنطره-سى" xml:id="place-W1263007701_52">درب جماميز قنطره
                   سندن</placeName>
-               <placeName xml:id="place-W1263007701_53">حنفى شارعنه</placeName> قدر اولان يول
-                  <placeName xml:id="place-W1263007701_54">شارع خليل طينه</placeName> تسميه
+               <placeName type="شارع" ref="حنفي-شارعى" xml:id="place-W1263007701_53">حنفى شارعنه</placeName> قدر اولان يول
+                  <placeName type="شارع" ref="شارع-خليل-طينه" xml:id="place-W1263007701_54">شارع خليل طينه</placeName> تسميه
                اولنوب نمره سی سیاه اوله.</p>
-            <p>(بند حادی وثلاثين) <placeName xml:id="place-W1263007701_55">سیده زینب
-                  شارعندن</placeName> بدأ ايله <placeName xml:id="place-W1263007701_56">شیخ
-                  ساداتك قوناغی</placeName> اوکندن مرور ایدن و برکه يه منتهی اولان يول <placeName xml:id="place-W1263007701_57">شارع سادات</placeName> تسمیه سیله نمرہ سی سیاه وضع
+            <p>(بند حادی وثلاثين) <placeName type="شارع" ref="سیده-زینب-شارعى" xml:id="place-W1263007701_55">سیده زینب
+                  شارعندن</placeName> بدأ ايله <placeName type="قوناق" ref="شیخ-ساداتك-قوناغی" xml:id="place-W1263007701_56">شیخ
+                  ساداتك قوناغی</placeName> اوکندن مرور ایدن و برکه يه منتهی اولان يول <placeName type="شارع" ref="شارع-سادات" xml:id="place-W1263007701_57">شارع سادات</placeName> تسمیه سیله نمرہ سی سیاه وضع
                اولنه.</p>
-            <p>(بند ثانى وثلاثين) <placeName xml:id="place-W1263007701_58"><orgName ref="سیده-زینب-جامعى" type="جامع">سیده زینب جامعى</orgName>
-                  قارشوسندن</placeName> بدأ ايله غرب طرفنه طوغرى <placeName xml:id="place-W1263007701_59">خليجه</placeName> ممتد اولان يول <placeName xml:id="place-W1263007701_60">حارة
+            <p>(بند ثانى وثلاثين) <placeName ref="سیده زینب جامعى قارشو" xml:id="place-W1263007701_58"><orgName ref="سیده-زینب-جامعى" type="جامع">سیده زینب جامعى</orgName>
+                  قارشوسندن</placeName> بدأ ايله غرب طرفنه طوغرى <placeName type="خليج" ref="خليج" xml:id="place-W1263007701_59">خليجه</placeName> ممتد اولان يول <placeName type="حارة" ref="حارة-سيده-زينب" xml:id="place-W1263007701_60">حارة
                   سيده زينب</placeName> تسميه سیله نمره سی سیاه وضع اولنه.</p>
-            <p>(بند ثالث و ثلاثين) <placeName xml:id="place-W1263007701_61">قنطرة سنقر</placeName>
-               يانندن بدأ ايله خلیج بوینجه <placeName xml:id="place-W1263007701_62">درب قاره على عطفه سنه</placeName>
-               قدر اولان يوله <placeName xml:id="place-W1263007701_63">شارع الخلیج</placeName> تسميه
+            <p>(بند ثالث و ثلاثين) <placeName type="قنطرة" ref="قنطرة-سنقر" xml:id="place-W1263007701_61">قنطرة سنقر</placeName>
+               يانندن بدأ ايله خلیج بوینجه <placeName type="عطفه" xml:id="place-W1263007701_62">درب قاره على عطفه سنه</placeName>
+               قدر اولان يوله <placeName type="شارع" ref="شارع-الخلیج" xml:id="place-W1263007701_63">شارع الخلیج</placeName> تسميه
                اولنوب نمره لری قرمزی يازيله.</p>
-            <p>(بند رابع وثلاثين) <placeName xml:id="place-W1263007701_64">قنطرة كفر مقابله
-                  سنده</placeName>  اولان <placeName xml:id="place-W1263007701_65">قپودن</placeName> بدأ ايله عابدین
-               شارعنه قدر اولان يول <placeName xml:id="place-W1263007701_66">شارع رحبت
+            <p>(بند رابع وثلاثين) <placeName type="قنطرة" ref="قنطرة-كفر" xml:id="place-W1263007701_64">قنطرة كفر مقابله
+                  سنده</placeName>  اولان <placeName ref="قپو" xml:id="place-W1263007701_65">قپودن</placeName> بدأ ايله عابدین
+               شارعنه قدر اولان يول <placeName type="شارع" ref="شارع-رحبت-عابدین" xml:id="place-W1263007701_66">شارع رحبت
                   عابدین</placeName> تسمیه سیله نمره لری سیاه اوله.</p>
-            <p> (بند خامس وثلاثين) <placeName xml:id="place-W1263007701_67">حارة النصارى بوابه
-                  سندن</placeName> بدأ ايله <placeName xml:id="place-W1263007701_68"><orgName ref="سوق-الجمعه" type="سوق">سوق الجمعه دن</orgName></placeName> مرور ایدوب
-               نصريه جاده سنده سباعينه قدر اولان يول <placeName xml:id="place-W1263007701_69">شارع سوق الجمعه</placeName> تسميه اولنوب سیاه نمره وضع اولنه.</p>
+            <p> (بند خامس وثلاثين) <placeName ref="حارة-النصارى-بوابه-سى" xml:id="place-W1263007701_67">حارة النصارى بوابه
+                  سندن</placeName> بدأ ايله <placeName type="سوق" ref="سوق الجمعه" xml:id="place-W1263007701_68"><orgName ref="سوق-الجمعه" type="سوق">سوق الجمعه دن</orgName></placeName> مرور ایدوب
+               نصريه جاده سنده سباعينه قدر اولان يول <placeName type="شارع" ref="شارع-سوق-الجمعه" xml:id="place-W1263007701_69">شارع سوق الجمعه</placeName> تسميه اولنوب سیاه نمره وضع اولنه.</p>
             <p>(بند سادس وثلاثين) سوق الجمعه شارعنده حارة النصارا بوابه سندن سنقر قنطره سی اتصالنده
-               اولان يول <placeName xml:id="place-W1263007701_70">حارة النصارا</placeName> تسمیه
+               اولان يول <placeName type="حارة" ref="حارة-النصارا" xml:id="place-W1263007701_70">حارة النصارا</placeName> تسمیه
                سيله نمره سی قرمزی وضع اولنه.</p>
             <p> (بند سابع وثلاثين) درب جماميز عندنده اولان بوابه دن بدأ ايله سوق الجمعه شارعنه قدر
-               اولان يول <placeName xml:id="place-W1263007701_71">سوق مسكه</placeName> تسمیه اولنوب نمره
+               اولان يول <placeName type="سوق" ref="سوق-مسكه" xml:id="place-W1263007701_71">سوق مسكه</placeName> تسمیه اولنوب نمره
                سی قرمزی وضع اولنه.</p>
-            <p>(بند ثامن وثلاثين) حنفى شارعندن بدأ ايله سوق الجمعه يه دك اولان زقاغه <placeName xml:id="place-W1263007701_72">عطفة الفقوسه</placeName> تسمیه سیله نمره سی سیاه
+            <p>(بند ثامن وثلاثين) حنفى شارعندن بدأ ايله سوق الجمعه يه دك اولان زقاغه <placeName type="عطفة" ref="عطفة-الفقوسه" xml:id="place-W1263007701_72">عطفة الفقوسه</placeName> تسمیه سیله نمره سی سیاه
                وضع اولنه.</p>
-            <p>(بند تاسع وثلاثين) <placeName xml:id="place-W1263007701_73">شارع سيده نفيسه
-                  دن</placeName> بدأ ايله <placeName xml:id="place-W1263007701_74">طيلون جاده
-                  سی</placeName> استقامتنجه <placeName xml:id="place-W1263007701_75"><orgName ref="سوق-العصر" type="سوق">سوق العصره</orgName></placeName> قدر کیدن يول
-                  <placeName xml:id="place-W1263007701_76">شارع درب الحصر</placeName> تسمیه
+            <p>(بند تاسع وثلاثين) <placeName type="شارع" ref="شارع-سيده-نفيسه" xml:id="place-W1263007701_73">شارع سيده نفيسه
+                  دن</placeName> بدأ ايله <placeName type="جاده" ref="طيلون-جاده-سی" xml:id="place-W1263007701_74">طيلون جاده
+                  سی</placeName> استقامتنجه <placeName type="سوق" ref="سوق العصره" xml:id="place-W1263007701_75"><orgName ref="سوق-العصر" type="سوق">سوق العصره</orgName></placeName> قدر کیدن يول
+                  <placeName type="شارع" ref="شارع-درب-الحصر" xml:id="place-W1263007701_76">شارع درب الحصر</placeName> تسمیه
                اولنوب نمره سی سیاه وضع اولنه.</p>
-            <p>(بند اربعین) طيلون شارعندن بدأ ايله <placeName xml:id="place-W1263007701_77">روم
-                  ایلی شارعنه</placeName> نازل اولان يوله <placeName xml:id="place-W1263007701_78">سكة بئر الوطاويط</placeName> تسمیه سیله نمره ی قرمزی اوله.</p>
+            <p>(بند اربعین) طيلون شارعندن بدأ ايله <placeName type="شارع" ref="روم-ایلی-شارعى" xml:id="place-W1263007701_77">روم
+                  ایلی شارعنه</placeName> نازل اولان يوله <placeName type="سكة" ref="سكة-بئر-الوطاويط" xml:id="place-W1263007701_78">سكة بئر الوطاويط</placeName> تسمیه سیله نمره ی قرمزی اوله.</p>
             <p>(بند حادی واربعين) بئر الوطاويط مقابلندن بدأ ايله برکه قپوسنه قدر اولان يول
-                  <placeName xml:id="place-W1263007701_79">سكة يزبك</placeName> تسميه سيله نمره سی قرمزی
+                  <placeName type="سكة" ref="سكة-يزبك" xml:id="place-W1263007701_79">سكة يزبك</placeName> تسميه سيله نمره سی قرمزی
                اوله.</p>
-            <p> (بند ثانی واربعين) <placeName xml:id="place-W1263007701_80"><persName>حسن پاشا</persName>
-                  عماره سندن</placeName> بدأ ايله <placeName xml:id="place-W1263007701_81">شیخ طلامدن</placeName>
-               مرور برله <placeName xml:id="place-W1263007701_82"><persName>سابق
+            <p> (بند ثانی واربعين) <placeName ref="حسن-پاشا-عماره-سى" xml:id="place-W1263007701_80"><persName>حسن پاشا</persName>
+                  عماره سندن</placeName> بدأ ايله <placeName ref="شیخ-طلام" xml:id="place-W1263007701_81">شیخ طلامدن</placeName>
+               مرور برله <placeName ref="سابق-جهادیه-مدیری-مرحوم-محمود-بكك-قوناغی" xml:id="place-W1263007701_82"><persName>سابق
                      جهادیه مدیری مرحوم <persName role="سابق جهادیه مدیری">محمود
-                     بك</persName>ك</persName> قوناغی</placeName> قربنده <placeName xml:id="place-W1263007701_83">صلیبه جاده سنه</placeName> قدر يول <placeName xml:id="place-W1263007701_84">سكة شيخ ظلام</placeName> تسميه اولنوب نمره سی كذلك قرمزی وضع
+                     بك</persName>ك</persName> قوناغی</placeName> قربنده <placeName type="جاده" ref="صلیبه-جاده-سى" xml:id="place-W1263007701_83">صلیبه جاده سنه</placeName> قدر يول <placeName type="سكة" ref="سكة-شيخ-ظلام" xml:id="place-W1263007701_84">سكة شيخ ظلام</placeName> تسميه اولنوب نمره سی كذلك قرمزی وضع
                اولنه.</p>
-            <p>(بند ثالث واربعين) <placeName xml:id="place-W1263007701_85">محجردن</placeName> بدأ ايله يكن <placeName xml:id="place-W1263007701_86"><persName>مرحوم <persName>ابراهیم
+            <p>(بند ثالث واربعين) <placeName ref="محجر" xml:id="place-W1263007701_85">محجردن</placeName> بدأ ايله يكن <placeName ref="مرحوم-ابراهیم-پاشانك-قوناغی" xml:id="place-W1263007701_86"><persName>مرحوم <persName>ابراهیم
                         پاشا</persName>نك</persName> قوناغی</placeName> پیشکاهندن مرور برله
-                  <placeName xml:id="place-W1263007701_87">سوق السلاح شارعنه</placeName> نزول
-               ايدن يول <placeName xml:id="place-W1263007701_88">سكة الكومى</placeName> تسمیه اولنوب
-                  <placeName xml:id="place-W1263007701_89">سوق السلاح جاده سی</placeName>
+                  <placeName type="شارع" ref="سوق-السلاح-شارعى" xml:id="place-W1263007701_87">سوق السلاح شارعنه</placeName> نزول
+               ايدن يول <placeName type="سكة" ref="سكة-الكومى" xml:id="place-W1263007701_88">سكة الكومى</placeName> تسمیه اولنوب
+                  <placeName type="جاده" ref="سوق-السلاح-جاده-سی" xml:id="place-W1263007701_89">سوق السلاح جاده سی</placeName>
                طرفندن بدأ ايله سیاه نمره وضع اولنه.</p>
             <p>(بند رابع واربعين) <orgName ref="باب-الوزير-قره-قولی" type="قره-قول">باب الوزير قره
-                  قولی</orgName> قارشو سندن بدأ ايله سكة الكومه قدر اولان <placeName xml:id="place-W1263007701_90">عطفة الوسنمه</placeName> تسميه اولنوب نمره سی سیاه
+                  قولی</orgName> قارشو سندن بدأ ايله سكة الكومه قدر اولان <placeName type="عطفة" ref="عطفة-الوسنمه" xml:id="place-W1263007701_90">عطفة الوسنمه</placeName> تسميه اولنوب نمره سی سیاه
                وضع اولنه.</p>
-            <p>(بند خامس واربعين) <placeName xml:id="place-W1263007701_91">قلعه شارعندن</placeName>
-               بدأ ايله سكة الكومى يه قدر ممتد اولان يول <placeName xml:id="place-W1263007701_92">درب
+            <p>(بند خامس واربعين) <placeName type="شارع" ref="قلعه-شارعى" xml:id="place-W1263007701_91">قلعه شارعندن</placeName>
+               بدأ ايله سكة الكومى يه قدر ممتد اولان يول <placeName type="درب" ref="درب-قزازین" xml:id="place-W1263007701_92">درب
                   قزازین</placeName> تسمیه اولنوب نمره سی قرمزی يازیله.</p>
-            <p>(بند سادس واربعين) قلعه شارعنده كائن <placeName xml:id="place-W1263007701_93"><orgName ref="ابراهیم-اغا-جامعى" type="جامع">ابراهیم اغا
-                  جامعندن</orgName></placeName> بدأ ايله <placeName xml:id="place-W1263007701_94"><orgName ref="جامع-ارسلان" type="جامع">جامع ارسلانه</orgName></placeName> قدر
-               اولان يول <placeName xml:id="place-W1263007701_95">درب شغلان</placeName> تسميه اولنوب
+            <p>(بند سادس واربعين) قلعه شارعنده كائن <placeName type="جامع" ref="ابراهیم اغا جامع" xml:id="place-W1263007701_93"><orgName ref="ابراهیم-اغا-جامعى" type="جامع">ابراهیم اغا
+                  جامعندن</orgName></placeName> بدأ ايله <placeName type="جامع" ref="جامع ارسلانه" xml:id="place-W1263007701_94"><orgName ref="جامع-ارسلان" type="جامع">جامع ارسلانه</orgName></placeName> قدر
+               اولان يول <placeName type="درب" ref="درب-شغلان" xml:id="place-W1263007701_95">درب شغلان</placeName> تسميه اولنوب
                نمره سی قرمزی وضع اولنه.</p>
             <p>(بند سابع واربعين) <orgName ref="تبانه-قره-قولى">تبانه قره قولندن</orgName> بدأ ايله
-                  <placeName xml:id="place-W1263007701_96">درب محروقه</placeName> قدر اولان يول
-                  <placeName xml:id="place-W1263007701_97">شارع تبويه</placeName> تسمیه اولنوب قرمزی
+                  <placeName type="درب" ref="درب-محروق" xml:id="place-W1263007701_96">درب محروقه</placeName> قدر اولان يول
+                  <placeName type="شارع" ref="شارع-تبويه" xml:id="place-W1263007701_97">شارع تبويه</placeName> تسمیه اولنوب قرمزی
                نمره وضع اولنه.</p>
-            <p>(بند ثامن واربعين) <placeName xml:id="place-W1263007701_98">درب محروق بوابه
-                  سندن</placeName> مسدود <placeName xml:id="place-W1263007701_99">طاش قپوسنه</placeName> قدر اولان
-               يول <placeName xml:id="place-W1263007701_100">درب محروق</placeName> تسمیه اولنوب نمره سی
+            <p>(بند ثامن واربعين) <placeName ref="درب-محروق-بوابه-سى" xml:id="place-W1263007701_98">درب محروق بوابه
+                  سندن</placeName> مسدود <placeName ref="طاش-قپوسى" xml:id="place-W1263007701_99">طاش قپوسنه</placeName> قدر اولان
+               يول <placeName type="درب" ref="درب-محروق" xml:id="place-W1263007701_100">درب محروق</placeName> تسمیه اولنوب نمره سی
                قرمزی پازله.</p>
-            <p>(بند تاسع واربعين) قلعه شارعنده <placeName xml:id="place-W1263007701_101">درب
-                  الاحمرده</placeName> كائن <placeName xml:id="place-W1263007701_102"><orgName ref="جامع-قسماس" type="جامع">جامع قسماسندن</orgName></placeName> بدأ ايله درب
-               محروقه قدر اولان يول <placeName xml:id="place-W1263007701_103">بئر المش</placeName> تسميه
+            <p>(بند تاسع واربعين) قلعه شارعنده <placeName type="درب" ref="درب-الاحمر" xml:id="place-W1263007701_101">درب
+                  الاحمرده</placeName> كائن <placeName type="جامع" ref="جامع قسماس" xml:id="place-W1263007701_102"><orgName ref="جامع-قسماس" type="جامع">جامع قسماسندن</orgName></placeName> بدأ ايله درب
+               محروقه قدر اولان يول <placeName type="بئر" ref="بئر-المش" xml:id="place-W1263007701_103">بئر المش</placeName> تسميه
                اولنوب نمره سی سیاه اوله.</p>
-            <p>(بند خمسين) <placeName xml:id="place-W1263007701_104">باب الخلق جاده
-                  سندن</placeName> بدأ ايله <placeName xml:id="place-W1263007701_105">حمزاویه
-                  جاده سنه</placeName> قدر ممتد اولان يوله <placeName xml:id="place-W1263007701_106">سكة درب سعاده</placeName> تسمیه اولنوب نمره سی قرمزی اوله.</p>
+            <p>(بند خمسين) <placeName type="جاده" ref="باب-الخلق-جاده-سى" xml:id="place-W1263007701_104">باب الخلق جاده
+                  سندن</placeName> بدأ ايله <placeName type="جاده" ref="حمزاویه-جاده-سى" xml:id="place-W1263007701_105">حمزاویه
+                  جاده سنه</placeName> قدر ممتد اولان يوله <placeName type="سكة" ref="سكة-درب-سعاده" xml:id="place-W1263007701_106">سكة درب سعاده</placeName> تسمیه اولنوب نمره سی قرمزی اوله.</p>
          </div>
          <div xml:id="W1263007702" resp="#eAE">
             <head><date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣</date><bibl><biblScope unit="issue">نمره ٧٧</biblScope><biblScope unit="page">ص ٢</biblScope></bibl></head>
@@ -386,18 +386,18 @@
                <row>
                   <cell>اجمال</cell>
                   <cell>عدد</cell>
-                  <cell><placeName xml:id="place-W1263007801_01">درب الاخمر
+                  <cell><placeName type="ثمن" ref="درب-الاخمر-ثمنى" xml:id="place-W1263007801_01">درب الاخمر
                      ثمننده</placeName></cell>
                </row>
                <row>
                   <cell>٠١</cell>
                   <cell>01</cell>
-                  <cell><placeName xml:id="place-W1263007801_02"><orgName ref="جامع-مؤيد" type="جامع">جامع مؤيدك</orgName></placeName> سكز كمرى منهدم اولمش</cell>
+                  <cell><placeName type="جامع" ref="جامع مؤيد" xml:id="place-W1263007801_02"><orgName ref="جامع-مؤيد" type="جامع">جامع مؤيدك</orgName></placeName> سكز كمرى منهدم اولمش</cell>
                </row>
                <row>
                   <cell/>
                   <cell>عدد </cell>
-                  <cell><placeName xml:id="place-W1263007801_03">جمليه ثمننده</placeName></cell>
+                  <cell><placeName type="ثمن" ref="جمليه-ثمنى" xml:id="place-W1263007801_03">جمليه ثمننده</placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -412,7 +412,7 @@
                <row>
                   <cell/>
                   <cell>عدد </cell>
-                  <cell><placeName xml:id="place-W1263007801_04">ازبكيه ثمننده</placeName></cell>
+                  <cell><placeName type="ثمن" ref="ازبكيه-ثمنى" xml:id="place-W1263007801_04">ازبكيه ثمننده</placeName></cell>
                </row>
                <row>
                   <cell/>
@@ -437,30 +437,30 @@
                <row><cell/><cell>٠٢</cell><cell>مناره کلاهی</cell><cell>کذا</cell><cell/></row>
                <row><cell/><cell>٠١</cell><cell>کذا</cell><cell>کذا</cell><cell>بونك التنده دخى برخاتون قالوب اولمش</cell></row>
                <row><cell>٢٠</cell><cell>٠١</cell><cell>صهريج</cell><cell>کذا</cell><cell/></row>
-               <row><cell/><cell/><cell>عدد</cell><cell><placeName xml:id="place-W1263007801_05">درب الجماميز ثمننده</placeName></cell><cell/></row>
+               <row><cell/><cell/><cell>عدد</cell><cell><placeName type="ثمن" ref="درب-الجماميز-ثمنى" xml:id="place-W1263007801_05">درب الجماميز ثمننده</placeName></cell><cell/></row>
                <row><cell/><cell>١٦</cell><cell>خانه نك بعض يرلری زده لنمش وخراب اولمش</cell><cell/><cell/></row>
                <row><cell/><cell>٠١</cell><cell>اوطه نك</cell><cell>کذا</cell><cell/></row>
                <row><cell/><cell>٠٢</cell><cell><orgName type="ایپکخانه">ایپکخانه نك</orgName></cell><cell>کذا</cell><cell/></row>
                <row><cell>٢١</cell><cell>٠٢</cell><cell><orgName type="جامع">جامعك</orgName></cell><cell>کذا</cell><cell/></row>
-               <row><cell/><cell/><cell>عدد</cell><cell><placeName xml:id="place-W1263007801_06">خليفة ثمننده</placeName></cell><cell/></row>
+               <row><cell/><cell/><cell>عدد</cell><cell><placeName ref="خليفة-ثمنى" xml:id="place-W1263007801_06">خليفة ثمننده</placeName></cell><cell/></row>
                <row><cell/><cell>٢٧</cell><cell>خانه نك بعض محللرى ييقلمش</cell><cell/><cell/></row>
                <row><cell/><cell>٠١</cell><cell><orgName type="دكرمن">دكرمنك</orgName></cell><cell>کذا</cell><cell/></row>
                <row><cell>٣٠</cell><cell>٠٢</cell><cell>خانك</cell><cell>کذا</cell><cell/></row>
-               <row><cell/><cell/><cell>عدد</cell><cell><placeName xml:id="place-W1263007801_07">عابدين ثمننده</placeName></cell><cell/></row>
+               <row><cell/><cell/><cell>عدد</cell><cell><placeName type="ثمن" ref="عابدين-ثمنى" xml:id="place-W1263007801_07">عابدين ثمننده</placeName></cell><cell/></row>
                <row><cell/><cell>٠٤</cell><cell>خانه نك بعضلرى خراب اولمش</cell><cell/><cell/></row>
                <row><cell>٠٥</cell><cell>٠١</cell><cell><orgName type="جامع">جامعك</orgName></cell><cell>کذا</cell><cell/></row>
-               <row><cell/><cell/><cell>عدد</cell><cell><placeName xml:id="place-W1263007801_08">باب الشعريه ثمننده</placeName>
+               <row><cell/><cell/><cell>عدد</cell><cell><placeName type="ثمن" ref="باب الشعريه ثمنى" xml:id="place-W1263007801_08">باب الشعريه ثمننده</placeName>
                   </cell><cell/></row>
                <row><cell/><cell>٧</cell><cell>خانه نك برقاج يرلری ویران اولمش</cell><cell/><cell/></row>
                <row><cell>٠٨</cell><cell>١</cell><cell><orgName type="جامع">جامعك</orgName></cell><cell>کذا</cell><cell/></row>
-               <row><cell/><cell/><cell>عدد</cell><cell><placeName xml:id="place-W1263007801_09">قیسون ثمننده</placeName></cell><cell/></row>
+               <row><cell/><cell/><cell>عدد</cell><cell><placeName type="ثمن" ref="قیسون-ثمنى" xml:id="place-W1263007801_09">قیسون ثمننده</placeName></cell><cell/></row>
                <row><cell/><cell>٢</cell><cell>خانه نك برقاج يرلری ييقلمش و برينك يقلان دیوارلری التنده براسب هلاك اولمش </cell><cell/><cell/></row>
                <row><cell/><cell>١</cell><cell><orgName type="بويا-خانه">بويا خانه نك</orgName> بعض محللری زده لنمش وبعض محلری خراب
                      اولمش</cell><cell/><cell/></row>
                <row><cell>٠٥</cell><cell>١</cell><cell>اوفق مسجدك بعض يرلری یيقلش </cell><cell/><cell/></row>
-               <row><cell/><cell/><cell>عدد</cell><cell><placeName xml:id="place-W1263007801_10">اسکی مصر</placeName></cell><cell/></row>
+               <row><cell/><cell/><cell>عدد</cell><cell><placeName ref="اسکی-مصر" xml:id="place-W1263007801_10">اسکی مصر</placeName></cell><cell/></row>
                <row><cell>٠٣</cell><cell>٣</cell><cell>خانه نك برقاج يرلری ييقلمش </cell><cell/><cell/></row>
-               <row><cell/><cell/><cell>عدد</cell><cell><placeName xml:id="place-W1263007801_11">بولاق</placeName></cell><cell/></row>
+               <row><cell/><cell/><cell>عدد</cell><cell><placeName ref="بولاق" xml:id="place-W1263007801_11">بولاق</placeName></cell><cell/></row>
                <row><cell/><cell>١٠</cell><cell>خانه نك بعض طرفلرى خراب اولمش</cell><cell/><cell/></row>
                <row><cell/><cell>٠٣</cell><cell>اوطه نك</cell><cell>کذا</cell><cell/></row>
                <row><cell>١٤</cell><cell>٠١</cell><cell>مناره نك</cell><cell>کذا</cell><cell/></row>
@@ -469,14 +469,14 @@
             <p>بوزلزلۀ مهوله نك مصرده و قوعی سبقت اتمامش اولوب بالاده مذکور منهدم اولان محللردن غیری
                بحفظه تعالى يالكزبر خانون و بر چوجق و بر رأس اسبدن غيری يه مضرت وقوع بولمامشدر زلزلۀ
                مرقومه عموما اقلیم مصر محروسه ده محسوس اولوب انجق بعض محللرده شدتلو وبعض يرلرده
-               خفيفچه وقوع بولمش وكذلك <placeName xml:id="place-W1263007801_12">اسکندريه</placeName> ده دخی اولقدر
+               خفيفچه وقوع بولمش وكذلك <placeName ref="اسکندريه" xml:id="place-W1263007801_12">اسکندريه</placeName> ده دخی اولقدر
                شدتلو اولمامش اولدیغی مؤخرا اطراف واكنافدن وارد اولان مکاتیبدن استنباط اولنمشدر.</p>
          </div>
          <div xml:id="W1263007802" resp="#eAE">
             <head><date when-custom="1263-09-04">٤ رمضان ١٢٦٣</date><bibl><biblScope unit="issue">نمره ٧٨</biblScope>
                   <biblScope unit="page">ص ٤</biblScope></bibl></head>
             <head>اعلانات</head>
-            <p><placeName xml:id="place-W1263007802_01">عقادین رومی سمتنده</placeName> واقع اوست
+            <p><placeName type="سمت" ref="عقادین-رومی-سمتى" xml:id="place-W1263007802_01">عقادین رومی سمتنده</placeName> واقع اوست
                قاتده اون براوطه و اوچ صفه و بر حمام و بر مطبخ و الت قاتده بر دکرمن و ایكى حولى و بر
                باغچه و بر صفه و بر مطبخ بولنور <persName>سید محمود عابدینك</persName> بر باب خانه سی
                صاتيلق اولوب استکلوسی وار ایسه دلال باشئ مومی الیهدن صورمسی اعلان اولنمشدر.</p>
@@ -485,7 +485,7 @@
             <head><date when-custom="1263-09-11">١١ رمضان ١٢٦٣</date><bibl><biblScope unit="issue">نمره ٧٩</biblScope>
                   <biblScope unit="page">ص ٤</biblScope></bibl></head>
             <head>اعلانات</head>
-            <p><placeName xml:id="place-W1263007901_01">سوق سلاحده</placeName> واقع اوست قاتده التى اوطه
+            <p><placeName type="سوق" ref="سوق-سلاح" xml:id="place-W1263007901_01">سوق سلاحده</placeName> واقع اوست قاتده التى اوطه
                برحمام و بر مطبخ و بر کيلار والت قاتده بر منظره و ایکی حیوان آلور بر آخور و بر دکرمن
                و بر مغازه و بر قيو و براچق حولیسی بولنور خان <persName role="خلیل بازاری شيخى">خلیل
                   بازاری شيخى خورشيد اغانك</persName> بر باب خانه سی صاتیلق اولوب استکلوسی وار ایسه
@@ -495,8 +495,8 @@
          <div xml:id="W1263007902" resp="#eAE">
             <head><date when-custom="1263-09-11">١١ رمضان ١٢٦٣</date><bibl><biblScope unit="issue">نمره ٧٩</biblScope>
                   <biblScope unit="page">ص ٤</biblScope></bibl></head>
-            <p><placeName xml:id="place-W1263007902_01">قيسون سمتنده</placeName>
-               <placeName xml:id="place-W1263007902_02">جن على اسمیله مسمى محله ده</placeName> كائن اوست
+            <p><placeName type="سمت" ref="قيسون سمتى" xml:id="place-W1263007902_01">قيسون سمتنده</placeName>
+               <placeName ref="جن-على-محله-سى" xml:id="place-W1263007902_02">جن على اسمیله مسمى محله ده</placeName> كائن اوست
                قاتده بش اوطه و برمطبخ و بركيلار و الت قاتده بر سلاملق بر اوطه و ایکی مغازه و اوچ
                حيوان آلور برآخور و بر اوفق منظره و بر قيو و بر اچق حولیسی موجود <persName>سابق غربیه
                   ده مهندس سليمان طاهر افندينك</persName> اليوم <rs type="مزاد">مزادده</rs> یکرمی
@@ -506,8 +506,8 @@
          <div xml:id="W1263007903" resp="#eAE">
             <head><date when-custom="1263-09-11">١١ رمضان ١٢٦٣</date><bibl><biblScope unit="issue">نمره ٧٩</biblScope>
                   <biblScope unit="page">ص ٤</biblScope></bibl></head>
-            <p><placeName xml:id="place-W1263007903_01">حارة السقا يينده</placeName>
-               <placeName xml:id="place-W1263007903_02">درب السمان نام زقاقده</placeName> واقع
+            <p><placeName type="حارة" ref="حارة-السقايين" xml:id="place-W1263007903_01">حارة السقا يينده</placeName>
+               <placeName type="زقاق" ref="درب-السمان زقاقى" xml:id="place-W1263007903_02">درب السمان نام زقاقده</placeName> واقع
                اوست قاتده درت اوطه و برمطبخ و بر كيلار و ألت قاتده بر منظره و بر چامكان و بر مغازه و
                بر قيوسی و اچق بر حولیسی بولنور <persName role="معلم">معلم بشاره</persName> بالوطك
                الان يدى بيك سكز يوز غروشه چیقمش قوناغی صاتيلق اولوب طالبی وار ایسه دلال باشئ مذکوردن
@@ -517,7 +517,7 @@
             <head><date when-custom="1263-09-25">٢٥ رمضان ١٢٦٣</date><bibl><biblScope unit="issue">نمره ٨١</biblScope>
                   <biblScope unit="page">ص ٤</biblScope></bibl></head>
             <head>اعلانات</head>
-            <p><placeName xml:id="place-W1263008101_01">بولاقده</placeName> كائن اوست قاتده بش اوطه و الت قاتده ایکی
+            <p><placeName ref="بولاق" xml:id="place-W1263008101_01">بولاقده</placeName> كائن اوست قاتده بش اوطه و الت قاتده ایکی
                مغازه و بر حولیسی و خارجنده بش دكان و بر قهوه سی بولنور سنه ده یکری کیسه اقچه اجرت
                کتورر <persName>استانه لی حسن پاشا حضرتلرينك</persName> اليوم <rs type="مزاد">مزادده</rs> يوزاللى کیسه اقچه يه چیقمش بر باب خانى صاتیلق اولوب استکلوسی وار ايسه
                   <persName role="دلال باشی">دلال باشی سید مصطفادن</persName> استدلال اتمسى اعلان
@@ -526,9 +526,9 @@
          <div xml:id="W1263008102" resp="#eAE">
             <head><date when-custom="1263-09-25">٢٥ رمضان ١٢٦٣</date><bibl><biblScope unit="issue">نمره ٨١</biblScope>
                   <biblScope unit="page">ص ٤</biblScope></bibl></head>
-            <p><placeName xml:id="place-W1263008102_01">میر حسین قنطره سی
+            <p><placeName type="سمت" ref="میر-حسین-قنطره-سی-سمتى" xml:id="place-W1263008102_01">میر حسین قنطره سی
                   سمتنده</placeName>
-               <placeName xml:id="place-W1263008102_02">دقاق محله سنده</placeName> واقع اوست قاتده بش اوطه و بر
+               <placeName ref="دقاق-محله-سى" xml:id="place-W1263008102_02">دقاق محله سنده</placeName> واقع اوست قاتده بش اوطه و بر
                حمام و بر مطبخ و بر كيلار و الت قاتده برمنظره و بر مغازه و بر دكرمن و ایکی حیوان آلور
                بر آخور و بر قيو و بر اچيق حولیسی بولنور <persName>عنتابلى سید علی نام شخصك حلیله
                   سنه</persName> متعلق بر باب خانه صاتيلق اولوب راغبى وار ایسه دلال باشئ مومى اليهدن
