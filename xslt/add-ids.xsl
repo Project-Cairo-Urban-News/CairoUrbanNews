@@ -9,6 +9,8 @@
     
     <xsl:mode on-no-match="shallow-copy"/>
     
+    <xsl:variable name="lang" select="//t:text/@xml:lang"/>
+    
     <!-- Suppress default attributes -->
     <xsl:template match="@anchored|@part|@default|@sample|@complete|@instant|@ordered|@org|@status|@full"/>
     
@@ -33,7 +35,7 @@
     <xsl:template match="t:div[t:head[t:date/@when-custom]][//t:revisionDesc[@status='cleared']]">
         <xsl:copy>
             <xsl:choose>
-                <xsl:when test="matches(@xml:id, 'W[0-9]{11}')">
+                <xsl:when test="matches(@xml:id, 'W[AO][0-9]{11}')">
                     <xsl:copy-of select="@*"/>
                 </xsl:when>
                 <xsl:otherwise>
@@ -45,7 +47,7 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="t:placeName[not(matches(@xml:id,'^place-[0-9]{11}_\d{2}$'))][//t:revisionDesc[@status='cleared']]">
+    <xsl:template match="t:placeName[not(matches(@xml:id,'^place-W[AO][0-9]{11}_\d{2}$'))][//t:revisionDesc[@status='cleared']]">
         <xsl:variable name="article" select="ancestor::t:div[t:head/t:date/@when-custom][1]"/>
         <xsl:variable name="i" select="count(preceding::t:placeName[ancestor::t:div = $article]) + count(ancestor::t:placeName) + 1"/>
         <xsl:copy>
@@ -58,7 +60,7 @@
     <xsl:function name="fn:div-id">
         <xsl:param name="div"/>
         <xsl:variable name="issue" select="fn:convert(normalize-space($div/t:head/t:bibl/t:biblScope[@unit='issue']))"/>
-        <xsl:sequence>W{substring($div/t:head[1]/t:date[@when-custom]/@when-custom, 1, 4)}{normalize-space(fn:pad($issue, 4))}{fn:pad(string(count($div/preceding-sibling::t:div[fn:convert(t:head/t:bibl/t:biblScope[@unit='issue']) = $issue]) + 1), 2)}</xsl:sequence>
+        <xsl:sequence>W{upper-case(substring($lang,1,1))}{substring($div/t:head[1]/t:date[@when-custom]/@when-custom, 1, 4)}{normalize-space(fn:pad($issue, 4))}{fn:pad(string(count($div/preceding-sibling::t:div[fn:convert(t:head/t:bibl/t:biblScope[@unit='issue']) = $issue]) + 1), 2)}</xsl:sequence>
     </xsl:function>
     
     <xsl:function name="fn:pad">
