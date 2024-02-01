@@ -57,6 +57,9 @@ td {
   --bs-tooltip-bg: var(--bs-gray-800);
   --bs-tooltip-opacity: 1;
 }
+.highlight {
+  background-color: yellow;
+}
 tei-choice tei-sic {
   display: none;
 }
