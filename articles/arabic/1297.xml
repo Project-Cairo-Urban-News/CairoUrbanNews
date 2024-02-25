@@ -588,8 +588,8 @@
                      ١٢٩٧</date><?oxy_comment_start author="Sarah" timestamp="20231127T125501+0200" comment="The first two pages are missing in the original in Dar al-Kutub"?><bibl><?oxy_comment_end?><biblScope unit="issue">نمرة ٨٦٦</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope>
                </bibl></head>
-            <head>نص اعلان وارد من <orgName type="بيت-المال" ref="بيت-المال">بيت
-               المال</orgName></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="بيت-المال">بيت
+                  المال</orgName></head>
             <head>عن بيان العقار الأيل لبيت المال من مذكورين متوفيين بالمحروسة</head>
             <table cols="3">
                <row>
@@ -610,26 +610,25 @@
                <row>
                   <cell/>
                   <cell>١</cell>
-                  <cell>حصة ٤
-                     <?oxy_comment_start author="Sarah" timestamp="20231127T130148+0200" comment="symbol like w
-"?>w<?oxy_comment_end?>
-                     من منزل بييرجوان مخلفة عن <persName>الست شمس نور البيضا</persName> بحجة لم يوضح
-                     بها حكر ومقاس المنزل الذى منه الحصة المذكورة ١٣٢,٨٤ متر مسطح</cell>
+                  <cell>حصة ٤ <g>w</g> من منزل بييرجوان مخلفة عن <persName>الست شمس نور
+                        البيضا</persName> بحجة لم يوضح بها حكر ومقاس المنزل الذى منه الحصة المذكورة
+                     ١٣٢,٨٤ متر مسطح</cell>
                </row>
                <row>
                   <cell/>
                   <cell>١</cell>
                   <cell>دكان ب<placeName type="خط" ref="خط-الامشاطية">خط الأمشاطية</placeName> مخلفة
-                     عن <persName>الست شمس نور البيضا</persName>مستولده المرحوم <persName>سليمان أغا
-                        السلحدار</persName> بغير حجة ومقاسها ٣,٢ زراع وآخر مرساها بسعر ٢٧٠٠ قرش
+                     عن <persName>الست شمس نور البيضا</persName> مستولده المرحوم <persName>سليمان
+                        أغا السلحدار</persName> بغير حجة ومقاسها ٣,٢ زراع وآخر مرساها بسعر ٢٧٠٠ قرش
                      صاغ</cell>
                </row>
                <row>
                   <cell/>
                   <cell>١</cell>
-                  <cell>نص دكان ب<placeName ref="الصنادقية">الصنادقية</placeName> مخلفة عن
-                        <persName>زبيدة معتوقة <persName>زهرة</persName></persName> بحجة لم يوضح بها
-                     حكر ومقاسها ١٤,١٧ ذراع وأخر مرساها بسعر ٣٦٥٠ قرش صاغ</cell>
+                  <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>نص<?oxy_custom_end?>
+                     دكان ب<placeName ref="الصنادقية">الصنادقية</placeName> مخلفة عن <persName
+                        role="معتوقة">زبيدة معتوقة <persName>زهرة</persName></persName> بحجة لم يوضح
+                     بها حكر ومقاسها ١٤,١٧ ذراع وأخر مرساها بسعر ٣٦٥٠ قرش صاغ</cell>
                </row>
                <row>
                   <cell/>
@@ -716,7 +715,7 @@
                   <cell/>
                   <cell>١</cell>
                   <cell>منزل ب<placeName type="درب" ref="درب-الحصر">درب الحصر</placeName> مخلف عن
-                        <persName>عثمان أغا ديار بكرلى</persName> بحجة لم يوضح بها حكر ومقاسه ٨٩,٦٧
+                        <persName>عثمان أغا دياربكرلى</persName> بحجة لم يوضح بها حكر ومقاسه ٨٩,٦٧
                      متر</cell>
                </row>
                <row>
@@ -744,7 +743,7 @@
                   <cell/>
                   <cell>١</cell>
                   <cell>حصة ٥ قراريط من منزل ب<placeName ref="حارة-بنت-المعمار" type="حارة">حارة بنت
-                        المعمار</placeName> مخلفه عن <persName>بنبة معتوقة
+                        المعمار</placeName> مخلفه عن <persName role="معتوقة">بنبة معتوقة
                            <persName>سلوناس</persName></persName> بغير حجة ومقاسه ٣٢٤٧,٠٥ متر آخر
                      المرسى فيها بمبلغ ١٦٤٠٠ صاغ</cell>
                </row>
@@ -778,7 +777,7 @@
                <row>
                   <cell/>
                   <cell>١</cell>
-                  <cell>منزل ب<placeName ref="كوم-الشيخ-سلامة">كوم الشيخ سلامة</placeName>مخلف منه
+                  <cell>منزل ب<placeName ref="كوم-الشيخ-سلامة">كوم الشيخ سلامة</placeName> مخلف منه
                      ١٨ قيراط عن <persName>أمنة روميه</persName> بحجة ليس بها حكر و٦ قراريط باقى
                      المنزل تعلق شخص غايب لا يعلم محله ومقاسه ١٧,٤٨ ذراع آخر مرساه بمبلغ ١٥٠٠ قرش
                      صاغ</cell>
@@ -787,7 +786,7 @@
                   <cell/>
                   <cell>١</cell>
                   <cell>حصة ١٦ قيراط من منزل ب<persName type="عطفة" ref="عطفة-سنان">عطفة
-                        سنان</persName> مخلفة عن<persName>ترك الداية</persName> ومقاسه ٥٦,٥٨ متر
+                        سنان</persName> مخلفة عن <persName>ترك الداية</persName> ومقاسه ٥٦,٥٨ متر
                      بحجج لم يوضح بهم حكر</cell>
                </row>
                <row>
@@ -818,7 +817,7 @@
                   <cell/>
                   <cell>١</cell>
                   <cell>حصة ٩ قراريط من منزل ب<placeName ref="حارة-مشمش" type="حارة">حارة
-                        مشمش</placeName> مخلفه عن<persName>حسين بيرم الصباغ</persName> بحجة لم بها
+                        مشمش</placeName> مخلفه عن <persName>حسين بيرم الصباغ</persName> بحجة لم بها
                      حكر ومقاسه ١٢٥,٢٧ متر</cell>
                </row>
                <row>
@@ -847,7 +846,7 @@
                <row>
                   <cell/>
                   <cell>١</cell>
-                  <cell>حصة قيراطين مهو من منزل ب<placeName ref="العدوى">العدوى</placeName> مخلفة عن
+                  <cell>حصة قيراطين <g>مهو</g> من منزل ب<placeName ref="العدوى">العدوى</placeName> مخلفة عن
                         <persName>محمد رمضان الدخاخنى</persName> بحجة ليس بها حكر آخر مرساها بمبلغ
                      ١٩٠ قرش صاغ</cell>
                </row>
@@ -898,10 +897,10 @@
                   <cell>١</cell>
                   <cell>حصة قيراط ونصف من خربه ب<placeName ref="حوش-البقالى" type="حوش">حوش
                         البقالى</placeName> ب<placeName ref="درب-عجور" type="درب">درب
-                        عجور</placeName> بها سبعة قيعان مخلفة عن <persName>زهره السودا معتوقة
-                           <persName>نفيسة الروزنامجة</persName></persName> بغير حجة ومقاسها قدره
-                     ١٦١,٢٠ مترا آخر المرسى بمبلغ ٥٤٠ قرش صاغ ويخص زوج المرحومه عائشة نصف قيراط من
-                     ذلك وآخر المرسى بمبلغ ٩٠٠ قرش صاغ</cell>
+                        عجور</placeName> بها سبعة قيعان مخلفة عن <persName role="معتوقة">زهره السودا
+                        معتوقة <persName>نفيسة الروزنامجة</persName></persName> بغير حجة ومقاسها
+                     قدره ١٦١,٢٠ مترا آخر المرسى بمبلغ ٥٤٠ قرش صاغ ويخص زوج المرحومه عائشة نصف قيراط
+                     من ذلك وآخر المرسى بمبلغ ٩٠٠ قرش صاغ</cell>
                </row>
                <row>
                   <cell>٨</cell>
@@ -932,8 +931,7 @@
             <head><bibl><date when-custom="1297-02-17">١٧ ربيع الثانى ١٢٩٧</date>
                   <date when="1880-03-28">٢٨ مارث ١٨٨٠</date>
                   <biblScope unit="issue">نمرة ٨٦٧</biblScope>
-                  <?oxy_comment_start author="Sarah" timestamp="20231012T193100+0200" comment="This news  its number cells  need to be checked from the original"?><biblScope unit="page"><?oxy_comment_end?><?oxy_comment_start author="Sarah" timestamp="20231127T134601+0200" comment="the page number in the original is written 3 but it is the fourth page"?>صفحة
-                     ٤<?oxy_comment_end?></biblScope></bibl></head>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head>تابع ما ورد من <orgName type="بيت-المال" ref="بيت-المال">بيت
                المال</orgName></head>
             <head>عن بيان العقار الأيل من مذكوريين متوفيين بالمحروسة</head>
