@@ -2345,26 +2345,26 @@
                      الاشغال</orgName></persName> وحضرة <persName>ابراهيم بك سالم رئيس <orgName ref="هندسة-القسم-الغربي-التابع-لنظارة-الاشغال">هندسة القسم
                   الغربى</orgName></persName> التابع للنظارة المشار اليها</p>
          </div><?oxy_custom_end?>
-         <div xml:id="w145" resp="#eAK">
+         <div xml:id="w145" resp="#eAK #eSG">
             <head><date when-custom="1299-04-07">٧ ربيع الثانى ١٢٩٩</date>
                <date when="1882-02-25">٢٥ فبراير ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٤٢</biblScope>
                   <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
-            <head>جدول من <orgName ref="قسم املاك الميري بالمالية" type="  قسم">قسم أملاك الميرى
+            <head>جدول من <orgName ref="قسم-املاك-الميرى-بالمالية" type="قسم">قسم أملاك الميرى
                   بالمالية</orgName></head>
             <head>ببيان المباع من الاطيان والاملاك الاميرية فى شهر يناير سنة ٨٢</head>
             <table>
                <row>
-                  <cell>جملة التمن</cell>
-                  <cell>مباع مما هو مندرج بالكشوفة المتقدمة من الجهات عن اللازم مبيعه وصار ويصير طبع
-                     جداول بيانها ونشرها</cell>
-                  <cell/>
+                  <cell cols="3">جملة التمن</cell>
+                  <cell cols="10">مباع مما هو مندرج بالكشوفة المتقدمة من الجهات عن اللازم مبيعه وصار
+                     ويصير طبع جداول بيانها ونشرها</cell>
+                  <cell cols="3"/>
                </row>
                <row>
-                  <cell>الواقع به البيع</cell>
-                  <cell>تتمين القومسيون</cell>
-                  <cell>مقادير المقاسات</cell>
-                  <cell>قيمة الزيادة من التتمين</cell>
+                  <cell cols="3">الواقع به البيع</cell>
+                  <cell cols="3">تتمين القومسيون</cell>
+                  <cell cols="7">مقادير المقاسات</cell>
+                  <cell cols="3">قيمة الزيادة من التتمين</cell>
                </row>
                <row>
                   <cell>-</cell>
@@ -2404,36 +2404,44 @@
                </row>
             </table>
          </div>
-         <div xml:id="w146" resp="#eAK">
+         <div xml:id="w146" resp="#eAK #eSG">
             <head><date when-custom="1299-04-07">٧ ربيع الثانى ١٢٩٩</date>
                <date when="1882-02-25">٢٥ فبراير ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٤٢</biblScope>
                   <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
-            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="ديوان الاشغال العمومية" type="ديوان">ديوان الاشغال العمومية</orgName></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="ديوان-الاشغال-العمومية"
+                  type="ديوان">ديوان الاشغال العمومية</orgName></head>
             <p>ديوان الاشغال العمومية يشهر فى ال<rs type="مزاد">مزاد</rs> مشترى ألفين مقشة خلنج لزوم
-               الشوارع والجناين فى يوم الثلاثاء <date when="1882-02-28">٢٨ فبراير سنة ٨٢</date>
-               الموافق <date when-custom="1299-04-10">١٠ ربيع آخر سنة ٩٩</date> الساعه ٢ افرنكى بعد
-               الظهر على مقتضى شروط موجودة بـ<orgName ref="قلم مشتروات ديوان الاشغال" type="قلم">قلم
-                  المشتروات بالديوان</orgName> المشار اليه فكل من له رغبة فى توريد ذلك فيحضر للديوان
-               لاجل مناظرته العينة الموجودة بالقلم وأطلاعه على الشروط المحررة عن ذلك كل يوم من
-               الساعة ١١ افرنكى قبل الظهر لغاية الساعه ٣ افرنكى بعد الظهر بحيث لو مضى الميعاد المحدد
-               لقفل المزاد وبعدها حضر أحد فلا يقبل منه أدنى قول فى ذلك والعطا يكون داخل مظاريف
-               مختومة بالشمع الاحمر </p>
+               الشوارع والجناين فى يوم الثلاثاء ٢٨ فبراير سنة ٨٢ الموافق ١٠ ربيع آخر سنة ٩٩ الساعه ٢
+               افرنكى بعد الظهر على مقتضى شروط موجودة بـ<orgName
+                  ref="قلم-المشتروات-بديوان-الاشغال-العمومية" type="قلم">قلم المشتروات
+                  بالديوان</orgName> المشار اليه فكل من له رغبة فى توريد ذلك فيحضر للديوان لاجل
+               مناظرته العينة الموجودة بالقلم وأطلاعه على الشروط المحررة عن ذلك كل يوم من الساعة ١١
+               افرنكى قبل الظهر لغاية الساعه ٣ افرنكى بعد الظهر بحيث لو مضى الميعاد المحدد لقفل
+               المزاد وبعدها حضر أحد فلا يقبل منه أدنى قول فى ذلك والعطا يكون داخل مظاريف مختومة
+               بالشمع الاحمر</p>
          </div>
-         <div xml:id="w147" resp="#eAK">
+         <div xml:id="w147" resp="#eAK #eSG">
             <head><date when-custom="1299-04-07">٧ ربيع الثانى ١٢٩٩</date>
                <date when="1882-02-25">٢٥ فبراير ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٤٢</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName type="نظارة" ref="نظارة-الاشغال-العمومية">نظارة الاشغال العمومية</orgName></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName type="نظارة"
+                  ref="نظارة-الاشغال-العمومية">نظارة الاشغال العمومية</orgName></head>
             <p>نظارة الاشغال العمومية ستطرح فى الـ<rs type="مزاد">مزاد</rs> يوم السبت ٤ مارث سنة ٨٢
-               الساعه ٢ افرنكى بعد الظهر عملية ترميمات وتصليحات وأعمال شرايح زجاج بـ<placeName ref="محلات الحكمخانة" type="محلات">محلات <placeName ref="الحكمخانة">الحكمخانة</placeName></placeName> و<placeName ref="مخازن الموبيليات بالقصر العيني" type="مخازن">مخازن الموبليات بـ<placeName ref="القصر العيني"><orgName ref="القصر العينى" type="قصر">القصر
+               الساعه ٢ افرنكى بعد الظهر عملية ترميمات وتصليحات وأعمال شرايح زجاج بـ<placeName
+                  ref="محلات-الحكمخانة" type="محلات">محلات <orgName ref="الحكمخانة"><placeName
+                        ref="الحكمخانة">الحكمخانة</placeName></orgName></placeName> و<placeName
+                  ref="مخازن-الموبيليات-بالقصر-العيني" type="مخازن">مخازن الموبليات بـ<placeName
+                     ref="القصر العيني"><orgName ref="القصر-العينى" type="قصر">القصر
                         العينى</orgName></placeName></placeName> على مقتضى مقايستين ابتدائيتين
-               مجموعهما مبلغ ١٠٤٦٢ قرشا وشروط موجودة بـ<orgName ref="قلم الهندسة بديوان الاشغال" type="قلم">قلم الهندسة بالديوان</orgName> فكل من يرغب اجرائها يمكنه الاطلاع على
-               المقايستين والشروط من الساعه ١١ قبل الظهر لغاية الساعه ٤ وقبول العطا يكون داخل مظاريف
-               مغلوقة مختوما عليها بالشمع الاحمر </p>
+               مجموعهما مبلغ ١٠٤٦٢ قرشا وشروط موجودة بـ<orgName
+                  ref="قلم-الهندسة-بديوان-الاشغال-العمومية" type="قلم">قلم الهندسة
+                  بالديوان</orgName> فكل من يرغب اجرائها يمكنه الاطلاع على المقايستين والشروط من
+               الساعه ١١ قبل الظهر لغاية الساعه ٤ وقبول العطا يكون داخل مظاريف مغلوقة مختوما عليها
+               بالشمع الاحمر</p>
          </div>
-         <div xml:id="w148" resp="#eAK">
+         <div xml:id="w148" resp="#eAK #eSG">
             <head><date when-custom="1299-04-09">٩ ربيع الثانى ١٢٩٩</date>
                <date when="1882-02-27">٢٧ فبراير ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٤٤</biblScope>
@@ -2443,7 +2451,7 @@
                ايرادات ومصروفات الثلاثة عشر شهرا من سنة ١٨٨٠ </p>
             <table>
                <row>
-                  <cell>فرق فى سنة ١٨٨٢</cell>
+                  <cell cols="2">فرق فى سنة ١٨٨٢</cell>
                   <cell>مصروفات من ابتداء يناير ٨١ لغاية ٣١ يناير سنة ١٨٨٢</cell>
                   <cell>مصروفات من ابتداء يناير سنة ٠٨ (مكتوب كدا) لغاية ٣١ يناير سنة ١٨٨١</cell>
                   <cell>مصروفات نظارات ومصالح</cell>
@@ -2491,7 +2499,9 @@
                   <cell>٠٠٠٢٥٩</cell>
                   <cell>٠٠٤٠٨٩٧</cell>
                   <cell>٠٠٤٠٦٣٨</cell>
-                  <cell>(٤) كابينيه الحضرة الخديويه (المعيه السنيه)</cell>
+                  <cell>(٤) <orgName type="كابينيه" ref="كابينيه-الحضرة-الخديويه">كابينيه الحضرة
+                        الخديويه</orgName> (<orgName ref="المعية-السنيه">المعيه
+                     السنيه</orgName>)</cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
@@ -2505,7 +2515,7 @@
                   <cell>٠٠٠٦٩٧</cell>
                   <cell>٠٠١١٤٢٧</cell>
                   <cell>٠٠١٠٧٣٠</cell>
-                  <cell>(٦) <orgName ref="نظارة الخارجيه" type="نظارة">نظارة
+                  <cell>(٦) <orgName ref="نظارة-الخارجيه" type="نظارة">نظارة
                      الخارجيه</orgName></cell>
                </row>
                <row>
@@ -2513,7 +2523,7 @@
                   <cell>٠٧٢٠٨٠</cell>
                   <cell>٠٥١٣٣٦٥</cell>
                   <cell>٠٤٤١٢٨٥</cell>
-                  <cell>(٧) <orgName ref="نظارة الماليه" type="نظارة">نظارة الماليه</orgName></cell>
+                  <cell>(٧) <orgName ref="نظارة-الماليه" type="نظارة">نظارة الماليه</orgName></cell>
                </row>
                <row>
                   <cell/>
@@ -2542,7 +2552,7 @@
                   <cell>٠١٥٠٣٣</cell>
                   <cell>٠٠٦١٣٦٦</cell>
                   <cell>٠٠٤٦٣٣٣</cell>
-                  <cell>(٩) <orgName ref="نظارة المعارف" type="نظارة">نظارة المعارف</orgName></cell>
+                  <cell>(٩) <orgName ref="نظارة-المعارف" type="نظارة">نظارة المعارف</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
@@ -2573,7 +2583,9 @@
                   <cell/>
                   <cell/>
                   <cell/>
-                  <cell>(١٣) <orgName ref="السكك-الحديد">السكك الحديد</orgName> و<orgName ref="التلغرافات">التلغرافات</orgName> و<orgName ref="مينا-اسكندرية"><placeName ref="مينا-اسكندرية" type="مينا">مينا
+                  <cell>(١٣) <orgName type="السكك-الحديد">السكك الحديد</orgName> و<orgName
+                        type="التلغرافات">التلغرافات</orgName> و<orgName ref="مينا-اسكندرية"
+                           ><placeName ref="مينا-اسكندرية" type="مينا">مينا
                         اسكندرية</placeName></orgName></cell>
                </row>
                <row>
@@ -2595,35 +2607,38 @@
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٠٠٦٧٧٩</cell>
                   <cell>٠٠٠٨١٠٥</cell>
-                  <cell><orgName ref="سكة-حديد-حلوان">سكة حديد <placeName ref="حلوان">حلوان</placeName></orgName></cell>
+                  <cell><orgName ref="سكة-حديد-حلوان" type="سكة-حديد">سكة حديد <placeName
+                           ref="حلوان">حلوان</placeName></orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٠٤٩٥٥</cell>
                   <cell>٠٠٦٠٥١٠</cell>
                   <cell>٠٠٥٥٥٥٥</cell>
-                  <cell>(١٤) <orgName ref="كمارك">كمارك</orgName></cell>
+                  <cell>(١٤) <orgName type="كمارك">كمارك</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٠٨٠٤٩</cell>
                   <cell>٠٠٧٦٨٣٦</cell>
                   <cell>٠٠٦٨٧٨٧</cell>
-                  <cell>(١٥) بوسته</cell>
+                  <cell>(١٥) <orgName type="بوسته">بوسته</orgName></cell>
                </row>
                <row>
                   <cell>٠٢١٥٥٠</cell>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠١٣٤١٠٥</cell>
                   <cell>٠١٥٥٦٥٥</cell>
-                  <cell>(١٦) وابورات البوسته الخديويه</cell>
+                  <cell>(١٦) وابورات <orgName type="بوسته" ref="البوسته-الخديويه">البوسته
+                        الخديويه</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٢٢٦٠١</cell>
                   <cell>٠٠٥٤٦٩٣</cell>
                   <cell>٠٠٢٢٠٩٢</cell>
-                  <cell>(١٧) مصلح</cell>
+                  <cell>(١٧) <orgName type="مصلح"
+                        ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>مصلح<?oxy_custom_end?></orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
@@ -2658,21 +2673,22 @@
                   <sic>٨١٨١</sic>
                   <corr>١٨٨١</corr>
                </choice></p>
-            <p>مدير عموم الحسابات</p>
-            <p><persName>جرالد فيتش جرام</persName></p>
+            <p><persName>مدير عموم الحسابات جرالد فيتش جرام</persName></p>
          </div>
-         <div xml:id="w149" resp="#eAK">
+         <div xml:id="w149" resp="#eAK #eSG">
             <head><date when-custom="1299-04-09">٩ ربيع الثانى ١٢٩٩</date>
-               <date when="1882-02-27">٢٧ فبراير الافرنكى ١٨٨٢</date>
+               <date when="1882-02-27">٢٧ فبراير ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٤٤</biblScope>
                   <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
-            <head>ميزانية غير اعتياديه عن سنة ١٨٨١ مصدقا عليها من الحضرة الخديويه بتاريخ <date when="1881-07-16">١٦ لوليه سنة ١٨٨١</date></head>
+            <head>ميزانية غير اعتياديه عن سنة ١٨٨١ مصدقا عليها من الحضرة الخديويه بتاريخ ١٦ لوليه
+               سنة ١٨٨١</head>
             <head>(كشف عن المصروفات التى صار اجراؤها من الميزانيه الغير الاعتيادية عن سنة
                ١٨٨١)</head>
             <table>
                <row>
                   <cell>مربوط مصروفات الميزانيه الغير اعتيادية عن سنة ١٨٨١</cell>
-                  <cell>مصروفات من <date when="1881-07-01">ابتداء لوليه ٨١</date> لغاية <date when="1882-01-31">٣١ يناير سنة ١٨٨٢</date></cell>
+                  <cell>مصروفات من <date when="1881-07-01">ابتداء لوليه ٨١</date> لغاية <date
+                        when="1882-01-31">٣١ يناير سنة ١٨٨٢</date></cell>
                   <cell>مصروفات شهر يناير سنة ١٨٨٢</cell>
                   <cell>
                      <p>(٧)</p>
@@ -2705,7 +2721,7 @@
                   <cell>٠٠١٠١٥</cell>
                   <cell>٠٠٠١٧٥</cell>
                   <cell>٠٠٠٠٢</cell>
-                  <cell>(٣) <orgName ref="نظارة الداحلية" type="نظارة">نظارة
+                  <cell>(٣) <orgName ref="نظارة-الداخلية" type="نظارة">نظارة
                      الداخلية</orgName></cell>
                </row>
                <row>
@@ -2719,7 +2735,9 @@
                   <cell/>
                   <cell/>
                   <cell/>
-                  <cell>(٥) <orgName ref="السكك-الحديد">السكك الحديد</orgName> و<orgName ref="التلغرافات">التلغرافات</orgName> و<orgName ref="مينا-اسكندرية"><placeName ref="مينا-اسكندرية" type="مينا">مينا
+                  <cell>(٥) <orgName type="السكك-الحديد">السكك الحديد</orgName> و<orgName
+                        type="التلغرافات">التلغرافات</orgName> و<orgName ref="مينا-اسكندرية"
+                           ><placeName ref="مينا-اسكندرية" type="مينا">مينا
                         اسكندرية</placeName></orgName></cell>
                </row>
                <row>
@@ -2738,15 +2756,19 @@
                   <cell>٠٧٥٠٠٠</cell>
                   <cell>٠٤٨٥١٦</cell>
                   <cell>٠٠٠٠٠</cell>
-                  <cell>(٦) <orgName ref="وابورات-البوستة-الخديوية">وابورات البوستة
-                        الخديوية</orgName></cell>
+                  <cell>(٦) <orgName ref="وابورات-البوستة-الخديوية">وابورات <orgName type="بوستة"
+                           ref="البوستة-الخديوية">البوستة الخديوية</orgName></orgName></cell>
                </row>
                <row>
                   <cell>١٠٠٠٠٠</cell>
                   <cell>٠٧١٠٤١</cell>
                   <cell>٥٦٠٨٦</cell>
-                  <cell>(٧) <orgName ref="حكمدارية السودان وسواحل البحر الاحمر ومديرية هرر" type="حكمدارية">حكمدارية <placeName ref="السودان">السودان</placeName> وسواحل
-                           <placeName ref="البحر الاحمر">البحر الاحمر</placeName> و<orgName ref="مديرية هرر" type="مديرية">مديرية هرر</orgName></orgName></cell>
+                  <cell>(٧) <orgName ref="حكمدارية-السودان-وسواحل-البحر-الاحمر-ومديرية-هرر"
+                        type="حكمدارية">حكمدارية <placeName ref="السودان">السودان</placeName>
+                           و<placeName type="سواحل" ref="سواحل-البحر-الاحمر">سواحل <placeName
+                              ref="البحر-الاحمر" type="بحر">البحر الاحمر</placeName></placeName>
+                           و<orgName ref="مديرية-هرر" type="مديرية">مديرية
+                     هرر</orgName></orgName></cell>
                </row>
                <row>
                   <cell>٠٤٠٧٠٥</cell>
@@ -2762,9 +2784,9 @@
                </row>
             </table>
          </div>
-         <div xml:id="w150" resp="#eAK">
+         <div xml:id="w150" resp="#eAK #eSG">
             <head><date when-custom="1299-04-10">١٠ ربيع الثانى ١٢٩٩</date>
-               <date when="1882-02-28">٢٨ فبراير الافرنكى ١٨٨٢</date>
+               <date when="1882-02-28">٢٨ فبراير ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٤٥</biblScope>
                   <biblScope unit="page">ص ٢</biblScope></bibl></head>
             <head>كشف عن الايرادات والمصروفات من أول يناير لغاية <date when="1882-01-31">٣١ يناير
@@ -2808,7 +2830,8 @@
                   <cell>٠٠٤١٨٢٢</cell>
                   <cell>٠٠٤٠٨٩٧</cell>
                   <cell>٠٠٠٨٧٦</cell>
-                  <cell>(٤) المعية السنية</cell>
+                  <cell>(٤) <orgName type="المعية-السنية" ref="المعية-السنية">المعية
+                        السنية</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٨٩٣٢</cell>
@@ -2820,7 +2843,7 @@
                   <cell>٠٠١٣١٦٢</cell>
                   <cell>٠٠١١٤٢٧</cell>
                   <cell>٠٠٠١٣٩</cell>
-                  <cell>(٦) <orgName ref="نظارة الخارجيه" type="نظارة">نظارة
+                  <cell>(٦) <orgName ref="نظارة-الخارجيه" type="نظارة">نظارة
                      الخارجيه</orgName></cell>
                </row>
                <row>
@@ -2879,8 +2902,10 @@
                   <cell/>
                   <cell/>
                   <cell/>
-                  <cell>(١٣) <orgName ref="السكك-الحديد">السكك الحديد</orgName> و<orgName ref="التلغرافات">التلغرافات</orgName> و<orgName ref="مينا-اسكندرية"><placeName ref="مينا-اسكندرية" type="مينا">مينا
-                        اسكندرية</placeName></orgName></cell>
+                  <cell>(١٣) <orgName type="السكك-الحديد">السكك الحديد</orgName> و<orgName
+                        type="التلغرافات">التلغرافات</orgName> و<orgName ref="مينا-اسكندرية"
+                        type="مينا"><placeName ref="مينا-اسكندرية" type="مينا">مينا
+                           اسكندرية</placeName></orgName></cell>
                </row>
                <row>
                   <cell>٠٤٤٢٦٦٠</cell>
@@ -2898,44 +2923,45 @@
                   <cell>٠٠٠٥٤٦٦</cell>
                   <cell>٠٠٠٦٧٧٩</cell>
                   <cell>٠٠٠١٤٧</cell>
-                  <cell>٠٠ <orgName ref="سكة-حديد-حلوان">سكة حديد <placeName ref="حلوان">حلوان</placeName></orgName></cell>
+                  <cell>٠٠ <orgName ref="سكة-حديد-حلوان" type="سكة-حديد">سكة حديد <placeName
+                           ref="حلوان">حلوان</placeName></orgName></cell>
                </row>
                <row>
                   <cell>٠٠٦٠١٦٤</cell>
                   <cell>٠٠٦٠٥١٠</cell>
                   <cell>٠٠٠٠٠٠</cell>
-                  <cell>(١٤) <orgName ref="كمارك">الكمارك</orgName></cell>
+                  <cell>(١٤) <orgName type="كمارك">الكمارك</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٧٢٥٠٠</cell>
                   <cell>٠٠٧٦٨٣٦</cell>
                   <cell>٠٠٣٠٢٣</cell>
-                  <cell>(١٥) البوسته</cell>
+                  <cell>(١٥) <orgName type="بوسته">البوسته</orgName></cell>
                </row>
                <row>
                   <cell>٠١٢٦٩٤٥</cell>
                   <cell>٠١٣٤١٠٥</cell>
                   <cell>٠١١٣٢١</cell>
-                  <cell>(١٦) <orgName ref="وابورات-البوستة-الخديوية">وابورات البوستة
-                        الخديوية</orgName></cell>
+                  <cell>(١٦) <orgName ref="وابورات-البوستة-الخديوية">وابورات <orgName type="بوستة"
+                           ref="بوستة-الخديوية">البوستة الخديوية</orgName></orgName></cell>
                </row>
                <row>
                   <cell>٠٠٣٨٩٢١</cell>
                   <cell>٠٠٥٤٦٩٣</cell>
                   <cell>٠٠١٤٤٧</cell>
-                  <cell>(١٧) مصلح</cell>
+                  <cell>(١٧) <orgName type="مصلح"
+                        ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>مصلح<?oxy_custom_end?></orgName></cell>
                </row>
                <row>
                   <cell>٠٠١٥٢٩٥</cell>
                   <cell>٠٠١٣٥٨٧</cell>
                   <cell>٠٠٠٤٣٤</cell>
-                  <cell>(١٨) تمن ورق ودفاتر وبعض أصناف معتاد صرفها لمصالح الميرى من المخازن والاشوان
-                     ومصروفات المخازن والاشوان بمصر</cell>
+                  <cell>(١٨) تمن ورق ودفاتر وبعض أصناف معتاد صرفها ل<orgName type="مصالح"
+                        ref="مصالح-الميرى">مصالح الميرى</orgName> من المخازن والاشوان ومصروفات
+                     المخازن والاشوان بمصر</cell>
                </row>
                <row>
-                  <cell>
-                     <p>٠١٥٠٠٠٠</p>
-                  </cell>
+                  <cell>٠١٥٠٠٠٠</cell>
                   <cell>٠٠١٧٩٨١</cell>
                   <cell>٠٠٠١٦٠</cell>
                   <cell>(١٩) نقود احتياطية لاجل المصروفات الغير منظورة</cell>
