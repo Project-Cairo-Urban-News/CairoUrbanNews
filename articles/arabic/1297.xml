@@ -930,7 +930,7 @@
                </row>
             </table>
          </div>
-         <div resp="#eSG" xml:id="w18">
+         <div resp="#eSG">
             <head><bibl><date when-custom="1297-04-17">١٧ ربيع الثانى ١٢٩٧</date>
                   <date when="1880-03-28">٢٨ مارث ١٨٨٠</date>
                   <biblScope unit="issue">نمرة ٨٦٧</biblScope>
@@ -945,14 +945,17 @@
                </row>
                <row>
                   <cell/>
-                  <cell>ب<placeName xml:id="place-WA000001_01" ref="ثمن-السيدة-زينب" type="ثمن"><orgName ref="ثمن-السيدة-زينب" type="ثمن">ثمن السيدة زينب</orgName></placeName></cell>
+                  <cell>ب<placeName xml:id="place-WA000001_01" ref="ثمن-السيدة-زينب" type="ثمن"
+                           ><orgName ref="ثمن-السيدة-زينب" type="ثمن">ثمن السيدة
+                        زينب</orgName></placeName></cell>
                   <cell/>
                </row>
                <row>
                   <cell/>
                   <cell>١</cell>
-                  <cell>نصف منزل ب<placeName xml:id="place-WA000001_01" type="درب" ref="درب-البوشى">درب البوشى</placeName> مخلف
-                     عن <persName>فاطمة بنت حمزة</persName> ومقاسه ٣٣,٤٤ متر <choice>
+                  <cell>نصف منزل ب<placeName xml:id="place-WA000001_01" type="درب" ref="درب-البوشى"
+                        >درب البوشى</placeName> مخلف عن <persName>فاطمة بنت حمزة</persName> ومقاسه
+                     ٣٣,٤٤ متر <choice>
                         <sic>بحج</sic>
                         <corr>بحجه</corr>
                      </choice></cell>
@@ -960,24 +963,27 @@
                <row>
                   <cell/>
                   <cell>١</cell>
-                  <cell>حصة قيراط ١ و ٢٢ سهم من منزل ب<placeName xml:id="place-WA000001_01" ref="حارة-السيدة" type="حارة">حارة
-                        السيدة</placeName> مخلفة عن <persName role="معتوقة">خديجة السمرا معتوقة
-                           <persName>حسن كل البيضا</persName></persName> آخر المرسى فيها بمبلغ ٢٠٠٠
-                     قرش صاغ بحجج لم توضح بها أحكار</cell>
+                  <cell>حصة قيراط ١ و ٢٢ سهم من منزل ب<placeName xml:id="place-WA000001_01"
+                        ref="حارة-السيدة" type="حارة">حارة السيدة</placeName> مخلفة عن <persName
+                        role="معتوقة">خديجة السمرا معتوقة <persName>حسن كل
+                        البيضا</persName></persName> آخر المرسى فيها بمبلغ ٢٠٠٠ قرش صاغ بحجج لم توضح
+                     بها أحكار</cell>
                </row>
                <row>
                   <cell/>
                   <cell>١</cell>
-                  <cell>حصة ٦ قراريط من منزل ب<placeName xml:id="place-WA000001_01" ref="درب-ابو-الحاف" type="درب">درب أبو
-                        الحاف</placeName> ب<placeName xml:id="place-WA000001_01" ref="النصرية">النصرية</placeName> مخلفة عن نده
+                  <cell>حصة ٦ قراريط من منزل ب<placeName xml:id="place-WA000001_01"
+                        ref="درب-ابو-الحاف" type="درب">درب أبو الحاف</placeName> ب<placeName
+                        xml:id="place-WA000001_01" ref="النصرية">النصرية</placeName> مخلفة عن نده
                      المدينة ومقاسه ٣١,٥٠ متر بحجة ضايعه</cell>
                </row>
                <row>
                   <cell/>
                   <cell>١</cell>
-                  <cell>حصة ٩ قراريط من منزل ب<placeName xml:id="place-WA000001_01" ref="شارع-الخلوتى" type="شارع">شارع
-                        الخلوتى</placeName> مخلفة عن <persName>خليل أغا أبو شنب</persName> بحجة موضح
-                     بها حكر وآخر المرسى فيها بمبلغ ٥٢٢٥ قرش صاغ</cell>
+                  <cell>حصة ٩ قراريط من منزل ب<placeName xml:id="place-WA000001_01"
+                        ref="شارع-الخلوتى" type="شارع">شارع الخلوتى</placeName> مخلفة عن
+                        <persName>خليل أغا أبو شنب</persName> بحجة موضح بها حكر وآخر المرسى فيها
+                     بمبلغ ٥٢٢٥ قرش صاغ</cell>
                </row>
                <row>
                   <cell>٤</cell>
@@ -997,9 +1003,9 @@
                <row>
                   <cell/>
                   <cell>١</cell>
-                  <cell>نصف منزل ب<placeName xml:id="place-WA000001_01" ref="حارة القرع" type="حارة">حارة القرع</placeName>
-                     مخلف عن <persName>عاليه بنت أحمد</persName> بحجة لم يوضح بها حكر ومقاسه ٥٥,٧٧
-                     متر</cell>
+                  <cell>نصف منزل ب<placeName xml:id="place-WA000001_01" ref="حارة القرع" type="حارة"
+                        >حارة القرع</placeName> مخلف عن <persName>عاليه بنت أحمد</persName> بحجة لم
+                     يوضح بها حكر ومقاسه ٥٥,٧٧ متر</cell>
                </row>
                <row>
                   <cell/>
@@ -1010,10 +1016,10 @@
                <row>
                   <cell/>
                   <cell>١</cell>
-                  <cell>حصة ٧ قراريط من منزل ب<placeName xml:id="place-WA000001_01" ref="الكفر القديم">الكفر القديم</placeName>
-                     من ذلك ثلاثة قراريط ونصف حق بيت المال كانت واضعه يدها عليها الحرمه ظريفه
-                     المذكورة أعلاه وثلاثة قراريط ونصف ايله لبيت المال من الحصة المخلفة من الحرمة
-                     المذكورة بغير حجة ومقاسه ٣٦,٥٧ متر</cell>
+                  <cell>حصة ٧ قراريط من منزل ب<placeName xml:id="place-WA000001_01"
+                        ref="الكفر القديم">الكفر القديم</placeName> من ذلك ثلاثة قراريط ونصف حق بيت
+                     المال كانت واضعه يدها عليها الحرمه ظريفه المذكورة أعلاه وثلاثة قراريط ونصف ايله
+                     لبيت المال من الحصة المخلفة من الحرمة المذكورة بغير حجة ومقاسه ٣٦,٥٧ متر</cell>
                </row>
                <row>
                   <cell>٣</cell>
@@ -1022,8 +1028,11 @@
                </row>
                <row>
                   <cell/>
-                  <cell>ب<placeName xml:id="place-WA000001_01" ref="ثمن-الدرب-الاحمر" type="ثمن"><orgName ref="ثمن-الدرب-الاحمر" type="ثمن">ثمن الدرب الأحمر</orgName></placeName>
-                        و<placeName xml:id="place-WA000001_01" ref="ثمن-قيسون" type="ثمن"><orgName ref="ثمن-قيسون" type="ثمن">قيسون</orgName></placeName></cell>
+                  <cell>ب<placeName xml:id="place-WA000001_01" ref="ثمن-الدرب-الاحمر" type="ثمن"
+                           ><orgName ref="ثمن-الدرب-الاحمر" type="ثمن">ثمن الدرب
+                        الأحمر</orgName></placeName> و<placeName xml:id="place-WA000001_01"
+                        ref="ثمن-قيسون" type="ثمن"><orgName ref="ثمن-قيسون" type="ثمن"
+                           >قيسون</orgName></placeName></cell>
                   <cell/>
                </row>
                <row>
@@ -1045,8 +1054,8 @@
                <row>
                   <cell/>
                   <cell>١</cell>
-                  <cell>حصة قيراطين ونصف من دكان ب<placeName xml:id="place-WA000001_01" ref="المغربلين">المغربلين</placeName>
-                     بغير حجة ومقاسها ٥٧,٣ متر</cell>
+                  <cell>حصة قيراطين ونصف من دكان ب<placeName xml:id="place-WA000001_01"
+                        ref="المغربلين">المغربلين</placeName> بغير حجة ومقاسها ٥٧,٣ متر</cell>
                </row>
                <row>
                   <cell/>
@@ -1070,9 +1079,10 @@
                </row>
                <row>
                   <cell>١</cell>
-                  <cell cols="2">نصف بنا منزل كبير ب<placeName xml:id="place-WA000001_01" ref="درب-الانسية" type="درب">درب
-                        الأنسية</placeName> مخلف عن <persName>زبيدة النعناعية</persName> ومقاسه
-                     ٣٢٦,٠٠ ذراع وآخر المرسى بمبلغ ٥٨٠٠ قرش صاغ بحجة موضح بها حكر</cell>
+                  <cell cols="2">نصف بنا منزل كبير ب<placeName xml:id="place-WA000001_01"
+                        ref="درب-الانسية" type="درب">درب الأنسية</placeName> مخلف عن <persName>زبيدة
+                        النعناعية</persName> ومقاسه ٣٢٦,٠٠ ذراع وآخر المرسى بمبلغ ٥٨٠٠ قرش صاغ بحجة
+                     موضح بها حكر</cell>
                </row>
                <row>
                   <cell/>
@@ -1088,14 +1098,15 @@
                <row>
                   <cell/>
                   <cell>١</cell>
-                  <cell>حصة قيراطين ونصف من منزل ب<placeName xml:id="place-WA000001_01" ref="الحمزية">الحمزية</placeName> مخلفة
-                     عن <persName>نفيسة بنت محمد أغا</persName> ومقاسه ١٢١,٧٨ متر</cell>
+                  <cell>حصة قيراطين ونصف من منزل ب<placeName xml:id="place-WA000001_01"
+                        ref="الحمزية">الحمزية</placeName> مخلفة عن <persName>نفيسة بنت محمد
+                        أغا</persName> ومقاسه ١٢١,٧٨ متر</cell>
                </row>
                <row>
                   <cell/>
                   <cell>١</cell>
-                  <cell>حصة ٦ قراريط من منزل ب<placeName xml:id="place-WA000001_01" ref="درب-شعلان" type="درب">درب
-                        شعلان</placeName> مخلفة عن <persName>فاطمة بنت <persName>محمد
+                  <cell>حصة ٦ قراريط من منزل ب<placeName xml:id="place-WA000001_01" ref="درب-شعلان"
+                        type="درب">درب شعلان</placeName> مخلفة عن <persName>فاطمة بنت <persName>محمد
                            الكبابجى</persName></persName> بحجة لم يوضح بها حكر ومقاسه ١٣٠,٤٥
                      ذراع</cell>
                </row>
