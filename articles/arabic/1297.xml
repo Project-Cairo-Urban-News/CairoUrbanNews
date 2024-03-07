@@ -1,140 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
-          Project</title>
-        <editor xml:id="eNK">Nour Kanaan</editor>
-        <editor xml:id="eAM">Adam Mestyan</editor>
-        <editor xml:id="eDY">Danah Younis</editor>
-        <editor xml:id="eSG">Sarah Fathallah Gaara</editor>
-        <editor xml:id="eAE">Arif Erbil</editor>
-        <editor xml:id="eAK">Ahmed Kamal</editor>
-        <editor xml:id="eAS">Abram Smith</editor>
-        <editor xml:id="eCH">Clara Harms</editor>
-        <editor xml:id="eHS">Hüseyin Sağlam</editor>
-        <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
-        <editor xml:id="eHL">Hiba Laabadli</editor>
-        <editor xml:id="eOE">Othmane Echchabi</editor>
-        <editor xml:id="eFA">Fatemah Almahana</editor>
-        <editor xml:id="eMZ">Mahmoud Zaki</editor>
-        <respStmt>
-          <resp>Project leader</resp>
-          <name>Hugh Cayless</name>
-        </respStmt>
-        <respStmt>
-          <resp>Project leader</resp>
-          <name>Adam Mestyan</name>
-        </respStmt>
-        <respStmt>
-          <resp>Project leader</resp>
-          <name>Mercedes Volait</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Sarah Fathallah Gaara</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Karima Nasr</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Rezk Nory</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Arif Erbil</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Ahmed Kamal</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Abram Smith</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Clara Harms</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Hüseyin Sağlam</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Abdulrahman El-Taliawi</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Hiba Laabadli</name> 
-        </respStmt>
-     <respStmt>
-       <resp>Research Assistant</resp>
-       <name>Othmane Echchabi</name>
-     </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Fatemah Almahana</name> 
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Mahmoud Zaki</name> 
-        </respStmt>
-        <sponsor>
-          <orgName>National Endowment for the Humanities</orgName>,
-          and
-          <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
-            <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
-            Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian Cultural Counsellor in Cairo</orgName>.
-        </sponsor>
-      </titleStmt>
-      <publicationStmt>
-        <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
-          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
-        <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>, <persName>Hugh Cayless</persName></p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
-        <p>born digital document</p>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <projectDesc>
-        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
-          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
-      </projectDesc>
-      <editorialDecl>
-        <p>Rules of TEI XML MarkUp in This Project</p>
-        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
-          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
-        <p>Each individual article has an individual xml:id number starting with "w1"</p>
-        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
-        <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
-        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
-          Editions</ref>.</p>
-      </editorialDecl>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="ar">Arabic</language>
-        <language ident="en">English</language>
-        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
-        <language ident="ota">Ottoman</language>
-      </langUsage>
-    </profileDesc>
-    <revisionDesc>
-      <listChange>
-        <change/>
-      </listChange>
-    </revisionDesc>
-  </teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
+               Project</title>
+            <editor xml:id="eNK">Nour Kanaan</editor>
+            <editor xml:id="eAM">Adam Mestyan</editor>
+            <editor xml:id="eDY">Danah Younis</editor>
+            <editor xml:id="eSG">Sarah Fathallah Gaara</editor>
+            <editor xml:id="eAE">Arif Erbil</editor>
+            <editor xml:id="eAK">Ahmed Kamal</editor>
+            <editor xml:id="eAS">Abram Smith</editor>
+            <editor xml:id="eCH">Clara Harms</editor>
+            <editor xml:id="eHS">Hüseyin Sağlam</editor>
+            <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+            <editor xml:id="eHL">Hiba Laabadli</editor>
+            <editor xml:id="eOE">Othmane Echchabi</editor>
+            <editor xml:id="eFA">Fatemah Almahana</editor>
+            <editor xml:id="eMZ">Mahmoud Zaki</editor>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Hugh Cayless</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Adam Mestyan</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Mercedes Volait</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Sarah Fathallah Gaara</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Karima Nasr</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Rezk Nory</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Arif Erbil</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Ahmed Kamal</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abram Smith</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Clara Harms</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Hüseyin Sağlam</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abdulrahman El-Taliawi</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Hiba Laabadli</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Othmane Echchabi</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Fatemah Almahana</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Mahmoud Zaki</name>
+            </respStmt>
+            <sponsor>
+               <orgName>National Endowment for the Humanities</orgName>, and <orgName>Institut
+                  français d’archéologie orientale</orgName> (Ifao, Cairo); <orgName>Franklin
+                  Humanities Institute and the Office of Global Affairs / Andrew W. Mellon Endowment
+                  for Global Studies, Duke University</orgName>; <orgName>Duke University
+                  Libraries</orgName>; <orgName>Centre national de la recherche
+                  scientifique</orgName>; <orgName>the Office of the Hungarian Cultural Counsellor
+                  in Cairo</orgName>. </sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La
+               fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+            <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+            <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
+            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+                  Volait</persName>, <persName>Hugh Cayless</persName></p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+            <p>born digital document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in
+               the project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke
+               University).</p>
+            <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Rules of TEI XML MarkUp in This Project</p>
+            <p>We use the Arabic script but transliteration into Latin characters follows the
+               Library of Congress (LOC) <ref
+                  target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic
+                  transliteration chart</ref>.</p>
+            <p>Each individual article has an individual xml:id number starting with "w1"</p>
+            <p>We only use persName, orgName, placeName elements, apart from bibliographical
+               elements and notes.</p>
+            <p>If the location or organization of responsibility is known from the text, it can be
+               added in an attribute to a persName.</p>
+            <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+            <p>This project's schema considers Till Grallert's work in his <ref
+                  target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+                  Editions</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+            <language ident="ota">Ottoman</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="cleared">
+         <listChange>
+            <change status="cleared" resp="#eAM" when="2024-03-07"/>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
   
   <text xml:lang="ar">
       <body>
@@ -583,8 +590,8 @@
                ليتنبه بالنشر بالجرانيل حسب ما ذكر.</p>
          </div>
          <div resp="#eSG" xml:id="w17">
-            <head><date>xxx ربيع الثانى
-                     ١٢٩٧</date><?oxy_comment_start author="Sarah" timestamp="20231127T125501+0200" comment="The first two pages are missing in the original in Dar al-Kutub"?><bibl><?oxy_comment_end?><biblScope unit="issue">نمرة ٨٦٦</biblScope>
+            <head><date when-custom="1297-04"><note>first two pages missing, date unknown</note>ربيع
+                  الثانى ١٢٩٧</date><bibl><biblScope unit="issue">نمرة ٨٦٦</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope>
                </bibl></head>
             <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="بيت-المال">بيت
@@ -1122,22 +1129,21 @@
                ذلك كانت تحررت قوائم مزادات عنها ورسى مزاد بعضها على مذكورين وقبل اتمام ما هو لازم
                لها من الأجراآت صدر أمر <orgName type="الداخلية" ref="الداخلية">الداخلية</orgName>
                لبيت المال رقيم ٢٩ محرم سنة ٩٦ نمرة ١٢ بطلب كشف ببيان كافة الأملاك الأيله لبيت المال
-               ولما تحرر وتقدم للداخلية صدر أمرها رقيم ٢٣
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ر<?oxy_custom_end?>
-               سنة ٩٦ نمرة ٧٣ بتصريح اشهار مزاد مبيع الأملاك المذكورة بميعاد واحد وتسعين يوما
-               واعتبار آخر المزادات المعطية قبلا أول عطا وعلم مما ورد من <orgName ref="ديوان-الاشغال">ديوان الأشغال</orgName> لبيت المال ان تلك الأملاك ليست لازمة
-               للميرى ولذا قد توضح باعلاه ببيان المحلات الكائنة بالمحروسة تمن تمن وتحرر عن كل محل
-               قايمة مزاد مخصوصة وأرسلت الى رئيس دلالين العقار بالمحروسة لاشهارها على الراغبين
-               بميعاد واحد وتسعين يوم من تاريخه وتوضح بالقوايم ان كافة المصاريف من رسم الأيلولة
-               والدلالة والميرى ورسم ديوان الأشغال السابق صرفه من المصلحة وتمن قايمة المزاد وغيره
-               على المشترى بدون تكليف المصلحة بشئ ما وبعد مرسى المزاد على أى شخص كان وحصول الاستئذان
-               وصدور الأمر العالى بالسماح ومنها يجرى قبض الثمن والمصاريف التى يلزم دفعها ببيت المال
-               بحيث ان لم يحصل السماح فى المبيع من بيت المال بعد مرسى المزاد فلا يكن للراسى عليه
-               المزاد أدنى معارضة ولا تداعى في ذلك بأي وجه من الوجوه وقد تحرر للجهات عموما عن ما ذكر
-               وبالجملة هذا لاعلانه حتى كل من له رغبة للمشترى بصفة ما ذكر يؤخذ عليه الضمانة القوية
-               ويرسل هو أو وكيل عنه بافادة لبيت المال مع الضمانة قبل مضى الميعاد بيومين اثنين لحصول
-               المزايده بينه وبين الراغبين وان حضر بعد الميعاد المذكور فلا يقبل منه مزاد ٤٤ الحجة
-               سنة ٩٦.</p>
+               ولما تحرر وتقدم للداخلية صدر أمرها رقيم ٢٣ ر سنة ٩٦ نمرة ٧٣ بتصريح اشهار مزاد مبيع
+               الأملاك المذكورة بميعاد واحد وتسعين يوما واعتبار آخر المزادات المعطية قبلا أول عطا
+               وعلم مما ورد من <orgName ref="ديوان-الاشغال">ديوان الأشغال</orgName> لبيت المال ان
+               تلك الأملاك ليست لازمة للميرى ولذا قد توضح باعلاه ببيان المحلات الكائنة بالمحروسة تمن
+               تمن وتحرر عن كل محل قايمة مزاد مخصوصة وأرسلت الى رئيس دلالين العقار بالمحروسة
+               لاشهارها على الراغبين بميعاد واحد وتسعين يوم من تاريخه وتوضح بالقوايم ان كافة
+               المصاريف من رسم الأيلولة والدلالة والميرى ورسم ديوان الأشغال السابق صرفه من المصلحة
+               وتمن قايمة المزاد وغيره على المشترى بدون تكليف المصلحة بشئ ما وبعد مرسى المزاد على أى
+               شخص كان وحصول الاستئذان وصدور الأمر العالى بالسماح ومنها يجرى قبض الثمن والمصاريف
+               التى يلزم دفعها ببيت المال بحيث ان لم يحصل السماح فى المبيع من بيت المال بعد مرسى
+               المزاد فلا يكن للراسى عليه المزاد أدنى معارضة ولا تداعى في ذلك بأي وجه من الوجوه وقد
+               تحرر للجهات عموما عن ما ذكر وبالجملة هذا لاعلانه حتى كل من له رغبة للمشترى بصفة ما
+               ذكر يؤخذ عليه الضمانة القوية ويرسل هو أو وكيل عنه بافادة لبيت المال مع الضمانة قبل
+               مضى الميعاد بيومين اثنين لحصول المزايده بينه وبين الراغبين وان حضر بعد الميعاد
+               المذكور فلا يقبل منه مزاد ٤٤ الحجة سنة ٩٦.</p>
          </div>
          <div resp="#eSG" xml:id="w19">
             <head><date when-custom="1297-04-20">٢٠ ربيع الثانى ١٢٩٧</date>
