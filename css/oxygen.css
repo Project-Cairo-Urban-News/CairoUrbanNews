@@ -16,6 +16,10 @@ titleStmt editor {
 titleStmt respStmt {
   display: block;
 }
+charDecl * {
+  display:block;
+}
+
 *[xml|lang=ar] {
   direction: rtl;
 }

@@ -29,7 +29,7 @@
          <schemaSpec ident="CairoUrbanNews">     <!-- @ident is required -->
             <desc><!-- put a one-sentence description of this TEI customization here --></desc>
             <moduleRef key="analysis" include="phr w"/>
-            <moduleRef key="core" include="author bibl biblScope choice corr date editor foreign gap head hi imprint item label list measure milestone name note p ptr pubPlace publisher ref resp respStmt rs sic term textLang time title unclear"/>
+            <moduleRef key="core" include="author bibl biblScope choice corr date editor foreign gap graphic head hi imprint item label list measure milestone name note p ptr pubPlace publisher ref resp respStmt rs sic term textLang time title unclear"/>
             <moduleRef key="figures" except="formula notatedMusic"/>
             <moduleRef key="gaiji" except="unihanProp"/>
             <moduleRef key="header" include="change editorialDecl encodingDesc fileDesc funder langUsage language licence listChange profileDesc projectDesc publicationStmt revisionDesc sourceDesc sponsor teiHeader titleStmt"/>
