@@ -20,6 +20,17 @@
             link.innerHTML = `${this.getOrdinality(elt)}.`;
             elt.prepend(link);
           },
+          "g": function(elt) {
+            const ref = elt.getAttribute('ref');
+            if (ref) {
+              const char = document.getElementById(ref.substring(1));
+              const graphic = char.querySelector('tei-graphic')
+              const result = document.createElement('img');
+              result.setAttribute('src', graphic.getAttribute('url').replace(/^.*\/images/, '/images'));
+              result.setAttribute('alt', char.querySelector('tei-unicodeprop[name=Numeric_Value]').getAttribute('value'));
+              return result;
+            }
+          },
           "persName": function(elt) {
             const result = document.createElement('span');
             result.innerHTML = elt.innerHTML;
@@ -232,6 +243,12 @@
       font-size: 18pt;
       direction: rtl;
     } 
+    tei-g img {
+      display: inline-block;
+      position: relative;
+      bottom: -.25rem;
+      width: 1rem;
+    }
     tei-persname[ref] {
       text-decoration: none;
     }
