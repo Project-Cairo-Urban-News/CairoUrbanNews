@@ -88,8 +88,7 @@
           <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
             <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
             Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>; 
-            <orgName>the Office of the Hungarian Cultural Counsellor in Cairo</orgName>.
+            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian Cultural Counsellor in Cairo</orgName>.
         </sponsor>
       </titleStmt>
       <publicationStmt>
@@ -121,6 +120,16 @@
         <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
           Editions</ref>.</p>
       </editorialDecl>
+      <charDecl>
+        <char xml:id="qhalf">
+          <localProp value="QIRMA FRACTION 1/2" name="name"/>
+          <unicodeProp value="1/2" name="Numeric_Value"/>
+          <mapping type="similar">𐋢</mapping>
+          <figure>
+            <graphic url="../../docs/images/half.svg"/>
+          </figure>
+        </char>
+      </charDecl>
     </encodingDesc>
     <profileDesc>
       <langUsage>
@@ -148,7 +157,7 @@
             </person>
         </listPerson>
     </standOff>
-    <text xml:lang="ar">
+  <text xml:lang="ar">
         <body>
             <div xml:id="WA1286028701" resp="#eSG #eAM">
                 <head><date when-custom="1286-01-03">٣ محرم ١٢۸٦</date>
