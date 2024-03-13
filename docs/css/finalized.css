@@ -73,6 +73,12 @@ tei-div > a {
   float: right;
   margin-right: -2em;
 }
+tei-g img {
+  display: inline-block;
+  position: relative;
+  bottom: -.25rem;
+  width: 1rem;
+}
 tei-head {
   display:block;
   font-size: larger;
