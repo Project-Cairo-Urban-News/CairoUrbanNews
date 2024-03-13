@@ -14,6 +14,17 @@ const behaviors = {
       link.innerHTML = `${this.getOrdinality(elt)}.`;
       elt.prepend(link);
     },
+    "g": function(elt) {
+      const ref = elt.getAttribute('ref');
+      if (ref) {
+        const char = document.getElementById(ref.substring(1));
+        const graphic = char.querySelector('tei-graphic')
+        const result = document.createElement('img');
+        result.setAttribute('src', graphic.getAttribute('url').replace(/^.*\/images/, '/CairoUrbanNews/images'));
+        result.setAttribute('alt', char.querySelector('tei-unicodeprop[name=Numeric_Value]').getAttribute('value'));
+        return result;
+      }
+    },
     "sic": [
       [":not(tei-choice) tei-sic", ['','(!)']],
     ],
