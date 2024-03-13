@@ -1,150 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
-          Project</title>
-        <editor xml:id="eNK">Nour Kanaan</editor>
-        <editor xml:id="eAM">Adam Mestyan</editor>
-        <editor xml:id="eDY">Danah Younis</editor>
-        <editor xml:id="eSG">Sarah Fathallah Gaara</editor>
-        <editor xml:id="eAE">Arif Erbil</editor>
-        <editor xml:id="eAK">Ahmed Kamal</editor>
-        <editor xml:id="eAS">Abram Smith</editor>
-        <editor xml:id="eCH">Clara Harms</editor>
-        <editor xml:id="eHS">Hüseyin Sağlam</editor>
-        <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
-        <editor xml:id="eHL">Hiba Laabadli</editor>
-        <editor xml:id="eOE">Othmane Echchabi</editor>
-        <editor xml:id="eFA">Fatemah Almahana</editor>
-        <editor xml:id="eMZ">Mahmoud Zaki</editor>
-        <respStmt>
-          <resp>Project leader</resp>
-          <name>Hugh Cayless</name>
-        </respStmt>
-        <respStmt>
-          <resp>Project leader</resp>
-          <name>Adam Mestyan</name>
-        </respStmt>
-        <respStmt>
-          <resp>Project leader</resp>
-          <name>Mercedes Volait</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Sarah Fathallah Gaara</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Karima Nasr</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Rezk Nory</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Arif Erbil</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Ahmed Kamal</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Abram Smith</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Clara Harms</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Hüseyin Sağlam</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Abdulrahman El-Taliawi</name>
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Hiba Laabadli</name> 
-        </respStmt>
-     <respStmt>
-       <resp>Research Assistant</resp>
-       <name>Othmane Echchabi</name>
-     </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Fatemah Almahana</name> 
-        </respStmt>
-        <respStmt>
-          <resp>Research Assistant</resp>
-          <name>Mahmoud Zaki</name> 
-        </respStmt>
-        <sponsor>
-          <orgName>National Endowment for the Humanities</orgName>,
-          and
-          <orgName>Institut français d’archéologie orientale</orgName> (Ifao, Cairo);
-            <orgName>Franklin Humanities Institute and the Office of Global Affairs / Andrew W.
-            Mellon Endowment for Global Studies, Duke University</orgName>; <orgName>Duke University
-            Libraries</orgName>; <orgName>Centre national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian Cultural Counsellor in Cairo</orgName>.
-        </sponsor>
-      </titleStmt>
-      <publicationStmt>
-        <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La fabrique
-          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
-        <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
-        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes Volait</persName>, <persName>Hugh Cayless</persName></p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
-        <p>born digital document</p>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <projectDesc>
-        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the
-          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
-      </projectDesc>
-      <editorialDecl>
-        <p>Rules of TEI XML MarkUp in This Project</p>
-        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
-          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p> 
-        <p>Each individual article has an individual xml:id number starting with "w1"</p>
-        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements and notes.</p>
-        <p>If the location or organization of responsibility is known from the text, it can be added in an attribute to a persName.</p>
-        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
-          Editions</ref>.</p>
-      </editorialDecl>
-      <charDecl>
-        <char xml:id="qhalf">
-          <localProp value="QIRMA FRACTION 1/2" name="name"/>
-          <unicodeProp value="1/2" name="Numeric_Value"/>
-          <mapping type="similar">𐋢</mapping>
-          <figure>
-            <graphic url="../../docs/images/half.svg"/>
-          </figure>
-        </char>
-      </charDecl>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="ar">Arabic</language>
-        <language ident="en">English</language>
-        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
-        <language ident="ota">Ottoman</language>
-      </langUsage>
-    </profileDesc>
-    <revisionDesc>
-      <listChange>
-        <change/>
-      </listChange>
-    </revisionDesc>
-  </teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Urbanism News from al-Waqāʾiʿ al-Miṣrīyah: An Ottoman Arabic Digital Humanities
+               Project</title>
+            <editor xml:id="eNK">Nour Kanaan</editor>
+            <editor xml:id="eAM">Adam Mestyan</editor>
+            <editor xml:id="eDY">Danah Younis</editor>
+            <editor xml:id="eSG">Sarah Fathallah Gaara</editor>
+            <editor xml:id="eAE">Arif Erbil</editor>
+            <editor xml:id="eAK">Ahmed Kamal</editor>
+            <editor xml:id="eAS">Abram Smith</editor>
+            <editor xml:id="eCH">Clara Harms</editor>
+            <editor xml:id="eHS">Hüseyin Sağlam</editor>
+            <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+            <editor xml:id="eHL">Hiba Laabadli</editor>
+            <editor xml:id="eOE">Othmane Echchabi</editor>
+            <editor xml:id="eFA">Fatemah Almahana</editor>
+            <editor xml:id="eMZ">Mahmoud Zaki</editor>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Hugh Cayless</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Adam Mestyan</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Mercedes Volait</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Sarah Fathallah Gaara</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Karima Nasr</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Rezk Nory</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Arif Erbil</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Ahmed Kamal</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abram Smith</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Clara Harms</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Hüseyin Sağlam</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abdulrahman El-Taliawi</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Hiba Laabadli</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Othmane Echchabi</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Fatemah Almahana</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Mahmoud Zaki</name>
+            </respStmt>
+            <sponsor>
+               <orgName>National Endowment for the Humanities</orgName>, and <orgName>Institut
+                  français d’archéologie orientale</orgName> (Ifao, Cairo); <orgName>Franklin
+                  Humanities Institute and the Office of Global Affairs / Andrew W. Mellon Endowment
+                  for Global Studies, Duke University</orgName>; <orgName>Duke University
+                  Libraries</orgName>; <orgName>Centre national de la recherche
+                  scientifique</orgName>; <orgName>the Office of the Hungarian Cultural Counsellor
+                  in Cairo</orgName>. </sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in the project "La
+               fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+            <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+            <p><ref target="https://sites.duke.edu/cairemoderne/">Website</ref></p>
+            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+                  Volait</persName>, <persName>Hugh Cayless</persName></p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Al-Waqāʾiʿ al-Miṣriyya (Egyptian Affairs) newspaper, 1828–.</p>
+            <p>born digital document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣriyya" in
+               the project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke
+               University).</p>
+            <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Rules of TEI XML MarkUp in This Project</p>
+            <p>We use the Arabic script but transliteration into Latin characters follows the
+               Library of Congress (LOC) <ref
+                  target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic
+                  transliteration chart</ref>.</p>
+            <p>Each individual article has an individual xml:id number starting with "w1"</p>
+            <p>We only use persName, orgName, placeName elements, apart from bibliographical
+               elements and notes.</p>
+            <p>If the location or organization of responsibility is known from the text, it can be
+               added in an attribute to a persName.</p>
+            <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+            <p>This project's schema considers Till Grallert's work in his <ref
+                  target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+                  Editions</ref>.</p>
+         </editorialDecl>
+         <charDecl>
+            <char xml:id="qhalf">
+               <localProp value="QIRMA FRACTION 1/2" name="name"/>
+               <unicodeProp value="1/2" name="Numeric_Value"/>
+               <mapping type="similar">𐋢</mapping>
+               <figure>
+                  <graphic url="../../docs/images/half.svg"/>
+               </figure>
+            </char>
+         </charDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+            <language ident="ota">Ottoman</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="cleared">
+         <listChange>
+            <change status="cleared" resp="#eAM" when="2024-03-13"/>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
   
   <text xml:lang="ar">
       <body>
@@ -1041,7 +1048,7 @@
          </div>
          <div xml:id="k895" resp="#eAK">
             <head><date when-custom="1296-06-11">١١ جمادي الثانية ١٢٩٦</date>
-               <date when-custom="1879-06-01">غرة يونيه ١٨٧٩</date>
+               <date when="1879-06-01">غرة يونيه ١٨٧٩</date>
                <bibl><biblScope unit="issue">نمرة ٨١٣</biblScope>
                   <biblScope unit="page">ص٤</biblScope></bibl></head>
             <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="ديوان-الاوقاف" type="ديوان">ديوان الاوقاف</orgName> بتاريخ ٨ جمادي الثاني سنة ١٢٩٦</head>
