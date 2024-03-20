@@ -6018,7 +6018,8 @@
                   <row>
                      <cell><persName>محمد عارف</persName></cell>
                      <cell>٣٦٠</cell>
-                     <cell>باشمهندس تفتيش الدلتا</cell>
+                     <cell>باشمهندس <orgName ref="تفتيش الدلتا" type="تفتيش">تفتيش
+                        الدلتا</orgName></cell>
                   </row>
                   <row>
                      <cell>
@@ -6041,12 +6042,14 @@
                   <row>
                      <cell><persName>شربينى موسى</persName></cell>
                      <cell>٣٠٠</cell>
-                     <cell>باشمهندس المقايسات بتفتيش الغرب</cell>
+                     <cell>باشمهندس المقايسات ب<orgName ref="تفتيش الغرب" type="تفتيش">تفتيش
+                           الغرب</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>فينسان</persName></cell>
                      <cell>٣٠٠</cell>
-                     <cell>باشمهندس معمارى بتفتيش مصر</cell>
+                     <cell>باشمهندس معمارى ب<orgName ref="تفتيش مصر" type="تفتيش">تفتيش
+                           مصر</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>سيد شكرى</persName></cell>
@@ -6056,12 +6059,13 @@
                   <row>
                      <cell><persName>لوريش</persName></cell>
                      <cell>٣٠٠</cell>
-                     <cell>باشمهندس بقلم مبانى تفتيش مصر</cell>
+                     <cell>باشمهندس ب<orgName ref="قلم مبانى تفتيش مصر" type="قلم">قلم مبانى تفتيش
+                           مصر</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>على بدر</persName></cell>
                      <cell>٣٠٠</cell>
-                     <cell>بالسويس</cell>
+                     <cell>ب<placeName ref="السويس">السويس</placeName></cell>
                   </row>
                   <row>
                      <cell>٦ درجه ثالثه</cell>
@@ -6076,12 +6080,13 @@
                   <row>
                      <cell><persName>محمود صفوت</persName></cell>
                      <cell>٢٤٠</cell>
-                     <cell>بتنظيم مصر</cell>
+                     <cell>ب<orgName ref="تنظيم مصر">تنظيم مصر</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>أحمد أنسى</persName></cell>
                      <cell>٢٤٠</cell>
-                     <cell>باشمهندس الجيزة وحلوان</cell>
+                     <cell>باشمهندس <placeName ref="الجيزة">الجيزة</placeName>
+                           و<placeName>حلوان</placeName></cell>
                   </row>
                   <row>
                      <cell><persName>جيسبرين</persName></cell>
@@ -6132,7 +6137,7 @@
                      <cell><persName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>صالح
                            لطيف؟<?oxy_custom_end?></persName></cell>
                      <cell>١٨٠</cell>
-                     <cell>بتنظيم سكندريه</cell>
+                     <cell>ب<orgName ref="تنظيم سكندريه">تنظيم سكندريه</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>حامد حسن</persName></cell>
@@ -6152,27 +6157,27 @@
                   <row>
                      <cell><persName>موسى فهمى</persName></cell>
                      <cell>١٨٠</cell>
-                     <cell>مهندس تنظيم البحيره</cell>
+                     <cell>مهندس <orgName ref="تنظيم البحيره">تنظيم البحيره</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>على راغب</persName></cell>
                      <cell>١٨٠</cell>
-                     <cell>مهندس تنظيم طنطا</cell>
+                     <cell>مهندس <orgName ref="تنظيم طنطا">تنظيم طنطا</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>عثمان رشدى</persName></cell>
                      <cell>١٨٠</cell>
-                     <cell>,, ,, المنصوره</cell>
+                     <cell>,, ,, <orgName ref="تنظيم المنصوره">المنصوره</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>عبد الرحمن ذهنى</persName></cell>
                      <cell>١٨٠</cell>
-                     <cell>,, ,, الزقازيق</cell>
+                     <cell>,, ,, <orgName ref="تنظيم الزقازيق">الزقازيق</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>ابراهيم حمدى</persName></cell>
                      <cell>١٨٠</cell>
-                     <cell>,, ,, دمياط</cell>
+                     <cell>,, ,, <orgName ref="تنظيم دمياط">دمياط</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>أحمد راشد</persName></cell>
@@ -6207,17 +6212,17 @@
                   <row>
                      <cell><persName>عبد العزيز فريد</persName></cell>
                      <cell>١٨٠</cell>
-                     <cell>,, تنظيم بورسعيد</cell>
+                     <cell>,, <orgName ref="تنظيم بورسعيد">تنظيم بورسعيد</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>حسين كامل</persName></cell>
                      <cell>١٨٠</cell>
-                     <cell>,, بتفتيش قبلى</cell>
+                     <cell>,, ب<orgName ref="تفتيش قبلى">تفتيش قبلى</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>شافعى فوزى</persName></cell>
                      <cell>١٨٠</cell>
-                     <cell>,, تنظيم أسيوط</cell>
+                     <cell>,, <orgName ref="تنظيم أسيوط">تنظيم أسيوط</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>مصطفى منيب</persName></cell>
@@ -6257,7 +6262,7 @@
                   <row>
                      <cell><persName>أرتين مهران</persName></cell>
                      <cell>١٤٤</cell>
-                     <cell>معمارى بتفتيش شرق</cell>
+                     <cell>معمارى ب<orgName ref="تفتيش شرق">تفتيش شرق</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>عبد القادر</persName></cell>
@@ -6277,7 +6282,7 @@
                   <row>
                      <cell><persName>أحمد رمزى</persName></cell>
                      <cell>١٤٤</cell>
-                     <cell>,, ,, بالمحله</cell>
+                     <cell>,, ,, ب<orgName ref="تنظيم المحله">المحله</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>عبد الله حسيب</persName></cell>
@@ -6297,7 +6302,7 @@
                   <row>
                      <cell><persName>أحمد رؤوف</persName></cell>
                      <cell>١٤٤</cell>
-                     <cell>مهندس تنظيم القليوبيه</cell>
+                     <cell>مهندس <orgName ref="تنظيم القليوبيه">تنظيم القليوبيه</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>أحمد أسعد</persName></cell>
@@ -6387,7 +6392,7 @@
                   <row>
                      <cell><persName>مصطفى أمين</persName></cell>
                      <cell>١٤٤</cell>
-                     <cell>مهندس بتنظيم جرجا</cell>
+                     <cell>مهندس ب<orgName ref="تنظيم جرجا">تنظيم جرجا</orgName></cell>
                   </row>
                   <row>
                      <cell>٣٥ درجه ثالثه</cell>
@@ -6402,12 +6407,12 @@
                   <row>
                      <cell><persName>على صبرى</persName></cell>
                      <cell>١٢٠</cell>
-                     <cell>مهندس رشيد</cell>
+                     <cell>مهندس <placeName ref="رشيد">رشيد</placeName></cell>
                   </row>
                   <row>
                      <cell><persName>عبد الرحمن عارف</persName></cell>
                      <cell>١٢٠</cell>
-                     <cell>,, بميت غمر</cell>
+                     <cell>,, ب<placeName ref="ميت غمر">ميت غمر</placeName></cell>
                   </row>
                   <row>
                      <cell><persName>عبد المجيد</persName></cell>
@@ -6488,7 +6493,8 @@
                   <row>
                      <cell><persName>محمد أسعد</persName></cell>
                      <cell>١٠٨</cell>
-                     <cell>بمصلحة سد أبو قير</cell>
+                     <cell>ب<orgName ref="مصلحة سد أبو قير" type="مصلحة">مصلحة سد أبو
+                        قير</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>أحمد على</persName></cell>
@@ -6498,37 +6504,37 @@
                   <row>
                      <cell><persName>محمد حسين</persName></cell>
                      <cell>١٠٨</cell>
-                     <cell>مهندس تنظيم كفر الزيات</cell>
+                     <cell>مهندس <orgName ref="تنظيم كفر الزيات">تنظيم كفر الزيات</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>أحمد رائف</persName></cell>
                      <cell>١٠٨</cell>
-                     <cell>مهندس ,, شبين الكوم</cell>
+                     <cell>مهندس ,, <orgName ref="تنظيم شبين الكوم">شبين الكوم</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>مصطفى قدرى</persName></cell>
                      <cell>١٠٨</cell>
-                     <cell>,, ,, بنى سويف</cell>
+                     <cell>,, ,, <orgName ref="تنظيم بنى سويف">بنى سويف</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>أمين سليمان</persName></cell>
                      <cell>١٠٨</cell>
-                     <cell>,, ,, الفيوم</cell>
+                     <cell>,, ,, <orgName ref="تنظيم الفيوم">الفيوم</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>حسن نائب</persName></cell>
                      <cell>١٠٨</cell>
-                     <cell>,, ,, قنا</cell>
+                     <cell>,, ,, <orgName ref="تنظيم قنا">قنا</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>محمود شوكت</persName></cell>
                      <cell>١٠٨</cell>
-                     <cell>بقلم تفتيش قبلى</cell>
+                     <cell>ب<orgName ref="قلم تفتيش قبلى" type="قلم">قلم تفتيش قبلى</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>محمد منيب</persName></cell>
                      <cell>١٠٨</cell>
-                     <cell>,, ,, المنيا</cell>
+                     <cell>,, ,, <orgName ref="قلم تفتيش المنيا" type="قلم">المنيا</orgName></cell>
                   </row>
                   <row>
                      <cell><persName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>تيتو
@@ -6604,12 +6610,13 @@
                   <row>
                      <cell><persName>محمد مصطفى</persName></cell>
                      <cell>٠٩٦</cell>
-                     <cell>,, بتنظيم سمنود بالدلتا (*)</cell>
+                     <cell>,, ب<orgName ref="تنظيم سمنود">تنظيم سمنود</orgName> بالدلتا (*)</cell>
                   </row>
                   <row>
                      <cell><persName>غبريل ده لفيس</persName></cell>
                      <cell>٠٩٦</cell>
-                     <cell>بقلم تفتيش الدلتا</cell>
+                     <cell>ب<orgName ref="قلم تفتيش الدلتا" type="قلم">قلم تفتيش
+                        الدلتا</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>أحمد حلمى</persName></cell>
@@ -6619,12 +6626,12 @@
                   <row>
                      <cell><persName>على فهمى</persName></cell>
                      <cell>٠٨٤</cell>
-                     <cell>مهندس بتنظيم الزقازيق</cell>
+                     <cell>مهندس ب<orgName ref="تنظيم الزقازيق">تنظيم الزقازيق</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>عبد الفتاح سيد أحمد</persName></cell>
                      <cell>٠٨٤</cell>
-                     <cell>,, شبين الكوم</cell>
+                     <cell>,, <orgName ref="تنظيم شبين الكوم">شبين الكوم</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>محمد كريم</persName></cell>
@@ -6644,17 +6651,17 @@
                   <row>
                      <cell><persName>حسين وصفى</persName></cell>
                      <cell>٠٨٤</cell>
-                     <cell>بتنظيم قليوب</cell>
+                     <cell><orgName>بتنظيم قليوب</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>على أبو زيد</persName></cell>
                      <cell>٠٨٤</cell>
-                     <cell>,, الفيوم</cell>
+                     <cell>,, <orgName ref="تنظيم الفيوم">الفيوم</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>ابراهيم على</persName></cell>
                      <cell>٠٨٤</cell>
-                     <cell>,, السويس</cell>
+                     <cell>,, <placeName ref="السويس">السويس</placeName></cell>
                   </row>
                   <row>
                      <cell><persName>ميجى</persName></cell>
@@ -6664,7 +6671,7 @@
                   <row>
                      <cell><persName>أحمد حلمى</persName></cell>
                      <cell>٠٨٤</cell>
-                     <cell>بتنظيم زفتى</cell>
+                     <cell>ب<orgName ref="تنظيم زفتى">تنظيم زفتى</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>محمد عيسوى</persName></cell>
@@ -6679,7 +6686,7 @@
                   <row>
                      <cell><persName>صالح محمد</persName></cell>
                      <cell>٧٢</cell>
-                     <cell>,, المنيا قبلى</cell>
+                     <cell>,, <orgName ref="تنظيم المنيا قبلى">المنيا قبلى</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>على دالى</persName></cell>
@@ -6719,7 +6726,7 @@
                   <row>
                      <cell><persName>محمد بهجت</persName></cell>
                      <cell>٦٠</cell>
-                     <cell>بتنظيم قنا قبلى</cell>
+                     <cell>ب<orgName ref="تنظيم قنا قبلى">تنظيم قنا قبلى</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>حافظ فريد</persName></cell>
@@ -6734,7 +6741,7 @@
                   <row>
                      <cell><persName>على صبرى</persName></cell>
                      <cell>٦٠</cell>
-                     <cell>بتنظيم دمنهور</cell>
+                     <cell>ب<orgName ref="تنظيم دمنهور">تنظيم دمنهور</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>حسن لمعى</persName></cell>
@@ -6744,7 +6751,8 @@
                   <row>
                      <cell><persName>أمين فهمى</persName></cell>
                      <cell>٦٠</cell>
-                     <cell>بقلم تفتيش الشرق (*)</cell>
+                     <cell>ب<orgName ref="قلم تفتيش الشرق" type="قلم">قلم تفتيش الشرق</orgName>
+                        (*)</cell>
                   </row>
                   <row>
                      <cell><persName>عبد القادر زكى</persName></cell>
@@ -6765,7 +6773,8 @@
                      <cell><persName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>نخل؟
                            صالح<?oxy_custom_end?></persName></cell>
                      <cell>٣٦٠</cell>
-                     <cell>رئيس قلم الادراه العموميه</cell>
+                     <cell>رئيس <orgName ref="قلم الادراه العموميه" type="قلم">قلم الادراه
+                           العموميه</orgName></cell>
                   </row>
                   <row>
                      <cell>٤ درجه ثالثه من ٢٤٠ الى ٢٨٨ جنيه</cell>
@@ -6790,7 +6799,8 @@
                   <row>
                      <cell><persName>جبران باخوس</persName></cell>
                      <cell>٢٤٠</cell>
-                     <cell>بقلم تفتيش الغرب</cell>
+                     <cell>ب<orgName ref="قلم تفتيش الغرب" type="قلم">قلم تفتيش
+                        الغرب</orgName></cell>
                   </row>
                   <row>
                      <cell>٠ ٨ درجه رابعه من ١٨٠ الى ٢١٦ جنيه</cell>
@@ -6925,7 +6935,7 @@
                   <row>
                      <cell><persName>جبران خياط</persName></cell>
                      <cell>١٢٠</cell>
-                     <cell>بقلم الشوارع بمصر</cell>
+                     <cell>ب<orgName ref="قلم الشوارع بمصر">قلم الشوارع بمصر</orgName></cell>
                   </row>
                   <row>
                      <cell><persName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>تبدسكى؟<?oxy_custom_end?></persName></cell>
@@ -6945,7 +6955,7 @@
                   <row>
                      <cell><persName>ابراهيم حسنين</persName></cell>
                      <cell>٩٦</cell>
-                     <cell>بحلوان</cell>
+                     <cell>ب<orgName ref="قلم تفتيش حلوان">حلوان</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>أحمد محمد</persName></cell>
@@ -6995,7 +7005,8 @@
                   <row>
                      <cell><persName>قدسى منصور</persName></cell>
                      <cell>٧٢</cell>
-                     <cell>بمصلحة الجناين بمصر</cell>
+                     <cell>ب<orgName ref="مصلحة الجناين بمصر" type="مصلحة">مصلحة الجناين
+                           بمصر</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>مصطفى رأفت</persName></cell>
@@ -7005,7 +7016,7 @@
                   <row>
                      <cell><persName>محمد أمين</persName></cell>
                      <cell>٧٢</cell>
-                     <cell>بتنظيم دمياط</cell>
+                     <cell>ب<orgName ref="تنظيم دمياط">تنظيم دمياط</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>مصطفى نصر</persName></cell>
@@ -7030,7 +7041,8 @@
                   <row>
                      <cell><persName>محمد عبد الهادى</persName></cell>
                      <cell>٧٢</cell>
-                     <cell>بقلم تنظيم المنصوره</cell>
+                     <cell>ب<orgName ref="قلم تنظيم المنصوره" type="قلم">قلم تنظيم
+                           المنصوره</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>بطرس منصور</persName></cell>
@@ -7085,17 +7097,17 @@
                   <row>
                      <cell><persName>أحمد عفيفى</persName></cell>
                      <cell>٦٠</cell>
-                     <cell>بتنظيم جرجا (*)</cell>
+                     <cell>ب<orgName ref="تنظيم جرجا">تنظيم جرجا</orgName> (*)</cell>
                   </row>
                   <row>
                      <cell><persName>ابراهيم حسن</persName></cell>
                      <cell>٦٠</cell>
-                     <cell>بتنظيم اسنا (*)</cell>
+                     <cell>ب<orgName ref="تنظيم اسنا">تنظيم اسنا</orgName> (*)</cell>
                   </row>
                   <row>
                      <cell><persName>يوسف أحمد</persName></cell>
                      <cell>٦٠</cell>
-                     <cell>بتنظيم بنى سويف (*)</cell>
+                     <cell>ب<orgName ref="تنظيم بنى سويف">تنظيم بنى سويف</orgName> (*)</cell>
                   </row>
                   <row>
                      <cell><persName>مرسى وحيد</persName></cell>
@@ -7198,7 +7210,7 @@
          <div resp="#eAK" xml:id="w401">
             <head>حرر بمدينة القاهرة فى ٥ مايو سنة ١٨٨٥ عن الناظر</head>
             <head>نظر ذلك وكيل أشغال عموميه</head>
-            <head>امضا (جران) (امضا) (سكوت مونكريف)</head>
+            <head>امضا (<persName>جران</persName>) (امضا) (<persName>سكوت مونكريف</persName>)</head>
          </div>
          <div resp="#eAK" xml:id="w402">
             <head><date when-custom="1302-08-11">١١ شعبان ١٣٠٢</date>
@@ -7208,8 +7220,8 @@
             <head><rs type="اعلان">اعلان</rs></head>
             <head>لحضرات أرباب البيوت</head>
             <head>صحه وسرعه <choice>
-                  <sic>ورفر</sic>
-                  <corr>ووفر</corr>
+                  <sic><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ورفر</sic>
+                  <corr>ووفر<?oxy_custom_end?></corr>
                </choice></head>
             <p>يمكن حضرات أرباب البيوت الذين يرغبون تنظيف محلات الراحة الموجودة بمنازلهم بدون تحمل
                المضار المعتاد حصولها الى الآن وباثمان متنازلة أن يخابروا شركة فيدانج اثيودور
@@ -7218,14 +7230,22 @@
          </div>
          <div resp="#eAK" xml:id="w403">
             <head><date when-custom="1302-08-13">١٣ شعبان ١٣٠٢</date>
-               <date when="1885-05-27">٢٧ مايو ١٨٨٥</date></head>
-            <head><bibl><biblScope unit="issue">نمرة ٦٢</biblScope>
+               <date when="1885-05-27">٢٧ مايو ١٨٨٥</date><bibl><biblScope unit="issue">نمرة
+                     ٦٢</biblScope>
                   <biblScope unit="page">صفحة ٥١٦</biblScope></bibl></head>
             <head><rs type="اعلان">اعلان</rs> (نمرة حافظة التوريد ٨٠٠)</head>
-            <p>ان تصفية تركة المرحوم يوسف أفندى حزام؟ المتوفى فى ٥ مايو سنة ١٨٨٥ وكيل أشغال دولتلو
-               البرنس عبد الحليم باشا تكون فى بطريركخانة الاقباط الكاتوليك بمصر فكل من له طلب أو دين
-               على التركه المذكورة ؟ فى كل الجهات يجب عليه أن يقدمه فى البطريركخانة ويثبته ٦١ يوما
-               من تاريخ هذا الاعلان سب الاصول وبعد نهاية المدة المعينة لا يقبل أى طلب على التركة </p>
+            <p>ان تصفية تركة المرحوم <persName>يوسف أفندى
+                  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>حزام؟<?oxy_custom_end?></persName>
+               المتوفى فى ٥ مايو سنة ١٨٨٥ وكيل أشغال <persName>دولتلو البرنس عبد الحليم
+                  باشا</persName> تكون فى <placeName ref="بطريركخانة الاقباط الكاتوليك"
+                  type="بطريركخانة"><orgName ref="بطريركخانة الاقباط الكاتوليك" type="بطريركخانة"
+                     >بطريركخانة الاقباط الكاتوليك</orgName></placeName> بمصر فكل من له طلب أو دين
+               على التركه
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>المذكورة
+               ؟<?oxy_custom_end?> فى كل الجهات يجب عليه أن يقدمه فى البطريركخانة ويثبته ٦١ يوما من
+               تاريخ هذا الاعلان
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>سب<?oxy_custom_end?>
+               الاصول وبعد نهاية المدة المعينة لا يقبل أى طلب على التركة</p>
             <p>تحريرا بمصر ٢٥ مايو سنة ١٨٨٥ </p>
          </div>
          <div resp="#eAK" xml:id="w404">
@@ -7235,12 +7255,13 @@
                   <biblScope unit="page">صفحة ٥١٦</biblScope></bibl></head>
             <head><rs type="اعلان">اعلان</rs> من <orgName ref="عموم بيت مال مصر" type="عموم">عموم
                   بيت مال مصر</orgName></head>
-            <p>العقارات الآتى بيانها بعد سبق اشهارها بالبيع بناء على تصريحات من الداخلية وبلغ آخر
-                  <rs type="مزاد">مزاد</rs> فى كل محل الثمن المذكور امامه بشرط ان كافة المصاريف من
-               ميرى ودلاله ورسومات وغيرها على الراسى عليهم المزادات وبيت المال مخير فى التسليم وعدمه
-               حسب الشروط المعينة بقوائم المزادات بميعاد ١٥ يوما من تاريخه حتى كل من له رغبة فى
-               مشترى شئ زيادة عما هو راس به المزاد يحضر هو أو كيل عنه لبيت المال بالافادة والضمانة
-               لتتميم المزاد كما هو لازم </p>
+            <p>العقارات الآتى بيانها بعد سبق اشهارها بالبيع بناء على تصريحات من <orgName
+                  ref="الداخلية" type="نظارة">الداخلية</orgName> وبلغ آخر <rs type="مزاد">مزاد</rs>
+               فى كل محل الثمن المذكور امامه بشرط ان كافة المصاريف من ميرى ودلاله ورسومات وغيرها على
+               الراسى عليهم المزادات وبيت المال مخير فى التسليم وعدمه حسب الشروط المعينة بقوائم
+               المزادات بميعاد ١٥ يوما من تاريخه حتى كل من له رغبة فى مشترى شئ زيادة عما هو راس به
+               المزاد يحضر هو <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>أو
+               كيل<?oxy_custom_end?> عنه لبيت المال بالافادة والضمانة لتتميم المزاد كما هو لازم </p>
             <table>
                <row>
                   <cell>عدد</cell>
@@ -7732,33 +7753,37 @@
                   <biblScope unit="page">صفحة ٦١٥</biblScope></bibl></head>
             <head><rs type="اعلان">اعلان</rs> من <orgName ref="بيت مال مصر">بيت مال
                مصر</orgName></head>
-            <p>انه موجود حصة ١٢ قيراطا من منزل خرب كائن بكفر الزغارى يبلغ مقاسه ٧٤ ذراعا و ٩٢ سنتى
-               بحجتين لم يعين بهما حكر ولا أجرة بناء قديم آيل لبيت المال قبل المرحومه سريه بنت أحمد
-               الفلش وتصرح بما صدر من الداخلية فى ١٣ شعبان سنة ١٣٠٢ نمرة ١٢٩ باشهارها ل<rs type="مزاد">مزاد</rs> بميعاد ٦١ يوما وعلى هذا قد تحررت قائمة مزاد فى تاريخه وتسلمت ل<choice>
+            <p>انه موجود حصة ١٢ قيراطا من منزل خرب كائن ب<placeName ref="كفر الزغارى">كفر
+                  الزغارى</placeName> يبلغ مقاسه ٧٤ ذراعا و ٩٢ سنتى بحجتين لم يعين بهما حكر ولا أجرة
+               بناء قديم آيل لبيت المال قبل المرحومه <persName>سريه بنت أحمد الفلش</persName> وتصرح
+               بما صدر من الداخلية فى ١٣ شعبان سنة ١٣٠٢ نمرة ١٢٩ باشهارها ل<rs type="مزاد">مزاد</rs>
+               بميعاد ٦١ يوما وعلى هذا قد تحررت قائمة مزاد فى تاريخه وتسلمت <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ل<choice>
                   <sic>ريش</sic>
                   <corr>رئيس</corr>
-               </choice> الدلالين لاشهارها على عموم الراغبين الميعاد الذكور وموضحا بها أن كافة
-               المصاريف على المشترى وبمرسى المزاد يكون بيت المال مخيرا فى التسليم وعدمه وقد نشر عن
-               ذلك لكافة الجهات عموما وبالجملة هذا لاعلانه على من يلزم حتى كل من له رغبة لمشترى
-               الحصة المذكورة حسب شروط القائمة فيحضر لبيت المال هو أو وكيل عنه بالافادة والضمانة
-               اللازمة قبل مضى الميعاد بيومين لتتميم المزاد ببيت المال حسب الجارى </p>
+               </choice><?oxy_custom_end?> الدلالين لاشهارها على عموم الراغبين الميعاد الذكور وموضحا
+               بها أن كافة المصاريف على المشترى وبمرسى المزاد يكون بيت المال مخيرا فى التسليم وعدمه
+               وقد نشر عن ذلك لكافة الجهات عموما وبالجملة هذا لاعلانه على من يلزم حتى كل من له رغبة
+               لمشترى الحصة المذكورة حسب شروط القائمة فيحضر لبيت المال هو أو وكيل عنه بالافادة
+               والضمانة اللازمة قبل مضى الميعاد بيومين لتتميم المزاد ببيت المال حسب الجارى </p>
          </div>
          <div resp="#eAK" xml:id="w442">
             <head><date when-custom="1302-09-17">١٧ رمضان ١٣٠٢</date>
-               <date when="1885-06-29">٢٩ يونيه ١٨٨٥</date></head>
-            <head><bibl><biblScope unit="issue">نمرة ٧٦</biblScope>
+               <date when="1885-06-29">٢٩ يونيه ١٨٨٥</date><bibl><biblScope unit="issue">نمرة
+                     ٧٦</biblScope>
                   <biblScope unit="page">صفحة ٦٣٢</biblScope></bibl></head>
-            <p>ترجمة قرار من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال
-                  العمومية</orgName> نمرة ٣٥٣ فيما يتعلق بتنمير الاملاك الواقعة على الشوارع العمومية
-               بمدينة القاهرة </p>
+            <p>ترجمة <rs type="قرار">قرار</rs> من <orgName ref="نظارة الاشغال العمومية" type="نظارة"
+                  >نظارة الاشغال العمومية</orgName> نمرة ٣٥٣ فيما يتعلق بتنمير الاملاك الواقعة على
+               الشوارع العمومية بمدينة القاهرة </p>
             <p>بناء على القرار الصادر من <orgName ref="مجلس النظار" type="مجلس ">مجلس
                   النظار</orgName> بتاريخ ١٨ جمادى الاولى سنة ١٣٠٢ (٥ مارث سنة ١٨٨٥) نمرة ١١ قد تقرر
                ما هو آت </p>
             <div>
                <head>(المادة الاولى)</head>
-               <p>يصير تنمير الاملاك الكائنة بمدينة القاهرة على حسب المشروع الذى عمل بمعرفة تفتيش
-                  القاهرة وعلى كل صفيحة من الصفائح التى أفزت النظارة على أورنيكها تكتب النمرة
-                  بالارقام العربية والافرنكية معا </p>
+               <p>يصير تنمير الاملاك الكائنة بمدينة القاهرة على حسب المشروع الذى عمل بمعرفة <orgName
+                     ref="تفتيش القاهرة" type="تفتيش">تفتيش القاهرة</orgName> وعلى كل صفيحة من
+                  الصفائح التى
+                  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>أفزت<?oxy_custom_end?>
+                  النظارة على أورنيكها تكتب النمرة بالارقام العربية والافرنكية معا </p>
             </div>
          </div>
          <div resp="#eAK" xml:id="w444">
@@ -7770,54 +7795,56 @@
                   العمومية</orgName> نمرة ٣٥٤</head>
             <p>من بعد الاطلاع على المادة السابعة من الدكريتو الصادر فى ٢٤ مايو سنة ٨٥ القاضى بتعديل
                نصوص الدكريتو الصادر فى ١٠ ابريل سنة ٨٣ بخصوص تشكيل وسير مجلس الادارة والتأديب وعلى
-               القرار الوزارى الصادر فى ٢١ يناير سنة ٨٥ بشأن تأليف مجلس الادارة والتأديب فى نظارة
-               الاشغال العمومية وبناء على ما عرضه لنا حضرة وكيل نظارة الاشغال العمومية قد قررنا ما
-               هو آت </p>
+               القرار الوزارى الصادر فى ٢١ يناير سنة ٨٥ بشأن تأليف <orgName
+                  ref="مجلس الادارة والتأديب فى نظارة الاشغال العمومية" type="مجلس">مجلس الادارة
+                  والتأديب فى نظارة الاشغال العمومية</orgName> وبناء على ما عرضه لنا حضرة وكيل نظارة
+               الاشغال العمومية قد قررنا ما هو آت </p>
             <div xml:id="w445">
                <head>(المادة الاولى)</head>
                <p>قد ألغى القرار الصادر فى ٢١ يناير سنة ٨٥ </p>
             </div>
             <div xml:id="w446">
                <head>(المادة الثانية)</head>
-               <p>قد تشكل مجلس الادارة والتأديب ل<orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال العمومية</orgName> وللمصالح التابعة لها على الوجه الآتى</p>
+               <p>قد تشكل مجلس الادارة والتأديب لنظارة الاشغال العمومية وللمصالح التابعة لها على
+                  الوجه الآتى</p>
                <table>
                   <row>
-                     <cell>المسيو جول باروا</cell>
+                     <cell><persName>المسيو جول باروا</persName></cell>
                      <cell>سكرتير عموم الاشغال العمومية</cell>
                      <cell>رئيس</cell>
                   </row>
                   <row>
-                     <cell>المسيو جران بك</cell>
+                     <cell><persName>المسيو جران بك</persName></cell>
                      <cell>مدير عموم المدن</cell>
                      <cell>نائب</cell>
                   </row>
                   <row>
-                     <cell>أحمد بك السبكى</cell>
+                     <cell><persName>أحمد بك السبكى</persName></cell>
                      <cell>باشمهندس الموازين</cell>
                      <cell>أعضاء</cell>
                   </row>
                   <row>
-                     <cell>درويش أفندى سيد احمد</cell>
+                     <cell><persName>درويش أفندى سيد احمد</persName></cell>
                      <cell>رئيس قسم عربى الادارة</cell>
                      <cell/>
                   </row>
                   <row>
-                     <cell>المسيو جالوا بك</cell>
+                     <cell><persName>المسيو جالوا بك</persName></cell>
                      <cell>رئيس قسم الهندسة</cell>
                      <cell/>
                   </row>
                   <row>
-                     <cell>سيد أفندى شكرى</cell>
+                     <cell><persName>سيد أفندى شكرى</persName></cell>
                      <cell>مساعد مفتش مصر</cell>
                      <cell/>
                   </row>
                   <row>
-                     <cell>صدقى أفندى</cell>
+                     <cell><persName>صدقى أفندى</persName></cell>
                      <cell>مفتش بقسم الهندسة</cell>
                      <cell/>
                   </row>
                   <row>
-                     <cell>فريد أفندى باباذوغلى</cell>
+                     <cell><persName>فريد أفندى باباذوغلى</persName></cell>
                      <cell>رئيس قسم الادارة</cell>
                      <cell>سكرتير</cell>
                   </row>
@@ -7830,11 +7857,12 @@
             </div>
             <div>
                <head>(المادة الرابعة)</head>
-               <p>تؤخذ قرارات المجلس بالاغلبية واذ تعادلت الآراء للرئيس الحكم بالارججية (الصح
-                  الارجحية)</p>
-               <p>تحريرا فى ٩ يونية سنة ٨٥ عن ناظر الاشغال العموميه </p>
+               <p>تؤخذ قرارات المجلس بالاغلبية واذ تعادلت الآراء للرئيس الحكم بالارججية
+                  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>(الصح
+                  الارجحية)<?oxy_custom_end?></p>
+               <p>تحريرا فى ٩ يونية سنة ٨٥ عن ناظر الاشغال العموميه</p>
                <p>الوكيل </p>
-               <p>الامضا (منكريف)</p>
+               <p>الامضا (<persName>منكريف</persName>)</p>
             </div>
          </div>
          <div>
@@ -7844,63 +7872,78 @@
                   <biblScope unit="page">صفحة ٦٨٠</biblScope></bibl></head>
             <head><orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال
                   العمومية</orgName></head>
-            <head>ادارة عموم تنظيم ومبانى الحكومة</head>
-            <head>تفتيش المحروسة</head>
+            <head><orgName ref="ادارة عموم تنظيم ومبانى الحكومة" type="ادارة">ادارة عموم تنظيم
+                  ومبانى الحكومة</orgName></head>
+            <head><orgName ref="تفتيش المحروسة" type="تفتيش">تفتيش المحروسة</orgName></head>
             <head>أشغال مدينة حلوان ومديرية الجيزة</head>
-            <p>تتشرف ادارة أشغال مدينة حلوان والجيزة باعلان حضرات المترددين على مدينة حلوان الحمامات
-               ان قزان تسخين المياه الكبريتية بالحمامات المذكورة الذى كان صار استهلاكه ولهذا السبب
-               كان صار ايقاف اعطاء المياه السخنة فالآن جرى اعمال وتركيب خلافه مستجد به سهولة كلية
+            <p>تتشرف <orgName ref="ادارة أشغال مدينة حلوان والجيزة" type="ادارة">ادارة أشغال مدينة
+                  حلوان والجيزة</orgName> باعلان حضرات المترددين على <placeName
+                  ref="مدينة حلوان الحمامات">مدينة حلوان الحمامات</placeName> ان قزان تسخين المياه
+               الكبريتية بالحمامات المذكورة الذى كان صار استهلاكه ولهذا السبب كان صار ايقاف اعطاء
+               المياه السخنة فالآن جرى اعمال وتركيب خلافه مستجد به سهولة
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>كلية<?oxy_custom_end?>
                لتسخين المياه الكبريتيه وحيث ذلك فيكون معلوم لدى العموم ان من ابتداء ١٠ من شهر يوليه
                الحاضر ستعطى الحمامات السخنة الكبريتيه ان تطلبوها من حضرات المترددين تحريرا بحلوان
-               الحمامات فى ٩ يوليه [الصفحة ممسوحة] </p>
+               الحمامات فى ٩ يوليه
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>[الصفحة ممسوحة]
+               <?oxy_custom_end?></p>
             <p>الباشمهندس مدير
                أشغال<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> [الصفحة
                مقطوعة]<?oxy_custom_end?></p>
          </div>
          <div resp="#eAK" xml:id="w450">
             <head><date when-custom="1302-10-08">٨ شوال سنة ١٣٠٢</date>
-               <date when="1885-07-20">٢٠ يوليه ١٨٨٥</date></head>
-            <head><bibl><bibl><biblScope unit="issue">نمرة ٨٣</biblScope>
+               <date when="1885-07-20">٢٠ يوليه ١٨٨٥</date><bibl><bibl><biblScope unit="issue">نمرة
+                        ٨٣</biblScope>
                      <biblScope unit="issue">صفحة ٦٩١ – ٦٩٢</biblScope></bibl></bibl></head>
             <p>منشور عمومى أصدرته <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال
                   العمومية</orgName> فى ٣٠ يونيه سنة ٨٥ بلزوم تقديم العرضحالات عن المواد الاعتيادية
                الى تفتيش الرى مباشرة بدون توسيط النظارة وهو </p>
-            <p>دواما يرد؟ لديوان هذه النظارة عرضحالات بكثرة عن مواد؟ عادية؟ تتعلق بامور الرى كطلب
-               تطهير ترعة أو تقوية جسر أو وضع وازالة سدود او زيادة وتنقيص مياه أو ردم وفحت مراو؟
+            <p>دواما
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>يرد؟<?oxy_custom_end?>
+               لديوان هذه النظارة عرضحالات بكثرة عن
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>مواد؟
+               عادية؟<?oxy_custom_end?> تتعلق بامور الرى كطلب تطهير ترعة أو تقوية جسر أو وضع وازالة
+               سدود او زيادة وتنقيص مياه أو ردم وفحت
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>مراو؟<?oxy_custom_end?>
                وماشاكل ذلك ولما كانت هذه المواد من خصائص التفاتيش المذكورة وحيث ان هذه الحالة متسبب
                عنها مشغولية النظارة وحصول المشاق لاصحاب تلك العرضحالات مع طول الزمن ولو قدمت رأسا
-               الى تفاتيش الرى التى هى أقرب من ديوان النظارة لزالت؟ تلك الصعوبات فلذلك تطلب هذه
-               النظارة من جميع الاهالى أن يقدموا العرضحالات التى من هذا القبيل الى تفاتيش الرى رأسا
-               عوضا عن أن يقدموها للنظارة وليتأكدوا أن تفاتيش الرى تهتم باجراء كل ما يجب اجراوه عنها
-               فى وقته حسب شؤون المصلحة اذ المقصود هو التسهيل وراحة العموم وسير الاعمال على المنهج
-               الاقوم </p>
+               الى تفاتيش الرى التى هى أقرب من ديوان النظارة
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>لزالت؟<?oxy_custom_end?>
+               تلك الصعوبات فلذلك تطلب هذه النظارة من جميع الاهالى أن يقدموا العرضحالات التى من هذا
+               القبيل الى تفاتيش الرى رأسا عوضا عن أن يقدموها للنظارة وليتأكدوا أن تفاتيش الرى تهتم
+               باجراء كل ما يجب اجراوه عنها فى وقته حسب شؤون المصلحة اذ المقصود هو التسهيل وراحة
+               العموم وسير الاعمال على المنهج الاقوم</p>
          </div>
          <div resp="#eAK" xml:id="w451">
-            <head><date when="1885-07-20">٢٠ يوليه ١٨٨٥</date>
-               <date when-custom="1302-10-08">٨ شوال ١٣٠٢</date></head>
-            <head><bibl><biblScope unit="issue">نمرة ٨٣</biblScope>
+            <head><date when-custom="1302-10-08">٨ شوال ١٣٠٢</date><date when="1885-07-20">٢٠ يوليه
+                  ١٨٨٥</date>
+               <bibl><biblScope unit="issue">نمرة ٨٣</biblScope>
                   <biblScope unit="page">صفحة ٦٩٢</biblScope></bibl></head>
             <head><orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال
                   العمومية</orgName></head>
-            <head>ادارة عموم تنظيم ومبانى الحكومة</head>
-            <head>تفتيش المحروسة</head>
+            <head><orgName ref="ادارة عموم تنظيم ومبانى الحكومة" type="ادارة">ادارة عموم تنظيم
+                  ومبانى الحكومة</orgName></head>
+            <head><orgName ref="تفتيش المحروسة">تفتيش المحروسة</orgName></head>
             <head>أشغال مدينة حلوان ومديرية الجيزة</head>
-            <p>تتشرف ادارة أشغال مدينة حلوان والجيزة باعلان حضرات المترددين على مدينة حلوان الحمامات
-               ان قزان تسخين المياه الكبريتية بالحمامات المذكورة الذى كان صار استهلاكه ولهذا السبب
-               كان صار ايقاف اعطاء المياه السخنة فالآن جرى اعمال وتركيب خلافه مستجد به سهولة كلية
-               لتسخين المياه الكبريتيه وحيث ذلك فيكون معلوم لدى العموم ان من ابتداء ١٠ من شهر يوليه
-               الحاضر ستعطى الحمامات السخنة الكبريتيه ان تطلبوها من حضرات المترددين تحريرا بحلوان
-               الحمامات فى ٩ يوليه ٨٥ </p>
+            <p>تتشرف <orgName ref="ادارة أشغال مدينة حلوان والجيزة" type="ادارة">ادارة أشغال مدينة
+                  حلوان والجيزة</orgName> باعلان حضرات المترددين على <placeName
+                  ref="مدينة حلوان الحمامات">مدينة حلوان الحمامات</placeName> ان قزان تسخين المياه
+               الكبريتية بالحمامات المذكورة الذى كان صار استهلاكه ولهذا السبب كان صار ايقاف اعطاء
+               المياه السخنة فالآن جرى اعمال وتركيب خلافه مستجد به سهولة كلية لتسخين المياه
+               الكبريتيه وحيث ذلك فيكون معلوم لدى العموم ان من ابتداء ١٠ من شهر يوليه الحاضر ستعطى
+               الحمامات السخنة الكبريتيه ان تطلبوها من حضرات المترددين تحريرا بحلوان الحمامات فى ٩
+               يوليه ٨٥ </p>
             <p>(الباشمهندس مدير أشغال حلوان والجيزه)</p>
-            <p>(الامضا) (أحمد أنسى)</p>
+            <p>(الامضا) (<persName>أحمد أنسى</persName>)</p>
          </div>
          <div resp="#eAK" xml:id="w452">
             <head><date when="1302-10-10">١٠ شوال ١٣٠٢</date>
-               <date when="1885-07-22">٢٢ يوليه ١٨٨٥</date></head>
-            <head><bibl><biblScope unit="issue">نمرة ٨٤</biblScope>
+               <date when="1885-07-22">٢٢ يوليه ١٨٨٥</date><bibl><biblScope unit="issue">نمرة
+                     ٨٤</biblScope>
                   <biblScope unit="page">صفحة ٦٩٨</biblScope></bibl></head>
-            <head>قرار من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال
-                  العمومية</orgName></head>
+            <head><rs type="قرار">قرار</rs> من <orgName ref="نظارة الاشغال العمومية" type="نظارة"
+                  >نظارة الاشغال العمومية</orgName></head>
             <p>بناء على الدكريتو الصادر فى ٣١ ديسمبر سنة ١٨٧٨ المقرر فيه اختصاصات نظارة الاشغال
                العمومية وعلى دكريتو التنظيم الصادر فى ١٣ مارث سنة ١٨٨١ وعلى الدكريتو الصادر فى ١٨
                ديسمبر سنة ٨١ بتأليف لجنة لحفظ آثار الصناعة العربية وعلى لائحة التنظيم المؤرخة ٢٥
@@ -7920,10 +7963,10 @@
             </div>
             <div>
                <head>(المادة الثالثة)</head>
-               <p>على مدير عموم التنظيم تنفيذ قرارنا هذا </p>
+               <p>على مدير عموم التنظيم تنفيذ قرارنا هذا</p>
                <p>المحروسة فى ٨ يوليه سنة ١٨٨٥ </p>
                <p>ناظر الاشغال العمومية </p>
-               <p>(الامضا) (عبد الرحمن رشيدى)</p>
+               <p>(الامضا) (<persName>عبد الرحمن رشيدى</persName>)</p>
             </div>
          </div>
          <div resp="#eAK" xml:id="w456">
@@ -7931,16 +7974,19 @@
                <date when="1885-07-25">٢٥ يوليه ١٨٨٥</date>
                <bibl><biblScope unit="issue">نمرة ٨٥</biblScope>
                   <biblScope unit="page">صفحة ٧٠٥</biblScope></bibl></head>
-            <p>منشور صادر من نظارة المالية فى ٢٠ يوليه سنة ٨٥ الى جميع مصالح الحكومة بتعليمات تتعلق
-               بتحصيل عوائد المبانى عن الستة شهور الثانية من سنة ١٨٨٥ وهو الحاقا للمنشور الصادر
-               بتاريخ ٧ يونيه الاخير نمرة ١٨ تقيد تكم ان الاسباب التى نشا عنها الى الآن توقيف تنفيذ
-               دكريتو١٣ مارث سنة ١٨٨٤ لم تزل موجودة فلذلك قد تقرر أن عوائد المبانى يصير تحصيلها عن
-               الستة شهور الثانية من السنة الجارية على مقتضى ما صار تحصيله عن الستة شهور الاولى من
-               هذه السنة مع مراعات التغييرات التى حصلت فى الاماكن المربوطة عليها العوائد تطبيقا
-               للتعليمات الواردة بالمنشور الصادر بتاريخ ١٢ ؟ نوفمبر سنة ١٨٨٤ نمرة ٨ ادارة اموال
-               مقررة وقد لزم تحريره تكم آملين التنبيه على المندوبين الملكلفين بتحصيل هذه العوائد
-               بربطها على أربابها فى الجرائد والاوراد عن النصف الثانى منها المطلوب من أولئك الممولين
-               عن السنة الجارية والمبادرة بتحصيله بدون تأخير </p>
+            <p>منشور صادر من <orgName ref="نظارة المالية" type="نظارة">نظارة المالية</orgName> فى ٢٠
+               يوليه سنة ٨٥ الى جميع مصالح الحكومة بتعليمات تتعلق بتحصيل عوائد المبانى عن الستة شهور
+               الثانية من سنة ١٨٨٥ وهو الحاقا للمنشور الصادر بتاريخ ٧ يونيه الاخير نمرة ١٨
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>تقيد
+               تكم<?oxy_custom_end?> ان الاسباب التى نشا عنها الى الآن توقيف تنفيذ دكريتو١٣ مارث سنة
+               ١٨٨٤ لم تزل موجودة فلذلك قد تقرر أن عوائد المبانى يصير تحصيلها عن الستة شهور الثانية
+               من السنة الجارية على مقتضى ما صار تحصيله عن الستة شهور الاولى من هذه السنة مع مراعات
+               التغييرات التى حصلت فى الاماكن المربوطة عليها العوائد تطبيقا للتعليمات الواردة
+               بالمنشور الصادر بتاريخ ١٢ ؟ نوفمبر سنة ١٨٨٤ نمرة ٨ ادارة اموال مقررة وقد لزم تحريره
+               تكم آملين التنبيه على المندوبين
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الملكلفين<?oxy_custom_end?>
+               بتحصيل هذه العوائد بربطها على أربابها فى الجرائد والاوراد عن النصف الثانى منها
+               المطلوب من أولئك الممولين عن السنة الجارية والمبادرة بتحصيله بدون تأخير</p>
             <p>تحريرا فى ٨ شوال سنة ١٣٠٢ </p>
          </div>
          <div resp="#eAK" xml:id="w457">
@@ -7950,15 +7996,19 @@
                   <biblScope unit="page">صفحة ٧١٢</biblScope></bibl></head>
             <head><rs type="اعلان">اعلان</rs></head>
             <head>نمرة حافظة التوريد ٩٧١</head>
-            <p>من حيث ان وقف المرحوم الحاج خليفه الزوارى المغربى الكائن بعض أماكنه بسكندرية وبعضه
-               ببولاق مصر المحروسه الذى كان نظرا عليه موقتا سليمان عبد الرحمن الزوارى قد صار الآن
-               للست تومانه بنت مسعود الزوارى نظرا واستحقاقا حسب شرط الواقف لعلو طبقتها على سائر ذرية
-               الموقوف عليه كما هو موضح ومبين بالاعلام الشرعى المحرر من محكمة الجيزة المحكوم بصحته
-               المشتمل على ثبوت وراثة ونسب الست تومانه المذكورة وسائر ذرية الموقوف عليه وحرر لها
-               تقرير النظر على الوقف المذكور جميعه ما خلا منزلين ببولاق آل النظر عليهما لابنها عمر
-               سليمان بن جمعه وقد استلمت الوقف المذكور فصار فى نظرها وملاحظتها بواسطة ديوان عموم
-               الاوقاف المصريه بتوكيل ابنها عمر المذكور وتحرر هذا للمعلومية </p>
-            <p>فى ١٠ شوال سنة ١٣٠٢ (عمر سليمان الوكيل)</p>
+            <p>من حيث ان وقف المرحوم <persName>الحاج خليفه الزوارى المغربى</persName> الكائن بعض
+               أماكنه بسكندرية وبعضه ب<placeName ref="بولاق مصر">بولاق مصر</placeName> المحروسه الذى
+               كان نظرا عليه موقتا <persName>سليمان عبد الرحمن الزوارى</persName> قد صار الآن للست
+                  <persName>تومانه بنت مسعود الزوارى</persName> نظرا واستحقاقا حسب شرط الواقف لعلو
+               طبقتها على سائر ذرية الموقوف عليه كما هو موضح ومبين بالاعلام الشرعى المحرر من
+                  <orgName ref="محكمة الجيزة" type="محكمة"><placeName ref="محكمة الجيزة"
+                     type="محكمة">محكمة الجيزة</placeName></orgName> المحكوم بصحته المشتمل على ثبوت
+               وراثة ونسب الست تومانه المذكورة وسائر ذرية الموقوف عليه وحرر لها تقرير النظر على
+               الوقف المذكور جميعه ما خلا منزلين ببولاق آل النظر عليهما لابنها <persName>عمر سليمان
+                  بن جمعه</persName> وقد استلمت الوقف المذكور فصار فى نظرها وملاحظتها بواسطة
+                  <persName ref="ديوان عموم الاوقاف المصريه" type="ديوان">ديوان عموم الاوقاف
+                  المصريه</persName> بتوكيل ابنها عمر المذكور وتحرر هذا للمعلومية </p>
+            <p>فى ١٠ شوال سنة ١٣٠٢ (<persName>عمر سليمان الوكيل</persName>)</p>
          </div>
          <div resp="#eAK" xml:id="w458">
             <head><date when-custom="1302-10-27">٢٧ شوال سنة ١٣٠٢</date>
@@ -7966,37 +8016,42 @@
                <bibl><biblScope unit="issue">نمرة ٩٢</biblScope>
                   <biblScope unit="page">صفحة ٧٩٠ – ٧٩١</biblScope></bibl></head>
             <head>قطع الخليج</head>
-            <p>جرت العادة بالاحتفال لهذا العمل من بضعة قرون وبأن نظر له علامات البشر من عموم
-               المصريين ان يعدونه علامة على بلوغ النيل درجة يتمكنون بها من تعميم الرى فى غالب
-               الاراضى الزراعية التى هى منبع الثرو[ة] ومعين الحياة </p>
+            <p>جرت العادة بالاحتفال لهذا العمل من بضعة قرون
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>وبأن نظر
+               له<?oxy_custom_end?> علامات البشر من عموم المصريين ان يعدونه علامة على بلوغ النيل
+               درجة يتمكنون بها من تعميم الرى فى غالب الاراضى الزراعية التى هى منبع الثرو[ة] ومعين
+               الحياة </p>
             <p>وقد احتفل له فى هذا العام احتفا[لا] عظيما فى ليلة الخميس الماضى فضربت عند مأخذه من
-               النيل الخيام والقباب واجتمع اليها الامراء والوجهاء والاعيان وشرف هنالك صاحب الدولة
-               نوبار باشا نيابة عن الجناب الخديوى المعظم حفظه الله وكان النيل والبر مزدانان بالاضواء
-               المختلفة الاشكال والاوضاع والالعاب النارية البارودية تخترق طبقات الهواء على هيئات
-               تأخذ بأنفاس عجبا واستغرابا وفى صباح ذلك اليوم اجتمع هنالك كثير من العلماء الاعلام
-               والامراء وفى مقدمتهم دولة رئيس <orgName ref="مجلس النظار" type="مجلس ">مجلس
-                  النظار</orgName> وغالب النظار الكرام وسعادة وكيل الداخلية وغيرهم من الذوات
-               والعظماء والوجوه والكبراء وبلغت درجة ارتفاع النيل ١٨ ذراعا و ١٣ قيراطا فصدر الامر
-               بقطع السد عند كمال الساعة الثانية عربيا من النهار فخلعت؟ الخلع على أهلها وفرقت
-               الصدقات وتلى حضرة الشيخ محمد السنباطى مقالة تشتمل على الدعاء المبرور للجناب الخديوى
-               المعظم وأنجاله الكرام ورجال حكومته الفخام ثم وقع الكل على الصك المكتوب بوفاء النيل
-               ووجوب الخراج وانفض الجمع داعيا بعودة أمثال هذا الموسم على الجناب الخديوى المعظم
+               النيل الخيام والقباب واجتمع اليها الامراء والوجهاء والاعيان وشرف هنالك <persName>صاحب
+                  الدولة نوبار باشا</persName> نيابة عن الجناب الخديوى المعظم حفظه الله وكان النيل
+               والبر مزدانان بالاضواء المختلفة الاشكال والاوضاع والالعاب النارية البارودية تخترق
+               طبقات الهواء على هيئات تأخذ بأنفاس عجبا واستغرابا وفى صباح ذلك اليوم اجتمع هنالك كثير
+               من العلماء الاعلام والامراء وفى مقدمتهم دولة رئيس <orgName ref="مجلس النظار"
+                  type="مجلس ">مجلس النظار</orgName> وغالب النظار الكرام وسعادة وكيل <orgName
+                  ref="الداخلية" type="نظارة">الداخلية</orgName> وغيرهم من الذوات والعظماء والوجوه
+               والكبراء وبلغت درجة ارتفاع النيل ١٨ ذراعا و ١٣ قيراطا فصدر الامر بقطع السد عند كمال
+               الساعة الثانية عربيا من النهار فخلعت الخلع على أهلها وفرقت الصدقات وتلى حضرة
+                  <persName>الشيخ محمد السنباطى</persName> مقالة تشتمل على الدعاء المبرور للجناب
+               الخديوى المعظم وأنجاله الكرام ورجال حكومته الفخام ثم وقع الكل على الصك المكتوب بوفاء
+               النيل ووجوب الخراج وانفض الجمع داعيا بعودة أمثال هذا الموسم على الجناب الخديوى المعظم
                وأنجاله وهم بخير واقبال </p>
          </div>
          <div resp="#eAK" xml:id="w459">
-            <head><date when="1885-08-08">٨ أغسطس ١٨٨٥</date>
-               <date when-custom="1302-10-27">٢٧ شوال سنة ١٣٠٢</date>
+            <head><date when-custom="1302-10-27">٢٧ شوال سنة ١٣٠٢</date>
+               <date when="1885-08-08">٨ أغسطس ١٨٨٥</date>
                <bibl><biblScope unit="issue">نمرة ٩٢</biblScope>
                   <biblScope unit="page">صفحة ٧٦٣</biblScope></bibl></head>
             <head><rs type="اعلان">اعلان</rs> من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال العمومية</orgName></head>
             <p>نظارة الاشغال العموميه تشهر <rs type="مزاد">مزاد</rs> عملية الفحت والردم اللازم
-               اجراؤها بالشوارع المجاورة للجامع الازهر على مقتضى مقايسة بمبلغ ١٤٤٥٥ قرشا و ٣٣ فضه
-               واستمارة شروط موجودين بقلم مشتروات النظارة المشار اليها وقد تحدد لنهو هذا المزاد يوم
-               الاثنين الموافق ١٧ أغسطس سنة ٨٥ و ٦ القعده سنة ٣٠٢ الساعة ١١ افرنكى قبل الظهر وتقديم
-               العطاء يكون داخل مظاريف يصير فتحها فى الميعاد المحدد فكل من له رغبة فى ذلك فليحضر
-               للقلم المذكور فى كل يوم من الساعة ٩ افرنكى صباحا لحد الظهر لاطلاعه على المقايسة
-               والشروط المذكورين وتقديم عطائه بالكيفية المذكورة ومن لا يحضر لغاية الميعاد المحدد
-               لنهو هذا المزاد فلا يقبل منه قول فيما بعد </p>
+               اجراؤها بالشوارع المجاورة لل<placeName ref="جامع الازهر" type="جامع"><orgName
+                     ref="جامع الازهر" type="جامع">جامع الازهر</orgName></placeName> على مقتضى
+               مقايسة بمبلغ ١٤٤٥٥ قرشا و ٣٣ فضه واستمارة شروط موجودين ب<orgName
+                  ref="قلم مشتروات نظارة الاشغال العمومية" type="قلم">قلم مشتروات النظارة</orgName>
+               المشار اليها وقد تحدد لنهو هذا المزاد يوم الاثنين الموافق ١٧ أغسطس سنة ٨٥ و ٦ القعده
+               سنة ٣٠٢ الساعة ١١ افرنكى قبل الظهر وتقديم العطاء يكون داخل مظاريف يصير فتحها فى
+               الميعاد المحدد فكل من له رغبة فى ذلك فليحضر للقلم المذكور فى كل يوم من الساعة ٩
+               افرنكى صباحا لحد الظهر لاطلاعه على المقايسة والشروط المذكورين وتقديم عطائه بالكيفية
+               المذكورة ومن لا يحضر لغاية الميعاد المحدد لنهو هذا المزاد فلا يقبل منه قول فيما بعد </p>
             <p>تحريرا فى أول أغسطس سنة ٨٥ </p>
          </div>
          <div resp="#eAK" xml:id="w460">
@@ -8006,47 +8061,54 @@
                   <biblScope unit="page">صفحة ٧٧٠</biblScope></bibl></head>
             <head><rs type="اعلان">اعلان</rs> من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال العمومية</orgName></head>
             <p>نظارة الاشغال العموميه تشهر <rs type="مزاد">مزاد</rs> عملية الفحت والردم اللازم
-               اجراؤها بالشوارع المجاورة للجامع الازهر على مقتضى مقايسة بمبلغ ١٤٤٥٥ قرشا و ٣٣ فضه
-               واستمارة شروط موجودين بقلم مشتروات النظارة المشار اليها وقد تحدد لنهو هذا المزاد يوم
-               الاثنين الموافق ١٧ أغسطس سنة ٨٥ و ٦ القعده سنة ٣٠٢ الساعة ١١ افرنكى قبل الظهر وتقديم
-               العطاء يكون داخل مظاريف يصير فتحها فى الميعاد المحدد فكل من له رغبة فى ذلك فليحضر
-               للقلم المذكور فى كل يوم من الساعة ٩ افرنكى صباحا لحد الظهر لاطلاعه على المقايسة
-               والشروط المذكورين وتقديم عطائه بالكيفية المذكورة ومن لا يحضر لغاية الميعاد المحدد
-               لنهو هذا المزاد فلا يقبل منه قول فيما بعد </p>
+               اجراؤها بالشوارع المجاورة لل<placeName ref="جامع الازهر" type="جامع"><orgName
+                     ref="جامع الازهر" type="جامع">جامع الازهر</orgName></placeName> على مقتضى
+               مقايسة بمبلغ ١٤٤٥٥ قرشا و ٣٣ فضه واستمارة شروط موجودين ب<orgName
+                  ref="قلم مشتروات نظارة الاشغال العمومية" type="قلم">قلم مشتروات النظارة</orgName>
+               المشار اليها وقد تحدد لنهو هذا المزاد يوم الاثنين الموافق ١٧ أغسطس سنة ٨٥ و ٦ القعده
+               سنة ٣٠٢ الساعة ١١ افرنكى قبل الظهر وتقديم العطاء يكون داخل مظاريف يصير فتحها فى
+               الميعاد المحدد فكل من له رغبة فى ذلك فليحضر للقلم المذكور فى كل يوم من الساعة ٩
+               افرنكى صباحا لحد الظهر لاطلاعه على المقايسة والشروط المذكورين وتقديم عطائه بالكيفية
+               المذكورة ومن لا يحضر لغاية الميعاد المحدد لنهو هذا المزاد فلا يقبل منه قول فيما بعد </p>
             <p>تحريرا فى أول أغسطس سنة ٨٥ </p>
          </div>
          <div resp="#eAK" xml:id="w461">
-            <head><date when="1885-08-10">١٠ أغسطس ١٨٨٥</date>
-               <date when-custom="1302-10-29">٢٩ شوال ١٣٠٢</date>
+            <head><date when-custom="1302-10-29">٢٩ شوال ١٣٠٢</date>
+               <date when="1885-08-10">١٠ أغسطس ١٨٨٥</date>
                <bibl><biblScope unit="issue">نمرة ٩٣</biblScope>
                   <biblScope unit="page">صفحة ٧٧٠</biblScope></bibl></head>
-            <head><rs type="اعلان">اعلان</rs> من قومسيون السكة الحديد</head>
+            <head><rs type="اعلان">اعلان</rs> من <orgName ref="قومسيون السكة الحديد" type="قومسيون"
+                  >قومسيون السكة الحديد</orgName></head>
             <p>بما ان المصلحة تمتلك خمسة وعشرين فدانا وكسور على أربع قطع بضواحى مصر ولازم تأجيرها
                لمن يرغب من ابتداء
                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>توتى
                ؟<?oxy_custom_end?> سنة ٦٠٢ ومحرر عنهم أربع قوائم <rs type="مزاد">مزاد</rs> موجودة
-               بهندسة قسم أول السكة بمحطة مصر وكذا عشرة أفدنة وكسور بطنطا معرضة للتأجير لم يرغب من
-               توتى <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>(شهر توت
-               القبطى؟) <?oxy_custom_end?>سنة ٦٠٢ وقائمة مزادها موجودة بهندسة قسم رابع بالجهة
-               المذكورة ومحدد بها وبالقوائم الاخرى وقبول العطاء لغاية ٢٩ أغسطس سنة ٨٥ وبعدها لا يقبل
-               عطاء من أحد فيقتضى أن كل من يرغب تأجير تلك الاطيان يتوجه الى هندستى قسم أول وقسم رابع
-               لاطلاعه على شروط المزاد ووضع عطائه وقد تحرر هذا اعلانا للعموم بذلك فى ٢ أغسطس سنة
-               ١٨٨٥ </p>
+                  ب<orgName ref="هندسة قسم أول السكة" type="هندسة">هندسة قسم أول السكة</orgName>
+                  ب<placeName ref="محطة مصر" type="محطة">محطة مصر</placeName> وكذا عشرة أفدنة وكسور
+                  ب<placeName ref="طنطا">طنطا</placeName> معرضة للتأجير لم يرغب من توتى
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>(شهر توت القبطى؟)
+               <?oxy_custom_end?>سنة ٦٠٢ وقائمة مزادها موجودة ب<orgName ref="هندسة قسم رابع"
+                  type="هندسة">هندسة قسم رابع</orgName> بالجهة المذكورة ومحدد بها وبالقوائم الاخرى
+               وقبول العطاء لغاية ٢٩ أغسطس سنة ٨٥ وبعدها لا يقبل عطاء من أحد فيقتضى أن كل من يرغب
+               تأجير تلك الاطيان يتوجه الى هندستى قسم أول وقسم رابع لاطلاعه على شروط المزاد ووضع
+               عطائه وقد تحرر هذا اعلانا للعموم بذلك فى ٢ أغسطس سنة ١٨٨٥ </p>
          </div>
          <div resp="#eAK" xml:id="w462">
             <head><date when-custom="1302-11-01">غرة ذو القعدة ١٣٠٢</date>
-               <date when="1885-08-12">١٢ أغسطس ١٨٨٥</date></head>
-            <head><bibl><biblScope unit="issue">نمرة ٩٤</biblScope>
+               <date when="1885-08-12">١٢ أغسطس ١٨٨٥</date><bibl><biblScope unit="issue">نمرة
+                     ٩٤</biblScope>
                   <biblScope unit="page">صفحة ٧٧٧</biblScope></bibl></head>
             <head><rs type="اعلان">اعلان</rs> من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال العمومية</orgName></head>
             <p>نظارة الاشغال العموميه تشهر <rs type="مزاد">مزاد</rs> عملية الفحت والردم اللازم
-               اجراؤها بالشوارع المجاورة للجامع الازهر على مقتضى مقايسة بمبلغ ١٤٤٥٥ قرشا و ٣٣ فضه
-               واستمارة شروط موجودين بقلم مشتروات النظارة المشار اليها وقد تحدد لنهو هذا المزاد يوم
-               الاثنين الموافق ١٧ أغسطس سنة ٨٥ و ٦ القعده سنة ٣٠٢ الساعة ١١ افرنكى قبل الظهر وتقديم
-               العطاء يكون داخل مظاريف يصير فتحها فى الميعاد المحدد فكل من له رغبة فى ذلك فليحضر
-               للقلم المذكور فى كل يوم من الساعة ٩ افرنكى صباحا لحد الظهر لاطلاعه على المقايسة
-               والشروط المذكورين وتقديم عطائه بالكيفية المذكورة ومن لا يحضر لغاية الميعاد المحدد
-               لنهو هذا المزاد فلا يقبل منه قول فيما بعد </p>
+               اجراؤها بالشوارع المجاورة لل<placeName ref="جامع الازهر" type="جامع"><orgName
+                     ref="جامع الازهر" type="جامع">جامع الازهر</orgName></placeName> على مقتضى
+               مقايسة بمبلغ ١٤٤٥٥ قرشا و ٣٣ فضه واستمارة شروط موجودين ب<orgName
+                  ref="قلم مشتروات نظارة الاشغال العمومية" type="قلم">قلم مشتروات النظارة</orgName>
+               المشار اليها وقد تحدد لنهو هذا المزاد يوم الاثنين الموافق ١٧ أغسطس سنة ٨٥ و ٦ القعده
+               سنة ٣٠٢ الساعة ١١ افرنكى قبل الظهر وتقديم العطاء يكون داخل مظاريف يصير فتحها فى
+               الميعاد المحدد فكل من له رغبة فى ذلك فليحضر للقلم المذكور فى كل يوم من الساعة ٩
+               افرنكى صباحا لحد الظهر لاطلاعه على المقايسة والشروط المذكورين وتقديم عطائه بالكيفية
+               المذكورة ومن لا يحضر لغاية الميعاد المحدد لنهو هذا المزاد فلا يقبل منه قول فيما بعد </p>
             <p>تحريرا فى أول أغسطس سنة ٨٥ </p>
          </div>
          <div resp="#eAK" xml:id="w463">
@@ -8068,40 +8130,47 @@
                افرنكى صباحا ما عدا يوم الجمعه (الامضا وكيل مصالح الصحة العمومية)</p>
          </div>
          <div resp="#eAK" xml:id="w464">
-            <head><date when="1885-08-17">١٧ أغسطس ١٨٨٥</date>
-               <date when-custom="1302-11-06">٦ ذو القعدة ١٣٠٢</date>
+            <head><date when-custom="1302-11-06">٦ ذو القعدة ١٣٠٢</date>
+               <date when="1885-08-17">١٧ أغسطس ١٨٨٥</date>
                <bibl><biblScope unit="issue">نمرة ٩٦</biblScope>
                   <biblScope unit="page">صفحة ٧٩٥</biblScope></bibl></head>
             <head><rs type="اعلان">اعلان</rs> من <orgName ref="نظارة الداخلية" type="نظارة">نظارة
                   الداخلية</orgName></head>
             <head><orgName ref="ادارة مصالح الصحة العمومية" type="ادارة">ادارة مصالح الصحة
                   العمومية</orgName></head>
-            <p>حيث لازم بناء انفيتيتاتر؟ تسريحى فى <orgName ref="اسبتالية قصر العينى" type="اسبتالية">اسبتالية قصر العينى</orgName> وتحدد لذلك يوم ٢٢ أغسطس الجارى فكل
-               من يرغب اعطاء عطاء عن هذا الامر عليه ان يقدمه داخل مظروف مختوم باسم ادارة الصحة
-               العمومية وقائمة الشروط والرسم والمقايسة الابتدائية موجودين بالادارة فكل من أراد
-               الاطلاع عليهم يحضر يومى من الساعه ٩ افرنكى صباحا ما عدا يوم الجمعه (الامضا وكيل مصالح
-               الصحة العمومية)</p>
+            <p>حيث لازم بناء
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>انفيتيتاتر؟<?oxy_custom_end?>
+               تسريحى فى <orgName ref="اسبتالية قصر العينى" type="اسبتالية">اسبتالية قصر
+                  العينى</orgName> وتحدد لذلك يوم ٢٢ أغسطس الجارى فكل من يرغب اعطاء عطاء عن هذا
+               الامر عليه ان يقدمه داخل مظروف مختوم باسم ادارة الصحة العمومية وقائمة الشروط والرسم
+               والمقايسة الابتدائية موجودين بالادارة فكل من أراد الاطلاع عليهم يحضر يومى من الساعه ٩
+               افرنكى صباحا ما عدا يوم الجمعه (الامضا وكيل مصالح الصحة العمومية)</p>
          </div>
          <div resp="#eAK" xml:id="w465">
             <head><date when-custom="1302-11-06">٦ ذو القعدة ١٣٠٢</date>
-               <date when="1885-08-17">١٧ أغسطس ١٨٨٥</date></head>
-            <head><bibl><biblScope unit="issue">نمرة ٩٦</biblScope>
+               <date when="1885-08-17">١٧ أغسطس ١٨٨٥</date><bibl><biblScope unit="issue">نمرة
+                     ٩٦</biblScope>
                   <biblScope unit="page">صفحة ٧٩٦</biblScope></bibl></head>
             <head><rs type="اعلان">اعلان</rs> من <orgName ref="عموم بيت مال مصر" type="عموم">عموم
                   بيت مال مصر</orgName></head>
-            <p>موجود نصف منزل ودكاكين بأسفله تعلق قلم المبايعة كائن ببركه نصره بعابدين مقدار مسطحاته
-               ١٨٧ مترا و ٨٥ سنتى من ضمن حقوق دولتلو عبد الحليم باشا لغاية سنة ١٨٧٩ افرنكيه التى
-               صارت حقا للميرى آل لسعادته من قبل المرحومة الست كلندام البيضا معتوقة المرحومة الست
-               بنبا قادن والدة المرحوم عباس باشا بحجة شرعية من محكمة مصر بتاريخ ٢٦ رجب سنة ١٢٩٥ نمرة
-               ١٣٣ لم يعين بها حكر ولمناسبة طلب حضرة محمد أفندى فكاك الحكيم المالك للنصف الباقى من
-               المنزل المذكور والقسمة الشرعية صدر أمر الداخلية أخيرا رقم ١٤ شوال سنة ١٣٠٢ نمرة ١٦٠
-               تصريحا باشهار <rs type="مزاد">مزاد</rs> مبيع نصف المنزل والدكاكين أسفله المذكورين
-               بميعاد ٦١ يوما وفى تاريخه تحررت قائمة مزاد بالاشهار وتسلمت لرئيس دلالين عقارات
-               المحروسة مشترطا فيها أن الثمن يكون بالعملة الصاغ وكافة المصاريف من ميرى ودلاله وغيره
-               يكون على المشترى بدون تكليف بيت المال بشئ ما وبالمرسى واتضاح عدم وجود راغب للزيادة
-               عما يرسى به المزاد وصدور الامر بالسماح فى البيع يجرى توريد الثمن والمصاريف المستحقة
-                  ل<orgName ref="خزينة بيت المال" type="خزينة">خزينة بيت المال</orgName> فورا وان لم
-               يحصل السماح فى التسليم فلا يكن للراسى عليه المزاد أدنى تداع على بيت المال بأى وجه من
+            <p>موجود نصف منزل ودكاكين بأسفله تعلق <orgName ref="قلم المبايعة" type="قلم">قلم
+                  المبايعة</orgName> كائن ب<placeName ref="بركه نصره" type="بركه">بركه
+                  نصره</placeName> ب<placeName ref="عابدين">عابدين</placeName> مقدار مسطحاته ١٨٧
+               مترا و ٨٥ سنتى من ضمن حقوق <persName>دولتلو عبد الحليم باشا</persName> لغاية سنة ١٨٧٩
+               افرنكيه التى صارت حقا للميرى آل لسعادته من قبل المرحومة <persName>الست كلندام البيضا
+                  معتوقة المرحومة <persName>الست بنبا قادن والدة المرحوم <persName>عباس
+                        باشا</persName></persName></persName> بحجة شرعية من <placeName
+                  ref="محكمة مصر" type="محكمة">محكمة مصر</placeName> بتاريخ ٢٦ رجب سنة ١٢٩٥ نمرة ١٣٣
+               لم يعين بها حكر ولمناسبة طلب حضرة <persName>محمد أفندى فكاك الحكيم</persName> المالك
+               للنصف الباقى من المنزل المذكور والقسمة الشرعية صدر أمر <orgName ref="الداخلية"
+                  type="نظارة">الداخلية</orgName> أخيرا رقم ١٤ شوال سنة ١٣٠٢ نمرة ١٦٠ تصريحا باشهار
+                  <rs type="مزاد">مزاد</rs> مبيع نصف المنزل والدكاكين أسفله المذكورين بميعاد ٦١ يوما
+               وفى تاريخه تحررت قائمة مزاد بالاشهار وتسلمت لرئيس دلالين عقارات المحروسة مشترطا فيها
+               أن الثمن يكون بالعملة الصاغ وكافة المصاريف من ميرى ودلاله وغيره يكون على المشترى بدون
+               تكليف بيت المال بشئ ما وبالمرسى واتضاح عدم وجود راغب للزيادة عما يرسى به المزاد وصدور
+               الامر بالسماح فى البيع يجرى توريد الثمن والمصاريف المستحقة ل<orgName
+                  ref="خزينة بيت المال" type="خزينة">خزينة بيت المال</orgName> فورا وان لم يحصل
+               السماح فى التسليم فلا يكن للراسى عليه المزاد أدنى تداع على بيت المال بأى وجه من
                الوجوه وتحرر فى تاريخه لكافة الجهات عما ذكر وهذا لاعلان [ذ]لك على من يلزم حتى ان كل
                من له رغبة للمشترى يحضر لبيت المال هو أو وكيل عنه بالافادة اللازمة قبل مضى الميعاد
                المذكور بيومين او ثلاثة وبحال دخوله فى المزاد يصير دفع التأمين منه للخزينة واتمام
@@ -8114,19 +8183,30 @@
                   <biblScope unit="page">صفحة ٨٢٥</biblScope></bibl></head>
             <head>الان من <orgName ref="عموم بيت مال مصر" type="عموم">عموم بيت مال
                مصر</orgName></head>
-            <p>انه موجود حصة قدرها ٩ قراريط من منزل كائن بحارة الشنوانى بقسم الجماليه وباقيه ملك
-               محمد أفندى الرضوانى المزارع من سكان حارة زند الفيل بباب الشعريه آيله لبيت المال من
-               قبل المرحوم محمد أغا الخربوطلى وسبق التوضيح من الاشغال بان مقاس المنزل الذى منه هذه
-               الحصة ٢٥٣,٢٤ ذراعا غر لازم للميرى وكان صار اشهارها بالبيع ورسى <rs type="مزاد">مزاد</rs>ها بمبلغ ١٤١٥٠ قرشا على المدعو خليل أغا المرملى ولما دعى للسداد قال بان
-               المشترى كان بطريق توكيله ؟ عن الست فطومه وتوفت ولا يكن عنده مقدره للمشترى لنفسه ثم
-               وتصادف العرض من المدعو محمد أفندى الرضوانى المذكور برغبته مشترى الحصة المذكورة بواقع
-               القيراط ٩٠٠ قرش صاغ وعرض <orgName ref="نظارة الداخلية" type="نظارة">للداخلية</orgName> وتصرح بما صدر منها فى ١٨ ن سنة ١٢٠٣ نمرة ١٤٣ باعادة الاشهار
-               بالمزاد بميعاد ٩٠ يوما واعتبار مزاد ذاك الافندى فى القائمة التى تتحرر أول عطاء وعلى
-               هذا قد تحررت قائمة مزاد فى تاريخه وسلمت لرئيس الدلالين وموضحا بها ان كافة المصاريف
-               على المشترى وبمرسى المزاد يكون بيت المال مخيرا فى التسليم وعدمه وقد نشر ذلك لكافة
-               الجهات عموما وبالجملة هذا لاعلانه على من يلزم حتى ان كل من له رغبة فى شراء الحصة
-               المذكورة زيادة عن الثمن المذكور حسب شروط القائمة فيحضر لبيت المال هو أو وكيل عنه
-               بالافادة والضمانة اللازمتين من قبل مضى الميعاد بيومين لتتميم المزاد ببيت المال </p>
+            <p>انه موجود حصة قدرها ٩ قراريط من منزل كائن ب<placeName ref="حارة الشنوانى" type="حارة"
+                  >حارة الشنوانى</placeName> ب<placeName ref="قسم الجماليه" type="قسم"><orgName
+                     ref="قسم الجماليه" type="قسم">قسم الجماليه</orgName></placeName> وباقيه ملك
+                  <persName>محمد أفندى الرضوانى المزارع من سكان <placeName ref="حارة زند الفيل"
+                     type="حارة">حارة زند الفيل</placeName> ب<placeName ref="باب الشعريه">باب
+                     الشعريه</placeName></persName> آيله لبيت المال من قبل المرحوم <persName>محمد
+                  أغا الخربوطلى</persName> وسبق التوضيح من الاشغال بان مقاس المنزل الذى منه هذه
+               الحصة ٢٥٣,٢٤ ذراعا
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>غر<?oxy_custom_end?>
+               لازم للميرى وكان صار اشهارها بالبيع ورسى <rs type="مزاد">مزاد</rs>ها بمبلغ ١٤١٥٠ قرشا
+               على المدعو <persName>خليل أغا المرملى</persName> ولما دعى للسداد قال بان المشترى كان
+               بطريق <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>توكيله
+               ؟<?oxy_custom_end?> عن <persName>الست فطومه</persName> وتوفت
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ولا
+               يكن<?oxy_custom_end?> عنده مقدره للمشترى لنفسه ثم وتصادف العرض من المدعو محمد أفندى
+               الرضوانى المذكور برغبته مشترى الحصة المذكورة بواقع القيراط ٩٠٠ قرش صاغ وعرض <orgName
+                  ref="نظارة الداخلية" type="نظارة">للداخلية</orgName> وتصرح بما صدر منها فى ١٨ ن
+               سنة ١٢٠٣ نمرة ١٤٣ باعادة الاشهار بالمزاد بميعاد ٩٠ يوما واعتبار مزاد ذاك الافندى فى
+               القائمة التى تتحرر أول عطاء وعلى هذا قد تحررت قائمة مزاد فى تاريخه وسلمت لرئيس
+               الدلالين وموضحا بها ان كافة المصاريف على المشترى وبمرسى المزاد يكون بيت المال مخيرا
+               فى التسليم وعدمه وقد نشر ذلك لكافة الجهات عموما وبالجملة هذا لاعلانه على من يلزم حتى
+               ان كل من له رغبة فى شراء الحصة المذكورة زيادة عن الثمن المذكور حسب شروط القائمة فيحضر
+               لبيت المال هو أو وكيل عنه بالافادة والضمانة اللازمتين من قبل مضى الميعاد بيومين
+               لتتميم المزاد ببيت المال </p>
          </div>
          <div resp="#eAK" xml:id="w467">
             <head><date when="1885-08-26">٢٦ أغسطس ١٨٨٥</date>
@@ -8134,18 +8214,23 @@
                <bibl><biblScope unit="issue">نمرة ١٠٠</biblScope>
                   <biblScope unit="page">صفحة ٨٢٥</biblScope></bibl></head>
             <head><rs type="اعلان">اعلان</rs> آخر وارد منه</head>
-            <p>انه موجود نصف منزل خرب وباقيه تعلق نصره بنت سالم كائن بعطفة العرقسوسى بقسم الدرب
-               الاحمر بموجب ثلاثة حجج لم يوضح بها حكر ولا أجرة بناء قديم مخلف عن ستيته بنت مصطفى آيل
-               الى أشخاص غير معلومة أسماؤهم ولا محل مستقرهم وسبق التوضيح من الاشغال بانه غير لازم
-               للميرى ومقاسه ٤٣٣,١٣ ذراعا وكان صار اشهار نصف المنزل المذكور ورسى <rs type="مزاد">مزاد</rs>ه على الشيخ على حسين النكلاوى بمبلغ ٧١٧٥ قرشا ولحصول بعض خلل فيه وازالته
-               قد تتنحى ؟ عنه عرض <orgName ref="نظارة الداخلية" type="نظارة">للداخلية</orgName>
-               وتصرح بما صدر منها فى ١٨ رمضان سنة ٣٠٢ نمرة ١٤٥ باعادة اشهاره بميعاد ٦١ يوما وعلى هذا
-               قد تحررت قائمة مزاد فى تاريخه وسلمت لرئيس الدلالين لاشهارها على عموم الراغبين موضحا
-               بها ان كافة المصاريف على المشترى وبمرسى المزاد يكون بيت المال مخيرا فى التسليم وعدمه
-               وقد نشر عن ذلك لكافة الجهات عموما وبالجملة هذا لاعلانه على من يلزم حتى كل من له رغبة
-               فى شراء النصف المذكور حسب شروط القائمة فليحضر لبيت المال هو أو وكيل عنه بالافادة
-               والضمانة اللازمتين قبل مضى الميعاد بيومين لتتميم المزاد ببيت المال حسب الجارى فى ٥
-               القعده سنة ١٣٠٢ </p>
+            <p>انه موجود نصف منزل خرب وباقيه تعلق <persName>نصره بنت سالم</persName> كائن
+                  ب<placeName ref="عطفة العرقسوسى" type="عطفة">عطفة العرقسوسى</placeName>
+                  ب<placeName ref="قسم الدرب الاحمر" type="قسم"><orgName ref="قسم الدرب الاحمر"
+                     type="قسم">قسم الدرب الاحمر</orgName></placeName> بموجب ثلاثة حجج لم يوضح بها
+               حكر ولا أجرة بناء قديم مخلف عن <persName>ستيته بنت مصطفى</persName> آيل الى أشخاص غير
+               معلومة أسماؤهم ولا محل مستقرهم وسبق التوضيح من الاشغال بانه غير لازم للميرى ومقاسه
+               ٤٣٣,١٣ ذراعا وكان صار اشهار نصف المنزل المذكور ورسى <rs type="مزاد">مزاد</rs>ه على
+                  <persName>الشيخ على حسين النكلاوى</persName> بمبلغ ٧١٧٥ قرشا ولحصول بعض خلل فيه
+               وازالته قد <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>تتنحى ؟
+               <?oxy_custom_end?>عنه عرض <orgName ref="نظارة الداخلية" type="نظارة"
+                  >للداخلية</orgName> وتصرح بما صدر منها فى ١٨ رمضان سنة ٣٠٢ نمرة ١٤٥ باعادة اشهاره
+               بميعاد ٦١ يوما وعلى هذا قد تحررت قائمة مزاد فى تاريخه وسلمت لرئيس الدلالين لاشهارها
+               على عموم الراغبين موضحا بها ان كافة المصاريف على المشترى وبمرسى المزاد يكون بيت المال
+               مخيرا فى التسليم وعدمه وقد نشر عن ذلك لكافة الجهات عموما وبالجملة هذا لاعلانه على من
+               يلزم حتى كل من له رغبة فى شراء النصف المذكور حسب شروط القائمة فليحضر لبيت المال هو أو
+               وكيل عنه بالافادة والضمانة اللازمتين قبل مضى الميعاد بيومين لتتميم المزاد ببيت المال
+               حسب الجارى فى ٥ القعده سنة ١٣٠٢ </p>
          </div>
          <div resp="#eAK" xml:id="w468">
             <head><date when-custom="1302-11-18">١٨
@@ -8156,17 +8241,22 @@
                   <biblScope unit="page">صفحة ٨٤٠</biblScope></bibl></head>
             <head><rs type="اعلان">اعلان</rs> من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال العمومية</orgName></head>
             <p>نظارة الاشغال العمومية تطرح بال<rs type="مزاد">مزاد</rs> تأجير وادارة المحلات الموضحة
-               بعد الكائنة بمدينة حلوان وهى </p>
-            <p>أولا اللوكنده الكبيره للحمامات </p>
-            <p>ثانيا محل الحمامات </p>
-            <p>وذلك بالشروط المدونة بصك القيود الموجود بادارة عموم التنظيم ب<orgName ref="ديوان الاشغال العمومية" type="ديوان">ديوان الاشغال العمومية</orgName> ومن
-               مقتضى الشروط المذكورة ان التأجير يكون لمدة خمس سنوات متوالية الا انه اذا تقدمت عطآت
-               يكون فيها زيادة أرجحية لجهة الميرى ويشترط مقدموها التأجير لمدة أطول من المدة السالف
-               ذكرها فالديوان يحفظ لنفسه الحق فى النظر فى العطآت المذكورة وفى قبولها وعدمه أما
-               العطآت فتقدم لادارة عموم التنظيم لغاية يوم ١٥ اكتوبر سنة ٨٥ داخل مظاريف مختومة وهذا
-               يكون آخر ميعاد ويكتب على المظاريف ما هو آت (عطاء لتأجير محلات حلوان) مدير عموم
-               التنظيم </p>
-            <p>الامضا (جراآن)</p>
+               بعد الكائنة ب<placeName ref="مدينة حلوان">مدينة حلوان</placeName> وهى </p>
+            <p>أولا <orgName ref="اللوكنده الكبيره للحمامات" type="لوكنده"><placeName
+                     ref="اللوكنده الكبيره للحمامات" type="لوكنده">اللوكنده الكبيره
+                     للحمامات</placeName></orgName>
+            </p>
+            <p>ثانيا <placeName ref="محل الحمامات" type="محل">محل الحمامات</placeName>
+            </p>
+            <p>وذلك بالشروط المدونة بصك القيود الموجود ب<orgName
+                  ref="ادارة عموم التنظيم بديوان الاشغال العمومية" type="ادارة">ادارة عموم التنظيم
+                  بديوان الاشغال العمومية</orgName> ومن مقتضى الشروط المذكورة ان التأجير يكون لمدة
+               خمس سنوات متوالية الا انه اذا تقدمت عطآت يكون فيها زيادة أرجحية لجهة الميرى ويشترط
+               مقدموها التأجير لمدة أطول من المدة السالف ذكرها فالديوان يحفظ لنفسه الحق فى النظر فى
+               العطآت المذكورة وفى قبولها وعدمه أما العطآت فتقدم لادارة عموم التنظيم لغاية يوم ١٥
+               اكتوبر سنة ٨٥ داخل مظاريف مختومة وهذا يكون آخر ميعاد ويكتب على المظاريف ما هو آت
+               (عطاء لتأجير محلات حلوان) مدير عموم التنظيم </p>
+            <p>الامضا (<persName>جراآن</persName>)</p>
          </div>
          <div resp="#eAK" xml:id="w469">
             <head><date when-custom="1302-11-18">١٨
@@ -8177,18 +8267,24 @@
                   <biblScope unit="page">صفحة ٨٤١</biblScope></bibl></head>
             <head><rs type="اعلان">اعلان</rs> من <orgName ref="عموم بيت مال مصر" type="عموم">عموم
                   بيت مال مصر</orgName></head>
-            <p>انه موجود منزل خرب كائن بجهة الشيخ عبد الله بقسم عابدين يبلغ مقاسه ٤٤,٤٥ مترا قائم
-               بناءه على أرض مباعة من ضبطية مصر ولم يتحرر بها حجة للآن مخلف عن المرحوم الشيخ ابراهيم
-               الدسوقى العطار السابق وفاته عن زوجته الحرمه فطومه بنت سالم حاضره وبيت المال من غير
-               شريك وبالنسبة لما علم مما أوضحته المحافظة فى افادتها الرقيمه غاية را سنة ٣٠١ نمرة ٤
-               عرض عن تسديد الثمن لها فى ٢٢ فبراير سنة ٨١ ووجود ديون على التركه وعدم وجود شئ للسداد
-               منها قد عرض <orgName ref="نظارة الداخلية" type="نظارة">للداخلية</orgName> وتصرح بما
-               صدر منها فى ٧ ل سنة ٣٠٢ نمرة ١٥٥ عن اشهار بالبيع بميعاد ٩١ يوما وتحررت قائمة ال<rs type="مزاد">مزاد</rs> فى تاريخه وسلمت لرئيس دلالين عقارات المحروسة لاشهارها على
-               الراغبين بالميعاد المذكور مشترطا بها أن كافة المصاريف على المشترى وبمرسى المزاد يكون
-               بيت المال مخيرا فى التسليم وعدمه وانه متى حصل السماح يكون المشترى مكلف بدفع الثمن مع
-               المصاريف نقدا بخزينة الديوان وقد كتب فى تاريخه لكافة الجهات عموما وبالجملة هذا تكم
-               لاعلانه على من يلزم حتى كل من له رغبة للمشترى يرسل لهنا بالافادة والضمانة المعتمدة
-               قبل مضى الميعاد المذكور بيومين لاتمام المزاد بالمصلحة </p>
+            <p>انه موجود منزل خرب كائن ب<placeName ref="جهة الشيخ عبد الله">جهة الشيخ عبد
+                  الله</placeName> ب<orgName ref="قسم عابدين" type="قسم"><placeName ref="قسم عابدين"
+                     type="قسم">قسم عابدين</placeName></orgName> يبلغ مقاسه ٤٤,٤٥ مترا قائم بناءه
+               على أرض مباعة من <orgName ref="ضبطية مصر">ضبطية مصر</orgName> ولم يتحرر بها حجة للآن
+               مخلف عن المرحوم <persName>الشيخ ابراهيم الدسوقى العطار</persName> السابق وفاته عن
+               زوجته الحرمه <persName>فطومه بنت سالم</persName> حاضره وبيت المال من غير شريك
+               وبالنسبة لما علم مما أوضحته المحافظة فى افادتها الرقيمه غاية را سنة ٣٠١ نمرة ٤ عرض عن
+               تسديد الثمن لها فى ٢٢ فبراير سنة ٨١ ووجود ديون على التركه وعدم وجود شئ للسداد منها قد
+               عرض <orgName ref="نظارة الداخلية" type="نظارة">للداخلية</orgName> وتصرح بما صدر منها
+               فى ٧ ل سنة ٣٠٢ نمرة ١٥٥ عن اشهار بالبيع بميعاد ٩١ يوما وتحررت قائمة ال<rs type="مزاد"
+                  >مزاد</rs> فى تاريخه وسلمت لرئيس دلالين عقارات المحروسة لاشهارها على الراغبين
+               بالميعاد المذكور مشترطا بها أن كافة المصاريف على المشترى وبمرسى المزاد يكون بيت المال
+               مخيرا فى التسليم وعدمه وانه متى حصل السماح يكون المشترى مكلف بدفع الثمن مع المصاريف
+               نقدا ب<placeName ref="خزينة ديوان بيت المال" type="خزينة"><orgName
+                     ref="خزينة ديوان بيت المال" type="خزينة">خزينة الديوان</orgName></placeName>
+               وقد كتب فى تاريخه لكافة الجهات عموما وبالجملة هذا تكم لاعلانه على من يلزم حتى كل من
+               له رغبة للمشترى يرسل لهنا بالافادة والضمانة المعتمدة قبل مضى الميعاد المذكور بيومين
+               لاتمام المزاد بالمصلحة </p>
             <p>فى ٥ القعده سنة ١٣٠٢ </p>
          </div>
          <div resp="#eAK" xml:id="w470">
@@ -8198,9 +8294,12 @@
                   <biblScope unit="page">صفحة ٨٤٩</biblScope></bibl></head>
             <head><rs type="اعلان">اعلان</rs> من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال العمومية</orgName></head>
             <p>نظارة الاشغال العمومية تطرح بال<rs type="مزاد">مزاد</rs> تأجير وادارة المحلات الموضحة
-               بعبد الكائنة بمدينة حلوان وهى </p>
-            <p>أولا اللوكنده الكبيره للحمامات </p>
-            <p>ثانيا محل الحمامات </p>
+               بعبد الكائنة ب<placeName ref="مدينة حلوان">مدينة حلوان</placeName> وهى </p>
+            <p>أولا <orgName ref="اللوكنده الكبيره للحمامات" type="لوكنده"><placeName
+                     ref="اللوكنده الكبيره للحمامات" type="لوكنده">اللوكنده الكبيره
+                     للحمامات</placeName></orgName>
+            </p>
+            <p>ثانيا <placeName ref="محل الحمامات" type="محل">محل الحمامات</placeName></p>
             <p>وذلك بالشروط المدونة بصك القيود الموجود بادارة عموم التنظيم ب<orgName ref="ديوان الاشغال العمومية" type="ديوان">ديوان الاشغال العمومية</orgName> ومن
                مقتضى الشروط المذكورة ان التأجير يكون لمدة خمس سنوات متوالية الا انه اذا تقدمت عطآت
                يكون فيها زيادة أرجحية لجهة الميرى ويشترط مقدموها التأجير لمدة أطول من المدة السالف
@@ -8208,7 +8307,7 @@
                العطآت فتقدم لادارة عموم التنظيم لغاية يوم ١٥ اكتوبر سنة ٨٥ داخل مظاريف مختومة وهذا
                يكون آخر ميعاد ويكتب على المظاريف ما هو آت (عطاء لتأجير محلات حلوان) مدير عموم
                التنظيم </p>
-            <p>الامضا (جراآن)</p>
+            <p>الامضا (<persName>جراآن</persName>)</p>
          </div>
          <div resp="#eAK" xml:id="w471">
             <head><date when-custom="1302-11-22">٢٢ ذو القعدة ١٣٠٢</date>
@@ -8222,36 +8321,55 @@
             <head>عن بيع عقار</head>
             <p>انه طبقا للمواد ٥٦١ و ٥٦٢ و ٥٦٣ و ٥٦٤ من قانون المرافعات فى المواد المدنية والتجارية
                يكون معلوما لدى العموم انه قد تحدد يوم السبت الموافق ١٩ ستمبر سنة ٨٥ الساعه ٨ افرنكى
-               صباحا باودة <rs type="مزاد">مزاد</rs>ات المحكمة المذكورة الكائنة بباب الخلق بمصر
-               سيصير الشروع فى بيع حصة قدرها عشرة قراريط ونصف ملك محمد محمود ربيع الفكهانى صاحب ملك
-               ومقيم بحارة الصعايده بالداوديه بقسم عابدين وهذا البيع بناء على طلب الست عيشه كريمة
-               المرحوم الشيخ مرزوق خالية الصناعة ومتخذة موطنا مختارا بمكتب وكيلها حضرة محمد أفندى
-               الصدر ؟ بميدان باب الخلق بمصر </p>
+               صباحا ب<placeName ref="اودة مزادات محكمة مصر الابتدائية الاهلية">اودة <rs type="مزاد"
+                     >مزاد</rs>ات المحكمة المذكورة</placeName> الكائنة ب<placeName ref="باب الخلق"
+                  >باب الخلق</placeName> بمصر سيصير الشروع فى بيع حصة قدرها عشرة قراريط ونصف ملك
+                  <persName>محمد محمود ربيع الفكهانى</persName> صاحب ملك ومقيم ب<placeName
+                  ref="حارة الصعايده" type="حارة">حارة الصعايده</placeName> ب<placeName
+                  ref="الداوديه">الداوديه</placeName> ب<orgName ref="قسم عابدين" type="قسم"
+                     ><placeName ref="قسم عابدين" type="قسم">قسم عابدين</placeName></orgName> وهذا
+               البيع بناء على طلب <persName>الست عيشه كريمة المرحوم <persName>الشيخ مرزوق</persName>
+                  خالية الصناعة</persName> ومتخذة موطنا مختارا بمكتب وكيلها حضرة <persName>محمد
+                  أفندى
+                  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الصدر</persName>
+               ؟<?oxy_custom_end?> ب<placeName ref="ميدان باب الخلق" type="ميدان">ميدان باب
+                  الخلق</placeName> بمصر </p>
             <p>وبناء على الحكم الصادر من المحكمة المذكورة بتاريخ ٤ مايو سنة ٨٥ بنزع ملكية العقار
                المذكور المسجل بها بتاريخ ١٤ مايو سنة ٨٥ نمرة ٦٠ سجلات وتلك الحصة فى مشاع كامل المنزل
-               الكائن بحارة الصعايده بالداووديه بقسم عابدين بمصر الايل؟ لمحمد محمود ربيع الفكهانى
-               المذكور بحدود أربع الحد الشرقى منزل الحاجه مبغدده ؟ وورثة سيد احمد العقاد والغربى
-               منزل الحرمه غزاله والبحرى ورثة الشيخ محمد النمر والقبلى للطريق وبه الواجهة والباب وقد
-               تعين افتتاح المزايدة عن العشرة قراريط ونصف المذكورة مبلغ ٤٠٠٠ قرش صاغ ميرى هذا وشروط
-               البيع مدونة بحكم نزع الملكية الموجود بقلم البيوع ؟ بالمحكمة فكل من أراد الاطلاع عليها
-               فليتوجه للقلم المذكور للاطلاع عليها كما ذكر فى ٢٩ أغسطس سنة ١٨٨٥ </p>
-            <p>كاتب المحكمة (عبد الوهاب زكى)</p>
+               الكائن بحارة الصعايده بالداووديه بقسم عابدين بمصر
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الايل؟<?oxy_custom_end?>
+               لمحمد محمود ربيع الفكهانى المذكور بحدود أربع الحد الشرقى منزل
+                  <persName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الحاجه
+                  مبغدده</persName> ؟<?oxy_custom_end?> وورثة <persName>سيد احمد العقاد</persName>
+               والغربى منزل <persName>الحرمه غزاله</persName> والبحرى ورثة <persName>الشيخ محمد
+                  النمر</persName> والقبلى للطريق وبه الواجهة والباب وقد تعين افتتاح المزايدة عن
+               العشرة قراريط ونصف المذكورة مبلغ ٤٠٠٠ قرش صاغ ميرى هذا وشروط البيع مدونة بحكم نزع
+               الملكية الموجود ب<orgName ref="قلم البيوع بمحكمة مصر الابتدائية الاهلية" type="قلم"
+                  >قلم البيوع ؟ بالمحكمة</orgName> فكل من أراد الاطلاع عليها فليتوجه للقلم المذكور
+               للاطلاع عليها كما ذكر فى ٢٩ أغسطس سنة ١٨٨٥ </p>
+            <p><persName>كاتب المحكمة (عبد الوهاب زكى)</persName></p>
          </div>
          <div resp="#eAK" xml:id="w472">
             <head><date when-custom="1302-11-25">٢٥ ذو القعدة ١٣٠٢</date>
                <date when="1885-09-05">٥ سبتمبر ١٨٨٥</date>
                <bibl><biblScope unit="issue">نمره ١٠٤</biblScope>
                   <biblScope unit="page">صفحة ٨٦٢</biblScope></bibl></head>
-            <head>ترجمة قرار من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال
-                  العمومية</orgName> نمرة ٣٥٧</head>
+            <head>ترجمة <rs type="قرار">قرار</rs> من <orgName ref="نظارة الاشغال العمومية"
+                  type="نظارة">نظارة الاشغال العمومية</orgName> نمرة ٣٥٧</head>
             <p>بناء على ما عرضه علينا جناب وكيل النظارة قد قررنا ما هو آت </p>
-            <p>نقل قاسم أفندى هلالى المهندس المعاون من الدرجة الرابعة براتب سنوى ٧٢ جنيها مصريا
-               بالراتب عينه من قسم الهندسة الى تفتيش رى القسم الثالث </p>
-            <p>نقل حسن أفندى خيرى المهندس المعاون من الدرجة الرابعة براتب سنوى ٩٦ جنيها مصريا
-               بالراتب عينه من تفتيش رى القسم الثالث الى تفتيش الغرب التابع لادارة عموم التنظيم </p>
+            <p>نقل <persName>قاسم أفندى هلالى المهندس المعاون من الدرجة الرابعة</persName> براتب
+               سنوى ٧٢ جنيها مصريا بالراتب عينه من <orgName ref="قسم هندسة نظارة الأشغال العمومية"
+                  type="قسم">قسم الهندسة</orgName> الى <orgName ref="تفتيش رى القسم الثالث"
+                  type="تفتيش">تفتيش رى القسم الثالث</orgName>
+            </p>
+            <p>نقل <persName>حسن أفندى خيرى المهندس المعاون من الدرجة الرابعة</persName> براتب سنوى
+               ٩٦ جنيها مصريا بالراتب عينه من تفتيش رى القسم الثالث الى <orgName
+                  ref="تفتيش الغرب التابع لادارة عموم التنظيم" type="تفتيش">تفتيش الغرب التابع
+                  لادارة عموم التنظيم</orgName>
+            </p>
             <p>تحريرا بالمحروسة فى ٣١ أغسطس سنة ١٨٨٥ </p>
             <p>ناظر الاشغلال العمومية </p>
-            <p>(الامضا) (عبد الرحمن رشدى)</p>
+            <p>(الامضا) (<persName>عبد الرحمن رشدى</persName>)</p>
          </div>
          <div resp="#eAK" xml:id="w473">
             <head><date when-custom="1302-11-29">٢٩ ذو القعدة ١٣٠٢</date>
@@ -8261,13 +8379,18 @@
             <head><rs type="اعلان">اعلان</rs> من <orgName type="نظارة" ref="نظارة الحربية">نظارة
                   الحربية</orgName></head>
             <p>نظارة الحربية تعلن العموم بانها شارعة فى اعمال مناقصة لمشال القاذورات الناشئة من
-               التبرز بالمحلات الموجودة بالقلعة وقشلاقات العباسية وتقديم العطاآت يكون بالرقم
-               والتفقيطه العربى بالقرش الصاغ عن كل نفر فى اليوم بجهات العباسية وأما عن القلعة فانه
-               يكون عن اليوم الواحد مهما كان عدد المستخدمين وقد تحدد ميعاد لنهو المناقصة المذكورة
-               يوم ١٧ سبتمبر الجارى مابين الساعه ١١ صباحا والظهر فكل من له رغبة فى ذلك يمكنه الحضور
-               يوميا لقلم لوازمات الحربية للاطلاع على القائمة من الساعه ٨ صباحا لغاية الساعة ١ بعد
-               الظهير؟ وتقديم العطاآت يكون داخل مظاريف مغلوقة ومن يتأخر عن الساعه والتاريخ المذكورين
-               لا يقبل منه عطاء فيما بعد </p>
+               التبرز بالمحلات الموجودة ب<placeName ref="القلعة"><orgName ref="القلعة"
+                     >القلعة</orgName></placeName> و<orgName ref="قشلاقات العباسية" type="قشلاقات"
+                     ><placeName ref="قشلاقات العباسية" type="قشلاقات">قشلاقات
+                  العباسية</placeName></orgName> وتقديم العطاآت يكون بالرقم والتفقيطه العربى بالقرش
+               الصاغ عن كل نفر فى اليوم بجهات العباسية وأما عن القلعة فانه يكون عن اليوم الواحد مهما
+               كان عدد المستخدمين وقد تحدد ميعاد لنهو المناقصة المذكورة يوم ١٧ سبتمبر الجارى مابين
+               الساعه ١١ صباحا والظهر فكل من له رغبة فى ذلك يمكنه الحضور يوميا ل<orgName
+                  ref="قلم لوازمات الحربية" type="قلم">قلم لوازمات الحربية</orgName> للاطلاع على
+               القائمة من الساعه ٨ صباحا لغاية الساعة ١ بعد
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الظهير؟<?oxy_custom_end?>
+               وتقديم العطاآت يكون داخل مظاريف مغلوقة ومن يتأخر عن الساعه والتاريخ المذكورين لا يقبل
+               منه عطاء فيما بعد </p>
             <p>فى ٨ ستمبر سنة ٨٥ </p>
          </div>
          <div resp="#eAK" xml:id="w474">
@@ -8276,33 +8399,42 @@
                <bibl><biblScope unit="issue">نمره ١٠٧</biblScope>
                   <biblScope unit="page">صفحة ٨٨٦</biblScope></bibl></head>
             <div>
-               <head>(ترجمة قرار من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة
-                     الاشغال</orgName> نمرة ٣٥٨)</head>
+               <head>(ترجمة <rs type="قرار">قرار</rs> من <orgName ref="نظارة الاشغال العمومية"
+                     type="نظارة">نظارة الاشغال</orgName> نمرة ٣٥٨)</head>
                <p>بناء على ما عرضه علينا جناب وكيل النظارة قد قررنا ما هو آت </p>
-               <p>نقل حسين أفندى سرى المهندس المعاون من الدرجة الاولى من تفتيش رى القسم الثالث الى
-                  تفتيش رى القسم الرابع بدلا من ابراهيم أفندى رفعت المهندس المعاون من الدرجة الاولى
-                  الذى نقل الى تفتيش رى القسم الثالث </p>
+               <p>نقل <persName>حسين أفندى سرى المهندس المعاون من الدرجة الاولى</persName> من
+                     <orgName ref="تفتيش رى القسم الثالث" type="تفتيش">تفتيش رى القسم
+                     الثالث</orgName> الى <orgName ref="تفتيش رى القسم الرابع" type="تفتيش">تفتيش رى
+                     القسم الرابع</orgName> بدلا من <persName>ابراهيم أفندى رفعت المهندس المعاون من
+                     الدرجة الاولى</persName> الذى نقل الى تفتيش رى القسم الثالث </p>
                <p>تحريرا بالمحروسة فى ٧ سبتمبر سنة ١٨٨٥ </p>
                <p>عن ناظر أشغال عموميه </p>
                <p>وكيل أشغال عموميه </p>
-               <p>(امضا) (منكريف)</p>
+               <p>(امضا) (<persName>منكريف</persName>)</p>
             </div>
          </div>
          <div resp="#eAK" xml:id="w475">
             <head><date when-custom="1302-12-03">٣ ذو الحجة ١٣٠٢</date>
-               <date when="1885-09-12">١٢ سبتمبر ١٨٨٥</date></head>
-            <head><bibl><biblScope unit="issue">نمره ١٠٧</biblScope>
+               <date when="1885-09-12">١٢ سبتمبر ١٨٨٥</date><bibl><biblScope unit="issue">نمره
+                     ١٠٧</biblScope>
                   <biblScope unit="page">صفحة ٨٩٤</biblScope></bibl></head>
             <head>اعلانات</head>
             <head><rs type="اعلان">اعلان</rs> من <orgName ref="الدائرة السنية" type="الدائرة">الدائرة السنية</orgName></head>
-            <p>فى الثامن من شهر اكتوبر القادم الساعه ١٠ صباحا يشرع فى بيع ثلاثة بيوت بال<rs type="مزاد">مزاد</rs> العمومى والبيع يكون فى محل المزايدات بالدائرة وهذه البيوت
-               ملك الدائرة ومحلها ثمن الاسماعيلية وهذا بيان مواقعها </p>
-            <p>أولا منزل سكنه عمال قنسلاتو فرانسا</p>
-            <p>ثانيا المنزل الذى يسكنه عمال قنسلاتو ألمانيا </p>
-            <p>ثالثا المنزل الذى فيه البنك الانكليزى المصرى </p>
+            <p>فى الثامن من شهر اكتوبر القادم الساعه ١٠ صباحا يشرع فى بيع ثلاثة بيوت بال<rs
+                  type="مزاد">مزاد</rs> العمومى والبيع يكون فى محل المزايدات بالدائرة وهذه البيوت
+               ملك الدائرة ومحلها <placeName ref="ثمن الاسماعيلية" type="ثمن"><orgName
+                     ref="ثمن الاسماعيلية" type="ثمن">ثمن الاسماعيلية</orgName></placeName> وهذا
+               بيان مواقعها </p>
+            <p>أولا منزل سكنه عمال قنسلاتو <placeName ref="فرانسا">فرانسا</placeName></p>
+            <p>ثانيا المنزل الذى يسكنه عمال قنسلاتو <placeName ref="ألمانيا">ألمانيا</placeName>
+            </p>
+            <p>ثالثا المنزل الذى فيه <orgName ref="البنك الانكليزى المصرى" type="بنك">البنك
+                  الانكليزى المصرى</orgName>
+            </p>
             <p>والبيع يكون لكل بيت على حدته أو البيتين الاولين معا اذا جاءت أغلبية المزايدين على ذلك </p>
             <p>وجميع مصاريف نقل الملكية تكون على المشترى ومن أراد زيادة الايضاح فعليه ان يطلبها من
-               قلم تحريرات الدائرة بالمحروسة تحريرا فى ٩ سبتمبر سنة ٨٥ </p>
+                  <orgName ref="قلم تحريرات الدائرة السنية" type="قلم">قلم تحريرات الدائرة</orgName>
+               بالمحروسة تحريرا فى ٩ سبتمبر سنة ٨٥ </p>
          </div>
          <div resp="#eAK" xml:id="w476">
             <head><date when-custom="1302-12-03">٣ ذو الحجة ١٣٠٢</date>
@@ -8310,33 +8442,42 @@
                <bibl><biblScope unit="issue">نمره ١٠٧</biblScope>
                   <biblScope unit="page">صفحة ٨٩٥</biblScope></bibl></head>
             <head><rs type="اعلان">اعلان</rs> من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال العمومية</orgName></head>
-            <p>ليكون معلوما لدى العموم انه فى يوم الاربعاء ١٦ سبتمبر سنة ٨٥ سيصير اعمال مزايدة بقلم
-               مشتروات ديوان الاشغال العموميه عن ترميم مهمات تياترات المحروسة فكل من يرغب الدخول فى
-               المزايدة المذكورة يمكنه الاطلاع على شروط ال<rs type="مزاد">مزاد</rs> الموجودة بتفتيش
-               مصر بديوان الاشغال العموميه كل يوم ما عدا يوم الجمعة من الساعه ٩ صباحا لغاية الساعه ١
-               بعد الظهر والعطاوات تقدم على مظاريف مغلوقة عليها العنوان الآتى عطا عن أعمال كذا الى
-               آخره ويصير قبول العطاوات بتفتيش مصر لغاية الساعه ١٠ صباحا من يوم ١٦ سبتمبر سنة ٨٥ ولا
-               تعتمد المزايدة الا بعد تصديق ديوان الاشغال عليها تحريرا بالمحروسة فى ٨ سبتمبر سنة ٨٥ </p>
+            <p>ليكون معلوما لدى العموم انه فى يوم الاربعاء ١٦ سبتمبر سنة ٨٥ سيصير اعمال مزايدة
+                  ب<orgName ref="قلم مشتروات ديوان الاشغال العموميه" type="قلم">قلم مشتروات ديوان
+                  الاشغال العموميه</orgName> عن ترميم مهمات تياترات المحروسة فكل من يرغب الدخول فى
+               المزايدة المذكورة يمكنه الاطلاع على شروط ال<rs type="مزاد">مزاد</rs> الموجودة
+                  ب<orgName ref="تفتيش مصر" type="تفتيش">تفتيش مصر</orgName> ب<orgName
+                  ref="ديوان الاشغال العموميه" type="ديوان">ديوان الاشغال العموميه</orgName> كل يوم
+               ما عدا يوم الجمعة من الساعه ٩ صباحا لغاية الساعه ١ بعد الظهر والعطاوات تقدم على
+               مظاريف مغلوقة عليها العنوان الآتى عطا عن أعمال كذا الى آخره ويصير قبول العطاوات
+               بتفتيش مصر لغاية الساعه ١٠ صباحا من يوم ١٦ سبتمبر سنة ٨٥ ولا تعتمد المزايدة الا بعد
+               تصديق ديوان الاشغال عليها تحريرا بالمحروسة فى ٨ سبتمبر سنة ٨٥ </p>
             <p>مدير عموم التنظيم </p>
-            <p>(الامضا) (جران)</p>
+            <p>(الامضا) (<persName>جران</persName>)</p>
          </div>
          <div resp="#eAK" xml:id="w477">
-            <head><date when="1885-09-16">١٦ سبتمبر ١٨٨٥</date>
-               <date when-custom="1302-12-07">٧ ذو الحجة ١٣٠٢</date></head>
-            <head><bibl><biblScope unit="issue">نمره ١٠٩</biblScope>
+            <head><date when-custom="1302-12-07">٧ ذو الحجة ١٣٠٢</date>
+               <date when="1885-09-16">١٦ سبتمبر ١٨٨٥</date>
+               <bibl><biblScope unit="issue">نمره ١٠٩</biblScope>
                   <biblScope unit="page">صفحة ٩٠٧</biblScope></bibl></head>
             <head>اعلانات</head>
             <head><rs type="اعلان">اعلان</rs> من <orgName ref="الدائرة السنية" type="الدائرة">الدائرة السنية</orgName></head>
-            <p>انه فى يوم الخميس الموافق ٨ اكتوبر سنة ٨٥ الساعه ١٠ افرنكى صباحا سيصير اشهار <rs type="مزاد">مزاد</rs> ب<orgName ref="ديوان الدائرة السنية" type="ديوان">ديوان
-                  الدائرة السنية</orgName> بمصر عن بيع ثلاثة منازل تعلق الدائرة بخط الاسماعيلية ما
-               هو </p>
-            <p>الاول المنزل سكن قنصلاتو فرنسا </p>
-            <p>ثانيا المنزل سكن قنصلاتو ألمانيا </p>
-            <p>ثالثا المنزل سكن بنك الانجلوا اجبسيان </p>
+            <p>انه فى يوم الخميس الموافق ٨ اكتوبر سنة ٨٥ الساعه ١٠ افرنكى صباحا سيصير اشهار <rs
+                  type="مزاد">مزاد</rs> ب<orgName ref="ديوان الدائرة السنية" type="ديوان">ديوان
+                  الدائرة السنية</orgName> بمصر عن بيع ثلاثة منازل تعلق الدائرة ب<placeName
+                  ref="خط الاسماعيلية" type="خط">خط الاسماعيلية</placeName> ما هو </p>
+            <p>الاول المنزل سكن قنصلاتو <placeName ref=" فرنسا">فرنسا</placeName>
+            </p>
+            <p>ثانيا المنزل سكن قنصلاتو <placeName ref="ألمانيا">ألمانيا</placeName>
+            </p>
+            <p>ثالثا المنزل سكن <orgName ref="بنك الانجلوا اجبسيان" type="بنك">بنك الانجلوا
+                  اجبسيان</orgName>
+            </p>
             <p>والبيع يصير اجراؤه عن كل منزل بحدته ولكن المنزل الاول والثانى يمكن بيعهما مع بعض اذا
                كان اكثر الراغبين يطلبون ذلك وكافة مصاريف نقل الملكية تكون على المشترى ومن يرغب أخذ
-               استعلامات خلاف هذه فيمكنه الحصول عليها من مكتب السكرتارية بالدائرة بمصر فى ١٠ ستمبر
-               سنة ٨٥ </p>
+               استعلامات خلاف هذه فيمكنه الحصول عليها من <placeName
+                  ref="مكتب سكرتارية الدائرة السنية" type="مكتب">مكتب السكرتارية
+                  بالدائرة</placeName> بمصر فى ١٠ ستمبر سنة ٨٥ </p>
          </div>
          <div resp="#eAK" xml:id="w478">
             <head><date when-custom="1885-09-28">٢٨ سبتمبر ١٨٨٥</date>
@@ -8351,33 +8492,42 @@
             <p>انه فى يوم السبت ١٧ اكتوبر سنة ٨٥ الساعه ؟ افرنكى صباحا </p>
             <p>سيصير الشروع فى بيع عقار بطريق ال<rs type="مزاد">مزاد</rs> العمومى بجلسة مزادات
                المحكمة المذكورة العقار الآتى بيانه المحدد عنه أول افتتاح الثمن بمعرفة قاضى مزادات
-               المحكمة بمبلغ وقدره ٣٠٠٠ قرش عمله صاغ وبيان هذا العقار هو منزل ملك عباسى رستم أحد
-               المدعى عليهم كائن بحارة زرع النوى تبع قسم الدرب الاحمر المحدود بحدود أربع الحد البحرى
-               ينتهى للحارة المذكورة وفيه الوجهة والباب والحد الشرقى ينتهى لمنزل وقف أهلى نظارة حسن
-               النجار والحد القبلى ينتهى لمنزل الوقف المذكور والحد الغربى ينتهى لعطفة غير نافذة
-               بالحارة المذكورة </p>
-            <p>واجراء مبيع ذلك العقار هو بناء على طلب أحمد مصطفى من رعايا الحكومة المحلية المتخذ له
-               محلا مختارا مكتب المحامى عنه على أفندى عمر الكائن بشارع محمد على تجاره سراى المحكمة </p>
+               المحكمة بمبلغ وقدره ٣٠٠٠ قرش عمله صاغ وبيان هذا العقار هو منزل ملك <persName>عباسى
+                  رستم أحد المدعى عليهم</persName> كائن ب<placeName ref="حارة زرع النوى" type="حارة"
+                  >حارة زرع النوى</placeName> تبع <orgName type="قسم" ref="قسم الدرب الاحمر"
+                     ><placeName ref="قسم الدرب الاحمر" type="قسم">قسم الدرب
+                  الاحمر</placeName></orgName> المحدود بحدود أربع الحد البحرى ينتهى للحارة المذكورة
+               وفيه الوجهة والباب والحد الشرقى ينتهى لمنزل وقف أهلى نظارة <persName>حسن
+                  النجار</persName> والحد القبلى ينتهى لمنزل الوقف المذكور والحد الغربى ينتهى لعطفة
+               غير نافذة بالحارة المذكورة </p>
+            <p>واجراء مبيع ذلك العقار هو بناء على طلب <persName>أحمد مصطفى من رعايا الحكومة
+                  المحلية</persName> المتخذ له محلا مختارا مكتب المحامى عنه <persName>على أفندى
+                  عمر</persName> الكائن ب<placeName ref="شارع محمد على" type="شارع">شارع محمد
+                  على</placeName> تجاره سراى المحكمة </p>
             <p>وبناء على خلاصة الحكم الصادر بنزع ملكية العقار وبيعه الرقيم ٢٦ يوليه سنة ٨٥ ومسجل
                بتاريخ ١٠ أغسطس سنة ٨٥ نمرة ٨١ </p>
-            <p>وبناء على التنبيه السابق اعلانه الى عباسى رستم وجدته زينب السمراء بمعرفة محمد أفندى
-               أمين محضر ب<orgName ref="محكمة مصر الابتدائية الاهلية" type="محكمة">محكمة مصر
-                  الابتدائية الاهلية</orgName> بتاريخ غرة رجب سنة ١٣٠٢ تطبيقا للمادة (٥٦١) من قانون
-               المرافعات فى المواد المدينة والتجارية ومن أراد الاطلاع على الاوراق بشروط البيع فيمكنه
-               ذلك لتوجه للمحكمة المذكورة للاطلاع على دفتر الشروطات المعد لذلك </p>
-            <p>كاتب قلم البيوع (محمد سليمان)</p>
+            <p>وبناء على التنبيه السابق اعلانه الى عباسى رستم وجدته <persName>زينب
+                  السمراء</persName> بمعرفة <persName>محمد أفندى أمين محضر ب<orgName
+                     ref="محكمة مصر الابتدائية الاهلية" type="محكمة">محكمة مصر الابتدائية
+                     الاهلية</orgName></persName> بتاريخ غرة رجب سنة ١٣٠٢ تطبيقا للمادة (٥٦١) من
+               قانون المرافعات فى المواد المدينة والتجارية ومن أراد الاطلاع على الاوراق بشروط البيع
+               فيمكنه ذلك لتوجه للمحكمة المذكورة للاطلاع على دفتر الشروطات المعد لذلك </p>
+            <p><persName>كاتب <orgName ref="قلم البيوع بمحكمة مصر الاهلية" type="قلم">قلم
+                     البيوع</orgName> (محمد سليمان)</persName></p>
          </div>
          <div resp="#eAK" xml:id="w479">
             <head><date when-custom="1302-12-21">٢١ ذو الحجة ١٣٠٢</date>
                <date when="1885-09-30">٣٠ سبتمبر ١٨٨٥</date></head>
             <head><bibl><biblScope unit="issue">نمرة ١١٣</biblScope>
                   <biblScope unit="page">صفحة ٩٣٧ – ٩٣٨</biblScope></bibl></head>
-            <head><rs type="اعلان">اعلان</rs> من بيت المال بمصر</head>
-            <p>يكون معلوم أرباب التركات الداخلة التصفية ما تدون بأمر المالية الصادر رقم ١٤ ستمبر ٨٥
-               نمرة ٢٦ تصفيه القاضى بأن مداينى التصفية الذين لهم حقوق مثبوتة يطالبوا الحكومة بها قبل
-               أول يناير سنة ٨٦ والا يسقط الحق فى المطالبة هذا وان مضى الميعاد ولم يجر تقديم طلب من
-               لم يكن سبق اضافة مبالغهم جهات بحسب الاوامر والمنشورات السابقة فلا يقبل منه ويسقط حق
-               المطالبه فى ١٩ الحجه سنة ٣٠٢ </p>
+            <head><rs type="اعلان">اعلان</rs> من <orgName ref="بيت المال">بيت المال</orgName>
+               بمصر</head>
+            <p>يكون معلوم أرباب التركات الداخلة التصفية ما تدون بأمر <orgName ref="المالية"
+                  type="نظارة">المالية</orgName> الصادر رقم ١٤ ستمبر ٨٥ نمرة ٢٦ تصفيه القاضى بأن
+               مداينى التصفية الذين لهم حقوق مثبوتة يطالبوا الحكومة بها قبل أول يناير سنة ٨٦ والا
+               يسقط الحق فى المطالبة هذا وان مضى الميعاد ولم يجر تقديم طلب من لم يكن سبق اضافة
+               مبالغهم جهات بحسب الاوامر والمنشورات السابقة فلا يقبل منه ويسقط حق المطالبه فى ١٩
+               الحجه سنة ٣٠٢ </p>
          </div>
       </body>
    </text>
