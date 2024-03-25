@@ -958,8 +958,7 @@
             <head>
                <date when="1299-01-07">٧ محرم الحرام سنة ١٢٩٩</date><date when="1881-11-29">٢٩
                   نوفمبر سنة ١٨٨١</date><bibl><biblScope unit="issue">نمرة
-                     ١٢٦٨</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl>
-            </head>
+                     ١٢٦٨</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head>(جدول) اعلان مكرر</head>
             <head>بيان أملاك الميرى الكائنة ببعض <placeName type="جهة">جهات المحروسة</placeName>
                المقتضى اشهار مبيعها بالمزاد علنا</head>
@@ -972,29 +971,35 @@
                <row>
                   <cell>٩٦</cell>
                   <cell>٩٢٨</cell>
-                  <cell><placeName type="محل">محل مسبك الباقرخانة</placeName> الكائن <placeName type="درب">بدرب المدبح</placeName>
-                     <placeName type="شارع">بشارع تحت الربع نمرة ٠٨١</placeName></cell>
+                  <cell><placeName type="محل" ref="الباقرخانة">محل مسبك الباقرخانة</placeName>
+                     الكائن <placeName type="درب" ref="درب المدبح">بدرب المدبح</placeName>
+                        ب<placeName type="شارع" ref="شارع تحت الربع">شارع تحت الربع</placeName> نمرة
+                     ٠٨١</cell>
                </row>
                <row>
                   <cell>٦٤</cell>
                   <cell>٢٥٩</cell>
-                  <cell>منزل <placeName type="درب">بدرب رياش</placeName> قريبا من <placeName type="جامع">الجامع الاحمر نمرة ٠٩٠</placeName></cell>
+                  <cell>منزل ب<placeName type="درب" ref="درب رياش">درب رياش</placeName> قريبا من
+                        <placeName type="جامع" ref="الجامع الاحمر">الجامع الاحمر</placeName> نمرة
+                     ٠٩٠</cell>
                </row>
                <row>
                   <cell>٦٠</cell>
                   <cell>١٤٨</cell>
-                  <cell>خرابه <placeName type="درب">بدرب رياش</placeName> المذكورة قبله نمرة
+                  <cell>خرابه ب<placeName type="درب">درب رياش</placeName> المذكورة قبله نمرة
                      ٠٩١</cell>
                </row>
                <row>
                   <cell>٥٩</cell>
                   <cell>٠٠٧</cell>
-                  <cell><placeName type="دكان">دكان بكفر الطماعين</placeName> باسفل <placeName type="منزل">منزل محمود حسن نمرة ١٠٥</placeName></cell>
+                  <cell><placeName type="دكان">دكان ب<placeName ref="كفر الطماعين" type="كفر">كفر
+                           الطماعين</placeName></placeName> باسفل <placeName type="منزل">منزل
+                           <persName>محمود حسن</persName></placeName>  نمرة ١٠٥</cell>
                </row>
                <row>
                   <cell>٨٧</cell>
                   <cell>٠٠٢</cell>
-                  <cell>,, ,, ,, ,, ,, <persName>الحاجة زينب النحاسة نمرة ١٠٦</persName></cell>
+                  <cell>,, ,, ,, ,, ,, <persName>الحاجة زينب النحاسة</persName> نمرة ١٠٦</cell>
                </row>
                <row>
                   <cell>٨٢</cell>
@@ -1004,20 +1009,23 @@
             </table>
          </div>
          <div>
-            <head><date when="1299-01-08">٨ محرم الحرام سنة ١٢٩٩</date>
-               <date when="1881-11-30">٣٠ نوفمبر سنة ١٨٨١</date><bibl><biblScope unit="issue">نمرة
+            <head><date when="1299-01-08">٨ محرم ١٢٩٩</date>
+               <date when="1881-11-30">٣٠ نوفمبر ١٨٨١</date><bibl><biblScope unit="issue">نمرة
                      ١٢٦٩</biblScope><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
             <head>اعلانات</head>
-            <head>نص اعلان (اعلان مكرر)</head>
+            <head>نص <rs type="اعلان">اعلان</rs></head>
             <p n="duplicate">قد صار افتتاح <placeName type="محل">محل تجارى وكومسيونات
-                  بمصر</placeName>
-               <placeName type="الازبكية">بجوار الازبكية</placeName> امام <placeName type="فندق">اللوكانده المسمية هوتيل الليكسندرى باسم الخواجه رفايل جبلادرى وشركاه</placeName>
-               ويكون فى هذا المحل وابورات ثابته وكوموبيل وقمزانات وطلومبات وطواحين دقيق ومعاصر القصب
-               وكل ما يلزم لهذه المكينات من الآلات وفحم حجرى من جميع الاصناف ويوجد أيضا كمارات كبيرة
-               وصغيرة من حديد وعواميد من ظهر لزوم البنا وخردوات آلات حديدية من كل نوع وبوابات مجهزة
-               انكليزية وكوالين أنواع وألواح صاج وصلب خام مسبوك وحنفيات من نحاس وسيور من جميع
-               المقاسات ومواسير متنوعة وكيعان ومسامير مقلوظه وصواميل وخلافه ويصير جلب جميع الاصناف
-               المذكورة أعلاه من أعظم الفوريكات الانكليزية والفرنساوية بالاثمان اللائقة </p>
+                  بمصر</placeName> بجوار <placeName ref="الازبكية">الازبكية</placeName> امام
+                  <placeName type="لوكانده" ref="اللوكانده المسمية هوتيل الليكسندرى">اللوكانده
+                  المسمية هوتيل الليكسندرى</placeName> باسم <orgName
+                  ref="الخواجه رفايل جبلادرى وشركاه"><persName>الخواجه رفايل جبلادرى</persName>
+                  وشركاه</orgName> ويكون فى هذا المحل وابورات ثابته وكوموبيل وقمزانات وطلومبات
+               وطواحين دقيق ومعاصر القصب وكل ما يلزم لهذه المكينات من الآلات وفحم حجرى من جميع
+               الاصناف ويوجد أيضا كمارات كبيرة وصغيرة من حديد وعواميد من ظهر لزوم البنا وخردوات آلات
+               حديدية من كل نوع وبوابات مجهزة انكليزية وكوالين أنواع وألواح صاج وصلب خام مسبوك
+               وحنفيات من نحاس وسيور من جميع المقاسات ومواسير متنوعة وكيعان ومسامير مقلوظه وصواميل
+               وخلافه ويصير جلب جميع الاصناف المذكورة أعلاه من أعظم الفوريكات الانكليزية والفرنساوية
+               بالاثمان اللائقة.</p>
          </div>
          <div>
             <head><date when="1299-01-08">٨ محرم الحرام سنة ١٢٩٩</date>
