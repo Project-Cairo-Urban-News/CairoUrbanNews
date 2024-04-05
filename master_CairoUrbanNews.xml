@@ -134,6 +134,13 @@
             <graphic url="../../docs/images/half.svg"/>
           </figure>
         </char>
+        <char xml:id="qthird">
+          <localProp value="QIRMA FRACTION 1/3" name="name"/>
+          <unicodeProp value="1/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/third.svg"/>
+          </figure>
+        </char>
       </charDecl>
     </encodingDesc>
     <profileDesc>

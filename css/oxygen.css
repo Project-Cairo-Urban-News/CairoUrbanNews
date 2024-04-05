@@ -41,6 +41,20 @@ body head {
   display:block;
   font-size: 1.8em;
 }
+g[ref="#qhalf"]::after {
+  content: url("../docs/images/half.svg");
+  display: inline-block;
+  position: relative;
+  bottom: -.1rem;
+  width: 1rem;
+}
+g[ref="#qthird"]::after {
+  content: url("../docs/images/third.svg");
+  display: inline-block;
+  position: relative;
+  bottom: -.35rem;
+  width: 2rem;
+}
 list {
   display: block;
 }
