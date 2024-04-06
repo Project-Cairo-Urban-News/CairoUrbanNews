@@ -183,11 +183,13 @@
                <date when="1882-01-03">٣ يناير ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٢٩٨</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
-            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName type="بيت-مال" ref="بيت-مال-مصر">بيت مال مصر</orgName> بتاريخ ٨ ربيع آخر سنة ٩٩</head>
-            <p>بيان الاطيان المخلفة عن المرحومة <persName>فاطمة هانم بنت <persName>أورغلى عمر
-                     أغا</persName></persName> ب<placeName ref="ناحية-الأفوازجيزه" type="ناحية">ناحية الافوازجيزه</placeName> حسب الموضح بقائمة المساحة الواردة ضمن افادة بقايمة
-               الروزنامة رقيم ١٧ را سنة ٩٩ نمرة ٤٨ وتلك الاطيان آيله لها من قبل <persName>أختها
-                  شقيقتها عائشة</persName> المتوفية فى ٢١ ر سنة ٩٠ عن اختها فاطمة المذكورة من غير
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="بيت-مال-مصر">بيت مال
+                  مصر</orgName> بتاريخ ٨ ربيع آخر سنة ٩٩</head>
+            <p>بيان الاطيان المخلفة عن المرحومة <persName>فاطمة هانم بنت <persName>أورفلى عمر
+                     أغا</persName></persName> ب<placeName ref="ناحية-الأفوازجيزه" type="ناحية"
+                  >ناحية الافوازجيزه</placeName> حسب الموضح بقائمة المساحة الواردة ضمن افادة بقايمة
+               الروزنامة رقيم ١٧ را سنة ٩٩ نمرة ٤٨ وتلك الاطيان آيله لها من قبل أختها شقيقتها
+                  <persName>عائشة</persName> المتوفية فى ٢١ ر سنة ٩٠ عن اختها فاطمة المذكورة من غير
                شريك</p>
             <table rows="4" cols="5">
                <row>
@@ -230,15 +232,16 @@
                   <cell/>
                   <cell/>
                   <cell><?oxy_comment_start author="Sarah" timestamp="20231231T151621+0200" comment="there are symbols"?>١٥<?oxy_comment_end?></cell>
-                  <cell>يخص <persName>حرم على أفندى رضا</persName> بحق الربع من الأصل</cell>
+                  <cell>يخص حرم <persName>على أفندى رضا</persName> بحق الربع من الأصل</cell>
                </row>
                <row>
                   <cell>ىلو</cell>
                   <cell><?oxy_comment_start author="Sarah" timestamp="20231231T160717+0200" comment="there are symbols before 33"?>٣٣<?oxy_comment_end?></cell>
-                  <cell>ىلو</cell>
-                  <cell>ىع نعم ١٥</cell>
-                  <cell>يخص <persName>سليمان أفندي رشدي</persName> عن ما آل اليه من بنت بنت
-                        <persName>خديجة</persName> ومن ولده بحق ١٥ قيراط في الربع وسدس خاصة
+                  <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ىلو<?oxy_custom_end?></cell>
+                  <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ىع نعم
+                     <?oxy_custom_end?>١٥</cell>
+                  <cell>يخص <persName>سليمان أفندي رشدي</persName> عن ما آل اليه من <sic>بنت</sic>
+                     بنت <persName>خديجة</persName> ومن ولده بحق ١٥ قيراط في الربع وسدس خاصة
                         <persName>خديجة</persName></cell>
                </row>
                <row>
@@ -255,7 +258,7 @@
                   <cell/>
                </row>
                <row>
-                  <cell>ى٣</cell>
+                  <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ى٣<?oxy_custom_end?></cell>
                   <cell>٢٩</cell>
                   <cell/>
                   <cell/>
@@ -275,8 +278,8 @@
                   <cell/>
                </row>
                <row>
-                  <cell>ى٢</cell>
-                  <cell><?oxy_comment_start author="Sarah" timestamp="20231231T161341+0200" comment="There are symbols"?>٢٠<?oxy_comment_end?></cell>
+                  <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ى٢<?oxy_custom_end?></cell>
+                  <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah" timestamp="20231231T161341+0200" comment="There are symbols" mid="8"?>٢٠<?oxy_custom_end?><?oxy_comment_end mid="8"?></cell>
                   <cell cols="2">يخص <persName>الست عائشة</persName> من <sic>خاصنها</sic></cell>
                   <cell/>
                </row>
@@ -313,16 +316,16 @@
                </row>
                <row>
                   <cell cols="2">
-                     <p>الحد القبلي <persName>حسن أفندي خطاب</persName> والشرقي <placeName ref="ترعة الخشاب" type="ترعة">ترعة الخشاب</placeName> والبحري حصة الست
-                           <persName>أمينة</persName></p>
-                     <p>هانم بحوضه والغربي طريق</p>
+                     <p>الحد القبلي <persName>حسن أفندي خطاب</persName> والشرقي <placeName
+                           ref="ترعة الخشاب" type="ترعة">ترعة الخشاب</placeName> والبحري حصة الست
+                           <persName>أمينة هانم</persName> بحوضه والغربي طريق</p>
                   </cell>
                   <cell/>
                   <cell cols="2">
                      <p>الحد القبلي <persName>حسن أفندي خطاب</persName> و<persName>اسكندر
                            سليمان</persName> والشرقي <placeName ref="حوض القدر" type="حوض">حوض
-                           القدر</placeName> والبحري</p>
-                     <p>حصة الست <persName>أمينة هانم</persName> والغربي ترعة خشاب</p>
+                           القدر</placeName> والبحري حصة الست <persName>أمينة هانم</persName>
+                        والغربي ترعة خشاب</p>
                   </cell>
                </row>
                <row>
@@ -382,7 +385,8 @@
                   <cell/>
                </row>
                <row>
-                  <cell>..... و ٢٤</cell>
+                  <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>..... و
+                     ٢٤<?oxy_custom_end?></cell>
                   <cell>
                      <p>١٣٩</p>
                   </cell>
@@ -425,8 +429,8 @@
                   <cell>
                      <p>الحد القبلي <persName>حسن أفندي خطاب</persName> و<persName>اسكندر
                            سليمان</persName> والشرقي <placeName ref="حوض-القدر" type="حوض">حوض
-                           القدر</placeName> والبحري</p>
-                     <p>حصة الست <persName>أمينة هانم</persName> والغربي ترعة خشاب</p>
+                           القدر</placeName> والبحري حصة الست <persName>أمينة هانم</persName>
+                        والغربي ترعة خشاب</p>
                   </cell>
                </row>
                <row>
@@ -458,17 +462,16 @@
             </table>
          </div>
          <div>
-            <head><note resp="#eAM"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>(I (AM)
-                  DELETED DATA BECAUSE IT WAS SO BADLY TRANSCRIBED – ONE HAS TO GO AND RE-CHECK THE
-                  ORIGINAL INCLUDING THE TABLES ABOVE<?oxy_custom_end?>)</note></head>
-            <p>الأطيان البالغ قدرها ىلو٣ سهم و <sic>...</sic> ٢٩ فدان العشورية الكائنة بناحية
-                  <placeName ref="الأفوازجيزه">الأفوازجيزه</placeName> الموضح بيانها وحيضانها
-               وحدودها أعلاه مخلفة عن المرحومة الست <persName>فاطمة هانم بنت <persName>أوراقلى عمر
-                     أغا</persName></persName> المتوفية عن زوجها <persName>يوسف أغا</persName> و
-                  <orgName ref="بيت المال">بيت المال</orgName> وتلك الأطيان آيله لها بالميراث من
+            <p>الأطيان البالغ قدرها
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ىلو٣ سهم و
+                  <sic>...</sic><?oxy_custom_end?>٢٩ فدان العشورية الكائنة بناحية <placeName
+                  ref="الأفوازجيزه">الأفوازجيزه</placeName> الموضح بيانها وحيضانها وحدودها أعلاه
+               مخلفة عن المرحومة الست <persName>فاطمة هانم بنت <persName>أورافلى عمر
+                  أغا</persName></persName> المتوفية عن زوجها <persName>يوسف أغا</persName>
+                  و<orgName ref="بيت المال">بيت المال</orgName> وتلك الأطيان آيله لها بالميراث من
                اختها <persName>عائشة</persName> المتوفية عنها من غير شريك ضمن تقسيط روزنامجي تاريخه
                   <date when-custom="1285-09-07">٧ رمضان سنة ٨٥</date> ولرغبة زوج المرحومة مبيع ما
-               يخصه في الأطيان المرقومة قد عرض للداخلية بالاستئذان عن مبيع ما ئؤول لبيت المال من
+               يخصه في الأطيان المرقومة قد عرض للداخلية بالاستئذان عن مبيع ما يؤول لبيت المال من
                الأطيان المحكي عنها بحق النصف وصدر أمرها رقم ٢ را سنة ٩٨ نمرة ١٨٦ عرض تصريحا باشهار
                   <rs type="مزاد">مزاد</rs> مبيعها بميعاد ٩١ يوما وعلى هذا قد تحررت قائمة مزاد في
                تاريخه عن مبيع الاطيان المخلفة عن المرحومة جميعها الموضح بعاليه وتسلمت الى رئيس
@@ -478,13 +481,14 @@
                ويرسى المزاد على أي شخص كان وانقطاع الأمل من وجود راغب للزيادة واتضاح موافقة الثمن
                الذي يرسى به المزاد وفيها يصير الاستئذان عن المبيع ومتي صدر الامر بالسماح في مبيع حصة
                بيت المال وأخذ قول زوج المرحومة بالسماح في مبيع حصته أيضا يجري قبض الثمن والرسومات
-               اللازمة وتوريدها خزينة بيت المال ويتحرر للمديرية بتوقيع المبايعة بحيث بعد مرسى المزاد
-               يكون بيت المال مخيرا في التسليم من عدمه واذا كان لم يصر أمر بالسماح في مبيع حصة بيت
-               المال وكذلك الزوج لم يسمح في مبيع حصته فلا يكون للراسى عليه المزاد أدنى تداعي على بيت
-               المال ولا على الزوج باي وجه من الوجوه وقد نشر عن ذلك لكافة الجهات عموما وبالجملة هذا
+               اللازمة وتوريدها <orgName ref="خزينة بيت المال" type="خزينة">خزينة بيت
+                  المال</orgName> ويتحرر للمديرية بتوقيع المبايعة بحيث بعد مرسى المزاد يكون بيت
+               المال مخيرا في التسليم من عدمه واذا كان لم يصر أمر بالسماح في مبيع حصة بيت المال
+               وكذلك الزوج لم يسمح في مبيع حصته فلا يكون للراسى عليه المزاد أدنى تداعي على بيت المال
+               ولا على الزوج باي وجه من الوجوه وقد نشر عن ذلك لكافة الجهات عموما وبالجملة هذا
                لاعلانه على من يلزم حتى كل من يكون له رغبة في مشترى الأطيان المرقومة بالشروط الموضحة
                فيحضر لبيت المال هو أو وكيل عنه بالأفادة والضمانة اللازمة من قبل مضي الميعاد المذكور
-               بيومين لاجل اتمام المزاد بيت المال </p>
+               بيومين لاجل اتمام المزاد بيت المال.</p>
          </div>
          <div resp="#eHL #eSG" xml:id="w102">
             <head><date when-custom="1299-02-14">١٤ صفر ١٢٩٩</date>
