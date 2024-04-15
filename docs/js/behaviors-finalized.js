@@ -21,7 +21,11 @@ const behaviors = {
         const graphic = char.querySelector('tei-graphic')
         const result = document.createElement('img');
         result.setAttribute('src', graphic.getAttribute('url').replace(/^.*\/images/, '/CairoUrbanNews/images'));
-        result.setAttribute('alt', char.querySelector('tei-unicodeprop[name=Numeric_Value]').getAttribute('value'));
+        const value = char.querySelector('tei-unicodeprop[name=Numeric_Value]').getAttribute('value');
+        if (value) {
+          result.setAttribute('alt', value);
+          result.setAttribute('type', 'numeric');
+        }
         return result;
       }
     },

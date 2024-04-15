@@ -41,19 +41,46 @@ body head {
   display:block;
   font-size: 1.8em;
 }
+g[ref="#qhalf"] {
+  direction: ltr;
+  unicode-bidi: bidi-override;
+}
 g[ref="#qhalf"]::after {
-  content: url("../docs/images/half.svg");
+  content: url("../docs/images/qhalf.svg");
   display: inline-block;
   position: relative;
-  bottom: -.1rem;
+  bottom: -.2rem;
   width: 1rem;
 }
 g[ref="#qthird"]::after {
-  content: url("../docs/images/third.svg");
+  content: url("../docs/images/qthird.svg");
   display: inline-block;
   position: relative;
-  bottom: -.35rem;
-  width: 2rem;
+  width: 1rem;
+}
+g[ref="#qfourth"]::after {
+  content: url("../docs/images/qfourth.svg");
+  display: inline-block;
+  position: relative;
+  width: 1rem;
+}
+g[ref="#qsixth"]::after {
+  content: url("../docs/images/qsixth.svg");
+  display: inline-block;
+  position: relative;
+  width: 1rem;
+}
+g[ref="#qfeighth"]::after {
+  content: url("../docs/images/qeighth.svg");
+  display: inline-block;
+  position: relative;
+  width: 1rem;
+}
+g[ref="#qtwothirds"]::after {
+  content: url("../docs/images/qtwothirds.svg");
+  display: inline-block;
+  position: relative;
+  width: 1rem;
 }
 list {
   display: block;
