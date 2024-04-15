@@ -126,7 +126,43 @@
           <unicodeProp value="1/2" name="Numeric_Value"/>
           <mapping type="similar">𐋢</mapping>
           <figure>
-            <graphic url="../../docs/images/half.svg"/>
+            <graphic url="../../docs/images/qhalf.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qthird">
+          <localProp value="QIRMA FRACTION 1/3" name="name"/>
+          <unicodeProp value="1/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qthird.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qfourth">
+          <localProp value="QIRMA FRACTION 1/4" name="name"/>
+          <unicodeProp value="1/4" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qfourth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qsixth">
+          <localProp value="QIRMA FRACTION 1/6" name="name"/>
+          <unicodeProp value="1/6" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qsixth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qeighth">
+          <localProp value="QIRMA FRACTION 1/8" name="name"/>
+          <unicodeProp value="1/8" name="Numeric_Value"/>
+          <mapping type="similar">𐋤</mapping>
+          <figure>
+            <graphic url="../../docs/images/qeighth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qtwothirds">
+          <localProp value="QIRMA FRACTION 2/3" name="name"/>
+          <unicodeProp value="2/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qtwothirds.svg"/>
           </figure>
         </char>
       </charDecl>
