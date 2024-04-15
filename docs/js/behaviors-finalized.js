@@ -24,7 +24,8 @@ const behaviors = {
         const value = char.querySelector('tei-unicodeprop[name=Numeric_Value]').getAttribute('value');
         if (value) {
           result.setAttribute('alt', value);
-          result.setAttribute('type', 'numeric');
+          result.setAttribute('title', value);
+          elt.setAttribute('type', 'numeric');
         }
         return result;
       }
