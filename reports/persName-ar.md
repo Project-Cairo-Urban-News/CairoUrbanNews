@@ -11,7 +11,6 @@
  * 'مخزنجي: '‎[1286.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1286.xml&text=%D9%85%D8%AE%D8%B2%D9%86%D8%AC%D9%8A)
  * 'معاون-لمأمور-اشغال-المحروسة: '‎[1247.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1247.xml&text=%D9%85%D8%B9%D8%A7%D9%88%D9%86%20%D9%84%D9%85%D8%A3%D9%85%D9%88%D8%B1%20%D8%A7%D8%B4%D8%BA%D8%A7%D9%84%20%D8%A7%D9%84%D9%85%D8%AD%D8%B1%D9%88%D8%B3%D8%A9)
  * 'مهندس: '‎[1295.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1295.xml&text=%D9%85%D9%87%D9%86%D8%AF%D8%B3)
- * 'ناظر-الابنية: '‎[1244.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1244.xml&text=%D9%86%D8%A7%D8%B8%D8%B1%20%D8%A7%D9%84%D8%A7%D8%A8%D9%86%D9%8A%D8%A9)
  * 'ناظر-القناطر-الخيرية: '‎[1282.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1282.xml&text=%D9%86%D8%A7%D8%B8%D8%B1%20%D8%A7%D9%84%D9%82%D9%86%D8%A7%D8%B7%D8%B1%20%D8%A7%D9%84%D8%AE%D9%8A%D8%B1%D9%8A%D8%A9)
  * 'ناظرة--وقف-المرحومه-سعده: '‎[1288.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1288.xml&text=%D9%86%D8%A7%D8%B8%D8%B1%D8%A9%20%20%D9%88%D9%82%D9%81%20%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%88%D9%85%D9%87%20%D8%B3%D8%B9%D8%AF%D9%87)
  * 'والدة-طه-ابن-سالم-الجرايحى: '‎[1297.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1297.xml&text=%D9%88%D8%A7%D9%84%D8%AF%D8%A9%20%D8%B7%D9%87%20%D8%A7%D8%A8%D9%86%20%D8%B3%D8%A7%D9%84%D9%85%20%D8%A7%D9%84%D8%AC%D8%B1%D8%A7%D9%8A%D8%AD%D9%89)
