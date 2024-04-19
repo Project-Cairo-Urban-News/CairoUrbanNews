@@ -1060,7 +1060,7 @@
                      العمومية</orgName></orgName> وتقديم العطا يكون داخل مظاريف مختوم عليها بالشمع
                الاحمر فكل من يرغب الدخول فى هذا المزاد فيحضر فى كل يوم من الساعه احدى عشر افرنكى
                لغاية الساعه أربعة بعد الظهر لاجل اطلاعه على الشروط وتقديم عطاه على موجبها ومن لا
-               يحضر لغاية الميعاد المحدد فلا يكلف الديوان بانتظاره</p>
+               يحضر لغاية الميعاد المحدد فلا يكلف الديوان بانتظاره.</p>
             <p>فى غرة ربيع الاول سنة ٩٩ الموافق ٢١ يناير سنة ٨٢ </p>
          </div>
          <div xml:id="w126" resp="#eAK #eSG">
@@ -1142,8 +1142,7 @@
                <date when="1882-01-29">٢٩ يناير ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٢٠</biblScope>
                   <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
-            <head>كشف عن الايرادات والمصروفات من أول يناير لغاية <date when-custom="1881-12-31">٣١
-                  دسمبر سنة ١٨٨١</date></head>
+            <head>كشف عن الايرادات والمصروفات من أول يناير لغاية ٣١ دسمبر سنة ١٨٨١</head>
             <table>
                <row>
                   <cell>ربط سنة ١٨٨١</cell>
@@ -1179,8 +1178,7 @@
                   <cell>٠٠٤١٨٢٢</cell>
                   <cell>٠٠٤٠٠٢١</cell>
                   <cell>٠٠٣٥٦١</cell>
-                  <cell>(٤) <orgName type="المعية-السنية" ref="المعية-السنية">المعية
-                        السنية</orgName></cell>
+                  <cell>(٤) <orgName ref="المعية-السنية">المعية السنية</orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٨٩٣٢</cell>
@@ -1270,7 +1268,8 @@
                   <cell>٠٠٠٥٤٦٦</cell>
                   <cell>٠٠٠٦٦٣٢</cell>
                   <cell>٠٠٠٣٣٩</cell>
-                  <cell><orgName ref="سكة-حديد-حلوان" type="سكك-حديد">سكة حديد <placeName ref="حلوان">حلوان</placeName></orgName></cell>
+                  <cell><orgName ref="سكة-حديد-حلوان">سكة حديد <placeName ref="حلوان"
+                           >حلوان</placeName></orgName></cell>
                </row>
                <row>
                   <cell>٠٠٦٠١٦٤</cell>
@@ -1282,7 +1281,7 @@
                   <cell>٠٠٧٢٥٠٠</cell>
                   <cell>٠٠٧٣٨١٣</cell>
                   <cell>٠٠٥٠٨٥</cell>
-                  <cell>(١٥) <orgName type="بوسته" ref="البوسته">البوسته</orgName></cell>
+                  <cell>(١٥) <orgName ref="البوسته">البوسته</orgName></cell>
                </row>
                <row>
                   <cell>٠١٢٦٩٤٥</cell>
@@ -1300,7 +1299,7 @@
                   <cell>٠٠١٥٢٩٥</cell>
                   <cell>٠٠١٣١٥٣</cell>
                   <cell>٠٠١٢١١</cell>
-                  <cell>(١٨) تمن ورق ودفاتر وبعض أصناف معتاد صرفها لمصالح الميرى من المخازن والاشوان
+                  <cell>(١٨) ثمن ورق ودفاتر وبعض أصناف معتاد صرفها لمصالح الميرى من المخازن والاشوان
                      ومصروفات المخازن والاشوان بمصر</cell>
                </row>
                <row>
@@ -1324,10 +1323,9 @@
                   <cell>جمله المصروفات بالجنيه المصرى</cell>
                </row>
             </table>
-            <p>عن <persName>مدير عموم الحسابات
-                  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ناظر قلم
-                  المراجعة<?oxy_custom_end?> وحصر
-                  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الحسابات
+            <p>عن <persName>مدير <orgName ref="عموم الحسابات">عموم الحسابات</orgName> ناظر <orgName
+                     ref="قلم المراجعة وحصر الحسابات" type="قلم">قلم المراجعة وحصر
+                     الحسابات</orgName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
                   فرولى<?oxy_custom_end?></persName></p>
          </div>
          <div xml:id="w128" resp="#eAK">
@@ -1388,8 +1386,8 @@
                   <cell>٠٠٤٠٠٢١</cell>
                   <cell>٠٠٣٩٤٧٣</cell>
                   <cell>(٤) <orgName type="كابينيه" ref="كابينيه-الحضرة-الخديويه">كابينيه الحضرة
-                        الخديويه</orgName> (<orgName type="المعيه-السنيه" ref="المعيه-السنيه">المعيه
-                        السنيه</orgName>)</cell>
+                        الخديويه</orgName> (<orgName ref="المعيه-السنيه">المعيه
+                     السنيه</orgName>)</cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
@@ -1493,7 +1491,8 @@
                   <cell>٠٠٠٤٧٧</cell>
                   <cell>٠٠٠٦٦٣٢</cell>
                   <cell>٠٠٠٦١٥٥</cell>
-                  <cell><orgName ref="سكة-حديد-حلوان" type="سكك-حديد">سكة حديد <placeName ref="حلوان">حلوان</placeName></orgName></cell>
+                  <cell><orgName ref="سكة-حديد-حلوان">سكة حديد <placeName ref="حلوان"
+                           >حلوان</placeName></orgName></cell>
                </row>
                <row>
                   <cell>٠٠٠٠٠٠</cell>
@@ -1553,7 +1552,7 @@
                </row>
             </table>
             <p>٤٦١٦١٨ جنيه مصرى فرق زياده فى سنة ٨١</p>
-            <p>مدير عموم الحسابات</p>
+            <p>مدير <orgName ref="عموم الحسابات">عموم الحسابات</orgName></p>
          </div>
          <div xml:id="w129" resp="#eAK #eSG">
             <head><date when-custom="1299-03-09">٩ ربيع الاول ١٢٩٩</date>
@@ -1593,7 +1592,7 @@
                   <cell>٠٠١٩٩١</cell>
                   <cell>٠٠٠٠٠٠</cell>
                   <cell>٠٠٠٠٠</cell>
-                  <cell>(٢) <orgName ref="نظارة-الجهادية" type="نظارة">نظارتى الجهادية</orgName>
+                  <cell>(٢) نظارتى <orgName ref="نظارة-الجهادية" type="نظارة">الجهادية</orgName>
                         و<orgName ref="نظارة-البحرية" type="نظارة">البحرية</orgName></cell>
                </row>
                <row>
