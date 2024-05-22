@@ -460,7 +460,7 @@
           في المشترى يحضر هو أو وكيل عنه في اليوم المذكور من ابتداء الساعة ١٠ افرنكى صباحا لغاية
           الساعة ١٢ افرنكي الظهر للمزايدة بين الراغبين أمام قومسيون بيع الاملاك بالمحروسة وبدفع
           تامين المائة عشرة وبعد الميعاد يصير قفل
-          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="shamy" timestamp="20240512T111753+0300" comment="not sure about this word. It might not be spelled correctly." mid="2"?>جلية<?oxy_custom_end?><?oxy_comment_end mid="2"?>
+            <sic><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>جلية<?oxy_custom_end?></sic>
           المزاد ومن يتاخر يعتبر تاخيره كف يد بشرط ان المشترى يكون قابلا انه اذا لزم منها شئ للحكومة
           في المستقبل او جميعها توخذ بالثمن المباعة مادامت تكون بحالة البيع بقبوله المعاملة حسب نص
           احكام لائحة بيع املاك الميري المورخة ٢٢ نوفمبر سنة ١٨٨٦ والمنشورات والاوامر الصادرة بعدها
@@ -587,9 +587,7 @@
         <p>المادة الثانية عشرة</p>
         <p>على جناب مدير عموم المدن والمباني تنفيذ قرارانا هذا بالاتحاد مع جناب حكمدار بوليس
           القاهرة</p>
-        <p><?oxy_comment_start author="shamy" timestamp="20240513T130750+0300" comment="I couldn&apos;t highlight the role with the name because they are in two separate paragraphs."?>
-          ناظر الاشغال العمومية<?oxy_comment_end?>
-        </p>
+        <p> ناظر الاشغال العمومية </p>
         <p><persName role="ناظر الأشغال العمومية">محمد زكى</persName></p>
       </div>
          <div resp="#eNS" xml:id="W10">
@@ -646,16 +644,14 @@
             <cell>٥</cell>
             <cell>١٤١</cell>
             <cell>٣٧٥</cell>
-            <cell><?oxy_comment_start author="shamy" timestamp="20240513T133005+0300" comment="Not sure if the type is محل or قرة قول"?>محل<?oxy_comment_end?>
-              <placeName ref="قره قول مصر القديمة">قره قول مصر القديمة</placeName> ب<placeName
-                ref="شارع الساحل" type="شارع">شارع الساحل</placeName> محدود بحدود اربعة الحد الشرقي
-                <placeName ref="شارع مصر القديمة" type="شارع">شارع مصر القديمة</placeName> والحد
-              البحرى <placeName ref="منزل السيد عبدالخالق السادات" type="منزل">منزل <persName
+            <cell>محل <placeName ref="قره قول مصر القديمة">قره قول مصر القديمة</placeName>
+                ب<placeName ref="شارع الساحل" type="شارع">شارع الساحل</placeName> محدود بحدود اربعة
+              الحد الشرقي <placeName ref="شارع مصر القديمة" type="شارع">شارع مصر القديمة</placeName>
+              والحد البحرى <placeName ref="منزل السيد عبدالخالق السادات" type="منزل">منزل <persName
                   ref="السيد عبدالخالق السادات">السيد عبدالخالق السادات</persName></placeName> والحد
               الغربي ينتهى ل<placeName ref="جسر البحر الاسعظم" type="جسر">جسر البحر
-                  <sic>الاسعظم</sic></placeName> والحد القبلي ينتهى
-              <?oxy_comment_start author="shamy" timestamp="20240513T133349+0300" comment="Not sure if it should be marked
-"?>لارض الميري<?oxy_comment_end?> ثمنه الاساسي ٢٨ جنيها و٢٠٣ مليم</cell>
+                  <sic>الاسعظم</sic></placeName> والحد القبلي ينتهى لارض الميري ثمنه الاساسي ٢٨
+              جنيها و٢٠٣ مليم</cell>
           </row>
         </table>
       </div>
@@ -676,19 +672,18 @@
           ١٨٩١ نمرة ٥</p>
         <p>وبناء على ما عرضه علينا ناظر الاشغال العمومية وموافقة راى مجلس النظار امرنا بما هو ات </p>
         <p>المادة الاولى</p>
-        <p>تلغى خطوط التنظيم المعينة على امتداد<?oxy_comment_start author="shamy" timestamp="20240515T092527+0300" comment="I didn&apos;t highlight جوامع because it&apos;s a plural noun referring to all that comes next
-"?>
-          <?oxy_comment_start author="shamy" timestamp="20240515T093048+0300" comment="ٍSome of these referred to are madrasas not jawami&apos; but I kept the type as mentioned here (جامع)" mid="5"?>جوامع<?oxy_comment_end?><?oxy_comment_end mid="5"?>
-          <placeName ref=" سيدي أبو حربيه" type="جامع">سيدى
-              ابو<sic><?oxy_comment_start author="shamy" timestamp="20240515T092547+0300" comment="It should be حريبة"?>حربيه<?oxy_comment_end?></sic></placeName>
-            و<placeName ref=" المويد" type="جامع">المويد</placeName> (بما فيه <placeName ref="بوابة المتولى" type="بوابة">بوابة المتولى</placeName>) و<placeName ref=" الغوري" type="جامع">الغورى</placeName> و<placeName ref="الاشرف" type="جامع">الاشرف</placeName>
-            و<placeName ref="قلاوون" type="جامع">قلاوون</placeName> و<placeName ref="الناصر" type="جامع">الناصر</placeName> و<placeName ref="برقوق" type="جامع">برقوق</placeName> في
-          رسم شارع الدرب الاحمر نمرة ٦٣ ورسم <placeName ref="شارع السكرية" type="شارع">شارع
-            السكرية</placeName> نمرة ٢٨٥ ورسم <placeName ref="شارع الغورى" type="شارع">شارع
-            الغورى</placeName> و<placeName ref="الاشرفيه" type="شارع">الاشرفيه</placeName>
-            و<placeName ref="النحاسين" type="شارع">النحاسين</placeName> نمرة ٧٩٦ الصادر بها الامران
-          العاليان المؤرخ احدهما ٢٤ مارس سنة ١٨٨٦ والثاني ٢٥ مارس ١٨٨٩ باعتبارهما من المنافع
-          العمومية</p>
+        <p>تلغى خطوط التنظيم المعينة على امتداد جوامع <placeName ref=" سيدي أبو حربيه" type="جامع"
+            >سيدى ابو<sic>حربيه</sic></placeName> و<placeName ref=" المويد" type="جامع"
+            >المويد</placeName> (بما فيه <placeName ref="بوابة المتولى" type="بوابة">بوابة
+            المتولى</placeName>) و<placeName ref=" الغوري" type="جامع">الغورى</placeName>
+            و<placeName ref="الاشرف" type="جامع">الاشرف</placeName> و<placeName ref="قلاوون"
+            type="جامع">قلاوون</placeName> و<placeName ref="الناصر" type="جامع">الناصر</placeName>
+            و<placeName ref="برقوق" type="جامع">برقوق</placeName> في رسم شارع الدرب الاحمر نمرة ٦٣
+          ورسم <placeName ref="شارع السكرية" type="شارع">شارع السكرية</placeName> نمرة ٢٨٥ ورسم
+            <placeName ref="شارع الغورى" type="شارع">شارع الغورى</placeName> و<placeName
+            ref="الاشرفيه" type="شارع">الاشرفيه</placeName> و<placeName ref="النحاسين" type="شارع"
+            >النحاسين</placeName> نمرة ٧٩٦ الصادر بها الامران العاليان المؤرخ احدهما ٢٤ مارس سنة
+          ١٨٨٦ والثاني ٢٥ مارس ١٨٨٩ باعتبارهما من المنافع العمومية</p>
         <p>وتعتبر خطوط التنظيم في الشارع العمومي على امتداد هذه الجوامع ومحازاة بنائها نفسه كما هو
           مبين بالخط الاخضر في الرسومات المحكى عنها </p>
         <p>المادة الثانية</p>
@@ -771,15 +766,15 @@
             <biblScope unit="page">ص٧٧٧</biblScope></bibl></head>
         <p> عقود واتفاقات رسمية </p>
         <p>نظارة الاشغال العمومية</p>
-        <p>قد عهدت نظارة الاشغال العمومية الى <?oxy_comment_start author="shamy" timestamp="20240515T095956+0300" comment="Again, here Khawagat refers to two persons. So, I didn&apos;t highlight it.
-"?>الخواجات<?oxy_comment_end?>
-          <persName ref="مرسيلي" role="مقاول">مرسيلي</persName> و<persName ref="بوجول" role="مقاول">بوجول</persName> المقاولين انشاء كوبرى بالبناء ذى فتحة قدرها ثمانية امتار بدلا من
-            <placeName ref="كوبرى الليمون" type="كوبرى">كوبرى الليمون</placeName> الموجود على
-            <placeName ref="الترعة الاسماعيلية" type="ترعة">الترعة الاسماعيلية</placeName> وذلك
-          بقيمة المقايسة التثمينية البالغ قدرها ١٩٠٠ جنيه بنقص ١١ ونصف في المائة من فيات المقايسة
-          المذكورة وقد تعين لنهو الاساسات والابار والعقودات والبناء فوقها يوم ٣٠ ابريل سنة ٩١ ولنهو
-          جميع الاعمال اللازمة لاعداد الكوبرى للمرور عليه يوم ٢٠ يونيه سنة ١٨٩١ ولنهو الفتحات
-          المقتضي عملها في احد اكتاف كوبرى الليمون الحالى بمرور المياه يوم ١٥ يوليو سنة ١٨٩١.</p>
+        <p>قد عهدت نظارة الاشغال العمومية الى الخواجات <persName ref="مرسيلي" role="مقاول"
+            >مرسيلي</persName> و<persName ref="بوجول" role="مقاول">بوجول</persName> المقاولين انشاء
+          كوبرى بالبناء ذى فتحة قدرها ثمانية امتار بدلا من <placeName ref="كوبرى الليمون"
+            type="كوبرى">كوبرى الليمون</placeName> الموجود على <placeName ref="الترعة الاسماعيلية"
+            type="ترعة">الترعة الاسماعيلية</placeName> وذلك بقيمة المقايسة التثمينية البالغ قدرها
+          ١٩٠٠ جنيه بنقص ١١ ونصف في المائة من فيات المقايسة المذكورة وقد تعين لنهو الاساسات والابار
+          والعقودات والبناء فوقها يوم ٣٠ ابريل سنة ٩١ ولنهو جميع الاعمال اللازمة لاعداد الكوبرى
+          للمرور عليه يوم ٢٠ يونيه سنة ١٨٩١ ولنهو الفتحات المقتضي عملها في احد اكتاف كوبرى الليمون
+          الحالى بمرور المياه يوم ١٥ يوليو سنة ١٨٩١.</p>
       </div>
          <div resp="#eNS" xml:id="W15">
         <head><date when-custom="1308-08-27">٢٧ شعبان ١٣٠٨</date>
@@ -802,7 +797,7 @@
           في المشترى يحضر هو أو وكيل عنه في اليوم المذكور من ابتداء الساعة ١٠ افرنكى صباحا لغاية
           الساعة ١٢ افرنكي الظهر للمزايدة بين الراغبين أمام قومسيون بيع الاملاك بالمحروسة وبدفع
           تامين المائة عشرة وبعد الميعاد يصير قفل
-          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="shamy" timestamp="20240515T101710+0300" comment="Not sure if this word is correct. I feel it should be جلبة. But it appeared earlier with the same spelling." mid="12"?>جلية<?oxy_custom_end?><?oxy_comment_end mid="12"?>
+            <sic><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="shamy" timestamp="20240515T101710+0300" comment="Not sure if this word is correct. I feel it should be جلبة. But it appeared earlier with the same spelling." mid="4"?>جلية<?oxy_custom_end?><?oxy_comment_end mid="4"?></sic>
           المزاد ومن يتاخر يعتبر تاخيره كف يد بشرط ان المشترى يكون قابلا انه اذا لزم منها شئ للحكومة
           في المستقبل او جميعها توخذ بالثمن المباعة مادامت تكون بحالة البيع بقبوله المعاملة حسب نص
           احكام لائحة بيع املاك الميري المورخة ٢٢ نوفمبر سنة ١٨٨٦ والمنشورات والاوامر الصادرة بعدها
@@ -819,13 +814,15 @@
             <cell>٤٨</cell>
             <cell>٦٨</cell>
             <cell>١</cell>
-            <cell>حصة قدرها ٤ قراريط نمرة ٤٣ بمنزل ب<placeName ref="زرع النوى"><?oxy_comment_start author="shamy" timestamp="20240515T101837+0300" comment="Don&apos;t know the type of this place."?>زرع
-                النوى<?oxy_comment_end?></placeName> بقسم الدرب الاحمر آيلة الى بيت مال مصر عن
-                <persName ref="علي اغا">علي اغا</persName> بما عليه من الحكر محدودة بحدود
-                <sic>اربعو</sic> الحد البحرى ينتهى للطريق والقبلي ل<placeName ref="منزل محمد افندى راغب" type="منزل">منزل <persName ref="محمد افندى راغب">محمد
-                  افندى راغب</persName></placeName> والغربي ل<placeName ref="منزل محمد خلف" type="منزل">منزل <persName ref="محمد خلف">محمد خلف</persName></placeName> والشرقي
-                <placeName ref="منزل الست زينب هانم" type="منزل">منزل <persName ref="الست زينب هانم">الست زينب هانم</persName></placeName> وساكنه به زوجته ثمها ٢٢ جنيها و٥٠٠
-              مليم</cell>
+            <cell>حصة قدرها ٤ قراريط نمرة ٤٣ بمنزل ب<placeName ref="زرع النوى">زرع النوى</placeName>
+              بقسم الدرب الاحمر آيلة الى بيت مال مصر عن <persName ref="علي اغا">علي اغا</persName>
+              بما عليه من الحكر محدودة بحدود <sic>اربعو</sic> الحد البحرى ينتهى للطريق والقبلي
+                ل<placeName ref="منزل محمد افندى راغب" type="منزل">منزل <persName
+                  ref="محمد افندى راغب">محمد افندى راغب</persName></placeName> والغربي ل<placeName
+                ref="منزل محمد خلف" type="منزل">منزل <persName ref="محمد خلف">محمد
+                خلف</persName></placeName> والشرقي <placeName ref="منزل الست زينب هانم" type="منزل"
+                >منزل <persName ref="الست زينب هانم">الست زينب هانم</persName></placeName> وساكنه به
+              زوجته ثمها ٢٢ جنيها و٥٠٠ مليم</cell>
           </row>
           <row>
             <cell>٢٥</cell>
@@ -881,9 +878,8 @@
           قرش عمله صاغ وهى تعلق <persName ref="احمد مصطفي الجزمجي" role="الجزمجي">احمد مصطفي
             الجزمجي</persName> الضامن ومقيده باسمه ب<orgName ref="الدائرة البلدية">الدائرة
             البلدية</orgName> .</p>
-        <p>منزل <sic>خربكائن</sic> ب<placeName ref="شارع نحن" type="شارع">شارع<sic><?oxy_comment_start author="shamy" timestamp="20240519T115038+0300" comment="I don&apos;t know if this name is written correctly or not
-"?>
-              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0" mid="15"?>نحن<?oxy_comment_end?><?oxy_custom_end mid="15"?></sic></placeName>
+        <p>منزل <sic>خربكائن</sic> ب<placeName ref="شارع نحن" type="شارع">شارع<sic>
+              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>نحن<?oxy_custom_end?></sic></placeName>
           السور بقسم الخليفة نمرة ٦٠ محدود بحدود اربعة الحد البحرى ينتهى ل<placeName
             ref="منزل ورثة سليمان عجاج القهوجى" type="منزل">منزل ورثة <persName
               ref="سليمان عجاج القهوجى" role="قهوجى">سليمان عجاج القهوجى</persName></placeName>
@@ -912,8 +908,7 @@
             <biblScope unit="page">ص ١٤٦٩</biblScope></bibl></head>
         <p> نظارة الاشغال العمومية ستطرح في المزاد يوم ٦ يوليو ١٨٩١ "عملية انشاء مراحيض جديدة في
             <placeName ref="مدرسة المبتديان بالنصرية" type="مدرسة">مدرسة المبتديان ب<placeName
-              ref="النصرية"
-              ><?oxy_comment_start author="shamy" timestamp="20240519T120309+0300" comment="I couldn&apos;t specify the type of Nasriyya. Is it حي?"?>النصرية<?oxy_comment_end?></placeName></placeName>"</p>
+              ref="النصرية">النصرية</placeName></placeName>"</p>
       </div>
          <div resp="#eNS" xml:id="W19">
         <head><date when-custom="1308-12-07">٧ ذي الحجة ١٣٠٨</date>
@@ -925,11 +920,11 @@
         <p>ليكن معلوما لدى العموم انه بجلسة يوم الاربعاء ٢٩ يوليو ١٨٩١ المزمع انعقادها بديوان محافظة
           مصر سيصير اشهار مزاد مبيع العقارات المبينة بعد الكائنة بالمحروسة واعتبار من أول عطاء الثمن
           الاساسي المبين بعد فكل من له
-            <sic><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="shamy" timestamp="20240519T120816+0300" comment="This word is repeatedly written in a wrong way, which make me suspicious that it might have been written like that in the Waqa&apos;i" mid="18"?>رغية<?oxy_custom_end?><?oxy_comment_end mid="18"?></sic>
+            <sic><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>رغية<?oxy_custom_end?></sic>
           في المشترى يحضر هو أو وكيل عنه في اليوم المذكور من ابتداء الساعة ١٠ افرنكى صباحا لغاية
           الساعة ١٢ افرنكي الظهر للمزايدة بين الراغبين أمام قومسيون بيع الاملاك بالمحروسة وبدفع
           تامين المائة عشرة وبعد الميعاد يصير قفل
-          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>جلية<?oxy_custom_end?>
+            <sic><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>جلية<?oxy_custom_end?></sic>
           المزاد ومن يتاخر يعتبر تاخيره كف يد بشرط ان المشترى يكون قابلا انه اذا لزم منها شئ للحكومة
           في المستقبل او جميعها توخذ بالثمن المباعة مادامت تكون بحالة البيع بقبوله المعاملة حسب نص
           احكام لائحة بيع املاك الميري المورخة ٢٢ نوفمبر سنة ١٨٨٦ والمنشورات والاوامر الصادرة بعدها
@@ -950,15 +945,17 @@
             <cell>٧٧</cell>
             <cell>١٤٣</cell>
             <cell>١</cell>
-            <cell><placeName ref="منزل خرب بحارة الشيخ بدير" type="منزل">منزل خرب ب<placeName ref="حارة الشيخ بدير" type="حارة">حارة الشيخ بدير</placeName></placeName>
+            <cell><placeName ref="منزل خرب بحارة الشيخ بدير" type="منزل">منزل خرب ب<placeName
+                  ref="حارة الشيخ بدير" type="حارة">حارة الشيخ بدير</placeName></placeName>
                 ب<placeName ref="قسم بولاق" type="قسم">قسم بولاق</placeName> آيل لقلم المبايعة عن
                 <persName ref="المرحوم الحاج حسن الحبشي">المرحوم الحاج حسن الحبشي</persName> وزوجته
                 <persName ref="نسيم صباح">نسيم صباح</persName> محدود بحدود اربعة البحرى ينتهى
-                ل<placeName ref="منزل حسنين منصور وحسنين جاد الله" type="منزل">منزل <persName ref="حسنين منصور">حسنين منصور</persName> و<persName ref="حسنين جاد الله">حسنين جاد
-                  الله</persName></placeName> والقبلي للحارة المذكورة والغربي ل<placeName ref="منزلى الحرمة مدالله والست رقية الخبازة"><?oxy_comment_start author="shamy" timestamp="20240519T121211+0300" comment="These are two houses. How to refer to them?"?>منزلى
-                  <persName ref="الحرمة مدالله">الحرمة مدالله</persName>
-                  و<?oxy_comment_end?><persName ref="الست رقية الخبازة" role="الخبازة">الست رقية
-                  الخبازة</persName></placeName></cell>
+                ل<placeName ref="منزل حسنين منصور وحسنين جاد الله" type="منزل">منزل <persName
+                  ref="حسنين منصور">حسنين منصور</persName> و<persName ref="حسنين جاد الله">حسنين جاد
+                  الله</persName></placeName> والقبلي للحارة المذكورة والغربي ل<placeName
+                ref="منزلى الحرمة مدالله والست رقية الخبازة">منزلى <persName ref="الحرمة مدالله"
+                  >الحرمة مدالله</persName> و<persName ref="الست رقية الخبازة" role="الخبازة">الست
+                  رقية الخبازة</persName></placeName></cell>
           </row>
           <row>
             <cell/>
@@ -998,8 +995,7 @@
                   نرجس</persName></placeName> وباقيه ل<placeName ref="منزل عريف اغا" type="منزل"
                 >منزل <persName ref="عريف اغا">عريف اغا</persName></placeName> والمسطح الموضح يمينه
               منه ١٢ مترا و٧٥
-                <sic><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="shamy" timestamp="20240519T122728+0300" comment="I&apos;m not sure about this word
-" mid="22"?>سانيا<?oxy_custom_end?><?oxy_comment_end mid="22"?></sic>
+                <sic><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>سانيا<?oxy_custom_end?></sic>
               <sic><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>مجل<?oxy_custom_end?></sic>
               <placeName ref="ضريح الشيخ الجمل" type="ضريح">ضريح <persName ref="الشيخ الجمل">الشيخ
                   الجمل</persName></placeName> الذي بابه داخل المنزل والمنزل المذكور محتكر وعليه
@@ -1050,9 +1046,8 @@
             العامره</placeName></head>
         <p>اول امس فيما بين الساعه الخامسه والسادسة قبل الظهر ضبت النار بسراى عابدين العامرة شبوبا
           هائلا ولم تعرف اسباب ذلك الى الان ولكنها موضوع البحث والتحقيق الدقيقين وكان ظهور النار
-          أولا بالمكان الذى تشغله <orgName ref="الدائرة الخاصة" type="دائرة"
-            ><?oxy_comment_start author="shamy" timestamp="20240519T135706+0300" comment="is it orgName?"?>الدائرة
-            الخاصة<?oxy_comment_end?></orgName>
+          أولا بالمكان الذى تشغله <orgName ref="الدائرة الخاصة" type="دائرة">الدائرة
+            الخاصة</orgName>
           <sic>فم</sic> تلبث به زهاء ساعتين حتى دمرته تدميرا فانحصرت الاتلاف في هذا القسم من السراى
           بعد ان اوجس الناس خيفه من الاضطرار لهدمها برمتها نظرا لكثرة الاخشاب الداخله في بنائها غير
           انه في الساعه الثامنه قد تاكد لسوء الحظ اتصال اللهيب ب<placeName ref="قاعة الطعام"
