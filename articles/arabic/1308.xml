@@ -438,8 +438,7 @@
         </head>        
         <list rend="bulleted">
           <item> مزاد تنظمه <orgName ref="وزارة الاشغال العمومية" type="وزارة">وزارة الاشغال
-              العمومية</orgName> بخصوص التزام استغلال الزوارق في <placeName
-              ref="بحيرة جنينة الازيكية" type="بحيرة ">بحيرة جنينة
+              العمومية</orgName> بخصوص التزام استغلال الزوارق في <placeName ref="بحيرة جنينة الازيكية" type="بحيرة ">بحيرة جنينة
             <sic>الازيكية</sic></placeName>.</item>
           <item>مزاد عن ايجار محل بيع الحلويات ب<placeName ref="جنينة الازبكية" type="جنينة ">جنينة الازبكية</placeName>.</item>
         </list>
@@ -644,11 +643,18 @@
             <cell>٥</cell>
             <cell>١٤١</cell>
             <cell>٣٧٥</cell>
+<<<<<<< HEAD
             <cell>محل <placeName ref="قره قول مصر القديمة">قره قول مصر القديمة</placeName>
                 ب<placeName ref="شارع الساحل" type="شارع">شارع الساحل</placeName> محدود بحدود اربعة
               الحد الشرقي <placeName ref="شارع مصر القديمة" type="شارع">شارع مصر القديمة</placeName>
               والحد البحرى <placeName ref="منزل السيد عبدالخالق السادات" type="منزل">منزل <persName
                   ref="السيد عبدالخالق السادات">السيد عبدالخالق السادات</persName></placeName> والحد
+=======
+            <cell><?oxy_comment_start author="shamy" timestamp="20240513T133005+0300" comment="Not sure if the type is محل or قرة قول"?>محل<?oxy_comment_end?>
+              <placeName ref="قره قول مصر القديمة">قره قول مصر القديمة</placeName> ب<placeName ref="شارع الساحل" type="شارع">شارع الساحل</placeName> محدود بحدود اربعة الحد الشرقي
+                <placeName ref="شارع مصر القديمة" type="شارع">شارع مصر القديمة</placeName> والحد
+              البحرى <placeName ref="منزل السيد عبدالخالق السادات" type="منزل">منزل <persName ref="السيد عبدالخالق السادات">السيد عبدالخالق السادات</persName></placeName> والحد
+>>>>>>> 44bfd2fa3ec47618457bf67804e6d5304161c23a
               الغربي ينتهى ل<placeName ref="جسر البحر الاسعظم" type="جسر">جسر البحر
                   <sic>الاسعظم</sic></placeName> والحد القبلي ينتهى لارض الميري ثمنه الاساسي ٢٨
               جنيها و٢٠٣ مليم</cell>
@@ -878,6 +884,7 @@
           قرش عمله صاغ وهى تعلق <persName ref="احمد مصطفي الجزمجي" role="الجزمجي">احمد مصطفي
             الجزمجي</persName> الضامن ومقيده باسمه ب<orgName ref="الدائرة البلدية">الدائرة
             البلدية</orgName> .</p>
+<<<<<<< HEAD
         <p>منزل <sic>خربكائن</sic> ب<placeName ref="شارع نحن" type="شارع">شارع<sic>
               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>نحن<?oxy_custom_end?></sic></placeName>
           السور بقسم الخليفة نمرة ٦٠ محدود بحدود اربعة الحد البحرى ينتهى ل<placeName
@@ -885,10 +892,16 @@
               ref="سليمان عجاج القهوجى" role="قهوجى">سليمان عجاج القهوجى</persName></placeName>
           والقبلي ينتهى ل<placeName ref="منزل محمد افندى على" type="منزل">منزل <persName
               ref="محمد افندى على">محمد افندى على</persName></placeName> و<sic>ممصلحة</sic> بيت
+=======
+        <p>منزل <sic>خربكائن</sic> ب<placeName ref="شارع نحن" type="شارع">شارع<sic><?oxy_comment_start author="shamy" timestamp="20240519T115038+0300" comment="I don&apos;t know if this name is written correctly or not
+"?>
+              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0" mid="15"?>نحن<?oxy_comment_end?><?oxy_custom_end mid="15"?></sic></placeName>
+          السور بقسم الخليفة نمرة ٦٠ محدود بحدود اربعة الحد البحرى ينتهى ل<placeName ref="منزل ورثة سليمان عجاج القهوجى" type="منزل">منزل ورثة <persName ref="سليمان عجاج القهوجى" role="قهوجى">سليمان عجاج القهوجى</persName></placeName>
+          والقبلي ينتهى ل<placeName ref="منزل محمد افندى على" type="منزل">منزل <persName ref="محمد افندى على">محمد افندى على</persName></placeName> و<sic>ممصلحة</sic> بيت
+>>>>>>> 44bfd2fa3ec47618457bf67804e6d5304161c23a
           المال والشرقي ينتهى ل<placeName ref="سور قرميدان" type="سور">سور قرميدان</placeName>
           والغربي ينتهى ل<placeName ref="شارع تحت السور" type="شارع">شارع تحت السور</placeName> وفيه
-          الباب مسطحه ١٤٠ متر تقريبا يساوى مبلغ ٢١٠٠ قرش عمله صاغ وهذا تعلق <persName
-            ref="محمد افندى ابو السعود الصراف" role="صراف محكمة مصر الاهلية">محمد افندى ابو السعود
+          الباب مسطحه ١٤٠ متر تقريبا يساوى مبلغ ٢١٠٠ قرش عمله صاغ وهذا تعلق <persName ref="محمد افندى ابو السعود الصراف" role="صراف محكمة مصر الاهلية">محمد افندى ابو السعود
             الصراف</persName> ومكلف باسم الدائرة البلدية.</p>
         <p>والداعى لذلك البيع هو انه مطلوب للحكومة مبلغ ١٤٣ جنيه الذى ظهر عجز طرف محمد افندى ابو
           السعود صراف محكمة مصر الاهلية وضامنه احمد مصطفي الجزمجى كما صدر من المالية للمحافظة</p>
@@ -907,8 +920,12 @@
           <bibl><biblScope unit="issue">عدد ٧٤</biblScope>
             <biblScope unit="page">ص ١٤٦٩</biblScope></bibl></head>
         <p> نظارة الاشغال العمومية ستطرح في المزاد يوم ٦ يوليو ١٨٩١ "عملية انشاء مراحيض جديدة في
+<<<<<<< HEAD
             <placeName ref="مدرسة المبتديان بالنصرية" type="مدرسة">مدرسة المبتديان ب<placeName
               ref="النصرية">النصرية</placeName></placeName>"</p>
+=======
+            <placeName ref="مدرسة المبتديان بالنصرية" type="مدرسة">مدرسة المبتديان ب<placeName ref="النصرية"><?oxy_comment_start author="shamy" timestamp="20240519T120309+0300" comment="I couldn&apos;t specify the type of Nasriyya. Is it حي?"?>النصرية<?oxy_comment_end?></placeName></placeName>"</p>
+>>>>>>> 44bfd2fa3ec47618457bf67804e6d5304161c23a
       </div>
          <div resp="#eNS" xml:id="W19">
         <head><date when-custom="1308-12-07">٧ ذي الحجة ١٣٠٨</date>
@@ -978,29 +995,19 @@
             <cell/>
             <cell>٣٣٦</cell>
             <cell>١</cell>
-            <cell>حصة قدرها اربعة قراريط و٩ سهما وكسور من <placeName ref="منزل بدرب سعاده"
-                type="منزل">منزل ب<placeName ref="درب سعاده" type="درب">درب
-                سعاده</placeName></placeName> آيل لقلم المبايعة من قبل <persName
-                ref="المرحوم مصطفي بك مدير المنوفية سابقا" role="مدير المنوفية سابقا">المرحوم مصطفي
-                بك مدير المنوفية سابقا</persName> محدود بحدود اربعة البحرى ينتهى بعضه ل<placeName
-                ref="طريق حارة الست نبوية" type="طريق">طريق <placeName ref="حارة الست نبوية"
-                  type="حارة">حارة الست نبوية</placeName></placeName> وفيه الواجهة والباب وباقيه
-              ينتهى ل<placeName ref="زاوية الخربتاوى">زاوية الخربتاوى</placeName> ول<placeName
-                ref="منزل ملك الست منتهى" type="منزل">منزل ملك <persName ref="الست منتهى">الست
-                  منتهى</persName></placeName> والغربي ل<placeName ref="حوش وقف الست نظلة بنت محمد"
-                >حوش وقف <persName ref=" الست نظلة بنت محمد">الست نظلة بنت
-                محمد</persName></placeName> والقبلي بعضه لطريق <placeName ref="حارة الاشراقيه"
-                type="حارة">حارة الاشراقيه</placeName> وباقيه لربع والشرقي بعضه ينتهى ل<placeName
-                ref="منزل ملك الست نرجس" type="منزل">منزل ملك <persName ref="الست نرجس">الست
-                  نرجس</persName></placeName> وباقيه ل<placeName ref="منزل عريف اغا" type="منزل"
-                >منزل <persName ref="عريف اغا">عريف اغا</persName></placeName> والمسطح الموضح يمينه
+            <cell>حصة قدرها اربعة قراريط و٩ سهما وكسور من <placeName ref="منزل بدرب سعاده" type="منزل">منزل ب<placeName ref="درب سعاده" type="درب">درب
+                سعاده</placeName></placeName> آيل لقلم المبايعة من قبل <persName ref="المرحوم مصطفي بك مدير المنوفية سابقا" role="مدير المنوفية سابقا">المرحوم مصطفي
+                بك مدير المنوفية سابقا</persName> محدود بحدود اربعة البحرى ينتهى بعضه ل<placeName ref="طريق حارة الست نبوية" type="طريق">طريق <placeName ref="حارة الست نبوية" type="حارة">حارة الست نبوية</placeName></placeName> وفيه الواجهة والباب وباقيه
+              ينتهى ل<placeName ref="زاوية الخربتاوى">زاوية الخربتاوى</placeName> ول<placeName ref="منزل ملك الست منتهى" type="منزل">منزل ملك <persName ref="الست منتهى">الست
+                  منتهى</persName></placeName> والغربي ل<placeName ref="حوش وقف الست نظلة بنت محمد">حوش وقف <persName ref=" الست نظلة بنت محمد">الست نظلة بنت
+                محمد</persName></placeName> والقبلي بعضه لطريق <placeName ref="حارة الاشراقيه" type="حارة">حارة الاشراقيه</placeName> وباقيه لربع والشرقي بعضه ينتهى ل<placeName ref="منزل ملك الست نرجس" type="منزل">منزل ملك <persName ref="الست نرجس">الست
+                  نرجس</persName></placeName> وباقيه ل<placeName ref="منزل عريف اغا" type="منزل">منزل <persName ref="عريف اغا">عريف اغا</persName></placeName> والمسطح الموضح يمينه
               منه ١٢ مترا و٧٥
                 <sic><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>سانيا<?oxy_custom_end?></sic>
               <sic><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>مجل<?oxy_custom_end?></sic>
               <placeName ref="ضريح الشيخ الجمل" type="ضريح">ضريح <persName ref="الشيخ الجمل">الشيخ
                   الجمل</persName></placeName> الذي بابه داخل المنزل والمنزل المذكور محتكر وعليه
-              ركوب للجار والمنزل المذكور مؤجر الى <persName ref="محمد افندى الصدر الافوكاتو"
-                role="الافوكاتو">محمد افندى الصدر الافوكاتو</persName> باجرة شهريا ٨ بنتو</cell>
+              ركوب للجار والمنزل المذكور مؤجر الى <persName ref="محمد افندى الصدر الافوكاتو" role="الافوكاتو">محمد افندى الصدر الافوكاتو</persName> باجرة شهريا ٨ بنتو</cell>
           </row>
           <row>
             <cell>١٧٠</cell>
@@ -1046,15 +1053,17 @@
             العامره</placeName></head>
         <p>اول امس فيما بين الساعه الخامسه والسادسة قبل الظهر ضبت النار بسراى عابدين العامرة شبوبا
           هائلا ولم تعرف اسباب ذلك الى الان ولكنها موضوع البحث والتحقيق الدقيقين وكان ظهور النار
+<<<<<<< HEAD
           أولا بالمكان الذى تشغله <orgName ref="الدائرة الخاصة" type="دائرة">الدائرة
             الخاصة</orgName>
+=======
+          أولا بالمكان الذى تشغله <orgName ref="الدائرة الخاصة" type="دائرة"><?oxy_comment_start author="shamy" timestamp="20240519T135706+0300" comment="is it orgName?"?>الدائرة
+            الخاصة<?oxy_comment_end?></orgName>
+>>>>>>> 44bfd2fa3ec47618457bf67804e6d5304161c23a
           <sic>فم</sic> تلبث به زهاء ساعتين حتى دمرته تدميرا فانحصرت الاتلاف في هذا القسم من السراى
           بعد ان اوجس الناس خيفه من الاضطرار لهدمها برمتها نظرا لكثرة الاخشاب الداخله في بنائها غير
-          انه في الساعه الثامنه قد تاكد لسوء الحظ اتصال اللهيب ب<placeName ref="قاعة الطعام"
-            type="قاعة">قاعة الطعام</placeName> وهى متوسطة الموقع بين بقية <placeName
-            ref="قاعات التشريفات الخديوية" type="قاعة">قاعات التشريفات الخديوية</placeName>
-            و<placeName ref="السلملك" type="قاعة">السلملك</placeName> و<placeName
-            ref="قصر الحرم الخديوي" type="قصر">قصر الحرم الخديوي</placeName> فتوجهت حينئذ العزائم
+          انه في الساعه الثامنه قد تاكد لسوء الحظ اتصال اللهيب ب<placeName ref="قاعة الطعام" type="قاعة">قاعة الطعام</placeName> وهى متوسطة الموقع بين بقية <placeName ref="قاعات التشريفات الخديوية" type="قاعة">قاعات التشريفات الخديوية</placeName>
+            و<placeName ref="السلملك" type="قاعة">السلملك</placeName> و<placeName ref="قصر الحرم الخديوي" type="قصر">قصر الحرم الخديوي</placeName> فتوجهت حينئذ العزائم
           الى تلك النقطة وكانت الريح ضعيفة شمالية تطارد اللهيب الى حيث مصدره فلم يمض الا القليل من
           الزمن الاوقد امكن الوصول الى الغرض المقصود من فصل المكان الذي لعبت به النيران عن غيره من
           حجرات السراى العامرة وذلك بفتح خلاء يحول دونه وبقية الاماكن بواسطة الديناميت واعمال الفؤس
