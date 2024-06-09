@@ -120,8 +120,7 @@
          <editorialDecl>
             <p>Rules of TEI XML MarkUp in This Project</p>
             <p>We use the Arabic script but transliteration into Latin characters follows the
-               Library of Congress (LOC) <ref
-                  target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic
+               Library of Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic
                   transliteration chart</ref>.</p>
             <p>Each individual article has an individual xml:id number starting with "w1"</p>
             <p>We only use persName, orgName, placeName elements, apart from bibliographical
@@ -129,8 +128,7 @@
             <p>If the location or organization of responsibility is known from the text, it can be
                added in an attribute to a persName.</p>
             <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-            <p>This project's schema considers Till Grallert's work in his <ref
-                  target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
                   Editions</ref>.</p>
          </editorialDecl>
          <charDecl>
@@ -1032,19 +1030,15 @@
             <p>عن مبيع عقار جرى طرحه أولا بالمزاد ولمناسبة عدم وجود مشترى بالسعر الذى كان تقدر جرى
                تنقيص خمس المبلغ السابق تقديره انه فى جلسة المزايدات التى يجرى انعقادها بضبطية مصر
                الساعه ٦ نهارا فى يوم الخميس ٤ ن سنة ٩٩ الموافق ٢٠ يوليو سنة ٨٢ سيباع بطريق المنادا
-               لمن يرسى عليه آخر عطا العقاَر الآتى وهو بنا <placeName type="منزل"
-                  ref="منزل-فاطمه-الصاموليه">منزل</placeName> له بابين محدود بحدود أربع الحد الشرقى
+               لمن يرسى عليه آخر عطا العقاَر الآتى وهو بنا <placeName type="منزل" ref="منزل-فاطمه-الصاموليه">منزل</placeName> له بابين محدود بحدود أربع الحد الشرقى
                   لـ<placeName ref="شارع-المواردى" type="شارع">شارع المواردى</placeName> وفيه
-               الواجهة وبابين والغربى بعضه لزقاق وباقيه ل<placeName type="منزل"
-                  ref="منزل-الاسطى-ريحان">منزل <persName>الاسطى ريحان</persName></placeName>
+               الواجهة وبابين والغربى بعضه لزقاق وباقيه ل<placeName type="منزل" ref="منزل-الاسطى-ريحان">منزل <persName>الاسطى ريحان</persName></placeName>
                   و<placeName type="منزل" ref="منزل-على-السقا">منزل <persName>على
-                  السقا</persName></placeName> والبحرى لـ<placeName type="منزل"
-                  ref="منزل-الحاج-على-السايس">منزل <persName>الحاج على السايس</persName></placeName>
+                  السقا</persName></placeName> والبحرى لـ<placeName type="منزل" ref="منزل-الحاج-على-السايس">منزل <persName>الحاج على السايس</persName></placeName>
                والقبلى لشارع المواردى أيضا وبه بئر ماء معين ويشتمل على دور أرضى وجزؤ من الدور العلوى
                جميعه مبنى بالدبش على أرض الميرى الكائنة جهة المواردى والداعى لذلك المبيع انه مطلوب
                من ورثة المرحومه <persName>فاطمه الصاموليه</persName> المالكه البنا المذكور مبلغا
-               وقدره ١٠٥٣ قرش و٣٠ فضه أجرة أرض الميرى جهة المواردى استئجارها من <orgName
-                  ref="ديوان-الدائرة-البلدية-بمصر" type="ديوان">ديوان الدائرة البلدية بمصر</orgName>
+               وقدره ١٠٥٣ قرش و٣٠ فضه أجرة أرض الميرى جهة المواردى استئجارها من <orgName ref="ديوان-الدائرة-البلدية-بمصر" type="ديوان">ديوان الدائرة البلدية بمصر</orgName>
                لغاية سنة ١٢٩٩ وعوايد ملك لغاية شهر مارث سنة ٨٢ وسبق حجز ذلك بموجب محضر تاريخه ١٧
                فبراير سنة ٨٢ عن يد <persName role="مندوب الضبطية">محمد افندى راغب مندوب
                   الضبطية</persName> وتمتلك البنا المذكور اعلاه بموجب تكليفه باسمها من ديوان الدائرة
