@@ -120,8 +120,7 @@
          <editorialDecl>
             <p>Rules of TEI XML MarkUp in This Project</p>
             <p>We use the Arabic script but transliteration into Latin characters follows the
-               Library of Congress (LOC) <ref
-                  target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic
+               Library of Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic
                   transliteration chart</ref>.</p>
             <p>Each individual article has an individual xml:id number starting with "w1"</p>
             <p>We only use persName, orgName, placeName elements, apart from bibliographical
@@ -129,8 +128,7 @@
             <p>If the location or organization of responsibility is known from the text, it can be
                added in an attribute to a persName.</p>
             <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-            <p>This project's schema considers Till Grallert's work in his <ref
-                  target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
                   Editions</ref>.</p>
          </editorialDecl>
          <charDecl>
@@ -197,7 +195,7 @@
   
   <text xml:lang="ar">
       <body>
-         <div resp="#eAK" xml:id="w201">
+         <div xml:id="WA1299134601" resp="#eAK">
             <head><date when-custom="1299-04-11">١١ ربيع الثانى ١٢٩٩</date><date when="1882-03-01">١
                   مارث ١٨٨٢</date><bibl><biblScope unit="issue">نمرة ١٣٤٦</biblScope><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
             <head>اعلانات</head>
@@ -213,7 +211,7 @@
                بالكيفية التى ذكرت فى اليوم المحدد ومن لا يحضر لغاية هذا الميعاد فلا يكلف الديوان
                بنتظاره ولا بأخذ أقوال منه فيما بعد فى ٦ مارث سنة ١٨٨٢. </p>
          </div>
-         <div resp="#eAK" xml:id="w202">
+         <div xml:id="WA1299134602" resp="#eAK">
             <head><date when-custom="1299-04-11">١١ ربيع الثانى ١٢٩٩</date><date when="1882-03-01">١
                   مارث ١٨٨٢</date><bibl><biblScope unit="issue">نمرة ١٣٤٦</biblScope><biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="ضبطية مصر">ضبطية
@@ -231,15 +229,15 @@
                <row>
                   <cell>٠١١٩,٦٨</cell>
                   <cell>٠٣٨</cell>
-                  <cell>منزل خرب بـ<placeName ref="الزير-المعلق">الزير المعلق</placeName> سابق
-                     اعلانه من ضمن القسم الاول بـ<placeName ref="شارع-محمد-علي" type="شارع">شارع
+                  <cell>منزل خرب بـ<placeName xml:id="place-WA1299134602_01" ref="الزير-المعلق">الزير المعلق</placeName> سابق
+                     اعلانه من ضمن القسم الاول بـ<placeName xml:id="place-WA1299134602_02" ref="شارع-محمد-علي" type="شارع">شارع
                         محمد على</placeName> من ضمن السابق نشره بالقسم السابع وعمل عنهم اعلانات أخر
                      وبعد أن صار مبيعهم جرى ارتجاعهم</cell>
                </row>
                <row>
                   <cell>٠٠٣٥,٦٤</cell>
                   <cell>٠٦٩</cell>
-                  <cell>قطعة أرض بجهة <placeName ref="الحلمية">الحلمية</placeName></cell>
+                  <cell>قطعة أرض بجهة <placeName xml:id="place-WA1299134602_03" ref="الحلمية">الحلمية</placeName></cell>
                </row>
                <row>
                   <cell>٠٢٠٥,٦٧</cell>
@@ -254,19 +252,19 @@
                <row>
                   <cell>١١٩٠,٨٦</cell>
                   <cell>٠٧٢</cell>
-                  <cell>منزل يعرف بنمرة ٢٦١ بـ<placeName ref="حارة-مراد-بك" type="حارة">حارة
+                  <cell>منزل يعرف بنمرة ٢٦١ بـ<placeName xml:id="place-WA1299134602_04" ref="حارة-مراد-بك" type="حارة">حارة
                            <persName>مراد بك</persName></placeName></cell>
                </row>
                <row>
                   <cell>٠٩٢٨,٩٦</cell>
                   <cell>٠٨١</cell>
                   <cell>
-                     <p>بـ<placeName ref="شارع-تحت-الربع" type="شارع">شارع تحت الربع</placeName>
-                           بـ<placeName ref="درب-المذبح" type="درب">درب المذبح</placeName> جميعه محل
-                        مسبك <placeName ref="الباقرخانه"><orgName ref="الباقرخانه">الباقرخانه</orgName></placeName> وسابق درجه بالقسم الثالث والقسم
+                     <p>بـ<placeName xml:id="place-WA1299134602_05" ref="شارع-تحت-الربع" type="شارع">شارع تحت الربع</placeName>
+                           بـ<placeName xml:id="place-WA1299134602_06" ref="درب-المذبح" type="درب">درب المذبح</placeName> جميعه محل
+                        مسبك <placeName xml:id="place-WA1299134602_07" ref="الباقرخانه"><orgName ref="الباقرخانه">الباقرخانه</orgName></placeName> وسابق درجه بالقسم الثالث والقسم
                         العاشر وتحدد لهم مواعيد ولم يصر مبيعه</p>
-                     <p>بـ<placeName ref="ثمن-الازبكية"><orgName ref="ثمن-الازبكية" type="ثمن">ثمن
-                              الازبكية</orgName></placeName> بـ<placeName ref="درب-رياش" type="درب">درب رياش</placeName> سابق درجهم باعلان القسم الثالث والقسم العاشر وعمل
+                     <p>بـ<placeName xml:id="place-WA1299134602_08" ref="ثمن-الازبكية"><orgName ref="ثمن-الازبكية" type="ثمن">ثمن
+                              الازبكية</orgName></placeName> بـ<placeName xml:id="place-WA1299134602_09" ref="درب-رياش" type="درب">درب رياش</placeName> سابق درجهم باعلان القسم الثالث والقسم العاشر وعمل
                         عنهم مزاد فى ٢١ دسمبر سنة ٨١ ولم يتصرح من المالية بالمبيع وان يصير اعادة
                         اشهار مزادهم</p>
                   </cell>
@@ -287,7 +285,7 @@
                   <cell/>
                   <cell/>
                   <cell>
-                     <p>قطع أراضى من ضمن ٩٩ بجهة <placeName ref="الفجالة">الفجالة</placeName> سابق
+                     <p>قطع أراضى من ضمن ٩٩ بجهة <placeName xml:id="place-WA1299134602_10" ref="الفجالة">الفجالة</placeName> سابق
                         درجهم بالقسم الثامن</p>
                   </cell>
                </row>
@@ -317,7 +315,7 @@
                   <cell/>
                   <cell/>
                   <cell>
-                     <p>بـ<orgName type="ثمن" ref="ثمن-الجمالية"><placeName type="ثمن" ref="ثمن-الجمالية">ثمن الجمالية</placeName></orgName> بـ<placeName ref="كفر-الطماعين" type="كفر">كفر الطماعين</placeName> سابق درجهم بالقسم
+                     <p>بـ<orgName type="ثمن" ref="ثمن-الجمالية"><placeName xml:id="place-WA1299134602_11" type="ثمن" ref="ثمن-الجمالية">ثمن الجمالية</placeName></orgName> بـ<placeName xml:id="place-WA1299134602_12" ref="كفر-الطماعين" type="كفر">كفر الطماعين</placeName> سابق درجهم بالقسم
                         الخامس</p>
                   </cell>
                </row>
@@ -342,8 +340,8 @@
                   <cell/>
                   <cell/>
                   <cell>
-                     <p>أرض بـ<placeName ref="ظهر-الجمال">ظهر الجمال</placeName> الكائنة بطريق
-                           <placeName ref="بولاق">بولاق</placeName> بـ<placeName ref="جسر-السلطان-أبوالعلا" type="جسر">جسر السلطان أبو العلا</placeName>
+                     <p>أرض بـ<placeName xml:id="place-WA1299134602_13" ref="ظهر-الجمال">ظهر الجمال</placeName> الكائنة بطريق
+                           <placeName xml:id="place-WA1299134602_14" ref="بولاق">بولاق</placeName> بـ<placeName xml:id="place-WA1299134602_15" ref="جسر-السلطان-أبوالعلا" type="جسر">جسر السلطان أبو العلا</placeName>
                         بما عليها من الحكر سابق اعلانهم بالقسم السادس وعمل عنهم مزاد فى يوم ٢١ دسمبر
                         سنة ٨١ ولم يتصرح من <orgName ref="المالية">المالية</orgName> بالمبيع بالتمن
                         الراسى وأن يصير اعادة اشهار مزادهم</p>
@@ -374,7 +372,7 @@
                يحضر بعد هذا الميعاد وقفل الجلسة لا يقبل منه مزاد ومن لم يحضر فيعتبر تاخيره عدم رغبة
                ولاجل معلومية الجميع بذلك لزم الاعلان.</p>
          </div>
-         <div resp="#eAK" xml:id="w203">
+         <div xml:id="WA1299134701" resp="#eAK">
             <head><date when-custom="1299-04-12">١٢ ربيع الثانى ١٢٩٩</date>
                <date when="1882-03-02">٢ مارث ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٤٧</biblScope>
@@ -395,7 +393,7 @@
                أعمال المامورين حتى تكون العمليات موافقة للغرض المقصود منه وهو النفع العام.</p>
             <p> فى ر سنة ٩٩</p>
          </div>
-         <div resp="#eAK" xml:id="w204">
+         <div xml:id="WA1299134901" resp="#eAK">
             <head><date when-custom="1299-04-15">١٥ ربيع الثانى ١٢٩٩</date>
                <date when="1882-03-05">٥ مارث ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٤٩</biblScope>
@@ -408,7 +406,7 @@
                لاطلاعه على الشروط واعطا عطاه ومن لا يحضر لغاية الميعاد فلا يكلف الديوان بانتظاره ولا
                بأخذ أقوال منه فيما بعد فى ربيع آخر سنة ٩٩.</p>
          </div>
-         <div resp="#eAK" xml:id="w205">
+         <div xml:id="WA199-134902" resp="#eAK">
             <head><date when-custom="199-04-15">١٥ ربيع الثانى ١٢٩٩</date>
                <date when="1882-03-05">٥ مارث ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٤٩</biblScope>
@@ -424,14 +422,14 @@
             <p>فى <date when-custom="1299-04-11">١١ ربيع آخر سنة ٩٩</date>
             </p>
          </div>
-         <div resp="#eAK" xml:id="w206">
+         <div xml:id="WA1299135001" resp="#eAK">
             <head><date when-custom="1299-04-16">١٦ ربيع الثانى ١٢٩٩</date>
                <date when="1882-03-06">٦ مارث ١٨٨٢</date><bibl><biblScope unit="issue">نمرة
                      ١٣٥٠</biblScope>
                   <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
             <head>اعلانات</head>
             <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="ديوان-الاوقاف" type="ديوان">ديوان الاوقاف</orgName></head>
-            <p>موجوده خربة كائنة بجهة <placeName ref="الخردجيه">الخردجيه</placeName> تابعة <orgName ref="وقف زاوية خان سرور" type="وقف">وقف <placeName ref="زاوية-خان-سرور" type="زاوية"><orgName ref="زاوية-خان-سرور">زاوية خان
+            <p>موجوده خربة كائنة بجهة <placeName xml:id="place-WA1299135001_01" ref="الخردجيه">الخردجيه</placeName> تابعة <orgName ref="وقف زاوية خان سرور" type="وقف">وقف <placeName xml:id="place-WA1299135001_02" ref="زاوية-خان-سرور" type="زاوية"><orgName ref="زاوية-خان-سرور">زاوية خان
                   سرور</orgName></placeName></orgName> نظارة <persName role="ناظر">صالح
                   رخا</persName> مقاسها مسطحها ١٠٩,٤٦ متر مقتضى خروجها بالاستبدال النقدى وجرت
                المسوغات الشرعية عنها وأفتى من حضرة مفتى أفندى الديوان بجوازه ورغب أخذها من يدعى
@@ -440,7 +438,7 @@
                بالاتمان والقراقولات كالجارى وتحول على <orgName ref="قسم-أول-أوقاف" type="قسم">قسم
                   أول أوقاف</orgName> استخراج قائمة مزادات بميعاد واحد وثلاثين يوما من تاريخه.</p>
          </div>
-         <div resp="#eAK" xml:id="w207">
+         <div xml:id="WA1299135002" resp="#eAK">
             <head><date when-custom="1299-04-16">١٦ ربيع الثانى ١٢٩٩</date>
                <date when="1882-03-06">٦ مارث ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٥٠</biblScope>
@@ -459,13 +457,13 @@
                   <cell>٦٨</cell>
                   <cell>٠٠١١٩</cell>
                   <cell>٠١٨</cell>
-                  <cell>منزل خرب ب<placeName ref="الزير-المعلق">الزير المعلق</placeName></cell>
+                  <cell>منزل خرب ب<placeName xml:id="place-WA1299135002_01" ref="الزير-المعلق">الزير المعلق</placeName></cell>
                </row>
                <row>
                   <cell>٦٤</cell>
                   <cell>٠٠٠٣٥</cell>
                   <cell>٠٦٩</cell>
-                  <cell>قطعة بجهة <placeName ref="الحلميه">الحلميه</placeName> بـ<placeName ref="شارع-محمد-علي" type="شارع">شارع محمد على</placeName></cell>
+                  <cell>قطعة بجهة <placeName xml:id="place-WA1299135002_02" ref="الحلميه">الحلميه</placeName> بـ<placeName xml:id="place-WA1299135002_03" ref="شارع-محمد-علي" type="شارع">شارع محمد على</placeName></cell>
                </row>
                <row>
                   <cell>٦٧</cell>
@@ -483,7 +481,7 @@
                   <cell>٨٦</cell>
                   <cell>٠١١٩٠</cell>
                   <cell>٠٧٢</cell>
-                  <cell>منزل يعرف بنمرة ٦١ بـ<placeName ref="حارة-مراد-بك" type="حارة">حارة مراد
+                  <cell>منزل يعرف بنمرة ٦١ بـ<placeName xml:id="place-WA1299135002_04" ref="حارة-مراد-بك" type="حارة">حارة مراد
                         بك</placeName></cell>
                </row>
                <row>
@@ -491,15 +489,15 @@
                   <cell>٠٠٩٢٨</cell>
                   <cell>٠٨١</cell>
                   <cell>
-                     <p>محل <placeName ref="مسبك الباقرخانه">مسبك <orgName ref="الباقرخانه">الباقرخانه</orgName></placeName> بـ<placeName ref="شارع-تحت-الربع" type="شارع">شارع تحت الربع</placeName> بـ<placeName ref="درب-المذبح" type="درب">درب المذبح</placeName></p>
+                     <p>محل <placeName xml:id="place-WA1299135002_05" ref="مسبك الباقرخانه">مسبك <orgName ref="الباقرخانه">الباقرخانه</orgName></placeName> بـ<placeName xml:id="place-WA1299135002_06" ref="شارع-تحت-الربع" type="شارع">شارع تحت الربع</placeName> بـ<placeName xml:id="place-WA1299135002_07" ref="درب-المذبح" type="درب">درب المذبح</placeName></p>
                   </cell>
                </row>
                <row>
                   <cell>٦٤</cell>
                   <cell>٠٠٢٥٩</cell>
                   <cell>٠٩٠</cell>
-                  <cell>منزل بـ<placeName ref="درب-رياش" type="درب">درب رياش</placeName>
-                        بـ<placeName ref="ثمن-الازبكية"><orgName ref="ثمن-الازبكية" type="ثمن">تمن
+                  <cell>منزل بـ<placeName xml:id="place-WA1299135002_08" ref="درب-رياش" type="درب">درب رياش</placeName>
+                        بـ<placeName xml:id="place-WA1299135002_09" ref="ثمن-الازبكية"><orgName ref="ثمن-الازبكية" type="ثمن">تمن
                            الازبكية</orgName></placeName></cell>
                </row>
                <row>
@@ -514,7 +512,7 @@
                   <cell>٨٧</cell>
                   <cell>٠١٧٣٣</cell>
                   <cell>٠٠</cell>
-                  <cell>قطعة أرض بـ<placeName ref="الفجاله">الفجاله</placeName> من ضمن نمرة ٩٩ مرموز
+                  <cell>قطعة أرض بـ<placeName xml:id="place-WA1299135002_10" ref="الفجاله">الفجاله</placeName> من ضمن نمرة ٩٩ مرموز
                      لها بالرسم بحرف (ث)</cell>
                </row>
                <row>
@@ -539,8 +537,8 @@
                   <cell>٥٩</cell>
                   <cell>٠٠٠٠٧</cell>
                   <cell>١٠٥</cell>
-                  <cell>دكان بـ<placeName ref="كفر-الطماعين" type="كفر">كفر الطماعين</placeName>
-                        بـ<orgName type="ثمن" ref="ثمن-الجمالية"><placeName type="ثمن" ref="ثمن-الجمالية">تمن الجمالية</placeName></orgName></cell>
+                  <cell>دكان بـ<placeName xml:id="place-WA1299135002_11" ref="كفر-الطماعين" type="كفر">كفر الطماعين</placeName>
+                        بـ<orgName type="ثمن" ref="ثمن-الجمالية"><placeName xml:id="place-WA1299135002_12" type="ثمن" ref="ثمن-الجمالية">تمن الجمالية</placeName></orgName></cell>
                </row>
                <row>
                   <cell>٨٧</cell>
@@ -558,8 +556,8 @@
                   <cell>٠٠</cell>
                   <cell>٠٦٩٨٣</cell>
                   <cell>١١٢</cell>
-                  <cell>قطعه أرض بـ<placeName ref="ظهر-الجمال">ظهر الجمال</placeName> الكائنة
-                        ب<placeName ref="طريق بولاق">طريق بولاق</placeName> بـ<placeName ref="جسر-السلطان-أبوالعلا" type="جسر">جسر السلطان أبو العلا</placeName> بما
+                  <cell>قطعه أرض بـ<placeName xml:id="place-WA1299135002_13" ref="ظهر-الجمال">ظهر الجمال</placeName> الكائنة
+                        ب<placeName xml:id="place-WA1299135002_14" ref="طريق بولاق">طريق بولاق</placeName> بـ<placeName xml:id="place-WA1299135002_15" ref="جسر-السلطان-أبوالعلا" type="جسر">جسر السلطان أبو العلا</placeName> بما
                      عليها من الحكر</cell>
                </row>
                <row>
@@ -585,15 +583,15 @@
                ١٠ ومن يحضر بعد قفل الجلسة لا يقبل منه مزاد مطلقا وهكذا من يكون تطلب شيأ من المطروح
                فى المزاد ولم يحضر فيعتبر تأخيره كف يد.</p>
          </div>
-         <div resp="#eAK" xml:id="w210">
+         <div xml:id="WA1299135301" resp="#eAK">
             <head><date when-custom="1299-04-19">١٩ ربيع الثانى ١٢٩٩</date>
                <date when="1882-03-09">٩ مارث ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٥٣</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="بيت-المال">بيت
                   المال</orgName></head>
-            <p>موجود منزل خرب كائن بـ<placeName ref="كفر-الزغاري" type="كفر">كفر الزغارى</placeName>
-                  بـ<orgName type="ثمن" ref="ثمن-الجمالية"><placeName type="ثمن" ref="ثمن-الجمالية">تمن الجمالية</placeName></orgName> بدون حجة مخلف عن المرحومه <persName>ست
+            <p>موجود منزل خرب كائن بـ<placeName xml:id="place-WA1299135301_01" ref="كفر-الزغاري" type="كفر">كفر الزغارى</placeName>
+                  بـ<orgName type="ثمن" ref="ثمن-الجمالية"><placeName xml:id="place-WA1299135301_02" type="ثمن" ref="ثمن-الجمالية">تمن الجمالية</placeName></orgName> بدون حجة مخلف عن المرحومه <persName>ست
                   جنادى</persName> المتوفية وغير معلوم لها وارث ولتخرب المنزل المذكور من مدة قد تراآ
                لبيت المال أوفقية مبيعه ولما كتب لـ<orgName ref="ديوان-الاوقاف" type="ديوان">ديوان
                   الاوقاف</orgName> بالكشف عن ايقاف المنزل المذكور من عدمه فورد شرح منه رقيم ١٨ شوال
@@ -612,15 +610,15 @@
                على من يلزم حتى كل من له رغبة للمشترى يرسل لهنا بالافادة والضمانة المعتمدة قبل مضى
                الميعاد المذكور بيومين اثنين لاتمام المزاد بالمصلحة.</p>
          </div>
-         <div resp="#eAK" xml:id="w211">
+         <div xml:id="WA1299135302" resp="#eAK">
             <head><date when-custom="1299-04-19">١٩ ربيع الثانى ١٢٩٩</date>
                <date when="1882-03-09">٩ مارث ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٥٣</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="بيت-مال-مصر">بيت مال
                   مصر</orgName></head>
-            <p>موجود خرابه كائنة بـ<placeName ref="كفر-الزغاري" type="كفر">كفر الزغارى</placeName>
-                  بـ<orgName type="ثمن" ref="ثمن-الجمالية"><placeName type="ثمن" ref="ثمن-الجمالية">ثمن الجمالية</placeName></orgName> بدون حجة مخلفة عن المرحوم <persName>شرف
+            <p>موجود خرابه كائنة بـ<placeName xml:id="place-WA1299135302_01" ref="كفر-الزغاري" type="كفر">كفر الزغارى</placeName>
+                  بـ<orgName type="ثمن" ref="ثمن-الجمالية"><placeName xml:id="place-WA1299135302_02" type="ثمن" ref="ثمن-الجمالية">ثمن الجمالية</placeName></orgName> بدون حجة مخلفة عن المرحوم <persName>شرف
                   المسبب</persName> المتوفى وغير معلوم له وارث ولتخربها من مدة قد تراآ لبيت المال
                أوفقية مبيعها ولما كتب لـ<orgName ref="ديوان-الاوقاف" type="ديوان">ديوان
                   الاوقاف</orgName> بالكشف عن ايقاف تلك الخرابه من عدمه فورد شرح منه رقيم ٢٦ شوال
@@ -641,13 +639,13 @@
                لاعلانه على من يلزم حتى كل من له رغبة للمشترى يرسل لهنا بالافادة والضمانه المعتمدة
                قبل مضى الميعاد المذكور بيومين اثنين لاتمام المزاد بالمصلحة.</p>
          </div>
-         <div resp="#eAK" xml:id="w212">
+         <div xml:id="WA1299135303" resp="#eAK">
             <head><date when-custom="1299-04-19">١٩ ربيع الثانى ١٢٩٩</date>
                <date when="1882-03-09">٩ مارث ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٥٣</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="نظارة-الاشغال-العمومية" type="نظارة">نظارة الاشغال العمومية</orgName></head>
-            <p>مزاد عملية الحفر والردم وصناعة المكادام اللازم اعماله بـ<placeName ref="شارع-مصر-القديمة" type="شارع">شارع مصر القديمة</placeName> الذى كان صار عقده
+            <p>مزاد عملية الحفر والردم وصناعة المكادام اللازم اعماله بـ<placeName xml:id="place-WA1299135303_01" ref="شارع-مصر-القديمة" type="شارع">شارع مصر القديمة</placeName> الذى كان صار عقده
                بنظارة الاشغال العمومية بتاريخ ١٢ يناير سنة ١٨٨٢ وسبق الاعلان عن لزوم اعادة اشهاره فى
                يوم ٢١ فبراير سنة ٨٢ الساعة اثنين بعد الظهر على مقتضى رسم ومقايسه بمبلغ ٢٥٠٠٠ فرنك
                وشروط موجودة بـ<orgName ref="قلم الهندسة بديوان نظارة الاشغال العمومية" type="قلم">قلم الهندسة بالديوان</orgName> قد استقر الحال على اعادة اشهار هذا المزاد فى يوم
@@ -655,14 +653,14 @@
                والمقايسة والشروط من ابتداء الساعة احدى عشر افرنكى لغاية الساعه أربعة بعد الظهر وقبول
                العطا يكون داخل مظاريف يجرى تقديمها بالقلم المذكور مختوما عليه بالشمع الاحمر.</p>
          </div>
-         <div resp="#eAK" xml:id="w213">
+         <div xml:id="WA1299135401" resp="#eAK">
             <head><date when-custom="1299-04-21">٢١ ربيع الثانى ١٢٩٩</date>
                <date when="1882-03-11">١١ مارث ١٨٨٢</date><bibl><biblScope unit="issue">نمرة
                      ١٣٥٤</biblScope>
                   <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
             <head>من <orgName ref="ضبطية-مصر">ضبطية مصر</orgName></head>
             <p>بعثت <orgName ref="نظارة-الاوقاف" type="نظارة">نظارة الاوقاف</orgName> الى الضبطية
-               بما مفاده انها علمت بان جملة من الشغالين كانوا يحفرون فى بعض الجدران بـ<orgName ref="عمارة-السلطان-الغوري"><placeName ref="عمارة-السلطان-الغوري">عمارة
+               بما مفاده انها علمت بان جملة من الشغالين كانوا يحفرون فى بعض الجدران بـ<orgName ref="عمارة-السلطان-الغوري"><placeName xml:id="place-WA1299135401_01" ref="عمارة-السلطان-الغوري">عمارة
                         <persName>السلطان الغورى</persName></placeName></orgName> التابعة لـ<orgName ref="ديوان-الاوقاف" type="ديوان">ديوان الاوقاف</orgName> فعثروا فى أثناء الحفر على
                بعض النقود الذهبية من السكة العتيقه فاخذ منها <persName role="مقدم الفعلة">مقدم
                   الفعلة المدعو سليمان خليل</persName> قبضتين وأخذ الباقى منها <persName role="معلم البنايين">معلم البنايين المسمى حسين خليفه</persName> وان السبب فى اطلاع
@@ -678,7 +676,7 @@
                الثانى لشخص باعه <sic>بملغ</sic> ١٥ جنيها وبعد هذا أخذت الضبطية فيما يوصلها الى
                الحصول على باقى هذا الدفين.</p>
          </div>
-         <div resp="#eAK" xml:id="w214">
+         <div xml:id="WA1299135501" resp="#eAK">
             <head><date when-custom="1299-04-22">٢٢ ربيع الثانى ١٢٩٩</date>
                <date when="1882-03-12">١٢ مارث ١٨٨٢</date><bibl><biblScope unit="issue">نمرة
                      ١٣٥٥</biblScope>
@@ -751,7 +749,7 @@
                <p>وانفضت الجلسة والساعه تسعه ونصف.</p>
             </div>
          </div>
-         <div resp="#eAK" xml:id="w215">
+         <div xml:id="WA1299135601" resp="#eAK">
             <head><date when-custom="1299-04-23">٢٣ ربيع الثانى ١٢٩٩</date>
                <date when="1882-03-13">١٣ مارث ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٥٦</biblScope>
@@ -817,13 +815,13 @@
             <p> وعلى وجه ما ذكر قد اعتمد الديوان مرسى المزاد على متولى عويس وشريكه مرزوق على بمبلغ
                سبعة عشر قرشا وخمسة وثلاثين فضه.</p>
          </div>
-         <div resp="#eAK" xml:id="w216">
+         <div xml:id="WA1299135602" resp="#eAK">
             <head><date when-custom="1299-04-23">٢٣ ربيع الثانى ١٢٩٩</date>
                <date when="1882-03-13">١٣ مارث ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٥٦</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="نظارة-الاشغال-العمومية" type="نظارة">نظارة الاشغال العمومية</orgName></head>
-            <p>ان مزاد عملية الترميمات اللازمة بمحلات <placeName ref="الحكمخانة"><orgName ref="الحكمخانة">الحكمخانة</orgName></placeName> ومخازن الموبليات بـ<orgName ref="القصر-العيني" type="قصر"><placeName ref="القصر-العيني">القصر
+            <p>ان مزاد عملية الترميمات اللازمة بمحلات <placeName xml:id="place-WA1299135602_01" ref="الحكمخانة"><orgName ref="الحكمخانة">الحكمخانة</orgName></placeName> ومخازن الموبليات بـ<orgName ref="القصر-العيني" type="قصر"><placeName xml:id="place-WA1299135602_02" ref="القصر-العيني">القصر
                      العينى</placeName></orgName> الذى صار انعقاده بـ<orgName ref="نظارة-الاشغال-العمومية" type="نظارة">نظارة الاشغال العمومية</orgName> فى يوم
                السبت ٤ مارث سنة ١٨٨٢ بطريق المظروف أعطى النتيجة الآتيه </p>
             <p>ثلاثة أشخاص تقدمت منهم مظاريف بعطاياهم بنقص عن مجموع المقايسات الابتدائية البالغ قدره
@@ -853,13 +851,13 @@
             <p> وعلى وجه ما ذكر قد اعتمد الديوان مرسى المزاد على على أفندى حمدى بناقص فى المائة اثنى
                عشر قرشا وعشرة فضه وربطت معه الشروط الانتهائية.</p>
          </div>
-         <div resp="#eAK" xml:id="w217">
+         <div xml:id="WA1299135603" resp="#eAK">
             <head><date when-custom="1299-04-23">٢٣ ربيع الثانى ١٢٩٩</date>
                <date when="1882-03-13">١٣ مارث ١٨٨٢</date><bibl><biblScope unit="issue">نمرة
                      ١٣٥٦</biblScope>
                   <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
             <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="نظارة-الاشغال-العمومية" type="نظارة">نظارة الاشغال العمومية</orgName></head>
-            <p>ان مزاد عملية مكادام <placeName ref="شارع-مصر-القديمة" type="شارع">شارع مصر
+            <p>ان مزاد عملية مكادام <placeName xml:id="place-WA1299135603_01" ref="شارع-مصر-القديمة" type="شارع">شارع مصر
                   القديمة</placeName> الذى صار انعقاده بنظارة الاشغال العمومية فى يوم ٤ مارث سنة
                ١٨٨٢ بطريق المظروف أعطى النتيجة الآتية </p>
             <p>أربعة أشخاص تقدمت منهم مظاريف بعطاياهم بنقص فى كل مائة من مبلغ المقايسة البالغ قدرها
@@ -895,20 +893,20 @@
             <p> وعلى وجه ما ذكر قد اعتبر الديوان مرسى المزاد على <persName>الخواجه استماطى
                   فرخالى</persName> بناقص فى المائة احد عشر فرنك وربع.</p>
          </div>
-         <div resp="#eAK" xml:id="w218">
+         <div xml:id="WA1299135701" resp="#eAK">
             <head><date when-custom="1299-04-24">٢٤ ربيع الثانى ١٢٩٩</date>
                <date when="1882-03-14">١٤ مارث ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٥٧</biblScope>
                   <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
             <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="نظارة-الاشغال-العمومية" type="نظارة">نظارة الاشغال العمومية</orgName></head>
             <p>نظارة الاشغال العمومية تقبل عطاوات لغاية يوم <date when="1882-03-21">٣١ مارث سنة
-                  ١٨٨٢</date> بخصوص فك وازالة تكنة الستة صنادل التى غرقت فى فم <placeName ref="الترعة-الشرقاوية">الترعة الشرقاوية</placeName> القديم وقد جرى الآن تنظيفها من
+                  ١٨٨٢</date> بخصوص فك وازالة تكنة الستة صنادل التى غرقت فى فم <placeName xml:id="place-WA1299135701_01" ref="الترعة-الشرقاوية">الترعة الشرقاوية</placeName> القديم وقد جرى الآن تنظيفها من
                الاتربه وعلى السكرتارية العموميه اعطاء التصريح بمعاينة المحلات المذكورة بناء على
                الطلب الذى يتقدم لها عن هذا الخصوص.</p>
             <p>فى <date when="1882-03-12">١٢ مارث سنة ١٨٨٢</date>
             </p>
          </div>
-         <div resp="#eAK" xml:id="w219">
+         <div xml:id="WA1299135702" resp="#eAK">
             <head><date when-custom="1299-04-24">٢٤ ربيع الثانى ١٢٩٩</date>
                <date when="1882-03-14">١٤ مارث ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٥٧</biblScope>
@@ -984,7 +982,7 @@
                المحدد له ومن لا يحضر لغاية مضى أى ميعاد فلا يكلف الديوان بانتظاره ولاباخذ أقوال منه
                فيما بعد.</p>
          </div>
-         <div resp="#eAK" xml:id="w220">
+         <div xml:id="WA1299135703" resp="#eAK">
             <head><date when-custom="1299-04-24">٢٤ ربيع الثانى ١٢٩٩</date>
                <date when="1882-03-14">١٤ مارث ١٨٨٢</date>
                <bibl><biblScope unit="issue">نمرة ١٣٥٧</biblScope>
@@ -994,9 +992,9 @@
             <p>انه فى جلسة المزايدات التى سيجرى انعقادها بضبطية مصر فى يوم الاحد ١٤ جا سنة ٩٩
                الموافق ٢ شهر ابريل سنة ٨٢ الساعه ٤ عربى نهارا سيباع بطريق المناداه لمن يرسى عليه
                الـمزاد آخر عطا العقار الآتى وهو بناء منزل له بابين محدود بحدود أربع الحد الشرقى
-                  <placeName ref="شارع-المواردي" type="شارع">شارع المواردى</placeName> وفيه الواجه
-               وبابين والغربى بعضه لزقاق وباقيه لـ<placeName ref="منزل-الاسطا-ريحان" type="منزل">منزل <persName>الاسطا ريحان</persName></placeName> و<placeName ref="منزل-علي-السقا" type="منزل">منزل <persName>على السقا</persName></placeName>
-               والبحرى لـ<placeName ref="منزل-الحاج-علي-السايس" type="منزل">منزل <persName>الحاج على
+                  <placeName xml:id="place-WA1299135703_01" ref="شارع-المواردي" type="شارع">شارع المواردى</placeName> وفيه الواجه
+               وبابين والغربى بعضه لزقاق وباقيه لـ<placeName xml:id="place-WA1299135703_02" ref="منزل-الاسطا-ريحان" type="منزل">منزل <persName>الاسطا ريحان</persName></placeName> و<placeName xml:id="place-WA1299135703_03" ref="منزل-علي-السقا" type="منزل">منزل <persName>على السقا</persName></placeName>
+               والبحرى لـ<placeName xml:id="place-WA1299135703_04" ref="منزل-الحاج-علي-السايس" type="منزل">منزل <persName>الحاج على
                      السايس</persName></placeName> والقبلى لشارع المواردى أيضا به بير ماء معين
                ويشتمل على دور أرضى وجزء من الدور العلوى جميعه مبنى بالدبش على أرض الميرى الكائنة جهة
                المواردى والداعى لذلك البيع انه مطلوب من ورثة المرحومه <persName role="مالكة البنا">فاطمة الصامولية</persName> مالكة البنا المذكور مبلغا وقدره ١٠٥٣ قرشا و ٣٠ فضه
@@ -1014,7 +1012,7 @@
             <head>من <orgName ref="نظارة-الاشغال-العمومية" type="نظارة">نظارة الاشغال
                   العمومية</orgName></head>
             <p>قد كانت نظارة الاشغال العمومية عقدت شروطا اضافية مع <persName>موسيو بيرجى</persName>
-               تتعلق بعمارة <placeName ref="مدرسة الطب" type="مدرسة"><orgName ref="مدرسة-الطب" type="مدرسة">مدرسة الطب</orgName></placeName> فى ١٠ أغسطس سنة ٨١ ووقع فى تلك
+               تتعلق بعمارة <placeName xml:id="place-WA000001_01" ref="مدرسة الطب" type="مدرسة"><orgName ref="مدرسة-الطب" type="مدرسة">مدرسة الطب</orgName></placeName> فى ١٠ أغسطس سنة ٨١ ووقع فى تلك
                الشروط ما حمل النظارة المشار اليها على أن تؤلف لجنة من سعادة <persName>سلامه
                   باشا</persName> وسعادة <persName>اسماعيل باشا محمد</persName> وجناب
                   <persName>موسيو آراو</persName> و<persName>مومسيو ديرول</persName> تحت رئاسة سعادة
@@ -1075,7 +1073,7 @@
             <p>بالقاهرة فى ١٢ مارث سنة ١٨٨٢</p>
             <p>ناظر الاشغال العمومية</p>
             <p>(الامضا) (<persName>محمود فهمى</persName>)</p>
-            <div resp="#eAK" xml:id="w224">
+            <div xml:id="WA1299135801" resp="#eAK">
                <head><date when-custom="1299-04-25">٢٥ ربيع الثانى ١٢٩٩</date>
                   <date when="1882-03-15">١٥ مارث ١٨٨٢</date>
                   <bibl><biblScope unit="issue">نمرة ١٣٥٨</biblScope>
@@ -1182,7 +1180,7 @@
                   </row>
                </table>
             </div>
-            <div xml:id="ww345">
+            <div xml:id="WA1299135901">
                <head><date when-custom="1299-04-26">٢٦ ربيع الثانى ١٢٩٩</date>
                   <date when="1882-03-16">١٦ مارث ١٨٨٢</date><bibl><biblScope unit="issue">نمرة
                         ١٣٥٩</biblScope>
@@ -1190,13 +1188,13 @@
                <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="ضبطية-مصر" type="ضبطية">ضبطية مصر</orgName></head>
                <p>يكون معلوم لدى الجميع انه فى يوم الاحد القابل الموافق 29 ربيع الثانى سنة 99
                   الموافق 19 مارث سنة 1882 وفى أيام الجمع والاحد التالية سيباع جملة أصناف حديد
-                  وبللور ورخام وصفيح وخردوات وخلافه موجودين ب<placeName ref="مخزن المحافظة" type="مخزن "><orgName ref="مخزن المحافظة" type="مخزن">مخزن
-                     المحافظة</orgName></placeName> الكائن بجوار محل البوليس المجاور ل<placeName ref="جنينة التياترو الفرنساوى" type="جنينة">جنينة التياترو
+                  وبللور ورخام وصفيح وخردوات وخلافه موجودين ب<placeName xml:id="place-WA1299135901_01" ref="مخزن المحافظة" type="مخزن "><orgName ref="مخزن المحافظة" type="مخزن">مخزن
+                     المحافظة</orgName></placeName> الكائن بجوار محل البوليس المجاور ل<placeName xml:id="place-WA1299135901_02" ref="جنينة التياترو الفرنساوى" type="جنينة">جنينة التياترو
                      الفرنساوى</placeName> وسيكون المبيع بالمخزن المذكور الى من يرسى عليه العطا بشرط
                   دفع الثمن فورا بالعملة الصاغ الذهب وعلى المشترى أن يدفع علاوة على الثمن رسوم
                   الميرى والدلالة.</p>
             </div>
-            <div resp="#eAK" xml:id="w225">
+            <div xml:id="WA1299135902" resp="#eAK">
                <head><date when-custom="1299-04-26">٢٦ ربيع الثانى ١٢٩٩</date>
                   <date when="1882-03-16">١٦ مارث ١٨٨٢</date><bibl><biblScope unit="issue">نمرة
                         ١٣٥٩</biblScope>
@@ -1211,21 +1209,21 @@
                   بالشمع الاحمر كما سبق الاعلان ومن لا يحضر لغاية الميعاد المذكور فلا يكلف الديوان
                   بانتظاره ولا باخذ أقوال منه فيما بعد.</p>
             </div>
-            <div resp="#eAK" xml:id="w229">
+            <div xml:id="WA1299136501" resp="#eAK">
                <head><date when-custom="1299-05-04">٤ جمادى الاولى ١٢٩٩</date>
                   <date when="1882-03-23">٢٣ مارث ١٨٨٢</date>
                   <bibl><biblScope unit="issue">نمرة ١٣٦٥</biblScope>
                      <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
                <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="نظارة-الاشغال-العمومية" type="نظارة">نظارة الاشغال العمومية</orgName></head>
                <p>نظارة الاشغال العمومية ستطرح فى الـمزاد يوم السبت الموافق ٢٦ مارث سنة ٨٢ عملية
-                  أشغال ترميمات واستجدادات مقتضى اجراها فى محل <placeName ref="تياتروا-حديقة-الازبكية" type="تياتروا">تياتروا حديقة الازبكية</placeName>
+                  أشغال ترميمات واستجدادات مقتضى اجراها فى محل <placeName xml:id="place-WA1299136501_01" ref="تياتروا-حديقة-الازبكية" type="تياتروا">تياتروا حديقة الازبكية</placeName>
                   وان عطا المزاد يكون داخل مظاريف مغلوقة يجرى تقديمها فى <orgName ref="قلم هندسة نظارة الاشغال العمومية" type="قلم">قلم الهندسة
                      بالنظارة</orgName> المشار اليها فى يوم ٢٦ مارث سنة ٨٢ المار الذكر الساعة ٢
                   افرنكى بعد الزوال فالمقاولين الذين يرغبون المزايدة يمكنهم من الآن الاطلاع على
                   الرسومات وصك القيود الهندسية والمقايسة التتمينية والتعهد وشروط المزاد الموجودين
                   بقلم الهندسة المحكى عنه وذلك من الساعة ٢ الى أربعة ونصف افرنكى.</p>
             </div>
-            <div resp="#eAK" xml:id="w230">
+            <div xml:id="WA1299136601" resp="#eAK">
                <head><date when-custom="1299-05-06">٦ جمادى الاولى ١٢٩٩</date>
                   <date when="1882-03-25">٢٥ مارث ١٨٨٢</date>
                   <bibl><biblScope unit="issue">نمرة ١٣٦٦</biblScope>
@@ -1233,8 +1231,8 @@
                <head>اعلانات</head>
                <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="دائرة-حرم-البرنس-محمود-بك-حمدي" type="دائرة">دائرة حرم <persName>البرنس
                         محمود بك حمدى</persName></orgName></head>
-               <p><orgName ref="السرايا-الحمره" type="سرايا"><placeName ref="السرايا-الحمره" type="سرايا"><orgName ref="السراية الحمره" type="سراية">السراية
-                           الحمره</orgName></placeName></orgName> الكائنة بـ<placeName ref="منيل-الروضة">منيل الروضة</placeName> امام <placeName ref="فم-الخليج">فم
+               <p><orgName ref="السرايا-الحمره" type="سرايا"><placeName xml:id="place-WA1299136601_01" ref="السرايا-الحمره" type="سرايا"><orgName ref="السراية الحمره" type="سراية">السراية
+                           الحمره</orgName></placeName></orgName> الكائنة بـ<placeName xml:id="place-WA1299136601_02" ref="منيل-الروضة">منيل الروضة</placeName> امام <placeName xml:id="place-WA1299136601_03" ref="فم-الخليج">فم
                      الخليج</placeName> تعلق دولتلو <persName>زينب هانم أفندى</persName> مقتضى
                   مبيعها بما فيها من الجاين داخل وخارج الحرم وأرض المزارع والسواقى الغزاوى والبحارى
                   الموجودة بها داخل صورها ويتبع ذلك الاسطبل والعربخانه وغيره الموجوة امامها بجوار
@@ -1246,7 +1244,7 @@
                   لو حصل السماح من الدائرة بالبيع فالمشترى يكون ملزوما بدفع الثمن فورا مع ما يلزم من
                   المصاريف الرسمية والغير رسمية ولا يلزم الدائرة شئ مطلقا يكون معلوم.</p>
             </div>
-            <div resp="#eAK" xml:id="w231">
+            <div xml:id="WA1299136701" resp="#eAK">
                <head><date when-custom="1299-05-07">٧ جمادى الاولى ١٢٩٩</date>
                   <date when="1882-03-26">٢٦ مارث ١٨٨٢</date>
                   <bibl><biblScope unit="issue">نمرة ١٣٦٧</biblScope>
@@ -1257,9 +1255,9 @@
                <p>انه فى جلسة المزايدات التى يجرى انعقادها ب<orgName ref="ديوان ضبطية مصر" type="ديوان">ديوان ضبطية مصر</orgName> فى يوم الخميس ٢٥ جماد أول سنة ٩٩ الواقع
                   فى ١٣ ابريل سنة ١٨٨٢ الساعة ٥ عربى سيباع بطريق المناداه لمن يرسى عليه آخر عطا
                   العقار الآتى وهو</p>
-               <p>حصة قدرها أربعة عشر قيراطا من منزل بـ<placeName ref="حارة-العلوه" type="حارة">حارة
-                     العلوه</placeName> بـ<placeName ref="درب-الشيخ-فراج" type="درب">درب الشيخ
-                     فراج</placeName> بـ<placeName ref="بولاق">بولاق</placeName> محدود بحدود أربع
+               <p>حصة قدرها أربعة عشر قيراطا من منزل بـ<placeName xml:id="place-WA1299136701_01" ref="حارة-العلوه" type="حارة">حارة
+                     العلوه</placeName> بـ<placeName xml:id="place-WA1299136701_02" ref="درب-الشيخ-فراج" type="درب">درب الشيخ
+                     فراج</placeName> بـ<placeName xml:id="place-WA1299136701_03" ref="بولاق">بولاق</placeName> محدود بحدود أربع
                   بما فيه الركوب الذى على منزل ورثة <persName>الشيخ حسن خليل</persName> الحد الغربى
                   بعضه ينتهى للحارة وفيه الباب وباقية لمنزل ورثة <persName>حسن الشامه</persName>
                   والحد البحرى ينتهى لمنزل الورثة المذكورة والحد الشرقى ينتهى لمنزل <persName>الحاج
@@ -1267,14 +1265,14 @@
                      خليل</persName>
                </p>
                <p>حصة قدرها أربعة قراريط من منزل بالحارة المذكورة قبله وحدوده الحد القبلى ينتهى لدرب
-                  الشيخ فراج وأسفله دكان والحد الغربى ينتهى لـ<placeName ref="عطفة-سدود" type="عطفة">عطفة سدود</placeName> والحد البحرى ينتهى لخربة <persName role="نحات">على عبده
-                     النحات</persName> والشرقى ينتهى لـ<placeName ref="عطفة-العلوه" type="عطفة">عطفة
+                  الشيخ فراج وأسفله دكان والحد الغربى ينتهى لـ<placeName xml:id="place-WA1299136701_04" ref="عطفة-سدود" type="عطفة">عطفة سدود</placeName> والحد البحرى ينتهى لخربة <persName role="نحات">على عبده
+                     النحات</persName> والشرقى ينتهى لـ<placeName xml:id="place-WA1299136701_05" ref="عطفة-العلوه" type="عطفة">عطفة
                      العلوه</placeName> وبأعلا العطفة المذكورة سباط ويمتلك الحصتين المذكورتين
                      <persName role="نجار">حسن العشى النجار</persName>
                </p>
                <p>والداعى لذلك البيع انه مطلوب من <persName>حسن العشى النجار</persName> المذكور
                   مبلغا وقدره ٨١٦٢ قرشا صاغا و ٧ فضه الى <persName role="خشاب بـبولاق">حسن يوسف
-                     الخشاب بـ<placeName ref="بولاق">بولاق</placeName></persName> الباقى من مبلغ
+                     الخشاب بـ<placeName xml:id="place-WA1299136701_06" ref="بولاق">بولاق</placeName></persName> الباقى من مبلغ
                   ٩٥٦٢ قرشا و ٧ فضه المحكوم به عليه بمقتضى المضبطة الصادرة من <orgName ref="مجلس-ابتدائي-مصر" type="مجلس">مجلس ابتدائى مصر</orgName> بهيئة تجارية
                   رقيمة ١٤ الحجه سنة ٩٧ نمرة ٨٢ وتلت الحجز على الحصتين المحكى عنهما وقد صار حجزهما
                   بموجب محضر رقم غرة محرم سنة ٩٩ عن يد <persName role="مندوب الضبطية">صالح أفندى
@@ -1309,7 +1307,7 @@
                   وفى الحصة التى قدرها ٤ قراريط مبلغ ١٠٠٠ قرش باعتبار ثمن القيراط الواحد ٢٥٠ قرشا
                   حسب تقدير أهل الخبرة.</p>
             </div>
-            <div resp="#eAK" xml:id="w233">
+            <div xml:id="WA1299136801" resp="#eAK">
                <head><date when-custom="1299-05-08">٨ جمادى الاولى ١٢٩٩</date>
                   <date when="1882-03-27">٢٧ مارث ١٨٨٢</date>
                   <bibl><biblScope unit="issue">نمرة ١٣٦٨</biblScope>
@@ -1324,7 +1322,7 @@
                      المشتروات</orgName> وبباقى ما توضح فى الاعلان السابق ولاجل المعلومية بذلك اقتضى
                   اعادة الاعلان </p>
             </div>
-            <div resp="#eAK" xml:id="w234">
+            <div xml:id="WA1299136802" resp="#eAK">
                <head><date when-custom="1299-05-08">٨ جمادى الاولى ١٢٩٩</date>
                   <date when="1882-03-27">٢٧ مارث ١٨٨٢</date>
                   <bibl><biblScope unit="issue">نمرة ١٣٦٨</biblScope>
@@ -1367,14 +1365,14 @@
                   وأخذ بيانها وتقديم عطاه فى الميعاد المحدد له بالكيفية التى ذكرت ومن لا يحضر لغاية
                   مضى أى ميعاد فلا يكلف الديوان بنتظاره ولا باخذ أقوال منه فيما بعد.</p>
             </div>
-            <div resp="#eAK" xml:id="w235">
+            <div xml:id="WA1299136803" resp="#eAK">
                <head><date when-custom="1299-05-08">٨ جمادى الاولى ١٢٩٩</date>
                   <date when="1882-03-27">٢٧ مارث ١٨٨٢</date><bibl><biblScope unit="issue">نمرة
                         ١٣٦٨</biblScope>
                      <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
                <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="نظارة الاوقاف العمومية" type="نظارة">نظارة الاوقاف العمومية</orgName></head>
-               <p>موجود بـ<placeName ref="حارة-عبدالحليم" type="حارة">حارة عبد الحليم</placeName>
-                     بـ<placeName ref="ربع-الجواير" type="ربع">ربع الجواير</placeName> بـ<placeName ref="بولاق">بولاق</placeName> قطعة أرض خربه سماوى بها أتربه وجانب طوب يسير
+               <p>موجود بـ<placeName xml:id="place-WA1299136803_01" ref="حارة-عبدالحليم" type="حارة">حارة عبد الحليم</placeName>
+                     بـ<placeName xml:id="place-WA1299136803_02" ref="ربع-الجواير" type="ربع">ربع الجواير</placeName> بـ<placeName xml:id="place-WA1299136803_03" ref="بولاق">بولاق</placeName> قطعة أرض خربه سماوى بها أتربه وجانب طوب يسير
                   جارية فى <orgName ref="وقف سيدى عبد العزيز المغربى" type="وقف">وقف <persName>سيدى
                         عبد العزيز المغربى</persName></orgName> يبلغ مسطحها ٣١,٥٠ متر عبارة عن ستة
                   وخمسين ذراعا مقتضى استبدالها وتحدد لنهو ذلك ميعاد واحد وثلاثين يوما تمضى من تاريخه
@@ -1385,7 +1383,7 @@
                   تاريخه تحرر لمامور أوقاف بولاق ولـ<orgName ref="ضبطية-مصر">ضبطية مصر</orgName> بما
                   لزم عن ذلك فى ٤ جا سنة ٩٩.</p>
             </div>
-            <div resp="#eAK" xml:id="w237">
+            <div xml:id="WA1299137201" resp="#eAK">
                <head><date when-custom="1299-05-13">١٣ جمادى الاولى ١٢٩٩</date>
                   <date when="1882-04-01">١ ابريل ١٨٨٢</date>
                   <bibl><biblScope unit="issue">نمرة ١٣٧٢</biblScope>
@@ -1506,7 +1504,7 @@
                      <cell/>
                      <cell/>
                      <cell/>
-                     <cell>(١٣) <orgName ref="السكك-الحديد">السكك الحديد</orgName> و<orgName ref="التلغرافات">التلغرافات</orgName> و<orgName ref="مينا-اسكندرية"><placeName ref="مينا-اسكندرية" type="مينا">مينا
+                     <cell>(١٣) <orgName ref="السكك-الحديد">السكك الحديد</orgName> و<orgName ref="التلغرافات">التلغرافات</orgName> و<orgName ref="مينا-اسكندرية"><placeName xml:id="place-WA1299137201_01" ref="مينا-اسكندرية" type="مينا">مينا
                            اسكندرية</placeName></orgName></cell>
                   </row>
                   <row>
@@ -1525,7 +1523,7 @@
                      <cell>٠٠٠٥٤٦٦</cell>
                      <cell>٠٠٠٨٢٦١</cell>
                      <cell>٠١٤٨٢</cell>
-                     <cell><orgName ref="سكة-حديد-حلوان">سكة حديد <placeName ref="حلوان">حلوان</placeName></orgName></cell>
+                     <cell><orgName ref="سكة-حديد-حلوان">سكة حديد <placeName xml:id="place-WA1299137201_02" ref="حلوان">حلوان</placeName></orgName></cell>
                   </row>
                   <row>
                      <cell>٠٠٦٠١٦٤</cell>
@@ -1581,7 +1579,7 @@
                   </row>
                </table>
             </div>
-            <div resp="#eAK" xml:id="w238">
+            <div xml:id="WA1299137202" resp="#eAK">
                <head><date when-custom="1299-05-13">١٣ جمادى الاولى ١٢٩٩</date>
                   <date when="1882-04-01">١ ابريل ١٨٨٢</date>
                   <bibl><biblScope unit="issue">نمرة ١٣٧٢</biblScope>
@@ -1722,7 +1720,7 @@
                      <cell/>
                      <cell/>
                      <cell/>
-                     <cell>(١٣) <orgName ref="السكك-الحديد">السكك الحديد</orgName> و<orgName ref="التلغرافات">التلغرافات</orgName> و<orgName ref="مينا-اسكندرية"><placeName ref="مينا-اسكندرية" type="مينا">مينا
+                     <cell>(١٣) <orgName ref="السكك-الحديد">السكك الحديد</orgName> و<orgName ref="التلغرافات">التلغرافات</orgName> و<orgName ref="مينا-اسكندرية"><placeName xml:id="place-WA1299137202_01" ref="مينا-اسكندرية" type="مينا">مينا
                            اسكندرية</placeName></orgName></cell>
                   </row>
                   <row>
@@ -1744,7 +1742,7 @@
                      <cell>٠٠٠٠٣١</cell>
                      <cell>٠٠٠٨٢٦١</cell>
                      <cell>٠٠٠٨٢٣٠</cell>
-                     <cell><orgName ref="سكة-حديد-حلوان">سكة حديد <placeName ref="حلوان">حلوان</placeName></orgName></cell>
+                     <cell><orgName ref="سكة-حديد-حلوان">سكة حديد <placeName xml:id="place-WA1299137202_02" ref="حلوان">حلوان</placeName></orgName></cell>
                   </row>
                   <row>
                      <cell>٠٠٠٠٠٠</cell>
@@ -1808,7 +1806,7 @@
                <p>مدير <orgName ref="عموم الحسابات">عموم الحسابات</orgName></p>
                <p>جرالد فيتش جرالد </p>
             </div>
-            <div resp="#eAK" xml:id="w239">
+            <div xml:id="WA1299137203" resp="#eAK">
                <head><date when-custom="1299-05-13">١٣ جمادى الاولى ١٢٩٩</date>
                   <date when="1882-04-01">١ ابريل ١٨٨٢</date>
                   <bibl><biblScope unit="issue">نمرة ١٣٧٢</biblScope>
@@ -1886,7 +1884,7 @@
                            <p>٠٠٠٠٠</p>
                         </cell>
                         <cell>
-                           <p>(٥) <orgName ref="السكك-الحديد">السكك الحديد</orgName> و<orgName ref="التلغراف">التلغراف</orgName> و<orgName ref="مينا-اسكندرية"><placeName ref="مينا-اسكندرية" type="مينا">مينا
+                           <p>(٥) <orgName ref="السكك-الحديد">السكك الحديد</orgName> و<orgName ref="التلغراف">التلغراف</orgName> و<orgName ref="مينا-اسكندرية"><placeName xml:id="place-WA1299137203_01" ref="مينا-اسكندرية" type="مينا">مينا
                                     اسكندرية</placeName></orgName></p>
                            <p>السكك الحديد</p>
                            <p>مينا سكندرية</p>
@@ -1921,7 +1919,7 @@
                   </table>
                </div>
             </div>
-            <div resp="#eAK" xml:id="w240">
+            <div xml:id="WA1299137401" resp="#eAK">
                <head><date when-custom="1299-05-15">١٥ جمادى الاولى ١٢٩٩</date>
                   <date when="1882-04-03">٣ ابريل ١٨٨٢</date><bibl><biblScope unit="issue">نمرة
                         ١٣٧٤</biblScope>
@@ -1950,7 +1948,7 @@
                      الاستثناء مما هو مقرر فى لائحة المحاكم الشرعية بشان تحرير الحجج</p>
                </div>
             </div>
-            <div resp="#eAK" xml:id="w242">
+            <div xml:id="WA1299137502" resp="#eAK">
                <head><date when-custom="1299-05-16">١٦ جمادى الاولى ١٢٩٩</date>
                   <date when="1882-04-04">٤ ابريل ١٨٨٢</date>
                   <bibl><biblScope unit="issue">نمرة ١٣٧٥</biblScope>
@@ -1972,14 +1970,14 @@
                   </p>
                </div>
             </div>
-            <div resp="#eAK" xml:id="w243">
+            <div xml:id="WA1299137503" resp="#eAK">
                <head><date when-custom="1299-05-16">١٦ جمادى الاولى ١٢٩٩</date>
                   <date when="1882-04-04">٤ ابريل ١٨٨٢</date><bibl><biblScope unit="issue">نمرة
                         ١٣٧٥</biblScope>
                      <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
                <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="نظارة-الاشغال-العمومية" type="نظارة">نظارة الاشغال العمومية</orgName></head>
                <p>ان مزاد عملية توسيع <orgName ref="تياترو-حديقة-الازبكية" type="تياترو">تياترو
-                        <placeName ref="حديقة الازبكية" type="حديقة">حديقة <placeName ref="الازبكية">الازبكية</placeName></placeName></orgName> الذى جرى اشهاره فى <orgName ref="قلم الهندسة بنظارة الاشغال العمومية" type="قلم">قلم الهندسة بنظارة الاشغال
+                        <placeName xml:id="place-WA1299137503_01" ref="حديقة الازبكية" type="حديقة">حديقة <placeName xml:id="place-WA1299137503_02" ref="الازبكية">الازبكية</placeName></placeName></orgName> الذى جرى اشهاره فى <orgName ref="قلم الهندسة بنظارة الاشغال العمومية" type="قلم">قلم الهندسة بنظارة الاشغال
                      العمومية</orgName> فى يوم ٢٨ مارث سنة ١٨٨٢ قد أعطى النتيجة الآتية</p>
                <p>تسعة مزايدين تقدموا وكان عطاهم تنقيصا من فيات أثمان المقايسة التتمينية ما هو </p>
                <p>أولا <persName>روفاييل باجانوشى</persName> بنقص ثلاثة عشر وربع فى كل مائة </p>
@@ -1996,7 +1994,7 @@
                   عشرين وربع فى المائة </p>
                <p>تحرر بالمحروسة فى ٢٩ مارث سنة ٨٢.</p>
             </div>
-            <div resp="#eAK" xml:id="w245">
+            <div xml:id="WA1298137701" resp="#eAK">
                <head><date when-custom="1298-05-18">١٨ جمادى الاولى ١٢٩٨</date>
                   <date when="1882-04-06">٦ ابريل ١٨٨٢</date>
                   <bibl><biblScope unit="issue">نمرة ١٣٧٧</biblScope>
@@ -2005,7 +2003,7 @@
                   المنعقدة فى غرة فبراير سنة ٨٢ ان هذه القومبانية يزداد تقدمها فى كل عام فتقل
                   مصاريفها وينمو ربحها كلما تقدم زمنها وهذا من دلائل النجاح وعلامات الضبط ورعاية
                   المصلحة فى الاعمال ويتضح هذا من الموازنة بين سنة ٨٠ و ٨١ فى مقادير ما رفعته
-                  طولمبتها من المياه التى صرفت فى مدينتى المحروسة و<placeName ref="حلوان">حلوان</placeName> ومقادير أثمان هذه المياه ومقادير المصاريف والارباح الصافية
+                  طولمبتها من المياه التى صرفت فى مدينتى المحروسة و<placeName xml:id="place-WA1298137701_01" ref="حلوان">حلوان</placeName> ومقادير أثمان هذه المياه ومقادير المصاريف والارباح الصافية
                   وهذا بيانها </p>
                <p>رفعت الطلومبات فى سنة ٨٠ من المياه لمدينتى المحروسة وحلوان ٦٢٠٧٠٠٠ متر مكعب وفى
                   سنة ٨١ ٧٠٣٣٠٠٠ ألف متر مكعب فتكون الزيادة لسنة ٨١ عن سنة ٨٠ ٨٢٦٠٠٠ متر مكعب وبيعت
@@ -2025,7 +2023,7 @@
                   ولا زيادة مصاريف ومن اليقين ان غالب طالبى المياه من القومبانية من الوطنيين ويظهر
                   من ذلك كله ان هذه القومبانية آخذة فى التقدم والنجاح عاما عن عام.</p>
             </div>
-            <div resp="#eAK" xml:id="w246">
+            <div xml:id="WA1299137801" resp="#eAK">
                <head><date when-custom="1299-05-20">٢٠ جمادى الاولى ١٢٩٩</date>
                   <date when="1882-04-08">٨ ابريل ١٨٨٢</date>
                   <bibl><biblScope unit="issue">نمرة ١٣٧٨</biblScope>
@@ -2038,7 +2036,7 @@
                   لاطلاعه على الشروط وبيان اللازم وجهات لزومه واعطا عطاه فى قوائم المزاد ومن لا يحضر
                   لغاية الميعاد المحدد فلا يكلف الديوان بانتظاره ولا بأخذ أقوال منه فيما بعد.</p>
             </div>
-            <div resp="#eAK" xml:id="w249">
+            <div xml:id="WA1299000001" resp="#eAK">
                <head><date when-custom="1299-06-24">٢٤ جمادى الاولى ١٢٩٩</date>
                   <date when="1882-04-12">١٢ ابريل ١٨٨٢</date>
                   <bibl><biblScope unit="page">نمرة ١٣٨١</biblScope>
@@ -2054,14 +2052,14 @@
                   ذلك لعموم الجهات بتوقيع الحجر عليهما وعدم اعتماد الاخذ والعطاء منهما بدون واسطة
                   سعادة القيم المشار اليه فبناء عليه قد تحرر لمن لزم اعلانا بذلك.</p>
             </div>
-            <div resp="#eAK" xml:id="w250">
+            <div xml:id="WA1299138701" resp="#eAK">
                <head><date when-custom="1299-06-01">غرة جمادى الثانى ١٢٩٩</date>
                   <date when="1882-04-19">١٩ ابريل ١٨٨٢</date>
                   <bibl><biblScope unit="issue">نمرة ١٣٨٧</biblScope>
                      <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
                <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="نظارة-الاشغال-العمومية" type="نظارة">نظارة الاشغال العمومية</orgName></head>
                <p>نظارة الاشغال العمومية ستطرح فى الـمزاد يوم الاحد الواقع فى ٣٠ ابريل سنة ١٨٨٢
-                  عملية الردم المقتضى اجراء فى جنينة <orgName ref="سراي نظارة الاشغال العمومية" type="سراي"><placeName ref="سراي نظارة الاشغال العمومية" type="سراي">سراى
+                  عملية الردم المقتضى اجراء فى جنينة <orgName ref="سراي نظارة الاشغال العمومية" type="سراي"><placeName xml:id="place-WA1299138701_01" ref="سراي نظارة الاشغال العمومية" type="سراي">سراى
                         النظاره</placeName></orgName> المحكى عنها وان عطا المزاد يكون داخل مظاريف
                   مغلوقة يجرى تقديمها فى <orgName ref="قلم هندسة نظارة الاشغال العمومية" type="قلم">قلم الهندسة التابع للنظارة</orgName> المشار اليها فى يوم ٣٠ ابريل سنة ٨٢ المار
                   الذكر الساعة ثلاثة افرنكى بعد الزوال فالاشخاص الذين يرغبون المزايدة يمكنهم من الآن
@@ -2069,14 +2067,14 @@
                   الموجودة فى قلم الهندسة وذلك من الساعة اثنين الى الساعة أربعة ونصف افرنكى من كل
                   يوم.</p>
             </div>
-            <div resp="#eAK" xml:id="w251">
+            <div xml:id="WA1299138702" resp="#eAK">
                <head><date when-custom="1299-06-01">غرة جمادى الثانى ١٢٩٩</date>
                   <date when="1882-04-19">١٩ ابريل ١٨٨٢</date>
                   <bibl><biblScope unit="issue">نمرة ١٣٨٧</biblScope>
                      <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
                <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="نظارة-الاشغال-العمومية" type="نظارة">نظارة الاشغال العمومية</orgName></head>
                <p><orgName ref="ديوان-الاشغال-العمومية" type="ديوان">ديوان الاشغال
-                     العمومية</orgName> يشهر فى الـمزاد استئجار <placeName ref="محل لعب الكوره بـجنينة الازبكية">محل لعب الكوره بـ<placeName ref="جنينة-الازبكية" type="جنينه">جنينة <placeName ref="الازبكية">الازبكية</placeName></placeName></placeName> مدة سنتين ابتداءهما ١٢
+                     العمومية</orgName> يشهر فى الـمزاد استئجار <placeName xml:id="place-WA1299138702_01" ref="محل لعب الكوره بـجنينة الازبكية">محل لعب الكوره بـ<placeName xml:id="place-WA1299138702_02" ref="جنينة-الازبكية" type="جنينه">جنينة <placeName xml:id="place-WA1299138702_03" ref="الازبكية">الازبكية</placeName></placeName></placeName> مدة سنتين ابتداءهما ١٢
                   يونية سنة ٨٢ وغايتهما ١١ يونيه سنة ٨٤ على مقتضى شروط ايجاره موجودة بـ<orgName ref="قلم مشتروات ديوان الاشغال العمومية" type="قلم">قلم مشتروات
                      الديوان</orgName> وقبول العطا عن ذلك يكون داخل مظاريف مختومة بالشمع الاحمر يصير
                   فتحها بحضور أربابها فى الساعة ثلاثة افرنكى بعد الظهر من يوم الاثنين ١٥ مايو سنة ٨٢
@@ -2085,14 +2083,14 @@
                   للاطلاع على الشروط المذكورة ومن لا يحضر لغايه مضى الميعاد فلا يكلف الديوان
                   بانتظاره ولا باخذ أقوال منه فيما بعد.</p>
             </div>
-            <div resp="#eAK" xml:id="w253">
+            <div xml:id="WA1299138703" resp="#eAK">
                <head><date when-custom="1299-06-01">غرة جمادى الثانى ١٢٩٩</date>
                   <date when="1882-04-19">١٩ ابريل ١٨٨٢</date>
                   <bibl><biblScope unit="issue">نمرة ١٣٨٧</biblScope>
                      <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
                <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="نظارة-الاشغال-العمومية" type="نظارة">نظارة الاشغال العمومية</orgName></head>
                <p><orgName ref="ديوان-الاشغال-العمومية" type="ديوان">ديوان الاشغال
-                     العمومية</orgName> يشهر فى ال<rs type="مزاد">مزاد</rs> استئجار <placeName ref="محل لعب الكوره بـجنينة الازبكية">محل لعب الكوره بـ<placeName ref="جنينة-الازبكية" type="جنينه">جنينة <placeName ref="الازبكية">الازبكية</placeName></placeName></placeName> مدة سنتين ابتداءهما <date when="1882-06-12">١٢ يونية سنة ٨٢</date> وغايتهما <date when="1284-06-11">١١
+                     العمومية</orgName> يشهر فى ال<rs type="مزاد">مزاد</rs> استئجار <placeName xml:id="place-WA1299138703_01" ref="محل لعب الكوره بـجنينة الازبكية">محل لعب الكوره بـ<placeName xml:id="place-WA1299138703_02" ref="جنينة-الازبكية" type="جنينه">جنينة <placeName xml:id="place-WA1299138703_03" ref="الازبكية">الازبكية</placeName></placeName></placeName> مدة سنتين ابتداءهما <date when="1882-06-12">١٢ يونية سنة ٨٢</date> وغايتهما <date when="1284-06-11">١١
                      يونيه سنة ٨٤</date>على مقتضى شروط ايجاره موجودة بـ<orgName ref="قلم مشتروات ديوان الاشغال العمومية" type="قلم">قلم مشتروات
                      الديوان</orgName> وقبول العطا عن ذلك يكون داخل مظاريف مختومة بالشمع الاحمر يصير
                   فتحها بحضور أربابها فى الساعة ثلاثة افرنكى بعد الظهر من يوم <date when="1882-05-15">الاثنين ١٥ مايو سنة ٨٢</date> الموافق <date when-custom="1299-06-27">٢٧ جماد آخر سنة ٩٩</date> فكل من يرغب استئجار ذلك
@@ -2101,7 +2099,7 @@
                   الشروط المذكورة ومن لا يحضر لغايه مضى الميعاد فلا يكلف الديوان بانتظاره ولا باخذ
                   أقوال منه فيما بعد </p>
             </div>
-            <div resp="#eAK" xml:id="w252">
+            <div xml:id="WA1299138801" resp="#eAK">
                <head><date when-custom="1299-06-02">٢ جمادى الثانى ١٢٩٩</date>
                   <date when="1882-04-20">٢٠ ابريل ١٨٨٢</date>
                   <bibl><biblScope unit="issue">نمرة ١٣٨٨</biblScope>
@@ -2120,12 +2118,12 @@
                   </row>
                   <row>
                      <cell>١</cell>
-                     <cell>انشاء مطبخ ومغسل داخل <orgName ref="اسبتالية-المجاذيب-بالعباسية" type="اسبتالية"><placeName ref="اسبتالية المجاذيب بالعباسية" type="اسبتالية">اسبتالية المجاذيب ب<orgName ref="العباسية">العباسية</orgName></placeName></orgName> مزادها فى يوم الاثنين أول
+                     <cell>انشاء مطبخ ومغسل داخل <orgName ref="اسبتالية-المجاذيب-بالعباسية" type="اسبتالية"><placeName xml:id="place-WA1299138801_01" ref="اسبتالية المجاذيب بالعباسية" type="اسبتالية">اسبتالية المجاذيب ب<orgName ref="العباسية">العباسية</orgName></placeName></orgName> مزادها فى يوم الاثنين أول
                         مايو سنة ٨٢</cell>
                   </row>
                   <row>
                      <cell>١</cell>
-                     <cell>عملية ترميمات بمحلات الاجزخانه والمراحيض بــ<orgName ref="القصر-العيني" type="قصر"><placeName ref="القصر-العيني" type="قصر">القصر
+                     <cell>عملية ترميمات بمحلات الاجزخانه والمراحيض بــ<orgName ref="القصر-العيني" type="قصر"><placeName xml:id="place-WA1299138801_02" ref="القصر-العيني" type="قصر">القصر
                               العينى</placeName></orgName> مزادها فى يوم الثلاثاء ٢ مايو سنة
                         ٨٢</cell>
                   </row>
@@ -2135,15 +2133,15 @@
                   </row>
                </table>
             </div>
-            <div resp="#eAK" xml:id="w254">
+            <div xml:id="WA1299139001" resp="#eAK">
                <head><date when-custom="1299-06-05">٥ جمادى الثانى ١٢٩٩</date>
                   <date when="1882-04-23">٢٣ ابريل ١٨٨٢</date>
                   <bibl><biblScope unit="issue">نمرة ١٣٩٠</biblScope>
                      <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
                <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="ديوان-الاوقاف" type="ديوان">ديوان الاوقاف</orgName> بتاريخ <date when-custom="1299-06-04">٤ ج
                      سنة ٩٩</date></head>
-               <p>موجود قطعة أرض خربه بـ<placeName ref="شارع-درب-سعادة" type="شارع">شارع درب
-                     سعادة</placeName> بـ<placeName ref="قنطرة-الامير-حسين" type="قنطرة">قنطرة
+               <p>موجود قطعة أرض خربه بـ<placeName xml:id="place-WA1299139001_01" ref="شارع-درب-سعادة" type="شارع">شارع درب
+                     سعادة</placeName> بـ<placeName xml:id="place-WA1299139001_02" ref="قنطرة-الامير-حسين" type="قنطرة">قنطرة
                      الامير حسين</placeName> يبلغ مسطحها ٩٣,٣٤ متر <orgName ref="وقف الست سريه بنت بدوى" type="وقف">وقف الست <persName>سريه بنت
                         بدوى</persName></orgName> نظارة حضرة <persName role="ناظر وقف">اسماعيل بك
                      عزمى</persName> مقتضى خروجها من الوقف المذكور بطريق الاستبدال النقدى وحضرة
@@ -2154,7 +2152,7 @@
                   الاعلانات التى تحررت عن ذلك على القره قولات والاتمان ليكون فى علم الجميع حتى كل من
                   كان يرغب المشترى يتوجه لذلك القسم لاعطا المزاد.</p>
             </div>
-            <div resp="#eAK" xml:id="w255">
+            <div xml:id="WA1299139201" resp="#eAK">
                <head><date when-custom="1299-06-07">٧ جمادى الثانى ١٢٩٩</date>
                   <date when="1882-04-25">٢٥ ابريل ١٨٨٢</date><bibl><biblScope unit="issue">نمرة
                         ١٣٩٢</biblScope>
@@ -2199,7 +2197,7 @@
                   طلبها من المديون وثبت عسره فلا بأس من تأجيل دفع اجرة الاعلان لحين أن يباع الملك
                   وعند ذلك تتحصل الاجرة من دون قبول أعذار وترسل نقودا لادارة المطبوعات.</p>
             </div>
-            <div resp="#eAK" xml:id="w256">
+            <div xml:id="WA1299139202" resp="#eAK">
                <head><date when-custom="1299-06-07">٧ جمادى الثانى ١٢٩٩</date>
                   <date when="1882-04-25">٢٥ ابريل ١٨٨٢</date>
                   <bibl><biblScope unit="issue">نمرة ١٣٩٢</biblScope>
@@ -2232,7 +2230,7 @@
                   لا يحضر لغاية المواعيد المحددة فلا يكلف الديوان بانتظاره ولا بأخذ أقوال منه فيما
                   بعد.</p>
             </div>
-            <div resp="#eAK" xml:id="w258">
+            <div xml:id="WA1299139301" resp="#eAK">
                <head><date when-custom="1299-06-08">٨ جمادى الثانى ١٢٩٩</date>
                   <date when="1882-04-26">٢٦ ابريل ١٨٨٢</date>
                   <bibl><biblScope unit="issue">نمرة ١٣٩٣</biblScope>
@@ -2247,8 +2245,8 @@
                   <row>
                      <cell>١</cell>
                      <cell>
-                        <p>نصف <placeName ref="منزل نفوسه بنت حنفي" type="منزل">منزل</placeName>
-                           كائن <placeName ref="غيط-العدة">غيط العدة</placeName> بـ<orgName ref="ثمن-عابدين" type="ثمن"><placeName ref="ثمن-عابدين" type="ثمن">تمن
+                        <p>نصف <placeName xml:id="place-WA1299139301_01" ref="منزل نفوسه بنت حنفي" type="منزل">منزل</placeName>
+                           كائن <placeName xml:id="place-WA1299139301_02" ref="غيط-العدة">غيط العدة</placeName> بـ<orgName ref="ثمن-عابدين" type="ثمن"><placeName xml:id="place-WA1299139301_03" ref="ثمن-عابدين" type="ثمن">تمن
                                  عابدين</placeName></orgName> يبلغ مقاسه أذرع ٥٨ و ١٤٥ مخلف عن
                               <persName>نفوسه بنت حنفى</persName> المتوفية لا يعلم لها ورثة والنصف
                            منزل المذكور رسى مزاده على <persName role="مالك">الشيخ على
@@ -2259,9 +2257,9 @@
                   <row>
                      <cell>١</cell>
                      <cell>
-                        <p><placeName ref="منزل محمد أفندي درويش" type="منزل">منزل</placeName> كائن
-                              بـ<placeName ref="درب-البير" type="درب">درب البير</placeName>
-                              بـ<placeName ref="ثمن-الخليفة" type="ثمن"><orgName ref="ثمن-الخليفة" type="ثمن">تمن الخليفه</orgName></placeName> يبلغ ٨٤ و ٨٣ أذرع منه
+                        <p><placeName xml:id="place-WA1299139301_04" ref="منزل محمد أفندي درويش" type="منزل">منزل</placeName> كائن
+                              بـ<placeName xml:id="place-WA1299139301_05" ref="درب-البير" type="درب">درب البير</placeName>
+                              بـ<placeName xml:id="place-WA1299139301_06" ref="ثمن-الخليفة" type="ثمن"><orgName ref="ثمن-الخليفة" type="ثمن">تمن الخليفه</orgName></placeName> يبلغ ٨٤ و ٨٣ أذرع منه
                            حصة أربعة قراريط ونصف مخلفة عن المرحوم <persName>محمد أفندى
                               درويش</persName> حق أخيه الغايب الذى لا يعلم محله ولتطلب الشريكة فى
                            المنزل المذكور مبيع حصتها مع بيت المال قد صار اشهار مزاد المنزل كاملا
@@ -2272,7 +2270,7 @@
                   </row>
                   <row>
                      <cell>١</cell>
-                     <cell>حصة ثلاثة قراريط من <placeName ref="منزل الحاجة زنوبة المهدية" type="منزل">منزل</placeName> كائن بـ<placeName ref="درب-مسعود" type="درب">درب مسعود</placeName> بـ<placeName ref="بولاق">بولاق</placeName> يبلغ
+                     <cell>حصة ثلاثة قراريط من <placeName xml:id="place-WA1299139301_07" ref="منزل الحاجة زنوبة المهدية" type="منزل">منزل</placeName> كائن بـ<placeName xml:id="place-WA1299139301_08" ref="درب-مسعود" type="درب">درب مسعود</placeName> بـ<placeName xml:id="place-WA1299139301_09" ref="بولاق">بولاق</placeName> يبلغ
                         مقاسه أذرع ١٣٥٧ راسى مزادها على <persName>محمد أفندى كامل</persName>
                         بالتوكيل عن ولده <persName>سليمان مراد</persName> القاصر بمبلغ ٤٢٠٠ قرش
                         والمصاريف عليه وهذه الحصة مخلفة عن المرحومه <persName>الحاجة زنوبه
@@ -2280,15 +2278,15 @@
                   </row>
                   <row>
                      <cell>١</cell>
-                     <cell>خربة كائنة بـ<placeName ref="الناصرية">الناصرية</placeName> بـ<placeName ref="درب-البندق" type="درب">درب البندق</placeName> بـ<placeName ref="عطفة-الصعايدة" type="عطفة">عطفة الصعايدة</placeName> بـ<placeName ref="ثمن-السيدة-زينب" type="ثمن"><orgName ref="ثمن-السيدة-زينب" type="ثمن">تمن السيدة زينب</orgName></placeName> من الاموال الضايعة
+                     <cell>خربة كائنة بـ<placeName xml:id="place-WA1299139301_10" ref="الناصرية">الناصرية</placeName> بـ<placeName xml:id="place-WA1299139301_11" ref="درب-البندق" type="درب">درب البندق</placeName> بـ<placeName xml:id="place-WA1299139301_12" ref="عطفة-الصعايدة" type="عطفة">عطفة الصعايدة</placeName> بـ<placeName xml:id="place-WA1299139301_13" ref="ثمن-السيدة-زينب" type="ثمن"><orgName ref="ثمن-السيدة-زينب" type="ثمن">تمن السيدة زينب</orgName></placeName> من الاموال الضايعة
                         يبلغ مقاسها <g ref="#qthird"/> ٥٢ أذرع راسى مزادها على <persName role="معمارى بيت المال">المعلم أحمد المواجبرى معمارى بيت المال</persName>
                         والمصاريف عليه والثمن الراسية به الخربه المذكوره مبلغ ٢٢٥٠ قرشا</cell>
                   </row>
                   <row>
                      <cell>١</cell>
-                     <cell><placeName ref="منزل هنا واختها استيته" type="منزل">منزل</placeName> كائن
-                           بـ<placeName ref="خوخة-القطانين" type="خوخة">خوخة القطانين</placeName>
-                           بـ<placeName ref="باب-الشعرية">باب الشعرية</placeName> يبلغ مقاسه ٥٤ و
+                     <cell><placeName xml:id="place-WA1299139301_14" ref="منزل هنا واختها استيته" type="منزل">منزل</placeName> كائن
+                           بـ<placeName xml:id="place-WA1299139301_15" ref="خوخة-القطانين" type="خوخة">خوخة القطانين</placeName>
+                           بـ<placeName xml:id="place-WA1299139301_16" ref="باب-الشعرية">باب الشعرية</placeName> يبلغ مقاسه ٥٤ و
                         ١١٥ أذرع مخلف عن المرحومتين <persName>هنا وأختها استيته</persName> راسى
                         مزاده على <persName>الحاج حسن سعودى المبيض</persName> بمبلغ ٣٣٠٠ قرش بخلاف
                         المصاريف</cell>
@@ -2313,7 +2311,7 @@
                   واعطاء مزاده عليها فلزم تحرير هذا الاعلان للمعلومية وقد تحدد لذلك ميعاد عشرين يوما
                   من تاريخه وان مضى الميعاد المرقوم وحضر بعدها أحد فلا يقبل منه مزاد.</p>
             </div>
-            <div resp="#eAK" xml:id="w259">
+            <div xml:id="WA1299139401" resp="#eAK">
                <head><date when-custom="1299-06-09">٩ جمادى الثانى ١٢٩٩</date>
                   <date when="1882-04-27">٢٧ ابريل ١٨٨٢</date>
                   <bibl><biblScope unit="issue">نمرة ١٣٩٤</biblScope>
@@ -2322,7 +2320,7 @@
                         بـ<orgName ref="نظارة-الاشغال-العمومية" type="نظارة">نظارة الاشغال
                         العمومية</orgName></persName>.</p>
             </div>
-            <div resp="#eAK" xml:id="w260">
+            <div xml:id="WA1299139402" resp="#eAK">
                <head><date when-custom="1299-06-09">٩ جمادى الثانى ١٢٩٩</date>
                   <date when="1882-04-27">٢٧ ابريل ١٨٨٢</date>
                   <bibl><biblScope unit="issue">نمرة ١٣٩٤</biblScope><biblScope unit="page">صفحة
@@ -2444,7 +2442,7 @@
                      <cell/>
                      <cell/>
                      <cell/>
-                     <cell>(١٣) <orgName ref="السكك-الحديد">السكك الحديد</orgName> و<orgName ref="التلغرافات">التلغرافات</orgName> و<orgName ref="مينا-اسكندرية"><placeName ref="مينا-اسكندرية" type="مينا">مينا
+                     <cell>(١٣) <orgName ref="السكك-الحديد">السكك الحديد</orgName> و<orgName ref="التلغرافات">التلغرافات</orgName> و<orgName ref="مينا-اسكندرية"><placeName xml:id="place-WA1299139402_01" ref="مينا-اسكندرية" type="مينا">مينا
                            اسكندرية</placeName></orgName></cell>
                   </row>
                   <row>
@@ -2463,7 +2461,7 @@
                      <cell>٠٠٠٥٤٦٦</cell>
                      <cell>٠٠٠٨٢٨٩</cell>
                      <cell>٠٠٠٢٨</cell>
-                     <cell><orgName ref="سكة-حديد-حلوان">سكة حديد <placeName ref="حلوان">حلوان</placeName></orgName></cell>
+                     <cell><orgName ref="سكة-حديد-حلوان">سكة حديد <placeName xml:id="place-WA1299139402_02" ref="حلوان">حلوان</placeName></orgName></cell>
                   </row>
                   <row>
                      <cell>٠٠٦٠١٦٤</cell>
@@ -2513,7 +2511,7 @@
                   </row>
                </table>
             </div>
-            <div resp="#eAK" xml:id="w261">
+            <div xml:id="WA1299139403" resp="#eAK">
                <head><date when-custom="1299-06-09">٩ جمادى الثانى ١٢٩٩</date>
                   <date when="1882-04-27">٢٧ ابريل ١٨٨٢</date>
                   <bibl><biblScope unit="issue">نمرة ١٣٩٤</biblScope>
@@ -2658,7 +2656,7 @@
                      <cell/>
                      <cell/>
                      <cell/>
-                     <cell>(١٣) <orgName ref="السكك-الحديد">السكك الحديد</orgName> و<orgName ref="التلغرافات">التلغرافات</orgName> و<orgName ref="مينا-اسكندرية"><placeName ref="مينا-اسكندرية" type="مينا">مينا
+                     <cell>(١٣) <orgName ref="السكك-الحديد">السكك الحديد</orgName> و<orgName ref="التلغرافات">التلغرافات</orgName> و<orgName ref="مينا-اسكندرية"><placeName xml:id="place-WA1299139403_01" ref="مينا-اسكندرية" type="مينا">مينا
                            اسكندرية</placeName></orgName></cell>
                   </row>
                   <row>
@@ -2680,7 +2678,7 @@
                      <cell>٠٠٠٠٣٩</cell>
                      <cell>٠٠٠٨٢٨٩</cell>
                      <cell>٠٠٠٨٢٥٠</cell>
-                     <cell><orgName ref="سكة-حديد-حلوان">سكة حديد <placeName ref="حلوان">حلوان</placeName></orgName></cell>
+                     <cell><orgName ref="سكة-حديد-حلوان">سكة حديد <placeName xml:id="place-WA1299139403_02" ref="حلوان">حلوان</placeName></orgName></cell>
                   </row>
                   <row>
                      <cell>٠٠٠٠٠٠</cell>
@@ -2741,7 +2739,7 @@
                   </row>
                </table>
             </div>
-            <div resp="#eAK" xml:id="w262">
+            <div xml:id="WA1299139404" resp="#eAK">
                <head><date when-custom="1299-06-09">٩ جمادى الثانى ١٢٩٩</date>
                   <date when="1882-04-27">٢٧ ابريل ١٨٨٢</date>
                   <bibl><biblScope unit="issue">نمرة ١٣٩٤</biblScope>
@@ -2817,7 +2815,7 @@
                         <p>٠٠٠٠٠</p>
                      </cell>
                      <cell>
-                        <p>(٥) <orgName ref="السكك-الحديد">السكك الحديد</orgName> و<orgName ref="التلغرافات">التلغرافات</orgName> و<orgName ref="مينا-اسكندرية"><placeName ref="مينا-اسكندرية" type="مينا">مينا
+                        <p>(٥) <orgName ref="السكك-الحديد">السكك الحديد</orgName> و<orgName ref="التلغرافات">التلغرافات</orgName> و<orgName ref="مينا-اسكندرية"><placeName xml:id="place-WA1299139404_01" ref="مينا-اسكندرية" type="مينا">مينا
                                  اسكندرية</placeName></orgName></p>
                         <p>السكك الحديد</p>
                         <p>مينا سكندرية</p>
@@ -2832,7 +2830,7 @@
                   </row>
                </table>
             </div>
-            <div resp="#eAK" xml:id="w263">
+            <div xml:id="WA1299139405" resp="#eAK">
                <head><date when-custom="1299-06-09">٩ جمادى الثانى ١٢٩٩</date>
                   <date when="1882-04-27">٢٧ ابريل ١٨٨٢</date>
                   <bibl><biblScope unit="issue">نمرة ١٣٩٤</biblScope>
@@ -2840,8 +2838,8 @@
                <head>اعلانات</head>
                <head>(نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="بيت مال مصر">بيت مال
                      مصر</orgName> بتاريخ ٤ ج سنة ٩٩)</head>
-               <p>موجود خربه كائنة بـ<placeName ref="كفر-الزغاري" type="كفر">كفر الزغارى</placeName>
-                     بـ<orgName type="ثمن" ref="ثمن-الجمالية"><placeName type="ثمن" ref="ثمن-الجمالية">ثمن الجمالية</placeName></orgName> بدون حجة مخلفة عن حرمه
+               <p>موجود خربه كائنة بـ<placeName xml:id="place-WA1299139405_01" ref="كفر-الزغاري" type="كفر">كفر الزغارى</placeName>
+                     بـ<orgName type="ثمن" ref="ثمن-الجمالية"><placeName xml:id="place-WA1299139405_02" type="ثمن" ref="ثمن-الجمالية">ثمن الجمالية</placeName></orgName> بدون حجة مخلفة عن حرمه
                   تسمى <persName>هيكله</persName> المتوفاة وغير معلوم لها وارث ولتخربها من مدة قد
                      <sic>تراآ</sic> لبيت المال أو <sic>فقية</sic> مبيعها ولما كتب لـ<orgName ref="ديوان-الاوقاف" type="ديوان">ديوان الاوقاف</orgName> بالكشف عن ايقاف تلك
                   الخربة من عدمه فوردت افادته رقيم ٧ جا سنة ٩٨ نمرة ٥٠١ بعدم ايقافها وبالتحرير
@@ -2862,14 +2860,14 @@
                   وهذا لاعلانه على من يلزم فكل من له رغبة للمشترى يرسل بالافادة والضمانه المعتمده
                   قبل مضى الميعاد المرقوم بيومين اثنين لاتمام المزاد بالمصلحة.</p>
             </div>
-            <div resp="#eAK" xml:id="w266">
+            <div xml:id="WA1299139601" resp="#eAK">
                <head><date when-custom="1299-06-12">١٢ جمادى الثانى ١٢٩٩</date>
                   <date when="1882-04-30">٣٠ ابريل ١٨٨٢</date>
                   <bibl><biblScope unit="issue">نمرة ١٣٩٦</biblScope>
                      <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
                <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName ref="ديوان-الاشغال-العمومية">ديوان الاشغال العموميه</orgName></head>
                <p>ديوان الاشغال العموميه يشهر فى الـمزاد مشترى كسوة غطاسه كامله وبعض أدوات غطاسه
-                  لتكميل كسوة أخرى لزوم أشغال الغطاسين بـ<placeName ref="القناطر-الخيرية"><orgName ref="القناطر-الخيرية" type="قناطر">القناطر الخيريه</orgName></placeName> على
+                  لتكميل كسوة أخرى لزوم أشغال الغطاسين بـ<placeName xml:id="place-WA1299139601_01" ref="القناطر-الخيرية"><orgName ref="القناطر-الخيرية" type="قناطر">القناطر الخيريه</orgName></placeName> على
                   مقتضى شروط بالبيان موجودة بـ<orgName ref="قلم مشتروات ديوان الاشغال العموميه" type="قلم">قلم المشتروات بالديوان</orgName> وقبول العطايات عن ذلك يكون داخل
                   مظاريف مختومة بالشمع الاحمر يصير فتحها بحضور أربابها فى الساعه ثلاثة افرنكى بعد
                   الظهر فى يوم الخميس ١١ مايو سنة ٨٢ الموافق ٢٣ ج سنة ٩٩ فكل من يرغب توريد ذلك
