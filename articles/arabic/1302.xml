@@ -6668,7 +6668,8 @@
                <bibl><biblScope unit="issue">نمرة ٦٠</biblScope>
                   <biblScope unit="page">صفحة ٤٩٦ –٤٩٨</biblScope></bibl></head>
             <div>
-               <head>(ميزانية خدمة ادارة عموم المدن سنة ١٨٨٥)</head>
+               <head>(ميزانية خدمة <orgName type="ادارة" ref="ادارة-عموم-المدن">ادارة عموم
+                     المدن</orgName> سنة ١٨٨٥)</head>
                <table>
                   <row>
                      <cell>أسماء المستخدمين</cell>
@@ -6681,12 +6682,12 @@
                      <cell/>
                   </row>
                   <row>
-                     <cell><persName>ادربان بك</persName></cell>
+                     <cell><persName role="مفتش-الغرب">ادربان بك</persName></cell>
                      <cell>٦٠٠</cell>
                      <cell>مفتش الغرب</cell>
                   </row>
                   <row>
-                     <cell><persName>بليغ بك</persName></cell>
+                     <cell><persName role="مفتش-قبلى">بليغ بك</persName></cell>
                      <cell>٦٠٠</cell>
                      <cell>مفتش قبلى</cell>
                   </row>
@@ -6696,17 +6697,18 @@
                      <cell/>
                   </row>
                   <row>
-                     <cell><persName>لاتروف</persName></cell>
+                     <cell><persName role="مفتش-مصر">لاتروف</persName></cell>
                      <cell>٤٨٠</cell>
                      <cell>مفتش مصر</cell>
                   </row>
                   <row>
-                     <cell><persName>كازيزولى</persName></cell>
+                     <cell><persName role="مفتش-الشرق">كازيزولى</persName></cell>
                      <cell>٤٨٠</cell>
                      <cell>مفتش الشرق</cell>
                   </row>
                   <row>
-                     <cell>١ درجه ثالثه <persName>ساتوتر</persName></cell>
+                     <cell>١ درجه ثالثه <persName role="مفتش-الدلتا"
+                           ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ساتوتر<?oxy_custom_end?></persName></cell>
                      <cell>٤٢٠</cell>
                      <cell>مفتش الدلتا</cell>
                   </row>
@@ -6716,44 +6718,38 @@
                      <cell/>
                   </row>
                   <row>
-                     <cell><persName>اندريه سمون</persName></cell>
+                     <cell><persName role="باشمهندس-تفتيش-قبلى">اندريه سمون</persName></cell>
                      <cell>٤٢٠</cell>
                      <cell>باشمهندس <orgName ref="تفتيش قبلى" type="تفتيش">تفتيش
                         قبلى</orgName></cell>
                   </row>
                   <row>
-                     <cell><persName>عزى بك</persName></cell>
+                     <cell><persName role="باشمهندس-تفتيش-الغرب">عزى بك</persName></cell>
                      <cell>٣٦٠</cell>
-                     <cell>باشمهندس تفتيش الغرب</cell>
+                     <cell>باشمهندس <orgName type="تفتيش" ref="تفتيش-الغرب">تفتيش
+                        الغرب</orgName></cell>
                   </row>
                   <row>
-                     <cell><persName>مارى</persName></cell>
-                     <cell>٣٦٠</cell>
-                     <cell>شرحه</cell>
-                  </row>
-                  <row>
-                     <cell><persName>ليرون</persName></cell>
+                     <cell><persName role="باشمهندس-تفتيش-الغرب">مارى</persName></cell>
                      <cell>٣٦٠</cell>
                      <cell>شرحه</cell>
                   </row>
                   <row>
-                     <cell><persName>ليجروه</persName></cell>
+                     <cell><persName role="باشمهندس-تفتيش-الغرب">ليرون</persName></cell>
+                     <cell>٣٦٠</cell>
+                     <cell>شرحه</cell>
+                  </row>
+                  <row>
+                     <cell><persName role="باشمهندس-مدينه-المحروسه"
+                           ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ليجروه<?oxy_custom_end?></persName></cell>
                      <cell>٣٦٠</cell>
                      <cell>باشمهندس مدينه المحروسه</cell>
                   </row>
                   <row>
-                     <cell><persName>محمد عارف</persName></cell>
+                     <cell><persName role="باشمهندس-مدينه-المحروسه">محمد عارف</persName></cell>
                      <cell>٣٦٠</cell>
-                     <cell>باشمهندس <orgName ref="تفتيش الدلتا" type="تفتيش">تفتيش
+                     <cell>باشمهندس <orgName ref="تفتيش-الدلتا" type="تفتيش">تفتيش
                         الدلتا</orgName></cell>
-                  </row>
-                  <row>
-                     <cell>
-                        <p>ص ٤٩٦ – العمود ٢</p>
-                        <p>باقية الجدول</p>
-                     </cell>
-                     <cell/>
-                     <cell/>
                   </row>
                   <row>
                      <cell>٦ درجه ثانيه</cell>
@@ -6761,31 +6757,31 @@
                      <cell>وظائف</cell>
                   </row>
                   <row>
-                     <cell><persName>استيجار</persName></cell>
+                     <cell><persName role="باشمهندس-المبانى-بمصر">استيجار</persName></cell>
                      <cell>٣٠٠</cell>
                      <cell>باشمهندس المبانى بمصر</cell>
                   </row>
                   <row>
-                     <cell><persName>شربينى موسى</persName></cell>
+                     <cell><persName role="باشمهندس-المقايسات-بتفتيش-الغرب">شربينى
+                        موسى</persName></cell>
                      <cell>٣٠٠</cell>
-                     <cell>باشمهندس المقايسات ب<orgName ref="تفتيش الغرب" type="تفتيش">تفتيش
-                           الغرب</orgName></cell>
+                     <cell>باشمهندس المقايسات بتفتيش الغرب</cell>
                   </row>
                   <row>
-                     <cell><persName>فينسان</persName></cell>
+                     <cell><persName role="باشمهندس-معمارى-بتفتيش-مصر">فينسان</persName></cell>
                      <cell>٣٠٠</cell>
-                     <cell>باشمهندس معمارى ب<orgName ref="تفتيش مصر" type="تفتيش">تفتيش
+                     <cell>باشمهندس معمارى ب<orgName ref="تفتيش-مصر" type="تفتيش">تفتيش
                            مصر</orgName></cell>
                   </row>
                   <row>
-                     <cell><persName>سيد شكرى</persName></cell>
+                     <cell><persName role="باشمهندس-تفتيش-مصر">سيد شكرى</persName></cell>
                      <cell>٣٠٠</cell>
                      <cell>باشمهندس تفتيش مصر</cell>
                   </row>
                   <row>
-                     <cell><persName>لوريش</persName></cell>
+                     <cell><persName role="باشمهندس-بقلم-مبانى-تفتيش-مصر">لوريش</persName></cell>
                      <cell>٣٠٠</cell>
-                     <cell>باشمهندس ب<orgName ref="قلم مبانى تفتيش مصر" type="قلم">قلم مبانى تفتيش
+                     <cell>باشمهندس ب<orgName ref="قلم-مبانى-تفتيش-مصر" type="قلم">قلم مبانى تفتيش
                            مصر</orgName></cell>
                   </row>
                   <row>
@@ -6806,10 +6802,10 @@
                   <row>
                      <cell><persName>محمود صفوت</persName></cell>
                      <cell>٢٤٠</cell>
-                     <cell>ب<orgName ref="تنظيم مصر">تنظيم مصر</orgName></cell>
+                     <cell>ب<orgName ref="تنظيم-مصر">تنظيم مصر</orgName></cell>
                   </row>
                   <row>
-                     <cell><persName>أحمد أنسى</persName></cell>
+                     <cell><persName role="باشمهندس-الجيزة-وحلوان">أحمد أنسى</persName></cell>
                      <cell>٢٤٠</cell>
                      <cell>باشمهندس <placeName ref="الجيزة">الجيزة</placeName>
                            و<placeName>حلوان</placeName></cell>
@@ -6817,7 +6813,10 @@
                   <row>
                      <cell><persName>جيسبرين</persName></cell>
                      <cell>٢٤٠</cell>
-                     <cell>بالشو[ا]رع بتفتيش الغرب</cell>
+                     <cell>ب<choice>
+                           <sic>الشو[..]رع</sic>
+                           <corr>الشوارع</corr>
+                        </choice> بتفتيش الغرب</cell>
                   </row>
                   <row>
                      <cell><persName>برنيولى</persName></cell>
@@ -6827,7 +6826,8 @@
                   <row>
                      <cell><persName>لونك</persName></cell>
                      <cell>٢٤٠</cell>
-                     <cell>باشمهندس الكوبرى</cell>
+                     <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>باشمهندس
+                        الكوبرى<?oxy_custom_end?></cell>
                   </row>
                   <row>
                      <cell>٣٠ درجه أولى مهندسين ورؤساء</cell>
@@ -6835,22 +6835,22 @@
                      <cell/>
                   </row>
                   <row>
-                     <cell><persName>مليار</persName></cell>
+                     <cell><persName role="مهندس-معمارى-بتفتيش-مصر">مليار</persName></cell>
                      <cell>٢٤٠</cell>
                      <cell>مهندس معمارى بتفتيش مصر</cell>
                   </row>
                   <row>
-                     <cell><persName>كنتللى</persName></cell>
+                     <cell><persName role="مهندس-بقلم-تفتيش-مصر">كنتللى</persName></cell>
                      <cell>٢١٦</cell>
                      <cell>,, بقلم تفتيش مصر</cell>
                   </row>
                   <row>
-                     <cell><persName>حسن بكير</persName></cell>
+                     <cell><persName role="مأمور-الكشف">حسن بكير</persName></cell>
                      <cell>٢١٠</cell>
                      <cell>مأمور الكشف</cell>
                   </row>
                   <row>
-                     <cell><persName>اسمينجر</persName></cell>
+                     <cell><persName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>اسمينجر<?oxy_custom_end?></persName></cell>
                      <cell>٢٠٤</cell>
                      <cell>,, مهندس ملاحظ الغاز بسكندريه</cell>
                   </row>
@@ -6860,9 +6860,10 @@
                      <cell>ناظر طرق سكندريه</cell>
                   </row>
                   <row>
-                     <cell><persName>صالح لطيف</persName></cell>
+                     <cell><persName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>صالح
+                           لطيف<?oxy_custom_end?></persName></cell>
                      <cell>١٨٠</cell>
-                     <cell>ب<orgName ref="تنظيم سكندريه">تنظيم سكندريه</orgName></cell>
+                     <cell>ب<orgName ref="تنظيم-سكندريه">تنظيم سكندريه</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>حامد حسن</persName></cell>
@@ -6882,85 +6883,86 @@
                   <row>
                      <cell><persName>موسى فهمى</persName></cell>
                      <cell>١٨٠</cell>
-                     <cell>مهندس <orgName ref="تنظيم البحيره">تنظيم البحيره</orgName></cell>
+                     <cell>مهندس <orgName ref="تنظيم-البحيره">تنظيم البحيره</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>على راغب</persName></cell>
                      <cell>١٨٠</cell>
-                     <cell>مهندس <orgName ref="تنظيم طنطا">تنظيم طنطا</orgName></cell>
+                     <cell>مهندس <orgName ref="تنظيم-طنطا">تنظيم طنطا</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>عثمان رشدى</persName></cell>
                      <cell>١٨٠</cell>
-                     <cell>,, ,, <orgName ref="تنظيم المنصوره">المنصوره</orgName></cell>
+                     <cell>,, ,, <orgName ref="تنظيم-المنصوره">المنصوره</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>عبد الرحمن ذهنى</persName></cell>
                      <cell>١٨٠</cell>
-                     <cell>,, ,, <orgName ref="تنظيم الزقازيق">الزقازيق</orgName></cell>
+                     <cell>,, ,, <orgName ref="تنظيم-الزقازيق">الزقازيق</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>ابراهيم حمدى</persName></cell>
                      <cell>١٨٠</cell>
-                     <cell>,, ,, <orgName ref="تنظيم دمياط">دمياط</orgName></cell>
+                     <cell>,, ,, <orgName ref="تنظيم-دمياط">دمياط</orgName></cell>
                   </row>
                   <row>
-                     <cell><persName>أحمد راشد</persName></cell>
+                     <cell><persName role="مهندس-بتفتيش-مصر">أحمد راشد</persName></cell>
                      <cell>١٨٠</cell>
                      <cell>,, ,, بتفتيش مصر</cell>
                   </row>
                   <row>
-                     <cell><persName>دومنيك مورو</persName></cell>
+                     <cell><persName role="مهندس-بتفتيش-مصر">دومنيك مورو</persName></cell>
                      <cell>١٨٠</cell>
                      <cell>,, ,, ,,</cell>
                   </row>
                   <row>
-                     <cell><persName>محمد نيازى</persName></cell>
+                     <cell><persName role="مهندس-بتنظيم-مصر">محمد نيازى</persName></cell>
                      <cell>١٨٠</cell>
                      <cell>,, ,, بتنظيم مصر</cell>
                   </row>
                   <row>
-                     <cell><persName>عثمان فهمى</persName></cell>
+                     <cell><persName role="مهندس-بتنظيم-مصر">عثمان فهمى</persName></cell>
                      <cell>١٨٠</cell>
                      <cell>,, ,, ,,</cell>
                   </row>
                   <row>
-                     <cell><persName>بتريشبانو</persName></cell>
+                     <cell><persName role="مهندس-بتفتيش-مصر">بتريشبانو</persName></cell>
                      <cell>١٨٠</cell>
                      <cell>,, بتفتيش مصر</cell>
                   </row>
                   <row>
-                     <cell><persName>رببول</persName></cell>
+                     <cell><persName role="مهندس-بالشوارع-بمصر"
+                           ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>رببول<?oxy_custom_end?></persName></cell>
                      <cell>١٨٠</cell>
                      <cell>,, بالشوارع بمصر</cell>
                   </row>
                   <row>
                      <cell><persName>عبد العزيز فريد</persName></cell>
                      <cell>١٨٠</cell>
-                     <cell>,, <orgName ref="تنظيم بورسعيد">تنظيم بورسعيد</orgName></cell>
+                     <cell>,, <orgName ref="تنظيم-بورسعيد">تنظيم بورسعيد</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>حسين كامل</persName></cell>
                      <cell>١٨٠</cell>
-                     <cell>,, ب<orgName ref="تفتيش قبلى">تفتيش قبلى</orgName></cell>
+                     <cell>,, ب<orgName ref="تفتيش-قبلى">تفتيش قبلى</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>شافعى فوزى</persName></cell>
                      <cell>١٨٠</cell>
-                     <cell>,, <orgName ref="تنظيم أسيوط">تنظيم أسيوط</orgName></cell>
+                     <cell>,, <orgName ref="تنظيم-أسيوط">تنظيم أسيوط</orgName></cell>
                   </row>
                   <row>
-                     <cell><persName>مصطفى منيب</persName></cell>
+                     <cell><persName role="مهندس-بتفتيش-مصر">مصطفى منيب</persName></cell>
                      <cell>١٥٦</cell>
                      <cell>,, بتفتيش مصر</cell>
                   </row>
                   <row>
-                     <cell><persName>أحمد راشد</persName></cell>
+                     <cell><persName role="مهندس-بتفتيش-مصر">أحمد راشد</persName></cell>
                      <cell>١٨٠</cell>
                      <cell>,, ,,</cell>
                   </row>
                   <row>
-                     <cell><persName>محمود فهمى</persName></cell>
+                     <cell><persName role="مهندس-بشوارع-مصر">محمود فهمى</persName></cell>
                      <cell>١٨٠</cell>
                      <cell>مهندس بشوارع مصر</cell>
                   </row>
@@ -6970,24 +6972,24 @@
                      <cell>وظائف</cell>
                   </row>
                   <row>
-                     <cell><persName>عباس وحيد</persName></cell>
+                     <cell><persName role="مهندس-بقلم-تفتيش-مصر">عباس وحيد</persName></cell>
                      <cell>١٥٠</cell>
                      <cell>مهندس بقلم تفتيش مصر</cell>
                   </row>
                   <row>
-                     <cell><persName>رامى</persName></cell>
+                     <cell><persName role="ملاحظ-المياه-والغاز-بمصر">رامى</persName></cell>
                      <cell>١٥٠</cell>
                      <cell>ملاحظ المياه والغاز بمصر</cell>
                   </row>
                   <row>
-                     <cell><persName>قسطنطين</persName></cell>
+                     <cell><persName role="ملاحظ-المياه-والغاز-بمصر">قسطنطين</persName></cell>
                      <cell>١٥٠</cell>
                      <cell>شرحه</cell>
                   </row>
                   <row>
                      <cell><persName>أرتين مهران</persName></cell>
                      <cell>١٤٤</cell>
-                     <cell>معمارى ب<orgName ref="تفتيش شرق">تفتيش شرق</orgName></cell>
+                     <cell>معمارى ب<orgName ref="تفتيش-شرق">تفتيش شرق</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>عبد القادر</persName></cell>
@@ -7007,7 +7009,7 @@
                   <row>
                      <cell><persName>أحمد رمزى</persName></cell>
                      <cell>١٤٤</cell>
-                     <cell>,, ,, ب<orgName ref="تنظيم المحله">المحله</orgName></cell>
+                     <cell>,, ,, ب<orgName ref="تنظيم-المحله">المحله</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>عبد الله حسيب</persName></cell>
@@ -7027,7 +7029,7 @@
                   <row>
                      <cell><persName>أحمد رؤوف</persName></cell>
                      <cell>١٤٤</cell>
-                     <cell>مهندس <orgName ref="تنظيم القليوبيه">تنظيم القليوبيه</orgName></cell>
+                     <cell>مهندس <orgName ref="تنظيم-القليوبيه">تنظيم القليوبيه</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>أحمد أسعد</persName></cell>
@@ -7050,42 +7052,43 @@
                      <cell>مهندس بتفتيش الغرب</cell>
                   </row>
                   <row>
-                     <cell><persName>محمد رياض</persName></cell>
+                     <cell><persName role="مهندس-بفرق-الرسم-بمصر">محمد رياض</persName></cell>
                      <cell>١٤٤</cell>
                      <cell>مهندس بفرق الرسم بمصر</cell>
                   </row>
                   <row>
-                     <cell><persName>ما نييرفرانسوا</persName></cell>
+                     <cell><persName role="مهندس-بقلم-تفتيش-مصر">ما نييرفرانسوا</persName></cell>
                      <cell>١٤٤</cell>
                      <cell>,, بقلم تفتيش مصر</cell>
                   </row>
                   <row>
-                     <cell><persName>ذوكاس</persName></cell>
+                     <cell><persName role="مهندس-بقلم-تفتيش-مصر">ذوكاس</persName></cell>
                      <cell>١٤٤</cell>
                      <cell>,, ,,</cell>
                   </row>
                   <row>
-                     <cell><persName>مرتى</persName></cell>
+                     <cell><persName role="مهندس-بالشوارع-مصر">مرتى</persName></cell>
                      <cell>١٤٤</cell>
                      <cell>,, بالشوارع مصر</cell>
                   </row>
                   <row>
-                     <cell><persName>غالب</persName></cell>
+                     <cell><persName role="مهندس-بالشوارع-مصر">غالب</persName></cell>
                      <cell>١٤٤</cell>
                      <cell>,, ,,</cell>
                   </row>
                   <row>
-                     <cell><persName>فريدريك برتيولى</persName></cell>
+                     <cell><persName role="مهندس-بالشوارع-بمصر">فريدريك برتيولى</persName></cell>
                      <cell>١٤٤</cell>
                      <cell>,, بالشوارع بمصر</cell>
                   </row>
                   <row>
-                     <cell><persName>بوايمدون</persName></cell>
+                     <cell><persName role="مهندس-بالشوارع-بمصر">بوايمدون</persName></cell>
                      <cell>١٤٤</cell>
                      <cell>,, ,, ,,</cell>
                   </row>
                   <row>
-                     <cell><persName>تيسييه</persName></cell>
+                     <cell><persName role="مهندس-بالشوارع-بمصر"
+                           ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>تيسييه<?oxy_custom_end?></persName></cell>
                      <cell>١٤٤</cell>
                      <cell>,, ,, ,,</cell>
                   </row>
@@ -7117,7 +7120,7 @@
                   <row>
                      <cell><persName>مصطفى أمين</persName></cell>
                      <cell>١٤٤</cell>
-                     <cell>مهندس ب<orgName ref="تنظيم جرجا">تنظيم جرجا</orgName></cell>
+                     <cell>مهندس ب<orgName ref="تنظيم-جرجا">تنظيم جرجا</orgName></cell>
                   </row>
                   <row>
                      <cell>٣٥ درجه ثالثه</cell>
@@ -7137,35 +7140,36 @@
                   <row>
                      <cell><persName>عبد الرحمن عارف</persName></cell>
                      <cell>١٢٠</cell>
-                     <cell>,, ب<placeName ref="ميت غمر">ميت غمر</placeName></cell>
+                     <cell>,, ب<placeName ref="ميت-غمر">ميت غمر</placeName></cell>
                   </row>
                   <row>
-                     <cell><persName>عبد المجيد</persName></cell>
+                     <cell><persName role="مهندس-بقلم-تفتيش-مصر">عبد المجيد</persName></cell>
                      <cell>١٢٠</cell>
                      <cell>,, بقلم تفتيش مصر</cell>
                   </row>
                   <row>
-                     <cell><persName>أحمد صادق</persName></cell>
+                     <cell><persName role="مهندس-بتنظيم-مصر">أحمد صادق</persName></cell>
                      <cell>١٢٠</cell>
                      <cell>,, بتنظيم ,,</cell>
                   </row>
                   <row>
-                     <cell><persName>محمد يمانى</persName></cell>
+                     <cell><persName role="مهندس-بتنظيم-مصر">محمد يمانى</persName></cell>
                      <cell>١٢٠</cell>
                      <cell>,, ,, ,,</cell>
                   </row>
                   <row>
-                     <cell><persName>خليل مهيب</persName></cell>
+                     <cell><persName role="مهندس-بتنظيم-مصر">خليل مهيب</persName></cell>
                      <cell>١٢٠</cell>
                      <cell>,, ,, ,,</cell>
                   </row>
                   <row>
-                     <cell><persName>اسماعيل عمر</persName></cell>
+                     <cell><persName role="مهندس-بتنظيم-مصر">اسماعيل عمر</persName></cell>
                      <cell>١٢٠</cell>
                      <cell>,, ,, ,,</cell>
                   </row>
                   <row>
-                     <cell><persName>محمد نظيف</persName></cell>
+                     <cell><persName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>محمد
+                           نظيف<?oxy_custom_end?></persName></cell>
                      <cell>١٢٠</cell>
                      <cell/>
                   </row>
@@ -7217,7 +7221,7 @@
                   <row>
                      <cell><persName>محمد أسعد</persName></cell>
                      <cell>١٠٨</cell>
-                     <cell>ب<orgName ref="مصلحة سد أبو قير" type="مصلحة">مصلحة سد أبو
+                     <cell>ب<orgName ref="مصلحة-سد-أبو-قير" type="مصلحة">مصلحة سد أبو
                         قير</orgName></cell>
                   </row>
                   <row>
@@ -7228,40 +7232,41 @@
                   <row>
                      <cell><persName>محمد حسين</persName></cell>
                      <cell>١٠٨</cell>
-                     <cell>مهندس <orgName ref="تنظيم كفر الزيات">تنظيم كفر الزيات</orgName></cell>
+                     <cell>مهندس <orgName ref="تنظيم-كفر-الزيات">تنظيم كفر الزيات</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>أحمد رائف</persName></cell>
                      <cell>١٠٨</cell>
-                     <cell>مهندس ,, <orgName ref="تنظيم شبين الكوم">شبين الكوم</orgName></cell>
+                     <cell>مهندس ,, <orgName ref="تنظيم-شبين-الكوم">شبين الكوم</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>مصطفى قدرى</persName></cell>
                      <cell>١٠٨</cell>
-                     <cell>,, ,, <orgName ref="تنظيم بنى سويف">بنى سويف</orgName></cell>
+                     <cell>,, ,, <orgName ref="تنظيم-بنى-سويف">بنى سويف</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>أمين سليمان</persName></cell>
                      <cell>١٠٨</cell>
-                     <cell>,, ,, <orgName ref="تنظيم الفيوم">الفيوم</orgName></cell>
+                     <cell>,, ,, <orgName ref="تنظيم-الفيوم">الفيوم</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>حسن نائب</persName></cell>
                      <cell>١٠٨</cell>
-                     <cell>,, ,, <orgName ref="تنظيم قنا">قنا</orgName></cell>
+                     <cell>,, ,, <orgName ref="تنظيم-قنا">قنا</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>محمود شوكت</persName></cell>
                      <cell>١٠٨</cell>
-                     <cell>ب<orgName ref="قلم تفتيش قبلى" type="قلم">قلم تفتيش قبلى</orgName></cell>
+                     <cell>ب<orgName ref="قلم-تفتيش-قبلى" type="قلم">قلم تفتيش قبلى</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>محمد منيب</persName></cell>
                      <cell>١٠٨</cell>
-                     <cell>,, ,, <orgName ref="قلم تفتيش المنيا" type="قلم">المنيا</orgName></cell>
+                     <cell>,, ,, <orgName ref="قلم-تفتيش-المنيا" type="قلم">المنيا</orgName></cell>
                   </row>
                   <row>
-                     <cell><persName>تيتو كافلله</persName></cell>
+                     <cell><persName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>تيتو
+                           كافلله<?oxy_custom_end?></persName></cell>
                      <cell>٩٦</cell>
                      <cell>بقلم تفتيش مصر</cell>
                   </row>
@@ -7296,27 +7301,27 @@
                      <cell/>
                   </row>
                   <row>
-                     <cell><persName>أمين فتحى</persName></cell>
+                     <cell><persName role="مهندس-بتنظيم-مصر">أمين فتحى</persName></cell>
                      <cell>٠٩٦ ؟</cell>
                      <cell>مهندس بتنظيم مصر</cell>
                   </row>
                   <row>
-                     <cell><persName>ابراهيم أدهم</persName></cell>
+                     <cell><persName role="مهندس-بفرق-الرسم-بمصر">ابراهيم أدهم</persName></cell>
                      <cell>٠٩٦</cell>
                      <cell>,, بفرق الرسم بمصر</cell>
                   </row>
                   <row>
-                     <cell><persName>محمد وهبى</persName></cell>
+                     <cell><persName role="مهندس-بفرق-الرسم-بمصر">محمد وهبى</persName></cell>
                      <cell>٠٩٦</cell>
                      <cell>,, ,, ,,</cell>
                   </row>
                   <row>
-                     <cell><persName>على جمعه</persName></cell>
+                     <cell><persName role="مهندس-بفرق-الرسم-بمصر">على جمعه</persName></cell>
                      <cell>٠٩٦</cell>
                      <cell>,, ,, ,,</cell>
                   </row>
                   <row>
-                     <cell><persName>محمد صبرى</persName></cell>
+                     <cell><persName role="مهندس-بفرق-الرسم-بمصر">محمد صبرى</persName></cell>
                      <cell>٠٩٦</cell>
                      <cell>,, ,, ,,</cell>
                   </row>
@@ -7333,12 +7338,12 @@
                   <row>
                      <cell><persName>محمد مصطفى</persName></cell>
                      <cell>٠٩٦</cell>
-                     <cell>,, ب<orgName ref="تنظيم سمنود">تنظيم سمنود</orgName> بالدلتا (*)</cell>
+                     <cell>,, ب<orgName ref="تنظيم-سمنود">تنظيم سمنود</orgName> بالدلتا (*)</cell>
                   </row>
                   <row>
                      <cell><persName>غبريل ده لفيس</persName></cell>
                      <cell>٠٩٦</cell>
-                     <cell>ب<orgName ref="قلم تفتيش الدلتا" type="قلم">قلم تفتيش
+                     <cell>ب<orgName ref="قلم-تفتيش-الدلتا" type="قلم">قلم تفتيش
                         الدلتا</orgName></cell>
                   </row>
                   <row>
@@ -7349,12 +7354,12 @@
                   <row>
                      <cell><persName>على فهمى</persName></cell>
                      <cell>٠٨٤</cell>
-                     <cell>مهندس ب<orgName ref="تنظيم الزقازيق">تنظيم الزقازيق</orgName></cell>
+                     <cell>مهندس ب<orgName ref="تنظيم-الزقازيق">تنظيم الزقازيق</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>عبد الفتاح سيد أحمد</persName></cell>
                      <cell>٠٨٤</cell>
-                     <cell>,, <orgName ref="تنظيم شبين الكوم">شبين الكوم</orgName></cell>
+                     <cell>,, <orgName ref="تنظيم-شبين-الكوم">شبين الكوم</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>محمد كريم</persName></cell>
@@ -7374,12 +7379,12 @@
                   <row>
                      <cell><persName>حسين وصفى</persName></cell>
                      <cell>٠٨٤</cell>
-                     <cell><orgName>بتنظيم قليوب</orgName></cell>
+                     <cell>ب<orgName ref="تنظيم-قليوب">تنظيم قليوب</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>على أبو زيد</persName></cell>
                      <cell>٠٨٤</cell>
-                     <cell>,, <orgName ref="تنظيم الفيوم">الفيوم</orgName></cell>
+                     <cell>,, <orgName ref="تنظيم-الفيوم">الفيوم</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>ابراهيم على</persName></cell>
@@ -7394,7 +7399,7 @@
                   <row>
                      <cell><persName>أحمد حلمى</persName></cell>
                      <cell>٠٨٤</cell>
-                     <cell>ب<orgName ref="تنظيم زفتى">تنظيم زفتى</orgName></cell>
+                     <cell>ب<orgName ref="تنظيم-زفتى">تنظيم زفتى</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>محمد عيسوى</persName></cell>
@@ -7409,7 +7414,7 @@
                   <row>
                      <cell><persName>صالح محمد</persName></cell>
                      <cell>٧٢</cell>
-                     <cell>,, <orgName ref="تنظيم المنيا قبلى">المنيا قبلى</orgName></cell>
+                     <cell>,, <orgName ref="تنظيم-المنيا-قبلى">المنيا قبلى</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>على دالى</persName></cell>
@@ -7449,7 +7454,7 @@
                   <row>
                      <cell><persName>محمد بهجت</persName></cell>
                      <cell>٦٠</cell>
-                     <cell>ب<orgName ref="تنظيم قنا قبلى">تنظيم قنا قبلى</orgName></cell>
+                     <cell>ب<orgName ref="تنظيم-قنا-قبلى">تنظيم قنا قبلى</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>حافظ فريد</persName></cell>
@@ -7464,7 +7469,7 @@
                   <row>
                      <cell><persName>على صبرى</persName></cell>
                      <cell>٦٠</cell>
-                     <cell>ب<orgName ref="تنظيم دمنهور">تنظيم دمنهور</orgName></cell>
+                     <cell>ب<orgName ref="تنظيم-دمنهور">تنظيم دمنهور</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>حسن لمعى</persName></cell>
@@ -7474,7 +7479,7 @@
                   <row>
                      <cell><persName>أمين فهمى</persName></cell>
                      <cell>٦٠</cell>
-                     <cell>ب<orgName ref="قلم تفتيش الشرق" type="قلم">قلم تفتيش الشرق</orgName>
+                     <cell>ب<orgName ref="قلم-تفتيش-الشرق" type="قلم">قلم تفتيش الشرق</orgName>
                         (*)</cell>
                   </row>
                   <row>
@@ -7495,8 +7500,10 @@
                   <row>
                      <cell><persName>نخله صالح</persName></cell>
                      <cell>٣٦٠</cell>
-                     <cell>رئيس <orgName ref="قلم الادراه العموميه" type="قلم">قلم الادراه
-                           العموميه</orgName></cell>
+                     <cell>رئيس <orgName ref="قلم-الادراه-العموميه" type="قلم"
+                           ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>قلم
+                           <?oxy_comment_start author="Dr. Sarah" timestamp="20240617T175554+0200" comment="الاداره
+"?>الادراه<?oxy_comment_end?><?oxy_custom_end?>العموميه</orgName></cell>
                   </row>
                   <row>
                      <cell>٤ درجه ثالثه من ٢٤٠ الى ٢٨٨ جنيه</cell>
@@ -7504,24 +7511,24 @@
                      <cell/>
                   </row>
                   <row>
-                     <cell><persName>أنطوان مطران</persName></cell>
+                     <cell><persName role="رئيس-قلم-تفتيش-مصر">أنطوان مطران</persName></cell>
                      <cell>٢٨٨</cell>
                      <cell>رئيس قلم تفتيش مصر</cell>
                   </row>
                   <row>
-                     <cell><persName>محمد حميده</persName></cell>
+                     <cell><persName role="كاتب-أول-تفتيش-مصر">محمد حميده</persName></cell>
                      <cell>٢٤٠</cell>
                      <cell>كاتب أول تفتيش مصر</cell>
                   </row>
                   <row>
-                     <cell><persName>باربييه</persName></cell>
+                     <cell><persName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>باربييه<?oxy_custom_end?></persName></cell>
                      <cell>٢٤٠</cell>
                      <cell>بقلم الشوارع بمصر</cell>
                   </row>
                   <row>
                      <cell><persName>جبران باخوس</persName></cell>
                      <cell>٢٤٠</cell>
-                     <cell>ب<orgName ref="قلم تفتيش الغرب" type="قلم">قلم تفتيش
+                     <cell>ب<orgName ref="قلم-تفتيش-الغرب" type="قلم">قلم تفتيش
                         الغرب</orgName></cell>
                   </row>
                   <row>
@@ -7570,7 +7577,7 @@
                      <cell>وظايف</cell>
                   </row>
                   <row>
-                     <cell><persName>خليل فايز</persName></cell>
+                     <cell><persName role="ناظر-جناين-بمصر">خليل فايز</persName></cell>
                      <cell>١٨٠</cell>
                      <cell>ناظر جناين بمصر</cell>
                   </row>
@@ -7625,7 +7632,7 @@
                      <cell>,, ,, ,,</cell>
                   </row>
                   <row>
-                     <cell><persName>برودولينبه</persName></cell>
+                     <cell><persName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>برودولينبه<?oxy_custom_end?></persName></cell>
                      <cell>١٤٤</cell>
                      <cell>,, ,, ,,</cell>
                   </row>
@@ -7657,10 +7664,10 @@
                   <row>
                      <cell><persName>جبران خياط</persName></cell>
                      <cell>١٢٠</cell>
-                     <cell>ب<orgName ref="قلم الشوارع بمصر">قلم الشوارع بمصر</orgName></cell>
+                     <cell>ب<orgName ref="قلم-الشوارع-بمصر">قلم الشوارع بمصر</orgName></cell>
                   </row>
                   <row>
-                     <cell><persName>تبدسكى</persName></cell>
+                     <cell><persName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>تبدسكى<?oxy_custom_end?></persName></cell>
                      <cell>١٢٠</cell>
                      <cell>,, ,,</cell>
                   </row>
@@ -7677,7 +7684,7 @@
                   <row>
                      <cell><persName>ابراهيم حسنين</persName></cell>
                      <cell>٩٦</cell>
-                     <cell>ب<orgName ref="قلم تفتيش حلوان">حلوان</orgName></cell>
+                     <cell>ب<orgName ref="قلم-تفتيش-حلوان">حلوان</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>أحمد محمد</persName></cell>
@@ -7727,7 +7734,7 @@
                   <row>
                      <cell><persName>قدسى منصور</persName></cell>
                      <cell>٧٢</cell>
-                     <cell>ب<orgName ref="مصلحة الجناين بمصر" type="مصلحة">مصلحة الجناين
+                     <cell>ب<orgName ref="مصلحة-الجناين-بمصر" type="مصلحة">مصلحة الجناين
                            بمصر</orgName></cell>
                   </row>
                   <row>
@@ -7738,7 +7745,7 @@
                   <row>
                      <cell><persName>محمد أمين</persName></cell>
                      <cell>٧٢</cell>
-                     <cell>ب<orgName ref="تنظيم دمياط">تنظيم دمياط</orgName></cell>
+                     <cell>ب<orgName ref="تنظيم-دمياط">تنظيم دمياط</orgName></cell>
                   </row>
                   <row>
                      <cell><persName>مصطفى نصر</persName></cell>
@@ -7763,7 +7770,7 @@
                   <row>
                      <cell><persName>محمد عبد الهادى</persName></cell>
                      <cell>٧٢</cell>
-                     <cell>ب<orgName ref="قلم تنظيم المنصوره" type="قلم">قلم تنظيم
+                     <cell>ب<orgName ref="قلم-تنظيم-المنصوره" type="قلم">قلم تنظيم
                            المنصوره</orgName></cell>
                   </row>
                   <row>
@@ -7819,17 +7826,17 @@
                   <row>
                      <cell><persName>أحمد عفيفى</persName></cell>
                      <cell>٦٠</cell>
-                     <cell>ب<orgName ref="تنظيم جرجا">تنظيم جرجا</orgName> (*)</cell>
+                     <cell>ب<orgName ref="تنظيم-جرجا">تنظيم جرجا</orgName> (*)</cell>
                   </row>
                   <row>
                      <cell><persName>ابراهيم حسن</persName></cell>
                      <cell>٦٠</cell>
-                     <cell>ب<orgName ref="تنظيم اسنا">تنظيم اسنا</orgName> (*)</cell>
+                     <cell>ب<orgName ref="تنظيم-اسنا">تنظيم اسنا</orgName> (*)</cell>
                   </row>
                   <row>
                      <cell><persName>يوسف أحمد</persName></cell>
                      <cell>٦٠</cell>
-                     <cell>ب<orgName ref="تنظيم بنى سويف">تنظيم بنى سويف</orgName> (*)</cell>
+                     <cell>ب<orgName ref="تنظيم-بنى-سويف">تنظيم بنى سويف</orgName> (*)</cell>
                   </row>
                   <row>
                      <cell><persName>مرسى وحيد</persName></cell>
@@ -7852,7 +7859,7 @@
                      <cell>,, تفتيش مصر</cell>
                   </row>
                   <row>
-                     <cell><persName>محمد مهدى</persName></cell>
+                     <cell><persName role="مخزانجى-الشوارع">محمد مهدى</persName></cell>
                      <cell>٤٨</cell>
                      <cell>مخزانجى الشوارع</cell>
                   </row>
@@ -7929,12 +7936,12 @@
                </table>
             </div>
          </div>
-         <div resp="#eAK" xml:id="w401">
-            <head>حرر بمدينة القاهرة فى ٥ مايو سنة ١٨٨٥ عن الناظر</head>
-            <head>نظر ذلك وكيل أشغال عموميه</head>
-            <head>امضا (<persName>جران</persName>) (امضا) (<persName>سكوت مونكريف</persName>)</head>
+         <div resp="#eAK #eSG">
+            <p>حرر بمدينة القاهرة فى ٥ مايو سنة ١٨٨٥ عن الناظر</p>
+            <p>نظر ذلك وكيل أشغال عموميه</p>
+            <p> امضا (جران؟) (امضا) (سكوت مونكريف)</p>
          </div>
-         <div resp="#eAK" xml:id="w402">
+         <div resp="#eAK #eSG" xml:id="w358">
             <head><date when-custom="1302-08-11">١١ شعبان ١٣٠٢</date>
                <date when="1885-05-25">٢٥ مايو سنة ١٨٨٥</date>
                <bibl><biblScope unit="issue">نمرة ٦١</biblScope>
@@ -7943,35 +7950,42 @@
             <head>لحضرات أرباب البيوت</head>
             <head>صحه وسرعه ووفر</head>
             <p>يمكن حضرات أرباب البيوت الذين يرغبون تنظيف محلات الراحة الموجودة بمنازلهم بدون تحمل
-               المضار المعتاد حصولها الى الآن وباثمان متنازلة أن يخابروا شركة فيدانج اثيودور (أى
-               النزح بدون رائحة) الموجود محلها بحوش <placeName ref="منزل قنسلاتو انكلترة بمصر" type="منزل">منزل</placeName> قنسلاتو <placeName ref="انكلترة">انكلترة</placeName>
-               بمصر ب<placeName ref="الازبكية">الازبكية</placeName></p>
+               المضار المعتاد حصولها الى الآن وباثمان متنازلة أن يخابروا <orgName type="شركة"
+                  ref="شركة-فيدانج-اثيودور">شركة فيدانج اثيودور</orgName> (أى النزح بدون رائحة)
+               الموجود محلها بحوش <placeName ref="منزل-قنسلاتو-انكلترة-بمصر" type="منزل">منزل
+                     <orgName type="قنسلاتو" ref="قنسلاتو-انكلترة-بمصر">قنسلاتو <placeName
+                        ref="انكلترة">انكلترة</placeName> بمصر</orgName></placeName> ب<placeName
+                  ref="الازبكية">الازبكية</placeName></p>
          </div>
-         <div resp="#eAK" xml:id="w403">
-            <head><date when-custom="1302-08-13">١٣ شعبان ١٣٠٢</date>
-               <date when="1885-05-27">٢٧ مايو ١٨٨٥</date><bibl><biblScope unit="issue">نمرة
-                     ٦٢</biblScope>
-                  <biblScope unit="page">صفحة ٥١٦</biblScope></bibl></head>
-            <head><rs type="اعلان">اعلان</rs> (نمرة حافظة التوريد ٨٠٠)</head>
-            <p>ان تصفية تركة المرحوم <persName>يوسف أفندى حرام</persName> المتوفى فى ٥ مايو سنة ١٨٨٥
-               وكيل أشغال <persName>دولتلو البرنس عبد الحليم باشا</persName> تكون فى <placeName ref="بطريركخانة الاقباط الكاتوليك" type="بطريركخانة"><orgName ref="بطريركخانة الاقباط الكاتوليك" type="بطريركخانة">بطريركخانة الاقباط
-                     الكاتوليك</orgName></placeName> بمصر فكل من له طلب أو دين على التركه المذكورة
-               فى كل الجهات يجب عليه أن يقدمه فى البطريركخانة ويثبته ٦١ يوما من تاريخ هذا الاعلان
-               حسب الاصول وبعد نهاية المدة المعينة لا يقبل أى طلب على التركة</p>
-            <p>تحريرا بمصر ٢٥ مايو سنة ١٨٨٥ </p>
-         </div>
-         <div resp="#eAK" xml:id="w404">
+         <div resp="#eAK #eSG" xml:id="w359">
             <head><date when-custom="1302-08-13">١٣ شعبان ١٣٠٢</date>
                <date when="1885-05-27">٢٧ مايو ١٨٨٥</date>
                <bibl><biblScope unit="issue">نمرة ٦٢</biblScope>
                   <biblScope unit="page">صفحة ٥١٦</biblScope></bibl></head>
-            <head><rs type="اعلان">اعلان</rs> من <orgName ref="عموم بيت مال مصر" type="عموم">عموم
-                  بيت مال مصر</orgName></head>
-            <p>العقارات الآتى بيانها بعد سبق اشهارها بالبيع بناء على تصريحات من <orgName ref="الداخلية" type="نظارة">الداخلية</orgName> وبلغ آخر <rs type="مزاد">مزاد</rs>
-               فى كل محل الثمن المذكور امامه بشرط ان كافة المصاريف من ميرى ودلاله ورسومات وغيرها على
-               الراسى عليهم المزادات وبيت المال مخير فى التسليم وعدمه حسب الشروط المعينة بقوائم
-               المزادات بميعاد ١٥ يوما من تاريخه حتى كل من له رغبة فى مشترى شئ زيادة عما هو راس به
-               المزاد يحضر هو أو وكيل عنه لبيت المال بالافادة والضمانة لتتميم المزاد كما هو لازم </p>
+            <head><rs type="اعلان">اعلان</rs> (نمرة حافظة التوريد ٨٠٠)</head>
+            <p>ان تصفية تركة المرحوم <persName role="وكيل-أشغال-دولتلو-البرنس-عبد-الحليم-باشا">يوسف
+                  أفندى حرام</persName> المتوفى فى ٥ مايو سنة ١٨٨٥ وكيل أشغال <persName>دولتلو
+                  البرنس عبد الحليم باشا</persName> تكون فى <placeName
+                  ref="بطريركخانة-الاقباط-الكاتوليك" type="بطريركخانة"><orgName
+                     ref="بطريركخانة-الاقباط-الكاتوليك" type="بطريركخانة">بطريركخانة الاقباط
+                     الكاتوليك</orgName></placeName> بمصر فكل من له طلب أو دين على التركه المذكورة
+               فى كل الجهات يجب عليه أن يقدمه فى البطريركخانة ويثبته ٦١ يوما من تاريخ هذا الاعلان
+               حسب الاصول وبعد نهاية المدة المعينة لا يقبل أى طلب على التركة</p>
+            <p>تحريرا بمصر ٢٥ مايو سنة ١٨٨٥</p>
+         </div>
+         <div resp="#eAK #eSG" xml:id="w360">
+            <head><date when-custom="1302-08-13">١٣ شعبان ١٣٠٢</date>
+               <date when="1885-05-27">٢٧ مايو ١٨٨٥</date>
+               <bibl><biblScope unit="issue">نمرة ٦٢</biblScope>
+                  <biblScope unit="page">صفحة ٥١٦</biblScope></bibl></head>
+            <head><rs type="اعلان">اعلان</rs> من <orgName ref="عموم-بيت-مال-مصر">عموم بيت مال
+                  مصر</orgName></head>
+            <p>العقارات الآتى بيانها بعد سبق اشهارها بالبيع بناء على تصريحات من <orgName
+                  ref="الداخلية">الداخلية</orgName> وبلغ آخر <rs type="مزاد">مزاد</rs> فى كل محل
+               الثمن المذكور امامه بشرط ان كافة المصاريف من ميرى ودلاله ورسومات وغيرها على الراسى
+               عليهم المزادات وبيت المال مخير فى التسليم وعدمه حسب الشروط المعينة بقوائم المزادات
+               بميعاد ١٥ يوما من تاريخه حتى كل من له رغبة فى مشترى شئ زيادة عما هو راس به المزاد
+               يحضر هو أو وكيل عنه لبيت المال بالافادة والضمانة لتتميم المزاد كما هو لازم</p>
             <table>
                <row>
                   <cell>عدد</cell>
@@ -7979,62 +7993,77 @@
                </row>
                <row>
                   <cell>١</cell>
-                  <cell>منزل خرب كائن ب<placeName ref="عطفة رحبه" type="عطفة">عطفة رحبه</placeName>
-                        ب<placeName ref="درب شغلان" type="درب">درب شغلان</placeName> يبلغ مقاسه
+                  <cell>منزل خرب كائن ب<placeName ref="عطفة-رحبه" type="عطفة">عطفة رحبه</placeName>
+                        ب<placeName ref="درب-شغلان" type="درب">درب شغلان</placeName> يبلغ مقاسه
                      ٤١,٣٨ ذراعا بدون حجة وأفيد من <orgName ref="الاوقاف">الاوقاف</orgName> بخلوه من
-                     شوائب الوقف مخلف عن <persName>فاطمه ليله المتوفية عن غير وارث</persName> وآخر
+                     شوائب الوقف مخلف عن <persName>فاطمه ليله</persName>  المتوفية عن غير وارث وآخر
                      عطا فيه ١٧٠ قرشا</cell>
                </row>
                <row>
                   <cell>١</cell>
-                  <cell>حصه قدرها -٤ قيراط من منزل ب<placeName ref="درب الخولا" type="درب">درب
-                        الخولا</placeName> ب<placeName ref="حارة السقايين" type="حارة">حارة
+                  <cell>حصه قدرها<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                     -٤<?oxy_custom_end?> قيراط من منزل ب<placeName ref="درب-الخولا" type="درب">درب
+                        الخولا</placeName> ب<placeName ref="حارة-السقايين" type="حارة">حارة
                         السقايين</placeName> يبلغ مقاسه ١٦٨,٣٠ ذراعا بموجب حجه ليس معينا بها حكر
-                     آيله لبيت المال من قبل المرحوم <persName>الحاج محمد رفاعى مختار طائفة
-                        الصباغين</persName> وآخر عطا فيها يمبلغ ٢٢٣٠ قرشا</cell>
+                     آيله لبيت المال من قبل المرحوم <persName>الحاج محمد
+                        رفاعى<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                        مختار طائفة الصباغين<?oxy_custom_end?></persName> وآخر عطا فيها
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>يمبلغ
+                     <?oxy_custom_end?>٢٢٣٠ قرشا</cell>
                </row>
                <row>
                   <cell>١</cell>
-                  <cell>منزل كائن ب<placeName ref="درب القطه" type="درب">درب القطه</placeName> يبلغ
-                     مقاسه ٢٢٨,٢٨ ذراعا بموجب حجة ليس معينا بها حكر مخلف عن المرحوم <persName>سليم
-                        عبد الله الخياط</persName> وآخر عطا فيه بمبلغ ٣٧٠٠٠ قرش</cell>
+                  <cell><placeName ref="منزل-سليم-عبد-الله-الخياط" type="منزل">منزل</placeName> كائن
+                        ب<placeName ref="درب-القطه" type="درب">درب القطه</placeName> يبلغ مقاسه
+                     ٢٢٨,٢٨ ذراعا بموجب حجة ليس معينا بها حكر مخلف عن المرحوم <persName>سليم عبد
+                        الله الخياط</persName> وآخر عطا فيه بمبلغ ٣٧٠٠٠ قرش</cell>
                </row>
                <row>
                   <cell>١</cell>
-                  <cell>خربه كائنة ب<placeName ref="حارة العطوف" type="حارة">حارة العطوف</placeName>
-                        ب<placeName ref="قسم الجماليه" type="قسم"><orgName ref="قسم الجماليه" type="قسم">قسم الجماليه</orgName></placeName> بدون حجة يبلغ مقاسها ١٩٦,٦
+                  <cell><placeName type="خربه" ref="خربه-مخلفه-عن-فاطمه-السراديه">خربه</placeName>
+                     كائنة ب<placeName ref="حارة-العطوف" type="حارة">حارة العطوف</placeName>
+                        ب<placeName ref="قسم-الجماليه" type="قسم"><orgName ref="قسم-الجماليه"
+                           type="قسم">قسم الجماليه</orgName></placeName> بدون حجة يبلغ مقاسها ١٩٦,٦
                      ذراعا وسابقا أفيد من الاوقاف بخلوها من شوائب الوقف مخلفة عن <persName>فاطمه
-                        السراديه المتوفيه عن بيت المال</persName> وآخر عطا فيها بمبلغ ٣٥٠
+                        السراديه</persName> المتوفيه عن بيت المال وآخر عطا فيها بمبلغ ٣٥٠
                      قرشا</cell>
                </row>
                <row>
                   <cell>١</cell>
-                  <cell>جفار قزازه كائن ب<placeName ref="درب القطه" type="درب">درب القطه</placeName>
+                  <cell>جفار قزازه كائن ب<placeName ref="درب-القطه" type="درب">درب القطه</placeName>
                      بحجة ليس معينا بها حكر يبلغ مقاسه ٤٨٧,١٠ ذراعا مخلف عن <persName>الست سلن
-                        البيضاء المتوفية عن غير وارث</persName> وآخر عطا فيه بمبلغ ٨٥٨٠ قرشا</cell>
+                        البيضاء</persName> المتوفية عن غير وارث وآخر عطا فيه بمبلغ ٨٥٨٠ قرشا</cell>
                </row>
                <row>
                   <cell>١</cell>
-                  <cell>حصه ح قيراط من منزل كائن ب<placeName ref="درب البندق" type="درب">درب
-                        البندق</placeName> ب<orgName ref="قسم السيدة زينب" type="قسم"><placeName ref="قسم السيدة زينب" type="قسم">قسم السيدة زينب</placeName></orgName>
-                     يبلغ مقاسه ١٣٨,٥١ ؟ ذراعا مخلفة عن <persName>زليخه زريحه المتوفية عن أخ
-                        مفقود</persName> وآخر عطا فيها بمبلغ ٣٠٠ قرش</cell>
+                  <cell>حصه <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ح
+                     قيراط<?oxy_custom_end?> من منزل كائن ب<placeName ref="درب-البندق" type="درب"
+                        >درب البندق</placeName> ب<orgName ref="قسم-السيدة-زينب" type="قسم"
+                           ><placeName ref="قسم-السيدة-زينب" type="قسم">قسم <persName>السيدة
+                              زينب</persName></placeName></orgName> يبلغ مقاسه
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>١٣٨,٥١ ؟
+                     ذ<?oxy_custom_end?>راعا مخلفة عن <persName>زليخه زريحه</persName> المتوفية عن
+                     أخ مفقود وآخر عطا فيها بمبلغ ٣٠٠ قرش</cell>
                </row>
                <row>
                   <cell>١</cell>
-                  <cell>حصه ح قيراط من منزل كائن ب<placeName ref="خوخة القطانين" type="خوخة">خوخة
-                        القطانين</placeName> ب<orgName ref="قسم باب الشعرية" type="قسم"><placeName ref="قسم باب الشعرية" type="قسم">قسم باب الشعرية</placeName></orgName>
-                     بحجة ليس معينا بها حكر يبلغ مقاسه ٥٥,١١ متر آيله لبيت المال من قبل المرحومه
-                        <persName>عيوشه بنت محمد المعاجنجى</persName> وآخر عطا فيها بمبلغ ٩٥
+                  <cell>حصه<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> ح
+                     قيراط<?oxy_custom_end?> من منزل كائن ب<placeName ref="خوخة-القطانين">خوخة
+                        القطانين</placeName> ب<orgName ref="قسم-باب-الشعرية" type="قسم"><placeName
+                           ref="قسم-باب-الشعرية" type="قسم">قسم <placeName ref="باب-الشعرية"
+                              type="باب">باب الشعرية</placeName></placeName></orgName> بحجة ليس
+                     معينا بها حكر يبلغ مقاسه ٥٥,١١ متر آيله لبيت المال من قبل المرحومه
+                        <persName>عيوشه بنت <persName>محمد المعاجنجى</persName></persName> وآخر عطا
+                     فيها بمبلغ ٩٥ قرشا</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>حصه قدرها ١٢ قيراطا من منزل خرب كائن ب<placeName ref="غيط-العده">غيط
+                        العده</placeName> ب<placeName ref="قسم-عابدين" type="قسم"><orgName
+                           ref="قسم-عابدين" type="قسم">قسم عابدين</orgName></placeName> يبلغ مقاسه
+                     ٣٨,٧ مترا لا يعلم لها مالك شركة <persName>الشيخ محمد المسلوب المنشد</persName>
+                     بدون حجه وأفيد من الاوقاف بخلوها من شوائب الوقف وآخر عطا فيها بمبلغ ١٤٥٠
                      قرشا</cell>
-               </row>
-               <row>
-                  <cell>١</cell>
-                  <cell>حصه قدرها ١٢ قيراطا من منزل خرب كائن ب<placeName ref="غيط العده">غيط
-                        العده</placeName> ب<orgName ref="قسم عابدين" type="قسم"><placeName ref="قسم عابدين" type="قسم"><orgName ref="قسم عابدين" type="قسم">قسم
-                              عابدين</orgName></placeName></orgName> يبلغ مقاسه ٣٨,٧ مترا لا يعلم
-                     لها مالك شركة <persName>الشيخ محمد المسلوب المنشد</persName> بدون حجه وأفيد من
-                     الاوقاف بخلوها من شوائب الوقف وآخر عطا فيها بمبلغ ١٤٥٠ قرشا</cell>
                </row>
                <row>
                   <cell>٨</cell>
