@@ -1165,13 +1165,20 @@
             <p>وعلى ما عرضه علينا ناظر الاشغال العمومية وموافقة راى مجلس نظار حكومتنا</p>
             <p>نأمر بما هو آت</p>
             <p>(المادة الاولى) </p>
-            <p>تعتبر من المنافع العمومية الشوارع والحارات والعطف وغيرها الكائنة ب<placeName ref="مدينة-القاهرة" type="مدينة">مدينة القاهرة</placeName> و<placeName ref="الجيزة">الجيزة</placeName> و<placeName ref="الزقازيق">الزقازيق</placeName>
-                  و<placeName ref="بلبيس">بلبيس</placeName> و<placeName ref="شبين الكوم">شبين
-                  الكوم</placeName> و<placeName ref="منوف العلا">منوف العلا</placeName> و<placeName ref="ميت غمر">ميت غمر</placeName> و<placeName ref="زفتى">زفتى</placeName>
-                  و<placeName ref="المحلة الكبري">المحلة الكبري</placeName> و<placeName ref="المنصورة">المنصورة</placeName> و<placeName ref="دمياط">دمياط</placeName>
-                  و<placeName ref="كفر الزيات">كفر الزيات</placeName> و<placeName ref="دمنهور">دمنهور</placeName> و<placeName ref="المحمودية">المحمودية</placeName> و<placeName ref="رشيد">رشيد</placeName> و<placeName ref="الاسكندرية">الاسكندرية</placeName>
-                  و<placeName ref="الفيوم">الفيوم</placeName> و<placeName ref="بنى سويف">بنى
-                  سويف</placeName> و<placeName ref="اسيوط">اسيوط</placeName> و<placeName ref="منفلوط">منفلوط</placeName> و<placeName ref="جرجا">جرجا</placeName>
+            <p>تعتبر من المنافع العمومية الشوارع والحارات والعطف وغيرها الكائنة ب<placeName
+                  ref="مدينة-القاهرة" type="مدينة">مدينة القاهرة</placeName> و<placeName
+                  ref="الجيزة">الجيزة</placeName> و<placeName ref="الزقازيق">الزقازيق</placeName>
+                  و<placeName ref="بلبيس">بلبيس</placeName> و<placeName ref="شبين-الكوم">شبين
+                  الكوم</placeName> و<placeName ref="منوف-العلا">منوف العلا</placeName> و<placeName
+                  ref="ميت-غمر">ميت غمر</placeName> و<placeName ref="زفتى">زفتى</placeName>
+                  و<placeName ref="المحلة-الكبرى">المحلة الكبرى</placeName> و<placeName
+                  ref="المنصورة">المنصورة</placeName> و<placeName ref="دمياط">دمياط</placeName>
+                  و<placeName ref="كفر الزيات">كفر الزيات</placeName> و<placeName ref="دمنهور"
+                  >دمنهور</placeName> و<placeName ref="المحمودية">المحمودية</placeName> و<placeName
+                  ref="رشيد">رشيد</placeName> و<placeName ref="الاسكندرية">الاسكندرية</placeName>
+                  و<placeName ref="الفيوم">الفيوم</placeName> و<placeName ref="بنى-سويف">بنى
+                  سويف</placeName> و<placeName ref="اسيوط">اسيوط</placeName> و<placeName
+                  ref="منفلوط">منفلوط</placeName> و<placeName ref="جرجا">جرجا</placeName>
                   و<placeName ref="سوهاج">سوهاج</placeName> و<placeName ref="قنا">قنا</placeName>
                   و<placeName ref="اسنا">اسنا</placeName> المبينة بالجداول المرفوقة بامرنا هذا مرموز
                لها بحروف" أ ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل "</p>
@@ -1193,19 +1200,22 @@
                   <cell>٣٤٠</cell>
                   <cell><placeName ref="شارع-جنينة-القوادر" type="شارع">شارع <placeName ref="جنينة-القوادر" type="جنينة">جنينة
                      القوادر</placeName></placeName></cell>
-                  <cell><orgName ref="ثمن-الوايلى" type="ثمن"><placeName ref="ثمن-الوايلى" type="ثمن">ثمن الوايلى</placeName></orgName></cell>
+                  <cell><orgName ref="حى-الوايلى" type="حى"><placeName ref="حى-الوايلى" type="حى"
+                           >ثمن الوايلى</placeName></orgName></cell>
                   <cell>٣ نوفمبر ١٨٨٦</cell>
                </row>
                <row>
                   <cell>٤٥٧</cell>
                   <cell>خريطة <placeName ref="شارع-السلخانة" type="شارع">شارع <orgName ref="السلخانة">السلخانة</orgName></placeName></cell>
-                  <cell><placeName ref="ثمن-السيده" type="ثمن"><orgName ref="ثمن-السيده" type="ثمن">السيده</orgName></placeName></cell>
+                  <cell><placeName ref="حى-السيده" type="حى"><orgName ref="حى-السيده" type="حى"
+                           >السيده</orgName></placeName></cell>
                   <cell>٣ نوفمبر ١٨٨٦</cell>
                </row>
                <row>
                   <cell>٤٧٧</cell>
                   <cell><placeName ref="عطفة-الاهوانى" type="عطفة">عطفة الاهوانى</placeName></cell>
-                  <cell><orgName ref="ثمن-الجمالية" type="ثمن"><placeName ref="ثمن-الجمالية" type="ثمن">الجمالية</placeName></orgName></cell>
+                  <cell><orgName ref="حى-الجمالية" type="حى"><placeName ref="حى-الجمالية" type="حى"
+                           >الجمالية</placeName></orgName></cell>
                   <cell>٣ نوفمبر ١٨٨٦</cell>
                </row>
                <row>
@@ -1223,7 +1233,8 @@
                <row>
                   <cell>٤٩٣</cell>
                   <cell><placeName ref="عطفة-الشويخ" type="عطفة">عطفة الشويخ</placeName></cell>
-                  <cell><placeName ref="ثمن-باب-الشعرية" type="ثمن"><orgName ref="ثمن-باب-الشعرية" type="ثمن">باب الشعرية</orgName></placeName></cell>
+                  <cell><placeName ref="حى-باب-الشعرية" type="حى"><orgName ref="حى-باب-الشعرية"
+                           type="حى">باب الشعرية</orgName></placeName></cell>
                   <cell>٣ نوفمبر ١٨٨٦</cell>
                </row>
                <row>
@@ -1248,7 +1259,8 @@
                   <cell>٥٣٨</cell>
                   <cell><placeName ref="شارع-الجامع-الاحمر" type="شارع">شارع <orgName ref="الجامع-الاحمر" type="جامع"><placeName ref="الجامع-الاحمر" type="جامع">الجامع الاحمر</placeName></orgName></placeName>
                         و<placeName ref="درب-الصياد" type="درب">درب الصياد</placeName> و<placeName ref="عطفة-الكتاب" type="عطفة">عطفة الكتاب</placeName></cell>
-                  <cell><placeName ref="ثمن-الازبكية" type="ثمن"><orgName ref="ثمن-الازبكية" type="ثمن">الازبكية</orgName></placeName></cell>
+                  <cell><placeName ref="حى-الازبكية" type="حى"><orgName ref="حى-الازبكية" type="حى"
+                           >الازبكية</orgName></placeName></cell>
                   <cell>٣ نوفمبر ١٨٨٦</cell>
                </row>
                <row>
@@ -1278,7 +1290,8 @@
                <row>
                   <cell>٥٦٥</cell>
                   <cell><placeName ref="شارع-جركس" type="شارع">شارع جركس</placeName></cell>
-                  <cell><placeName ref="ثمن-بولاق" type="ثمن"><orgName ref="ثمن-بولاق" type="ثمن">بولاق</orgName></placeName></cell>
+                  <cell><placeName ref="حى-بولاق" type="حى"><orgName ref="حى-بولاق" type="حى"
+                           >بولاق</orgName></placeName></cell>
                   <cell>٣ نوفمبر ١٨٨٦</cell>
                </row>
                <row>
@@ -1316,7 +1329,8 @@
                   <cell>٥٧٢</cell>
                   <cell><placeName ref="حارة-حلقوم-الجمل" type="حارة">حارة حلقوم
                      الجمل</placeName></cell>
-                  <cell><placeName ref="ثمن-قيسون" type="ثمن"><orgName ref="ثمن-قيسون" type="ثمن">قيسون</orgName></placeName></cell>
+                  <cell><placeName ref="حى-قيسون" type="حى"><orgName ref="حى-قيسون" type="حى"
+                           >قيسون</orgName></placeName></cell>
                   <cell>٣ نوفمبر ١٨٨٦</cell>
                </row>
                <row>
@@ -1362,7 +1376,8 @@
                   <cell>٥٨٢</cell>
                   <cell><placeName ref="حارة-خرابة-منصور" type="حارة">حارة <placeName ref=" خرابة-منصور" type="خرابة">خرابة
                      منصور</placeName></placeName></cell>
-                  <cell><orgName ref="ثمن-الخليفة" type="ثمن"><placeName ref="ثمن-الخليفة" type="ثمن">الخليفة</placeName></orgName></cell>
+                  <cell><orgName ref="حى-الخليفة" type="حى"><placeName ref="حى-الخليفة" type="حى"
+                           >الخليفة</placeName></orgName></cell>
                   <cell>٣ نوفمبر ١٨٨٦</cell>
                </row>
                <row>
@@ -1424,7 +1439,8 @@
                   <cell>٥٩٢</cell>
                   <cell><placeName ref="عطفة-عثمان-باشا-رفقn" type="عطفة">عطفة <persName>عثمان باشا
                            رفقى</persName></placeName></cell>
-                  <cell><placeName ref="ثمن-الدرب-الاحمر" type="ثمن"><orgName ref="ثمن-الدرب-الاحمر" type="ثمن"><placeName ref="الدرب-الاحمر" type="درب">الدرب
+                  <cell><placeName ref="حى-الدرب-الاحمر" type="حى"><orgName ref="حى-الدرب-الاحمر"
+                           type="حى"><placeName ref="الدرب-الاحمر" type="درب">الدرب
                               الاحمر</placeName></orgName></placeName></cell>
                   <cell>٣ نوفمبر ١٨٨٦</cell>
                </row>
@@ -1557,7 +1573,8 @@
                <row>
                   <cell>٦١٣</cell>
                   <cell><placeName ref="شارع-السنباطى" type="شارع">شارع السنباطى</placeName></cell>
-                  <cell><placeName ref="ثمن-عابدين" type="ثمن"><orgName ref="ثمن-عابدين" type="ثمن">عابدين</orgName></placeName></cell>
+                  <cell><placeName ref="حى-عابدين" type="حى"><orgName ref="حى-عابدين" type="حى"
+                           >عابدين</orgName></placeName></cell>
                   <cell>٢٢ ديسمبر ١٨٨٦</cell>
                </row>
                <row>
@@ -1719,7 +1736,7 @@
          </div>
          <div resp="#eAK #eSG" xml:id="w113">
             <head><date when-custom="1304-09-10">١٠ رمضان ١٣٠٤</date>
-               <date when="1887-07-01">١ يونيه ١٨٨٧</date>
+               <date when="1887-06-01">١ يونيه ١٨٨٧</date>
                <bibl><biblScope unit="issue">ملحق الوقائع عدد ٦٣</biblScope>
                   <biblScope unit="page">صفحة ١-٢</biblScope></bibl></head>
             <head>امر عال</head>
@@ -1734,10 +1751,17 @@
             <p>وعلى ما عرضه علينا ناظر الاشغال العمومية وموافقة راى مجلس نظار حكومتنا</p>
             <p>نأمر بما هو آت</p>
             <p>(المادة الاولى) </p>
-            <p>تعتبر من المنافع العمومية الشوارع والحارات والعطف وغيرها الكائنة ب<placeName ref="مدينة-القاهرة" type="مدينة">مدينة القاهرة</placeName> و<placeName ref="الجيزة">الجيزة</placeName> و<placeName ref="شبين الكوم">شبين
-                  الكوم</placeName> و<placeName ref="منوف العلا">منوف العلا</placeName> و<placeName ref="ميت غمر">ميت غمر</placeName> و<placeName ref="زفتى">زفتى</placeName>
-                  و<placeName ref="المحلة الكبرى">المحلة الكبرى</placeName> و<placeName ref="دمياط">دمياط</placeName> و<placeName ref="كفر الزيات">كفر الزيات</placeName> و<placeName ref="رشيد">رشيد</placeName> و<placeName ref="الاسكندرية">الاسكندرية</placeName>
-                  و<placeName ref="الفيوم">الفيوم</placeName> و<placeName ref="المنيا">المنيا</placeName> و<placeName ref="اسيوط">اسيوط</placeName> و<placeName ref="منفلوط">منفلوط</placeName> و<placeName ref="جرجا">جرجا</placeName>
+            <p>تعتبر من المنافع العمومية الشوارع والحارات والعطف وغيرها الكائنة ب<placeName
+                  ref="مدينة-القاهرة" type="مدينة">مدينة القاهرة</placeName> و<placeName
+                  ref="الجيزة">الجيزة</placeName> و<placeName ref="شبين-الكوم">شبين
+                  الكوم</placeName> و<placeName ref="منوف-العلا">منوف العلا</placeName> و<placeName
+                  ref="ميت-غمر">ميت غمر</placeName> و<placeName ref="زفتى">زفتى</placeName>
+                  و<placeName ref="المحلة-الكبرى">المحلة الكبرى</placeName> و<placeName ref="دمياط"
+                  >دمياط</placeName> و<placeName ref="كفر-الزيات">كفر الزيات</placeName> و<placeName
+                  ref="رشيد">رشيد</placeName> و<placeName ref="الاسكندرية">الاسكندرية</placeName>
+                  و<placeName ref="الفيوم">الفيوم</placeName> و<placeName ref="المنيا"
+                  >المنيا</placeName> و<placeName ref="اسيوط">اسيوط</placeName> و<placeName
+                  ref="منفلوط">منفلوط</placeName> و<placeName ref="جرجا">جرجا</placeName>
                   و<placeName ref="سوهاج">سوهاج</placeName> و<placeName ref="قنا">قنا</placeName>
                   و<placeName ref="اسنا">اسنا</placeName> المبينة بالجداول المرفوقة بامرنا هذا مرموز
                لها بحروف" أ ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ" </p>
@@ -1758,25 +1782,28 @@
                <row>
                   <cell>٣</cell>
                   <cell>فم <placeName ref="شارع-باب-البحر" type="شارع">شارع <placeName type="باب" ref="باب-البحر">باب البحر</placeName></placeName></cell>
-                  <cell><orgName ref="حي الازبكية" type="حي"><placeName ref="حي الازبكية" type="حي">الازبكية</placeName></orgName></cell>
-                  <cell><date when="1887-02-05">٥ فبراير ١٨٨٧</date></cell>
+                  <cell><orgName ref="حى-الازبكية" type="حى"><placeName ref="حى-الازبكية" type="حى"
+                           >الازبكية</placeName></orgName></cell>
+                  <cell>٥ فبراير ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٤</cell>
                   <cell><placeName ref="شارع-ممتاز" type="شارع">شارع ممتاز</placeName></cell>
-                  <cell><placeName ref="حي الموسكي" type="حي"><orgName ref="حي الموسكي" type="حي">الموسكي</orgName></placeName></cell>
+                  <cell><placeName ref="حى-الموسكى" type="حى"><orgName ref="حى-الموسكى" type="حى"
+                           >الموسكى</orgName></placeName></cell>
                   <cell>٥ فبراير ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦</cell>
                   <cell><placeName ref="شارع-الترجمان" type="شارع">شارع الترجمان</placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell>الموسكى</cell>
                   <cell>٥ فبراير ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧</cell>
                   <cell><placeName ref="حارة-الجنينة" type="حارة">حار الجنينة</placeName></cell>
-                  <cell><orgName ref="حي عابدين" type="حي"><placeName ref="عابدين">عابدين</placeName></orgName></cell>
+                  <cell><orgName ref="حى-عابدين" type="حى"><placeName ref="حى-عابدين" type="حى"
+                           >عابدين</placeName></orgName></cell>
                   <cell>٥ فبراير ١٨٨٧</cell>
                </row>
                <row>
@@ -1789,19 +1816,20 @@
                <row>
                   <cell>١٠</cell>
                   <cell><placeName ref="حارة-الانصارى" type="حارة">حارة الانصارى</placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell>الموسكى</cell>
                   <cell>٥ فبراير ١٨٨٧</cell>
                </row>
                <row>
                   <cell>١١</cell>
                   <cell><placeName ref="درب-العنبه" type="درب">درب العنبه</placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell>الموسكى</cell>
                   <cell>٥ فبراير ١٨٨٧</cell>
                </row>
                <row>
                   <cell>١٢</cell>
                   <cell><placeName ref="درب-أبو-لحاف" type="درب">درب أبو لحاف</placeName></cell>
-                  <cell><orgName ref="حي السيدة" type="حي"><placeName ref="السيدة">السيدة</placeName></orgName></cell>
+                  <cell><orgName ref="حى-السيدة" type="حى"><placeName ref="حى-السيدة" type="حى"
+                           >السيدة</placeName></orgName></cell>
                   <cell>٥ فبراير ١٨٨٧</cell>
                </row>
                <row>
@@ -1826,7 +1854,7 @@
                   <cell>١١٩</cell>
                   <cell><placeName ref="حارة-درب-البندق" type="حارة">حارة <placeName ref="درب-البندق" type="درب">درب البندق</placeName></placeName></cell>
                   <cell>السيده</cell>
-                  <cell><date when="1887-02-12">١٢ فبراير ١٨٨٧</date></cell>
+                  <cell>١٢ فبراير ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٢٠٣</cell>
@@ -1862,7 +1890,8 @@
                   <cell>٣٦٣</cell>
                   <cell><placeName ref="حارة-نور-الظلام" type="حارة">حارة نور
                      الظلام</placeName></cell>
-                  <cell><placeName ref="حي الخليفة" type="حي"><orgName ref="حي الخليفة" type="حي">الخليفة</orgName></placeName></cell>
+                  <cell><placeName ref="حى-الخليفة" type="حى"><orgName ref="حى-الخليفة" type="حى"
+                           >الخليفة</orgName></placeName></cell>
                   <cell>٥ فبراير ١٨٨٧</cell>
                </row>
                <row>
@@ -1889,7 +1918,8 @@
                   <cell>٣٨٩</cell>
                   <cell>جزء من <placeName type="شارع" ref="شارع-محمد-على">شارع محمد
                      على</placeName></cell>
-                  <cell><orgName ref="حي الدرب الاحمر" type="حي"><placeName ref="حي الدرب الاحمر" type="حي">الدرب الاحمر</placeName></orgName></cell>
+                  <cell><orgName ref="حى-الدرب-الاحمر" type="حى"><placeName ref="حى-الدرب-الاحمر"
+                           type="حى">الدرب الاحمر</placeName></orgName></cell>
                   <cell>٥ فبراير ١٨٨٧</cell>
                </row>
                <row>
@@ -1903,7 +1933,7 @@
                   <cell>٤١٤</cell>
                   <cell><placeName ref="شارع-العتريس" type="شارع">شارع العتريس</placeName></cell>
                   <cell>السيده</cell>
-                  <cell><date when="1887-02-23">٢٣ فبراير ١٨٨٧</date></cell>
+                  <cell>٢٣ فبراير ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٤٣٠</cell>
@@ -1916,13 +1946,15 @@
                   <cell>خريطة تقسيم <placeName ref="ارض-الميرى-المعروفة-بتل-نصر" type="ارض">ارض
                         الميرى المعروفة ب<placeName type="تل" ref="تل-نصر">تل
                         نصر</placeName></placeName></cell>
-                  <cell><placeName ref="بولاق"><orgName ref="حي بولاق" type="حي">بولاق</orgName></placeName></cell>
-                  <cell><date when="1887-01-08">٨ يناير ١٨٨٧</date></cell>
+                  <cell><placeName ref="حى-بولاق" type="حى"><orgName ref="حى-بولاق" type="حى"
+                           >بولاق</orgName></placeName></cell>
+                  <cell>٨ يناير ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٢٦</cell>
                   <cell><placeName ref="حارة-الفجالة" type="حارة">حارة الفجالة</placeName></cell>
-                  <cell><orgName ref="حي باب الشعريه" type="حي"><placeName ref="حي باب الشعريه" type="حي">باب الشعريه</placeName></orgName></cell>
+                  <cell><orgName ref="حى-باب-الشعريه" type="حى"><placeName ref="حى-باب-الشعريه"
+                           type="حى">باب الشعريه</placeName></orgName></cell>
                   <cell>٥ فبراير ١٨٨٧</cell>
                </row>
                <row>
@@ -1987,209 +2019,240 @@
                <row>
                   <cell>٦٣٧</cell>
                   <cell><placeName ref="شارع-المناصره" type="شارع">شارع المناصره</placeName>
-                        و<placeName ref="درب الجزار والصباغ وابو طبق" type="درب">درب الجزار والصباغ
-                        وابو طبق</placeName> و<placeName ref="حارة">حارة قره قوله</placeName>
-                     وعطفتين</cell>
+                        و<placeName type="درب" ref="درب-الجزار">درب الجزار</placeName> و<placeName
+                        ref="درب-الصباغ" type="درب">الصباغ</placeName> و<placeName type="درب"
+                        ref="درب-ابو-طبق">ابو طبق</placeName> و<placeName ref="حارة-قره-قوله"
+                        type="حارة">حارة قره قوله</placeName> وعطفتين</cell>
                   <cell>الموسكى</cell>
                   <cell>٥ فبراير ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٣٨</cell>
-                  <cell><placeName ref="شارع ترب المناصره" type="شارع">شارع ترب المناصره</placeName>
-                        و<placeName type="حارة" ref="حارة قلعة الطياب">حارة قلعة
-                     الطياب</placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell><placeName ref="شارع-ترب-المناصره" type="شارع">شارع <placeName type="ترب"
+                           ref="ترب-المناصره">ترب المناصره</placeName></placeName> و<placeName
+                        type="حارة" ref="حارة-قلعة-الطياب">حارة <placeName type="قلعة"
+                           ref="قلعة-الطياب">قلعة الطياب</placeName></placeName></cell>
+                  <cell>الموسكى</cell>
                   <cell>٥ فبراير ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٣٩</cell>
-                  <cell><placeName ref="درب الدقاق" type="درب">درب الدقاق</placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell><placeName ref="درب-الدقاق" type="درب">درب الدقاق</placeName></cell>
+                  <cell>الموسكى</cell>
                   <cell>٥ فبراير ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٤٠</cell>
-                  <cell><placeName ref="حارة السيدة زينب" type="حارة">حارة السيدة
-                     زينب</placeName></cell>
+                  <cell><placeName ref="حارة-السيدة-زينب" type="حارة">حارة <persName>السيدة
+                           زينب</persName></placeName></cell>
                   <cell>السيده</cell>
                   <cell>٢٣ فبراير ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٤١</cell>
-                  <cell><placeName ref="حارة درب شكنبه" type="حارة">حارة درب
-                     شكنبه</placeName></cell>
+                  <cell><placeName ref="حارة-درب-شكنبه" type="حارة">حارة <placeName type="درب"
+                           ref="درب-شكنبه">درب شكنبه</placeName></placeName></cell>
                   <cell>السيده</cell>
                   <cell>٥ فبراير ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٤٢</cell>
-                  <cell><placeName ref="حارة درب السناجره" type="حارة">حارة درب
-                     السناجره</placeName></cell>
+                  <cell><placeName ref="حارة-درب-السناجره" type="حارة">حارة <placeName type="درب"
+                           ref="درب-السناجره">درب السناجره</placeName></placeName></cell>
                   <cell>السيده</cell>
                   <cell>٥ فبراير ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٤٣</cell>
-                  <cell><placeName ref="حارة درب المدبح" type="حارة">حارة درب
-                     المدبح</placeName></cell>
+                  <cell><placeName ref="حارة-درب-المدبح" type="حارة">حارة <placeName
+                           ref="درب-المدبح" type="درب">درب <placeName ref="المدبح"
+                              >المدبح</placeName></placeName></placeName></cell>
                   <cell>السيده</cell>
                   <cell>٥ فبراير ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٤٤</cell>
-                  <cell><placeName ref="شارع الشيخ البغال" type="شارع">شارع الشيخ
-                     البغال</placeName></cell>
+                  <cell><placeName ref="شارع-الشيخ-البغال" type="شارع">شارع <persName>الشيخ
+                           البغال</persName></placeName></cell>
                   <cell>السيده</cell>
                   <cell>٥ فبراير ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٤٦</cell>
-                  <cell><placeName ref="درب البهلوان" type="درب">درب البهلوان</placeName></cell>
+                  <cell><placeName ref="درب-البهلوان" type="درب">درب البهلوان</placeName></cell>
                   <cell>السيده</cell>
                   <cell>٢٣ فبراير ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٦٥</cell>
-                  <cell><placeName ref="حارة البيدق" type="حارة">حارة البيدق</placeName></cell>
+                  <cell><placeName ref="حارة-البيدق" type="حارة">حارة البيدق</placeName></cell>
                   <cell>عابدين</cell>
                   <cell>٢٣ فبراير ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٦٦</cell>
-                  <cell><placeName ref="حارة الطوبجي" type="حارة">حارة الطوبجي</placeName></cell>
+                  <cell><placeName ref="حارة-الطوبجى" type="حارة">حارة الطوبجى</placeName></cell>
                   <cell>عابدين</cell>
                   <cell>٢٣ فبراير ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٦٧</cell>
-                  <cell><placeName ref="حارة العشي" type="حارة">حارة العشي</placeName></cell>
+                  <cell><placeName ref="حارة-العشى" type="حارة">حارة العشى</placeName></cell>
                   <cell>عابدين</cell>
                   <cell>٢٣ فبراير ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٦٨</cell>
-                  <cell><placeName ref="حارة شافعي" type="حارة">حارة شافعي</placeName></cell>
+                  <cell><placeName ref="حارة-شافعى" type="حارة">حارة شافعى</placeName></cell>
                   <cell>عابدين</cell>
                   <cell>٢٣ فبراير ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٧٢</cell>
-                  <cell><placeName ref="شارع الظاهر" type="شارع">شارع الظاهر</placeName></cell>
+                  <cell><placeName ref="شارع-الظاهر" type="شارع">شارع الظاهر</placeName></cell>
                   <cell>باب الشعرية</cell>
                   <cell>٢٣ فبراير ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٥١٤</cell>
-                  <cell><placeName ref="عطفة المقدم" type="عطفة">عطفتى المقدم</placeName>
-                        و<placeName ref="عطفة ابوشوشة" type="عطفة">ابوشوشة</placeName></cell>
-                  <cell><placeName ref="الجمالية"><orgName ref="حي الجمالية" type="حي">الجمالية</orgName></placeName></cell>
-                  <cell><date ref="1886-05-11">١١ مايو ١٨٨٦</date></cell>
+                  <cell><placeName ref="عطفة-المقدم" type="عطفة">عطفتى المقدم</placeName>
+                        و<placeName ref="عطفة-ابوشوشة" type="عطفة">ابوشوشة</placeName></cell>
+                  <cell><placeName ref="حى-الجمالية" type="حى"><orgName ref="حى-الجمالية" type="حى"
+                           >الجمالية</orgName></placeName></cell>
+                  <cell>١١ مايو ١٨٨٦</cell>
                </row>
             </table>
          </div>
-         <div resp="#eAK" xml:id="w186">
+         <div resp="#eAK #eSG" xml:id="w114">
             <head><date when-custom="1304-09-22">٢٢ رمضان ١٣٠٤</date>
-               <date when="1887-07-13">١٣ يونية ١٨٨٧</date>
+               <date when="1887-06-13">١٣ يونية ١٨٨٧</date>
                <bibl><biblScope unit="issue">عدد ٦٨</biblScope>
-                  <biblScope unit="page">ص٦٤٠</biblScope></bibl></head>
-            <head><ref type="اعلان">اعلان</ref> من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال العمومية</orgName></head>
+                  <biblScope unit="page">صفحة ٦٤٠</biblScope></bibl></head>
+            <head><ref type="اعلان">اعلان</ref> من <orgName ref="نظارة-الاشغال-العمومية"
+                  type="نظارة">نظارة الاشغال العمومية</orgName></head>
             <p>نظارة الاشغال العمومية تشهر <rs type="مزاد">مزاد</rs> تاجير البهائم والسواقين
-               اللازمين لتصليح وصيانة شوارع مدينة المحروسة عن مدة سنة كاملة على مقتضي شروط موجودة
-                  ب<orgName>قلم مشتروات النظارة</orgName> المشار اليها</p>
+               اللازمين لتصليح وصيانة شوارع مدينة المحروسة عن مدة سنة كاملة على مقتضى شروط موجودة
+                  ب<orgName ref="قلم-مشتروات-نظارة-الاشغال-العمومية">قلم مشتروات النظارة</orgName>
+               المشار اليها</p>
          </div>
-         <div resp="#eAK" xml:id="w187">
+         <div resp="#eAK #eSG" xml:id="w115">
             <head><date when-custom="1304-10-20">٢٠ شوال ١٣٠٤</date>
                <date when="1887-07-11">١١ يوليو ١٨٨٧</date>
                <bibl><biblScope unit="issue">عدد ٧٨</biblScope>
-                  <biblScope unit="page">ص ٧٣٢</biblScope></bibl></head>
-            <head><orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال
+                  <biblScope unit="page">صفحة ٧٣٢</biblScope></bibl></head>
+            <head><orgName ref="نظارة-الاشغال-العمومية" type="نظارة">نظارة الاشغال
                   العمومية</orgName></head>
             <p>ترجمة <rs type="قرار">قرار</rs> من نظارة الاشغال العمومية نمرة ٤٢٧</p>
-            <p>بناء على ما ابدته <orgName ref="ادارة عموم الصحة" type="ادارة">ادارة عموم
-                  الصحة</orgName> في تقاريرها العديدة من ان مجارى مدينة القاهرة اصبحت اناء تنسكب فيه
-               الاقذار الدائمة الاضرار بالصحة العمومية ولذلك الحت كثيرا في ابطال تلك المجارى وردمها
-               بعد تطهيرها وتنقيتها ومن حيث ان المجارى تسير اقذارها مندفعه في <placeName ref="الخليج المصري" type="خليج">الخليج المصري</placeName> فتتراكم فيه اكواما
-               مكشوفة ومعرضه للهواء وتبقي فيه طول مدة التحاريق ومن حيث ان البعض الاخر تنصب اقذاره في
-               جزء من <placeName ref="الترعة الاسماعيلية" type="ترعة">الترعة الاسماعيلية</placeName>
-               وقد قرر المجلس في جلسته المنعقدة في <date when="1887-05-28">٢٨ مايو ١٨٨٧</date>
-               بابطال ذلك الجزء وردمه نامر بما هو ات </p>
-            <p>(المادة الاولى) </p>
-            <p>تطهر <placeName ref="ادارة عموم التنظيم في القاهرة" type="ادارة">ادارة عموم التنظيم
-                  في القاهرة</placeName> المجارى العمومية التى تنسكب اقذارها في الخليج المصري وترعة
+            <p>بناء على ما ابدته <orgName ref="ادارة-عموم-الصحة" type="ادارة">ادارة عموم
+                  الصحة</orgName> في تقاريرها العديدة من ان مجارى <orgName ref="مدينة-القاهرة"
+                  type="مدينة"><placeName type="مدينة" ref=" مدينة-القاهرة">مدينة
+                     القاهرة</placeName></orgName> اصبحت اناء تنسكب فيه الاقذار الدائمة الاضرار
+               بالصحة العمومية ولذلك الحت كثيرا في ابطال تلك المجارى وردمها بعد تطهيرها وتنقيتها ومن
+               حيث ان المجارى تسير اقذارها مندفعه فى <placeName ref="الخليج-المصرى" type="خليج"
+                  >الخليج المصرى</placeName> فتتراكم فيه اكواما مكشوفة ومعرضه للهواء وتبقى فيه طول
+               مدة التحاريق ومن حيث ان البعض الاخر تنصب اقذاره فى جزء من <placeName
+                  ref="الترعة-الاسماعيلية" type="ترعة">الترعة الاسماعيلية</placeName>
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Dr. Sarah" timestamp="20240809T161146+0200" comment="فقد؟" mid="10"?>وقد<?oxy_custom_end?><?oxy_comment_end mid="10"?>
+               قرر المجلس فى جلسته المنعقدة فى ٢٨ مايو ١٨٨٧
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>بابطال ذلك الجزء
+               وردمه نامر بما هو ات<?oxy_custom_end?></p>
+            <p>(المادة الاولى)</p>
+            <p>تطهر <placeName ref="ادارة-عموم-التنظيم-فى-القاهرة" type="ادارة">ادارة عموم التنظيم
+                  فى القاهرة</placeName> المجارى العمومية التى تنسكب اقذارها فى الخليج المصرى وترعة
                الاسماعيلية ثم تردمها جميعا</p>
-            <p>(المادة الثانية) </p>
-            <p>تمنع اقذار منازل السكن عن السير في المجارى العمومية قبل حلول اول سبتمبر المقبل وعلى
-               اربابها اذا اتخاذ التحوطات اللازمة قبل حلول الميعاد المذكور لتصريف مياه منازلهم في
-               محلات يعدونها لذلك في تلك المنازل </p>
-            <p> في <date when="1887-07-02">٢ يوليه ١٨٨٧</date></p>
+            <p>(المادة الثانية)</p>
+            <p>تمنع اقذار منازل السكن عن السير فى المجارى العمومية قبل حلول اول سبتمبر المقبل وعلى
+               اربابها اذا اتخاذ التحوطات اللازمة قبل حلول الميعاد المذكور لتصريف مياه منازلهم فى
+               محلات يعدونها لذلك فى تلك المنازل</p>
+            <p> فى ٢ يوليه ١٨٨٧</p>
             <p><persName>ناظر الاشغال العمومية (عبدالرحمن رشدى)</persName></p>
          </div>
-         <div resp="#eAK" xml:id="w188">
-            <head><date when="1887-08-27">٢٧ اغسطس ١٨٨٧</date>
-               <date when-custom="1304-12-08">٨ ذي الحجة ١٣٠٤</date>
-               <bibl><biblScope unit="issue">عدد٩٦</biblScope>
-                  <biblScope unit="page">ص ٩٢٢</biblScope></bibl></head>
-            <head><ref type="اعلان">اعلان</ref> من <orgName ref="عموم بيت مال مصر">عموم بيت مال
+         <div resp="#eAK #eSG" xml:id="w116">
+            <head><date when-custom="1304-12-08">٨ ذى الحجة ١٣٠٤</date>
+               <date when="1887-08-27">٢٧ اغسطس ١٨٨٧</date>
+               <bibl><biblScope unit="issue">عدد ٩٦</biblScope>
+                  <biblScope unit="page">صفحة ٩٢٢</biblScope></bibl></head>
+            <head><ref type="اعلان">اعلان</ref> من <orgName ref="عموم-بيت-مال-مصر">عموم بيت مال
                   مصر</orgName></head>
-            <p>عن بيان العقارات السابق التصريح من <orgName ref="الداخلية" type="نظارة">الداخلية</orgName> عن مبيعها بمواعيد تحددت للاشهار وقد كان ورسى العطا فيها على
-               مذكورين بالمبالغ المبينة بكل قلم ومقتضي درج ذلك بالجرنالات الرسمية بميعاد ١٠ ايام </p>
+            <p>عن بيان العقارات السابق التصريح من <orgName ref="الداخلية">الداخلية</orgName> عن
+               مبيعها بمواعيد تحددت للاشهار وقد كان ورسى العطا فيها على مذكورين بالمبالغ المبينة بكل
+               قلم ومقتضى درج ذلك بالجرنالات الرسمية بميعاد ١٠ ايام</p>
             <table>
                <row>
-                  <cell>حصة ١٦ قيراط في بناء منزل كائن ب<placeName ref="عطفة الجوربجي" type="عطفة">عطفة الجوربجي</placeName> ب<orgName ref="قسم درب الجماميز" type="قسم"><placeName ref="قسم درب الجماميز">قسم درب الجماميز</placeName></orgName>
-                     ايله لبيت المال من قبل المرحومه <persName>الست خديجة</persName> بموجب حجة موضح
-                     بها حكر لجهة وقف <placeName ref="الحرمين الشريفين">الحرمين الشريفين</placeName>
-                     يبلغ مقاسه ٢٧٨ متر و٣١ سنتى وغير لازم للميري وبناء على ما صدر من الداخلية
-                     بتاريخ <date when-custom="1304-03-15">١٥ ربيع الاول ١٣٠٤</date> نمرة ٥٦٦ جرى
-                     اشهارها للمبيع بميعاد ٦١ يوم ورسي العطا فيها على حضرة <persName>حسين بك جاهين
+                  <cell>حصة ١٦ قيراط فى بناء منزل كائن ب<placeName ref="عطفة-الجوربجى" type="عطفة"
+                        >عطفة الجوربجى</placeName> ب<orgName ref="قسم-درب-الجماميز" type="قسم"
+                           ><placeName ref="قسم-درب-الجماميز">قسم <placeName type="درب"
+                              ref="درب-الجماميز">درب الجماميز</placeName></placeName></orgName> ايله
+                        ل<orgName ref="بيت-المال" type="بيت-مال">بيت المال</orgName> من قبل المرحومه
+                     الست خديجة بموجب حجة موضح بها حكر لجهة <orgName ref="وقف-الحرمين-الشريفين"
+                        type="وقف"><placeName ref="وقف-الحرمين-الشريفين" type="وقف">وقف الحرمين
+                           الشريفين</placeName></orgName> يبلغ مقاسه ٢٧٨ متر و٣١ سنتى وغير لازم
+                     للميرى وبناء على ما صدر من الداخلية بتاريخ ١٥ ربيع الاول ١٣٠٤ نمرة ٥٦٦ جرى
+                     اشهارها للمبيع بميعاد ٦١ يوم ورسى العطا فيها على حضرة <persName>حسين بك جاهين
                         الشريك</persName> بمبلغ ٩٧٥٠ قرشا وباقي المزايدين كفوا ايديهم وللتوضيح من
-                     حضرة <persName>حسن افندى امين المعاون</persName> والمهندسين الرياضي والمعمارى
-                     بانها تساوى من الثمن ١١ الف قرش قد حصلت الممارسة مع حضرة البيك وقبل مشتراها
-                     بمبلغ عشرة الاف وخمسمائة قرش</cell>
+                     حضرة <persName>حسن افندى امين المعاون</persName>
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>والمهندسين
+                     الرياضى والمعمارى<?oxy_custom_end?> بانها تساوى من الثمن ١١ الف قرش قد حصلت
+                     الممارسة مع حضرة البيك وقبل مشتراها بمبلغ عشرة الاف وخمسمائة قرش</cell>
                </row>
                <row>
-                  <cell>خربة كائنة ب<placeName ref="درب الاكراد" type="درب">درب الاكراد</placeName>
+                  <cell>خربة كائنة ب<placeName ref="درب-الاكراد" type="درب">درب الاكراد</placeName>
                         ب<placeName ref="الخليفة">الخليفة</placeName> لا يعلم لها مالك ولكونها بغير
                      حجة قد توضح من الاوقاف بعدم وجود شائبة له فيها ومقدار مقاسها ٨٧,٤٦ ذراع وليست
-                     لازمة للميري وبناء على ما صدر من الداخلية بتاريخ <date when-custom="1302-02-05">٥ صفر١٣٠٢</date> نمرة ١٩٢ جرى اشهارها للبيع بميعاد ٩١ يوما ورسي العطا فيها
-                     على <persName>المعلم احمد الانبعاوى</persName> بمبلغ ١٨٠٥ قروش وباقي المزايدين
-                     كفوا ايديهم ولمناسبة التوضح من حضرة <persName>حسن افندى امين المعاون</persName>
-                     والمهندسين الرياضي والمعمارى بان الخربة المذكورة تساوى من الثمن مبلغ ٢٠٠٠ قرش
-                     قد جرى اخذ قول من الراسي عليه العطا بقبوله المشترى بالمبلغ المذكور</cell>
+                     لازمة للميرى وبناء على ما صدر من الداخلية بتاريخ ٥ صفر١٣٠٢ نمرة ١٩٢ جرى اشهارها
+                     للبيع بميعاد ٩١ يوما ورسى العطا فيها على <persName>المعلم احمد
+                        الانبعاوى</persName> بمبلغ ١٨٠٥ قروش وباقى المزايدين كفوا ايديهم ولمناسبة
+                     التوضح من حضرة <persName>حسن افندى امين المعاون</persName>
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>والمهندسين
+                     الرياضى والمعمارى<?oxy_custom_end?> بان الخربة المذكورة تساوى من الثمن مبلغ
+                     ٢٠٠٠ قرش قد جرى اخذ قول من الراسى عليه العطا بقبوله المشترى بالمبلغ
+                     المذكور</cell>
                </row>
             </table>
-            <p> ٤ ذى الحجة ١٣٠٤</p>
+            <p>٤ ذى الحجة ١٣٠٤</p>
          </div>
-         <div resp="#eAK" xml:id="w189">
-            <head><date when-custom="1304-12-29">٢٩ ذي الحجة ١٣٠٤</date>
+         <div resp="#eAK #eSG" xml:id="w117">
+            <head><date when-custom="1304-12-29">٢٩ ذى الحجة ١٣٠٤</date>
                <date when="1887-09-17">١٧ سبتمبر ١٨٨٧</date>
                <bibl><biblScope unit="issue">ملحق الوقائع عدد ١٠٣</biblScope>
-                  <biblScope unit="page">ص ١-٢</biblScope></bibl></head>
+                  <biblScope unit="page">صفحة ١-٢</biblScope></bibl></head>
             <head>امر عال</head>
-            <p>نحن خديو مصر </p>
-            <p>بناء على البند العاشر من لايحة التنظيم الصادرة في <date when="1882-12-25">٢٥ ديسمبر
-                  ١٨٨٢</date> الذى صار تعديله بالصورة الاتية بمقتضي قرار <persName>مجلس
-                  النظار</persName> الرقيم ٢ مارس ١٨٨٥ وهذا نصه: </p>
-            <p>" بمجرد الإقرار على رسم خط التنظيم من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال العمومية</orgName> وصدور امر عال باعتماده فالأراضي التى
+            <p>نحن خديو مصر</p>
+            <p>بناء على البند العاشر من لايحة التنظيم الصادرة فى ٢٥ ديسمبر ١٨٨٢ الذى صار تعديله
+               بالصورة الاتية بمقتضى قرار <persName>مجلس النظار</persName> الرقيم ٢ مارس ١٨٨٥ وهذا
+               نصه:</p>
+            <p>"بمجرد الإقرار على رسم خط التنظيم من <orgName ref="نظارة-الاشغال-العمومية"
+                  type="نظارة">نظارة الاشغال العمومية</orgName> وصدور امر عال باعتماده فالأراضى التى
                يخصصها للشوارع الرسم المذكور تؤخذ شيئا فشيئا من أربابها بالطرق التى يقتضيها القانون
-               ومن وقت صدور الأمر العالي المشار إليه لا يسوغ إجراء اى بناء كان على الأراضي اللازم
-               أخذها من أربابها" </p>
+               ومن وقت صدور الأمر العالى المشار إليه لا يسوغ إجراء اى بناء كان على الأراضى اللازم
+               أخذها من أربابها"</p>
             <p>وعلى ما عرضه علينا ناظر الاشغال العمومية وموافقة راى مجلس نظار حكومتنا</p>
             <p>نأمر بما هو آت</p>
-            <p>(المادة الاولى) </p>
-            <p>تعتبر من المنافع العمومية الشوارع والحارات والعطف وغيرها الكائنة بمدينة القاهرة
-                  و<placeName ref="الجيزة">الجيزة</placeName> و<placeName ref="شبين الكوم">شبين
-                  الكوم</placeName> و<placeName ref="منوف العلا">منوف العلا</placeName> و<placeName ref="ميت غمر">ميت غمر</placeName> و<placeName ref="زفتى">زفتى</placeName>
-                  و<placeName ref="المحلة الكبري">المحلة الكبري</placeName> و<placeName ref="دمنهور">دمنهور</placeName> و<placeName ref="كفر الزيات">كفر الزيات</placeName>
-                  و<placeName ref="المنصورة">المنصورة</placeName> و<placeName ref="الاسكندرية">الاسكندرية</placeName> و<placeName ref="طنطا">طنطا</placeName> و<placeName ref="الزقازيق">الزقازيق</placeName> و<placeName ref="بنها">بنها</placeName>
-                  و<placeName ref="بلبيس">بلبيس</placeName> و<placeName ref="سمنود">سمنود</placeName> و<placeName ref="السويس">السويس</placeName> و<placeName ref="بنى سويف">بنى سويف</placeName> و<placeName ref="اسيوط">اسيوط</placeName>
-                  و<placeName ref="منفلوط">منفلوط</placeName> و<placeName ref="جرجا">جرجا</placeName> و<placeName ref="سوهاج">سوهاج</placeName> و<placeName ref="قنا">قنا</placeName> المبينة بالجداول المرفوقة بامرنا هذا مرموز لها بحروف" أ ب ت ث ج ح
+            <p>(المادة الاولى)</p>
+            <p>تعتبر من المنافع العمومية الشوارع والحارات والعطف وغيرها الكائنة ب<placeName
+                  type="مدينة" ref="مدينة-القاهرة">مدينة القاهرة</placeName> و<placeName
+                  ref="الجيزة">الجيزة</placeName> و<placeName ref="شبين-الكوم">شبين
+                  الكوم</placeName> و<placeName ref="منوف-العلا">منوف العلا</placeName> و<placeName
+                  ref="ميت-غمر">ميت غمر</placeName> و<placeName ref="زفتى">زفتى</placeName>
+                  و<placeName ref="المحلة-الكبرى">المحلة الكبرى</placeName> و<placeName ref="دمنهور"
+                  >دمنهور</placeName> و<placeName ref="كفر-الزيات">كفر الزيات</placeName>
+                  و<placeName ref="المنصورة">المنصورة</placeName> و<placeName ref="الاسكندرية"
+                  >الاسكندرية</placeName> و<placeName ref="طنطا">طنطا</placeName> و<placeName
+                  ref="الزقازيق">الزقازيق</placeName> و<placeName ref="بنها">بنها</placeName>
+                  و<placeName ref="بلبيس">بلبيس</placeName> و<placeName ref="سمنود"
+                  >سمنود</placeName> و<placeName ref="السويس">السويس</placeName> و<placeName
+                  ref="بنى-سويف">بنى سويف</placeName> و<placeName ref="اسيوط">اسيوط</placeName>
+                  و<placeName ref="منفلوط">منفلوط</placeName> و<placeName ref="جرجا"
+                  >جرجا</placeName> و<placeName ref="سوهاج">سوهاج</placeName> و<placeName ref="قنا"
+                  >قنا</placeName> المبينة بالجداول المرفوقة بامرنا هذا مرموز لها بحروف" أ ب ت ث ج ح
                خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك" </p>
             <p>(المادة الثانية)</p>
-            <p>على ناظر الاشغال العمومية تنفيذ امرنا هذا </p>
-            <p>صدر ب<placeName ref="سراى عابدين" type="سراي"><orgName ref="سراى عابدين" type="سراى">سراى عابدين</orgName></placeName> في ٤ سبتمبر ١٨٨٧</p>
-            <p><persName><persName>محمد توفيق بأمر الحضرة الخديوية</persName></persName></p>
-            <p><persName><persName>ناظر الأشغال العمومية عبد الرحمن رشدي</persName></persName></p>
-            <p>جدول حرف (أ) مصر </p>
+            <p>على ناظر الاشغال العمومية تنفيذ امرنا هذا</p>
+            <p>صدر ب<placeName ref="سراى-عابدين" type="سراي"><orgName ref="سراى-عابدين" type="سراى"
+                     >سراى عابدين</orgName></placeName> فى ٤ سبتمبر ١٨٨٧</p>
+            <p><persName>محمد توفيق بأمر الحضرة الخديوية</persName></p>
+            <p><persName>ناظر الأشغال العمومية عبد الرحمن رشدى</persName></p>
+            <p>جدول حرف (أ) مصر</p>
             <table>
                <row>
                   <cell>نمرة الرسم</cell>
@@ -2199,508 +2262,535 @@
                </row>
                <row>
                   <cell>٥</cell>
-                  <cell><placeName ref="درب الكلبه بالمناصره" type="درب">درب الكلبه ب<placeName ref="المناصره">المناصره</placeName></placeName></cell>
-                  <cell><placeName ref="حي الموسكي" type="حي"><orgName ref="حي الموسكي" type="حي">الموسكي</orgName></placeName></cell>
-                  <cell><date ref="1887-03-09">٩ مارس ١٨٨٧</date></cell>
+                  <cell><placeName ref="درب-الكلبه-بالمناصره" type="درب">درب الكلبه ب<placeName
+                           ref="المناصره">المناصره</placeName></placeName></cell>
+                  <cell><placeName ref="حى-الموسكى" type="حى"><orgName ref="حى-الموسكى" type="حى"
+                           >الموسكى</orgName></placeName></cell>
+                  <cell>٩ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٣٩٠</cell>
-                  <cell><placeName ref="شارع ترعة جزيرة بدران" type="شارع">شارع ترعة جزيرة
-                        بدران</placeName></cell>
-                  <cell><orgName ref="حي شبرا" type="حي"><placeName ref="حي شبرا" type="حي">شبرا</placeName></orgName></cell>
-                  <cell><date><date when="1887-05-11">١١ مايو ١٨٨٧</date></date></cell>
+                  <cell><placeName ref="شارع-ترعة-جزيرة-بدران" type="شارع">شارع <placeName
+                           ref="ترعة-جزيرة-بدران" type="ترعة">ترعة <placeName ref="جزيرة-بدران"
+                              type="جزيرة">جزيرة بدران</placeName></placeName></placeName></cell>
+                  <cell><orgName ref="حى-شبرا" type="حى"><placeName ref="حى-شبرا" type="حى"
+                           >شبرا</placeName></orgName></cell>
+                  <cell>١١ مايو ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٤٠٥</cell>
-                  <cell><placeName ref="شارع البهلوان" type="شارع">شارع البهلوان</placeName></cell>
-                  <cell><orgName ref="حي السيدة" type="حي"><placeName ref="السيدة">السيدة</placeName></orgName></cell>
+                  <cell><placeName ref="شارع-البهلوان" type="شارع">شارع البهلوان</placeName></cell>
+                  <cell><orgName ref="حى-السيده" type="حى"><placeName ref="حى-السيده" type="حى"
+                           >السيدة</placeName></orgName></cell>
                   <cell>٩ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٤٤١</cell>
-                  <cell><placeName ref="شار ع سلامة" type="شارع">شار ع سلامة</placeName></cell>
+                  <cell><placeName ref="شارع-سلامة" type="شارع">شارع سلامة</placeName></cell>
                   <cell>السيده</cell>
                   <cell>٩ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٥٤١</cell>
-                  <cell><placeName ref="حارة منصور" type="حارة">حارة منصور</placeName></cell>
+                  <cell><placeName ref="حارة-منصور" type="حارة">حارة منصور</placeName></cell>
                   <cell>السيده</cell>
                   <cell>٩ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٥٦٦</cell>
-                  <cell><placeName ref="حارة الميضه" type="حارة">حارة الميضه</placeName></cell>
+                  <cell><placeName ref="حارة-الميضه" type="حارة">حارة الميضه</placeName></cell>
                   <cell>السيده</cell>
                   <cell>٩ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٣٣</cell>
-                  <cell><placeName ref="حارة الصاغه" type="حارة">حارة الصاغه</placeName></cell>
-                  <cell><placeName ref="الجمالية"><orgName ref="حي الجمالية" type="حي">الجمالية</orgName></placeName></cell>
-                  <cell><date when="1887-04-02">٢ ابريل ١٨٨٧</date></cell>
+                  <cell><placeName ref="حارة-الصاغه" type="حارة">حارة الصاغه</placeName></cell>
+                  <cell><placeName ref="حى-الجمالية" type="حى"><orgName ref="حي الجمالية" type="حي"
+                           >الجمالية</orgName></placeName></cell>
+                  <cell>٢ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٤٥</cell>
-                  <cell><placeName ref="حارة الشيخ البغال" type="حارة">حارة الشيخ
-                     البغال</placeName></cell>
+                  <cell><placeName ref="حارة-الشيخ-البغال" type="حارة">حارة <persName>الشيخ
+                           البغال</persName></placeName></cell>
                   <cell>السيده</cell>
                   <cell>٩ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٤٧</cell>
-                  <cell><placeName ref="حارة لبيب" type="حارة">حارة لبيب</placeName></cell>
+                  <cell><placeName ref="حارة-لبيب" type="حارة">حارة لبيب</placeName></cell>
                   <cell>السيده</cell>
                   <cell>٩ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٤٨</cell>
-                  <cell><placeName type="درب" ref="درب طياب">درب طياب</placeName></cell>
-                  <cell><orgName ref="حي الازبكية" type="حي"><placeName ref="حي الازبكية" type="حي">الازبكية</placeName></orgName></cell>
+                  <cell><placeName type="درب" ref="درب-طياب">درب طياب</placeName></cell>
+                  <cell><orgName ref="حى-الازبكية" type="حى"><placeName ref="حى-الازبكية" type="حى"
+                           >الازبكية</placeName></orgName></cell>
                   <cell>٩ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٤٩</cell>
-                  <cell><placeName ref="درب الجنينة" type="درب">درب الجنينة</placeName></cell>
+                  <cell><placeName ref="درب-الجنينة" type="درب">درب الجنينة</placeName></cell>
                   <cell>الازبكية</cell>
-                  <cell><date when="1887-03-17">١٧ مارس ١٨٨٧</date></cell>
+                  <cell>١٧ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٥٠</cell>
-                  <cell><placeName ref="عطفة حوش القطرى" type="عطفة">عطفة حوش
-                     القطرى</placeName></cell>
+                  <cell><placeName ref="عطفة-حوش-القطرى" type="عطفة">عطفة <placeName type="حوش"
+                           ref="حوش-القطرى">حوش القطرى</placeName></placeName></cell>
                   <cell>الازبكية</cell>
                   <cell>١٧ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٥١</cell>
-                  <cell><placeName ref="حارة السوق" type="حارة">حارة السوق</placeName></cell>
+                  <cell><placeName ref="حارة-السوق" type="حارة">حارة السوق</placeName></cell>
                   <cell>الازبكية</cell>
                   <cell>٩ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٥٢</cell>
-                  <cell><placeName ref="الدرب الوسطانى" type="درب">الدرب الوسطانى</placeName></cell>
+                  <cell><placeName ref="الدرب-الوسطانى" type="درب">الدرب الوسطانى</placeName></cell>
                   <cell>الازبكية</cell>
                   <cell>٩ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٥٣</cell>
-                  <cell><placeName ref="شارع الحلمية" type="شارع">شارع الحلمية</placeName>
-                        و<placeName ref="شارع السيوفيه" type="شارع">السيوفيه</placeName></cell>
-                  <cell><placeName ref="حي الخليفة" type="حي"><orgName ref="حي الخليفة" type="حي">الخليفة</orgName></placeName></cell>
+                  <cell><placeName ref="شارع-الحلمية" type="شارع">شارع <placeName ref="الحلمية"
+                           >الحلمية</placeName></placeName> و<placeName ref="شارع-السيوفيه"
+                        type="شارع">السيوفيه</placeName></cell>
+                  <cell><placeName ref="حى-الخليفة" type="حى"><orgName ref="حى-الخليفة" type="حى"
+                           >الخليفة</orgName></placeName></cell>
                   <cell>٩ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٥٥</cell>
-                  <cell><placeName ref="درب زنين" type="درب">درب زنين</placeName></cell>
+                  <cell><placeName ref="درب-زنين" type="درب">درب زنين</placeName></cell>
                   <cell>الخليفة</cell>
                   <cell>١٧ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٥٦</cell>
-                  <cell><placeName ref="عطفة مراد باشا" type="عطفة">عطفة مراد
-                     باشا</placeName></cell>
+                  <cell><placeName ref="عطفة-مراد-باشا" type="عطفة">عطفة <persName>مراد
+                           باشا</persName></placeName></cell>
                   <cell>الخليفة</cell>
                   <cell>١٧ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٥٧</cell>
-                  <cell><placeName ref="درب البرابره" type="درب">درب البرابره</placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell><placeName ref="درب-البرابره" type="درب">درب البرابره</placeName></cell>
+                  <cell>الموسكى</cell>
                   <cell>١٧ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٥٨</cell>
-                  <cell><placeName ref="درب الجديد" type="درب">درب الجديد</placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell><placeName ref="درب-الجديد" type="درب">درب الجديد</placeName></cell>
+                  <cell>الموسكى</cell>
                   <cell>٩ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٥٩</cell>
-                  <cell><placeName ref="شارع المصابغ بكوم الشيخ سلامه" type="شارع">شارع المصابغ
-                           ب<placeName ref="كوم الشيخ سلامه">كوم الشيخ
-                     سلامه</placeName></placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell><placeName ref="شارع-المصابغ-بكوم-الشيخ-سلامه" type="شارع">شارع المصابغ
+                           ب<placeName ref="كوم-الشيخ-سلامه">كوم <persName>الشيخ
+                           سلامه</persName></placeName></placeName></cell>
+                  <cell>الموسكى</cell>
                   <cell>١٧ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٦٠</cell>
-                  <cell><placeName ref="درب العلوه بكوم الشيخ سلامه" type="درب">درب العلوه بكوم
+                  <cell><placeName ref="درب-العلوه-بكوم-الشيخ-سلامه" type="درب">درب العلوه بكوم
                         الشيخ سلامه</placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell>الموسكى</cell>
                   <cell>١٧ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٦١</cell>
-                  <cell><placeName ref="درب البشاشه بكوم الشيخ سلامه" type="درب">درب البشاشه بكوم
+                  <cell><placeName ref="درب-البشاشه-بكوم-الشيخ-سلامه" type="درب">درب البشاشه بكوم
                         الشيخ سلامه</placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell>الموسكى</cell>
                   <cell>١٧ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٦٢</cell>
-                  <cell><placeName ref="حارة الافرنج" type="حارة">حارة الافرنج</placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell><placeName ref="حارة-الافرنج" type="حارة">حارة الافرنج</placeName></cell>
+                  <cell>الموسكى</cell>
                   <cell>٩ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٦٣</cell>
-                  <cell><placeName ref="درب الزيات بكوم الشيخ سلامة" type="درب">درب الزيات بكوم
+                  <cell><placeName ref="درب-الزيات-بكوم-الشيخ-سلامة" type="درب">درب الزيات بكوم
                         الشيخ سلامة</placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell>الموسكى</cell>
                   <cell>١٧ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٦٤</cell>
                   <cell><placeName ref="درب المصابغ بكوم الشيخ سلامة" type="درب">درب المصابغ بكوم
                         الشيخ سلامة</placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell>الموسكى</cell>
                   <cell>١٧ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٦٩</cell>
-                  <cell><placeName ref="شارع الصوابي" type="شارع">شارع الصوابي</placeName></cell>
-                  <cell><orgName ref="حي باب الشعريه" type="حي"><placeName ref="حي باب الشعريه" type="حي">باب الشعريه</placeName></orgName></cell>
+                  <cell><placeName ref="شارع-الصوابى" type="شارع">شارع الصوابى</placeName></cell>
+                  <cell><orgName ref="حى-باب-الشعريه" type="حى"><placeName ref="حى-باب-الشعريه"
+                           type="حى">باب الشعريه</placeName></orgName></cell>
                   <cell>١٧ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٧٠</cell>
-                  <cell><placeName ref="شارع السبع والضبع" type="شارع">شارع السبع
+                  <cell><placeName ref="شارع-السبع-والضبع" type="شارع">شارع السبع
                      والضبع</placeName></cell>
                   <cell>باب الشعرية</cell>
                   <cell>١٧ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٧١</cell>
-                  <cell><placeName ref="الدرب الواطي" type="درب">الدرب الواطي</placeName></cell>
+                  <cell><placeName ref="الدرب-الواطى" type="درب">الدرب الواطى</placeName></cell>
                   <cell>باب الشعرية</cell>
                   <cell>١٧ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٧٣</cell>
-                  <cell><placeName ref="شارع القبوه" type="شارع">شارع القبوه</placeName></cell>
-                  <cell><orgName ref="حي الدرب الاحمر" type="حي"><placeName ref="حي الدرب الاحمر" type="حي">الدرب الاحمر</placeName></orgName></cell>
+                  <cell><placeName ref="شارع-القبوه" type="شارع">شارع القبوه</placeName></cell>
+                  <cell><orgName ref="حى-الدرب-الاحمر" type="حى"><placeName ref="حى-الدرب-الاحمر"
+                           type="حى">الدرب الاحمر</placeName></orgName></cell>
                   <cell>٩ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٧٤</cell>
-                  <cell><placeName ref="حارة العلبيه" type="حارة">حارة العلبيه</placeName></cell>
+                  <cell><placeName ref="حارة-العلبيه" type="حارة">حارة العلبيه</placeName></cell>
                   <cell>الدرب الأحمر</cell>
                   <cell>٩ مارس ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٧٥</cell>
-                  <cell><placeName ref="حارة الفحامين والعطارين" type="حارة">حارتى الفحامين
-                        والعطارين</placeName> و<placeName ref="حارة التربيعه" type="حارة">التربيعه</placeName></cell>
+                  <cell><placeName ref="حارة-الفحامين" type="حارة">حارتى الفحامين</placeName>
+                        و<placeName ref="حارة-العطارين" type="حارة">العطارين</placeName> و<placeName
+                        ref="حارة-التربيعه" type="حارة">التربيعه</placeName></cell>
                   <cell>الدرب الأحمر</cell>
-                  <cell><date when="1887-04-06">٦ ابريل ١٨٨٧</date></cell>
+                  <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٧٦</cell>
-                  <cell><placeName ref="شارع مراسينه" type="شارع">شارع مراسينه</placeName>
-                        و<placeName ref="شارع الخضيري" type="شارع">شارع الخضيري</placeName></cell>
+                  <cell><placeName ref="شارع-مراسينه" type="شارع">شارع مراسينه</placeName>
+                        و<placeName ref="شارع-الخضيرى" type="شارع">شارع الخضيرى</placeName></cell>
                   <cell>السيده</cell>
-                  <cell><date when="1887-04-09">٩ ابريل ١٨٨٧</date></cell>
+                  <cell>٩ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٧٨</cell>
-                  <cell><placeName ref="شارع العباسية" type="شارع">شارع العباسية</placeName></cell>
+                  <cell><placeName ref="شارع-العباسية" type="شارع">شارع <placeName ref="العباسية"
+                           >العباسية</placeName></placeName></cell>
                   <cell>باب الشعرية</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٧٩</cell>
-                  <cell><placeName ref="شارع الركبيه" type="شارع">شارع الركبيه</placeName></cell>
+                  <cell><placeName ref="شارع-الركبيه" type="شارع">شارع الركبيه</placeName></cell>
                   <cell>الخليفة</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٨٠</cell>
-                  <cell><placeName ref="حارة بير الوطاويط" type="حارة">حارة بير
+                  <cell><placeName ref="حارة-بير-الوطاويط" type="حارة">حارة بير
                      الوطاويط</placeName></cell>
                   <cell>الخليفة</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٨١</cell>
-                  <cell><placeName ref="حارة البزابيز" type="حارة">حارة البزابيز</placeName></cell>
+                  <cell><placeName ref="حارة-البزابيز" type="حارة">حارة البزابيز</placeName></cell>
                   <cell>الخليفة</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٨٢</cell>
-                  <cell><placeName ref="عطفة حوش الحدادين" type="عطفة">عطفة حوش
-                     الحدادين</placeName></cell>
+                  <cell><placeName ref="عطفة-حوش-الحدادين" type="عطفة">عطفة <placeName
+                           ref="حوش-الحدادين" type="حوش">حوش الحدادين</placeName></placeName></cell>
                   <cell>الخليفة</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٨٣</cell>
-                  <cell><placeName ref="درب الشرفا" type="درب">درب الشرفا</placeName></cell>
+                  <cell><placeName ref="درب-الشرفا" type="درب">درب الشرفا</placeName></cell>
                   <cell>باب الشعرية</cell>
-                  <cell><date when="1887-06-20">٢٠ يونيه ١٨٨٧</date></cell>
+                  <cell>٢٠ يونيه ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٨٤</cell>
-                  <cell><placeName ref="حارة البيومى" type="حارة">حارة البيومى</placeName></cell>
+                  <cell><placeName ref="حارة-البيومى" type="حارة">حارة البيومى</placeName></cell>
                   <cell>باب الشعرية</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٨٥</cell>
-                  <cell><placeName ref="شارع الهد" type="شارع">شارع الهد</placeName></cell>
+                  <cell><placeName ref="شارع-الهد" type="شارع">شارع
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الهد<?oxy_custom_end?></placeName></cell>
                   <cell>باب الشعرية</cell>
-                  <cell><date when="1887-05-25">٢٥ مايو ١٨٨٧</date></cell>
+                  <cell>٢٥ مايو ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٨٦</cell>
-                  <cell><placeName ref="حارة زرع النوى" type="حارة">حارة زرع
+                  <cell><placeName ref="حارة-زرع-النوى" type="حارة">حارة زرع
                      النوى</placeName></cell>
                   <cell>باب الشعرية</cell>
                   <cell>٢٥ مايو ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٨٧</cell>
-                  <cell><placeName ref="حارة صلاح" type="حارة">حارة صلاح</placeName></cell>
+                  <cell><placeName ref="حارة-صلاح" type="حارة">حارة صلاح</placeName></cell>
                   <cell>باب الشعرية</cell>
                   <cell>٢٥ مايو ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٨٨</cell>
-                  <cell><placeName ref="عطفة حوشا لنخله ويوسف بك" type="عطفة">عطفة حوشا لنخله ويوسف
-                        بك</placeName></cell>
+                  <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><placeName
+                        ref="عطفة-حوشا-لنخله-ويوسف-بك" type="عطفة">عطفة حوشا لنخله ويوسف
+                        بك</placeName><?oxy_custom_end?></cell>
                   <cell>باب الشعرية</cell>
                   <cell>٢٥ مايو ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٨٩</cell>
-                  <cell><placeName ref="عطفة العش" type="عطفة">عطفة العش</placeName></cell>
+                  <cell><placeName ref="عطفة-العش" type="عطفة">عطفة العش</placeName></cell>
                   <cell>باب الشعرية</cell>
                   <cell>٢٥ مايو ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٩٠</cell>
-                  <cell>كمالة <placeName ref="شارع محمد علي" type="شارع">شارع محمد
-                     علي</placeName></cell>
-                  <cell><orgName ref="حي عابدين" type="حي"><placeName ref="عابدين">عابدين</placeName></orgName></cell>
+                  <cell><placeName type="كمالة" ref="كمالة-شارع-محمد-على">كمالة <placeName
+                           ref="شارع-محمد-على" type="شارع">شارع <persName>محمد
+                           على</persName></placeName></placeName></cell>
+                  <cell><orgName ref="حى-عابدين" type="حى"><placeName ref="حى-عابدين" type="حى"
+                           >عابدين</placeName></orgName></cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٩١</cell>
-                  <cell><placeName ref="عطفة الشيخ نده" type="عطفة">عطفة الشيخ
-                     نده</placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell><placeName ref="عطفة-الشيخ-نده" type="عطفة">عطفة <persName>الشيخ
+                           نده</persName></placeName></cell>
+                  <cell>الموسكى</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٩٢</cell>
-                  <cell><placeName ref="حارة عبد الشهيد" type="حارة">حارة عبد
+                  <cell><placeName ref="حارة-عبد-الشهيد" type="حارة">حارة عبد
                      الشهيد</placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell>الموسكى</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٩٣</cell>
-                  <cell><placeName ref="حوش الحين" type="حوش">حوش الحين</placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell><placeName ref="حوش-الحين" type="حوش">حوش الحين</placeName></cell>
+                  <cell>الموسكى</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٩٤</cell>
-                  <cell><placeName ref="حارة كنيسة الارمن الكاثوليك" type="حارة">حارة <placeName ref="كنيسة الارمن الكاثوليك" type="كنيسة">كنيسة الارمن
-                           الكاثوليك</placeName></placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell><placeName ref="حارة-كنيسة-الارمن-الكاثوليك" type="حارة">حارة <orgName
+                           ref="كنيسة-الارمن-الكاثوليك" type="كنيسة"><placeName
+                              ref="كنيسة-الارمن-الكاثوليك" type="كنيسة">كنيسة الارمن
+                              الكاثوليك</placeName></orgName></placeName></cell>
+                  <cell>الموسكى</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٩٥</cell>
-                  <cell>علوة <placeName ref="درب مصطفي">درب مصطفي</placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>علوة
+                        <placeName ref="درب-مصطفى" type="درب">درب
+                        مصطفى<?oxy_custom_end?></placeName></cell>
+                  <cell>الموسكى</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٩٦</cell>
-                  <cell><placeName type="شارع">شارع درب النوبي</placeName></cell>
-                  <cell>الموسكي والازبكية</cell>
+                  <cell><placeName type="شارع" ref="شارع-درب-النوبى">شارع درب
+                     النوبى</placeName></cell>
+                  <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الموسكى
+                     والازبكية<?oxy_custom_end?></cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٩٧</cell>
-                  <cell><placeName ref="درب المزين" type="درب ">درب المزين</placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell><placeName ref="درب-المزين" type="درب ">درب المزين</placeName></cell>
+                  <cell>الموسكى</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٦٩٩</cell>
-                  <cell><placeName ref="شارع درب الجنينة" type="شارع">شارع درب
+                  <cell><placeName ref="شارع-درب-الجنينة" type="شارع">شارع درب
                      الجنينة</placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell>الموسكى</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧٠٠</cell>
-                  <cell><placeName ref="شارع دسوقي" type="شارع">شارع دسوقي</placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell><placeName ref="شارع-دسوقى" type="شارع">شارع دسوقى</placeName></cell>
+                  <cell>الموسكى</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧٠١</cell>
-                  <cell><placeName ref="درب نخنوخ" type="درب">درب نخنوخ</placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell><placeName ref="درب-نخنوخ" type="درب">درب نخنوخ</placeName></cell>
+                  <cell>الموسكى</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧٠٢</cell>
-                  <cell><placeName ref="الشارع البحرى بدرب الجنينة" type="شارع">الشارع البحرى
-                           ب<placeName ref="درب الجنينة" type="درب">درب
-                        الجنينة</placeName></placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell><placeName ref="الشارع-البحرى-بدرب-الجنينة" type="شارع">الشارع البحرى بدرب
+                        الجنينة</placeName></cell>
+                  <cell>الموسكى</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧٠٣</cell>
-                  <cell><placeName ref="درب قطرى" type="درب">درب قطرى</placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell><placeName ref="درب-قطرى" type="درب">درب قطرى</placeName></cell>
+                  <cell>الموسكى</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧٠٤</cell>
-                  <cell><placeName ref="شارع علوة درب مصطفي" type="شارع">شارع علوة درب
-                        مصطفي</placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell><placeName ref="شارع-علوة-درب-مصطفى" type="شارع">شارع علوة درب
+                        مصطفى</placeName></cell>
+                  <cell>الموسكى</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧٠٥</cell>
-                  <cell><placeName ref="عطفة البحرى" type="عطفة">عطفة البحرى</placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell><placeName ref="عطفة-البحرى" type="عطفة">عطفة البحرى</placeName></cell>
+                  <cell>الموسكى</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧٠٦</cell>
-                  <cell><placeName ref="عطفة الشاعر" type="عطفة">عطفة الشاعر</placeName></cell>
-                  <cell>الموسكي</cell>
+                  <cell><placeName ref="عطفة-الشاعر" type="عطفة">عطفة الشاعر</placeName></cell>
+                  <cell>الموسكى</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧٠٧</cell>
-                  <cell><placeName ref="شارع الساحه" type="شارع">شارع الساحه</placeName></cell>
+                  <cell><placeName ref="شارع-الساحه" type="شارع">شارع الساحه</placeName></cell>
                   <cell>عابدين</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧٠٨</cell>
-                  <cell><placeName ref="حارة ابوسيف" type="حارة">حارة ابوسيف</placeName></cell>
+                  <cell><placeName ref="حارة-ابوسيف" type="حارة">حارة ابوسيف</placeName></cell>
                   <cell>عابدين</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧٠٩</cell>
-                  <cell><placeName ref="حارة جنينة الطواشي" type="حارة">حارة <placeName ref="جنينة الطواشي" type="جنينة">جنينة
-                     الطواشي</placeName></placeName></cell>
+                  <cell><placeName ref="حارة-جنينة-الطواشى" type="حارة">حارة <placeName
+                           ref="جنينة-الطواشى" type="جنينة">جنينة
+                     الطواشى</placeName></placeName></cell>
                   <cell>عابدين</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧١٠</cell>
-                  <cell><placeName ref="حارة فايد" type="حارة">حارة فايد</placeName></cell>
+                  <cell><placeName ref="حارة-فايد" type="حارة">حارة فايد</placeName></cell>
                   <cell>عابدين</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧١١</cell>
-                  <cell><placeName ref="شارع زين العابدين" type="شارع">شارع زين
-                     العابدين</placeName></cell>
+                  <cell><placeName ref="شارع-زين-العابدين" type="شارع">شارع <persName>زين
+                           العابدين</persName></placeName></cell>
                   <cell>السيده</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧١٢</cell>
-                  <cell><placeName ref="شارع السد الجوانى" type="شارع">شارع السد
+                  <cell><placeName ref="شارع-السد-الجوانى" type="شارع">شارع السد
                      الجوانى</placeName></cell>
                   <cell>السيده</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧١٣</cell>
-                  <cell><placeName ref="شارع مقامي" type="شارع">شارع مقامي</placeName></cell>
+                  <cell><placeName ref="شارع-مقامى" type="شارع">شارع مقامى</placeName></cell>
                   <cell>السيده</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧١٤</cell>
-                  <cell><placeName ref="حارة الرماح" type="حارة">حارة الرماح</placeName></cell>
+                  <cell><placeName ref="حارة-الرماح" type="حارة">حارة الرماح</placeName></cell>
                   <cell>السيده</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧١٥</cell>
-                  <cell><placeName ref="شارع جامع البنات" type="شارع">شارع جامع
-                     البنات</placeName></cell>
+                  <cell><placeName ref="شارع-جامع-البنات" type="شارع">شارع <orgName
+                           ref="جامع-البنات" type="جامع"><placeName ref="جامع-البنات" type="جامع"
+                              >جامع البنات</placeName></orgName></placeName></cell>
                   <cell>الموسكى</cell>
                   <cell>٦ ابريل ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧١٧</cell>
-                  <cell><placeName ref="حارة الصايغ" type="حارة">حارة الصايغ</placeName> و<placeName ref="عطفة كوع القرد" type="عطفة">عطفة كوع القرد</placeName></cell>
+                  <cell><placeName ref="حارة-الصايغ" type="حارة">حارة الصايغ</placeName> و<placeName
+                        ref="عطفة-كوع-القرد" type="عطفة">عطفة كوع القرد</placeName></cell>
                   <cell>الخليفة</cell>
                   <cell>٢٥ مايو ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧١٩</cell>
-                  <cell><placeName ref="شارع سوق الجراية" type="شارع">شارع سوق
-                     الجراية</placeName></cell>
+                  <cell><placeName ref="شارع-سوق-الجراية" type="شارع">شارع <orgName type="سوق"
+                           ref="سوق-الجراية"><placeName type="سوق" ref="سوق-الجراية">سوق
+                              الجراية</placeName></orgName></placeName></cell>
                   <cell>باب الشعرية</cell>
                   <cell>٢٥ مايو ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧٢٠</cell>
-                  <cell><placeName ref="شارع الشعراوى" type="شارع">شارع الشعراوى</placeName></cell>
+                  <cell><placeName ref="شارع-الشعراوى" type="شارع">شارع الشعراوى</placeName></cell>
                   <cell>باب الشعرية</cell>
                   <cell>٢٥ مايو ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧٢٢</cell>
-                  <cell><placeName type="شارع" ref="شارع الشرم">شارع الشرم</placeName></cell>
+                  <cell><placeName type="شارع" ref="شارع-الشرم">شارع الشرم</placeName></cell>
                   <cell>الازبكية</cell>
                   <cell>٢٥ مايو ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧٢٣</cell>
-                  <cell><placeName ref="شارع ابوالريش" type="شارع">شارع ابوالريش</placeName></cell>
+                  <cell><placeName ref="شارع-ابو-الريش" type="شارع">شارع ابوالريش</placeName></cell>
                   <cell>باب الشعرية</cell>
                   <cell>٢٥ مايو ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧٢٤</cell>
-                  <cell><placeName ref="سكة الصوافة" type="سكة">سكة الصوافة</placeName></cell>
+                  <cell><placeName ref="سكة-الصوافة" type="سكة">سكة الصوافة</placeName></cell>
                   <cell>عابدين</cell>
                   <cell>٢٠ يونيه ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧٢٦</cell>
-                  <cell><placeName ref="حارة علم الدين" type="حارة">حارة علم
+                  <cell><placeName ref="حارة-علم-الدين" type="حارة">حارة علم
                      الدين</placeName></cell>
                   <cell>عابدين</cell>
                   <cell>٢٥ مايو ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧٢٩</cell>
-                  <cell><placeName ref="شارع السبيل" type="شارع">شارع السبيل</placeName></cell>
+                  <cell><placeName ref="شارع-السبيل" type="شارع">شارع السبيل</placeName></cell>
                   <cell>السيده</cell>
                   <cell>٢٥ مايو ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧٣٠</cell>
-                  <cell><placeName ref="شارع طيلون" type="شارع">شارع طيلون</placeName></cell>
+                  <cell><placeName ref="شارع-طيلون" type="شارع">شارع طيلون</placeName></cell>
                   <cell>السيده</cell>
                   <cell>٢٥ مايو ١٨٨٧</cell>
                </row>
                <row>
                   <cell>٧٣١</cell>
-                  <cell><placeName ref="شارع المصبغة والكبابجي ومسعود" type="شارع">شارع المصبغة
-                        والكبابجي ومسعود</placeName></cell>
+                  <cell><placeName ref="شارع-المصبغة" type="شارع">شارع المصبغة</placeName>
+                        و<placeName type="شارع" ref="شارع-الكبابجى">الكبابجى</placeName> و<placeName
+                        ref="شارع-مسعود" type="شارع">مسعود</placeName></cell>
                   <cell>السيده</cell>
                   <cell>٢٥ مايو ١٨٨٧</cell>
                </row>
