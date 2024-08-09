@@ -193,273 +193,323 @@
   
   <text xml:lang="ar">
       <body>
-         <div resp="#eAK" xml:id="w480">
+         <div resp="#eAK #eSG" xml:id="w480">
             <head><date when-custom="1305-03-22">٢٢ ربيع الأول ١٣٠٥</date>
                <date when="1887-12-07">٧ ديسمبر ١٨٨٧</date>
                <bibl><biblScope unit="issue">عدد ١٣٨</biblScope>
-                  <biblScope unit="page">ص ١٤٠٧</biblScope></bibl></head>
-            <head><rs type="اعلان">اعلان</rs> من <orgName ref="بيت مال مصر">عموم <orgName ref="بيت مال مصر">بيت مال مصر</orgName></orgName></head>
-            <p>عن بيان العقارات السابق صدور اوامر <orgName ref="نظارة الداخلية" type="نظارة">الداخلية</orgName> بمبيعها بمواعيد تحددت للاشهار وقد كان وجرى النشر عنها لكافة
-               الجهات عموما ورسي العطا فيها على مذكورين بالاثمان المبينة بكل قلم ومقتضي درج ذلك
+                  <biblScope unit="page">صفحة ١٤٠٧</biblScope></bibl></head>
+            <head><rs type="اعلان">اعلان</rs> من <orgName ref="عموم-بيت-مال-مصر">عموم <orgName
+                     ref="بيت-مال-مصر" type="بيت-مال">بيت مال مصر</orgName></orgName></head>
+            <p>عن بيان العقارات السابق صدور اوامر <orgName ref="الداخلية" type="نظارة"
+                  >الداخلية</orgName> بمبيعها بمواعيد تحددت للاشهار وقد كان وجرى النشر عنها لكافة
+               الجهات عموما ورسى العطا فيها على مذكورين بالاثمان المبينة بكل قلم ومقتضى درج ذلك
                بالجرنالات الرسمية بميعاد ١٠ ايام</p>
             <list rend="bulleted">
-               <item>
-                  <hi style="font-size:14ptdirection:rtl;">نصف <placeName ref="منزل أمينة بنت صالح اغا" type="منزل">منزل</placeName> كائن ب<placeName ref="درب الدليل" type="درب">درب الدليل</placeName> ب<placeName ref="الدرب الاحمر" type="درب">الدرب الاحمر</placeName> ايل لبيت المال من قبل
+               <item><hi style="font-size:14ptdirection:rtl;">نصف
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><placeName
+                        type="منزل" ref="منزل-امينة-بنت-صالح-اغا-و-محمد-العجيزى-الاشراقى"
+                        >منزل</placeName><?oxy_custom_end?><?oxy_comment_start author="Dr. Sarah" timestamp="20240809T185546+0200" comment="لو اسم الرجل طلع الاشرافى يبقى يتصحح
+"?><?oxy_comment_end?>كائن
+                        ب<placeName ref="درب-الدليل" type="درب">درب الدليل</placeName> ب<placeName
+                        ref="الدرب-الاحمر" type="درب">الدرب الاحمر</placeName> ايل لبيت المال من قبل
                      المرحومه <persName>امينة بنت صالح اغا</persName> يبلغ مقاس المنزل ١٥٧ متر و١٠
-                     سنتى وغير لازم للميري وبناء على ما سبق صدوره من الداخلية بتاريخ ٢٣ ربيع الاخر
+                     سنتى وغير لازم للميرى وبناء على ما سبق صدوره من الداخلية بتاريخ ٢٣ ربيع الاخر
                      ١٢٩٦ نمرة ٧٣ جرى اشهار <rs type="مزاد">مزاد</rs> مبيعه بميعاد ٩١ يوما من تاريخ
-                     ٢ رجب ١٣٠٤ ورسي مزاده على <persName>محمد العجيزى الاشراقي الشريك</persName>
-                     بمبلغ ٥١٠٠ قرش صاغ وتوضح من حضرات <persName>حسين افندى امين المعاون</persName>
-                     والمهندس الرياضي والمهندس المعمارى بموافقة هذا الثمن</hi>
+                     ٢ رجب ١٣٠٤ ورسى مزاده على <persName>محمد العجيزى
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Dr. Sarah" timestamp="20240809T185416+0200" comment="الاشرافى؟" mid="3"?>الاشراقى<?oxy_custom_end?><?oxy_comment_end mid="3"?>
+                        الشريك</persName> بمبلغ ٥١٠٠ قرش صاغ وتوضح من حضرات <persName>حسين افندى
+                        امين المعاون</persName> والمهندس الرياضى والمهندس المعمارى بموافقة هذا
+                     الثمن</hi>
                </item>
-               <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">نصف <placeName ref="منزل محمد اغا قواص باشا" type="منزل">منزل</placeName> خرب ب<placeName ref="حارة قرع على" type="حارة">حارة قرع على</placeName> ب<orgName ref="قسم عابدين" type="قسم"><placeName ref="قسم عابدين" type="قسم">قسم عابدين</placeName></orgName> مخلف عن <persName>محمد اغا قواص باشا الغير معلوم حياته من مماته</persName> ولا محل وجوده ولا وجود ورثه له يبلغ مقاس المنزل جميعه ٦٥ متر و٦٤ سنتى وغير لازم للميري وبناء على ما صدر من الداخلية بتاريخ ٢٨ صفر ١٣٠٤ نمرة ٥٤٣ جرى اشهار مزاده اخيرا على <persName>خليل افندى شراره</persName> بالتوكيل بمبلغ ٢٨٠٠ قرش بعد كف يد الشريك وتوضح من حضرة <persName>حسين افندى امين المعاون</persName> ومهندسي الديوان الرياضي والمعمارى بموافقة هذا الثمن </hi>
+               <item><hi style="font-size:14ptdirection:rtl;" xml:space="preserve">نصف <placeName ref="نصف-منزل-محمد-اغا-قواص-باشا" type="نصف-منزل">منزل</placeName> خرب ب<placeName ref="حارة-قرع-على" type="حارة">حارة قرع على</placeName> ب<orgName ref="قسم-عابدين" type="قسم"><placeName ref="قسم-عابدين" type="قسم">قسم عابدين</placeName></orgName> مخلف عن <persName>محمد اغا قواص باشا</persName> الغير معلوم حياته من مماته ولا محل وجوده ولا وجود ورثه له يبلغ مقاس المنزل جميعه ٦٥ متر و٦٤ سنتى وغير لازم للميرى وبناء على ما صدر من الداخلية بتاريخ ٢٨ صفر ١٣٠٤ نمرة ٥٤٣ جرى اشهار مزاده اخيرا على <persName>خليل افندى شراره</persName> بالتوكيل بمبلغ ٢٨٠٠ قرش بعد كف يد الشريك وتوضح من حضرة حسين افندى امين المعاون ومهندسى الديوان الرياضى والمعمارى بموافقة هذا الثمن</hi>
                </item>
             </list>
          </div>
-         <div resp="#eAK" xml:id="w481">
-            <head><date when-custom="1305-04-23">٢٣ ربيع الثاني ١٣٠٥</date>
+         <div resp="#eAK #eSG" xml:id="w481">
+            <head><date when-custom="1305-04-23">٢٣ ربيع الثانى ١٣٠٥</date>
                <date when="1888-01-07">٧ يناير ١٨٨٨</date>
                <bibl><biblScope unit="issue">عدد ٣</biblScope>
-                  <biblScope unit="page">ص ٣٣</biblScope></bibl></head>
+                  <biblScope unit="page">صفحة ٣٣</biblScope></bibl></head>
             <head>اعلانات رسمية</head>
-            <head><rs type="اعلان">اعلان</rs> من <orgName ref="بلدية مصر" type="بلدية">بلدية
+            <head><rs type="اعلان">اعلان</rs> من <orgName ref="بلدية-مصر" type="بلدية">بلدية
                   مصر</orgName></head>
-            <p><orgName ref="مصلحة عوائد الاملاك المبنية" type="مصلحة">مصلحة عوائد الاملاك
+            <p><orgName ref="مصلحة-عوائد-الاملاك-المبنية" type="مصلحة">مصلحة عوائد الاملاك
                   المبنية</orgName></p>
-            <p>تنفيذا لما هو مدون بالمادة الحادية عشرة من الامر العالى الصادر في ١٣ مارس ١٨٨٤ مامور
+            <p>تنفيذا لما هو مدون بالمادة الحادية عشرة من الامر العالى الصادر فى ١٣ مارس ١٨٨٤ مامور
                الدائرة البلدية بمصر يتشرف باحاطة حضرات ارباب الاملاك بمصر
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ابان<?oxy_custom_end?>
-               جرائد تمويل المباني التى صار نشوها بناء وتطبيقا للاوامر
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Dr. Sarah" timestamp="20240809T190223+0200" comment="بأن؟" mid="5"?>ابان<?oxy_custom_end?><?oxy_comment_end mid="5"?>
+               جرائد تمويل المبانى التى صار
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Dr. Sarah" timestamp="20240809T190206+0200" comment="نشرها؟" mid="7"?>نشوها<?oxy_custom_end?><?oxy_comment_end mid="7"?>
+               بناء وتطبيقا للاوامر
                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>العاليى<?oxy_custom_end?>
-               الصادرة في ١٣ مارس ١٨٨٤ و١١ ابريل ١٨٨٦ قد صار اتمامها لاجراء العمل بمقتضاها وان هذه
-               الجرائد موجودة ب<orgName ref="ديوان الدائرة البلدية" type="ديوان"><placeName ref="ديوان الدائرة البلدية" type="ديوان">ديوان الدائرة
+               الصادرة فى١٣ مارس ١٨٨٤ و١١ ابريل ١٨٨٦ قد صار اتمامها لاجراء العمل بمقتضاها وان هذه
+               الجرائد موجودة ب<orgName ref="ديوان-الدائرة-البلدية" type="ديوان"><placeName
+                     ref="ديوان-الدائرة-البلدية" type="ديوان">ديوان الدائرة
                   البلدية</placeName></orgName> لاطلاع ارباب الشان عليها في ساعات ادارة المصلحة وذلك
                ابتداء من يوم السبت ٧ يناير ١٨٨٨</p>
             <p>ومن مقتضي تلك الجرائد سيبتدا في عملية التحصيل ويجب
                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>عل<?oxy_custom_end?>
                كل ممول ان يسدد ما هو مربوط عليه في المواعيد المقررة والا يكون واقعا تحت احكام بند ١٤
                من الامر العالى الرقيم ١٣ مارس ١٨٨٤</p>
-            <p> ٤ يناير ١٨٨٨ </p>
-            <p> مامور الدائرة البلدية</p>
-            <p>
-               <persName>محمد كمال</persName></p>
+            <p>٤ يناير ١٨٨٨</p>
+            <p> مامور <orgName ref="الدائرة-البلدية">الدائرة البلدية</orgName></p>
+            <p><persName role="مأمور-الدائرة-البلدية">محمد كمال</persName></p>
          </div>
-         <div resp="#eAK" xml:id="w482">
+         <div resp="#eAK #eSG" xml:id="w482">
             <head><date when-custom="1305-04-25">٢٥ ربيع الثانى ١٣٠٥</date>
                <date when="1888-01-09">٩ يناير ١٨٨٨</date>
                <bibl><biblScope unit="issue">عدد ٤</biblScope>
-                  <biblScope unit="page">ص ٤٣</biblScope></bibl></head>
-            <head><rs type="اعلان">اعلان</rs> من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال العمومية</orgName></head>
-            <p>نظارة الاشغال العمومية تعيد اشهار <rs type="مزاد">مزاد</rs> تاجير الكراسي الموجودة
-               حول <placeName ref="كشك الموسيقي العسكرية" type="كشك">كشك الموسيقي
-                  العسكرية</placeName> ب<placeName ref="حديقة الازبكية" type="حديقة">حديقة
-                  الازبكية</placeName> على مقتضي شروط موجودة ب<orgName ref="قلم المشتروات بقسم هندسة نظارة الاشغال العمومية" type="قلم">قلم المشتروات
-                  بقسم هندسة النظارة</orgName> المشار اليها وقد تحدد لنهو هذا المزاد يوم ١١ يناير
+                  <biblScope unit="page">صفحة ٤٣</biblScope></bibl></head>
+            <head><rs type="اعلان">اعلان</rs> من <orgName ref="نظارة-الاشغال-العمومية" type="نظارة"
+                  >نظارة الاشغال العمومية</orgName></head>
+            <p>نظارة الاشغال العمومية تعيد اشهار <rs type="مزاد">مزاد</rs> تاجير الكراسى الموجودة
+               حول <placeName ref="كشك-الموسيقى-العسكرية-بحديقة-الازبكية" type="كشك">كشك الموسيقى
+                  العسكرية</placeName> ب<placeName ref="حديقة-الازبكية" type="حديقة">حديقة
+                  الازبكية</placeName> على مقتضى شروط موجودة ب<orgName
+                  ref="قلم-المشتروات-بقسم-هندسة-نظارة-الاشغال-العمومية" type="قلم">قلم المشتروات
+                     ب<orgName ref="قسم-هندسة-نظارة-الاشغال-العمومية" type="قسم">قسم هندسة
+                     النظارة</orgName></orgName> المشار اليها وقد تحدد لنهو هذا المزاد يوم ١١ يناير
                ١٨٨٨ وتقديم العطاء يكون على ورقة تمغة داخل مظاريف يصير فتحها بحضور اربابها في الميعاد
                المحدد فكل من له رغبة في ذلك فليحضر للقلم.</p>
          </div>
-         <div resp="#eAK" xml:id="w483">
-            <head><date when-custom="1305-04-25">٢٥ ربيع الثاني ١٣٠٥</date>
+         <div resp="#eAK #eSG" xml:id="w483">
+            <head><date when-custom="1305-04-25">٢٥ ربيع الثانى ١٣٠٥</date>
                <date when="1888-01-09">٩ يناير ١٨٨٨</date>
                <bibl><biblScope unit="issue">عدد ٤</biblScope>
-                  <biblScope unit="page">ص ٤٣</biblScope></bibl></head>
-            <head><rs type="اعلان">اعلان</rs> من <orgName ref="نظارة الداخلية" type="نظارة">نظارة
+                  <biblScope unit="page">صفحة ٤٣</biblScope></bibl></head>
+            <head><rs type="اعلان">اعلان</rs> من <orgName ref="نظارة-الداخلية" type="نظارة">نظارة
                   الداخلية</orgName></head>
-            <head><orgName ref="ادارة مصالح الصحة العمومية" type="ادارة">ادارة مصالح الصحة
+            <head><orgName ref="ادارة-مصالح-الصحة-العمومية" type="ادارة">ادارة مصالح الصحة
                   العمومية</orgName></head>
-            <p>ادارة مصالح الصحة تتشرف بإعلان العموم بانها مستعدة لقبول عطاات بشان توريد صنف الشعير
-               والفول والتبن الأبيض اللازم لمؤونة مواشي <orgName ref="مصلحة طرق مصر" type="مصلحة">مصلحة طرق مصر</orgName> عام ١٨٨٨ فكل من له رغبة في ذلك يحب عليه ان يقدم طلبا
-               محررا على ورقة تمغه من فئة ٣ قروش داخل مظروف مغلق برسم ادارة مصالح الصحة لغاية ٢٤
-               يناير ١٨٨٨</p>
+            <p><orgName ref="ادارة-مصالح-الصحة" type="ادارة">ادارة مصالح الصحة</orgName> تتشرف
+               بإعلان العموم بانها مستعدة لقبول
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>عطاات<?oxy_custom_end?>
+               بشان توريد صنف الشعير والفول والتبن الأبيض اللازم لمؤونة مواشى <orgName
+                  ref="مصلحة-طرق-مصر" type="مصلحة">مصلحة طرق مصر</orgName> عام ١٨٨٨ فكل من له رغبة
+               فى ذلك
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>يحب<?oxy_custom_end?>
+               عليه ان يقدم طلبا محررا على ورقة تمغه من فئة ٣ قروش داخل مظروف مغلق برسم ادارة مصالح
+               الصحة لغاية ٢٤ يناير ١٨٨٨</p>
          </div>
-         <div resp="#eAK" xml:id="w484">
+         <div resp="#eAK #eSG" xml:id="w484">
             <head><date when-custom="1305-06-10">١٠ جمادى الثانية ١٣٠٥</date>
                <date when="1888-02-22">٢٢ فبراير ١٨٨٨</date>
                <bibl><biblScope unit="issue">عدد ٢٣</biblScope>
-                  <biblScope unit="page">ص ٣٢٨</biblScope></bibl></head>
-            <head><rs type="اعلان">اعلان</rs> من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال العمومية</orgName></head>
-            <head><orgName ref="قسم الإدارة بنظارة الاشغال العمومية" type="قسم">قسم
+                  <biblScope unit="page">صفحة ٣٢٨</biblScope></bibl></head>
+            <head><rs type="اعلان">اعلان</rs> من <orgName ref="نظارة-الاشغال-العمومية" type="نظارة"
+                  >نظارة الاشغال العمومية</orgName></head>
+            <head><orgName ref="قسم-الإدارة-بنظارة-الاشغال-العمومية" type="قسم">قسم
                   الإدارة</orgName></head>
-            <p>نظارة الأشغال العمومية ستطرح في ال<rs type="مزاد">مزاد</rs> عملية توريد المهمات
-               اللازمة لأشغال الكباري بمدينة المحروسة في سنة ١٨٨٨، فكل من له رغبة بالدخول في هذا
-               المزاد يمكنه أن يطلع على الشروط والرسومات المختصة بذلك في قسم الإدارة كل يوم من
-               الساعه ١٠ صباحا إلى الواحدة ظهرا ما عدا أيام الجمعة والأعياد وان يقدم عطاه مكتوبا إلى
+            <p>نظارة الأشغال العمومية ستطرح فى ال<rs type="مزاد">مزاد</rs> عملية توريد المهمات
+               اللازمة لأشغال الكبارى بمدينة المحروسة فى سنة ١٨٨٨، فكل من له رغبة بالدخول فى هذا
+               المزاد يمكنه أن يطلع على الشروط والرسومات المختصة بذلك فى قسم الإدارة كل يوم من
+               الساعه ١٠ صباحا إلى الواحدة ظهرا ما عدا أيام الجمعة والأعياد وان يقدم عطاه مكتوبا
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Dr. Sarah" timestamp="20240809T191443+0200" comment="على؟" mid="13"?>إلى<?oxy_custom_end?><?oxy_comment_end mid="13"?>
                ورقة تمغة داخل مظروف إلى حضرة رئيس قسم الإدارة </p>
          </div>
-         <div resp="#eAK" xml:id="w485">
+         <div resp="#eAK #eSG" xml:id="w485">
             <head><date when-custom="1305-06-10">١٠ جمادى الثانية ١٣٠٥</date>
                <date when="1888-02-22">٢٢ فبراير ١٨٨٨</date>
                <bibl><biblScope unit="issue">عدد ٢٣</biblScope>
-                  <biblScope unit="page">ص ٣٢٩</biblScope></bibl></head>
-            <head><rs type="اعلان">اعلان</rs> من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال العمومية</orgName></head>
-            <head><orgName ref="قسم الإدارة بنظارة الاشغال العمومية" type="قسم">قسم
+                  <biblScope unit="page">صفحة ٣٢٩</biblScope></bibl></head>
+            <head><rs type="اعلان">اعلان</rs> من <orgName ref="نظارة-الاشغال-العمومية" type="نظارة"
+                  >نظارة الاشغال العمومية</orgName></head>
+            <head><orgName ref="قسم-الإدارة-بنظارة-الاشغال-العمومية" type="قسم">قسم
                   الإدارة</orgName></head>
-            <p>نظارة الأشغال العمومية ستطرح في ال<rs type="مزاد">مزاد</rs> عملية توريد المهمات
-               والادوات اللازمة لجناين ومغروسات المحروسة وتصليح الطرق المعموله بالمكدام في سنة
+            <p>نظارة الأشغال العمومية ستطرح فى ال<rs type="مزاد">مزاد</rs> عملية توريد المهمات
+               والادوات اللازمة لجناين ومغروسات المحروسة وتصليح الطرق المعموله بالمكدام فى سنة
                ١٨٨٨</p>
          </div>
-         <div resp="#eAK" xml:id="w486">
+         <div resp="#eAK #eSG" xml:id="w486">
             <head><date when-custom="1305-06-10">١٠ جمادى الثانية ١٣٠٥</date>
                <date when="1888-02-22">٢٢ فبراير ١٨٨٨</date>
                <bibl><biblScope unit="issue">عدد ٢٣</biblScope>
-                  <biblScope unit="page">ص ٣٢٩</biblScope></bibl></head>
-            <head><rs type="اعلان">اعلان</rs> من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال العمومية</orgName></head>
-            <head><orgName ref="قسم الإدارة بنظارة الاشغال العمومية" type="قسم">قسم
+                  <biblScope unit="page">صفحة ٣٢٩</biblScope></bibl></head>
+            <head><rs type="اعلان">اعلان</rs> من <orgName ref="نظارة-الاشغال-العمومية" type="نظارة"
+                  >نظارة الاشغال العمومية</orgName></head>
+            <head><orgName ref="قسم-الإدارة-بنظارة-الاشغال-العمومية" type="قسم">قسم
                   الإدارة</orgName></head>
-            <p>نظارة الأشغال العمومية ستطرح في ال<rs type="مزاد">مزاد</rs> عملية توريد الاصناف
-               الازمة لورشة التصليحات اشغال مدينة المحروسة في سنة ١٨٨٨، فكل من له رغبة بالدخول في
-               هذا المزاد يمكنه أن يطلع على الشروط والرسومات المختصة بذلك في قسم الإدارة كل يوم من
-               الساعه ١٠ صباحا إلى الواحدة ظهرا ما عدا أيام الجمعة والأعياد وان يقدم عطاه مكتوبا إلى
-               ورقة تمغة داخل مظروف إلى حضرة رئيس قسم الإدارة </p>
-            <p>وان يكتب على المظروف (عطا عن اصناف لزوم ادوات المياه والغاز بمدينة مصر)</p>
+            <p>نظارة الأشغال العمومية ستطرح فى ال<rs type="مزاد">مزاد</rs> عملية توريد الاصناف
+               الازمة ل<orgName type="ورشة" ref="ورشة-التصليحات-اشغال-مدينة-المحروسة">ورشة التصليحات
+                  اشغال <placeName type="مدينة" ref="مدينة-المحروسة">مدينة
+                  المحروسة</placeName></orgName> فى سنة ١٨٨٨، فكل من له رغبة بالدخول فى هذا المزاد
+               يمكنه أن يطلع على الشروط والرسومات المختصة بذلك فى قسم الإدارة كل يوم من الساعه ١٠
+               صباحا إلى الواحدة ظهرا ما عدا أيام الجمعة والأعياد وان يقدم عطاه مكتوبا إلى ورقة تمغة
+               داخل مظروف إلى حضرة رئيس قسم الإدارة</p>
+            <p>وان يكتب على المظروف (عطا عن اصناف لزوم ادوات المياه والغاز ب<placeName type="مدينة"
+                  ref="مدينة-مصر">مدينة مصر</placeName>)</p>
          </div>
-         <div resp="#eAK" xml:id="w487">
+         <div resp="#eAK #eSG" xml:id="w487">
             <head><date when-custom="1305-06-10">١٠ جمادى الثانية ١٣٠٥</date>
                <date when="1888-02-22">٢٢ فبراير ١٨٨٨</date>
                <bibl><biblScope unit="issue">عدد ٢٣</biblScope>
-                  <biblScope unit="page">ص ٣٢٩</biblScope></bibl></head>
-            <head><rs type="اعلان">اعلان</rs> من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال العمومية</orgName></head>
-            <head><orgName ref="قسم الإدارة بنظارة الاشغال العمومية" type="قسم">قسم
+                  <biblScope unit="page">صفحة ٣٢٩</biblScope></bibl></head>
+            <head><rs type="اعلان">اعلان</rs> من <orgName ref="نظارة-الاشغال-العمومية" type="نظارة"
+                  >نظارة الاشغال العمومية</orgName></head>
+            <head><orgName ref="قسم-الإدارة-بنظارة-الاشغال-العمومية" type="قسم">قسم
                   الإدارة</orgName></head>
             <p>نظارة الأشغال العمومية ستطرح في ال<rs type="مزاد">مزاد</rs> عملية توريد المهمات
-               والعدد اللازمة لتركيب وصيانة افمام الرش بمدينة المحروسة في سنة ١٨٨٨، فكل من له رغبة
-               بالدخول في هذا المزاد يمكنه أن يطلع على الشروط والرسومات المختصة بذلك في قسم الإدارة
-               كل يوم من الساعه ١٠ صباحا إلى الواحدة ظهرا ما عدا أيام الجمعة والأعياد وان يقدم عطاه
-               مكتوبا إلى ورقة تمغة داخل مظروف إلى حضرة رئيس قسم الإدارة </p>
-            <p>وان يكتب على المظروف (عطا عن توريد المهمات والعدد اللازمة لتركيب وصيانة افمام الرش)
-            </p>
+               والعدد اللازمة لتركيب وصيانة افمام الرش ب<placeName type="مدينة" ref="مدينة-المحروسة"
+                  >مدينة المحروسة</placeName> فى سنة ١٨٨٨، فكل من له رغبة بالدخول فى هذا المزاد
+               يمكنه أن يطلع على الشروط والرسومات المختصة بذلك في قسم الإدارة كل يوم من الساعه ١٠
+               صباحا إلى الواحدة ظهرا ما عدا أيام الجمعة والأعياد وان يقدم عطاه مكتوبا إلى ورقة تمغة
+               داخل مظروف إلى حضرة رئيس قسم الإدارة</p>
+            <p>وان يكتب على المظروف (عطا عن توريد المهمات والعدد اللازمة لتركيب وصيانة افمام
+               الرش)</p>
          </div>
-         <div resp="#eAK" xml:id="w488">
+         <div resp="#eAK #eSG" xml:id="w488">
             <head><date when-custom="1305-06-10">١٠ جمادى الثانية ١٣٠٥</date>
                <date when="1888-02-22">٢٢ فبراير ١٨٨٨</date>
                <bibl><biblScope unit="issue">عدد ٢٣</biblScope>
-                  <biblScope unit="page">ص ٣٢٩</biblScope></bibl></head>
-            <head><rs type="اعلان">اعلان</rs> من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال العمومية</orgName></head>
-            <p><orgName ref="قسم الإدارة بنظارة الاشغال العمومية" type="قسم">قسم
+                  <biblScope unit="page">صفحة ٣٢٩</biblScope></bibl></head>
+            <head><rs type="اعلان">اعلان</rs> من <orgName ref="نظارة-الاشغال-العمومية" type="نظارة"
+                  >نظارة الاشغال العمومية</orgName></head>
+            <p><orgName ref="قسم-الإدارة-بنظارة-الاشغال-العمومية" type="قسم">قسم
                الإدارة</orgName></p>
             <p>نظارة الأشغال العمومية ستطرح في ال<rs type="مزاد">مزاد</rs> عملية توريد الاصناف
-               اللازمة لصيانة ادوات المياه والغاز بمدينة مصر و<placeName ref="جنينة الازبكية" type="جنينة">جنينة الازبكية</placeName> سنة ١٨٨٨</p>
+               اللازمة لصيانة ادوات المياه والغاز ب<orgName ref="مدينة-مصر" type="مدينة">مدينة
+                  مصر</orgName> و<placeName ref="جنينة-الازبكية" type="جنينة">جنينة
+                  الازبكية</placeName> سنة ١٨٨٨</p>
          </div>
          <div resp="#eAK" xml:id="w489">
             <head><date when-custom="1305-06-15">١٥ جمادى الثانية ١٣٠٥</date>
                <date when="1888-02-27">٢٧ فبراير ١٨٨٨</date>
                <bibl><biblScope unit="issue">عدد ٢٥</biblScope>
-                  <biblScope unit="page">ص ٣٦٨- ٣٦٩</biblScope></bibl></head>
+                  <biblScope unit="page">صفحة ٣٦٨- ٣٦٩</biblScope></bibl></head>
             <head>اعلانات رسمية</head>
-            <head><rs type="اعلان">اعلان</rs> من <orgName ref="الدائرة البلدية بمحروسة مصر" type="دائرة">الدائرة البلدية بمحروسة مصر</orgName></head>
-            <p>تعلن الدائرة البلدية بمصر اصحاب الأملاك المبينة بان الانتخابات المقتضي اجراوها لتعيين
-               الاعضاء الذين تتشكل منهم لجان تقدير اجر الأملاك المستجدة و<orgName ref="مجلس المراجعة" type="مجلس">مجلس المراجعة</orgName> عملا بالامر العالى الصادر
-               في ١٣ مارس ١٨٨٤ وال<rs type="قرار">قرار</rs> الصادر من نظارة المالية في ٢٠ فبراير
-               ١٨٨٨ تكون في الايام وفي المحلات الموضحه بعده </p>
-            <p>والانتخابات عن كل قسم تكون في اليوم المحدد له كالموضح بعد من الساعه ١٠ افرنكي صباحا
-               لغاية الساعه ٤ افرنكي بعد الظهر واجراء الانتخابات يكون بحسب الكيفية المبينة بالمنشور
-               نمرة ٣١ اموال مقررة حسب المادة السادسة من الامر المشار اليه ويكون ابتداوها من اول
-               اغسطس ١٨٨٨</p>
+            <head><rs type="اعلان">اعلان</rs> من <orgName ref="الدائرة-البلدية-بمحروسة-مصر"
+                  type="دائرة">الدائرة البلدية بمحروسة مصر</orgName></head>
+            <p>تعلن <orgName ref="الدائرة-البلدية-بمصر">الدائرة البلدية بمصر</orgName> اصحاب الأملاك
+               المبينة بان الانتخابات المقتضى اجراوها لتعيين الاعضاء الذين تتشكل منهم <orgName
+                  type="لجان" ref="لجان-تقدير-اجر-الأملاك-المستجدة">لجان تقدير اجر الأملاك
+                  المستجدة</orgName> و<orgName ref="مجلس-المراجعة" type="مجلس">مجلس
+                  المراجعة</orgName> عملا بالامر العالى الصادر في ١٣ مارس ١٨٨٤ وال<rs type="قرار"
+                  >قرار</rs> الصادر من <orgName type="نظارة" ref="نظارة-المالية">نظارة
+                  المالية</orgName> فى ٢٠ فبراير ١٨٨٨ تكون فى الايام وفى المحلات
+               الموضحه<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+               بعده<?oxy_custom_end?></p>
+            <p>والانتخابات عن كل قسم تكون فى اليوم المحدد له كالموضح بعد من الساعه ١٠ افرنكى صباحا
+               لغاية الساعه ٤ افرنكى بعد الظهر واجراء الانتخابات يكون بحسب الكيفية المبينة بالمنشور
+               نمرة ٣١ اموال مقررة حسب المادة السادسة من الامر المشار اليه ويكون
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Dr. Sarah" timestamp="20240809T193424+0200" comment="ابتداؤها؟" mid="16"?>ابتداوها<?oxy_custom_end?><?oxy_comment_end mid="16"?>
+               من اول اغسطس ١٨٨٨</p>
             <table>
                <row>
                   <cell>اسماء الاقسام</cell>
                   <cell>تواريخ الانتخابات</cell>
                   <cell>المحلات التى تكون بها الانتخابات</cell>
-                  <cell>عدد الاشخاص ارباب الاملاك المقتضي انتخابهم لكل قسم بمعرفة كل منتخب
-                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>(بكسر
-                     الخاء)<?oxy_custom_end?> من ارباب املاك كل قسم</cell>
+                  <cell>عدد الاشخاص ارباب الاملاك المقتضي انتخابهم لكل قسم بمعرفة كل منتخب (بكسر
+                     الخاء) من ارباب املاك كل قسم</cell>
                </row>
                <row>
-                  <cell><placeName ref="عابدين">عابدين</placeName></cell>
+                  <cell><orgName type="قسم" ref="قسم-عابدين"><placeName ref="قسم-عابدين" type="قسم"
+                           >عابدين</placeName></orgName></cell>
                   <cell>اول مارس ١٨٨٨</cell>
                   <cell>
-                     <p>محل <placeName ref="ديوان الدائرة البلدية" type="ديوان"><orgName ref="ديوان الدائرة البلدية" type="ديوان">ديوان الدائرة
-                              البلدية</orgName></placeName> الكائن ب<placeName ref="العتبة الخضرا">العتبة الخضرا</placeName></p>
+                     <p>محل <placeName ref="ديوان-الدائرة-البلدية" type="ديوان"><orgName
+                              ref="ديوان-الدائرة-البلدية" type="ديوان">ديوان الدائرة
+                              البلدية</orgName></placeName> الكائن ب<placeName ref="العتبة الخضرا"
+                           >العتبة الخضرا</placeName></p>
                   </cell>
                   <cell>١٢</cell>
                </row>
                <row>
-                  <cell><placeName ref="الازبكية">الازبكية</placeName></cell>
+                  <cell><orgName type="قسم" ref="قسم-الازبكية"><placeName ref="قسم-الازبكية"
+                           type="قسم">الازبكية</placeName></orgName></cell>
                   <cell>٣ مارس ١٨٨٨</cell>
                   <cell/>
                   <cell>١٢</cell>
                </row>
                <row>
-                  <cell><placeName ref="شبرا">شبرا</placeName></cell>
+                  <cell><orgName ref="قسم-شبرا" type="قسم"><placeName ref="قسم-شبرا" type="قسم"
+                           >شبرا</placeName></orgName></cell>
                   <cell>٥ مارس ١٨٨٨</cell>
                   <cell/>
                   <cell>١٢</cell>
                </row>
                <row>
-                  <cell><placeName ref="الموسكي">الموسكي</placeName></cell>
+                  <cell><orgName ref="قسم-الموسكى" type="قسم"><placeName ref="قسم-الموسكى"
+                           type="قسم">الموسكى</placeName></orgName></cell>
                   <cell>٦ مارس ١٨٨٨</cell>
                   <cell/>
                   <cell>١٢</cell>
                </row>
                <row>
-                  <cell><placeName ref="باب الشعريه">باب الشعريه</placeName></cell>
+                  <cell><orgName ref="قسم-باب-الشعريه" type="قسم"><placeName ref="قسم-باب-الشعريه"
+                           type="قسم">باب الشعريه</placeName></orgName></cell>
                   <cell>٧ مارس ١٨٨٨</cell>
                   <cell/>
                   <cell>١٢</cell>
                </row>
                <row>
-                  <cell><placeName ref="الوايلي">الوايلي</placeName></cell>
+                  <cell><orgName type="قسم" ref="قسم-الوايلى"><placeName ref="قسم-الوايلى"
+                           type="قسم">الوايلى</placeName></orgName></cell>
                   <cell>٨ مارس ١٨٨٨</cell>
                   <cell/>
                   <cell>١٢</cell>
                </row>
                <row>
-                  <cell><placeName ref="بولاق">بولاق</placeName></cell>
+                  <cell><orgName ref="قسم-بولاق" type="قسم"><placeName ref="قسم-بولاق" type="قسم"
+                           >بولاق</placeName></orgName></cell>
                   <cell>١٠ مارس ١٨٨٨</cell>
                   <cell/>
                   <cell>١٢</cell>
                </row>
                <row>
-                  <cell><placeName ref="الدرب الاحمر">الدرب الاحمر</placeName></cell>
+                  <cell><orgName type="قسم" ref="قسم-الدرب-الاحمر"><placeName ref="قسم-الدرب-الاحمر"
+                           type="قسم">الدرب الاحمر</placeName></orgName></cell>
                   <cell>١٢ مارس ١٨٨٨</cell>
                   <cell/>
                   <cell>١٢</cell>
                </row>
                <row>
-                  <cell><placeName ref="مصر القديمة">مصر القديمة</placeName></cell>
+                  <cell><orgName type="قسم" ref="قسم-مصر-القديمة"><placeName ref="قسم-مصر-القديمة"
+                           type="قسم">مصر القديمة</placeName></orgName></cell>
                   <cell>١٣ مارس ١٨٨٨</cell>
                   <cell/>
                   <cell>١٢</cell>
                </row>
                <row>
-                  <cell><placeName ref="السيد ة زينب">السيد ة زينب</placeName></cell>
+                  <cell><orgName ref="قسم-السيدة-زينب" type="قسم"><placeName ref="قسم-السيدة-زينب"
+                           type="قسم">السيدة زينب</placeName></orgName></cell>
                   <cell>١٤مارس ١٨٨٨</cell>
                   <cell/>
                   <cell>١٢</cell>
                </row>
                <row>
-                  <cell><placeName ref="الخليفة">الخليفة</placeName></cell>
+                  <cell><orgName type="قسم" ref="قسم-الخليفة"><placeName ref="قسم-الخليفة"
+                           type="قسم">الخليفة</placeName></orgName></cell>
                   <cell>١٥ مارس ١٨٨٨</cell>
                   <cell/>
                   <cell>١٢</cell>
                </row>
                <row>
-                  <cell><placeName ref="الجمالية">الجمالية</placeName></cell>
+                  <cell><orgName type="قسم" ref="قسم-الجمالية"><placeName ref="قسم-الجمالية"
+                           type="قسم">الجمالية</placeName></orgName></cell>
                   <cell>١٧ مارس ١٨٨٨</cell>
                   <cell/>
                   <cell>١٢</cell>
                </row>
             </table>
-            <p>ومنتخبون <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>(بكسر
-               الخاء)<?oxy_custom_end?> كل قسم لهم الحرية المطلقة في انتخاب الاثنى عشر صاحب ملك ممن
+            <p>ومنتخبون (بكسر الخاء) كل قسم لهم الحرية المطلقة في انتخاب الاثنى عشر صاحب ملك ممن
                يريدونهم من ارباب املاك القسم سواء كان من رعايا الحكومة السنية او من تبعة الدول
-               الاجنبية وعلى هذا الدائرة البلدية تدعو أرباب الاملاك الذين لهم حق للحضور في المحلات
-               الموضحة قبل في التواريخ المحددة لإجراء الانتخابات</p>
-            <p>تحريرا بمصر ٢٠ فبراير ١٨٨٨ </p>
+               الاجنبية وعلى هذا الدائرة البلدية تدعو أرباب الاملاك الذين لهم حق للحضور فى المحلات
+               الموضحة قبل فى التواريخ المحددة لإجراء الانتخابات</p>
+            <p>تحريرا بمصر ٢٠ فبراير ١٨٨٨</p>
          </div>
-         <div resp="#eAK" xml:id="w490">
+         <div resp="#eAK #eSG" xml:id="w490">
             <head><date when-custom="1305-06-20">٢٠ جمادى الثانية ١٣٠٥</date>
                <date when="1888-03-03">٣ مارس ١٨٨٨</date>
                <bibl><biblScope unit="issue">نمرة ٢٧</biblScope>
-                  <biblScope unit="page">ص ٣٩٨</biblScope></bibl></head>
-            <head><orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال
+                  <biblScope unit="page">صفحة ٣٩٨</biblScope></bibl></head>
+            <head><orgName ref="نظارة-الاشغال-العمومية" type="نظارة">نظارة الاشغال
                   العمومية</orgName></head>
-            <p>بناء على <rs type="قرار">قرار</rs> صادر من النظارة في ٢٩ فبراير الماضي قد اعتمدت
+            <p>بناء على <rs type="قرار">قرار</rs> صادر من النظارة فى ٢٩ فبراير الماضى قد اعتمدت
                الزيادات المبينة على مرتبات المستخدمين الظهورات المذكورين بعد اعتبار من اول يناير
-               ١٨٨٨ وهم من مستخدمى ادارة الاشغال الفنية
+               ١٨٨٨ وهم من مستخدمى <orgName type="ادارة"
+                  ref="ادارة-الاشغال-الفنية-بنظارة-الاشغال-العمومية">ادارة الاشغال الفنية</orgName>
                و<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>تختسب<?oxy_custom_end?>
-               تلك الزيادات من المليون جنيه </p>
+               تلك الزيادات من المليون جنيه</p>
             <p>وها هى اسماؤهم</p>
             <table>
                <row>
@@ -470,28 +520,33 @@
                   <cell>المرتب الجديد</cell>
                </row>
                <row>
-                  <cell><persName>يعقوب ابراهيم</persName></cell>
+                  <cell><persName role="كاتب-بادارة-الاشغال-الفنية-بنظارة-الاشغال-العمومية">يعقوب
+                        ابراهيم</persName></cell>
                   <cell>كاتب</cell>
                   <cell>١٢٠</cell>
                   <cell>٦٠</cell>
                   <cell>١٨٠</cell>
                </row>
                <row>
-                  <cell><persName>فوندديرهيدن</persName></cell>
+                  <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><persName
+                        role="كاتب-بادارة-الاشغال-الفنية-بنظارة-الاشغال-العمومية"
+                        >فوندديرهيدن</persName><?oxy_custom_end?></cell>
                   <cell>كاتب</cell>
                   <cell>٩٦</cell>
                   <cell>٢٤</cell>
                   <cell>١٢٠</cell>
                </row>
                <row>
-                  <cell><persName>لاسيور</persName></cell>
+                  <cell><persName role="lملاحظ-بادارة-الاشغال-الفنية-بنظارة-الاشغال-العمومية"
+                        >لاسيور</persName></cell>
                   <cell>ملاحظ</cell>
                   <cell>١٢٠</cell>
                   <cell>٢٤</cell>
                   <cell>١٤٤</cell>
                </row>
                <row>
-                  <cell><persName>احمد جاهين</persName></cell>
+                  <cell><persName role="ملاحظ-بادارة-الاشغال-الفنية-بنظارة-الاشغال-العمومية">احمد
+                        جاهين</persName></cell>
                   <cell>ملاحظ</cell>
                   <cell>٩٦</cell>
                   <cell>٢٤</cell>
@@ -499,115 +554,140 @@
                </row>
             </table>
          </div>
-         <div resp="#eAK" xml:id="w491">
+         <div resp="#eAK #eSG" xml:id="w491">
             <head><date when-custom="1305-08-14">١٤ شعبان ١٣٠٥</date>
                <date when="1888-04-25">٢٥ ابريل ١٨٨٨</date>
                <bibl><biblScope unit="issue">عدد ٥٠</biblScope>
-                  <biblScope unit="page">ص ٩١٧-٩١٨</biblScope></bibl></head>
-            <head><orgName ref="لجنة حفظ الاثار القديمة العربية" type="لجنة">لجنة حفظ الاثار القديمة
+                  <biblScope unit="page">صفحة ٩١٧-٩١٨</biblScope></bibl></head>
+            <head><orgName ref="لجنة-حفظ-الاثار-القديمة-العربية" type="لجنة">لجنة حفظ الاثار القديمة
                   العربية</orgName></head>
-            <head>ترجمة التقرير الأربعين للقومسيون الثاني</head>
+            <head>ترجمة التقرير الأربعين للقومسيون الثانى</head>
             <p>الكشف على الاثار الموضحه بعد</p>
-            <p>أولا: <placeName ref="سبيل السلطان محمود" type="سبيل"><orgName ref="سبيل السلطان محمود" type="سبيل">سبيل <persName>السلطان
-                     محمود</persName></orgName></placeName> ب<placeName ref="درب الحبانية" type="درب">درب الحبانية</placeName> تجاه نمرة ٢٠٣ من رسم <persName>جران
+            <p>أولا: <placeName ref="سبيل-السلطان-محمود" type="سبيل"><orgName
+                     ref="سبيل-السلطان-محمود" type="سبيل">سبيل <persName>السلطان
+                     محمود</persName></orgName></placeName> ب<placeName ref="درب-الحبانية"
+                  type="درب">درب الحبانية</placeName> تجاه نمرة ٢٠٣ من رسم <persName>جران
                   بك</persName>
             </p>
-            <p>ثانيا: <orgName ref="سبيل زين العابدين" type="سبيل"><placeName ref="سبيل زين العابدين" type="سبيل">سبيل زين العابدين</placeName></orgName>
-                  ب<placeName ref="درب لوليه" type="درب">درب لوليه</placeName> ب<placeName ref="شارع الازهر" type="شارع">شارع الازهر</placeName> E نمرة ١٥ من رسم
+            <p>ثانيا: <orgName ref="سبيل-زين-العابدين" type="سبيل"><placeName
+                     ref="سبيل-زين-العابدين" type="سبيل">سبيل <persName>زين
+                     العابدين</persName></placeName></orgName> ب<placeName ref="درب-لوليه"
+                  type="درب">درب لوليه</placeName> ب<placeName ref="شارع-الازهر" type="شارع">شارع
+                     <placeName ref="الازهر">الازهر</placeName></placeName> E نمرة ١٥ من رسم
                   <persName>جران بك</persName>
             </p>
-            <p>ثالثا: <orgName ref="مدرسة متقال" type="مدرسة"><placeName ref="مدرسة متقال" type="مدرسة">مدرسة متقال</placeName></orgName> ب<placeName ref="درب قرمز" type="درب">درب قرمز</placeName> ب<placeName ref="قسم الجمالية" type="قسم"><orgName ref="قسم الجمالية" type="قسم">قسم الجمالية</orgName></placeName> D\E نمرة ١٩ من
-               رسم <persName>جران بك</persName>
+            <p>ثالثا: <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><orgName
+                  ref="مدرسة-متقال" type="مدرسة"><placeName ref="مدرسة-متقال" type="مدرسة">مدرسة
+                     <?oxy_comment_start author="Dr. Sarah" timestamp="20240809T200932+0200" comment=" وتحت شوايا مكتوب مثقال؟ الصح انها مثقال" mid="20"?>متقال<?oxy_custom_end?><?oxy_comment_end mid="20"?></placeName></orgName>
+                  ب<placeName ref="درب-قرمز" type="درب">درب قرمز</placeName> ب<placeName
+                  ref="قسم-الجمالية" type="قسم"><orgName ref="قسم-الجمالية" type="قسم">قسم
+                     الجمالية</orgName></placeName> D\E نمرة ١٩ من رسم <persName>جران بك</persName>
             </p>
-            <p>رابعا : <orgName ref="سبيل سليمان جاويش" type="سبيل"><placeName ref="سبيل سليمان جاويش" type="سبيل">سبيل سليمان جاويش</placeName></orgName>
-                  ب<placeName ref="باب الشعريه">باب الشعريه</placeName> بجوار نمرة ٥٧ من رسم
-                  <persName>جران بك</persName>
+            <p>رابعا : <orgName ref="سبيل-سليمان-جاويش" type="سبيل"><placeName
+                     ref="سبيل-سليمان-جاويش" type="سبيل">سبيل <persName>سليمان
+                     جاويش</persName></placeName></orgName> ب<placeName ref="باب-الشعريه">باب
+                  الشعريه</placeName> بجوار نمرة ٥٧ من رسم <persName>جران بك</persName>
             </p>
             <p> (اولا : سبيل السلطان محمود) </p>
-            <p>هذا السبيل جزء من اثر عظيم من اثار العثمانيين وهو <orgName ref="تكية السلطان محمود" type="تكية"><placeName ref="تكية السلطان محمود" type="تكية">تكية السلطان
-                     محمود</placeName></orgName> المبينة في سنة ١١٦٤ هجريه وفي الدور الاول منه مكتب
-               يريد ديوان الاوقاف تغييرات فيه لتوسيع اوده للخواجات برفع احد الحواجز وتبيضها وترميم
-               بلاطها وغير ذلك من الامور الجزئية حسب المقايسه المحررة عن ذلك بمبلغ ٤٨٢ قرشا ولكون
-               هذه الاثر ليس له ايراد يساعد على اجراء تلك الاعمال عرضت هذه المسئلة على لجنة حفظ
-               الاثار القديمة العربية بقصد صرف هذا المبلغ من ميزانيتها سنة ١٨٨٧</p>
-            <p>وبجلسة اللجنة المنعقدة في ١٨ أكتوبر الماضي تقرر احالة النظر في هذا الطلب على
-               القومسيون الثاني وبمعاينة محل الواقعة بمعرفة الواضعين أسمائهم فيه رؤى أن اللازم هو
+            <p>هذا السبيل جزء من اثر عظيم من اثار العثمانيين وهو <orgName ref="تكية-السلطان-محمود"
+                  type="تكية"><placeName ref="تكية-السلطان-محمود" type="تكية">تكية السلطان
+                     محمود</placeName></orgName> المبينة فى سنة ١١٦٤ هجريه وفى الدور الاول منه مكتب
+               يريد <orgName type="ديوان" ref="ديوان-الاوقاف">ديوان الاوقاف</orgName> تغييرات فيه
+               لتوسيع اوده للخواجات برفع احد الحواجز وتبيضها وترميم بلاطها وغير ذلك من الامور
+               الجزئية حسب المقايسه المحررة عن ذلك بمبلغ ٤٨٢ قرشا ولكون هذه الاثر ليس له ايراد يساعد
+               على اجراء تلك الاعمال عرضت هذه المسئلة على لجنة حفظ الاثار القديمة العربية بقصد صرف
+               هذا المبلغ من ميزانيتها سنة ١٨٨٧</p>
+            <p>وبجلسة اللجنة المنعقدة فى ١٨ أكتوبر الماضى تقرر احالة النظر في هذا الطلب على
+               القومسيون الثانى وبمعاينة محل الواقعة بمعرفة الواضعين أسمائهم فيه رؤى أن اللازم هو
                أعمال استعدادات من الداخل لادارة المكتب وهذه ليس لها ارتباط بحفظ الاثر او تقويته فعلى
                ذلك يرى القومسيون الثانى ان اللجنة لا يمكنها ان تاخذ على ذمتها شيا من اشغال هذا النوع
-               ويروم اخطار <orgName ref="ديوان الاوقاف" type="ديوان">ديوان الاوقاف</orgName> بذلك
-               اما الاشغال المصمم عليها فان كان ديوان الاوقاف يحريها فينبغي مباشرتها او ملاحظة عدم
-               اتلاف الاجزاء السليمة منه ومع كل ذلك يلزم ادارة هذه الاعمال تحت مراقبة <orgName ref="قلم هندسة الاوقاف" type="قلم">قلم هندسة الاوقاف</orgName>
-            </p>
-            <p> (ثانيا سبيل زين العابدين بدرب لوليه) </p>
-            <p>هذا الاثر الصغير قد عاينه القومسيون الثانى وبالمحضر المحرر في ٢١ ابريل ١٨٨٧ خصصت
+               ويروم اخطار ديوان الاوقاف بذلك اما الاشغال المصمم عليها فان كان ديوان الاوقاف يحريها
+               فينبغي مباشرتها او ملاحظة عدم اتلاف الاجزاء السليمة منه ومع كل ذلك يلزم ادارة هذه
+               الاعمال تحت مراقبة <orgName ref="قلم-هندسة-الاوقاف" type="قلم">قلم هندسة
+                  الاوقاف</orgName></p>
+            <p> (ثانيا سبيل زين العابدين بدرب لوليه)</p>
+            <p>هذا الاثر الصغير قد عاينه القومسيون الثانى وبالمحضر المحرر فى ٢١ ابريل ١٨٨٧ خصصت
                اللجنة ثمانية واربعين جنيها مصريا من اصل مجموع المقايسه البالغ قدره ١١١ جنيها والان
-               اعيد الكشف عليه بناء على طلب ديوان الاوقاف حسبان الباقي ايضا من المقايسه وقدره ٦٣
+               اعيد الكشف عليه بناء على طلب ديوان الاوقاف حسبان الباقى ايضا من المقايسه وقدره ٦٣
                جنيها على ميزانية اللجنة سنة ١٨٨٧ لعدم وجود ايراد للوقف ولما صار الكشف مرة ثانية فى
                محل الواقعة راى القومسيون المذكور ان لا يتيسر اجراء الاعمال التى اعتمدتها اللجنة بدون
-               ان تعمل العملية الثانية وفضلا عن ذلك تاخير الشروع في الاعمال المصمم عليها بواجب
-               انحطاط حالة مباني السبيل لانها غير جيدة</p>
-            <p>ولهذه الاسباب يري القومسيون الثاني
+               ان تعمل العملية الثانية وفضلا عن ذلك تاخير الشروع فى الاعمال المصمم عليها بواجب
+               انحطاط حالة مبانى السبيل لانها غير جيدة</p>
+            <p>ولهذه الاسباب يري القومسيون الثانى
                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ان الاوقف ان تاخذ
                اللجنة<?oxy_custom_end?> على حسابها كل التكاليف البالغ قدرها ١١١ جنيها مصريا وحسبان
-               ذلك من احتياطى ميزانية سنة ١٨٨٧ ولجسامة خلل الاثر يود القومسيون الثاني ان لا يحصل
-               تاخير في الاعمال </p>
+               ذلك من احتياطى ميزانية سنة ١٨٨٧ ولجسامة خلل الاثر يود القومسيون الثانى ان لا يحصل
+               تاخير فى الاعمال</p>
             <p> (ثالثا مدرسة مثقال بدرب قرمز بقسم الجمالية) </p>
-            <p>لما شرع الجار في هدم منزله الكائن غربي هذه المدرسة ظهر ان جزا من الحائط الغربي خصوصا
-               دروة السطح مخل ويخشي من سقوطه ولدى توجه القومسيون الثانى الى محل الواقعة راى ان جزء
+            <p>لما شرع الجار فى هدم منزله الكائن غربى هذه المدرسة ظهر ان جزا من الحائط الغربى خصوصا
+               دروة السطح مخل ويخشى من سقوطه ولدى توجه القومسيون الثانى الى محل الواقعة راى ان جزء
                الاثر المذكور قديم جدا وانه لابد من ان يحرر قلم هندسة الاوقاف مقايسة عن الجزء الذى
-               ينبغي هدمه ويدرج بها هدم كافة الاود وحوائط السطح التى لافائدة فيها غير الثقل على
-               حوائط المسجد التى يظهر انها ليست في جودة من المتانة وينبغي ان يسري الهدم الى ارتفاع
-               حواجز السطح ومن جهة الواجهة البحرية إلى ميزانية شرافات المسجد التى ينبغي حفظها وتجديد
+               ينبغى هدمه ويدرج بها هدم كافة الاود وحوائط السطح التى لافائدة فيها غير الثقل على
+               حوائط المسجد التى يظهر انها ليست في جودة من المتانة وينبغى ان يسرى الهدم الى ارتفاع
+               حواجز السطح ومن جهة الواجهة البحرية إلى ميزانية شرافات المسجد التى ينبغى حفظها وتجديد
                ماهدم منها واما الاجزاء الغربية للواجهة فيعاد بناؤها وتدرج قيمة الاعمال اللازمة لها
                بالمقايسة التى ستتحرر عن ترميم المدرسة المذكورة بالتقرير التاسع والثلاثين للقومسيون
-               الثاني</p>
+               الثانى</p>
             <p> (رابعا : سبيل سليمان جاويش) </p>
-            <p><orgName ref="محافظة مصر" type="محافظة">محافظة مصر</orgName> طلبت من <orgName ref="نظارة الاوقاف" type="نظارة">نظارة الاوقاف</orgName> بافادة مؤرخه ١٥ اكتوبر
-               سنة ١٨٨٧ نمرة ٥٢٦ سرعة هدم رفرف سبيل سليمان جاويش الكائن تجاه <placeName ref="قره قول باب الشعرية" type="قره-قول"><orgName ref="قره قول باب الشعرية" type="قره-قول">قره قول باب الشعرية</orgName></placeName> وبناء على ذلك قدمت
-               المسئلة بجلسة لجنة حفظ الاثار القديمة العربية المنعقدة في ١٨ اكتوبر سنة ١٨٨٧ واحيلت
-               منها على القومسيون الثاني ليعاين السبيل ويتوجهه في اليوم المذكور لرؤية هذا المحل وجد
-               ما هو ات </p>
+            <p><orgName ref="محافظة-مصر" type="محافظة">محافظة مصر</orgName> طلبت من <orgName
+                  ref="نظارة-الاوقاف" type="نظارة">نظارة الاوقاف</orgName> بافادة مؤرخه ١٥ اكتوبر
+               سنة ١٨٨٧ نمرة ٥٢٦ سرعة هدم رفرف سبيل سليمان جاويش الكائن تجاه <orgName
+                  ref="قره-قول-باب-الشعرية" type="قره-قول">قره قول باب الشعرية</orgName> وبناء على
+               ذلك قدمت المسئلة بجلسة لجنة حفظ الاثار القديمة العربية المنعقدة فى ١٨ اكتوبر سنة ١٨٨٧
+               واحيلت منها على القومسيون الثانى ليعاين السبيل
+               <?oxy_comment_start author="Dr. Sarah" timestamp="20240809T201511+0200" comment="وبتوجهه؟"?>و<?oxy_custom_start type="oxy_content_highlight" color="255,255,0" mid="23"?>يتوجهه<?oxy_comment_end?><?oxy_custom_end mid="23"?>
+               فى اليوم المذكور لرؤية هذا المحل وجد ما هو ات</p>
             <p>أولا: ان السبيل يجب ادراجه ضمن الاثار القديمة</p>
             <p>ثانيا: ان الرفرف من خشب مفرغ وجميعه مفكك ومعظمه ساقط</p>
-            <p>ثالثا : ان الباقي من الرفرف هدمه حالا حيث انه يخشي منه على المارة وان يجدد هذا الرفرف
-               على حساب اللجنة حسب المقايسه التى حررها قلم الهندسة بمبلغ ٤٩ جنيها وثلث ولكن يرى
-               القومسيون ان قطع من كوابيل الرفرف يمكن اعادة تركيبها وبذلك يتوفر شئ من مجموع المقايسه
-               وعند وضع الاساقيل لادارة العمل تنتخب براي قلم الهندسة القطع التى يليق حفظها ٢٠ اكتوبر
-               ١٨٨٧</p>
+            <p>ثالثا : ان الباقى
+               من<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> الرفرف هدمه
+               حالا<?oxy_custom_end?> حيث انه يخشى منه على المارة وان يجدد هذا الرفرف على حساب
+               اللجنة حسب المقايسه التى حررها قلم الهندسة بمبلغ ٤٩ جنيها وثلث ولكن يرى القومسيون ان
+               قطع من كوابيل الرفرف يمكن اعادة تركيبها وبذلك يتوفر شئ من مجموع المقايسه وعند وضع
+               الاساقيل لادارة العمل
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>تنتخب
+               براي<?oxy_custom_end?> قلم الهندسة القطع التى يليق حفظها</p>
+            <p>٢٠ اكتوبر ١٨٨٧</p>
             <p>الامضاات (<persName>باروا</persName>) ( <persName>فرانس</persName>) </p>
             <p>( <persName>جران</persName>) ( <persName>عزت</persName>) </p>
          </div>
-         <div resp="#eAK" xml:id="w492">
+         <div resp="#eAK #eSG" xml:id="w492">
             <head><date when-custom="1305-08-19">١٩ شعبان ١٣٠٥</date>
                <date when="1888-04-30">٣٠ ابريل ١٨٨٨</date>
                <bibl><biblScope unit="issue">عدد ٥٢</biblScope>
-                  <biblScope unit="page">ص ٩٦٩-٩٧٠</biblScope></bibl></head>
-            <head>ترجمة التقرير الحادى والاربعين (للقومسيون الثاني)</head>
+                  <biblScope unit="page">صفحة ٩٦٩-٩٧٠</biblScope></bibl></head>
+            <head>ترجمة التقرير الحادى والاربعين (للقومسيون الثانى)</head>
             <p>الكشف على الآثار المبينة بعد</p>
-            <p>اولا : <orgName ref="منارة مسجد الابيض" type="منارة"><placeName ref="منارة مسجد الابيض" type="منارة">منارة مسجد الابيض</placeName></orgName>
-               المتخرب الكائن بجوار <placeName ref="ضريح الامام الشافعي" type="ضريح"><orgName ref="ضريح الامام الشافعي" type="ضريح">ضريح <persName>الامام
-                     الشافعي</persName></orgName></placeName>
+            <p>اولا : منارة <orgName ref="مسجد-الابيض" type="مسجد"><placeName ref="مسجد-الابيض"
+                     type="مسجد">مسجد الابيض</placeName></orgName> المتخرب الكائن بجوار <placeName
+                  ref="ضريح-الامام-الشافعى" type="ضريح"><orgName ref="ضريح-الامام-الشافعى"
+                     type="ضريح">ضريح <persName>الامام الشافعى</persName></orgName></placeName>
             </p>
-            <p>ثانيا: ملحقات <orgName ref="مسجد القاضي شرف الدين واخيه الحمزاوى" type="مسجد"><placeName ref="مسجد القاضي شرف الدين واخيه الحمزاوى" type="مسجد">مسجد القاضي
-                     شرف الدين واخيه الحمزاوى</placeName></orgName></p>
-            <p>ثالثا: <orgName ref="ضريح سيدى جوهر المدنى بالركبيه" type="ضريح"><placeName ref="ضريح سيدى جوهر المدنى بالركبيه" type="ضريح">ضريح <persName>سيدى جوهر
-                        المدنى</persName> ب<placeName ref="الركبيه">الركبيه</placeName></placeName></orgName> (نمرة ٦١٧ K من رسم <persName>جران
+            <p>ثانيا: ملحقات <orgName ref="مسجد-القاضى-شرف-الدين-واخيه-الحمزاوى" type="مسجد"
+                     ><placeName ref="مسجد-القاضى-شرف-الدين-واخيه-الحمزاوى" type="مسجد">مسجد
+                        <persName>القاضى شرف الدين</persName> و<persName role="اخو-القاضى-شرف-الدين"
+                        >اخيه الحمزاوى</persName></placeName></orgName></p>
+            <p>ثالثا: <orgName ref="ضريح-سيدى-جوهر-المدنى-بالركبيه" type="ضريح"><placeName
+                     ref="ضريح-سيدى-جوهر-المدنى-بالركبيه" type="ضريح">ضريح <persName>سيدى جوهر
+                        المدنى</persName> ب<placeName ref="الركبيه"
+                  >الركبيه</placeName></placeName></orgName> (نمرة ٦١٧ K من رسم <persName>جران
                   بك</persName>) </p>
-            <p> رابعا: <orgName ref="باب السد"><placeName ref="باب السد">باب
-                  السد</placeName></orgName> جهة <placeName ref="السيدة زينب">السيدة
-                  زينب</placeName> (نمرة ٣ K من رسم <persName>جران بك</persName>) </p>
-            <p>خامسا: <orgName ref="سبيل وقف حسن كتخداى الرزاز" type="سبيل"><placeName ref="سبيل وقف حسن كتخداى الرزاز" type="سبيل">سبيل وقف حسن كتخداى
-                     الرزاز</placeName></orgName> ب<placeName ref="شارع نور الظلام" type="شارع">شارع
+            <p> رابعا: <placeName ref="باب-السد" type="باب">باب السد</placeName>
+               <placeName ref="جهة-السيدة-زينب" type="جهة">جهة السيدة زينب</placeName> (نمرة ٣ K من
+               رسم <persName>جران بك</persName>) </p>
+            <p>خامسا: <orgName ref="سبيل-وقف-حسن-كتخداى-الرزاز" type="سبيل"><placeName
+                     ref="سبيل-وقف-حسن-كتخداى-الرزاز" type="سبيل">سبيل وقف حسن كتخداى
+                     الرزاز</placeName></orgName> ب<placeName ref="شارع-نور-الظلام" type="شارع">شارع
                   نور الظلام</placeName> (نمرة ٩ J من رسم <persName>جران بك</persName>) </p>
-            <p> (اولا : منارة مسجد الابيض المتخرب) </p>
+            <p>(اولا : منارة مسجد الابيض المتخرب)</p>
             <p>لم يبق من هذا المكان سوى بعض حوائط ومنارة قديمة جدا سقطت ادوارها العلوية ومالت ميلا
                كليا وتشققت اجزاؤها السفلية وقد سد سابقا نوافذها بالبناء لحفظ اجزائها العلوية ولكونها
-               على حالة يخشي منها دائما على العامة ولا يمكن ترميمها يري القومسيون الثاني لزوم هدمها
-               خصوصا وان اوضاع الصناعة الباقية بها لافائدة فيها ولا عليها ادنى كتابة </p>
-            <p> (ثانيا: ملحقات مسجد القاضي شرف الدين واخيه) </p>
-            <p>جميع مباني هذا المسجد مختله جدا وليست من الاثار التى يجب التفات اللجنة اليها وملحقاته
-               التى جرى هذا بشانها يلزم سريان احكام التنظيم عليها عندما يحتاج الحال لترميمها </p>
-            <p> ( ثالثا: ضريح سيدى جوهر المدني) </p>
+               على حالة يخشي منها دائما على العامة ولا يمكن ترميمها يرى القومسيون الثانى لزوم هدمها
+               خصوصا وان اوضاع الصناعة الباقية بها لافائدة فيها ولا عليها ادنى كتابة</p>
+            <p> (ثانيا: ملحقات مسجد القاضى شرف الدين واخيه) </p>
+            <p>جميع مبانى هذا المسجد مختله جدا وليست من الاثار التى يجب التفات اللجنة اليها وملحقاته
+               التى جرى هذا بشانها يلزم سريان احكام التنظيم عليها عندما يحتاج الحال لترميمها</p>
+            <p> ( ثالثا: ضريح سيدى جوهر المدنى) </p>
             <p>هذا المقام الصغير مع ملحقاته مشتمل على شكل فاخر من صناعة القرن الثامن من الهجرة
                النبوية من سنة ٧٠١ الى ٧١٠ وبناؤه بالحجر النحت محكم غاية الاحكام والقبة الصغيرة التى
                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>باعلاه<?oxy_custom_end?>
@@ -615,8 +695,8 @@
                له في اثار مصر والداعى للكشف على هذا الاثر هو النظر في طلب واحد من الملاك يرغب ترميم
                بعض ملحقات الضريح والقبه بمصاريف من طرفه خصوصا الطرق التى باعلا هذا المحل لاتخاذها
                سكنا له لان بيده حجة تثبت له حقوق الركوب على تلك الملحقات ولقد تراآى للقومسيون رفض
-               هذا الطلب وتكليف ديوان الاوقاف باعادة وضع يده على الاجزاء التى بقيت وان يؤكد على
-               اللجنة ان تامربترميم هذا الاثر المهم في اسراع وقت ليتاكد حفظه</p>
+               هذا الطلب وتكليف <orgName>ديوان الاوقاف</orgName> باعادة وضع يده على الاجزاء التى
+               بقيت وان يؤكد على اللجنة ان تامربترميم هذا الاثر المهم في اسراع وقت ليتاكد حفظه</p>
             <p> (رابعا باب السد جهة السيدة زينب)</p>
             <p>لما تراآى ل<orgName ref="ديوان الاشغال العمومية" type="ديوان">ديوان الاشغال
                   العمومية</orgName> ضرورة توسيع الشارع الكائن بالجهة المذكورة لكثرة مرور العربات
