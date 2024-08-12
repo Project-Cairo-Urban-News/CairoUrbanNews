@@ -622,13 +622,13 @@
                         <cell> </cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>6</cell>
+                        <cell>٠٠</cell>
+                        <cell>٦</cell>
                         <cell>في الايام المعتادة من شروق الشمس إلى نصف الليل</cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>9</cell>
+                        <cell>٠٠</cell>
+                        <cell>٩</cell>
                         <cell>في الايام المعتادة من بعد نصف الليل إلى شروق الشمس</cell>
                      </row>
                   </table>
@@ -646,108 +646,170 @@
                         <cell cols="3"> من محطة مصر باعتبار التوصيله فقط</cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>5</cell>
-                        <cell>الى العتبة الخضرا – جامع الكيخيه – وغيط النوبي – وميدان القطن –
-                           والسبتية – وجزيرة بدران – وقصر النزهه – والاندروم بالاسماعيلية</cell>
+                        <cell>٠٠</cell>
+                        <cell>٥</cell>
+                        <cell>الى <placeName ref="العتبة-الخضرا">العتبة الخضرا</placeName> –
+                              <placeName ref="جامع-الكيخيه" type="جامع"><orgName ref="جامع-الكيخيه"
+                                 type="جامع">جامع الكيخيه</orgName></placeName> – و<placeName
+                              ref="غيط-النوبى" type="غيط">غيط النوبى</placeName> – و<placeName
+                              type="ميدان" ref="ميدان-القطن">ميدان القطن</placeName> – و<placeName
+                              ref="السبتية">السبتية</placeName> – و<placeName type="جزيرة"
+                              ref="جزيرة-بدران">جزيرة بدران</placeName> – و<placeName type="قصر"
+                              ref="قصر-النزهة">قصر النزهه</placeName> – و<placeName
+                              ref="الاندروم-بالاسماعيلية">الاندروم ب<placeName ref="الاسماعيلية"
+                                 >الاسماعيلية</placeName></placeName></cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>6</cell>
-                        <cell>الى الفوالة – وعابدين</cell>
+                        <cell>٠٠</cell>
+                        <cell>٦</cell>
+                        <cell>الى <placeName ref="الفوالة">الفوالة</placeName> – و<placeName
+                              ref="عابدين"><persName>عابدين</persName></placeName></cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>7</cell>
-                        <cell>الى الاشرفية – ومرجوش – والنحاسين – وباب الخلق – وبولاق – وقصر
-                           النيل</cell>
+                        <cell>٠٠</cell>
+                        <cell>٧</cell>
+                        <cell>الى <placeName ref="الاشرفية">الاشرفية</placeName> – و<placeName
+                              ref="مرجوش">مرجوش</placeName> – و<placeName ref="النحاسين"
+                              >النحاسين</placeName> – و<placeName ref="باب-الخلق" type="باب">باب
+                              الخلق</placeName> – و<placeName ref="بولاق">بولاق</placeName> –
+                              و<placeName type="قصر" ref="قصر-النيل">قصر النيل</placeName></cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>8</cell>
-                        <cell>الى الجمالية – والازهر – وسيدنا الحسين – وكفر الطماعين – وحارة الروم –
-                           وتحت الربع – وحارة السقايين – ودرب الجماميز – والرمله – وبوابة الحسينية –
-                           وباب النصر</cell>
+                        <cell>٠٠</cell>
+                        <cell>٨</cell>
+                        <cell>الى <placeName ref="الجمالية">الجمالية</placeName> – و<placeName
+                              ref="الازهر">الازهر</placeName> – و<placeName ref="سيدنا-الحسين"
+                                 ><persName>سيدنا الحسين</persName></placeName> – و<placeName
+                              type="كفر" ref="كفر-الطماعين">كفر الطماعين</placeName> – و<placeName
+                              type="حارة" ref="حارة-الروم">حارة الروم</placeName> – و<placeName
+                              ref="تحت-الربع">تحت الربع</placeName> – و<placeName type="حارة"
+                              ref="حارة-السقايين">حارة السقايين</placeName> – و<placeName type="درب"
+                              ref="درب-الجماميز">درب الجماميز</placeName> – و<placeName ref="الرمله"
+                              >الرمله</placeName> – و<placeName type="بوابة" ref="بوابة-الحسينية"
+                              >بوابة الحسينية</placeName> – و<placeName ref="باب-النصر" type="باب"
+                              >باب النصر</placeName></cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>10</cell>
-                        <cell>الى الجزيرة – ومنية السرج – والوايليه – والزاوه الحمرا – والسيده زينب-
-                           والصليبه – والقصر العالي – وشبرا الصغيره – والعباسيه </cell>
+                        <cell>٠٠</cell>
+                        <cell>١٠</cell>
+                        <cell>الى <placeName ref="الجزيرة">الجزيرة</placeName> – و<placeName
+                              ref="منية-السرج">منية السرج</placeName> – و<placeName ref="الوايليه"
+                              >الوايليه</placeName> – و<placeName ref="الزاوه-الحمرا"
+                              ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الزاوه
+                              الحمرا<?oxy_custom_end?></placeName> – و<placeName ref="السيدة-زينب"
+                                 ><persName>السيده زينب</persName></placeName>- و<placeName
+                              ref="الصليبه">الصليبه</placeName> – و<placeName ref="القصر-العالى"
+                              type="قصر">القصر العالى</placeName> – و<placeName ref="شبرا-الصغيره"
+                              >شبرا الصغيره</placeName> – و<placeName ref="العباسيه"
+                              >العباسيه</placeName></cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>4</cell>
-                        <cell>الى مهمشه – وقصورة باغوص</cell>
+                        <cell>٠٠</cell>
+                        <cell>٤</cell>
+                        <cell>الى <placeName ref="مهمشه">مهمشه</placeName> – و<placeName
+                              ref="قصورة-باغوص">قصورة باغوص</placeName></cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>12</cell>
-                        <cell>الى القلعة – وشبرا الكبيره – والقبه – وفم الخليج – وسراى الجيزة
-                        </cell>
+                        <cell>٠٠</cell>
+                        <cell>١٢</cell>
+                        <cell>الى <placeName ref="القلعة">القلعة</placeName> – و<placeName
+                              ref="شبرا-الكبيره">شبرا الكبيره</placeName> – و<placeName ref="القبه"
+                              >القبه</placeName> – و<placeName ref="فم-الخليج">فم الخليج</placeName>
+                           – و<placeName type="سراى" ref="سراى-الجيزة">سراى
+                           الجيزة</placeName></cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>15</cell>
-                        <cell>الى قايدباى – وساحل مصر القديمه – وبولاق الدكرور – والجيزة – وجامع
-                           عمرو – والامامين</cell>
+                        <cell>٠٠</cell>
+                        <cell>١٥</cell>
+                        <cell>الى <placeName ref="قايدباى">قايدباى</placeName> – و<placeName
+                              type="ساحل" ref="ساحل-مصر-القديمه">ساحل <placeName ref="مصر-القديمه"
+                                 >مصر القديمه</placeName></placeName> – و<placeName
+                              ref="بولاق-الدكرور">بولاق الدكرور</placeName> – و<placeName
+                              ref="الجيزة">الجيزة</placeName> – و<orgName ref="جامع-عمرو"
+                              type="جامع"><placeName ref="جامع-عمرو" type="جامع">جامع
+                                 عمرو</placeName></orgName> – و<placeName ref="الامامين"
+                              >الامامين</placeName></cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>16</cell>
-                        <cell>الى المطرية – وأثر النبى</cell>
+                        <cell>٠٠</cell>
+                        <cell>١٦</cell>
+                        <cell>الى <placeName ref="المطرية">المطرية</placeName> – و<placeName
+                              ref="أثر-النبى">أثر النبى</placeName></cell>
                      </row>
                      <row>
                         <cell cols="3"><hi rend="bold">من موقف الازبكية للجهات الموضحة باعتبار
                               التوصيلة فقط</hi></cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>4</cell>
-                        <cell>الى قره قول باب الشعرية – وقره قول عابدين – وآخر السكة الجديدة الى قره
-                           قول الجمالية – والدرب الاحمر – وقره قول بولاق – وداوين النظارات</cell>
+                        <cell>٠٠</cell>
+                        <cell>٤</cell>
+                        <cell>الى <orgName type="قره-قول" ref="قره-قول-باب-الشعرية"><placeName
+                                 type="قره-قول" ref="قره-قول-باب-الشعرية">قره قول <placeName
+                                    ref="باب-الشعرية" type="باب">باب
+                              الشعرية</placeName></placeName></orgName> – و<placeName type="قره-قول"
+                              ref="قره-قول-عابدين"><orgName type="قره-قول" ref="قره-قول-عابدين">قره
+                                 قول عابدين</orgName></placeName>
+                           –<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> وآخر
+                              <?oxy_custom_end?><placeName type="سكة" ref="السكة-الجديدة">السكة
+                              الجديدة</placeName> الى <placeName type="قره-قول"
+                              ref="قره-قول-الجمالية"><orgName type="قره-قول" ref="قره-قول-الجمالية"
+                                 >قره قول الجمالية</orgName></placeName> – و<placeName
+                              ref="الدرب-الاحمر">الدرب الاحمر</placeName> – و<placeName
+                              ref="قره-قول-بولاق" type="قره-قول-بولاق"><orgName type="قره-قول"
+                                 ref="قره-قول-بولاق">قره قول بولاق</orgName></placeName>
+                           –<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                           وداوين <?oxy_custom_end?>النظارات</cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>6</cell>
-                        <cell>الى قره قول السيدة زينب – والخليفة – والدرب الاحمر – وقصورة باغوص –
-                           ومهمشة – والجمالية – وقصر النيل</cell>
+                        <cell>٠٠</cell>
+                        <cell>٦</cell>
+                        <cell>الى <placeName type="قره-قول" ref="قره-قول-السيدة-زينب"><orgName
+                                 type="قره-قول" ref="قره-قول-السيدة-زينب">قره قول السيدة
+                                 زينب</orgName></placeName> – والخليفة – والدرب الاحمر – وقصورة
+                           باغوص – ومهمشة – والجمالية – وقصر النيل</cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>7</cell>
+                        <cell>٠٠</cell>
+                        <cell>٧</cell>
                         <cell>الى جزيرة بدران – وبولاق – والحسينية – وقصر النزهه</cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>8</cell>
-                        <cell>الى قره قول الوايلي – وقره قول شبرا</cell>
+                        <cell>٠٠</cell>
+                        <cell>٨</cell>
+                        <cell>الى <orgName type="قره-قول" ref="قره-قول-الوايلى"><placeName
+                                 type="قره-قول" ref="قره-قول-الوايلى">قره قول
+                              الوايلى</placeName></orgName> – <orgName ref="قره-قول-شبرا"
+                              type="قره-قول"><placeName type="قره-قول" ref="قره-قول-شبرا">وقره قول
+                                 شبرا</placeName></orgName></cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>9</cell>
+                        <cell>٠٠</cell>
+                        <cell>٩</cell>
                         <cell>الى فم الخليج</cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>10</cell>
-                        <cell>الى القلعة – والعباسية – والعادلى – والزاوية الحمرا – وسراى
-                           الجيزة</cell>
+                        <cell>٠٠</cell>
+                        <cell>١٠</cell>
+                        <cell>الى القلعة – والعباسية – و<placeName ref="العادلى">العادلى</placeName>
+                           – والزاوية الحمرا – وسراى الجيزة</cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>12</cell>
-                        <cell>الى قايد باي – والعفيفي – والسيدة نفيسه – وساحل مصر القديمة –والجيزة –
-                           وبولاق الدكرور – وجامع عمرو – والامامين</cell>
+                        <cell>٠٠</cell>
+                        <cell>١٢</cell>
+                        <cell>الى قايد باي – و<placeName ref="العفيفى">العفيفى</placeName> –
+                              و<placeName ref="السيدة-نفيسه"><persName>السيدة
+                              نفيسه</persName></placeName> – وساحل مصر القديمة –والجيزة – وبولاق
+                           الدكرور – وجامع عمرو – والامامين</cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>15</cell>
-                        <cell>الى اثر النبي –وشبرا الكبيرة – القبه</cell>
+                        <cell>٠٠</cell>
+                        <cell>١٥</cell>
+                        <cell>الى <placeName ref="اثر-النبى">اثر النبى</placeName> –وشبرا الكبيرة –
+                           القبه</cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>19</cell>
+                        <cell>٠٠</cell>
+                        <cell>١٩</cell>
                         <cell>الى المطرية</cell>
                      </row>
                      <row>
@@ -755,19 +817,19 @@
                               باعتبار التوصيلة)</hi></cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>4</cell>
+                        <cell>٠٠</cell>
+                        <cell>٤</cell>
                         <cell>الى باب الشعرية – وسوق الزلط- والجمالية – والدرب لاحمر –
                            وعابدين</cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>9</cell>
+                        <cell>٠٠</cell>
+                        <cell>٩</cell>
                         <cell>الى بولاق – وقره قول شبرا</cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>10</cell>
+                        <cell>٠٠</cell>
+                        <cell>١٠</cell>
                         <cell>الى مصر القديمة – والوايلى – والقلعة</cell>
                      </row>
                      <row>
@@ -776,33 +838,33 @@
                         </cell>
                      </row>
                      <row>
-                        <cell>00 </cell>
-                        <cell>3</cell>
+                        <cell>٠٠ </cell>
+                        <cell>٣</cell>
                         <cell>الى الدرب الاحمر – وعابدين – والموسكي</cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>4</cell>
+                        <cell>٠٠</cell>
+                        <cell>٤</cell>
                         <cell>الى الخليفة – والصليبه – والسيدة زينب</cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>5</cell>
+                        <cell>٠٠</cell>
+                        <cell>٥</cell>
                         <cell>الى الجمالية - وباب الشعريه – وباب الوزير</cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>6</cell>
+                        <cell>٠٠</cell>
+                        <cell>٦</cell>
                         <cell>الى محطة مصر – وقصر النيل – والقصر العالي</cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>8</cell>
+                        <cell>٠٠</cell>
+                        <cell>٨</cell>
                         <cell>الى بولاق – وفم الخليج </cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>11</cell>
+                        <cell>٠٠</cell>
+                        <cell>١١</cell>
                         <cell>الى مصر القديمة – والديوره – وجامع عمرو – والامامين</cell>
                      </row>
                   </table>
@@ -815,73 +877,73 @@
                         <cell> </cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>77</cell>
+                        <cell>٠٠</cell>
+                        <cell>٧٧</cell>
                         <cell>من اى جهة بالبلده الى الاهرام ذهاب واياب</cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>80</cell>
+                        <cell>٠٠</cell>
+                        <cell>٨٠</cell>
                         <cell>من اى جهة بالبلده الى فيم البحر ذهاب واياب</cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>154</cell>
+                        <cell>٠٠</cell>
+                        <cell>١٥٤</cell>
                         <cell>من اى جهة بالبلده الى جبل الخشب ذهاب واياب</cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>50</cell>
+                        <cell>٠٠</cell>
+                        <cell>٥٠</cell>
                         <cell>من اى جهة بالبلده الى بهتيم ذهاب واياب </cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>70</cell>
+                        <cell>٠٠</cell>
+                        <cell>٧٠</cell>
                         <cell>من اى جهة بالبلده الى قليوب ذهاب واياب</cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>45</cell>
+                        <cell>٠٠</cell>
+                        <cell>٤٥</cell>
                         <cell>من اى جهة بالبلده الى مسترد ذهاب واياب</cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>50</cell>
+                        <cell>٠٠</cell>
+                        <cell>٥٠</cell>
                         <cell>من اى جهة بالبلده الى الخصوص ذهاب واياب</cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>50</cell>
+                        <cell>٠٠</cell>
+                        <cell>٥٠</cell>
                         <cell>من اى جهة بالبلده الى باسوس ذهاب واياب</cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>75</cell>
+                        <cell>٠٠</cell>
+                        <cell>٧٥</cell>
                         <cell>من اى جهة بالبلده الى كفر حمزة ذهاب واياب </cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>70</cell>
+                        <cell>٠٠</cell>
+                        <cell>٧٠</cell>
                         <cell>من اى جهة بالبلده الى طره ذهاب واياب </cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>45</cell>
+                        <cell>٠٠</cell>
+                        <cell>٤٥</cell>
                         <cell>من اى جهة بالبلده الى البساتين ذهاب واياب </cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>70</cell>
+                        <cell>٠٠</cell>
+                        <cell>٧٠</cell>
                         <cell>من اى جهة بالبلده الى سرياقوس ذهاب واياب</cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>38</cell>
+                        <cell>٠٠</cell>
+                        <cell>٣٨</cell>
                         <cell>من اى جهة بالبلده الى ابوزعبل ذهاب واياب</cell>
                      </row>
                      <row>
-                        <cell>00</cell>
-                        <cell>130</cell>
+                        <cell>٠٠</cell>
+                        <cell>١٣٠</cell>
                         <cell>من اى جهة بالبلده الى المطرية ذهاب واياب</cell>
                      </row>
                   </table>
