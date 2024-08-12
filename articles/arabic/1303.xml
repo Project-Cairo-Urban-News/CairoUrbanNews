@@ -604,17 +604,13 @@
                      <row>
                         <cell>٠٠</cell>
                         <cell>١٠</cell>
-                        <cell>في ثلاثة ايام العيد وفي ايام المواسم وهى مولد النبي وجبر النيل ويوم شم
+                        <cell>في ثلاثة ايام العيد وفي ايام المواسم وهى مولد النبى وجبر النيل ويوم شم
                            النسيم وليلة التياترات ويوم طلوع او نزول المحمل الشريف وفي يومى الجمعة
                            والاوحد للفسحه خارج المددينة من الساعه ١٠ عربي نهارا لغاية الساعه ١ عربى
                            بعد الغروب</cell>
                      </row>
                   </table>
-                  <list type="simple">
-                     <item>
-                        <hi rend="bold">الأجرة باعتبار الساعة</hi>
-                     </item>
-                  </list>
+                  <p><hi rend="bold">الأجرة باعتبار الساعة</hi></p>
                   <table>
                      <row>
                         <cell>مليم</cell>
@@ -632,10 +628,7 @@
                         <cell>في الايام المعتادة من بعد نصف الليل إلى شروق الشمس</cell>
                      </row>
                   </table>
-                  <list type="simple">
-                     <item><hi rend="bold">الاجرة باعتبار المشوار</hi>
-                     </item>
-                  </list>
+                  <p><hi rend="bold">الاجرة باعتبار المشوار</hi></p>
                   <table>
                      <row>
                         <cell>مليم</cell>
@@ -698,8 +691,9 @@
                         <cell>الى <placeName ref="المطرية">المطرية</placeName> – و<placeName ref="أثر-النبى">أثر النبى</placeName></cell>
                      </row>
                      <row>
-                        <cell cols="3"><hi rend="bold">من موقف الازبكية للجهات الموضحة باعتبار
-                              التوصيلة فقط</hi></cell>
+                        <cell cols="3"><hi rend="bold">من <placeName type="موقف" ref="موقف-الازبكية"
+                                 >موقف الازبكية</placeName> للجهات الموضحة باعتبار التوصيلة
+                           فقط</hi></cell>
                      </row>
                      <row>
                         <cell>٠٠</cell>
@@ -763,14 +757,20 @@
                         <cell>الى المطرية</cell>
                      </row>
                      <row>
-                        <cell cols="3"><hi rend="bold">( من موقف سوق الكانتو بالموسكي للجهات الموضحة
-                              باعتبار التوصيلة)</hi></cell>
+                        <cell cols="3"><hi rend="bold">( من موقف <orgName type="سوق"
+                                 ref="سوق-الكانتو-بالموسكى"><placeName type="سوق"
+                                    ref="سوق-الكانتو-بالموسكى">سوق الكانتو
+                                 بالموسكى</placeName></orgName> للجهات الموضحة باعتبار
+                              التوصيلة)</hi></cell>
                      </row>
                      <row>
                         <cell>٠٠</cell>
                         <cell>٤</cell>
-                        <cell>الى باب الشعرية – وسوق الزلط- والجمالية – والدرب لاحمر –
-                           وعابدين</cell>
+                        <cell>الى باب الشعرية – و<orgName type="سوق" ref="سوق-الزلط"><placeName
+                                 type="سوق" ref="سوق-الزلط">سوق الزلط</placeName></orgName>-
+                           والجمالية –
+                           و<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الدرب
+                           لاحمر<?oxy_custom_end?> – وعابدين</cell>
                      </row>
                      <row>
                         <cell>٠٠</cell>
@@ -790,7 +790,7 @@
                      <row>
                         <cell>٠٠ </cell>
                         <cell>٣</cell>
-                        <cell>الى الدرب الاحمر – وعابدين – والموسكي</cell>
+                        <cell>الى الدرب الاحمر – وعابدين – والموسكى</cell>
                      </row>
                      <row>
                         <cell>٠٠</cell>
@@ -800,25 +800,28 @@
                      <row>
                         <cell>٠٠</cell>
                         <cell>٥</cell>
-                        <cell>الى الجمالية - وباب الشعريه – وباب الوزير</cell>
+                        <cell>الى الجمالية - وباب الشعريه – و<placeName type="باب" ref="باب-الوزير"
+                              >باب الوزير</placeName></cell>
                      </row>
                      <row>
                         <cell>٠٠</cell>
                         <cell>٦</cell>
-                        <cell>الى محطة مصر – وقصر النيل – والقصر العالي</cell>
+                        <cell>الى <placeName type="محطة" ref="محطة-مصر">محطة مصر</placeName> – وقصر
+                           النيل – والقصر العالى</cell>
                      </row>
                      <row>
                         <cell>٠٠</cell>
                         <cell>٨</cell>
-                        <cell>الى بولاق – وفم الخليج </cell>
+                        <cell>الى بولاق – وفم الخليج</cell>
                      </row>
                      <row>
                         <cell>٠٠</cell>
                         <cell>١١</cell>
-                        <cell>الى مصر القديمة – والديوره – وجامع عمرو – والامامين</cell>
+                        <cell>الى مصر القديمة – و<placeName ref="الديوره">الديوره</placeName> –
+                           وجامع عمرو – والامامين</cell>
                      </row>
                   </table>
-                  <p><hi rend="bold">عن الاجرة من والى الجهات الموضحة ادناه بما في ذلك انتظار لغاية
+                  <p><hi rend="bold">عن الاجرة من والى الجهات الموضحة ادناه بما فى ذلك انتظار لغاية
                         اربعة ساعات</hi></p>
                   <table>
                      <row>
@@ -829,67 +832,79 @@
                      <row>
                         <cell>٠٠</cell>
                         <cell>٧٧</cell>
-                        <cell>من اى جهة بالبلده الى الاهرام ذهاب واياب</cell>
+                        <cell>من اى جهة بالبلده الى <placeName ref="الاهرام">الاهرام</placeName>
+                           ذهاب واياب</cell>
                      </row>
                      <row>
                         <cell>٠٠</cell>
                         <cell>٨٠</cell>
-                        <cell>من اى جهة بالبلده الى فيم البحر ذهاب واياب</cell>
+                        <cell>من اى جهة بالبلده الى <placeName ref="فيم-البحر">فيم البحر</placeName>
+                           ذهاب واياب</cell>
                      </row>
                      <row>
                         <cell>٠٠</cell>
                         <cell>١٥٤</cell>
-                        <cell>من اى جهة بالبلده الى جبل الخشب ذهاب واياب</cell>
+                        <cell>من اى جهة بالبلده الى <placeName type="جبل" ref="جبل-الخشب">جبل
+                              الخشب</placeName> ذهاب واياب</cell>
                      </row>
                      <row>
                         <cell>٠٠</cell>
                         <cell>٥٠</cell>
-                        <cell>من اى جهة بالبلده الى بهتيم ذهاب واياب </cell>
+                        <cell>من اى جهة بالبلده الى <placeName ref="بهتيم">بهتيم</placeName> ذهاب
+                           واياب </cell>
                      </row>
                      <row>
                         <cell>٠٠</cell>
                         <cell>٧٠</cell>
-                        <cell>من اى جهة بالبلده الى قليوب ذهاب واياب</cell>
+                        <cell>من اى جهة بالبلده الى <placeName ref="قليوب">قليوب</placeName> ذهاب
+                           واياب</cell>
                      </row>
                      <row>
                         <cell>٠٠</cell>
                         <cell>٤٥</cell>
-                        <cell>من اى جهة بالبلده الى مسترد ذهاب واياب</cell>
+                        <cell>من اى جهة بالبلده الى <placeName ref="مسترد">مسترد</placeName> ذهاب
+                           واياب</cell>
                      </row>
                      <row>
                         <cell>٠٠</cell>
                         <cell>٥٠</cell>
-                        <cell>من اى جهة بالبلده الى الخصوص ذهاب واياب</cell>
+                        <cell>من اى جهة بالبلده الى <placeName ref="الخصوص">الخصوص</placeName> ذهاب
+                           واياب</cell>
                      </row>
                      <row>
                         <cell>٠٠</cell>
                         <cell>٥٠</cell>
-                        <cell>من اى جهة بالبلده الى باسوس ذهاب واياب</cell>
+                        <cell>من اى جهة بالبلده الى <placeName ref="باسوس">باسوس</placeName> ذهاب
+                           واياب</cell>
                      </row>
                      <row>
                         <cell>٠٠</cell>
                         <cell>٧٥</cell>
-                        <cell>من اى جهة بالبلده الى كفر حمزة ذهاب واياب </cell>
+                        <cell>من اى جهة بالبلده الى <placeName type="كفر" ref="كفر-حمزة">كفر
+                              حمزة</placeName> ذهاب واياب </cell>
                      </row>
                      <row>
                         <cell>٠٠</cell>
                         <cell>٧٠</cell>
-                        <cell>من اى جهة بالبلده الى طره ذهاب واياب </cell>
+                        <cell>من اى جهة بالبلده الى <placeName ref="طره">طره</placeName> ذهاب واياب </cell>
                      </row>
                      <row>
                         <cell>٠٠</cell>
                         <cell>٤٥</cell>
-                        <cell>من اى جهة بالبلده الى البساتين ذهاب واياب </cell>
+                        <cell>من اى جهة بالبلده الى <placeName ref="البساتين">البساتين</placeName>
+                           ذهاب واياب </cell>
                      </row>
                      <row>
                         <cell>٠٠</cell>
                         <cell>٧٠</cell>
-                        <cell>من اى جهة بالبلده الى سرياقوس ذهاب واياب</cell>
+                        <cell>من اى جهة بالبلده الى <placeName ref="سرياقوس">سرياقوس</placeName>
+                           ذهاب واياب</cell>
                      </row>
                      <row>
                         <cell>٠٠</cell>
                         <cell>٣٨</cell>
-                        <cell>من اى جهة بالبلده الى ابوزعبل ذهاب واياب</cell>
+                        <cell>من اى جهة بالبلده الى <placeName ref="ابو-زعبل">ابو زعبل</placeName>
+                           ذهاب واياب</cell>
                      </row>
                      <row>
                         <cell>٠٠</cell>
