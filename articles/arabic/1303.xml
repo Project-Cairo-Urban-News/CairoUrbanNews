@@ -3358,37 +3358,35 @@ the table is including the following main parts
 تفتيش وتنظيم مبانى الدلتا
 تفتيش وتنظيم مبانى قبلى
 قسم الادارة"?>
-               <table cols="10">
+               <table cols="9">
                   <row>
-                     <cell rows="6"><orgName ref="ادارة-عموم-التنظيم-بنظارة-الاشغال-العمومية" type="ادارة">ادارة عموم التنظيم</orgName></cell>
+                     <cell rows="6"><orgName ref="ادارة-عموم-التنظيم-بنظارة-الاشغال-العمومية"
+                           type="ادارة">ادارة عموم التنظيم</orgName></cell>
                      <cell>الرواتب التى تقررت جنيه مصرى</cell>
-                     <cell/>
+                     <cell>درجات حاليه</cell>
                      <cell>علاوات جنيه م</cell>
-                     <cell>رواتب اصلية</cell>
-                     <cell>الدرجة الاصلية</cell>
-                     <cell>الدرجة الحالية</cell>
+                     <cell>رواتب اصلية جنيه مصرى</cell>
+                     <cell>درجات اصليه</cell>
                      <cell>رواتب اصلية</cell>
                      <cell>وظائف</cell>
-                     <cell>اسماء الخدمة</cell>
+                     <cell>أسماء الخدمه</cell>
                   </row>
                   <row>
                      <cell>٢١٦</cell>
-                     <cell/>
+                     <cell>درجة رابعة</cell>
                      <cell>٣٦</cell>
                      <cell>١٨٠</cell>
                      <cell>درجة رابعة</cell>
-                     <cell>درجة رابعه</cell>
                      <cell>١٨٠</cell>
                      <cell>كاتب</cell>
                      <cell><persName role="كاتب-بادارة-عموم-التنظيم-بنظارة-الاشغال-العمومية">محمد
-                           افندى مصطفى</persName></cell>
+                           أفندى مصطفى</persName></cell>
                   </row>
                   <row>
                      <cell>١٦٨</cell>
-                     <cell/>
+                     <cell>درجه خامسه</cell>
                      <cell>٢٤</cell>
                      <cell>١٤٤</cell>
-                     <cell>درجة خامسه</cell>
                      <cell>درجة خامسه</cell>
                      <cell>١٤٤</cell>
                      <cell>كاتب</cell>
@@ -3397,163 +3395,175 @@ the table is including the following main parts
                   </row>
                   <row>
                      <cell>١٠٨</cell>
-                     <cell/>
+                     <cell>درجه خامسه</cell>
                      <cell>٢٤</cell>
                      <cell>٨٤</cell>
                      <cell>درجة سادسة</cell>
-                     <cell>درجة خامسة</cell>
                      <cell>٨٤</cell>
                      <cell>كاتب</cell>
                      <cell><persName role="كاتب-بادارة-عموم-التنظيم-بنظارة-الاشغال-العمومية">محمد
-                           افندى عثمان</persName></cell>
+                           أفندى عثمان</persName></cell>
                   </row>
                   <row>
                      <cell>٨٤</cell>
-                     <cell/>
+                     <cell>درجه سادسه</cell>
                      <cell>١٢</cell>
                      <cell>٦٢</cell>
                      <cell>سادسة</cell>
-                     <cell>سادسة</cell>
                      <cell>٦٢</cell>
                      <cell>كاتب</cell>
                      <cell><persName role="كاتب-بادارة-عموم-التنظيم-بنظارة-الاشغال-العمومية">محمد
-                           افندى رافت</persName></cell>
+                           أفندى رأفت</persName></cell>
                   </row>
                   <row>
                      <cell>٦٠</cell>
-                     <cell/>
+                     <cell>درجه سادسه</cell>
                      <cell>٢٤</cell>
                      <cell>٣٦</cell>
-                     <cell>سادسة</cell>
                      <cell>سادسة</cell>
                      <cell>٣٦</cell>
                      <cell>كاتب</cell>
                      <cell><persName role="كاتب-بادارة-عموم-التنظيم-بنظارة-الاشغال-العمومية">أحمد
-                           افندى محمد</persName></cell>
+                           أفندى محمد</persName></cell>
                   </row>
                </table><?oxy_comment_end?>
             </div>
             <div>
                <head><orgName ref="تفتيش-تنظيم-ومباني-القاهرة" type="تفتيش"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>تفتيش تنظيم
                      ومباني القاهرة<?oxy_custom_end?></orgName></head>
-               <table>
+               <table cols="7">
                   <row>
-                     <cell>اسماء الخدمة</cell>
-                     <cell>الدرجة الاصلية</cell>
-                     <cell>الدرجة الحالية</cell>
-                     <cell>علاوات</cell>
-                     <cell>رواتب اصلية</cell>
                      <cell>الرواتب التى تقررت جنيه مصرى</cell>
-                     <cell>الوظيفة</cell>
+                     <cell>درجات حاليه</cell>
+                     <cell>علاوات جنيه م</cell>
+                     <cell>رواتب اصليه بجنيه مصرى</cell>
+                     <cell>درجات اصليه</cell>
+                     <cell>وظائف</cell>
+                     <cell>اسماء الخدمة</cell>
                   </row>
                   <row>
-                     <cell><persName role="باشمهندس-بتفتيش-تنظيم-ومبانى-القاهرة-بنظارة-الاشغال-العمومية">احمد
-                           افندى انسى</persName></cell>
-                     <cell>درجة ثالثة</cell>
+                     <cell>٣٠٠</cell>
                      <cell>درجة ثانيه</cell>
                      <cell>٦٠</cell>
                      <cell>٢٤٠</cell>
-                     <cell>٣٠٠</cell>
+                     <cell>درجة ثالثة</cell>
                      <cell>باشمهندس</cell>
+                     <cell><persName
+                           role="باشمهندس-بتفتيش-تنظيم-ومبانى-القاهرة-بنظارة-الاشغال-العمومية">أحمد
+                           افندى أنسى</persName></cell>
                   </row>
                   <row>
-                     <cell><persName role="باشمهندس-بتفتيش-تنظيم-ومبانى-القاهرة-بنظارة-الاشغال-العمومية">المسيو فرنسو برنيولى</persName></cell>
-                     <cell>درجة ثالثة</cell>
+                     <cell>٣٠٠</cell>
                      <cell>درجة ثانيه</cell>
                      <cell>٦٠</cell>
                      <cell>٢٤٠</cell>
-                     <cell>٣٠٠</cell>
+                     <cell>درجة ثالثة</cell>
                      <cell>باشمهندس</cell>
+                     <cell><persName
+                           role="باشمهندس-بتفتيش-تنظيم-ومبانى-القاهرة-بنظارة-الاشغال-العمومية"
+                           >المسيو فرنسو برنيولى</persName></cell>
                   </row>
                   <row>
-                     <cell><persName role="مهندس-معاون-بتفتيش-تنظيم-ومبانى-القاهرة-بنظارة-الاشغال-العمومية">عباس افندى وحيد</persName></cell>
-                     <cell>ثانية</cell>
+                     <cell>١٨٠</cell>
                      <cell>أولى</cell>
                      <cell>٣٠</cell>
                      <cell>١٥٠</cell>
-                     <cell>١٨٠</cell>
+                     <cell>ثانية</cell>
                      <cell>مهندس معاون</cell>
+                     <cell><persName
+                           role="مهندس-معاون-بتفتيش-تنظيم-ومبانى-القاهرة-بنظارة-الاشغال-العمومية"
+                           >عباس افندى وحيد</persName></cell>
                   </row>
                   <row>
-                     <cell><persName role="مهندس-معاون-بتفتيش-تنظيم-ومبانى-القاهرة-بنظارة-الاشغال-العمومية">أحمد افندى صادق</persName></cell>
-                     <cell>ثالثه</cell>
+                     <cell>١٤٤</cell>
                      <cell>ثانيه</cell>
                      <cell>٢٤</cell>
                      <cell>١٢٠</cell>
-                     <cell>١٤٤</cell>
+                     <cell>ثالثه</cell>
                      <cell>مهندس معاون</cell>
+                     <cell><persName
+                           role="مهندس-معاون-بتفتيش-تنظيم-ومبانى-القاهرة-بنظارة-الاشغال-العمومية"
+                           >أحمد افندى صادق</persName></cell>
                   </row>
                   <row>
-                     <cell><persName role="مهندس-معاون-بتفتيش-تنظيم-ومبانى-القاهرة-بنظارة-الاشغال-العمومية">محمد افندى كريم</persName></cell>
-                     <cell>رابعه</cell>
+                     <cell>١٠٨</cell>
                      <cell>ثالثه</cell>
                      <cell>٢٤</cell>
                      <cell>٨٤</cell>
-                     <cell>١٠٨</cell>
+                     <cell>رابعه</cell>
                      <cell>مهندس معاون</cell>
+                     <cell><persName
+                           role="مهندس-معاون-بتفتيش-تنظيم-ومبانى-القاهرة-بنظارة-الاشغال-العمومية"
+                           >محمد افندى كريم</persName></cell>
                   </row>
                   <row>
-                     <cell><persName role="كاتب-بتفتيش-تنظيم-ومبانى-القاهرة-بنظارة-الاشغال-العمومية">خليل افندى فائز</persName></cell>
-                     <cell>رابعه</cell>
+                     <cell>٢١٦</cell>
                      <cell>رابعه</cell>
                      <cell>٣٦</cell>
                      <cell>١٨٠</cell>
-                     <cell>٢١٦</cell>
+                     <cell>رابعه</cell>
                      <cell>كاتب</cell>
+                     <cell><persName role="كاتب-بتفتيش-تنظيم-ومبانى-القاهرة-بنظارة-الاشغال-العمومية"
+                           >خليل افندى فائز</persName></cell>
                   </row>
                   <row>
-                     <cell><persName role="كاتب-بتفتيش-تنظيم-ومبانى-القاهرة-بنظارة-الاشغال-العمومية">المسيو اسكندر أجاس</persName></cell>
-                     <cell>درجة خامسه</cell>
+                     <cell>١٥٦</cell>
                      <cell>درجة خامسه</cell>
                      <cell>١٢</cell>
                      <cell>١٤٤</cell>
-                     <cell>١٥٦</cell>
+                     <cell>درجة خامسه</cell>
                      <cell>كاتب</cell>
+                     <cell><persName role="كاتب-بتفتيش-تنظيم-ومبانى-القاهرة-بنظارة-الاشغال-العمومية"
+                           >المسيو اسكندر أجاس</persName></cell>
                   </row>
                   <row>
-                     <cell><persName role="كاتب-بتفتيش-تنظيم-ومبانى-القاهرة-بنظارة-الاشغال-العمومية">المسيو اوجست برودليه</persName></cell>
-                     <cell>درجة خامسه</cell>
+                     <cell>١٥٦</cell>
                      <cell>درجة خامسه</cell>
                      <cell>١٢</cell>
                      <cell>١٤٤</cell>
-                     <cell>١٥٦</cell>
+                     <cell>درجة خامسه</cell>
                      <cell>كاتب</cell>
+                     <cell><persName role="كاتب-بتفتيش-تنظيم-ومبانى-القاهرة-بنظارة-الاشغال-العمومية"
+                           >المسيو اوجست برودليه</persName></cell>
                   </row>
                   <row>
-                     <cell><persName role="كاتب-بتفتيش-تنظيم-ومبانى-القاهرة-بنظارة-الاشغال-العمومية">المسيو بول ديران</persName></cell>
-                     <cell>درجة خامسه</cell>
+                     <cell>١٥٦</cell>
                      <cell>درجة خامسه</cell>
                      <cell>١٢</cell>
                      <cell>١٤٤</cell>
-                     <cell>١٥٦</cell>
+                     <cell>درجة خامسه</cell>
                      <cell>كاتب</cell>
+                     <cell><persName role="كاتب-بتفتيش-تنظيم-ومبانى-القاهرة-بنظارة-الاشغال-العمومية"
+                           >المسيو بول ديران</persName></cell>
                   </row>
                   <row>
-                     <cell><persName role="كاتب-بتفتيش-تنظيم-ومبانى-القاهرة-بنظارة-الاشغال-العمومية">جبران افندى خياط</persName></cell>
-                     <cell>درجة خامسه</cell>
+                     <cell>١٤٤</cell>
                      <cell>درجة خامسه</cell>
                      <cell>٢٤</cell>
                      <cell>١٢٠</cell>
-                     <cell>١٤٤</cell>
+                     <cell>درجة خامسه</cell>
                      <cell>كاتب</cell>
+                     <cell><persName role="كاتب-بتفتيش-تنظيم-ومبانى-القاهرة-بنظارة-الاشغال-العمومية"
+                           >جبران افندى خياط</persName></cell>
                   </row>
                   <row>
-                     <cell><persName role="كاتب-بتفتيش-تنظيم-ومبانى-القاهرة-بنظارة-الاشغال-العمومية">بطرس افندى منصور</persName></cell>
-                     <cell>درجة سادسة</cell>
+                     <cell>٩٦</cell>
                      <cell>درجة خامسه</cell>
                      <cell>٣٦</cell>
                      <cell>٦٠</cell>
-                     <cell>٩٦</cell>
+                     <cell>درجة سادسة</cell>
                      <cell>كاتب</cell>
+                     <cell><persName role="كاتب-بتفتيش-تنظيم-ومبانى-القاهرة-بنظارة-الاشغال-العمومية"
+                           >بطرس افندى منصور</persName></cell>
                   </row>
                   <row>
-                     <cell><persName>لطيف افندى كلدانى</persName></cell>
-                     <cell>درجة سادسة</cell>
+                     <cell>٧٢</cell>
                      <cell>درجة سادسة</cell>
                      <cell>١٢</cell>
                      <cell>٦٠</cell>
-                     <cell>٧٢</cell>
+                     <cell>درجة سادسة</cell>
                      <cell>كاتب</cell>
+                     <cell><persName>لطيف افندى كلدانى</persName></cell>
                   </row>
                </table>
             </div>
@@ -3563,6 +3573,7 @@ the table is including the following main parts
                <date when="1886-05-31">٣١ مايو ١٨٨٦</date>
                <bibl><biblScope unit="issue">عدد ٦٤</biblScope>
                   <biblScope unit="page">صفحة ٥٣٨</biblScope></bibl></head>
+            <head>مزادات رسميه</head>
             <head><rs type="اعلان">اعلان</rs> من عموم <orgName ref="بيت-المال-بمصر">بيت المال
                   بمصر</orgName></head>
             <p>عن بيان العقارات السابق التصريح من <orgName ref="الداخلية">الداخلية</orgName> عن
@@ -3570,20 +3581,46 @@ the table is including the following main parts
                ذلك بالجرنالات الرسمية بميعاد ١٠ايام حتى كل من له رغبة فى المشترى بزيادة عن الاثمان
                الراسى بها ال<rs type="مزاد">مزاد</rs> يحضر لبيت المال قبل مضى الميعاد المذكور ليطلع
                على شروط قوائم المزادات ويعطى مزاده عليها وتلك الاثمان هى بخلاف المصاريف</p>
-            <?oxy_comment_start author="Dr. Sarah" timestamp="20240812T141549+0200" comment="there is another cell at the end of this news "?>
-            <p>عدد ١ <placeName ref="خرابه-فاطمة-الطرويه" type="خرابه">خرابه</placeName> كائنة
-                  ب<placeName ref="حارة-العطوف" type="حارة">حارة العطوف</placeName> بـ<placeName ref="قسم-الجمالية" type="قسم"><orgName ref="قسم-الجمالية" type="قسم">قسم
-                     الجمالية</orgName></placeName> يبلغ مقاسها ١٩٦,٦ ذراع آيله لبيت المال من قبل
-               المرحومه <persName>فاطمة الطرويه</persName> ولكونها بدون حجة كتب لـ<orgName ref="ديوان-الأوقاف" type="ديوان">ديوان الأوقاف</orgName> بما لزم وافيد منه بخلوها
-               من شوائب الوقف وللتوضيح من <orgName type="ديوان" ref="ديوان-الاشغال">ديوان
-                  الاشغال</orgName> بعدم لزومها للميرى وصدور امر الداخلية باشهار مزاد مبيعها قد صار
-               ذلك ورسى العطاء اخيرا على من يدعا <persName>ابوالعلا الجمال الحريرى</persName> بمبلغ
-               ٣٨٠ قرشا ولما توضح من مهندس المصلحة بانها تساوى من الثمن ٤٠٠ قرش فقد عرض للداخلية عن
-               ذلك وصدر امرها مؤرخ <date when-custom="1303-07-24">٢٤ رجب ١٣٠٣</date> نمرة ٢٢٠ بانه
-               اذا كان ابوالعلا المذكور يقبل مشتراها بحسب تتمين المهندس فيها وإلا فيجرى امتداد
-               اشهارها مدة ٣٠ يوما اخرى وعلى ذلك قد جرى استحضار ابوالعلا المذكور واخذ منه قول بقبوله
-               المشترى بمبلغ ٤٠٠ قرش حسب تتمين
-               ا<?oxy_comment_start author="Dr. Sarah" timestamp="20240713T153153+0200" comment="check if this is the end of the news?"?>لمهندس<?oxy_comment_end?>.</p><?oxy_comment_end?>
+            <table rows="3" cols="2">
+               <row>
+                  <cell>عدد</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell><placeName ref="خرابه-فاطمة-الطرويه" type="خرابه">خرابه</placeName> كائنة
+                        ب<placeName ref="حارة-العطوف" type="حارة">حارة العطوف</placeName>
+                        بـ<placeName ref="قسم-الجمالية" type="قسم"><orgName ref="قسم-الجمالية"
+                           type="قسم">قسم الجمالية</orgName></placeName> يبلغ مقاسها ١٩٦,٦ ذراع آيله
+                     لبيت المال من قبل المرحومه <persName>فاطمة الطرويه</persName> ولكونها بدون حجة
+                     كتب لـ<orgName ref="ديوان-الأوقاف" type="ديوان">ديوان الأوقاف</orgName> بما لزم
+                     وافيد منه بخلوها من شوائب الوقف وللتوضيح من <orgName type="ديوان"
+                        ref="ديوان-الاشغال">ديوان الاشغال</orgName> بعدم لزومها للميرى وصدور امر
+                     الداخلية باشهار مزاد مبيعها قد صار ذلك ورسى العطاء اخيرا على من يدعا
+                        <persName>ابوالعلا الجمال الحريرى</persName> بمبلغ ٣٨٠ قرشا ولما توضح من
+                     مهندس المصلحة بانها تساوى من الثمن ٤٠٠ قرش فقد عرض للداخلية عن ذلك وصدر امرها
+                     مؤرخ <date when-custom="1303-07-24">٢٤ رجب ١٣٠٣</date> نمرة ٢٢٠ بانه اذا كان
+                     ابوالعلا المذكور يقبل مشتراها بحسب تتمين المهندس فيها وإلا فيجرى امتداد اشهارها
+                     مدة ٣٠ يوما اخرى وعلى ذلك قد جرى استحضار ابوالعلا المذكور واخذ منه قول بقبوله
+                     المشترى بمبلغ ٤٠٠ قرش حسب تتمين المهندس</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>حصة - ١ قيراط فى قطعة أرض أصلها منزل كائنه بدمياط آيله لبيت المال من قبل
+                     المرحوم <persName>ايدنلى على أغا</persName> وللتوضيح من ديوان الاوقاف بخلوها من
+                     شوائب الوقف ومن محافظة الثغر بعدم لزوم المنزل المذكور للميرى وان مقاسه ٩٤و١٤٧
+                     ذراعا وصدور أمر الداخلية بمبيعها فقد صار اشهارها ورسى العطا أخيرا على لطيفه
+                     بمبلغ ٨٥ قرشا ثم توضح من تفتيش الدلتا بموافقة هذا الثمن</cell>
+               </row>
+               <row>
+                  <cell>____</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٢</cell>
+                  <cell/>
+               </row>
+            </table>
          </div>
          <div resp="#eAK #eSG" xml:id="w112">
             <head><date when-custom="1303-09-10">١٠ رمضان ١٣٠٣</date>
@@ -3631,17 +3668,14 @@ the table is including the following main parts
                   <cell><placeName ref="شارع-عيواظ" type="شارع">شارع عيواظ</placeName></cell>
                </row>
                <row>
-                  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-                  <cell><placeName ref="شارع-باب-الالفى" type="شارع">شارع <placeName type="باب" ref="باب-الالفى">باب الالفى</placeName></placeName></cell><?oxy_custom_end?>
+                  <cell><placeName ref="شارع-قصر-النيل" type="شارع">شارع <placeName type="قصر"
+                           ref="قصر-النيل">قصر النيل</placeName></placeName></cell>
                   <cell><placeName ref="شارع الصابونجى" type="شارع">شارع
                      الصابونجى</placeName></cell>
                </row>
                <row>
-                  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-                  <?oxy_comment_start author="Dr. Sarah" timestamp="20240713T155048+0200" comment="these two cells are repeated
-" mid="7"?>
-                  <cell><placeName ref="شارع باب الالفي" type="شارع">شارع باب
-                     الالفى</placeName></cell><?oxy_custom_end?><?oxy_comment_end mid="7"?>
+                  <cell><placeName ref="شارع باب الالفي" type="شارع">شارع <placeName type="باب"
+                           ref="باب-الالفى">باب الالفى</placeName></placeName></cell>
                   <cell><placeName ref="حارة-باغوص" type="حارة">حارة باغوص</placeName></cell>
                </row>
                <row>
@@ -3755,9 +3789,8 @@ the table is including the following main parts
                   <cell><orgName ref="قسم-مصر-القديمة" type="قسم"><placeName ref="قسم-مصر-القديمة" type="قسم">قسم مصر القديمة</placeName></orgName></cell>
                </row>
                <row>
-                  <cell><placeName ref="حارة-خوخة-الخرمانى" type="حارة">حارة
-                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>خوخة
-                        الخرمانى<?oxy_custom_end?></placeName></cell>
+                  <cell><placeName ref="حارة-خوخة-القرمانى" type="حارة">حارة خوخة
+                        القرمانى</placeName></cell>
                   <cell><placeName ref="حارة-الشراقوه" type="حارة">حارة الشراقوه</placeName></cell>
                </row>
                <row>
@@ -3813,7 +3846,6 @@ the table is including the following main parts
             <div>
                <head><orgName ref="قسم شبرا" type="قسم"><placeName ref="قسم شبرا" type="قسم">قسم
                         شبرا</placeName></orgName></head>
-               <?oxy_comment_start author="Dr. Sarah" timestamp="20240714T131512+0200" comment="is this is the end of the news ?"?>
                <table>
                   <row>
                      <cell>رقم</cell>
@@ -3826,7 +3858,8 @@ the table is including the following main parts
                      <cell><placeName ref="حارة-عيواظ" type="حارة">حارة عيواظ</placeName></cell>
                      <cell>٥٤</cell>
                      <cell><placeName ref="شارع-محمود-بك-العطار-بالشرابيه" type="شارع">شارع
-                              <persName>محمود بك العطار</persName> ب<placeName ref="الشرابيه">الشرابيه</placeName></placeName></cell>
+                              <persName>محمود بك العطار</persName> ب<placeName ref="الشرابيه"
+                              >الشرابيه</placeName></placeName></cell>
                   </row>
                   <row>
                      <cell>٢</cell>
@@ -3848,14 +3881,16 @@ the table is including the following main parts
                      <cell><placeName ref="حارة-قصورة-الشام" type="حارة">حارة قصورة
                            الشام</placeName></cell>
                      <cell>٥٧</cell>
-                     <cell><placeName ref="عزبة-المرحوم-رستم-بك-بحارة-على-باشا-شريف" type="عزبة">عزبة المرحوم <persName>رستم بك</persName> بحارة على باشا
+                     <cell><placeName ref="عزبة-المرحوم-رستم-بك-بحارة-على-باشا-شريف" type="عزبة"
+                           >عزبة المرحوم <persName>رستم بك</persName> بحارة على باشا
                            شريف</placeName></cell>
                   </row>
                   <row>
                      <cell>٥</cell>
                      <cell><placeName ref="حارة-شنودة" type="حارة">حارة شنودة</placeName></cell>
                      <cell>٥٨</cell>
-                     <cell><placeName ref="عزبة-المرحوم-يعقوب-بك-بحارة-على-باشا-شريف" type="عزبة">عزبة المرحوم <persName>يعقوب بك</persName> بحارة على باشا
+                     <cell><placeName ref="عزبة-المرحوم-يعقوب-بك-بحارة-على-باشا-شريف" type="عزبة"
+                           >عزبة المرحوم <persName>يعقوب بك</persName> بحارة على باشا
                            شريف</placeName></cell>
                   </row>
                   <row>
@@ -3869,19 +3904,17 @@ the table is including the following main parts
                      <cell>٧</cell>
                      <cell><placeName ref="حارة-طنبه" type="حارة">حارة طنبه</placeName></cell>
                      <cell>٦٠</cell>
-                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
                      <cell><placeName ref="حارة-محمود-افندى-اليازجى" type="حارة">حارة
-                              <persName>محمود افندى
-                     اليازجى</persName></placeName></cell><?oxy_custom_end?>
+                              <persName>محمود افندى اليازجى</persName></placeName></cell>
                   </row>
                   <row>
                      <cell>٨</cell>
                      <cell><placeName ref="شارع-الزينى" type="شارع">شارع الزينى</placeName></cell>
                      <cell>٦١</cell>
-                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-                     <cell>حارة المرحوم محمود افندى اليازجى</cell><?oxy_custom_end?>
-                     <?oxy_comment_start author="Dr. Sarah" timestamp="20240713T171649+0200" comment="both repeated?"?>
-                  </row><?oxy_comment_end?>
+                     <?oxy_comment_start author="Dr. Sarah" timestamp="20240821T094101+0200" comment="one with مرحوم and the other is without word المرحوم (I have checked them in the original)"?>
+                     <cell><placeName type="حارة" ref="حارة-المرحوم-محمود-افندى-اليازجى">حارة
+                           المرحوم محمود افندى اليازجى</placeName></cell><?oxy_comment_end?>
+                  </row>
                   <row>
                      <cell>٩</cell>
                      <cell><placeName ref="حارة-سمكه" type="حارة">حارة سمكه</placeName></cell>
@@ -3901,7 +3934,8 @@ the table is including the following main parts
                      <cell>١١</cell>
                      <cell><placeName ref="حارة-البراد" type="حارة">حارة البراد</placeName></cell>
                      <cell>٦٤</cell>
-                     <cell><placeName ref="عزبة-ابراهيم-ابو-السعد-بحارة-على-باشا-شريف" type="عزبة">عزبة <persName>ابراهيم ابو السعد</persName> بحارة على باشا
+                     <cell><placeName ref="عزبة-ابراهيم-ابو-السعد-بحارة-على-باشا-شريف" type="عزبة"
+                           >عزبة <persName>ابراهيم ابو السعد</persName> بحارة على باشا
                            شريف</placeName></cell>
                   </row>
                   <row>
@@ -3948,13 +3982,13 @@ the table is including the following main parts
                      <cell>مباني ب<placeName ref="ارض-النقادى" type="ارض">ارض
                         النقادى</placeName></cell>
                      <cell>٧٠</cell>
-                     <cell><placeName ref="حارة-وقف-الحرمين" type="حارة">حارة <orgName type="وقف" ref="وقف-الحرمين">وقف الحرمين</orgName></placeName></cell>
+                     <cell><placeName ref="حارة-وقف-الحرمين" type="حارة">حارة <orgName type="وقف"
+                              ref="وقف-الحرمين">وقف الحرمين</orgName></placeName></cell>
                   </row>
                   <row>
                      <cell>١٨</cell>
                      <cell><placeName ref="شارع-انجه-خانم-افندى" type="شارع">شارع <persName>انجه
-                              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>خانم<?oxy_custom_end?>
-                              افندى</persName></placeName></cell>
+                              خانم افندى</persName></placeName></cell>
                      <cell>٧١</cell>
                      <cell><placeName ref="شارع-الالايلى-بالشرابيه" type="شارع">شارع الالايلى
                            بالشرابيه</placeName></cell>
@@ -3969,7 +4003,8 @@ the table is including the following main parts
                   </row>
                   <row>
                      <cell>٢٠</cell>
-                     <cell><placeName ref="شارع-بارض-السكه-الحديد" type="شارع">شارع ب<placeName type="ارض" ref="ارض-السكه-الحديد">ارض السكه
+                     <cell><placeName ref="شارع-بارض-السكه-الحديد" type="شارع">شارع ب<placeName
+                              type="ارض" ref="ارض-السكه-الحديد">ارض السكه
                            الحديد</placeName></placeName></cell>
                      <cell>٧٣</cell>
                      <cell><placeName ref="شارع-بشاره-عبد-المسيح-بالشرابيه" type="شارع">شارع
@@ -3977,7 +4012,8 @@ the table is including the following main parts
                   </row>
                   <row>
                      <cell>٢١</cell>
-                     <cell><placeName ref="شارع-جزيرة-بدران" type="شارع">شارع <placeName ref="جزيرة-بدران" type="جزيرة">جزيرة
+                     <cell><placeName ref="شارع-جزيرة-بدران" type="شارع">شارع <placeName
+                              ref="جزيرة-بدران" type="جزيرة">جزيرة
                         بدران</placeName></placeName></cell>
                      <cell>٧٤</cell>
                      <cell><placeName ref="عزبة-على-باشا-شريف-بمهمشه" type="عزبة">عزبة على باشا شريف
@@ -3993,7 +4029,8 @@ the table is including the following main parts
                   </row>
                   <row>
                      <cell>٢٣</cell>
-                     <cell><placeName ref="شارع-كفر-الجزار" type="شارع">شارع <placeName ref="كفر-الجزار" type="كفر">كفر الجزار</placeName></placeName></cell>
+                     <cell><placeName ref="شارع-كفر-الجزار" type="شارع">شارع <placeName
+                              ref="كفر-الجزار" type="كفر">كفر الجزار</placeName></placeName></cell>
                      <cell>٧٦</cell>
                      <cell><placeName ref="عزبة-إبراهيم-باشا-ادهم" type="عزبة">عزبة
                               <persName>إبراهيم باشا ادهم</persName></placeName></cell>
@@ -4016,12 +4053,11 @@ the table is including the following main parts
                   </row>
                   <row>
                      <cell>٢٦</cell>
-                     <cell><placeName ref="حارة-درب-السوق-بدران" type="حارة">حارة درب
-                           <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>السوق
-                           بدران</placeName><?oxy_custom_end?></cell>
+                     <cell><placeName ref="حارة-درب-السوق-بدران" type="حارة">حارة درب السوق
+                           بدران</placeName></cell>
                      <cell>٧٩</cell>
-                     <cell><placeName ref="عزبة-حمد-موسى-بمهمشه" type="عزبه">عزبة<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-                           حمد موسى<?oxy_custom_end?> بمهمشه</placeName></cell>
+                     <cell><placeName ref="عزبة-حمد-موسى-بمهمشه" type="عزبه">عزبة حمد موسى
+                           بمهمشه</placeName></cell>
                   </row>
                   <row>
                      <cell>٢٧</cell>
@@ -4056,7 +4092,8 @@ the table is including the following main parts
                   </row>
                   <row>
                      <cell>٣١</cell>
-                     <cell>مبانى ب<placeName ref="ارض-ورثة-والدة-المرحوم-محمد-على-باشا" type="ارض">ارض ورثة <persName>والدة المرحوم <persName>محمد على
+                     <cell>مبانى ب<placeName ref="ارض-ورثة-والدة-المرحوم-محمد-على-باشا" type="ارض"
+                           >ارض ورثة <persName>والدة المرحوم <persName>محمد على
                               باشا</persName></persName></placeName></cell>
                      <cell>٨٤</cell>
                      <cell><placeName ref="عزبة-ابراهيم-الخياط-بمهمشه" type="عزبة">عزبة ابراهيم
@@ -4065,7 +4102,8 @@ the table is including the following main parts
                   <row>
                      <cell>٣٢</cell>
                      <cell><placeName ref="حارة-المرحوم-طوسن-باشا" type="حارة">حارة المرحوم
-                              <persName>طوسن باشا</persName></placeName> بها <placeName ref="عشش-الخواجه-وانيس" type="عشش">عشش <persName>الخواجه
+                              <persName>طوسن باشا</persName></placeName> بها <placeName
+                           ref="عشش-الخواجه-وانيس" type="عشش">عشش <persName>الخواجه
                            وانيس</persName></placeName></cell>
                      <cell>٨٥</cell>
                      <cell><placeName ref="عزبة-الجماشرجيه-بمهمشه" type="عزبة">عزبة الجماشرجيه
@@ -4073,7 +4111,8 @@ the table is including the following main parts
                   </row>
                   <row>
                      <cell>٣٣</cell>
-                     <cell>حارة المرحوم طوسن باشا بها <placeName ref="عشش-الخواجه-توخارى-ناعوم" type="عشش">عشش <persName>الخواجه توخارى
+                     <cell>حارة المرحوم طوسن باشا بها <placeName ref="عشش-الخواجه-توخارى-ناعوم"
+                           type="عشش">عشش <persName>الخواجه توخارى
                         ناعوم</persName></placeName></cell>
                      <cell>٨٦</cell>
                      <cell><placeName ref="عزبة-الخواجه-رفله-عبيد-بمهمشه" type="عزبة">عزبة
@@ -4089,10 +4128,12 @@ the table is including the following main parts
                   </row>
                   <row>
                      <cell>٣٥</cell>
-                     <cell>حارة المرحوم طوسون باشا بها <placeName ref="عشش-والدة-المرحوم-طوسون-باشا" type="عشش">عشش <persName>والدة المرحوم طوسون
+                     <cell>حارة المرحوم طوسون باشا بها <placeName ref="عشش-والدة-المرحوم-طوسون-باشا"
+                           type="عشش">عشش <persName>والدة المرحوم طوسون
                         باشا</persName></placeName></cell>
                      <cell>٨٨</cell>
-                     <cell><placeName ref="عزبة-المرحوم-عبد-القادر-الخربوطلى-بمهمشه" type="عزبة">عزبة المرحوم <persName>عبد القادر الخربوطلى</persName>
+                     <cell><placeName ref="عزبة-المرحوم-عبد-القادر-الخربوطلى-بمهمشه" type="عزبة"
+                           >عزبة المرحوم <persName>عبد القادر الخربوطلى</persName>
                            بمهمشه</placeName></cell>
                   </row>
                   <row>
@@ -4113,7 +4154,8 @@ the table is including the following main parts
                   <row>
                      <cell>٣٨</cell>
                      <cell><placeName ref="عشش-الخواجه-فليوا-ديمترى-بعزبة-السنور" type="عشش">عشش
-                              <persName>الخواجه فليوا ديمترى</persName> ب<placeName ref="عزبة-السنور" type="عزبة">عزبة
+                              <persName>الخواجه فليوا ديمترى</persName> ب<placeName
+                              ref="عزبة-السنور" type="عزبة">عزبة
                         السنور</placeName></placeName></cell>
                      <cell>٩١</cell>
                      <cell><placeName ref="درب-خليل" type="درب">درب خليل</placeName></cell>
@@ -4128,17 +4170,15 @@ the table is including the following main parts
                   <row>
                      <cell>٤٠</cell>
                      <cell><placeName ref="حارة-الشيخ-فرج" type="حارة">حارة <persName>الشيخ
-                              فرج</persName></placeName> وهى <placeName ref="عشش ٢-جى-قادن-افندى" type="عشش ">عشش
-                           <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>٢
-                           جى<?oxy_custom_end?> قادن افندى</placeName></cell>
+                              فرج</persName></placeName> وهى <placeName ref="عشش ٢-جى-قادن-افندى"
+                           type="عشش ">عشش ٢ جى قادن افندى</placeName></cell>
                      <cell>٩٣</cell>
                      <cell><placeName ref="درب-قطيط-بشبرا" type="درب">درب قطيط
                         بشبرا</placeName></cell>
                   </row>
                   <row>
                      <cell>٤١</cell>
-                     <?oxy_comment_start author="Dr. Sarah" timestamp="20240713T170325+0200" comment="both are repeated (this one and the one above)
-"?>
+                     <?oxy_comment_start author="Dr. Sarah" timestamp="20240713T170325+0200" comment="like that in the original"?>
                      <cell>حارة الشيخ فرج</cell><?oxy_comment_end?>
                      <cell>٩٤</cell>
                      <cell><placeName ref="درب-الجزار-بمنية-السيرج" type="درب">درب الجزار بمنية
@@ -4154,8 +4194,10 @@ the table is including the following main parts
                   </row>
                   <row>
                      <cell>٤٣</cell>
-                     <cell><placeName ref="حارة-البصمه-خانه" type="حارة">حارة <orgName ref="البصمه-خانه">البصمه خانه</orgName></placeName>
-                        <placeName ref="عشش-بارض-دولتلو-حسين-كامل-باشا" type="عشش">عشش ب<placeName ref="ارض-دولتلو-حسين-كامل-باشا" type="ارض">ارض دولتلو <persName>حسين
+                     <cell><placeName ref="حارة-البصمه-خانه" type="حارة">حارة <orgName
+                              ref="البصمه-خانه">البصمه خانه</orgName></placeName>
+                        <placeName ref="عشش-بارض-دولتلو-حسين-كامل-باشا" type="عشش">عشش ب<placeName
+                              ref="ارض-دولتلو-حسين-كامل-باشا" type="ارض">ارض دولتلو <persName>حسين
                                  كامل باشا</persName></placeName></placeName></cell>
                      <cell>٩٦</cell>
                      <cell><placeName ref="درب-صالح-بمنية-السيرج" type="درب">درب صالح بمنية
@@ -4216,7 +4258,8 @@ the table is including the following main parts
                   <row>
                      <cell>٥١</cell>
                      <cell><placeName ref="عزبة-مصطفي-بك-مختار-بحارة-على-باشا-شريف" type="عزبة">عزبة
-                              <persName>مصطفي بك مختار</persName> ب<placeName ref="حارة-على-باشا-شريف" type="حارة">حارة <persName>على باشا
+                              <persName>مصطفي بك مختار</persName> ب<placeName
+                              ref="حارة-على-باشا-شريف" type="حارة">حارة <persName>على باشا
                                  شريف</persName></placeName></placeName></cell>
                      <cell>١٠٤</cell>
                      <cell><placeName ref="الزاوية-الحمرا">الزاوية الحمرا</placeName></cell>
@@ -4226,9 +4269,7 @@ the table is including the following main parts
                      <cell><placeName ref="عزبة-جعفر-باشا" type="عزبة">عزبة <persName>جعفر
                               باشا</persName></placeName></cell>
                      <cell>١٠٥</cell>
-                     <cell><?oxy_comment_start author="Dr. Sarah" timestamp="20240714T131400+0200" comment="only المبانى الاميرية
-"?>المبانى
-                        الاميرية<?oxy_comment_end?></cell>
+                     <cell>المبانى الميريه</cell>
                   </row>
                   <row>
                      <cell>٥٣</cell>
@@ -4238,8 +4279,10 @@ the table is including the following main parts
                      <cell/>
                      <cell/>
                   </row>
-               </table><?oxy_comment_end?>
+               </table>
             </div>
+            <div/>
+            <div/>
             <div>
                <head>جدول (أ) مصر</head>
                <table>
