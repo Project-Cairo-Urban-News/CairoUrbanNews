@@ -7383,7 +7383,7 @@ the table is including the following main parts
                <p>رئيس مجلس النظار نوبار </p>
                <p> ناظر الاشغال العمومية عبد الرحمن رشدى</p>
                <table>
-                  <head>جدول (أ) مصر</head>
+                  <head> (ا) مصر</head>
                   <row>
                      <cell>نمرة الرسم</cell>
                      <cell>أسماء الطرق العمومية</cell>
@@ -7403,7 +7403,9 @@ the table is including the following main parts
                            <placeName ref="سكة-سويقة-اللاله" type="سكة">سكة سويقة اللاله</placeName>
                            و<placeName ref="شارع-الحنفى-والشيخ-صالح" type="شارع">شارع الحنفي والشيخ
                            صالح</placeName></cell>
-                     <cell><placeName ref="ثمن-السيدة-زينب" type="ثمن"><orgName ref="ثمن-السيدة-زينب" type="ثمن"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><placeName ref="السيدة-زينب">السيدة</placeName><?oxy_custom_end?><?oxy_comment_start author="Dr. Sarah" timestamp="20240714T134315+0200" comment="is it wrote like that in the original?"?></orgName><?oxy_comment_end?></placeName></cell>
+                     <cell><placeName ref="ثمن-السيدة-زينب" type="ثمن"><orgName
+                              ref="ثمن-السيدة-زينب" type="ثمن"><placeName ref="السيدة-زينب"
+                                 >السيده</placeName></orgName></placeName></cell>
                      <cell>٤ ديسمبر ١٨٨٤</cell>
                   </row>
                   <row>
