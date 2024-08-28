@@ -4974,34 +4974,36 @@ the table is including the following main parts
                      <cell>١٧</cell>
                      <cell><placeName ref="شارع-مشتهر" type="شارع"><placeName ref="حارة-مشتهر" type="حارة">شارع وحارة مشتهر</placeName></placeName></cell>
                      <cell>٧٨</cell>
-                     <cell>عطفة درب الطواب</cell>
+                     <cell><placeName ref="عطفة-درب-الطواب">عطفة درب الطواب</placeName></cell>
                   </row>
                   <row>
                      <cell>١٨</cell>
                      <cell><placeName ref="شارع-الصنافيرى" type="شارع">شارع
                         الصنافيرى</placeName></cell>
                      <cell>٧٩</cell>
-                     <cell>حارة قواديس </cell>
+                     <cell><placeName ref="حارة-قواديس" type="حارة">حارة قواديس</placeName></cell>
                   </row>
                   <row>
                      <cell>١٩</cell>
                      <cell><placeName ref="شارع-ابوالسباع-القديم" type="شارع">شارع ابوالسباع
                            القديم</placeName></cell>
                      <cell>٨٠</cell>
-                     <cell>حارة حمام</cell>
+                     <cell><placeName ref="حارة-حمام" type="حارة">حارة حمام</placeName></cell>
                   </row>
                   <row>
                      <cell>٢٠</cell>
                      <cell><placeName ref="شارع-البلاقسه" type="شارع">شارع
                         البلاقسه</placeName></cell>
                      <cell>٨١</cell>
-                     <cell>شارع باب الخلق</cell>
+                     <cell><placeName ref="شارع-باب-الخلق" type="شارع">شارع <placeName
+                              ref="باب-الخلق" type="باب">باب الخلق</placeName></placeName></cell>
                   </row>
                   <row>
                      <cell>٢١</cell>
                      <cell><placeName ref="حارة-الحكر" type="حارة">حارة الحكر</placeName></cell>
                      <cell>٨٢</cell>
-                     <cell>حارة الجباسه بالشارع قبله</cell>
+                     <cell><placeName ref="حارة-الجباسه-بالشارع-قبله" type="حارة">حارة الجباسه
+                           بالشارع قبله</placeName></cell>
                   </row>
                   <row>
                      <cell>٢٢</cell>
@@ -5010,46 +5012,56 @@ the table is including the following main parts
                            المعروف ب<placeName ref="شارع-التبانه" type="شارع">شارع
                               التبانه</placeName></placeName></cell>
                      <cell>٨٣</cell>
-                     <cell>شارع رجب اغا نمرة 73</cell>
+                     <cell><placeName ref="شارع-رجب-اغا-نمرة ٧٣" type="شارع">شارع رجب اغا نمرة
+                           ٧٣</placeName></cell>
                   </row>
                   <row>
                      <cell>٢٣</cell>
                      <cell><placeName ref="حارة-الكريدى" type="حارة">حارة الكريدى</placeName></cell>
                      <cell>٨٤</cell>
-                     <cell>شارع قنطرة الذى كفر</cell>
+                     <cell><placeName ref="شارع-قنطرة-الذى-كفر" type="شارع">شارع <placeName
+                              ref="قنطرة-الذى-كفر" type="قنطرة">قنطرة الذى
+                           كفر</placeName></placeName></cell>
                   </row>
                   <row>
                      <cell>٢٤</cell>
                      <cell><placeName ref="حارة-جميعه" type="حارة">حارة جميعه</placeName></cell>
                      <cell>٨٥</cell>
-                     <cell>حارة الحبانيه</cell>
+                     <cell><placeName ref="حارة-الحبانيه" type="حارة">حارة
+                        الحبانيه</placeName></cell>
                   </row>
                   <row>
                      <cell>٢٥</cell>
                      <cell><placeName ref="حارة-درب-الشيخ-صالح" type="حارة">حارة <placeName ref="درب-الشيخ-صالح" type="درب">درب <persName>الشيخ
                               صالح</persName></placeName></placeName></cell>
                      <cell>٨٦</cell>
-                     <cell>حارة المدابغ القديمة</cell>
+                     <cell><placeName ref="حارة-المدابغ-القديمة" type="حارة">حارة المدابغ
+                           القديمة</placeName></cell>
                   </row>
                   <row>
                      <cell>٢٦</cell>
                      <cell><placeName ref="حارة-درب-الواسط" type="حارة">حارة <placeName type="درب" ref="درب-الواسط">درب الواسط</placeName></placeName></cell>
                      <cell>٨٧</cell>
-                     <cell>حارة الصعايده</cell>
+                     <cell><placeName ref="حارة-الصعايده" type="حارة">حارة
+                        الصعايده</placeName></cell>
                   </row>
                   <row>
                      <cell>٢٧</cell>
                      <cell><placeName ref="حارة-الحكر-بعبد-الدائم" type="حارة">حارة الحكر بعبد
                            الدائم</placeName></cell>
                      <cell>٨٨</cell>
-                     <cell>شارع محمد علي</cell>
+                     <cell><placeName ref="شارع-محمد-علي" type="شارع">شارع <persName>محمد
+                              علي</persName></placeName></cell>
                   </row>
                   <row>
                      <cell>٢٨</cell>
                      <cell>جزء من <placeName type="شارع" ref="شارع-الماليه">شارع
                         الماليه</placeName></cell>
                      <cell>٨٩</cell>
-                     <cell>سكة سوق العصر القديم</cell>
+                     <cell><placeName ref="سكة-سوق-العصر-القديم" type="سكة">سكة <placeName
+                              ref="سوق-العصر-القديم" type="شوق"><orgName ref="سوق-العصر-القديم"
+                                 type="سوق">سوق العصر
+                        القديم</orgName></placeName></placeName></cell>
                   </row>
                   <row>
                      <cell>٢٩</cell>
@@ -5057,14 +5069,17 @@ the table is including the following main parts
                         المعروف ب<placeName ref="شارع-عماد-الدين" type="شارع">شارع عماد
                            الدين</placeName></cell>
                      <cell>٩٠</cell>
-                     <cell>الحارة الكبيره</cell>
+                     <cell><placeName ref="الحارة-الكبيره" type="حارة">الحارة
+                        الكبيره</placeName></cell>
                   </row>
                   <row>
                      <cell>٣٠</cell>
                      <cell><placeName ref="حارة-الدمالشه" type="حارة">حارة
                         الدمالشه</placeName></cell>
                      <cell>٩١</cell>
-                     <cell>شارع سيدى محمد توفيق بغيط العده</cell>
+                     <cell><placeName type="شارع" ref="شارع-سيدى-محمد-توفيق-بغيط-العده">شارع
+                              <persName>سيدى محمد توفيق</persName> ب<placeName ref="غيط-العده"
+                              type="غيط">غيط العده</placeName></placeName></cell>
                   </row>
                   <row>
                      <cell>٣١</cell>
