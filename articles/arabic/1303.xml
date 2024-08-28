@@ -4891,8 +4891,8 @@ the table is including the following main parts
                      <cell>٦</cell>
                      <cell><placeName type="شارع" ref="شارع-النصارى"><placeName type="حارة" ref="حارة-النصارى">شارع وحارة النصارى</placeName></placeName></cell>
                      <cell>٦٧</cell>
-                     <cell><placeName ref="شارع-عابدين-الذى-به-جامع-عابدين-بك">شارع عابدين الذى به
-                           جامع عابدين بك</placeName></cell>
+                     <cell><placeName ref="شارع-عابدين-الذى-به-جامع-عابدين-بك" type="شارع">شارع
+                           عابدين الذى به جامع عابدين بك</placeName></cell>
                   </row>
                   <row>
                      <cell>٧</cell>
@@ -4901,54 +4901,58 @@ the table is including the following main parts
                         المسمي ب<placeName ref="شارع-الساحه" type="شارع">شارع
                         الساحه</placeName></cell>
                      <cell>٦٨</cell>
-                     <cell>حارة الزياتين</cell>
+                     <cell><placeName ref="حارة الزياتين" type="حارة">حارة
+                        الزياتين</placeName></cell>
                   </row>
                   <row>
                      <cell>٨</cell>
                      <cell><placeName ref="شارع-الساحه-القديم" type="شارع">شارع الساحه
                            القديم</placeName></cell>
                      <cell>٦٩</cell>
-                     <cell>حارة قره علي</cell>
+                     <cell><placeName ref="حارة-قره-علي" type="حارة">حارة قره علي</placeName></cell>
                   </row>
                   <row>
                      <cell>٩</cell>
                      <cell><placeName type="حارة" ref="حارة-الفواله">حارة الفواله</placeName></cell>
                      <cell>٧٠</cell>
-                     <cell>عطفة القمى</cell>
+                     <cell><placeName ref="عطفة-القمى" type="عطفة">عطفة القمى</placeName></cell>
                   </row>
                   <row>
                      <cell>١٠</cell>
                      <cell>شارع نمرة ٤٠ المسمى بشارع الساحه</cell>
                      <cell>٧١</cell>
-                     <cell>شارع الخليج</cell>
+                     <cell><placeName ref="شارع-الخليج" type="شارع">شارع الخليج</placeName></cell>
                   </row>
                   <row>
                      <cell>١١</cell>
                      <cell><placeName ref="شارع-المخللاتيه" type="شارع">شارع
                         المخللاتيه</placeName></cell>
                      <cell>٧٢</cell>
-                     <cell>عطفة الشوربجي</cell>
+                     <cell><placeName ref="عطفة-الشوربجي" type="عطفة">عطفة
+                        الشوربجي</placeName></cell>
                   </row>
                   <row>
                      <cell>١٢</cell>
                      <cell><placeName ref="شارع-الكفاروه" type="شارع">شارع
                         الكفاروه</placeName></cell>
                      <cell>٧٣</cell>
-                     <cell>شارع ابودرع</cell>
+                     <cell><placeName ref="شارع-ابودرع" type="شارع">شارع ابودرع</placeName></cell>
                   </row>
                   <row>
                      <cell>١٣</cell>
                      <cell><placeName ref="حارة-علم-الدين" type="حارة">حارة علم
                         الدين</placeName></cell>
                      <cell>٧٤</cell>
-                     <cell>شارع الحوض المخرب</cell>
+                     <cell><placeName ref="شارع-الحوض-المخرب" type="شارع">شارع الحوض
+                           المخرب</placeName></cell>
                   </row>
                   <row>
                      <cell>١٤</cell>
                      <cell><placeName type="حارة" ref="حارة-الشقفاتيه">حارة
                         الشقفاتيه</placeName></cell>
                      <cell>٧٥</cell>
-                     <cell>عطفة المغربلين</cell>
+                     <cell><placeName ref="عطفة-المغربلين" type="عطفة">عطفة
+                        المغربلين</placeName></cell>
                   </row>
                   <row>
                      <cell>١٥</cell>
@@ -4957,14 +4961,15 @@ the table is including the following main parts
                            <placeName ref="شارع-جامع-جركس" type="شارع">شارع <placeName ref="جامع-جركس" type="جامع"><orgName ref="جامع-جركس" type="جامع">جامع
                                  جركس</orgName></placeName></placeName></cell>
                      <cell>٧٦</cell>
-                     <cell>عطفة الزلط</cell>
+                     <cell><placeName ref="عطفة-الزلط" type="عطفة">عطفة الزلط</placeName></cell>
                   </row>
                   <row>
                      <cell>١٦</cell>
                      <cell><placeName ref="حارة-الصوافيه" type="حارة">حارة
                         الصوافيه</placeName></cell>
                      <cell>٧٧</cell>
-                     <cell>شارع درب الطواب</cell>
+                     <cell><placeName ref="شارع-درب-الطواب" type="شارع">شارع <placeName
+                              ref="درب-الطواب" type="درب">درب الطواب</placeName></placeName></cell>
                   </row>
                   <row>
                      <cell>١٧</cell>
