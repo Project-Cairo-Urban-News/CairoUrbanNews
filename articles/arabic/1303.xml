@@ -5081,33 +5081,37 @@ the table is including the following main parts
                      <cell><placeName ref="حارة-الشيخ-ريحان" type="حارة">حارة <persName>الشيخ
                               ريحان</persName></placeName></cell>
                      <cell>٩٢</cell>
-                     <cell>حارة محمد غريق الزيت</cell>
+                     <cell><placeName ref="حارة-محمد-غريق-الزيت" type="حارة">حارة <persName>محمد
+                              غريق الزيت</persName></placeName></cell>
                   </row>
                   <row>
                      <cell>٣٢</cell>
                      <cell><placeName ref="حارة-الشيخ-عبدالله" type="حارة">حارة <persName>الشيخ
                               عبدالله</persName></placeName></cell>
                      <cell>٩٣</cell>
-                     <cell>حارة الزيتونه</cell>
+                     <cell><placeName ref="حارة-الزيتونه" type="حارة">حارة
+                        الزيتونه</placeName></cell>
                   </row>
                   <row>
                      <cell>٣٣</cell>
                      <cell><placeName ref="شارع-الاسماعيليه" type="شارع">شارع <placeName ref="الاسماعيليه">الاسماعيليه</placeName></placeName></cell>
                      <cell>٩٤</cell>
-                     <cell>حارة العوالم</cell>
+                     <cell><placeName ref="حارة-العوالم" type="حارة">حارة العوالم</placeName></cell>
                   </row>
                   <row>
                      <cell>٣٤</cell>
                      <cell><placeName ref="شارع-نمرة ١٠٥-بالجزيرة" type="شارع">شارع نمرة ١٠٥
                               ب<placeName ref="الجزيرة">الجزيرة</placeName></placeName></cell>
                      <cell>٩٥</cell>
-                     <cell>شارع الشيخ درغام</cell>
+                     <cell><placeName ref="شارع-الشيخ-درغام" type="شارع">شارع <persName>الشيخ
+                              درغام</persName></placeName></cell>
                   </row>
                   <row>
                      <cell>٣٥</cell>
                      <cell><placeName ref="شارع-نمرة ٨٩" type="شارع">شارع نمرة ٨٩</placeName></cell>
                      <cell>٩٦</cell>
-                     <cell>حوش ابوالشوارب</cell>
+                     <cell><placeName ref="حوش-ابوالشوارب" type="حوش">حوش
+                        ابوالشوارب</placeName></cell>
                   </row>
                   <row>
                      <cell>٣٦</cell>
@@ -5115,14 +5119,15 @@ the table is including the following main parts
                            بالجزيرة</placeName>
                      </cell>
                      <cell>٩٧</cell>
-                     <cell>حارة الجاويش</cell>
+                     <cell><placeName ref="حارة-الجاويش" type="حارة">حارة الجاويش</placeName></cell>
                   </row>
                   <row>
                      <cell>٣٧</cell>
                      <cell><placeName ref="شارع-نمرة ١١٠-بالجزيرة">شارع نمرة ١١٠
                            بالجزيرة</placeName></cell>
                      <cell>٩٨</cell>
-                     <cell>حارة الشيخ غنام </cell>
+                     <cell><placeName ref="حارة-الشيخ-غنام" type="حارة">حارة <persName>الشيخ
+                              غنام</persName></placeName></cell>
                   </row>
                   <row>
                      <cell>٣٨</cell>
@@ -5130,21 +5135,26 @@ the table is including the following main parts
                            ب<placeName ref="شارع-الشيخ-عبدالله" type="شارع">شارع الشيخ
                            عبدالله</placeName></cell>
                      <cell>٩٩</cell>
-                     <cell>شارع جامع الحين</cell>
+                     <cell><placeName ref="شارع-جامع-الحين" type="شارع">شارع <placeName type="جامع"
+                              ref="جامع-الحين"><orgName type="جامع" ref="جامع-الحين">جامع
+                                 الحين</orgName></placeName></placeName></cell>
                   </row>
                   <row>
                      <cell>٣٩</cell>
                      <cell><placeName ref="شارع-نمرة ٩١-بالجزيرة" type="شارع">شارع نمرة ٩١
                            بالجزيرة</placeName></cell>
                      <cell>١٠٠</cell>
-                     <cell>شارع محمد علي</cell>
+                     <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Dr. Sarah" timestamp="20240829T084228+0200" comment="also mentioned in 88"?>شارع<?oxy_comment_end?>
+                        محمد علي<?oxy_custom_end?></cell>
                   </row>
                   <row>
                      <cell>٤٠</cell>
                      <cell><placeName type="شارع" ref="الشارع-الموصل-للنصريه">الشارع الموصل
                               لل<placeName ref="النصريه">نصريه</placeName></placeName></cell>
                      <cell>١٠١</cell>
-                     <cell>حارة جنينة الشيخ جوهر</cell>
+                     <cell><placeName ref="حارة-جنينة-الشيخ-جوهر" type="حارة">حارة <placeName
+                              ref="جنينة-الشيخ-جوهر" type="جنينة">جنينة <persName>الشيخ
+                                 جوهر</persName></placeName></placeName></cell>
                   </row>
                   <row>
                      <cell>٤١</cell>
@@ -5152,7 +5162,9 @@ the table is including the following main parts
                            نمرة ٣٠</placeName>
                      </cell>
                      <cell>١٠٢</cell>
-                     <cell>حارة درب المنجمه</cell>
+                     <cell><placeName ref="حارة-درب-المنجمه" type="حارة">حارة <placeName
+                              ref="درب-المنجمه" type="درب">درب
+                        المنجمه</placeName></placeName></cell>
                   </row>
                   <row>
                      <cell>٤٢</cell>
@@ -5160,103 +5172,117 @@ the table is including the following main parts
                               <persName>الشيخ عبدالله</persName> تابع الجزيرة نمرة
                         ٣٠</placeName></cell>
                      <cell>١٠٣</cell>
-                     <cell>حارة درب البحره</cell>
+                     <cell><placeName ref="حارة-درب-البحره" type="حارة">حارة <placeName
+                              ref="درب-البحره" type="درب">درب البحره</placeName></placeName></cell>
                   </row>
                   <row>
                      <cell>٤٣</cell>
                      <cell><placeName ref="الشارع-الموصل-للماليه-نمرة ٣٦" type="شارع">الشارع الموصل
                            للماليه نمرة ٣٦</placeName></cell>
                      <cell>١٠٤</cell>
-                     <cell>حارة درب المهابيل</cell>
+                     <cell><placeName ref="حارة-درب-المهابيل" type="حارة">حارة <placeName
+                              ref="درب-المهابيل" type="درب">درب
+                        المهابيل</placeName></placeName></cell>
                   </row>
                   <row>
                      <cell>٤٤</cell>
                      <cell><placeName ref="شارع-المدبح" type="شارع">شارع المدبح</placeName></cell>
-                     <cell>١٠٥</cell>
+                     <?oxy_comment_start author="Dr. Sarah" timestamp="20240829T084802+0200" comment="repeated in 88 and 100"?>
+                     <cell>١٠٥</cell><?oxy_comment_end?>
                      <cell>شارع محمد علي</cell>
                   </row>
                   <row>
                      <cell>٤٥</cell>
                      <cell><placeName ref="درب-السمانه" type="درب">درب السمانه</placeName></cell>
                      <cell>١٠٦</cell>
-                     <cell>شارع درب المهابيل</cell>
+                     <cell><placeName ref="شارع-درب-المهابيل" type="شارع">شارع درب
+                           المهابيل</placeName></cell>
                   </row>
                   <row>
                      <cell>٤٦</cell>
                      <cell><placeName ref="درب-العجانه" type="درب">درب العجانه</placeName></cell>
                      <cell>١٠٧</cell>
-                     <cell>شارع عبدالعزيز</cell>
+                     <cell><placeName ref="شارع-عبدالعزيز" type="شارع">شارع
+                        عبدالعزيز</placeName></cell>
                   </row>
                   <row>
                      <cell>٤٧</cell>
                      <cell><placeName ref="حارة-الدوره-الصغيره" type="حارة">حارة الدوره
                            الصغيره</placeName></cell>
                      <cell>١٠٨</cell>
-                     <cell>حارة الزرايب</cell>
+                     <cell><placeName ref="حارة-الزرايب" type="حارة">حارة الزرايب</placeName></cell>
                   </row>
                   <row>
                      <cell>٤٨</cell>
                      <cell><placeName ref="درب-المبيضه" type="درب">درب المبيضه</placeName></cell>
                      <cell>١٠٩</cell>
-                     <cell>شارع الهداره</cell>
+                     <cell><placeName ref="شارع-الهداره" type="شارع">شارع الهداره</placeName></cell>
                   </row>
                   <row>
                      <cell>٤٩</cell>
                      <cell><placeName ref="حارة-الدوره-الكبيره" type="حارة">حارة الدوره
                            الكبيره</placeName></cell>
                      <cell>١١٠</cell>
-                     <cell>شارع العشماوى</cell>
+                     <cell><placeName ref="شارع-العشماوى" type="شارع">شارع
+                        العشماوى</placeName></cell>
                   </row>
                   <row>
                      <cell>٥٠</cell>
                      <cell><placeName ref="درب-الخوله" type="درب">درب الخوله</placeName></cell>
                      <cell>١١١</cell>
-                     <cell>درب الخواجه</cell>
+                     <cell><placeName ref="درب-الخواجه" type="درب">درب الخواجه</placeName></cell>
                   </row>
                   <row>
                      <cell>٥١</cell>
                      <cell><placeName type="شارع" ref="الشارع-المستجد-الموصل-للجزيرة">الشارع المستجد
                            الموصل للجزيرة</placeName></cell>
                      <cell>١١٢</cell>
-                     <cell>عطفة جرجر</cell>
+                     <cell><placeName ref="عطفة-جرجر" type="عطفة">عطفة جرجر</placeName></cell>
                   </row>
                   <row>
                      <cell>٥٢</cell>
                      <cell><placeName ref="شارع-الشيخ-ريحان" type="شارع">شارع الشيخ
                            ريحان</placeName></cell>
                      <cell>١١٣</cell>
-                     <cell>درب المقدم</cell>
+                     <cell><placeName ref="درب-المقدم" type="درب">درب المقدم</placeName></cell>
                   </row>
                   <row>
                      <cell>٥٣</cell>
                      <cell><placeName ref="شارع-درب-الحمام" type="شارع">شارع <placeName ref="درب-الحمام" type="درب">درب الحمام</placeName></placeName></cell>
                      <cell>١١٤</cell>
-                     <cell>شارع الاستاذ البيدق</cell>
+                     <cell><placeName ref="شارع-الاستاذ-البيدق" type="شارع">شارع <persName>الاستاذ
+                              البيدق</persName></placeName></cell>
                   </row>
                   <row>
                      <cell>٥٤</cell>
                      <cell><placeName ref="حارة-درب-الحمام" type="حارة">حارة درب
                         الحمام</placeName></cell>
                      <cell>١١٥</cell>
-                     <cell>حارة سيدى عبدالخالق السنباطى</cell>
+                     <cell><placeName ref="حارة-سيدى-عبدالخالق-السنباطى" type="حارة">حارة
+                              <persName>سيدى عبدالخالق السنباطى</persName></placeName></cell>
                   </row>
                   <row>
                      <cell>٥٥</cell>
                      <cell><placeName ref="عطفة-الكنيسه" type="عطفة">عطفة الكنيسه</placeName></cell>
                      <cell>١١٦</cell>
-                     <cell>حارة درب الجمسه</cell>
+                     <cell><placeName ref="حارة-درب-الجمسه" type="حارة">حارة <placeName
+                              ref="درب-الجمسه" type="درب">درب الجمسه</placeName></placeName></cell>
                   </row>
                   <row>
                      <cell>٥٦</cell>
                      <cell><placeName ref="درب-السيرجه" type="درب">درب السيرجه</placeName></cell>
                      <cell>١١٧</cell>
-                     <cell>شارع قشلاق البوليس</cell>
+                     <cell><placeName ref="شارع-قشلاق-البوليس" type="شارع">شارع <placeName
+                              ref="قشلاق-البوليس" type="قشلاق"><orgName ref="قشلاق-البوليس"
+                                 type="قشلاق">قشلاق البوليس</orgName></placeName></placeName></cell>
                   </row>
                   <row>
                      <cell>٥٧</cell>
                      <cell><placeName ref="درب-حيدر" type="درب">درب حيدر</placeName></cell>
                      <cell>١١٨</cell>
-                     <cell>حارة محمد عبدالزراق بمعروف</cell>
+                     <cell><placeName ref="حارة-محمد-عبدالزراق-بمعروف" type="حارة">حارة
+                              <persName>محمد عبدالزراق</persName> ب<placeName ref="معروف"
+                              >معروف</placeName></placeName></cell>
                   </row>
                   <row>
                      <cell>٥٨</cell>
@@ -5264,20 +5290,28 @@ the table is including the following main parts
                            المعلق</placeName>
                      </cell>
                      <cell>١١٩</cell>
-                     <cell>شارع قصر النيل</cell>
+                     <cell><placeName ref="شارع-قصر-النيل" type="شارع">شارع <placeName
+                              ref="قصر-النيل" type="قصر">قصر النيل</placeName></placeName></cell>
                   </row>
                   <row>
                      <cell>٥٩</cell>
                      <cell><placeName ref="حارة-البرامونى" type="حارة">حارة
                         البرامونى</placeName></cell>
                      <cell>١٢٠</cell>
-                     <cell>شارع السيد الخضري</cell>
+                     <cell><placeName ref="شارع-السيد-الخضري" type="شارع">شارع <persName>السيد
+                              الخضري</persName></placeName></cell>
                   </row>
                   <row>
                      <cell>٦٠</cell>
                      <cell><placeName ref="شارع-جامع-عابدين" type="شارع">شارع <placeName ref="جامع-عابدين" type="جامع"><orgName ref="جامع-عابدين" type="جامع">جامع عابدين</orgName></placeName></placeName> الموصل لل<orgName ref="خلوتى"><placeName ref="خلوتى">خلوتى</placeName></orgName></cell>
                      <cell>١٢١</cell>
-                     <cell>شارع شاطى جسر البحر الاعظم قبلي كوبري قصر النيل بمعروف</cell>
+                     <cell><placeName ref="شارع-شاطى-جسر-البحر-الاعظم" type="شارع">شارع <placeName
+                              type="شاطئ" ref="شاطى-جسر-البحر-الاعظم">شاطى <placeName
+                                 ref="جسر-البحر-الاعظم" type="جسر">جسر <placeName type="بحر"
+                                    ref="البحر-الاعظم">البحر
+                              الاعظم</placeName></placeName></placeName></placeName> قبلي <placeName
+                           ref="كوبري-قصر-النيل" type="كوبرى">كوبري قصر النيل</placeName>
+                        بمعروف</cell>
                   </row>
                   <row>
                      <cell>٦١</cell>
