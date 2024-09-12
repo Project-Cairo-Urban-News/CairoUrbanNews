@@ -1,0 +1,1854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="../../css/oxygen.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>"Digital Cairo - Urbanism News from al-Waqāʾiʿ al-Miṣrīyah - An Ottoman Arabic Digital Humanities
+          Project"</title>
+            <editor xml:id="eNK">Nour Kanaan</editor>
+            <editor xml:id="eAM">Adam Mestyan</editor>
+            <editor xml:id="eDY">Danah Younis</editor>
+            <editor xml:id="eSG">Sarah Fathallah Gaara</editor>
+            <editor xml:id="eAE">Arif Erbil</editor>
+            <editor xml:id="eAK">Ahmed Kamal</editor>
+            <editor xml:id="eAS">Abram Smith</editor>
+            <editor xml:id="eCH">Clara Harms</editor>
+            <editor xml:id="eHS">Hüseyin Sağlam</editor>
+            <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+            <editor xml:id="eHL">Hiba Laabadli</editor>
+            <editor xml:id="eOE">Othmane Echchabi</editor>
+            <editor xml:id="eFA">Fatemah Almahana</editor>
+            <editor xml:id="eMZ">Mahmoud Zaki</editor>
+            <editor xml:id="eNS">Nehal al-Shamy</editor>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Hugh Cayless</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Adam Mestyan</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Mercedes Volait</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Sarah Fathallah Gaara</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Karima Nasr</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Rezk Nory</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Arif Erbil</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Ahmed Kamal</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abram Smith</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Clara Harms</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Hüseyin Sağlam</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abdulrahman El-Taliawi</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Hiba Laabadli</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Othmane Echchabi</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Fatemah Almahana</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Mahmoud Zaki</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Nehal al-Shamy</name>
+            </respStmt>
+            <sponsor>
+               <orgName>National Endowment for the Humanities</orgName>, <orgName>Institut français
+            d’archéologie orientale</orgName> (Ifao, Cairo); <orgName>Franklin Humanities Institute
+            and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
+            University</orgName>; <orgName>Duke University Libraries</orgName>; <orgName>Centre
+            national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian
+            Cultural Counsellor in Cairo</orgName>. </sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the project "La fabrique
+          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+            <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+            <p>
+               <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
+            </p>
+            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+            Volait</persName>, <persName>Hugh Cayless</persName>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Al-Waqāʾiʿ al-Miṣrīyah (Egyptian Affairs) newspaper, 1828–1914.</p>
+            <p>born digital document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+            <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Rules of TEI XML MarkUp in This Project</p>
+            <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
+            <p>Each individual article has an individual xml:id number starting with "w1"</p>
+            <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
+          and notes.</p>
+            <p>If the location or organization of responsibility is known from the text, it can be added
+          in an attribute to a persName.</p>
+            <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+            Editions</ref>.</p>
+         </editorialDecl>
+         <charDecl>
+            <char xml:id="qhalf">
+               <localProp value="QIRMA FRACTION 1/2" name="name"/>
+               <unicodeProp value="1/2" name="Numeric_Value"/>
+               <mapping type="similar">𐋢</mapping>
+               <figure>
+                  <graphic url="../../docs/images/qhalf.svg"/>
+               </figure>
+            </char>
+            <char xml:id="qthird">
+               <localProp value="QIRMA FRACTION 1/3" name="name"/>
+               <unicodeProp value="1/3" name="Numeric_Value"/>
+               <figure>
+                  <graphic url="../../docs/images/qthird.svg"/>
+               </figure>
+            </char>
+            <char xml:id="qfourth">
+               <localProp value="QIRMA FRACTION 1/4" name="name"/>
+               <unicodeProp value="1/4" name="Numeric_Value"/>
+               <figure>
+                  <graphic url="../../docs/images/qfourth.svg"/>
+               </figure>
+            </char>
+            <char xml:id="qsixth">
+               <localProp value="QIRMA FRACTION 1/6" name="name"/>
+               <unicodeProp value="1/6" name="Numeric_Value"/>
+               <figure>
+                  <graphic url="../../docs/images/qsixth.svg"/>
+               </figure>
+            </char>
+            <char xml:id="qeighth">
+               <localProp value="QIRMA FRACTION 1/8" name="name"/>
+               <unicodeProp value="1/8" name="Numeric_Value"/>
+               <mapping type="similar">𐋤</mapping>
+               <figure>
+                  <graphic url="../../docs/images/qeighth.svg"/>
+               </figure>
+            </char>
+            <char xml:id="qtwothirds">
+               <localProp value="QIRMA FRACTION 2/3" name="name"/>
+               <unicodeProp value="2/3" name="Numeric_Value"/>
+               <figure>
+                  <graphic url="../../docs/images/qtwothirds.svg"/>
+               </figure>
+            </char>
+         </charDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+            <language ident="ota">Ottoman</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change/>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="ar">
+      <body>
+         <div>
+            <head>عدد ٦٢، ٧ يونيو ١٨٩٧، ٧ محرم ١٣١٥، ص ١٥٠٦</head>
+            <head>ديوان عموم الأوقاف</head>
+            <p>كشف ببيان أماكن متخربة وارض فضا تعلق الأوقاف جار اشهار مزاد استبدالها بالنقد بمركز المامريات الموضحه بعد </p>
+            <p>المواعيد المحددة للاشهار ٥ يوليو ١٨٩٧</p>
+            <table>
+               <row>
+                  <cell>نوع العقار</cell>
+                  <cell>متر</cell>
+                  <cell>جهة العقار</cell>
+                  <cell>اسم الوقف</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>١٠٩.٤٠</cell>
+                  <cell>حارة اليهود القرايين – مصر</cell>
+                  <cell>وقف الامامين</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>٩٩,٩٧</cell>
+                  <cell>حارة سنافات بباب البحر – مصر</cell>
+                  <cell>وقف الامامين</cell>
+               </row>
+               <row>
+                  <cell>دكان</cell>
+                  <cell>٣٤.٢٠</cell>
+                  <cell>سوق السلاح- مصر</cell>
+                  <cell>مصطفي باشا الغزي</cell>
+               </row>
+               <row>
+                  <cell>دكان</cell>
+                  <cell>٢٣,٩٨</cell>
+                  <cell>سوق السلاح- مصر</cell>
+                  <cell>مصطفي باشا الغزي</cell>
+               </row>
+               <row>
+                  <cell>دكان</cell>
+                  <cell>٢٥.٨٤</cell>
+                  <cell>سوق السلاح- مصر</cell>
+                  <cell>مصطفي باشا الغزي</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>٣٢.٤٧</cell>
+                  <cell>حارة الميامنه – مصر القديمة</cell>
+                  <cell>سيدى محمد ساعى البحر واحمد شهاب الدين المرحومى</cell>
+               </row>
+               <row>
+                  <cell>دكان</cell>
+                  <cell>٥.٤٠</cell>
+                  <cell>شارع الحكر بالواجهه - بولاق</cell>
+                  <cell>احمد الدينارى</cell>
+               </row>
+            </table>
+            <p>::::::::::::::::::</p>
+         </div>
+         <div>
+            <head>عدد ٧٢، ٣٠ يونيو ١٨٩٧، ٣٠ محرم ١٣١٥، ص ١٦٨٣- ١٦٨٤</head>
+            <head>امر عال</head>
+            <p>نحن خديو مصر </p>
+            <p>بعد الاطلاع على المادة العاشرة من لائحة التنظيم الصادرة في ٨ سبتمبر ١٨٨٩ وهذا نصها </p>
+            <p>" مجرد الإقرار على رسم خط التنظيم من ناظر الاشغال العمومية وصدور امر عال باعتماده يسوغان للحكومة ان تنزع شيا فشيئا وبالطرق القانونية الاراضى المبين بالرسم لزومها لانشاء الشوارع المعمول عنها الرسم المذكور ومن تاريخ صدور الامر العالى المشار اليه لا يجوز إقامة اى بناء على الأراضي اللازم نزع ملكيتها)</p>
+            <p>وبناء على ما عرضه علينا ناظر الاشغال العمومية وموافقة رأى مجلس النظار </p>
+            <p>امرنا بما هو ات </p>
+            <p>(المادة الأولى) </p>
+            <p>يلغي رسم تنظيم بندر بنها نمرة ٣٧ المعتمد من نظارة الاشغال العمومية بتاريخ ٤ مايو سنة ١٨٨٦ وصادر عليها امر عال في ٨ ديسمبر  من تلك السنة ويستعاض عنه بالرسم نمرة ٣٧ الذى اعتمدته النظارة المذكورة في ٢٣ مارس ١٨٩٧ لشارعى ابوغالى وعلى الخرزانى وحارتى سالم شهاب الدين ومحمد البدرى </p>
+            <p>(المادة الثانية) </p>
+            <p>تلغى خطوط التنظيم من الطرق وأجزاء الطرق العمومية المبينة اسماوها في الكشف الملحق أيضا بامرنا هذا </p>
+            <p>(المادة الثالثة)</p>
+            <p>يعتمد تعديل خطوط التنظيم المقررة في رسومات الطرق العمومية المبينة في الكشف (ب) الملحق بامرنا هذا </p>
+            <p>(المادة الرابعة) </p>
+            <p>تعتمد خطوط التنظيم الجديدة المضافة على رسومات الطرق العمومية المبينة في الكشف (ج) الملحق بامرنا هذا </p>
+            <p>(المادة الخامسة)</p>
+            <p>تعتبر من الطرق العمومية المبينة في الكشف (د) الملحق بامرنا هذا من المنافع العمومية </p>
+            <p>(المادة السادسة)</p>
+            <p>على ناظر الاشغال العمومية تنفيذ امرنا هذا </p>
+            <p>صدر بسراى راس التين في ٢٦ محرم ١٣١٥ (٢٦ يونيه ١٨٩٧) </p>
+            <p>عباس حلمى  بامر الحضره الخديوية </p>
+            <p>مصطفي فهمى رئيس مجلس النظار </p>
+            <p>فخرى ناظر الاشغال العمومية </p>
+            <p>كشف حرف (أ)</p>
+            <p>عن الشوارع وأجزاء الشوارع التي الغيت منها خطوط التنظيم لغاية شهر ديسمبر ١٨٩٦</p>
+            <table>
+               <row>
+                  <cell>نمرة الرسم</cell>
+                  <cell>تاريخ اعتماد الغاء الخطوط المذكورة من النظارة</cell>
+                  <cell>
+                     <p>أسماء الشوارع</p>
+                     <p>مدينة القاهرة</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell>٥٧٧</cell>
+                  <cell>٢ ديسمبر ١٨٩٦</cell>
+                  <cell>زقاق العربجي بحارة كفر الطماعين الجوانى</cell>
+               </row>
+            </table>
+            <p>كشف (ب) </p>
+            <p>عن الشوارع وأجزاء الشوارع التي تعدلت خطوط تنظيمها لغاية شهر ديسمبر ١٨٩٦</p>
+            <table>
+               <row>
+                  <cell>نمرة الرسم</cell>
+                  <cell>تاريخ اعتماد تعديل الرسم من النظارة</cell>
+                  <cell>
+                     <p>أسماء الشوارع</p>
+                     <p>مدينة القاهرة</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell>٨١</cell>
+                  <cell>١٤ يوليه ١٨٩٦</cell>
+                  <cell>شوارع بارض جلال باشا</cell>
+               </row>
+               <row>
+                  <cell>١٠٦٠</cell>
+                  <cell>٢٦ أغسطس ١٨٩٦</cell>
+                  <cell>جزء من حارة السملى</cell>
+               </row>
+               <row>
+                  <cell>٦٣</cell>
+                  <cell>١ أكتوبر ١٨٩٦</cell>
+                  <cell>جزء من شارع الدرب الأحمر</cell>
+               </row>
+               <row>
+                  <cell>٥٠٠</cell>
+                  <cell>١ أكتوبر ١٨٩٦</cell>
+                  <cell>جزء من شارع الدشطوطى</cell>
+               </row>
+               <row>
+                  <cell>٦٢٢</cell>
+                  <cell>٤ أكتوبر ١٨٩٦</cell>
+                  <cell>جزء بشارع من ارض تل نصر</cell>
+               </row>
+               <row>
+                  <cell>٣٢١</cell>
+                  <cell>٢٩ أكتوبر ١٨٩٦</cell>
+                  <cell>جزء من عطفة الرباط بشارع البكرى</cell>
+               </row>
+               <row>
+                  <cell>٢٦٧</cell>
+                  <cell>٢٩ أكتوبر ١٨٩٦</cell>
+                  <cell>جزء من عطفة الطواف</cell>
+               </row>
+               <row>
+                  <cell>١٠١٢</cell>
+                  <cell>٢٩ أكتوبر ١٨٩٦</cell>
+                  <cell>جزء من حارة الشيخ سليم</cell>
+               </row>
+               <row>
+                  <cell>٦٣٤</cell>
+                  <cell>٢٩ أكتوبر ١٨٩٦</cell>
+                  <cell>جزء من شارع السروجية</cell>
+               </row>
+               <row>
+                  <cell>١١٨٣</cell>
+                  <cell>٢٩ أكتوبر ١٨٩٦</cell>
+                  <cell>جزء بخريطة العباسية البحرية واقعة بين الأراضي٣٢٠، ٣٢١،٨، ٣٢٥</cell>
+               </row>
+               <row>
+                  <cell>٢٥٩</cell>
+                  <cell>٢ ديسمبر ١٨٩٦</cell>
+                  <cell>جزء من عطفة العنبري بشارع الدراسة</cell>
+               </row>
+               <row>
+                  <cell>٧٨</cell>
+                  <cell>٢ ديسمبر ١٨٩٦</cell>
+                  <cell>جزء من عطفة النقلي</cell>
+               </row>
+            </table>
+            <p>كشف حرف (ج)</p>
+            <p>عن تقرير خطوط تنظيم جديدة لغاية شهر ديسمبر سنة ١٨٩٦</p>
+            <table>
+               <row>
+                  <cell>رسومات معتمدة</cell>
+                  <cell>تاريخ إقرار النظارة على خطوط التنظيم الجديدة</cell>
+                  <cell>أسماء الشوارع مدينة القاهرة</cell>
+               </row>
+               <row>
+                  <cell>٣١٨</cell>
+                  <cell>٤ نوفمبر ١٨٩٦</cell>
+                  <cell>تنفيذ حارة البيرقدار الى حوش الخوخه</cell>
+               </row>
+               <row>
+                  <cell>١١٧٧</cell>
+                  <cell>٥ نوفمبر ١٨٩٦</cell>
+                  <cell>تنفيذ حارة حسنة المره بالحارة المجاورة لها</cell>
+               </row>
+               <row>
+                  <cell>١١٨٣</cell>
+                  <cell>٢ ديسمبر ١٨٩٦</cell>
+                  <cell>تنفيذ حارة حسنة المره بالحارة المجاوره لها</cell>
+               </row>
+               <row>
+                  <cell>٨</cell>
+                  <cell>٢ ديسمبر ١٨٩٦</cell>
+                  <cell>حارة بالعباسية البحرية واقعه بين الأراضي نمرة ٩٧ و ٧٩٨ و٧٤٨ ، ٨٠٣</cell>
+               </row>
+            </table>
+            <p>:::::::::::</p>
+         </div>
+         <div>
+            <head>عدد ٨٦ ، ٣١ يوليو ١٨٩٧، غرة ربيع الأول ١٣١٥، ص ١٩٤٤</head>
+            <head>ديوان عموم الأوقاف</head>
+            <p>كشف ببيان أماكن متخربة وارض فضا تعلق الأوقاف جار اشهار مزاد استبدالها بالنقد بمركز الماموريات الموضحه بعد</p>
+            <p>التاريخ المحدد للاشهار ٤ سبتمبر ١٨٩٧</p>
+            <table>
+               <row>
+                  <cell>نوع العقار</cell>
+                  <cell>متر</cell>
+                  <cell>جهة العقار</cell>
+                  <cell>اسم الوقف</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>٦٥,٧٣</cell>
+                  <cell>درب المنجد بشارع محمد على – مصر</cell>
+                  <cell>ام كلثوم</cell>
+               </row>
+               <row>
+                  <cell>حوش اربع قيعان</cell>
+                  <cell>١٠٥.٨٢</cell>
+                  <cell>حارة التمار – مصر</cell>
+                  <cell>ابي الحسن التمار</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>٤٧.٥٢</cell>
+                  <cell>حارة التمار – مصر</cell>
+                  <cell>ابي الحسن التمار</cell>
+               </row>
+               <row>
+                  <cell>حوش ست قيعان</cell>
+                  <cell>٢١٤.٣٢</cell>
+                  <cell>حارة التمار – مصر</cell>
+                  <cell>ابي الحسن التمار</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>٧٥.٦١</cell>
+                  <cell>حارة التمار – مصر</cell>
+                  <cell>ابي الحسن التمار</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>٦٤.٧٨</cell>
+                  <cell>حارة التمار – مصر</cell>
+                  <cell>ابي الحسن التمار</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>٤٣.٣٩</cell>
+                  <cell>حارة التمار – مصر</cell>
+                  <cell>ابي الحسن التمار</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>٦٦.٨٨</cell>
+                  <cell>حارة التمار – مصر</cell>
+                  <cell>ابى الحسن التمار</cell>
+               </row>
+               <row>
+                  <cell>قاعه</cell>
+                  <cell>١٤.٢٠</cell>
+                  <cell>حارة التمار – مصر</cell>
+                  <cell>ابي الحسن والتمار</cell>
+               </row>
+               <row>
+                  <cell>منزلين</cell>
+                  <cell>٢١٧.٢٩</cell>
+                  <cell>حارة التمار – مصر</cell>
+                  <cell>ابي الحسن والتمار والامامين</cell>
+               </row>
+            </table>
+            <p>:::::::::</p>
+         </div>
+         <div>
+            <head>عدد ٩٠ ، ٩ أغسطس ١٨٩٧، ١٠ ربيع الأول ١٣١٥، ص ٢١٣، ٢١٤</head>
+            <head>امر عال</head>
+            <p>نحن خديو مصر </p>
+            <p>بعد الاطلاع على المادة العاشرة من لائحة التنظيم الصادرة في ٨ سبتمبر ١٨٨٩ وهذا نصها </p>
+            <p>" مجرد الإقرار على رسم خط التنظيم من ناظر الاشغال العمومية وصدور امر عال باعتماده يسوغان للحكومة ان تنزع شيا فشيئا وبالطرق القانونية الاراضى المبين بالرسم لزومها لانشاء الشوارع المعمول عنها الرسم المذكور ومن تاريخ صدور الامر العالى المشار اليه لا يجوز إقامة اى بناء على الأراضي اللازم نزع ملكيتها)</p>
+            <p>وبناء على ما عرضه علينا ناظر الاشغال العمومية وموافقة رأى مجلس النظار </p>
+            <p>امرنا بما هو ات </p>
+            <p>(المادة الأولى) </p>
+            <p>تلغى خطوط التنظيم من الطرق وأجزاء الطرق العمومية المبينة أسماؤها في الكشف (أ) الملحق بامرنا هذا </p>
+            <p>المادة الثانية </p>
+            <p>يعتمد تعديل خطوط التنظيم المقررة في رسومات الطرق العمومية المبينة في الكشف (ب) الملحق أيضا بامرنا هذا </p>
+            <p>المادة الثالثة</p>
+            <p>تعتمد خطوط التنظيم الجديدة المضافة على رسومات الطرق العمومية المبينة في الكشف (ج) الملحق بامرنا هذا </p>
+            <p>المادة الرابعة </p>
+            <p>تعتبر الطرق العمومية المبينة في الكشف (د) الملحق بامرنا هذا من المنافع العمومية </p>
+            <p>المادة الخامسة </p>
+            <p>على ناظر الاشغال العمومية تنفيذ امرنا هذا </p>
+            <p>صدر بسراى راس التين في ٣ ربيع الأول ١٣١٥ (٢ أغسطس ١٨٩٧) </p>
+            <p>عباس حلمى بامر الحضرة الخديوية</p>
+            <p>عن ناظر الاشغال العمومية أحمد مظلوم </p>
+            <p>رئيس مجلس النظار مصطفي فهمى </p>
+            <p>كشف حرف (ا) عن الشوارع وأجزاء الشوارع التي الغيت منها خطوط التنظيم لغاية شهر مارس سنة ١٨٩٧</p>
+            <table>
+               <row>
+                  <cell>نمرة الرسم</cell>
+                  <cell>تاريخ اعتماد الغاء الخطوط المذكورة من النظارة</cell>
+                  <cell>أسماء الشوارع (مدينة القاهرة</cell>
+               </row>
+               <row>
+                  <cell>١٦٥</cell>
+                  <cell>٢ فبراير ١٨٩٧</cell>
+                  <cell>زقاق بشارع حبس الرحبه</cell>
+               </row>
+               <row>
+                  <cell>٥٥٠</cell>
+                  <cell>٢ فبراير ١٨٩٧</cell>
+                  <cell>عطفة سوق خان الخليلي بشارع خان الخليلي</cell>
+               </row>
+               <row>
+                  <cell>١١٨٣</cell>
+                  <cell>٢ فبراير ١٨٩٧</cell>
+                  <cell>زقاق بالعباسية البحرية مجاور للقطعة الأرض نمرة ٧٩٦</cell>
+               </row>
+            </table>
+            <p>كشف (ب) </p>
+            <p>عن الشوارع وأجزاء الشوارع التي تعدلت خطوط تنظيمها لغاية شهر مارس سنة ١٨٩٧ </p>
+            <table>
+               <row>
+                  <cell>نمرة الرسم</cell>
+                  <cell>تاريخ اعتماد تعديل الرسم من النظارة</cell>
+                  <cell>أسماء الشوارع ( مدينة القاهرة)</cell>
+               </row>
+               <row>
+                  <cell>٩٧٢</cell>
+                  <cell>٣ ديسمبر ١٨٩٦</cell>
+                  <cell>جزء من شارع حواصل الكسب</cell>
+               </row>
+               <row>
+                  <cell>٦٥٥</cell>
+                  <cell>٢ فبراير ١٨٩٧</cell>
+                  <cell>جزء من درب الزنين</cell>
+               </row>
+               <row>
+                  <cell>٤٢٩</cell>
+                  <cell>٢ فبراير ١٨٩٧</cell>
+                  <cell>جزء من شارع السد البراني</cell>
+               </row>
+               <row>
+                  <cell>١١٩٧</cell>
+                  <cell>٢ فبراير ١٨٩٧</cell>
+                  <cell>جزء من شارع فم السدين</cell>
+               </row>
+               <row>
+                  <cell>٦٠٦</cell>
+                  <cell>٢ فبراير ١٨٩٧</cell>
+                  <cell>جزء من شارع نور الظلام</cell>
+               </row>
+               <row>
+                  <cell>١٧١</cell>
+                  <cell>٢ فبراير ١٨٩٧</cell>
+                  <cell>جزء بحارة العزقي</cell>
+               </row>
+               <row>
+                  <cell>٧٨١</cell>
+                  <cell>٢ فبراير ١٨٩٧</cell>
+                  <cell>جزء بشارع قلعة الكبش</cell>
+               </row>
+            </table>
+            <p>كشف حرف (ج) عن تقرير خطوط تنظيم جديدة لغاية شهر مارس ١٨٩٧ على رسومات سابق صدور أوامر عاليه بها</p>
+            <table>
+               <row>
+                  <cell>رسومات معتمدة</cell>
+                  <cell>تاريخ إقرار النظارة على خطوط التنظيم الجديدة</cell>
+                  <cell>
+                     <p>أسماء الشوارع</p>
+                     <p>مدينة القاهرة</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <p>١٥٣</p>
+                     <p>٢٨٤</p>
+                  </cell>
+                  <cell>٢ فبراير ١٨٩٧</cell>
+                  <cell>تنفيذ شارع الشيخ العراقي على كفر المغارى</cell>
+               </row>
+            </table>
+         </div>
+         <div>
+            <head>عدد ٩٣، ٢١ أغسطس ١٨٩٧، ٢٢ ربيع الأول ١٣١٥، ص٢١٠٨</head>
+            <head>ديوان عموم الأوقاف</head>
+            <p>كشف ببيان أماكن متخربة وارض فضا تعلق الاوقاف جار اشهار مزاد استبدالها بالنقد بمراكز الماموريات الموضحه بعد، المواعيد المحددة للاشهار ١٨ سبتمبر ١٨٩٧</p>
+            <table>
+               <row>
+                  <cell>نوع العقار</cell>
+                  <cell>المقاس بالمتر</cell>
+                  <cell>جهة العقار</cell>
+                  <cell>اسم الوقف</cell>
+               </row>
+               <row>
+                  <cell>بنا منزل</cell>
+                  <cell>٦٣.٦٩</cell>
+                  <cell>عطفة الشوربة بحارة ازبك – مصر</cell>
+                  <cell>فاطمة بنت احمد الواطى</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>١٠.٩٢</cell>
+                  <cell>درب التنور – بولاق مصر</cell>
+                  <cell>المقارى الكبرى</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>٤١.٩٣</cell>
+                  <cell>درب التنور – بولاق مصر</cell>
+                  <cell>المقارى الكبرى</cell>
+               </row>
+               <row>
+                  <cell>حصة ١٢ قيراط في منزل</cell>
+                  <cell>٦٢.٨٣</cell>
+                  <cell>عطفة الأربعين بحارة المبيضة بالجمالية – مصر</cell>
+                  <cell>سيدنا الحسين</cell>
+               </row>
+               <row>
+                  <cell>حصة ٨ قراريط في بنا منزل</cell>
+                  <cell>٣٣٢.٣٢</cell>
+                  <cell>حارة المردانى - مصر</cell>
+                  <cell>صالح اوده باشي</cell>
+               </row>
+            </table>
+            <p>:::::::::::::::</p>
+         </div>
+         <div>
+            <head>عدد ٩٧ ، ٣٠ أغسطس ١٨٩٧،٢ ربيع الثاني ١٣١٥، ص ٢١٦١</head>
+            <head>نظارة الاشغال العمومية</head>
+            <p>قد قررت نظارة الاشغال العمومية بتاريخ ٢٣ أغسطس ١٨٩٧ إحالة جناب كياديزولى بك (مدير مصلحة التنظيم) على المعاش لاسباب صحية وذلك من ٤ أكتوبر المقبل</p>
+            <p>:::::::::::::::</p>
+         </div>
+         <div>
+            <head>عدد ٩٧، ٣٠ أغسطس ١٨٩٧، ٢ ربيع الثاني ١٣١٥، ص ٢١٨٤</head>
+            <head>ديوان عموم الأوقاف</head>
+            <p>كشف ببيان أماكن متخربة وارض فضا تعلق الاوقاف جار اشهار مزاد استبدالها بالنقد بمراكز الماموريات الموضحه بعد، المواعيد المحددة للاشهار ١٢ أكتوبر ١٨٩٧</p>
+            <table>
+               <row>
+                  <cell>نوع العقار</cell>
+                  <cell>المقاس بالمتر</cell>
+                  <cell>جهة العقار</cell>
+                  <cell>اسم الوقف</cell>
+               </row>
+               <row>
+                  <cell>ربع واسفله حاصلين</cell>
+                  <cell>٩١</cell>
+                  <cell>عطفة غير نافذة بدرب مسعود – بولاق مصر</cell>
+                  <cell>الحرمين الشريفين</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>٦٩.٨٥</cell>
+                  <cell>حارة الجباسة بشارع الزرايب- مصر</cell>
+                  <cell>بدر الدين الوفائي</cell>
+               </row>
+            </table>
+            <p>::::::::::::::::</p>
+         </div>
+         <div>
+            <head>عدد ٩٩، ٤ سبتمبر ١٨٩٧، ٧ ربيع الثاني ١٣١٥، ص٢٢٧</head>
+            <head>ديوان عموم الاوقاف</head>
+            <p>كشف ببيان أماكن متخربة وارض فضا تعلق الاوقاف جار اشهار مزاد استبدالها بالنقد بمراكز الماموريات الموضحه بعد، المواعيد المحددة للاشهار ١٩ أكتوبر ١٨٩٧</p>
+            <table>
+               <row>
+                  <cell>نوع العقار</cell>
+                  <cell>المقاس بالمتر</cell>
+                  <cell>جهة العقار</cell>
+                  <cell>اسم الوقف</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>١٩٢.٧٦</cell>
+                  <cell>حارة حمام الجبيلي بالكعكيين –مصر</cell>
+                  <cell>سيدنا الحسين</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>١١٨.٢٠</cell>
+                  <cell>حارة عبد الكريم- مصر</cell>
+                  <cell>الحرمين</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>٢٥٩.٤٠</cell>
+                  <cell>حارة حلوات بسوق السلاح – مصر</cell>
+                  <cell>الحرمين</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>٧٥.٧٢</cell>
+                  <cell>حارة الصارى بسوق السلاح – مصر</cell>
+                  <cell>احمد البدوى</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>١٤٧.٧٩</cell>
+                  <cell>حارة درب القطايعه بقلعة الكبش- مصر</cell>
+                  <cell>الامامين</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>٢٩٣.٢٧</cell>
+                  <cell>درب القزازين الشهير بضلع السمكه – مصر</cell>
+                  <cell>سيدنا الحسين</cell>
+               </row>
+               <row>
+                  <cell>منزل بربع الحمام</cell>
+                  <cell>٣٦</cell>
+                  <cell>سوق السلاح – مصر</cell>
+                  <cell>سيدنا الحسين</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>١٥٨.٨٢</cell>
+                  <cell>عبد العزيز ببولاق</cell>
+                  <cell>سيدنا الحسين</cell>
+               </row>
+               <row>
+                  <cell>منزل ودكان</cell>
+                  <cell>٥٨.٨٢</cell>
+                  <cell>سوق الفراخ الشهير بالواسطى- بولاق مصر</cell>
+                  <cell>سيدنا الحسين</cell>
+               </row>
+               <row>
+                  <cell>وكالة وربع</cell>
+                  <cell>٥٣٣.٤١</cell>
+                  <cell>درب النشارين بولاق</cell>
+                  <cell>الحرمين الشريفين</cell>
+               </row>
+            </table>
+         </div>
+         <div>
+            <head>عدد ١٠٨، ٥ سبتمبر ١٨٩٧، ٢٨ ربيع الثاني ١٣١٥، ص ٢٣٨٠</head>
+            <head>ديوان عموم الاوقاف</head>
+            <p>كشف ببيان أماكن متخربة وارض فضا تعلق الاوقاف جار اشهار مزاد استبدالها بالنقد بمراكز الماموريات الموضحه بعد، المواعيد المحددة للاشهار ٢٥ أكتوبر ١٨٩٧</p>
+            <table>
+               <row>
+                  <cell>نوع العقار</cell>
+                  <cell>المقاس بالمتر</cell>
+                  <cell>جهة العقار</cell>
+                  <cell>اسم الوقف</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>٢٤.٧٦</cell>
+                  <cell>حارة السطيجه بولاق</cell>
+                  <cell>محمد العراقي</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>٥٥.٨٢</cell>
+                  <cell>عطفة حوش النبقه بالدرب الجديد – مصر</cell>
+                  <cell>السيدة زينب</cell>
+               </row>
+               <row>
+                  <cell>مصبغة</cell>
+                  <cell>١٦.١١</cell>
+                  <cell>الحمزاوى - مصر</cell>
+                  <cell>عثمان الحطابي</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>٦٣.٧٧</cell>
+                  <cell>حارة عبدالله بك - مصر</cell>
+                  <cell>محمد اغا صقلي</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>٥٠.٣٠</cell>
+                  <cell>حارة الدرب</cell>
+                  <cell>إبراهيم اغا مستحفظان</cell>
+               </row>
+               <row>
+                  <cell>خربة</cell>
+                  <cell>١٧٦.٥١</cell>
+                  <cell>باب الوزير</cell>
+                  <cell>إبراهيم اغا مستحفظان</cell>
+               </row>
+            </table>
+            <p>::::::::::::</p>
+         </div>
+         <div>
+            <head>عدد ١٢٧ ، ٨ نوفمبر ١٨٩٧، ١٣ جمادى الثانية ١٣١٥، ص ٢٦٨٩، ٢٦٩٠</head>
+            <head>إدارة أملاك الميري الحرة- محافظة مصر</head>
+            <p>ليكن معلوما لدى العموم انه بجلسة قومسيون بيع أملاك واراضي الميري بالمحروسة بديوان محافظة مصر في أيام الاثنين والثلاثاء والأربعاء ٢٢، ٢٣، ٢٤ نوفمبر ١٨٩٧ سيصير اشهار مزاد بيع أراضي الميري المعروفة بمقابر السبتية بقسم بولاق المقسمة الى جملة قطع حسب رسم التقسيم المحرر عنها بمعرفة نظارة الاشغال العمومية </p>
+            <p>بيان مقادير القطع المذكورة واثمانها الأساسية كما سياتى </p>
+            <table>
+               <row>
+                  <cell>مقاسات بالمتر</cell>
+                  <cell>
+                     <p>سعر المتر الواحد</p>
+                     <p>مليم</p>
+                  </cell>
+                  <cell>نمرة الرسم</cell>
+                  <cell>نمرة الجدول</cell>
+               </row>
+               <row>
+                  <cell>٤٣٠.٥٠</cell>
+                  <cell>١٠٠</cell>
+                  <cell>٣</cell>
+                  <cell>٣٩٧</cell>
+               </row>
+               <row>
+                  <cell>٤٣٠</cell>
+                  <cell>١٠٠</cell>
+                  <cell>٦</cell>
+                  <cell>٣٩٨</cell>
+               </row>
+               <row>
+                  <cell>٤٣٥</cell>
+                  <cell>١٠٠</cell>
+                  <cell>٧</cell>
+                  <cell>٣٩٩</cell>
+               </row>
+               <row>
+                  <cell>٥٠٦.٢٥</cell>
+                  <cell>١٠٠</cell>
+                  <cell>٨</cell>
+                  <cell>٤٠٠</cell>
+               </row>
+               <row>
+                  <cell>٥٢٨.٧٥</cell>
+                  <cell>١٠٠</cell>
+                  <cell>٩</cell>
+                  <cell>٤٠١</cell>
+               </row>
+               <row>
+                  <cell>٢٧٥</cell>
+                  <cell>١١٠</cell>
+                  <cell>٢٣</cell>
+                  <cell>٤٠٢</cell>
+               </row>
+               <row>
+                  <cell>٣٢٠</cell>
+                  <cell>١١٠</cell>
+                  <cell>٢٤</cell>
+                  <cell>٤٠٣</cell>
+               </row>
+               <row>
+                  <cell>٣٧٨</cell>
+                  <cell>١١٠</cell>
+                  <cell>٢٥</cell>
+                  <cell>٤٠٤</cell>
+               </row>
+               <row>
+                  <cell>٤٢٢.٢٥</cell>
+                  <cell>١١٠</cell>
+                  <cell>٢٦</cell>
+                  <cell>٤٠٥</cell>
+               </row>
+               <row>
+                  <cell>٢٠٧.٥٧</cell>
+                  <cell>١٢٠</cell>
+                  <cell>٢٧</cell>
+                  <cell>٤٠٦</cell>
+               </row>
+               <row>
+                  <cell>٤٥٦</cell>
+                  <cell>١٥٠</cell>
+                  <cell>٣٢</cell>
+                  <cell>٤٠٧</cell>
+               </row>
+               <row>
+                  <cell>٤٢٧.٥٠</cell>
+                  <cell>١٦٠</cell>
+                  <cell>٣٣</cell>
+                  <cell>٤٠٨</cell>
+               </row>
+               <row>
+                  <cell>٣٣٨.٦٢</cell>
+                  <cell>١٦٠</cell>
+                  <cell>٣٥</cell>
+                  <cell>٤٠٩</cell>
+               </row>
+               <row>
+                  <cell>٣٠٢.٢٥</cell>
+                  <cell>١٥٠</cell>
+                  <cell>٣٦</cell>
+                  <cell>٤١٠</cell>
+               </row>
+               <row>
+                  <cell>٣٦٦.٤</cell>
+                  <cell>١٢٠</cell>
+                  <cell>٣٧</cell>
+                  <cell>٤١١</cell>
+               </row>
+               <row>
+                  <cell>٢٩٦.٩٥</cell>
+                  <cell>١٥٠</cell>
+                  <cell>٣٨</cell>
+                  <cell>٤١٢</cell>
+               </row>
+               <row>
+                  <cell>٢٨٣.٦٥</cell>
+                  <cell>١٥٠</cell>
+                  <cell>٣٩</cell>
+                  <cell>٤١٣</cell>
+               </row>
+               <row>
+                  <cell>٣١٢</cell>
+                  <cell>١٦٠</cell>
+                  <cell>٤٠</cell>
+                  <cell>٤١٤</cell>
+               </row>
+               <row>
+                  <cell>٣٩٩</cell>
+                  <cell>١٦٠</cell>
+                  <cell>٤١</cell>
+                  <cell>٤١٥</cell>
+               </row>
+               <row>
+                  <cell>٢٩٠</cell>
+                  <cell>١٦٠</cell>
+                  <cell>٤٢</cell>
+                  <cell>٤١٦</cell>
+               </row>
+               <row>
+                  <cell>٢٥٨.٦٤</cell>
+                  <cell>١٥٠</cell>
+                  <cell>٤٣</cell>
+                  <cell>٤١٧</cell>
+               </row>
+               <row>
+                  <cell>٢٩٦.٣٦</cell>
+                  <cell>١٥٠</cell>
+                  <cell>٤٤</cell>
+                  <cell>٤١٨</cell>
+               </row>
+               <row>
+                  <cell>٤٠١.٦٢</cell>
+                  <cell>١٥٠</cell>
+                  <cell>٤٥</cell>
+                  <cell>٤١٩</cell>
+               </row>
+               <row>
+                  <cell>٤١٩.٧٣</cell>
+                  <cell>١٦٠</cell>
+                  <cell>٤٦</cell>
+                  <cell>٤٢٠</cell>
+               </row>
+               <row>
+                  <cell>٣٥٤</cell>
+                  <cell>١٨٠</cell>
+                  <cell>٤٧</cell>
+                  <cell>٤٢١</cell>
+               </row>
+               <row>
+                  <cell>٢٨٧.٥٤</cell>
+                  <cell>٢٥٠</cell>
+                  <cell>٥١</cell>
+                  <cell>٤٢٢</cell>
+               </row>
+               <row>
+                  <cell>٣١٠</cell>
+                  <cell>٢٠٠</cell>
+                  <cell>٥٢</cell>
+                  <cell>٤٢٣</cell>
+               </row>
+               <row>
+                  <cell>٣١٠</cell>
+                  <cell>١٦٠</cell>
+                  <cell>٥٣</cell>
+                  <cell>٤٢٤</cell>
+               </row>
+               <row>
+                  <cell>٣١٠</cell>
+                  <cell>١٥٠</cell>
+                  <cell>٥٤</cell>
+                  <cell>٤٢٥</cell>
+               </row>
+               <row>
+                  <cell>٣١٠</cell>
+                  <cell>١٥٠</cell>
+                  <cell>٥٥</cell>
+                  <cell>٤٢٦</cell>
+               </row>
+               <row>
+                  <cell>٣٢٨</cell>
+                  <cell>١٥٠</cell>
+                  <cell>٥٦</cell>
+                  <cell>٤٢٧</cell>
+               </row>
+               <row>
+                  <cell>٣٢٥</cell>
+                  <cell>١٢٠</cell>
+                  <cell>٥٧</cell>
+                  <cell>٤٢٨</cell>
+               </row>
+               <row>
+                  <cell>٣٣٠</cell>
+                  <cell>١٢٠</cell>
+                  <cell>٥٨</cell>
+                  <cell>٤٢٩</cell>
+               </row>
+               <row>
+                  <cell>٣٣٠</cell>
+                  <cell>١٠٠</cell>
+                  <cell>٥٩</cell>
+                  <cell>٤٣٠</cell>
+               </row>
+               <row>
+                  <cell>٣٣٤</cell>
+                  <cell>١٠٠</cell>
+                  <cell>٦٠</cell>
+                  <cell>٤٣١</cell>
+               </row>
+               <row>
+                  <cell>٤٤٥</cell>
+                  <cell>١١٠</cell>
+                  <cell>٦١</cell>
+                  <cell>٤٣٢</cell>
+               </row>
+               <row>
+                  <cell>٣٣٩.١٢</cell>
+                  <cell>١٢٠</cell>
+                  <cell>٦٣</cell>
+                  <cell>٤٣٣</cell>
+               </row>
+               <row>
+                  <cell>٢١٥.٥٥</cell>
+                  <cell>١٠٠</cell>
+                  <cell>٦٤</cell>
+                  <cell>٤٣٤</cell>
+               </row>
+               <row>
+                  <cell>٣١١.٢٤</cell>
+                  <cell>١٠٠</cell>
+                  <cell>٦٥</cell>
+                  <cell>٤٣٥</cell>
+               </row>
+               <row>
+                  <cell>٢٠٢.٦</cell>
+                  <cell>٨٠</cell>
+                  <cell>٦٦</cell>
+                  <cell>٤٣٦</cell>
+               </row>
+               <row>
+                  <cell>٢٠٩.٢٥</cell>
+                  <cell>١٠٠</cell>
+                  <cell>٦٧</cell>
+                  <cell>٤٣٧</cell>
+               </row>
+               <row>
+                  <cell>٤٤٨.٧٣</cell>
+                  <cell>١١٠</cell>
+                  <cell>٦٨</cell>
+                  <cell>٤٣٨</cell>
+               </row>
+            </table>
+            <p>:::::::::::::</p>
+         </div>
+         <div>
+            <head>عدد ١٢٧ ، ٨ نوفمبر ١٨٩٧، ١٣ جمادى الثانية ١٣١٥، ص ٢٦٨٩، ٢٦٩٠</head>
+            <head>نظارة المالية</head>
+            <head>إدارة أملاك الميري</head>
+            <p>ليكن معلوما لدى العموم انه سيباع بجلسة قومسيون البيع بديوان محافظة مصر يوم الاثنين ١٥ نوفمبر ١٨٩٧ بطريق المزاد العلنى قطعتا الأرض من أراضي الميري بقصر الدوبارة بقسم عابدين</p>
+            <p>وبيان مقدار القطعتين المذكورتين واثمانها الأساسية كما سياتي </p>
+            <table>
+               <row>
+                  <cell>مقاس بالمتر</cell>
+                  <cell>سعر المتر بالمليم</cell>
+                  <cell>نمرة الرسم</cell>
+               </row>
+               <row>
+                  <cell>١٣٨٤</cell>
+                  <cell>٥٢٠</cell>
+                  <cell>٧٢ بما في ذلك المضاف على هذه القطعة من نمرة ٧٤</cell>
+               </row>
+               <row>
+                  <cell>١٤٥٩</cell>
+                  <cell>٣٦٠</cell>
+                  <cell>٨٠</cell>
+               </row>
+            </table>
+            <p>:::::::::::::::</p>
+         </div>
+         <div>
+            <head>عدد ١٢٨، ١٠ نوفمبر ١٨٩٧، ١٥ جمادى الثانية ١٣١٥، ص ٢٧١٦</head>
+            <head>ديوان عموم الأوقاف</head>
+            <p>كشف ببيان أماكن متخربة وارض فضا تعلق الأوقاف جار اشهار مزاد استبدالها بالنقد بمراكز الماموريات الموضحه بعد، المواعيد المحددة للاشهار ٤ ديسمبر ١٨٩٧</p>
+            <table>
+               <row>
+                  <cell>نوع العقار</cell>
+                  <cell>المقاس بالمتر</cell>
+                  <cell>جهة الوقف</cell>
+                  <cell>اسم الوقف</cell>
+               </row>
+               <row>
+                  <cell>خربة اصلها منزل</cell>
+                  <cell>٣٩.٥٩</cell>
+                  <cell>بحارة درب المحروق – مصر</cell>
+                  <cell>السلطان الحنفي</cell>
+               </row>
+               <row>
+                  <cell>خربة اصلها منزل</cell>
+                  <cell>٤٨.٦٨</cell>
+                  <cell>حارة البيرقدار بالحسنية- مصر</cell>
+                  <cell>البنهاوى</cell>
+               </row>
+               <row>
+                  <cell>خربة اصلها منزل وربع</cell>
+                  <cell>٣٢٣.٥٩</cell>
+                  <cell>بحارى المسطاحى – مصر</cell>
+                  <cell>دويدار الطحان</cell>
+               </row>
+               <row>
+                  <cell>قاعة اصلها منزل</cell>
+                  <cell>٢٨.٩٢</cell>
+                  <cell>حارة التمار – مصر</cell>
+                  <cell>محمد أبو الحسن التمار</cell>
+               </row>
+               <row>
+                  <cell>قاعة اصلها منزل</cell>
+                  <cell>٥٦.٦٨</cell>
+                  <cell>حارة التمار – مصر</cell>
+                  <cell>محمد أبو الحسن التمار</cell>
+               </row>
+               <row>
+                  <cell>خربة اصلها منزل</cell>
+                  <cell>١١١.١٠</cell>
+                  <cell>درب الطباخ –مصر</cell>
+                  <cell>احمد الزاهد</cell>
+               </row>
+               <row>
+                  <cell>نصف طاحونة</cell>
+                  <cell>١٤٥.٩</cell>
+                  <cell>درب الطباخ –مصر</cell>
+                  <cell>احمد الزاهد</cell>
+               </row>
+               <row>
+                  <cell>ثلث منزل</cell>
+                  <cell>٩٣.٤٧</cell>
+                  <cell>درب الطباخ –مصر</cell>
+                  <cell>احمد الزاهد</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>٤٤.٨١</cell>
+                  <cell>حارة درب المبيضه بشارع شيخون – مصر</cell>
+                  <cell>على اغا دار السعادة</cell>
+               </row>
+               <row>
+                  <cell>منزل ودكان اسفله</cell>
+                  <cell>٦٨.٢٥</cell>
+                  <cell>حارة الصايغ بالدرب المسدود – مصر</cell>
+                  <cell>على زينهم التاراتي</cell>
+               </row>
+            </table>
+            <p>:::::::::::::::</p>
+         </div>
+         <div>
+            <head>عدد ١٢٩، ١٣ نوفمبر ١٨٩٧، ١٨ جمادى الثانية ١٣١٥، ص٢٧١٩</head>
+            <p>نظارة الاشغال العمومية</p>
+            <p>قد قررت نظارة الاشغال العمومية بتاريخ ٨ نوفمبر ١٨٩٧ ترقير خدمة عموم المباني الاتية أسماؤهم كما في هذا الجدول وذلك من اول نوفمبر ١٨٩٧</p>
+            <table>
+               <row>
+                  <cell>أسماء</cell>
+                  <cell>رواتب جديدة</cell>
+                  <cell>درجات جديدة</cell>
+                  <cell>رواتب حالية</cell>
+                  <cell>درجات حالية</cell>
+               </row>
+               <row>
+                  <cell>محمود بك فهمى</cell>
+                  <cell>٤٥٠ جنيه</cell>
+                  <cell>مفتش</cell>
+                  <cell>٣٠٠</cell>
+                  <cell>مدير</cell>
+               </row>
+               <row>
+                  <cell>مسيو ريبول</cell>
+                  <cell>٤٠٠</cell>
+                  <cell>مدير التنظيم</cell>
+                  <cell>٣٠٠</cell>
+                  <cell>باشمهندس درجة تانيه</cell>
+               </row>
+               <row>
+                  <cell>مسيو شوفل</cell>
+                  <cell>٣٠٠</cell>
+                  <cell>باشمهندس درجة تانيه</cell>
+                  <cell>٢٤٠</cell>
+                  <cell>باشمهندس درجة ثالثه</cell>
+               </row>
+               <row>
+                  <cell>احمد افندى راشد</cell>
+                  <cell>٣٠٠</cell>
+                  <cell>باشمهندس درجة تانيه</cell>
+                  <cell>٢٤٠</cell>
+                  <cell>باشمهندس درجة ثالثة</cell>
+               </row>
+               <row>
+                  <cell>إبراهيم افندى حمدى</cell>
+                  <cell>٣٠٠</cell>
+                  <cell>باشمهندس درجة تانيه</cell>
+                  <cell>٢٤٠</cell>
+                  <cell>باشمهندس درجة ثالثه</cell>
+               </row>
+               <row>
+                  <cell>محمد افندى رافت</cell>
+                  <cell>٢٤٠</cell>
+                  <cell>باشمهندس درجة ثالثة</cell>
+                  <cell>١٨٠</cell>
+                  <cell>مهندس مساعد درجة أولى</cell>
+               </row>
+               <row>
+                  <cell>عبد الرحمن افندى زهنى</cell>
+                  <cell>٢٤٠</cell>
+                  <cell>باشمهندس درجة ثالثة</cell>
+                  <cell>١٨٠</cell>
+                  <cell>مهندس مساعد درجة أولى</cell>
+               </row>
+               <row>
+                  <cell>إسماعيل افندى عمر</cell>
+                  <cell>١٨٠</cell>
+                  <cell>مهندس مساعد درجة اولى</cell>
+                  <cell>١٤٤</cell>
+                  <cell>مهندس مساعد درجة ثانية</cell>
+               </row>
+            </table>
+         </div>
+         <div>
+            <head>عدد ١٣٨، ٤ ديسمبر ١٨٩٧، ٩ رجب ١٣١٥، ص ٢٩٢٠، ٢٩٢١</head>
+            <head>امر عال</head>
+            <p>نحن خديو مصر </p>
+            <p>بعد الاطلاع على المادة العاشرة من لائحة التنظيم في ٨ سبتمبر ١٨٨٩ وهذا نصها </p>
+            <p>" مجرد الإقرار على رسم خط التنظيم من ناظر الاشغال العمومية وصدور امر عال باعتماده يسوغان للحكومة ان تنزع شيا فشيئا وبالطرق القانونية الاراضى المبين بالرسم لزومها لانشاء الشوارع المعمول عنها الرسم المذكور ومن تاريخ صدور الامر العالى المشار اليه لا يجوز إقامة اى بناء على الأراضي اللازم نزع ملكيتها)</p>
+            <p>وبناء على ما عرضه علينا ناظر الاشغال العمومية وموافقة رأى مجلس النظار </p>
+            <p>امرنا بما هو ات </p>
+            <p>(المادة الأولى) </p>
+            <p>يلغي رسم التنظيم نمرة ٨٩ المحرر عن خطوط تنظيم شارع الجمرك القديم المعتمد من نظارة الاشغال العمومية بتاريخ ٩ نوفمبر ١٨٨٩ وصادر عنه امر عال  بتاريخ ١٦ فبراير سنة ١٨٨٧ ويستعاض عنه بالرسم نمرة ٨٩ المعتمد من نظارة الاشغال العمومية بتاريخ ١٣ أكتوبر ١٨٩٧ </p>
+            <p>( المادة الثانية) </p>
+            <p>تلغي خطوط التنظيم من الطرق وأجزاء الطرق العمومية المبينة أسماوها في الكشف حرف (أ) الملحق بأمرنا هذا </p>
+            <p>(المادة الثالثة) </p>
+            <p>يعتمد تعديل خطوط التنظيم المقرر في رسومات الطرق العمومية المبينة في الكشف حرف (ب) الملحق بامرنا هذا </p>
+            <p>(المادة الرابعة)</p>
+            <p>تعتمد خطوط التنظيم الجديد المضافة على رسومات الطرق العمومية المبينة في الكشف حرف (ج) الملحق بامرنا هذا </p>
+            <p>(المادة الخامسة) </p>
+            <p>تعتبر من الطرق العمومية المبينة في الكشف حرف (د) الملحق بامرنا هذا من المنافع العمومية </p>
+            <p>(المادة السادسة )</p>
+            <p>على ناظر الاشغال العمومية تنفيذ أمرنا هذا </p>
+            <p>صدر بسراى عابدين في ٧ رجب ١٣١٥ (٢ ديسمبر ١٨٩٧) </p>
+            <p>بامر الحضرة الخديوية (عباس حلمى)</p>
+            <p>رئيس مجلس النظار ( مصطفي فهمى) </p>
+            <p>ناظر الاشغال العمومية ( فخرى)</p>
+         </div>
+         <div>
+            <head>كشف حرف (أ)</head>
+            <head>عن الشوارع وأجزاء الشوارع التي الغيت منها خطوط التنظيم لغاية شهر يونيو ١٨٩٧</head>
+            <table>
+               <row>
+                  <cell>نمرة الرسم</cell>
+                  <cell>تاريخ اعتماد الغاء الخطوط المذكورة من النظارة</cell>
+                  <cell>أسماء الشوارع (مدينة القاهرة)</cell>
+               </row>
+               <row>
+                  <cell>
+                     <p>١٦٦٤</p>
+                     <p>٦٥٩</p>
+                  </cell>
+                  <cell>٢٧ ابريل ١٨٩٧</cell>
+                  <cell>زقاق عبد المجيد طه بشارع المصابغ</cell>
+               </row>
+               <row>
+                  <cell>١٠١٥</cell>
+                  <cell>٢٧ ابريل ١٨٩٧</cell>
+                  <cell>حارة محصورة بين قطعتى الأرض نمرة ١، ٢ آخذه من شارع العباسية العمومي</cell>
+               </row>
+               <row>
+                  <cell>١١٨٣</cell>
+                  <cell>٢٧ ابريل ١٨٩٧</cell>
+                  <cell>الزقاق المحصور بين قطعتى الأرض نمرة ١١٨ و١١٩ بالشارع الغربي لقشلاق العباسية البحرية</cell>
+               </row>
+               <row>
+                  <cell>٥٨٦</cell>
+                  <cell>١٠ مايو ١٨٩٧</cell>
+                  <cell>جزء من حارة علوة الغواص</cell>
+               </row>
+            </table>
+         </div>
+         <div>
+            <head>::::::::::::::::::</head>
+            <head>عدد ١٣٨، ٤ ديسمبر ١٨٩٧، ٩ رجب ١٣١٥، ص ٢٩٣٤</head>
+            <head>ديوان عموم الأوقاف</head>
+            <p>كشف ببيان أماكن متخربة وارض فضا تعلق الأوقاف جار اشهار مزاد استبدالها بالنقد بمراكز الماموريات الموضحه بعد ، والمواعيد المحددة للاشهار ٢٢ ديسمبر ١٨٩٧</p>
+            <table>
+               <row>
+                  <cell>نوع العقار</cell>
+                  <cell>المساحه بالمتر</cell>
+                  <cell>جهة العقار</cell>
+                  <cell>اسم الوقف</cell>
+               </row>
+               <row>
+                  <cell>خربة</cell>
+                  <cell>٦٤.٥٠</cell>
+                  <cell>حارة الشواربية بالباطنية – مصر</cell>
+                  <cell>وقف مندثر</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>٣٤.٥٤</cell>
+                  <cell>حارة الغرقاني – مصر</cell>
+                  <cell>محمد الغرقاني</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+            </table>
+         </div>
+         <div>
+            <head>:::::::::::::::::::::</head>
+            <head>عام ١٨٩٨</head>
+            <head>عدد ٢، ٣ يناير ١٨٩٨، ١٠ شعبان ١٣١٥، ص ٢٠، ٢١</head>
+            <p>نظارة المالية </p>
+            <p>محافظة مصر </p>
+            <p>ليكن معلوما لدى العموم انه بجلسة قومسيون بيع أملاك واراضي الميري المزمع انعقادها بديوان محافظة مصر في ١٧ يناير ١٨٩٨ سيصير اشهار مزاد بيع عقارات بيت مال المحروسة المبينة بهذا واعتبار اول عطا فيها الثمن الأساسي الموضح بعد </p>
+            <table>
+               <row>
+                  <cell>سنتى</cell>
+                  <cell>متر</cell>
+                  <cell>نمرة الجدول</cell>
+                  <cell>الوصف والسعر</cell>
+               </row>
+               <row>
+                  <cell>٢٥</cell>
+                  <cell>٤</cell>
+                  <cell>٢٠٧</cell>
+                  <cell>حصة قدرها ١٢ قيراطا في دكان كائن بالبندقانيين بالحمزاوى بقسم الموسكي مضبوطة عن احمد اغا الباقرجي الغائب ثمنها الأساسي ٨٥ جنيها ومؤجرة شهر شهريا بمبلغ ٥٧٩ مليما</cell>
+               </row>
+               <row>
+                  <cell>٥٨</cell>
+                  <cell>٢</cell>
+                  <cell>٢٠٨</cell>
+                  <cell>حصة قدرها ١٢ قيراطا من دكان بالجهة المذكورة قبل مضبوطة عن احمد اغا المذكور ثمنها الأساسي ٥٥ جنيها ومؤجرة شهريا بمبلغ ٣٨٦ مليما</cell>
+               </row>
+               <row>
+                  <cell>٦١</cell>
+                  <cell>٢</cell>
+                  <cell>٢٠٩</cell>
+                  <cell>حصة قدرها ١٢ قيراطا من دكان بالنحاسين بقسم الجمالية مضبوطة عن احمد اغا الباقرجى المذكور ثمنها الأساسي ٤٠ جنيها ومؤجرة شهريا بمبلغ ٢٠٠ مليم</cell>
+               </row>
+               <row>
+                  <cell>٣٨</cell>
+                  <cell>٢١</cell>
+                  <cell>٢١٠</cell>
+                  <cell>حصة قدرها ١٢ قيراطا في حاصل وقطعة ارض منحصرة ما بين كتفي العقد بخان النحاس داخل خان الخليلي بالجمالية مضبوطة عن احمد اغا المذكور ثمنها الأساسي ١٢ جنيها وايجار الحصة شهريا ٥٠ مليم</cell>
+               </row>
+               <row>
+                  <cell>٩١</cell>
+                  <cell>٥٠</cell>
+                  <cell>٢١٢</cell>
+                  <cell>خربة كائنة بحارة العطوف بالجمالية مضبوطة عن عمر همام الغائب ثمنها الأساسي ٢٥ جنيها وهى تساوى من الايجار سنويا ١ جنيه و٦٨٠ مليما</cell>
+               </row>
+            </table>
+            <p>::::::::::::::::::::</p>
+         </div>
+         <div>
+            <head>عدد ١٢، ٢٩ يناير ١٨٩٨، ٧ رمضان ١٣١٥، ص ١٦٤</head>
+            <head>ديوان عموم الأوقاف</head>
+            <p>يتشرف ديوان الأوقاف بإعلان الجمهور بانه سيصير اشهار مزاد استبدال الأماكن المبينة بهذا الكشف بالنقد وقد تحدد الميعاد المبين بعد لاجتماع الراغبين بمراكز الأوقاف الموضحه فمن يرغب في اخذ شيء من هذه الأماكن يتوجه الى مركز الأوقاف الموضح بازائه للاطلاع على شروط قوائم المزاد وما يريده من البيانات  </p>
+            <p>ميعاد الاشهار ٥ مارس ١٨٩٨</p>
+            <table>
+               <row>
+                  <cell>نوع العقار</cell>
+                  <cell>جهة العقار</cell>
+                  <cell>المساحه بالمتر</cell>
+               </row>
+               <row>
+                  <cell>ربع</cell>
+                  <cell>حارة درب الاكراد بمصر</cell>
+                  <cell>٥٥.٤٥</cell>
+               </row>
+               <row>
+                  <cell>منزلين</cell>
+                  <cell>احدهما بحارة درب القزازين والثاني بحارة درب الفرن – مصر</cell>
+                  <cell>١٠٧</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>حارة درب القزازين بمصر</cell>
+                  <cell>٤٢.٧</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>حارة درب الصهريج بالحطابة بمصر</cell>
+                  <cell>١٥٥.٨٩</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>حارة درب الزعفران بالحطابة بمصر</cell>
+                  <cell>٦٤.١٨</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>درب القطايعه بقلعة الكبش بمصر</cell>
+                  <cell>٥١.٩</cell>
+               </row>
+               <row>
+                  <cell>٥ دكاكين وعلوها ٤ طباق</cell>
+                  <cell>حارة حيضان الموصلي</cell>
+                  <cell>١٥٠.٧٥</cell>
+               </row>
+            </table>
+            <p>:::::::::::::::::::</p>
+         </div>
+         <div>
+            <head>عدد ١٤، ٢ فبراير ١٨٩٨، ١١ رمضان ١٣١٥، ص ١٧٩</head>
+            <head>امر عال</head>
+            <p>نحن خديو مصر </p>
+            <p>بعد الاطلاع على المادة العاشرة من لائحة التنظيم الصادرة في ٨ سبتمبر ١٨٨٩ وهذا نصها :</p>
+            <p>" مجرد الإقرار على رسم خط التنظيم من ناظر الاشغال العمومية وصدور امر عال باعتماده يسوغان للحكومة ان تنزع شيا فشيا وبالطرق القانونية الأراضي المبين بالرسم لزومها لانشاء الشوارع المعمول عنها الرسم المذكور ومن تاريخ صدور الامر العالى المشار اليه لا يجوز إقامة اى بناء على الأراضي اللازم نزع ملكيتها "</p>
+            <p>وبنا ء على ما عرضه علينا ناظر الاشغال العمومية وموافقة راى مجلس النظار </p>
+            <p>أمرنا بما هو آت </p>
+            <p>(المادة الأولى) </p>
+            <p>تلغي خطوط التنظيم من الطرق وأجزاء الطرق العمومية المبينة أسماؤها في الكشف حرف (أ) الملحق بامرنا هذا </p>
+            <p>(المادة الثانية) </p>
+            <p>تعديل خطوط التنظيم المقررة في رسومات الطرق العمومية المبينة في الكشف حرف (ب) الملحق بامرنا هذا </p>
+            <p>(المادة الثالثة) </p>
+            <p>تعتمد خطوط التنظيم الجديدة المضافة على رسومات الطرق العمومية المبينة في الكشف حرف (ج) الملحق بامرنا هذا </p>
+            <p>(المادة الرابعة) </p>
+            <p>تعتبر من المنافع العمومية الطرق العمومية المبينة في الكشف حرف (د) الملحق بامرنا هذا </p>
+            <p>(المادة الخامسه) </p>
+            <p>على ناظر الاشغال العمومية تنفيذ امرنا هذا </p>
+            <p>صدر بسراى عابدين في ٨ رمضان ١٣١٥ – ٣٠ يناير ١٨٩٨</p>
+            <p>(عباس حلمى)  بامر الحضرة الخديوية </p>
+            <p>رئيس مجلس النظار (مصطفي فهمى) </p>
+            <p>ناظر الاشغال العمومية (فخرى) </p>
+            <p>تكملة (الجدول منشور في عدد ١٥، ٥ فبراير ١٨٩٨، ص ١٩٣</p>
+            <p>هذه الكشوف الملحقه بالامر العالى ٨ رمضان ١٣١٥ – ٣٠ يناير ١٨٩٨ بخصوص الشوارع العمومية المدرج بالوقائع المصرية نمرة ١٤ </p>
+            <p>كشف حرف (أ) </p>
+            <p>عن الشوارع وأجزاء الشوارع التي الغيت منها خطوط التنظيم لغاية شهر سبتمبر ١٨٩٧ </p>
+            <table>
+               <row>
+                  <cell>نمرة الرسم</cell>
+                  <cell>تاريخ اعتماد الغاء الخطوط المذكورة من النظارة</cell>
+                  <cell>أسماء الشوارع (القاهرة)</cell>
+               </row>
+               <row>
+                  <cell>٦٩٦</cell>
+                  <cell>١٥ يوليه ١٨٩٧</cell>
+                  <cell>زقاق بدرب النوبي</cell>
+               </row>
+               <row>
+                  <cell>١١٥٥</cell>
+                  <cell>٢٤ يوليه ١٨٩٧</cell>
+                  <cell>شارع بخريطة ارض السبتبة</cell>
+               </row>
+            </table>
+            <p>كشف حرف (ب )</p>
+            <p>عن الشوارع وأجزاء الشوارع التي عدلت خطوط تنظيمها لغاية شهر سبتمبر ١٨٩٧ </p>
+            <table>
+               <row>
+                  <cell>نمرة الرسم</cell>
+                  <cell>تاريخ اعتماد تعديل الرسم من النظارة</cell>
+                  <cell>أسماء الشوارع (القاهرة)</cell>
+               </row>
+               <row>
+                  <cell>١٠٨</cell>
+                  <cell>٢٣ يونيه ١٨٩٧</cell>
+                  <cell>جزء بحارة الجوانية</cell>
+               </row>
+               <row>
+                  <cell>٥٣٩</cell>
+                  <cell>اول يوليه ١٨٩٧</cell>
+                  <cell>سد عطفة الجوهرى من جهة درب مصطفي</cell>
+               </row>
+               <row>
+                  <cell>٩١٠</cell>
+                  <cell>اول يوليه ١٨٩٧</cell>
+                  <cell>سد عطفة الشيخ إبراهيم خلف جامع العلوه</cell>
+               </row>
+               <row>
+                  <cell>٦٣</cell>
+                  <cell>١١ يوليه ١٨٩٧</cell>
+                  <cell>جزء بشارع التبانة امام وجهة جامع المردانى</cell>
+               </row>
+               <row>
+                  <cell>١١٤٩</cell>
+                  <cell>٢٤ يوليه ١٨٩٧</cell>
+                  <cell>جزء بشارع المدابغ</cell>
+               </row>
+               <row>
+                  <cell>
+                     <p>٧٧</p>
+                     <p>٨١</p>
+                     <p>٨٢</p>
+                     <p>٨٣</p>
+                     <p>٨٤</p>
+                  </cell>
+                  <cell>٢٥ يوليه ١٨٩٧</cell>
+                  <cell>جزء بسوق مسكه</cell>
+               </row>
+               <row>
+                  <cell>٣٤٩</cell>
+                  <cell>٩ أغسطس ١٨٩٧</cell>
+                  <cell>جزء بحارة قاضي البهور</cell>
+               </row>
+               <row>
+                  <cell>١٠٥٣</cell>
+                  <cell>٩ أغسطس ١٨٩٧</cell>
+                  <cell>جزء بشارع درب السارين</cell>
+               </row>
+            </table>
+         </div>
+         <div>
+            <head>::::::::::::::::</head>
+            <head>عدد ١٨، ١٢ فبراير ١٨٩٨، ٢١ رمضان ١٣١٥، ص٢٣٧</head>
+            <head>نظارة المالية</head>
+            <head>محافظة مصر</head>
+            <p>ليكن معلوما لدى العموم انه بجلسة قومسيون بيع أملاك واراضي الميري المزمع انعقادها بديوان محافظة مصر يوم الاثنين ٧ مارس ١٨٩٨ سيصير إعادة اشهار مزاد بيع عقارات بيت مال المحروسة المبينة لهذا السابق الاشهار عنها بجلسات ١٠ ، ١٧ يناير سنة ١٨٩٨ واعتبار اول عطا فيها الثمن الأساسي الموضح بعد</p>
+            <table>
+               <row>
+                  <cell>الثمن الأساسي</cell>
+                  <cell>مقاسات</cell>
+                  <cell>نمرة الجدول</cell>
+                  <cell>وصف العقار</cell>
+               </row>
+               <row>
+                  <cell>مليم</cell>
+                  <cell>جنيه</cell>
+                  <cell>س</cell>
+                  <cell>متر</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٢٧٠</cell>
+                  <cell>٩</cell>
+                  <cell>٩٠</cell>
+                  <cell>٣٠</cell>
+                  <cell>١٦٤</cell>
+                  <cell>خربة كائنة بقلعة الكبش بقسم السيدة زينب مخلفة عن إبراهيم الحريري الخياط المشهور بابي سنه المتوفي عن ورثة غياب</cell>
+               </row>
+               <row>
+                  <cell>..</cell>
+                  <cell>٢٥</cell>
+                  <cell>٩١</cell>
+                  <cell>٥٠</cell>
+                  <cell>٢١٢</cell>
+                  <cell>خربة كائنة بحارة العطوف بالجمالية مضبوطة عن عمر همام الغائب</cell>
+               </row>
+            </table>
+            <p>::::::::::::::::::::</p>
+         </div>
+         <div>
+            <head>عدد ١٨، ١٢ فبراير ١٨٩٨، ٢١ رمضان ١٣١٥، ص٢٤٤</head>
+            <head>ديوان عموم الأوقاف</head>
+            <p>يتشرف ديوان الأوقاف بإعلان الجمهور بانع سيصير اشهار مزاد استبدال الأماكن المبينة بهذا الكشف بالنقد وقد تحدد الميعاد المبين بعد لاجتماع الراغبين بمراكز الأوقاف الموضحه فمن يرغب في اخذ شي من هذه الأماكن يتوجه الى مركز الاوقاف الموضح بازائه للاطلاع على شروط قوائم المزاد وما يريد من البيانات </p>
+            <p>ميعاد الاشهار يوم السبت ١٢ مارس ١٨٩٨</p>
+            <table>
+               <row>
+                  <cell>العقار</cell>
+                  <cell>جهته</cell>
+                  <cell>مقاسه بالمتر</cell>
+                  <cell>مركز الأوقاف الجارى اشهار المزاد فيه</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>شارع كفر الطماعين</cell>
+                  <cell>٢٧.٢٥</cell>
+                  <cell>قسم اول بالغورية</cell>
+               </row>
+               <row>
+                  <cell>خربة</cell>
+                  <cell>السلطان الحنفي</cell>
+                  <cell>٢١٢.٣٨</cell>
+                  <cell>قسم ثالث بميدان محمد على</cell>
+               </row>
+               <row>
+                  <cell>دكان وربع</cell>
+                  <cell>حلقوم الجمل بالحمزاوى</cell>
+                  <cell>٨٠٢.٢٨</cell>
+                  <cell>قسم اول بالغورية</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>حارة المردانى</cell>
+                  <cell>٣٣٢.٣٢</cell>
+                  <cell>قسم ثالث بميدان محمد على</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>حارة القربية</cell>
+                  <cell>٥٦.٨٩</cell>
+                  <cell>قسم ثالث بميدان محمد على</cell>
+               </row>
+               <row>
+                  <cell>منزل</cell>
+                  <cell>حارة الجودرية</cell>
+                  <cell>٥١.٦٠</cell>
+                  <cell>قسم اول بالغورية</cell>
+               </row>
+            </table>
+            <p>::::::::::::::::::</p>
+         </div>
+         <div>
+            <head>عدد ٢٩، ١٤ مارس ١٨٩٨، ٣١ شوال ١٣١٥، ص ٤٥٥، ٤٥٦</head>
+            <head>نظارة المالية</head>
+            <p>محافظة مصر</p>
+            <p>ليكن معلوما لدى العموم انه بجلسة قومسيون البيع المزمع انعقادها بديوان محافظة مصر في يومى الاثنين والثلاثاء ٢٨، ٢٩ مارس ١٨٩٨ سيصير اشهار مزاد بيع قطع الأراضي المبينة بهذا والباقية من الأراضي الاميرية الكائنة بمدينة المحروسة على جانبي شارع العباسية العمومي بقرب باب الحسينية السابق النشر عنها وتحدد لها جلسات واندرجت بالجريدة الرسمية واعلن معها رسم الأراضي المذكورة فكل من يرغب المشترى يحضر بجلسة القومسيون بديوان المحافظة في اليوم المذكور  ويعطى عطاءه بما يرغبه ويدفع تامين المائة ١٠ ولا يصير المزاد نهائيا الا بعد تصديق نظارة المالية وهى تحفظ لنفسها الحق في أن تقبل أو ترفض أعلى عطاء وكل عطاء يتقدم بعد تواريخ الجلسات المبينة يعتبر لاغيا ولا يعمل به ومالا يرسي مزاده من تلط القطع في اول يوم يطرح للمبيع بجلسة ثاني يوم  </p>
+            <p>أما البيع فيكون على مقتضي القيود والشروط الاتية</p>
+            <p>(أولا)</p>
+            <p>هذا البيع هو على مقتضي الشروط والقيوم المدونة في لائحة ٢٢ نوفمبر سنة ١٨٨٦ المتعلقة ببيع أملاك الميري الحرة وفي المنشورات المتممة لها وبالشروط الاتية أيضا التي تعتبر انها شروط أساسية وبدونهت لاتقر الحكومة على البيع </p>
+            <p>(ثانيا)</p>
+            <p>يتعهد المشترى أن لا يبنى على قطعة الأرض التي يشتريها سوى منزل للسكن وغير مصرح له بإقامة تخاشيب موقتة لاستعمالها دكاكين او مخازن </p>
+            <p>(ثالثا) لا يسوغ للمشترى ان يبنى على حافة الطريق ولا على مسافة تبعد عنه باقل من متر ويجب التحويط على الأرض من تلك الجهة بواسطة درابزين من حديد يكون ارتفاعه مترا واحد ونصفا على الاقل وأربعة امتار على الأكثر بما في ذلك قاعدة الدرابزين بالبناء التي يلزم انها لاتزيد عن متر ولا يجوز ان يتجاوز ارتفاع الاسوار التي تقام على جانبي البناء او ورائه ثلاثة امتار ومع ذلك فان الكشكات والابراج الصغيرة والمشربيات وأود الخدم الخ يجوز بناؤها على حافة الطريق</p>
+            <p>(رابعا)</p>
+            <p>اجمالى مسطح الأرض الذى يشغل بالبناء لايجب ان يتجاوز في اى حال من الأحوال نصف مقدار القطعة المباعة </p>
+            <p>(خامسا)</p>
+            <p>لا يجب ان ارتفاع الأبنية يتجاوز الخمسة عشر مترا باى حجة كانت </p>
+            <p>(سادسا) </p>
+            <p>الاسطبلات والعربخانات والمطابخ ومحلات الغسيل لا يجب ان يفتح لها مداخل على الطريق مباشرة وينبغي ان تبني بكيفية لا يترتب عليها الاضرار بالصحة العمومية </p>
+            <p>(سابعا)</p>
+            <p>يتعهد المشترى تعهدا صريحا باتباع القواعد الاتية فيما يتعلق بالنظام الصحى اللازم مراعاته في البنايات التي يقيمها</p>
+            <p>أولا: يلزم بناء جميع الادبخانات خلف حائط خارجي ويجعل بها نافذة مفتوحة لتجديد الهواء </p>
+            <p>ثانيا: يلزم تصريف المواد في خزان اصم يجعل خارج البناء وذلك الى ان يعمل في هذه الجهة مجارى للتصريف بالطريقة التي تتقرر لذلك ويكون لهذا الخزان مواسير على حدتها لتجديد الهواء ولا يجوز تركيب مواسير على الخزانات لتصريف النواد التي تزيد عن سعتها</p>
+            <p>ثالثا: تكون جميع المواسير المجعولى لنزول المواد والمتصلة بالادبخانات من ظهر متين وتكون مرتفعة عن سطح البيت ومفتوحة من الأعلى لتجديد الهواء وتكون جميع لحاماتها مبرشمة ويجب ان توضع جميع المواسير خارج الحيطان </p>
+            <p>رابعا: يجعل لمياه الاستعمال المنزلية مواسير على حدتها ويجوز عمل خزانات بدون قاع اصم لمياه الاستعمال المنزلية والاسطبلات ولكن تكون هذه الخزانات خارج المباني</p>
+            <p>خامسا : انه لاجل توصل الحكومة الى الوثوق من ان جميع الاشتراطات التي سلفت معمول بها يتعين عرض جميع رسومات البناء على نظارة الاشغال العمومية والحصول على تصديقها عليها قبل الشروع في البناء ويجب ان تبين في الرسم طريقة تصريف المياه وجميع التفصيلات المتعلقة بالبناء ولا يترتيب على تصديق نظارة الاشغال على الرسومات ادنى مسئولية على الحكومة لدى المالك باى صفة كانت وللحكومة الحق في ان تمنع بالطريقة الإدارية اجرا البناء وان توقف سيره في كل وقت اذا كانت الرسومات غير مصدق عليها من قبل او اذا اتضح ان هذه المباني ليست بالتطبيق للتعهدات المار ذكرها</p>
+            <p>(ثامنا)</p>
+            <p>الشروط الموضحه قبل هي ضرورية ولولاها ما كانت الحكومة تقبل بيع الأراضي المذكورة وللحكومة الحق في اى وقت كان في اجبار المشترى او من يقوم مقامه باتباع تلك الشروط بوجه الدقة والا يصير هدم ما بناه في أحال والزامه بالتعويضات  </p>
+            <p>(تاسعا)</p>
+            <p>يتعهد المشترى بالبناء في مسافة غايتها سنتان من ابتداء التوقيع على عقد البيع بحيث انه لدى انقضاء هذا الميعاد يلز ان يكون البناء كاملا وان باقي الأرض المباعة تجعل جنينة او تترك براحا بشرط انه في الحالة الأخيرة يصير حفظ الأرض في حالة صحية وتسوية مسطحها جيدا واذا لو يقم المشترى باتمام ذلك في الميعاد المذكور فللحكومة الحق لدى انقضائه وبدون عمل اى انذار ان تطالبه بدفع مبلغ يوازى عشر الثمن الذى حصل الشراء به وذلك عن كل سنة من التاخير او عن كسور السنة بصفة عطل واضرار الى ان يتم المشترى المباني المنصوص عنها انفا</p>
+            <p>(عاشرا)</p>
+            <p>هدم الأبنية التي تكون أقيمت او قفل المخازن أو الاسطبلات أو باقي المحلات التي تكون فتحت بحالة مخالفة للشروط المنوه عنها قبل يكون دائما بمصاريف على طرف صاحب الأرض واما التعويضات فلايجوز تقديرها باقل من عشرة جنيهات مصرية ولا بأكثر من مائة جنيه مصري شهريا حسب أهمية البناء وهذه المبالغ يصير تحصيلها من صاحب الأرض واذا لزم الحال من صاحب الأرض والمستاجر معا بطريق التضامن والتكافل وللحكومة ان تطلب دفع تلك التعويضات عن كامل المدة التي تكون استغرقتها المخالفة وفي حالة هدم جانب من البناء فعلي صاحبه ان يجعل ما لم يهدم منه في حالة جيدة حسب أصول الفن</p>
+            <p>(حادى عشر)</p>
+            <p>تحفظ الحكومة لنفسها بصفة صريحة الحرية بعدم انشاء الشوارع المارة بهذه الأراضي كما هي مخططة بالرسومات الا وقت ما يتراى لها ذلك وبالكيفية التي تستحسنها بدون ان يسوغ للمشترى إقامة اى تداع من هذا القبيل انما الأراضي المتروكة لهذه الشوارع تبقي مخصصة للمرور بها بالحالة التي هي عليها الان كما ان الحكومة لا تتعهد بشي ما فيما يختص برش وتنوير هذه الجهة بل تكون حرة في عمل ذلك وقت ما يترااى لها وبحسب ما يوافقها </p>
+            <p>(ثاني عشر)</p>
+            <p>جميع رسوم تسجيل عقود البيع بقلم كتاب محكمة مصر المختلطة تدفع من طرف المشترين</p>
+            <p>(ثالث عشر)</p>
+            <p>يجب سريان مدة السنتين المقررة للبناء من ابتداء تاريخ تسليم الأرض للمشترى واذا تأخر المشترى او من ينوب عنه في الحضور لاستلام الأرض في الثمانية أيام التالية لتاريخ الإعلان الذى يعطى اليه بالكتابة فمصلحة التنظيم تنذره أيضا كتابة بالحضور للاستلام في مدة خمسة عشر يوما أخرى واذا مضى هذا الميعاد ولم يحضر فتعتبر ابتدا مدة السنتين من تاريخ اول اعلان </p>
+            <p>وبيان قطع الأراضي المذكورة واثمانها الأساسية كما ياتى </p>
+            <table>
+               <row>
+                  <cell>مقاسات</cell>
+                  <cell>فئه المتر الواحد بالمليم</cell>
+                  <cell>نمرة الرسم</cell>
+                  <cell>نمرة الجدول</cell>
+                  <cell>الجهة</cell>
+               </row>
+               <row>
+                  <cell>س</cell>
+                  <cell>متر</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>.</cell>
+                  <cell>٩٦٠</cell>
+                  <cell>١٣٥</cell>
+                  <cell>٣٦</cell>
+                  <cell>٢٣٩</cell>
+                  <cell>بالجهة الشرقية من ضمن الرسم نمرة ٣٣٦</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>٧٨٠</cell>
+                  <cell>١٧٠</cell>
+                  <cell>٣٩</cell>
+                  <cell>٢٤٢</cell>
+                  <cell>بالجهة الشرقية من ضمن الرسم نمرة ٣٣٦</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>٧٦٨</cell>
+                  <cell>١٠١</cell>
+                  <cell>٤٣</cell>
+                  <cell>٢٤٦</cell>
+                  <cell>بالجهة الشرقية من ضمن الرسم نمرة ٣٣٦</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>٧٦٨</cell>
+                  <cell>١١١</cell>
+                  <cell>٤٤</cell>
+                  <cell>٢٤٧</cell>
+                  <cell>بالجهة الشرقية من ضمن الرسم نمرة ٣٣٦</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>٧٦٨</cell>
+                  <cell>١٨٥</cell>
+                  <cell>٤٧</cell>
+                  <cell>٢٥٠</cell>
+                  <cell>بالجهة الشرقية من ضمن الرسم نمرة ٣٣٦</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>٧٩٨</cell>
+                  <cell>١٧١</cell>
+                  <cell>٥٥</cell>
+                  <cell>٢٦١</cell>
+                  <cell>بالجهة الغربية من ضمن الرسم المعتمد نمرة ١٠١٥</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١٢٢١</cell>
+                  <cell>١٧٠</cell>
+                  <cell>٦٠</cell>
+                  <cell>٢٦٦</cell>
+                  <cell>بالجهة الغربية من ضمن الرسم المعتمد نمرة ١٠١٥</cell>
+               </row>
+               <row>
+                  <cell>٥٠</cell>
+                  <cell>١٠٣٩</cell>
+                  <cell>١٨٠</cell>
+                  <cell>٦١</cell>
+                  <cell>٢٦٧</cell>
+                  <cell>بالجهة الغربية من ضمن الرسم المعتمد نمرة ١٠١٥</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١١٢٣</cell>
+                  <cell>١٨٠</cell>
+                  <cell>٦٢</cell>
+                  <cell>٢٦٨</cell>
+                  <cell>بالجهة الغربية من ضمن الرسم المعتمد نمرة ١٠١٥</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١٩٧٨</cell>
+                  <cell>١٨٠</cell>
+                  <cell>٦٤</cell>
+                  <cell>٢٧٠</cell>
+                  <cell>بالجهة الغربية من ضمن الرسم المعتمد نمرة ١٠١٥</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>٢٤٦٨</cell>
+                  <cell>١٩٠</cell>
+                  <cell>٦٥</cell>
+                  <cell>٢٧١</cell>
+                  <cell>بالجهة الغربية من ضمن الرسم المعتمد نمرة ١٠١٥</cell>
+               </row>
+            </table>
+            <p>:::::::::::::::::::</p>
+         </div>
+         <div>
+            <head>عدد ٣٨، ٦ ابريل ١٨٩٨، ١٥ ذي القعدة ١٣١٥، ص ٦١٨، ٦١٩</head>
+            <head>نظارة المالية</head>
+            <p>محافظة مصر </p>
+            <p>ليكن معلوما لدى العموم انه بجلسة قومسيون البيع المزمع انعقادها بديوان محافظة مصر في يوم الثلاثاء ٢٦ ابريل ١٨٩٨، سيصير اشهار مزاد بيع قطع الأراضي الاميرية الكائنة بجهة القصر العالى قبلي وشرقي السراى المنيرة من ضمن الرسم المحرر عنها بمعرفة نظارة الاشغال العمومية ومعتمدة بنمرة ٩٤٨ الموضح بيانها بعد فيقتضي ان من يرغب المشترى يحضر بجلسة القومسيون بديوان المحافظة في اليوم والميعاد المذكورين ويعطى عطاءه عما يرغبه ويدفع تامين المائة ١٠ ولا يصير المزاد نهائيا الا بعد تصديق نظارة المالية وهى تحفظ لنفسها الحق في ان تقبل أو ترفض أعلى عطاء وكل عطاء يتقدم بعد اليوم المذكور يعتبر لاغيا ولا يعمل به </p>
+            <p>أما البيع فيكون على مقتضي القيود والشروط الاتية</p>
+            <p>(أولا)</p>
+            <p>هذا البيع هو على مقتضي الشروط والقيوم المدونة في لائحة ٢٢ نوفمبر سنة ١٨٨٦ المتعلقة ببيع أملاك الميري الحرة وفي المنشورات المتممة لها وبالشروط الاتية أيضا التي تعتبر انها شروط أساسية وبدونهت لاتقر الحكومة على البيع </p>
+            <p>(ثانيا)</p>
+            <p>يتعهد المشترى أن لا يبنى على قطعة الأرض التي يشتريها سوى منزل للسكن وغير مصرح له بإقامة تخاشيب موقتة لاستعمالها دكاكين او مخازن </p>
+            <p>(ثالثا) لا يسوغ للمشترى ان يبنى على حافة الطريق ولا على مسافة تبعد عنه باقل من متر ويجب التحويط على الأرض من تلك الجهة بواسطة درابزين من حديد يكون ارتفاعه مترا واحد ونصفا على الاقل وأربعة امتار على الأكثر بما في ذلك قاعدة الدرابزين بالبناء التي يلزم انها لاتزيد عن متر ولا يجوز ان يتجاوز ارتفاع الاسوار التي تقام على جانبي البناء او ورائه ثلاثة امتار ومع ذلك فان الكشكات والابراج الصغيرة والمشربيات وأود الخدم الخ يجوز بناؤها على حافة الطريق</p>
+            <p>(رابعا)</p>
+            <p>اجمالى مسطح الأرض الذى يشغل بالبناء لايجب ان يتجاوز في اى حال من الأحوال نصف مقدار القطعة المباعة </p>
+            <p>(خامسا)</p>
+            <p>لا يجب ان ارتفاع الأبنية يتجاوز الخمسة عشر مترا باى حجة كانت </p>
+            <p>(سادسا) </p>
+            <p>الاسطبلات والعربخانات والمطابخ ومحلات الغسيل لا يجب ان يفتح لها مداخل على الطريق مباشرة وينبغي ان تبني بكيفية لا يترتب عليها الاضرار بالصحة العمومية </p>
+            <p>(سابعا)</p>
+            <p>يتعهد المشترى تعهدا صريحا باتباع القواعد الاتية فيما يتعلق بالنظام الصحى اللازم مراعاته في البنايات التي يقيمها</p>
+            <p>أولا: يلزم بناء جميع الادبخانات خلف حائط خارجي ويجعل بها نافذة مفتوحة لتجديد الهواء </p>
+            <p>ثانيا: يلزم تصريف المواد في خزان اصم يجعل خارج البناء وذلك الى ان يعمل في هذه الجهة مجارى للتصريف بالطريقة التي تتقرر لذلك ويكون لهذا الخزان مواسير على حدتها لتجديد الهواء ولا يجوز تركيب مواسير على الخزانات لتصريف النواد التي تزيد عن سعتها</p>
+            <p>ثالثا: تكون جميع المواسير المجعولى لنزول المواد والمتصلة بالادبخانات من ظهر متين وتكون مرتفعة عن سطح البيت ومفتوحة من الأعلى لتجديد الهواء وتكون جميع لحاماتها مبرشمة ويجب ان توضع جميع المواسير خارج الحيطان </p>
+            <p>رابعا: يجعل لمياه الاستعمال المنزلية مواسير على حدتها ويجوز عمل خزانات بدون قاع اصم لمياه الاستعمال المنزلية والاسطبلات ولكن تكون هذه الخزانات خارج المباني</p>
+            <p>خامسا : انه لاجل توصل الحكومة الى الوثوق من ان جميع الاشتراطات التي سلفت معمول بها يتعين عرض جميع رسومات البناء على نظارة الاشغال العمومية والحصول على تصديقها عليها قبل الشروع في البناء ويجب ان تبين في الرسم طريقة تصريف المياه وجميع التفصيلات المتعلقة بالبناء ولا يترتيب على تصديق نظارة الاشغال على الرسومات ادنى مسئولية على الحكومة لدى المالك باى صفة كانت وللحكومة الحق في ان تمنع بالطريقة الإدارية اجرا البناء وان توقف سيره في كل وقت اذا كانت الرسومات غير مصدق عليها من قبل او اذا اتضح ان هذه المباني ليست بالتطبيق للتعهدات المار ذكرها</p>
+            <div>
+               <head>(ثامنا)</head>
+               <p>الشروط الموضحه قبل هي ضرورية ولولاها ما كانت الحكومة تقبل بيع الأراضي المذكورة وللحكومة الحق في اى وقت كان في اجبار المشترى او من يقوم مقامه باتباع تلك الشروط بوجه الدقة والا يصير هدم ما بناه في أحال والزامه بالتعويضات  </p>
+            </div>
+            <div>
+               <head>(تاسعا)</head>
+               <p>يتعهد المشترى بالبناء في مسافة غايتها سنتان من ابتداء التوقيع على عقد البيع بحيث انه لدى انقضاء هذا الميعاد يلز ان يكون البناء كاملا وان باقي الأرض المباعة تجعل جنينة او تترك براحا بشرط انه في الحالة الأخيرة يصير حفظ الأرض في حالة صحية وتسوية مسطحها جيدا واذا لو يقم المشترى باتمام ذلك في الميعاد المذكور فللحكومة الحق لدى انقضائه وبدون عمل اى انذار ان تطالبه بدفع مبلغ يوازى عشر الثمن الذى حصل الشراء به وذلك عن كل سنة من التاخير او عن كسور السنة بصفة عطل واضرار الى ان يتم المشترى المباني المنصوص عنها انفا</p>
+            </div>
+            <div>
+               <head>(عاشرا)</head>
+               <p>هدم الأبنية التي تكون أقيمت او قفل المخازن أو الاسطبلات أو باقي المحلات التي تكون فتحت بحالة مخالفة للشروط المنوه عنها قبل يكون دائما بمصاريف على طرف صاحب الأرض واما التعويضات فلايجوز تقديرها باقل من عشرة جنيهات مصرية ولا بأكثر من مائة جنيه مصري شهريا حسب أهمية البناء وهذه المبالغ يصير تحصيلها من صاحب الأرض واذا لزم الحال من صاحب الأرض والمستاجر معا بطريق التضامن والتكافل وللحكومة ان تطلب دفع تلك التعويضات عن كامل المدة التي تكون استغرقتها المخالفة وفي حالة هدم جانب من البناء فعلي صاحبه ان يجعل ما لم يهدم منه في حالة جيدة حسب أصول الفن</p>
+            </div>
+            <div>
+               <head>(حادى عشر)</head>
+               <p>تحفظ الحكومة لنفسها بصفة صريحة الحرية بعدم انشاء الشوارع المارة بهذه الأراضي كما هي مخططة بالرسومات الا وقت ما يتراى لها ذلك وبالكيفية التي تستحسنها بدون ان يسوغ للمشترى إقامة اى تداع من هذا القبيل انما الأراضي المتروكة لهذه الشوارع تبقي مخصصة للمرور بها بالحالة التي هي عليها الان كما ان الحكومة لا تتعهد بشي ما فيما يختص برش وتنوير هذه الجهة بل تكون حرة في عمل ذلك وقت ما يترااى لها وبحسب ما يوافقها </p>
+            </div>
+            <div>
+               <head>(ثاني عشر)</head>
+               <p>جميع رسوم تسجيل عقود البيع بقلم كتاب محكمة مصر المختلطة تدفع من طرف المشترين</p>
+               <p>وبيان قطع الأراضي المذكورة واثمانها الأساسية كما ياتى </p>
+               <table>
+                  <row>
+                     <cell>مقاسات بالمتر</cell>
+                     <cell>فيه المتر بالمليم</cell>
+                     <cell>نمرة القطعة بالرسم</cell>
+                  </row>
+                  <row>
+                     <cell>١٤١١.١٢</cell>
+                     <cell>٢٠٠</cell>
+                     <cell>٣ قطعه</cell>
+                  </row>
+                  <row>
+                     <cell>١٣٧٨</cell>
+                     <cell>١٥٠</cell>
+                     <cell>٤ قطعه</cell>
+                  </row>
+                  <row>
+                     <cell>١٤٧١.٥٠</cell>
+                     <cell>١٢٠</cell>
+                     <cell>٥ قطعه</cell>
+                  </row>
+                  <row>
+                     <cell>٥٤٦٠</cell>
+                     <cell>١٠٠</cell>
+                     <cell>٦ قطعة</cell>
+                  </row>
+                  <row>
+                     <cell>٢١٥٠.٢٥</cell>
+                     <cell>١٢٠</cell>
+                     <cell>٧ قطعة</cell>
+                  </row>
+                  <row>
+                     <cell>١١٨٢.٥٠</cell>
+                     <cell>٣٠٠</cell>
+                     <cell>٨ قطعة</cell>
+                  </row>
+                  <row>
+                     <cell>٣٠٤٤.٥٠</cell>
+                     <cell>١٢٠</cell>
+                     <cell>١٦ قطعة</cell>
+                  </row>
+                  <row>
+                     <cell>٢٦٩٤.٧٥</cell>
+                     <cell>١٥٠</cell>
+                     <cell>١٨ قطعة</cell>
+                  </row>
+                  <row>
+                     <cell>٣٢٤٠</cell>
+                     <cell>١٨٠</cell>
+                     <cell>١٩ قطعة</cell>
+                  </row>
+                  <row>
+                     <cell>١٩٢٢</cell>
+                     <cell>١٥٠</cell>
+                     <cell>٢٠ قطعة</cell>
+                  </row>
+                  <row>
+                     <cell>١٧٤٠.٥٠</cell>
+                     <cell>٣٠٠</cell>
+                     <cell>٢١ قطعة</cell>
+                  </row>
+               </table>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
