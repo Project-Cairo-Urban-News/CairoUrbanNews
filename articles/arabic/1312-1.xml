@@ -232,8 +232,7 @@
             <table>
                <row>
                   <cell>نمرة الرسم</cell>
-                  <cell>اسماء الشوارع والحارات ب<placeName ref="مدينة المحروسة">مدينة
-                المحروسة</placeName></cell>
+                  <cell>اسماء الشوارع والحارات بمدينة المحروسة</cell>
                   <cell>تاريخ التصديق على الرسم</cell>
                </row>
                <row>
@@ -391,7 +390,7 @@
                   <cell>نمرة الجدول</cell>
                   <cell>
                      <p>اسماء الحوارى</p>
-                     <p><placeName ref="مدينة المحروسة">مدينة المحروسة</placeName></p>
+                     <p>مدينة المحروسة</p>
                   </cell>
                   <cell>تاريخ اعتماد تعديل الرسم من النظارة</cell>
                </row>
@@ -488,112 +487,133 @@
                </row>
                <row>
                   <cell>٢٦٠</cell>
-                  <cell>جزء من عطفة بدرب لوليه</cell>
+                  <cell>جزء من عطفة ب<placeName ref="درب لوليه" type="درب">درب
+              لوليه</placeName></cell>
                   <cell>٢٤ سبتمبر ١٨٩٤</cell>
                </row>
                <row>
                   <cell>٩٣٥</cell>
-                  <cell>جزء من عطفة الانصارى</cell>
+                  <cell>جزء من <placeName ref="عطفة الانصارى" type="عطفة">عطفة
+              الانصارى</placeName></cell>
                   <cell>٩ مايو ١٨٨٨</cell>
                </row>
                <row>
                   <cell>٦٨٧</cell>
-                  <cell>جزء من حارة صلاح</cell>
+                  <cell>جزء من <placeName ref="حارة صلاح" type="حارة">حارة صلاح</placeName></cell>
                   <cell>٣ ديسمبر ١٨٨٨</cell>
                </row>
                <row>
                   <cell>٣٨٠</cell>
-                  <cell>جزء من شارع الانتيقخانة</cell>
+                  <cell>جزء من<placeName ref=" شارع الانتيقخانة" type="شارع">شارع
+                الانتيقخانة</placeName></cell>
                   <cell>٤ مايو ١٨٨٩</cell>
                </row>
                <row>
                   <cell>٦١٧</cell>
-                  <cell>جزء من شارع درب عجور</cell>
+                  <cell>جزء من <placeName ref="شارع درب عجور" type="شارع">شارع درب
+              عجور</placeName></cell>
                   <cell>٢٤ اكتوبر ١٨٨٩</cell>
                </row>
                <row>
                   <cell>٦٧٨</cell>
-                  <cell>جزء من ميدان باب الحسينية</cell>
+                  <cell>جزء من <placeName ref="ميدان باب الحسينية" type="ميدان">ميدان باب
+                الحسينية</placeName></cell>
                   <cell>٢٨ اكتوبر ١٨٩٠</cell>
                </row>
                <row>
                   <cell>٢٠٨</cell>
-                  <cell>جزء من حارة درب البوشي</cell>
+                  <cell>جزء من <placeName ref="حارة درب البوشي" type="حارة">حارة درب
+                البوشي</placeName></cell>
                   <cell>٢٦ نوفمبر ١٨٩٠</cell>
                </row>
                <row>
                   <cell>٦٦١</cell>
-                  <cell>جزء من زقاق شمارة بدرب البشابشة</cell>
+                  <cell>جزء من <placeName ref="زقاق شمارة" type="زقاق">زقاق شمارة</placeName>
+                ب<placeName ref="درب البشابشة" type="درب">درب البشابشة</placeName></cell>
                   <cell>٢٨ يناير ١٨٩١</cell>
                </row>
                <row>
                   <cell>٩٤٤</cell>
-                  <cell>جزء من حارة كوم الحكيم</cell>
+                  <cell>جزء من <placeName ref="حارة كوم الحكيم" type="حارة">حارة كوم
+                الحكيم</placeName></cell>
                   <cell>٦ يونية ١٨٩١</cell>
                </row>
                <row>
                   <cell>٦٩٥</cell>
-                  <cell>جزء من عطفة المنجمة بشارع محمد على</cell>
+                  <cell>جزء من <placeName ref="عطفة المنجمة" type="عطفة">عطفة المنجمة</placeName>
+                ب<placeName ref="شارع محمد على" type="شارع">شارع محمد على</placeName></cell>
                   <cell>٩ يوليه ١٨٩١</cell>
                </row>
                <row>
                   <cell>٣٩٠</cell>
-                  <cell>جزء من شارع ترعة جزيرة بدران</cell>
+                  <cell>جزء من <placeName ref="شارع ترعة جزيرة بدران" type="شارع">شارع ترعة جزيرة
+                بدران</placeName></cell>
                   <cell>٢٩ يوليه ١٨٩١</cell>
                </row>
                <row>
                   <cell>١٧٧</cell>
-                  <cell>جزء من فم حارة كوم الصعايدة</cell>
+                  <cell>جزء من فم <placeName ref="حارة كوم الصعايدة" type="حارة">حارة كوم
+                الصعايدة</placeName></cell>
                   <cell>٧ فبراير ١٨٩٢</cell>
                </row>
                <row>
                   <cell>٦١</cell>
-                  <cell>جزء من حارة درب البجمون</cell>
+                  <cell>جزء من <placeName ref="حارة درب البجمون" type="حارة">حارة درب
+                البجمون</placeName></cell>
                   <cell>اول يونية ١٨٩٢</cell>
                </row>
                <row>
                   <cell>٦٠٩</cell>
-                  <cell>جزء من زقاق بشارع المصابغ</cell>
+                  <cell>جزء من زقاق ب<placeName ref="شارع المصابغ" type="شارع">شارع
+                المصابغ</placeName></cell>
                   <cell>٧ سبتمبر ١٨٩٢</cell>
                </row>
                <row>
                   <cell>٦٦٢</cell>
-                  <cell>جزء من حارة الافرنج</cell>
+                  <cell>جزء من <placeName ref="حارة الافرنج" type="حارة">حارة
+              الافرنج</placeName></cell>
                   <cell>٩ اكتوبر ١٨٩٢</cell>
                </row>
                <row>
                   <cell>١١٧٢</cell>
-                  <cell>جزء من شارع الجميل</cell>
+                  <cell>جزء من <placeName ref="شارع الجميل" type="شارع">شارع
+              الجميل</placeName></cell>
                   <cell>٢٢ نوفمبر ١٨٩٢</cell>
                </row>
                <row>
                   <cell>١١٧٥</cell>
-                  <cell>جزء من شارع الحكيم</cell>
+                  <cell>جزء من <placeName ref="شارع الحكيم" type="شارع">شارع
+              الحكيم</placeName></cell>
                   <cell>٢٢ نوفمبر ١٨٩٢</cell>
                </row>
                <row>
                   <cell>٩٣٧</cell>
-                  <cell>جزء من زقاق بدرب الساقية</cell>
+                  <cell>جزء من زقاق ب<placeName ref="درب الساقية" type="درب">درب
+              الساقية</placeName></cell>
                   <cell>١٤ يونية ١٨٩٣</cell>
                </row>
                <row>
                   <cell>٨٥٥</cell>
-                  <cell>جزء من شارع الحبالة</cell>
+                  <cell>جزء من <placeName ref="شارع الحبالة" type="شارع">شارع
+              الحبالة</placeName></cell>
                   <cell>١٩ يولية ١٨٩٣</cell>
                </row>
                <row>
                   <cell>١١٤٧</cell>
-                  <cell>جزء من ميدان القبة</cell>
+                  <cell>جزء من <placeName ref="ميدان القبة" type="ميدان">ميدان
+              القبة</placeName></cell>
                   <cell>٢٥ سبتمبر ١٨٩٣</cell>
                </row>
                <row>
                   <cell>٣١١</cell>
-                  <cell>جزء من شارع النصرية</cell>
+                  <cell>جزء من <placeName ref="شارع النصرية" type="شارع">شارع
+              النصرية</placeName></cell>
                   <cell>١٤ اكتوبر ١٨٩٣</cell>
                </row>
                <row>
                   <cell>٦٠٥</cell>
-                  <cell>جزء من ميدان الحلمية</cell>
+                  <cell>جزء من <placeName ref="ميدان الحلمية" type="ميدان">ميدان
+              الحلمية</placeName></cell>
                   <cell>١٩ ديسمبر ١٨٩٣</cell>
                </row>
             </table>
