@@ -224,8 +224,10 @@
             </list>
          </div>
          <div>
-            <head>عدد ٦٣، ١٠ يونيه ١٨٩٩، ٢ صفر ١٣١٧، ص ١٠٠٦</head>
-            <head>ديوان عموم الأوقاف</head>
+            <head><date when="1899-06-10">١٠ يونيه ١٨٩٩</date>،<date when-custom="1317-02-02">٢ صفر
+                  ١٣١٧</date>، <bibl><biblScope unit="issue">عدد ٦٣</biblScope>، <biblScope
+                     unit="page">ص ١٠٠٦</biblScope></bibl></head>
+            <head><orgName ref="ديوان-عموم-الأوقاف" type="ديوان">ديوان عموم الأوقاف</orgName></head>
             <p>يتشرف ديوان الأوقاف بإعلان الجمهور  بانه سيصير اشهار مزاد استبدال الأماكن المبينة بهذا الكشف بالنقد وقد تحدد يوم الخميس ٢٩ يونيه ١٨٩٩ لاجتماع الراغبين بمراكز الأوقاف الموضحه فمن يرغب في اخذ شي من هذه الأماكن يتوجه الى مركز الأوقاف الموضح بازائه للاطلاع على شروط قوائم المزاد وما يريده من البيانات </p>
             <table>
                <row>
@@ -235,12 +237,14 @@
                </row>
                <row>
                   <cell>حصة قيراط ونصف في بنا منزل على الشيوع</cell>
-                  <cell>عطفة عبدالله بك بمصر</cell>
+                  <cell><placeName ref="عطفة عبدالله بك" type="عطفة">عطفة عبدالله بك</placeName>
+                     بمصر</cell>
                   <cell>١٨١</cell>
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>حارة الحرافيش بالحطابة</cell>
+                  <cell><placeName ref="حارة الحرافيش" type="حارة">حارة الحرافيش</placeName>
+                        ب<placeName ref="الحطابة">الحطابة</placeName></cell>
                   <cell>٥٢,٥١</cell>
                </row>
                <row>
@@ -250,42 +254,48 @@
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>حارة زقاق المسك</cell>
+                  <cell><placeName ref="حارة زقاق المسك" type="شارع">حارة زقاق
+                     المسك</placeName></cell>
                   <cell>١٠٣.٣٥</cell>
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>شارع البقلي بالخليفة</cell>
+                  <cell><placeName ref="شارع البقلي" type="شارع">شارع البقلي</placeName> ب<placeName
+                        ref="الخليفة">الخليفة</placeName></cell>
                   <cell>٦٧.٠٩</cell>
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>الدرب الجديد بمصر القديمة</cell>
+                  <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الدرب
+                     الجديد<?oxy_custom_end?> بمصر القديمة</cell>
                   <cell>٨٦.٥٤</cell>
                </row>
                <row>
                   <cell>خربة</cell>
-                  <cell>كفر الزغاوى بمصر</cell>
+                  <cell><placeName ref="كفر الزغاوى" type="كفر">كفر الزغاوى</placeName> بمصر</cell>
                   <cell>١١٩.٥٣</cell>
                </row>
                <row>
                   <cell>٩ قراريط ونصف على الشيوع في بماء منزل</cell>
-                  <cell>درب الجمل بسويقة اللالا</cell>
+                  <cell><placeName ref="درب الجمل" type="درب">درب الجمل</placeName> ب<placeName
+                        ref="سويقة اللالا">سويقة اللالا</placeName></cell>
                   <cell>٥٨.٧٨</cell>
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>درب شغلان</cell>
+                  <cell><placeName ref="درب شغلان" type="درب">درب شغلان</placeName></cell>
                   <cell>٤٤.٨٩</cell>
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>حارة العفش بالحبالة</cell>
+                  <cell><placeName ref="حارة العفش" type="حارة">حارة العفش</placeName>
+                     بالحبالة</cell>
                   <cell>٤٨.٩١</cell>
                </row>
                <row>
                   <cell>طاحونة</cell>
-                  <cell>درب الشيخ فراج – بولاق</cell>
+                  <cell><placeName ref="درب الشيخ فراج" type="درب">درب الشيخ فراج</placeName> –
+                        <placeName ref="بولاق">بولاق</placeName></cell>
                   <cell>١٥٤.١٦</cell>
                </row>
             </table>
