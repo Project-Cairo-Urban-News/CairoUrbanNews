@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="../../css/oxygen.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>"Digital Cairo - Urbanism News from al-Waqāʾiʿ al-Miṣrīyah - An Ottoman Arabic Digital Humanities
+          Project"</title>
+            <editor xml:id="eNK">Nour Kanaan</editor>
+            <editor xml:id="eAM">Adam Mestyan</editor>
+            <editor xml:id="eDY">Danah Younis</editor>
+            <editor xml:id="eSG">Sarah Fathallah Gaara</editor>
+            <editor xml:id="eAE">Arif Erbil</editor>
+            <editor xml:id="eAK">Ahmed Kamal</editor>
+            <editor xml:id="eAS">Abram Smith</editor>
+            <editor xml:id="eCH">Clara Harms</editor>
+            <editor xml:id="eHS">Hüseyin Sağlam</editor>
+            <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+            <editor xml:id="eHL">Hiba Laabadli</editor>
+            <editor xml:id="eOE">Othmane Echchabi</editor>
+            <editor xml:id="eFA">Fatemah Almahana</editor>
+            <editor xml:id="eMZ">Mahmoud Zaki</editor>
+            <editor xml:id="eNS">Nehal al-Shamy</editor>
+            <editor xml:id="eVJ">Vishal Jammulapati</editor>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Hugh Cayless</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Adam Mestyan</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project leader</resp>
+               <name>Mercedes Volait</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Sarah Fathallah Gaara</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Karima Nasr</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Rezk Nory</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Arif Erbil</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Ahmed Kamal</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abram Smith</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Clara Harms</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Hüseyin Sağlam</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abdulrahman El-Taliawi</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Hiba Laabadli</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Othmane Echchabi</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Fatemah Almahana</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Mahmoud Zaki</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Nehal al-Shamy</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Vishal Jammulapati</name>
+            </respStmt>
+            <sponsor>
+               <orgName>National Endowment for the Humanities</orgName>, <orgName>Institut français
+            d’archéologie orientale</orgName> (Ifao, Cairo); <orgName>Franklin Humanities Institute
+            and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
+            University</orgName>; <orgName>Duke University Libraries</orgName>; <orgName>Centre
+            national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian
+            Cultural Counsellor in Cairo</orgName>. </sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the project "La fabrique
+          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+            <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+            <p>
+               <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
+            </p>
+            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+            Volait</persName>, <persName>Hugh Cayless</persName>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Al-Waqāʾiʿ al-Miṣrīyah (Egyptian Affairs) newspaper, 1828–1914.</p>
+            <p>born digital document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+            <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Rules of TEI XML MarkUp in This Project</p>
+            <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
+            <p>Each individual article has an individual xml:id number starting with "w1"</p>
+            <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
+          and notes.</p>
+            <p>If the location or organization of responsibility is known from the text, it can be added
+          in an attribute to a persName.</p>
+            <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+            Editions</ref>.</p>
+         </editorialDecl>
+         <charDecl>
+            <char xml:id="qhalf">
+               <localProp value="QIRMA FRACTION 1/2" name="name"/>
+               <unicodeProp value="1/2" name="Numeric_Value"/>
+               <mapping type="similar">𐋢</mapping>
+               <figure>
+                  <graphic url="../../docs/images/qhalf.svg"/>
+               </figure>
+            </char>
+            <char xml:id="qthird">
+               <localProp value="QIRMA FRACTION 1/3" name="name"/>
+               <unicodeProp value="1/3" name="Numeric_Value"/>
+               <figure>
+                  <graphic url="../../docs/images/qthird.svg"/>
+               </figure>
+            </char>
+            <char xml:id="qfourth">
+               <localProp value="QIRMA FRACTION 1/4" name="name"/>
+               <unicodeProp value="1/4" name="Numeric_Value"/>
+               <figure>
+                  <graphic url="../../docs/images/qfourth.svg"/>
+               </figure>
+            </char>
+            <char xml:id="qsixth">
+               <localProp value="QIRMA FRACTION 1/6" name="name"/>
+               <unicodeProp value="1/6" name="Numeric_Value"/>
+               <figure>
+                  <graphic url="../../docs/images/qsixth.svg"/>
+               </figure>
+            </char>
+            <char xml:id="qeighth">
+               <localProp value="QIRMA FRACTION 1/8" name="name"/>
+               <unicodeProp value="1/8" name="Numeric_Value"/>
+               <mapping type="similar">𐋤</mapping>
+               <figure>
+                  <graphic url="../../docs/images/qeighth.svg"/>
+               </figure>
+            </char>
+            <char xml:id="qtwothirds">
+               <localProp value="QIRMA FRACTION 2/3" name="name"/>
+               <unicodeProp value="2/3" name="Numeric_Value"/>
+               <figure>
+                  <graphic url="../../docs/images/qtwothirds.svg"/>
+               </figure>
+            </char>
+         </charDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+            <language ident="ota">Ottoman</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change/>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="ar">
+      <body>
+         <div>
+            <head>عدد ١٣٣، ٢٨ نوفمبر ١٩٠٦، ١٢ شوال ١٣٢٤، ص ٢٣١٣</head>
+            <head>اعلان من محافظة مصر</head>
+            <p>عن بيع عقار نظير نفقة بناقص الخمس</p>
+            <p>بجلسة البيوع يوم ١٥ ديسمبر ١٩٠٦ سيطرح للمبيع حصة قيراط السابق الإعلان عنها ، تعلق المدعو فرج يوسف العراقه الصايغ نظير النفقة المحكوم بها عليه شرعا المتاخر عن سدادها الى انيسة بنت بطرس ... وان افتتاح اول عطاء سيكون بمبلغ ١٠ جنيهات عن الحصة المذكورة الشائعة في دكان بسكة الصاغة بقسم الجمالية  </p>
+            <p>::::::::::::::::::::::::::::::::::::</p>
+         </div>
+         <div>
+            <head>عدد ١٤١، ١٩ ديسمبر ١٩٠٦، ٣ ذي القعدة ١٣٢٤، ص ٢٤٥٥</head>
+            <head>محافظة مصر</head>
+            <p>ليكن معلوما لدى العموم انه بجلسة قومسيون بيع أملاك واراضي الميري بالمحروسة المزمع انعقادها بديوان محافظة مصر ١٤ يناير ١٩٠٧ سيصير اشهار مزاد بيع قطع أراضي الميري الموضحه بعد الكائنة بمدينة المحروسة بجهة اورمان العباسية المعروفة من نمرة ١ لنمرة ٨ بالرسم المعتمد من نظارة الاشغال نمرة ١٢١١ المبين مسطح كل قطعة وثمنها الأساسي بعد ومبين أيضا بالرسم الموجود صورته بديوان محافظة مصر ....</p>
+            <table>
+               <row>
+                  <cell>مقاسات</cell>
+                  <cell>الثمن عن كل متر</cell>
+                  <cell>التامين اللازم دفعه</cell>
+                  <cell>نمرة الرسم</cell>
+                  <cell>نمرة القطعة بالجدول</cell>
+               </row>
+               <row>
+                  <cell>س</cell>
+                  <cell>متر</cell>
+                  <cell>مليم</cell>
+                  <cell>جنيه</cell>
+                  <cell>مليم</cell>
+                  <cell>جنيه</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>١٧٣٠</cell>
+                  <cell>٧٥٠</cell>
+                  <cell>١</cell>
+                  <cell>٥٠٠</cell>
+                  <cell>٦٠٥</cell>
+                  <cell>١</cell>
+                  <cell>٥٥٥</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>١٤٥٥</cell>
+                  <cell>٥٠٠</cell>
+                  <cell>١</cell>
+                  <cell>٥٠٠</cell>
+                  <cell>٤٣٦</cell>
+                  <cell>٢</cell>
+                  <cell>٥٥٦</cell>
+               </row>
+               <row>
+                  <cell>٥٠</cell>
+                  <cell>١٦٧١</cell>
+                  <cell>٥٠٠</cell>
+                  <cell>١</cell>
+                  <cell>٤٥٠</cell>
+                  <cell>٤٧١</cell>
+                  <cell>٣</cell>
+                  <cell>٥٥٧</cell>
+               </row>
+               <row>
+                  <cell>٥٠</cell>
+                  <cell>١٣٣٥</cell>
+                  <cell>٥٠٠</cell>
+                  <cell>١</cell>
+                  <cell>٦٥٠</cell>
+                  <cell>٤٠٠</cell>
+                  <cell>٤</cell>
+                  <cell>٥٥٨</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٧٧٤</cell>
+                  <cell>٥٠٠</cell>
+                  <cell>١</cell>
+                  <cell>٢٠٠</cell>
+                  <cell>٢٣٢</cell>
+                  <cell>٥</cell>
+                  <cell>٥٥٩</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>١١٢١</cell>
+                  <cell>٧٥٠</cell>
+                  <cell>١</cell>
+                  <cell>٣٥٠</cell>
+                  <cell>٣٩٢</cell>
+                  <cell>٦</cell>
+                  <cell>٥٦٠</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٨٩٠</cell>
+                  <cell>٥٠٠</cell>
+                  <cell>١</cell>
+                  <cell>٠٠</cell>
+                  <cell>٢٦٧</cell>
+                  <cell>٧</cell>
+                  <cell>٥٦١</cell>
+               </row>
+               <row>
+                  <cell>٠٠</cell>
+                  <cell>٨٩٠</cell>
+                  <cell>٥٠٠</cell>
+                  <cell>١</cell>
+                  <cell>٠٠</cell>
+                  <cell>٢٦٧</cell>
+                  <cell>٨</cell>
+                  <cell>٥٦٢</cell>
+               </row>
+            </table>
+            <p>:::::::::::::::::::</p>
+         </div>
+         <div>
+            <head>عدد ١٤١، ١٩ ديسمبر ١٩٠٦، ٣ ذي القعدة ١٣٢٤، ص ٢٤٥٥</head>
+            <head>محافظة مصر</head>
+            <p>ليكن معلوما لدى العموم انه بجلسة قومسيون بيع أملاك واراضي الميري بالمحروسة المزمع انعقادها بديوان محافظة مصر ١٥ يناير ١٩٠٧ سيصير اشهار مزاد بيع قطعة ارض ميرى كائنة بجهة ابوالسعود بمصر القديمة المجاورة لملك شركة المواد البرازية مقدار مسطحها ٦٦٠٧ متر و٢٠ سنتيا حسب المبين بالرسم المحرر عنها ومعروفة به بحروف (A E C) واعتبار اول عطاء الثمن الأساسي سعر كل متر ٢٠٠ مليم </p>
+            <table>
+               <row>
+                  <cell>مقاسات</cell>
+                  <cell>الثمن عن كل متر</cell>
+                  <cell>التامين اللازم دفعه</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>س</cell>
+                  <cell>متر</cell>
+                  <cell>مليم</cell>
+                  <cell>جنيه</cell>
+                  <cell>مليم</cell>
+                  <cell>جنيه</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٢٠</cell>
+                  <cell>٦٦٠٧</cell>
+                  <cell>٢٠٠</cell>
+                  <cell>٠</cell>
+                  <cell>٢٨٨</cell>
+                  <cell>٢٦٤</cell>
+                  <cell>قطعة معروفة بالرسم بحروف (A E C)</cell>
+               </row>
+            </table>
+            <p>::::::::::::::::::</p>
+         </div>
+         <div>
+            <head>عدد ١٤١، ١٩ ديسمبر ١٩٠٦، ٣ ذي القعدة ١٣٢٤، ص ٢٤٥٥</head>
+            <head>محافظة مصر</head>
+            <p>ليكن معلوما لدى العموم انه بجلسة قومسيون بيع أملاك واراضي الميري بالمحروسة المزمع انعقادها بديوان محافظة مصر ١٥ يناير ١٩٠٧ سيصير اشهار مزاد بيع منزل ارضا وبناء مستجد حق الحكومة كائن بالعباسية بالجهة الشرقية لشارع العباسية العمومي بقسم الوايلي مخلف عن المرحومة الست حنيفة هانم بنت المرحوم على كاشف بشناق المتوفية عن الحكومة ومقدار مسطحها ٧٩١ متر و٨٢ سنتيا </p>
+            <table>
+               <row>
+                  <cell>مقاسات</cell>
+                  <cell>الثمن الاساسي</cell>
+                  <cell>التامين اللازم دفعه</cell>
+               </row>
+               <row>
+                  <cell>س</cell>
+                  <cell>متر</cell>
+                  <cell>مليم</cell>
+                  <cell>جنيه</cell>
+                  <cell>مليم</cell>
+                  <cell>جنيه</cell>
+               </row>
+               <row>
+                  <cell>٨٢</cell>
+                  <cell>٧٩١</cell>
+                  <cell>٠٠</cell>
+                  <cell>٢٨٠٠</cell>
+                  <cell>٠٠</cell>
+                  <cell>٥٦٠</cell>
+               </row>
+            </table>
+            <p>:::::::::::::::::::</p>
+         </div>
+         <div>
+            <head>عدد ١٤٦، ٢٩ ديسمبر ١٩٠٦، ١٣ ذي القعدة ١٣٢٤، ص ٢٥٥٤</head>
+            <p>ليكن معلوما لدى العموم انه بجلسة قومسيون بيع أملاك واراضي الميري بالمحروسة المزمع انعقادها بديوان محافظة مصر ٢٢ يناير ١٩٠٧ سيصير اشهار مزاد بيع حصة قدرها ١٤ قيراطا ملك قلم كتاب محكمة مصر الابتدائية الاهلية في منزل كائن بشارع الزرايب بقسم الخليفة مقدار مسطحه ٨٢ مترا و٩٣ سنتيا واعتبار الثمن الأساسي عن الحصة المذكورة مبلغ ٤٠ جنيها و٨٣٤ مليم من واقع ثمن المنزل جميعه ٧٠ جنيها مصريا ...</p>
+            <list rend="bulleted">
+               <item>
+                  <hi style="font-size:16ptdirection:rtl;">ليكن معلوما لدى العموم انه بجلسة قومسيون بيع أملاك واراضي الميري ستشهر مزاد لبيع عقارات الموضحه بعد..</hi>
+               </item>
+               <item>
+                  <hi style="font-size:16ptdirection:rtl;">خربة كائنة بدرب غزية بقسم الخليفة من الأموال الضايعه حق الحكومة مقاسها ٢٣٠ متر و٥ سنتيات وثمنها الأساسي ١٨٤ جنيه و٤٠ مليما والتامين اللازم دفعه ٣٦ جنيها و٨٠٨ مليم</hi>
+               </item>
+               <item>
+                  <hi style="font-size:16ptdirection:rtl;" xml:space="preserve">حصة ١٨ قيراط في منزل كائن بالحطابة بدرب السهريج بقسم الخليفة مقاسها ٢٤ مترا و٢٧ سنتيا وثمنها الأساسي ٥٢ مترا جنيها و٥٠٠ مليم والتامين اللازم دفعه ١٠ جنيهات و٥٠٠ مليم ومسطح ارض المنزل المذكور ٦٣ مترا و٣٢ سنتيا والحصة المذكورة ايجارها شهريا ٢٦٣ مليم </hi>
+               </item>
+               <item>
+                  <hi style="font-size:16ptdirection:rtl;" xml:space="preserve">حصة ١٢ قيراط في بناء منزل محتكر كائن بحارة الباحوه بسوق السلاح بقسم الدرب مقاسها ٩ امتار و٤٣ سنتيا وثمنها ٢ جنيه و٨٢٩ مليم والتامين اللازم دفعه ٥٧٠ مليم ومقدار مسطحه ١٨ مترا و٨٥ سنتيا </hi>
+               </item>
+               <item>
+                  <hi style="font-size:16ptdirection:rtl;">منزل كائن بدرب البجامون بقسم عابدين يعض ارضه ملك الحكومة وبعضها تبع وكالة وقف والبعض ورثة الحاج غنيم سالم وللحكومة حق الركوب بالدور العلوى ومقاسه ٥٥ مترا و٤٧٥ سنتيا وثمنه الأساسي ١٢٠ جنيها والتامين اللاوم دفعه ٣٤ جنيها</hi>
+               </item>
+            </list>
+         </div>
+         <div>
+            <head>عدد ١٤، ٦ فبراير ١٩٠٧، ٢٣ ذي الحجة ١٣٢٤، ص٢٥٦</head>
+            <p>محافظة مصر </p>
+            <p>ليكن معلوما لدى العموم بانه قد تم انشاء سوق بجوار سلخانة مصر لمبيع الأغنام</p>
+            <p> والماعز لمدينة المحروسة وضواحيها وسيصير افتتاح هذا السوق اعتبارا من ١٥ فبراير ١٩٠٧ </p>
+            <p>وتكون مصاريف إقامة الحيوانات بالسوق المنوه عنه بواقع مليمين في اليوم عن كل راس غنم او ماعز وبعد مضي ٢٤ ساعه يتحصل نصف هذه القيمة فقط ، اما غذاء وصيانة وحراسة الحيوانات مدى اقامتها بالسوق فتكون على طرف أصحابها دون سواهم.</p>
+            <p>::::::::::::::::::::::</p>
+         </div>
+      </body>
+   </text>
+</TEI>
