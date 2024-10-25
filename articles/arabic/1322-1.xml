@@ -1261,93 +1261,125 @@
                      <p>٦٥- <placeName ref="حارة-خرابة-منصور" type="حارة">حارة <placeName ref="خرابة-منصور" type="خرابة">خرابة منصور</placeName></placeName></p>
                   </cell>
                   <cell>
-                     <p>٦٦- عطفة خرابة منصور</p>
-                     <p>٦٧- حارة العسل</p>
-                     <p>٦٨- حارة الأربعين</p>
-                     <p>٦٩- شارع الالفي الجزء البحرى منه</p>
-                     <p>٧٠- عمارة سبيل والدة عباس باشا</p>
-                     <p>٧١- عطفة العيش</p>
-                     <p>٧٢- عطفة برتو بك</p>
-                     <p>٧٣- عطفة لطفي افندى</p>
-                     <p>٧٤- درب البزابيز</p>
-                     <p>٧٥- عطفة كوهيه</p>
-                     <p>٧٦- عطفة المرعاوى</p>
-                     <p>٧٧- عطفة يارم اغا</p>
-                     <p>٧٨- عطفة قنبور</p>
-                     <p>٧٩- درب صبيح</p>
-                     <p>٨٠ – حارة الجباسة</p>
-                     <p>٨١- عطفة رشوان بك</p>
-                     <p>٨٢- حارة أبو داود</p>
-                     <p>٨٣- درب الزنيني</p>
-                     <p>٨٤- عطفة العيادية</p>
-                     <p>٨٥- عطفة السطايبه</p>
-                     <p>٨٦- عطفة قنارس</p>
-                     <p>٨٧- عطفة الرماح</p>
-                     <p>٨٨- شارع البقلي</p>
-                     <p>٨٩- عطفة الحلوة</p>
-                     <p>٩٠ – درب البير</p>
-                     <p>٩١- درب الشهيدي</p>
-                     <p>٩٢- عطفة ابوسته</p>
-                     <p>٩٣- عطفة البقلي</p>
-                     <p>٩٤- حارة التاسة</p>
-                     <p>٩٥- زقاق الشراقوة</p>
-                     <p>٩٦- عطفة الدقاقين</p>
-                     <p>٩٧- عطفة أبو إسماعيل</p>
-                     <p>٩٨- درب غزيه</p>
-                     <p>٩٩- عطفة الجنزيرلي</p>
-                     <p>١٠٠- عطفة ملوخيه</p>
-                     <p>١٠١- عطفة سيدى بهادر</p>
-                     <p>١٠٢- عطفة الشيخ محمد</p>
-                     <p>١٠٣- زقاق أبو داود</p>
-                     <p>١٠٤- حارة السرجه</p>
-                     <p>١٠٥- زقاق الصبان</p>
-                     <p>١٠٦- شارع القبر الطويل</p>
-                     <p>١٠٧- عطفة الغباشي</p>
-                     <p>١٠٨- عطفة الحسانيه</p>
-                     <p>١٠٩- شارع السيدة سكينة</p>
-                     <p>١١٠- عطفة حوش السيدة</p>
-                     <p>١١١- درب الاكرات</p>
-                     <p>١١٢- عطفة الكرداوى</p>
-                     <p>١١٣- عطفة احمد جلبي</p>
-                     <p>١١٤- الدرب المسدود</p>
-                     <p>١١٥- درب الدشطو</p>
-                     <p>١١٦- عطفة النصارى</p>
-                     <p>١١٧- عطفة الشنتوري</p>
-                     <p>١١٨- عطفة مكي</p>
-                     <p>١١٩- حارة العبيد</p>
-                     <p>١٢٠- عطفة العبيد</p>
-                     <p>١٢١- حارة الصايغ</p>
-                     <p>١٢٢- حارة البير</p>
-                     <p>١٢٣- عطفة نفنفه</p>
-                     <p>١٢٤- عطفة حوش البارود</p>
-                     <p>١٢٥- عطفة البلدية</p>
-                     <p>١٢٦- درب الحلواني</p>
-                     <p>١٢٧- عطفة السيده نفيسه</p>
-                     <p>١٢٨- شارع الترب</p>
-                     <p>١٢٩- عطفة خوخة دياب</p>
+                     <p>٦٦- <placeName ref="عطفة-خرابة-منصور" type="عطفة">عطفة خرابة
+                           منصور</placeName></p>
+                     <p>٦٧- <placeName ref="حارة-العسل" type="حارة">حارة العسل</placeName></p>
+                     <p>٦٨- <placeName ref="حارة-الأربعين" type="حارة">حارة الأربعين</placeName></p>
+                     <p>٦٩- <placeName ref="شارع-الالفي" type="شارع">شارع الالفي</placeName> الجزء
+                        البحرى منه</p>
+                     <p>٧٠- <placeName ref="عمارة-سبيل-والدة-عباس-باشا" type="عمارة">عمارة سبيل
+                              <persName>والدة <persName>عباس
+                        باشا</persName></persName></placeName></p>
+                     <p>٧١- <placeName ref="عطفة-العيش" type="عطفة">عطفة العيش</placeName></p>
+                     <p>٧٢- <placeName ref="عطفة-برتو-بك" type="عطفة">عطفة <persName>برتو
+                              بك</persName></placeName></p>
+                     <p>٧٣- <placeName ref="عطفة-لطفي-افندى" type="عطفة">عطفة لطفي
+                        افندى</placeName></p>
+                     <p>٧٤- <placeName ref="درب-البزابيز" type="درب">درب البزابيز</placeName></p>
+                     <p>٧٥- <placeName ref="عطفة-كوهيه" type="عطفة">عطفة كوهيه</placeName></p>
+                     <p>٧٦- <placeName ref="عطفة-المرعاوى" type="عطفة">عطفة المرعاوى</placeName></p>
+                     <p>٧٧- <placeName ref="عطفة-يارم-اغا" type="عطفة">عطفة <persName>يارم
+                              اغا</persName></placeName></p>
+                     <p>٧٨- <placeName ref="عطفة-قنبور" type="عطفة">عطفة قنبور</placeName></p>
+                     <p>٧٩- <placeName ref="درب-صبيح" type="درب">درب صبيح</placeName></p>
+                     <p>٨٠ – <placeName ref="حارة-الجباسة" type="حارة">حارة الجباسة</placeName></p>
+                     <p>٨١- <placeName ref="عطفة-رشوان-بك" type="عطفة">عطفة <persName>رشوان
+                              بك</persName></placeName></p>
+                     <p>٨٢- <placeName ref="حارة-أبو-داود" type="حارة">حارة أبو داود</placeName></p>
+                     <p>٨٣- <placeName ref="درب-الزنيني" type="درب">درب الزنيني</placeName></p>
+                     <p>٨٤- <placeName ref="عطفة-العيادية" type="عطفة">عطفة العيادية</placeName></p>
+                     <p>٨٥- <placeName ref="عطفة-السطايبه" type="عطفة">عطفة السطايبه</placeName></p>
+                     <p>٨٦- <placeName ref="عطفة-قنارس" type="عطفة">عطفة قنارس</placeName></p>
+                     <p>٨٧- <placeName ref="عطفة-الرماح" type="عطفة">عطفة الرماح</placeName></p>
+                     <p>٨٨- <placeName ref="شارع-البقلي" type="شارع">شارع البقلي</placeName></p>
+                     <p>٨٩- <placeName ref="عطفة-الحلوة" type="عطفة">عطفة الحلوة</placeName></p>
+                     <p>٩٠ – <placeName ref="درب-البير" type="درب">درب البير</placeName></p>
+                     <p>٩١- <placeName ref="درب-الشهيدي" type="درب">درب الشهيدي</placeName></p>
+                     <p>٩٢- <placeName ref="عطفة-ابوسته" type="عطفة">عطفة ابوسته</placeName></p>
+                     <p>٩٣- <placeName ref="عطفة-البقلي" type="عطفة">عطفة البقلي</placeName></p>
+                     <p>٩٤- <placeName ref="حارة-التاسة" type="حارة">حارة التاسة</placeName></p>
+                     <p>٩٥- <placeName ref="زقاق-الشراقوة" type="زقاق">زقاق الشراقوة</placeName></p>
+                     <p>٩٦- <placeName ref="عطفة-الدقاقين" type="عطفة">عطفة الدقاقين</placeName></p>
+                     <p>٩٧- <placeName ref="عطفة-أبو-إسماعيل" type="عطفة">عطفة أبو
+                           إسماعيل</placeName></p>
+                     <p>٩٨- <placeName ref="درب-غزيه" type="درب">درب غزيه</placeName></p>
+                     <p>٩٩- <placeName ref="عطفة-الجنزيرلي" type="عطفة">عطفة
+                        الجنزيرلي</placeName></p>
+                     <p>١٠٠- <placeName ref="عطفة-ملوخيه" type="عطفة">عطفة ملوخيه</placeName></p>
+                     <p>١٠١- <placeName ref="عطفة-سيدى-بهادر" type="عطفة">عطفة سيدى
+                           بهادر</placeName></p>
+                     <p>١٠٢- <placeName ref="عطفة-الشيخ-محمد" type="عطفة">عطفة الشيخ
+                           محمد</placeName></p>
+                     <p>١٠٣- <placeName ref="زقاق-أبو-داود" type="زقاق">زقاق أبو
+                        داود</placeName></p>
+                     <p>١٠٤- <placeName ref="حارة-السرجه" type="حارة">حارة السرجه</placeName></p>
+                     <p>١٠٥- <placeName ref="زقاق-الصبان" type="زقاق">زقاق الصبان</placeName></p>
+                     <p>١٠٦- <placeName ref="شارع-القبر-الطويل" type="زقاق">شارع القبر
+                           الطويل</placeName></p>
+                     <p>١٠٧- <placeName ref="عطفة-الغباشي" type="عطفة">عطفة الغباشي</placeName></p>
+                     <p>١٠٨- <placeName ref="عطفة-الحسانيه" type="عطفة">عطفة
+                        الحسانيه</placeName></p>
+                     <p>١٠٩- <placeName ref="شارع-السيدة-سكينة" type="شارع">شارع <persName>السيدة
+                              سكينة</persName></placeName></p>
+                     <p>١١٠- <placeName ref="عطفة-حوش-السيدة" type="عطفة">عطفة <placeName
+                              ref="حوش-السيدة" type="حوش">حوش السيدة</placeName></placeName></p>
+                     <p>١١١- <placeName ref="درب-الاكرات" type="درب">درب الاكرات</placeName></p>
+                     <p>١١٢- <placeName ref="عطفة-الكرداوى" type="عطفة">عطفة
+                        الكرداوى</placeName></p>
+                     <p>١١٣- <placeName ref="عطفة-احمد-جلبي" type="عطفة">عطفة احمد
+                        جلبي</placeName></p>
+                     <p>١١٤- <placeName ref="الدرب-المسدود" type="درب">الدرب المسدود</placeName></p>
+                     <p>١١٥- <placeName ref="درب-الدشطو" type="درب">درب الدشطو</placeName></p>
+                     <p>١١٦- <placeName ref="عطفة-النصارى" type="عطفة">عطفة النصارى</placeName></p>
+                     <p>١١٧- <placeName ref="عطفة-الشنتوري" type="عطفة">عطفة
+                        الشنتوري</placeName></p>
+                     <p>١١٨- <placeName ref="عطفة-مكي" type="عطفة">عطفة مكي</placeName></p>
+                     <p>١١٩- <placeName ref="حارة-العبيد" type="حارة">حارة العبيد</placeName></p>
+                     <p>١٢٠- <placeName ref="عطفة-العبيد" type="عطفة">عطفة العبيد</placeName></p>
+                     <p>١٢١- <placeName ref="حارة-الصايغ" type="حارة">حارة الصايغ</placeName></p>
+                     <p>١٢٢- <placeName ref="حارة-البير" type="حارة">حارة البير</placeName></p>
+                     <p>١٢٣- <placeName ref="عطفة-نفنفه" type="عطفة">عطفة نفنفه</placeName></p>
+                     <p>١٢٤- <placeName ref="عطفة-حوش-البارود" type="عطفة">عطفة <placeName
+                              ref="حوش-البارود" type="حوش">حوش البارود</placeName></placeName></p>
+                     <p>١٢٥- <placeName ref="عطفة-البلدية" type="عطفة">عطفة البلدية</placeName></p>
+                     <p>١٢٦- <placeName ref="درب-الحلواني" type="درب">درب الحلواني</placeName></p>
+                     <p>١٢٧- <placeName ref="عطفة-السيده-نفيسه" type="عطفة">عطفة <persName>السيده
+                              نفيسه</persName></placeName></p>
+                     <p>١٢٨- <placeName ref="شارع-الترب" type="شارع">شارع الترب</placeName></p>
+                     <p>١٢٩- <placeName ref="عطفة-خوخة-دياب" type="عطفة">عطفة <placeName
+                              ref="خوخة-دياب" type="خوخة">خوخة دياب</placeName></placeName></p>
                   </cell>
                   <cell>
-                     <p>١٣٠- عطفة الجزارين</p>
-                     <p>١٣١- شارع الأشرف</p>
-                     <p>١٣٢- درب راجح</p>
-                     <p>١٣٣- عطفة ابوكيله</p>
-                     <p>١٣٤- عطفة المسيري</p>
-                     <p>١٣٥- درب الكحالة</p>
-                     <p>١٣٦- حارة الالفي</p>
-                     <p>١٣٧- حارة بنت المعمار</p>
-                     <p>١٣٨- عطفة العمارة الصغيره</p>
-                     <p>١٣٩- سكة الالفي</p>
-                     <p>١٤٠ – حارة نور الظلام</p>
-                     <p>١٤١- عطفة المطبعة</p>
-                     <p>١٤٢- حارة النظارة</p>
-                     <p>١٤٣- عطفة الغسال</p>
-                     <p>١٤٤- عطفة الحسن علي</p>
-                     <p>١٤٥- عطفة المكارسه</p>
-                     <p>١٤٦- حارة الماس</p>
-                     <p>١٤٧- سكة عمارة الشماشرجي</p>
-                     <p>١٤٨- عمارة جلبي</p>
-                     <p>١٤٩- درب الخدام</p>
-                     <p>١٥٠- عمارة الرفاعي العليا</p>
+                     <p>١٣٠- <placeName ref="عطفة-الجزارين" type="عطفة">عطفة
+                        الجزارين</placeName></p>
+                     <p>١٣١- <placeName ref="شارع-الأشرف" type="شارع">شارع الأشرف</placeName></p>
+                     <p>١٣٢- <placeName ref="درب-راجح" type="درب">درب راجح</placeName></p>
+                     <p>١٣٣- <placeName ref="عطفة-ابوكيله" type="عطفة">عطفة ابوكيله</placeName></p>
+                     <p>١٣٤- <placeName ref="عطفة-المسيري" type="عطفة">عطفة المسيري</placeName></p>
+                     <p>١٣٥- <placeName ref="درب-الكحالة" type="درب">درب الكحالة</placeName></p>
+                     <p>١٣٦- <placeName ref="حارة-الالفي" type="حارة">حارة الالفي</placeName></p>
+                     <p>١٣٧- <placeName ref="حارة-بنت-المعمار" type="حارة">حارة بنت
+                           المعمار</placeName></p>
+                     <p>١٣٨- <placeName ref="عطفة-العمارة-الصغيره" type="عطفة">عطفة العمارة
+                           الصغيره</placeName></p>
+                     <p>١٣٩- <placeName ref="سكة-الالفي" type="سكة">سكة الالفي</placeName></p>
+                     <p>١٤٠ – <placeName ref="حارة-نور-الظلام" type="حارة">حارة نور
+                           الظلام</placeName></p>
+                     <p>١٤١- <placeName ref="عطفة-المطبعة" type="عطفة">عطفة المطبعة</placeName></p>
+                     <p>١٤٢- <placeName ref="حارة-النظارة" type="حارة">حارة النظارة</placeName></p>
+                     <p>١٤٣- <placeName ref="عطفة-الغسال" type="عطفة">عطفة الغسال</placeName></p>
+                     <p>١٤٤- <placeName ref="عطفة-الحسن-علي" type="عطفة">عطفة الحسن
+                        علي</placeName></p>
+                     <p>١٤٥- <placeName ref="عطفة-المكارسه" type="عطفة">عطفة
+                        المكارسه</placeName></p>
+                     <p>١٤٦- <placeName ref="حارة-الماس" type="حارة">حارة الماس</placeName></p>
+                     <p>١٤٧- <placeName ref="سكة-عمارة-الشماشرجي" type="سكة">سكة <placeName
+                              ref="عمارة-الشماشرجي" type="عمارة">عمارة
+                           الشماشرجي</placeName></placeName></p>
+                     <p>١٤٨- <placeName ref="عمارة-جلبي" type="عمارة">عمارة جلبي</placeName></p>
+                     <p>١٤٩- <placeName ref="درب-الخدام" type="درب">درب الخدام</placeName></p>
+                     <p>١٥٠- <placeName ref="عمارة-الرفاعي-العليا" type="عمارة">عمارة الرفاعي
+                           العليا</placeName></p>
                      <p>١٥١- حارة درب اللبان</p>
                      <p>١٥٢- عطفة اللبان</p>
                      <p>١٥٣- عطفة سيدى جوهر</p>
