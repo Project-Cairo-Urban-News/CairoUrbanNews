@@ -728,8 +728,10 @@
             <p>_________</p>
          </div>
          <div>
-            <head>عدد ١٠٣، ١٣ سبتمبر ١٨٩٩، ٧ جمادى الأولى ١٣١٧، ص ١٥٤٥</head>
-            <head>ديوان عموم الأوقاف</head>
+            <head><date when="1899-09-13">١٣ سبتمبر ١٨٩٩</date>، <date when-custom="1317-05-07">٧
+                  جمادى الأولى ١٣١٧</date>، <bibl><biblScope unit="issue">عدد ١٠٣</biblScope>،
+                     <biblScope unit="page">ص ١٥٤٥</biblScope></bibl></head>
+            <head><orgName ref="ديوان-عموم-الأوقاف" type="ديوان">ديوان عموم الأوقاف</orgName></head>
             <p>يتشرف ديوان عموم الأوقاف بإعلان الجمهور بانه سيصير اشهار مزاد استبدال الأماكن المبينة بهذا الكشف بالنقد وقد تحددت المواعيد المبينة بعد لاجتماع الراغبين بمراكز الأوقاف الموضحه فمن يرغب في اخذ شي من هذه الأماكن يتوجه الى مركز الازقاف الموضح بازائه للاطلاع على شروط قوائم المزاد ومايريده من البيانات </p>
             <table>
                <row>
@@ -740,55 +742,64 @@
                </row>
                <row>
                   <cell>حصة قدرها ٣ قراريط و١٦ سهما وكسور في بناء وكالة ودكاكين وربعين ومنزل</cell>
-                  <cell>الجمالية بمصر</cell>
+                  <cell><placeName ref="الجمالية">الجمالية</placeName> بمصر</cell>
                   <cell>١٤٤٧.٦٣</cell>
                   <cell>اول أكتوبر ١٨٩٩</cell>
                </row>
                <row>
                   <cell>خربه اصلها منزلان</cell>
-                  <cell>حارة قاضي البهار بمصر</cell>
+                  <cell><placeName ref="حارة قاضي البهار" type="حارة">حارة قاضي البهار</placeName>
+                     بمصر</cell>
                   <cell>١٦٥.١٤</cell>
                   <cell>اول أكتوبر ١٨٩٩</cell>
                </row>
                <row>
                   <cell>منزلان</cell>
-                  <cell>احدهما بدرب القزازين وثانيهما بدرب الفرن مختلطين ببعضهما</cell>
+                  <cell>احدهما ب<placeName ref="درب القزازين" type="درب">درب القزازين</placeName>
+                     وثانيهما ب<placeName ref="درب الفرن" type="درب">درب الفرن</placeName> مختلطين
+                     ببعضهما</cell>
                   <cell>١٠٧</cell>
                   <cell>٤ أكتوبر ١٨٩٩</cell>
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>حارة القطايفه بقلعة الكبش بثمن السيدة زينب</cell>
+                  <cell><placeName ref="حارة القطايفه" type="حارة">حارة القطايفه</placeName>
+                        ب<placeName ref="قلعة الكبش" type="قلعة">قلعة الكبش</placeName> بثمن
+                        <placeName ref="السيدة زينب">السيدة زينب</placeName></cell>
                   <cell>٤٨.٨١</cell>
                   <cell>٤ أكتوبر ١٨٩٩</cell>
                </row>
                <row>
                   <cell>منزل ودكان اسفله</cell>
-                  <cell>حارة الصائغ بالدرب المسدود</cell>
+                  <cell><placeName ref="حارة الصائغ" type="حارة">حارة الصائغ</placeName>
+                        بال<placeName ref="درب المسدود" type="درب">درب المسدود</placeName></cell>
                   <cell>٦٨.٢٥</cell>
                   <cell>٤ أكتوبر ١٨٩٩</cell>
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>حارة عبدالله بك بشارع السروجيه</cell>
+                  <cell><placeName ref="حارة عبدالله بك" type="حارة">حارة عبدالله بك</placeName>
+                        ب<placeName ref="شارع السروجيه" type="شارع">شارع السروجيه</placeName></cell>
                   <cell>٦٣.٧٧</cell>
                   <cell>٤ أكتوبر ١٨٩٩</cell>
                </row>
                <row>
                   <cell>نصف منزل</cell>
-                  <cell>عطفة حمام الجبيلي بالكعكيين</cell>
+                  <cell><placeName ref="عطفة حمام الجبيلي" type="عطفة">عطفة حمام الجبيلي</placeName>
+                        ب<placeName ref="الكعكيين">الكعكيين</placeName></cell>
                   <cell>١٤٢.٦٦</cell>
                   <cell>اول أكتوبر ١٨٩٩</cell>
                </row>
                <row>
                   <cell>خربة اصلها منزل</cell>
-                  <cell>حارة الدراسة</cell>
+                  <cell><placeName ref="حارة الدراسة" type="حارة">حارة الدراسة</placeName></cell>
                   <cell>٢٤.٤٩</cell>
                   <cell>اول أكتوبر ١٨٩٩</cell>
                </row>
                <row>
                   <cell>حربة اصلها ربع و٧ منازل و٥ حواصل</cell>
-                  <cell>حارة المسطاحى بباب الشعرية</cell>
+                  <cell><placeName ref="حارة المسطاحى" type="حارة">حارة المسطاحى</placeName>
+                        ب<placeName ref="باب الشعرية">باب الشعرية</placeName></cell>
                   <cell>٣٢١.٧٧</cell>
                   <cell>اول أكتوبر ١٨٩٩</cell>
                </row>
@@ -796,8 +807,10 @@
          </div>
          <div>
             <head>_________</head>
-            <head>عدد ١١٢، ٤ أكتوبر ١٨٩٩، ٢٨ جمادى الأولى ١٣١٧، ص ١٦٦٨</head>
-            <head>نظارة المالية</head>
+            <head><date when="1899-10-04">٤ أكتوبر ١٨٩٩</date>، <date when-custom="1317-05-28">٢٨
+                  جمادى الأولى ١٣١٧</date>،<bibl><biblScope unit="issue">عدد ١١٢</biblScope>،
+                     <biblScope unit="page">ص ١٦٦٨</biblScope></bibl></head>
+            <head><orgName ref="نظارة-المالية" type="نظارة">نظارة المالية</orgName></head>
             <p>ديوان محافظة مصر</p>
             <p>ليكن معلوما لدى العموم انه بجلسة قومسيون بيع أملاك واراضى الميري المزمع انعقادها بديوان محافظة مصلا في يوم الثلاثاء ١٧ أكتوبر ١٨٩٩ الساعه ١٠ افرنكى صباحا لغاية الساعه ١٢ الظهر سيصير إعادة اشهار مزاد بيع العقارات المبينة بهذا من السابق النشر عنه وتحدد عنه جلسات في ١٢ و١٨ سبتمبر ١٨٩٩ واعتبار اول عطا فيها الثمن الأساسي الموضح بعد فيقتضي ان كل من له رغبة في مشترى ذلك يحضر هو لو وكيل عنه لديوان المحافظة في الميعاد المذكور للمزايدة امام القومسيون ويدفع تامين المائة ٢٠ على الثمن الأساسي وبعد المعاينة يصير قفل جلسة المزاد ومن يتاخر يعتبر تاخيره كف يد والمشترى ملزوم بقبوله كامل كامل الاحكام المدونة بلائحة بيع أملاك الميري الحرة الرقيمة ٢٢ نوفمبر ١٨٨٦ والاوامر والمنشورات الصادرة بعدها والمشترى مخير في قبول قونتراتو التاجير من عدمه وللمالية الحق في قبول أو رفض اعلى عطاء يرسي به المزاد وفى حالة رفض اعلى طلب لا يكون لصاحبه حق في شي ما سوى رد التامين المدفوع منه اليه وعلى هذا لزم الإعلان لمعلومية العموم </p>
             <table>
@@ -809,30 +822,49 @@
                <row>
                   <cell>٦.٢١</cell>
                   <cell>٢٨١</cell>
-                  <cell>حصة ٦ قراريط من منزل بدرب البير بقسم بولاق مضبوطه عن الحرمه زينب بنت منصور السيسي المتوفية عن ورثة غياب وثمنها الأساسي ٤ جنيهات</cell>
+                  <cell>حصة ٦ قراريط من منزل ب<placeName ref="درب البير" type="درب">درب
+                        البير</placeName> ب<placeName ref="قسم بولاق" type="قسم">قسم
+                        بولاق</placeName> مضبوطه عن <persName>الحرمه زينب بنت منصور
+                        السيسي</persName> المتوفية عن ورثة غياب وثمنها الأساسي ٤ جنيهات</cell>
                </row>
                <row>
                   <cell>٣٢.٧٨</cell>
                   <cell>٢٨٢</cell>
-                  <cell>حصة ١٢ قيراطا في منزل محتكر بدرب الميضه بقسم الخليفة مضبوطه عن زهره السودانية المتوفية عن زوجها اغا الغائب وثمنها الأساسي ٣٧ جنيها و٥٠٠ مليم</cell>
+                  <cell>حصة ١٢ قيراطا في منزل محتكر ب<placeName ref="درب الميضه" type="درب">درب
+                        الميضه</placeName> ب<placeName ref="قسم الخليفة" type="قسم">قسم
+                        الخليفة</placeName> مضبوطه عن <persName>زهره السودانية</persName> المتوفية
+                     عن زوجها اغا الغائب وثمنها الأساسي ٣٧ جنيها و٥٠٠ مليم</cell>
                </row>
                <row>
                   <cell>٤١.٧٥</cell>
                   <cell>٢٨٤</cell>
-                  <cell>خربة كائنة بدرب قشاش بقسم باب الشعرية مضبوطه عن زايد النجار الغائب وثمنها الأساسي ٢٠ جنيها و٨٧٥ مليم</cell>
+                  <cell>خربة كائنة ب<placeName ref="درب قشاش" type="درب">درب قشاش</placeName>
+                        ب<placeName ref="قسم باب الشعرية" type="قسم">قسم باب الشعرية</placeName>
+                     مضبوطه عن <persName>زايد النجار</persName> الغائب وثمنها الأساسي ٢٠ جنيها و٨٧٥
+                     مليم</cell>
                </row>
                <row>
                   <cell>١٠٤.٨٣</cell>
                   <cell>٢٨٥</cell>
-                  <cell>منزل خرب كائن بدرب مسعود بقسم بولاق مضبوطه عن عائشة معتوقة يوسف شرف المتوفية عن زوجها الغائب وثمنها الأساسي ٦٠ جنيها</cell>
+                  <cell>منزل خرب كائن ب<placeName ref="درب مسعود" type="درب">درب مسعود</placeName>
+                     بقسم بولاق مضبوطه عن <persName>عائشة معتوقة يوسف شرف</persName> المتوفية عن
+                     زوجها الغائب وثمنها الأساسي ٦٠ جنيها</cell>
                </row>
             </table>
             <p>_________</p>
          </div>
          <div>
-            <head>عدد ١١٣، ٧ أكتوبر ١٨٩٩، ٢ جمادى الثانية ١٣١٧، ص ١٦٨٤</head>
-            <head>ديوان عموم الأوقاف</head>
-            <p>يتشرف ديوان الأوقاف بإعلان الجمهور يانه سيصير اشهار مزاد استبدال الأماكن المبينة بهذا الكشف بالنقد وقد تحدد يوم الأربعاء اول نوفمبر ١٨٩٩ لاجتماع الراغبين فيه بمركز مامورية اوقاف قسم ثالث بجوار مسجد الرفاعى فمن يرغب في اخذ شيء من هذه الأماكن يتوجه الى مركز المامورية المذكورة للاطلاع على شروط قوائم المزاد وما يريده من البيانات </p>
+            <head><date when="1899-10-07">٧ أكتوبر ١٨٩٩</date>، <date when-custom="1317-06-02">٢
+                  جمادى الثانية ١٣١٧</date>، <bibl><biblScope unit="issue">عدد ١١٣</biblScope>،
+                     <biblScope unit="page">ص ١٦٨٤</biblScope></bibl></head>
+            <head><orgName ref="ديوان-عموم-الأوقاف" type="ديوان">ديوان عموم الأوقاف</orgName></head>
+            <p>يتشرف ديوان الأوقاف بإعلان الجمهور
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>يانه<?oxy_custom_end?>
+               سيصير اشهار مزاد استبدال الأماكن المبينة بهذا الكشف بالنقد وقد تحدد يوم الأربعاء اول
+               نوفمبر ١٨٩٩ لاجتماع الراغبين فيه بمركز مامورية اوقاف قسم ثالث بجوار <placeName
+                  ref="مسجد الرفاعى" type="مسجد">مسجد الرفاعى</placeName> فمن يرغب في اخذ شيء من هذه
+               الأماكن يتوجه الى مركز المامورية المذكورة للاطلاع على شروط قوائم المزاد وما يريده من
+               البيانات </p>
             <table>
                <row>
                   <cell>العقار</cell>
@@ -841,17 +873,20 @@
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>بحارة النصارى بجهة سوق السلاح</cell>
+                  <cell>ب<placeName ref="حارة النصارى" type="حارة">حارة النصارى</placeName> بجهة
+                        <placeName ref="سوق السلاح" type="سوق">سوق السلاح</placeName></cell>
                   <cell>٧٥.٧٢</cell>
                </row>
                <row>
                   <cell>دكان</cell>
-                  <cell>شارع المرحومى بمصر القديمة</cell>
+                  <cell><placeName ref="شارع المرحومى" type="شارع">شارع المرحومى</placeName> بمصر
+                     القديمة</cell>
                   <cell>٩.٨٩</cell>
                </row>
                <row>
                   <cell>قاعة</cell>
-                  <cell>حارة القرع بمصر القديمة</cell>
+                  <cell><placeName ref="حارة القرع" type="شارع">حارة القرع</placeName> بمصر
+                     القديمة</cell>
                   <cell>١٣.٤٩</cell>
                </row>
                <row>
@@ -861,12 +896,14 @@
                </row>
                <row>
                   <cell>طاحونة</cell>
-                  <cell>بدرب الطواف بدرب القرودى بمصر</cell>
+                  <cell>ب<placeName ref="درب الطواف" type="درب">درب الطواف</placeName> ب<placeName
+                        ref="درب القرودى" type="درب">درب القرودى</placeName> بمصر</cell>
                   <cell>١٦٥.٥١</cell>
                </row>
                <row>
                   <cell>منزل واسفله ثلاث دكاكين</cell>
-                  <cell>شارع الرحبة بقلعة الكبش بمصر</cell>
+                  <cell><placeName ref="شارع الرحبة" type="شارع">شارع الرحبة</placeName> ب<placeName
+                        ref="قلعة الكبش" type="قلعة">قلعة الكبش</placeName> بمصر</cell>
                   <cell>٥٩.٧٥</cell>
                </row>
                <row>
@@ -876,112 +913,137 @@
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>حارة الدالى حسين بشارع المغربلين</cell>
+                  <cell><placeName ref="حارة الدالى حسين" type="حارة">حارة الدالى حسين</placeName>
+                        ب<placeName ref="شارع المغربلين" type="شارع">شارع
+                     المغربلين</placeName></cell>
                   <cell>٧٣.٢٥</cell>
                </row>
                <row>
                   <cell>حصة ٨ قراريط على الشيوع في وكالة وقهوة ودكان وربع</cell>
-                  <cell>شارع سيدى محمد الصغير بمصر القديمة</cell>
+                  <cell><placeName ref="شارع سيدى محمد الصغير" type="شارع">شارع سيدى محمد
+                        الصغير</placeName> بمصر القديمة</cell>
                   <cell>٣٠٢.٢٢</cell>
                </row>
                <row>
                   <cell>١٢ قيراطا على الشيوع في منزل</cell>
-                  <cell>عطفة الحطابة باللبودية</cell>
+                  <cell><placeName ref="عطفة الحطابة" type="عطفة">عطفة الحطابة</placeName>
+                        ب<placeName ref="البودية">اللبودية</placeName></cell>
                   <cell>٥٣.٧٥</cell>
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>حارة حلوات بسوق السلاح</cell>
+                  <cell><placeName ref="حارة حلوات" type="حارة">حارة حلوات</placeName> بسوق
+                     السلاح</cell>
                   <cell>٨٢.٦٨</cell>
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>درب القطايعه بقلعة الكبش</cell>
+                  <cell><placeName ref="درب القطايعه" type="درب">درب القطايعه</placeName> بقلعة
+                     الكبش</cell>
                   <cell>٥١.٩</cell>
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>شارع الرحبه بقلعة الكبش</cell>
+                  <cell><placeName ref="شارع الرحبه" type="شارع">شارع الرحبه</placeName> بقلعة
+                     الكبش</cell>
                   <cell>٥٩.٢٢</cell>
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>حارة الحرافيش بالحطابة</cell>
+                  <cell><placeName ref="حارة الحرافيش" type="حارة">حارة الحرافيش</placeName>
+                     بالحطابة</cell>
                   <cell>٥٢.٥١</cell>
                </row>
                <row>
                   <cell>حوش قيعان</cell>
-                  <cell>عطفة سد بحارة الدرب المسدود</cell>
+                  <cell><placeName ref="عطفة سد" type="عطفة">عطفة سد</placeName> ب<placeName
+                        ref="حارة الدرب المسدود" type="حارة">حارة الدرب المسدود</placeName></cell>
                   <cell>١٦١.١١</cell>
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>حارة درب المجرة بعرب اليسار</cell>
+                  <cell><placeName ref="حارة درب المجرة" type="حارة">حارة درب المجرة</placeName>
+                        ب<placeName ref="عرب اليسار">عرب اليسار</placeName></cell>
                   <cell>٦٨.٥٩</cell>
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>شارع الزرائب بباب القرافة</cell>
+                  <cell><placeName ref="شارع الزرائب" type="شارع">شارع الزرائب</placeName>
+                        ب<placeName ref="باب القرافة">باب القرافة</placeName></cell>
                   <cell>٤٤.٣٥</cell>
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>حارة الحسنية بشارع القبر الطويل</cell>
+                  <cell><placeName ref="حارة الحسنية" type="حارة">حارة الحسنية</placeName>
+                        ب<placeName ref="شارع القبر الطويل" type="شارع">شارع القبر
+                        الطويل</placeName></cell>
                   <cell>٧٥.٤٥</cell>
                </row>
                <row>
                   <cell>طاحونة</cell>
-                  <cell>عطفة غير نافذة بشارع نحن السور</cell>
+                  <cell>عطفة غير نافذة ب<placeName ref="شارع نحن السور" type="شارع">شارع نحن
+                        السور</placeName></cell>
                   <cell>١٢٣.١١</cell>
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>بحارة الجهركسي بشارع البقلي</cell>
+                  <cell>ب<placeName ref="حارة الجهركسي" type="حارة">حارة الجهركسي</placeName>
+                        ب<placeName ref="شارع البقلي" type="شارع">شارع البقلي</placeName></cell>
                   <cell>٤٢.٦٤</cell>
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>درب الشمسي بمصر</cell>
+                  <cell><placeName ref="درب الشمسي" type="درب">درب الشمسي</placeName> بمصر</cell>
                   <cell>٧٣٣.٢٥</cell>
                </row>
                <row>
                   <cell>خربة</cell>
-                  <cell>عطفة الجمالة بطولون</cell>
+                  <cell><placeName ref="عطفة الجمالة" type="عطفة">عطفة الجمالة</placeName>
+                        ب<placeName ref="طولون">طولون</placeName></cell>
                   <cell>٦٩.٤٢</cell>
                </row>
                <row>
                   <cell>حصة ﺡ٩ قراريط على الشيوع في بناء منزل</cell>
-                  <cell>درب الجمل بسويقة اللاله</cell>
+                  <cell><placeName ref="درب الجمل" type="درب">درب الجمل</placeName> ب<placeName
+                        ref="سويقة اللاله">سويقة اللاله</placeName></cell>
                   <cell>٥٨.٧٨</cell>
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>بحارة عبدالباقي بدرب الجماميز</cell>
+                  <cell>ب<placeName ref="حارة عبدالباقي" type="حارة">حارة عبدالباقي</placeName>
+                        ب<placeName ref="درب الجماميز" type="درب">درب الجماميز</placeName></cell>
                   <cell>٢٧٤.٢٨</cell>
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>حارة العفش بدرب الحبالة</cell>
+                  <cell><placeName ref="حارة العفش" type="حارة">حارة العفش</placeName> ب<placeName
+                        ref="درب الحبالة" type="درب">درب الحبالة</placeName></cell>
                   <cell>٤٠.٣٥</cell>
                </row>
                <row>
                   <cell>نصف منزل على الشيوع</cell>
-                  <cell>حارة العنبري بمصر</cell>
+                  <cell><placeName ref="حارة العنبري" type="حارة">حارة العنبري</placeName>
+                     بمصر</cell>
                   <cell>٢٧٨.٢٨</cell>
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>حارة المردانى بمصر</cell>
+                  <cell><placeName ref="حارة المردانى" type="حارة">حارة المردانى</placeName>
+                     بمصر</cell>
                   <cell>٢٣٠.١٩</cell>
                </row>
                <row>
                   <cell>ربع</cell>
-                  <cell>حارة الاكراد بخط السيدة سكينة</cell>
+                  <cell><placeName ref="حارة الاكراد" type="حارة">حارة الاكراد</placeName>
+                        ب<placeName ref="خط السيدة سكينة" type="خط"
+                        ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>خط<?oxy_custom_end?>
+                        السيدة سكينة</placeName></cell>
                   <cell>٥٥.٤٥</cell>
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>حارة درب صبيح بمصر</cell>
+                  <cell><placeName ref="حارة درب صبيح" type="حارة">حارة درب صبيح</placeName>
+                     بمصر</cell>
                   <cell>٢٠٤.٧٢</cell>
                </row>
                <row>
@@ -991,17 +1053,20 @@
                </row>
                <row>
                   <cell>٩ قراريط على الشيوع في دكان</cell>
-                  <cell>شارع العطارين بالمنشيه</cell>
+                  <cell><placeName ref="شارع العطارين" type="شارع">شارع العطارين</placeName>
+                        ب<placeName ref="المنشيه">المنشيه</placeName></cell>
                   <cell>٤.٢٦</cell>
                </row>
                <row>
                   <cell>منزل بربع الحمام</cell>
-                  <cell>شارع سوق السلاح بمصر</cell>
+                  <cell><placeName ref="شارع سوق السلاح" type="شارع">شارع سوق السلاح</placeName>
+                     بمصر</cell>
                   <cell>٣٦</cell>
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>عطفة شارع الرحبة بقلعة الكبش</cell>
+                  <cell>عطفة <placeName ref="شارع الرحبة" type="شارع">شارع الرحبة</placeName> بقلعة
+                     الكبش</cell>
                   <cell>٢٠.٢٨</cell>
                </row>
             </table>
