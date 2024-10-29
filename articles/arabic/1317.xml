@@ -1959,8 +1959,10 @@
             <p>________</p>
          </div>
          <div>
-            <head>عدد ٢٠، ١٩ فبراير ١٩٠٠، ١٩ شوال ١٣١٧، ص٢٩٨</head>
-            <head>ديوان عموم الأوقاف</head>
+            <head><date when="1900-02-19">١٩ فبراير ١٩٠٠</date>، <date when-custom="1317-10-19">١٩
+                  شوال ١٣١٧</date>،<bibl><biblScope unit="issue">عدد ٢٠</biblScope>، <biblScope
+                     unit="page">ص ٢٩٨</biblScope></bibl></head>
+            <head><orgName ref="ديوان-عموم-الأوقاف" type="ديوان">ديوان عموم الأوقاف</orgName></head>
             <p>سيطرح الديوان في المناقصة يوم الثلاثاء ٢٧ فبراير سنة ١٩٠٠ الساعه ١١ افرنكي صباحال مقاولات اعمال مباني ونجارة عاديه ودقيقه ورخام مقتضي اجراوها في الاثار العربية الكائنة في القاهرة المبينة بعد </p>
             <table>
                <row>
@@ -1968,39 +1970,49 @@
                   <cell>مبلغ التامين بالجنيه المصري</cell>
                </row>
                <row>
-                  <cell>جامع المحموديه بجوار القلعه</cell>
+                  <cell><placeName ref="جامع المحموديه" type="جامع">جامع المحموديه</placeName> بجوار
+                     القلعه</cell>
                   <cell>٧٥</cell>
                </row>
                <row>
-                  <cell>جامع الغورى بالغورية</cell>
+                  <cell><placeName ref="جامع الغورى" type="جامع">جامع الغورى</placeName> ب<placeName
+                        ref="الغورية">الغورية</placeName></cell>
                   <cell>٧٠</cell>
                </row>
                <row>
-                  <cell>المقعد الكائن خلف ضريح الغورى</cell>
+                  <cell>المقعد الكائن خلف <placeName ref="ضريح الغورى" type="ضريح">ضريح
+                        الغورى</placeName></cell>
                   <cell>٤٠</cell>
                </row>
                <row>
-                  <cell>جامع برقوق بالصحراء</cell>
+                  <cell><placeName ref="جامع برقوق" type="جامع">جامع برقوق</placeName>
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>بالصحراء<?oxy_custom_end?></cell>
                   <cell>٢٥</cell>
                </row>
                <row>
-                  <cell>جامع قجماس الاسحاقي بالدرب الأحمر</cell>
+                  <cell><placeName ref="جامع قجماس الاسحاقي" type="جامع">جامع قجماس
+                        الاسحاقي</placeName> ب<placeName ref="الدرب الأحمر" type="درب">الدرب
+                        الأحمر</placeName></cell>
                   <cell>١٤</cell>
                </row>
                <row>
-                  <cell>جامع قايتباى بالصحراء</cell>
+                  <cell><placeName ref="الدرب الأحمر" type="جامع">جامع قايتباى</placeName>
+                     بالصحراء</cell>
                   <cell>١٣</cell>
                </row>
                <row>
-                  <cell>ضريح الغناميه بالازهر</cell>
+                  <cell><placeName ref="ضريح الغناميه" type="ضريح">ضريح الغناميه</placeName>
+                        ب<placeName ref="الازهر">الازهر</placeName></cell>
                   <cell>١٢</cell>
                </row>
                <row>
-                  <cell>ضريح الشيخ حسن صدقه بالسيوفيه</cell>
+                  <cell><placeName ref="ضريح الشيخ حسن صدقه" type="ضريح">ضريح الشيخ حسن
+                        صدقه</placeName> ب<placeName ref="السيوفيه">السيوفيه</placeName></cell>
                   <cell>١١</cell>
                </row>
                <row>
-                  <cell>ضريح جوهر المدني بلركبيه</cell>
+                  <cell><placeName ref="ضريح جوهر المدني" type="ضريح">ضريح جوهر المدني</placeName>
+                        ب<placeName ref="لركبيه">لركبيه</placeName></cell>
                   <cell>٧</cell>
                </row>
                <row>
@@ -2012,8 +2024,11 @@
             <p>___________</p>
          </div>
          <div>
-            <head>عدد ٢٢، ٢٦ فبراير ١٩٠٠، ٢٦ شوال ١٣١٧، ص ٣٣٧</head>
-            <head>ديوان عموم الأوقاف</head>
+            <head>
+               <date when="1900-02-26">٢٦ فبراير ١٩٠٠</date>، <date when-custom="1317-10-26">٢٦ شوال
+                  ١٣١٧</date>، <bibl><biblScope unit="issue">عدد ٢٢</biblScope>، <biblScope
+                     unit="page">ص ٣٣٧</biblScope></bibl></head>
+            <head><orgName ref="ديوان-عموم-الأوقاف" type="ديوان">ديوان عموم الأوقاف</orgName></head>
             <p>ديوان الأوقاف يعلن العموم انه سيجرى اشهار مزاد بيع المحلات المبينة بالجدول الاتى بعد امام قومسيونات تعقد بمراكزه الفرعيه في أيام معينه حسب الموضح بالجدول وفتح جلسات المزاد هو من الساعه ٩ الى الساعه ١٢ صباحا ومن الساعه ٢ الساعه ٤ بعد الظهر فمن يرغب في مشترى شيء منها فليتوجه هو او من ينوب عنه في المواعيد المحددة للمزايدة فيه مع قبول شروط قائمة المزاد واعتبار الثمن الأساسي اول عطاء ودفع تامين بواقع المائه ١٠ من الثمن ومن يتاخر عن هذه المواعيد يعتبر تاخيره كف يد</p>
             <table>
                <row>
@@ -2025,21 +2040,24 @@
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>حارة المسطاحى بباب الشعريه بمصر</cell>
+                  <cell><placeName ref="حارة المسطاحى" type="حارة">حارة المسطاحى</placeName>
+                        ب<placeName ref="باب الشعريه" type="باب">باب الشعريه</placeName> بمصر</cell>
                   <cell>٣٠.٦٣</cell>
                   <cell>١٨.١٤٠</cell>
                   <cell>٢٠ مارس ١٩٠٠</cell>
                </row>
                <row>
                   <cell>حصة ١٨ قيراطا في منزل متخرب</cell>
-                  <cell>بحارة العطوف بمصر</cell>
+                  <cell>ب<placeName type="حارة" ref="حارة العطوف">حارة العطوف</placeName>
+                     بمصر</cell>
                   <cell>٤٦.٥٧</cell>
                   <cell>٧.١٦٨</cell>
                   <cell>١٨ مارس ١٩٠٠</cell>
                </row>
                <row>
                   <cell>منزل</cell>
-                  <cell>الدرب الجديد بالسيدة زينب بمصر</cell>
+                  <cell>الدرب الجديد ب<placeName ref="السيدة زينب">السيدة زينب</placeName>
+                     بمصر</cell>
                   <cell>٧٣.٣٧</cell>
                   <cell>١٠٠</cell>
                   <cell>٢١ مارس ١٩٠٠</cell>
@@ -2048,7 +2066,9 @@
             <p>__________</p>
          </div>
          <div>
-            <head>عدد ٣٦، ٢ ابريل ١٩٠٠، ٢ ذي الحجة ١٣١٧، ص ٥٧٧، ٥٧٨</head>
+            <head><date when="1900-04-02">٢ ابريل ١٩٠٠</date>، <date when-custom="1317-12-02">٢ ذي
+                  الحجة ١٣١٧</date>، <bibl><biblScope unit="issue">عدد ٣٦</biblScope>، <biblScope
+                     unit="page">ص ٥٧٧، ٥٧٨</biblScope></bibl></head>
             <head>نحن خديو مصر</head>
             <p>بعد الاطلاع على المادة العاشرة من لائحة التنظيم الصادرة في ٨ سبتمبر ١٨٨٩ وهذت نصها "مجرد الإقرار على رسم خط التنظيم من ناظر الاشغال العمومية وصدور امر عال باعتماده يسوغان للحكومة أن تنزع شيأ فشيأ وبالطرق القانونية الأراضي المبين بالرسم لزومها لانشاء الشوارع المعمول عنها الرسم المذكور ومن تاريخ صدور الامر العالى المشار اليه لا يجوز إقامة اى بناء على الأراضي اللازم نزع ملكيتها" </p>
             <p>وبناء على ما عرضه علينا ناظر الاشغال العمومية وموافقة راي مجلس النظار </p>
@@ -2064,9 +2084,9 @@
             <p>(المادة الخامسة)</p>
             <p>على ناظر الاشغال العمومية تنفيذ امرنا هذا</p>
             <p>صدر بسراى عابدين في ٢٦ مارس ١٩٠٠</p>
-            <p>(عباس حلمى) بامر الحضرة الخديوية </p>
-            <p>رئيس مجلس النظار (مصطفي فهمى) </p>
-            <p>ناظر الاشغال العمومية (فخري)</p>
+            <p>(<persName>عباس حلمى</persName>) بامر الحضرة الخديوية </p>
+            <p><persName>رئيس مجلس النظار (مصطفي فهمى)</persName></p>
+            <p><persName>ناظر الاشغال العمومية (فخري)</persName></p>
             <p>كشف حرف (ا) </p>
             <p>عن الشوارع وأجزاء الشوارع التي الغيت منها خطوط التنظيم لغاية شهر ديسمبر ١٨٩٩</p>
             <table>
@@ -2078,22 +2098,27 @@
                <row>
                   <cell>٩٨٩</cell>
                   <cell>٢٦ فبراير ١٨٩٩</cell>
-                  <cell>خطوط تنظيم الشارع الواقع شرقي جامع الرفاعى</cell>
+                  <cell>خطوط تنظيم الشارع الواقع شرقي <placeName ref="جامع الرفاعى" type="جامع">جامع
+                        الرفاعى</placeName></cell>
                </row>
                <row>
                   <cell>٤٤٧</cell>
                   <cell>١٨ سبتمبر ١٨٩٩</cell>
-                  <cell>زقاق خيري باشا بشارع الشيخ ريحان</cell>
+                  <cell><placeName ref="زقاق خيري باشا" type="زقاق">زقاق خيري باشا</placeName>
+                        ب<placeName ref="شارع الشيخ ريحان" type="شارع">شارع الشيخ
+                     ريحان</placeName></cell>
                </row>
                <row>
                   <cell>٢٦٤</cell>
                   <cell>٢٥ سبتمبر ١٨٩٩</cell>
-                  <cell>جزء من حارة قوارير</cell>
+                  <cell>جزء من <placeName ref="حارة قوارير" type="حارة">حارة
+                     قوارير</placeName></cell>
                </row>
                <row>
                   <cell>١٦٣</cell>
                   <cell>١٥ نوفمبر ١٨٩٩</cell>
-                  <cell>زقاق يعطفة الجوخدار</cell>
+                  <cell><placeName ref="زقاق يعطفة الجوخدار" type="زقاق">زقاق يعطفة
+                        الجوخدار</placeName></cell>
                </row>
             </table>
             <p>كشف حرف (ب) </p>
@@ -2113,7 +2138,10 @@
                      <p>٤ يوليه ١٨٩٩</p>
                      <p>٤ يوليه ١٨٩٩</p>
                   </cell>
-                  <cell>أجزاء بشارع محمد على وبحارة الجنينة وبشارع الخليج المرخم</cell>
+                  <cell>أجزاء <placeName ref="بشارع محمد على" type="شارع">بشارع محمد على</placeName>
+                        وب<placeName ref="حارة الجنينة" type="حارة">حارة الجنينة</placeName>
+                        وب<placeName ref="شارع الخليج المرخم" type="شارع">شارع الخليج
+                        المرخم</placeName></cell>
                </row>
                <row>
                   <cell>١</cell>
@@ -2126,37 +2154,46 @@
                      <p>٤٢٩</p>
                   </cell>
                   <cell>١٣ أغسطس ١٨٩٩</cell>
-                  <cell>تعديل بشارعى مصر القديمة والسد البراني لعمل زهرية امام محل قنطرة فم الخليج</cell>
+                  <cell>تعديل بشارعى <placeName ref="مصر القديمة" type="شارع">مصر
+                        القديمة</placeName> و<placeName ref="السد البراني" type="شارع">السد
+                        البراني</placeName> لعمل زهرية امام محل <placeName ref="قنطرة فم الخليج"
+                        type="قنطرة">قنطرة فم الخليج</placeName></cell>
                </row>
                <row>
                   <cell>١١٨١</cell>
                   <cell>٧ أغسطس ١٨٩٩</cell>
-                  <cell>شارع العباسية الموصل للقبة لجعل عرضه ٢٠ مترا</cell>
+                  <cell><placeName ref="شارع العباسية" type="شارع">شارع العباسية</placeName> الموصل
+                     للقبة لجعل عرضه ٢٠ مترا</cell>
                </row>
                <row>
                   <cell>٧٦٥</cell>
                   <cell>١٠ سبتمبر ١٨٩٩</cell>
-                  <cell>جزء بعطفة الاعصر بدرب المصبغه</cell>
+                  <cell>جزء ب<placeName ref="عطفة الاعصر" type="عطفة">عطفة الاعصر</placeName>
+                     <placeName ref="بدرب المصبغه" type="درب">بدرب المصبغه</placeName></cell>
                </row>
                <row>
                   <cell>٨٩٤</cell>
                   <cell>١٠ سبتمبر ١٨٩٩</cell>
-                  <cell>خط تنظيم الجانب الشرقي من عطفة المليجي</cell>
+                  <cell>خط تنظيم الجانب الشرقي من <placeName ref="عطفة المليجي" type="عطفة">عطفة
+                        المليجي</placeName></cell>
                </row>
                <row>
                   <cell>٢</cell>
                   <cell>١٠ سبتمبر ١٨٩٩</cell>
-                  <cell>خط تنظيم وجهة أملاك الخواجات عطيه الصابونجي وحبيب الكلدانى بشارع جزيرة بدران</cell>
+                  <cell>خط تنظيم وجهة أملاك الخواجات <persName>عطيه الصابونجي</persName>
+                        و<persName>حبيب الكلدانى</persName> ب<placeName ref="شارع جزيرة بدران"
+                        type="شارع">شارع جزيرة بدران</placeName></cell>
                </row>
                <row>
                   <cell>٩٠٠</cell>
                   <cell>١١ سبتمبر ١٨٩٩</cell>
-                  <cell>جزء بدرب البير</cell>
+                  <cell>جزء ب<placeName ref="درب البير" type="درب">درب البير</placeName></cell>
                </row>
                <row>
                   <cell>٢٤٣</cell>
                   <cell>١٢ سبتمبر١٨٩٩</cell>
-                  <cell>جزء بحارة قصر الشوك</cell>
+                  <cell>جزء ب<placeName ref="حارة قصر الشوك" type="حارة">حارة قصر
+                     الشوك</placeName></cell>
                </row>
                <row>
                   <cell>
@@ -2166,27 +2203,31 @@
                   <cell>
                      <p>١٣ سبتمبر١٨٩٩</p>
                   </cell>
-                  <cell>جزء بشارع الهد والصوابي</cell>
+                  <cell>جزء ب<placeName ref="شارع الهد" type="شارع">شارع الهد</placeName>
+                        و<placeName ref="الصوابي" type="شارع">الصوابي</placeName></cell>
                </row>
                <row>
                   <cell>٨١٩</cell>
                   <cell>١٤ سبتمبر ١٨٩٩</cell>
-                  <cell>جزء بشارع حوش عيسي البحرى</cell>
+                  <cell>جزء ب<placeName ref="شارع حوش عيسي البحرى" type="شارع">شارع حوش عيسي
+                        البحرى</placeName></cell>
                </row>
                <row>
                   <cell>٢٨١</cell>
                   <cell>٢٥ سبتمبر ١٨٩٩</cell>
-                  <cell>شطف زاوية على شارع منصور والشيخ يوسف</cell>
+                  <cell>شطف زاوية على<placeName ref=" شارع منصور" type="شارع">شارع منصور</placeName>
+                        و<placeName ref="الشيخ يوسف" type="شارع">الشيخ يوسف</placeName></cell>
                </row>
                <row>
                   <cell>٤٣٩</cell>
                   <cell>٢٥ سبتمبر ١٨٩٩</cell>
-                  <cell>جزء بحارة الغمرى</cell>
+                  <cell>جزء ب<placeName ref="حارة الغمرى" type="حارة">حارة الغمرى</placeName></cell>
                </row>
                <row>
                   <cell>٩٢٩</cell>
                   <cell>٢١ أكتوبر ١٨٩٩</cell>
-                  <cell>جزء بشارع باب الوداع</cell>
+                  <cell>جزء ب<placeName ref="شارع باب الوداع" type="شارع">شارع باب
+                        الوداع</placeName></cell>
                </row>
             </table>
             <p>كشف حرف (ج) </p>
@@ -2200,19 +2241,24 @@
                <row>
                   <cell>٣٣٠</cell>
                   <cell>٢٥ سبتمبر ١٨٩٩</cell>
-                  <cell>لغو فتحه بشارع منصور ووضع</cell>
+                  <cell>لغو فتحه ب<placeName ref="شارع منصور" type="شارع">شارع منصور</placeName>
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ووضع<?oxy_custom_end?></cell>
                </row>
                <row>
                   <cell>١١٤</cell>
                   <cell>٢٨ سبتمبر ١٨٩٩</cell>
-                  <cell>وضع خط تنظيم على قطعة ارض مجاورة لخط السكه الحديد بخريطة ارض القبة والمطرية</cell>
+                  <cell>وضع خط تنظيم على قطعة ارض مجاورة لخط السكه الحديد بخريطة ارض <placeName
+                        ref="القبة">القبة</placeName> و<placeName ref="المطرية"
+                     >المطرية</placeName></cell>
                </row>
             </table>
             <p>___________</p>
          </div>
          <div>
-            <head>عدد ٣٩، ١٤ ابريل ١٩٠٠، ١٤ ذي الحجة ١٣١٧، ص ٦٥٠</head>
-            <head>نظارة المالية</head>
+            <head><date when="1900-04-14">١٤ ابريل ١٩٠٠</date>، <date when-custom="1317-12-14">١٤ ذي
+                  الحجة ١٣١٧</date>، <bibl><biblScope unit="issue">عدد ٣٩</biblScope>، <biblScope
+                     unit="page">ص ٦٥٠</biblScope></bibl></head>
+            <head><orgName ref="نظارة-المالية" type="نظارة">نظارة المالية</orgName></head>
             <p>محافظة مصر </p>
             <p>ليكن معلوما لدى العموم انه بجلسة قومسيون بيع أملاك واراضي الميري المزمع انعقادها بديوان محافظة مصر يوم الثلاثاء اول مايو ١٩٠٠ من الساعه ١٠ افرنكى الى الساعه ١٢ الظهر سيصير إعادة اشهار مزاد بيع العقارات المبينة بهذا .....</p>
             <table>
@@ -2236,7 +2282,10 @@
                   <cell>٣٣</cell>
                   <cell>٤٢.٧</cell>
                   <cell>٢٩٤</cell>
-                  <cell>حصة قدره قيراطين و١٣ سهما وربع من حوش كائن بدرب الكرشه بربع الجوابر ببولاق مضبوطه عن محمد حسن الغائب وجملة مسطحه ٣٩٥ مترا و٦٠ سنتيا</cell>
+                  <cell>حصة قدره قيراطين و١٣ سهما وربع من حوش كائن <placeName ref="بدرب الكرشه"
+                        type="درب">بدرب الكرشه</placeName> بربع الجوابر ب<placeName ref="بولاق"
+                        >بولاق</placeName> مضبوطه عن محمد حسن الغائب وجملة مسطحه ٣٩٥ مترا و٦٠
+                     سنتيا</cell>
                </row>
                <row>
                   <cell>..</cell>
@@ -2244,8 +2293,10 @@
                   <cell>٧٢.٧٩</cell>
                   <cell>٢٩٥</cell>
                   <cell>
-                     <p>منزل خرب كائن بالعطوف بقسم الجمالية مضبوط بمعرفة بيت المال عن حجازية بنت مدين حق ولدها</p>
-                     <p>محمد بيومى الغائب</p>
+                     <p>منزل خرب كائن بالعطوف ب<placeName ref="قسم الجمالية" type="قسم">قسم
+                           الجمالية</placeName> مضبوط بمعرفة بيت المال عن<persName>حجازية بنت
+                           مدين</persName> حق ولدها</p>
+                     <p><persName>محمد بيومى</persName> الغائب</p>
                   </cell>
                </row>
                <row>
@@ -2253,7 +2304,12 @@
                   <cell>٣٠</cell>
                   <cell>٣٢.٧٨</cell>
                   <cell>٢٨٢</cell>
-                  <cell>حصة قدرها ١٢ قيراطا في منزل محتكر بدرب الميضه بقسم الخليفة مضبوطه عن زهره السوداء المتوفية عن زوجها بيرم اغا الغائب وعن عصبة معتقها أولاد المرحومين عباس باشا يكن وعبدالله باشا يكن وهذه الحصة حق بيرم اغا الغائب</cell>
+                  <cell>حصة قدرها ١٢ قيراطا في منزل محتكر ب<placeName ref="درب الميضه" type="درب"
+                        >درب الميضه</placeName> ب<placeName ref="قسم الخليفة" type="قسم">قسم
+                        الخليفة</placeName> مضبوطه عن <persName>زهره السوداء</persName> المتوفية عن
+                     زوجها <persName>بيرم اغا</persName> الغائب وعن عصبة معتقها أولاد المرحومين
+                        <persName>عباس باشا يكن</persName> و<persName>عبدالله باشا يكن</persName>
+                     وهذه الحصة حق بيرم اغا الغائب</cell>
                </row>
             </table>
          </div>
