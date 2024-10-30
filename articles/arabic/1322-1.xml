@@ -1829,171 +1829,240 @@
                         حلوان</orgName></placeName></head>
                <row>
                   <cell>
-                     <p>١- شارع برهان باشا</p>
-                     <p>٢- شارع لاظ اوغلي</p>
-                     <p>٣- شارع عبد الرحمن باشا</p>
-                     <p>٤- شارع محمد سيد أحمد باشا</p>
-                     <p>٥- شارع ميدان عباس</p>
-                     <p>٦- شارع راغب باشا</p>
-                     <p>٧- شارع نوبار باشا</p>
-                     <p>٨- شارع رياض باشا</p>
-                     <p>٩- شارع جعفر باشا</p>
-                     <p>١٠- شارع لطيف باشا</p>
-                     <p>١١- شارع شريف باشا</p>
-                     <p>١٢- شارع مصطفي باشا</p>
-                     <p>١٣- شارع إسماعيل باشا</p>
-                     <p>١٤- الشارع الغربي</p>
-                     <p>١٥- شارع ادهم باشا</p>
-                     <p>١٦- شارع خيري باشا</p>
-                     <p>١٧- شارع رايل</p>
-                     <p>١٨- شارع ذو الفقار باشا</p>
-                     <p>١٩- شارع رستم باشا</p>
-                     <p>٢٠- شارع عبدالله باشا</p>
-                     <p>٢١- شارع خسرو باشا</p>
-                     <p>٢٢- شارع إبراهيم باشا</p>
-                     <p>٢٣- شارع يوسف باشا (الشارع الشرقي الموجود به لوكاندة الحياة)</p>
-                     <p>٢٤- شارع حسن كامل باشا</p>
-                     <p>٢٥- شارع زكي باشا</p>
-                     <p>٢٦- شارع حيدر باشا</p>
+                     <p>١- <placeName ref="شارع-برهان-باشا" type="شارع">شارع <persName>برهان
+                              باشا</persName></placeName></p>
+                     <p>٢- <placeName ref="شارع-لاظ-اوغلي" type="شارع">شارع لاظ
+                        اوغلي</placeName></p>
+                     <p>٣- <placeName ref="شارع-عبد-الرحمن-باشا" type="شارع">شارع <persName>عبد
+                              الرحمن باشا</persName></placeName></p>
+                     <p>٤- <placeName ref="شارع-محمد-سيد-أحمد-باشا" type="شارع">شارع <persName>محمد
+                              سيد أحمد باشا</persName></placeName></p>
+                     <p>٥- <placeName ref="شارع-ميدان-عباس" type="شارع">شارع <placeName
+                              ref="ميدان-عباس" type="ميدان">ميدان عباس</placeName></placeName></p>
+                     <p>٦- <placeName ref="شارع-راغب-باشا" type="شارع">شارع <persName>راغب
+                              باشا</persName></placeName></p>
+                     <p>٧- <placeName ref="شارع-نوبار-باشا" type="شارع">شارع <persName>نوبار
+                              باشا</persName></placeName></p>
+                     <p>٨- <placeName ref="شارع-رياض-باشا" type="شارع">شارع <persName>رياض
+                              باشا</persName></placeName></p>
+                     <p>٩- <placeName ref="شارع-جعفر-باشا" type="شارع">شارع <persName>جعفر
+                              باشا</persName></placeName></p>
+                     <p>١٠- <placeName ref="شارع-لطيف-باشا" type="شارع">شارع <persName>لطيف
+                              باشا</persName></placeName></p>
+                     <p>١١- <placeName ref="شارع-شريف-باشا" type="شارع">شارع <persName>شريف
+                              باشا</persName></placeName></p>
+                     <p>١٢- <placeName ref="شارع-مصطفي-باشا" type="شارع">شارع <persName>مصطفي
+                              باشا</persName></placeName></p>
+                     <p>١٣- <placeName ref="شارع-إسماعيل-باشا" type="شارع">شارع <persName>إسماعيل
+                              باشا</persName></placeName></p>
+                     <p>١٤- <placeName ref="الشارع-الغربي" type="شارع">الشارع الغربي</placeName></p>
+                     <p>١٥- <placeName ref="شارع-ادهم-باشا" type="شارع">شارع <persName>ادهم
+                              باشا</persName></placeName></p>
+                     <p>١٦- <placeName ref="شارع-خيري-باشا" type="شارع">شارع <persName>خيري
+                              باشا</persName></placeName></p>
+                     <p>١٧- <placeName ref="شارع-رايل" type="شارع">شارع رايل</placeName></p>
+                     <p>١٨- <placeName ref="شارع-ذو-الفقار-باشا" type="شارع">شارع <persName>ذو
+                              الفقار باشا</persName></placeName></p>
+                     <p>١٩- <placeName ref="شارع-رستم-باشا" type="شارع">شارع <persName>رستم
+                              باشا</persName></placeName></p>
+                     <p>٢٠- <placeName ref="شارع-عبد-الله-باشا" type="شارع">شارع <persName>عبدالله
+                              باشا</persName></placeName></p>
+                     <p>٢١- <placeName ref="شارع-خسرو-باشا" type="شارع">شارع <persName>خسرو
+                              باشا</persName></placeName></p>
+                     <p>٢٢- <placeName ref="شارع-إبراهيم-باشا" type="شارع">شارع <persName>إبراهيم
+                              باشا</persName></placeName></p>
+                     <p>٢٣- <placeName ref="شارع-يوسف-باشا" type="شارع">شارع <persName>يوسف
+                              باشا</persName></placeName> (الشارع الشرقي الموجود به <placeName
+                           ref="لوكاندة-الحياة" type="لوكاندة">لوكاندة الحياة</placeName>)</p>
+                     <p>٢٤- <placeName ref="شارع-حسن-كامل-باشا" type="شارع">شارع <persName>حسن كامل
+                              باشا</persName></placeName></p>
+                     <p>٢٥- <placeName ref="شارع-زكي-باشا" type="شارع">شارع <persName>زكي
+                              باشا</persName></placeName></p>
+                     <p>٢٦- <placeName ref="شارع-حيدر-باشا" type="شارع">شارع <persName>حيدر
+                              باشا</persName></placeName></p>
                   </cell>
                </row>
             </table>
             <table>
-               <head>قسم بولاق</head>
+               <head><placeName ref="قسم-بولاق" type="قسم"><orgName ref="قسم-بولاق" type="قسم">قسم
+                        بولاق</orgName></placeName></head>
                <row>
                   <cell>
-                     <list type="ordered">
-                        <item>شارع مرزا</item>
-                        <item>شارع العمراني</item>
-                        <item>عطفة شارع مرزا</item>
-                        <item>شارع عش النخل</item>
-                        <item>درب ربيع</item>
-                        <item>درب الشرفاء</item>
-                        <item>درب بليج </item>
-                        <item>حارة علوة العدس</item>
-                        <item>درب البعوار </item>
-                        <item>حارة الشماعين </item>
-                        <item>درب النور </item>
-                        <item>حارة علوة سيدى نصر </item>
-                        <item>حوش الجنينة</item>
-                        <item>شارع شنن </item>
-                        <item>شارع محمد بكر </item>
-                        <item>شارع محمد نافع </item>
-                        <item>عطفة القزازين</item>
-                        <item>حارة ارض شرف</item>
-                        <item>شارع وابور النور</item>
-                        <item>درب القصاصين</item>
-                        <item>درب الغايشه </item>
-                        <item>درب العسالة </item>
-                        <item>درب الملقاوى</item>
-                        <item>درب منصورة </item>
-                        <item>حارة سوق التبن </item>
-                        <item>حارة القلمية </item>
-                        <item>حارة البسايطه </item>
-                        <item>حارة قاسم بك </item>
-                        <item>حارة السندبيسي</item>
-                        <item>حارة اللبانة</item>
-                        <item>حارة الحدايدة</item>
-                        <item>حارة العصاره </item>
-                        <item>حارة ابوالدلايل</item>
-                        <item> حارة الغيطاني</item>
-                        <item>حارة العوالم</item>
-                        <item>شارع الهممي</item>
-                        <item>شارع الفرنساوي</item>
-                        <item>حارة رزيقة </item>
-                        <item>حارة خطاب</item>
-                        <item>حارة الصحة</item>
-                        <item>حارة نعيم </item>
-                        <item>حارة تعيلب</item>
-                        <item>حارة سرور</item>
-                        <item>حارة العلوة</item>
-                        <item>حارة مرزوق</item>
-                        <item>حارة العليمي</item>
-                        <item>حارة سيد مكي</item>
-                        <item>حارة عثمان ابوطالب</item>
-                        <item>حارة زيد عبدالله</item>
-                        <item>حارة الريس سليمان</item>
-                        <item>الشارع الوسطاني</item>
-                        <item>شارع كنيسة الاقباط</item>
-                        <item>حوارى البصلية</item>
-                        <item>حوارى القلاية</item>
-                        <item>شارع الخطيري</item>
-                        <item>حارة الدالى</item>
-                        <item>حارة النشار</item>
-                        <item>حارة العبد</item>
-                        <item>حارة زعتره</item>
-                        <item>عطفتى الخطيرى</item>
-                     </list>
+                     <p>١- <placeName ref="شارع-مرزا" type="شارع">شارع مرزا</placeName></p>
+                     <p>٢- <placeName ref="شارع-العمراني" type="شارع">شارع العمراني</placeName></p>
+                     <p>٣- <placeName ref="عطفة-شارع-مرزا" type="عطفة">عطفة شارع
+                        مرزا</placeName></p>
+                     <p>٤- <placeName ref="شارع-عش-النخل" type="شارع">شارع عش النخل</placeName></p>
+                     <p>٥- <placeName ref="درب-ربيع" type="درب">درب ربيع</placeName></p>
+                     <p>٦- <placeName ref="درب-الشرفاء" type="درب">درب الشرفاء</placeName></p>
+                     <p>٧- <placeName ref="درب-بليج" type="درب">درب بليج</placeName></p>
+                     <p>٨- <placeName ref="حارة-علوة-العدس" type="حارة">حارة <placeName
+                              ref="علوة-العدس" type="علوة">علوة العدس</placeName></placeName></p>
+                     <p>٩- <placeName ref="درب-البعوار" type="درب">درب البعوار</placeName></p>
+                     <p>١٠- <placeName ref="حارة-الشماعين" type="حارة">حارة الشماعين</placeName></p>
+                     <p>١١- <placeName ref="درب-النور" type="درب">درب النور</placeName></p>
+                     <p>١٢- <placeName ref="حارة-علوة-سيدى-نصر" type="حارة">حارة <placeName
+                              ref="علوة-سيدى-نصر" type="علوة">علوة <persName>سيدى
+                              نصر</persName></placeName></placeName></p>
+                     <p>١٣- <placeName ref="حوش-الجنينة" type="حوش">حوش الجنينة</placeName></p>
+                     <p>١٤- <placeName ref="شارع-شنن" type="شارع">شارع شنن</placeName></p>
+                     <p>١٥- <placeName ref="شارع-محمد-بكر" type="شارع">شارع محمد بكر</placeName></p>
+                     <p>١٦- <placeName ref="شارع-محمد-نافع" type="شارع">شارع محمد
+                        نافع</placeName></p>
+                     <p>١٧- <placeName type="عطفة" ref="عطفة-القزازين">عطفة القزازين</placeName></p>
+                     <p>١٨- <placeName ref="حارة-ارض-شرف" type="حارة">حارة <placeName ref="ارض-شرف"
+                              type="ارض">ارض شرف</placeName></placeName></p>
+                     <p>١٩- <placeName ref="شارع-وابور-النور" type="شارع">شارع وابور
+                           النور</placeName></p>
+                     <p>٢٠- <placeName ref="درب-القصاصين" type="درب">درب القصاصين</placeName></p>
+                     <p>٢١- <placeName ref="درب-الغايشه" type="درب">درب الغايشه</placeName></p>
+                     <p>٢٢- <placeName ref="درب-العسالة" type="درب">درب العسالة</placeName></p>
+                     <p>٢٣- <placeName ref="درب-الملقاوى" type="درب">درب الملقاوى</placeName></p>
+                     <p>٢٤- <placeName ref="درب-منصورة" type="درب">درب منصورة</placeName></p>
+                     <p>٢٥- <placeName ref="حارة-سوق-التبن" type="حارة">حارة <placeName
+                              ref="سوق-التبن" type="سوق"><orgName ref="سوق-التبن" type="سوق">سوق
+                                 التبن</orgName></placeName></placeName></p>
+                     <p>٢٦- <placeName ref="حارة-القلمية" type="حارة">حارة القلمية</placeName></p>
+                     <p>٢٧- <placeName ref="حارة-البسايطه" type="حارة">حارة البسايطه</placeName></p>
+                     <p>٢٨- <placeName ref="حارة-قاسم-بك" type="حارة">حارة <persName>قاسم
+                              بك</persName></placeName></p>
+                     <p>٢٩- <placeName ref="حارة-السندبيسي" type="حارة">حارة
+                        السندبيسي</placeName></p>
+                     <p>٣٠- <placeName ref="حارة-اللبانة" type="حارة">حارة اللبانة</placeName></p>
+                     <p>٣١- <placeName ref="حارة-الحدايدة" type="حارة">حارة الحدايدة</placeName></p>
+                     <p>٣٢- <placeName ref="حارة-العصاره" type="حارة">حارة العصاره</placeName></p>
+                     <p>٣٣- <placeName ref="حارة-ابو-الدلايل" type="حارة">حارة ابو
+                           الدلايل</placeName></p>
+                     <p>٣٤- <placeName ref="حارة-الغيطاني" type="حارة">حارة الغيطاني</placeName></p>
+                     <p>٣٥- <placeName ref="حارة-العوالم" type="حارة">حارة العوالم</placeName></p>
+                     <p>٣٦- <placeName ref="شارع-الهممي" type="شارع">شارع الهممي</placeName></p>
+                     <p>٣٧- <placeName ref="شارع-الفرنساوي" type="شارع">شارع
+                        الفرنساوي</placeName></p>
+                     <p>٣٨- <placeName ref="حارة-رزيقة" type="حارة">حارة رزيقة</placeName></p>
+                     <p>٣٩- <placeName ref="حارة-خطاب" type="حارة">حارة خطاب</placeName></p>
+                     <p>٤٠- <placeName ref="حارة-الصحة" type="حارة">حارة الصحة</placeName></p>
+                     <p>٤١- <placeName ref="حارة-نعيم" type="حارة">حارة نعيم</placeName></p>
+                     <p>٤٢- <placeName ref="حارة-تعيلب" type="حارة">حارة تعيلب</placeName></p>
+                     <p>٤٣- <placeName ref="حارة-سرور" type="حارة">حارة سرور</placeName></p>
+                     <p>٤٤- <placeName ref="حارة-العلوة" type="حارة">حارة العلوة</placeName></p>
+                     <p>٤٥- <placeName ref="حارة-مرزوق" type="حارة">حارة مرزوق</placeName></p>
+                     <p>٤٦- <placeName ref="حارة-العليمي" type="حارة">حارة العليمي</placeName></p>
+                     <p>٤٧- <placeName ref="حارة-سيد-مكي" type="حارة">حارة سيد مكي</placeName></p>
+                     <p>٤٨- <placeName ref="حارة-عثمان-ابو-طالب" type="حارة">حارة عثمان ابو
+                           طالب</placeName></p>
+                     <p>٤٩- <placeName ref="حارة-زيد-عبد-الله" type="حارة">حارة زيد عبد
+                           الله</placeName></p>
+                     <p>٥٠- <placeName ref="حارة-الريس-سليمان" type="حارة">حارة الريس
+                           سليمان</placeName></p>
+                     <p>٥١- <placeName ref="الشارع-الوسطاني" type="شارع">الشارع
+                        الوسطاني</placeName></p>
+                     <p>٥٢- <placeName ref="شارع-كنيسة-الاقباط" type="شارع">شارع <placeName
+                              type="كنيسة" ref="كنيسة-الاقباط"><orgName type="كنيسة"
+                                 ref="كنيسة-الاقباط">كنيسة
+                        الاقباط</orgName></placeName></placeName></p>
+                     <p>٥٣- <placeName ref="حوارى-البصلية" type="حوارى">حوارى
+                        البصلية</placeName></p>
+                     <p>٥٤- <placeName ref="حوارى-القلاية" type="حوارى">حوارى
+                        القلاية</placeName></p>
+                     <p>٥٥- <placeName ref="شارع-الخطيري" type="شارع">شارع الخطيري</placeName></p>
+                     <p>٥٦- <placeName ref="حارة-الدالى" type="حارة">حارة الدالى</placeName></p>
+                     <p>٥٧- <placeName ref="حارة-النشار" type="حارة">حارة النشار</placeName></p>
+                     <p>٥٨- <placeName ref="حارة-العبد" type="حارة">حارة العبد</placeName></p>
+                     <p>٥٩- <placeName ref="حارة-زعتره" type="حارة">حارة زعتره</placeName></p>
+                     <p>٦٠-
+                        <?oxy_comment_start author="Dr. Sarah" timestamp="20241030T175846+0200" comment="and what"?><?oxy_custom_start type="oxy_content_highlight" color="255,255,0" mid="17"?>عطفتى<?oxy_comment_end?>
+                        الخطيرى<?oxy_custom_end mid="17"?></p>
                   </cell>
                   <cell>
-                     <list type="ordered">
-                        <item>شارع درب النشارين</item>
-                        <item>درب ملوخيه</item>
-                        <item>حارة خوخة السمنى</item>
-                        <item>حارة وكالة العدسي</item>
-                        <item>حارة شرف منجود</item>
-                        <item>حارة وكالة البحر</item>
-                        <item>درب البرابره</item>
-                        <item>درب السماكين</item>
-                        <item>درب الوراقية</item>
-                        <item>درب البير </item>
-                        <item>شارع موفق</item>
-                        <item>عطفة سيدى حماده</item>
-                        <item>شارع باب المبيضه</item>
-                        <item>شارع باب السر </item>
-                        <item>شارع الحطاب </item>
-                        <item>حارة الحطابة</item>
-                        <item>عطفة الحطابة </item>
-                        <item>شارع الخصوصي</item>
-                        <item>شارع البوصة </item>
-                        <item>شارع درب شماخ </item>
-                        <item>حارة عبد الحليم </item>
-                        <item>درب السراملة </item>
-                        <item>درب المسايره</item>
-                        <item>درب المشنوقة </item>
-                        <item>درب البير </item>
-                        <item>درب دعباس</item>
-                        <item>درب المصبغه</item>
-                        <item>درب المنتزه</item>
-                        <item>حوارى عشش جركس </item>
-                        <item>عطفة الشامي</item>
-                        <item>عطفة الدراج </item>
-                        <item>حارة المعصرة </item>
-                        <item>حارة النقلي</item>
-                        <item>حارة العلوة الحجاجي</item>
-                        <item>عطفة حوش الجنينة</item>
-                        <item>درب عمير </item>
-                        <item>درب الجمالة </item>
-                        <item>درب القلافطه </item>
-                        <item>درب محجوب</item>
-                        <item>شارع البوصة </item>
-                        <item>شارع وكالة البلح </item>
-                        <item>عطفة وكالة البلح </item>
-                        <item>خط الترجمان الجديد </item>
-                        <item>خط الترجمان القديم </item>
-                        <item>حوارى ورش القطن </item>
-                        <item>عشش كابش</item>
-                        <item>شارع التكية </item>
-                        <item>درب سقلمه </item>
-                        <item>حارة قسوات </item>
-                        <item>شارع الحلبي </item>
-                        <item>شارع الحمامات </item>
-                        <item>شارع الواسطي</item>
-                        <item>شارع الشهداء </item>
-                        <item>شارع درب مسعود </item>
-                        <item>عطفة درب مسعود </item>
-                        <item>عطفة الشيطان </item>
-                        <item>حوارى عشش مقلد <list type="simple">
-                              <item> </item>
-                           </list>
-                        </item>
-                     </list>
+                     <p>٦١- <placeName ref="شارع-درب-النشارين" type="شارع">شارع <placeName
+                              type="درب" ref="درب-النشارين">درب النشارين</placeName></placeName></p>
+                     <p>٦٢- <placeName ref="درب-ملوخيه" type="درب">درب ملوخيه</placeName></p>
+                     <p>٦٣- <placeName ref="حارة-خوخة-السمنى" type="حارة">حارة <placeName
+                              ref="خوخة-السمنى" type="خوخة">خوخة السمنى</placeName></placeName></p>
+                     <p>٦٤- <placeName ref="حارة-وكالة-العدسي" type="حارة">حارة <placeName
+                              ref="وكالة-العدسي" type="وكالة"><orgName ref="وكالة-العدسي"
+                                 type="وكالة">وكالة العدسي</orgName></placeName></placeName></p>
+                     <p>٦٥- <placeName ref="حارة-شرف-منجود" type="حارة">حارة <persName>شرف
+                              منجود</persName></placeName></p>
+                     <p>٦٦- <placeName ref="حارة-وكالة-البحر" type="حارة">حارة <orgName
+                              ref="وكالة-البحر" type="وكالة"><placeName ref="وكالة-البحر"
+                                 type="وكالة">وكالة البحر</placeName></orgName></placeName></p>
+                     <p>٦٧- <placeName ref="درب-البرابره" type="درب">درب البرابره</placeName></p>
+                     <p>٦٨- <placeName ref="درب-السماكين" type="درب">درب السماكين</placeName></p>
+                     <p>٦٩- <placeName ref="درب-الوراقية" type="درب">درب الوراقية</placeName></p>
+                     <p>٧٠- <placeName ref="درب-البير" type="درب">درب البير</placeName></p>
+                     <p>٧١- <placeName ref="شارع-موفق" type="شارع">شارع موفق</placeName></p>
+                     <p>٧٢- <placeName ref="عطفة-سيدى-حماده" type="عطفة">عطفة <persName>سيدى
+                              حماده</persName></placeName></p>
+                     <p>٧٣- <placeName ref="شارع-باب-المبيضه" type="شارع">شارع <placeName
+                              ref="باب-المبيضه" type="باب">باب المبيضه</placeName></placeName></p>
+                     <p>٧٤- <placeName ref="شارع-باب-السر" type="شارع">شارع <placeName
+                              ref="باب-السر" type="باب">باب السر</placeName></placeName></p>
+                     <p>٧٥- <placeName ref="شارع-الحطاب" type="شارع">شارع الحطاب</placeName></p>
+                     <p>٧٦- <placeName ref="حارة-الحطابة" type="حارة">حارة الحطابة</placeName></p>
+                     <p>٧٧- <placeName ref="عطفة-الحطابة" type="عطفة">عطفة الحطابة</placeName></p>
+                     <p>٧٨- <placeName ref="شارع-الخصوصي" type="شارع">شارع الخصوصي</placeName></p>
+                     <p>٧٩- <placeName ref="شارع-البوصة" type="شارع">شارع البوصة</placeName></p>
+                     <p>٨٠- <placeName ref="شارع-درب-شماخ" type="شارع">شارع <placeName
+                              ref="درب-شماخ" type="درب">درب شماخ</placeName></placeName></p>
+                     <p>٨١- <placeName ref="حارة-عبد-الحليم" type="حارة">حارة عبد
+                        الحليم</placeName></p>
+                     <p>٨٢- <placeName ref="درب-السراملة" type="درب">درب السراملة</placeName></p>
+                     <p>٨٣- <placeName ref="درب-المسايره" type="درب">درب المسايره</placeName></p>
+                     <p>٨٤- <placeName ref="درب-المشنوقة" type="درب">درب المشنوقة</placeName></p>
+                     <p>٨٥- <placeName ref="درب-البير" type="درب">درب البير</placeName></p>
+                     <p>٨٦- <placeName ref="درب-دعباس" type="درب">درب دعباس</placeName></p>
+                     <p>٨٧- <placeName ref="درب-المصبغه" type="درب">درب المصبغه</placeName></p>
+                     <p>٨٨- <placeName ref="درب-المنتزه" type="درب">درب المنتزه</placeName></p>
+                     <p>٨٩- <placeName ref="حوارى-عشش-جركس" type="حوارى">حوارى <placeName
+                              ref="عشش-جركس" type="عشش">عشش جركس</placeName></placeName></p>
+                     <p>٩٠- <placeName ref="عطفة-الشامي" type="عطفة">عطفة الشامي</placeName></p>
+                     <p>٩١- <placeName ref="عطفة-الدراج" type="عطفة">عطفة الدراج</placeName></p>
+                     <p>٩٢- <placeName ref="حارة-المعصرة" type="حارة">حارة المعصرة</placeName></p>
+                     <p>٩٣- <placeName ref="حارة-النقلي" type="حارة">حارة النقلي</placeName></p>
+                     <p>٩٤- <placeName ref="حارة-العلوة-الحجاجي" type="حارة">حارة العلوة
+                           الحجاجي</placeName></p>
+                     <p>٩٥- <placeName ref="عطفة-حوش-الجنينة" type="عطفة">عطفة حوش
+                           الجنينة</placeName></p>
+                     <p>٩٦- <placeName ref="درب-عمير" type="درب">درب عمير</placeName></p>
+                     <p>٩٧- <placeName ref="درب-الجمالة" type="درب">درب الجمالة</placeName></p>
+                     <p>٩٨- <placeName ref="درب-القلافطه" type="درب">درب القلافطه</placeName></p>
+                     <p>٩٩- <placeName ref="درب-محجوب" type="درب">درب محجوب</placeName></p>
+                     <p>١٠٠- <placeName ref="شارع-البوصة" type="شارع">شارع البوصة</placeName></p>
+                     <p>١٠١- <placeName ref="شارع-وكالة-البلح" type="شارع">شارع <placeName
+                              ref="وكالة-البلح" type="وكالة"><orgName ref="وكالة-البلح" type="وكالة"
+                                 >وكالة البلح</orgName></placeName></placeName></p>
+                     <p>١٠٢- <placeName ref="عطفة-وكالة-البلح" type="عطفة">عطفة وكالة
+                           البلح</placeName></p>
+                     <p>١٠٣- <placeName ref="خط-الترجمان-الجديد" type="خط">خط الترجمان
+                           الجديد</placeName></p>
+                     <p>١٠٤- <placeName ref="خط-الترجمان-القديم" type="خط">خط الترجمان
+                           القديم</placeName></p>
+                     <p>١٠٥- <placeName ref="حوارى-ورش-القطن" type="حوارى">حوارى <orgName
+                              ref="ورش-القطن" type="ورش"><placeName ref="ورش-القطن" type="ورش">ورش
+                                 القطن</placeName></orgName></placeName></p>
+                     <p>١٠٦- <placeName ref="عشش-كابش" type="عشش">عشش كابش</placeName></p>
+                     <p>١٠٧- <placeName ref="شارع-التكية" type="شارع">شارع التكية</placeName></p>
+                     <p>١٠٨- <placeName ref="درب-سقلمه" type="درب">درب سقلمه</placeName></p>
+                     <p>١٠٩- <placeName ref="حارة-قسوات" type="حارة">حارة قسوات</placeName></p>
+                     <p>١١٠- <placeName ref="شارع-الحلبي" type="شارع">شارع الحلبي</placeName></p>
+                     <p>١١١- <placeName ref="شارع-الحمامات" type="شارع">شارع
+                        الحمامات</placeName></p>
+                     <p>١١٢- <placeName ref="شارع-الواسطي" type="شارع">شارع الواسطي</placeName></p>
+                     <p>١١٣- <placeName ref="شارع-الشهداء" type="شارع">شارع الشهداء</placeName></p>
+                     <p>١١٤- <placeName ref="شارع-درب-مسعود" type="شارع">شارع <placeName
+                              ref="درب-مسعود" type="درب">درب مسعود</placeName></placeName></p>
+                     <p>١١٥- <placeName ref="عطفة-درب-مسعود" type="عطفة">عطفة درب
+                        مسعود</placeName></p>
+                     <p>١١٦- <placeName type="عطفة" ref="عطفة-الشيطان">عطفة الشيطان</placeName></p>
+                     <p>١١٧- <placeName ref="حوارى-عشش-مقلد" type="حوارى">حوارى عشش
+                        مقلد</placeName></p>
                   </cell>
                </row>
             </table>
             <p>المادة الثانية</p>
             <p>يسري مفعول هذا القرار بعد سبعة ايان من تاريخ نشره بالجريدة الرسمية</p>
-            <p>تحريرا بالقاهرة 30 ابريل 1904</p>
+            <p>تحريرا بالقاهرة ٣٠ ابريل ١٩٠٤</p>
             <p> عدلى يكن</p>
          </div>
       </body>
