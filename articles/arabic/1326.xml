@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?>
-
-<?xml-stylesheet type="text/css" href="file:/F:/CairoUrbanNews/css/oxygen.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><?xml-stylesheet type="text/css" href="file:/F:/CairoUrbanNews/css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -268,23 +265,18 @@
                </row>
                <row>
                   <cell><placeName ref="مدفن-السلطان-الغورى" type="مدفن">مدفن <persName>السلطان
-                           الغورى</persName></placeName> ب<placeName ref="الغورية"
-                        >الغورية</placeName> اعمال رخام وغيره</cell>
+                           الغورى</persName></placeName> ب<placeName ref="الغورية">الغورية</placeName> اعمال رخام وغيره</cell>
                   <cell>١٧</cell>
                </row>
                <row>
-                  <cell><placeName ref="مسجد-الماس" type="مسجد"><orgName ref="مسجد-الماس"
-                           type="مسجد">مسجد الماس</orgName></placeName> ب<placeName ref="الحلمية"
-                        >الحلمية</placeName> اعمال
+                  <cell><placeName ref="مسجد-الماس" type="مسجد"><orgName ref="مسجد-الماس" type="مسجد">مسجد الماس</orgName></placeName> ب<placeName ref="الحلمية">الحلمية</placeName> اعمال
                      <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>رم
                      وتقوية<?oxy_custom_end?></cell>
                   <cell>٤٤</cell>
                </row>
                <row>
-                  <cell><placeName ref="مسجد-لاجين-السيفي" type="مسجد"><orgName
-                           ref="مسجد-لاجين-السيفي" type="مسجد">مسجد <persName>لاجين
-                              السيفي</persName></orgName></placeName> ب<placeName ref="شارع-مراسينة"
-                        type="شارع">شارع مراسينة</placeName> اعمال بناء ونجارة وغيره</cell>
+                  <cell><placeName ref="مسجد-لاجين-السيفي" type="مسجد"><orgName ref="مسجد-لاجين-السيفي" type="مسجد">مسجد <persName>لاجين
+                              السيفي</persName></orgName></placeName> ب<placeName ref="شارع-مراسينة" type="شارع">شارع مراسينة</placeName> اعمال بناء ونجارة وغيره</cell>
                   <cell>٨</cell>
                </row>
                <row>
@@ -299,27 +291,23 @@
                   <cell>٢٧</cell>
                </row>
                <row>
-                  <cell><placeName ref="مسجد-(مدفن)-قايتباى" type="مسجد"><orgName type="مسجد"
-                           ref="مسجد-(مدفن)-قايتباى">مسجد (مدفن) قايتباى</orgName></placeName>
+                  <cell><placeName ref="مسجد-(مدفن)-قايتباى" type="مسجد"><orgName type="مسجد" ref="مسجد-(مدفن)-قايتباى">مسجد (مدفن) قايتباى</orgName></placeName>
                      بالصحراء اعمال تقوية وإصلاح ورخام</cell>
                   <cell>٣.٥</cell>
                </row>
                <row>
-                  <cell><orgName ref="مسجد-(مدفن)-محمد-الناصر" type="مسجد"><placeName
-                           ref="مسجد-(مدفن)-محمد-الناصر" type="مسجد">مسجد (مدفن) محمد
+                  <cell><orgName ref="مسجد-(مدفن)-محمد-الناصر" type="مسجد"><placeName ref="مسجد-(مدفن)-محمد-الناصر" type="مسجد">مسجد (مدفن) محمد
                            الناصر</placeName></orgName> بالنحاسين اعمال نجارة وتبليط وغيره</cell>
                   <cell>١٨</cell>
                </row>
                <row>
-                  <cell><placeName ref="مسجد-ارغون-شاه-الإسماعيلي" type="مسجد"><orgName
-                           ref="مسجد-ارغون-شاه-الإسماعيلي" type="مسجد">مسجد <persName>ارغون شاه
+                  <cell><placeName ref="مسجد-ارغون-شاه-الإسماعيلي" type="مسجد"><orgName ref="مسجد-ارغون-شاه-الإسماعيلي" type="مسجد">مسجد <persName>ارغون شاه
                               الإسماعيلي</persName></orgName></placeName>
                         ب<placeName>الناصرية</placeName> اعمال اصلاح المنبر</cell>
                   <cell>٢٠</cell>
                </row>
                <row>
-                  <cell><placeName ref="سبيل-وكتاب-بيبرس-جاشنكير" type="سبيل-وكتاب"><orgName
-                           ref="سبيل-وكتاب-بيبرس-جاشنكير" type="سبيل-كتاب">سبيل وكتاب
+                  <cell><placeName ref="سبيل-وكتاب-بيبرس-جاشنكير" type="سبيل-وكتاب"><orgName ref="سبيل-وكتاب-بيبرس-جاشنكير" type="سبيل-كتاب">سبيل وكتاب
                               <persName>بيبرس جاشنكير</persName></orgName></placeName>
                         ب<placeName>الجمالية</placeName> اعمال هدم وبناء</cell>
                   <cell>٢٤</cell>
@@ -338,19 +326,13 @@
                المواقيت المحددة للتزايد بعد اطلاعه على قائمة شروط المزاد ودفع تامين بواقع المائة
                عشرين من الثمن الأساسي ومن يتأخر عن هذه المواعيد يعتبر تاخيره كف يد</p>
             <div>
-               <p>(عقارات جلسة مزادها يوم ٥ مارس سنة ١٩٠٨ ب<orgName type="مامورية"
-                     ref="مامورية-اوقاف-قسم-ثاني">مامورية اوقاف قسم ثاني</orgName> امام <orgName
-                     type="سوق" ref="سوق-الخضار-الجديد-بمصر"><placeName ref="سوق-الخضار-الجديد-بمصر"
-                        type="سوق">سوق الخضار الجديد بمصر</placeName></orgName>)</p>
+               <p>(عقارات جلسة مزادها يوم ٥ مارس سنة ١٩٠٨ ب<orgName type="مامورية" ref="مامورية-اوقاف-قسم-ثاني">مامورية اوقاف قسم ثاني</orgName> امام <orgName type="سوق" ref="سوق-الخضار-الجديد-بمصر"><placeName ref="سوق-الخضار-الجديد-بمصر" type="سوق">سوق الخضار الجديد بمصر</placeName></orgName>)</p>
                <list rend="bulleted">
                   <item>
-                     <hi style="font-size:16ptdirection:rtl;">٦ قراريط في منزل ب<placeName
-                           ref="عطفة-أولاد-شعيب" type="عطفة">عطفة أولاد شعيب</placeName>
-                        <placeName ref="قسم-عابدين" type="قسم"><orgName ref="قسم-عابدين" type="قسم"
-                              >قسم عابدين</orgName></placeName> بمصر مساحته ٤٠.١١ مترا بالكامل الثمن
+                     <hi style="font-size:16ptdirection:rtl;">٦ قراريط في منزل ب<placeName ref="عطفة-أولاد-شعيب" type="عطفة">عطفة أولاد شعيب</placeName>
+                        <placeName ref="قسم-عابدين" type="قسم"><orgName ref="قسم-عابدين" type="قسم">قسم عابدين</orgName></placeName> بمصر مساحته ٤٠.١١ مترا بالكامل الثمن
                         الأساسي ٦٠ جنيها عن حصة الوقف</hi></item>
-                  <item><hi style="font-size:16ptdirection:rtl;">دكان وعليه ركوب للغير ب<placeName
-                           ref="درب-المناخ" type="درب">درب المناخ</placeName> قسم عابدين بمصر مساحته
+                  <item><hi style="font-size:16ptdirection:rtl;">دكان وعليه ركوب للغير ب<placeName ref="درب-المناخ" type="درب">درب المناخ</placeName> قسم عابدين بمصر مساحته
                         ٧.٤٩ امتار الثمن الأساسي ١٥٠ جنيه</hi></item>
                   <item><hi style="font-size:16ptdirection:rtl;" xml:space="preserve">دكان وعليه ركوب للغير ب<placeName ref="شارع-العشماوى" type="شارع">شارع العشماوى</placeName> بمصر مساحته ٨.٨٥ امتار الثمن الأساسي ٨٦ جنيها</hi></item>
                </list>
@@ -375,11 +357,8 @@
                   <biblScope unit="page">صفحة ٦٦٠</biblScope></bibl></head>
             <head><orgName ref="إدارة-أملاك-الميري-الحرة" type="إدارة">إدارة أملاك الميري
                   الحرة</orgName></head>
-            <p>ليكن معلوما لدى العموم انه بجلسة <orgName
-                  ref="قومسيون-بيع-أملاك-واراضي-الميري-بالمحروسة" type="قومسيون">قومسيون بيع أملاك
-                  واراضي الميري بالمحروسة</orgName> المزمع انعقادها ب<orgName
-                  ref="ديوان-نظارة-المالية" type="ديوان">ديوان <orgName ref="نظارة-المالية"
-                     type="نظارة">نظارة المالية</orgName></orgName> (إدارة أملاك الميري الحرة) في
+            <p>ليكن معلوما لدى العموم انه بجلسة <orgName ref="قومسيون-بيع-أملاك-واراضي-الميري-بالمحروسة" type="قومسيون">قومسيون بيع أملاك
+                  واراضي الميري بالمحروسة</orgName> المزمع انعقادها ب<orgName ref="ديوان-نظارة-المالية" type="ديوان">ديوان <orgName ref="نظارة-المالية" type="نظارة">نظارة المالية</orgName></orgName> (إدارة أملاك الميري الحرة) في
                يوم الثلاثاء ٣١ مارس ١٩٠٨ من الساعه ١٠ افرنكي صباحا لغاية الساعه ١٢ الظهر سيصير اشهار
                مزاد بيع العقارات الموضح بيانها بعد فكل من له رغبة في المشترى يحضر هو او وكيل عنه
                بجلسة المزاد في الميعاد المرقوم للمزايدة امام القومسيون وعليه ان يدفع تامين المائة ٢٠
@@ -391,17 +370,14 @@
                وعلى هذا لزم الإعلان</p>
             <list rend="bulleted">
                <item>
-                  <hi style="font-size:16ptdirection:rtl;">خربة ب<placeName type="درب"
-                        ref="الدرب-المسدود">الدرب المسدود</placeName> ب<orgName ref="قسم-الخليفة"
-                        type="قسم"><placeName ref="قسم-الخليفة" type="قسم">قسم
+                  <hi style="font-size:16ptdirection:rtl;">خربة ب<placeName type="درب" ref="الدرب-المسدود">الدرب المسدود</placeName> ب<orgName ref="قسم-الخليفة" type="قسم"><placeName ref="قسم-الخليفة" type="قسم">قسم
                         الخليفة</placeName></orgName> مقاسها ٢١.٥٠ مترا وثمنها الأساسي ١٧ جنيها و٢٠٠
                      مليم فئة المتر ٨٠٠ مليم والتامين اللازم دفعه ٣ جنيهات و٤٤٠ مليم وعلى من تباع
                      اليه الخربة المذكورة ان يتعهد كتابة بانه اذا ظهر المالك او ورثته فلا يحق له
                      حينئذ الا استرداد المبلغ الذى يكون حصل المشترى بمقتضاه مع ما يتبعه من
                      المصاريف.</hi></item>
                <item>
-                  <hi style="font-size:16ptdirection:rtl;">خربة كائنة ب<placeName ref="درب-غزية"
-                        type="درب">درب غزية</placeName> بقسم الخليفة مقاسها ٢٣٠.٥ متر وثمنها الأساسي
+                  <hi style="font-size:16ptdirection:rtl;">خربة كائنة ب<placeName ref="درب-غزية" type="درب">درب غزية</placeName> بقسم الخليفة مقاسها ٢٣٠.٥ متر وثمنها الأساسي
                      ١٣٨ جنيه و٣٠ مليما فئة المتر ٦٠٠ مليم ومقدار التامين اللازم دفعه ٢٧ جنيها و٦٠٦
                      مليم.</hi></item>
                <item><hi style="font-size:16ptdirection:rtl;">حصة قدرها ٩ قراريط من خربة كائنة
@@ -411,8 +387,7 @@
                <item><hi style="font-size:16ptdirection:rtl;" xml:space="preserve">حصة ١٢ قيراطا في بناء عشه مقامه على <placeName ref="ارض-جركس" type="ارض">ارض جركس</placeName> ب<placeName ref="بولاق">بولاق</placeName> محكورة وثمنها الأساسي ١ جنيه و٥٠٠ مليم عن البناء والتامين اللازم دفعه ٣٠ مليم ومسطح الأرض القائم عليها بناء العشه ٩.٧٥ متر</hi></item>
                <item>
                   <hi style="font-size:16ptdirection:rtl;">حصة ٣ قراريط وكسور من سهم قيراط في حوش
-                        ب<placeName ref="الحطابة">الحطابة</placeName> ب<placeName ref="قسم-بولاق"
-                        type="قسم"><orgName ref="قسم-بولاق" type="قسم">قسم
+                        ب<placeName ref="الحطابة">الحطابة</placeName> ب<placeName ref="قسم-بولاق" type="قسم"><orgName ref="قسم-بولاق" type="قسم">قسم
                         بولاق</orgName></placeName> مقاسها ٢٣.٢٧ متر وثمنها الأساسي ٥٨ جنيها و٤٠٠
                      مليم عن الحصة والتامين اللازم دفعه ١١ جنيها و٦٨٠ مليم ومسطح ارض الحوش المذكور
                      ٢١٣.٥٤ متر.</hi>
@@ -424,19 +399,13 @@
                <date when="1908-03-21">٢٥ مارس ١٩٠٨</date>
                <bibl><biblScope unit="issue">عدد ٣٤</biblScope>
                   <biblScope unit="page">صفحة ٧٠٠</biblScope></bibl></head>
-            <head>اعلان من <orgName ref="بطريكخانة-الاقباط-الأرثوذكس" type="بطريكخانة"><placeName
-                     ref="بطريكخانة-الاقباط-الأرثوذكس" type="بطركخانة">بطريكخانة الاقباط
+            <head>اعلان من <orgName ref="بطريكخانة-الاقباط-الأرثوذكس" type="بطريكخانة"><placeName ref="بطريكخانة-الاقباط-الأرثوذكس" type="بطركخانة">بطريكخانة الاقباط
                      الأرثوذكس</placeName></orgName></head>
-            <p> تطرح بطريكخانة الاقباط الأرثوذكس الكائن مركزها ب<placeName type="درب"
-                  ref="الدرب-الواسع">الدرب الواسع</placeName> بالمناقصة الاعمال الاتية:</p>
-            <p>أولا – انشاء منزل ب<placeName ref="سوق-القبيلة" type="سوق"><orgName type="سوق"
-                     ref="سوق-القبيلة">سوق القبيلة</orgName></placeName> تبع <orgName
-                  ref="قسم-الازبكية" type="قسم"><placeName ref="قسم-الازبكية" type="قسم">قسم
+            <p> تطرح بطريكخانة الاقباط الأرثوذكس الكائن مركزها ب<placeName type="درب" ref="الدرب-الواسع">الدرب الواسع</placeName> بالمناقصة الاعمال الاتية:</p>
+            <p>أولا – انشاء منزل ب<placeName ref="سوق-القبيلة" type="سوق"><orgName type="سوق" ref="سوق-القبيلة">سوق القبيلة</orgName></placeName> تبع <orgName ref="قسم-الازبكية" type="قسم"><placeName ref="قسم-الازبكية" type="قسم">قسم
                      الازبكية</placeName></orgName> مركب من دكاكين وثلاث طبقات</p>
-            <p>ثانيا – الاعمال اللازمة لتكميل مباني <placeName ref="مدرسة-الصنائع-القبطية-ببولاق"
-                  type="مدرسة"><orgName ref="مدرسة-الصنائع-القبطية-ببولاق" type="مدرسة">مدرسة
-                     الصنائع القبطية ب<placeName ref="بولاق"
-               >بولاق</placeName></orgName></placeName></p>
+            <p>ثانيا – الاعمال اللازمة لتكميل مباني <placeName ref="مدرسة-الصنائع-القبطية-ببولاق" type="مدرسة"><orgName ref="مدرسة-الصنائع-القبطية-ببولاق" type="مدرسة">مدرسة
+                     الصنائع القبطية ب<placeName ref="بولاق">بولاق</placeName></orgName></placeName></p>
             <p>وقد تحدد لقبول العطاات ميعاد ١٥ ابريل ١٩٠٨ الساعه ١١ افرنجي صباحا</p>
             <p>فكل من يرغب الدخول في هذه المناقصة او جزء منها يمكنه الاطلاع على الشروط والرسومات
                ب<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ديوات البطريكخانة
@@ -444,8 +413,7 @@
                والاعياد</p>
             <p>والعطاات تقدم على المقايسات المختصة بها ويتوضح امام كل بند من بنود المقايسة المذكورة
                الاثمان بالجنيهات المصرية والمليمات وترسل العطاات باسم جناب مراقب بطريكخانة الاقباط
-               الأرثوذكس بالدرب الواسع (بمصر) داخل مظروف ويكتب عليه (عطاء عن انشاء <placeName
-                  ref="عمارة-سوق-القبيلة" type="عمارة">عمارة سوق القبيلة</placeName>) ( وعطاء عن
+               الأرثوذكس بالدرب الواسع (بمصر) داخل مظروف ويكتب عليه (عطاء عن انشاء <placeName ref="عمارة-سوق-القبيلة" type="عمارة">عمارة سوق القبيلة</placeName>) ( وعطاء عن
                اللازم لمباني المدرسة الصناعية القبطية ببولاق) </p>
             <p>ويرفق بكل عطاء مبلغ ٣٠٠ جنيه مصري بصفة تامين تحت تصرف البطريكخانة والديوان يحفظ لنفسه
                الحق في قبول او رفض اقل عطاء او جزء من إي عطاء كان</p>
@@ -494,18 +462,10 @@
                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الشروط
                هي<?oxy_custom_end?> الاتية</p>
             <list rend="numbered">
-               <item><hi style="font-size:16ptdirection:rtl;">عمارة انشاء <orgName
-                        ref="جامع-ابي-اليسر" type="جامع"><orgName ref="جامع-ابي-اليسر" type="جامع"
-                           >جامع ابي اليسر</orgName></orgName> ب<placeName ref="الناصرية"
-                        >الناصرية</placeName> ب<placeName ref="القاهرة"
-                  >القاهرة</placeName></hi></item>
-               <item><hi style="font-size:16ptdirection:rtl;">عمارة <orgName
-                        ref="مستشفي-السلطان-قلاوون" type="عمارة"><placeName
-                           ref="مستشفي-السلطان-قلاوون" type="عمارة">مستشفي <persName>السلطان
-                              قلاوون</persName></placeName></orgName> داخل منطقة <orgName
-                        ref="جامع-قلاوون" type="جامع"><placeName ref="جامع-قلاوون" type="جامع">جامع
-                           قلاوون</placeName></orgName> ب<placeName ref="النحاسين"
-                        >النحاسين</placeName> بالقاهرة</hi></item>
+               <item><hi style="font-size:16ptdirection:rtl;">عمارة انشاء <orgName ref="جامع-ابي-اليسر" type="جامع"><orgName ref="جامع-ابي-اليسر" type="جامع">جامع ابي اليسر</orgName></orgName> ب<placeName ref="الناصرية">الناصرية</placeName> ب<placeName ref="القاهرة">القاهرة</placeName></hi></item>
+               <item><hi style="font-size:16ptdirection:rtl;">عمارة <orgName ref="مستشفي-السلطان-قلاوون" type="عمارة"><placeName ref="مستشفي-السلطان-قلاوون" type="عمارة">مستشفي <persName>السلطان
+                              قلاوون</persName></placeName></orgName> داخل منطقة <orgName ref="جامع-قلاوون" type="جامع"><placeName ref="جامع-قلاوون" type="جامع">جامع
+                           قلاوون</placeName></orgName> ب<placeName ref="النحاسين">النحاسين</placeName> بالقاهرة</hi></item>
                <item><hi style="font-size:16ptdirection:rtl;" xml:space="preserve">عمارة مدرسة ومحل سكن وملحقات طلبة العلم ب<placeName ref="جامع-محمد-بك-أبو-الذهب" type="جامع"><orgName ref="جامع-محمد-بك-أبو-الذهب" type="جامع">جامع محمد بك أبو الذهب</orgName></placeName> ب<placeName ref="جهة-الازهر" type="جهة">جهة الازهر</placeName> بالقاهرة</hi></item>
                <item><hi style="font-size:16ptdirection:rtl;" xml:space="preserve">عمارة انشاء <placeName ref="منزل-لوقف-كعب-الاحبار" type="منزل">منزل ل<placeName type="وقف" ref="وقف-كعب-الاحبار"><orgName type="وقف" ref="وقف-كعب-الاحبار">وقف كعب الاحبار</orgName></placeName></placeName> بالناصرية بالقاهرة</hi></item>
                <item><hi style="font-size:16ptdirection:rtl;" xml:space="preserve">عمارة انشاء وتجديد محلات للريع على <placeName ref="مربع-وقف-اوزبك" type="ديوان">المربع <orgName ref="وقف-اوزبك" type="وقف"><placeName ref="وقف-اوزبك" type="وقف">وقف اوزبك</placeName></orgName></placeName> ب<placeName ref="العتبة-الخضرا">العتبة الخضرا</placeName> بمصر</hi></item>
@@ -526,12 +486,10 @@
                القانونية الأراضي المبين بالرسم لزومها لانشاء الشوارع المعمول عنها الرسم المذكور. ومن
                تاريخ صدور الامر العالى المشار اليه لا يجوز إقامة اى بناء على الأرض اللازم نزع
                ملكيتها"</p>
-            <p>وبناء على ما عرضه علينا ناظر الاشغال العمومية وموافقة راى <orgName ref="مجلس-النظار"
-                  type="مجلس">مجلس النظار</orgName></p>
+            <p>وبناء على ما عرضه علينا ناظر الاشغال العمومية وموافقة راى <orgName ref="مجلس-النظار" type="مجلس">مجلس النظار</orgName></p>
             <p>امرنا بما هو ات</p>
             <p>(يجرى التنظيم على الشوارع والطرق كالجدول الاتي)</p>
-            <p>صدر ب<orgName ref="سراى-عابدين" type="سراى"><placeName ref="سراى-عابدين" type="سراى"
-                     >سراى عابدين</placeName></orgName> ٢ ابريل ١٩٠٨</p>
+            <p>صدر ب<orgName ref="سراى-عابدين" type="سراى"><placeName ref="سراى-عابدين" type="سراى">سراى عابدين</placeName></orgName> ٢ ابريل ١٩٠٨</p>
             <div>
                <head>كشف حرف (أ) عن الشوارع وأجزاء الشوارع التي الغيت لغاية شهر سبتمبر ١٩٠٧</head>
                <table>
@@ -543,9 +501,7 @@
                   <row>
                      <cell>٨٠٤</cell>
                      <cell>٤ مارس ١٩٠٧</cell>
-                     <cell>الغاء خطوط تنظيم جزء بنهاية <placeName ref="عطفة-أبو-إسماعيل" type="عطفة"
-                           >عطفة أبو إسماعيل</placeName> الاخذه من <placeName ref="شارع-البقلي"
-                           type="شارع">شارع البقلي</placeName> واعتبار الخط A B خطا للتنطيم</cell>
+                     <cell>الغاء خطوط تنظيم جزء بنهاية <placeName ref="عطفة-أبو-إسماعيل" type="عطفة">عطفة أبو إسماعيل</placeName> الاخذه من <placeName ref="شارع-البقلي" type="شارع">شارع البقلي</placeName> واعتبار الخط A B خطا للتنطيم</cell>
                   </row>
                   <row>
                      <cell>٦٩٨</cell>
@@ -557,9 +513,7 @@
                   <row>
                      <cell/>
                      <cell>٣٠ مارس ١٩٠٧</cell>
-                     <cell>الغاء خطوط تنظيم الزقاق المدلول عليه بالحرف A المتفرع من <placeName
-                           ref="شارع-غيط-النوبي" type="شارع">شارع <placeName type="غيط"
-                              ref="غيط-النوبي">غيط النوبي</placeName></placeName> ومن خط التنظيم AB
+                     <cell>الغاء خطوط تنظيم الزقاق المدلول عليه بالحرف A المتفرع من <placeName ref="شارع-غيط-النوبي" type="شارع">شارع <placeName type="غيط" ref="غيط-النوبي">غيط النوبي</placeName></placeName> ومن خط التنظيم AB
                         على فم الزقاق المذكور</cell>
                   </row>
                   <row>
@@ -573,14 +527,12 @@
                      <cell>١١٤٧</cell>
                      <cell>٢٠ يوليه ١٩٠٧</cell>
                      <cell>الغاء خطوط تنظيم الشارع المدلول عليه بحرفي A B بخريطة تقسيم أراضي
-                           <placeName ref="القبة">القبة</placeName> و<placeName ref="المطرية"
-                           >المطرية</placeName></cell>
+                           <placeName ref="القبة">القبة</placeName> و<placeName ref="المطرية">المطرية</placeName></cell>
                   </row>
                   <row>
                      <cell>٦٠٠</cell>
                      <cell>٣١ أغسطس ١٩٠٧</cell>
-                     <cell>الغاء خطوط تنظيم زقاق واقع ب<placeName ref="حارة-الشاذلية" type="حارة"
-                           >حارة الشاذلية</placeName> سد فمه بخط التنظيم الأزرق A B</cell>
+                     <cell>الغاء خطوط تنظيم زقاق واقع ب<placeName ref="حارة-الشاذلية" type="حارة">حارة الشاذلية</placeName> سد فمه بخط التنظيم الأزرق A B</cell>
                   </row>
                </table>
             </div>
@@ -597,15 +549,13 @@
                      <cell>١١٦٠</cell>
                      <cell>٢٠ مايو ١٩٠٧</cell>
                      <cell>تعديل خطوط تنظيم <placeName ref="شارع-جعفر" type="شارع">شارعى
-                           جعفر</placeName> و<placeName ref="شارع-المسافرخانة" type="شارع"
-                           >المسافرخانة</placeName> لجعلهما بعرض ٨ امتار</cell>
+                           جعفر</placeName> و<placeName ref="شارع-المسافرخانة" type="شارع">المسافرخانة</placeName> لجعلهما بعرض ٨ امتار</cell>
                   </row>
                   <row>
                      <cell>٢٣٥</cell>
                      <cell>٢٧ يونيو ١٩٠٧</cell>
                      <cell>تعديل خطوط تنظيم أجزاء ب<placeName ref="درب-الشيخ-صالح" type="درب">درب
-                              <persName>الشيخ صالح</persName></placeName> ب<placeName
-                           ref="حارة-الحكر" type="حارة">حارة الحكر</placeName></cell>
+                              <persName>الشيخ صالح</persName></placeName> ب<placeName ref="حارة-الحكر" type="حارة">حارة الحكر</placeName></cell>
                   </row>
                   <row>
                      <cell>٣٠٥</cell>
@@ -630,38 +580,29 @@
                   <row>
                      <cell>١١٦٠ و ١٢٥١</cell>
                      <cell>٣١ يناير ١٩٠٧</cell>
-                     <cell>تعديل خطوط التنظيم ب<placeName ref="شارع-الترعة-البولاقية" type="شارع"
-                           >شارع <placeName ref="الترعة-البولاقية" type="شارع">الترعة
+                     <cell>تعديل خطوط التنظيم ب<placeName ref="شارع-الترعة-البولاقية" type="شارع">شارع <placeName ref="الترعة-البولاقية" type="شارع">الترعة
                               البولاقية</placeName></placeName> حسب المبين على رسمي التنظيم بالحروف
-                        (ا ب ج د ـ اب ج د هـ و ر س ص ط ع ف ق ك ) وامتداد <placeName ref="شارع-جعفر"
-                           type="شارع">شارعى جعفر</placeName> و<placeName ref="شارع-القنطرة"
-                           type="شارع">القنطرة</placeName> لغاية شارع الترعة البولاقية وجعل عرض
+                        (ا ب ج د ـ اب ج د هـ و ر س ص ط ع ف ق ك ) وامتداد <placeName ref="شارع-جعفر" type="شارع">شارعى جعفر</placeName> و<placeName ref="شارع-القنطرة" type="شارع">القنطرة</placeName> لغاية شارع الترعة البولاقية وجعل عرض
                         الأول ٨ امتار والأخر ٦ امتار</cell>
                   </row>
                   <row>
                      <cell>٤٢٣ و ١١٨٣</cell>
                      <cell>٤ مارس ١٩٠٧</cell>
-                     <cell>تعديل خط تنظيم جزء بشارع غربي <placeName ref="قشلاق-العساكر-بالعباسية"
-                           type="قشلاق"><orgName ref="قشلاق-العساكر-بالعباسية" type="قشلاق">قشلاق
-                              العساكر ب<placeName ref="العباسية"
-                           >العباسية</placeName></orgName></placeName> حسب الخط الأزرق A B C</cell>
+                     <cell>تعديل خط تنظيم جزء بشارع غربي <placeName ref="قشلاق-العساكر-بالعباسية" type="قشلاق"><orgName ref="قشلاق-العساكر-بالعباسية" type="قشلاق">قشلاق
+                              العساكر ب<placeName ref="العباسية">العباسية</placeName></orgName></placeName> حسب الخط الأزرق A B C</cell>
                   </row>
                   <row>
                      <cell>١٢٥٦</cell>
                      <cell>٣١ يوليه ١٩٠٧</cell>
                      <cell>تعد خط تنظيم <placeName ref="شارع-سيدى-أبو-السعود" type="شارع">شوارع
-                              <persName>سيدى أبو السعود</persName></placeName> و<placeName
-                           type="شارع" ref="شارع-الفسطاس"
-                           ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الفسطاس<?oxy_custom_end?></placeName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_custom_end?>و<placeName
-                           ref="شارع-سيدى-حسن-الانور" type="شارع"><persName>سيدى حسن
+                              <persName>سيدى أبو السعود</persName></placeName> و<placeName type="شارع" ref="شارع-الفسطاس"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الفسطاس<?oxy_custom_end?></placeName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_custom_end?>و<placeName ref="شارع-سيدى-حسن-الانور" type="شارع"><persName>سيدى حسن
                               الانور</persName></placeName> لجعل عرض الأول ٢٠ مترا بدلا من ١٢ مترا
                         والثاني ٢٠ مترا بدلا من ٢٧ مترا والثالث ٢٠ مترا</cell>
                   </row>
                   <row>
                      <cell>٥٩٣ و ١١٨٨</cell>
                      <cell>٧ يوليه ١٩٠٧</cell>
-                     <cell>تصحيح وتعديل خطوط تنظيم جزء ب<placeName ref="عطفة-مراد-بك" type="عطفة"
-                           >عطفة <persName>مراد بك</persName></placeName></cell>
+                     <cell>تصحيح وتعديل خطوط تنظيم جزء ب<placeName ref="عطفة-مراد-بك" type="عطفة">عطفة <persName>مراد بك</persName></placeName></cell>
                   </row>
                   <row>
                      <cell>٩٣</cell>
@@ -683,17 +624,14 @@
                   <row>
                      <cell>١٠١٥</cell>
                      <cell>٣١ يناير ١٩٠٧</cell>
-                     <cell>تقرير خطوط تنظيم على قطعة الأرض B المهشرة بالاحمر لاقامة كشك ل<orgName
-                           ref="مصلحة-التنظيم" type="مصلحة">مصلحة التنظيم</orgName> عليها</cell>
+                     <cell>تقرير خطوط تنظيم على قطعة الأرض B المهشرة بالاحمر لاقامة كشك ل<orgName ref="مصلحة-التنظيم" type="مصلحة">مصلحة التنظيم</orgName> عليها</cell>
                   </row>
                   <row>
                      <cell>٤٣ و ٤٤</cell>
                      <cell>١٢ مارس ١٩٠٧</cell>
                      <cell>الغاء جزء من خط تنظيم
                         <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>رب
-                        العجانة<?oxy_custom_end?> نمرة ٤٣ وجزء من خط تنظيم <placeName
-                           ref="شارع-درب-المدبح" type="شارع">شارع <placeName ref="درب-المدبح"
-                              type="درب">درب المدبح</placeName></placeName> نمرة ٤٤ لتوصيل الدرب
+                        العجانة<?oxy_custom_end?> نمرة ٤٣ وجزء من خط تنظيم <placeName ref="شارع-درب-المدبح" type="شارع">شارع <placeName ref="درب-المدبح" type="درب">درب المدبح</placeName></placeName> نمرة ٤٤ لتوصيل الدرب
                         المذكور بالشارع وتقرير خطوط تنظيم جديدة بجانبي المسافة اللازمة لهذا
                         التوصيل</cell>
                   </row>
@@ -719,19 +657,15 @@
                   <row>
                      <cell>١٢٠١</cell>
                      <cell>٤ فبراير ١٩٠٧</cell>
-                     <cell>خريطة تقسيم القطعة الأرض المعروفة قديما ب<placeName
-                           ref="جنينة-المرحوم-وهبي-باشا" type="جنينة">جنينة المرحوم <persName>وهبي
+                     <cell>خريطة تقسيم القطعة الأرض المعروفة قديما ب<placeName ref="جنينة-المرحوم-وهبي-باشا" type="جنينة">جنينة المرحوم <persName>وهبي
                               باشا</persName></placeName></cell>
                   </row>
                   <row>
                      <cell>١٢٦٦</cell>
                      <cell>٤ فبراير ١٩٠٨</cell>
-                     <cell>رسم القطعة الأرض المعروفة سابقا ب<placeName ref="ارض-لينان-باشا"
-                           type="ارض">ارض <persName>لينان باشا</persName></placeName> المشتملة على
+                     <cell>رسم القطعة الأرض المعروفة سابقا ب<placeName ref="ارض-لينان-باشا" type="ارض">ارض <persName>لينان باشا</persName></placeName> المشتملة على
                            <placeName ref="شارع-الكنيسة" type="شارع">شوارع الكنيسة</placeName>
-                           و<placeName ref="شارع-الكحيل" type="شارع">الكحيل</placeName> و<placeName
-                           ref="شارع-الكونت" type="شارع">الكونت</placeName> و<placeName
-                           ref="شارع-النحاس" type="شارع">النحاس</placeName></cell>
+                           و<placeName ref="شارع-الكحيل" type="شارع">الكحيل</placeName> و<placeName ref="شارع-الكونت" type="شارع">الكونت</placeName> و<placeName ref="شارع-النحاس" type="شارع">النحاس</placeName></cell>
                   </row>
                   <row>
                      <cell>١٢٦٧</cell>
@@ -745,8 +679,7 @@
                      <cell>١٢٦٨</cell>
                      <cell>٧ مارس ١٩٠٨</cell>
                      <cell><placeName ref="شارع-الشيخ-الحداد" type="شارع">شارع <persName>الشيخ
-                              الحداد</persName></placeName> ب<placeName ref="قرافة-المجاورين"
-                           type="قرافة">قرافة المجاورين</placeName></cell>
+                              الحداد</persName></placeName> ب<placeName ref="قرافة-المجاورين" type="قرافة">قرافة المجاورين</placeName></cell>
                   </row>
                   <row>
                      <cell>١٢٦٩</cell>
@@ -763,11 +696,7 @@
                   <row>
                      <cell>١٢٧١</cell>
                      <cell>٢٢ يوليه ١٩٠٨</cell>
-                     <cell>رسم الشارعين الواقعين على جانبي <placeName ref="البحر-الاعمي" type="بحر"
-                           >البحر الاعمي</placeName> في المنطقة المحصورة بين <placeName
-                           ref="كوبري-الانجليز" type="كوبرى">كوبري الانجليز</placeName> و<placeName
-                           ref="كوبري-الزمالك-الجديد" type="كوبرى">كوبري <placeName ref="الزمالك"
-                              >الزمالك</placeName> الجديد</placeName></cell>
+                     <cell>رسم الشارعين الواقعين على جانبي <placeName ref="البحر-الاعمي" type="بحر">البحر الاعمي</placeName> في المنطقة المحصورة بين <placeName ref="كوبري-الانجليز" type="كوبرى">كوبري الانجليز</placeName> و<placeName ref="كوبري-الزمالك-الجديد" type="كوبرى">كوبري <placeName ref="الزمالك">الزمالك</placeName> الجديد</placeName></cell>
                   </row>
                   <row>
                      <cell>١٢٧٢</cell>
@@ -784,8 +713,7 @@
                      <cell>١٢٧٤</cell>
                      <cell>٨ أغسطس ١٩٠٨</cell>
                      <cell>خريطة <placeName type="شارع" ref="شارع-المدبولى">شارع
-                           المدبولى</placeName> و<placeName ref="شارع-عباس" type="شارع"
-                           >عباس</placeName></cell>
+                           المدبولى</placeName> و<placeName ref="شارع-عباس" type="شارع">عباس</placeName></cell>
                   </row>
                </table>
             </div>
