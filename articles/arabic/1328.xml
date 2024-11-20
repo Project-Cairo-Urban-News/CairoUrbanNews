@@ -482,443 +482,559 @@
          </div>
          <div>
             <head>تحذف من الاخطاط المخصصة لسكن العائلات فقط وغير معدة للتجارة المبينة في المادة الأولى من القرار المشار اليه قبل الشوارع وأجزاء الشوارع والحوارى المبينة بعد</head>
-            <p>(قسم الازبكية)</p>
-            <p>شارع عماد الدين</p>
-            <p>(قسم باب الشعرية)</p>
-            <p>شارع الخليج المصرى من شارع الظاهر الى شارع الامبابي</p>
-            <p>(قسم مصر القديمة)</p>
-            <p>شارع كوم غراب</p>
-            <p>(قسم حلوان </p>
-            <p>شارع محمد سيد احمد باشا من شارع منصور الى الجراند اوتيل </p>
-            <p>شارع حيدر باشا من شارع محمد سيد احمد باشا الى بنسيون أنطونيو</p>
-            <p>شارع زكي باشا من شارع المحطة الى شارع رياض باشا</p>
+            <p>(<placeName ref="قسم الازبكية" type="قسم"><orgName ref="قسم الازبكية" type="قسم">قسم
+                     الازبكية</orgName></placeName>)</p>
+            <p><placeName ref="شارع عماد الدين" type="شارع">شارع عماد الدين</placeName></p>
+            <p>(<placeName type="قسم" ref="قسم باب الشعرية"><orgName ref="قسم باب الشعرية"
+                     type="قسم">قسم باب الشعرية</orgName></placeName>)</p>
+            <p><placeName ref="شارع الخليج المصرى" type="شارع">شارع الخليج المصرى</placeName> من
+                  <placeName ref="شارع الظاهر" type="شارع">شارع الظاهر</placeName> الى <placeName
+                  ref="شارع الامبابي" type="شارع">شارع الامبابي</placeName></p>
+            <p>(<placeName ref="قسم مصر القديمة" type="قسم"><orgName ref="قسم مصر القديمة"
+                     type="قسم">قسم مصر القديمة</orgName></placeName>)</p>
+            <p><placeName ref="شارع كوم غراب" type="شارع">شارع كوم غراب</placeName></p>
+            <p>(<placeName type="قسم" ref="قسم حلوان"><orgName ref="قسم حلوان" type="قسم">قسم
+                     حلوان</orgName></placeName>
+            </p>
+            <p><placeName ref="شارع محمد سيد احمد باشا" type="شارع">شارع <persName>محمد سيد احمد
+                     باشا</persName></placeName> من <placeName ref="شارع منصور" type="شارع">شارع
+                  منصور</placeName> الى <placeName ref="الجراند اوتيل" type="اوتيل"><orgName
+                     ref="الجراند اوتيل" type="اوتيل">الجراند اوتيل</orgName></placeName>
+            </p>
+            <p><placeName ref="شارع حيدر باشا" type="شارع">شارع <persName>حيدر
+                  باشا</persName></placeName> من شارع محمد سيد احمد باشا الى <placeName
+                  ref="بنسيون أنطونيو" type="بنسيون"><orgName ref="بنسيون أنطونيو" type="بنسيون"
+                     >بنسيون أنطونيو</orgName></placeName></p>
+            <p><placeName ref="شارع زكي باشا" type="شارع">شارع <persName>زكي
+                  باشا</persName></placeName> من <placeName ref="شارع المحطة" type="شارع">شارع
+                  المحطة</placeName> الى <placeName ref="شارع رياض باشا" type="شارع">شارع رياض
+                  باشا</placeName></p>
          </div>
          <div>
             <head>تضاف الى الاخطاط المخصصة لسكن العائلات فقط وغير معدة للتجارة المبينة في المادة الأولى من القرار المشار اليه قبل وأجزاء الشوارع والحوارى المبينة بعد</head>
-            <p>(قسم عابدين)</p>
-            <p>ميدان الازهار</p>
-            <p>شارع كوبري قصر النيل من مدان الازهار الى ميدان الإسماعيلية </p>
-            <p>شارع البستان من ميدان الازهار الى ميدان ماريت باشا </p>
-            <p>جميع شارع سليمان باشا ما عدا الجزء الواقع بين "سركل الباتيناج" وميدان سليمان باشا</p>
-            <p>(قسم السيدة زينب)</p>
-            <p>شارع الشيخ يوسف</p>
-            <p>شارع القصر العيني والخط المسمي "جاردن سيتي" باجمعه</p>
-            <p>شارع الداخلية</p>
-            <p>كامل خط المنيرة الواقع بين شارع المبتديان وشارع القصر العيني وشارع مدرسة الطب </p>
+            <p>(<placeName ref="قسم عابدين" type="قسم"><orgName ref="قسم عابدين" type="قسم">قسم
+                     عابدين</orgName></placeName>)</p>
+            <p><placeName ref="ميدان الازهار" type="ميدان">ميدان الازهار</placeName></p>
+            <p><placeName ref="شارع كوبري قصر النيل" type="شارع">شارع <orgName ref="كوبري قصر النيل"
+                     type="كوبري"><placeName ref="كوبري قصر النيل" type="كوبري">كوبري قصر
+                        النيل</placeName></orgName></placeName> من
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>مدان<?oxy_custom_end?>
+               الازهار الى <placeName ref="ميدان الإسماعيلية" type="ميدان">ميدان
+                  الإسماعيلية</placeName>
+            </p>
+            <p><placeName ref="شارع البستان" type="شارع">شارع البستان</placeName> من ميدان الازهار
+               الى <placeName ref="ميدان ماريت باشا" type="ميدان">ميدان ماريت باشا</placeName>
+            </p>
+            <p>جميع <placeName ref="شارع سليمان باشا" type="شارع">شارع سليمان باشا</placeName> ما
+               عدا الجزء الواقع بين "<placeName ref="سركل الباتيناج">سركل الباتيناج</placeName>"
+                  و<placeName ref="ميدان سليمان باشا" type="ميدان">ميدان سليمان باشا</placeName></p>
+            <p>(<placeName ref="قسم"><orgName ref="قسم السيدة زينب" type="قسم">قسم السيدة
+                     زينب</orgName></placeName>)</p>
+            <p><placeName ref="شارع الشيخ يوسف" type="شارع">شارع الشيخ يوسف</placeName></p>
+            <p><placeName ref="شارع القصر العيني" type="شارع">شارع القصر العيني</placeName> والخط
+               المسمي "<placeName ref="جاردن سيتي">جاردن سيتي</placeName>" باجمعه</p>
+            <p><placeName ref="شارع الداخلية" type="شارع">شارع الداخلية</placeName></p>
+            <p>كامل <placeName ref="خط المنيرة" type="خط">خط المنيرة</placeName> الواقع بين
+                  <placeName ref="شارع المبتديان" type="شارع">شارع المبتديان</placeName> وشارع القصر
+               العيني و<placeName ref="شارع مدرسة الطب" type="شارع">شارع مدرسة الطب</placeName>
+            </p>
             <list rend="bulleted">
                <item>
                   <hi style="font-size:14ptdirection:rtl;">شارع مدرسة الطب من شارع القصر العيني الى سكة حديد حلوان</hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">جميع الاخطاط المسماه جنينة الاظ وجنينة قاميش</hi>
+                  <hi style="font-size:14ptdirection:rtl;">جميع الاخطاط المسماه <placeName
+                        ref="جنينة الاظ" type="جنينة">جنينة الاظ</placeName> و<placeName
+                        ref="جنينة قاميش" type="جنينة">جنينة قاميش</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">جميع أراضي القصر القديم خاصة احمد باشا رشيد</hi>
+                  <hi style="font-size:14ptdirection:rtl;">جميع أراضي <placeName
+                        ref="القصر القديم خاصة احمد باشا رشيد" type="قصر">القصر القديم خاصة
+                           <persName>احمد باشا رشيد</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">شارع وهبي باشا</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="شارع وهبي باشا"
+                        type="شارع">شارع <persName>وهبي باشا</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">حارة البابلي</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="حارة البابلي" type="حارة"
+                        >حارة البابلي</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع الملك الناصر</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع الملك الناصر" type="شارع">شارع الملك الناصر</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع القصر الكبير</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع القصر الكبير" type="شارع">شارع القصر الكبير</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع بركة الناصرية</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع بركة الناصرية" type="شارع">شارع بركة الناصرية</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">الدرب الجديد</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="الدرب الجديد" type="درب"
+                        >الدرب الجديد</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">حارة جنيد</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="حارة جنيد" type="حارة"
+                        >حارة جنيد</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">حارة حوش النبقة</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="حارة حوش النبقة" type="حارة">حارة حوش النبقة</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">حارة حسن الكاشف</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="حارة حسن الكاشف" type="حارة">حارة حسن الكاشف</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">كشف الاخطاط المخصصة لسكن العائلات فقط وغير معدة للتجارة الكائنة بقسم الوايلي المبينة في المادة الأولى من القرار المشار اليه قبل يستبدل بالاتي</hi>
+                  <hi style="font-size:14ptdirection:rtl;">كشف الاخطاط المخصصة لسكن العائلات فقط
+                     وغير معدة للتجارة الكائنة ب<orgName ref="قسم الوايلي" type="قسم"><placeName
+                           ref="قسم الوايلي" type="قسم">قسم الوايلي</placeName></orgName> المبينة في
+                     المادة الأولى من القرار المشار اليه قبل يستبدل بالاتي</hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">حارة قنطرة الظاهر</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="حارة قنطرة الظاهر"
+                        type="حارة">حارة <orgName ref="قنطرة الظاهر" type="قنطرة"><placeName
+                              ref="قنطرة الظاهر" type="قنطرة">قنطرة
+                        الظاهر</placeName></orgName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع عزت باشا</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع عزت باشا" type="شارع">شارع <persName>عزت باشا</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع قنطرة غمرة</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع قنطرة غمرة" type="شارع">شارع <placeName ref="قنطرة غمرة" type="قنطرة"><orgName ref="قنطرة غمرة" type="قنطرة">قنطرة غمرة</orgName></placeName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع سكاكيني باشا</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع سكاكيني باشا" type="شارع">شارع سكاكيني باشا</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع سعيد</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع سعيد" type="شارع">شارع سعيد</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع هنري</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع هنري" type="شارع">شارع هنري</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع المدارس</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع المدارس" type="شارع">شارع المدارس</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع الشيخ قمر</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع الشيخ قمر" type="شارع">شارع الشيخ قمر</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع النزهة</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع النزهة" type="شارع">شارع النزهة</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">شارع الشرفا</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="شارع الشرفا" type="شارع"
+                        >شارع الشرفا</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع عباس</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع عباس" type="شارع">شارع عباس</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">شارع السبع والضبع</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName type="شارع"
+                        ref="شارع السبع والضبع">شارع السبع والضبع</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">شارع طور سينا</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="شارع طور سينا"
+                        type="شارع">شارع طور سينا</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع سبيل الخازندار</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع سبيل الخازندار" type="شارع">شارع سبيل الخازندار</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">عطفة بيوت الصافي من شارع العباسية الى شارع السبع والضبع</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="عطفة بيوت الصافي" type="عطفة">عطفة بيوت الصافي</placeName> من <placeName ref="شارع العباسية" type="شارع">شارع العباسية</placeName> الى شارع السبع والضبع</hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">عطفتى الزاوية من شارع العباسية الى شارع بين الجناين</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="عطفتى الزاوية"
+                        type="عطفة">عطفتى الزاوية</placeName> من شارع العباسية الى <placeName
+                        ref="شارع بين الجناين" type="شارع">شارع بين الجناين</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">عطفة المنافيخي من شارع العباسية بين الجناين</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="عطفة المنافيخي"
+                        type="عطفة">عطفة المنافيخي</placeName> من شارع العباسية بين الجناين</hi>
                </item>
                <item>
                   <hi style="font-size:14ptdirection:rtl;">شارع بين الجناين</hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">عطفة الجميل من شارع العباسية الى شارع بين الجناين ومنها فرع متصل بعطفة المنافيخي</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="عطفة الجميل" type="عطفة"
+                        >عطفة الجميل</placeName> من شارع العباسية الى شارع بين الجناين ومنها فرع
+                     متصل بعطفة المنافيخي</hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع سيد السمكرى من شارع العباسية الى شارع بين الجناين ومنه فرع متصل بشارع رضوان شكرى</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع سيد السمكرى" type="شارع">شارع سيد السمكرى</placeName> من شارع العباسية الى شارع بين الجناين ومنه فرع متصل ب<placeName ref="شارع رضوان شكرى" type="شارع">شارع <persName>رضوان شكرى</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">عطفة دانش من شارع العباسية الى شارع سيد السمكرى</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="عطفة دانش" type="عطفة"
+                        >عطفة دانش</placeName> من شارع العباسية الى شارع سيد السمكرى</hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع ابوخودة</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع ابوخودة" type="شارع">شارع ابوخودة</placeName></hi>
                </item>
                <item>
                   <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع رضوان شكرى</hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">شارع مختار باشا</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="شارع مختار باشا"
+                        type="شارع">شارع مختار باشا</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع حسن بك عيد</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع حسن بك عيد" type="شارع">شارع حسن بك عيد</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع ساويرس</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع ساويرس" type="شارع">شارع ساويرس</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع الاسبتالية النمساوية</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع الاسبتالية النمساوية" type="شارع">شارع <orgName ref="الاسبتالية النمساوية" type="اسبتالية"><placeName ref="الاسبتالية النمساوية" type="اسبتالية">الاسبتالية النمساوية</placeName></orgName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع الوايلية الصغري من شارع الست فاطمة النبوية الى شارع عباس من الجهة البحرية</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع الوايلية الصغري" type="شارع">شارع الوايلية الصغري</placeName> من <placeName ref="شارع الست فاطمة النبوية" type="شارع">شارع <persName>الست فاطمة النبوية</persName></placeName> الى <placeName ref="شارع عباس" type="شارع">شارع عباس</placeName> من الجهة البحرية</hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع المغربي</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع المغربي" type="شارع">شارع المغربي</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">شارع عبده باشا</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="شارع عبده باشا"
+                        type="شارع">شارع <persName>عبده باشا</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">حارة شاكر باشا من شارع العباسية الى شارع موسي قطاوى</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="حارة شاكر باشا" type="حارة">حارة <persName>شاكر باشا</persName></placeName> من شارع العباسية الى <placeName ref="شارع موسي قطاوى" type="شارع">شارع <persName>موسي قطاوى</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">عطفة الشيخ حامد ابتداء من شارع الوايلية الصغري ومسدودة من الجهة الغربية</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="عطفة الشيخ حامد" type="عطفة">عطفة <persName>الشيخ حامد</persName></placeName> ابتداء من <placeName ref="شارع الوايلية الصغري" type="شارع">شارع الوايلية الصغري</placeName> ومسدودة من الجهة الغربية</hi>
                </item>
                <item>
                   <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع موسي قطاوى</hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">حارة الفرن من شارع موسي قطاوى الى حارة وسط الجنينة</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="حارة الفرن" type="حارة">حارة الفرن</placeName> من شارع موسي قطاوى الى <placeName ref="حارة وسط الجنينة" type="حارة">حارة وسط الجنينة</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">حارة وسط الجنينة من شارع الوايلية الصغري الى شارع عبده باشا</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">حارة وسط الجنينة من شارع الوايلية الصغري الى <placeName ref="شارع عبده باشا" type="شارع">شارع عبده باشا</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع جنينة القوادر</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع جنينة القوادر" type="شارع">شارع جنينة القوادر</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">حارة حسن المره</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="حارة حسن المره" type="حارة">حارة <persName>حسن المره</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">حارة وسط الوايلية</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="حارة وسط الوايلية" type="حارة">حارة وسط الوايلية</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">حارة مدين</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="حارة مدين" type="حارة">حارة مدين</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">حارة الشيخ عبد الرحيم الدمرداش</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName
+                        ref="حارة الشيخ عبد الرحيم الدمرداش" type="حارة">حارة <persName>الشيخ عبد
+                           الرحيم الدمرداش</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">حارة ناصر</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="حارة ناصر" type="حارة">حارة ناصر</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">حارة السماع</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="حارة السماع" type="حارة">حارة السماع</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">حارة فهمى</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="حارة فهمى" type="حارة">حارة فهمى</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع عاكف</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع عاكف" type="شارع">شارع عاكف</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع ماهر باشا</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع ماهر باشا" type="شارع">شارع <persName>ماهر باشا</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">شارع القره قول</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="شارع القره قول"
+                        type="شارع">شارع القره قول</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">شارع محمد بك رفعت</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="شارع محمد بك رفعت"
+                        type="شارع">شارع <persName>محمد بك رفعت</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع مدرسة ولى العهد</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع مدرسة ولى العهد" type="شارع">شارع <orgName ref="مدرسة ولى العهد" type="مدرسة"><placeName ref="مدرسة ولى العهد" type="مدرسة">مدرسة ولى العهد</placeName></orgName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع حسني بك كم شارع عباس الى شارع ناصر</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع حسني بك" type="شارع">شارع حسني بك</placeName> <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>كم <?oxy_custom_end?><placeName ref="شارع عباس" type="شارع">شارع عباس</placeName> الى <placeName ref="شارع ناصر" type="شارع">شارع ناصر</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">شارع المنافيخي</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="شارع المنافيخي"
+                        type="شارع">شارع المنافيخي</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع عبده الحامولى</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع عبده الحامولى" type="شارع">شارع <persName>عبده الحامولى</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع عبد الوهاب الشنواني</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع عبد الوهاب الشنواني" type="شارع">شارع <persName>عبد الوهاب الشنواني</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">شارع الجنزورى</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="شارع الجنزورى"
+                        type="شارع">شارع الجنزورى</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع البراد</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع البراد" type="شارع">شارع البراد</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع احمد بك سعيد</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع احمد بك سعيد" type="شارع">شارع <persName>احمد بك سعيد</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">شارع السرجاني</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="شارع السرجاني"
+                        type="شارع">شارع السرجاني</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع الاسبتالية الفرنساوية</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع الاسبتالية الفرنساوية" type="شارع">شارع <orgName ref="الاسبتالية الفرنساوية" type="اسبتالية"><placeName ref="الاسبتالية الفرنساوية" type="اسبتالية">الاسبتالية الفرنساوية</placeName></orgName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">شارع دانش باشا</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="شارع دانش باشا"
+                        type="شارع">شارع <persName>دانش باشا</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع عبد العظيم</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع عبد العظيم" type="شارع">شارع عبد العظيم</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع سليم عبده</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع عبد العظيم" type="شارع">شارع <persName>سليم عبده</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع السريات</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع السريات" type="شارع">شارع السريات</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع الاسبتالية التليانية</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع الاسبتالية التليانية" type="شارع">شارع <orgName ref="الاسبتالية التليانية" type="اسبتالية"><placeName ref="الاسبتالية التليانية" type="اسبتالية">الاسبتالية التليانية</placeName></orgName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع قبة الفداوية</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع قبة الفداوية" type="شارع">شارع <orgName ref="قبة الفداوية" type="قبة"><placeName ref="قبة الفداوية" type="قبة">قبة الفداوية</placeName></orgName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع كمال</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع كمال" type="شارع">شارع كمال</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع ذهنى من شارع القشلاق الى شارع كمال</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع ذهنى" type="شارع">شارع ذهنى</placeName> من <placeName ref="شارع القشلاق" type="شارع">شارع القشلاق</placeName> الى شارع كمال</hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">حارة سعفان</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="حارة سعفان" type="حارة"
+                        >حارة سعفان</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">حارة وسط العباسية من شارع غرب القشلاق الى شارع طاهر</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="حارة وسط العباسية" type="حارة">حارة وسط العباسية</placeName> من <placeName ref="شارع غرب القشلاق" type="شارع">شارع غرب القشلاق</placeName> الى <placeName ref="شارع طاهر" type="شارع">شارع طاهر</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">شارع عبدالله نصرت</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="شارع عبدالله نصرت"
+                        type="شارع">شارع <persName>عبدالله نصرت</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">شارع الفحل</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="شارع الفحل" type="شارع"
+                        >شارع الفحل</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع مرسي بك ابتداء من شارع غرب القشلاق ومسدودة من الجهة الغربية</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع مرسي بك" type="شارع">شارع <persName>مرسي بك</persName></placeName> ابتداء من شارع غرب القشلاق ومسدودة من الجهة الغربية</hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع عوني بك ابتداء من شارع غرب القشلاق ومسدودة من الجهة الغربية</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع عوني بك" type="شارع">شارع <persName>عوني بك</persName></placeName> ابتداء من شارع غرب القشلاق ومسدودة من الجهة الغربية</hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">شارع الركيب ابتداء من شارع غرب القشلاق ومسدودة من الجهة الغربية</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="شارع الركيب" type="شارع"
+                        >شارع الركيب</placeName> ابتداء من شارع غرب القشلاق ومسدودة من الجهة
+                     الغربية</hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع جاد الله ابتداء من شارع عباس خلف قشلاق البيادة ومسدودة من قبلي</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع جاد الله" type="شارع">شارع جاد الله</placeName> ابتداء من <placeName ref="شارع عباس" type="شارع">شارع عباس</placeName> خلف <orgName ref="قشلاق البيادة" type="قشلاق"><placeName ref="قشلاق البيادة" type="قشلاق">قشلاق البيادة</placeName></orgName> ومسدودة من قبلي</hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع شحاته افندى يوسف</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع شحاته افندى يوسف" type="شارع">شارع <persName>شحاته افندى يوسف</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع خلف السوق من شارع عباس الى حارة وسط العباسية</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع خلف السوق" type="شارع">شارع خلف السوق</placeName> من <placeName ref="شارع عباس" type="شارع">شارع عباس</placeName> الى <placeName ref="حارة وسط العباسية" type="حارة">حارة وسط العباسية</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">شارع أبوزيت حار ابتداء من شارع العباسية الى شارع طاهر</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="شارع أبوزيت حار"
+                        type="شارع">شارع أبوزيت حار</placeName> ابتداء من شارع العباسية الى
+                        <placeName ref="شارع طاهر" type="شارع">شارع طاهر</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع على افندى طاهر</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع على افندى طاهر" type="شارع">شارع <persName>على افندى طاهر</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">حارة عبد الحميد</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="حارة عبد الحميد"
+                        type="حارة">حارة عبد الحميد</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع المربع ابتداء من شارع العباسية</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع المربع" type="شارع">شارع المربع</placeName> ابتداء من شارع العباسية</hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع قشلاق الطوبجية</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع قشلاق الطوبجية" type="شارع">شارع <orgName ref="قشلاق الطوبجية" type="قشلاق"><placeName ref="قشلاق الطوبجية" type="قشلاق">قشلاق الطوبجية</placeName></orgName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">شارع العباسية العمومي الواقع بين سبيل الخازندار وسراى البدراوى</hi>
+                  <hi style="font-size:14ptdirection:rtl;">شارع العباسية العمومي الواقع بين <orgName
+                        ref="سبيل الخازندار" type="سبيل"><placeName ref="سبيل الخازندار" type="سبيل"
+                           >سبيل الخازندار</placeName></orgName> و<placeName ref="سراى البدراوى"
+                        type="سراى"><orgName ref="سراى البدراوى" type="سراى">سراى
+                        البدراوى</orgName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع كوبري القبة</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع كوبري القبة" type="شارع">شارع كوبري القبة</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">شارع اسبتالية الجيش المصري من قره قول السوارى الى واحات عين شمس</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName
+                        ref="شارع اسبتالية الجيش المصري" type="شارع">شارع <placeName
+                           ref="اسبتالية الجيش المصري" type="اسبتالية"><orgName
+                              ref="اسبتالية الجيش المصري" type="اسبتالية">اسبتالية الجيش
+                              المصري</orgName></placeName></placeName> من <orgName
+                        ref="قره قول السوارى" type="قره-قول"><placeName ref="قره قول السوارى"
+                           type="قره-قول">قره قول السوارى</placeName></orgName> الى <placeName
+                        ref="واحات عين شمس">واحات عين شمس</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">شارع المطرية من محطة كوبرى القبة لغاية المطرية</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع المطرية" type="شارع">شارع المطرية</placeName> من محطة كوبرى القبة لغاية المطرية</hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">جميع شوارع المطرية ما عدا شارع محطة المطرية الواقع بين المحطة ومنزل مراد بك غالب</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">جميع شوارع المطرية ما عدا <placeName ref="شارع محطة المطرية" type="شارع">شارع <orgName ref="محطة المطرية" type="محطة"><placeName ref="محطة المطرية" type="محطة">محطة المطرية</placeName></orgName></placeName> الواقع بين المحطة و<placeName ref="منزل مراد بك غالب" type="منزل">منزل</placeName> <persName>مراد بك غالب</persName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">جميع شوارع الزيتون ماعدا شارع محطة الزيتون من ملك العلاف الى كشك الإشارات في الجهة القبلية الشرقية ومن لوكندة الزيتون الى ملك جواريني في الجهة البحرية الغربية</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">جميع شوارع <placeName ref="الزيتون">الزيتون</placeName> ماعدا شارع <orgName ref="محطة الزيتون" type="محطة"><placeName ref="محطة الزيتون" type="محطة">محطة الزيتون</placeName></orgName> من ملك العلاف الى كشك الإشارات في الجهة القبلية الشرقية ومن <placeName ref="لوكندة الزيتون" type="لوكندة"><orgName ref="لوكندة الزيتون" type="لوكندة">لوكندة الزيتون</orgName></placeName> الى ملك جواريني في الجهة البحرية الغربية</hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">عزبة السودانية</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="عزبة السودانية" type="عزبة">عزبة السودانية</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">عزبة منشية الصدر</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="عزبة منشية الصدر"
+                        type="عزبة">عزبة منشية الصدر</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">عزبة البوستة</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="عزبة البوستة" type="عزبة">عزبة البوستة</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">عزبة عبدالنبي</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="عزبة عبدالنبي"
+                        type="عزبة">عزبة عبدالنبي</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">العزبة المتمدنة</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="العزبة المتمدنة" type="عزبة">العزبة المتمدنة</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">جميع ناحية القبة</hi>
+                  <hi style="font-size:14ptdirection:rtl;">جميع <placeName ref="ناحية القبة">ناحية
+                        القبة</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">جميع ناحية الوايلي الكبرى</hi>
+                  <hi style="font-size:14ptdirection:rtl;">جميع ناحية <placeName
+                        ref="الوايلي الكبرى">الوايلي الكبرى</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">جميع ناحية الوايلي الصغري</hi>
+                  <hi style="font-size:14ptdirection:rtl;">جميع ناحية <placeName
+                        ref="الوايلي الصغري">الوايلي الصغري</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">عزبة مكاوى</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="عزبة مكاوى" type="عزبة">عزبة مكاوى</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">عزبة حسن جاهين</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="عزبة حسن جاهين" type="عزبة">عزبة <persName>حسن جاهين</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">عزبة الجواهرجي</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="عزبة الجواهرجي"
+                        type="عزبة">عزبة الجواهرجي</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">عزبة الشيخ فوده</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="عزبة الشيخ فوده"
+                        type="عزبة">عزبة <persName>الشيخ فوده</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">عزبة الخصوص</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="عزبة الخصوص" type="عزبة"
+                        >عزبة الخصوص</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">عزبة على الصعيدى</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="عزبة على الصعيدى" type="عزبة">عزبة <persName>على الصعيدى</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">عزبة هاشم افندى</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="عزبة هاشم افندى">عزبة
+                           <persName>هاشم افندى</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">عزبة الجبل "المسماه بعزبة شفا"</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName
+                        ref="عزبة الجبل المسماه بعزبة شفا" type="عزبة">عزبة الجبل "المسماه بعزبة
+                        شفا"</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">حمامات القبة</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="حمامات القبة">حمامات القبة</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">عزبة الارماني</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="عزبة الارماني"
+                        type="عزبة">عزبة الارماني</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">عزبة المبيض</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="عزبة المبيض" type="عزبة">عزبة المبيض</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">عزبة فلبيين</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="عزبة فلبيين" type="عزبة"
+                        >عزبة فلبيين</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">عزبة جلبي افندى</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="عزبة جلبي افندى" type="عزبة">عزبة <persName>جلبي افندى</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">عزبة حسن موسي العقاد</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="عزبة حسن موسي العقاد" type="عزبة">عزبة <persName>حسن موسي العقاد</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">عزبة عثمان افندى السفرجي</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="عزبة عثمان افندى السفرجي"
+                        type="عزبة">عزبة <persName>عثمان افندى السفرجي</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">عزبة محمد نجم</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="عزبة محمد نجم" type="عزبة">عزبة <persName>محمد نجم</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">عزبة حسن افندى الشرقاوى</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="عزبة حسن افندى الشرقاوى"
+                        type="عزبة">عزبة <persName>حسن افندى الشرقاوى</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">تل الحصن</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="تل الحصن">تل
+                        الحصن</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">عين شمس</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="عين شمس">عين
+                        شمس</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">عزبة عبدالعزيز باشا الهراوى</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName
+                        ref="عزبة عبدالعزيز باشا الهراوى" type="عزبة">عزبة <persName>عبدالعزيز باشا
+                           الهراوى</persName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">عزبة عريان بك تادرس (بغمرة)</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName
+                        ref="عزبة عريان بك تادرس (بغمرة)" type="عزبة">عزبة <persName>عريان بك
+                           تادرس</persName> (ب<placeName ref="غمرة"
+                     >غمرة</placeName>)</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">عزبة ابوحشيش</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="عزبة ابوحشيش" type="عزبة"
+                        >عزبة ابوحشيش</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">عزبة الير الفرايحي</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="عزبة الير الفرايحي"
+                        type="عزبة">عزبة الير الفرايحي</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">دير الملاك البحرى</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="دير الملاك البحرى"
+                        type="دير">دير الملاك البحرى</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">عزبة الدمرداش</hi>
+                  <hi style="font-size:14ptdirection:rtl;"><placeName ref="عزبة الدمرداش"
+                        type="عزبة">عزبة الدمرداش</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">عزبة عرب المحمدى</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="عزبة عرب المحمدى" type="عزبة">عزبة عرب المحمدى</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">عزبة الخاصة الخديوية</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="عزبة الخاصة الخديوية" type="عزبة">عزبة الخاصة الخديوية</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">جميع الشوارع التي تبتدئ من شاؤع العباسية وتخترق شارع السرايات وتنتهى بالصحراء</hi>
+                  <hi style="font-size:14ptdirection:rtl;">جميع الشوارع التي تبتدئ من شارع العباسية
+                     وتخترق <placeName ref="شارع السرايات" type="شارع">شارع السرايات</placeName>
+                     وتنتهى بالصحراء</hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">جميع فروع شوارع الخليج المصري وقنطرة غمرة وسعيد وطورسينا والشيخ قمر وسكاكينى باشا</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">جميع فروع شوارع <placeName ref="الخليج المصري" type="شارع">الخليج المصري</placeName> و<placeName ref="قنطرة غمرة" type="شارع">قنطرة غمرة</placeName> و<placeName ref="سعيد" type="شارع">سعيد</placeName> و<placeName ref="طورسينا" type="شارع">طورسينا</placeName> و<placeName ref="الشيخ قمر" type="شارع">الشيخ قمر</placeName> و<persName><placeName ref="سكاكينى باشا">سكاكينى باشا</placeName></persName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"> جميع فروع حارة وسط الوايلية</hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">جميع فروع <placeName ref="حارة وسط الوايلية" type="حارة">حارة وسط الوايلية</placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">جميع الحوارى الواقعة بين شارع العباسية العمومي وشارع غرب القشلاق ماعدا شارع سوق العباسية</hi>
+                  <hi style="font-size:14ptdirection:rtl;">جميع الحوارى الواقعة بين شارع العباسية
+                     العمومي و<placeName ref="شارع غرب القشلاق" type="شارع">شارع غرب
+                        القشلاق</placeName> ماعدا <placeName ref="شارع سوق العباسية" type="شارع"
+                        >شارع سوق العباسية</placeName></hi>
                </item>
                <item>
                   <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">يسري مفعول هذا القرار بعد نشره بالجريدة الرسمية بخمسة أيام</hi>
