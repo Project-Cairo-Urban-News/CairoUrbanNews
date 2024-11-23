@@ -364,104 +364,162 @@
                <date when="1912-03-13">١٣ مارس ١٩١٢</date>
                <bibl><biblScope unit="issue">عدد ٣٠</biblScope>
                   <biblScope unit="page">ص ٧٣٧-٧٣٨</biblScope></bibl></head>
-            <head>محافظة مصر</head>
-            <head>قرار</head>
-            <p>تعديل كشف الجهات الممنوع التكقق فيها في اقسام الازبكية والموسكى وعابدين بمحافظة مصر </p>
-            <p>محاظة مصر: بعد الاطلاع على قرار المحافظة الصادر في ٥ مارس ١٩٠٧ بتعيين الجهات الممنوع
-               التكفف فيها </p>
+            <head><orgName ref="محافظة مصر" type="محافظة">محافظة مصر</orgName></head>
+            <head><rs type="قرار">قرار</rs></head>
+            <p>تعديل كشف الجهات الممنوع
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>التكقق<?oxy_custom_end?>
+               فيها في اقسام <placeName ref="الازبكية">الازبكية</placeName> و<placeName
+                  ref="الموسكى">الموسكى</placeName> و<placeName ref="عابدين">عابدين</placeName>
+               بمحافظة مصر </p>
+            <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>محاظة<?oxy_custom_end?>
+               مصر: بعد الاطلاع على قرار المحافظة الصادر في ٥ مارس ١٩٠٧ بتعيين الجهات الممنوع التكفف
+               فيها </p>
             <p>قرر ما هو ات</p>
             <p>أولا- يلغي كشف الجهات الممنوع التكفف فيها في اقسام الازبكية والموسكي وعابدين ويستبدل
                بالاتي: </p>
-            <p>قسم الازبكية </p>
+            <p><orgName ref="قسم الازبكية" type="قسم"><placeName ref="قسم الازبكية" type="قسم">قسم
+                     الازبكية</placeName></orgName>
+            </p>
             <table>
                <row>
                   <cell>
-                     <p>شارع عباس</p>
-                     <p>شارع بولاق</p>
-                     <p>شارع سوق التوفيقية</p>
-                     <p>شارع زكى وشارع بورصة</p>
-                     <p>شارع دويريه</p>
-                     <p>ميدان قنطرة الدكة</p>
-                     <p>شارع عماد الدين</p>
-                     <p>شارع التلغراف</p>
-                     <p>شارع برنتانيا</p>
-                     <p>شارع الحمام العمومى</p>
-                     <p>شارع جلال</p>
-                     <p>شارع جلال باشا</p>
-                     <p>حارة جلال باشا</p>
-                     <p>شارع كامل باشا</p>
-                     <p>شارع الجنينة</p>
-                     <p>شارع المليجي</p>
-                     <p>شارع حمام شنيدر</p>
-                     <p>حارة الخازندار</p>
-                     <p>ميدان الخازندار</p>
-                     <p>شارع الباب البحري</p>
-                     <p>شارع العربخانة</p>
-                     <p>شارع كلوت بك</p>
-                     <p>شارع نوبار باشا</p>
-                     <p>ميدان باب الحديد</p>
-                     <p>شارع السبتية البراني</p>
-                     <p>شارع فم البحر</p>
-                     <p>شارع الفجالة</p>
-                     <p>شارع ابن حبيب</p>
-                     <p>شارع بستان المهاميزي</p>
-                     <p>شارع الظاهر</p>
-                     <p>شارع ارض الحرمين</p>
-                     <p>شارع ارض الامامين</p>
-                     <p>شارع حمدى</p>
-                     <p>شارع القبيسي</p>
-                     <p>شارع صبري</p>
-                     <p>شارع السبع</p>
-                     <p>شارع زكي (بالظاهر)</p>
-                     <p>شارع الجميل</p>
-                     <p>شارع الجد</p>
-                     <p>حارة الوزير علاء الدين</p>
-                     <p>حارة بركة بطن البقرة</p>
-                     <p>شارع لينان باشا</p>
+                     <p><placeName ref="شارع عباس" type="شارع">شارع عباس</placeName></p>
+                     <p><placeName ref="شارع بولاق" type="شارع">شارع بولاق</placeName></p>
+                     <p><placeName ref="شارع سوق التوفيقية" type="شارع">شارع سوق
+                           التوفيقية</placeName></p>
+                     <p><placeName ref="شارع زكى" type="شارع">شارع زكى</placeName> و<placeName
+                           ref="شارع بورصة" type="شارع">شارع بورصة</placeName></p>
+                     <p><placeName ref="شارع دويريه" type="شارع">شارع دويريه</placeName></p>
+                     <p><placeName ref="ميدان قنطرة الدكة" type="ميدان">ميدان قنطرة
+                           الدكة</placeName></p>
+                     <p><placeName ref="شارع عماد الدين">شارع عماد الدين</placeName></p>
+                     <p><placeName ref="شارع التلغراف" type="شارع">شارع التلغراف</placeName></p>
+                     <p><placeName ref="شارع برنتانيا" type="شارع">شارع برنتانيا</placeName></p>
+                     <p><placeName ref="شارع الحمام العمومى" type="شارع">شارع الحمام
+                           العمومى</placeName></p>
+                     <p><placeName ref="شارع جلال" type="شارع">شارع جلال</placeName></p>
+                     <p><placeName ref="شارع جلال باشا" type="شارع">شارع <persName>جلال
+                              باشا</persName></placeName></p>
+                     <p><placeName ref="حارة جلال باشا" type="حارة">حارة جلال باشا</placeName></p>
+                     <p><placeName ref="شارع كامل باشا" type="شارع">شارع <persName>كامل
+                              باشا</persName></placeName></p>
+                     <p><placeName ref="شارع الجنينة" type="شارع">شارع الجنينة</placeName></p>
+                     <p><placeName ref="شارع المليجي" type="شارع">شارع المليجي</placeName></p>
+                     <p><placeName ref="شارع حمام شنيدر" type="شارع">شارع <orgName ref="حمام شنيدر"
+                              type="حمام"><placeName ref="حمام شنيدر" type="حمام">حمام
+                                 شنيدر</placeName></orgName></placeName></p>
+                     <p><placeName ref="حارة الخازندار" type="حارة">حارة الخازندار</placeName></p>
+                     <p><placeName ref="ميدان الخازندار" type="ميدان">ميدان
+                        الخازندار</placeName></p>
+                     <p><placeName ref="شارع الباب البحري" type="شارع">شارع الباب
+                        البحري</placeName></p>
+                     <p><placeName ref="شارع العربخانة" type="شارع">شارع العربخانة</placeName></p>
+                     <p><placeName ref="شارع" type="شارع">شارع <persName>كلوت
+                           بك</persName></placeName></p>
+                     <p><placeName ref="شارع نوبار باشا" type="شارع">شارع <persName>نوبار
+                              باشا</persName></placeName></p>
+                     <p><placeName ref="ميدان باب الحديد" type="ميدان">ميدان باب
+                        الحديد</placeName></p>
+                     <p><placeName ref="شارع السبتية البراني" type="شارع">شارع السبتية
+                           البراني</placeName></p>
+                     <p><placeName ref="شارع فم البحر" type="شارع">شارع فم البحر</placeName></p>
+                     <p><placeName ref="شارع الفجالة" type="شارع">شارع الفجالة</placeName></p>
+                     <p><placeName ref="شارع ابن حبيب" type="شارع">شارع ابن حبيب</placeName></p>
+                     <p><placeName ref="شارع بستان المهاميزي" type="شارع">شارع <placeName
+                              ref="بستان المهاميزي" type="بستان">بستان
+                           المهاميزي</placeName></placeName></p>
+                     <p><placeName ref="شارع الظاهر" type="شارع">شارع الظاهر</placeName></p>
+                     <p><placeName ref="شارع ارض الحرمين" type="شارع">شارع ارض
+                        الحرمين</placeName></p>
+                     <p><placeName ref="شارع ارض الامامين" type="شارع">شارع ارض
+                        الامامين</placeName></p>
+                     <p><placeName ref="شارع حمدى" type="شارع">شارع حمدى</placeName></p>
+                     <p><placeName ref="شارع القبيسي" type="شارع">شارع القبيسي</placeName></p>
+                     <p><placeName ref="شارع صبري" type="شارع">شارع صبري</placeName></p>
+                     <p><placeName ref="شارع السبع" type="شارع">شارع السبع</placeName></p>
+                     <p><placeName ref="شارع زكي" type="شارع">شارع زكي</placeName> (ب<placeName
+                           ref="الظاهر">الظاهر</placeName>)</p>
+                     <p><placeName ref="شارع الجميل" type="شارع">شارع الجميل</placeName></p>
+                     <p><placeName ref="شارع الجد" type="شارع">شارع الجد</placeName></p>
+                     <p><placeName ref="حارة الوزير علاء الدين" type="حارة">حارة <persName>الوزير
+                              علاء الدين</persName></placeName></p>
+                     <p><placeName ref="حارة بركة بطن البقرة" type="حارة">حارة <placeName
+                              ref="بركة بطن البقرة" type="بركة">بركة بطن
+                           البقرة</placeName></placeName></p>
+                     <p><placeName ref="شارع لينان باشا" type="شارع">شارع <persName>لينان
+                              باشا</persName></placeName></p>
                   </cell>
                   <cell>
-                     <p>شارع سليمان باشا</p>
-                     <p>شارع توفيق</p>
-                     <p>ميدان توفيق</p>
-                     <p>شارع الفي بك</p>
-                     <p>شارع قنطرة الدكة</p>
-                     <p>شارع القره قول</p>
-                     <p>شارع الوزير شمس الدين</p>
-                     <p>شارع سراج الدين</p>
-                     <p>شارع السلطان شعبان</p>
-                     <p>شارع الخليج الناصري</p>
-                     <p>شارع سيف الدين المهراني</p>
-                     <p>شارع المهراني</p>
-                     <p>شارع سيدى سيف</p>
-                     <p>شارع قصر اللؤلؤة</p>
-                     <p>حارة قنطرة اللؤلؤة</p>
-                     <p>شارع البرج</p>
-                     <p>شارع ابوالريش</p>
-                     <p>حارة الزهار</p>
-                     <p>شارع المهدى</p>
-                     <p>شارع وجه البركه</p>
-                     <p>شارع المدرستين</p>
-                     <p>حارة جلبي</p>
-                     <p>حارة الملكين</p>
-                     <p>حارة الحسيني</p>
-                     <p>شارع قلعة المقسي</p>
-                     <p>عطفة كنيسة الروم الكاثوليك</p>
-                     <p>شارع بكتمر الحاجب</p>
-                     <p>شارع بستان الكافورى</p>
-                     <p>شارع بستان المقسي</p>
-                     <p>شارع مراد</p>
-                     <p>شارع زهني</p>
-                     <p>شارع ادريس بك راغب</p>
-                     <p>شارع إسماعيل الفلكي</p>
-                     <p>شارع جعفر</p>
-                     <p>شارع ميدان فخري</p>
-                     <p>شارع قنطرة البكرية</p>
-                     <p>شارع الخليج المصري</p>
-                     <p>شارع زغلول</p>
-                     <p>شارع حبيب جلبي</p>
-                     <p>شارع الحكيم</p>
-                     <p>شارع بطرس</p>
-                     <p>شارع غالي</p>
+                     <p><placeName ref="شارع سليمان باشا" type="شارع">شارع <persName>سليمان
+                              باشا</persName></placeName></p>
+                     <p><placeName ref="شارع توفيق" type="شارع">شارع توفيق</placeName></p>
+                     <p><placeName ref="ميدان توفيق" type="ميدان">ميدان توفيق</placeName></p>
+                     <p><placeName ref="شارع الفي بك" type="شارع">شارع <persName>الفي
+                           بك</persName></placeName></p>
+                     <p><placeName ref="شارع قنطرة الدكة" type="شارع">شارع قنطرة
+                        الدكة</placeName></p>
+                     <p><placeName ref="شارع القره قول" type="شارع">شارع القره قول</placeName></p>
+                     <p><placeName ref="شارع الوزير شمس الدين" type="شارع">شارع <persName>الوزير شمس
+                              الدين</persName></placeName></p>
+                     <p><placeName ref="شارع سراج الدين" type="شارع">شارع <persName>سراج
+                              الدين</persName></placeName></p>
+                     <p><placeName ref="شارع السلطان شعبان" type="شارع">شارع <persName>السلطان
+                              شعبان</persName></placeName></p>
+                     <p><placeName ref="شارع الخليج الناصري" type="شارع">شارع <placeName
+                              ref="الخليج الناصري" type="خليج">الخليج
+                           الناصري</placeName></placeName></p>
+                     <p><placeName ref="شارع سيف الدين المهراني" type="شارع">شارع <persName>سيف
+                              الدين المهراني</persName></placeName></p>
+                     <p><placeName ref="شارع المهراني" type="شارع">شارع المهراني</placeName></p>
+                     <p><placeName ref="شارع سيدى سيف" type="شارع">شارع سيدى سيف</placeName></p>
+                     <p><placeName ref="شارع قصر اللؤلؤة" type="شارع">شارع <placeName
+                              ref="قصر اللؤلؤة" type="قصر">قصر اللؤلؤة</placeName></placeName></p>
+                     <p><placeName ref="حارة قنطرة اللؤلؤة" type="حارة">حارة <placeName
+                              ref="قنطرة اللؤلؤة" type="قنطرة">قنطرة
+                        اللؤلؤة</placeName></placeName></p>
+                     <p><placeName ref="شارع البرج" type="شارع">شارع البرج</placeName></p>
+                     <p><placeName ref="شارع ابوالريش" type="شارع">شارع ابوالريش</placeName></p>
+                     <p><placeName ref="حارة الزهار" type="حارة">حارة الزهار</placeName></p>
+                     <p><placeName ref="شارع المهدى" type="شارع">شارع المهدى</placeName></p>
+                     <p><placeName ref="شارع وجه البركه" type="شارع">شارع وجه البركه</placeName></p>
+                     <p><placeName ref="شارع المدرستين" type="شارع">شارع المدرستين</placeName></p>
+                     <p><placeName ref="حارة جلبي" type="حارة">حارة جلبي</placeName></p>
+                     <p><placeName ref="حارة الملكين" type="حارة">حارة الملكين</placeName></p>
+                     <p><placeName ref="حارة الحسيني" type="حارة">حارة الحسيني</placeName></p>
+                     <p><placeName ref="شارع قلعة المقسي" type="شارع">شارع قلعة
+                        المقسي</placeName></p>
+                     <p><placeName ref="عطفة كنيسة الروم الكاثوليك" type="عطفة">عطفة <orgName
+                              ref="كنيسة الروم الكاثوليك" type="كنيسة"><placeName
+                                 ref="كنيسة الروم الكاثوليك" type="كنيسة">كنيسة الروم
+                                 الكاثوليك</placeName></orgName></placeName></p>
+                     <p><placeName ref="شارع بكتمر الحاجب" type="شارع">شارع بكتمر
+                        الحاجب</placeName></p>
+                     <p><placeName ref="شارع بستان الكافورى" type="شارع">شارع <placeName
+                              ref="بستان الكافورى" type="بستان">بستان
+                           الكافورى</placeName></placeName></p>
+                     <p><placeName ref="شارع بستان المقسي" type="شارع">شارع <placeName
+                              ref="بستان المقسي" type="بستان">بستان
+                        المقسي</placeName></placeName></p>
+                     <p><placeName ref="شارع مراد" type="شارع">شارع مراد</placeName></p>
+                     <p><placeName ref="شارع زهني" type="شارع">شارع زهني</placeName></p>
+                     <p><placeName ref="شارع ادريس بك راغب" type="شارع">شارع <persName>ادريس بك
+                              راغب</persName></placeName></p>
+                     <p><placeName ref="شارع إسماعيل الفلكي" type="شارع">شارع <persName>إسماعيل
+                              الفلكي</persName></placeName></p>
+                     <p><placeName ref="شارع جعفر" type="شارع">شارع جعفر</placeName></p>
+                     <p><placeName ref="شارع ميدان فخري" type="شارع">شارع ميدان فخري</placeName></p>
+                     <p><placeName ref="شارع قنطرة البكرية" type="شارع">شارع <placeName
+                              ref="قنطرة البكرية" type="قنطرة">قنطرة
+                        البكرية</placeName></placeName></p>
+                     <p><placeName ref="شارع الخليج المصري" type="شارع">شارع <placeName
+                              ref="الخليج المصري" type="خليج">الخليج
+                        المصري</placeName></placeName></p>
+                     <p><placeName ref="شارع زغلول" type="شارع">شارع زغلول</placeName></p>
+                     <p><placeName ref="شارع حبيب جلبي" type="شارع">شارع <persName>حبيب
+                              جلبي</persName></placeName></p>
+                     <p><placeName ref="شارع الحكيم" type="شارع">شارع الحكيم</placeName></p>
+                     <p><placeName ref="شارع بطرس" type="شارع">شارع بطرس</placeName></p>
+                     <p><placeName ref="شارع غالي" type="شارع">شارع غالي</placeName></p>
                   </cell>
                </row>
             </table>
@@ -528,8 +586,8 @@
                <date when="1912-04-01">اول ابريل ١٩١٢</date>
                <bibl><biblScope unit="issue">عدد ٣٨</biblScope>
                   <biblScope unit="page">ص ٩٣٧-٩٣٨</biblScope></bibl></head>
-            <head>قرار من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال
-                  العمومية</orgName></head>
+            <head><rs type="قرار">قرار</rs> من <orgName ref="نظارة الاشغال العمومية" type="نظارة"
+                  >نظارة الاشغال العمومية</orgName></head>
             <head>بتاريخ ٢٣ مارس ١٩١٢ نمرة ٨ إدارة</head>
             <p>بعد الاطلاع على الامر العالى الصادر بتاريخ ٢٤ مارسؤ١٨٨٦ باعتبار جملة شوارع من المنافع
                العامة ونزع ملكية الأراضي اللازمة لها ومن ضمنها شارع مصر القديمة بمدينة القاهرة
