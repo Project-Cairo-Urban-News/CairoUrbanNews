@@ -577,13 +577,16 @@
             <head>قرار رقم ٢٤ إدارة – بالاستيلاء على قطعة ارض منزوعة ملكيتها لتنظيم <placeName ref="شارع ساحل الغلال" type="شارع">شارع ساحل الغلال</placeName> ب<placeName ref="بولاق">بولاق</placeName> بمدينة القاهرة</head>
             <p>وزير الأشغال العمومية </p>
             <p>الاراضي المنزوعة ملكيتها بموجب الأمر العالي الصادر بتاريخ ٣ نوفمبر ١٨٩٢ لتنظيم شارع
-               ساحل الغلال ببولاق بمدينة القاهرة حسب رسم التنظيم رقم ٩٩٣ المعتمد من <orgName ref="وزارة الاشغال العمومية" type="وزارة">وزارة الاشغال العمومية</orgName> في ١٠
-               أكتوبر ١٨٩٢ والمدرج بالكشف الملحق بالامر العالى المشار اليه من ضمنها جزء مساحته ٣٠,٢٨
-               مترا (ثلاثون مترا وثمانية وعشرون ديسيمترا مربعا) من وقف المرحوم <persName>محمد شريف
-                  باشا</persName> الكبير نظارة الست <persName>خديجة سعاد هانم</persName> الموكل
+               ساحل الغلال ببولاق بمدينة القاهرة حسب رسم التنظيم رقم ٩٩٣ المعتمد من <orgName
+                  ref="وزارة الاشغال العمومية" type="وزارة">```````وزارة الاشغال العمومية</orgName>
+               في ١٠ أكتوبر ١٨٩٢ والمدرج بالكشف الملحق بالامر العالى المشار اليه من ضمنها جزء مساحته
+               ٣٠,٢٨ مترا (ثلاثون مترا وثمانية وعشرون ديسيمترا مربعا) من وقف المرحوم <persName>محمد
+                  شريف باشا</persName> الكبير نظارة الست <persName>خديجة سعاد هانم</persName> الموكل
                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>عنهها<?oxy_custom_end?>
-               حضرة <persName>ابراهيم بك مصطفي الساكن ب<placeName ref="حلون">حلون</placeName></persName> لم يتيسر الاتفاق على قيمته فقدرت بمعرفة خبير عينته
-                  <orgName ref="محكمة مصر الاهلية الابتدائية" type="محكمة"><placeName ref="محكمة مصر الاهلية الابتدائية" type="محكمة">محكمة مصر الاهلية
+               حضرة <persName>ابراهيم بك مصطفي الساكن ب<placeName ref="حلون"
+                  >حلون</placeName></persName> لم يتيسر الاتفاق على قيمته فقدرت بمعرفة خبير عينته
+                  <orgName ref="محكمة مصر الاهلية الابتدائية" type="محكمة"><placeName
+                     ref="محكمة مصر الاهلية الابتدائية" type="محكمة">محكمة مصر الاهلية
                      الابتدائية</placeName></orgName> بمبلغ ٧٥ جنيها و٧٠٠ مليم وقد اودع هذا المبلغ
                في خزانة تلك المحكمة بموجب محضر إيداع بتاريخ ١٣ مايو ١٩١٥ بشرط ان لا يصرف الى خزانة
                المحكمة الشرعية الا بعد تقديم المستندات من اصحاب الشأن بصحة تبعية الوقف المشار
@@ -985,42 +988,61 @@
                <row>
                   <cell>١٠٥٣</cell>
                   <cell>١٩ ابريل ١٩١٠</cell>
-                  <cell>الغاء جزء من خطوط حارة سيدى الشيخ عبدالجواد نظرا لوروده بالخريطة المعتمدة رقم ١٣١٥ المحررة عن تقاسيم ارض ترب البوصة بالسبتية</cell>
+                  <cell>الغاء جزء من خطوط <placeName ref="حارة سيدى الشيخ عبدالجواد" type="حارة"
+                        >حارة سيدى الشيخ عبدالجواد</placeName> نظرا لوروده بالخريطة المعتمدة رقم
+                     ١٣١٥ المحررة عن تقاسيم ارض <placeName ref="ترب البوصة" type="ترب">ترب
+                        البوصة</placeName> ب<placeName ref="السبتية">السبتية</placeName></cell>
                </row>
                <row>
                   <cell>١٠٥٩</cell>
                   <cell>١٩ ابريل ١٩١٠</cell>
-                  <cell>الغاء جزء من خطوط شارع الانصارى مصادف لمرور حارة سيدى الشيخ عبدالجواد المعتمدة بالخريطة رقم ١٣١٥ المحررة عن تقاسيم ارض ترب البوصة بالسبتية</cell>
+                  <cell>الغاء جزء من خطوط <placeName ref="شارع الانصارى" type="شارع">شارع
+                        الانصارى</placeName> مصادف لمرور حارة سيدى الشيخ عبدالجواد المعتمدة بالخريطة
+                     رقم ١٣١٥ المحررة عن تقاسيم ارض ترب البوصة بالسبتية</cell>
                </row>
                <row>
                   <cell>١١١٩</cell>
                   <cell>١٩ ابريل ١٩١٠</cell>
-                  <cell>إلغاء جزء من خطوط شارع الجوابر والجيارة مصادف فتحه شارع سيدى الشيخ عبدالجواد المعتمد بالخريطة ١٣١٥ المحررة عن تقاسيم ارض ترب البوصة بالسبتية</cell>
+                  <cell>إلغاء جزء من خطوط <placeName ref="شارع الجوابر" type="شارع">شارع
+                        الجوابر</placeName> و<placeName ref="شارع الجيارة" type="شارع"
+                        >الجيارة</placeName> مصادف فتحه شارع سيدى الشيخ عبدالجواد المعتمد بالخريطة
+                     ١٣١٥ المحررة عن تقاسيم ارض ترب البوصة بالسبتية</cell>
                </row>
                <row>
                   <cell>٥٠</cell>
                   <cell>٤ مايو ١٩١٥</cell>
-                  <cell>الغاء جزء من خطوط شارع سوق السلاح لمصادفته فتحة سكة حلوات المعتمدة بالرسم رقم ١٤٧٤</cell>
+                  <cell>الغاء جزء من خطوط <placeName ref="شارع سوق السلاح" type="شارع">شارع سوق
+                        السلاح</placeName> لمصادفته فتحة <placeName ref="سكة حلوات" type="سكة">سكة
+                        حلوات</placeName> المعتمدة بالرسم رقم ١٤٧٤</cell>
                </row>
                <row>
                   <cell>١٢١٣</cell>
                   <cell>١٢ مايو ١٩١٥</cell>
-                  <cell>إلغاء ثلاثة أجزاء من خطوط شارع عباس لمصادفتها فتحات شارع الواعظ وشارع الزاهد وشارع ابن كرا الواردة بالخريطة المعتمدة رقم ١٤٧٠</cell>
+                  <cell>إلغاء ثلاثة أجزاء من خطوط <placeName ref="شارع عباس" type="شارع">شارع
+                        عباس</placeName> لمصادفتها فتحات <placeName ref="شارع الواعظ" type="شارع"
+                        >شارع الواعظ</placeName> و<placeName ref="شارع الزاهد" type="شارع">شارع
+                        الزاهد</placeName> و<placeName ref="شارع ابن كرا" type="شارع">شارع ابن
+                        كرا</placeName> الواردة بالخريطة المعتمدة رقم ١٤٧٠</cell>
                </row>
                <row>
                   <cell>٦٢</cell>
                   <cell>٤ مايو ١٩١٥</cell>
-                  <cell>الغاء جزء من خطوط حارة حلوات لمصادفة فتحة سكة حلوات المعتمدة بالرسم ١٤٧٤</cell>
+                  <cell>الغاء جزء من خطوط <placeName ref="حارة حلوات" type="حارة">حارة
+                        حلوات</placeName> لمصادفة فتحة <placeName ref="سكة حلوات" type="سكة">سكة
+                        حلوات</placeName> المعتمدة بالرسم ١٤٧٤</cell>
                </row>
                <row>
                   <cell>١٣٦٧</cell>
                   <cell>١٢ مايو ١٩١٥</cell>
-                  <cell>الغاء جزء من خطوط سكة الشيخ عبدالله لمصادفته فتحة حارة القاصد المعتمدة بالرسم رقم ١٤٧٣</cell>
+                  <cell>الغاء جزء من خطوط <placeName ref="سكة الشيخ عبدالله" type="سكة">سكة الشيخ
+                        عبدالله</placeName> لمصادفته فتحة <placeName ref="حارة القاصد" type="حارة"
+                        >حارة القاصد</placeName> المعتمدة بالرسم رقم ١٤٧٣</cell>
                </row>
                <row>
                   <cell>١٨٥</cell>
                   <cell>١٣ مايو ١٩١٥</cell>
-                  <cell>الغاء جزء من خطوط شارع عبدالدايم لمصادفته فتحة</cell>
+                  <cell>الغاء جزء من خطوط <placeName ref="شارع عبدالدايم" type="شارع">شارع
+                        عبدالدايم</placeName> لمصادفته فتحة</cell>
                </row>
                <row>
                   <cell>٩٢٦</cell>
@@ -1045,12 +1067,20 @@
                <row>
                   <cell>١٤٧٠</cell>
                   <cell>١٢ مايو ١٩١٥</cell>
-                  <cell>خريطة تقاسيم ارض الشيخ ابراهيم عبدالعال بالعباسية مشتملة على شارع الجلالى وشارع الجاكي وشارع الواعظ وشارع الزاهد وشارع ابن كرا وشارع السلام</cell>
+                  <cell>خريطة تقاسيم <placeName ref="ارض الشيخ ابراهيم عبدالعال" type="ارض">ارض
+                        الشيخ ابراهيم عبدالعال</placeName> ب<placeName ref="العباسية"
+                        >العباسية</placeName> مشتملة على <placeName ref="شارع الجلالى" type="شارع"
+                        >شارع الجلالى</placeName> و<placeName ref="شارع الجاكي" type="شارع">شارع
+                        الجاكي</placeName> و<placeName ref="شارع الواعظ" type="شارع">شارع
+                        الواعظ</placeName> و<placeName ref="شارع الزاهد" type="شارع">شارع
+                        الزاهد</placeName> و<placeName ref="شارع ابن كرا" type="شارع">شارع ابن
+                        كرا</placeName> و<placeName ref="شارع السلام" type="شارع">شارع
+                        السلام</placeName></cell>
                </row>
                <row>
                   <cell>١٤٧٣</cell>
                   <cell>١٦ مايو ١٩١٥</cell>
-                  <cell>حارة القاصد</cell>
+                  <cell><placeName ref="حارة القاصد" type="حارة">حارة القاصد</placeName></cell>
                </row>
             </table>
          </div>
@@ -1068,255 +1098,317 @@
                </row>
                <row>
                   <cell>٣٢٥</cell>
-                  <cell>شارع الطرقة</cell>
-                  <cell>شارع الطرقة الغربي</cell>
+                  <cell><placeName ref="شارع الطرقة" type="شارع">شارع الطرقة</placeName></cell>
+                  <cell><placeName ref="شارع الطرقة الغربي" type="شارع">شارع الطرقة
+                        الغربي</placeName></cell>
                </row>
                <row>
                   <cell>٩٠٦</cell>
                   <cell>شارع الطرقة</cell>
-                  <cell>شارع الطرقة الشرقي</cell>
+                  <cell><placeName ref="شارع الطرقة الشرقي" type="شارع">شارع الطرقة
+                        الشرقي</placeName></cell>
                </row>
                <row>
                   <cell>٨٤٦</cell>
-                  <cell>حارة العطار</cell>
-                  <cell>حارة الكرمانى</cell>
+                  <cell><placeName ref="حارة العطار">حارة العطار</placeName></cell>
+                  <cell><placeName ref="حارة الكرمانى" type="حارة">حارة الكرمانى</placeName></cell>
                </row>
                <row>
                   <cell>٨١٣</cell>
-                  <cell>حارة البابلي</cell>
-                  <cell>حارة حسني بك</cell>
+                  <cell><placeName ref="حارة البابلي" type="حارة">حارة البابلي</placeName></cell>
+                  <cell><placeName ref="حارة حسني بك" type="حارة">حارة حسني بك</placeName></cell>
                </row>
                <row>
                   <cell>١١٩</cell>
-                  <cell>جزء من حارة درب البندق</cell>
-                  <cell>درب البندق عطفة الحلوانى</cell>
+                  <cell>جزء من <placeName ref="حارة درب البندق" type="حارة">حارة درب
+                        البندق</placeName></cell>
+                  <cell>درب البندق <placeName ref="عطفة الحلوانى" type="عطفة">عطفة
+                        الحلوانى</placeName></cell>
                </row>
                <row>
                   <cell>٢٨</cell>
-                  <cell>درب الصعايدة</cell>
-                  <cell>عطفة الصعايدة عطفة هلال</cell>
+                  <cell><placeName ref="درب الصعايدة" type="درب">درب الصعايدة</placeName></cell>
+                  <cell><placeName ref="عطفة الصعايدة" type="عطفة">عطفة الصعايدة</placeName>
+                     <placeName ref="عطفة هلال" type="عطفة">عطفة هلال</placeName></cell>
                </row>
                <row>
                   <cell>٤٨</cell>
-                  <cell>جزء من درب مشيمش</cell>
-                  <cell>عطفة مشيمش</cell>
+                  <cell>جزء من <placeName ref="درب مشيمش" type="درب">درب مشيمش</placeName></cell>
+                  <cell><placeName ref="عطفة مشيمش" type="عطفة">عطفة مشيمش</placeName></cell>
                </row>
                <row>
                   <cell>١٠٠٨</cell>
-                  <cell>جزء من درب الكنيسة</cell>
-                  <cell>عطفة العقاد</cell>
+                  <cell>جزء من <placeName ref="درب الكنيسة" type="درب">درب
+                     الكنيسة</placeName></cell>
+                  <cell><placeName ref="عطفة العقاد" type="عطفة">عطفة العقاد</placeName></cell>
                </row>
                <row>
                   <cell>١٢</cell>
-                  <cell>درب ابولحاف</cell>
-                  <cell>حارة ابولحاف عطفة السرجانى عطفة الزريبة عطفة الحانوتي عطفة النبقة</cell>
+                  <cell><placeName ref="درب ابولحاف" type="درب">درب ابولحاف</placeName></cell>
+                  <cell><placeName ref="حارة ابولحاف" type="حارة">حارة ابولحاف</placeName>
+                     <placeName ref="عطفة السرجانى" type="عطفة">عطفة السرجانى</placeName>
+                     <placeName ref="عطفة الزريبة" type="عطفة">عطفة الزريبة</placeName>
+                     <placeName ref="عطفة الحانوتي" type="عطفة">عطفة الحانوتي</placeName>
+                     <placeName ref="عطفة النبقة" type="عطفة">عطفة النبقة</placeName></cell>
                </row>
                <row>
                   <cell>٣١٥</cell>
-                  <cell>درب الجنينة</cell>
-                  <cell>درب جنينة الناصرية</cell>
+                  <cell><placeName ref="درب الجنينة" type="درب">درب الجنينة</placeName></cell>
+                  <cell><placeName ref="درب جنينة الناصرية" type="درب">درب جنينة <placeName
+                           ref="الناصرية">الناصرية</placeName></placeName></cell>
                </row>
                <row>
                   <cell>٣١</cell>
-                  <cell>درب المزين</cell>
-                  <cell>عطفة المزين</cell>
+                  <cell><placeName ref="درب المزين" type="درب">درب المزين</placeName></cell>
+                  <cell><placeName ref="عطفة المزين" type="عطفة">عطفة المزين</placeName></cell>
                </row>
                <row>
                   <cell>٣٥</cell>
-                  <cell>جزء من شارع سويقة السباعين</cell>
-                  <cell>شارع الناصرية</cell>
+                  <cell>جزء من <placeName ref="شارع سويقة السباعين" type="شارع">شارع <placeName
+                           ref="سويقة السباعين" type="سويقة">سويقة
+                     السباعين</placeName></placeName></cell>
+                  <cell><placeName ref="شارع الناصرية" type="شارع">شارع الناصرية</placeName></cell>
                </row>
                <row>
                   <cell>٨٢</cell>
-                  <cell>سوق مسكة</cell>
-                  <cell>حارة سوق مسكة</cell>
+                  <cell><placeName ref="سوق مسكة" type="سوق">سوق مسكة</placeName></cell>
+                  <cell><placeName ref="حارة سوق مسكة" type="حارة">حارة سوق مسكة</placeName></cell>
                </row>
                <row>
                   <cell>٧٤</cell>
-                  <cell>حارة خليل طينة</cell>
-                  <cell>حارة السلطان الحنفي</cell>
+                  <cell><placeName ref="حارة خليل طينة" type="حارة">حارة خليل
+                     طينة</placeName></cell>
+                  <cell><placeName ref="حارة السلطان الحنفي" type="حارة">حارة السلطان
+                        الحنفي</placeName></cell>
                </row>
                <row>
                   <cell>٧٦</cell>
-                  <cell>عطفة الحمام</cell>
-                  <cell>عطفة الشيخ ادريس</cell>
+                  <cell><placeName ref="عطفة الحمام" type="عطفة">عطفة الحمام</placeName></cell>
+                  <cell><placeName ref="عطفة الشيخ ادريس" type="عطفة">عطفة الشيخ
+                     ادريس</placeName></cell>
                </row>
                <row>
                   <cell>٢٠٩</cell>
-                  <cell>عطفة الجمل</cell>
-                  <cell>زقاق الجمل</cell>
+                  <cell><placeName ref="عطفة الجمل" type="عطفة">عطفة الجمل</placeName></cell>
+                  <cell><placeName ref="زقاق الجمل" type="زقاق">زقاق الجمل</placeName></cell>
                </row>
                <row>
                   <cell>١٢٢٣</cell>
-                  <cell>عطفة مدرسة المبتديان</cell>
-                  <cell>حارة حسن الكاشف</cell>
+                  <cell><placeName ref="عطفة مدرسة المبتديان" type="عطفة">عطفة <placeName
+                           ref="مدرسة"><orgName ref="مدرسة المبتديان" type="مدرسة">مدرسة
+                              المبتديان</orgName></placeName></placeName></cell>
+                  <cell><placeName ref="حارة حسن الكاشف" type="حارة">حارة حسن
+                     الكاشف</placeName></cell>
                </row>
                <row>
                   <cell>
                      <p>٢٦</p>
                   </cell>
-                  <cell>شارع ازبكعمارة حسن باشا طاهر عطفة حسن باشا راسم</cell>
-                  <cell>شارع جامع ازبك عطفة عمارة حسن طاهر عطفة حسن رسام</cell>
+                  <cell><placeName ref="شارع ازبك" type="شارع">شارع ازبك</placeName>
+                     <placeName ref="عمارة حسن باشا طاهر" type="عمارة">عمارة <persName>حسن باشا
+                           طاهر</persName></placeName>
+                     <placeName ref="عطفة حسن باشا راسم" type="عطفة">عطفة <persName>حسن باشا
+                           راسم</persName></placeName></cell>
+                  <cell><persName ref="شارع جامع ازبك" type="شارع">شارع <orgName ref="جامع ازبك"
+                           type="جامع"><placeName ref="جامع ازبك" type="جامع">جامع
+                           ازبك</placeName></orgName></persName>
+                     <placeName ref="عطفة عمارة حسن طاهر" type="عطفة">عطفة عمارة حسن
+                        طاهر</placeName>
+                     <placeName ref="عطفة حسن رسام" type="عطفة">عطفة حسن رسام</placeName></cell>
                </row>
                <row>
                   <cell>٢٤</cell>
-                  <cell>حارة عبد الباقي بك</cell>
-                  <cell>حارة عبدالباقي</cell>
+                  <cell><placeName ref="حارة عبد الباقي بك" type="حارة">حارة <persName>عبد الباقي
+                           بك</persName></placeName></cell>
+                  <cell><placeName ref="حارة عبدالباقي" type="حارة">حارة
+                     عبدالباقي</placeName></cell>
                </row>
                <row>
                   <cell>٢٠</cell>
-                  <cell>عطفة شق العرسة</cell>
-                  <cell>زقاق شق العرسة</cell>
+                  <cell><placeName ref="عطفة شق العرسة" type="عطفة">عطفة شق
+                     العرسة</placeName></cell>
+                  <cell><placeName ref="زقاق شق العرسة" type="زقاق">زقاق شق
+                     العرسة</placeName></cell>
                </row>
                <row>
                   <cell>٦٢٣</cell>
-                  <cell>عطفة شقبون</cell>
-                  <cell>حارة شقبون</cell>
+                  <cell><placeName ref="عطفة شقبون" type="عطفة">عطفة شقبون</placeName></cell>
+                  <cell><placeName ref="حارة شقبون" type="حارة">حارة شقبون</placeName></cell>
                </row>
                <row>
                   <cell>٥٩٧</cell>
-                  <cell>حارة حمام بابا</cell>
-                  <cell>حارة نجم الدين جزء من حارة ازبك عطفة حمام بابا</cell>
+                  <cell><placeName ref="حارة حمام بابا" type="حارة">حارة <placeName ref="حمام بابا"
+                           type="حمام"><orgName ref="حمام بابا" type="حمام">حمام
+                           بابا</orgName></placeName></placeName></cell>
+                  <cell><placeName ref="حارة نجم الدين" type="حارة">حارة نجم الدين</placeName> جزء
+                     من <placeName ref="حارة ازبك" type="حارة">حارة ازبك</placeName>
+                     <placeName ref="عطفة حمام بابا" type="عطفة">عطفة حمام بابا</placeName></cell>
                </row>
                <row>
                   <cell>٦٢١</cell>
-                  <cell>عطفة القشاطة</cell>
-                  <cell>حارة البقرجية</cell>
+                  <cell><placeName ref="عطفة القشاطة" type="عطفة">عطفة القشاطة</placeName></cell>
+                  <cell><placeName ref="حارة البقرجية" type="حارة">حارة البقرجية</placeName></cell>
                </row>
                <row>
                   <cell>٥٩٠</cell>
-                  <cell>عطفة الشوربة</cell>
-                  <cell>حارة الشوربة</cell>
+                  <cell><placeName ref="عطفة الشوربة" type="عطفة">عطفة الشوربة</placeName></cell>
+                  <cell><placeName ref="حارة الشوربة" type="حارة">حارة الشوربة</placeName></cell>
                </row>
                <row>
                   <cell>٥٩٨</cell>
-                  <cell>عطفة الشماشرجية</cell>
-                  <cell>عطفة الوكيل</cell>
+                  <cell><placeName ref="عطفة الشماشرجية" type="عطفة">عطفة
+                     الشماشرجية</placeName></cell>
+                  <cell><placeName ref="عطفة الوكيل" type="عطفة">عطفة الوكيل</placeName></cell>
                </row>
                <row>
                   <cell>٧٤٥</cell>
-                  <cell>حارة الدحديرة</cell>
-                  <cell>درب الطالوني</cell>
+                  <cell><placeName ref="حارة الدحديرة" type="حارة">حارة الدحديرة</placeName></cell>
+                  <cell><placeName ref="درب الطالوني" type="درب">درب الطالوني</placeName></cell>
                </row>
                <row>
                   <cell>٨٤٩</cell>
-                  <cell>شارع سيدى المأمون</cell>
-                  <cell>جزء من شارع قلعة الكبش</cell>
+                  <cell><placeName ref="شارع سيدى المأمون" type="شارع">شارع سيدى
+                     المأمون</placeName></cell>
+                  <cell>جزء من <placeName ref="شارع قلعة الكبش" type="شارع">شارع قلعة
+                        الكبش</placeName></cell>
                </row>
                <row>
                   <cell>٧٨١</cell>
-                  <cell>عطفة الحمام</cell>
-                  <cell>عطفة نوح</cell>
+                  <cell><placeName ref="عطفة الحمام" type="عطفة">عطفة الحمام</placeName></cell>
+                  <cell><placeName ref="عطفة نوح" type="عطفة">عطفة نوح</placeName></cell>
                </row>
                <row>
                   <cell>٨٤٧</cell>
-                  <cell>شارع حوش الفيل</cell>
-                  <cell>عطفة حوش الفيل</cell>
+                  <cell><placeName ref="شارع حوش الفيل" type="شارع">شارع حوش
+                     الفيل</placeName></cell>
+                  <cell><placeName ref="عطفة حوش الفيل" type="عطفة">عطفة حوش
+                     الفيل</placeName></cell>
                </row>
                <row>
                   <cell>٨٨٧</cell>
-                  <cell>جزء من شارع الرحبة</cell>
-                  <cell>درب شربيني</cell>
+                  <cell>جزء من <placeName ref="شارع الرحبة" type="شارع">شارع
+                     الرحبة</placeName></cell>
+                  <cell><placeName ref="درب شربيني" type="درب">درب شربيني</placeName></cell>
                </row>
                <row>
                   <cell>٨٨٦</cell>
-                  <cell>درب حيدر</cell>
-                  <cell>عطفة حيدر</cell>
+                  <cell><placeName ref="درب حيدر" type="درب">درب حيدر</placeName></cell>
+                  <cell><placeName ref="عطفة حيدر" type="عطفة">عطفة حيدر</placeName></cell>
                </row>
                <row>
                   <cell>٨٥١</cell>
-                  <cell>حارة البير</cell>
-                  <cell>درب العجوز</cell>
+                  <cell><placeName ref="حارة البير" type="حارة">حارة البير</placeName></cell>
+                  <cell><placeName ref="درب العجوز" type="درب">درب العجوز</placeName></cell>
                </row>
                <row>
                   <cell>٧٨٣</cell>
-                  <cell>شارع الاستاذ العمرى</cell>
-                  <cell>شارع العمرى</cell>
+                  <cell><placeName ref="شارع الاستاذ العمرى" type="شارع">شارع الاستاذ
+                        العمرى</placeName></cell>
+                  <cell><placeName ref="شارع العمرى" type="شارع">شارع العمرى</placeName></cell>
                </row>
                <row>
                   <cell>٧٦٥</cell>
-                  <cell>جزء من درب المصبغة</cell>
+                  <cell>جزء من <placeName ref="درب المصبغة" type="درب">درب
+                     المصبغة</placeName></cell>
+                  <cell><placeName ref="عطفة المصبغة" type="عطفة">عطفة المصبغة</placeName></cell>
+               </row>
+               <row>
+                  <cell>٧٣١</cell>
+                  <cell><placeName ref="حارة مسعود" type="حارة">حارة مسعود</placeName></cell>
                   <cell>عطفة المصبغة</cell>
                </row>
                <row>
                   <cell>٧٣١</cell>
-                  <cell>حارة مسعود</cell>
-                  <cell>عطفة المصبغة</cell>
-               </row>
-               <row>
-                  <cell>٧٣١</cell>
-                  <cell>عطفة الكبابجي</cell>
-                  <cell>عطفة حجاج افندى</cell>
+                  <cell><placeName ref="عطفة الكبابجي" type="عطفة">عطفة الكبابجي</placeName></cell>
+                  <cell><placeName ref="عطفة حجاج افندى" type="عطفة">عطفة حجاج
+                     افندى</placeName></cell>
                </row>
                <row>
                   <cell>٧٦٢</cell>
-                  <cell>حارة الاسقف</cell>
-                  <cell>عطفة الاسقف</cell>
+                  <cell><placeName ref="حارة الاسقف" type="حارة">حارة الاسقف</placeName></cell>
+                  <cell><placeName ref="عطفة الاسقف" type="عطفة">عطفة الاسقف</placeName></cell>
                </row>
                <row>
                   <cell>٧٦٤</cell>
-                  <cell>حارة عبدالله الطباخ</cell>
-                  <cell>عطفة والى افندى</cell>
+                  <cell><placeName ref="حارة عبدالله الطباخ" type="حارة">حارة عبدالله
+                        الطباخ</placeName></cell>
+                  <cell><placeName ref="عطفة والى افندى" type="عطفة">عطفة والى
+                     افندى</placeName></cell>
                </row>
                <row>
                   <cell>٧٦٣</cell>
-                  <cell>الحارة الطويلة</cell>
-                  <cell>زقاق ابوزيد</cell>
+                  <cell><placeName ref="الحارة الطويلة" type="حارة">الحارة
+                     الطويلة</placeName></cell>
+                  <cell><placeName ref="زقاق ابوزيد" type="زقاق">زقاق ابوزيد</placeName></cell>
                </row>
                <row>
                   <cell>١٠٧٩</cell>
-                  <cell>حارة القفطانجي</cell>
-                  <cell>حارة قره قول السيدة</cell>
+                  <cell><placeName ref="حارة القفطانجي" type="حارة">حارة
+                     القفطانجي</placeName></cell>
+                  <cell><placeName ref="حارة قره قول السيدة" type="حارة">حارة <placeName
+                           ref="قره قول السيدة" type="قره-قول">قره قول
+                        السيدة</placeName></placeName></cell>
                </row>
                <row>
                   <cell>٥٦٦</cell>
-                  <cell>حارة الميضة</cell>
-                  <cell>حارة باب الميضة</cell>
+                  <cell><placeName ref="حارة الميضة" type="حارة">حارة الميضة</placeName></cell>
+                  <cell><placeName ref="حارة باب الميضة" type="حارة">حارة باب
+                     الميضة</placeName></cell>
                </row>
                <row>
                   <cell>٦٤٧</cell>
-                  <cell>حارة لبيب</cell>
-                  <cell>عطفة لبيب</cell>
+                  <cell><placeName ref="حارة لبيب" type="حارة">حارة لبيب</placeName></cell>
+                  <cell><placeName ref="عطفة لبيب" type="عطفة">عطفة لبيب</placeName></cell>
                </row>
                <row>
                   <cell>٤٥٣</cell>
-                  <cell>سكة سيدى زين العابدين</cell>
-                  <cell>سكة المدبح</cell>
+                  <cell><placeName ref="سكة سيدى زين العابدين" type="سكة">سكة سيدى زين
+                        العابدين</placeName></cell>
+                  <cell><placeName ref="سكة المدبح" type="سكة">سكة المدبح</placeName></cell>
                </row>
                <row>
                   <cell>١٢٣١</cell>
-                  <cell>شارع ملجا اللقطا</cell>
-                  <cell>شارع مستشفي اللادى كرومر</cell>
+                  <cell><placeName ref="شارع ملجا اللقطا" type="شارع">شارع <orgName
+                           ref="ملجا اللقطا" type="ملجا">ملجا اللقطا</orgName></placeName></cell>
+                  <cell><placeName ref="شارع مستشفي اللادى كرومر" type="شارع">شارع <placeName
+                           ref="مستشفي اللادى كرومر" type="مستشفي"><orgName
+                              ref="مستشفي اللادى كرومر" type="مستشفي">مستشفي اللادى
+                           كرومر</orgName></placeName></placeName></cell>
                </row>
                <row>
                   <cell>٦٨٠</cell>
-                  <cell>حارة بير الوطاويط</cell>
-                  <cell>شارع بير الوطاويط</cell>
+                  <cell><placeName ref="حارة بير الوطاويط" type="حارة">حارة <placeName
+                           ref="بير الوطاويط" type="بير">بير الوطاويط</placeName></placeName></cell>
+                  <cell><placeName ref="شارع بير الوطاويط" type="شارع">شارع بير
+                     الوطاويط</placeName></cell>
                </row>
                <row>
                   <cell>٥٥٨</cell>
-                  <cell>شارع القنطرة</cell>
-                  <cell>شارع قنطرة فم الخليج</cell>
+                  <cell><placeName ref="شارع القنطرة" type="شارع">شارع القنطرة</placeName></cell>
+                  <cell><placeName ref="شارع قنطرة فم الخليج" type="شارع">شارع قنطرة فم
+                        الخليج</placeName></cell>
                </row>
                <row>
                   <cell>١٤</cell>
                   <cell>
-                     <p>جزء من شارع باب الخلق</p>
-                     <p>وشارع الحبانية</p>
+                     <p>جزء من <placeName ref="شارع باب الخلق" type="شارع">شارع باب
+                           الخلق</placeName></p>
+                     <p>و<placeName ref="شارع الحبانية" type="شارع">شارع الحبانية</placeName></p>
                   </cell>
                   <cell>
-                     <p>شارع درب الجماميز</p>
+                     <p><placeName ref="شارع درب الجماميز" type="شارع">شارع درب
+                        الجماميز</placeName></p>
                   </cell>
                </row>
                <row>
                   <cell>١٤</cell>
                   <cell>جزء من شارع درب الجماميز</cell>
-                  <cell>شارع اللبودية</cell>
+                  <cell><placeName ref="شارع اللبودية" type="شارع">شارع اللبودية</placeName></cell>
                </row>
                <row>
                   <cell>٧٨٤</cell>
-                  <cell>عطفة العود</cell>
-                  <cell>عطفة العمود</cell>
+                  <cell><placeName ref="عطفة العود" type="عطفة">عطفة العود</placeName></cell>
+                  <cell><placeName ref="عطفة العمود" type="عطفة">عطفة العمود</placeName></cell>
                </row>
                <row>
                   <cell>
@@ -1324,79 +1416,104 @@
                      <p>١١٩٧</p>
                   </cell>
                   <cell>
-                     <p>شارع السد الجوانى +</p>
-                     <p>شارع فم السدين</p>
+                     <p><placeName ref="شارع السد الجوانى" type="شارع">شارع السد الجوانى</placeName>
+                        +</p>
+                     <p><placeName ref="شارع فم السدين" type="شارع">شارع فم السدين</placeName></p>
                   </cell>
-                  <cell>شارع السد</cell>
+                  <cell><placeName ref="شارع السد">شارع السد</placeName></cell>
                </row>
                <row>
                   <cell>٦٤١</cell>
-                  <cell>حارة درب شكمبه</cell>
-                  <cell>درب شكمبه عطفة جلبي افندى</cell>
+                  <cell><placeName ref="حارة درب شكمبه" type="حارة">حارة درب
+                     شكمبه</placeName></cell>
+                  <cell><placeName ref="درب شكمبه" type="درب">درب شكمبه</placeName>
+                     <placeName ref="عطفة جلبي افندى" type="عطفة">عطفة جلبي افندى</placeName></cell>
                </row>
                <row>
                   <cell>٦٤٠</cell>
-                  <cell>جزء من حارة السيدة زينب</cell>
-                  <cell>عطفة الزهارحارة حوش الطاحون</cell>
+                  <cell>جزء من <placeName ref="حارة السيدة زينب" type="حارة">حارة السيدة
+                        زينب</placeName></cell>
+                  <cell><placeName ref="عطفة الزهار" type="عطفة">عطفة الزهار</placeName>
+                     <placeName ref="حارة حوش الطاحون" type="حارة">حارة حوش
+                     الطاحون</placeName></cell>
                </row>
                <row>
                   <cell>٦٤٢</cell>
-                  <cell>حارة درب السناجرة</cell>
-                  <cell>درب السناجرة</cell>
+                  <cell><placeName ref="حارة درب السناجرة" type="حارة">حارة درب
+                     السناجرة</placeName></cell>
+                  <cell><placeName ref="درب السناجرة" type="درب">درب السناجرة</placeName></cell>
                </row>
                <row>
                   <cell>
                      <p>١٣</p>
                   </cell>
                   <cell>
-                     <p>حارة درب القمح</p>
+                     <p><placeName ref="حارة درب القمح" type="حارة">حارة درب القمح</placeName></p>
                   </cell>
-                  <cell>درب القمح حارة الحريري عطفة الزفتاوى</cell>
+                  <cell><placeName ref="درب القمح" type="درب">درب القمح</placeName>
+                     <placeName ref="حارة الحريري" type="حارة">حارة الحريري</placeName>
+                     <placeName ref="عطفة الزفتاوى" type="عطفة">عطفة الزفتاوى</placeName></cell>
                </row>
                <row>
                   <cell>
                      <p>٦٤٣</p>
                   </cell>
-                  <cell>حارة درب المدبح</cell>
-                  <cell>درب الكيلاني عطفة فودة</cell>
+                  <cell><placeName ref="حارة درب المدبح" type="حارة">حارة درب
+                     المدبح</placeName></cell>
+                  <cell><placeName ref="درب الكيلاني" type="درب">درب الكيلاني</placeName>
+                     <placeName ref="عطفة فودة" type="عطفة">عطفة فودة</placeName></cell>
                </row>
                <row>
                   <cell>قسم مصر القديمة</cell>
                </row>
                <row>
                   <cell>١٠١٨</cell>
-                  <cell>جزء من حارة السكر والليمون</cell>
-                  <cell>شارع السكر والليمون عطفة السكر والليمون</cell>
+                  <cell>جزء من <placeName ref="حارة السكر والليمون" type="حارة">حارة السكر
+                        والليمون</placeName></cell>
+                  <cell><placeName ref="شارع السكر والليمون" type="شارع">شارع السكر
+                        والليمون</placeName>
+                     <placeName ref="عطفة السكر والليمون" type="عطفة">عطفة السكر
+                        والليمون</placeName></cell>
                </row>
                <row>
                   <cell>١١٣٠</cell>
-                  <cell>جزء من حارة دير النحاس</cell>
-                  <cell>زقاق دير النحاس عطفة دير النحاس</cell>
+                  <cell>جزء من <placeName ref="حارة دير النحاس" type="حارة">حارة دير
+                        النحاس</placeName></cell>
+                  <cell><placeName ref="زقاق دير النحاس" type="زقاق">زقاق دير النحاس</placeName>
+                     <placeName ref="عطفة دير النحاس" type="عطفة">عطفة دير النحاس</placeName></cell>
                </row>
                <row>
                   <cell>١٠٦٠</cell>
-                  <cell>جزء من حارة السملى</cell>
-                  <cell>عطفة السملى عطفة منسي</cell>
+                  <cell>جزء من <placeName ref="حارة السملى" type="حارة">حارة
+                     السملى</placeName></cell>
+                  <cell><placeName ref="عطفة السملى" type="عطفة">عطفة السملى</placeName>
+                     <placeName ref="عطفة منسي" type="عطفة">عطفة منسي</placeName></cell>
                </row>
                <row>
                   <cell>١٠٧٠</cell>
-                  <cell>جزء من حارة الشراقوة</cell>
-                  <cell>عطفة الشراقوة</cell>
+                  <cell>جزء من <placeName ref="حارة الشراقوة" type="حارة">حارة
+                     الشراقوة</placeName></cell>
+                  <cell><placeName ref="عطفة الشراقوة" type="عطفة">عطفة الشراقوة</placeName></cell>
                </row>
                <row>
                   <cell>١١٢٨</cell>
-                  <cell>جزء من حارة الخوخة</cell>
-                  <cell>عطفة الخوخة</cell>
+                  <cell>جزء من <placeName ref="حارة الخوخة" type="حارة">حارة
+                     الخوخة</placeName></cell>
+                  <cell><placeName ref="عطفة الخوخة" type="عطفة">عطفة الخوخة</placeName></cell>
                </row>
                <row>
                   <cell>١٠٢٢</cell>
-                  <cell>جزء من حارة علكسان</cell>
-                  <cell>شارع البربري عطفة الحديدى عطفة الشماشرجي</cell>
+                  <cell>جزء من <placeName ref="حارة علكسان" type="حارة">حارة
+                     علكسان</placeName></cell>
+                  <cell><placeName ref="شارع البربري" type="شارع">شارع البربري</placeName>
+                     <placeName ref="عطفة الحديدى" type="عطفة">عطفة الحديدى</placeName>
+                     <placeName ref="عطفة الشماشرجي" type="عطفة">عطفة الشماشرجي</placeName></cell>
                </row>
                <row>
                   <cell>١٠٦٥</cell>
-                  <cell>شارع حارة الجنينة</cell>
-                  <cell>شارع الجنينة</cell>
+                  <cell><placeName ref="شارع حارة الجنينة" type="شارع">شارع حارة
+                     الجنينة</placeName></cell>
+                  <cell><placeName ref="شارع الجنينة" type="شارع">شارع الجنينة</placeName></cell>
                </row>
             </table>
             <p>:::::::::::::::::::::::::::::::</p>
