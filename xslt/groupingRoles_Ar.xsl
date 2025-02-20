@@ -4,8 +4,8 @@
     xmlns="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs" version="3.0"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0">
     <xsl:output indent="yes"/>
-
- 
+    
+    
     <!-- Root template -->
     <xsl:template match="/" name="xsl:initial-template">
         <!-- make the articles folder into a variable, it selectes all xml files in the same folder, consider only the ones with the cleared status -->
@@ -130,12 +130,12 @@
                         </respStmt>
                         <sponsor>
                             <orgName>National Endowment for the Humanities</orgName>,
-                                <orgName>Institut français d’archéologie orientale</orgName> (Ifao,
+                            <orgName>Institut français d’archéologie orientale</orgName> (Ifao,
                             Cairo); <orgName>Franklin Humanities Institute and the Office of Global
                                 Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
                                 University</orgName>; <orgName>Duke University Libraries</orgName>;
-                                <orgName>Centre national de la recherche scientifique</orgName>;
-                                <orgName>the Office of the Hungarian Cultural Counsellor in
+                            <orgName>Centre national de la recherche scientifique</orgName>;
+                            <orgName>the Office of the Hungarian Cultural Counsellor in
                                 Cairo</orgName>.</sponsor>
                     </titleStmt>
                     <publicationStmt>
@@ -146,7 +146,7 @@
                             <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
                         </p>
                         <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
-                                Volait</persName>, <persName>Hugh Cayless</persName></p>
+                            Volait</persName>, <persName>Hugh Cayless</persName></p>
                     </publicationStmt>
                     <sourceDesc>
                         <p>Al-Waqāʾiʿ al-Miṣrīyah (Egyptian Affairs) newspaper, 1828–1914.</p>
@@ -175,12 +175,12 @@
                             it can be added in an attribute to a persName.</p>
                         <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
                         <p>This project's schema considers Till Grallert's work in his <ref
-                                target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open
-                                Arabic Periodical Editions</ref>.</p>
+                            target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open
+                            Arabic Periodical Editions</ref>.</p>
                     </editorialDecl>
                 </encodingDesc>
             </teiHeader>
-
+            
             <text xml:lang="ar" resp="#eAM">
                 <body>
                     <castList>
@@ -189,50 +189,50 @@
                             <xsl:for-each-group select="$articlesAr//persName[@role]" group-by="@role">
                                 <xsl:sort select="translate(current-grouping-key(), '-', ' ')"
                                     collation="http://www.w3.org/2013/collation/UCA/ar"/>
-
+                                
                                 <!-- create role elements with a unique id -->
-                                <role xml:id="{concat('role_', generate-id())}">
+                                <role xml:lang="ar" xml:id="{concat('role_', generate-id())}">
                                     <!-- Replace hyphens in role attribute values with spaces -->
                                     <xsl:value-of
                                         select="translate(current-grouping-key(), '-', ' ')"/>
-
-                                   
-                                        <!-- Find and list the contents of date elements with when-custom -->
-                                       
-                                            <note>
-                                                <xsl:for-each select="$articlesAr//div[.//persName[@role = current-grouping-key()]]/date[@when-custom]">
-                                                <date when-custom="{@when-custom}">
-                                                    <xsl:value-of select="."/>
-                                                    
-                                                    <!-- Extract xml:id from the parent div and add it in an idno element -->
-                                                    <xsl:variable name="parentDiv" select="ancestor::div[@xml:id][1]"/>
-                                                    <xsl:if test="$parentDiv">
-                                                        <idno source="div">
-                                                            <xsl:value-of select="$parentDiv/@xml:id"/>
-                                                        </idno>
-                                                    </xsl:if>
+                                    
+                                    
+                                    <!-- Find and list the contents of date elements with when-custom -->
+                                    
+                                    <note>
+                                        <xsl:for-each select="$articlesAr//div[.//persName[@role = current-grouping-key()]]/date[@when-custom]">
+                                            <date when-custom="{@when-custom}">
+                                                <xsl:value-of select="."/>
                                                 
-                                                </date>
-                                            </xsl:for-each>
-                                            
-                                            <!-- Find the when-custom attribute in the head/date element within each div -->
-                                                <xsl:for-each select="$articlesAr//div[.//persName[@role = current-grouping-key()]]/head/date[@when-custom]">
-                                                <date when-custom="{@when-custom}">
-                                                    <xsl:value-of select="."/>
-                                                    <!-- Extract xml:id from the parent div and add it in an idno element -->
-                                                    <xsl:variable name="parentDiv" select="ancestor::div[@xml:id][1]"/>
-                                                    <xsl:if test="$parentDiv">
-                                                        <idno source="div">
-                                                            <xsl:value-of select="$parentDiv/@xml:id"/>
-                                                        </idno>
-                                                    </xsl:if>
-                                                </date>
-                                            </xsl:for-each>
-                                            </note>
+                                                <!-- Extract xml:id from the parent div and add it in an idno element -->
+                                                <xsl:variable name="parentDiv" select="ancestor::div[@xml:id][1]"/>
+                                                <xsl:if test="$parentDiv">
+                                                    <idno source="div">
+                                                        <xsl:value-of select="$parentDiv/@xml:id"/>
+                                                    </idno>
+                                                </xsl:if>
+                                                
+                                            </date>
+                                        </xsl:for-each>
                                         
+                                        <!-- Find the when-custom attribute in the head/date element within each div -->
+                                        <xsl:for-each select="$articlesAr//div[.//persName[@role = current-grouping-key()]]/head/date[@when-custom]">
+                                            <date when-custom="{@when-custom}">
+                                                <xsl:value-of select="."/>
+                                                <!-- Extract xml:id from the parent div and add it in an idno element -->
+                                                <xsl:variable name="parentDiv" select="ancestor::div[@xml:id][1]"/>
+                                                <xsl:if test="$parentDiv">
+                                                    <idno source="div">
+                                                        <xsl:value-of select="$parentDiv/@xml:id"/>
+                                                    </idno>
+                                                </xsl:if>
+                                            </date>
+                                        </xsl:for-each>
+                                    </note>
+                                    
                                     
                                 </role>
-
+                                
                             </xsl:for-each-group>
                         </castItem>
                     </castList>
