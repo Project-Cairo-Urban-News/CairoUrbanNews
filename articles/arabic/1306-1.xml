@@ -2,34 +2,37 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>"Digital Cairo - Urbanism News from al-Waqāʾiʿ al-Miṣrīyah - An Ottoman Arabic Digital Humanities
-          Project"</title>
-        <editor xml:id="eNK">Nour Kanaan</editor>
-        <editor xml:id="eAM">Adam Mestyan</editor>
+        <title>"Urbanism News In The Official Egyptian Gazette (al-Waqāʾiʿ al-Miṣrīyah), 1828-1914 - An Ottoman Arabic
+          Digital Humanities Project"</title>
+        <editor xml:id="eHC" ref="https://orcid.org/0000-0003-0060-9396">Hugh Cayless</editor>
+        <editor xml:id="eNK" ref="https://orcid.org/0009-0008-0409-7328">Nour Kanaan</editor>
+        <editor xml:id="eAM" ref="https://orcid.org/0000-0002-5945-6147">Adam Mestyan</editor>
         <editor xml:id="eDY">Danah Younis</editor>
-        <editor xml:id="eSG">Sarah Fathallah Gaara</editor>
-        <editor xml:id="eAE">Arif Erbil</editor>
-        <editor xml:id="eAK">Ahmed Kamal</editor>
-        <editor xml:id="eAS">Abram Smith</editor>
+        <editor xml:id="eSG" ref="https://orcid.org/0000-0002-1977-5530">Sarah Fathallah
+          Gaara</editor>
+        <editor xml:id="eAE" ref="https://orcid.org/0000-0001-9369-3034">Arif Erbil</editor>
+        <editor xml:id="eAK" ref="https://orcid.org/0000-0003-1721-1050">Ahmed Kamal</editor>
+        <editor xml:id="eAS" ref="https://orcid.org/0009-0004-9778-6632">Abram Smith</editor>
         <editor xml:id="eCH">Clara Harms</editor>
-        <editor xml:id="eHS">Hüseyin Sağlam</editor>
-        <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+        <editor xml:id="eHS" ref="https://orcid.org/0000-0003-3003-1986">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT" ref="https://orcid.org/0009-0002-2083-9199">Abdulrahman
+          El-Taliawi</editor>
         <editor xml:id="eHL">Hiba Laabadli</editor>
-        <editor xml:id="eOE">Othmane Echchabi</editor>
+        <editor xml:id="eOE" ref="https://orcid.org/0009-0002-9543-2617">Othmane Echchabi</editor>
         <editor xml:id="eFA">Fatemah Almahana</editor>
         <editor xml:id="eMZ">Mahmoud Zaki</editor>
-        <editor xml:id="eNS">Nehal al-Shamy</editor>
-        <editor xml:id="eVJ">Vishal Jammulapati</editor>
+        <editor xml:id="eNS" ref="https://orcid.org/0009-0006-8785-0228">Nehal al-Shamy</editor>
+        <editor xml:id="eVJ" ref="https://orcid.org/0009-0004-4472-4120">Vishal Jammulapati</editor>
         <respStmt>
-          <resp>Project leader</resp>
+          <resp>Project co-director</resp>
           <name>Hugh Cayless</name>
         </respStmt>
         <respStmt>
-          <resp>Project leader</resp>
+          <resp>Primary Investigator</resp>
           <name>Adam Mestyan</name>
         </respStmt>
         <respStmt>
-          <resp>Project leader</resp>
+          <resp ref="https://orcid.org/0000-0001-5239-7909">Project co-director</resp>
           <name>Mercedes Volait</name>
         </respStmt>
         <respStmt>
@@ -37,12 +40,12 @@
           <name>Sarah Fathallah Gaara</name>
         </respStmt>
         <respStmt>
-          <resp>Research Assistant</resp>
+          <resp ref="https://orcid.org/0000-0003-1216-3686">Research Assistant</resp>
           <name>Karima Nasr</name>
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
-          <name>Rezk Nory</name>
+          <name>Rezk Nori</name>
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
@@ -98,12 +101,11 @@
             and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
             University</orgName>; <orgName>Duke University Libraries</orgName>; <orgName>Centre
             national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian
-            Cultural Counsellor in Cairo</orgName>. </sponsor>
+            Cultural Counsellor in Cairo</orgName>.</sponsor>
       </titleStmt>
       <publicationStmt>
- <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the project "La fabrique
-          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+        <p>"A TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah, 1828-1914"</p>
+        <p> Created by the "Digital Cairo" project (Duke University - Ifao), sponsored by the National Endowment for the Humanities.</p>
         <p>
           <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
         </p>
@@ -119,7 +121,7 @@
       <projectDesc>
         <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+        <p>The "Digital Cairo" project is sponsored by the National Endowment for the Humanities.</p>
       </projectDesc>
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
@@ -195,68 +197,69 @@
          </listChange>
       </revisionDesc>
   </teiHeader>
-  
   <text xml:lang="ar">
       <body>
-         <div xml:id="w190" resp="#eAK">
+         <div xml:id="w1" resp="#eAK #eSG">
         <head><date when-custom="1306-01-18">١٨ محرم ١٣٠٦</date>
           <date when="1888-09-24">٢٤ سبتمبر ١٨٨٨</date>
           <bibl><biblScope unit="issue">عدد ١١٠</biblScope>
-            <biblScope unit="page">ص ٢٠٧٦</biblScope></bibl></head>
-        <head><rs type="اعلان">اعلان</rs> من <orgName ref="بيت مال مصر">بيت مال مصر</orgName></head>
+            <biblScope unit="page">صفحة ٢٠٧٦</biblScope></bibl></head>
+        <head><rs type="اعلان">اعلان</rs> من <orgName ref="بيت-مال-مصر" type="بيت-مال">بيت مال
+            مصر</orgName></head>
         <p>من الاموال الضائعة حق بيت المال حصة اربعة قراريط في منزل كائن ب<placeName ref="السبتية">السبتية</placeName> ب<placeName ref="بولاق">بولاق</placeName> شركة <persName>ابراهيم
             الحنك الجزار</persName> ولتطلب الشريك المذكور مشترى هذه الحصة فلكونها بغير حجة كان تحرر
-            ل<orgName ref="ديوان الاوقاف" type="ديوان">ديوان الاوقاف</orgName> بما لزم وافيد منه في
-            <date when-custom="1305-09-17">١٧ رمضان ١٣٠٥</date> نمرة ١١٠ عن خلوها من شوائب الوقف
-          وبعد ان توضح من مهندس بيت المال ان مقاس المنزل المذكور جميعه ٤٧,٥٢ متر وانه غير لازم
-          للميري قد عرض لل<orgName ref="الداخلية" type="نظارة">داخلية</orgName> بما اقتضي وصدر امرها
-          رقم <date when-custom="1305-12-07">٧ الحجه ١٣٠٥</date> نمرة ٣٢٢ تصريحا ببيع تلك الحصة
-          بميعاد ٩١ يوما وعلى ذلك قد تحررت قائمة المزاد وغيره تكون على المشترى خاصة دون تكليف بيت
-          المال بشئ من ذلك وان من يرسي عليه العطا يكون مكلفا بدفع قيمة خمس الثمن لخزينة تامينا لحين
-          السماح في البيع اليه من عدمه بشرط ان لم يحصل السماح في البيع اليه فلا يكن له ادنى تداعى
-          ولا مطالبه على بيت المال باى وجه وقد نشر عن ذلك في تاريخه لكافة الجهات عموما وبالجملة هذا
-          .... </p>
+            ل<orgName ref="ديوان-الاوقاف" type="ديوان">ديوان الاوقاف</orgName> بما لزم وافيد منه في
+          ١٧ رمضان ١٣٠٥ نمرة ١١٠ عن خلوها من شوائب الوقف وبعد ان توضح من مهندس بيت المال ان مقاس
+          المنزل المذكور جميعه ٤٧,٥٢ متر وانه غير لازم لل<orgName ref="ميري">ميري</orgName> قد عرض
+            لل<orgName ref="الداخلية">داخلية</orgName> بما اقتضي وصدر امرها رقم ٧ الحجه ١٣٠٥ نمرة
+          ٣٢٢ تصريحا ببيع تلك الحصة بميعاد ٩١ يوما وعلى ذلك قد تحررت قائمة المزاد وغيره تكون على
+          المشترى خاصة دون تكليف بيت المال بشئ من ذلك وان من يرسي عليه العطا يكون مكلفا بدفع قيمة
+          خمس الثمن<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+          <?oxy_comment_start author="Dr. Sarah" timestamp="20250130T164214+0200" comment="خزينة ايه؟" mid="1"?>لخزينة<?oxy_custom_end?><?oxy_comment_end mid="1"?>
+          تامينا لحين السماح في البيع اليه من عدمه بشرط ان لم يحصل السماح في البيع اليه فلا يكن له
+          ادنى تداعى ولا مطالبه على بيت المال باى وجه وقد نشر عن ذلك في تاريخه لكافة الجهات عموما
+          وبالجملة هذا</p>
       </div>
-         <div xml:id="w191" resp="#eAK">
+         <div xml:id="w2" resp="#eAK #eSG">
         <head><date when-custom="1306-01-25">٢٥ محرم ١٣٠٦</date>
           <date when="1888-10-01">١ أكتوبر ١٨٨٨</date>
           <bibl><biblScope unit="issue">عدد ١١٣</biblScope>
-            <biblScope unit="page">ص ٢١٢٣</biblScope></bibl></head>
-        <head><rs type="اعلان">اعلان</rs> من <orgName ref="عموم بيت مال مصر">عموم بيت مال
+            <biblScope unit="page">صفحة ٢١٢٣</biblScope></bibl></head>
+        <head><rs type="اعلان">اعلان</rs> من <orgName ref="عموم-بيت-مال-مصر">عموم بيت مال
             مصر</orgName></head>
-        <p>عن بيان العقارات المسبوق التصريح عن <orgName ref="الداخلية" type="نظارة">الداخلية</orgName> ببيعها بمواعيد تحددت للاشهار وقد كان ورسي العطا فيها على مذكورين
-          بالاثمان المبينة بكل قلم بعد كف ايدى الراغبين ومقتضي النشر عن ذلك بالجرنالات الرسمية
-          بميعاه خمسة عشر يوما</p>
+        <p>عن بيان العقارات المسبوق التصريح عن <orgName ref="الداخلية">الداخلية</orgName> ببيعها
+          بمواعيد تحددت للاشهار وقد كان ورسي العطا فيها على مذكورين بالاثمان المبينة بكل قلم بعد كف
+          ايدى الراغبين ومقتضي النشر عن ذلك بالجرنالات الرسمية بميعاه خمسة عشر يوما</p>
         <list rend="bulleted">
           <item>
-            <hi style="font-size:14ptdirection:rtl;">حصة ١٠ قراريط في منزل كائن ب<placeName ref="حارة سيدى على الخواص" type="حارة">حارة سيدى على الخواص</placeName> ب<placeName ref="الحسينية">الحسينية</placeName> حق <persName>ولدى المرحوم حسنين حليمه الفوال
-                المتغيبين</persName> من مدة لا يعلم محل مستقرهما والمنزل جميعه ٤٦,١٥ متر وغير لازم
-              للميري وبماء على ما صدر لبيت المال من الداخلية في <date when-custom="1305-02-07">٧ صفر
-                ١٣٠٥</date> نمرة ٤٧٨ جرى اشهار الحصة المذكورة للبيع بميعاد ٦١ يوما ورسي العطا فيها
-              اخيرا على الحرمه <persName>زهره بنت عبدالجواد</persName> بثمن قدره ٦١٧ قرشا و٨ فضه
-              وباقى المزايدين كفوا يديهم</hi>
-          </item>
-          <item>
-            <hi style="font-size:14ptdirection:rtl;">حصة قيراط ونصف في منزل كبير ببابين ب<placeName ref="عطفة النبقه" type="عطفة">عطفة النبقه</placeName> ب<placeName ref="قسم درب الجماميز" type="قسم">قسم درب الجماميز</placeName> آيله لبيت المال من
-              قبل المرحومه الست <persName>اسماء البيضا معتوقة وزوجة المرحوم يوسف افندى
-                وهبي</persName> والمنزل جميعه مقاسه ٧١١,٤١ ذراعا وغير لازم للميري وبناء على ما صدر
-              لبيت المال من الداخلية بتاريخ <date when-custom="1305-03-28">٢٨ ربيع الاول ١٣٠٥</date>
-              نمرة٥٢٢ جرى اشهار الحصة المذكورة للبيع بميعاد ٦١ يوما ورسي العطا فيها اخيرا على
-                <persName>محمد افندى حسني</persName> بالتوكيل عن الشريكه بثمن قدره ٢٣٤٠ قرشا وباقي
-              المزايدين كفوا ايديهم</hi>
-          </item>
+            <hi style="font-size:14ptdirection:rtl;">حصة ١٠ قراريط في منزل كائن ب<placeName ref="حارة-سيدى-على-الخواص" type="حارة">حارة <persName>سيدى على
+                الخواص</persName></placeName> ب<placeName ref="الحسينية">الحسينية</placeName> حق
+                <persName>ولدى المرحوم <persName>حسنين حليمه الفوال</persName></persName> المتغيبين
+              من مدة لا يعلم محل مستقرهما والمنزل جميعه ٤٦,١٥ متر وغير لازم لل<orgName ref="الميرى">ميري</orgName> وبناء على ما صدر لبيت المال من الداخلية في ٧ صفر ١٣٠٥ نمرة ٤٧٨ جرى
+              اشهار الحصة المذكورة للبيع بميعاد ٦١ يوما ورسي العطا فيها اخيرا على <persName>الحرمه
+                زهره بنت عبدالجواد</persName> بثمن قدره ٦١٧ قرشا و٨ فضه وباقى المزايدين كفوا
+              يديهم</hi></item>
+          <item><hi style="font-size:14ptdirection:rtl;">حصة قيراط ونصف في منزل كبير ببابين
+                ب<placeName ref="عطفة-النبقه" type="عطفة">عطفة النبقه</placeName> ب<orgName ref="قسم-درب-الجماميز" type="قسم"><placeName ref="قسم-درب-الجماميز" type="قسم">قسم
+                  درب الجماميز</placeName></orgName> آيله لبيت المال من قبل  <persName>المرحومه الست
+                اسماء البيضا معتوقة وزوجة <persName>المرحوم يوسف افندى وهبي</persName></persName>
+              والمنزل جميعه مقاسه ٧١١,٤١ ذراعا وغير لازم للميري وبناء على ما صدر لبيت المال من
+              الداخلية بتاريخ ٢٨ ربيع الاول ١٣٠٥ نمرة٥٢٢ جرى اشهار الحصة المذكورة للبيع بميعاد ٦١
+              يوما ورسي العطا فيها اخيرا على <persName>محمد افندى حسني</persName> بالتوكيل عن
+              الشريكه بثمن قدره ٢٣٤٠ قرشا وباقي المزايدين كفوا ايديهم</hi></item>
         </list>
       </div>
-         <div xml:id="w192" resp="#eAK">
+         <div xml:id="w3" resp="#eAK #eSG">
         <head><date when-custom="1306-01-27">٢٧ محرم ١٣٠٦</date>
           <date when="1888-10-03">٣ اكتوبر ١٨٨٨</date>
           <bibl><biblScope unit="issue">عدد ١١٤</biblScope>
-            <biblScope unit="page">ص ٢١٤٤-٢١٤٥</biblScope></bibl></head>
-        <head><orgName ref="لجنة حفظ الاثار القديمة العربية" type="لجنة">لجنة حفظ الاثار القديمة
+            <biblScope unit="page">صفحة ٢١٤٤-٢١٤٥</biblScope></bibl></head>
+        <head><orgName ref="لجنة-حفظ-الاثار-القديمة-العربية" type="لجنة">لجنة حفظ الاثار القديمة
             العربية</orgName></head>
         <p>ترجمة محضر الجلسة الحادية والثلاثين</p>
-        <p>في اليوم <date when="1888-02-21">الحادى والعشرين من شهر فبراير ١٨٨٨</date> الساعه ٣
-          افرنكي بعد الظهر التامت لجنة حفظ الاثار القديمة العربية ب<orgName ref="ديوان عموم الاوقاف" type="ديوان">ديوان عموم الاوقاف</orgName> الكائن ب<placeName ref="عابدين">عابدين</placeName> بحضور كل من</p>
+        <p>في اليوم الحادى والعشرين من شهر فبراير ١٨٨٨ الساعه ٣ افرنكي بعد
+          الظهر<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+          التامت<?oxy_custom_end?> لجنة حفظ الاثار القديمة العربية ب<orgName ref="ديوان-عموم-الاوقاف" type="ديوان">ديوان عموم الاوقاف</orgName> الكائن ب<placeName ref="عابدين">عابدين</placeName> بحضور كل من</p>
         <p>سعادة <persName>عثمان باشا غالب الرئيس</persName></p>
         <p>سعادة <persName>الكولونيل اسكوت مونكريف</persName></p>
         <p>سعادة <persName>اسماعيل باشا الفلكي</persName>
@@ -268,121 +271,126 @@
         <p>حضرة <persName>عزت افندى</persName></p>
         <p>تلى محضر الجلسة الماضية وقبل وصار التوقيع عليه</p>
         <p>حصل البحث في امر الايرادات التى تنتج من تقدير رسم على الاشخاص الذين يرغبون مناظرة الاثار
-            و<orgName ref="الانتيقخانة العربية">الانتيقخانة العربية</orgName> ولكون ديوان الاوقاف
-          يصرف سنويا نحو الالف وخمسمائة رخصة تقريبا ترى اللجنة انه يمكن تقدير عبارة عن عشرين قرشا
-          الرخصة مناظرة المساجد وخمسة قروش للدخول في الانتيقخانة وتقرر ان سعادة <persName>فرانس
+            و<orgName ref="الانتيقخانة-العربية" type="انتيقخانة">الانتيقخانة العربية</orgName> ولكون
+            <orgName ref="ديوان-الاوقاف" type="ديوان">ديوان الاوقاف</orgName> يصرف سنويا نحو الالف
+          وخمسمائة رخصة تقريبا ترى اللجنة انه يمكن تقدير عبارة عن عشرين قرشا
+          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Dr. Sarah" timestamp="20250130T165701+0200" comment="لرخصة؟" mid="4"?>الرخصة<?oxy_custom_end?><?oxy_comment_end mid="4"?>
+          مناظرة المساجد وخمسة قروش للدخول في الانتيقخانة وتقرر ان سعادة <persName>فرانس
             باشا</persName> يفحص هذه المسئلة وما يترااى له فيها يقدمه في الجلسة الاتية</p>
-        <p> (المادة الاولى) </p>
+        <p>(المادة الاولى)</p>
         <p>تلاوة التقارير الثانى والثالث بعد الاربعين للقومسيون الثاني</p>
         <p>فالتقرير الثاني والاربعون يحتوى على معاينة ما هو آت</p>
-        <p>اولا: <orgName ref="بوابات باب النصر" type="بوابة"><placeName ref="بوابات باب النصر" type="بوابة">بوابات باب النصر</placeName></orgName></p>
-        <p>ثانيا: <orgName ref="زاوية محمد جولاق" type="زاوية"><placeName ref="زاوية محمد جولاق" type="زاوية">زاوية <persName>محمد جولاق</persName></placeName></orgName> ب<placeName ref="بيرجوان">بيرجوان</placeName>
+        <p>اولا: بوابات <placeName type="باب" ref="باب-النصر">باب النصر</placeName></p>
+        <p>ثانيا: <orgName ref="زاوية-محمد-جولاق" type="زاوية"><placeName ref="زاوية-محمد-جولاق" type="زاوية">زاوية <persName>محمد جولاق</persName></placeName></orgName> ب<placeName ref="بيرجوان">بيرجوان</placeName>
         </p>
-        <p>ثالثا: <orgName ref="زاوية الشيخ اسماعيل الشعراني" type="زاوية"><placeName ref="زاوية الشيخ اسماعيل الشعراني" type="زاوية">زاوية <persName>الشيخ اسماعيل
+        <p>ثالثا: <orgName ref="زاوية-الشيخ-اسماعيل-الشعراني" type="زاوية"><placeName ref="زاوية-الشيخ-اسماعيل-الشعراني" type="زاوية">زاوية <persName>الشيخ اسماعيل
                 الشعراني</persName></placeName></orgName></p>
-        <p>رابعا: دكان مجاور ل<placeName ref="مسجد محمد شاه ابن الظاهر ببرس" type="مسجد"><orgName ref="مسجد محمد شاه ابن الظاهر ببرس" type="مسجد">مسجد <persName>محمد شاه ابن
+        <p>رابعا: دكان مجاور ل<placeName ref="مسجد-محمد-شاه-ابن-الظاهر-ببرس" type="مسجد"><orgName ref="مسجد-محمد-شاه-ابن-الظاهر-ببرس" type="مسجد">مسجد <persName>محمد شاه ابن
                   <persName>الظاهر ببرس</persName></persName></orgName></placeName></p>
-        <p>خامسا: <orgName ref="سبيل على كنجيه عزبان" type="سبيل"><placeName ref="سبيل على كنجيه عزبان" type="سبيل">سبيل على كنجيه عزبان</placeName></orgName>
-            و<placeName ref="جامع على اغا التوتنجى" type="جامع"><orgName ref="جامع على اغا التوتنجى" type="جامع">جامع <persName>على اغا التوتنجى</persName></orgName></placeName>
+        <p>خامسا: <orgName ref="سبيل-على-كنجيه-عزبان" type="سبيل"><placeName ref="سبيل-على-كنجيه-عزبان" type="سبيل">سبيل
+              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>على كنجيه
+              <?oxy_comment_start author="Dr. Sarah" timestamp="20250130T170309+0200" comment="check the name
+" mid="6"?>عزبان<?oxy_custom_end?><?oxy_comment_end mid="6"?></placeName></orgName>
+            و<placeName ref="جامع-على-اغا-التوتنجى" type="جامع"><orgName ref="جامع-على-اغا-التوتنجى" type="جامع">جامع <persName>على اغا التوتنجى</persName></orgName></placeName>
         </p>
-        <p>سادسا: <orgName ref="مسجد السيده سكينه" type="مسجد"><placeName ref="مسجد السيده سكينه" type="مسجد">مسجد <persName>السيده سكينه</persName></placeName></orgName> وكافة هذه
-          الاثار بالمحروسة </p>
+        <p>سادسا: <orgName ref="مسجد-السيده-سكينه" type="مسجد"><placeName ref="مسجد-السيده-سكينه" type="مسجد">مسجد <persName>السيده سكينه</persName></placeName></orgName> وكافة هذه
+          الاثار بالمحروسة</p>
         <p>واللجنة اعتمدت ما تقرر بالتقرير المذكور والتقرير الثالث والاربعون يتعلق بمعاينة البرج
-          المعروف ب<placeName ref="برج الرومانيين" type="برج"><orgName ref="برج الرومانيين" type="برج">برج الرومانيين</orgName></placeName> الكائن ب<placeName ref="الاسكندرية">الاسكندرية</placeName> على شاطئ البحر والقشلاق القديم الملاصق له وببعض ملحوظات عن
-            <orgName ref="المسجد الموجود بطابية قايتباى" type="مسجد"><placeName ref="المسجد الموجود بطابية قايتباى" type="مسجد">المسجد الموجود ب<placeName ref="طابية قايتباى" type="طابية"><orgName ref="طابية قايتباى" type="طابية">طابية
+          المعروف ب<placeName ref="برج-الرومانيين" type="برج">برج الرومانيين</placeName> الكائن
+            ب<placeName ref="الاسكندرية">الاسكندرية</placeName> على شاطئ البحر و<placeName><orgName ref="القشلاق-القديم-الملاصق-لبرج-الرومانين" type="قشلاق">القشلاق
+            القديم</orgName></placeName> الملاصق له وببعض ملحوظات عن <orgName ref="المسجد-الموجود-بطابية-قايتباى" type="مسجد"><placeName ref="المسجد-الموجود-بطابية-قايتباى" type="مسجد">المسجد الموجود ب<placeName ref="طابية-قايتباى" type="طابية"><orgName ref="طابية-قايتباى" type="طابية">طابية
                     <persName>قايتباى</persName></orgName></placeName></placeName></orgName>
-          بالاسكندرية واللجنة اعتمدت ما توضح بهذا التقرير وتقرر ان سعادة الرئيس يحرر ل<orgName ref="ديوان الاشغال" type="ديوان">ديوان الاشغال</orgName> بمضمون الواضح بالتقرير المذكور
-          في شأن برج الرومانيين والقشلاق الملاصق له امام مسجد الموجود بطابية قايتباى فديوان الاوقاف
-          يجرى تحرير المقايسة عن التصليحات اللازمة له</p>
-        <p> (المادة الثانية) </p>
-        <p>ابلاغ خطابات </p>
-        <p>قدر ورد لديوان الاوقاف طلب من المدعو <persName>كينترلي</persName> برغبة مشترى العامودين
-          السماق المتخلفين من <placeName ref="مسجد امير الجيوش" type="مسجد"><orgName ref="مسجد امير الجيوش" type="مسجد">مسجد امير الجيوش</orgName></placeName> الموجودين
-            ب<orgName ref="مخزن الاوقاف" type="مخزن"><placeName ref="مخزن الاوقاف" type="مخزن">مخزن
+          بالاسكندرية واللجنة اعتمدت ما توضح بهذا التقرير وتقرر ان سعادة الرئيس يحرر ل<orgName ref="ديوان-الاشغال" type="ديوان">ديوان الاشغال</orgName> بمضمون الواضح بالتقرير المذكور
+            ب<orgName ref="مخزن-الاوقاف" type="مخزن"><placeName ref="مخزن-الاوقاف" type="مخزن">مخزن
               الاوقاف</placeName></orgName> بمبلغ وقدره اربعة الاف وخمسمائة فرنك وسعادة الرئيس
           استشار اللجنة عن موافقة البيع او عدمه ولكون تلك الاعمدة لم تكن ذات قيمة صناعية فاللجنة
           صرحت بالمبيع تحت شرط ان قيمة ثمنها تستعمل في تكملة مسجد امير الجيوش لعدم وجود ايرادات
           له</p>
-        <p>ثم ان <persName>الموسيو باروا</persName> عرف اللجنة ان ناظر <orgName ref="ديوان معارف فرانسا" type="ديوان">ديوان معارف فرانسا</orgName> اخبره بناء على طلبه
-          بانه سيرسي <orgName ref="كتبخانة لجنة حفظ الاثار القديمة العربية" type="كتبخانة"><placeName ref="كتبخانة لجنة حفظ الاثار القديمة العربية" type="كتبخانة">لكتبخانة
+        <p>ثم ان <persName>الموسيو باروا</persName> عرف اللجنة ان ناظر <orgName ref="ديوان-معارف-فرانسا" type="ديوان">ديوان معارف <placeName ref="فرانسا">فرانسا</placeName></orgName> اخبره بناء على طلبه بانه سيرسي ل<orgName ref="كتبخانة-لجنة-حفظ-الاثار-القديمة-العربية" type="كتبخانة"><placeName ref="كتبخانة-لجنة-حفظ-الاثار-القديمة-العربية" type="كتبخانة">كتبخانة
               اللجنة</placeName></orgName> الكتب تاليف <persName>بريس دافين</persName>
-            و<persName>يرجوان</persName> ..</p>
+            و<persName>يرجوان</persName></p>
         <p>ولما انتهت مواد الجدول حصلت المداولة في الميزانية كالاتى</p>
         <p>سعادة <persName>يعقوب ارتين باشا</persName> سال عن قيمة المبلغ المزمع تقديره لميزانية سنة
-          ١٨٨٨ متجاوب من سعادة الرئيس انه عند انقضاء المبالغ الموجودة الان وقتها ينظر وعلى ذلك قدم
-          سعادة <persName>فرانس باشا</persName> كشفا بالباقي تحت الصرف من موازين سنة ١٨٨٦ وسنة ١٨٨٧،
-          وبلغ قدره ٣٨٥٩ جنيها و٧٨ قرشا </p>
+          ١٨٨٨<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+          متجاوب<?oxy_custom_end?> من سعادة الرئيس انه عند انقضاء المبالغ الموجودة الان وقتها ينظر
+          وعلى ذلك قدم سعادة <persName>فرانس باشا</persName> كشفا بالباقي تحت الصرف من موازين سنة
+          ١٨٨٦ وسنة ١٨٨٧، وبلغ قدره ٣٨٥٩ جنيها و٧٨ قرشا</p>
         <p>سعادة <persName>الكولونيل مونكريف</persName> الح بلزوم التصريح بكافة الاشغال المعتمدة من
           اللجنة وبدؤها في اقرب وقت وسعادة <persName>فرانس باشا</persName> قال ان معظم الاعمال
           المعتمدة شرع فيها ولكن سيرها بطئ ثم سعادة الرئيس قال انه مستعد لاعتماد الاشغال المقررة من
-          اللجنة ولم يتصرح بها منه للن فاللجنة الحت بلزوم السرعة في تلك الاعمال</p>
+          اللجنة ولم يتصرح بها منه
+          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>للن<?oxy_custom_end?>
+          فاللجنة الحت بلزوم السرعة في تلك الاعمال</p>
         <p>ولما كان مجموع الاشغال المقررة من اللجنة يزيد قليلا عن الباقي تحت الصرف تقرر تاجيل
-          العملية اللازمة ل<placeName ref="مسجد قايتباى الكائن بمدينة الفيوم" type="مسجد"><orgName ref="مسجد قايتباى الكائن بمدينة الفيوم" type="مسجد">مسجد قايتباى الكائن بمدينة
-              الفيوم</orgName></placeName> وفي مقابلة ذلك وبناء على ما رغبه سعادة
-            <persName>الكولونيل مونكريف</persName> يصرف مبلغ خمسون جنيها مصريا لعمل تنظيف بعض
-          تعميرات ب<placeName ref="مسجد قايتباى الكائن بالمحروسة بقلعة الكبش" type="مسجد"><orgName ref="مسجد قايتباى الكائن بالمحروسة بقلعة الكبش" type="مسجد">مسجد قايتباى الكائن
-              بالمحروسة بقلعة الكبش</orgName></placeName> (المنمر بنمرة ٢٢٣ من رسم جران بك) بجوار
-            <orgName ref="مسجد طولون" type="مسجد"><placeName ref="مسجد طولون" type="مسجد">مسجد
-              طولون</placeName></orgName> ولختام الجلسة طلب سعادة الرئيس ان ديوان الاشغال يجرى ما في
-          وسعه لمنع الدكاكين من اطراف المساجد لانها مزاحمة لها </p>
-        <p>ثم ختمت الجلسة </p>
+          العملية اللازمة ل<placeName ref="مسجد-قايتباى-الكائن-بمدينة-الفيوم" type="مسجد"><orgName ref="مسجد-قايتباى-الكائن-بمدينة-الفيوم" type="مسجد">مسجد قايتباى الكائن ب<orgName ref="مدينة-الفيوم" type="مدينة"><placeName ref="مدينة-الفيوم" type="مدينة">مدينة
+                  الفيوم</placeName></orgName></orgName></placeName> وفي مقابلة ذلك وبناء على ما
+          رغبه سعادة <persName>الكولونيل مونكريف</persName> يصرف مبلغ خمسون جنيها مصريا لعمل تنظيف
+          بعض تعميرات ب<placeName ref="مسجد-قايتباى-الكائن-بالمحروسة-بقلعة-الكبش" type="مسجد"><orgName ref="مسجد-قايتباى-الكائن-بالمحروسة-بقلعة-الكبش" type="مسجد">مسجد قايتباى
+              الكائن بالمحروسة ب<orgName ref="قلعة-الكبش" type="قلعة"><placeName ref="قلعة-الكبش" type="قلعة">قلعة الكبش</placeName></orgName></orgName></placeName> (المنمر بنمرة
+          ٢٢٣ من رسم جران بك) بجوار <orgName ref="مسجد-طولون" type="مسجد"><placeName ref="مسجد-طولون" type="مسجد">مسجد طولون</placeName></orgName> ولختام الجلسة طلب سعادة
+          الرئيس ان ديوان الاشغال يجرى ما في وسعه لمنع الدكاكين من اطراف المساجد لانها مزاحمة
+          لها</p>
+        <p>ثم ختمت الجلسة</p>
         <p><persName>السكرتير (جران)</persName>
           <persName>الرئيس (محمد روؤف)</persName></p>
         <p>الامضاات (<persName>اسكوت مونكريف</persName>) (<persName>باروا</persName>)
             (<persName>فرانس</persName>) (<persName>فوللرس</persName>)</p>
       </div>
-         <div xml:id="w193" resp="#eAK">
+         <div xml:id="w4" resp="#eAK #eSG">
         <head><date when-custom="1306-02-12">١٢ صفر ١٣٠٦</date>
           <date when="1888-10-17">١٧ اكتوبر ١٨٨٨</date>
           <bibl><biblScope unit="issue">عدد ١٢٠</biblScope>
-            <biblScope unit="page">ص ٢٢٦١- ٢٢٦٢</biblScope></bibl></head>
-        <head><orgName ref="لجنة حفظ الاثار القديمة العربية" type="لجنة">لجنة حفظ الاثار القديمة
+            <biblScope unit="page">صفحة ٢٢٦١- ٢٢٦٢</biblScope></bibl></head>
+        <head><orgName ref="لجنة-حفظ-الاثار-القديمة-العربية" type="لجنة">لجنة حفظ الاثار القديمة
             العربية</orgName></head>
-        <p>(ترجمة التقرير الرابع والاربعين للقومسيون الثاني) </p>
+        <p>(ترجمة التقرير الرابع والاربعين للقومسيون الثاني)</p>
         <p>عن معاينة ما هو ات</p>
-        <p>اولا: <placeName ref="منارة مسجد سيدنا الحسين القديمة" type="منارة"><orgName ref="منارة مسجد سيدنا الحسين القديمة" type="منارة">منارة مسجد سيدنا الحسين
-              القديمة</orgName></placeName> نمرة ٢٨ من رسم <persName>جران بك</persName>
+        <p>اولا: منارة <placeName ref="مسجد-سيدنا-الحسين" type="مسجد"><orgName ref="مسجد-سيدنا-الحسين">مسجد <persName>سيدنا الحسين</persName></orgName></placeName>
+          القديمة نمرة ٢٨ من رسم <persName>جران بك</persName>
         </p>
-        <p>ثانيا: منزل ملاصق ل<orgName ref="مسجد ايدمر البهلوان" type="مسجد"><placeName ref="مسجد ايدمر البهلوان" type="مسجد">مسجد ايدمر البهلوان</placeName></orgName>
-            ب<placeName ref="شارع">شارع ام الغلام</placeName> قريبا من <orgName ref="مسجد نمرة ٢٥ من رسم جران بك" type="مسجد">مسجد نمرة ٢٥ من رسم <persName>جران
-              بك</persName></orgName>
-        </p>
-        <p>ثالثا : <placeName ref="بوابة قلاون بخان الخليلي" type="بوابة"><orgName ref="بوابة قلاون بخان الخليلي" type="بوابة">بوابة <persName>قلاون</persName>
-                ب<placeName ref="خان الخليلي" type="خان">خان
-            الخليلي</placeName></orgName></placeName></p>
-        <p>رابعا: منزل ملاصق ل<placeName ref="مسجد المهمندار" type="مسجد"><orgName ref="مسجد المهمندار" type="مسجد">مسجد المهمندار</orgName></placeName> بالمحروسة نمرة
+        <p>ثانيا: <placeName ref="منزل-الشيخ-عبد-الرحمن-البحراوى" type="منزل">منزل ملاصق ل<orgName ref="مسجد-ايدمر-البهلوان" type="مسجد"><placeName ref="مسجد-ايدمر-البهلوان" type="مسجد">مسجد <persName>ايدمر البهلوان</persName></placeName></orgName></placeName>
+            ب<placeName ref="شارع-ام-الغلام" type="شارع">شارع ام الغلام</placeName> قريبا من
+            <orgName ref="مسجد نمرة ٢٥ من رسم جران بك" type="مسجد">مسجد نمرة ٢٥ من رسم
+              <persName>جران بك</persName></orgName></p>
+        <p>ثالثا : <placeName ref="بوابة-قلاون-بخان-الخليلي" type="بوابة">بوابة
+              <persName>قلاون</persName> ب<orgName ref="خان-الخليلى" type="خان"><placeName ref="خان-الخليلي" type="خان">خان الخليلي</placeName></orgName></placeName></p>
+        <p>رابعا: منزل ملاصق ل<placeName ref="مسجد-المهمندار" type="مسجد"><orgName ref="مسجد-المهمندار" type="مسجد">مسجد المهمندار</orgName></placeName> بالمحروسة نمرة
           ١١٥ من رسم <persName>جران بك</persName></p>
-        <p>خامسا: <placeName ref="زاوية مصطفي باشا" type="زاوية"><orgName ref="زاوية مصطفي باشا" type="زاوية">زاوية <persName>مصطفي باشا</persName></orgName></placeName> ب<placeName ref="شارع تحت السور" type="شارع">شارع تحت السور</placeName> نمرة ١٥٥ من رسم
-            <persName>جران بك</persName>
-        </p>
-        <p>سادسا: <orgName type="مسجد" ref="مسجد لاشين السيفي"><placeName ref="مسجد لاشين السيفي" type="مسجد">مسجد <persName>لاشين السيفي</persName></placeName></orgName> نمرة ٢١٧ من
-          رسم <persName>جران بك</persName>
-        </p>
-        <p> (اولا: منارة مسجد سيدنا الحسين القديمة)</p>
-        <p>هذة المنارة مصنوعة من الطوب المبنبى بالجبس ومزخرفة من الخارج بحليات من الجبس ولم يبق من
-          المسجد القديم السابق هدمه من نحو العشرين سنة سوى هذه المناره و<placeName ref="ضريح سيدنا الامام الحسين" type="ضريح"><orgName ref="ضريح سيدنا الامام الحسين" type="ضريح">ضريح سيدنا الامام الحسين</orgName></placeName> فلهذه المناسبة ومراعاة
-          للعلامات المزخرفة التى باسفل المنارة بود القومسيون الثانى من اللجنة اجراء ما فيه تقويتها
-          لانها في حالة الخلل وبها ميل لجهة بحرى وبعض الاكتاف من الجزؤ والاعلا ذائب وجملة شروخ راسية
-          سائرة من الجزؤ المثمن لغاية القاعدة ومن ذلك يري انه من الاقتضاء أخذ الاحتياطات اللازمة عن
-          ثريب لمنع سقوطها ويقول القومسيون ان كيفية التقوية تكون بواسطة اربطة من حديد بمقاسات كافية
-          توضع في ادوار المنارة على شكل مربع ويصير شدها على الحامى لرد الحيطان على قدر الامكان
-          ووقايتها من تجديد تلف فيها ولكى تحفظ بعضها بعضا والاجزاء الواقع بها زوبان يجرى تنكيسها
-          بالطوب الجديد ثم المقايسه المحررة عن العملية اللازمة لهذه التقوية البالغ مجموعها ٥٧ جنيها
-          مصريا يروم القومسيون من اللجنة التصريح بها في اقرب وقت</p>
-        <p> (ثانيا: المنزل الملاصق لمسجد ايدمر البهلوان)</p>
-        <p>بناء على طلب تقدم ل<orgName ref="مصلحة تنظيم مصر" type="مصلحة">مصلحة تنظيم مصر</orgName>
+        <p>خامسا: <placeName ref="زاوية-مصطفي-باشا" type="زاوية"><orgName ref="زاوية-مصطفي-باشا" type="زاوية">زاوية <persName>مصطفي باشا</persName></orgName></placeName> ب<placeName ref="شارع-تحت-السور" type="شارع">شارع تحت السور</placeName> نمرة ١٥٥ من رسم جران بك </p>
+        <p>سادسا: <orgName type="مسجد" ref="مسجد-لاشين-السيفي"><placeName ref="مسجد-لاشين-السيفي" type="مسجد">مسجد <persName>لاشين السيفي</persName></placeName></orgName> نمرة ٢١٧ من
+          رسم جران بك </p>
+        <p>(اولا: منارة مسجد سيدنا الحسين القديمة)</p>
+        <p>هذة المنارة مصنوعة من الطوب
+          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>المبنبى<?oxy_custom_end?>
+          بالجبس ومزخرفة من الخارج بحليات من الجبس ولم يبق من المسجد القديم السابق هدمه من نحو
+          العشرين سنة سوى هذه المناره و<placeName ref="ضريح-سيدنا-الامام-الحسين" type="ضريح"><orgName ref="ضريح-سيدنا-الامام-الحسين" type="ضريح">ضريح سيدنا الامام
+              الحسين</orgName></placeName> فلهذه المناسبة ومراعاة للعلامات المزخرفة التى باسفل
+          المنارة
+          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Dr. Sarah" timestamp="20250130T215733+0200" comment="يود
+" mid="12"?>بود<?oxy_custom_end?><?oxy_comment_end mid="12"?>
+          القومسيون الثانى من اللجنة اجراء ما فيه تقويتها لانها في حالة الخلل وبها ميل لجهة بحرى
+          وبعض الاكتاف من الجزؤ والاعلا ذائب وجملة شروخ راسية سائرة من الجزؤ المثمن لغاية القاعدة
+          ومن ذلك يري انه من الاقتضاء أخذ الاحتياطات اللازمة عن
+          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Dr. Sarah" timestamp="20250130T215914+0200" comment="قريب" mid="14"?>ثريب<?oxy_custom_end?><?oxy_comment_end mid="14"?>
+          لمنع سقوطها ويقول القومسيون ان كيفية التقوية تكون بواسطة اربطة من حديد بمقاسات كافية توضع
+          في ادوار المنارة على شكل مربع ويصير شدها على الحامى لرد الحيطان على قدر الامكان ووقايتها
+          من تجديد تلف فيها ولكى تحفظ بعضها بعضا والاجزاء الواقع بها زوبان يجرى تنكيسها بالطوب
+          الجديد ثم المقايسه المحررة عن العملية اللازمة لهذه التقوية البالغ مجموعها ٥٧ جنيها مصريا
+          يروم القومسيون من اللجنة التصريح بها في اقرب وقت</p>
+        <p>(ثانيا: المنزل الملاصق لمسجد ايدمر البهلوان)</p>
+        <p>بناء على طلب تقدم ل<orgName ref="مصلحة-تنظيم-مصر" type="مصلحة">مصلحة تنظيم مصر</orgName>
           من حضرة <persName>الشيخ عبد الرحمن البحراوى</persName> للحصول على رخصة ببناء منزله قد توجه
-          القومسيون لمعاينة ذلك فراى ان المنزل ملاصق للضريح الذى بمسجد ايدمر البهلوان الجارى فيه
+          القومسيون لمعاينة ذلك فراى ان المنزل ملاصق لل<placeName type="ضريح" ref="ضريح-بمسجد-ايدمر-البهلوان">ضريح الذى بمسجد ايدمر البهلوان</placeName> الجارى فيه
           عملية ترميم من سنة ١٨٨٦ وان العمارة معطلة من مدة لسبب وفاة المقاول عليها ولم يحصل اعادة
           ادارتها للان وان هذا الضريح في حالة الخلل الزائد ومن جهة أخرى لا يمكن المعارضة في اعادة
-          بناء منزل الجار وبناء على ذلك يقول القومسيون ان <orgName ref="ديوان الاوقاف" type="ديوان">ديوان الاوقاف</orgName> يلزمه اخذ الاحتياطات الخصوصية لوقاية هذا الضريح النفيس من التلف
+          بناء منزل الجار وبناء على ذلك يقول القومسيون ان <orgName ref="ديوان-الاوقاف" type="ديوان">ديوان الاوقاف</orgName> يلزمه اخذ الاحتياطات الخصوصية لوقاية هذا الضريح النفيس من التلف
           في اثناء هدم الحيطان القديمة للمنزل الملاصق له وفي وقت بنائه ولهذه المناسبة يجب على ديوان
           الاوقاف ان يجرى شد وصلب القبة من الداخل والجار المدعو <persName>الشيخ عبدالرحمن</persName>
           يجرى شد وصلب كافة الاجزاء التى مبانيها تمس المسجد من الخارج بحيث يكون عمل هذه الاجراات في
           غاية الاعتناء ويجب على الشيخ اخطار ديوان الاوقاف عن وقت شروعة في الاعمال ليعين مهندسا من
-          قبله لمراقبتها حفظا لصوالح المسجد </p>
-        <p> (ثالثا : بوابة خان الخليلي التى انشائها قلاوون)</p>
-        <p> لغاية المدة الاخيرة كان مظنونا ان هذه البوابة هى تعلق <orgName ref="دائرة دولتلو البرنس ابراهيم باشا" type="دائرة">دائرة دولتلو <persName>البرنس
+          قبله لمراقبتها حفظا لصوالح المسجد</p>
+        <p>(ثالثا : بوابة خان الخليلي التى انشائها قلاوون)</p>
+        <p> لغاية المدة الاخيرة كان مظنونا ان هذه البوابة هى تعلق <orgName ref="دائرة-دولتلو-البرنس-ابراهيم-باشا" type="دائرة">دائرة دولتلو <persName>البرنس
               ابراهيم باشا</persName></orgName> وبناء على طلب اللجنة كانت اجرت الدائرة تنظيف واجهتها
           في العام الماضي وبعد التنظيف اتضح من كتابات عليها انها في الحقيقة متتبعة لاملاك
             <persName>السلطان قلاوون</persName> يعنى تحت نظارة ديوان الاوقاف وحيث ان العملية التى
@@ -390,32 +398,31 @@
           وتصليح الرخام الخرده فالقومسيون يروم نهاية ذلك بمصاريف على طرف اللجنة ونزع ملكية هذا الاثر
           بواسطة ديوان الاوقاف اما التكاليف التى صرفت من دائرة البرنس فتعتبر انها اشتراك في عملية
           تصليح الاثر المركب فوقه جملة ادوار تعلق دولتلو البرنس المشار اليه وبنهو مسئلة الملكية يقدم
-          قلم الهندسة للجنة مقايسة عن ترميم كامل هذا الاثر المهم </p>
-        <p> (رابعا: منزل ملاصق لمسجد المهندار) </p>
+          قلم الهندسة للجنة مقايسة عن ترميم كامل هذا الاثر المهم</p>
+        <p> (رابعا: منزل ملاصق لمسجد المهندار)</p>
         <p>الدور الارضي لهذا المنزل الصغير يمتلكه ديوان الاوقاف اما الدور الاول فهو ملك احد الاهالى
-          والمذكور طلب من التنظيم الترخيص اليه باعادة بنائه والمنزل المذكور كائن بين ضريح المهمندار
-            و<placeName ref="سبيل وقف يوسف اغا الحبشي" type="سبيل"><orgName ref="سبيل وقف يوسف اغا الحبشي" type="سبيل">سبيل وقف يوسف اغا
-            الحبشي</orgName></placeName> وتلك المحلات الثلاثة تشتمل على وضع هندسي مهم من الاوضاع
-          العربية وقبل هدم الدور الذى بالمنزل الواقع بين الاثرين كان به ماورده حاجبه عن الشبابيك
-          العلوية للضريح وان اعيد بناؤه مع الماوردة فيبقي الضرر كاصله فالاوفق مداركة منع هذا الضرر
-          ولهذا يستحسن القومسيون الثاني ان التصريح للجار في بناء الدور الاول يكون تحت شرط ان حائط
-          الواجهة ترفع على السامط بدون خارجة فوق حائط الدور الارضي وفي حالة انقياد الجار لهذا الراى
-          فديوان الاوقاف عليه ان يشترى هواء هذا الدور ليصير رفع بنائه على السامط من جهة حائط الواجهة
-          العمومية عند الشروع في بناء ذلك الدور</p>
-        <p> (خامسا: زاوية مصطفي باشا)</p>
+          والمذكور طلب من التنظيم الترخيص اليه باعادة بنائه والمنزل المذكور كائن بين <placeName ref="ضريح-المهمندار" type="ضريح">ضريح المهمندار</placeName> و<placeName ref="سبيل-وقف-يوسف-اغا-الحبشي" type="سبيل"><orgName ref="سبيل-وقف-يوسف-اغا-الحبشي" type="سبيل">سبيل <orgName ref="وقف-يوسف-اغا-الحبشي" type="وقف"><placeName ref="وقف-يوسف-اغا-الحبشي" type="وقف">وقف <persName>يوسف اغا
+                  الحبشي</persName></placeName></orgName></orgName></placeName> وتلك المحلات الثلاثة
+          تشتمل على وضع هندسي مهم من الاوضاع العربية وقبل هدم الدور الذى بالمنزل الواقع بين الاثرين
+          كان به ماورده حاجبه عن الشبابيك العلوية للضريح وان اعيد بناؤه مع الماوردة فيبقي الضرر
+          كاصله فالاوفق مداركة منع هذا الضرر ولهذا يستحسن القومسيون الثاني ان التصريح للجار في بناء
+          الدور الاول يكون تحت شرط ان حائط الواجهة ترفع على السامط بدون خارجة فوق حائط الدور الارضي
+          وفي حالة انقياد الجار لهذا الراى فديوان الاوقاف عليه ان يشترى هواء هذا الدور ليصير رفع
+          بنائه على السامط من جهة حائط الواجهة العمومية عند الشروع في بناء ذلك الدور</p>
+        <p>(خامسا: زاوية مصطفي باشا)</p>
         <p>هذا الاثر من عهد العثمانيين والعرب وهو عبارة عن محل عمومى ونادر وجود مثل شكله بالقطر
           المصري ويحتوى على زاوية بالواجهة القبلية وحوض عمومي بالواجهة الغربية وسبيل بالناحية
           البحرية الغربية وميضأة بالناحية البحرية الشرقية وبابها الذى بالواجهة البحرية مسدود وهذا
-          المكان بناؤه في غاية الاتقان وفقط بالنسبة لتركه بالكلية واستعمال معظمه بصفة فرن فقد تغيرت
-          هيئته الاصلية والقومسيون الثامي يرغب بشدة ان هذا الاثر الصغير يستعد كما كان اصلا لان ذلك
-          متيسر بواسطة قليل من المصاريف </p>
-        <p>وهذا الاثر كان محاطا بميدان عمومى ويظهر ان معظمه (اى الميدان) صار مبيعه بواسطة <orgName ref="محافظة مصر" type="محافظة">محافظة مصر</orgName> ومن جهة بحرى هذا الاثر محل ما كان
+          المكان بناؤه في غاية الاتقان وفقط بالنسبة لتركه بالكلية واستعمال معظمه بصفة <placeName ref="فرن-بزاوية-مصطفى-باشا" type="فرن">فرن</placeName> فقد تغيرت هيئته الاصلية
+          والقومسيون الثاني يرغب بشدة ان هذا الاثر الصغير يستعد كما كان اصلا لان ذلك متيسر بواسطة
+          قليل من المصاريف</p>
+        <p>وهذا الاثر كان محاطا بميدان عمومى ويظهر ان معظمه (اى الميدان) صار مبيعه بواسطة <orgName ref="محافظة-مصر" type="محافظة">محافظة مصر</orgName> ومن جهة بحرى هذا الاثر محل ما كان
           موجود به دورة المياه جرى مبيع الارض والمشترى لها المدعو <persName>أحمد دسوقي</persName>
           رفع مباني عليها بدون رخصة من التنظيم ترتب منها سد باب السبيل وشبابيكه وحيث ان ما اجراه
           الجار المذكور مخالف قانونا فالقومسيون يطلب من اللجنة التاكيد بهدم الجزؤ الملاصق من المنزل
-          الجديد ويلتمس من سعادة ناظر عموم الاوقاف عمل الطرق اللازمة لذلك ثم يكلف <orgName ref="قلم هندسة الاوقاف" type="قلم">قلم الهندسة</orgName> باخذ رسم الاثر وابعاثه لتنيظم
-          مصر راجيا منه ان لا يعطى الرخصة التى طلبها احمد دسوقي </p>
-        <p> (سادسا : مسجد لاشين السيفي)</p>
+          الجديد ويلتمس من سعادة ناظر عموم الاوقاف عمل الطرق اللازمة لذلك ثم يكلف <orgName ref="قلم-الهندسة-بديوان-الاوقاف" type="قلم">قلم الهندسة</orgName> باخذ رسم الاثر وابعاثه
+          لتنظيم مصر راجيا منه ان لا يعطى الرخصة التى طلبها احمد دسوقي</p>
+        <p>(سادسا : مسجد لاشين السيفي)</p>
         <p>هذا المسجد هو اثر مبنى حسب الوضع العادى المستعمل في الاجيال الاخيرة ولا يعد اثرا ذا فائدة
           تاريخية او صناعية مهم ولكن يستحق ان يحفظ على حسب وضعه الحالى لان مبانيه جيدة وتاريخه من
           سنة ٦٨١ من الهجرة فبناء على ذلك يروم القومسيون من اللجنة ان تطلب من التنظيم اعطاء الرخصة
@@ -425,50 +432,51 @@
           <persName>جران</persName>
           <persName>عزت</persName>) </p>
       </div>
-         <div xml:id="w194" resp="#eAK">
+         <div xml:id="w5" resp="#eAK #eSG">
         <head><date when-custom="1306-03-01">غرة ربيع الأول ١٣٠٦</date>
           <date when="1888-11-05">٥ نوفمبر ١٨٨٨</date>
           <bibl><biblScope unit="issue">عدد ١٢٨</biblScope>
-            <biblScope unit="page">ص ٢٣٨٩</biblScope></bibl></head>
-        <head>من <orgName ref="محافظة مصر" type="محافظة">محافظة مصر</orgName></head>
-        <p>يكن معلوما لدى العموم انه بجلسة يوم الاربع <date when="1888-11-28">٢٨ نوفمبر ١٨٨٨</date>
-          الموافق <date when-custom="1306-03-24">٢٤ ربيع الاول ١٣٠٦</date> المزمع انعقاده ب<orgName ref="ديوان محافظة مصر" type="ديوان">ديوان محافظة مصر</orgName> سيصير اشهار <rs type="مزاد">مزاد</rs> مبيع قطعة ارض فضا كائنة بشرقي <placeName ref="قصر النيل" type="قصر"><orgName ref="قصر النيل" type="قصر">قصر النيل</orgName></placeName> مرموز لها
-          بالرسم بحرف (د) من ضمن القطعة نمرة ٤ بالرسم الوارد بالجدول نمرة ١١٥ وبالجدول الجديد نمرة ٨
-          البالغ مسطحها ٢٢٦٧ متر و٤٦ سنتى المحدود بحدود اربع الحد الشرقي <placeName ref="شارع وابور قومبانية الميه" type="شارع">شارع وابور قومبانية الميه</placeName> بنمرة
-          ٥٠ والحد البحرى قطعة الارض المرموز لها بالرسم بحرف (أ) والحد القبلي ينتهى لقطعة الارض
-          المرموز لها بحرف (هـ) والحد الغربي ينتهى لقطعة الارض المرموز لها بحرف (ث) بموجب الرسم
-          الموجود بالمحافظة واعتبار اول عطا فيها بسعر كل متر ثلاثين قرشا فكل من له رغبة في مشتراها
-          يحضر هو او وكيل عنه في اليوم المرقوم من ابتداء الساعه ١٠ افرنكي صباحا لغاية الساعه ١٢
-          للمزايدة بين الرغبين امام <orgName ref="قومسيون مبيع املاك واراضي الميري" type="قومسيون">قومسيون مبيع املاك واراضي الميري</orgName> بالمحروسة ويدفع تامين المائة عشرة وبعد
-          الميعاد يصير فصل جلسة المزاد ومن يتاخر يعتبر تاخيره كف يد بشرط ان المشترى يكون قابلا انه
-          اذا لزم منها شئ للحكومة في المستقبل يؤخذ بالثمن المباع به مادام يكون بحسب حالة المبيع
-          واعتبار المقاس يكون على واقع مقاس التحديد الانتهائي والمشترى ملزوم بقبول كامل الاحكام
-          المدونة باللائحة والاوامر الصادرة للمالية الحق في قبول او رفض اعلى طلب يرسي فيه المزاد وفى
-          حالة رفض اعلى طلب لا يكون لصاحبه حق في شئ ما سوي رد التامين المدفوع منه اليه وعلى هذا لزم
-            ال<rs type="اعلان">اعلان</rs> لمعلومية الجميع في <date when="1888-10-29">٢٩ اكتوبر
-            ١٨٨٨</date></p>
+            <biblScope unit="page">صفحة ٢٣٨٩</biblScope></bibl></head>
+        <head>من <orgName ref="محافظة-مصر" type="محافظة">محافظة مصر</orgName></head>
+        <p>يكن معلوما لدى العموم انه بجلسة يوم الاربع ٢٨ نوفمبر ١٨٨٨ الموافق ٢٤ ربيع الاول ١٣٠٦
+          المزمع انعقاده ب<orgName ref="ديوان-محافظة-مصر" type="ديوان">ديوان محافظة مصر</orgName>
+          سيصير اشهار مزاد مبيع <placeName type="قطعة-ارض" ref="قطعة-ارض-فضا-كائنة-بشرقي-قصر-النيل">قطعة ارض فضا كائنة بشرقي <placeName ref="قصر-النيل" type="قصر"><orgName ref="قصر-النيل" type="قصر">قصر النيل</orgName></placeName></placeName> مرموز لها بالرسم بحرف (د) من
+          ضمن القطعة نمرة ٤ بالرسم الوارد بالجدول نمرة ١١٥ وبالجدول الجديد نمرة ٨ البالغ مسطحها ٢٢٦٧
+          متر و٤٦ سنتى المحدود بحدود اربع الحد الشرقي <placeName ref="شارع-وابور-قومبانية-الميه" type="شارع">شارع وابور <orgName ref="قومبانية-الميه" type="قومبانية"><placeName ref="قومبانية-الميه" type="قومبانية">قومبانية
+            الميه</placeName></orgName></placeName> بنمرة ٥٠ والحد البحرى قطعة الارض المرموز لها
+          بالرسم بحرف (أ) والحد القبلي ينتهى لقطعة الارض المرموز لها بحرف (هـ) والحد الغربي ينتهى
+          لقطعة الارض المرموز لها بحرف (ث) بموجب الرسم الموجود بالمحافظة واعتبار اول عطا فيها بسعر
+          كل متر ثلاثين قرشا فكل من له رغبة في مشتراها يحضر هو او وكيل عنه في اليوم المرقوم من
+          ابتداء الساعه ١٠ افرنكي صباحا لغاية الساعه ١٢ للمزايدة بين الرغبين امام <orgName ref="قومسيون-مبيع-املاك-واراضي-الميري" type="قومسيون">قومسيون مبيع املاك واراضي
+            الميري</orgName> بالمحروسة ويدفع تامين المائة عشرة وبعد الميعاد يصير فصل جلسة المزاد ومن
+          يتاخر يعتبر تاخيره كف يد بشرط ان المشترى يكون قابلا انه اذا لزم منها شئ لل<orgName ref="حكومة">حكومة</orgName> في المستقبل يؤخذ بالثمن المباع به مادام يكون بحسب حالة
+          المبيع واعتبار المقاس يكون على واقع مقاس التحديد الانتهائي والمشترى ملزوم بقبول كامل
+          الاحكام المدونة باللائحة والاوامر الصادرة لل<orgName ref="المالية">مالية</orgName> الحق في
+          قبول او رفض اعلى طلب يرسي فيه المزاد وفى حالة رفض اعلى طلب لا يكون لصاحبه حق في شئ ما سوي
+          رد التامين المدفوع منه اليه وعلى هذا لزم الاعلان لمعلومية الجميع في ٢٩ اكتوبر ١٨٨٨</p>
       </div>
-         <div xml:id="w195" resp="#eAK">
+         <div xml:id="w6" resp="#eAK #eSG">
         <head><date when-custom="1306-03-05">غرة ربيع الأول ١٣٠٦</date>
           <date when="1888-11-05">٥ نوفمبر ١٨٨٨</date>
           <bibl><biblScope unit="issue">عدد ١٢٨</biblScope>
-            <biblScope unit="page">ص ٢٣٨٩</biblScope></bibl></head>
-        <head>من <orgName ref="محافظة مصر" type="محافظة">محافظة مصر</orgName></head>
-        <p>يكون معلوم لدى العموم انه بجلسة يوم الاربعاء <date when="1888-11-21">٢١ نوفمبر
-            ١٨٨٨</date>، المزمع انعقادها بديوان بمحافظة مصر سيصير اشهار <rs type="مزاد">مزاد</rs>
-          <placeName ref="شونة الميري" type="شونة"><orgName ref="شونة الميري" type="شونة">شونة
-              الميري</orgName></placeName> الكائنة ب<placeName ref="شارع ساحل الغلال ببولاق" type="شارع">شارع ساحل الغلال ب<placeName ref="بولاق">بولاق</placeName></placeName> قبلي
-          الساحل البحرى على التقاسيم المبينة بهذا بموجب الرسم المعمول عنها الموجود بالمحافظة بما في
-          كل جزء من المباني والاخشاب ماعدا السور البحرى للشونة المذكورة الحائل ما بينها وما بين
-          الساحل لم يدخل ضمن المساحة واعتبار او عطا الثمن الموضح امام كل قطعة بهذا فكل من له رغبة في
-          مشترى شئ من ذلك يحضر هو او وكيل عنه في اليوم المذكور من ابتداء الساعه ١٠ افرنكي صباحا
-          لغاية الساعه ١٢ للمزايدة بين الراغبين امام <orgName ref="قومسيون مبيع الاملاك بالمحروسة" type="قومسيون">قومسيون مبيع الاملاك بالمحروسة</orgName> ويدفع تأمين المائة عشرة وبعد
-          الميعاد يصير قفل جلسة المزاد ومن يتاخر يعتبر تاخيره كف يد بشرط ان المشترى يكون قابلا انه
-          اذا لزم منها شئ للحكومة في المستقبل يؤخذ بالثمن المباع به مادام يكون بحسب حالة المبيع
-          واعتبار المقاس يكون على واقع مقاس التحديد الانتهائي والمشترى ملزوم بقبول كامل الاحكام
-          المدونة باللائحة والاوامر الصادرة للمالية الحق في قبول او رفض اعلى طلب يرسي فيه المزاد وفى
-          حالة رفض اعلى طلب لا يكون لصاحبه حق في شئ ما سوي رد التامين المدفوع منه اليه وعلى هذا لزم
-            ال<rs type="اعلان">اعلان</rs> لمعلومية الجميع والشونة المذكورة غير مؤجرة</p>
+            <biblScope unit="page">صفحة ٢٣٨٩</biblScope></bibl></head>
+        <head>من <orgName ref="محافظة-مصر" type="محافظة">محافظة مصر</orgName></head>
+        <p>يكون معلوم لدى العموم انه بجلسة يوم الاربعاء ٢١ نوفمبر ١٨٨٨، المزمع انعقادها ب<orgName ref="ديوان-محافظة-مصر" type="ديوان">ديوان<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+            بمحافظة<?oxy_custom_end?> مصر</orgName> سيصير اشهار مزاد <placeName ref="شونة-الميري" type="شونة"><orgName ref="شونة-الميري" type="شونة">شونة الميري</orgName></placeName>
+          الكائنة ب<placeName ref="شارع-ساحل-الغلال-ببولاق" type="شارع">شارع <placeName ref="ساحل-الغلال-ببولاق" type="ساحل">ساحل الغلال ب<placeName ref="بولاق">بولاق</placeName></placeName></placeName> قبلي الساحل البحرى على التقاسيم المبينة
+          بهذا بموجب الرسم المعمول عنها الموجود بالمحافظة بما في كل جزء من المباني والاخشاب ماعدا
+          السور البحرى للشونة المذكورة الحائل ما بينها وما بين الساحل لم يدخل ضمن المساحة
+          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>واعتبار او عطا
+          ا<?oxy_custom_end?>لثمن الموضح امام كل قطعة بهذا فكل من له رغبة في مشترى شئ من ذلك يحضر هو
+          او وكيل عنه في اليوم المذكور من ابتداء الساعه ١٠ افرنكي صباحا لغاية الساعه ١٢ للمزايدة بين
+          الراغبين امام <orgName ref="قومسيون-مبيع-الاملاك-بالمحروسة" type="قومسيون">قومسيون مبيع
+            الاملاك بالمحروسة</orgName> ويدفع تأمين المائة عشرة وبعد الميعاد يصير قفل جلسة المزاد
+          ومن يتاخر يعتبر تاخيره كف يد بشرط ان المشترى يكون قابلا انه اذا لزم منها شئ لل<orgName ref="حكومة">حكومة</orgName> في المستقبل يؤخذ بالثمن المباع به مادام يكون بحسب حالة
+          المبيع واعتبار المقاس يكون على واقع مقاس التحديد الانتهائي والمشترى ملزوم بقبول كامل
+          الاحكام المدونة باللائحة والاوامر الصادرة لل<orgName ref="المالية">مالية</orgName> الحق في
+          قبول او رفض اعلى طلب يرسي فيه المزاد وفى حالة رفض اعلى طلب لا يكون لصاحبه حق في شئ ما سوي
+          رد التامين المدفوع منه اليه وعلى هذا لزم الاعلان لمعلومية الجميع والشونة المذكورة غير
+          مؤجرة</p>
         <table>
           <row>
             <cell>سنتى</cell>
@@ -484,9 +492,10 @@
             <cell>٢٣٧٧</cell>
             <cell>١٤٠</cell>
             <cell>قطعة مرموز لها بالرسم بحرف (ش) نمرة ٤ بالجدول الجديد المحدودة بحدود اربع الحد
-              البحرى ينتهى لسور ساحل الغلا الكبير والحد الغربي ينتهى للقطعة المرمز لها بحرف (ن) من
-              أصل ذلك والحد القبلي ينتهى للقطعة بعده المرموز لها بالرسم بحرف (و) والحد الشرقي حارة
-              ومساحة ذلك المقدار يمينة بسعر المتر الواحد اربعة عشر قرش</cell>
+              البحرى ينتهى لسور <placeName type="ساحل" ref="ساحل-الغلا-الكبير">ساحل الغلا
+                الكبير</placeName> والحد الغربي ينتهى للقطعة المرمز لها بحرف (ن) من أصل ذلك والحد
+              القبلي ينتهى للقطعة بعده المرموز لها بالرسم بحرف (و) والحد الشرقي حارة ومساحة ذلك
+              المقدار يمينة بسعر المتر الواحد اربعة عشر قرش</cell>
           </row>
           <row>
             <cell>٥٧</cell>
@@ -494,17 +503,17 @@
             <cell>١٤٠</cell>
             <cell>قطعة مرموز لها بحرف (و) نمرة (٥) بالجدول الجديد محدودة بحدود اربع الحد البحرى
               ينتهي للقطعة قبله المرموز لها بحرف (ش) والحد الغربي ينتهى للقطعة بعده المرموز لها بحرف
-              (هـ) والحد القبلي ينتهى ل<placeName ref="جنينة احمد بك جركس">جنينة <persName>احمد بك
-                  جركس</persName></placeName> والحد الشرقي ينتهى لحارة ومساحة المقدار يمينه بسعر
-              المتر الواحد ١٤ قرش</cell>
+              (هـ) والحد القبلي ينتهى ل<placeName ref="جنينة-احمد-بك-جركس" type="جنينة">جنينة
+                  <persName>احمد بك جركس</persName></placeName> والحد الشرقي ينتهى لحارة ومساحة
+              المقدار يمينه بسعر المتر الواحد ١٤ قرش</cell>
           </row>
           <row>
             <cell>٥٤</cell>
             <cell>٢١٦١</cell>
             <cell>٢٤٠</cell>
             <cell>قطعة مرموز لها بحرف (ن) نمرة (٦) بالجدول الجديد الحد البحرى ينتهى بعضه لسور ساحل
-              الغلال وبعضه ل<orgName ref="ديوان الاشوان" type="ديوان">ديوان الاشوان</orgName> والحد
-              الغربي <placeName ref="شارع الساحل" type="شارع">شارع الساحل</placeName> والحد القبلي
+              الغلال وبعضه ل<orgName ref="ديوان-الاشوان" type="ديوان">ديوان الاشوان</orgName> والحد
+              الغربي <placeName ref="شارع-الساحل" type="شارع">شارع الساحل</placeName> والحد القبلي
               ينتهى للقطعة المرموز لها بحرف (هـ) والحد الشرقي ينتهى للقطعة المرموز لها بالرسم بحرف
               (ش) المحدودة قبله ومساحة ذلك المقدار يمينه بسعر كل متر ٢٤ قرشا</cell>
           </row>
@@ -513,96 +522,100 @@
             <cell>٢٤١٢</cell>
             <cell>٢٤٠</cell>
             <cell>قطعة مرموز لها بالرسم بحرف (هـ) نمرة (٧) بالجدول الجديد الحد البحرى يتهى للقطعة
-              المحدودة قبله والحد الغربي ينتهى لشارع الساحل والحد القبلي ينتهى لجنينة المرحوم
-                <persName>احمد بك جركس</persName> والحد الشرقي ينتهى للقطعة المرموز لها بالرسم بحرف
-              (و) ومساحة ذلك المقدار يمينه بسعر كل متر ٢٤ قرشا</cell>
+              المحدودة قبله والحد الغربي ينتهى لشارع الساحل والحد القبلي ينتهى لجنينة المرحوم احمد
+              بك جركس والحد الشرقي ينتهى للقطعة المرموز لها بالرسم بحرف (و) ومساحة ذلك المقدار يمينه
+              بسعر كل متر ٢٤ قرشا</cell>
           </row>
         </table>
       </div>
-      <div resp="#eAK" xml:id="w196">
+      <div resp="#eAK #eSG" xml:id="w7">
         <head><date when-custom="1306-03-01">غرة ربيع الأول ١٣٠٦</date>
           <date when="1888-11-05">٥ نوفمبر ١٨٨٨</date>
           <bibl><biblScope unit="issue">عدد ١٢٨</biblScope>
-            <biblScope unit="page">ص ٢٣٩٠</biblScope></bibl></head>
-        <head>من <orgName ref="نظارة المالية" type="نظارة">نظارة المالية</orgName></head>
-        <head><orgName ref="قسم املاك الميري الحرة" type="قسم">قسم املاك الميري
+            <biblScope unit="page">صفحة ٢٣٩٠</biblScope></bibl></head>
+        <head>من <orgName ref="نظارة-المالية" type="نظارة">نظارة المالية</orgName></head>
+        <head><orgName ref="قسم-املاك-الميري-الحرة" type="قسم">قسم املاك الميري
           الحرة</orgName></head>
-        <p>ليكن معلوما لدى العموم انه سيبع بنظارة المالية بطريق ال<rs type="مزاد">مزاد</rs> ارض يبلغ
-          مسطحها ٥٧٤٨٩ متر و٥٠ سنتى تقريبا بجهة <placeName ref="الجزيرة">الجزيرة</placeName> واقعة
-          بالجهة اليمنى من <orgName ref="كوبري قصر النيل" type="كوبري"><placeName ref="كوبري قصر النيل" type="كوبري">كوبري قصر النيل</placeName></orgName> ومنحصرة ما
-          بين النهر والشارع الموصل من الكوبري الى <placeName ref="سراى الجزيرة" type="سراى"><orgName ref="سراى الجزيرة" type="سراى">سراى الجزيرة</orgName></placeName> والارض المذكورة
-          تنقسم على ٢٩ قسم من نمرة ١ الى نمرة ٢٩ وكل قسم منها يشتمل على ٢٠٠٠ متر مربع تقريبا حسب
-          الوارد بالرسم المبين فيه مواقع وحدود ونمرة كل قسم الموجود صورته بقسم الاملاك بالمالية
-            وب<orgName ref="ديوان تفتيش الجيزة والجزيرة" type="ديوان">ديوان تفتيش الجيزة
-            والجزيرة</orgName> وب<orgName ref="ديوان محافظة مصر" type="ديوان">ديوان محافظة
+        <p>ليكن معلوما لدى العموم انه سيبع بنظارة المالية بطريق المزاد ارض يبلغ مسطحها ٥٧٤٨٩ متر و٥٠
+          سنتى تقريبا ب <placeName ref="جهة-الجزيرة" type="جهة">جهة الجزيرة</placeName> واقعة بالجهة
+          اليمنى من <orgName ref="كوبري-قصر-النيل" type="كوبري"><placeName ref="كوبري-قصر-النيل" type="كوبري">كوبري <placeName ref="قصر-النيل" type="قصر">قصر
+              النيل</placeName></placeName></orgName> ومنحصرة ما بين النهر والشارع الموصل من الكوبري
+          الى <placeName ref="سراى-الجزيرة" type="سراى"><orgName ref="سراى-الجزيرة" type="سراى">سراى
+              الجزيرة</orgName></placeName> والارض المذكورة تنقسم على ٢٩ قسم من نمرة ١ الى نمرة ٢٩
+          وكل قسم منها يشتمل على ٢٠٠٠ متر مربع تقريبا حسب الوارد بالرسم المبين فيه مواقع وحدود ونمرة
+          كل قسم الموجود صورته ب<orgName type="قسم" ref="قسم-الاملاك-بالمالية">قسم الاملاك
+            بالمالية</orgName> وب<orgName ref="ديوان-تفتيش-الجيزة-والجزيرة" type="ديوان">ديوان تفتيش
+            الجيزة والجزيرة</orgName> وب<orgName ref="ديوان-محافظة-مصر" type="ديوان">ديوان محافظة
             مصر</orgName> ايضا لاجل اطلاع راغبي الشراء عليها وقد تحدد ميعاد لقبول عطاوات من راغبي
-          شراء الارض المذكورة مدة من تاريخه لغاية يوم السبت <date when="1888-12-01">اول ديسمبر
-            ١٨٨٨</date> وهذا البيع يكون بمقتضي القيود الواردة بلائحة بيع املاك الميري الحرة المؤرخة
-            <date when="1886-11-22">٢٢ نوفمبر ١٨٨٦</date> (عدا ما يختص بدفع التامين) وبمقتضي
-          المنشورات المتممة لها والشروط الاتية ايضا وهى</p>
+          شراء الارض المذكورة مدة من تاريخه لغاية يوم السبت اول ديسمبر ١٨٨٨ وهذا البيع يكون بمقتضي
+          القيود الواردة بلائحة بيع <orgName ref="املاك-الميري-الحرة" type="املاك">املاك الميري
+            الحرة</orgName> المؤرخة ٢٢ نوفمبر ١٨٨٦ (عدا ما يختص بدفع التامين) وبمقتضي المنشورات
+          المتممة لها والشروط الاتية ايضا وهى</p>
         <list rend="numbered">
-          <item>
-            <hi style="font-size:14ptdirection:rtl;">(١) كل من له رغبة في شراء الارض المذكورة سواء
-              كانت كلها او اى قسم منها عليه بعد الاطلاع على الرسم ومعاينته الارض ان يقدم عطاء لنظارة
-              المالية على ورقة تمغة ثمنها ٣ قروش في اثناء المدة لغاية <date when="1888-12-01">اول
-                ديسمبر ١٨٨٨</date> واضحا به مقادير ونمر ما يرغب شراءه</hi>
-          </item>
-          <item>
-            <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">(٢) المشترى للارض يكون ملزوما بردم جسر النيل الحالى لجعل ارتفاعه الى سبعة وعشرين ذراعا والمحافظة عليه وعلى جميع الارض المنحصرة بين سطح الجسر وحد النقطة التى تباع وذلك بمصاريف على طرفه ثم يتصرح له أن يبني سورا على بعد مترين من حافة الجسر وهذان المتران يصير تقويتهما بميل بالدبش بمصاريف على طرفه باعتبار قاعدة الميل المذكور مترين على ارتفاع متر وان يكون المترين المذكورين طريقا لجر اللبان ولا يصير بنا شيء في الارض المنحصرة بين السور المذكور وحد الارض التي تباع ولا يكون لاصحاب الملك أو سكان البيوت التي تبنى في تلك الجهة أدنى معارضة في مرسى المراكب امامها</hi>
-          </item>
-          <item style="font-size:14ptdirection:rtl;" xml:space="preserve">(٣) المشترى سواء كان للارض كلها او بعضها غير مصرح له لاى عله كانت ان يحدث تغييرات في التقسيم المبين على الرسم الذى قياس كل قسم منه ٢٠٠٠ متر مربع ولا يسوغ له بناء اى شئ على الارض التى تباع له سوى بيوت للسكن وعلى المشترى لكل قطعة بعد حصوله على رخصة التنظيم وموافقة <orgName ref="مصلحة الصحة العمومية" type="مصلحة">مصلحة الصحة العمومية</orgName> ان يشرع في بنا مساكن بها على مقتضي الرسم الذى يقدمه ل<orgName ref="نظارة الاشغال" type="نظارة">نظارة الاشغال</orgName> والتصديق عليه منها وهذا البناء لايزيد مسطحه عن ٥٠٠ متر مربع من كل قسم ويجعل الباقي جنينة وعليه ايضا ان يتمم بناء ٥٠٠ متر المذكورة في مدة غايتها سنتين اعتبارا من تاريخ الرخصة التى تعطي اليه من <orgName ref="مصلحة التنظيم" type="مصلحة">مصلحة التنظيم</orgName> التى ينبغي عليه طلبها منها والاستحصال عليها في مدة غايتها شهرين من تاريخ تسليمه الارض بعد سماح المالية بالبيع وعند تمام البناء يربط عليه عوائد املاك لجهة الحكومة حسب الجارى في حق الاملاك المبينة الصادر عنها دكريتو <date when="1884-03-13">١٣ مارس ١٨٨٤</date> وما يتبعه من الاوامر والمنشورات </item>
-          <item style="font-size:14ptdirection:rtl;" xml:space="preserve">(٤) اذا تاخر المشترى عن طلبه الرخصة في مدة الشهرين المذكورين او اذا تاخر عن تتميم البناء في مدة السنتين من تاريخ استلامه الرخصة يكون البيع لاغيا حتما وترجع الارض وما عليها من البناء وغيره مما يكون صار احداثه بها ملكا للحكومة ولا تلتزم حينئذ الا برد نصف الثمن المباع به الى المشترى والنصف الثاني مع الابنية وغيرها يبقي حقا للحكومة بدون ادنى توقيف ولا يكون للمشترى حق في المطالبة بشئ ما خلاف نصف ثمن الارض المباع به ول<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ا<?oxy_custom_end?> اقامة دعوى ضد الحكومة باى نوع او سبب كان امام اى محكمة </item>
-          <item style="font-size:14ptdirection:rtl;" xml:space="preserve">(٥) لا يسوغ للمشترى التنازل عن كل او بعض الارض المباعه اليه الا بمقتضي القيود والشروط والاحتياطات المبينة قبل </item>
-          <item style="font-size:14ptdirection:rtl;" xml:space="preserve">(٦) الاشتراطات المذكورة قبل يقتضي اثباتها بحجة التمليك التى تتحرر من المحكمة بعد وتسليم الارض بمعرفة الحكومة </item>
-          <item style="font-size:14ptdirection:rtl;" xml:space="preserve">(٧) الحكومة تفضل العطا عن الارض باكملها على طلب مشتراها اقساما كما انها تحفظ لنفسها الحق في ان تقبل او ترفض اعلى عطا </item>
+          <item><hi style="font-size:14ptdirection:rtl;">(١) كل من له رغبة في شراء الارض المذكورة
+              سواء كانت كلها او اى قسم منها عليه بعد الاطلاع على الرسم ومعاينته الارض ان يقدم عطاء
+              لنظارة المالية على ورقة تمغة ثمنها ٣ قروش في اثناء المدة لغاية اول ديسمبر ١٨٨٨ واضحا
+              به مقادير ونمر ما يرغب شراءه</hi></item>
+          <item><hi style="font-size:14ptdirection:rtl;" xml:space="preserve">(٢) المشترى للارض يكون ملزوما بردم جسر النيل الحالى لجعل ارتفاعه الى سبعة وعشرين ذراعا والمحافظة عليه وعلى جميع الارض المنحصرة بين سطح الجسر وحد النقطة التى تباع وذلك بمصاريف على طرفه ثم يتصرح له أن يبني سورا على بعد مترين من حافة الجسر وهذان المتران يصير تقويتهما بميل بالدبش بمصاريف على طرفه باعتبار قاعدة الميل المذكور مترين على ارتفاع متر وان يكون المترين المذكورين طريقا لجر اللبان ولا يصير بنا شيء في الارض المنحصرة بين السور المذكور وحد الارض التي تباع ولا يكون لاصحاب الملك أو سكان البيوت التي تبنى في تلك الجهة أدنى معارضة في مرسى المراكب امامها</hi></item>
+          <item style="font-size:14ptdirection:rtl;" xml:space="preserve">(٣) المشترى سواء كان للارض كلها او بعضها غير مصرح له لاى عله كانت ان يحدث تغييرات في التقسيم المبين على الرسم الذى قياس كل قسم منه ٢٠٠٠ متر مربع ولا يسوغ له بناء اى شئ على الارض التى تباع له سوى بيوت للسكن وعلى المشترى لكل قطعة بعد حصوله على رخصة التنظيم وموافقة <orgName ref="مصلحة-الصحة-العمومية" type="مصلحة">مصلحة الصحة العمومية</orgName> ان يشرع في بنا مساكن بها على مقتضي الرسم الذى يقدمه ل<orgName ref="نظارة-الاشغال" type="نظارة">نظارة الاشغال</orgName> والتصديق عليه منها وهذا البناء لايزيد مسطحه عن ٥٠٠ متر مربع من كل قسم ويجعل الباقي جنينة وعليه ايضا ان يتمم بناء ٥٠٠ متر المذكورة في مدة غايتها سنتين اعتبارا من تاريخ الرخصة التى تعطي اليه من <orgName ref="مصلحة-التنظيم" type="مصلحة">مصلحة التنظيم</orgName> التى ينبغي عليه طلبها منها والاستحصال عليها في مدة غايتها شهرين من تاريخ تسليمه الارض بعد سماح المالية بالبيع وعند تمام البناء يربط عليه عوائد املاك لجهة الحكومة حسب الجارى في حق الاملاك المبينة الصادر عنها دكريتو ١٣ مارس ١٨٨٤ وما يتبعه من الاوامر والمنشورات</item>
+          <item style="font-size:14ptdirection:rtl;" xml:space="preserve">(٤) اذا تاخر المشترى عن طلبه الرخصة في مدة الشهرين المذكورين او اذا تاخر عن تتميم البناء في مدة السنتين من تاريخ استلامه الرخصة يكون البيع لاغيا حتما وترجع الارض وما عليها من البناء وغيره مما يكون صار احداثه بها ملكا للحكومة ولا تلتزم حينئذ الا برد نصف الثمن المباع به الى المشترى والنصف الثاني مع الابنية وغيرها يبقي حقا للحكومة بدون ادنى توقيف ولا يكون للمشترى حق في المطالبة بشئ ما خلاف نصف ثمن الارض المباع به ول<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ا<?oxy_custom_end?> اقامة دعوى ضد الحكومة باى نوع او سبب كان امام اى محكمة</item>
+          <item style="font-size:14ptdirection:rtl;" xml:space="preserve">(٥) لا يسوغ للمشترى التنازل عن كل او بعض الارض المباعه اليه الا بمقتضي القيود والشروط والاحتياطات المبينة قبل</item>
+          <item style="font-size:14ptdirection:rtl;" xml:space="preserve">(٦) الاشتراطات المذكورة قبل يقتضي اثباتها بحجة التمليك التى تتحرر من المحكمة بعد وتسليم الارض بمعرفة الحكومة</item>
+          <item style="font-size:14ptdirection:rtl;" xml:space="preserve">(٧) الحكومة تفضل العطا عن الارض باكملها على طلب مشتراها اقساما كما انها تحفظ لنفسها الحق في ان تقبل او ترفض اعلى عطا</item>
         </list>
-        <p>فكل من له رغبة في مشتر الأرض المذكورة بهذه الاشتراطات عليه ان يقدم عطاه كما ذكر       في
-          ٩ اكتوبر ٨٨ و ٤ صفر سنة ١٣٠٦</p>
+        <p>فكل من له رغبة في مشتر الأرض المذكورة بهذه الاشتراطات عليه ان يقدم عطاه كما ذكر في ٩
+          اكتوبر ٨٨ و ٤ صفر سنة ١٣٠٦</p>
       </div>
-         <div xml:id="w198" resp="#eAK">
+         <div xml:id="w8" resp="#eAK #eSG">
         <head><date when-custom="1306-03-10">١٠ ربيع الأول ١٣٠٦</date>
           <date when="1888-11-14">١٤ نوفمبر ١٨٨٨</date>
           <bibl><biblScope unit="issue">عدد ١٣٢</biblScope>
-            <biblScope unit="page">ص ٢٤٦٥</biblScope></bibl></head>
-        <head>من <orgName ref="محافظة مصر" type="محافظة">محافظة مصر</orgName></head>
-        <p>يكون معلوما لدى العموم انه بجلسة يوم الاربعاء <date when="1888-12-05">٥ ديسمبر
-            ١٨٨٨</date> الموافق <date when-custom="1306-04-02">٢ ربيع ١٣٠٦</date> المزمع انعقادها
-            ب<orgName ref="ديوان محافظة مصر" type="ديوان">ديوان محافظة مصر</orgName> سيصير اشهار <rs type="مزاد">مزاد</rs> مبيع قطعة الارض نمرة ٢ بالرسم الجديد الوارد بالجدول نمرة ١١٣ من
-          اراضي الميرى بالمحروسة المعروفة ب<placeName ref="ظهر الجمال">ظهر الجمال</placeName>
-            ب<placeName ref="بولاق">بولاق</placeName> بالقرب من <placeName ref="جسر ابو العلا" type="جسر">جسر ابو العلا</placeName> وعلى <placeName ref="شارع الترعة البولاقية" type="شارع">شارع الترعة البولاقية</placeName> حسب الرسم الموجود بالمحافظة القائم عليها
-          بنا محلات وخلافه تعلق اصحابها وجارى دفع اجرة عنها لل<orgName ref="دائرة البلدية بمصر" type="دائرة">دائرة البلدية بمصر</orgName> البالغ مسطحها ٤٩٤٠ متر المحدود بحدود اربع الحد
-          البحرى طريق بينها وبين القطعة نمرة ١ والحد الشرقي <placeName ref="شارع الترعة البولاقية" type="شارع">شارع الترعة البولاقية</placeName> والحد الغربي طريق والحد القبلي طريق بينها
-          وبين القطعة نمرة ٣ واعتبار اول عطاء فيها بسعر كل متر واحد وثلاثين قرشا فكل من له رغبة في
-          المشترى يحضر هو او وكيلا عنه في اليوم المرقوم من ابتداء الساعه ١٠ افرنكي صباحا لغاية
-          الساعه ١٢ للمزايدة بين الراغبين امام <orgName ref="قومسيون مبيع الاملاك بالمحروسة" type="قومسيون">قومسيون مبيع الاملاك بالمحروسة</orgName> ويدفع تامين المائة عشرة وبعد
-          الميعاد يصير قفل جلسة المزاد ومن يتاخر يعتبر تاخيره كف يد بشرط ان المشترى يكون قابلا
-          المعاملة في مسئلة الحكر الواقع التداعى فيها من <orgName ref="الاوقاف">الاوقاف</orgName>
-          حسب ما يتقرر فيما بعد بخصوصها كما انه اذا لزم منها شئ للحكومة في المستقبل يؤخذ بالثمن
-          المباع به مادام يكون بحسب حالة المبيع واعتبار المقاس يكون على واقع مقاس التحديد الانتهائي
-          والمشترى ملزوم بقبول كامل الاحكام المدونة باللائحة والاوامر الصادرة وللمالية الحق في قبول
-          او رفض اعلى طلب يرسي منه المزاد وفى حالة رفض اعلى طلب لا يكون لصاحبه حق في شئ ما سوى رد
-          التامين المدفوع منه اليه وعلى هذا لزم ال<rs type="اعلان">اعلان</rs> لمعلومية الجميع </p>
-        <p><date when="1888-11-05">٥ نوفمبر ١٨٨٨</date></p>
+            <biblScope unit="page">صفحة ٢٤٦٥</biblScope></bibl></head>
+        <head>من <orgName ref="محافظة-مصر" type="محافظة">محافظة مصر</orgName></head>
+        <p>يكون معلوما لدى العموم انه بجلسة يوم الاربعاء ٥ ديسمبر ١٨٨٨ الموافق ٢ ربيع ١٣٠٦ المزمع
+          انعقادها ب<orgName ref="ديوان-محافظة-مصر" type="ديوان">ديوان محافظة مصر</orgName> سيصير
+          اشهار مزاد مبيع قطعة الارض نمرة ٢ بالرسم الجديد الوارد بالجدول نمرة ١١٣ من <placeName type="اراضى" ref="اراضي-الميرى-بالمحروسة-المعروفة-بظهر-الجمال">اراضي الميرى بالمحروسة
+            المعروفة ب<placeName ref="ظهر-الجمال">ظهر الجمال</placeName></placeName> ب<placeName ref="بولاق">بولاق</placeName> بالقرب من <placeName ref="جسر-ابو-العلا" type="جسر">جسر
+            ابو العلا</placeName> وعلى <placeName ref="شارع-الترعة-البولاقية" type="شارع">شارع
+              <placeName ref="الترعة-البولاقية" type="ترعة">الترعة البولاقية</placeName></placeName>
+          حسب الرسم الموجود بالمحافظة القائم عليها بنا محلات وخلافه تعلق اصحابها وجارى دفع اجرة عنها
+            لل<orgName ref="دائرة-البلدية-بمصر" type="دائرة">دائرة البلدية بمصر</orgName> البالغ
+          مسطحها ٤٩٤٠ متر المحدود بحدود اربع الحد البحرى طريق بينها وبين القطعة نمرة ١ والحد الشرقي
+          شارع الترعة البولاقية والحد الغربي طريق والحد القبلي طريق بينها وبين القطعة نمرة ٣ واعتبار
+          اول عطاء فيها بسعر كل متر واحد وثلاثين قرشا فكل من له رغبة في المشترى يحضر هو او وكيلا عنه
+          في اليوم المرقوم من ابتداء الساعه ١٠ افرنكي صباحا لغاية الساعه ١٢ للمزايدة بين الراغبين
+          امام <orgName ref="قومسيون-مبيع-الاملاك-بالمحروسة" type="قومسيون">قومسيون مبيع الاملاك
+            بالمحروسة</orgName> ويدفع تامين المائة عشرة وبعد الميعاد يصير قفل جلسة المزاد ومن يتاخر
+          يعتبر تاخيره كف يد بشرط ان المشترى يكون قابلا المعاملة في مسئلة الحكر الواقع التداعى فيها
+          من <orgName ref="الاوقاف">الاوقاف</orgName> حسب ما يتقرر فيما بعد بخصوصها كما انه اذا لزم
+          منها شئ للحكومة في المستقبل يؤخذ بالثمن المباع به مادام يكون بحسب حالة المبيع واعتبار
+          المقاس يكون على واقع مقاس التحديد الانتهائي والمشترى ملزوم بقبول كامل الاحكام المدونة
+          باللائحة والاوامر الصادرة ولل<orgName ref="المالية">مالية</orgName> الحق في قبول او رفض
+          اعلى طلب يرسي منه المزاد وفى حالة رفض اعلى طلب لا يكون لصاحبه حق في شئ ما سوى رد التامين
+          المدفوع منه اليه وعلى هذا لزم الاعلان لمعلومية الجميع</p>
+        <p>٥ نوفمبر ١٨٨٨</p>
       </div>
-         <div xml:id="w199" resp="#eAK">
+         <div xml:id="w9" resp="#eAK #eSG">
         <head><date when-custom="1306-03-15">١٥ ربيع الأول ١٣٠٦</date>
           <date when="1888-11-19">١٩ نوفمبر ١٨٨٨</date>
           <bibl><biblScope unit="issue">عدد ١٣٤</biblScope>
-            <biblScope unit="page">ص ٢٤٩٥</biblScope></bibl></head>
-        <head>من <orgName ref="محافظة مصر" type="محافظة">محافظة مصر</orgName></head>
-        <p>يكون معلوم لدى العموم انه بجلسة يوم الاربعاء <date when="1888-12-12">١٢ ديسمبر
-            ١٨٨٨</date> المزمع انعقادها ب<orgName ref="ديوان محافظة مصر" type="ديوان">ديوان محافظة
-            مصر</orgName> سيصير اشهار <rs type="مزاد">مزاد</rs> مبيع اراضي الميرى بالمحروسة المبينة
-          بهذا بموجب الرسومات الموجودة بالمحافظة واعتبار اول عطا الثمن الموضح اما كل قطعة فكل من له
-          رغبة في مشترى شئ من ذلك يحضر او وكيلا عنه في اليوم المذكور من ابتداء الساعه ١٠ افرنكي
-          صباحا لغاية الساعه ١٢ للمزايدة بين الراغبين امام <orgName ref="قومسيون مبيع املاك واراضي الميري بالمحروسة" type="قومسيون">قومسيون مبيع املاك
+            <biblScope unit="page">صفحة ٢٤٩٥</biblScope></bibl></head>
+        <head>من <orgName ref="محافظة-مصر" type="محافظة">محافظة مصر</orgName></head>
+        <p>يكون معلوم لدى العموم انه بجلسة يوم الاربعاء ١٢ ديسمبر ١٨٨٨ المزمع انعقادها ب<orgName ref="ديوان-محافظة-مصر" type="ديوان">ديوان محافظة مصر</orgName> سيصير اشهار مزاد مبيع
+            <placeName ref="اراضي-الميرى-بالمحروسة" type="اراضى">اراضي الميرى بالمحروسة</placeName>
+          المبينة بهذا بموجب الرسومات الموجودة بالمحافظة واعتبار اول عطا الثمن الموضح
+          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>اما
+          <?oxy_comment_start author="Dr. Sarah" timestamp="20250131T123015+0200" comment="امام كل قطعة؟" mid="19"?>كل<?oxy_custom_end?><?oxy_comment_end mid="19"?>
+          قطعة فكل من له رغبة في مشترى شئ من ذلك يحضر او وكيلا عنه في اليوم المذكور من ابتداء الساعه
+          ١٠ افرنكي صباحا لغاية الساعه ١٢ للمزايدة بين الراغبين امام <orgName ref="قومسيون-مبيع-املاك-واراضي-الميري-بالمحروسة" type="قومسيون">قومسيون مبيع املاك
             واراضي الميري بالمحروسة</orgName> ويدفع تامين المائة عشرة وبعد الميعاد يصير قفل جلسة
-          المزاد ومن يتاخر يعتبر تاخيره كف يد بشرط ان المشترى يكون قابلا انه اذا لزم منها شئ للحكومة
-          في المستقبل يؤخذ بالثمن المباع به مادام يكون بحسب حالة المبيع واعتبار المقاس يكون على واقع
-          مقاس التحديد الانتهائي والمشترى ملزوم بقبول كامل الاحكام المدونة باللائحة والاوامر الصادرة
-          وللمالية الحق في قبول او رفض اعلى طلب يرسي منه المزاد وفى حالة رفض اعلى طلب لا يكون لصاحبه
-          حق في شئ ما سوى رد التامين المدفوع منه اليه وعلى هذا لزم ال<rs type="اعلان">اعلان</rs>
-          لمعلومية الجميع </p>
+          المزاد ومن يتاخر يعتبر تاخيره كف يد بشرط ان المشترى يكون قابلا انه اذا لزم منها شئ
+            لل<orgName ref="حكومة">حكومة</orgName> في المستقبل يؤخذ بالثمن المباع به مادام يكون بحسب
+          حالة المبيع واعتبار المقاس يكون على واقع مقاس التحديد الانتهائي والمشترى ملزوم بقبول كامل
+          الاحكام المدونة باللائحة والاوامر الصادرة ولل<orgName ref="المالية">مالية</orgName> الحق
+          في قبول او رفض اعلى طلب يرسي منه المزاد وفى حالة رفض اعلى طلب لا يكون لصاحبه حق في شئ ما
+          سوى رد التامين المدفوع منه اليه وعلى هذا لزم ال<rs type="اعلان">اعلان</rs> لمعلومية
+          الجميع</p>
         <table>
           <row>
             <cell>سنتى</cell>
@@ -617,10 +630,11 @@
             <cell>٧١</cell>
             <cell>٢٣٩٥</cell>
             <cell>١٠٠</cell>
-            <cell>قطعة ارض تعلق الميري قبلي <orgName ref="العيون">العيون</orgName> ب<placeName ref="مصر القديمة">مصر القديمة</placeName> نمرة ٨ ومن الوارد بالجدول الجديد نمرة ٥٤
-                ب<placeName ref="شارع الجيارات" type="شارع">شارع الجيارات</placeName> مقام بها بناء
-                <orgName ref="جياره تغلق أحمد افندي عبدالله">جياره</orgName> تعلق <persName>أحمد
-                افندى عبدالله</persName> وجارى دفع اجرة عنها للدائرة البلدية ١ جنيه و٨٣٣ مليم محدودة
+            <cell><placeName ref="قطعة-ارض-تعلق-الميري" type="قطعة-ارض">قطعة ارض تعلق
+                الميري</placeName> قبلي <orgName ref="العيون-بمصر-القديمة">العيون  ب<placeName ref="مصر-القديمة">مصر القديمة</placeName></orgName> نمرة ٨ ومن الوارد بالجدول
+              الجديد نمرة ٥٤ ب<placeName ref="شارع-الجيارات" type="شارع">شارع الجيارات</placeName>
+              مقام بها بناء <orgName ref="جياره-تعلق-أحمد-افندي-عبدالله" type="جياره">جياره تعلق
+                  <persName>أحمد افندى عبدالله</persName></orgName> وجارى دفع اجرة عنها لل<orgName ref="دائرة-البلدية" type="دائرة">دائرة البلدية</orgName> ١ جنيه و٨٣٣ مليم محدودة
               بحدود اربعة الحد الغربي شارع الجيارات والحد البحرى منازل اهالى على ارض الميري والحد
               الشرقي ينتهى لحارة والحد القبلي منازل على ارض الميري وارض فضا والمساحة المقدار
               يمينه</cell>
@@ -629,13 +643,12 @@
             <cell>٩١</cell>
             <cell>٣٥٤</cell>
             <cell>٦٠٠</cell>
-            <cell>قطعتين ارض ب<placeName ref="شارع فم الخليج" type="شارع">شارع فم الخليج</placeName>
-              بجوار محطة زين العابدين من ضمن نمرة ٣٣ بالجدول وبالجدول الجديد نمرة ٩ ، قطعة بجوار
-                <placeName ref="محطة عوائد زين العابدين" type="محطة">محطة عوائد زين
-                العابدين</placeName> وبها مباني ومحلات تعلق اصحابها وجارى دفع اجرة عنها للدائرة
-              البلدية شهرى ١ جنيه و٧٢٥ مليم محدود بحدود اربعة الحد البحرى وارض بجوار محطة العوايد
-              والحد الشرقي شارع فم الخليج والحد الغربي الخليج والحد القبلي بعده والمساحه المقدار
-              يمينه</cell>
+            <cell>قطعتين ارض ب<placeName ref="شارع-فم-الخليج" type="شارع">شارع <placeName ref="فم-الخليج">فم الخليج</placeName></placeName> بجوار <placeName ref="محطة-زين-العابدين" type="محطة">محطة زين العابدين</placeName> من ضمن نمرة ٣٣
+              بالجدول وبالجدول الجديد نمرة ٩ ، قطعة بجوار <placeName ref="محطة-عوائد-زين-العابدين" type="محطة">محطة عوائد زين العابدين</placeName> وبها مباني ومحلات تعلق اصحابها وجارى
+              دفع اجرة عنها للدائرة البلدية شهرى ١ جنيه و٧٢٥ مليم محدود بحدود اربعة الحد البحرى وارض
+              بجوار <placeName type="محطة" ref="محطة-العوايد">محطة العوايد</placeName> والحد الشرقي
+              شارع فم الخليج والحد الغربي <placeName ref="الخليج">الخليج</placeName> والحد القبلي
+              بعده والمساحه المقدار يمينه</cell>
           </row>
           <row>
             <cell>٠٠</cell>
@@ -643,49 +656,62 @@
             <cell>٦٠٠</cell>
             <cell>قطعة بها الساقية قبلي القطعة قبله وبها دكاكين تعلق اصحابها باجرة شهرى ٤١٠ مليم
               محدودة بحدود اربعة الحد الشرقي شارع فم الخليج والحد البحرى القطعة قبله والحد الغربي
-                <placeName ref="الخليج المصري">الخليج المصري</placeName> والحد القبلي ملك
-                <persName>محمد مرعى الحجار</persName> والمساحة المقدار يمينه</cell>
+                <placeName ref="الخليج-المصري" type="خليج">الخليج المصري</placeName> والحد القبلي
+                <placeName type="ملك" ref="ملك-محمد-مرعى-الحجار"><orgName ref="ملك-محمد-مرعى-الحجار" type="ملك">ملك <persName>محمد مرعى الحجار</persName></orgName></placeName>
+              والمساحة المقدار يمينه</cell>
           </row>
           <row>
             <cell>٢٧</cell>
             <cell>٥٤٤</cell>
             <cell>٣٠٠</cell>
-            <cell>قطعة ارض كائنة غربي <orgName ref="وابور النور" type="وابور"><placeName ref="وابور النور">وابور النور</placeName></orgName> ب<orgName ref="قسم بولاق" type="قسم">قسم بولاق</orgName> نمرة ١٢٦ بالجدول ونمرة ١٠ بالجدول الجديد بها مباني
-              تعلق اصحابها باجرة تدفع للدائرة البلدية ٩٠٢ مليم محدودة بحدود اربعة الحد الغربي
-                <placeName ref="شارع وابور النور" type="شارع">شارع وابور النور</placeName> والحد
-              الشرقي ينتهى ل<placeName ref="شارع سكة حديد وابور النور" type="شارع">شارع سكة حديد
-                وابور النور</placeName> والحج القبلي ينتهى لحارة والحد البحرى ينتهى الى ملتقي
+            <cell>قطعة ارض كائنة غربي <orgName ref="وابور-النور" type="وابور"><placeName ref="وابور-النور" type="وابور">وابور النور</placeName></orgName> ب<orgName ref="قسم-بولاق" type="قسم">قسم بولاق</orgName> نمرة ١٢٦ بالجدول ونمرة ١٠ بالجدول
+              الجديد بها مباني تعلق اصحابها باجرة تدفع للدائرة البلدية ٩٠٢ مليم محدودة بحدود اربعة
+              الحد الغربي <placeName ref="شارع-وابور-النور" type="شارع">شارع وابور النور</placeName>
+              والحد الشرقي ينتهى ل<placeName ref="شارع-سكة-حديد-وابور-النور" type="شارع">شارع سكة
+                حديد وابور النور</placeName> والحد القبلي ينتهى لحارة والحد البحرى ينتهى الى ملتقي
               الشوارع والمساحة المقدار يمينه</cell>
           </row>
         </table>
       </div>
-         <div xml:id="w200" resp="#eAK">
+         <div xml:id="w10" resp="#eAK #eSG">
         <head><date when-custom="1306-03-20">٢٠ ربيع الأول ١٣٠٦</date>
           <date when="1888-11-24">٢٤ نوفمبر ١٨٨٨</date>
           <bibl><biblScope unit="issue">عدد ١٣٦</biblScope>
-            <biblScope unit="page">ص ٢٥٣٦</biblScope></bibl></head>
-        <head>من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال
+            <biblScope unit="page">صفحة ٢٥٣٦</biblScope></bibl></head>
+        <head>من <orgName ref="نظارة-الاشغال-العمومية" type="نظارة">نظارة الاشغال
           العمومية</orgName></head>
-        <p>عن مبيع اراضي ومباني <placeName ref="انتيقخانة بولاق"><orgName ref="انتيقخانة بولاق">انتيقخانة <placeName>بولاق</placeName></orgName></placeName> وملحقاتها</p>
+        <p>عن مبيع <placeName ref="اراضي-ومباني-انتيقخانة-بولاق-وملحقاتها" type="اراضى-ومبانى">اراضي
+            ومباني <placeName ref="انتيقخانة-بولاق" type="انتيقخانة"><orgName ref="انتيقخانة-بولاق" type="انتيقخانة">انتيقخانة <placeName>بولاق</placeName></orgName></placeName>
+            وملحقاتها</placeName></p>
         <p>ليكن معلوما للعموم ان نظارة الاشغال العمومية تشهر للمبيع اراضي ومباني انتيقخانة بولاق
           وملحقاتها ويبلغ مسطحها جميعا نحو ستة عشر الف وثمانمائة واربعة وثلاثين مترا واربعون
           سنتيمترا (١٦٨٣٤,٤٠ متر) وهى مقسمة الى خمسة اقسام كل قسم منها على حدته</p>
         <list rend="bulleted">
-          <item>
-            <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">فالقسم الاول نمرة ١ ارض براح كائنة بحرى شرقي <orgName ref="شونة الانتيقخانة" type="شونة"><placeName ref="شونة الانتيقخانة" type="شونة">شونة الانتيقخانة</placeName></orgName> ومسطحها ٤٩١٥,٢٠ متر تقريبا وحدها البحرى <placeName ref="شارع الانتيقخانة" type="شارع">شارع الانتيقخانة</placeName> والقبلي <orgName ref="شون الساحل" type="شونة"><placeName ref="شون الساحل" type="شونة">شون الساحل</placeName></orgName> والشرقي شارع عرضه ٨ متر فاصل بينها وبين ملك <persName>حلمى افندى</persName> والغربي شونة الانتيقخانة او القسم نمرة ٢ الاتى بيان حدوده وتسلم هذه الارض فورا لمشتريها </hi>
-          </item>
-          <item>
-            <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">والقسم الثاني نمرة ٢ شونة الانتيقخانة ومسطحها ٣٩٨١ متر تقريبا حدها البحرى جزؤه <orgName ref="منزل الخواجه انستازي" type="منزل">منزل</orgName> <persName>الخواجه انستازي</persName> والباقي منه شارع الانتيقخانة وحدها القبلي شون الساحل والشرقي الارض البراح المتقدم ذكرها والغربي <placeName ref="شارع الساحل" type="شارع">شارع الساحل</placeName> ويسلم هذا القسم لمشتريه بعد البيع بثلاثة شهور </hi>
-          </item>
-          <item>
-            <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">والقسم الثالث نمرة ٣ <orgName ref="منزل سكن مدير الانتيقخانة" type="منزل">منزل</orgName> سكن مدير الانتيقخانة وبنايات مجعولة مكاتب وورش للمصلحة وجنينة للمدير المذكور وللانتيقخانة ومسطح الجميع ٤٥٥٢,٧٠ متر تقريبا وحدها البحرى بناية الانتيقخانة او القسم نمرة ٤ الاتى بيان حدوده والحد القبلي جزؤه جسر النيل والباقي محل <placeName ref="القومبانية الفرنساوية" type="قومبانية"><orgName ref="القومبانية الفرنساوية" type="قومبانية">القومبانية الفرنساوية</orgName></placeName> والشرقي شارع الساحل والغربي نهر النيل ويسلم هذا القسم لمشتريه بعد البيع بستة شهور </hi>
-          </item>
-          <item>
-            <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">والقسم الرابع نمرة ٤ بناية الانتيقخانة وحوشها ومسطحهما ٢٢٥٥,٥٠ متر تقريبا وحدهما البحرى <placeName ref="شونة جلال باشا" type="شونة"><orgName ref="شونة جلال باشا" type="شونة">شونة سعادة <persName>جلال باشا</persName></orgName></placeName> والقبلي منزل مدير الانتيقخانة او القسم نمرة ٣ المتقدم ذكره والشرقي شارع الساحل والغربي نهر النيل ويسلم هذا القسم لمشتريه بعد البيع بثمانية عشر شهرا </hi>
-          </item>
-          <item>
-            <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">والقسم الخامس نمرة ٥ شونة الانتيقخانة ومسطحها ١١٣٠ متر تقريبا وحدها البحرى <orgName ref="شونة الدائرة السنية" type="شونة"><placeName ref="شونة الدائرة السنية" type="شونة">شونة الدائرة السنية</placeName></orgName> والقبلي شونة سعادة جلال باشا والشرقي شارع الساحل والغربي جسر النيل ويسلم هذا القسم لمشتريه بعد البيع بثلاثة اشهر </hi>
-          </item>
+          <item>فالقسم الاول نمرة ١ ارض براح كائنة بحرى شرقي <orgName ref="شونة-الانتيقخانة" type="شونة"><placeName ref="شونة-الانتيقخانة" type="شونة">شونة
+              الانتيقخانة</placeName></orgName> ومسطحها ٤٩١٥,٢٠ متر تقريبا وحدها البحرى <placeName ref="شارع-الانتيقخانة" type="شارع">شارع الانتيقخانة</placeName> والقبلي <orgName ref="شون-الساحل" type="شون"><placeName ref="شون-الساحل" type="شون">شون
+                الساحل</placeName></orgName> والشرقي شارع عرضه ٨ متر فاصل بينها وبين <placeName ref="ملك-حلمى-افندى" type="ملك"><orgName ref="ملك-حلمى-افندى" type="ملك">ملك
+                  <persName>حلمى افندى</persName></orgName></placeName> والغربي شونة الانتيقخانة او
+            القسم نمرة ٢ الاتى بيان حدوده وتسلم هذه الارض فورا لمشتريها</item>
+          <item>والقسم الثاني نمرة ٢ شونة الانتيقخانة ومسطحها ٣٩٨١ متر تقريبا حدها البحرى جزؤه
+              <orgName ref="منزل-الخواجه-انستازي" type="منزل">منزل <persName>الخواجه
+                انستازي</persName></orgName> والباقي منه شارع الانتيقخانة وحدها القبلي شون الساحل
+            والشرقي الارض البراح المتقدم ذكرها والغربي <placeName ref="شارع-الساحل" type="شارع">شارع
+              الساحل</placeName> ويسلم هذا القسم لمشتريه بعد البيع بثلاثة شهور</item>
+          <item>والقسم الثالث نمرة ٣ <orgName ref="منزل-سكن-مدير-الانتيقخانة" type="منزل">منزل سكن
+              مدير الانتيقخانة</orgName> وبنايات مجعولة <placeName ref="مكاتب-وورش-لمصلحة-الاثار" type="مكاتب-وورش">مكاتب وورش للمصلحة</placeName> و<placeName ref="جنينة-لمدير-الانتيقخانة" type="جنينة">جنينة للمدير المذكور</placeName>
+            وللانتيقخانة ومسطح الجميع ٤٥٥٢,٧٠ متر تقريبا وحدها البحرى بناية الانتيقخانة او القسم
+            نمرة ٤ الاتى بيان حدوده والحد القبلي جزؤه جسر النيل والباقي محل <placeName ref="القومبانية-الفرنساوية" type="قومبانية"><orgName ref="القومبانية-الفرنساوية" type="قومبانية">القومبانية الفرنساوية</orgName></placeName> والشرقي شارع الساحل
+            والغربي <placeName ref="نهر-النيل" type="نهر">نهر النيل</placeName> ويسلم هذا القسم
+            لمشتريه بعد البيع بستة شهور</item>
+          <item>والقسم الرابع نمرة ٤ <placeName ref="بناية-الانتيقخانة-وحوشها" type="بناية">بناية
+              الانتيقخانة وحوشها</placeName> ومسطحهما ٢٢٥٥,٥٠ متر تقريبا وحدهما البحرى <placeName ref="شونة-جلال-باشا" type="شونة"><orgName ref="شونة-جلال-باشا" type="شونة">شونة سعادة
+                  <persName>جلال باشا</persName></orgName></placeName> والقبلي منزل مدير الانتيقخانة
+            او القسم نمرة ٣ المتقدم ذكره والشرقي شارع الساحل والغربي نهر النيل ويسلم هذا القسم
+            لمشتريه بعد البيع بثمانية عشر شهرا</item>
+          <item>والقسم الخامس نمرة ٥ شونة الانتيقخانة ومسطحها ١١٣٠ متر تقريبا وحدها البحرى <orgName ref="شونة-الدائرة-السنية" type="شونة"><placeName ref="شونة-الدائرة-السنية" type="شونة">شونة <orgName ref="الدائرة-السنية" type="دائرة">الدائرة
+                السنية</orgName></placeName></orgName> والقبلي شونة سعادة جلال باشا والشرقي شارع
+            الساحل والغربي <placeName ref="جسر-النيل" type="جسر">جسر النيل</placeName> ويسلم هذا
+            القسم لمشتريه بعد البيع بثلاثة اشهر</item>
         </list>
       </div>
       </body>

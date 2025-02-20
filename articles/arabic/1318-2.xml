@@ -2,34 +2,37 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>"Digital Cairo - Urbanism News from al-Waqāʾiʿ al-Miṣrīyah - An Ottoman Arabic Digital Humanities
-          Project"</title>
-        <editor xml:id="eNK">Nour Kanaan</editor>
-        <editor xml:id="eAM">Adam Mestyan</editor>
+        <title>"Urbanism News In The Official Egyptian Gazette (al-Waqāʾiʿ al-Miṣrīyah), 1828-1914 - An Ottoman Arabic
+          Digital Humanities Project"</title>
+        <editor xml:id="eHC" ref="https://orcid.org/0000-0003-0060-9396">Hugh Cayless</editor>
+        <editor xml:id="eNK" ref="https://orcid.org/0009-0008-0409-7328">Nour Kanaan</editor>
+        <editor xml:id="eAM" ref="https://orcid.org/0000-0002-5945-6147">Adam Mestyan</editor>
         <editor xml:id="eDY">Danah Younis</editor>
-        <editor xml:id="eSG">Sarah Fathallah Gaara</editor>
-        <editor xml:id="eAE">Arif Erbil</editor>
-        <editor xml:id="eAK">Ahmed Kamal</editor>
-        <editor xml:id="eAS">Abram Smith</editor>
+        <editor xml:id="eSG" ref="https://orcid.org/0000-0002-1977-5530">Sarah Fathallah
+          Gaara</editor>
+        <editor xml:id="eAE" ref="https://orcid.org/0000-0001-9369-3034">Arif Erbil</editor>
+        <editor xml:id="eAK" ref="https://orcid.org/0000-0003-1721-1050">Ahmed Kamal</editor>
+        <editor xml:id="eAS" ref="https://orcid.org/0009-0004-9778-6632">Abram Smith</editor>
         <editor xml:id="eCH">Clara Harms</editor>
-        <editor xml:id="eHS">Hüseyin Sağlam</editor>
-        <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+        <editor xml:id="eHS" ref="https://orcid.org/0000-0003-3003-1986">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT" ref="https://orcid.org/0009-0002-2083-9199">Abdulrahman
+          El-Taliawi</editor>
         <editor xml:id="eHL">Hiba Laabadli</editor>
-        <editor xml:id="eOE">Othmane Echchabi</editor>
+        <editor xml:id="eOE" ref="https://orcid.org/0009-0002-9543-2617">Othmane Echchabi</editor>
         <editor xml:id="eFA">Fatemah Almahana</editor>
         <editor xml:id="eMZ">Mahmoud Zaki</editor>
-        <editor xml:id="eNS">Nehal al-Shamy</editor>
-        <editor xml:id="eVJ">Vishal Jammulapati</editor>
+        <editor xml:id="eNS" ref="https://orcid.org/0009-0006-8785-0228">Nehal al-Shamy</editor>
+        <editor xml:id="eVJ" ref="https://orcid.org/0009-0004-4472-4120">Vishal Jammulapati</editor>
         <respStmt>
-          <resp>Project leader</resp>
+          <resp>Project co-director</resp>
           <name>Hugh Cayless</name>
         </respStmt>
         <respStmt>
-          <resp>Project leader</resp>
+          <resp>Primary Investigator</resp>
           <name>Adam Mestyan</name>
         </respStmt>
         <respStmt>
-          <resp>Project leader</resp>
+          <resp ref="https://orcid.org/0000-0001-5239-7909">Project co-director</resp>
           <name>Mercedes Volait</name>
         </respStmt>
         <respStmt>
@@ -37,12 +40,12 @@
           <name>Sarah Fathallah Gaara</name>
         </respStmt>
         <respStmt>
-          <resp>Research Assistant</resp>
+          <resp ref="https://orcid.org/0000-0003-1216-3686">Research Assistant</resp>
           <name>Karima Nasr</name>
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
-          <name>Rezk Nory</name>
+          <name>Rezk Nori</name>
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
@@ -98,12 +101,11 @@
             and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
             University</orgName>; <orgName>Duke University Libraries</orgName>; <orgName>Centre
             national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian
-            Cultural Counsellor in Cairo</orgName>. </sponsor>
+            Cultural Counsellor in Cairo</orgName>.</sponsor>
       </titleStmt>
       <publicationStmt>
- <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the project "La fabrique
-          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+        <p>"A TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah, 1828-1914"</p>
+        <p> Created by the "Digital Cairo" project (Duke University - Ifao), sponsored by the National Endowment for the Humanities.</p>
         <p>
           <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
         </p>
@@ -119,7 +121,7 @@
       <projectDesc>
         <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+        <p>The "Digital Cairo" project is sponsored by the National Endowment for the Humanities.</p>
       </projectDesc>
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
@@ -238,8 +240,7 @@
             <p>ديوان الأوقاف يعلن العموم انه سيجرى اشهار <rs type="مزاد">مزاد</rs> بيع المحلات
                المبينة بمقاستها واثمانها الأساسية بعد امام قومسيونات تعقد بمراكزه الفرعية في الأيام
                المعينة بعد وفتح جلسات المزاد هو من الساعه ٩ الى الساعه ١٢ صباحا ومن ٢ الى ٤ بعد
-               الظهر فمن يرغب في مشترى شيء منها فليتوجه هو او من ينوب عنه في المواعيد
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>المحدهه<?oxy_custom_end?>
+               الظهر فمن يرغب في مشترى شيء منها فليتوجه هو او من ينوب عنه في المواعيد المحدده
                للمزايدة فيه مع قبول شروط قائمة المزاد واعتبار الثمن الأساسي اول عطاء ودفع تامين
                بواقع المائة ١٠ من الثمن ومن يتاخر عن هذه المواعيد يعتبر تاخيره كف يد </p>
          </div>
@@ -326,13 +327,11 @@
                   <biblScope unit="page">ص ١٣٤٦، ١٣٤٧</biblScope></bibl></head>
             <head><orgName ref="ديوان عموم الأوقاف" type="ديوان">ديوان عموم الأوقاف</orgName></head>
             <p>ديوان الأوقاف يعلن العموم انه سيجرى اشهار <rs type="مزاد">مزاد</rs> بيع المحلات
-               المبينة مقاساتها وأثمانها الأساسية بعد
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>اما<?oxy_custom_end?>
-               قومسيونات تعقد بمراكزه الفرعية في الأيام المعينة بعد وفتح الجلسات للمزاد هو من الساعه
-               ٩ الى الساعه ١٢ صباحا ومن الساعه ٢ الى الساعه ٤ بعد الظهر فمن يرغب في مشترى شيء منها
-               فليتوجه هو او من ينوب عنه في المواعيد المحددة للمزايدة فيه مع قبول شروط قائمة المزاد
-               واعتبار الثمن الأساسي اول عطاء ودفع تامين بواقع المائة ١٠ من الثمن ومن يتاخر عن هذه
-               المواعيد يعتبر تأخيره كف يد </p>
+               المبينة مقاساتها وأثمانها الأساسية بعد امام قومسيونات تعقد بمراكزه الفرعية في الأيام
+               المعينة بعد وفتح الجلسات للمزاد هو من الساعه ٩ الى الساعه ١٢ صباحا ومن الساعه ٢ الى
+               الساعه ٤ بعد الظهر فمن يرغب في مشترى شيء منها فليتوجه هو او من ينوب عنه في المواعيد
+               المحددة للمزايدة فيه مع قبول شروط قائمة المزاد واعتبار الثمن الأساسي اول عطاء ودفع
+               تامين بواقع المائة ١٠ من الثمن ومن يتاخر عن هذه المواعيد يعتبر تأخيره كف يد </p>
          </div>
          <div resp="#eAK" xml:id="v156">
             <head>محلات جلسة مزادها يوم الأربعاء ٥ سبتمبر ١٩٠٠ ب<orgName ref="مركز الأوقاف بقسم ثالث" type="مركز"><placeName ref="مركز الأوقاف بقسم ثالث" type="مركز">مركز الأوقاف بقسم ثالث</placeName></orgName> ب<placeName ref="ميدان محمد على" type="ميدان">ميدان محمد على</placeName></head>
@@ -522,8 +521,7 @@
                   <cell>٧.٧٠٥</cell>
                </row>
                <row>
-                  <cell>حاصل ب<placeName ref="وكالة الاطرون" type="وكالة">وكالة
-                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الاطرون<?oxy_custom_end?></placeName>
+                  <cell>حاصل ب<placeName ref="وكالة الاطرون" type="وكالة">وكالة الاطرون</placeName>
                         ب<placeName ref="شارع وكالة الفسيخ" type="شارع">شارع وكالة
                         الفسيخ</placeName></cell>
                   <cell>١٩.٧٦</cell>
@@ -668,17 +666,14 @@
             <p>ليكن معلوما لدى العموم انه بجلسة <orgName ref="قومسيون بيع أملاك واراضي الميرى" type="قومسيون">قومسيون بيع أملاك واراضي الميرى</orgName> المزمع انعقادها بديوان
                محافظة في يوم ٣٠ أكتوبر ١٩٠٠ من الساعه ١٠ افرنكى صباحا لغاية الساعه ١٢ الظهر سيصير
                اشهار <rs type="مزاد">مزاد</rs> بيع العقارات المبينة بهذا واعتبار اول عطاء فيها
-               بالاثمان الموضحة بعد فيقتضي ان كل من له رغبة في مشترى ذلك يحضر هو
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>اول<?oxy_custom_end?>
-               وكيل عنه لديوان المحافظة في الميعاد
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الموقوم<?oxy_custom_end?>
-               للمزايدة امام القومسيون ويدفع تامين المائة ٢٠ على الثمن المرقوم وبعد الميعاد يصير قفل
-               جلسة المزاد ومن يتاخر يعتبر تأخيره كف يد اما البيع فيكون على مقتضي قيود وشروط بيع
-               أملاك الميري المندرجة بملحق الجريدة الرسمية الصادرة في ٣٠ يونيو ١٩٠٠ نمرة ٧٢ الموجود
-               مجموعة عنها بديوان المحافظة وبجلسة قومسيون البيع لاطلاع راغبي المشترى عليها
-                  ولل<orgName ref="نظارة مالية" type="نظارة">مالية</orgName> الحق في قبول أو رفض
-               اعلى عطاء يرسي به المزاد وفي حالة رفض اعلى طلب لايكون لصاحبه حق في شيء ما سوى رد
-               التامين المدفوع منه اليه وعلى هذا لزم الإعلان لمعلومية العموم.</p>
+               بالاثمان الموضحة بعد فيقتضي ان كل من له رغبة في مشترى ذلك يحضر هو او وكيل عنه لديوان
+               المحافظة في الميعاد المذكور للمزايدة امام القومسيون ويدفع تامين المائة ٢٠ على الثمن
+               المرقوم وبعد الميعاد يصير قفل جلسة المزاد ومن يتاخر يعتبر تأخيره كف يد اما البيع
+               فيكون على مقتضي قيود وشروط بيع أملاك الميري المندرجة بملحق الجريدة الرسمية الصادرة في
+               ٣٠ يونيو ١٩٠٠ نمرة ٧٢ الموجود مجموعة عنها بديوان المحافظة وبجلسة قومسيون البيع لاطلاع
+               راغبي المشترى عليها ولل<orgName ref="نظارة مالية" type="نظارة">مالية</orgName> الحق
+               في قبول أو رفض اعلى عطاء يرسي به المزاد وفي حالة رفض اعلى طلب لايكون لصاحبه حق في شيء
+               ما سوى رد التامين المدفوع منه اليه وعلى هذا لزم الإعلان لمعلومية العموم.</p>
             <table>
                <row>
                   <cell>المقاس بالمتر</cell>
@@ -727,9 +722,7 @@
                معروفة بنمرة ١ ومن نمرة ٣ لنمرة ٨ بالرسم المعتمد من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال العمومية</orgName> بنمرة
                ١٢١١ المبين مسطح كل قطعة وثمنها الأساسي بعد ومبين أيضا بالرسم الموجودة صورته
                   ب<orgName ref="ديوان محافظة مصر" type="ديوان">ديوان محافظة مصر</orgName> للاطلاع
-               عليه وموجود أيضا بقومسيون
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>البيغ
-               <?oxy_custom_end?>في اليوم المذكور </p>
+               عليه وموجود أيضا بقومسيون البيع في اليوم المذكور </p>
             <p>وهذا البيع سيكون على مقتضي قيود وشروط بيع أملاك الميري المندرجة بملحق الجريدة الرسمية
                الصادرة في ٣٠ يونيو ١٩٠٠ نمرة ٧٢ الموجود مجموعة عنها بديوان المحافظة وبجلسة قومسيون
                البيع لاطلاع راغبي المشترى عليها ثم البيع المذكور هو على مقتضي الاشتراطات السابق بيع
@@ -739,9 +732,8 @@
                معلومية المشتري بنصوص الاشتراطات المذكورة بالقوائم المذكورة التي ستدون بعقد البيع
                للمعاملة بمقتضاها </p>
             <p>فيقتضي ان كل من له رغبة في مشترى يحضر بجلسة القومسيون بديوان المحافظة في الميعاد
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الموقوم<?oxy_custom_end?>
-               ويعطى عطاه بالجلسة عما يرغب مشتراه من الأراضي ويدفع تامين المائة ٢٠ من قيمة الثمن
-               الأساسي ولا يصير المزاد نهائيا الا بعد تصديق <orgName ref="نظارة المالية" type="نظارة">نظارة المالية</orgName> وهى تحفظ لنفسها الحق في قبول أو رفض اعلى عطاء
+               المذكور ويعطى عطاه بالجلسة عما يرغب مشتراه من الأراضي ويدفع تامين المائة ٢٠ من قيمة
+               الثمن الأساسي ولا يصير المزاد نهائيا الا بعد تصديق <orgName ref="نظارة المالية" type="نظارة">نظارة المالية</orgName> وهى تحفظ لنفسها الحق في قبول أو رفض اعلى عطاء
                يرسي به المزاد وفي حالة رفض اعلى طلب لايكون لصاحبه حق في شيء ما سوى رد التامين
                المدفوع منه اليه وعلى هذا لزم الإعلان لمعلومية العموم.</p>
             <table>
@@ -807,14 +799,13 @@
                سيصير إعادة اشهار <rs type="مزاد">مزاد</rs> بيع العقارات المبينة بهذا حق غياب من
                مضبوطات <orgName ref="بيت المال">بيت المال</orgName> واعتبار اول عطاء فيها بالاثمان
                الموضحة بعد فيقتضي ان كل من له رغبة في مشترى ذلك يحضر هو أول وكيل عنه لديوان المحافظة
-               في الميعاد
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الموقوم<?oxy_custom_end?>
-               للمزايدة امام القومسيون ويدفع تامين المائة ٢٠ على الثمن المرقوم وبعد الميعاد يصير قفل
-               جلسة المزاد ومن يتاخر يعتبر تأخيره كف يد اما البيع فيكون على مقتضي قيود وشروط بيع
-               أملاك الميري المندرجة بملحق الجريدة الرسمية الصادرة في ٣٠ يونيو ١٩٠٠ نمرة ٧٢ الموجود
-               مجموعة عنها بديوان المحافظة وبجلسة قومسيون البيع لاطلاع راغبي المشترى عليها وللمالية
-               الحق في قبول أو رفض اعلى عطاء يرسي به المزاد وفي حالة رفض اعلى طلب لايكون لصاحبه حق
-               في شيء ما سوى رد التامين المدفوع منه اليه وعلى هذا لزم الإعلان لمعلومية العموم.</p>
+               في الميعاد المذكور للمزايدة امام القومسيون ويدفع تامين المائة ٢٠ على الثمن المرقوم
+               وبعد الميعاد يصير قفل جلسة المزاد ومن يتاخر يعتبر تأخيره كف يد اما البيع فيكون على
+               مقتضي قيود وشروط بيع أملاك الميري المندرجة بملحق الجريدة الرسمية الصادرة في ٣٠ يونيو
+               ١٩٠٠ نمرة ٧٢ الموجود مجموعة عنها بديوان المحافظة وبجلسة قومسيون البيع لاطلاع راغبي
+               المشترى عليها وللمالية الحق في قبول أو رفض اعلى عطاء يرسي به المزاد وفي حالة رفض اعلى
+               طلب لايكون لصاحبه حق في شيء ما سوى رد التامين المدفوع منه اليه وعلى هذا لزم الإعلان
+               لمعلومية العموم.</p>
             <p>الثمن الأساسي ووصف العقار</p>
             <table>
                <row>
@@ -852,9 +843,8 @@
                   <cell>٠٥</cell>
                   <cell>٣١١</cell>
                   <cell>هواء منزل كائن ب<placeName ref="ربع قايد بك" type="ربع">ربع قايد
-                        بك</placeName> ب<placeName ref="الازهر">الازهر</placeName>
-                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>بفسم<?oxy_custom_end?>
-                     الجمالية ومسطح الهواء المذكور ٣٧ مترا و٥٤ سنتيا</cell>
+                        بك</placeName> ب<placeName ref="الازهر">الازهر</placeName> بقسم الجمالية
+                     ومسطح الهواء المذكور ٣٧ مترا و٥٤ سنتيا</cell>
                </row>
             </table>
             <p>:::::::::::::::::</p>
@@ -1017,9 +1007,8 @@
                المعينة في الأيام المعينة بعد وفتح جلسات المزاد هو من الساعه ٩ الى الساعه ١٢ صباحا
                ومن الساعه ٢ الى الساعه ٤ بعد الظهر فمن يرغب في مشترى شيء منها فليتوجه هو او من ينوب
                عنه في المواعيد المحددة للمزايدة فيه مع قبول شروط قائمة المزاد واعتبار الثمن الأساسي
-               اول عطاء ودفع التامين بواقع المائة عشرة من الثمن ومن
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>بتاخر<?oxy_custom_end?>
-               عن هذه المواعيد يعتبر تاخيره كف يد</p>
+               اول عطاء ودفع التامين بواقع المائة عشرة من الثمن ومن يتاخر عن هذه المواعيد يعتبر
+               تاخيره كف يد</p>
          </div>
          <div resp="#eAK" xml:id="v173">
             <head>محل جلسة مزاده يوم الثلاثاء اول يناير ١٩٠١ ب<placeName ref="مركز الأوقاف بقسم ثاني" type="مركز"><orgName ref="مركز الأوقاف بقسم ثاني" type="مركز">مركز الأوقاف بقسم ثاني</orgName></placeName> امام <placeName ref="سوق الخضار الجديد" type="سوق">سوق الخضار الجديد</placeName></head>
@@ -1028,9 +1017,7 @@
                مقاسها بالكامل ٧٩.٢٠ متر وثمنها ١٥ جنيها و٩٨ مليما </p>
          </div>
          <div resp="#eAK" xml:id="v174">
-            <head>محلات جلسة مزادها يوم الاحد ٦ يناير ١٩٠١ ب<orgName ref="مركز الاوقاف بقسم أول" type="مركز">مركز
-                  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الازقاف<?oxy_custom_end?>
-                  بقسم أول</orgName> ب<placeName ref="الغورية">الغورية</placeName> بمصر</head>
+            <head>محلات جلسة مزادها يوم الاحد ٦ يناير ١٩٠١ ب<orgName ref="مركز الاوقاف بقسم أول" type="مركز">مركز الاوقاف بقسم أول</orgName> ب<placeName ref="الغورية">الغورية</placeName> بمصر</head>
             <table>
                <row>
                   <cell>العقار</cell>
@@ -1078,13 +1065,10 @@
             <head><orgName ref="ديوان عموم الأوقاف" type="ديوان">ديوان عموم الأوقاف</orgName></head>
             <p>ديوان عموم الأوقاف يعلن العموم انه سيجرى اشهار <rs type="مزاد">مزاد</rs> بيع المحلات
                المبينة بمقاساتها واثمانها الأساسية بعد امام قومسيونات تعقد بمراكزه الفرعية في الأيام
-               المعينة <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>في الأيام
-               المعينة <?oxy_custom_end?>بعد وفتح جلسات المزاد هو من الساعه ٩ الى الساعه ١٢ صباحا
-               ومن الساعه ٢ الى الساعه ٤ بعد الظهر فمن يرغب في مشترى شيء منها فليتوجه هو او من ينوب
-               عنه في المواعيد المحددة للمزايدة فيه مع قبول شروط قائمة المزاد واعتبار الثمن الأساسي
-               اول عطاء ودفع التامين بواقع المائة عشرة من الثمن ومن
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>بتاخر<?oxy_custom_end?>
-               عن هذه المواعيد يعتبر تاخيره كف يد</p>
+               المعينة بعد وفتح جلسات المزاد هو من الساعه ٩ الى الساعه ١٢ صباحا ومن الساعه ٢ الى
+               الساعه ٤ بعد الظهر فمن يرغب في مشترى شيء منها فليتوجه هو او من ينوب عنه في المواعيد
+               المحددة للمزايدة فيه مع قبول شروط قائمة المزاد واعتبار الثمن الأساسي اول عطاء ودفع
+               التامين بواقع المائة عشرة من الثمن ومن يتاخر عن هذه المواعيد يعتبر تاخيره كف يد</p>
          </div>
          <div resp="#eAK" xml:id="v176">
             <head>محلات جلسة مزادها يوم الاحد ٢٧ يناير ١٩٠١ ب<orgName ref="مركز الأوقاف ببولاق" type="مركز"><placeName ref="مركز الأوقاف ببولاق" type="مركز">مركز الأوقاف
@@ -1115,8 +1099,8 @@
                   <cell>٣ جنيه و٨٢ مليم</cell>
                </row>
                <row>
-                  <cell>ربع منزل على الشيوع
-                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ب<?oxy_custom_end?><placeName ref="حارة خوخة السمنى" type="حارة">حارى خوخة السمنى</placeName></cell>
+                  <cell>ربع منزل على الشيوع ب<placeName ref="حارة خوخة السمنى" type="حارة">حارة خوخة
+                        السمنى</placeName></cell>
                   <cell>مقاسه كاملا ١٤٦.٩٩ متر</cell>
                   <cell>٧ جنيهات و٣٥٠ مليم</cell>
                </row>
@@ -1358,10 +1342,9 @@
                المحافظة في الميعاد المرقوم للمزايدة امام القومسيون ويدفع تامين المائة ٢٠ على الثمن
                الموضح وبعد الميعاد يصير قفل جلسة المزاد ومن يتاخر يعتبر تأخيره كف يد والمشترى ملزوم
                بقبول كامل شروط بيع أملاك الميرى الحره المندرجة بملحق الجريدة الرسمية في ٣٠ يونيه
-               ١٩٠٠ نمرة ٧٢ الموجود مجموعة عنها بديوان المحافظة وبجلسة قومسيون البيع ولل<orgName ref="نظارة المالية" type="نظارة">مالية</orgName> الحق في قبول
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>اول<?oxy_custom_end?>
-               رفض اعلى عطا يرسي به المزاد وفي حالة رفض اعلى طلب لايكون لصاحبه حق في شي ما سوى رد
-               التامين المدفوع منه اليه وعلى هذا لزم الإعلان للمعلومية العموم </p>
+               ١٩٠٠ نمرة ٧٢ الموجود مجموعة عنها بديوان المحافظة وبجلسة قومسيون البيع ولل<orgName ref="نظارة المالية" type="نظارة">مالية</orgName> الحق في قبول او رفض اعلى عطا يرسي
+               به المزاد وفي حالة رفض اعلى طلب لايكون لصاحبه حق في شي ما سوى رد التامين المدفوع منه
+               اليه وعلى هذا لزم الإعلان للمعلومية العموم </p>
             <table>
                <row>
                   <cell>مقاسات</cell>
@@ -1380,10 +1363,8 @@
                   <cell>دكان كائنة ب<placeName ref="شارع الدرب الأحمر" type="شارع">شارع الدرب
                         الأحمر</placeName> مضبوطه بمعرفة <orgName ref="بيت المال">بيت
                         المال</orgName> عن الست <persName>كلثوم البيضا معتوقة كريم اغا الغائبة
-                        المتوفية عن
-                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>بنتعا<?oxy_custom_end?>
-                        ببلاد الترك</persName> وثمنها الأساسي ٣٠ جنيها وايجارها شهريا بمبلغ ١٧٥
-                     مليم</cell>
+                        المتوفية عن بنتها ببلاد الترك</persName> وثمنها الأساسي ٣٠ جنيها وايجارها
+                     شهريا بمبلغ ١٧٥ مليم</cell>
                </row>
             </table>
             <p>::::::::::::::::::::::::</p>
@@ -1413,14 +1394,12 @@
                <row>
                   <cell>٣١٤</cell>
                   <cell>١٥٥</cell>
-                  <cell>حصة ٦ قراريط مخلفة عن <persName>خضرة
-                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>بيت<?oxy_custom_end?>
-                        على الشريف</persName> في منزل ب<placeName ref="حارة الكتاب" type="حارة">حارة
-                        الكتاب</placeName> الاخذة من <placeName ref="شارع الجامع الأحمر" type="شارع">شارع <orgName ref="الجامع الأحمر" type="جامع"><placeName ref="الجامع الأحمر" type="جامع">الجامع
-                        الأحمر</placeName></orgName></placeName> ب<placeName ref="قسم الازبكية" type="قسم"><orgName ref="قسم الازبكية" type="قسم">قسم
-                        الازبكية</orgName></placeName> يبقلغ مقاسها ١٢.٣٠ مترا وثمنها الأساسي ١١
-                     جنيها و٢٥٠ مليم ومؤجرة شهريا بمبلغ ٧٥ مليم ومسطح أرض المنزل جميعه ٤٩.٢١
-                     متر</cell>
+                  <cell>حصة ٦ قراريط مخلفة عن <persName>خضرة بنت على الشريف</persName> في منزل
+                        ب<placeName ref="حارة الكتاب" type="حارة">حارة الكتاب</placeName> الاخذة من
+                        <placeName ref="شارع الجامع الأحمر" type="شارع">شارع <orgName ref="الجامع الأحمر" type="جامع"><placeName ref="الجامع الأحمر" type="جامع">الجامع الأحمر</placeName></orgName></placeName>
+                        ب<placeName ref="قسم الازبكية" type="قسم"><orgName ref="قسم الازبكية" type="قسم">قسم الازبكية</orgName></placeName> يبقلغ مقاسها ١٢.٣٠ مترا
+                     وثمنها الأساسي ١١ جنيها و٢٥٠ مليم ومؤجرة شهريا بمبلغ ٧٥ مليم ومسطح أرض المنزل
+                     جميعه ٤٩.٢١ متر</cell>
                </row>
                <row>
                   <cell>٣١٢</cell>
@@ -1504,24 +1483,20 @@
                   ب<orgName ref="ديوان محافظة مصر" type="ديوان">ديوان محافظة مصر</orgName> يوم
                الثلاثاء ١٦ ابريل ١٩٠١ سيصير اشهار <rs type="مزاد">مزاد</rs> بيع الثمانية قطع من
                أراضي الميري بالمحروسة الكائنة بالجهة الشرقية ل<placeName ref="شارع العباسية العمومي" type="شارع">شارع العباسية العمومي</placeName> المعروفة من نمرة (١٩) لغاية (٢٦)
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>بالريم<?oxy_custom_end?>
-               المعتمد من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال
+               بالرسم المعتمد من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال
                   العمومية</orgName> نمرة ١٠١٦ الواضح مقدار مسطح كل قطعة وثمنها الأساسي بعد وبالرسم
                الموجود صورته بديوان محافظة مصر للاطلاع عليه وموجود أيضا بقومسيون البيع في اليوم
                المذكور من ضمن السابق لنشر والاعلان عنه وهذا البيع سيكون على مقتضي قيود وشروط بيع
                أملاك الميري المندرجة بملحق الجريدة الرسمية الصادرة في ٣٠ يونيو ١٩٠٠ نمرة ٧٢ الموجود
-               مجموعة
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>عنها<?oxy_custom_end?>
-               بديوان المحافظة وبجلسة قومسيون البيع لاطلاع راغبي المشترى عليها ثم البيع المذكور هو
-               أيضا على مقتضي الاشتراطات السابق بيع أراضي الميري بالجهة المذكورة وعلى موجبها التي
-               تعتبر انها شروط أساسية وبدونها لاتقر الحكومة على البيع وقد توضح بقوائم المزادات بيان
-               الاشتراطات المذكورة ومقدار كل قطعة وثمنها الاساسي التى سيكون اعطاء المزادات عليها
-               بالجلسة امام القومسيون بعد معلومية المشترى بنصوص الاشتراطات المذكورة التى ستدون بعقود
-               البيع للمعاملة بمقتضاها.</p>
+               مجموعة منها بديوان المحافظة وبجلسة قومسيون البيع لاطلاع راغبي المشترى عليها ثم البيع
+               المذكور هو أيضا على مقتضي الاشتراطات السابق بيع أراضي الميري بالجهة المذكورة وعلى
+               موجبها التي تعتبر انها شروط أساسية وبدونها لاتقر الحكومة على البيع وقد توضح بقوائم
+               المزادات بيان الاشتراطات المذكورة ومقدار كل قطعة وثمنها الاساسي التى سيكون اعطاء
+               المزادات عليها بالجلسة امام القومسيون بعد معلومية المشترى بنصوص الاشتراطات المذكورة
+               التى ستدون بعقود البيع للمعاملة بمقتضاها.</p>
             <p>فيقتضي ان كل من يرغب المشترى يحضر بجلسة القومسيون بديوان المحافظة في اليوم والميعاد
-               المذكورين ويعطى عطاءه بالجلسة عما يرغب مشتراه من الأراضي المذكورة ويدفع
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>تامي<?oxy_custom_end?>
-               المائة عشرين من الثمن الأساسي ولا يصير المزاد نهائيا الا بعد تصديق <orgName ref="نظارة المالية" type="نظارة">نظارة المالية</orgName> وهى تحفظ لنفسها الحق في
+               المذكورين ويعطى عطاءه بالجلسة عما يرغب مشتراه من الأراضي المذكورة ويدفع تامين المائة
+               عشرين من الثمن الأساسي ولا يصير المزاد نهائيا الا بعد تصديق <orgName ref="نظارة المالية" type="نظارة">نظارة المالية</orgName> وهى تحفظ لنفسها الحق في
                قبول أو رفض اعلى عطاء يرسي به المزاد وفي حالة رفض اعلى طلب لايكون لصاحبه حق في شيء ما
                سوى رد التامين المدفوع منه اليه وعلى هذا لزم الإعلان لمعلومية العموم.</p>
             <table>
@@ -1720,10 +1695,9 @@
                <row>
                   <cell>١٢١٨</cell>
                   <cell>٣١ ديسمبر ١٩٠٠</cell>
-                  <cell><placeName ref="شارع زهندر" type="شارع">شارع
-                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>زهندر<?oxy_custom_end?></placeName>
-                     والشارعين الواقعين شرق العيون و<placeName ref="سكة حديد حلوان" type="سكة">سكة
-                        حديد حلوان</placeName> المبين بحرفين B . C</cell>
+                  <cell><placeName ref="شارع زهندر" type="شارع">شارع زهندر</placeName> والشارعين
+                     الواقعين شرق العيون و<placeName ref="سكة حديد حلوان" type="سكة">سكة حديد
+                        حلوان</placeName> المبين بحرفين B . C</cell>
                </row>
             </table>
          </div>

@@ -2,34 +2,37 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>"Digital Cairo - Urbanism News from al-Waqāʾiʿ al-Miṣrīyah - An Ottoman Arabic Digital Humanities
-          Project"</title>
-        <editor xml:id="eNK">Nour Kanaan</editor>
-        <editor xml:id="eAM">Adam Mestyan</editor>
+        <title>"Urbanism News In The Official Egyptian Gazette (al-Waqāʾiʿ al-Miṣrīyah), 1828-1914 - An Ottoman Arabic
+          Digital Humanities Project"</title>
+        <editor xml:id="eHC" ref="https://orcid.org/0000-0003-0060-9396">Hugh Cayless</editor>
+        <editor xml:id="eNK" ref="https://orcid.org/0009-0008-0409-7328">Nour Kanaan</editor>
+        <editor xml:id="eAM" ref="https://orcid.org/0000-0002-5945-6147">Adam Mestyan</editor>
         <editor xml:id="eDY">Danah Younis</editor>
-        <editor xml:id="eSG">Sarah Fathallah Gaara</editor>
-        <editor xml:id="eAE">Arif Erbil</editor>
-        <editor xml:id="eAK">Ahmed Kamal</editor>
-        <editor xml:id="eAS">Abram Smith</editor>
+        <editor xml:id="eSG" ref="https://orcid.org/0000-0002-1977-5530">Sarah Fathallah
+          Gaara</editor>
+        <editor xml:id="eAE" ref="https://orcid.org/0000-0001-9369-3034">Arif Erbil</editor>
+        <editor xml:id="eAK" ref="https://orcid.org/0000-0003-1721-1050">Ahmed Kamal</editor>
+        <editor xml:id="eAS" ref="https://orcid.org/0009-0004-9778-6632">Abram Smith</editor>
         <editor xml:id="eCH">Clara Harms</editor>
-        <editor xml:id="eHS">Hüseyin Sağlam</editor>
-        <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+        <editor xml:id="eHS" ref="https://orcid.org/0000-0003-3003-1986">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT" ref="https://orcid.org/0009-0002-2083-9199">Abdulrahman
+          El-Taliawi</editor>
         <editor xml:id="eHL">Hiba Laabadli</editor>
-        <editor xml:id="eOE">Othmane Echchabi</editor>
+        <editor xml:id="eOE" ref="https://orcid.org/0009-0002-9543-2617">Othmane Echchabi</editor>
         <editor xml:id="eFA">Fatemah Almahana</editor>
         <editor xml:id="eMZ">Mahmoud Zaki</editor>
-        <editor xml:id="eNS">Nehal al-Shamy</editor>
-        <editor xml:id="eVJ">Vishal Jammulapati</editor>
+        <editor xml:id="eNS" ref="https://orcid.org/0009-0006-8785-0228">Nehal al-Shamy</editor>
+        <editor xml:id="eVJ" ref="https://orcid.org/0009-0004-4472-4120">Vishal Jammulapati</editor>
         <respStmt>
-          <resp>Project leader</resp>
+          <resp>Project co-director</resp>
           <name>Hugh Cayless</name>
         </respStmt>
         <respStmt>
-          <resp>Project leader</resp>
+          <resp>Primary Investigator</resp>
           <name>Adam Mestyan</name>
         </respStmt>
         <respStmt>
-          <resp>Project leader</resp>
+          <resp ref="https://orcid.org/0000-0001-5239-7909">Project co-director</resp>
           <name>Mercedes Volait</name>
         </respStmt>
         <respStmt>
@@ -37,12 +40,12 @@
           <name>Sarah Fathallah Gaara</name>
         </respStmt>
         <respStmt>
-          <resp>Research Assistant</resp>
+          <resp ref="https://orcid.org/0000-0003-1216-3686">Research Assistant</resp>
           <name>Karima Nasr</name>
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
-          <name>Rezk Nory</name>
+          <name>Rezk Nori</name>
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
@@ -98,12 +101,11 @@
             and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
             University</orgName>; <orgName>Duke University Libraries</orgName>; <orgName>Centre
             national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian
-            Cultural Counsellor in Cairo</orgName>. </sponsor>
+            Cultural Counsellor in Cairo</orgName>.</sponsor>
       </titleStmt>
       <publicationStmt>
- <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the project "La fabrique
-          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+        <p>"A TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah, 1828-1914"</p>
+        <p> Created by the "Digital Cairo" project (Duke University - Ifao), sponsored by the National Endowment for the Humanities.</p>
         <p>
           <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
         </p>
@@ -119,7 +121,7 @@
       <projectDesc>
         <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+        <p>The "Digital Cairo" project is sponsored by the National Endowment for the Humanities.</p>
       </projectDesc>
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
@@ -345,13 +347,11 @@
                <bibl><biblScope unit="issue">عدد ٨٩</biblScope>
                   <biblScope unit="page">ص ١٣٤٨</biblScope></bibl></head>
             <head><orgName ref="ديوان عموم الأوقاف" type="ديوان">ديوان عموم الأوقاف</orgName></head>
-            <p>يتشرف ديوان الأوقاف
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>بإعلان
-               الأوقاف<?oxy_custom_end?> بإعلان الجمهور بانه سيصير اشهار <rs type="مزاد">مزاد</rs>
-               استبدال الأماكن المبينة بهذا الكشف بالنقد وقد تحدد الميعاد بالنقد وقد تحدد الميعاد
-               المبين بعد لاجتماع الراغبين بمراكز الأوقاف الموضحه فمن يرغب في اخذ شي من هذه الأماكن
-               يتوجه الى مركز الأوقاف فمن يرغب في اخذ شيء من هذه الأماكن يتوجه الى مركز الأوقاف
-               الموضح بازائه للاطلاع على شروط قوائم المزاد وما يريده من البنايات</p>
+            <p>يتشرف ديوان الأوقاف بإعلان الجمهور بانه سيصير اشهار <rs type="مزاد">مزاد</rs> استبدال
+               الأماكن المبينة بهذا الكشف بالنقد وقد تحدد الميعاد بالنقد وقد تحدد الميعاد المبين بعد
+               لاجتماع الراغبين بمراكز الأوقاف الموضحه فمن يرغب في اخذ شي من هذه الأماكن يتوجه الى
+               مركز الأوقاف فمن يرغب في اخذ شيء من هذه الأماكن يتوجه الى مركز الأوقاف الموضح بازائه
+               للاطلاع على شروط قوائم المزاد وما يريده من البنايات</p>
             <p>تاريخ الاشهاريوم ٥ سبتمبر ١٨٩٨</p>
             <table>
                <row>
@@ -433,8 +433,7 @@
                حالة المبيع والمشترى ملزوم بقبوله كامل الاحكام المدونة بلائحة بيع أملاك الميري الحرة
                الرقيمة ٢٢ نوفمبر ١٨٨٦ والاوامر والمنشورات الصادرة بعدها والمشترى مخير في قبول
                قونتراتو التاجير من عدمه ولل<orgName ref="نظارة المالية" type="نظارة">مالية</orgName>
-               الحق في قبول او رفض اعلى عطاء يرسي به المزاد وفى حالة رفض اعلى طلب لا يكون لصاحبه
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>خق<?oxy_custom_end?>
+               الحق في قبول او رفض اعلى عطاء يرسي به المزاد وفى حالة رفض اعلى طلب لا يكون لصاحبه حق
                في شي سوى رد التامين المدفوع منه اليه وعلى هذا لزم الإعلان لمعلومية العموم </p>
             <table>
                <row>
@@ -467,9 +466,8 @@
                   <cell>١٤.٤٠</cell>
                   <cell>١٤١</cell>
                   <cell>حصة ١٠ قراريط و١٢ سهما بمنزل خرب ب<placeName ref="قلعة الكبش">قلعة
-                        الكبش</placeName> بالسيدة زينب مضبوطة
-                     عن<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> عن<?oxy_custom_end?>
-                     <persName>حسن الغايب بالسودان</persName></cell>
+                        الكبش</placeName> بالسيدة زينب مضبوطة عن <persName>حسن الغايب
+                        بالسودان</persName></cell>
                </row>
                <row>
                   <cell>٦٦٧</cell>
@@ -494,11 +492,8 @@
                   <cell>٨٠</cell>
                   <cell>٦٢.٩١</cell>
                   <cell>٢٤٤</cell>
-                  <cell>بناء منزل محكور خرب وباسفله دكان متداخله
-                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>بع<?oxy_custom_end?>
-                        ب<placeName ref="سويقة عصفور" type="سويقة">سويقة عصفور</placeName>
-                        ب<placeName ref="الداوديه">الداوديه</placeName> مخلف البناء المذكور عن
-                     الحرمه <persName>نفيسه بنت مصطفي الدلال المتوفية عن ورثة غياب</persName></cell>
+                  <cell>بناء منزل محكور خرب وباسفله دكان متداخله مع ب<placeName ref="سويقة عصفور" type="سويقة">سويقة عصفور</placeName> ب<placeName ref="الداوديه">الداوديه</placeName> مخلف البناء المذكور عن الحرمه <persName>نفيسه بنت
+                        مصطفي الدلال المتوفية عن ورثة غياب</persName></cell>
                </row>
             </table>
          </div>
@@ -518,9 +513,8 @@
                حالة المبيع والمشترى ملزوم بقبول كامل الاحكام المدونة بلائحة بيع أملاك الميري الحرة
                الرقيمة ٢٢ نوفمبر ١٨٨٦ والاوامر والمنشورات الصادرة بعدها والمشترى مخير في قبول
                قونتراتو التاجير من عدمه وللمالية الحق في قبول او رفض اعلى عطاء يرسي به المزاد وفى
-               حالة رفض اعلى طلب لا يكون لصاحبه
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>خق<?oxy_custom_end?>
-               في شي سوى رد التامين المدفوع منه اليه وعلى هذا لزم الإعلان لمعلومية العموم </p>
+               حالة رفض اعلى طلب لا يكون لصاحبه حق في شي سوى رد التامين المدفوع منه اليه وعلى هذا
+               لزم الإعلان لمعلومية العموم </p>
             <table>
                <row>
                   <cell>مليم</cell>
@@ -566,9 +560,8 @@
                حالة المبيع والمشترى ملزوم بقبوله كامل الاحكام المدونة بلائحة بيع أملاك الميري الحرة
                الرقيمة ٢٢ نوفمبر ١٨٨٦ والاوامر والمنشورات الصادرة بعدها والمشترى مخير في قبول
                قونتراتو التاجير من عدمه وللمالية الحق في قبول او رفض اعلى عطاء يرسي به المزاد وفى
-               حالة رفض اعلى طلب لا يكون لصاحبه
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>خق<?oxy_custom_end?>
-               في شي سوى رد التامين المدفوع منه اليه وعلى هذا لزم الإعلان لمعلومية العموم </p>
+               حالة رفض اعلى طلب لا يكون لصاحبه حق في شي سوى رد التامين المدفوع منه اليه وعلى هذا
+               لزم الإعلان لمعلومية العموم </p>
             <table>
                <row>
                   <cell>مليم</cell>
@@ -633,9 +626,7 @@
             <p>يتشرف ديوان الأوقاف بإعلان الجمهور بانه سيصير اشهار <rs type="مزاد">مزاد</rs> استبدال
                الأماكن المبينة بهذا الكشف بالنقد وقد تحدد الميعاد المبين بعد لاجتماع الراغبين بمركز
                الأوقاف الموضحه فمن يرغب في اخذ شي من هذه الأماكن يتوجه الى مركز الأوقاف الموضح
-               بازائه للاطلاع على شروط قوائم المزاد
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>زكا<?oxy_custom_end?>
-               يريده من البيانات </p>
+               بازائه للاطلاع على شروط قوائم المزاد وما يريده من البيانات </p>
          </div>
          <div resp="#eAK" xml:id="v142">
             <head>ميعاد الاشهار يوم السبت ١٨ أكتوبر ١٨٩٨</head>
@@ -944,10 +935,9 @@
                   <cell>٩٤.٦٤</cell>
                   <cell>٢٣٣</cell>
                   <cell>منزل كائن ب<placeName ref="حارة الزيانين" type="حارة">حارة
-                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الزيانين<?oxy_custom_end?></placeName>
-                        ب<placeName ref="قسم عابدين" type="قسم">قسم عابدين</placeName> منه حصة حق
-                     ورثة غياب بحق ٢٢ قيراطا و١٢ سهما وحصة ١ قيراط و١٢ سهما حق بيت المال وثمنه
-                     الأساسي ٥٠ جنيه</cell>
+                        الزيانين</placeName> ب<placeName ref="قسم عابدين" type="قسم">قسم
+                        عابدين</placeName> منه حصة حق ورثة غياب بحق ٢٢ قيراطا و١٢ سهما وحصة ١ قيراط
+                     و١٢ سهما حق بيت المال وثمنه الأساسي ٥٠ جنيه</cell>
                </row>
             </table>
             <p>___________</p>
@@ -960,10 +950,8 @@
             <head><orgName ref="ديوان عموم الأوقاف" type="ديوان">ديوان عموم الأوقاف</orgName></head>
             <p>يتشرف ديوان الاوقاف بإعلان الجمهوربانه سيصير اشهار <rs type="مزاد">مزاد</rs> استبدال
                الأماكن المبينة بهذا الكشف بالنقد وقد تحدد الميعاد المبين بعد لاجتماع الراغبين بمراكز
-               الأوقاف الموضحه فمن يرغب في
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>تخذ<?oxy_custom_end?>
-               شيء من هذه الأماكن يتوجه الى مركز الأوقاف الموضح بازائه للاطلاع على شروط قوائم المزاد
-               وما يريده من البيانات</p>
+               الأوقاف الموضحه فمن يرغب في اخذ شيء من هذه الأماكن يتوجه الى مركز الأوقاف الموضح
+               بازائه للاطلاع على شروط قوائم المزاد وما يريده من البيانات</p>
             <p>ميعاد الاشهار يوم الثلاثاء ٣١ يناير ١٨٩٩</p>
             <table>
                <row>
@@ -1206,16 +1194,14 @@
                سبتمبر ١٨٨٩ نمرة ٥٤٩ بالفقرة الآتية</p>
             <p>ثالثا في البلكونات التي تقام على ارتفاع أربعة امتار ونصف في الأقل عن اعتاب مداخل
                المنازل يكون مقدار البروز كما ياتى </p>
-            <p>اذا كان عرض الشارع ستى امتار فما فوق الى
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>احج<?oxy_custom_end?>
-               عشر مترا يكون البروز مترا واحدا مع الكرنيش واذا كان عرضه اقل من ستة امتار فما دون
-               فالبروز خمسون سنتميترا مع الكرنيش أيضا واذا كان عرضه اثنى عشر مترا فما فوق فالبروز
-               متر واحد وخمسة وعشرون سنتميرا مع الكرنيش ويجب ان تكون هذه البلكونات على الاطلاق بعيدة
-               عن حدود الأملاك المجاورة لها بقدر متر واحد في الأقل ويجوز اقامتها في جزء واحد من طول
-               الواجهة او في طولها كله بشرط مراعاة البعد المذكور ولا يجوز ان يجعل للبلكون أعمدة يقام
-               عليها بلكون آخر الا في الدور الأول فقط ولا يرخص ببلكونات من هذا القبيل الا في الشوارع
-               التي عرضها اثنى عشر مترا فما فوق وتجري عليها نفس الشروط المقررة للبلكونات الاعتيادية
-               من حيث الارتفاع والبروز. </p>
+            <p>اذا كان عرض الشارع ستى امتار فما فوق الى احد عشر مترا يكون البروز مترا واحدا مع
+               الكرنيش واذا كان عرضه اقل من ستة امتار فما دون فالبروز خمسون سنتميترا مع الكرنيش أيضا
+               واذا كان عرضه اثنى عشر مترا فما فوق فالبروز متر واحد وخمسة وعشرون سنتميرا مع الكرنيش
+               ويجب ان تكون هذه البلكونات على الاطلاق بعيدة عن حدود الأملاك المجاورة لها بقدر متر
+               واحد في الأقل ويجوز اقامتها في جزء واحد من طول الواجهة او في طولها كله بشرط مراعاة
+               البعد المذكور ولا يجوز ان يجعل للبلكون أعمدة يقام عليها بلكون آخر الا في الدور الأول
+               فقط ولا يرخص ببلكونات من هذا القبيل الا في الشوارع التي عرضها اثنى عشر مترا فما فوق
+               وتجري عليها نفس الشروط المقررة للبلكونات الاعتيادية من حيث الارتفاع والبروز. </p>
             <p>يجوز إقامة خرجات (شكمات) خفيفة مسقفة محلاة بمشربيات أو غيرها على ارتفاع أربعة امتار
                ونصف متر في الأقل عن مستوى الاعتاب المتقدم ذكرها ببروز قدره بقدر البروز المقرر
                للبلكونات. أما معظم ارتفاع هذه الخرجات فيكون مطلقا أقل من ارتفاع الدور بنصف متر في
@@ -1244,10 +1230,8 @@
             <head><orgName ref="ديوان عموم الأوقاف" type="ديوان">ديوان عموم الأوقاف</orgName></head>
             <p>يتشرف ديوان الاوقاف بإعلان الجمهوربانه سيصير اشهار <rs type="مزاد">مزاد</rs> استبدال
                الأماكن المبينة بهذا الكشف بالنقد وقد تحدد الميعاد المبين بعد لاجتماع الراغبين بمراكز
-               الأوقاف الموضحه فمن يرغب في
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>تخذ<?oxy_custom_end?>
-               شيء من هذه الأماكن يتوجه الى مركز الأوقاف الموضح بازائه للاطلاع على شروط قوائم المزاد
-               وما يريده من البيانات</p>
+               الأوقاف الموضحه فمن يرغب في اخذ شيء من هذه الأماكن يتوجه الى مركز الأوقاف الموضح
+               بازائه للاطلاع على شروط قوائم المزاد وما يريده من البيانات</p>
             <p>ميعاد الاشهار يوم الاثنين ٣ ابريل ١٨٩٩</p>
             <table>
                <row>

@@ -1,202 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>"Digital Cairo - Urbanism News from al-Waqāʾiʿ al-Miṣrīyah - An Ottoman Arabic Digital Humanities
-          Project"</title>
-            <editor xml:id="eNK">Nour Kanaan</editor>
-            <editor xml:id="eAM">Adam Mestyan</editor>
-            <editor xml:id="eDY">Danah Younis</editor>
-            <editor xml:id="eSG">Sarah Fathallah Gaara</editor>
-            <editor xml:id="eAE">Arif Erbil</editor>
-            <editor xml:id="eAK">Ahmed Kamal</editor>
-            <editor xml:id="eAS">Abram Smith</editor>
-            <editor xml:id="eCH">Clara Harms</editor>
-            <editor xml:id="eHS">Hüseyin Sağlam</editor>
-            <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
-            <editor xml:id="eHL">Hiba Laabadli</editor>
-            <editor xml:id="eOE">Othmane Echchabi</editor>
-            <editor xml:id="eFA">Fatemah Almahana</editor>
-            <editor xml:id="eMZ">Mahmoud Zaki</editor>
-            <editor xml:id="eNS">Nehal al-Shamy</editor>
-            <editor xml:id="eVJ">Vishal Jammulapati</editor>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Hugh Cayless</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Adam Mestyan</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Mercedes Volait</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Sarah Fathallah Gaara</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Karima Nasr</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Rezk Nory</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Arif Erbil</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Ahmed Kamal</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Abram Smith</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Clara Harms</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Hüseyin Sağlam</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Abdulrahman El-Taliawi</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Hiba Laabadli</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Othmane Echchabi</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Fatemah Almahana</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Mahmoud Zaki</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Nehal al-Shamy</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Vishal Jammulapati</name>
-            </respStmt>
-            <sponsor>
-               <orgName>National Endowment for the Humanities</orgName>, <orgName>Institut français
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>"Urbanism News In The Official Egyptian Gazette (al-Waqāʾiʿ al-Miṣrīyah), 1828-1914 - An Ottoman Arabic
+          Digital Humanities Project"</title>
+        <editor xml:id="eHC" ref="https://orcid.org/0000-0003-0060-9396">Hugh Cayless</editor>
+        <editor xml:id="eNK" ref="https://orcid.org/0009-0008-0409-7328">Nour Kanaan</editor>
+        <editor xml:id="eAM" ref="https://orcid.org/0000-0002-5945-6147">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <editor xml:id="eSG" ref="https://orcid.org/0000-0002-1977-5530">Sarah Fathallah
+          Gaara</editor>
+        <editor xml:id="eAE" ref="https://orcid.org/0000-0001-9369-3034">Arif Erbil</editor>
+        <editor xml:id="eAK" ref="https://orcid.org/0000-0003-1721-1050">Ahmed Kamal</editor>
+        <editor xml:id="eAS" ref="https://orcid.org/0009-0004-9778-6632">Abram Smith</editor>
+        <editor xml:id="eCH">Clara Harms</editor>
+        <editor xml:id="eHS" ref="https://orcid.org/0000-0003-3003-1986">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT" ref="https://orcid.org/0009-0002-2083-9199">Abdulrahman
+          El-Taliawi</editor>
+        <editor xml:id="eHL">Hiba Laabadli</editor>
+        <editor xml:id="eOE" ref="https://orcid.org/0009-0002-9543-2617">Othmane Echchabi</editor>
+        <editor xml:id="eFA">Fatemah Almahana</editor>
+        <editor xml:id="eMZ">Mahmoud Zaki</editor>
+        <editor xml:id="eNS" ref="https://orcid.org/0009-0006-8785-0228">Nehal al-Shamy</editor>
+        <editor xml:id="eVJ" ref="https://orcid.org/0009-0004-4472-4120">Vishal Jammulapati</editor>
+        <respStmt>
+          <resp>Project co-director</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Primary Investigator</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0001-5239-7909">Project co-director</resp>
+          <name>Mercedes Volait</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Sarah Fathallah Gaara</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0003-1216-3686">Research Assistant</resp>
+          <name>Karima Nasr</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Rezk Nori</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Arif Erbil</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Ahmed Kamal</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abram Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Clara Harms</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hüseyin Sağlam</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abdulrahman El-Taliawi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hiba Laabadli</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Othmane Echchabi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Fatemah Almahana</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Mahmoud Zaki</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Nehal al-Shamy</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Vishal Jammulapati</name>
+        </respStmt>
+        <sponsor>
+          <orgName>National Endowment for the Humanities</orgName>, <orgName>Institut français
             d’archéologie orientale</orgName> (Ifao, Cairo); <orgName>Franklin Humanities Institute
             and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
             University</orgName>; <orgName>Duke University Libraries</orgName>; <orgName>Centre
             national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian
-            Cultural Counsellor in Cairo</orgName>. </sponsor>
-         </titleStmt>
-         <publicationStmt>
-            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the project "La fabrique
-          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-            <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
-            <p>
-               <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
-            </p>
-            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
-            Volait</persName>, <persName>Hugh Cayless</persName>
-            </p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Al-Waqāʾiʿ al-Miṣrīyah (Egyptian Affairs) newspaper, 1828–1914.</p>
-            <p>born digital document</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <projectDesc>
-            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
+            Cultural Counsellor in Cairo</orgName>.</sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <p>"A TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah, 1828-1914"</p>
+        <p> Created by the "Digital Cairo" project (Duke University - Ifao), sponsored by the National Endowment for the Humanities.</p>
+        <p>
+          <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
+        </p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+            Volait</persName>, <persName>Hugh Cayless</persName></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Al-Waqāʾiʿ al-Miṣrīyah (Egyptian Affairs) newspaper, 1828–1914.</p>
+        <p>born digital document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-            <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
-         </projectDesc>
-         <editorialDecl>
-            <p>Rules of TEI XML MarkUp in This Project</p>
-            <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+        <p>The "Digital Cairo" project is sponsored by the National Endowment for the Humanities.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Rules of TEI XML MarkUp in This Project</p>
+        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
           Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
-            <p>Each individual article has an individual xml:id number starting with "w1"</p>
-            <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
+        <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
           and notes.</p>
-            <p>If the location or organization of responsibility is known from the text, it can be added
+        <p>If the location or organization of responsibility is known from the text, it can be added
           in an attribute to a persName.</p>
-            <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
             Editions</ref>.</p>
-         </editorialDecl>
-         <charDecl>
-            <char xml:id="qhalf">
-               <localProp value="QIRMA FRACTION 1/2" name="name"/>
-               <unicodeProp value="1/2" name="Numeric_Value"/>
-               <mapping type="similar">𐋢</mapping>
-               <figure>
-                  <graphic url="../../docs/images/qhalf.svg"/>
-               </figure>
-            </char>
-            <char xml:id="qthird">
-               <localProp value="QIRMA FRACTION 1/3" name="name"/>
-               <unicodeProp value="1/3" name="Numeric_Value"/>
-               <figure>
-                  <graphic url="../../docs/images/qthird.svg"/>
-               </figure>
-            </char>
-            <char xml:id="qfourth">
-               <localProp value="QIRMA FRACTION 1/4" name="name"/>
-               <unicodeProp value="1/4" name="Numeric_Value"/>
-               <figure>
-                  <graphic url="../../docs/images/qfourth.svg"/>
-               </figure>
-            </char>
-            <char xml:id="qsixth">
-               <localProp value="QIRMA FRACTION 1/6" name="name"/>
-               <unicodeProp value="1/6" name="Numeric_Value"/>
-               <figure>
-                  <graphic url="../../docs/images/qsixth.svg"/>
-               </figure>
-            </char>
-            <char xml:id="qeighth">
-               <localProp value="QIRMA FRACTION 1/8" name="name"/>
-               <unicodeProp value="1/8" name="Numeric_Value"/>
-               <mapping type="similar">𐋤</mapping>
-               <figure>
-                  <graphic url="../../docs/images/qeighth.svg"/>
-               </figure>
-            </char>
-            <char xml:id="qtwothirds">
-               <localProp value="QIRMA FRACTION 2/3" name="name"/>
-               <unicodeProp value="2/3" name="Numeric_Value"/>
-               <figure>
-                  <graphic url="../../docs/images/qtwothirds.svg"/>
-               </figure>
-            </char>
-         </charDecl>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="ar">Arabic</language>
-            <language ident="en">English</language>
-            <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
-            <language ident="ota">Ottoman</language>
-         </langUsage>
-      </profileDesc>
-      <revisionDesc>
+      </editorialDecl>
+      <charDecl>
+        <char xml:id="qhalf">
+          <localProp value="QIRMA FRACTION 1/2" name="name"/>
+          <unicodeProp value="1/2" name="Numeric_Value"/>
+          <mapping type="similar">𐋢</mapping>
+          <figure>
+            <graphic url="../../docs/images/qhalf.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qthird">
+          <localProp value="QIRMA FRACTION 1/3" name="name"/>
+          <unicodeProp value="1/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qthird.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qfourth">
+          <localProp value="QIRMA FRACTION 1/4" name="name"/>
+          <unicodeProp value="1/4" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qfourth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qsixth">
+          <localProp value="QIRMA FRACTION 1/6" name="name"/>
+          <unicodeProp value="1/6" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qsixth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qeighth">
+          <localProp value="QIRMA FRACTION 1/8" name="name"/>
+          <unicodeProp value="1/8" name="Numeric_Value"/>
+          <mapping type="similar">𐋤</mapping>
+          <figure>
+            <graphic url="../../docs/images/qeighth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qtwothirds">
+          <localProp value="QIRMA FRACTION 2/3" name="name"/>
+          <unicodeProp value="2/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qtwothirds.svg"/>
+          </figure>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+        <language ident="ota">Ottoman</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
          <listChange>
             <change/>
          </listChange>
       </revisionDesc>
-   </teiHeader>
-   <text xml:lang="ar">
+  </teiHeader>
+  
+  <text xml:lang="ar">
       <body>
          <div resp="#eAK" xml:id="v282">
             <head><date when-custom="1329-01-10">١٠ محرم ١٣٢٩</date>
@@ -300,20 +302,18 @@
                الحرة) في يوم الأربعاء ٥ ابريل ١٩١١ من الساعه ١٠ الى الساعه ١٢سيصير اشهار <rs type="مزاد">مزاد</rs> بيع قطع أراضي فضاء وعقارات ملك الحكومة كائنة بالمحروسة وبيان
                مقدارها وثمنها الأساسي بعد فكل من له رغبة في المشترى يحضر هو او وكيل عنه بجلسة المزاد
                في الميعاد المذكور للمزايدة امام القومسيون وعليه ان يدفع تامين المائة ٢٠ من الثمن
-               الأساسي وبعد الميعاد
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>يصر<?oxy_custom_end?>
-               قفل جلسة المزاد ومن يتأخر يعتبر تأخيره كف يد وهذا البيع على مقتضي شروط وقيود بيع
-               أملاك الميري الحرة المندرجة بالجريدتين الرسميتين الصادرتين بتاريخ ٦ سبتمبر ١٩٠٢ نمرة
-               ٩٩ الموجود مجموعة عنها بجلسة قومسيون البيع لاطلاع راغبي المشترى عليها ثم بيع قطع
-               الأراضي الكائنة ب<placeName ref="حلوان">حلوان</placeName> هو أيضا على مقتضي شروط بيع
-               أراضي الميري الكائنة ب<placeName ref="العباسية">العباسية</placeName> ثم بيع قطع
-               الأراضي الكائنة ب<placeName ref="ترب البوصه" type="ترب">ترب البوصه</placeName>
-                  ب<placeName ref="السبتية">السبتية</placeName> ب<orgName ref="قسم بولاق" type="قسم"><placeName ref="قسم بولاق" type="قسم">قسم بولاق</placeName></orgName> هو أيضا
-               على مقتضي شروط بيع أراضي الميري المتخلفة من <placeName ref="مقابر السبتية" type="مقابر">مقابر السبتية</placeName> ببولاق الموجود بجلسة قومسيون البيع نسختى
-               الشروط المذكورة ومرفق بقائمة <rs type="مزاد">مزاد</rs> كل قطعة التي سيكون إعطاء
-               المزاد عليها ورقة ببيان تلك الاشتراطات لمعلومية راغبي المشترى بنصوصها ولنظارة المالية
-               الحق في ان تقبل او ترفض اعلى عطاء يرسي به المزاد وفي حالة رفض اعلى عطاء لا يكون
-               لصاحبه حق في شيء ما سوي رد التامين المدفوع منه اله وعلى هذا لزم الإعلان</p>
+               الأساسي وبعد الميعاد يصير قفل جلسة المزاد ومن يتأخر يعتبر تأخيره كف يد وهذا البيع على
+               مقتضي شروط وقيود بيع أملاك الميري الحرة المندرجة بالجريدتين الرسميتين الصادرتين
+               بتاريخ ٦ سبتمبر ١٩٠٢ نمرة ٩٩ الموجود مجموعة عنها بجلسة قومسيون البيع لاطلاع راغبي
+               المشترى عليها ثم بيع قطع الأراضي الكائنة ب<placeName ref="حلوان">حلوان</placeName> هو
+               أيضا على مقتضي شروط بيع أراضي الميري الكائنة ب<placeName ref="العباسية">العباسية</placeName> ثم بيع قطع الأراضي الكائنة ب<placeName ref="ترب البوصه" type="ترب">ترب البوصه</placeName> ب<placeName ref="السبتية">السبتية</placeName>
+                  ب<orgName ref="قسم بولاق" type="قسم"><placeName ref="قسم بولاق" type="قسم">قسم
+                     بولاق</placeName></orgName> هو أيضا على مقتضي شروط بيع أراضي الميري المتخلفة من
+                  <placeName ref="مقابر السبتية" type="مقابر">مقابر السبتية</placeName> ببولاق
+               الموجود بجلسة قومسيون البيع نسختى الشروط المذكورة ومرفق بقائمة <rs type="مزاد">مزاد</rs> كل قطعة التي سيكون إعطاء المزاد عليها ورقة ببيان تلك الاشتراطات
+               لمعلومية راغبي المشترى بنصوصها ولنظارة المالية الحق في ان تقبل او ترفض اعلى عطاء يرسي
+               به المزاد وفي حالة رفض اعلى عطاء لا يكون لصاحبه حق في شيء ما سوي رد التامين المدفوع
+               منه اله وعلى هذا لزم الإعلان</p>
             <table>
                <row>
                   <cell>الثمن الأساسي</cell>
@@ -340,9 +340,7 @@
                   <cell>٠٠</cell>
                   <cell>٩٠</cell>
                   <cell>حصة ١٨ قيراطا آيلة للحكومة عن المرحوم <persName>محمد بك فكاك
-                        الحكيم</persName> في
-                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>مشارع
-                        <?oxy_custom_end?><placeName ref="منزل عبدالله بك بشار" type="منزل">منزل</placeName>
+                        الحكيم</persName> في مشاع <placeName ref="منزل عبدالله بك بشار" type="منزل">منزل</placeName>
                      <persName>عبدالله بك بشار</persName>
                      <placeName ref="السروجية">السروجية</placeName> ب<orgName ref="قسم الدرب الأحمر" type="قسم"><placeName ref="قسم الدرب الأحمر" type="قسم">قسم الدرب
                            الأحمر</placeName></orgName> ومسطح المنزل المذكور ٢٠٥.٩٣متر وهو مبني
@@ -357,9 +355,7 @@
                   <cell>٧٥</cell>
                   <cell>حصة ١٢ قيراطا آيلة للحكومة عن المرحومة الست <persName>مريم هانم مرضعه
                         المرحوم <persName>محمد باشا شريف</persName></persName> في مشاع منزل بشارع
-                        <placeName ref="جامع جركس" type="جامع"><orgName ref="جامع جركس" type="جامع">جامع جركس</orgName></placeName> بجوار <placeName ref="شارع ابو السباع">شارع
-                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>او<?oxy_custom_end?>
-                        السباع</placeName> ب<placeName ref="قسم عابدين" type="قسم">قسم
+                        <placeName ref="جامع جركس" type="جامع"><orgName ref="جامع جركس" type="جامع">جامع جركس</orgName></placeName> بجوار <placeName ref="شارع ابو السباع">شارع ابو السباع</placeName> ب<placeName ref="قسم عابدين" type="قسم">قسم
                         عابدين</placeName> ومسطح المنزل المذكور ٩٣.٤٠ مترا وهو مبني أربعة
                      أدوار</cell>
                </row>
@@ -913,12 +909,10 @@
             <p>(المادة الثامنة)</p>
             <p>ميعاد تنفيذ هذه الاشتراطات</p>
             <p>تعين مصلحة الصحة العمومية ميعادا لتنفيذ الاشتراطات الصحية المدونة في المادة السابقة
-               وان لم تنفذ في الميعاد المعين يسوغ لها ان تامر باقفال المراحيض
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>وميع<?oxy_custom_end?>
-               مرافق الوضوء وغيره فاذا رأت في الامهال خطر جاز لها مع تقرير الاشتراطات اللازمة ان
-               تامر في الحال بعد الاستئذان من <orgName ref="نظارة الداخلية" type="نظارة">نظارة
-                  الداخلية</orgName> باقفال المراحيض والميضاات وما يتبعها لحين تنفيذ الاشتراطات
-               المقررة </p>
+               وان لم تنفذ في الميعاد المعين يسوغ لها ان تامر باقفال المراحيض وجميع مرافق الوضوء
+               وغيره فاذا رأت في الامهال خطر جاز لها مع تقرير الاشتراطات اللازمة ان تامر في الحال
+               بعد الاستئذان من <orgName ref="نظارة الداخلية" type="نظارة">نظارة الداخلية</orgName>
+               باقفال المراحيض والميضاات وما يتبعها لحين تنفيذ الاشتراطات المقررة </p>
             <p>(المادة التاسعة) </p>
             <p>اعلان الاشتراطات التي تقرر</p>
             <p>تبلغ الاشتراطات الصحية المدونة في المادة السابعة الى صاحب المحل الموجودة به المراحيض

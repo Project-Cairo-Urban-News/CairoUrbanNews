@@ -2,34 +2,37 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>"Digital Cairo - Urbanism News from al-Waqāʾiʿ al-Miṣrīyah - An Ottoman Arabic Digital Humanities
-          Project"</title>
-        <editor xml:id="eNK">Nour Kanaan</editor>
-        <editor xml:id="eAM">Adam Mestyan</editor>
+        <title>"Urbanism News In The Official Egyptian Gazette (al-Waqāʾiʿ al-Miṣrīyah), 1828-1914 - An Ottoman Arabic
+          Digital Humanities Project"</title>
+        <editor xml:id="eHC" ref="https://orcid.org/0000-0003-0060-9396">Hugh Cayless</editor>
+        <editor xml:id="eNK" ref="https://orcid.org/0009-0008-0409-7328">Nour Kanaan</editor>
+        <editor xml:id="eAM" ref="https://orcid.org/0000-0002-5945-6147">Adam Mestyan</editor>
         <editor xml:id="eDY">Danah Younis</editor>
-        <editor xml:id="eSG">Sarah Fathallah Gaara</editor>
-        <editor xml:id="eAE">Arif Erbil</editor>
-        <editor xml:id="eAK">Ahmed Kamal</editor>
-        <editor xml:id="eAS">Abram Smith</editor>
+        <editor xml:id="eSG" ref="https://orcid.org/0000-0002-1977-5530">Sarah Fathallah
+          Gaara</editor>
+        <editor xml:id="eAE" ref="https://orcid.org/0000-0001-9369-3034">Arif Erbil</editor>
+        <editor xml:id="eAK" ref="https://orcid.org/0000-0003-1721-1050">Ahmed Kamal</editor>
+        <editor xml:id="eAS" ref="https://orcid.org/0009-0004-9778-6632">Abram Smith</editor>
         <editor xml:id="eCH">Clara Harms</editor>
-        <editor xml:id="eHS">Hüseyin Sağlam</editor>
-        <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+        <editor xml:id="eHS" ref="https://orcid.org/0000-0003-3003-1986">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT" ref="https://orcid.org/0009-0002-2083-9199">Abdulrahman
+          El-Taliawi</editor>
         <editor xml:id="eHL">Hiba Laabadli</editor>
-        <editor xml:id="eOE">Othmane Echchabi</editor>
+        <editor xml:id="eOE" ref="https://orcid.org/0009-0002-9543-2617">Othmane Echchabi</editor>
         <editor xml:id="eFA">Fatemah Almahana</editor>
         <editor xml:id="eMZ">Mahmoud Zaki</editor>
-        <editor xml:id="eNS">Nehal al-Shamy</editor>
-        <editor xml:id="eVJ">Vishal Jammulapati</editor>
+        <editor xml:id="eNS" ref="https://orcid.org/0009-0006-8785-0228">Nehal al-Shamy</editor>
+        <editor xml:id="eVJ" ref="https://orcid.org/0009-0004-4472-4120">Vishal Jammulapati</editor>
         <respStmt>
-          <resp>Project leader</resp>
+          <resp>Project co-director</resp>
           <name>Hugh Cayless</name>
         </respStmt>
         <respStmt>
-          <resp>Project leader</resp>
+          <resp>Primary Investigator</resp>
           <name>Adam Mestyan</name>
         </respStmt>
         <respStmt>
-          <resp>Project leader</resp>
+          <resp ref="https://orcid.org/0000-0001-5239-7909">Project co-director</resp>
           <name>Mercedes Volait</name>
         </respStmt>
         <respStmt>
@@ -37,12 +40,12 @@
           <name>Sarah Fathallah Gaara</name>
         </respStmt>
         <respStmt>
-          <resp>Research Assistant</resp>
+          <resp ref="https://orcid.org/0000-0003-1216-3686">Research Assistant</resp>
           <name>Karima Nasr</name>
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
-          <name>Rezk Nory</name>
+          <name>Rezk Nori</name>
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
@@ -98,12 +101,11 @@
             and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
             University</orgName>; <orgName>Duke University Libraries</orgName>; <orgName>Centre
             national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian
-            Cultural Counsellor in Cairo</orgName>. </sponsor>
+            Cultural Counsellor in Cairo</orgName>.</sponsor>
       </titleStmt>
       <publicationStmt>
- <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the project "La fabrique
-          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+        <p>"A TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah, 1828-1914"</p>
+        <p> Created by the "Digital Cairo" project (Duke University - Ifao), sponsored by the National Endowment for the Humanities.</p>
         <p>
           <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
         </p>
@@ -119,7 +121,7 @@
       <projectDesc>
         <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+        <p>The "Digital Cairo" project is sponsored by the National Endowment for the Humanities.</p>
       </projectDesc>
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
@@ -209,11 +211,9 @@
                لانشاء الشوارع المعمول عنها الرسم المذكور ومن تاريخ صدور الامر العالى المشار اليه لا
                يجوز إقامة اى بناء على الأراضي اللازم نزع ملكيتها"</p>
             <p>وبناء على ما عرضه علينا ناظر الاشغال العمومية وموافقة راي <orgName ref="مجلس-النظار" type="مجلس">مجلس النظار</orgName></p>
-            <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>امرنا بما يأتي :
-               صدر <?oxy_custom_end?>ب<orgName ref="سراى-عابدين" type="سراى"><placeName ref="سراى-عابدين" type="سراى">سراى عابدين</placeName></orgName> ١٠ ابريل
-               ١٩٠٢</p>
+            <p>امرنا بما هو آت: صدر ب<orgName ref="سراى-عابدين" type="سراى"><placeName ref="سراى-عابدين" type="سراى">سراى عابدين</placeName></orgName> في غرة محرم سنة
+               ١٣٢٠ (١٠ ابريل ١٩٠٢)</p>
          </div>
-         <?oxy_comment_start author="Dr. Sarah" timestamp="20241019T132045+0200" comment="check if there is ب table"?>
          <div>
             <head>كشف حرف (أ) عن الشوارع وأجزاء الشوارع التي الغيت منها خطوط التنظيم لغاية شهر
                ديسمبر ١٩٠١</head>
@@ -236,7 +236,7 @@
                         البحرية</placeName></cell>
                </row>
             </table>
-         </div><?oxy_comment_end?>
+         </div>
          <div>
             <head>كشف حرف (ح) عن تقرير خطوط تنظيم جديدة لغاية شهر ديسمبر ١٩٠١ على رسومات سابق صدور
                أوامر عاليه باعتمادها</head>
@@ -360,12 +360,14 @@
             <head><placeName ref="محافظة مصر" type="محافظة">محافظة مصر</placeName></head>
             <p>ليكن معلوما لدى العموم انه بجلسة <placeName ref="قومسيون بيع أملاك الميري" type="قومسيون">قومسيون بيع أملاك الميري</placeName> بالمحروسة المزمع انعقادها
                   ب<orgName ref="ديوان محافظة مصر" type="ديوان"><placeName type="ديوان" ref="ديوان محافظة مصر">ديوان محافظة مصر</placeName></orgName> يوم ١٥ يوليه ١٩٠٢
-               سيصير اشهار <rs type="مزاد">مزاد</rs> بيع العقارات
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الموضحع<?oxy_custom_end?>
-               واعتبار أول عطا الثمن الأساسي الموضح بعد فكل من له رغبة في المشترى يحضر هو أو وكيل
-               عنه للمزايدة أمام القومسيون ويدفع تامين المائة عشرين على الثمن الأساسي الموضح بعد
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>...<?oxy_custom_end?>
-               وعلى هذا لزم الإعلان لمعلومية العموم </p>
+               سيصير اشهار <rs type="مزاد">مزاد</rs> بيع العقارات الموضحه واعتبار أول عطا الثمن
+               الأساسي الموضح بعد فكل من له رغبة في المشترى يحضر هو أو وكيل عنه للمزايدة أمام
+               القومسيون ويدفع تامين المائة عشرين على الثمن الأساسي الموضح بعد وبعد الميعاد يصير قفل
+               جلسة المزاد ومن يتأخر يعتبر تأخيره كف يد والمشتري ملزوم بقبول كامل شروط بيع أملاك
+               الميري المندرجة بملحق الجريدة الرسمية الصادرة بتاريخ ٣٠ يونيه سنة ٩٠٠ نمرة ٧٢ الموجود
+               مجموعة منها بديوان المحافظة وبجلسة قومسيون البيع وللمالية الحق في قبول أو رفض أعلى
+               عطاء يرسى به المزاد وفي حالة رفض اعلى عطاء لا يكون لصاحبه حق في شيء ما سوى رد التأمين
+               المدفوع منه اليه وعلى هذا لزم الإعلان لمعلومية العموم </p>
             <table>
                <row>
                   <cell>مليم</cell>
@@ -414,7 +416,7 @@
                   <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">مقاولة تعمير المحل وقف <persName>الرفاعي</persName> ب<placeName ref="المنشية">المنشية</placeName> المقتضي اعداده شفخانة بمصر وتامين الكفالة ١٢ جنيها </hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">مقاولة ترميم منزلين وقف الرفاعى بالمنشية بمصر وتامين الكفالة ٩ جنيهات </hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">مقاولة ترميم منزلين وقف الرفاعى بالمنشية بمصر وتامين الكفالة ٩ جنيهات</hi>
                </item>
                <item>
                   <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">مقاولة ترميم المنزل وقف <persName>خليل اغا</persName> ب<placeName ref="خان الخليلي">خان الخليلي</placeName> بمصر وتامين الكفالة ٦ جنيهات  </hi>
@@ -492,7 +494,8 @@
             <p>النظارة تشهر <rs type="مناقصة">مناقصة</rs> عن تعهد نقل المواد البرازية من محلات مدارس
                الحكومة بالقاهرة و<orgName ref="الكتبخانة الخديوية" type="كتبخانة"><placeName ref="الكتبخانة الخديوية" type="كتبخانة">الكتبخانة
                   الخديوية</placeName></orgName> وديوان النظارة لمدة ثلاث سنوات أولها ٨ سبتمبر ١٩٠٢
-               وغايتها ٧ سبتمبر ١٩٠٥ وعلى مقتضي قائمة مناقصة محررة عن ذلك وموجودة بديوان النظارة </p>
+               وغايتها ٧ سبتمبر ١٩٠٥ وعلى مقتضي قائمة مناقصة محررة عن ذلك وموجودة بديوان النظارة
+            </p>
          </div>
          <div resp="#eAK" xml:id="v196">
             <head>:::::::::::::</head>
@@ -525,13 +528,11 @@
                <bibl><biblScope unit="issue">عدد ١٠٧</biblScope>
                   <biblScope unit="page">ص ١٦٩٩</biblScope></bibl></head>
             <head><placeName ref="محافظة مصر" type="محافظة">محافظة مصر</placeName></head>
-            <p>ليكن معلوما لدى العموم انه
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>بجلسو<?oxy_custom_end?>
-               قومسيون البيوع ب<orgName ref="ديوان محافظة مصر" type="ديوان"><placeName type="ديوان" ref="ديوان محافظة مصر">ديوان محافظة مصر</placeName></orgName> في يوم ٢١ أكتوبر
-               ١٩٠٢ سيصير اشهار <rs type="مزاد">مزاد</rs> بيع العقارات المبينة بهذا وهذا البيع يكون
-               على مقتضي قيود وشروط بيع أملاك الميري المندرجة بالجريدتين الرسميتين الصادرتين بتاريخ
-               ٦ سبتمبر ١٩٠٢ نمرة ٩٩ الموجود مجموعة عنها بديوان محافظة وبجلسة قومسيون البيع للاطلاع
-               عليها فيقتضى ان كل من يرغب في المشترى يحضر هو او وكيل عنه بجلسة المزاد </p>
+            <p>ليكن معلوما لدى العموم انه بجلسة قومسيون البيوع ب<orgName ref="ديوان محافظة مصر" type="ديوان"><placeName type="ديوان" ref="ديوان محافظة مصر">ديوان محافظة
+                     مصر</placeName></orgName> في يوم ٢١ أكتوبر ١٩٠٢ سيصير اشهار <rs type="مزاد">مزاد</rs> بيع العقارات المبينة بهذا وهذا البيع يكون على مقتضي قيود وشروط بيع
+               أملاك الميري المندرجة بالجريدتين الرسميتين الصادرتين بتاريخ ٦ سبتمبر ١٩٠٢ نمرة ٩٩
+               الموجود مجموعة عنها بديوان محافظة وبجلسة قومسيون البيع للاطلاع عليها فيقتضى ان كل من
+               يرغب في المشترى يحضر هو او وكيل عنه بجلسة المزاد </p>
             <table>
                <row>
                   <cell>مليم</cell>
@@ -629,9 +630,7 @@
             <p>تعتمد أيضا خطوط التنظيم الجديدة المضافة على رسوم الطرق العمومية المبينة في الكشف حرف
                (ج) الملحق بامرنا هذا</p>
             <p>(المادة السادسة) </p>
-            <p>تعتبر الطرق العمومية المبينة في الكشف حرف (د)
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>النلحق<?oxy_custom_end?>
-               بامرنا هذا من المنافع العمومية </p>
+            <p>تعتبر الطرق العمومية المبينة في الكشف حرف (د) الملحق بامرنا هذا من المنافع العمومية </p>
             <p>(المادة السابعة) </p>
             <p>على ناظر الاشغال العمومية تنفيذ امرنا هذا ،</p>
             <p>صدر ب<orgName ref="سراى-عابدين" type="سراى"><placeName ref="سراى-عابدين" type="سراى">سراى عابدين</placeName></orgName> في ١٣ نوفمبر ١٩٠٢ </p>
@@ -787,8 +786,7 @@
                <row>
                   <cell>محمد ضهير افندى</cell>
                   <cell>مفتش الانتيقحانة</cell>
-                  <cell><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الريبة<?oxy_custom_end?>
-                     الخامسة</cell>
+                  <cell>الرتبة الخامسة</cell>
                </row>
             </table>
          </div>
@@ -937,10 +935,8 @@
                <bibl><biblScope unit="issue">عدد ٧</biblScope>
                   <biblScope unit="page">ص ٩٢</biblScope></bibl></head>
             <head><orgName ref="ديوان عموم الأوقاف" type="ديوان">ديوان عموم الأوقاف</orgName></head>
-            <p>ديوان الأوقاف يعلن
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الهموم<?oxy_custom_end?>
-               انه سيجرى اشهار <rs type="مزاد">مزاد</rs> بيع المحلات المبينة بمقاساتها واثمانها
-               الأساسية بعد </p>
+            <p>ديوان الأوقاف يعلن العموم انه سيجرى اشهار <rs type="مزاد">مزاد</rs> بيع المحلات
+               المبينة بمقاساتها واثمانها الأساسية بعد </p>
             <list rend="bulleted">
                <item>
                   <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">محل جلسة مزاده يوم الاحد اول فبراير سنة ١٩٠٣ ب<placeName ref="مركز الأوقاف بقسم اول بالغورية" type="مركز"><orgName ref="مركز الأوقاف بقسم اول بالغورية" type="مركز">مركز الأوقاف بقسم اول ب<placeName ref="الغورية">الغورية</placeName></orgName></placeName> مصر</hi>
@@ -1022,13 +1018,11 @@
             <head><orgName ref="ديوان عموم الأوقاف" type="ديوان">ديوان عموم الأوقاف</orgName></head>
             <p>ديوان عموم الأوقاف يطرح في ال<rs type="مناقصة">مناقصة</rs> مقاولات اجراء العمارات
                اللازمة في المحلات المبينة بعد وحدد لتقديم العطاات عنها يوم الخميس ٥ فبراير ١٩٠٣ فكل
-               من له رغبة في اخذها كلها او بعضها يلزم ان يطلع على الرسومات والمقايسات
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>والمقايسات<?oxy_custom_end?>
-               والشروط المختصة بها ب<orgName ref="قلم هندسة الأوقاف" type="قلم">قلم هندسة
-                  الأوقاف</orgName> بمركز الديوان ب<placeName ref="باب اللوق">باب اللوق</placeName>
-               ويقدم العطاات اللازمة عما يرغب اخذه منها بحيث يكون لكل مقاولة عطاء خصوصي داخل وظروف
-               مكتوب عليه اسم المقاوله وتتقدم العطاات بعنوان سعادة مدير عموم الأوقاف لغاية الميعاد
-               المحدد </p>
+               من له رغبة في اخذها كلها او بعضها يلزم ان يطلع على الرسومات والمقايسات والشروط
+               المختصة بها ب<orgName ref="قلم هندسة الأوقاف" type="قلم">قلم هندسة الأوقاف</orgName>
+               بمركز الديوان ب<placeName ref="باب اللوق">باب اللوق</placeName> ويقدم العطاات اللازمة
+               عما يرغب اخذه منها بحيث يكون لكل مقاولة عطاء خصوصي داخل وظروف مكتوب عليه اسم المقاوله
+               وتتقدم العطاات بعنوان سعادة مدير عموم الأوقاف لغاية الميعاد المحدد </p>
             <table>
                <row>
                   <cell>المقاولة</cell>
@@ -1113,9 +1107,15 @@
             <p>ليكن معلوما لدى العموم انه بجلسة <placeName ref="قومسيون بيع أملاك الميري" type="قومسيون">قومسيون بيع أملاك الميري</placeName> بالمحروسة المزمع انعقادها
                   ب<orgName ref="ديوان محافظة مصر" type="ديوان"><placeName type="ديوان" ref="ديوان محافظة مصر">ديوان محافظة مصر</placeName></orgName> في ١٧ مارس ١٩٠٣
                سيصير إعادة اشهار <rs type="مزاد">مزاد</rs> مبيع العقارات المبينة بهذا الكائنة
-               بالمحروسة ملك <orgName ref="المكاتب الاهلية">المكاتب الاهلية</orgName> التابعة
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>لنظارة
-               <?oxy_custom_end?></p>
+               بالمحروسة ملك <orgName ref="المكاتب الاهلية">المكاتب الاهلية</orgName> التابعة لنظارة
+               المعارف واعتبار أول عطاء فيها الثمن الموضح بعد فيقتضي أن كل من له رغبة في مشترى ذلك
+               يحضر هو أو وكيل عنه لديوان المحافظة في الميعاد المرقوم للمزايدة أمام القومسيون ويدفع
+               تأمين المائة عشرين المبين أدناه وبعد الميعاد يصير قفل جلسة المزاد ومن يتأخر يعتبر
+               تأخيره كف يد والمشتري ملزوم بقبول شروط وقيود بيع أملاك الميري الحرة المندرجة
+               بالجريدتين الرسميتين الصادرتين في سبتمر سنة 902 نمرة 99 الموجود مجموعة منها بديوان
+               محافظة مصر وبجلسة قومسيون البيع لإطلاع راغبي المشترى عليها وللمالية الحق في قبول أو
+               رفض أعلى عطاء يرسى به المزاد وفي حالة رفض اعلى عطاء لا يكون لصاحبه حق في شيء ما سوى
+               رد التأمين المدفوع منه اليه وعلى هذا لزم الإعلان لمعلومية العموم</p>
             <list rend="bulleted">
                <item>
                   <hi style="font-size:14ptdirection:rtl;">منزل خرب ب<placeName ref="شارع الكومى" type="شارع">شارع الكومى</placeName> ب<placeName ref="القلعة">القلعة</placeName> ب<orgName ref="قسم الخليفة" type="قسم"><placeName ref="قسم الخليفة" type="قسم">قسم الخليفة</placeName></orgName> مقاسه ١٧٤
@@ -1140,11 +1140,8 @@
                المبينة بمقاستها واثمانها الأساسية بعد امام قومسيونات تعقد بمراكزه الفرعية في الأيام
                المعينة بعد وفتح جلسات المزاد هو من الساعه ٩ الى الساعه ١٢ صباحا ومن الساعه ٢ الى
                الساعه ٤ بعد الظهر فمن يرغب في مشترى شيء منها فليتوجه هو او من ينوب عنه في المواقيت
-               المحددة للتزايد فيه
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>فمن يرغب في مشترى
-               شيئا منها فليتوجه هو من او من ينوب عنه في المواقيت المحددة للتزايد فيه
-               <?oxy_custom_end?>مع قبول شروط قائمة المزاد واعتبار الثمن الأساسي أول عطاء ودفع تامين
-               بواقع المائة عشرة من الثمن ومن يتاخر عن هذه المواعيد يعتبر تاخيره كف يد </p>
+               المحددة للتزايد فيه مع قبول شروط قائمة المزاد واعتبار الثمن الأساسي أول عطاء ودفع
+               تامين بواقع المائة عشرة من الثمن ومن يتاخر عن هذه المواعيد يعتبر تاخيره كف يد </p>
             <list rend="bulleted">
                <item>
                   <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">محل جلسة يوم الثلاثاء ١٧ مارس ١٩٠٣ ب<orgName ref="مركز قسم ثاني اوقاف امام سوق الخضار الجديد" type="مركز"><placeName ref="مركز قسم ثاني اوقاف امام سوق الخضار الجديد" type="مركز">مركز قسم ثاني اوقاف امام <placeName ref="سوق الخضار الجديد" type="سوق">سوق الخضار الجديد</placeName></placeName></orgName> بمصر </hi>
@@ -1316,9 +1313,8 @@
                   ب<placeName ref="الدرب الجديد" type="درب">الدرب الجديد</placeName> وعلى <placeName ref="شارع الخليج" type="شارع">شارع الخليج</placeName> المار فيه التراموى بالقرب من
                   <placeName ref="ميدان السيدة زينب" type="ميدان">ميدان السيدة زينب</placeName>
                مخلفة عن الست <persName>حميده بنت احمد اغا</persName> مقدار مسطحها ٥٨.١١٥٠ مترا
-               واعتبار اول عطا فيها ١١٦ جنيه و٢٣٠ مليم ومقدار التامين
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>اللاوم<?oxy_custom_end?>
-               دفعه ٢٣ جنيها و٢٤٦ مليم وهى موجره شهريا بمبلغ ٣٥٥ مليم ونمرة الجدول ٣٣١ </p>
+               واعتبار اول عطا فيها ١١٦ جنيه و٢٣٠ مليم ومقدار التامين اللازم دفعه ٢٣ جنيها و٢٤٦ مليم
+               وهى موجره شهريا بمبلغ ٣٥٥ مليم ونمرة الجدول ٣٣١ </p>
             <p>::::::::::::::::::::</p>
          </div>
          <div resp="#eAK" xml:id="v219">

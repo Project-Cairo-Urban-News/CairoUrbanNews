@@ -1,202 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>"Digital Cairo - Urbanism News from al-Waqāʾiʿ al-Miṣrīyah - An Ottoman Arabic Digital Humanities
-          Project"</title>
-            <editor xml:id="eNK">Nour Kanaan</editor>
-            <editor xml:id="eAM">Adam Mestyan</editor>
-            <editor xml:id="eDY">Danah Younis</editor>
-            <editor xml:id="eSG">Sarah Fathallah Gaara</editor>
-            <editor xml:id="eAE">Arif Erbil</editor>
-            <editor xml:id="eAK">Ahmed Kamal</editor>
-            <editor xml:id="eAS">Abram Smith</editor>
-            <editor xml:id="eCH">Clara Harms</editor>
-            <editor xml:id="eHS">Hüseyin Sağlam</editor>
-            <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
-            <editor xml:id="eHL">Hiba Laabadli</editor>
-            <editor xml:id="eOE">Othmane Echchabi</editor>
-            <editor xml:id="eFA">Fatemah Almahana</editor>
-            <editor xml:id="eMZ">Mahmoud Zaki</editor>
-            <editor xml:id="eNS">Nehal al-Shamy</editor>
-            <editor xml:id="eVJ">Vishal Jammulapati</editor>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Hugh Cayless</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Adam Mestyan</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Mercedes Volait</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Sarah Fathallah Gaara</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Karima Nasr</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Rezk Nory</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Arif Erbil</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Ahmed Kamal</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Abram Smith</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Clara Harms</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Hüseyin Sağlam</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Abdulrahman El-Taliawi</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Hiba Laabadli</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Othmane Echchabi</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Fatemah Almahana</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Mahmoud Zaki</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Nehal al-Shamy</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Vishal Jammulapati</name>
-            </respStmt>
-            <sponsor>
-               <orgName>National Endowment for the Humanities</orgName>, <orgName>Institut français
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>"Urbanism News In The Official Egyptian Gazette (al-Waqāʾiʿ al-Miṣrīyah), 1828-1914 - An Ottoman Arabic
+          Digital Humanities Project"</title>
+        <editor xml:id="eHC" ref="https://orcid.org/0000-0003-0060-9396">Hugh Cayless</editor>
+        <editor xml:id="eNK" ref="https://orcid.org/0009-0008-0409-7328">Nour Kanaan</editor>
+        <editor xml:id="eAM" ref="https://orcid.org/0000-0002-5945-6147">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <editor xml:id="eSG" ref="https://orcid.org/0000-0002-1977-5530">Sarah Fathallah
+          Gaara</editor>
+        <editor xml:id="eAE" ref="https://orcid.org/0000-0001-9369-3034">Arif Erbil</editor>
+        <editor xml:id="eAK" ref="https://orcid.org/0000-0003-1721-1050">Ahmed Kamal</editor>
+        <editor xml:id="eAS" ref="https://orcid.org/0009-0004-9778-6632">Abram Smith</editor>
+        <editor xml:id="eCH">Clara Harms</editor>
+        <editor xml:id="eHS" ref="https://orcid.org/0000-0003-3003-1986">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT" ref="https://orcid.org/0009-0002-2083-9199">Abdulrahman
+          El-Taliawi</editor>
+        <editor xml:id="eHL">Hiba Laabadli</editor>
+        <editor xml:id="eOE" ref="https://orcid.org/0009-0002-9543-2617">Othmane Echchabi</editor>
+        <editor xml:id="eFA">Fatemah Almahana</editor>
+        <editor xml:id="eMZ">Mahmoud Zaki</editor>
+        <editor xml:id="eNS" ref="https://orcid.org/0009-0006-8785-0228">Nehal al-Shamy</editor>
+        <editor xml:id="eVJ" ref="https://orcid.org/0009-0004-4472-4120">Vishal Jammulapati</editor>
+        <respStmt>
+          <resp>Project co-director</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Primary Investigator</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0001-5239-7909">Project co-director</resp>
+          <name>Mercedes Volait</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Sarah Fathallah Gaara</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0003-1216-3686">Research Assistant</resp>
+          <name>Karima Nasr</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Rezk Nori</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Arif Erbil</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Ahmed Kamal</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abram Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Clara Harms</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hüseyin Sağlam</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abdulrahman El-Taliawi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hiba Laabadli</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Othmane Echchabi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Fatemah Almahana</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Mahmoud Zaki</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Nehal al-Shamy</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Vishal Jammulapati</name>
+        </respStmt>
+        <sponsor>
+          <orgName>National Endowment for the Humanities</orgName>, <orgName>Institut français
             d’archéologie orientale</orgName> (Ifao, Cairo); <orgName>Franklin Humanities Institute
             and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
             University</orgName>; <orgName>Duke University Libraries</orgName>; <orgName>Centre
             national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian
-            Cultural Counsellor in Cairo</orgName>. </sponsor>
-         </titleStmt>
-         <publicationStmt>
-            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the project "La fabrique
-          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-            <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
-            <p>
-               <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
-            </p>
-            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
-            Volait</persName>, <persName>Hugh Cayless</persName>
-            </p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Al-Waqāʾiʿ al-Miṣrīyah (Egyptian Affairs) newspaper, 1828–1914.</p>
-            <p>born digital document</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <projectDesc>
-            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
+            Cultural Counsellor in Cairo</orgName>.</sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <p>"A TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah, 1828-1914"</p>
+        <p> Created by the "Digital Cairo" project (Duke University - Ifao), sponsored by the National Endowment for the Humanities.</p>
+        <p>
+          <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
+        </p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+            Volait</persName>, <persName>Hugh Cayless</persName></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Al-Waqāʾiʿ al-Miṣrīyah (Egyptian Affairs) newspaper, 1828–1914.</p>
+        <p>born digital document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-            <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
-         </projectDesc>
-         <editorialDecl>
-            <p>Rules of TEI XML MarkUp in This Project</p>
-            <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+        <p>The "Digital Cairo" project is sponsored by the National Endowment for the Humanities.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Rules of TEI XML MarkUp in This Project</p>
+        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
           Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
-            <p>Each individual article has an individual xml:id number starting with "w1"</p>
-            <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
+        <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
           and notes.</p>
-            <p>If the location or organization of responsibility is known from the text, it can be added
+        <p>If the location or organization of responsibility is known from the text, it can be added
           in an attribute to a persName.</p>
-            <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
             Editions</ref>.</p>
-         </editorialDecl>
-         <charDecl>
-            <char xml:id="qhalf">
-               <localProp value="QIRMA FRACTION 1/2" name="name"/>
-               <unicodeProp value="1/2" name="Numeric_Value"/>
-               <mapping type="similar">𐋢</mapping>
-               <figure>
-                  <graphic url="../../docs/images/qhalf.svg"/>
-               </figure>
-            </char>
-            <char xml:id="qthird">
-               <localProp value="QIRMA FRACTION 1/3" name="name"/>
-               <unicodeProp value="1/3" name="Numeric_Value"/>
-               <figure>
-                  <graphic url="../../docs/images/qthird.svg"/>
-               </figure>
-            </char>
-            <char xml:id="qfourth">
-               <localProp value="QIRMA FRACTION 1/4" name="name"/>
-               <unicodeProp value="1/4" name="Numeric_Value"/>
-               <figure>
-                  <graphic url="../../docs/images/qfourth.svg"/>
-               </figure>
-            </char>
-            <char xml:id="qsixth">
-               <localProp value="QIRMA FRACTION 1/6" name="name"/>
-               <unicodeProp value="1/6" name="Numeric_Value"/>
-               <figure>
-                  <graphic url="../../docs/images/qsixth.svg"/>
-               </figure>
-            </char>
-            <char xml:id="qeighth">
-               <localProp value="QIRMA FRACTION 1/8" name="name"/>
-               <unicodeProp value="1/8" name="Numeric_Value"/>
-               <mapping type="similar">𐋤</mapping>
-               <figure>
-                  <graphic url="../../docs/images/qeighth.svg"/>
-               </figure>
-            </char>
-            <char xml:id="qtwothirds">
-               <localProp value="QIRMA FRACTION 2/3" name="name"/>
-               <unicodeProp value="2/3" name="Numeric_Value"/>
-               <figure>
-                  <graphic url="../../docs/images/qtwothirds.svg"/>
-               </figure>
-            </char>
-         </charDecl>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="ar">Arabic</language>
-            <language ident="en">English</language>
-            <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
-            <language ident="ota">Ottoman</language>
-         </langUsage>
-      </profileDesc>
-      <revisionDesc>
+      </editorialDecl>
+      <charDecl>
+        <char xml:id="qhalf">
+          <localProp value="QIRMA FRACTION 1/2" name="name"/>
+          <unicodeProp value="1/2" name="Numeric_Value"/>
+          <mapping type="similar">𐋢</mapping>
+          <figure>
+            <graphic url="../../docs/images/qhalf.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qthird">
+          <localProp value="QIRMA FRACTION 1/3" name="name"/>
+          <unicodeProp value="1/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qthird.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qfourth">
+          <localProp value="QIRMA FRACTION 1/4" name="name"/>
+          <unicodeProp value="1/4" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qfourth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qsixth">
+          <localProp value="QIRMA FRACTION 1/6" name="name"/>
+          <unicodeProp value="1/6" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qsixth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qeighth">
+          <localProp value="QIRMA FRACTION 1/8" name="name"/>
+          <unicodeProp value="1/8" name="Numeric_Value"/>
+          <mapping type="similar">𐋤</mapping>
+          <figure>
+            <graphic url="../../docs/images/qeighth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qtwothirds">
+          <localProp value="QIRMA FRACTION 2/3" name="name"/>
+          <unicodeProp value="2/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qtwothirds.svg"/>
+          </figure>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+        <language ident="ota">Ottoman</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
          <listChange>
             <change/>
          </listChange>
       </revisionDesc>
-   </teiHeader>
-   <text xml:lang="ar">
+  </teiHeader>
+  
+  <text xml:lang="ar">
       <body>
          <div resp="#eAK" xml:id="v221">
             <head><date when-custom="1323-01-02">٢ محرم ١٣٢٣</date>
@@ -212,9 +214,7 @@
                   ب<placeName ref="البغالة">البغالة</placeName> تبع <orgName type="قسم" ref="قسم السيدة زينب"><placeName ref="قسم السيدة زينب" type="قسم">قسم السيدة
                      زينب</placeName></orgName> الحد الغربي حارة مظهر وبه الباب والشرقي ملك
                   <persName>على بك علوى</persName> والبحرى ملك المذكور وشركاه والقبلي ملك ورثة
-                  <persName>على بك رضا</persName> وتلك الحصة
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>تساورى<?oxy_custom_end?>
-               ١٠ جنيهات </p>
+                  <persName>على بك رضا</persName> وتلك الحصة تساوى ١٠ جنيهات </p>
             <p>وهذا الحجز نظير مبلغ ٥ جنيهات و١٦٠ مليم قيمة نفقة مستحقة عليه لزوجته الحرمه
                   <persName>هانم بنت إبراهيم</persName> لغاية ٥ فبراير ١٩٠٥ بمقتضي اعلام شرعي صادر
                من <placeName ref="محكمة مصر الشرعية" type="محكمة"><orgName ref="محكمة مصر الشرعية" type="محكمة">محكمة مصر الشرعية</orgName></placeName> بتاريخ ١١ مايو ١٩٠٤ نمرة
@@ -235,7 +235,7 @@
                سيصير مبيع العقار الاتي بيانه:</p>
             <list rend="bulleted">
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">حصة ٩ قراريط تعلق كل من <persName>مرسي إبراهيم واخيه عبداللطيف</persName> مشاعه في منزل مقام على ارض حضرة <persName>محمد بك الازهرى</persName> ب<placeName ref="حضوض الزهور"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>حضوض<?oxy_custom_end?> الزهور</placeName> ب<placeName ref="بولاق">بولاق</placeName> ومقاس المنزل المذكور ١٠٠ ذراع تقريبا وتساوى الحصة المذكورة من الثمن٦ جنيهات و٥٠٠ مليم  والحدود كسابقة النشر </hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">حصة ٩ قراريط تعلق كل من <persName>مرسي إبراهيم واخيه عبداللطيف</persName> مشاعه في منزل مقام على ارض حضرة <persName>محمد بك الازهرى</persName> ب<placeName ref="حضوض الزهور">حوض الزهور</placeName> ب<placeName ref="بولاق">بولاق</placeName> ومقاس المنزل المذكور ١٠٠ ذراع تقريبا وتساوى الحصة المذكورة من الثمن٦ جنيهات و٥٠٠ مليم  والحدود كسابقة النشر </hi>
                </item>
                <item>
                   <hi style="font-size:14ptdirection:rtl;" xml:space="preserve">وهذا الحجز في نظير مبلغ ٥ جنيهات و٧٢٠ مليم نفقة مستحقة عليهما لوالدتهما الحرمة <persName>هنا بنت دكرورى</persName> بمقتضي اعلام شرعي صادر من <placeName ref="محكمة مصر الشرعية" type="محكمة"><orgName ref="محكمة مصر الشرعية" type="محكمة">محكمة مصر الشرعية</orgName></placeName> بتاريخ ٢٨ ابريل ١٩٠٣ نمرة ٧٧٧ لتاخيرهما عن السداد بعد انذارهما وتوقيع الحجز على الحصة المذكورة تحت مسئولية المذكورة </hi>
@@ -386,9 +386,8 @@
          </div>
          <div>
             <head>منزل ب<placeName ref="حارة حوش قدم" type="حارة">حارة حوش قدم</placeName>
-               <orgName ref="قسم الدرب الأحمر" type="قسم"><placeName ref="قسم الدرب الأحمر" type="قسم">قسم الدرب الأحمر</placeName></orgName> بمصر
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>المقاش<?oxy_custom_end?>
-               ١٠٠٦.٨٤ متر الثمن ٣٨٨ جنيها و٤٤٣ مليم</head>
+               <orgName ref="قسم الدرب الأحمر" type="قسم"><placeName ref="قسم الدرب الأحمر" type="قسم">قسم الدرب الأحمر</placeName></orgName> بمصر المقاس ١٠٠٦.٨٤ متر الثمن
+               ٣٨٨ جنيها و٤٤٣ مليم</head>
             <p>(محل جلسة مزاده يوم الأربعاء ٥ يوليه ١٩٠٥ ب<placeName ref="مركز قسم ثالث اوقاف الكائن بجوار مسجد الرفاعي" type="مركز"><orgName ref="مركز قسم ثالث اوقاف الكائن بجوار مسجد الرفاعي" type="مركز">مركز قسم ثالث
                      اوقاف الكائن بجوار <placeName ref="مسجد الرفاعي" type="مسجد">مسجد
                         الرفاعي</placeName></orgName></placeName>) </p>
@@ -549,7 +548,7 @@
                   <cell>١٠٣٧</cell>
                   <cell>٣ يناير ١٩٠٥</cell>
                   <cell>تعديل خط تنظيم الجانب القبلي ل<placeName ref="شارع وكالة الخونوب" type="شارع">شارع <orgName ref="وكالة الخونوب" type="وكالة"><placeName ref="وكالة الخونوب" type="وكالة">وكالة
-                              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الخونوب<?oxy_custom_end?></placeName></orgName></placeName></cell>
+                        الخرنوب</placeName></orgName></placeName></cell>
                </row>
                <row>
                   <cell>٣٨٠</cell>
@@ -1118,10 +1117,9 @@
                   <biblScope unit="page">ص ٥٥</biblScope></bibl></head>
             <head><orgName ref="محافظة مصر" type="محافظة">محافظة مصر</orgName></head>
             <p><orgName ref="إدارة الأموال المقررة" type="إدارة">إدارة الأموال المقررة</orgName>
-               تعلن العموم بان الخمسة مخازن الغاز ملك الميري الكائنة بجهة <placeName ref="مصر القديمة">مصر
-                  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الفديمة<?oxy_custom_end?></placeName>
-               على شاطي البحر <placeName ref="قسم مصر القديمة" type="قسم"><orgName ref="قسم مصر القديمة" type="قسم">قسم مصر القديمة</orgName></placeName> مقتضي
-               تاجيرها عن مدة ابتداوها اول فبراير ١٩٠٦ وغايتها اخر ١٩٠٧ </p>
+               تعلن العموم بان الخمسة مخازن الغاز ملك الميري الكائنة بجهة <placeName ref="مصر القديمة">مصر القديمة</placeName> على شاطي البحر <placeName ref="قسم مصر القديمة" type="قسم"><orgName ref="قسم مصر القديمة" type="قسم">قسم مصر
+                     القديمة</orgName></placeName> مقتضي تاجيرها عن مدة ابتداوها اول فبراير ١٩٠٦
+               وغايتها اخر ١٩٠٧ </p>
             <p>:::::::::::::::::::::</p>
          </div>
          <div resp="#eAK" xml:id="v238">

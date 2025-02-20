@@ -2,34 +2,37 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>"Digital Cairo - Urbanism News from al-Waqāʾiʿ al-Miṣrīyah - An Ottoman Arabic Digital Humanities
-          Project"</title>
-        <editor xml:id="eNK">Nour Kanaan</editor>
-        <editor xml:id="eAM">Adam Mestyan</editor>
+        <title>"Urbanism News In The Official Egyptian Gazette (al-Waqāʾiʿ al-Miṣrīyah), 1828-1914 - An Ottoman Arabic
+          Digital Humanities Project"</title>
+        <editor xml:id="eHC" ref="https://orcid.org/0000-0003-0060-9396">Hugh Cayless</editor>
+        <editor xml:id="eNK" ref="https://orcid.org/0009-0008-0409-7328">Nour Kanaan</editor>
+        <editor xml:id="eAM" ref="https://orcid.org/0000-0002-5945-6147">Adam Mestyan</editor>
         <editor xml:id="eDY">Danah Younis</editor>
-        <editor xml:id="eSG">Sarah Fathallah Gaara</editor>
-        <editor xml:id="eAE">Arif Erbil</editor>
-        <editor xml:id="eAK">Ahmed Kamal</editor>
-        <editor xml:id="eAS">Abram Smith</editor>
+        <editor xml:id="eSG" ref="https://orcid.org/0000-0002-1977-5530">Sarah Fathallah
+          Gaara</editor>
+        <editor xml:id="eAE" ref="https://orcid.org/0000-0001-9369-3034">Arif Erbil</editor>
+        <editor xml:id="eAK" ref="https://orcid.org/0000-0003-1721-1050">Ahmed Kamal</editor>
+        <editor xml:id="eAS" ref="https://orcid.org/0009-0004-9778-6632">Abram Smith</editor>
         <editor xml:id="eCH">Clara Harms</editor>
-        <editor xml:id="eHS">Hüseyin Sağlam</editor>
-        <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+        <editor xml:id="eHS" ref="https://orcid.org/0000-0003-3003-1986">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT" ref="https://orcid.org/0009-0002-2083-9199">Abdulrahman
+          El-Taliawi</editor>
         <editor xml:id="eHL">Hiba Laabadli</editor>
-        <editor xml:id="eOE">Othmane Echchabi</editor>
+        <editor xml:id="eOE" ref="https://orcid.org/0009-0002-9543-2617">Othmane Echchabi</editor>
         <editor xml:id="eFA">Fatemah Almahana</editor>
         <editor xml:id="eMZ">Mahmoud Zaki</editor>
-        <editor xml:id="eNS">Nehal al-Shamy</editor>
-        <editor xml:id="eVJ">Vishal Jammulapati</editor>
+        <editor xml:id="eNS" ref="https://orcid.org/0009-0006-8785-0228">Nehal al-Shamy</editor>
+        <editor xml:id="eVJ" ref="https://orcid.org/0009-0004-4472-4120">Vishal Jammulapati</editor>
         <respStmt>
-          <resp>Project leader</resp>
+          <resp>Project co-director</resp>
           <name>Hugh Cayless</name>
         </respStmt>
         <respStmt>
-          <resp>Project leader</resp>
+          <resp>Primary Investigator</resp>
           <name>Adam Mestyan</name>
         </respStmt>
         <respStmt>
-          <resp>Project leader</resp>
+          <resp ref="https://orcid.org/0000-0001-5239-7909">Project co-director</resp>
           <name>Mercedes Volait</name>
         </respStmt>
         <respStmt>
@@ -37,12 +40,12 @@
           <name>Sarah Fathallah Gaara</name>
         </respStmt>
         <respStmt>
-          <resp>Research Assistant</resp>
+          <resp ref="https://orcid.org/0000-0003-1216-3686">Research Assistant</resp>
           <name>Karima Nasr</name>
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
-          <name>Rezk Nory</name>
+          <name>Rezk Nori</name>
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
@@ -98,12 +101,11 @@
             and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
             University</orgName>; <orgName>Duke University Libraries</orgName>; <orgName>Centre
             national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian
-            Cultural Counsellor in Cairo</orgName>. </sponsor>
+            Cultural Counsellor in Cairo</orgName>.</sponsor>
       </titleStmt>
       <publicationStmt>
- <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the project "La fabrique
-          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+        <p>"A TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah, 1828-1914"</p>
+        <p> Created by the "Digital Cairo" project (Duke University - Ifao), sponsored by the National Endowment for the Humanities.</p>
         <p>
           <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
         </p>
@@ -119,7 +121,7 @@
       <projectDesc>
         <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+        <p>The "Digital Cairo" project is sponsored by the National Endowment for the Humanities.</p>
       </projectDesc>
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
@@ -385,9 +387,8 @@
             <p>ثالثا: تكون جميع المواسيرالمجعولة لنزول المواد والمتصلة بالادبخانات من ظهر متين وتكون
                مرتفعة عن سطح البيت ومفتوحة من الاعلى لتجديد الهواء وتكون جميع لحاماتها مبرشمة ويجب
                ان توضع جميع المواسير خارج الحيطان </p>
-            <p>رابعا: يجعل لمياه الاستعمال المنزلية مواسير على حدتها ويجوز عمل
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>جزان<?oxy_custom_end?>
-               بدون قاع لمياه الاستعمال المنزلية والاسطبلات ولكن تكون هذه الخزانات خارج المباني </p>
+            <p>رابعا: يجعل لمياه الاستعمال المنزلية مواسير على حدتها ويجوز عمل خزان بدون قاع لمياه
+               الاستعمال المنزلية والاسطبلات ولكن تكون هذه الخزانات خارج المباني </p>
             <p>خامسا: ان لاجل توصل الحكومة الى الوثوق من ان جميع الاشتراطات التى سلفت معمول بها
                يتعين عرض جميع رسومات البناء على <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال العمومية</orgName> والحصول على تصديقها عليها قبل الشروع في البناء
                ويجب ان يتبين في الرسم طريقة تصريف المياه وجميع التفصيلات المتعلقة بالبناء ولا يترتب
@@ -404,10 +405,9 @@
                لدى انقضاء هذا الميعاد يلزم أن يكون البناء كاملا وان باقي الارض المباعة تجعل جنينة او
                تترك براحا بشرط انه في الحالة الاخيرة يصير حفظ الارض في حالة صحية وتسوية مسطحها جيدا
                واذا لم يقم المشترى باتمام ذلك في الميعاد المذكور فللحكومة الحق لدى انقضاء المدة
-               وبدون عمل اى انذار أن تطالبه بدفع مبلغ يوازى عشر الثمن الذى حصل الشراء
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>بع<?oxy_custom_end?>
-               وذلك عن كل سنة من التاخير أو عن كسور السنة بصفة عطل واضرار الى ان يتم المشترى المباني
-               النصوص عنها آنفا</p>
+               وبدون عمل اى انذار أن تطالبه بدفع مبلغ يوازى عشر الثمن الذى حصل الشراء به وذلك عن كل
+               سنة من التاخير أو عن كسور السنة بصفة عطل واضرار الى ان يتم المشترى المباني النصوص
+               عنها آنفا</p>
             <p>(عاشرا)</p>
             <p>هدم الابنية التى تكون اقيمت او قفل المخازن والاسطبلات أو باقي المحلات التى تكن فتحت
                بحالة مخالفة للشروط المنوه عنها قبل يكون دائما بمصاريف على طرف صاحب الارض واما
@@ -450,9 +450,7 @@
                   <biblScope unit="page">ص٦٥</biblScope></bibl></head>
             <p><orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال
                العمومية</orgName></p>
-            <p>ان مكتب الادارة يقبل عطاات
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>وذلد<?oxy_custom_end?>
-               الى يوم ٢١ من شهر يناير ١٨٩٦ الساعه ١١ قبل الظهر </p>
+            <p>ان مكتب الادارة يقبل عطاات وذلك الى يوم ٢١ من شهر يناير ١٨٩٦ الساعه ١١ قبل الظهر </p>
             <p>وهذه الاعمال هى مشال الفين وثمانمائة متر مكعب من الطين الحلو من <placeName ref="جنينة بير اليرقان القديمة" type="جنينة">جنينة بير اليرقان القديمة</placeName>
                (قرب <placeName ref="ميدان عابدين" type="ميدان">ميدان عابدين</placeName>) ونقلها الى
                عدة شوارع في <placeName ref="الاسماعيلية بالقاهرة">الاسماعيلية بالقاهرة</placeName>
@@ -1071,9 +1069,8 @@
             <p><orgName ref="نظارة الأشغال العمومية" type="نظارة">نظارة الأشغال العمومية</orgName>
             </p>
             <p>ان مكتب قسم الادارة بهذه النظارة يقبل عطاءات عن بناء محل ل<orgName ref="متحف الاثار العربية" type="متحف">متحف الاثار العربية</orgName> و<orgName ref="المكتبة الخديوية بمدينة القاهرة" type="مكتبة">المكتبة الخديوية بمدينة
-                  القاهرة</orgName> وذلك
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الى اليوم
-               من<?oxy_custom_end?> شهر مايو سنة ١٨٩٦، يقدم العطاء مع تامين قدره ٣٠٠٠ جنيه .</p>
+                  القاهرة</orgName> وذلك الى اليوم من شهر مايو سنة ١٨٩٦، يقدم العطاء مع تامين قدره
+               ٣٠٠٠ جنيه .</p>
          </div>
          <div resp="#eAK" xml:id="v45">
             <head>نظارة الأشغال العمومية</head>

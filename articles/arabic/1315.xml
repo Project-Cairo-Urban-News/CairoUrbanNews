@@ -2,34 +2,37 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>"Digital Cairo - Urbanism News from al-Waqāʾiʿ al-Miṣrīyah - An Ottoman Arabic Digital Humanities
-          Project"</title>
-        <editor xml:id="eNK">Nour Kanaan</editor>
-        <editor xml:id="eAM">Adam Mestyan</editor>
+        <title>"Urbanism News In The Official Egyptian Gazette (al-Waqāʾiʿ al-Miṣrīyah), 1828-1914 - An Ottoman Arabic
+          Digital Humanities Project"</title>
+        <editor xml:id="eHC" ref="https://orcid.org/0000-0003-0060-9396">Hugh Cayless</editor>
+        <editor xml:id="eNK" ref="https://orcid.org/0009-0008-0409-7328">Nour Kanaan</editor>
+        <editor xml:id="eAM" ref="https://orcid.org/0000-0002-5945-6147">Adam Mestyan</editor>
         <editor xml:id="eDY">Danah Younis</editor>
-        <editor xml:id="eSG">Sarah Fathallah Gaara</editor>
-        <editor xml:id="eAE">Arif Erbil</editor>
-        <editor xml:id="eAK">Ahmed Kamal</editor>
-        <editor xml:id="eAS">Abram Smith</editor>
+        <editor xml:id="eSG" ref="https://orcid.org/0000-0002-1977-5530">Sarah Fathallah
+          Gaara</editor>
+        <editor xml:id="eAE" ref="https://orcid.org/0000-0001-9369-3034">Arif Erbil</editor>
+        <editor xml:id="eAK" ref="https://orcid.org/0000-0003-1721-1050">Ahmed Kamal</editor>
+        <editor xml:id="eAS" ref="https://orcid.org/0009-0004-9778-6632">Abram Smith</editor>
         <editor xml:id="eCH">Clara Harms</editor>
-        <editor xml:id="eHS">Hüseyin Sağlam</editor>
-        <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+        <editor xml:id="eHS" ref="https://orcid.org/0000-0003-3003-1986">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT" ref="https://orcid.org/0009-0002-2083-9199">Abdulrahman
+          El-Taliawi</editor>
         <editor xml:id="eHL">Hiba Laabadli</editor>
-        <editor xml:id="eOE">Othmane Echchabi</editor>
+        <editor xml:id="eOE" ref="https://orcid.org/0009-0002-9543-2617">Othmane Echchabi</editor>
         <editor xml:id="eFA">Fatemah Almahana</editor>
         <editor xml:id="eMZ">Mahmoud Zaki</editor>
-        <editor xml:id="eNS">Nehal al-Shamy</editor>
-        <editor xml:id="eVJ">Vishal Jammulapati</editor>
+        <editor xml:id="eNS" ref="https://orcid.org/0009-0006-8785-0228">Nehal al-Shamy</editor>
+        <editor xml:id="eVJ" ref="https://orcid.org/0009-0004-4472-4120">Vishal Jammulapati</editor>
         <respStmt>
-          <resp>Project leader</resp>
+          <resp>Project co-director</resp>
           <name>Hugh Cayless</name>
         </respStmt>
         <respStmt>
-          <resp>Project leader</resp>
+          <resp>Primary Investigator</resp>
           <name>Adam Mestyan</name>
         </respStmt>
         <respStmt>
-          <resp>Project leader</resp>
+          <resp ref="https://orcid.org/0000-0001-5239-7909">Project co-director</resp>
           <name>Mercedes Volait</name>
         </respStmt>
         <respStmt>
@@ -37,12 +40,12 @@
           <name>Sarah Fathallah Gaara</name>
         </respStmt>
         <respStmt>
-          <resp>Research Assistant</resp>
+          <resp ref="https://orcid.org/0000-0003-1216-3686">Research Assistant</resp>
           <name>Karima Nasr</name>
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
-          <name>Rezk Nory</name>
+          <name>Rezk Nori</name>
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
@@ -98,12 +101,11 @@
             and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
             University</orgName>; <orgName>Duke University Libraries</orgName>; <orgName>Centre
             national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian
-            Cultural Counsellor in Cairo</orgName>. </sponsor>
+            Cultural Counsellor in Cairo</orgName>.</sponsor>
       </titleStmt>
       <publicationStmt>
- <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the project "La fabrique
-          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+        <p>"A TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah, 1828-1914"</p>
+        <p> Created by the "Digital Cairo" project (Duke University - Ifao), sponsored by the National Endowment for the Humanities.</p>
         <p>
           <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
         </p>
@@ -119,7 +121,7 @@
       <projectDesc>
         <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+        <p>The "Digital Cairo" project is sponsored by the National Endowment for the Humanities.</p>
       </projectDesc>
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
@@ -205,9 +207,7 @@
                   <biblScope unit="page">ص ١٥٠٦</biblScope></bibl></head>
             <head><orgName ref="ديوان عموم الأوقاف" type="ديوان">ديوان عموم الأوقاف</orgName></head>
             <p>كشف ببيان أماكن متخربة وارض فضا تعلق الأوقاف جار اشهار <rs type="مزاد">مزاد</rs>
-               استبدالها بالنقد بمركز
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>المامريات<?oxy_custom_end?>
-               الموضحه بعد </p>
+               استبدالها بالنقد بمركز الماموريات الموضحه بعد </p>
             <p>المواعيد المحددة للاشهار ٥ يوليو ١٨٩٧</p>
             <table>
                <row>
@@ -1241,8 +1241,8 @@
                <row>
                   <cell>خربة اصلها منزل وربع</cell>
                   <cell>٣٢٣.٥٩</cell>
-                  <cell>ب<placeName ref="حارة المسطاحى" type="حارة"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>حارى<?oxy_custom_end?>
-                        المسطاحى</placeName> – مصر</cell>
+                  <cell>ب<placeName ref="حارة المسطاحى" type="حارة">حارة المسطاحى</placeName> –
+                     مصر</cell>
                   <cell><persName>دويدار الطحان</persName></cell>
                </row>
                <row>
@@ -1299,9 +1299,8 @@
                   <biblScope unit="page">ص٢٧١٩</biblScope></bibl></head>
             <p><orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال
                العمومية</orgName></p>
-            <p>قد قررت نظارة الاشغال العمومية بتاريخ ٨ نوفمبر ١٨٩٧
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ترقير<?oxy_custom_end?>
-               خدمة عموم المباني الاتية أسماؤهم كما في هذا الجدول وذلك من اول نوفمبر ١٨٩٧</p>
+            <p>قد قررت نظارة الاشغال العمومية بتاريخ ٨ نوفمبر ١٨٩٧ ترقية خدمة عموم المباني الاتية
+               أسماؤهم كما في هذا الجدول وذلك من اول نوفمبر ١٨٩٧</p>
             <table>
                <row>
                   <cell>أسماء</cell>
@@ -1782,12 +1781,10 @@
                <bibl><biblScope unit="issue">عدد ١٨</biblScope>
                   <biblScope unit="page">ص٢٤٤</biblScope></bibl></head>
             <head><orgName ref="ديوان عموم الأوقاف" type="ديوان">ديوان عموم الأوقاف</orgName></head>
-            <p>يتشرف ديوان الأوقاف بإعلان الجمهور
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>بانع<?oxy_custom_end?>
-               سيصير اشهار <rs type="مزاد">مزاد</rs> استبدال الأماكن المبينة بهذا الكشف بالنقد وقد
-               تحدد الميعاد المبين بعد لاجتماع الراغبين بمراكز الأوقاف الموضحه فمن يرغب في اخذ شي من
-               هذه الأماكن يتوجه الى مركز الاوقاف الموضح بازائه للاطلاع على شروط قوائم المزاد وما
-               يريد من البيانات </p>
+            <p>يتشرف ديوان الأوقاف بإعلان الجمهور بانه سيصير اشهار <rs type="مزاد">مزاد</rs> استبدال
+               الأماكن المبينة بهذا الكشف بالنقد وقد تحدد الميعاد المبين بعد لاجتماع الراغبين بمراكز
+               الأوقاف الموضحه فمن يرغب في اخذ شي من هذه الأماكن يتوجه الى مركز الاوقاف الموضح
+               بازائه للاطلاع على شروط قوائم المزاد وما يريد من البيانات </p>
             <p>ميعاد الاشهار يوم السبت ١٢ مارس ١٨٩٨</p>
             <table>
                <row>
@@ -1852,16 +1849,13 @@
                المذكورة فكل من يرغب المشترى يحضر بجلسة القومسيون بديوان المحافظة في اليوم المذكور
                ويعطى عطاءه بما يرغبه ويدفع تامين المائة ١٠ ولا يصير المزاد نهائيا الا بعد تصديق
                نظارة المالية وهى تحفظ لنفسها الحق في أن تقبل أو ترفض أعلى عطاء وكل عطاء يتقدم بعد
-               تواريخ الجلسات المبينة يعتبر لاغيا ولا يعمل به ومالا يرسي مزاده من
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>تلط<?oxy_custom_end?>
-               القطع في اول يوم يطرح للمبيع بجلسة ثاني يوم </p>
+               تواريخ الجلسات المبينة يعتبر لاغيا ولا يعمل به ومالا يرسي مزاده من تلك القطع في اول
+               يوم يطرح للمبيع بجلسة ثاني يوم </p>
             <p>أما البيع فيكون على مقتضي القيود والشروط الاتية</p>
             <p>(أولا)</p>
             <p>هذا البيع هو على مقتضي الشروط والقيوم المدونة في لائحة ٢٢ نوفمبر سنة ١٨٨٦ المتعلقة
                ببيع أملاك الميري الحرة وفي المنشورات المتممة لها وبالشروط الاتية أيضا التي تعتبر
-               انها شروط أساسية
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>وبدونهت<?oxy_custom_end?>
-               لاتقر الحكومة على البيع </p>
+               انها شروط أساسية وبدونها لاتقر الحكومة على البيع </p>
             <p>(ثانيا)</p>
             <p>يتعهد المشترى أن لا يبنى على قطعة الأرض التي يشتريها سوى منزل للسكن وغير مصرح له
                بإقامة تخاشيب موقتة لاستعمالها دكاكين او مخازن </p>
@@ -1886,11 +1880,9 @@
             <p>ثانيا: يلزم تصريف المواد في خزان اصم يجعل خارج البناء وذلك الى ان يعمل في هذه الجهة
                مجارى للتصريف بالطريقة التي تتقرر لذلك ويكون لهذا الخزان مواسير على حدتها لتجديد
                الهواء ولا يجوز تركيب مواسير على الخزانات لتصريف النواد التي تزيد عن سعتها</p>
-            <p>ثالثا: تكون جميع المواسير
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>المجعولى<?oxy_custom_end?>
-               لنزول المواد والمتصلة بالادبخانات من ظهر متين وتكون مرتفعة عن سطح البيت ومفتوحة من
-               الأعلى لتجديد الهواء وتكون جميع لحاماتها مبرشمة ويجب ان توضع جميع المواسير خارج
-               الحيطان </p>
+            <p>ثالثا: تكون جميع المواسير المجعولة لنزول المواد والمتصلة بالادبخانات من ظهر متين
+               وتكون مرتفعة عن سطح البيت ومفتوحة من الأعلى لتجديد الهواء وتكون جميع لحاماتها مبرشمة
+               ويجب ان توضع جميع المواسير خارج الحيطان </p>
             <p>رابعا: يجعل لمياه الاستعمال المنزلية مواسير على حدتها ويجوز عمل خزانات بدون قاع اصم
                لمياه الاستعمال المنزلية والاسطبلات ولكن تكون هذه الخزانات خارج المباني</p>
             <p>خامسا : انه لاجل توصل الحكومة الى الوثوق من ان جميع الاشتراطات التي سلفت معمول بها
@@ -1906,13 +1898,12 @@
                الدقة والا يصير هدم ما بناه في أحال والزامه بالتعويضات </p>
             <p>(تاسعا)</p>
             <p>يتعهد المشترى بالبناء في مسافة غايتها سنتان من ابتداء التوقيع على عقد البيع بحيث انه
-               لدى انقضاء هذا الميعاد
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>يلز<?oxy_custom_end?>
-               ان يكون البناء كاملا وان باقي الأرض المباعة تجعل جنينة او تترك براحا بشرط انه في
-               الحالة الأخيرة يصير حفظ الأرض في حالة صحية وتسوية مسطحها جيدا واذا لو يقم المشترى
-               باتمام ذلك في الميعاد المذكور فللحكومة الحق لدى انقضائه وبدون عمل اى انذار ان تطالبه
-               بدفع مبلغ يوازى عشر الثمن الذى حصل الشراء به وذلك عن كل سنة من التاخير او عن كسور
-               السنة بصفة عطل واضرار الى ان يتم المشترى المباني المنصوص عنها انفا</p>
+               لدى انقضاء هذا الميعاد يلزم ان يكون البناء كاملا وان باقي الأرض المباعة تجعل جنينة او
+               تترك براحا بشرط انه في الحالة الأخيرة يصير حفظ الأرض في حالة صحية وتسوية مسطحها جيدا
+               واذا لم يقم المشترى باتمام ذلك في الميعاد المذكور فللحكومة الحق لدى انقضائه وبدون عمل
+               اى انذار ان تطالبه بدفع مبلغ يوازى عشر الثمن الذى حصل الشراء به وذلك عن كل سنة من
+               التاخير او عن كسور السنة بصفة عطل واضرار الى ان يتم المشترى المباني المنصوص عنها
+               انفا</p>
             <p>(عاشرا)</p>
             <p>هدم الأبنية التي تكون أقيمت او قفل المخازن أو الاسطبلات أو باقي المحلات التي تكون
                فتحت بحالة مخالفة للشروط المنوه عنها قبل يكون دائما بمصاريف على طرف صاحب الأرض واما
@@ -2091,11 +2082,9 @@
             <p>ثانيا: يلزم تصريف المواد في خزان اصم يجعل خارج البناء وذلك الى ان يعمل في هذه الجهة
                مجارى للتصريف بالطريقة التي تتقرر لذلك ويكون لهذا الخزان مواسير على حدتها لتجديد
                الهواء ولا يجوز تركيب مواسير على الخزانات لتصريف النواد التي تزيد عن سعتها</p>
-            <p>ثالثا: تكون جميع المواسير
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>المجعولى<?oxy_custom_end?>
-               لنزول المواد والمتصلة بالادبخانات من ظهر متين وتكون مرتفعة عن سطح البيت ومفتوحة من
-               الأعلى لتجديد الهواء وتكون جميع لحاماتها مبرشمة ويجب ان توضع جميع المواسير خارج
-               الحيطان </p>
+            <p>ثالثا: تكون جميع المواسير المجعولة لنزول المواد والمتصلة بالادبخانات من ظهر متين
+               وتكون مرتفعة عن سطح البيت ومفتوحة من الأعلى لتجديد الهواء وتكون جميع لحاماتها مبرشمة
+               ويجب ان توضع جميع المواسير خارج الحيطان </p>
             <p>رابعا: يجعل لمياه الاستعمال المنزلية مواسير على حدتها ويجوز عمل خزانات بدون قاع اصم
                لمياه الاستعمال المنزلية والاسطبلات ولكن تكون هذه الخزانات خارج المباني</p>
             <p>خامسا : انه لاجل توصل الحكومة الى الوثوق من ان جميع الاشتراطات التي سلفت معمول بها

@@ -1,202 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>"Digital Cairo - Urbanism News from al-Waqāʾiʿ al-Miṣrīyah - An Ottoman Arabic Digital Humanities
-          Project"</title>
-            <editor xml:id="eNK">Nour Kanaan</editor>
-            <editor xml:id="eAM">Adam Mestyan</editor>
-            <editor xml:id="eDY">Danah Younis</editor>
-            <editor xml:id="eSG">Sarah Fathallah Gaara</editor>
-            <editor xml:id="eAE">Arif Erbil</editor>
-            <editor xml:id="eAK">Ahmed Kamal</editor>
-            <editor xml:id="eAS">Abram Smith</editor>
-            <editor xml:id="eCH">Clara Harms</editor>
-            <editor xml:id="eHS">Hüseyin Sağlam</editor>
-            <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
-            <editor xml:id="eHL">Hiba Laabadli</editor>
-            <editor xml:id="eOE">Othmane Echchabi</editor>
-            <editor xml:id="eFA">Fatemah Almahana</editor>
-            <editor xml:id="eMZ">Mahmoud Zaki</editor>
-            <editor xml:id="eNS">Nehal al-Shamy</editor>
-            <editor xml:id="eVJ">Vishal Jammulapati</editor>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Hugh Cayless</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Adam Mestyan</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Mercedes Volait</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Sarah Fathallah Gaara</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Karima Nasr</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Rezk Nory</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Arif Erbil</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Ahmed Kamal</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Abram Smith</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Clara Harms</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Hüseyin Sağlam</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Abdulrahman El-Taliawi</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Hiba Laabadli</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Othmane Echchabi</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Fatemah Almahana</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Mahmoud Zaki</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Nehal al-Shamy</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Vishal Jammulapati</name>
-            </respStmt>
-            <sponsor>
-               <orgName>National Endowment for the Humanities</orgName>, <orgName>Institut français
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>"Urbanism News In The Official Egyptian Gazette (al-Waqāʾiʿ al-Miṣrīyah), 1828-1914 - An Ottoman Arabic
+          Digital Humanities Project"</title>
+        <editor xml:id="eHC" ref="https://orcid.org/0000-0003-0060-9396">Hugh Cayless</editor>
+        <editor xml:id="eNK" ref="https://orcid.org/0009-0008-0409-7328">Nour Kanaan</editor>
+        <editor xml:id="eAM" ref="https://orcid.org/0000-0002-5945-6147">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <editor xml:id="eSG" ref="https://orcid.org/0000-0002-1977-5530">Sarah Fathallah
+          Gaara</editor>
+        <editor xml:id="eAE" ref="https://orcid.org/0000-0001-9369-3034">Arif Erbil</editor>
+        <editor xml:id="eAK" ref="https://orcid.org/0000-0003-1721-1050">Ahmed Kamal</editor>
+        <editor xml:id="eAS" ref="https://orcid.org/0009-0004-9778-6632">Abram Smith</editor>
+        <editor xml:id="eCH">Clara Harms</editor>
+        <editor xml:id="eHS" ref="https://orcid.org/0000-0003-3003-1986">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT" ref="https://orcid.org/0009-0002-2083-9199">Abdulrahman
+          El-Taliawi</editor>
+        <editor xml:id="eHL">Hiba Laabadli</editor>
+        <editor xml:id="eOE" ref="https://orcid.org/0009-0002-9543-2617">Othmane Echchabi</editor>
+        <editor xml:id="eFA">Fatemah Almahana</editor>
+        <editor xml:id="eMZ">Mahmoud Zaki</editor>
+        <editor xml:id="eNS" ref="https://orcid.org/0009-0006-8785-0228">Nehal al-Shamy</editor>
+        <editor xml:id="eVJ" ref="https://orcid.org/0009-0004-4472-4120">Vishal Jammulapati</editor>
+        <respStmt>
+          <resp>Project co-director</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Primary Investigator</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0001-5239-7909">Project co-director</resp>
+          <name>Mercedes Volait</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Sarah Fathallah Gaara</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0003-1216-3686">Research Assistant</resp>
+          <name>Karima Nasr</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Rezk Nori</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Arif Erbil</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Ahmed Kamal</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abram Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Clara Harms</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hüseyin Sağlam</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abdulrahman El-Taliawi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hiba Laabadli</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Othmane Echchabi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Fatemah Almahana</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Mahmoud Zaki</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Nehal al-Shamy</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Vishal Jammulapati</name>
+        </respStmt>
+        <sponsor>
+          <orgName>National Endowment for the Humanities</orgName>, <orgName>Institut français
             d’archéologie orientale</orgName> (Ifao, Cairo); <orgName>Franklin Humanities Institute
             and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
             University</orgName>; <orgName>Duke University Libraries</orgName>; <orgName>Centre
             national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian
-            Cultural Counsellor in Cairo</orgName>. </sponsor>
-         </titleStmt>
-         <publicationStmt>
-            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the project "La fabrique
-          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-            <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
-            <p>
-               <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
-            </p>
-            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
-            Volait</persName>, <persName>Hugh Cayless</persName>
-            </p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Al-Waqāʾiʿ al-Miṣrīyah (Egyptian Affairs) newspaper, 1828–1914.</p>
-            <p>born digital document</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <projectDesc>
-            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
+            Cultural Counsellor in Cairo</orgName>.</sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <p>"A TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah, 1828-1914"</p>
+        <p> Created by the "Digital Cairo" project (Duke University - Ifao), sponsored by the National Endowment for the Humanities.</p>
+        <p>
+          <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
+        </p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+            Volait</persName>, <persName>Hugh Cayless</persName></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Al-Waqāʾiʿ al-Miṣrīyah (Egyptian Affairs) newspaper, 1828–1914.</p>
+        <p>born digital document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-            <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
-         </projectDesc>
-         <editorialDecl>
-            <p>Rules of TEI XML MarkUp in This Project</p>
-            <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+        <p>The "Digital Cairo" project is sponsored by the National Endowment for the Humanities.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Rules of TEI XML MarkUp in This Project</p>
+        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
           Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
-            <p>Each individual article has an individual xml:id number starting with "w1"</p>
-            <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
+        <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
           and notes.</p>
-            <p>If the location or organization of responsibility is known from the text, it can be added
+        <p>If the location or organization of responsibility is known from the text, it can be added
           in an attribute to a persName.</p>
-            <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
             Editions</ref>.</p>
-         </editorialDecl>
-         <charDecl>
-            <char xml:id="qhalf">
-               <localProp value="QIRMA FRACTION 1/2" name="name"/>
-               <unicodeProp value="1/2" name="Numeric_Value"/>
-               <mapping type="similar">𐋢</mapping>
-               <figure>
-                  <graphic url="../../docs/images/qhalf.svg"/>
-               </figure>
-            </char>
-            <char xml:id="qthird">
-               <localProp value="QIRMA FRACTION 1/3" name="name"/>
-               <unicodeProp value="1/3" name="Numeric_Value"/>
-               <figure>
-                  <graphic url="../../docs/images/qthird.svg"/>
-               </figure>
-            </char>
-            <char xml:id="qfourth">
-               <localProp value="QIRMA FRACTION 1/4" name="name"/>
-               <unicodeProp value="1/4" name="Numeric_Value"/>
-               <figure>
-                  <graphic url="../../docs/images/qfourth.svg"/>
-               </figure>
-            </char>
-            <char xml:id="qsixth">
-               <localProp value="QIRMA FRACTION 1/6" name="name"/>
-               <unicodeProp value="1/6" name="Numeric_Value"/>
-               <figure>
-                  <graphic url="../../docs/images/qsixth.svg"/>
-               </figure>
-            </char>
-            <char xml:id="qeighth">
-               <localProp value="QIRMA FRACTION 1/8" name="name"/>
-               <unicodeProp value="1/8" name="Numeric_Value"/>
-               <mapping type="similar">𐋤</mapping>
-               <figure>
-                  <graphic url="../../docs/images/qeighth.svg"/>
-               </figure>
-            </char>
-            <char xml:id="qtwothirds">
-               <localProp value="QIRMA FRACTION 2/3" name="name"/>
-               <unicodeProp value="2/3" name="Numeric_Value"/>
-               <figure>
-                  <graphic url="../../docs/images/qtwothirds.svg"/>
-               </figure>
-            </char>
-         </charDecl>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="ar">Arabic</language>
-            <language ident="en">English</language>
-            <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
-            <language ident="ota">Ottoman</language>
-         </langUsage>
-      </profileDesc>
-      <revisionDesc>
+      </editorialDecl>
+      <charDecl>
+        <char xml:id="qhalf">
+          <localProp value="QIRMA FRACTION 1/2" name="name"/>
+          <unicodeProp value="1/2" name="Numeric_Value"/>
+          <mapping type="similar">𐋢</mapping>
+          <figure>
+            <graphic url="../../docs/images/qhalf.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qthird">
+          <localProp value="QIRMA FRACTION 1/3" name="name"/>
+          <unicodeProp value="1/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qthird.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qfourth">
+          <localProp value="QIRMA FRACTION 1/4" name="name"/>
+          <unicodeProp value="1/4" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qfourth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qsixth">
+          <localProp value="QIRMA FRACTION 1/6" name="name"/>
+          <unicodeProp value="1/6" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qsixth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qeighth">
+          <localProp value="QIRMA FRACTION 1/8" name="name"/>
+          <unicodeProp value="1/8" name="Numeric_Value"/>
+          <mapping type="similar">𐋤</mapping>
+          <figure>
+            <graphic url="../../docs/images/qeighth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qtwothirds">
+          <localProp value="QIRMA FRACTION 2/3" name="name"/>
+          <unicodeProp value="2/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qtwothirds.svg"/>
+          </figure>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+        <language ident="ota">Ottoman</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
          <listChange>
             <change/>
          </listChange>
       </revisionDesc>
-   </teiHeader>
-   <text xml:lang="ar">
+  </teiHeader>
+  
+  <text xml:lang="ar">
       <body>
          <div resp="#eAK" xml:id="v256">
             <head>::::::::::::::::::::::</head>
@@ -211,10 +213,9 @@
                التي أدخلت في تنظيم جملة شوارع ومن ضمنها <placeName ref="عطفة الحطابي" type="عطفة">عطفة الحطابي</placeName> بمدينة القاهرة حسب رسم التنظيم نمرة ٥٥٣ المعتمد من نظارة
                الاشغال العمومية بتاريخ ٢٣ يونيه ١٨٨٦ ومدرج بالكشف حرف (أ) احد الكشوفة المرفقة بالامر
                العالى المشار اليه.</p>
-            <p>وحيث ان من ضمن أجزاء الأملاك المذكورة
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>جزرا<?oxy_custom_end?>
-               تبلغ مساحته ١٧.٤٨ مترا تعلق <persName>عبدالاله بك مدكور</persName> وشركاه ولم يتيسر
-               الاتفاق معهم حبيا على ثمنه وعين خبير من قبل <orgName ref="محكمة مصر الابتدائية الاهلية" type="محكمة"><placeName ref="محكمة مصر الابتدائية الاهلية" type="محكمة">محكمة مصر الابتدائية
+            <p>وحيث ان من ضمن أجزاء الأملاك المذكورة جزأ تبلغ مساحته ١٧.٤٨ مترا تعلق
+                  <persName>عبدالاله بك مدكور</persName> وشركاه ولم يتيسر الاتفاق معهم حبيا على ثمنه
+               وعين خبير من قبل <orgName ref="محكمة مصر الابتدائية الاهلية" type="محكمة"><placeName ref="محكمة مصر الابتدائية الاهلية" type="محكمة">محكمة مصر الابتدائية
                      الاهلية</placeName></orgName> وثمنه بمبلغ ١٧ جنيها و ٤٨٠ مليم واودع الثمن
                بخزينة تلك المحكمة بموجب محضر إيداع وعلم خبر نمرة ٧ بتاريخ ٣ يناير ١٩١٠</p>
             <p>فبناء على ذلك وعلى المادة الثامنة عشر من قانون نزع الملكية نمرة ٥ الصادر بتاريخ ٢٤
@@ -271,9 +272,8 @@
             <p>تعتمد التعديلات التي أدخلت على خطوط التنظيم في رسوم الطرق العامة المبينة في الكشف حرف
                (ب) الملحق بامرنا هذا</p>
             <p>(المادة الثالثة)</p>
-            <p>تعتمد الخطوط التي تقررت في رسوم الطرق العامة المبينة ف الكشف حرف
-               (ج)<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الملجق<?oxy_custom_end?>
-               بامرنا هذا</p>
+            <p>تعتمد الخطوط التي تقررت في رسوم الطرق العامة المبينة ف الكشف حرف (ج) الملحق بامرنا
+               هذا</p>
             <p>صدر ب<orgName ref="سراى عابدين" type="سراى"><placeName ref="سراى عابدين" type="سراى">سراى عابدين</placeName></orgName> ٢٧ يناير ١٩١٠</p>
          </div>
          <div>
@@ -294,9 +294,8 @@
                   <cell>٩٩٣</cell>
                   <cell>١١ نوفمبر ١٩٠٩</cell>
                   <cell>
-                     <p>الغاء الخطوط المدلول عليها بالحروف BA. FGHIA. EF.BCDE من <placeName ref="شارع ساحل الغلال" type="شارع">شارع ساحل
-                           <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الغال<?oxy_custom_end?></placeName>
-                        ومن <placeName ref="شارع ابوالعلا" type="شارع">شارع ابوالعلا</placeName> ومن
+                     <p>الغاء الخطوط المدلول عليها بالحروف BA. FGHIA. EF.BCDE من <placeName ref="شارع ساحل الغلال" type="شارع">شارع ساحل الغلال</placeName> ومن
+                           <placeName ref="شارع ابوالعلا" type="شارع">شارع ابوالعلا</placeName> ومن
                         الطرقة الموصلة للبحر من شارع ساحل الغلال وادخال العقارات المبينة على الرسم
                         باللون الأصفر في توسيع ذلك الشارع</p>
                      <p>(ملحوظة:</p>
@@ -320,9 +319,7 @@
                   و<placeName ref="عزبة السودانية" type="عزبة">عزبة السودانية</placeName>
                   و<placeName ref="ميدان الحربية" type="ميدان">ميدان الحربية</placeName> بمدينة
                القاهرة حسب خريطة التقسيم نمرة ١٢٧٥ المعتمدة من نظارة الاشغال العمومية بتاريخ ٦ ماو
-               ١٩٠٨ ومدرج بالكشف حرف (د) احد
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الكشوفة<?oxy_custom_end?>
-               المرفقة بالامر العالى المشار اليه </p>
+               ١٩٠٨ ومدرج بالكشف حرف (د) احد الكشوف المرفقة بالامر العالى المشار اليه </p>
             <p>وحيث ان من ضمن أجزاء الأملاك المذكورة دكانين احدهما ملك <persName>حسنين
                   حلاوة</persName> مساحته ١٥.١٠ مترا والأخر ملك <persName>إبراهيم سليمان</persName>
                مساحته ١٥.١٢ مترا لم يتيسر الاتفاق على ثمنهما حبيا وعين خبير من قبل <orgName ref="محكمة مصر الابتدائية الاهلية" type="محكمة"><placeName ref="محكمة مصر الابتدائية الاهلية" type="محكمة">محكمة مصر الابتدائية
@@ -353,10 +350,8 @@
                   كورجى</persName> لم يتيسر الاتفاق على ثمنه حبيا وعين خبير من قبل <placeName ref="محكمة مصر الابتدائية المختلطة" type="محكمة"><orgName ref="محكمة مصر الابتدائية المختلطة" type="محكمة">محكمة مصر الابتدائية
                      المختلطة</orgName></placeName> وثمنه بمبلغ ١٣٧ جنيه و١١٢ مليم واودع هذا المبلغ
                بخزينة تلك المحكمة بموجب محضر إيداع بتاريخ ١٠ يناير ١٩١٠</p>
-            <p>فبناء
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>عبى<?oxy_custom_end?>
-               ذلك وعلى المادة الثامنة عشرة من قانون نزع الملكية نمرة ٢٧ الصادر بتاريخ ٢٤ ديسمبر
-               ١٩٠٦</p>
+            <p>فبناء على ذلك وعلى المادة الثامنة عشرة من قانون نزع الملكية نمرة ٢٧ الصادر بتاريخ ٢٤
+               ديسمبر ١٩٠٦</p>
             <p>قررنا ما هو ات</p>
             <p>تستولى <orgName ref="محافظة مصر" type="محافظة">محافظة مصر</orgName> على الجزء المذكور
                أعلاه وتسلمه ل<orgName ref="ادارة تنظم مصر" type="ادارة">ادارة تنظم مصر</orgName>
@@ -367,19 +362,16 @@
          </div>
          <div>
             <head><rs type="قرار">قرار</rs> من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال العمومية</orgName> بتاريخ ٦ فبراير ١٩١٠ نمرة ٧ إدارة</head>
-            <p>بعد الاطلاع على الامر العالى الصادر بتاريخ ١٣ سبتمبر ١٩٠٩ بنزع ملكية قطعة
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ار<?oxy_custom_end?>
-               يبلغ مسطحها ٨٣.٧١ مترا من الست <persName>نظلة بنت المرحوم <persName>الشيخ إبراهيم
+            <p>بعد الاطلاع على الامر العالى الصادر بتاريخ ١٣ سبتمبر ١٩٠٩ بنزع ملكية قطعة ارض يبلغ
+               مسطحها ٨٣.٧١ مترا من الست <persName>نظلة بنت المرحوم <persName>الشيخ إبراهيم
                      القطب</persName></persName> لتنظيم <placeName ref="شارعي الخلوتى">شارعي
                   الخلوتى</placeName> و<placeName ref="شارع الخليج المصري" type="شارع">الخليج
                   المصري</placeName></p>
             <p>وحيث انه لم يتيسر الاتفاق على ثمن القطعة المذكورة وعين خبير من قبل <orgName ref="محكمة مصر الابتدائية الاهلية" type="محكمة"><placeName ref="محكمة مصر الابتدائية الاهلية" type="محكمة">محكمة مصر الابتدائية
                      الاهلية</placeName></orgName> وثمنها بمبلغ ٢٩٢ جنيه و٩٨٥ مليم ومع ان نظارة
                الاشغال العمومية ستعارض في هذا الثمن نظرا لارتفاعه عن حد القيمة الا انه لاحتياج إدارة
-               تنظيم
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>مر<?oxy_custom_end?>
-               للاستيلاء على القطعة المذكورة في اقرب وقت قد اودعت الثمن بخزينة تلك المحكمة بموجب
-               محضر إيداع في ٢٥ يناير ١٩١٠ بشرط ان لا يصرف الا بعد الحكم في المعارضه </p>
+               تنظيم مصر للاستيلاء على القطعة المذكورة في اقرب وقت قد اودعت الثمن بخزينة تلك المحكمة
+               بموجب محضر إيداع في ٢٥ يناير ١٩١٠ بشرط ان لا يصرف الا بعد الحكم في المعارضه </p>
             <p>فبناء على المادة الثامنه عشرة من قانون نزع الملكية نمرة ٥ الصادر في ٢٤ ابريل ١٩٠٧ </p>
             <p>قررنا ما هو ات </p>
             <p>تستولى <orgName ref="محافظة مصر" type="محافظة">محافظة مصر</orgName> على القطعة الأرض
@@ -460,9 +452,7 @@
                </item>
                <item>
                   <hi style="font-size:14ptdirection:rtl;">يسري مفعول هذا القرار بعد نشره بالجريدة
-                     الرسمية
-                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>يخمسة<?oxy_custom_end?>
-                     أيام</hi>
+                     الرسمية بخمسة أيام</hi>
                </item>
             </list>
          </div>
@@ -510,10 +500,7 @@
                      عابدين</orgName></placeName>)</p>
             <p><placeName ref="ميدان الازهار" type="ميدان">ميدان الازهار</placeName></p>
             <p><placeName ref="شارع كوبري قصر النيل" type="شارع">شارع <orgName ref="كوبري قصر النيل" type="كوبري"><placeName ref="كوبري قصر النيل" type="كوبري">كوبري قصر
-                        النيل</placeName></orgName></placeName> من
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>مدان<?oxy_custom_end?>
-               الازهار الى <placeName ref="ميدان الإسماعيلية" type="ميدان">ميدان
-                  الإسماعيلية</placeName>
+                        النيل</placeName></orgName></placeName> من ميدان الازهار الى <placeName ref="ميدان الإسماعيلية" type="ميدان">ميدان الإسماعيلية</placeName>
             </p>
             <p><placeName ref="شارع البستان" type="شارع">شارع البستان</placeName> من ميدان الازهار
                الى <placeName ref="ميدان ماريت باشا" type="ميدان">ميدان ماريت باشا</placeName>
@@ -722,7 +709,7 @@
                   <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع مدرسة ولى العهد" type="شارع">شارع <orgName ref="مدرسة ولى العهد" type="مدرسة"><placeName ref="مدرسة ولى العهد" type="مدرسة">مدرسة ولى العهد</placeName></orgName></placeName></hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع حسني بك" type="شارع">شارع حسني بك</placeName> <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>كم <?oxy_custom_end?><placeName ref="شارع عباس" type="شارع">شارع عباس</placeName> الى <placeName ref="شارع ناصر" type="شارع">شارع ناصر</placeName></hi>
+                  <hi style="font-size:14ptdirection:rtl;" xml:space="preserve"><placeName ref="شارع حسني بك" type="شارع">شارع حسني بك</placeName> من <placeName ref="شارع عباس" type="شارع">شارع عباس</placeName> الى <placeName ref="شارع ناصر" type="شارع">شارع ناصر</placeName></hi>
                </item>
                <item>
                   <hi style="font-size:14ptdirection:rtl;"><placeName ref="شارع المنافيخي" type="شارع">شارع المنافيخي</placeName></hi>
@@ -1056,7 +1043,7 @@
             <head><rs type="قرار">قرار</rs> من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال العمومية</orgName></head>
             <head>٢٩ مارس ١٩١٠ نمرة ١٧ إدارة</head>
             <p>بعد الاطلاع على الامر العالى الصادر بتاريخ ٢٧ ابريل ١٨٨٧ بنزع ملكية أجزاء الأملاك
-               التي أدخلت في جملة شوارع ومن ضمنها <placeName ref="حارة الجبروني"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>حرة<?oxy_custom_end?>
+               التي أدخلت في جملة شوارع ومن ضمنها <placeName ref="حارة الجبروني">حارة
                   الجبروني</placeName> بمدينة القاهرة المعمول عنها رسم التنظيم نمرة ٦٢٨ المعتمد من
                نظارة الاشغال العمومية بتاريخ ٢٣ فبراير ١٨٨٧ ومدرجة بالكشف حرف (أ) احد الكشوفه
                المرفقة بالامر العالى المشار اليه </p>
@@ -1086,8 +1073,7 @@
                التي أدخلت في جملة شوارع ومن ضمنها <placeName ref="حارة زويلة" type="حارة">حارة
                   زويلة</placeName> بمدينة القاهرة المعمول عنها رسم التنظيم نمرة ٧٥٤ المعتمد من
                نظارة الاشغال العمومية بتاريخ ١٨ يوليه ١٨٨٧ ومدرجه بالكشف حرف (أ) احد الكشوفة المرفقة
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>بالمر<?oxy_custom_end?>
-               العالى المشار اليه </p>
+               بالامر العالى المشار اليه </p>
             <p>وحيث من ضمن أجزاء الأملاك المذكورة جزء تبلغ مساحته ٣٢.٤١ مترا من محل المدرسة التابعة
                لوقف <orgName ref="بطركخانة الاقباط الأرثوذكس" type="بطركخانة">بطركخانة الاقباط
                   الأرثوذكس</orgName> لم يتيسر الاتفاق معها حبيا على ثمنه وعين خبير من قبل
@@ -1137,11 +1123,11 @@
                   <biblScope unit="issue">ص ١٠٨٣</biblScope></bibl></head>
             <head><rs type="قرار">قرار</rs> من <orgName ref="نظارة الاشغال العمومية" type="نظارة">نظارة الاشغال العمومية</orgName></head>
             <head>٣١ مارس ١٩١٠ نمرة ٢٠ إدارة</head>
-            <p> بعد الاطلاع على الامر العالى الصادر بتاريخ ١٧ يوليه ١٩٠٦ باعتبار جملة شوارع <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>بجهو<?oxy_custom_end?>
-               <placeName ref="حمامات القبة">حمامات القبة</placeName> من المنافع العمومية ونزع ملكية
-               الأملاك اللازمة لها حسب خريطة التنظم نمرة ١١٤٧ المعتمد من نظارة الاشغال العمومية
-               بتاريخ ٢٤ مارس ١٨٨٩ ومدرجة بالكشف حرف (ج) احد الكشوفة المرفقة بالامر العالى المشار
-               اليه</p>
+            <p> بعد الاطلاع على الامر العالى الصادر بتاريخ ١٧ يوليه ١٩٠٦ باعتبار جملة شوارع بجهة
+                  <placeName ref="حمامات القبة">حمامات القبة</placeName> من المنافع العمومية ونزع
+               ملكية الأملاك اللازمة لها حسب خريطة التنظم نمرة ١١٤٧ المعتمد من نظارة الاشغال
+               العمومية بتاريخ ٢٤ مارس ١٨٨٩ ومدرجة بالكشف حرف (ج) احد الكشوفة المرفقة بالامر العالى
+               المشار اليه</p>
             <p>وحيث من ضمن أجزاء الأملاك المذكورة جزاءن تبلغ مساحتهما ٧٤٤.٥٨ مترا من قطعتى الأرض
                نمرة ٣٠ ونمرة ٣١ ملك <persName>حسين بك يونس بن شعبان</persName> لم يتيسر الاتفاق معه
                حبيا على ثمنهما وعين خبير من قبل <placeName ref="محكمة مصر الاهلية" type="محكمة"><orgName ref="محكمة مصر الاهلية" type="محكمة">محكمة مصر
@@ -1194,10 +1180,9 @@
             <p>بعد الاطلاع على المادة العاشرة من لائحة التنظيم المرقومة في ٨ سبتمبر ١٨٨٩ وهذا نصها
                :</p>
             <p>" مجرد الإقرار على رسم خط التنظيم من ناظر الاشغال العمومية وصدور امر عال باعتماده
-               يسوغان للحكومة ان تأخذ شيئا فشيئا وبالطرق القانونية الأراضي
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>المبينبالرسم<?oxy_custom_end?>
-               لزومها لانشاء الشوارع المعمول عنها الرسم المذكور ومن تاريخ صدور الامر العالى المشار
-               اليه لا يجوز إقامة أي بناء على الأرض اللازم نزع ملكيتها" </p>
+               يسوغان للحكومة ان تأخذ شيئا فشيئا وبالطرق القانونية الأراضي المبين بالرسم لزومها
+               لانشاء الشوارع المعمول عنها الرسم المذكور ومن تاريخ صدور الامر العالى المشار اليه لا
+               يجوز إقامة أي بناء على الأرض اللازم نزع ملكيتها" </p>
             <p>وبناء على ما عرضه علينا ناظر الاشغال العمومية، وموافقة راي <orgName ref="مجلس النظار" type="مجلس">مجلس النظار</orgName>
             </p>
             <p>أمرنا بما هو ات </p>
@@ -1213,9 +1198,9 @@
                المنافع العامة وهى شوارع تنازل حضرة <persName>ادريس بك راغب</persName> عن ارضها ثم
                وتسمي ب<placeName ref="شارع راغب باشا" type="شارع">شارع راغب باشا</placeName>
                   و<placeName ref="شارع امين الدولة" type="شارع">شارع امين الدولة</placeName>
-                  و<placeName ref="شارع عز الدين" type="شارع">شارع عز الدين</placeName> و<placeName ref="شارع ابن الغنام" type="شارع">شارع ابن الغنام</placeName> و<placeName ref="شارع ادريس ابن حاورة المير ركن الدين" type="شارع">شارع ادريس ابن
-                  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>حاورة المير
-                  <?oxy_custom_end?>ركن الدين</placeName> و<placeName ref="سكة القنطرة" type="سكة">سكة القنطرة</placeName>
+                  و<placeName ref="شارع عز الدين" type="شارع">شارع عز الدين</placeName> و<placeName ref="شارع ابن الغنام" type="شارع">شارع ابن الغنام</placeName> و<placeName ref="شارع ادريس ابن حاورة المير ركن الدين" type="شارع">شارع ادريس ابن حاورة الامير
+                  ركن الدين</placeName> و<placeName ref="سكة القنطرة" type="سكة">سكة
+                  القنطرة</placeName>
             </p>
             <p>(المادة الرابعة)</p>
             <p>على ناظر الاشغال العمومية تنفيذ امرنا هذا </p>
@@ -1402,9 +1387,7 @@
                   <cell>الدكان</cell>
                   <cell>٠٠</cell>
                   <cell>٤</cell>
-                  <cell>دكان ملك الحكومة كائن بكفر الطماعين
-                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الجزانى<?oxy_custom_end?>
-                     بقسم الجمالية</cell>
+                  <cell>دكان ملك الحكومة كائن بكفر الطماعين الجوانى بقسم الجمالية</cell>
                </row>
                <row>
                   <cell>٠٠</cell>
@@ -1413,9 +1396,7 @@
                   <cell>الدكان</cell>
                   <cell>٤٠٠</cell>
                   <cell>٢</cell>
-                  <cell>دكان ملك الحكومة كائن بكفر الطماعين
-                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الجزانى<?oxy_custom_end?>
-                     بقسم الجمالية</cell>
+                  <cell>دكان ملك الحكومة كائن بكفر الطماعين الجوانى بقسم الجمالية</cell>
                </row>
             </table>
             <p>::::::::::::::::::::::::</p>
@@ -1462,15 +1443,13 @@
                أدخلت في جملة شوارع ومن ضمنها <placeName ref="شارع الخليج المصري" type="شارع">شارع
                   الخليج المصري</placeName> ب<orgName ref="قسم باب الشعرية" type="قسم"><placeName ref="قسم باب الشعرية" type="قسم">قسم باب الشعرية</placeName></orgName> حسب رسم
                التنظيم نمرة ١٠٦٩ المعتمد من نظارة الاشغال بتاريخ ١٣ يناير ١٨٨٩ ومدرج في الكشف حرف
-               (أ) احد الكشوفة المرفقة
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>بالمر<?oxy_custom_end?>
-               العالى المشار اليه </p>
+               (أ) احد الكشوفة المرفقة بالامر العالى المشار اليه </p>
             <p>وحيث ان من ضمن أجزاء الأملاك التي أدخلت بشارع الخليج جزا تبلغ مساحته ١١.٥٥ مترا من
                   <placeName ref="منزل الست نفيسه بنت إبراهيم" type="منزل">منزل</placeName>
                <persName>الست نفيسه بنت إبراهيم</persName> لم يتيسر الاتفاق معها حبيا على ثمنه وعين
                خبير من قبل <orgName ref="محكمة مصر الابتدائية الاهلية" type="محكمة"><placeName ref="محكمة مصر الابتدائية الاهلية" type="محكمة">محكمة مصر الابتدائية
                      الاهلية</placeName></orgName> وثمنه بمبلغ ٢٣ جنيها و ١٠٠ مليم
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>زازدع<?oxy_custom_end?>
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>اودع<?oxy_custom_end?>
                بخزينة تلك المحكمة بموجب شهادة إيداع بتاريخ ١٣ ابريل ١٩١٠</p>
             <p>فبعد الاطلاع على الشهادة المذكورة والمادة الثامنة عشرة من قانون نزع الملكية نمرة ٥
                الصادر بتاريخ ٢٤ ابريل ١٩٠٧</p>
@@ -2075,11 +2054,9 @@
             <head><orgName ref="ديوان عموم الأوقاف" type="ديوان">ديوان عموم الأوقاف</orgName></head>
             <p>يعلن العموم انه سيشهر في ال<rs type="مزاد">مزاد</rs> بيع الاعيان المبينة ومقاساتها
                واثمانها الأساسية بعد امام لجان تعقد بمراكزه الفرعية في الأيام المعينة بعد من الساعه
-               ٩ الى الساعه ١٢ صباحا ومن ٢ الى ٤ بعد الظهر فمن يرغب في شراء
-               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>سئ<?oxy_custom_end?>
-               منها فليتوجه هو او من ينوب عنه في المواقيت المحددة للتزايد بعد اطلاعه على قائمة شروط
-               المزاد ودفع تامين بواقع المائة ٢٠ من الثمن الأساسي ومن يتاخر عن هذه المواعيد يعتبر
-               تاخيره كف يد</p>
+               ٩ الى الساعه ١٢ صباحا ومن ٢ الى ٤ بعد الظهر فمن يرغب في شراء شئ منها فليتوجه هو او من
+               ينوب عنه في المواقيت المحددة للتزايد بعد اطلاعه على قائمة شروط المزاد ودفع تامين
+               بواقع المائة ٢٠ من الثمن الأساسي ومن يتاخر عن هذه المواعيد يعتبر تاخيره كف يد</p>
             <p>( عقار جلسة مزاده يوم ٣ ديسمبر ١٩١٠ ب<placeName ref="مامورية اوقاف قسم اول بالغورية" type="مامورية"><orgName ref="مامورية اوقاف قسم اول بالغورية" type="مامورية">مامورية اوقاف قسم اول ب<placeName ref="الغورية">الغورية</placeName></orgName></placeName> بمصر)</p>
          </div>
          <div>

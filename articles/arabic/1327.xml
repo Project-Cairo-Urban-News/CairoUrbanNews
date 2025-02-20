@@ -1,202 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>"Digital Cairo - Urbanism News from al-Waqāʾiʿ al-Miṣrīyah - An Ottoman Arabic Digital Humanities
-          Project"</title>
-            <editor xml:id="eNK">Nour Kanaan</editor>
-            <editor xml:id="eAM">Adam Mestyan</editor>
-            <editor xml:id="eDY">Danah Younis</editor>
-            <editor xml:id="eSG">Sarah Fathallah Gaara</editor>
-            <editor xml:id="eAE">Arif Erbil</editor>
-            <editor xml:id="eAK">Ahmed Kamal</editor>
-            <editor xml:id="eAS">Abram Smith</editor>
-            <editor xml:id="eCH">Clara Harms</editor>
-            <editor xml:id="eHS">Hüseyin Sağlam</editor>
-            <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
-            <editor xml:id="eHL">Hiba Laabadli</editor>
-            <editor xml:id="eOE">Othmane Echchabi</editor>
-            <editor xml:id="eFA">Fatemah Almahana</editor>
-            <editor xml:id="eMZ">Mahmoud Zaki</editor>
-            <editor xml:id="eNS">Nehal al-Shamy</editor>
-            <editor xml:id="eVJ">Vishal Jammulapati</editor>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Hugh Cayless</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Adam Mestyan</name>
-            </respStmt>
-            <respStmt>
-               <resp>Project leader</resp>
-               <name>Mercedes Volait</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Sarah Fathallah Gaara</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Karima Nasr</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Rezk Nory</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Arif Erbil</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Ahmed Kamal</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Abram Smith</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Clara Harms</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Hüseyin Sağlam</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Abdulrahman El-Taliawi</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Hiba Laabadli</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Othmane Echchabi</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Fatemah Almahana</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Mahmoud Zaki</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Nehal al-Shamy</name>
-            </respStmt>
-            <respStmt>
-               <resp>Research Assistant</resp>
-               <name>Vishal Jammulapati</name>
-            </respStmt>
-            <sponsor>
-               <orgName>National Endowment for the Humanities</orgName>, <orgName>Institut français
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>"Urbanism News In The Official Egyptian Gazette (al-Waqāʾiʿ al-Miṣrīyah), 1828-1914 - An Ottoman Arabic
+          Digital Humanities Project"</title>
+        <editor xml:id="eHC" ref="https://orcid.org/0000-0003-0060-9396">Hugh Cayless</editor>
+        <editor xml:id="eNK" ref="https://orcid.org/0009-0008-0409-7328">Nour Kanaan</editor>
+        <editor xml:id="eAM" ref="https://orcid.org/0000-0002-5945-6147">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <editor xml:id="eSG" ref="https://orcid.org/0000-0002-1977-5530">Sarah Fathallah
+          Gaara</editor>
+        <editor xml:id="eAE" ref="https://orcid.org/0000-0001-9369-3034">Arif Erbil</editor>
+        <editor xml:id="eAK" ref="https://orcid.org/0000-0003-1721-1050">Ahmed Kamal</editor>
+        <editor xml:id="eAS" ref="https://orcid.org/0009-0004-9778-6632">Abram Smith</editor>
+        <editor xml:id="eCH">Clara Harms</editor>
+        <editor xml:id="eHS" ref="https://orcid.org/0000-0003-3003-1986">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT" ref="https://orcid.org/0009-0002-2083-9199">Abdulrahman
+          El-Taliawi</editor>
+        <editor xml:id="eHL">Hiba Laabadli</editor>
+        <editor xml:id="eOE" ref="https://orcid.org/0009-0002-9543-2617">Othmane Echchabi</editor>
+        <editor xml:id="eFA">Fatemah Almahana</editor>
+        <editor xml:id="eMZ">Mahmoud Zaki</editor>
+        <editor xml:id="eNS" ref="https://orcid.org/0009-0006-8785-0228">Nehal al-Shamy</editor>
+        <editor xml:id="eVJ" ref="https://orcid.org/0009-0004-4472-4120">Vishal Jammulapati</editor>
+        <respStmt>
+          <resp>Project co-director</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Primary Investigator</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0001-5239-7909">Project co-director</resp>
+          <name>Mercedes Volait</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Sarah Fathallah Gaara</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0003-1216-3686">Research Assistant</resp>
+          <name>Karima Nasr</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Rezk Nori</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Arif Erbil</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Ahmed Kamal</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abram Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Clara Harms</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hüseyin Sağlam</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abdulrahman El-Taliawi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hiba Laabadli</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Othmane Echchabi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Fatemah Almahana</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Mahmoud Zaki</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Nehal al-Shamy</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Vishal Jammulapati</name>
+        </respStmt>
+        <sponsor>
+          <orgName>National Endowment for the Humanities</orgName>, <orgName>Institut français
             d’archéologie orientale</orgName> (Ifao, Cairo); <orgName>Franklin Humanities Institute
             and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
             University</orgName>; <orgName>Duke University Libraries</orgName>; <orgName>Centre
             national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian
-            Cultural Counsellor in Cairo</orgName>. </sponsor>
-         </titleStmt>
-         <publicationStmt>
-            <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the project "La fabrique
-          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-            <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
-            <p>
-               <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
-            </p>
-            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
-            Volait</persName>, <persName>Hugh Cayless</persName>
-            </p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Al-Waqāʾiʿ al-Miṣrīyah (Egyptian Affairs) newspaper, 1828–1914.</p>
-            <p>born digital document</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <projectDesc>
-            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
+            Cultural Counsellor in Cairo</orgName>.</sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <p>"A TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah, 1828-1914"</p>
+        <p> Created by the "Digital Cairo" project (Duke University - Ifao), sponsored by the National Endowment for the Humanities.</p>
+        <p>
+          <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
+        </p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+            Volait</persName>, <persName>Hugh Cayless</persName></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Al-Waqāʾiʿ al-Miṣrīyah (Egyptian Affairs) newspaper, 1828–1914.</p>
+        <p>born digital document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-            <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
-         </projectDesc>
-         <editorialDecl>
-            <p>Rules of TEI XML MarkUp in This Project</p>
-            <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+        <p>The "Digital Cairo" project is sponsored by the National Endowment for the Humanities.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Rules of TEI XML MarkUp in This Project</p>
+        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
           Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
-            <p>Each individual article has an individual xml:id number starting with "w1"</p>
-            <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
+        <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
           and notes.</p>
-            <p>If the location or organization of responsibility is known from the text, it can be added
+        <p>If the location or organization of responsibility is known from the text, it can be added
           in an attribute to a persName.</p>
-            <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
-            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
             Editions</ref>.</p>
-         </editorialDecl>
-         <charDecl>
-            <char xml:id="qhalf">
-               <localProp value="QIRMA FRACTION 1/2" name="name"/>
-               <unicodeProp value="1/2" name="Numeric_Value"/>
-               <mapping type="similar">𐋢</mapping>
-               <figure>
-                  <graphic url="../../docs/images/qhalf.svg"/>
-               </figure>
-            </char>
-            <char xml:id="qthird">
-               <localProp value="QIRMA FRACTION 1/3" name="name"/>
-               <unicodeProp value="1/3" name="Numeric_Value"/>
-               <figure>
-                  <graphic url="../../docs/images/qthird.svg"/>
-               </figure>
-            </char>
-            <char xml:id="qfourth">
-               <localProp value="QIRMA FRACTION 1/4" name="name"/>
-               <unicodeProp value="1/4" name="Numeric_Value"/>
-               <figure>
-                  <graphic url="../../docs/images/qfourth.svg"/>
-               </figure>
-            </char>
-            <char xml:id="qsixth">
-               <localProp value="QIRMA FRACTION 1/6" name="name"/>
-               <unicodeProp value="1/6" name="Numeric_Value"/>
-               <figure>
-                  <graphic url="../../docs/images/qsixth.svg"/>
-               </figure>
-            </char>
-            <char xml:id="qeighth">
-               <localProp value="QIRMA FRACTION 1/8" name="name"/>
-               <unicodeProp value="1/8" name="Numeric_Value"/>
-               <mapping type="similar">𐋤</mapping>
-               <figure>
-                  <graphic url="../../docs/images/qeighth.svg"/>
-               </figure>
-            </char>
-            <char xml:id="qtwothirds">
-               <localProp value="QIRMA FRACTION 2/3" name="name"/>
-               <unicodeProp value="2/3" name="Numeric_Value"/>
-               <figure>
-                  <graphic url="../../docs/images/qtwothirds.svg"/>
-               </figure>
-            </char>
-         </charDecl>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="ar">Arabic</language>
-            <language ident="en">English</language>
-            <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
-            <language ident="ota">Ottoman</language>
-         </langUsage>
-      </profileDesc>
-      <revisionDesc>
+      </editorialDecl>
+      <charDecl>
+        <char xml:id="qhalf">
+          <localProp value="QIRMA FRACTION 1/2" name="name"/>
+          <unicodeProp value="1/2" name="Numeric_Value"/>
+          <mapping type="similar">𐋢</mapping>
+          <figure>
+            <graphic url="../../docs/images/qhalf.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qthird">
+          <localProp value="QIRMA FRACTION 1/3" name="name"/>
+          <unicodeProp value="1/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qthird.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qfourth">
+          <localProp value="QIRMA FRACTION 1/4" name="name"/>
+          <unicodeProp value="1/4" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qfourth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qsixth">
+          <localProp value="QIRMA FRACTION 1/6" name="name"/>
+          <unicodeProp value="1/6" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qsixth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qeighth">
+          <localProp value="QIRMA FRACTION 1/8" name="name"/>
+          <unicodeProp value="1/8" name="Numeric_Value"/>
+          <mapping type="similar">𐋤</mapping>
+          <figure>
+            <graphic url="../../docs/images/qeighth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qtwothirds">
+          <localProp value="QIRMA FRACTION 2/3" name="name"/>
+          <unicodeProp value="2/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qtwothirds.svg"/>
+          </figure>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+        <language ident="ota">Ottoman</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
          <listChange>
             <change/>
          </listChange>
       </revisionDesc>
-   </teiHeader>
-   <text xml:lang="ar">
+  </teiHeader>
+  
+  <text xml:lang="ar">
       <body>
          <div resp="eVJ">
             <head><date when="1909-02-10">١٠ فبراير ١٩٠٩</date>، <date when-custom="1327-01-19">١٩
@@ -871,8 +873,9 @@
             <p><persName>ناظر الاشغال العمومية اسماعيل سري</persName>
             </p>
          </div>
-         <div>
-            <head>بيان الاراضي او البناء الذى تقرر نزع ملكيته (في بدلة القبة مركز الوايلي محافظة مصر )</head>
+         <div resp="eVJ">
+            <head>بيان الاراضي او البناء الذى تقرر نزع ملكيته (في بدلة القبة مركز الوايلي محافظة مصر
+               )</head>
             <table>
                <row>
                   <cell>صفة الملك</cell>
@@ -952,7 +955,7 @@
                   الغورية<?oxy_custom_end?></hi>
             </p>
          </div>
-         <div>
+         <div resp="eVJ">
             <head>منزل دورين خلاف الارضي مساحته ١٧٧.٣ متر ب<placeName ref="درب الاتراك" type="درب">درب الاتراك</placeName> بمصر بجلسة ٤ سبتمبر ١٩٠٩</head>
             <p>قسم ثالث اوقاف ب<placeName ref="شارع درب الجماميز" type="شارع">شارع درب
                   الجماميز</placeName>
@@ -1012,8 +1015,9 @@
             <p><persName>ناظر الاشغال العمومية إسماعيل سري</persName>
             </p>
          </div>
-         <div>
-            <head>كشف حرف (ا) الشوارع وأجزاء الشوارع التي الغيت خطوط تنظيمها لغاية شهر يونيو ١٩٠٩</head>
+         <div resp="eVJ">
+            <head>كشف حرف (ا) الشوارع وأجزاء الشوارع التي الغيت خطوط تنظيمها لغاية شهر يونيو
+               ١٩٠٩</head>
             <table>
                <row>
                   <cell>نمرة الرسم</cell>
@@ -1058,85 +1062,139 @@
                </row>
             </table>
          </div>
-         <div>
-            <head>عدد ١٠٤ ، ١٨ سبتمبر ١٩٠٩، ٤ رمضان ١٣٢٧، ص ٢١٧٩- ٢١٨٠</head>
+         <div resp="eVJ">
+            <head>
+               <date when="1910-09-18">١٨ سبتمبر ١٩٠٩</date>، <date when-custom="1327-09-04">٤ رمضان
+                  ١٣٢٧</date>، <bibl><biblScope unit="issue">عدد ١٠٤</biblScope> ، <biblScope unit="page">ص ٢١٧٩- ٢١٨٠</biblScope></bibl></head>
             <head>قرار نمرة الاشغال العمومية</head>
             <head>قرار نمرة ٣٣ إدارة</head>
-            <p>بعد الاطلاع على الامر العالى الصادر بتاريخ ١٢ يناير ١٩٠٥ بنزع ملكية الأملاك اللازمة لجعل شارع مصر القديمة بعرض ثلاثين مترا وتسميته بشارع ساحل مصر القديمة</p>
-            <p>وحيث ان من ضمن الأملاك المذكورة منزل نمرة ٢١ وقف المرحوم إسماعيل بك رفعت الناظرة عليه بهية هانم وارضه حكرا لوقف السادات لم يتيسر الاتفاق على ثمنه حبيا وعين خبير من قبل محكمة مصر الابتدائية الاهلية وثمنه بمبلغ ٩٧٩ جنيه ومع ان نظارة الاشغال العمومية ستعارض في هذا الثمن امام القضاء نظرا لارتفاعه عن قيمة العقار الا انه لاحتياج إدارة تنظيم مصر للاستيلاء على المنزل المذكور في اقرب وقت صار إيداع الثمن الذى قدره الخبير وقدره ٩٧٩ جنيه بخزينة تلك المحكمة بموجب محضر إيداع في ٢٨ أغسطس ١٩٠٩ نمرة ٤٨٤١</p>
-            <p>فبناء على ذلك وعلى المادة الثامنه عشرة من قانون نزع الملكية نمرة ٥ الصادر بتاريخ ٢٤ ابريل ١٩٠٥ </p>
+            <p>بعد الاطلاع على الامر العالى الصادر بتاريخ ١٢ يناير ١٩٠٥ بنزع ملكية الأملاك اللازمة
+               لجعل <placeName ref="شارع مصر القديمة" type="شارع">شارع مصر القديمة</placeName> بعرض
+               ثلاثين مترا وتسميته ب<placeName ref="شارع ساحل مصر القديمة" type="شارع">شارع ساحل مصر
+                  القديمة</placeName></p>
+            <p>وحيث ان من ضمن الأملاك المذكورة منزل نمرة ٢١ <orgName ref="وقف-المرحوم-إسماعيل-بك" type="وقف">وقف المرحوم <persName>إسماعيل بك</persName></orgName> رفعت الناظرة عليه
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>بهية
+               هانم<?oxy_custom_end?> وارضه حكرا
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>لوقف السادات
+               <?oxy_custom_end?>لم يتيسر الاتفاق على ثمنه حبيا وعين خبير من قبل <orgName ref="محكمة-مصر-الابتدائية-الاهلية">محكمة مصر الابتدائية الاهلية</orgName> وثمنه
+               بمبلغ ٩٧٩ جنيه ومع ان <orgName ref="نظارة-الاشغال-العمومية" type="نظارة">نظارة
+                  الاشغال العمومية</orgName> ستعارض في هذا الثمن امام القضاء نظرا لارتفاعه عن قيمة
+               العقار الا انه لاحتياج <orgName ref="إدارة-تنظيم-مصر">إدارة تنظيم مصر</orgName>
+               للاستيلاء على المنزل المذكور في اقرب وقت صار إيداع الثمن الذى قدره الخبير وقدره ٩٧٩
+               جنيه بخزينة تلك المحكمة بموجب محضر إيداع في ٢٨ أغسطس ١٩٠٩ نمرة ٤٨٤١</p>
+            <p>فبناء على ذلك وعلى المادة الثامنه عشرة من قانون نزع الملكية نمرة ٥ الصادر بتاريخ ٢٤
+               ابريل ١٩٠٥ </p>
             <p>قررنا ما هو ات</p>
-            <p>تستولى محافظة مصر على المنزل المذكور وتسلمه لادارة تنظيم مصر لادخاله في الشارع المذكور تنفيذا للامر العالى الصادر بتاريخ ١٢ يناير ١٩٠٥ بعد العمل بالمادة التاسعه عشره من قانون نزع الملكية نمرة ٥ .</p>
-            <p>٩ سبتمبر ١٩٠٩      ناظر الاشغال العمومية إسماعيل سري </p>
+            <p>تستولى محافظة مصر على المنزل المذكور وتسلمه لادارة تنظيم مصر لادخاله في الشارع
+               المذكور تنفيذا للامر العالى الصادر بتاريخ ١٢ يناير ١٩٠٥ بعد العمل بالمادة التاسعه
+               عشره من قانون نزع الملكية نمرة ٥ .</p>
+            <p>٩ سبتمبر ١٩٠٩ <persName>ناظر الاشغال العمومية إسماعيل سري</persName>
+            </p>
             <p>::::::::::::::::::::::::</p>
          </div>
-         <div>
-            <head>عدد ١٠٤، ١٨ سبتمبر ١٩٠٩، ٤ رمضان ١٣٢٧، ص ٢١٩٣</head>
-            <head>ديوان عموم الأوقاف</head>
-            <p>يعلن العموم انه سيشهر ف المزاد بيع الاعيان المبينة بعد امام لجان تعقد بمراكزه الفرعية في الأيام المبينة بعد من الساعه ٩ الى الساعه ١٢ صباحا ومن الساعه ٢ الى الساعه ٤ بعد الظهر فمن يرغب في شراء شيء منها فليتوجه هو او من ينوب عنه في المواقيت المحددة للتزايد بعد اطلاعه على قائمة شروط المزاد ومعرفة الثمن الأساسي ودفع تامين بواقع المائة ٢٠ من الثمن الأساسي ومن يتاخر عن هذه المواعيد يعتبر تاخيره كف يد</p>
-            <p>(قسم اوقاف بالغورية بمصر)</p>
+         <div resp="eVJ">
+            <head><date when="1909-09-18">١٨ سبتمبر ١٩٠٩</date>، <date when-custom="1327-09-04">٤
+                  رمضان ١٣٢٧</date>، <bibl><biblScope unit="issue">عدد ١٠٤</biblScope>، <biblScope unit="page">ص ٢١٩٣</biblScope></bibl></head>
+            <head><orgName ref="ديوان-عموم-الأوقاف">ديوان عموم الأوقاف</orgName></head>
+            <p>يعلن العموم انه سيشهر
+               <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ف<?oxy_custom_end?>
+               المزاد بيع الاعيان المبينة بعد امام لجان تعقد بمراكزه الفرعية في الأيام المبينة بعد
+               من الساعه ٩ الى الساعه ١٢ صباحا ومن الساعه ٢ الى الساعه ٤ بعد الظهر فمن يرغب في شراء
+               شيء منها فليتوجه هو او من ينوب عنه في المواقيت المحددة للتزايد بعد اطلاعه على قائمة
+               شروط المزاد ومعرفة الثمن الأساسي ودفع تامين بواقع المائة ٢٠ من الثمن الأساسي ومن
+               يتاخر عن هذه المواعيد يعتبر تاخيره كف يد</p>
+            <p>(<placeName ref="قسم-اوقاف-بالغورية-بمصر"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>قسم اوقاف
+                  بالغورية بمصر<?oxy_custom_end?></placeName>)</p>
             <list rend="bulleted">
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">منزل بعطفة مطاوع بدرب المحروق مساحته ٣٤.٧٥ مترا بجلسة ٣ أكتوبر١٩٠٩</hi>
+                  <hi style="font-size:14ptdirection:rtl;">منزل بعطفة مطاوع ب<placeName ref="درب المحروق" type="درب">درب المحروق</placeName> مساحته ٣٤.٧٥ مترا بجلسة
+                     ٣ أكتوبر١٩٠٩</hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">منزل دورين خلاف الأرضي بحارة المدرسة مساحته ٣١٧.٨٨ متر بجلسة ٣ أكتوبر ١٩٠٩</hi>
+                  <hi style="font-size:14ptdirection:rtl;">منزل دورين خلاف الأرضي ب<placeName ref="حارة المدرسة" type="حارة">حارة المدرسة</placeName> مساحته ٣١٧.٨٨ متر
+                     بجلسة ٣ أكتوبر ١٩٠٩</hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">منزل بشارع شق العرسه بحوش قدم مساحته ٨٩.٢٤ مترا بجلسة ٣ أكتوبر ١٩٠٩</hi>
+                  <hi style="font-size:14ptdirection:rtl;">منزل ب<placeName ref="شارع شق العرسه" type="شارع">شارع شق العرسه</placeName> بحوش قدم مساحته ٨٩.٢٤ مترا بجلسة ٣
+                     أكتوبر ١٩٠٩</hi>
                </item>
             </list>
          </div>
-         <div>
-            <head>حصة ٦ قراريط في دكان بشارع سوق الخشب مساحته ١٤.٤٤ مترا كاملا بجلسة ٥ أكتوبر ١٩٠٩</head>
-            <p>(قسم ثالث اوقاف بشارع درب الجماميز بمصر)</p>
+         <div resp="eVJ">
+            <head>حصة ٦ قراريط في دكان ب<placeName ref="شارع سوق الخشب" type="شارع">شارع سوق
+                  الخشب</placeName> مساحته ١٤.٤٤ مترا كاملا بجلسة ٥ أكتوبر ١٩٠٩</head>
+            <p>(<placeName ref="قسم ثالث اوقاف">قسم ثالث اوقاف</placeName> ب<placeName ref="شارع درب الجماميز" type="شارع">شارع درب الجماميز</placeName> بمصر)</p>
             <list rend="bulleted">
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">حوش ومنزل بدرب صبيح مساحتهما ٤٣٢.٨٧ متر بجلسة ٧ أكتوبر ١٩٠٩</hi>
+                  <hi style="font-size:14ptdirection:rtl;">حوش ومنزل ب<placeName ref="درب صبيح" type="درب">درب صبيح</placeName> مساحتهما ٤٣٢.٨٧ متر بجلسة ٧ أكتوبر ١٩٠٩</hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">ثلاثة منازل بدرب صبيح مساحتها ١٨٣.٩١ متر بجلسة ٧ أكتوبر ١٩٠٩</hi>
+                  <hi style="font-size:14ptdirection:rtl;">ثلاثة منازل بدرب صبيح مساحتها ١٨٣.٩١ متر
+                     بجلسة ٧ أكتوبر ١٩٠٩</hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">حوش متخرب بدرب صبيح مساحته ٤٣٨.٠٩ متر بجلسة ٧ أكتوبر ١٩٠٩</hi>
+                  <hi style="font-size:14ptdirection:rtl;">حوش متخرب بدرب صبيح مساحته ٤٣٨.٠٩ متر
+                     بجلسة ٧ أكتوبر ١٩٠٩</hi>
                </item>
                <item>
-                  <hi style="font-size:14ptdirection:rtl;">منزلين بدرب صبيح مساحتهما ٤٩٠.٣٦ متر بجلسة ٧ أكتوبر ١٩٠٩</hi>
+                  <hi style="font-size:14ptdirection:rtl;">منزلين بدرب صبيح مساحتهما ٤٩٠.٣٦ متر
+                     بجلسة ٧ أكتوبر ١٩٠٩</hi>
                </item>
             </list>
          </div>
-         <div>
-            <head>عدد ١٠٥، ٢٠ سبتمبر ١٩٠٩، ٦ رمضان ١٣٢٧، ص٢١٩٥</head>
-            <head>نظارة الاشغال العمومية</head>
+         <div resp="eVJ">
+            <head><date when="1909-09-20">٢٠ سبتمبر ١٩٠٩</date>، <date when-custom="1328-09-06">٦
+                  رمضان ١٣٢٧</date>، <bibl><biblScope unit="issue">عدد ١٠٥</biblScope>، <biblScope unit="page">ص ٢١٩٥</biblScope></bibl></head>
+            <head><orgName ref="نظارة-الاشغال-العمومية">نظارة الاشغال العمومية</orgName></head>
             <head>قرار نمرة ٣٢ إدارة</head>
-            <p>بعد الاطلاع على الامر العالي الصادر بتاريخ ٨ ديسمبر ١٨٨٦ بنزع ملكية أجزاء الأملاك التي أدخلت في تنظيم جملة شوارع ومن ضمنها ميداني عابدين والصنافيري بشارع عماد الدين بمدينة القاهرة حسب رسم التنظيم نمرة ٤٢١ المعتمد من نظارة الاشغال العمومية بتاريخ ٣٠ مارس ١٨٨٦ ومدرج بالكشف جرف (أ) احد الكشوفه المرفقة بالأمر العالي المشار اليه </p>
-            <p>وحيث ان من ضمن الأجزاء المذكورة جزا يبلغ مسطحه ٩٦.٧٠مترا من عقار نمرة ٩ وقف أهلي نظارة محمود مصطفي النجار لم يتيسر الاتفاق على ثمنه حبيا عين خبير من قبل محكمة مصر الابتدائية الاهلية وثمنه باعتبار المتر المسطح ١٥ جنيها ارضا وبناء وبلغت قيمة الثمن ١٤٥٠ جنيه و ٥٠٠ مليم ومع ان نظارة الاشغال العمومية ستعارض في هذا الثمن امام القضاء نظرا لارتفاعه عن قيمة العقار الا انه لاحتياج إدارة تنظيم مصر للاستيلاء على الجزء المذكور في اقرب وقت فقد اودع الثمن الذى قدره الخبير وهو مبلغ ١٤٥٠ جنيه و٥٠٠ مليم بخزينة تلك المحكمة بموجب محضر إيداع بتاريخ ٢٤ أغسطس ١٩٠٩ نمرة ٤٨٤٠</p>
-            <p>فبناء على ذلك وعلى المادة الثامنة عشرة من قانون نزع الملكية الصادر بتاريخ ٢ ابريل ١٩٠٧</p>
+            <p>بعد الاطلاع على الامر العالي الصادر بتاريخ ٨ ديسمبر ١٨٨٦ بنزع ملكية أجزاء الأملاك
+               التي أدخلت في تنظيم جملة شوارع ومن ضمنها ميداني <placeName ref="ميدان عابدين" type="ميدان">عابدين</placeName> و<placeName ref="ميدان الصنافيري" type="ميدان">الصنافيري</placeName> ب<placeName ref="شارع عماد الدين" type="شارع">شارع عماد
+                  الدين</placeName> بمدينة القاهرة حسب رسم التنظيم نمرة ٤٢١ المعتمد من نظارة الاشغال
+               العمومية بتاريخ ٣٠ مارس ١٨٨٦ ومدرج بالكشف جرف (أ) احد الكشوفه المرفقة بالأمر العالي
+               المشار اليه </p>
+            <p>وحيث ان من ضمن الأجزاء المذكورة جزا يبلغ مسطحه ٩٦.٧٠ مترا من عقار نمرة ٩ <orgName ref="وقف-أهلي-نظارة-محمود-مصطفي-النجار" type="وقف"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>وقف أهلي نظارة
+                  محمود مصطفي النجار<?oxy_custom_end?></orgName> لم يتيسر الاتفاق على ثمنه حبيا عين
+               خبير من قبل محكمة مصر الابتدائية الاهلية وثمنه باعتبار المتر المسطح ١٥ جنيها ارضا
+               وبناء وبلغت قيمة الثمن ١٤٥٠ جنيه و ٥٠٠ مليم ومع ان نظارة الاشغال العمومية ستعارض في
+               هذا الثمن امام القضاء نظرا لارتفاعه عن قيمة العقار الا انه لاحتياج <orgName ref="إدارة-تنظيم-مصر" type="ادارة">إدارة تنظيم مصر</orgName> للاستيلاء على الجزء
+               المذكور في اقرب وقت فقد اودع الثمن الذى قدره الخبير وهو مبلغ ١٤٥٠ جنيه و٥٠٠ مليم
+               بخزينة تلك المحكمة بموجب محضر إيداع بتاريخ ٢٤ أغسطس ١٩٠٩ نمرة ٤٨٤٠</p>
+            <p>فبناء على ذلك وعلى المادة الثامنة عشرة من قانون نزع الملكية الصادر بتاريخ ٢ ابريل
+               ١٩٠٧</p>
             <p>قررنا ما هو ات </p>
-            <p>تستولى محافظة مصر على الجزء المذكور المبينة مساحته قبل وتسلمه لادارة تنظيم مصر لادخاله في الميدانين المذكورين تنفيذا للامر العالى الصادر بتاريخ ٨ ديسمبر ١٨٨٦ وذلك بعد العمل بالمادة التاسعة عشرة من قانون نزع الملكية نمرة ٥</p>
+            <p>تستولى محافظة مصر على الجزء المذكور المبينة مساحته قبل وتسلمه لادارة تنظيم مصر
+               لادخاله في الميدانين المذكورين تنفيذا للامر العالى الصادر بتاريخ ٨ ديسمبر ١٨٨٦ وذلك
+               بعد العمل بالمادة التاسعة عشرة من قانون نزع الملكية نمرة ٥</p>
             <p>٩ سبتمبر ١٩٠٩</p>
-            <p>ناظر الاشغال العمومية إسماعيل سري </p>
+            <p><persName>ناظر الاشغال العمومية إسماعيل سري</persName>
+            </p>
             <p>::::::::::::::::::</p>
          </div>
-         <div>
-            <head>ملحق الوقائع المصرية عدد ١١٥، ١٣ أكتوبر ١٩٠٩، ٢٩ رمضان ١٣٢٧، ص ١-٢</head>
+         <div resp="eVJ">
+            <head>ملحق الوقائع المصرية <date when="1909-10-13">١٣ أكتوبر ١٩٠٩</date>، <date when-custom="1327-09-29">٢٩ رمضان ١٣٢٧</date>، <bibl><biblScope unit="issue">عدد
+                     ١١٥</biblScope>، <biblScope unit="page">ص ١-٢</biblScope></bibl></head>
             <head>امر عال</head>
             <head>نحن خديو مصر</head>
             <p>بعد الاطلاع على قانون نزع الملكية للمنفعة العامة الصادر بتاريخ ٢٤ ابريل ١٩٠٧ نمرة ٥ </p>
             <p>وبناء على ما عرضه علينا ناظر الاشغال العمومية وموافقة راى مجلس النظار</p>
             <p>امرنا بما هو ات</p>
             <p>(المادة الأولى)</p>
-            <p>تنزع للمنفعة العامة ملكية قطعة الأرض اللازمة لشارعى الخلوتى والخليج المصري بمدينة القاهرة حسب المبين على الرسم الملحق بامرنا هذا وطبقا للكشف والجدول الملحقين أيضا</p>
+            <p>تنزع للمنفعة العامة ملكية قطعة الأرض اللازمة لشارعى <placeName ref="شارع الخلوتى" type="شارع">الخلوتى</placeName> و<placeName ref="شارع الخليج">الخليج</placeName>
+               المصري بمدينة القاهرة حسب المبين على الرسم الملحق بامرنا هذا وطبقا للكشف والجدول
+               الملحقين أيضا</p>
             <p>(المادة الثانية)</p>
             <p>على ناظر الاشغال العمومية تنفيذ امرنا هذا</p>
             <p>صدر بسراى راس التين ١٣ سبتمبر ١٩٠٩</p>
-            <p>عباس حلمى بامر الحضرة الخديوية </p>
-            <p>رئيس مجلس النظار بطرس غالي</p>
-            <p>ناظر الاشغال العمومية إسماعيل سري</p>
+            <p><persName>عباس حلمى</persName> بامر الحضرة الخديوية </p>
+            <p><persName>رئيس مجلس النظار بطرس غالي</persName></p>
+            <p><persName>ناظر الاشغال العمومية إسماعيل سري</persName></p>
          </div>
-         <div>
+         <div resp="eVJ">
             <head>كشف</head>
-            <p>منوه عنه في الفقرة الأولى من البند الثاني من قانون نزع الملكية يشمل بيان الأرض اللازم نزع ملكيتها بشارع الخليج المصرى وشارع البرموني </p>
+            <p>منوه عنه في الفقرة الأولى من البند الثاني من قانون نزع الملكية يشمل بيان الأرض اللازم
+               نزع ملكيتها بشارع الخليج المصرى و<placeName ref="شارع البرموني" type="شارع">شارع
+                  البرموني</placeName>
+            </p>
             <p>بيان الاراضى او البنا الذي تقرر نزع ملكيته</p>
             <table>
                <row>
@@ -1146,35 +1204,54 @@
                   <cell>اسم صاحب التكليف او واضع اليد</cell>
                </row>
                <row>
-                  <cell>مصر – عابدين – ارض فضا</cell>
+                  <cell>مصر – <placeName ref="عابدين">عابدين</placeName> – ارض فضا</cell>
                   <cell>
                      <p>الحد البحري وطوله ٥.٩٥ امتار ينتهى الى نافذة شارع البرموني</p>
                      <p>والحد القبلي وطوله ٤.١٠ امتار ينتهى الى شارع الخليج المصرى</p>
                      <p>والحد الشرقي وطوله ١٣ مترا ينتهى الى شارع الخليج المصرى</p>
-                     <p>والحد الغربي يبتدى أولا من بحرى الى قبلي بطول ١١.٤٠ مترا ثم يميل قليلا نحو الشرق بطول ٣.٩٠ امتار حتى يتلاقي مع الحد القبلي وينتهى هذا الحد الى شارع الخلوتى</p>
+                     <p>والحد الغربي يبتدى أولا من بحرى الى قبلي بطول ١١.٤٠ مترا ثم يميل قليلا نحو
+                        الشرق بطول ٣.٩٠ امتار حتى يتلاقي مع الحد القبلي وينتهى هذا الحد الى شارع
+                        الخلوتى</p>
                   </cell>
                   <cell>٨٣.٧١ متر</cell>
-                  <cell>الست ناظلة بنت المرحوم الشيخ إبراهيم القطب بتوكيل زوجها احمد افندى رائف المهندس بنظارة الداخلية</cell>
+                  <cell><persName>الست ناظلة بنت المرحوم الشيخ إبراهيم القطب</persName> بتوكيل زوجها
+                        <persName>احمد افندى رائف المهندس بنظارة الداخلية</persName></cell>
                </row>
             </table>
-            <p>على الوجه المشروح تحرر هذا الكشف وهو يشتمل على ثلاثة وثمانين مترا مربعا وواحد وسبعين سنتيمترا </p>
-            <p>نائب مامور قسم عابدين – مهندس تنظيم قسم عابدين -    ختم المحافظة </p>
+            <p>على الوجه المشروح تحرر هذا الكشف وهو يشتمل على ثلاثة وثمانين مترا مربعا وواحد وسبعين
+               سنتيمترا </p>
+            <p>نائب مامور قسم عابدين – مهندس تنظيم قسم عابدين - ختم المحافظة </p>
             <p>:::::::::::::::::::::::</p>
          </div>
-         <div>
-            <head>عدد ١١٦، ١٨ أكتوبر ١٩٠٩، ٤ شوال ١٣٢٧، ص٢٣٨٥</head>
-            <head>قرار من نظارة الاشغال العمومية</head>
+         <div resp="eVJ">
+            <head>
+               <date when="1909-10-18">١٨ أكتوبر ١٩٠٩</date>، <date when-custom="1327-10-04">٤ شوال
+                  ١٣٢٧</date>، <bibl><biblScope unit="issue">عدد ١١٦</biblScope>، <biblScope unit="page">ص ٢٣٨٥</biblScope></bibl></head>
+            <head>قرار من <orgName ref="نظارة-الاشغال-العمومية" type="نظارة">نظارة الاشغال
+                  العمومية</orgName></head>
             <head>بتاريخ ٣ أكتوبر ١٩٠٩ نمرة ٣٩ إدارة</head>
-            <p>بعد الاطلاع على الامر العالى الصادر بتاريخ ٢ ابريل ١٩٠٨ بنزع ملكية أجزاء الأملاك التي أدخلت في تنظيم جملة شوارع ومن ضمنها عطفة الكنيسة بالفجالة بمدينة القاهرة حسب رسم التنظيم نمرة ١٢٦٦ الذي صادقت عليه نظارة الاشغال العمومية بتاريخ ٤ فبراير ١٩٠٧ ومدرج بالكشف حرف (د) احد الكشوفه الملحقة بالامر العالى المشار اليه</p>
-            <p>وحيث ان من ضمن الأجزاء المذكورة جزا من منزل الست نبيهه بنت جرجس خليل حرم جوري افندى سعد الكاتب بالمحافظة تبلغ مساحته ١٥.١٥ مترا لم يتيسر الاتفاق على ثمنه حبيا وعين خبير من قبل محكمة مصر الابتدائية الاهلية وثمنه باعتبار المتر المسطح ٣ جنيه و ٥٠٠ مليم وبلغت قيمة الثمن ٥٣ جنيها و٢٥ مليما واودع المبلغ بخزينة تلك المحكمة بموجب محضر إيداع بتاريخ ١٣ سبتمبر ١٩٠٩ نمرة ٦٣١</p>
-            <p>فبناء على ذلك وعلى المادة الثامنة عشرة من قانون نزع الملكية نمرة ٥ الصادر بتاريخ ٢٤ ابريل ١٩٠٧</p>
+            <p>بعد الاطلاع على الامر العالى الصادر بتاريخ ٢ ابريل ١٩٠٨ بنزع ملكية أجزاء الأملاك التي
+               أدخلت في تنظيم جملة شوارع ومن ضمنها عطفة الكنيسة بالفجالة بمدينة القاهرة حسب رسم
+               التنظيم نمرة ١٢٦٦ الذي صادقت عليه نظارة الاشغال العمومية بتاريخ ٤ فبراير ١٩٠٧ ومدرج
+               بالكشف حرف (د) احد الكشوفه الملحقة بالامر العالى المشار اليه</p>
+            <p>وحيث ان من ضمن الأجزاء المذكورة جزا من منزل <persName>الست نبيهه بنت جرجس
+                  خليل</persName> حرم <persName>جوري افندى سعد</persName> الكاتب بالمحافظة تبلغ
+               مساحته ١٥.١٥ مترا لم يتيسر الاتفاق على ثمنه حبيا وعين خبير من قبل <orgName ref="محكمة-مصر-الابتدائية-الاهلية" type="محكمة">محكمة مصر الابتدائية
+                  الاهلية</orgName> وثمنه باعتبار المتر المسطح ٣ جنيه و ٥٠٠ مليم وبلغت قيمة الثمن ٥٣
+               جنيها و٢٥ مليما واودع المبلغ بخزينة تلك المحكمة بموجب محضر إيداع بتاريخ ١٣ سبتمبر
+               ١٩٠٩ نمرة ٦٣١</p>
+            <p>فبناء على ذلك وعلى المادة الثامنة عشرة من قانون نزع الملكية نمرة ٥ الصادر بتاريخ ٢٤
+               ابريل ١٩٠٧</p>
             <p>قررنا ما هو ات </p>
-            <p>تستولى محافظة مصر على الجزء المذكور المبينة مساحة أعلاه وتسلمه لادارة تنظيم مصر لادخاله في العطفة المذكورة تنفيذا للامر العالى الصادر بتاريخ ٢ ابريل ١٩٠٨ وذلك بعد العمل بالمادة التاسعة عشرة من قانون نزع الملكية نمرة ٥</p>
-            <p>ناظر اشغال عمومية إسماعيل سري</p>
+            <p>تستولى محافظة مصر على الجزء المذكور المبينة مساحة أعلاه وتسلمه لادارة تنظيم مصر
+               لادخاله في العطفة المذكورة تنفيذا للامر العالى الصادر بتاريخ ٢ ابريل ١٩٠٨ وذلك بعد
+               العمل بالمادة التاسعة عشرة من قانون نزع الملكية نمرة ٥</p>
+            <p><persName>ناظر اشغال عمومية إسماعيل سري</persName></p>
             <p>::::::::::::::::::::::</p>
          </div>
          <div>
-            <head>ملحق الوقائع المصرية عدد ١٢٠، ٢٧ أكتوبر ١٩٠٩، ١٣ شوال ١٣٢٧، ص ١</head>
+            <head>ملحق الوقائع المصرية ، <date when="1909-10-27">٢٧ أكتوبر ١٩٠٩</date>، <date when-custom="1327-10-13">١٣ شوال ١٣٢٧</date>، <bibl><biblScope unit="issue">عدد
+                     ١٢٠</biblScope>، <biblScope unit="page">ص ١</biblScope></bibl></head>
             <head>امر عال</head>
             <head>نحن خديو مصر</head>
             <p>بعد الاطلاع على قانوني نزع الملكية للمنفعة العامة الصادر احدهما في ٢٤ ديسمبر ١٩٠٦ والأخر في ٢٤ ابريل ١٩٠٧ وبناء على ما عرضه علينا ناظر الاشغال العمومية </p>
@@ -1183,7 +1260,11 @@
             <p>(المادة الأولى)</p>
             <p>يعتبر من المنافع العامة المستجمع العام ومجرورالقذف والمخازن والسكة الحديد اللازم انشاؤها جميعا لمجارى العاصمة حسب اللون المبين باللون الأخضر على السبعة رسومات الموضوعة لذلك ومنمرة من نمرة ١ لغاية نمرة ٧</p>
             <p>(المادة الثانية)</p>
-            <p>تنزع ملكية الاراضى التي يستدعيها انشاء الاعمال المذكورة بالطرق العادية وبحسب القواعد المتبعة ومساحتها خمسة وثلاثون فدانا وعشرة قراريط وتسعة عشر سهما وربع سهم ملك الافراد بنواحى المطرية وكفر الجاموس وكفر الشرفا والبركة والقلج بإقليم القليوبية ومبينة في الكشفين الملحقين بامرنا هذا المنوه عنهما بالمادة الثانية من قانوني نزع الملكية للمنفعة العامة</p>
+            <p>تنزع ملكية الاراضى التي يستدعيها انشاء الاعمال المذكورة بالطرق العادية وبحسب القواعد
+               المتبعة ومساحتها خمسة وثلاثون فدانا وعشرة قراريط وتسعة عشر سهما وربع سهم ملك الافراد
+               بنواحى <placeName ref="المطرية">المطرية</placeName> و<placeName ref="كفر الجاموس" type="كفر">كفر الجاموس</placeName> و<placeName ref="كفر الشرفا" type="كفر">كفر
+                  الشرفا</placeName> و<placeName ref="كفر البركة">البركة</placeName> و<placeName ref="كفر القلج">القلج</placeName> بإقليم <placeName ref="القليوبية">القليوبية</placeName> ومبينة في الكشفين الملحقين بامرنا هذا المنوه عنهما بالمادة
+               الثانية من قانوني نزع الملكية للمنفعة العامة</p>
             <p>(المادة الثالثة)</p>
             <p>تنقل من أملاك الحكومة الخاصة الى الأملاك العامة قطع الاراضى ملك الميري الواقعة بناحيتي كفر الشرفا والمطرية اللازمة لانشاء تلك الاعمال ومساحتها ثلاثة فدادين وقيراطان وستة اسهم وثلث سهم ومبينة بثلاث استمارات نمرة ٣١ ملحقة بامرنا هذا </p>
             <p>(المادة الرابعة) </p>
@@ -1191,18 +1272,31 @@
             <p>( المادة الخامسة) </p>
             <p>على ناظرى الاشغال العمومية والمالية تنفيذ امرنا هذا كل منهما فيما يخصه </p>
             <p>صدر بسراى راس التين ٢٧ سبتمبر ١٩٠٩</p>
-            <p>عباس حلمي بامر الحضرة الخديوية </p>
-            <p>بالنيابة عن رئيس مجلس النظار سعد زغلول </p>
-            <p>ناظر الاشغال العمومية إسماعيل سري </p>
-            <p>ناظر المالية احمد حشمت</p>
+            <p><persName>عباس حلمي</persName> بامر الحضرة الخديوية </p>
+            <p>بالنيابة عن <persName>رئيس مجلس النظار سعد زغلول</persName>
+            </p>
+            <p><persName>ناظر الاشغال العمومية إسماعيل سري</persName>
+            </p>
+            <p><persName>ناظر المالية احمد حشمت</persName></p>
          </div>
-         <div>
+         <div resp="eVJ">
             <head>(((ملحق بي دى اف بالجداول الخاصة بالاراضي المنزوع ملكيتها))</head>
             <head>:::::::::::::</head>
-            <head>عدد ١٢٣، ٣ نوفمبر ١٩٠٩، ٢٠ شوال ١٣٢٧، ص ٢٥٤٦</head>
-            <head>نظارة المالية</head>
-            <p>إدارة أملاك الميري الحرة </p>
-            <p>ليكن معلوما لدى العموم انه بجلسة قومسيون بيع أملاك واراضي الميري بالمحروسة المزمع انعقادها بديوان نظارة المالية (إدارة أملاك الميري الحرة) في يوم ٢٩ نوفمبر ١٩٠٩ سيصير اشهار مزاد بيع العقارات الموضح بيانها بعد فكل من له رغبة في المشترى يحضر هو او وكليل عنه بجلسة المزاد في الميعاد المرقوم للمزايدة امام القومسيون وعليه ان يدفع تامين المائة ٢٠ من الثمن الأساسي وبعد الميعاد يصير قفل جلسة المزاد ومن يتاخر يعتبر تاخيره كف يد والمشترى ملزم بقبول شروط وقيود بيع أملاك الميري الحرة المندرجة بالجريدتين الرسميتين الصادرتين بتاريخ ٦ سبتمبر ١٩٠٢ نمرة ٩٩ الموجود مجموعة عنها بجلسة قومسيون البيع لاطلاع راغبي المشترى عليها ولنظارة المالية الحق في ان تقبل او ترفض اعلى عطاء يرسي به المزاد وفي حالة رفض اعلى عطاء لا يكون لصاحبه حق في شيء ما سوى رد التامين المدفوع منه اليه وعلى هذا لزم الإعلان </p>
+            <head>، <date when="1909-11-03">٣ نوفمبر ١٩٠٩</date>، <date when-custom="1327-10-20">٢٠
+                  شوال ١٣٢٧</date>، <bibl><biblScope unit="issue">عدد ١٢٣</biblScope>، <biblScope unit="page">ص ٢٥٤٦</biblScope></bibl></head>
+            <head><orgName ref="نظارة-المالية">نظارة المالية</orgName></head>
+            <p><orgName ref="إدارة-أملاك-الميري-الحرة">إدارة أملاك الميري الحرة</orgName>
+            </p>
+            <p>ليكن معلوما لدى العموم انه بجلسة قومسيون بيع أملاك واراضي الميري بالمحروسة المزمع
+               انعقادها بديوان نظارة المالية (إدارة أملاك الميري الحرة) في يوم ٢٩ نوفمبر ١٩٠٩ سيصير
+               اشهار مزاد بيع العقارات الموضح بيانها بعد فكل من له رغبة في المشترى يحضر هو او وكليل
+               عنه بجلسة المزاد في الميعاد المرقوم للمزايدة امام القومسيون وعليه ان يدفع تامين
+               المائة ٢٠ من الثمن الأساسي وبعد الميعاد يصير قفل جلسة المزاد ومن يتاخر يعتبر تاخيره
+               كف يد والمشترى ملزم بقبول شروط وقيود بيع أملاك الميري الحرة المندرجة بالجريدتين
+               الرسميتين الصادرتين بتاريخ ٦ سبتمبر ١٩٠٢ نمرة ٩٩ الموجود مجموعة عنها بجلسة قومسيون
+               البيع لاطلاع راغبي المشترى عليها ولنظارة المالية الحق في ان تقبل او ترفض اعلى عطاء
+               يرسي به المزاد وفي حالة رفض اعلى عطاء لا يكون لصاحبه حق في شيء ما سوى رد التامين
+               المدفوع منه اليه وعلى هذا لزم الإعلان </p>
             <table>
                <row>
                   <cell>مقدار الثمن الاساسي</cell>
@@ -1261,7 +1355,9 @@
                   <cell>عن المنزل</cell>
                   <cell>٠٠</cell>
                   <cell>٢٦</cell>
-                  <cell>منزل بحارة القرع بقسم مصر القديمة</cell>
+                  <cell>منزل ب<placeName ref="حارة القرع" type="حارة">حارة القرع</placeName>
+                        ب<placeName ref="قسم مصر القديمة" type="قسم">قسم مصر
+                     القديمة</placeName></cell>
                </row>
                <row>
                   <cell>٦٠٠</cell>
@@ -1271,7 +1367,7 @@
                   <cell>٨٠</cell>
                   <cell>٥٢٠</cell>
                   <cell>١١</cell>
-                  <cell>حصة ١٩ سهما وجزء من سهم في مشاع دكان بشارع الموسكي بقسم الموسكي</cell>
+                  <cell>حصة ١٩ سهما وجزء من سهم في مشاع دكان ب<placeName ref="شارع الموسكي" type="شارع">شارع الموسكي</placeName> ب<placeName ref="قسم الموسكي" type="قسم">قسم الموسكي</placeName></cell>
                </row>
                <row>
                   <cell>٩٩٠</cell>
@@ -1281,7 +1377,7 @@
                   <cell>١</cell>
                   <cell>٤٠٠</cell>
                   <cell>٠٠</cell>
-                  <cell>حصة قيراط واحد وكسورمن قيراط شائعة في منزل بحارة الشيخ شهاب بقسم مصر القديمة</cell>
+                  <cell>حصة قيراط واحد وكسورمن قيراط شائعة في منزل ب<placeName ref="حارة الشيخ شهاب" type="حارة">حارة الشيخ شهاب</placeName> بقسم مصر القديمة</cell>
                </row>
                <row>
                   <cell>٩٣</cell>
@@ -1291,7 +1387,9 @@
                   <cell>٠٠</cell>
                   <cell>٨١٩</cell>
                   <cell>١</cell>
-                  <cell>حصة ١٢ قيراطل في مشاع ركوب متخرب خالي البناء واقع فوق الدكاكين الكائنة بوكالة القيصرلي بمصر القديمة</cell>
+                  <cell>حصة ١٢ قيراطل في مشاع ركوب متخرب خالي البناء واقع فوق الدكاكين الكائنة
+                        ب<placeName ref="وكالة القيصرلي" type="وكالة">وكالة القيصرلي</placeName>
+                     بمصر القديمة</cell>
                </row>
                <row>
                   <cell>٠٠</cell>
@@ -1300,7 +1398,9 @@
                   <cell>عن الحصة</cell>
                   <cell>٦٠٠</cell>
                   <cell>٠٠</cell>
-                  <cell>حصة ٣ قراريط في يدك دكان خشب بخان الخليلي بقسم الجمالية</cell>
+                  <cell>حصة ٣ قراريط في يدك دكان خشب ب<placeName ref="خان الخليلي">خان
+                        الخليلي</placeName> ب<placeName ref="قسم الجمالية" type="قسم">قسم
+                        الجمالية</placeName></cell>
                </row>
                <row>
                   <cell>٤١٧</cell>
@@ -1311,7 +1411,10 @@
                   <cell>٢</cell>
                   <cell>
                      <p>(عقارات خاصة المحاكم الاهلية)</p>
-                     <p>حصة ٥ قراريط في مشاع منزل بحارة كيشه بجهة جامع اصلان بقسم الدرب الأحمر</p>
+                     <p>حصة ٥ قراريط في مشاع منزل ب<placeName ref="حارة كيشه" type="حارة">حارة
+                           كيشه</placeName> بجهة <placeName ref="جامع اصلان" type="جامع">جامع
+                           اصلان</placeName> ب<placeName ref="قسم الدرب الأحمر" type="قسم">قسم الدرب
+                           الأحمر</placeName></p>
                   </cell>
                </row>
                <row>
@@ -1323,7 +1426,10 @@
                   <cell>٧</cell>
                   <cell>
                      <p>(عقارات خاصة المحاكم الاهلية)</p>
-                     <p>منزل خرب ركوب كائن بربع السكرية وواقع فوق وكالة جنبلاط بشارع سوق العصر القديم بقسم بولاق</p>
+                     <p>منزل خرب ركوب كائن
+                        ب<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ربع
+                        السكرية<?oxy_custom_end?> وواقع فوق <placeName ref="وكالة جنبلاط" type="وكالة">وكالة جنبلاط</placeName> ب<placeName ref="شارع سوق العصر القديم" type="شارع">شارع سوق العصر القديم</placeName>
+                           ب<placeName ref="قسم بولاق" type="قسم">قسم بولاق</placeName></p>
                   </cell>
                </row>
                <row>
@@ -1335,17 +1441,27 @@
                   <cell>٠٠</cell>
                   <cell>
                      <p>(عقارات خاصة المحاكم الاهلية)</p>
-                     <p>حصة نصف وربع قيراط في مشاع منزل بخط الواجهة بدرب المدبح بقسم بولاق</p>
+                     <p>حصة نصف وربع قيراط في مشاع منزل بخط الواجهة ب<placeName ref="درب المدبح" type="درب">درب المدبح</placeName> بقسم بولاق</p>
                   </cell>
                </row>
             </table>
          </div>
-         <div>
+         <div resp="eVJ">
             <head>:::::::::::::::</head>
-            <head>عدد ١٢٣، ٣ نوفمبر ١٩٠٩، ٢٠ شوال ١٣٢٧، ص ٢٥٤٧</head>
-            <head>نظارة المالية</head>
-            <head>إدارة أملاك الميري الحرة</head>
-            <p>ليكن معلوما لدى العموم انه بجلسة قومسيون بيع أملاك واراضي الميري بالمحروسة المزمع انعقادها بديوان نظارة المالية (إدارة أملاك الميري الحرة) في يوم ٣٠ نوفمبر ١٩٠٩ سيصير اشهار مزاد بيع العقارات الموضح بيانها بعد فكل من له رغبة في المشترى يحضر هو او وكليل عنه بجلسة المزاد في الميعاد المرقوم للمزايدة امام القومسيون وعليه ان يدفع تامين المائة ٢٠ من الثمن الأساسي وبعد الميعاد يصير قفل جلسة المزاد ومن يتاخر يعتبر تاخيره كف يد والمشترى ملزم بقبول شروط وقيود بيع أملاك الميري الحرة المندرجة بالجريدتين الرسميتين الصادرتين بتاريخ ٦ سبتمبر ١٩٠٢ نمرة ٩٩ الموجود مجموعة عنها بجلسة قومسيون البيع لاطلاع راغبي المشترى عليها ولنظارة المالية الحق في ان تقبل او ترفض اعلى عطاء يرسي به المزاد وفي حالة رفض اعلى عطاء لا يكون لصاحبه حق في شيء ما سوى رد التامين المدفوع منه اليه وعلى هذا لزم الإعلان </p>
+            <head>، <date when="1909-11-03">٣ نوفمبر ١٩٠٩</date>، <date when-custom="1327-10-20">٢٠
+                  شوال ١٣٢٧</date>، <bibl><biblScope unit="issue">عدد ١٢٣</biblScope>، <biblScope unit="page">ص ٢٥٤٧</biblScope></bibl></head>
+            <head><orgName ref="نظارة-المالية" type="نظارة">نظارة المالية</orgName></head>
+            <head><orgName ref="إدارة-أملاك-الميري-الحرة">إدارة أملاك الميري الحرة</orgName></head>
+            <p>ليكن معلوما لدى العموم انه بجلسة قومسيون بيع أملاك واراضي الميري بالمحروسة المزمع
+               انعقادها بديوان نظارة المالية (إدارة أملاك الميري الحرة) في يوم ٣٠ نوفمبر ١٩٠٩ سيصير
+               اشهار مزاد بيع العقارات الموضح بيانها بعد فكل من له رغبة في المشترى يحضر هو او وكليل
+               عنه بجلسة المزاد في الميعاد المرقوم للمزايدة امام القومسيون وعليه ان يدفع تامين
+               المائة ٢٠ من الثمن الأساسي وبعد الميعاد يصير قفل جلسة المزاد ومن يتاخر يعتبر تاخيره
+               كف يد والمشترى ملزم بقبول شروط وقيود بيع أملاك الميري الحرة المندرجة بالجريدتين
+               الرسميتين الصادرتين بتاريخ ٦ سبتمبر ١٩٠٢ نمرة ٩٩ الموجود مجموعة عنها بجلسة قومسيون
+               البيع لاطلاع راغبي المشترى عليها ولنظارة المالية الحق في ان تقبل او ترفض اعلى عطاء
+               يرسي به المزاد وفي حالة رفض اعلى عطاء لا يكون لصاحبه حق في شيء ما سوى رد التامين
+               المدفوع منه اليه وعلى هذا لزم الإعلان </p>
             <table>
                <row>
                   <cell>مقدار الثمن الاساسي</cell>
@@ -1375,7 +1491,11 @@
                   <cell>عن الحصة</cell>
                   <cell>٣٥٦</cell>
                   <cell>٤</cell>
-                  <cell>حصة ١١ قيراط وكسور من قيراط في مشاع بناء منزلين متخربين قائمين على ارض محتكرة داخل وكالة أبو جبل بسوق السلاح بقسم الدرب الأحمر</cell>
+                  <cell>حصة ١١ قيراط وكسور من قيراط في مشاع بناء منزلين متخربين قائمين على ارض
+                     محتكرة داخل و<placeName ref="كالة أبو جبل" type="وكالة">كالة أبو
+                        جبل</placeName> ب<placeName ref="سوق السلاح" type="سوق">سوق
+                        السلاح</placeName> ب<placeName ref="قسم الدرب الأحمر" type="قسم">قسم الدرب
+                        الأحمر</placeName></cell>
                </row>
                <row>
                   <cell>٠٠</cell>
@@ -1384,7 +1504,11 @@
                   <cell>عن المنزل</cell>
                   <cell>٠٠</cell>
                   <cell>١٤</cell>
-                  <cell>منزل بدرب البجمون بقسم عابدين مسطحه ٥٥.٠٤٧٥ مترا من ذلك ٨.٧٠ متر الأرض ملك الحكومة وبها مدخل المنزل والباقي تبع وكالة وقف وتبع ورثة الحاج غنيم سالم وللحكومة حق الركوب بالدور العلوى</cell>
+                  <cell>منزل ب<placeName ref="درب البجمون" type="درب">درب البجمون</placeName>
+                        ب<placeName ref="قسم عابدين" type="قسم">قسم عابدين</placeName> مسطحه ٥٥.٠٤٧٥
+                     مترا من ذلك ٨.٧٠ متر الأرض ملك الحكومة وبها مدخل المنزل والباقي تبع <orgName ref="وكالة-الوقف" type="وكالة"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>وكالة
+                        وقف<?oxy_custom_end?></orgName> وتبع ورثة <persName>الحاج غنيم
+                        سالم</persName> وللحكومة حق الركوب بالدور العلوى</cell>
                </row>
                <row>
                   <cell>١٠</cell>
@@ -1393,7 +1517,8 @@
                   <cell>عن الحصة</cell>
                   <cell>٨٠٢</cell>
                   <cell>٠٠</cell>
-                  <cell>حصة قيراطان ونصف قيراط في مشاع منزل بعطفة الدعكي بدرب الشرفا بقسم باب الشعرية</cell>
+                  <cell>حصة قيراطان ونصف قيراط في مشاع منزل ب<placeName ref="عطفة الدعكي" type="عطفة">عطفة الدعكي</placeName> ب<placeName ref="درب الشرفا" type="درب">درب الشرفا</placeName> ب<placeName ref="قسم باب الشعرية" type="قسم">قسم باب
+                        الشعرية</placeName></cell>
                </row>
                <row>
                   <cell>٤٥٠</cell>
@@ -1403,7 +1528,8 @@
                   <cell>١</cell>
                   <cell>٨٩٠</cell>
                   <cell>٢</cell>
-                  <cell>حصة ١٠ قراريط ونصف قيراط في مشاع منزل خرب بشارع الدحديرة بالكبش بقسم السيدة زينب</cell>
+                  <cell>حصة ١٠ قراريط ونصف قيراط في مشاع منزل خرب ب<placeName ref="شارع الدحديرة" type="شارع">شارع الدحديرة</placeName> ب<placeName ref="الكبش">الكبش</placeName> ب<placeName ref="قسم السيدة زينب" type="قسم">قسم السيدة
+                        زينب</placeName></cell>
                </row>
                <row>
                   <cell>٣٤٤</cell>
@@ -1412,7 +1538,7 @@
                   <cell>عن الحصة</cell>
                   <cell>٤٦٩</cell>
                   <cell>٠٠</cell>
-                  <cell>حصة نصف وربع قيراط في مشارع منزل بعطفة محمد حجاج بحارة أولاد شعيب بقسم عابدين</cell>
+                  <cell>حصة نصف وربع قيراط في مشارع منزل ب<placeName ref="عطفة محمد حجاج" type="عطفة">عطفة محمد حجاج</placeName> ب<placeName ref="حارة أولاد شعيب" type="حارة">حارة أولاد شعيب</placeName> ب<placeName ref="قسم عابدين" type="قسم">قسم عابدين</placeName></cell>
                </row>
                <row>
                   <cell>٨٧٥</cell>
@@ -1421,7 +1547,7 @@
                   <cell>عن الحصة</cell>
                   <cell>٣٧٥</cell>
                   <cell>٠٠</cell>
-                  <cell>حصة قيراط واحد ونصف قيراط في مشاع منزل بدرب الشرفا المنتهية بحارة السندبيسي بقسم بولاق</cell>
+                  <cell>حصة قيراط واحد ونصف قيراط في مشاع منزل بدرب الشرفا المنتهية ب<placeName ref="حارة السندبيسي" type="حارة">حارة السندبيسي</placeName> ب<placeName ref="قسم بولاق" type="قسم">قسم بولاق</placeName></cell>
                </row>
                <row>
                   <cell>٤٠٦</cell>
@@ -1431,7 +1557,9 @@
                   <cell>٦</cell>
                   <cell>٦٨١</cell>
                   <cell>٢</cell>
-                  <cell>حصة ٥ قراريط في مشاع دكان بشارع السروجية بقسم الدرب الأحمر مسطح الدكان ٩.٩٠ امتار</cell>
+                  <cell>حصة ٥ قراريط في مشاع دكان ب<placeName ref="شارع السروجية" type="شارع">شارع
+                        السروجية</placeName> ب<placeName ref="قسم الدرب الأحمر" type="قسم">قسم الدرب
+                        الأحمر</placeName> مسطح الدكان ٩.٩٠ امتار</cell>
                </row>
                <row>
                   <cell>١٠٩</cell>
@@ -1441,7 +1569,8 @@
                   <cell>٦</cell>
                   <cell>٤٢٢</cell>
                   <cell>١</cell>
-                  <cell>حصة ٥ قراريط في مشاع دكان بشارع السروجية بقسم الدرب الأحمر مسطح الدكان ٥.٢٥ امتار</cell>
+                  <cell>حصة ٥ قراريط في مشاع دكان بشارع السروجية بقسم الدرب الأحمر مسطح الدكان ٥.٢٥
+                     امتار</cell>
                </row>
                <row>
                   <cell>٣٠٠</cell>
@@ -1451,7 +1580,8 @@
                   <cell>٨</cell>
                   <cell>٢٦٠</cell>
                   <cell>١</cell>
-                  <cell>حصة ٥ قراريط في مشاع دكان بشارع المغربلين بقسم الدرب الأحمر مسطح الدكان ٣.٧٨ امتار</cell>
+                  <cell>حصة ٥ قراريط في مشاع دكان ب<placeName ref="شارع المغربلين" type="شارع">شارع
+                        المغربلين</placeName> بقسم الدرب الأحمر مسطح الدكان ٣.٧٨ امتار</cell>
                </row>
                <row>
                   <cell>٦٧٥</cell>
@@ -1461,7 +1591,8 @@
                   <cell>٨</cell>
                   <cell>٧٣٥</cell>
                   <cell>٠٠</cell>
-                  <cell>حصة ٢ ونصف قيراط في مشاع دكان بشارع المغربلين بقسم الدرب الأحمر مسطح الدكان ٤.٤١ متر</cell>
+                  <cell>حصة ٢ ونصف قيراط في مشاع دكان بشارع المغربلين بقسم الدرب الأحمر مسطح الدكان
+                     ٤.٤١ متر</cell>
                </row>
                <row>
                   <cell>٠٠</cell>
@@ -1474,7 +1605,10 @@
                   <cell>٠٠</cell>
                   <cell>٠٠</cell>
                   <cell>٦</cell>
-                  <cell>ركوب هواء واقع فوق ضريح وزاوية سيدى عوض والمطلع الموصل اليه بحارة عبد الباقي بدرب الجماميز بقسم السدة زينب</cell>
+                  <cell>ركوب هواء واقع فوق ضريح و<placeName ref="زاوية سيدى عوض" type="زاوية">زاوية
+                        سيدى عوض</placeName> والمطلع الموصل اليه ب<placeName ref="حارة عبد الباقي" type="حارة">حارة عبد الباقي</placeName> ب<placeName ref="درب الجماميز" type="درب">درب الجماميز</placeName> بقسم
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>السدة<?oxy_custom_end?>
+                     زينب</cell>
                </row>
                <row>
                   <cell>٢٥٠</cell>
@@ -1483,7 +1617,7 @@
                   <cell>عن الحصة</cell>
                   <cell>٢٥٠</cell>
                   <cell>٦</cell>
-                  <cell>حصة ٣ قراريط في مشاع منزل بشارع السد الجواني بقسم السيدة زينب</cell>
+                  <cell>حصة ٣ قراريط في مشاع منزل ب<placeName ref="شارع السد الجواني" type="شارع">شارع السد الجواني</placeName> بقسم السيدة زينب</cell>
                </row>
                <row>
                   <cell>٩٠٥</cell>
@@ -1494,7 +1628,9 @@
                   <cell>٥٨١</cell>
                   <cell>١٣</cell>
                   <cell>
-                     <p>قطع أراضي بجهة زين العابدين بقسم السيدة زينب ويشترط على مشتريها حفظ حقوق الارتفاق لاصحاب المنازل الواقعة بحرى هذه الأرض التي لها نوافذ مطلة عليها</p>
+                     <p>قطع أراضي بجهة <placeName ref="زين العابدين">زين العابدين</placeName> بقسم
+                        السيدة زينب ويشترط على مشتريها حفظ حقوق الارتفاق لاصحاب المنازل الواقعة بحرى
+                        هذه الأرض التي لها نوافذ مطلة عليها</p>
                   </cell>
                </row>
                <row>
@@ -1550,26 +1686,42 @@
             </table>
             <p>:::::::::::::::::::::::</p>
          </div>
-         <div>
-            <head>ملحق الوقائع المصرية عدد ١٣٧، ٨ ديسمبر ١٩٠٩، ٢٥ ذي القعدة ١٣٢٧، ص ١</head>
+         <div resp="eVJ">
+            <head>ملحق الوقائع المصرية <date when="1909-12-08">٨ ديسمبر ١٩٠٩</date>، <date when-custom="1327-11-25">٢٥ ذي القعدة ١٣٢٧</date>، <bibl><biblScope unit="issue">عدد ١٣٧</biblScope>، <biblScope unit="page">ص ١</biblScope></bibl></head>
             <head>امر عال</head>
             <head>نحن خديو مصر</head>
-            <p>بعد الاطلاع على قانوني نزع الملكية للمنفعة العامة الصادرين في ٢٤ ديسمبر ١٩٠٦ نمرة ٢٧ و٢٤ ابريل ١٩٠٧ نمرة ٥ وعلى البند الخامس من الشروط المبرمة بتاريخ ٨ يونيه ١٩٠٩ بين نظارة الاشغال العمومية وشركة أراضي الدلتا المصرية ليمتد بناء على ما قرره مجلس النظار بجلسة ٢٠ مايو ١٩٠٩</p>
+            <p>بعد الاطلاع على قانوني نزع الملكية للمنفعة العامة الصادرين في ٢٤ ديسمبر ١٩٠٦ نمرة ٢٧
+               و٢٤ ابريل ١٩٠٧ نمرة ٥ وعلى البند الخامس من الشروط المبرمة بتاريخ ٨ يونيه ١٩٠٩ بين
+                  <orgName ref="نظارة-الاشغال-العمومية" type="نظارة">نظارة الاشغال
+                  العمومية</orgName> و<orgName ref="شركة-أراضي-الدلتا-المصرية" type="شركة">شركة
+                  أراضي الدلتا المصرية</orgName> ليمتد بناء على ما قرره مجلس النظار بجلسة ٢٠ مايو
+               ١٩٠٩</p>
             <p>وبناء على ما عرضه علينا ناظر الاشغال العمومية وموافقة راى مجلس النظار </p>
             <p>امرنا بما هو ات</p>
             <p>المادة الأولى</p>
-            <p>يعتبر من المنافع العامة الطريق المراد انشاوه بمعرفة شركة أراضي الدلتا المصرية وعلى نفقتها خاصة من اثر النبي الى معادى الخبيري بإقليم الجيزة بعرض ٩ امتار حسب الرسم الموضح لذلك </p>
+            <p>يعتبر من المنافع العامة الطريق المراد انشاوه بمعرفة شركة أراضي الدلتا المصرية وعلى
+               نفقتها خاصة من <placeName ref="اثر النبي">اثر النبي</placeName> الى <placeName ref="معادى الخبيري">معادى الخبيري</placeName> ب<placeName ref="إقليم الجيزة">إقليم
+                  الجيزة</placeName> بعرض ٩ امتار حسب الرسم الموضح لذلك </p>
             <p>المادة الثانية </p>
-            <p>تنزع ملكية الأراضي والمباني المقامة عليها التي يستدعيها انشاء الطريق المذكور بالطرق العادية وبحسب القواعد المتبعة ومساحتها ٣ فدادين و٥ قراريط و١٤ سهماملك الافراد بنواحي اثر النبي ودير الطين ومعادى الخبيري ومبينة باللون الأحمر على الرسم الموضوع لذلك وبالكشفين الملحقين بامرنا هذا المنوه عنهما بالمادة الثانية من قانون نزع الملكية للمنفعة العامة وتجرى شركة أراضي الدلتا المصرية ليمتد نزع الملكية بمعرفتها وعلى نفقتها خاصة عملا باحكام البند الخامس من الشروط المبرمة بينها وبين نظارة الاشغال بتاريخ ٨ يونية ١٩٠٩</p>
+            <p>تنزع ملكية الأراضي والمباني المقامة عليها التي يستدعيها انشاء الطريق المذكور بالطرق
+               العادية وبحسب القواعد المتبعة ومساحتها ٣ فدادين و٥ قراريط و١٤ سهماملك الافراد بنواحي
+               اثر النبي و<placeName ref="دير الطين">دير الطين</placeName> ومعادى الخبيري ومبينة
+               باللون الأحمر على الرسم الموضوع لذلك وبالكشفين الملحقين بامرنا هذا المنوه عنهما
+               بالمادة الثانية من قانون نزع الملكية للمنفعة العامة وتجرى شركة أراضي الدلتا المصرية
+               ليمتد نزع الملكية بمعرفتها وعلى نفقتها خاصة عملا باحكام البند الخامس من الشروط
+               المبرمة بينها وبين نظارة الاشغال بتاريخ ٨ يونية ١٩٠٩</p>
             <p>المادة الثالثة </p>
-            <p>تنقل من أملاك الحكومة الخاصة الى الأملاك العامة قطعة الأرض الاميرية البالغة مساحتها قيراطا و٩ اسهم واقعة بناحية دير الطين بمركز وإقليم الجيزة ومبينة بالاستمارة نمرة ٣١ الملحقة بامرنا هذا </p>
+            <p>تنقل من أملاك الحكومة الخاصة الى الأملاك العامة قطعة الأرض الاميرية البالغة مساحتها
+               قيراطا و٩ اسهم واقعة بناحية دير الطين بمركز وإقليم الجيزة ومبينة بالاستمارة نمرة ٣١
+               الملحقة بامرنا هذا </p>
             <p>(المادة الرابعة)</p>
             <p>على ناظرى الاشغال العمومية والمالية تنفيذ امرنا هذا كل منهما فيما يخصه </p>
             <p>صدر بسراى عابدين ٢٢ نوفمبر ١٩٠٩</p>
-            <p>عباس حلمى بامر الحضرة الخديوية</p>
-            <p>رئيس مجلس النظار بطرس غالى </p>
-            <p>ناظر الاشغال العمومية إسماعيل سري</p>
-            <p>ناظر المالية احمد حشمت </p>
+            <p><persName>عباس حلمى</persName> بامر الحضرة الخديوية</p>
+            <p><persName>رئيس مجلس النظار بطرس غالى</persName>
+            </p>
+            <p><persName>ناظر الاشغال العمومية إسماعيل سري</persName></p>
+            <p><persName>ناظر المالية احمد حشمت</persName></p>
          </div>
          <div>
             <head>(((محلق بي دى اف))</head>

@@ -2,34 +2,37 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>"Digital Cairo - Urbanism News from al-Waqāʾiʿ al-Miṣrīyah - An Ottoman Arabic Digital Humanities
-          Project"</title>
-        <editor xml:id="eNK">Nour Kanaan</editor>
-        <editor xml:id="eAM">Adam Mestyan</editor>
+        <title>"Urbanism News In The Official Egyptian Gazette (al-Waqāʾiʿ al-Miṣrīyah), 1828-1914 - An Ottoman Arabic
+          Digital Humanities Project"</title>
+        <editor xml:id="eHC" ref="https://orcid.org/0000-0003-0060-9396">Hugh Cayless</editor>
+        <editor xml:id="eNK" ref="https://orcid.org/0009-0008-0409-7328">Nour Kanaan</editor>
+        <editor xml:id="eAM" ref="https://orcid.org/0000-0002-5945-6147">Adam Mestyan</editor>
         <editor xml:id="eDY">Danah Younis</editor>
-        <editor xml:id="eSG">Sarah Fathallah Gaara</editor>
-        <editor xml:id="eAE">Arif Erbil</editor>
-        <editor xml:id="eAK">Ahmed Kamal</editor>
-        <editor xml:id="eAS">Abram Smith</editor>
+        <editor xml:id="eSG" ref="https://orcid.org/0000-0002-1977-5530">Sarah Fathallah
+          Gaara</editor>
+        <editor xml:id="eAE" ref="https://orcid.org/0000-0001-9369-3034">Arif Erbil</editor>
+        <editor xml:id="eAK" ref="https://orcid.org/0000-0003-1721-1050">Ahmed Kamal</editor>
+        <editor xml:id="eAS" ref="https://orcid.org/0009-0004-9778-6632">Abram Smith</editor>
         <editor xml:id="eCH">Clara Harms</editor>
-        <editor xml:id="eHS">Hüseyin Sağlam</editor>
-        <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+        <editor xml:id="eHS" ref="https://orcid.org/0000-0003-3003-1986">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT" ref="https://orcid.org/0009-0002-2083-9199">Abdulrahman
+          El-Taliawi</editor>
         <editor xml:id="eHL">Hiba Laabadli</editor>
-        <editor xml:id="eOE">Othmane Echchabi</editor>
+        <editor xml:id="eOE" ref="https://orcid.org/0009-0002-9543-2617">Othmane Echchabi</editor>
         <editor xml:id="eFA">Fatemah Almahana</editor>
         <editor xml:id="eMZ">Mahmoud Zaki</editor>
-        <editor xml:id="eNS">Nehal al-Shamy</editor>
-        <editor xml:id="eVJ">Vishal Jammulapati</editor>
+        <editor xml:id="eNS" ref="https://orcid.org/0009-0006-8785-0228">Nehal al-Shamy</editor>
+        <editor xml:id="eVJ" ref="https://orcid.org/0009-0004-4472-4120">Vishal Jammulapati</editor>
         <respStmt>
-          <resp>Project leader</resp>
+          <resp>Project co-director</resp>
           <name>Hugh Cayless</name>
         </respStmt>
         <respStmt>
-          <resp>Project leader</resp>
+          <resp>Primary Investigator</resp>
           <name>Adam Mestyan</name>
         </respStmt>
         <respStmt>
-          <resp>Project leader</resp>
+          <resp ref="https://orcid.org/0000-0001-5239-7909">Project co-director</resp>
           <name>Mercedes Volait</name>
         </respStmt>
         <respStmt>
@@ -37,12 +40,12 @@
           <name>Sarah Fathallah Gaara</name>
         </respStmt>
         <respStmt>
-          <resp>Research Assistant</resp>
+          <resp ref="https://orcid.org/0000-0003-1216-3686">Research Assistant</resp>
           <name>Karima Nasr</name>
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
-          <name>Rezk Nory</name>
+          <name>Rezk Nori</name>
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
@@ -98,12 +101,11 @@
             and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
             University</orgName>; <orgName>Duke University Libraries</orgName>; <orgName>Centre
             national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian
-            Cultural Counsellor in Cairo</orgName>. </sponsor>
+            Cultural Counsellor in Cairo</orgName>.</sponsor>
       </titleStmt>
       <publicationStmt>
- <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the project "La fabrique
-          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+        <p>"A TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah, 1828-1914"</p>
+        <p> Created by the "Digital Cairo" project (Duke University - Ifao), sponsored by the National Endowment for the Humanities.</p>
         <p>
           <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
         </p>
@@ -119,7 +121,7 @@
       <projectDesc>
         <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+        <p>The "Digital Cairo" project is sponsored by the National Endowment for the Humanities.</p>
       </projectDesc>
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
@@ -210,12 +212,9 @@
           الواقع منه بين <placeName ref="شارع بولاق" type="شارع">شارع بولاق</placeName> و<placeName ref="قسم الخليج" type="قسم">قسم الخليج</placeName> غير التسمية الحالية فيسمي القسم الذي
           بين شارع بولاق و<placeName ref="ميدان قصر النيل" type="ميدان">ميدان قصر النيل</placeName>
             "<placeName ref="شارع سليمان باشا" type="شارع">شارع سليمان باشا</placeName>" ويبقي
-          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>الدورات<?oxy_custom_end?>
-          الذي فيه تمثال <persName>سليمان باشا</persName> باسمه الحالي ويسمي القسم الذي بين ميدان
-          قصرالنيل الى <placeName ref="فم الخليج"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>فيم<?oxy_custom_end?>
-            الخليج</placeName> "<placeName ref="شارع قصر العيني" type="شارع">شارع قصر
-            العيني</placeName>" ومن فم الخليج الى نهاية مصر العتيقة يبقى باسمه الحال وهو شارع مصر
-          العتيقة. </p>
+          الدوران الذي فيه تمثال <persName>سليمان باشا</persName> باسمه الحالي ويسمي القسم الذي بين
+          ميدان قصرالنيل الى <placeName ref="فم الخليج">فم الخليج</placeName> "<placeName ref="شارع قصر العيني" type="شارع">شارع قصر العيني</placeName>" ومن فم الخليج الى نهاية
+          مصر العتيقة يبقى باسمه الحال وهو شارع مصر العتيقة. </p>
         <p>________________</p>
       </div>
          <div resp="#eAK" xml:id="v143">
@@ -248,8 +247,7 @@
             <cell>٦٥٧٧.٥٠</cell>
             <cell>٥٧٥</cell>
             <cell>قطعة ارض ميري كائنة بجهة <placeName ref="فم الخليج">فم الخليج</placeName> قبلي
-              العيون ب<placeName ref="قسم مصر القديمة" type="قسم">قسم مصر القديمة</placeName>
-              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>محاور<?oxy_custom_end?>
+              العيون ب<placeName ref="قسم مصر القديمة" type="قسم">قسم مصر القديمة</placeName> مجاورة
               لمحل حريق العظام ملك <persName>الخواجه جورجى شوسي</persName> ومن يشتريها يكون مكلفا
               بماهية الخفير الذى تعينه نظارة الاشغال لملاحظة الحفر فيها وان لا يستعمل الأرض المذكورة
               الا لايجاد محل من أنواع المحلات المدونة بلائحة المحلات المقلقة للراجة او المضرة بالصحه
@@ -270,12 +268,11 @@
         <head><orgName ref="ديوان عموم الأوقاف" type="ديوان">ديوان عموم الأوقاف</orgName></head>
         <p>يعلن العموم انه سيجري اشهار <rs type="مزاد">مزاد</rs> بيع المحلات المبينة بمقاستها
           واثمانها الأساسية بعد امام قومسيون يعقده بمركزه الفرعى الكائن بجوار <placeName ref="مسجد الرفاعى" type="مسجد"><orgName ref="مسجد الرفاعى" type="مسجد">مسجد
-              الرفاعى</orgName></placeName> بمصر في يوم الأربعاء ٢٠ يونيه ١٩٠٠
-          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>وفت<?oxy_custom_end?>
-          جلسة المزاد الساعه ٩ الى الساعه ١٢ صباحا ومن الساعه ٢ الى الساعه ٤ بعد الظهر فمن يرغب في
-          مشترى شيء منها فليتوجه هو او من ينوب عنه في الميعاد المحدد للمزايدة فيه مع قبول شروط قائمة
-          المزاد واعتبار الثمن الأساسي اول عطاء ودفع تامين بواقع المائة عشرة من الثمن ومن يتأخر عن
-          هذا الميعاد يعتبر تاخيره كف يد</p>
+              الرفاعى</orgName></placeName> بمصر في يوم الأربعاء ٢٠ يونيه ١٩٠٠ وفتح جلسة المزاد
+          الساعه ٩ الى الساعه ١٢ صباحا ومن الساعه ٢ الى الساعه ٤ بعد الظهر فمن يرغب في مشترى شيء
+          منها فليتوجه هو او من ينوب عنه في الميعاد المحدد للمزايدة فيه مع قبول شروط قائمة المزاد
+          واعتبار الثمن الأساسي اول عطاء ودفع تامين بواقع المائة عشرة من الثمن ومن يتأخر عن هذا
+          الميعاد يعتبر تاخيره كف يد</p>
         <list rend="bulleted">
           <item>
             <hi style="font-size:14ptdirection:rtl;">منزل ب<placeName ref="درب الخواجه" type="درب">درب الخواجه</placeName> ب<placeName ref="حارة الدرب الجديد" type="حارة">حارة الدرب
@@ -310,8 +307,11 @@
           صباحا لغاية الساعه ١٢ الظهرسيصير إعادة اشهار <rs type="مزاد">مزاد</rs> بيع العقارات
           المبينة بهذا واعتبار اول عطا فيها الثمن الموضح بعد فيقتضي ان كل من له رغبة في مشترى ذلك
           يحضر هو او وكيل عنه لديدان المحافظة في الميعاد الموقوم للمزايدة امام القومسيون ويدفع تامين
-          المائة ٢٠ على الثمن المبين بعد وبعد الميعاد يصير قفل جلسة المزاد
-          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>......<?oxy_custom_end?></p>
+          المائة ٢٠ على الثمن المبين بعد وبعد الميعاد يصير قفل جلسة المزاد ومن يتأخر يتعتبرتأخيره كف
+          يد والمشتري ملزوم بقبول كامل الاحكام المدونة بلائحة بيع أملاك الميري الحرة والمشتري مخير
+          في قبول قونتراتو التأجير من عدمه وللمالية الحق في قبول أو رفض أعلى عطاء يرسى به المزاد وفي
+          حالة رفض أعلى طلب لا يكون لصاحبه حق في شيء ما سوى رد التأمين المدفوع منه اليه وعلى هذا لزم
+          الاعلان لمعلومية العموم</p>
         <table>
           <row>
             <cell>الثمن الاساسي</cell>
@@ -467,12 +467,10 @@
           للبيع تلصق الإعلانات المذكورة أيضا على أبواب بيوت المشايخ وفي النقط المعتاد مرور العامة
           فيها بكثرة وتدرج الإعلانات المذكورة بعبارة موجزة في الجريدتين الرسميتين العربية
           والفرنساوية</p>
-        <p>ويتوضح بهذه الإعلانات بيان
-          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>العاقارات<?oxy_custom_end?>
-          المطروحة للبيع والثمن الأساسي المقدر لها والضريبة التي تربط عليها وغير ذلك من البيانات
-          ويتوضح أيضا عن الكيفية التي سيحصل بها البيع ان كانت بطريق المزاد العلنى أو بواسطة عطاآت
-          داخل مظاريف مختوم عليها بالشمع الأحمر ففي الحالة الأولى يتبين اليوم والساعه المحددين لقبول
-          العطاات داخل مظاريف مختوم عليها بالشمع الأحمر </p>
+        <p>ويتوضح بهذه الإعلانات بيان العقارات المطروحة للبيع والثمن الأساسي المقدر لها والضريبة
+          التي تربط عليها وغير ذلك من البيانات ويتوضح أيضا عن الكيفية التي سيحصل بها البيع ان كانت
+          بطريق المزاد العلنى أو بواسطة عطاآت داخل مظاريف مختوم عليها بالشمع الأحمر ففي الحالة
+          الأولى يتبين اليوم والساعه المحددين لقبول العطاات داخل مظاريف مختوم عليها بالشمع الأحمر </p>
         <p>(المادة ٦ )</p>
         <p>تعقد جلسات المزاد أو جلسات فتح العطاآت داخل مظاريف مختوم عليها بالشمع الأحمر بعد نشر
           الإعلانات المتقدم ذكرها بثلاثين يوما </p>
@@ -509,8 +507,7 @@
         <p>(المادة ١٣)</p>
         <p>اذا اتفق في حالة البيع بواسطة عطاآت داخل مظاريف مختوم عليها بالشمع الأحمر وجود عطاءين أو
           أكثر بسعر واحد تعين على رئيس القومسيون موافقة إعطاء الأولوية لاحدهم بدون ان يقترع بينهم
-          فعلية ان يعرض <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>لمظارة
-          المالية<?oxy_custom_end?> عن ذلك مع إيضاح الأسباب.</p>
+          فعلية ان يعرض لنظارة المالية عن ذلك مع إيضاح الأسباب.</p>
         <p>(المادة ١٤) </p>
         <p>فتح العطاات التي تقدم داخل مظاريف يكون بحضور قومسيون البيع ويعمل عن الجلسة محضر يتوقع
           عليه القومسيون </p>
@@ -528,14 +525,11 @@
           تكون مستحقة بالتطبيق للمادة (١٩) الاتى ذكرها </p>
         <p>(المادة ١٨)</p>
         <p>كل بيع يلزم ان يتصدق عليه من نظارة المالية سواء كان قد حصل بالمزاد او بواسطة عطاات داخل
-          مظاريف مختوم عليها او بالممارسة ما
-          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>عجا<?oxy_custom_end?>
-          في الحالة المختصة ببيع القطع الناتجة عن زوائد التنظيم التي لا يتجاوز الثمن المقدر لها خمسة
-          جنيهات عن كل قطعة فهذه القطع هي فقط التي يجوز بيعها بدون تصديق النظارة</p>
+          مظاريف مختوم عليها او بالممارسة ما عدا في الحالة المختصة ببيع القطع الناتجة عن زوائد
+          التنظيم التي لا يتجاوز الثمن المقدر لها خمسة جنيهات عن كل قطعة فهذه القطع هي فقط التي يجوز
+          بيعها بدون تصديق النظارة</p>
         <p>ويتبلغ تصديق النظارة الى المشترين بمعرفة المديريات والمحافظات ذات الشأن في الإعلانات التي
-          يطلب منهم فيها
-          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>سداج<?oxy_custom_end?>
-          باقي الثمن وما يتبعه</p>
+          يطلب منهم فيها سداد باقي الثمن وما يتبعه</p>
         <p>(المادة ١٩) </p>
         <p>في حالة عدم إقرار نظارة المالية على البيع لا يكون للمشترين حق في فوائد على التامينات
           المدفوعة منهم وذلك متى كان رفض البيع قد حصل في بحر ثلاثين يوما اعتبار من يوم المزاد أو يوم
@@ -561,9 +555,8 @@
           التأمين المدفوع منه حقا صريحا للخزينة ولا يكون له حق في الرجوع على الحكومة باى صفة
           كانت</p>
         <p>(المادة ٢٣) </p>
-        <p>يجوز لكل مشتر بواسطة الإعلان المنوه عنه بالمادة
-          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>السابة<?oxy_custom_end?>
-          ان يسدد الثمن مع الرسوم والمصاريف الى صراف ناحيته الذى يعطيه به علم خبر </p>
+        <p>يجوز لكل مشتر بواسطة الإعلان المنوه عنه بالمادة السابقة ان يسدد الثمن مع الرسوم والمصاريف
+          الى صراف ناحيته الذى يعطيه به علم خبر </p>
         <p>(المادة ٢٤) </p>
         <p>على الحكومة أن تسلم العقار المباع للمشترى في بحر شهرين اعتبار من يوم سداد كامل الثمن
           والرسوم النسبية بواقع المائة خمسة مع ما يكون مستحقا من مصاريف المساحه ويحصل التسليم بمجرد
@@ -577,10 +570,8 @@
         <p>في المديريات : عمد ومشايخ ودليل الناحية الموجود فيها العقار المباع</p>
         <p>وفي المحافظات: مهندس تنظيم الجهة</p>
         <p>وفي حالة ما اذا أوضح المشترى عل قائمة المزاد أو قائمة الممارسة أو في العطاء المقدم منه
-          داخل
-          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>نظروف<?oxy_custom_end?>
-          انه يرغب استلام الأرض بموجب مقاس يعمل بحضورة تضيف المديرية الى المامورين المكلفين بالتسليم
-          ركاب المساحة التابعة له الناحية لاجراء المقاس المرغوب </p>
+          داخل مظروف انه يرغب استلام الأرض بموجب مقاس يعمل بحضورة تضيف المديرية الى المامورين
+          المكلفين بالتسليم ركاب المساحة التابعة له الناحية لاجراء المقاس المرغوب </p>
         <p>(المادة ٢٥) </p>
         <p>محاضر التسليم تحرر من نسختين خلف عقود البيع ويتوقع عليها من المشترين أو من ينوب عنهم ومن
           المأمورين المنوطين بالتسليم ومن الشهود الحاضرين</p>
@@ -606,8 +597,7 @@
         <p>اذا اتضح من المقاس الذى يعمل وقت التسليم وجود زيادة أو عجز في المساحة المبينة في اعلان
           الاشهار أو بقائمه المزاد أو قائمة الممارسة فيزاد الثمن الذى حصل البيع به او ينقص بنسبة ما
           ظهر من الزيادة أو العجز.</p>
-        <p>(المادة ٣١) <pb/>
-        </p>
+        <p>(المادة ٣١)</p>
         <p>اذا لم يتأت للحكومة تسليم العقار المباع لاى سبب يتراآى لها فلا تكون ملزومة الا برد الثمن
           والرسوم النسبية ومصاريف المساحة التي تكون حصلتها مع فوائد عن كل هذه المبالغ بواقع المائة
           خمسة سنويا اعتبارا من يوم دفع كل مبلغ منها ويعتبر البيع حينئذ ملغي لا يعول عليه بدون أن
@@ -619,9 +609,7 @@
           بسدادها في نفس الوقت الذى يسددون فيه ثمن ما بيع اليهم بحسب الطريقة المبينة في بالمادة ٢٢
           المتقدم ذكرها اماما عدا ذلك من الرسوم والمصاريف الإضافية التي يستلزمها التسجيل فتكون على
           طرف الحكومة ولا يستثنى من هذه القاعدة سوي بيوع القطع الناتجة عن زوائد التنظيم التي لا
-          يتجاوز الثمن الأساسي للقطعة الواحدة منها خمسة جنيهات ولا تحرر بهذه
-          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>لزوائد<?oxy_custom_end?>
-          عقود بيع .</p>
+          يتجاوز الثمن الأساسي للقطعة الواحدة منها خمسة جنيهات ولا تحرر بهذه الزوائد عقود بيع .</p>
         <p>ويكون تسجيل عقود البيع باقلام كتاب المحاكم المختلطة بمعرفة الحكومة</p>
         <p>(المادة ٣٣) </p>
         <p>لايمكن تحرير أي عقد بيع كان الا باسم من رسي عليه المزاد أو حصل به البيع بالممارسة ما لم

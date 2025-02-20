@@ -2,34 +2,37 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>"Digital Cairo - Urbanism News from al-Waqāʾiʿ al-Miṣrīyah - An Ottoman Arabic Digital Humanities
-          Project"</title>
-        <editor xml:id="eNK">Nour Kanaan</editor>
-        <editor xml:id="eAM">Adam Mestyan</editor>
+        <title>"Urbanism News In The Official Egyptian Gazette (al-Waqāʾiʿ al-Miṣrīyah), 1828-1914 - An Ottoman Arabic
+          Digital Humanities Project"</title>
+        <editor xml:id="eHC" ref="https://orcid.org/0000-0003-0060-9396">Hugh Cayless</editor>
+        <editor xml:id="eNK" ref="https://orcid.org/0009-0008-0409-7328">Nour Kanaan</editor>
+        <editor xml:id="eAM" ref="https://orcid.org/0000-0002-5945-6147">Adam Mestyan</editor>
         <editor xml:id="eDY">Danah Younis</editor>
-        <editor xml:id="eSG">Sarah Fathallah Gaara</editor>
-        <editor xml:id="eAE">Arif Erbil</editor>
-        <editor xml:id="eAK">Ahmed Kamal</editor>
-        <editor xml:id="eAS">Abram Smith</editor>
+        <editor xml:id="eSG" ref="https://orcid.org/0000-0002-1977-5530">Sarah Fathallah
+          Gaara</editor>
+        <editor xml:id="eAE" ref="https://orcid.org/0000-0001-9369-3034">Arif Erbil</editor>
+        <editor xml:id="eAK" ref="https://orcid.org/0000-0003-1721-1050">Ahmed Kamal</editor>
+        <editor xml:id="eAS" ref="https://orcid.org/0009-0004-9778-6632">Abram Smith</editor>
         <editor xml:id="eCH">Clara Harms</editor>
-        <editor xml:id="eHS">Hüseyin Sağlam</editor>
-        <editor xml:id="eAT">Abdulrahman El-Taliawi</editor>
+        <editor xml:id="eHS" ref="https://orcid.org/0000-0003-3003-1986">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT" ref="https://orcid.org/0009-0002-2083-9199">Abdulrahman
+          El-Taliawi</editor>
         <editor xml:id="eHL">Hiba Laabadli</editor>
-        <editor xml:id="eOE">Othmane Echchabi</editor>
+        <editor xml:id="eOE" ref="https://orcid.org/0009-0002-9543-2617">Othmane Echchabi</editor>
         <editor xml:id="eFA">Fatemah Almahana</editor>
         <editor xml:id="eMZ">Mahmoud Zaki</editor>
-        <editor xml:id="eNS">Nehal al-Shamy</editor>
-        <editor xml:id="eVJ">Vishal Jammulapati</editor>
+        <editor xml:id="eNS" ref="https://orcid.org/0009-0006-8785-0228">Nehal al-Shamy</editor>
+        <editor xml:id="eVJ" ref="https://orcid.org/0009-0004-4472-4120">Vishal Jammulapati</editor>
         <respStmt>
-          <resp>Project leader</resp>
+          <resp>Project co-director</resp>
           <name>Hugh Cayless</name>
         </respStmt>
         <respStmt>
-          <resp>Project leader</resp>
+          <resp>Primary Investigator</resp>
           <name>Adam Mestyan</name>
         </respStmt>
         <respStmt>
-          <resp>Project leader</resp>
+          <resp ref="https://orcid.org/0000-0001-5239-7909">Project co-director</resp>
           <name>Mercedes Volait</name>
         </respStmt>
         <respStmt>
@@ -37,12 +40,12 @@
           <name>Sarah Fathallah Gaara</name>
         </respStmt>
         <respStmt>
-          <resp>Research Assistant</resp>
+          <resp ref="https://orcid.org/0000-0003-1216-3686">Research Assistant</resp>
           <name>Karima Nasr</name>
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
-          <name>Rezk Nory</name>
+          <name>Rezk Nori</name>
         </respStmt>
         <respStmt>
           <resp>Research Assistant</resp>
@@ -98,12 +101,11 @@
             and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
             University</orgName>; <orgName>Duke University Libraries</orgName>; <orgName>Centre
             national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian
-            Cultural Counsellor in Cairo</orgName>. </sponsor>
+            Cultural Counsellor in Cairo</orgName>.</sponsor>
       </titleStmt>
       <publicationStmt>
- <p>"XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the project "La fabrique
-          du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+        <p>"A TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah, 1828-1914"</p>
+        <p> Created by the "Digital Cairo" project (Duke University - Ifao), sponsored by the National Endowment for the Humanities.</p>
         <p>
           <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
         </p>
@@ -119,7 +121,7 @@
       <projectDesc>
         <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
           project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
-        <p>"Digital Cairo" project sponsored by the National Endowment for the Humanities.</p>
+        <p>The "Digital Cairo" project is sponsored by the National Endowment for the Humanities.</p>
       </projectDesc>
       <editorialDecl>
         <p>Rules of TEI XML MarkUp in This Project</p>
@@ -198,80 +200,74 @@
   
   <text xml:lang="ar">
       <body>
-         <div xml:id="Z1" resp="#eNS">
+         <div xml:id="w1" resp="#eNS #eSG">
         <head><date when-custom="1307-05-16">١٦ جمادى الأولى ١٣٠٧</date>
           <date when="1890-01-08">٨ يناير ١٨٩٠</date>
           <bibl><biblScope unit="issue">عدد ٤</biblScope>
-            <biblScope unit="page">ص ٨٣</biblScope></bibl>
-        </head>
-        <head/>
-        <?oxy_comment_start author="shamy" timestamp="20240604T004727+0300" comment="I removed the page from the second heading to include in the bibl. Is that right?"?>
-        <p><?oxy_comment_end?>
-          <hi rend="bold"><orgName ref="نظارة المالية" type="نظارة">نظارة المالية</orgName>
-            <orgName ref="ادارة الاموال المقررة" type="ادارة">ادارة الاموال المقررة</orgName>
-            <orgName ref="قسم املاك الميرى" type="قسم">قسم املاك الميرى</orgName></hi>
-        </p>
+            <biblScope unit="page">صفحة ٨٣</biblScope></bibl></head>
+        <head><orgName ref="نظارة-المالية" type="نظارة">نظارة المالية</orgName></head>
+        <head><orgName ref="ادارة-الاموال-المقررة" type="ادارة">ادارة الاموال
+          المقررة</orgName></head>
+        <head><orgName ref="قسم-املاك-الميرى" type="قسم">قسم <orgName ref="املاك-الميرى" type="املاك">املاك الميرى</orgName></orgName></head>
         <p>يكون معلوم لدى العموم انه في جلسة يوم الاربعاء ١٥ يناير سنة ١٨٩٠ الموافق ٢٣ جمادى الاولى
-          سنة ١٣٠٧ المزمع انعقادها ب<orgName ref="ديوان محافظة مصر" type="ديوان">ديوان محافظة
-            مصر</orgName> سيصير اشهار مزاد بيع الاراضى الموضحه بعد الكائنة بجهات <placeName ref="الصاغة">الصاغة</placeName> و<placeName ref="مصر القديمة">مصر القديمة</placeName>
-          واعتبار أول عطا فيها الثمن المبين امام كل قطعة فكل من له رغبة في مشترى شي من ذلك يتوجه هو
-          أو من ينوب عنه لديوان المحافظة اليوم المذكور من ابتداء الساعة ١٠ افرنكى صباحا لغاية الساعة
-          ١٢ افرنكي الظهر للمزايدة فيها بين الراغبين أمام <orgName ref="قومسيون البيع">قومسيون
-            البيع</orgName> هناك وبدفع تامين المائة ١٠ ومن يتاخر عن ذلك فيعتبر تاخيره كف يد والمشترى
-          ملزوم بقبوله كامل الاحكام والاشتراطات المعلومة بلائحة البيع الرقيمة ٢٢ نوفمبر سنة ٨٦
-          والمنشورات والاوامر المتممة لها وللمالية الحق بعد مرسى المزاد قبول أو رفض اعلى عطا يعطى في
-          هذه الاراضي وللمعلومية لزم الاعلان</p>
+          سنة ١٣٠٧ المزمع انعقادها ب<orgName ref="ديوان-محافظة-مصر" type="ديوان">ديوان <orgName ref="محافظة-مصر" type="محافظة"><placeName ref="محافظة-مصر" type="محافظة">محافظة
+                مصر</placeName></orgName></orgName> سيصير اشهار مزاد بيع الاراضى الموضحه بعد الكائنة
+          بجهات <placeName ref="جهة-الصاغة" type="جهة">الصاغة</placeName> و<placeName ref="جهة-مصر-القديمة" type="جهة">مصر القديمة</placeName> واعتبار أول عطا فيها الثمن
+          المبين امام كل قطعة فكل من له رغبة في مشترى شي من ذلك يتوجه هو أو من ينوب عنه ل<orgName ref="ديوان-المحافظة">ديوان المحافظة</orgName> اليوم المذكور من ابتداء الساعة ١٠ افرنكى
+          صباحا لغاية الساعة ١٢ افرنكي الظهر للمزايدة فيها بين الراغبين أمام
+            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><orgName ref="قومسيون-البيع" type="قومسيون">قومسيون البيع</orgName> هناك<?oxy_custom_end?> وبدفع
+          تامين المائة ١٠ ومن يتاخر عن ذلك فيعتبر تاخيره كف يد والمشترى ملزوم بقبوله كامل الاحكام
+          والاشتراطات المعلومة بلائحة البيع الرقيمة ٢٢ نوفمبر سنة ٨٦ والمنشورات والاوامر المتممة لها
+          وللمالية الحق بعد مرسى المزاد قبول أو رفض اعلى عطا يعطى في هذه الاراضي وللمعلومية لزم
+          الاعلان</p>
         <table>
           <row>
             <cell>
               <p>س متر</p>
               <p>٢٧ ٢١</p>
             </cell>
-            <cell>قطع جزئيه
-                <sic><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>مركية<?oxy_custom_end?></sic>
-              على دكاكين مذكورين ب<placeName ref="سوق الصاغة" type="سوق">سوق الصاغة</placeName> من
-              نمرة ١ لنمرة ٦ ثمنها الاساسي سعر المتر من فئة ٨٠ قرشا الى فئة ١٦٠ قرشا</cell>
+            <cell>قطع جزئيه مركبة على دكاكين مذكورين ب<orgName ref="سوق-الصاغة" type="سوق"><placeName ref="سوق-الصاغة" type="سوق">سوق الصاغة</placeName></orgName> من نمرة ١
+              لنمرة ٦ ثمنها الاساسي سعر المتر من فئة ٨٠ قرشا الى فئة ١٦٠ قرشا</cell>
           </row>
           <row>
             <cell>٢٥ ١١٢</cell>
-            <cell>قطعة نمرة ١٧٩ بالجدول بجهة <placeName ref="المدابغ">المدابغ</placeName> بمصر
-              القديمة محدودة بحدود اربعة الحد الغربي والقبلي ينتهى <placeName ref="لارض برسوم مسيحه التبان" type="ارض">لارض <persName ref="برسوم مسيحه التبان">برسوم مسيحه التبان</persName></placeName> والحد البحرى ينتهى لارض التل وباقية
-              للارض المسلمه الى <orgName ref="شركة سكة حديد حلوان" type="شركة">شركة سكة حديد
-                حلوان</orgName> وثمنها الاساسي سعر المتر ٣ قروش</cell>
+            <cell>قطعة نمرة ١٧٩ بالجدول ب<placeName ref="جهة-المدابغ" type="جهة">جهة
+                المدابغ</placeName> ب<placeName ref="مصر-القديمة">مصر القديمة</placeName> محدودة
+              بحدود اربعة الحد الغربي والقبلي ينتهى ل<placeName ref="ارض-برسوم-مسيحه-التبان" type="ارض">ارض <persName ref="برسوم مسيحه التبان">برسوم مسيحه
+                التبان</persName></placeName> والحد البحرى ينتهى ل<placeName ref="ارض-التل" type="ارض">ارض التل</placeName> وباقية ل<placeName ref="ارض-مسلمه-الى-شركة-سكة-حديد-حلوان" type="ارض">لارض المسلمه الى <orgName ref="شركة-سكة-حديد-حلوان" type="شركة">شركة سكة حديد حلوان</orgName></placeName>
+              وثمنها الاساسي سعر المتر ٣ قروش</cell>
           </row>
           <row>
             <cell>٩١ ٣٧٩</cell>
             <cell>قطعة نمرة ١٨٠ بالجدول بالجهة المذكورة محدودة بحدود ثلاثة الحد الغربي ينتهى لارض
-              برسوم مسيحه والحد البحرى الشرقي ينتهى ل<placeName ref="تل كوم غراب" type="تل">تل كوم
+              برسوم مسيحه والحد البحرى الشرقي ينتهى ل<placeName ref="تل-كوم-غراب" type="تل">تل كوم
                 غراب</placeName> وثمنها الاساسي سعر المتر ٣ قروش</cell>
           </row>
         </table>
       </div>
-         <div resp="#eNS" xml:id="Z2">
+         <div resp="#eNS #eSG" xml:id="w2">
         <head><date when-custom="1307-05-16">١٦ جمادى الأولى ١٣٠٧</date>
-          <date when="1890-01-08">٨ يناير ١٨٩٠</date>، <bibl><biblScope unit="issue">عدد
-              ٤</biblScope>
-            <biblScope unit="page">ص ٨٤</biblScope></bibl>
-        </head>
-        <head/>
-        <p>
-          <hi rend="bold">نظارة المالية ادارة الاموال المقررة قسم املاك الميرى</hi>
-        </p>
+          <date when="1890-01-08">٨ يناير ١٨٩٠</date>
+          <bibl><biblScope unit="issue">عدد ٤</biblScope>
+            <biblScope unit="page">صفحة ٨٤</biblScope></bibl></head>
+        <head><orgName ref="نظارة-المالية" type="نظارة">نظارة المالية</orgName></head>
+        <head><orgName ref="ادارة-الاموال-المقررة" type="ادارة">ادارة الاموال
+          المقررة</orgName></head>
+        <head><orgName ref="قسم-املاك-الميرى" type="قسم">قسم <orgName ref="املاك-الميرى" type="املاك">املاك الميرى</orgName></orgName></head>
         <p>يكون معلوم لدى العموم انه بجلسة يوم الاربعاء ١٥ يناير سنة ١٨٩٠ الموافق ٢٣ جمادى الاولى
-          سنة ١٣٠٧ المزمع انعقادها بديوان محافظة مصر سيصير اشهار مزاد مبيع العقارات المبينة بعد
-          الكائنة بالمحروسة الايلة الى <orgName ref="بيت مال مصر" type="ديوان">بيت مال مصر</orgName>
-            و<orgName ref="قلم المبايعة بالمالية" type="قلم">قلم المبايعة بالمالية</orgName> واعتبار
-          أول عطا الثمن الاساسي المبين امام كل قلم فكل من له رغبة في المشترى يحضر او وكيلا
-            <sic>عنهفي</sic> اليوم المذكور من ابتداء الساعة ١٠ افرنكى صباحا لغاية الساعة ١٢ افرنكي
-          الظهر للمزايدة بين الراغبين أمام قومسيون بيع الاملاك بالمحروسة وبدفع تامين المائة عشرة
-          وبعد الميعاد يصير قفل
-          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>جلية<?oxy_custom_end?>
-          المزاد ومن يتاخر يعتبر تاخيره كف يد بشرط ان المشترى يكون قابلا انه اذا لزم منها شئ للحكومة
-          في المستقبل او جميعها توخذ بالثمن المباعة مادامت تكون بحالة البيع بقبوله المعاملة حسب نص
-          احكام لائحة بيع املاك الميري المورخة ٢٢ نوفمبر سنة ١٨٨٦ والمنشورات والاوامر الصادرة بعدها
-          ولكون هذه العقارات مؤجرة فالمشترى يكون مخيرا في استمرار مفعول القونتراتو من عدمه وللمالية
-          الحق في قبول أو رفض اعلى طلب يرسي فيه المزاد وفي حالة رفض اعلى طلب لا يكون لصاحبه حق في شئ
-          سوى رد التامين المدفوع منه اليه وعلى هذا لزم الاعلان لمعلومية الجميع </p>
+          سنة ١٣٠٧ المزمع انعقادها ب<orgName ref="ديوان-محافظة-مصر" type="ديوان">ديوان <orgName ref="محافظة-مصر" type="محافطة"><placeName ref="محافظة-مصر" type="محافظة">محافظة
+                مصر</placeName></orgName></orgName> سيصير اشهار مزاد مبيع العقارات المبينة بعد
+          الكائنة بالمحروسة الايلة الى <orgName ref="بيت-مال-مصر" type="بيت-المال">بيت مال
+            مصر</orgName> و<orgName ref="قلم-المبايعة-بالمالية" type="قلم">قلم المبايعة ب<orgName ref="المالية">المالية</orgName></orgName> واعتبار أول عطا الثمن الاساسي المبين امام كل
+          قلم فكل من له رغبة في المشترى يحضر او وكيلا عنه في اليوم المذكور من ابتداء الساعة ١٠
+          افرنكى صباحا لغاية الساعة ١٢ افرنكي الظهر للمزايدة بين الراغبين أمام قومسيون بيع الاملاك
+          بالمحروسة وبدفع تامين المائة عشرة وبعد الميعاد يصير قفل جلسة المزاد ومن يتاخر يعتبر تاخيره
+          كف يد بشرط ان المشترى يكون قابلا انه اذا لزم منها شئ لل<orgName ref="حكومة" type="حكومة">حكومة</orgName> في المستقبل او جميعها توخذ بالثمن المباعة مادامت تكون بحالة البيع
+          بقبوله المعاملة حسب نص احكام لائحة بيع املاك الميري المورخة ٢٢ نوفمبر سنة ١٨٨٦ والمنشورات
+          والاوامر الصادرة بعدها ولكون هذه العقارات مؤجرة فالمشترى يكون مخيرا في استمرار مفعول
+          القونتراتو من عدمه وللمالية الحق في قبول أو رفض اعلى طلب يرسي فيه المزاد وفي حالة رفض اعلى
+          طلب لا يكون لصاحبه حق في شئ سوى رد التامين المدفوع منه اليه وعلى هذا لزم الاعلان لمعلومية
+          الجميع</p>
         <table>
           <row>
             <cell>مليم جنيه</cell>
@@ -283,43 +279,42 @@
             <cell>٣٢ ٧</cell>
             <cell>١٢</cell>
             <cell>٢٥</cell>
-            <cell>حصة قدرها ٥ قراريط ونصف بمنزل ب<placeName ref="درب الشرفا" type="درب">درب
-                الشرفا</placeName> ب<placeName ref="قسم باب الشعرية" type="قسم">قسم باب
-                الشعرية</placeName> ايلة الى بيت مال مصر عن <persName ref="احمد ابراهيم البولاقي">احمد ابراهيم البولاقي</persName> موجرة شهريا بمبلغ ٩٤ مليما محدود بحدود اربع الحد
-              الشرقي ينتهى للحارة والغربي <placeName ref="منزل حسين عبدالله الفطاطرى" type="منزل">منزل <persName ref="حسين عبدالله الفطاطرى" role="فطاطرى">حسين عبدالله
-                  الفطاطرى</persName></placeName> والبحرى <placeName ref="منزل مبارك افندى على" type="منزل">منزل <persName ref="مبارك افندى على">مبارك افندى
-                على</persName></placeName> والقبلي <placeName ref="منزل درويش مصطفي العلام" type="منزل">منزل <persName ref="درويش مصطفي العلام">درويش مصطفي
-                العلام</persName></placeName></cell>
+            <cell>حصة قدرها ٥ قراريط ونصف بمنزل ب<placeName ref="درب-الشرفا" type="درب">درب
+                الشرفا</placeName> ب<orgName ref="قسم-باب-الشعرية" type="قسم"><placeName ref="قسم-باب-الشعرية" type="قسم">قسم باب الشعرية</placeName></orgName> ايلة الى
+              بيت مال مصر عن <persName>احمد ابراهيم البولاقي</persName> موجرة شهريا بمبلغ ٩٤ مليما
+              محدود بحدود اربع الحد الشرقي ينتهى للحارة والغربي <placeName ref="منزل-حسين-عبد-الله-الفطاطرى" type="منزل">منزل <persName>حسين عبدالله
+                  الفطاطرى</persName></placeName> والبحرى <placeName ref="منزل-مبارك-افندى-على" type="منزل">منزل <persName ref="مبارك افندى على">مبارك افندى
+                على</persName></placeName> والقبلي <placeName ref="منزل-درويش-مصطفي-العلام" type="منزل">منزل <persName>درويش مصطفي العلام</persName></placeName></cell>
           </row>
           <row>
             <cell>٠٠ ٣</cell>
             <cell>١٧,١٠م</cell>
             <cell>٢٧</cell>
-            <cell>حصة قدرها ٦ قراريط ب<placeName ref="منزل كفر الطماعين" type="منزل">منزل <placeName ref="كفر الطماعين" type="كفر">كفر الطماعين</placeName></placeName> ب<placeName ref="قسم الجمالية" type="قسم">قسم الجمالية</placeName> ايلة الى بيت مال مصر عن
-                <persName ref="خضرة بنت محمد خليل">خضرة بنت محمد خليل</persName> موجرة شهريا بمبلغ
-              ٦٢ مليما محدودة بحدود اربع الحد البحرى <placeName ref="سور القاهرة" type="سور">سور
-                القاهرة</placeName> والقبلي الطريق والشرقي خراب والغربي ل<placeName ref="منزل ورثة محمد حماد" type="منزل">منزل ورثة <persName ref=" محمد حماد">محمد
+            <cell>حصة قدرها ٦ قراريط
+              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>بمنزل <placeName ref="كفر-الطماعين" type="كفر">كفر الطماعي<?oxy_custom_end?>ن</placeName> ب<orgName ref="قسم-الجمالية" type="قسم"><placeName ref="قسم-الجمالية" type="قسم">قسم
+                  الجمالية</placeName></orgName> ايلة الى بيت مال مصر عن <persName>خضرة بنت محمد
+                خليل</persName> موجرة شهريا بمبلغ ٦٢ مليما محدودة بحدود اربع الحد البحرى <placeName ref="سور-القاهرة" type="سور">سور القاهرة</placeName> والقبلي الطريق والشرقي خراب
+              والغربي ل<placeName ref="منزل-ورثة-محمد-حماد" type="منزل">منزل ورثة <persName>محمد
                   حماد</persName></placeName></cell>
           </row>
           <row>
             <cell>٥٠٠ ٨٧</cell>
             <cell>١٦٩متر ٤٣سم</cell>
             <cell>٢٦</cell>
-            <cell>حصة قدرها ١٧ قيراط ونصف بمنزل ب<placeName ref="درب الدالى حسين" type="درب">درب
-                الدالى حسين</placeName> ب<placeName ref="قسم الدرب الاحمر" type="قسم">قسم الدرب
-                الاحمر</placeName> ايلة الى بيت مال مصر وقلم المبايعة الميرية بما عليه من الحكر
-              محدود بحدود اربع الحد القبلي طريق الحارة والشرقي لطريق الحارة والبحري بعضه للحارة
-              وباقية ل<placeName ref="منزل الست صديقة البقرجيه" type="منزل">منزل <persName ref=" الست صديقة البقرجيه">الست صديقة البقرجيه</persName></placeName>
-                و<sic>الغربيينتهى</sic> لزاوية وموجرة الحصة بمبلغ ٥٥٢ مليما ونصف</cell>
+            <cell>حصة قدرها ١٧ قيراط ونصف بمنزل ب<placeName ref="درب-الدالى-حسين" type="درب">درب
+                الدالى حسين</placeName> ب<orgName ref="قسم-الدرب-الاحمر" type="قسم"><placeName ref="قسم-الدرب-الاحمر" type="قسم">قسم الدرب الاحمر</placeName></orgName> ايلة الى
+              بيت مال مصر وقلم المبايعة الميرية بما عليه من الحكر محدود بحدود اربع الحد القبلي طريق
+              الحارة والشرقي لطريق الحارة والبحري بعضه للحارة وباقية ل<placeName ref="منزل-الست-صديقة-البقرجيه" type="منزل">منزل <persName>الست صديقة
+                  البقرجيه</persName></placeName> والغربي ينتهى لزاوية وموجرة الحصة بمبلغ ٥٥٢ مليما
+              ونصف</cell>
           </row>
         </table>
       </div>
-         <div resp="#eNS" xml:id="Z3">
-        <head>الوقائع <bibl><biblScope unit="issue">عدد ٣٨</biblScope>
-            <biblScope unit="page">ص١</biblScope></bibl> بتاريخ <date when-custom="1307-08-10">١٠
-            شعبان ١٣٠٧</date>
+         <div resp="#eNS #eSG" xml:id="w3">
+        <head><date when-custom="1307-08-10">١٠ شعبان ١٣٠٧</date>
           <date when="1890-03-31">٣١ مارس ١٨٩٠</date>
-        </head>
+          <bibl><biblScope unit="issue">عدد ٣٨</biblScope>
+            <biblScope unit="page">صفحة ١</biblScope></bibl></head>
         <p> امر عال </p>
         <p>نحن خديو مصر</p>
         <p>بعد الاطلاع على عقد امتياز
