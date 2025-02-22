@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:t="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PlaceName Types in the Dataset - "Urbanism News In The Official Egyptian Gazette (al-Waqāʾiʿ
+                            al-Miṣrīyah), 1828-1914 - An Ottoman Arabic Digital Humanities
+                            Project"</title>
+            <editor xml:id="eHC" ref="https://orcid.org/0000-0003-0060-9396">Hugh
+                            Cayless</editor>
+            <editor xml:id="eNK" ref="https://orcid.org/0009-0008-0409-7328">Nour
+                            Kanaan</editor>
+            <editor xml:id="eAM" ref="https://orcid.org/0000-0002-5945-6147">Adam
+                            Mestyan</editor>
+            <editor xml:id="eDY">Danah Younis</editor>
+            <editor xml:id="eSG" ref="https://orcid.org/0000-0002-1977-5530">Sarah
+                            Fathallah Gaara</editor>
+            <editor xml:id="eAE" ref="https://orcid.org/0000-0001-9369-3034">Arif
+                            Erbil</editor>
+            <editor xml:id="eAK" ref="https://orcid.org/0000-0003-1721-1050">Ahmed
+                            Kamal</editor>
+            <editor xml:id="eAS" ref="https://orcid.org/0009-0004-9778-6632">Abram
+                            Smith</editor>
+            <editor xml:id="eCH">Clara Harms</editor>
+            <editor xml:id="eHS" ref="https://orcid.org/0000-0003-3003-1986">Hüseyin
+                            Sağlam</editor>
+            <editor xml:id="eAT" ref="https://orcid.org/0009-0002-2083-9199">Abdulrahman
+                            El-Taliawi</editor>
+            <editor xml:id="eHL">Hiba Laabadli</editor>
+            <editor xml:id="eOE" ref="https://orcid.org/0009-0002-9543-2617">Othmane
+                            Echchabi</editor>
+            <editor xml:id="eFA">Fatemah Almahana</editor>
+            <editor xml:id="eMZ">Mahmoud Zaki</editor>
+            <editor xml:id="eNS" ref="https://orcid.org/0009-0006-8785-0228">Nehal
+                            al-Shamy</editor>
+            <editor xml:id="eVJ" ref="https://orcid.org/0009-0004-4472-4120">Vishal
+                            Jammulapati</editor>
+            <respStmt>
+               <resp>Project co-director</resp>
+               <name>Hugh Cayless</name>
+            </respStmt>
+            <respStmt>
+               <resp>Primary Investigator</resp>
+               <name>Adam Mestyan</name>
+            </respStmt>
+            <respStmt>
+               <resp ref="https://orcid.org/0000-0001-5239-7909">Project
+                                co-director</resp>
+               <name>Mercedes Volait</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Sarah Fathallah Gaara</name>
+            </respStmt>
+            <respStmt>
+               <resp ref="https://orcid.org/0000-0003-1216-3686">Research
+                                Assistant</resp>
+               <name>Karima Nasr</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Rezk Nori</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Arif Erbil</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Ahmed Kamal</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abram Smith</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Clara Harms</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Hüseyin Sağlam</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Abdulrahman El-Taliawi</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Hiba Laabadli</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Othmane Echchabi</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Fatemah Almahana</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Mahmoud Zaki</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Nehal al-Shamy</name>
+            </respStmt>
+            <respStmt>
+               <resp>Research Assistant</resp>
+               <name>Vishal Jammulapati</name>
+            </respStmt>
+            <sponsor>
+               <orgName>National Endowment for the Humanities</orgName>,
+                            <orgName>Institut français d’archéologie orientale</orgName> (Ifao,
+                            Cairo); <orgName>Franklin Humanities Institute and the Office of Global
+                                Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
+                                University</orgName>; <orgName>Duke University Libraries</orgName>;
+                            <orgName>Centre national de la recherche scientifique</orgName>;
+                            <orgName>the Office of the Hungarian Cultural Counsellor in
+                                Cairo</orgName>.</sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <p>"A TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah, 1828-1914"</p>
+            <p> Created by the "Digital Cairo" project (Duke University - Ifao),
+                            sponsored by the National Endowment for the Humanities.</p>
+            <p>
+               <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
+            </p>
+            <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+                            Volait</persName>, <persName>Hugh Cayless</persName>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Al-Waqāʾiʿ al-Miṣrīyah (Egyptian Affairs) newspaper, 1828–1914.</p>
+            <p>born digital document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ
+                            al-Miṣrīyah" in the project "La fabrique du Caire moderne, 2018-2021"
+                            (Ifao-InVisu-Duke University).</p>
+            <p>The "Digital Cairo" project is sponsored by the National Endowment for
+                            the Humanities.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Rules of TEI XML MarkUp in This Project</p>
+            <p>We use the Arabic script but transliteration into Latin characters
+                            follows the Library of Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
+            <p>Each individual article has an individual xml:id number starting with
+                            "w1"</p>
+            <p>We only use persName, orgName, placeName elements, apart from
+                            bibliographical elements and notes.</p>
+            <p>If the location or organization of responsibility is known from the text,
+                            it can be added in an attribute to a persName.</p>
+            <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+            <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open
+                            Arabic Periodical Editions</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text xml:lang="ota" resp="#eAM">
+      <body>
+         <list>
+            <item xml:lang="ota" xml:id="placeType_d1e615">اراضى<note>
+                  <date when-custom="1265-01-29">٢٩ محرم ١٢٦٥<idno source="div">WO1265014401</idno>
+                     <idno source="placeName">place-WO1265014401_03</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d3e480">اسنا<note>
+                  <date when-custom="1266-02-05">٥ صفر ١٢٦٦<idno source="div">WO1266017802</idno>
+                     <idno source="placeName">place-WO1266017802_02</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d3e477">اسکندریه<note>
+                  <date when-custom="1266-02-05">٥ صفر ١٢٦٦<idno source="div">WO1266017802</idno>
+                     <idno source="placeName">place-WO1266017802_01</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d1e924">اسکی مصر<note>
+                  <date when-custom="1265-03-19">١٩ ربيع اول ١٢٦٥<idno source="div">WO1265015101</idno>
+                     <idno source="placeName">place-WO1265015101_02</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d5e1101">بئر<note>
+                  <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣<idno source="div">WO1263007701</idno>
+                     <idno source="placeName">place-WO1263007701_103</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d1e1889">بركه<note>
+                  <date when-custom="1265-12-18">١٨ ذى الحجه ١٢٦٥<idno source="div">WO1265017402</idno>
+                     <idno source="placeName">place-WO1265017402_02</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d1e921">بولاق<note>
+                  <date when-custom="1265-03-19">١٩ ربيع اول ١٢٦٥<idno source="div">WO1265015101</idno>
+                     <idno source="placeName">place-WO1265015101_01</idno>
+                  </date>
+                  <date when-custom="1263-08-13">١٣ شعبان ١٢٦٣<idno source="div">WO1263007502</idno>
+                     <idno source="placeName">place-WO1263007502_02</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d2e1409">ترع<note>
+                  <date when-custom="1264-10-20">٢٠ شوال ١٢٦٤<idno source="div">WO1264013201</idno>
+                     <idno source="placeName">place-WO1264013201_01</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d1e554">ترعه<note>
+                  <date when-custom="1265-01-08">٨ محرم ١٢٦٥<idno source="div">WO1265014202</idno>
+                     <idno source="placeName">place-WO1265014202_02</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d4e478">تكيه<note>
+                  <date when-custom="1267-01-03">٣ محرم ١٢٦٧<idno source="div">WO1267020302</idno>
+                     <idno source="placeName">place-WO1267020302_01</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d3e517">تکیه<note>
+                  <date when-custom="1266-02-12">١٢ صفر ١٢٦٦<idno source="div">WO1266017901</idno>
+                     <idno source="placeName">place-WO1266017901_02</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d1e667">ثمن<note>
+                  <date when-custom="1265-02-07">٧ صفر ١٢٦٥<idno source="div">WO1265014501</idno>
+                     <idno source="placeName">place-WO1265014501_01</idno>
+                  </date>
+                  <date when-custom="1265-02-28">٢٨ صفر ١٢٦٥<idno source="div">WO1265014802</idno>
+                     <idno source="placeName">place-WO1265014802_01</idno>
+                  </date>
+                  <date when-custom="1265-04-26">٢٦ ربيع اخر ١٢٦٥<idno source="div">WO1265015501</idno>
+                     <idno source="placeName">place-WO1265015501_01</idno>
+                  </date>
+                  <date when-custom="1265-05-12">١٢ جماد اخر ١٢٦٥<idno source="div">WO1265015901</idno>
+                     <idno source="placeName">place-WO1265015901_01</idno>
+                  </date>
+                  <date when-custom="1265-07-21">٢٧ رجب ١٢٦٥<idno source="div">WO1265016401</idno>
+                     <idno source="placeName">place-WO1265016401_02</idno>
+                  </date>
+                  <date when-custom="1265-10-25">٢٥ شوال ١٢٦٥<idno source="div">WO1265017102</idno>
+                     <idno source="placeName">place-WO1265017102_01</idno>
+                  </date>
+                  <date when-custom="1265-12-18">١٨ ذى الحجه ١٢٦٥<idno source="div">WO1265017402</idno>
+                     <idno source="placeName">place-WO1265017402_01</idno>
+                  </date>
+                  <date when-custom="1266-07-04">٤ رجب ١٢٦٦<idno source="div">WO1266019101</idno>
+                     <idno source="placeName">place-WO1266019101_02</idno>
+                  </date>
+                  <date when-custom="1267-04-14">١٤ ربيع الثانى ١٢٦٧<idno source="div">WO1267021002</idno>
+                     <idno source="placeName">place-WO1267021002_01</idno>
+                  </date>
+                  <date when-custom="1267-11-15">١٥ ذى القعدة ١٢٦٧<idno source="div">WO1267022601</idno>
+                     <idno source="placeName">place-WO1267022601_01</idno>
+                  </date>
+                  <date when-custom="1263-09-04">٤ رمضان ١٢٦٣<idno source="div">WO1263007801</idno>
+                     <idno source="placeName">place-WO1263007801_01</idno>
+                     <idno source="placeName">place-WO1263007801_03</idno>
+                     <idno source="placeName">place-WO1263007801_04</idno>
+                     <idno source="placeName">place-WO1263007801_05</idno>
+                     <idno source="placeName">place-WO1263007801_07</idno>
+                     <idno source="placeName">place-WO1263007801_08</idno>
+                     <idno source="placeName">place-WO1263007801_09</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d1e876">جاده<note>
+                  <date when-custom="1265-03-12">١٢ ربيع اول ١٢٦٥<idno source="div">WO1265015001</idno>
+                     <idno source="placeName">place-WO1265015001_03</idno>
+                  </date>
+                  <date when-custom="1264-04-01">١ ربيع اخر ١٢٦٤<idno source="div">WO1264010703</idno>
+                     <idno source="placeName">place-WO1264010703_01</idno>
+                  </date>
+                  <date when-custom="1264-06-05">٥ جماد اخر ١٢٦٤<idno source="div">WO1264011302</idno>
+                     <idno source="placeName">place-WO1264011302_01</idno>
+                  </date>
+                  <date when-custom="1264-07-24">٢٤ رجب ١٢٦٤<idno source="div">WO1264012001</idno>
+                     <idno source="placeName">place-WO1264012001_02</idno>
+                  </date>
+                  <date when-custom="1264-11-12">١٢ ذى القعده ١٢٦٤<idno source="div">WO1264013501</idno>
+                     <idno source="placeName">place-WO1264013501_01</idno>
+                  </date>
+                  <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣<idno source="div">WO1263007701</idno>
+                     <idno source="placeName">place-WO1263007701_17</idno>
+                     <idno source="placeName">place-WO1263007701_31</idno>
+                     <idno source="placeName">place-WO1263007701_41</idno>
+                     <idno source="placeName">place-WO1263007701_47</idno>
+                     <idno source="placeName">place-WO1263007701_50</idno>
+                     <idno source="placeName">place-WO1263007701_74</idno>
+                     <idno source="placeName">place-WO1263007701_83</idno>
+                     <idno source="placeName">place-WO1263007701_89</idno>
+                     <idno source="placeName">place-WO1263007701_104</idno>
+                     <idno source="placeName">place-WO1263007701_105</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d5e1055">جامع<note>
+                  <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣<idno source="div">WO1263007701</idno>
+                     <idno source="placeName">place-WO1263007701_93</idno>
+                     <idno source="placeName">place-WO1263007701_94</idno>
+                     <idno source="placeName">place-WO1263007701_102</idno>
+                  </date>
+                  <date when-custom="1263-09-04">٤ رمضان ١٢٦٣<idno source="div">WO1263007801</idno>
+                     <idno source="placeName">place-WO1263007801_02</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d5e694">حارة<note>
+                  <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣<idno source="div">WO1263007701</idno>
+                     <idno source="placeName">place-WO1263007701_09</idno>
+                     <idno source="placeName">place-WO1263007701_60</idno>
+                     <idno source="placeName">place-WO1263007701_70</idno>
+                  </date>
+                  <date when-custom="1263-09-11">١١ رمضان ١٢٦٣<idno source="div">WO1263007903</idno>
+                     <idno source="placeName">place-WO1263007903_01</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d5e807">حاره<note>
+                  <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣<idno source="div">WO1263007701</idno>
+                     <idno source="placeName">place-WO1263007701_38</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d3e1231">حمام<note>
+                  <date when-custom="1266-12-24">٢٤ ذي الحجه ١٢٦٦<idno source="div">WO1266020202</idno>
+                     <idno source="placeName">place-WO1266020202_02</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d4e686">خانه<note>
+                  <date when-custom="1267-04-28">٢٨ ربيع الثانى ١٢٦٧<idno source="div">WO1267021101</idno>
+                     <idno source="placeName">place-WO1267021101_02</idno>
+                  </date>
+                  <date when-custom="1267-11-15">١٥ ذى القعدة ١٢٦٧<idno source="div">WO1267022601</idno>
+                     <idno source="placeName">place-WO1267022601_03</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d1e795">خط<note>
+                  <date when-custom="1265-02-28">٢٨ صفر ١٢٦٥<idno source="div">WO1265014802</idno>
+                     <idno source="placeName">place-WO1265014802_02</idno>
+                  </date>
+                  <date when-custom="1265-02-28">٢٨ صفر ١٢٦٥<idno source="div">WO1265014803</idno>
+                     <idno source="placeName">place-WO1265014803_01</idno>
+                  </date>
+                  <date when-custom="1265-04-26">٢٦ ربيع اخر ١٢٦٥<idno source="div">WO1265015501</idno>
+                     <idno source="placeName">place-WO1265015501_05</idno>
+                  </date>
+                  <date when-custom="1265-05-10">١٠ جماد اول ١٢٦٥<idno source="div">WO1265015601</idno>
+                     <idno source="placeName">place-WO1265015601_01</idno>
+                  </date>
+                  <date when-custom="1265-05-05">٥ جماد اخر ١٢٦٥<idno source="div">WO1265015801</idno>
+                     <idno source="placeName">place-WO1265015801_02</idno>
+                  </date>
+                  <date when-custom="1265-06-21">٢١ جماد اخر ١٢٦٥<idno source="div">WO1265016002</idno>
+                     <idno source="placeName">place-WO1265016002_01</idno>
+                  </date>
+                  <date when-custom="1265-06-21">٢١ جماد اخر ١٢٦٥<idno source="div">WO1265016005</idno>
+                     <idno source="placeName">place-WO1265016005_01</idno>
+                  </date>
+                  <date when-custom="1265-11-21">٢١ ذى القعده ١٢٦٥<idno source="div">WO1265017201</idno>
+                     <idno source="placeName">place-WO1265017201_02</idno>
+                  </date>
+                  <date when-custom="1264-12-24">٢٤ ذى الحجه ١٢٦٤<idno source="div">WO1264014001</idno>
+                     <idno source="placeName">place-WO1264014001_03</idno>
+                  </date>
+                  <date when-custom="1266-02-25">٢٥ صفر ١٢٦٦<idno source="div">WO1266018003</idno>
+                     <idno source="placeName">place-WO1266018003_01</idno>
+                  </date>
+                  <date when-custom="1266-07-04">٤ رجب ١٢٦٦<idno source="div">WO1266019101</idno>
+                     <idno source="placeName">place-WO1266019101_05</idno>
+                  </date>
+                  <date when-custom="1266-11-18">١٨ ذى القعده ١٢٦٦<idno source="div">WO1266020002</idno>
+                     <idno source="placeName">place-WO1266020002_02</idno>
+                  </date>
+                  <date when-custom="1267-02-29">٢٩ صفر ١٢٦٧<idno source="div">WO1267020702</idno>
+                     <idno source="placeName">place-WO1267020702_01</idno>
+                  </date>
+                  <date when-custom="1267-06-05">٥ جمادى الاخرة ١٢٦٧<idno source="div">WO1267021401</idno>
+                     <idno source="placeName">place-WO1267021401_01</idno>
+                  </date>
+                  <date when-custom="1267-07-04">٤ رجب ١٢٦٧<idno source="div">WO1267021601</idno>
+                     <idno source="placeName">place-WO1267021601_01</idno>
+                  </date>
+                  <date when-custom="1267-07-16">١٦ رجب ١٢٦٧<idno source="div">WO1267021701</idno>
+                     <idno source="placeName">place-WO1267021701_01</idno>
+                  </date>
+                  <date when-custom="1267-09-21">٢١ رمضان ١٢٦٧<idno source="div">WO1267022201</idno>
+                     <idno source="placeName">place-WO1267022201_01</idno>
+                  </date>
+                  <date when-custom="1267-10-06">٦ شوال ١٢٦٧<idno source="div">WO1267022301</idno>
+                     <idno source="placeName">place-WO1267022301_01</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d1e1685">خليج<note>
+                  <date when-custom="1265-09-27">٢٧ رمضان ١٢٦٥<idno source="div">WO1265016901</idno>
+                     <idno source="placeName">place-WO1265016901_01</idno>
+                  </date>
+                  <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣<idno source="div">WO1263007701</idno>
+                     <idno source="placeName">place-WO1263007701_42</idno>
+                     <idno source="placeName">place-WO1263007701_59</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d1e1288">درب<note>
+                  <date when-custom="1265-04-26">٢٦ ربيع اخر ١٢٦٥<idno source="div">WO1265015501</idno>
+                     <idno source="placeName">place-WO1265015501_02</idno>
+                  </date>
+                  <date when-custom="1265-07-21">٢٧ رجب ١٢٦٥<idno source="div">WO1265016401</idno>
+                     <idno source="placeName">place-WO1265016401_01</idno>
+                  </date>
+                  <date when-custom="1266-03-05">٥ ربيع الاول ١٢٦٦<idno source="div">WO1266018101</idno>
+                     <idno source="placeName">place-WO1266018101_02</idno>
+                  </date>
+                  <date when-custom="1266-03-28">٢٨ ربيع الاول ١٢٦٦<idno source="div">WO1266018301</idno>
+                     <idno source="placeName">place-WO1266018301_01</idno>
+                  </date>
+                  <date when-custom="1266-12-24">٢٤ ذي الحجه ١٢٦٦<idno source="div">WO1266020201</idno>
+                     <idno source="placeName">place-WO1266020201_01</idno>
+                  </date>
+                  <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣<idno source="div">WO1263007701</idno>
+                     <idno source="placeName">place-WO1263007701_11</idno>
+                     <idno source="placeName">place-WO1263007701_15</idno>
+                     <idno source="placeName">place-WO1263007701_24</idno>
+                     <idno source="placeName">place-WO1263007701_32</idno>
+                     <idno source="placeName">place-WO1263007701_92</idno>
+                     <idno source="placeName">place-WO1263007701_95</idno>
+                     <idno source="placeName">place-WO1263007701_96</idno>
+                     <idno source="placeName">place-WO1263007701_100</idno>
+                     <idno source="placeName">place-WO1263007701_101</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d3e483">دمیاط<note>
+                  <date when-custom="1266-02-05">٥ صفر ١٢٦٦<idno source="div">WO1266017802</idno>
+                     <idno source="placeName">place-WO1266017802_03</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d5e1703">زقاق<note>
+                  <date when-custom="1263-09-11">١١ رمضان ١٢٦٣<idno source="div">WO1263007903</idno>
+                     <idno source="placeName">place-WO1263007903_02</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d2e860">سبیل<note>
+                  <date when-custom="1264-04-22">٢٢ ربيع اخر ١٢٦٤<idno source="div">WO1264011001</idno>
+                     <idno source="placeName">place-WO1264011001_04</idno>
+                  </date>
+                  <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣<idno source="div">WO1263007701</idno>
+                     <idno source="placeName">place-WO1263007701_43</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d1e1688">سد<note>
+                  <date when-custom="1265-09-27">٢٧ رمضان ١٢٦٥<idno source="div">WO1265016901</idno>
+                     <idno source="placeName">place-WO1265016901_02</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d5e712">سكة<note>
+                  <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣<idno source="div">WO1263007701</idno>
+                     <idno source="placeName">place-WO1263007701_14</idno>
+                     <idno source="placeName">place-WO1263007701_78</idno>
+                     <idno source="placeName">place-WO1263007701_79</idno>
+                     <idno source="placeName">place-WO1263007701_84</idno>
+                     <idno source="placeName">place-WO1263007701_88</idno>
+                     <idno source="placeName">place-WO1263007701_106</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d1e448">سمت<note>
+                  <date when-custom="1265-01-01">١ محرم ١٢٦٥<idno source="div">WO1265014101</idno>
+                     <idno source="placeName">place-WO1265014101_01</idno>
+                  </date>
+                  <date when-custom="1265-01-01">١ محرم ١٢٦٥<idno source="div">WO1265014103</idno>
+                     <idno source="placeName">place-WO1265014103_01</idno>
+                  </date>
+                  <date when-custom="1265-01-08">٨ محرم ١٢٦٥<idno source="div">WO1265014201</idno>
+                     <idno source="placeName">place-WO1265014201_01</idno>
+                  </date>
+                  <date when-custom="1265-01-15">١٥ محمرم ١٢٦٥<idno source="div">WO1265014301</idno>
+                     <idno source="placeName">place-WO1265014301_01</idno>
+                  </date>
+                  <date when-custom="1265-01-29">٢٩ محرم ١٢٦٥<idno source="div">WO1265014401</idno>
+                     <idno source="placeName">place-WO1265014401_01</idno>
+                  </date>
+                  <date when-custom="1264-01-19">١٩ محرم ١٢٦٤<idno source="div">WO1264009702</idno>
+                     <idno source="placeName">place-WO1264009702_01</idno>
+                  </date>
+                  <date when-custom="1264-02-04">٤ صفر ١٢٦٤<idno source="div">WO1264009901</idno>
+                     <idno source="placeName">place-WO1264009901_01</idno>
+                  </date>
+                  <date when-custom="1264-02-04">٤ صفر ١٢٦٤<idno source="div">WO1264009903</idno>
+                     <idno source="placeName">place-WO1264009903_01</idno>
+                  </date>
+                  <date when-custom="1264-02-18">١٨ صفر ١٢٦٤<idno source="div">WO1264010101</idno>
+                     <idno source="placeName">place-WO1264010101_01</idno>
+                  </date>
+                  <date when-custom="1264-03-23">٢٣ ربيع اول ١٢٦٤<idno source="div">WO1264010302</idno>
+                     <idno source="placeName">place-WO1264010302_01</idno>
+                  </date>
+                  <date when-custom="1264-04-01">١ ربيع اخر ١٢٦٤<idno source="div">WO1264010702</idno>
+                     <idno source="placeName">place-WO1264010702_01</idno>
+                  </date>
+                  <date when-custom="1264-04-08">٨ ربيع اخر ١٢٦٤<idno source="div">WO1264010801</idno>
+                     <idno source="placeName">place-WO1264010801_01</idno>
+                  </date>
+                  <date when-custom="1264-04-08">٨ ربيع اخر ١٢٦٤<idno source="div">WO1264010802</idno>
+                     <idno source="placeName">place-WO1264010802_01</idno>
+                  </date>
+                  <date when-custom="1264-04-22">٢٢ ربيع اخر ١٢٦٤<idno source="div">WO1264011001</idno>
+                     <idno source="placeName">place-WO1264011001_03</idno>
+                  </date>
+                  <date when-custom="1264-06-05">٥ جماد اخر ١٢٦٤<idno source="div">WO1264011301</idno>
+                     <idno source="placeName">place-WO1264011301_01</idno>
+                  </date>
+                  <date when-custom="1264-07-24">٢٤ رجب ١٢٦٤<idno source="div">WO1264012001</idno>
+                     <idno source="placeName">place-WO1264012001_01</idno>
+                  </date>
+                  <date when-custom="1264-10-06">٦ شوال ١٢٦٤<idno source="div">WO1264013001</idno>
+                     <idno source="placeName">place-WO1264013001_01</idno>
+                  </date>
+                  <date when-custom="1264-11-05">٥ ذى القعده ١٢٦٤<idno source="div">WO1264013401</idno>
+                     <idno source="placeName">place-WO1264013401_01</idno>
+                  </date>
+                  <date when-custom="1264-11-05">٥ ذى القعده ١٢٦٤<idno source="div">WO1264013402</idno>
+                     <idno source="placeName">place-WO1264013402_01</idno>
+                  </date>
+                  <date when-custom="1264-11-05">٥ ذى القعده ١٢٦٤<idno source="div">WO1264013403</idno>
+                     <idno source="placeName">place-WO1264013403_02</idno>
+                  </date>
+                  <date when-custom="1264-12-24">٢٤ ذى الحجه ١٢٦٤<idno source="div">WO1264014001</idno>
+                     <idno source="placeName">place-WO1264014001_01</idno>
+                  </date>
+                  <date when-custom="1266-02-25">٢٥ صفر ١٢٦٦<idno source="div">WO1266018002</idno>
+                     <idno source="placeName">place-WO1266018002_02</idno>
+                  </date>
+                  <date when-custom="1266-03-05">٥ ربيع الاول ١٢٦٦<idno source="div">WO1266018102</idno>
+                     <idno source="placeName">place-WO1266018102_01</idno>
+                  </date>
+                  <date when-custom="1266-11-18">١٨ ذى القعده ١٢٦٦<idno source="div">WO1266020002</idno>
+                     <idno source="placeName">place-WO1266020002_01</idno>
+                  </date>
+                  <date when-custom="1267-02-29">٢٩ صفر ١٢٦٧<idno source="div">WO1267020701</idno>
+                     <idno source="placeName">place-WO1267020701_01</idno>
+                  </date>
+                  <date when-custom="1267-07-28">٢٨ رجب ١٢٦٧<idno source="div">WO1267021801</idno>
+                     <idno source="placeName">place-WO1267021801_01</idno>
+                  </date>
+                  <date when-custom="1267-08-24">٢٤ شعبان ١٢٦٧<idno source="div">WO1267022001</idno>
+                     <idno source="placeName">place-WO1267022001_01</idno>
+                  </date>
+                  <date when-custom="1267-09-06">٦ رمضان ١٢٦٧<idno source="div">WO1267022102</idno>
+                     <idno source="placeName">place-WO1267022102_01</idno>
+                  </date>
+                  <date when-custom="1263-08-13">١٣ شعبان ١٢٦٣<idno source="div">WO1263007503</idno>
+                     <idno source="placeName">place-WO1263007503_01</idno>
+                  </date>
+                  <date when-custom="1263-08-13">١٣ شعبان ١٢٦٣<idno source="div">WO1263007504</idno>
+                     <idno source="placeName">place-WO1263007504_01</idno>
+                  </date>
+                  <date when-custom="1263-08-13">١٣ شعبان ١٢٦٣<idno source="div">WO1263007505</idno>
+                     <idno source="placeName">place-WO1263007505_01</idno>
+                  </date>
+                  <date when-custom="1263-08-20 ">٢٠ شعبان ١٢٦٣<idno source="div">WO1263007602</idno>
+                     <idno source="placeName">place-WO1263007602_01</idno>
+                  </date>
+                  <date when-custom="1263-09-04">٤ رمضان ١٢٦٣<idno source="div">WO1263007802</idno>
+                     <idno source="placeName">place-WO1263007802_01</idno>
+                  </date>
+                  <date when-custom="1263-09-11">١١ رمضان ١٢٦٣<idno source="div">WO1263007902</idno>
+                     <idno source="placeName">place-WO1263007902_01</idno>
+                  </date>
+                  <date when-custom="1263-09-25">٢٥ رمضان ١٢٦٣<idno source="div">WO1263008102</idno>
+                     <idno source="placeName">place-WO1263008102_01</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d5e593">سوق<note>
+                  <date when-custom="1263-08-20 ">٢٠ شعبان ١٢٦٣<idno source="div">WO1263007601</idno>
+                     <idno source="placeName">place-WO1263007601_01</idno>
+                  </date>
+                  <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣<idno source="div">WO1263007701</idno>
+                     <idno source="placeName">place-WO1263007701_68</idno>
+                     <idno source="placeName">place-WO1263007701_71</idno>
+                     <idno source="placeName">place-WO1263007701_75</idno>
+                  </date>
+                  <date when-custom="1263-09-11">١١ رمضان ١٢٦٣<idno source="div">WO1263007901</idno>
+                     <idno source="placeName">place-WO1263007901_01</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d5e457">سويش<note>
+                  <date when-custom="1263-08-13">١٣ شعبان ١٢٦٣<idno source="div">WO1263007501</idno>
+                     <idno source="placeName">place-WO1263007501_04</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d1e718">شارع<note>
+                  <date when-custom="1265-02-07">٧ صفر ١٢٦٥<idno source="div">WO1265014503</idno>
+                     <idno source="placeName">place-WO1265014503_01</idno>
+                  </date>
+                  <date when-custom="1265-03-19">١٩ ربيع اول ١٢٦٥<idno source="div">WO1265015102</idno>
+                     <idno source="placeName">place-WO1265015102_01</idno>
+                  </date>
+                  <date when-custom="1264-04-22">٢٢ ربيع اخر ١٢٦٤<idno source="div">WO1264011001</idno>
+                     <idno source="placeName">place-WO1264011001_02</idno>
+                  </date>
+                  <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣<idno source="div">WO1263007701</idno>
+                     <idno source="placeName">place-WO1263007701_02</idno>
+                     <idno source="placeName">place-WO1263007701_04</idno>
+                     <idno source="placeName">place-WO1263007701_07</idno>
+                     <idno source="placeName">place-WO1263007701_08</idno>
+                     <idno source="placeName">place-WO1263007701_10</idno>
+                     <idno source="placeName">place-WO1263007701_18</idno>
+                     <idno source="placeName">place-WO1263007701_21</idno>
+                     <idno source="placeName">place-WO1263007701_23</idno>
+                     <idno source="placeName">place-WO1263007701_25</idno>
+                     <idno source="placeName">place-WO1263007701_26</idno>
+                     <idno source="placeName">place-WO1263007701_30</idno>
+                     <idno source="placeName">place-WO1263007701_35</idno>
+                     <idno source="placeName">place-WO1263007701_39</idno>
+                     <idno source="placeName">place-WO1263007701_40</idno>
+                     <idno source="placeName">place-WO1263007701_44</idno>
+                     <idno source="placeName">place-WO1263007701_46</idno>
+                     <idno source="placeName">place-WO1263007701_53</idno>
+                     <idno source="placeName">place-WO1263007701_54</idno>
+                     <idno source="placeName">place-WO1263007701_55</idno>
+                     <idno source="placeName">place-WO1263007701_57</idno>
+                     <idno source="placeName">place-WO1263007701_63</idno>
+                     <idno source="placeName">place-WO1263007701_66</idno>
+                     <idno source="placeName">place-WO1263007701_69</idno>
+                     <idno source="placeName">place-WO1263007701_73</idno>
+                     <idno source="placeName">place-WO1263007701_76</idno>
+                     <idno source="placeName">place-WO1263007701_77</idno>
+                     <idno source="placeName">place-WO1263007701_87</idno>
+                     <idno source="placeName">place-WO1263007701_91</idno>
+                     <idno source="placeName">place-WO1263007701_97</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d5e773">شارع ابو الليف<note>
+                  <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣<idno source="div">WO1263007701</idno>
+                     <idno source="placeName">place-WO1263007701_29</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d5e847">شق<note>
+                  <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣<idno source="div">WO1263007701</idno>
+                     <idno source="placeName">place-WO1263007701_49</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d5e951">عطفة<note>
+                  <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣<idno source="div">WO1263007701</idno>
+                     <idno source="placeName">place-WO1263007701_72</idno>
+                     <idno source="placeName">place-WO1263007701_90</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d4e509">عطفه<note>
+                  <date when-custom="1267-01-17">١٧ محرم ١٢٦٧<idno source="div">WO1267020401</idno>
+                     <idno source="placeName">place-WO1267020401_02</idno>
+                  </date>
+                  <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣<idno source="div">WO1263007701</idno>
+                     <idno source="placeName">place-WO1263007701_34</idno>
+                     <idno source="placeName">place-WO1263007701_36</idno>
+                     <idno source="placeName">place-WO1263007701_48</idno>
+                     <idno source="placeName">place-WO1263007701_51</idno>
+                     <idno source="placeName">place-WO1263007701_62</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d1e551">قريه<note>
+                  <date when-custom="1265-01-08">٨ محرم ١٢٦٥<idno source="div">WO1265014202</idno>
+                     <idno source="placeName">place-WO1265014202_01</idno>
+                  </date>
+                  <date when-custom="1264-07-17">١٧ رجب ١٢٦٤<idno source="div">WO1264011901</idno>
+                     <idno source="placeName">place-WO1264011901_04</idno>
+                     <idno source="placeName">place-WO1264011901_06</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d2e983">قریه<note>
+                  <date when-custom="1264-07-17">١٧ رجب ١٢٦٤<idno source="div">WO1264011901</idno>
+                     <idno source="placeName">place-WO1264011901_02</idno>
+                     <idno source="placeName">place-WO1264011901_03</idno>
+                  </date>
+                  <date when-custom="1266-08-24">٢٤ شعبان ١٢٦٦<idno source="div">WO1266019501</idno>
+                     <idno source="placeName">place-WO1266019501_01</idno>
+                     <idno source="placeName">place-WO1266019501_02</idno>
+                  </date>
+                  <date when-custom="1267-05-08">٨ جماد اول ١٢٦٧<idno source="div">WO1267021201</idno>
+                     <idno source="placeName">place-WO1267021201_01</idno>
+                  </date>
+                  <date when-custom="1267-06-21">٢١ جمادى الاخرة ١٢٦٧<idno source="div">WO1267021501</idno>
+                     <idno source="placeName">place-WO1267021501_01</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d1e771">قصر<note>
+                  <date when-custom="1265-02-28">٢٨ صفر ١٢٦٥<idno source="div">WO1265014801</idno>
+                     <idno source="placeName">place-WO1265014801_02</idno>
+                  </date>
+                  <date when-custom="1265-04-03">٣ ربيع اخر ١٢٦٥<idno source="div">WO1265015301</idno>
+                     <idno source="placeName">place-WO1265015301_03</idno>
+                  </date>
+                  <date when-custom="1267-04-14">١٤ ربيع الثاني ١٢٦٧<idno source="div">WO1267021001</idno>
+                     <idno source="placeName">place-WO1267021001_03</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d1e743">قلعه<note>
+                  <date when-custom="1265-02-14">١٤ صفر ١٢٦٥<idno source="div">WO1265014601</idno>
+                     <idno source="placeName">place-WO1265014601_01</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d5e901">قنطرة<note>
+                  <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣<idno source="div">WO1263007701</idno>
+                     <idno source="placeName">place-WO1263007701_61</idno>
+                     <idno source="placeName">place-WO1263007701_64</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d1e640">قنطره<note>
+                  <date when-custom="1265-01-29">٢٩ محرم ١٢٦٥<idno source="div">WO1265014402</idno>
+                     <idno source="placeName">place-WO1265014402_02</idno>
+                  </date>
+                  <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣<idno source="div">WO1263007701</idno>
+                     <idno source="placeName">place-WO1263007701_01</idno>
+                     <idno source="placeName">place-WO1263007701_05</idno>
+                     <idno source="placeName">place-WO1263007701_33</idno>
+                     <idno source="placeName">place-WO1263007701_45</idno>
+                     <idno source="placeName">place-WO1263007701_52</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d4e512">قوناق<note>
+                  <date when-custom="1267-01-17">١٧ محرم ١٢٦٧<idno source="div">WO1267020401</idno>
+                     <idno source="placeName">place-WO1267020401_03</idno>
+                  </date>
+                  <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣<idno source="div">WO1263007701</idno>
+                     <idno source="placeName">place-WO1263007701_56</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d5e709">قوناك<note>
+                  <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣<idno source="div">WO1263007701</idno>
+                     <idno source="placeName">place-WO1263007701_13</idno>
+                     <idno source="placeName">place-WO1263007701_19</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d5e463"> قپو<note>
+                  <date when-custom="1263-08-13">١٣ شعبان ١٢٦٣<idno source="div">WO1263007501</idno>
+                     <idno source="placeName">place-WO1263007501_06</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d5e454">محل<note>
+                  <date when-custom="1263-08-13">١٣ شعبان ١٢٦٣<idno source="div">WO1263007501</idno>
+                     <idno source="placeName">place-WO1263007501_03</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d1e523">محله<note>
+                  <date when-custom="1265-01-08">٨ محرم ١٢٦٥<idno source="div">WO1265014201</idno>
+                     <idno source="placeName">place-WO1265014201_02</idno>
+                  </date>
+                  <date when-custom="1265-03-05">٥ ربيع اول ١٢٦٥<idno source="div">WO1265014901</idno>
+                     <idno source="placeName">place-WO1265014901_01</idno>
+                  </date>
+                  <date when-custom="1265-05-05">٥ جماد اخر ١٢٦٥<idno source="div">WO1265015802</idno>
+                     <idno source="placeName">place-WO1265015802_01</idno>
+                  </date>
+                  <date when-custom="1265-05-12">١٢ جماد اخر ١٢٦٥<idno source="div">WO1265015901</idno>
+                     <idno source="placeName">place-WO1265015901_03</idno>
+                  </date>
+                  <date when-custom="1265-07-21">٢٧ رجب ١٢٦٥<idno source="div">WO1265016401</idno>
+                     <idno source="placeName">place-WO1265016401_03</idno>
+                  </date>
+                  <date when-custom="1265-10-25">٢٥ شوال ١٢٦٥<idno source="div">WO1265017101</idno>
+                     <idno source="placeName">place-WO1265017101_01</idno>
+                  </date>
+                  <date when-custom="1265-10-25">٢٥ شوال ١٢٦٥<idno source="div">WO1265017102</idno>
+                     <idno source="placeName">place-WO1265017102_02</idno>
+                  </date>
+                  <date when-custom="1265-11-21">٢١ ذى القعده ١٢٦٥<idno source="div">WO1265017201</idno>
+                     <idno source="placeName">place-WO1265017201_03</idno>
+                  </date>
+                  <date when-custom="1264-01-19">١٩ محرم ١٢٦٤<idno source="div">WO1264009702</idno>
+                     <idno source="placeName">place-WO1264009702_02</idno>
+                  </date>
+                  <date when-custom="1264-02-04">٤ صفر ١٢٦٤<idno source="div">WO1264009901</idno>
+                     <idno source="placeName">place-WO1264009901_02</idno>
+                  </date>
+                  <date when-custom="1264-02-04">٤ صفر ١٢٦٤<idno source="div">WO1264009903</idno>
+                     <idno source="placeName">place-WO1264009903_02</idno>
+                  </date>
+                  <date when-custom="1264-02-18">١٨ صفر ١٢٦٤<idno source="div">WO1264010101</idno>
+                     <idno source="placeName">place-WO1264010101_02</idno>
+                  </date>
+                  <date when-custom="1264-04-01">١ ربيع اخر ١٢٦٤<idno source="div">WO1264010702</idno>
+                     <idno source="placeName">place-WO1264010702_02</idno>
+                  </date>
+                  <date when-custom="1264-04-08">٨ ربيع اخر ١٢٦٤<idno source="div">WO1264010801</idno>
+                     <idno source="placeName">place-WO1264010801_02</idno>
+                  </date>
+                  <date when-custom="1264-04-08">٨ ربيع اخر ١٢٦٤<idno source="div">WO1264010802</idno>
+                     <idno source="placeName">place-WO1264010802_02</idno>
+                  </date>
+                  <date when-custom="1264-04-22">٢٢ ربيع اخر ١٢٦٤<idno source="div">WO1264011001</idno>
+                     <idno source="placeName">place-WO1264011001_01</idno>
+                  </date>
+                  <date when-custom="1264-06-05">٥ جماد اخر ١٢٦٤<idno source="div">WO1264011301</idno>
+                     <idno source="placeName">place-WO1264011301_02</idno>
+                  </date>
+                  <date when-custom="1264-10-06">٦ شوال ١٢٦٤<idno source="div">WO1264013001</idno>
+                     <idno source="placeName">place-WO1264013001_02</idno>
+                  </date>
+                  <date when-custom="1264-11-05">٥ ذى القعده ١٢٦٤<idno source="div">WO1264013401</idno>
+                     <idno source="placeName">place-WO1264013401_02</idno>
+                  </date>
+                  <date when-custom="1266-07-04">٤ رجب ١٢٦٦<idno source="div">WO1266019101</idno>
+                     <idno source="placeName">place-WO1266019101_04</idno>
+                  </date>
+                  <date when-custom="1266-12-24">٢٤ ذي الحجه ١٢٦٦<idno source="div">WO1266020201</idno>
+                     <idno source="placeName">place-WO1266020201_02</idno>
+                  </date>
+                  <date when-custom="1267-06-05">٥ جمادى الاخرة ١٢٦٧<idno source="div">WO1267021401</idno>
+                     <idno source="placeName">place-WO1267021401_03</idno>
+                  </date>
+                  <date when-custom="1267-10-06">٦ شوال ١٢٦٧<idno source="div">WO1267022301</idno>
+                     <idno source="placeName">place-WO1267022301_02</idno>
+                  </date>
+                  <date when-custom="1267-11-15">١٥ ذى القعدة ١٢٦٧<idno source="div">WO1267022601</idno>
+                     <idno source="placeName">place-WO1267022601_02</idno>
+                  </date>
+                  <date when-custom="1263-08-20 ">٢٠ شعبان ١٢٦٣<idno source="div">WO1263007601</idno>
+                     <idno source="placeName">place-WO1263007601_02</idno>
+                  </date>
+                  <date when-custom="1263-08-20 ">٢٠ شعبان ١٢٦٣<idno source="div">WO1263007602</idno>
+                     <idno source="placeName">place-WO1263007602_02</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d3e779">محله <note>
+                  <date when-custom="1266-03-28">٢٨ ربيع الاول ١٢٦٦<idno source="div">WO1266018302</idno>
+                     <idno source="placeName">place-WO1266018302_02</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d5e451">مذبح<note>
+                  <date when-custom="1263-08-13">١٣ شعبان ١٢٦٣<idno source="div">WO1263007501</idno>
+                     <idno source="placeName">place-WO1263007501_02</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d2e1305">مرمر طاغى<note>
+                  <date when-custom="1264-08-30">٣٠ شعبان ١٢٦٤<idno source="div">WO1264012501</idno>
+                     <idno source="placeName">place-WO1264012501_03</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d1e818">مصطاحی<note>
+                  <date when-custom="1265-02-28">٢٨ صفر ١٢٦٥<idno source="div">WO1265014803</idno>
+                     <idno source="placeName">place-WO1265014803_02</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d4e451">مقام<note>
+                  <date when-custom="1267-01-03">٣ محرم ١٢٦٧<idno source="div">WO1267020301</idno>
+                     <idno source="placeName">place-WO1267020301_02</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d2e456">میدان<note>
+                  <date when-custom="1264-01-19">١٩ محرم ١٢٦٤<idno source="div">WO1264009701</idno>
+                     <idno source="placeName">place-WO1264009701_03</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d1e579">يول<note>
+                  <date when-custom="1265-01-15">١٥ محمرم ١٢٦٥<idno source="div">WO1265014301</idno>
+                     <idno source="placeName">place-WO1265014301_02</idno>
+                  </date>
+                  <date when-custom="1264-01-19">١٩ محرم ١٢٦٤<idno source="div">WO1264009701</idno>
+                     <idno source="placeName">place-WO1264009701_01</idno>
+                  </date>
+                  <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣<idno source="div">WO1263007701</idno>
+                     <idno source="placeName">place-WO1263007701_20</idno>
+                  </date>
+               </note>
+            </item>
+            <item xml:lang="ota" xml:id="placeType_d1e612">یول<note>
+                  <date when-custom="1265-01-29">٢٩ محرم ١٢٦٥<idno source="div">WO1265014401</idno>
+                     <idno source="placeName">place-WO1265014401_02</idno>
+                  </date>
+               </note>
+            </item>
+         </list>
+      </body>
+   </text>
+</TEI>
