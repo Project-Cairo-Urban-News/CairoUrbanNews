@@ -205,7 +205,7 @@
           <date when="1874-02-24">٢٤ فبراير ١٨٧٤</date>
           <bibl><biblScope unit="issue">نمرة ٥٤٦</biblScope>
             <biblScope unit="page">صفحة ٥</biblScope></bibl></head>
-        <head>صورة اعلان وارد من حضرة وكيل <orgName type="ديوان" ref="ديوان-اوقاف">ديوان
+        <head>صورة اعلان وارد من حضرة وكيل <orgName xml:id="org-WA1291054601-1_01" type="ديوان" ref="ديوان-اوقاف">ديوان
               <sic>أوقاف</sic>
             <corr>الاوقاف</corr></orgName> بتاريخ ٤ محرم سنة ٩١</head>
         <table rows="4" cols="2">
@@ -215,24 +215,24 @@
           </row>
           <row>
             <cell>١</cell>
-            <cell>وكالة وربع علوها <orgName type="وقف" ref="وقف-الحاج-محمد-امام"><placeName xml:id="place-WA1291054601-1_01" type="وقف" ref="وقف-الحاج-محمد-امام">وقف <persName>الحاج محمد
+            <cell>وكالة وربع علوها <orgName xml:id="org-WA1291054601-1_02" type="وقف" ref="وقف-الحاج-محمد-امام"><placeName xml:id="place-WA1291054601-1_01" type="وقف" ref="وقف-الحاج-محمد-امام">وقف <persName xml:id="person-WA1291054601-1_01">الحاج محمد
                 امام</persName></placeName></orgName> ب<placeName xml:id="place-WA1291054601-1_02" type="خط" ref="خط-المشهد-الحسينى">خط
-                  <placeName xml:id="place-WA1291054601-1_03" type="مشهد" ref="المشهد-الحسينى"><orgName type="مشهد" ref="المشهد-الحسينى">المشهد الحسينى</orgName></placeName></placeName> نظارة <persName role="ناظر">أسعد أفندى أمام</persName> مقدار مسطح أرض الوكالة أذرع ١١٠٠ مقتضى خروجهم من الوقف
-              بالاستبدال وتحدد لنهو مزادهم خمسة عشر يوم من تاريخه وقائمة مزادهم بطرف معاون <orgName ref="قسم-ثالث-اوقاف" type="قسم">قسم ثالث أوقاف</orgName></cell>
+                  <placeName xml:id="place-WA1291054601-1_03" type="مشهد" ref="المشهد-الحسينى"><orgName xml:id="org-WA1291054601-1_03" type="مشهد" ref="المشهد-الحسينى">المشهد الحسينى</orgName></placeName></placeName> نظارة <persName xml:id="person-WA1291054601-1_02" role="ناظر">أسعد أفندى أمام</persName> مقدار مسطح أرض الوكالة أذرع ١١٠٠ مقتضى خروجهم من الوقف
+              بالاستبدال وتحدد لنهو مزادهم خمسة عشر يوم من تاريخه وقائمة مزادهم بطرف معاون <orgName xml:id="org-WA1291054601-1_04" ref="قسم-ثالث-اوقاف" type="قسم">قسم ثالث أوقاف</orgName></cell>
           </row>
           <row>
             <cell>١</cell>
             <cell>حصة أربعة عشر سهم وخمسين من سهم من <placeName xml:id="place-WA1291054601-1_04" type="مطبخ" ref="مطبخ-العسل-بشارع-امير-الجيوش">مطبخ
                 العسل ب<placeName xml:id="place-WA1291054601-1_05" type="شارع" ref="أمير-الجيوش">شارع أمير
                 الجيوش</placeName></placeName>
-              <orgName ref="وقف-محمد-كتخدا" type="وقف"><placeName xml:id="place-WA1291054601-1_06" type="وقف" ref="وقف-محمد-كتخدا">وقف
-                    <persName>محمد كتخدا</persName></placeName></orgName> نظارة <persName role="ناظرة">الست بنبة البيضا</persName> بالغ مسطح أرض المطبخ جميعه اذرع ٨٠٢ مقتضى
+              <orgName xml:id="org-WA1291054601-1_05" ref="وقف-محمد-كتخدا" type="وقف"><placeName xml:id="place-WA1291054601-1_06" type="وقف" ref="وقف-محمد-كتخدا">وقف
+                    <persName xml:id="person-WA1291054601-1_03">محمد كتخدا</persName></placeName></orgName> نظارة <persName xml:id="person-WA1291054601-1_04" role="ناظرة">الست بنبة البيضا</persName> بالغ مسطح أرض المطبخ جميعه اذرع ٨٠٢ مقتضى
               خروج الحصة المذكورة بالاستبدال وتحدد لنهو مزادها شرح ما قبله وقائمة المزاد بطرف معاون
-                <orgName type="قسم" ref="قسم-اول">قسم أول</orgName></cell>
+                <orgName xml:id="org-WA1291054601-1_06" type="قسم" ref="قسم-اول">قسم أول</orgName></cell>
           </row>
           <row>
             <cell>١</cell>
-            <cell>فرن وطاحونة <orgName type="وقف" ref="وقف-السلطان-الاشرف"><placeName xml:id="place-WA1291054601-1_07" type="وقف" ref="وقف-السلطان-الاشرف">وقف <persName>السلطان
+            <cell>فرن وطاحونة <orgName xml:id="org-WA1291054601-1_07" type="وقف" ref="وقف-السلطان-الاشرف"><placeName xml:id="place-WA1291054601-1_07" type="وقف" ref="وقف-السلطان-الاشرف">وقف <persName xml:id="person-WA1291054601-1_05">السلطان
                 الأشرف</persName></placeName></orgName> بجهة <placeName xml:id="place-WA1291054601-1_08" ref="تحت-الربع">تحت الربع</placeName> نظارة الديوان مقدار مسطح أرضها متر ٧٠٠ تقريبا مقتضى خروجهم من
               الوقف بالاستبدال وتحدد لنهو مزادهم خمسة عشر يوم من تاريخه وقائمة المزاد بطرف معاون قسم
               ثالث</cell>
@@ -241,7 +241,7 @@
             <cell>١</cell>
             <cell>منزل خرب <placeName xml:id="place-WA1291054601-1_09" type="وقف" ref="وقف-الاقباط">وقف الأقباط</placeName> كائن
                 ب<placeName xml:id="place-WA1291054601-1_10" type="حارة" ref="حارة-الروم">حارة الروم</placeName> راغب أخذه
-                <persName>على محمد الصرماتي</persName> بالاستبدال ومقدر لقيمة استبداله بمعرفة أهل
+                <persName xml:id="person-WA1291054601-1_06">على محمد الصرماتي</persName> بالاستبدال ومقدر لقيمة استبداله بمعرفة أهل
               الخبرة قرش ٢١٤٥ وتحدد لنهو مزاده خمسة عشر يوم من تاريخه وقائمة مزاده بطرف معاون قسم
               ثالث</cell>
           </row>
@@ -252,7 +252,7 @@
           <date when="1874-09-23">٢٣ سبتمبر ١٨٧٤</date>
           <bibl><biblScope unit="issue">نمرة ٥٧٦</biblScope>
             <biblScope unit="page">صفحة ١</biblScope></bibl></head>
-        <p>لما كان محل <placeName xml:id="place-WA1291057601-2_01" type="ديوان" ref="ديوان الأمور الخارجية"><orgName ref="ديوان-الامور-الخارجية" type="ديوان">ديوان الأمور الخارجية</orgName></placeName> الذي ب<placeName xml:id="place-WA1291057601-2_02" ref="الازبكية">الأزبكية</placeName> جاريا فيه بعض ترميمات وعمارات ضرورية
+        <p>لما كان محل <placeName xml:id="place-WA1291057601-2_01" type="ديوان" ref="ديوان الأمور الخارجية"><orgName xml:id="org-WA1291057601-2_01" ref="ديوان-الامور-الخارجية" type="ديوان">ديوان الأمور الخارجية</orgName></placeName> الذي ب<placeName xml:id="place-WA1291057601-2_02" ref="الازبكية">الأزبكية</placeName> جاريا فيه بعض ترميمات وعمارات ضرورية
           ولا يتأتى اذا اقامة مأمورية واقلامه فيه بعد العود من <placeName xml:id="place-WA1291057601-2_03" ref="الاسكندرية">الأسكندرية</placeName> تدورك له محل آخر بالمحلة الجديدة
           المعروفة ب<placeName xml:id="place-WA1291057601-2_04" ref="الاسماعيلية">الأسماعيلية</placeName> وشرع في فرشه وما
           يلزم لشأنه من النظام وبأتمام ذلك تنتقل فيه أولئك المأمورين والأقلام بعد أيام.</p>
