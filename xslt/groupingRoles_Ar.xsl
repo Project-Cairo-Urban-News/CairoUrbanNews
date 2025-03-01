@@ -212,6 +212,13 @@
                                                     </idno>
                                                 </xsl:if>
                                                 
+                                                <!-- Extract xml:id from persName elements within the same div -->
+                                                <xsl:for-each select="ancestor::div//persName[@role = current-grouping-key()][@xml:id]">
+                                                    <idno source="persName">
+                                                        <xsl:value-of select="@xml:id"/>
+                                                    </idno>
+                                                </xsl:for-each>
+                                                
                                             </date>
                                         </xsl:for-each>
                                         
@@ -226,6 +233,15 @@
                                                         <xsl:value-of select="$parentDiv/@xml:id"/>
                                                     </idno>
                                                 </xsl:if>
+                                                
+                                                <!-- Extract xml:id from persName elements within the same div -->
+                                                <xsl:for-each select="ancestor::div//persName[@role = current-grouping-key()][@xml:id]">
+                                                    <idno source="persName">
+                                                        <xsl:value-of select="@xml:id"/>
+                                                    </idno>
+                                                </xsl:for-each>
+                                                
+                                                
                                             </date>
                                         </xsl:for-each>
                                     </note>
