@@ -4,7 +4,7 @@
  * 'أخى رئيس طائفة الدلالين': ‎[1299.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1299.xml&text=%D8%A3%D8%AE%D9%89%20%D8%B1%D8%A6%D9%8A%D8%B3%20%D8%B7%D8%A7%D8%A6%D9%81%D8%A9%20%D8%A7%D9%84%D8%AF%D9%84%D8%A7%D9%84%D9%8A%D9%86)
  * 'أعيان مصر': ‎[1282.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1282.xml&text=%D8%A3%D8%B9%D9%8A%D8%A7%D9%86%20%D9%85%D8%B5%D8%B1)
  * 'أمين بيت المال': ‎[1284.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1284.xml&text=%D8%A3%D9%85%D9%8A%D9%86%20%D8%A8%D9%8A%D8%AA%20%D8%A7%D9%84%D9%85%D8%A7%D9%84)
- * ' أمين بيت مال مصر': ‎[1286.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1286.xml&text=%20%D8%A3%D9%85%D9%8A%D9%86%20%D8%A8%D9%8A%D8%AA%20%D9%85%D8%A7%D9%84%20%D9%85%D8%B5%D8%B1)
+ * 'أمين بيت مال مصر': ‎[1286.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1286.xml&text=%D8%A3%D9%85%D9%8A%D9%86%20%D8%A8%D9%8A%D8%AA%20%D9%85%D8%A7%D9%84%20%D9%85%D8%B5%D8%B1)
  * 'البصاص': ‎[1245.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1245.xml&text=%D8%A7%D9%84%D8%A8%D8%B5%D8%A7%D8%B5)
  * 'الجيار': ‎[1298.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1298.xml&text=%D8%A7%D9%84%D8%AC%D9%8A%D8%A7%D8%B1)
  * 'الحجار': ‎[1284.xml](https://project-cairo-urban-news.github.io/CairoUrbanNews/?name=arabic/1284.xml&text=%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%B1)
