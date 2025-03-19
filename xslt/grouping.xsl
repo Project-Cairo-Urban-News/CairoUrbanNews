@@ -29,7 +29,7 @@
     <!-- Root template -->
     <xsl:template match="/" name="xsl:initial-template">
         <!-- make the articles folder into a variable, it selectes all xml files in the same folder, consider only the ones with the cleared status -->
-        <xsl:variable name="articlesAr" select="collection('../articles/arabic?select=*.xml')[TEI/teiHeader/revisionDesc[@status='cleared']]"/>
+        <xsl:variable name="articlesAr" select="collection(concat('../articles/', $lang, '?select=*.xml'))[TEI/teiHeader/revisionDesc[@status='cleared']]"/>
         
         <!-- to add Ottoman files 
         <xsl:variable name="articlesOtt" select="collection('../articles/ottoman?select=*.xml')[TEI/teiHeader/revisionDesc[@status='cleared']]"/> 
