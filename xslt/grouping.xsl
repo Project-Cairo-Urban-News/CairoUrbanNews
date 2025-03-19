@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:t="http://www.tei-c.org/ns/1.0"
-    xmlns="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs" version="3.0"
+    xmlns="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="#all" version="3.0"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0">
+    <xsl:mode expand-text="yes"/>
     <xsl:output indent="yes"/>
     
+    
+    <!-- Run the stylesheet with the parameters lang=(arabic|ottoman) and group=(place-type|person-role|org-type) -->
+    
+    <xsl:param name="lang">arabic</xsl:param>
+    <xsl:param name="group"></xsl:param>
+    <xsl:variable name="langcode">
+        <xsl:choose>
+            <xsl:when test="$lang = 'arabic'">ar</xsl:when>
+            <xsl:otherwise>ota</xsl:otherwise>
+        </xsl:choose>
+    </xsl:variable>
+    <xsl:variable name="element">
+        <xsl:choose>
+            <xsl:when test="substring-before($group, '-') = 'place'">placeName</xsl:when>
+            <xsl:when test="substring-before($group, '-') = 'person'">persName</xsl:when>
+            <xsl:when test="substring-before($group, '-') = 'org'">orgName</xsl:when>
+        </xsl:choose>
+    </xsl:variable>
+    <xsl:variable name="attribute" select="substring-after($group, '-')"/>
     
     <!-- Root template -->
     <xsl:template match="/" name="xsl:initial-template">
@@ -181,11 +201,11 @@
                 </encodingDesc>
             </teiHeader>
             
-            <text xml:lang="ar" resp="#eAM">
+            <text xml:lang="{$langcode}" resp="#eAM">
                 <body>
                     <list>
                         <!-- Extract unique type attributes, sort them alphabetically, replace hyphens in role attribute values with spaces  -->
-                        <xsl:for-each-group select="$articlesAr//placeName[@type]" group-by="@type">
+                        <xsl:for-each-group select="$articlesAr//*[local-name() = $element][@*[local-name() = $attribute]]" group-by="attribute()[local-name() = $attribute]">
                             
                             <xsl:sort select="translate(current-grouping-key(), '-', ' ')"
                                 collation="http://www.w3.org/2013/collation/UCA/ar"/>
@@ -193,26 +213,26 @@
                             <xsl:variable name="currentType" select="current-grouping-key()"/>
                             
                             <!-- create item elements with a unique id -->
-                            <item xml:lang="ar" xml:id="{concat('placeType_', generate-id())}">
+                            <item xml:id="{concat($group, '_', generate-id())}">
                                 <!-- Replace hyphens in role attribute values with spaces -->
                                 <name><xsl:value-of
                                     select="translate(current-grouping-key(), '-', ' ')"/></name>
                                 
                                 <!-- Find and list the contents of date elements with when-custom -->
                                 <list>
-                                    <xsl:for-each select="$articlesAr//div[.//placeName[@type = current-grouping-key()]]/head/date[@when-custom]">
+                                    <xsl:for-each select="$articlesAr//div[.//*[local-name() = $element][@*[local-name() = $attribute] = current-grouping-key()]]/head/date[@when-custom]">
                                         <item>
                                             <!-- Extract xml:id from the parent div and add it in an idno element -->
                                             <xsl:variable name="parentDiv" select="ancestor::div[@xml:id][1]"/>
-                                            <date when-custom="{@when-custom}"><xsl:value-of select="."/></date>
+                                            <date when-custom="{@when-custom}"><xsl:value-of select="normalize-space(.)"/></date>
                                             <xsl:if test="$parentDiv">
                                                 <idno source="div">
                                                     <xsl:value-of select="$parentDiv/@xml:id"/>
                                                 </idno>
                                             </xsl:if>
                                             <!-- Extract xml:id from placeName elements within the same div -->
-                                            <xsl:for-each select="ancestor::div//placeName[@type = current-grouping-key()][@xml:id]">
-                                                <ref source="placeName" target="{@xml:id}">
+                                            <xsl:for-each select="ancestor::div//*[local-name() = $element][@*[local-name() = $attribute] = current-grouping-key()][@xml:id]">
+                                                <ref source="{$element}" target="{@xml:id}">
                                                     <xsl:value-of select="normalize-space(.)"/>
                                                 </ref>
                                             </xsl:for-each>

@@ -26,7 +26,7 @@
               be used to include snippets of schema definitions, and <specList>
               can be used to include to insert a list of descriptions of elements
               and attributes. --></p>
-         <schemaSpec ident="CairoUrbanNews">     <!-- @ident is required -->
+         <schemaSpec ident="CairoUrbanNews" source="tei:4.9.0">     <!-- @ident is required -->
             <desc><!-- put a one-sentence description of this TEI customization here --></desc>
             <moduleRef key="analysis" include="phr w"/>
             <moduleRef key="core" include="author bibl biblScope choice corr date editor foreign gap graphic head hi imprint item label list measure milestone name note p ptr pubPlace publisher ref resp respStmt rs sic term textLang time title unclear"/>
