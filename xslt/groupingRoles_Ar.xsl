@@ -183,15 +183,15 @@
             
             <text xml:lang="ar" resp="#eAM">
                 <body>
-                    <castList>
-                        <castItem>
+                    <list>
+                       
                             <!-- Extract unique role attributes, sort them alphabetically, replace hyphens in role attribute values with spaces  -->
                             <xsl:for-each-group select="$articlesAr//persName[@role]" group-by="@role">
                                 <xsl:sort select="translate(current-grouping-key(), '-', ' ')"
                                     collation="http://www.w3.org/2013/collation/UCA/ar"/>
                                 
-                                <!-- create role elements with a unique id -->
-                                <role xml:lang="ar" xml:id="{concat('role_', generate-id())}">
+                                <!-- create item elements with a unique id -->
+                                <item xml:lang="ar" xml:id="{concat('role_', generate-id())}">
                                     <!-- Replace hyphens in role attribute values with spaces -->
                                     <xsl:value-of
                                         select="translate(current-grouping-key(), '-', ' ')"/>
@@ -247,11 +247,10 @@
                                     </note>
                                     
                                     
-                                </role>
+                                </item>
                                 
                             </xsl:for-each-group>
-                        </castItem>
-                    </castList>
+                    </list>
                 </body>
             </text>
         </TEI>
