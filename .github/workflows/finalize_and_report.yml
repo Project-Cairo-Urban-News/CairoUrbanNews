@@ -54,7 +54,15 @@ jobs:
           if [[ $(wc -l <reports/persName-role-ar.md) -eq 1 ]]; then rm reports/persName-role-ar.md; fi
           java -cp /usr/share/java/saxon-11/*:/usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q:reports/xquery/persName-role.xq dir="../../articles/ottoman" > reports/persName-role-ota.md
           if [[ $(wc -l <reports/persName-role-ota.md) -eq 1 ]]; then rm reports/persName-role-ota.md; fi
-      - name: "Commit reports"
+      - name: "Generate indexes"
+        run: |
+          saxon -xsl:xslt/grouping.xsl -it -o:indexes/orgTypesAr.xml lang=arabic group=org-type
+          saxon -xsl:xslt/grouping.xsl -it -o:indexes/orgTypesOta.xml lang=ottoman group=org-type
+          saxon -xsl:xslt/grouping.xsl -it -o:indexes/placeTypesAr.xml lang=arabic group=place-type
+          saxon -xsl:xslt/grouping.xsl -it -o:indexes/placeTypesOta.xml lang=ottoman group=place-type
+          saxon -xsl:xslt/grouping.xsl -it -o:indexes/rolesAr.xml lang=arabic group=person-role
+          saxon -xsl:xslt/grouping.xsl -it -o:indexes/rolesOta.xml lang=ottoman group=person-role
+      - name: "Commit reports and indexes"
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Updated reports."
