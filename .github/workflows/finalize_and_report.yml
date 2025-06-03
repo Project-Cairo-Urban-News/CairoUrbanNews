@@ -38,21 +38,21 @@ jobs:
           commit_message: "Published finalized documents"
       - name: "Generate reports"
         run: |
-          java -cp /usr/share/java/saxon-11/*:/usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q:reports/xquery/orgName.xq dir="../../articles/arabic" > reports/orgName-ar.md
+          java -cp /usr/share/java/saxon-12/*:/usr/share/java/saxon-he-12.jar net.sf.saxon.Query -q:reports/xquery/orgName.xq dir="../../articles/arabic" > reports/orgName-ar.md
           if [[ $(wc -l <reports/orgName-ar.md) -eq 1 ]]; then rm reports/orgName-ar.md; fi
-          java -cp /usr/share/java/saxon-11/*:/usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q:reports/xquery/orgName.xq dir="../../articles/ottoman" > reports/orgName-ota.md
+          java -cp /usr/share/java/saxon-12/*:/usr/share/java/saxon-he-12.jar net.sf.saxon.Query -q:reports/xquery/orgName.xq dir="../../articles/ottoman" > reports/orgName-ota.md
           if [[ $(wc -l <reports/orgName-ota.md) -eq 1 ]]; then rm reports/orgName-ota.md; fi
-          java -cp /usr/share/java/saxon-11/*:/usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q:reports/xquery/placeName.xq dir="../../articles/arabic" > reports/placeName-ar.md
+          java -cp /usr/share/java/saxon-12/*:/usr/share/java/saxon-he-12.jar net.sf.saxon.Query -q:reports/xquery/placeName.xq dir="../../articles/arabic" > reports/placeName-ar.md
           if [[ $(wc -l <reports/placeName-ar.md) -eq 1 ]]; then rm reports/placeName-ar.md; fi
-          java -cp /usr/share/java/saxon-11/*:/usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q:reports/xquery/placeName.xq dir="../../articles/ottoman" > reports/placeName-ota.md
+          java -cp /usr/share/java/saxon-12/*:/usr/share/java/saxon-he-12.jar net.sf.saxon.Query -q:reports/xquery/placeName.xq dir="../../articles/ottoman" > reports/placeName-ota.md
           if [[ $(wc -l <reports/placeName-ota.md) -eq 1 ]]; then rm reports/placeName-ota.md; fi
-          java -cp /usr/share/java/saxon-11/*:/usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q:reports/xquery/persName.xq dir="../../articles/arabic" > reports/persName-ar.md
+          java -cp /usr/share/java/saxon-12/*:/usr/share/java/saxon-he-12.jar net.sf.saxon.Query -q:reports/xquery/persName.xq dir="../../articles/arabic" > reports/persName-ar.md
           if [[ $(wc -l <reports/persName-ar.md) -eq 1 ]]; then rm reports/persName-ar.md; fi
-          java -cp /usr/share/java/saxon-11/*:/usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q:reports/xquery/persName.xq dir="../../articles/ottoman" > reports/persName-ota.md
+          java -cp /usr/share/java/saxon-12/*:/usr/share/java/saxon-he-12.jar net.sf.saxon.Query -q:reports/xquery/persName.xq dir="../../articles/ottoman" > reports/persName-ota.md
           if [[ $(wc -l <reports/persName-ota.md) -eq 1 ]]; then rm reports/persName-ota.md; fi
-          java -cp /usr/share/java/saxon-11/*:/usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q:reports/xquery/persName-role.xq dir="../../articles/arabic" > reports/persName-role-ar.md
+          java -cp /usr/share/java/saxon-12/*:/usr/share/java/saxon-he-12.jar net.sf.saxon.Query -q:reports/xquery/persName-role.xq dir="../../articles/arabic" > reports/persName-role-ar.md
           if [[ $(wc -l <reports/persName-role-ar.md) -eq 1 ]]; then rm reports/persName-role-ar.md; fi
-          java -cp /usr/share/java/saxon-11/*:/usr/share/java/saxon-he-11.jar net.sf.saxon.Query -q:reports/xquery/persName-role.xq dir="../../articles/ottoman" > reports/persName-role-ota.md
+          java -cp /usr/share/java/saxon-12/*:/usr/share/java/saxon-he-12.jar net.sf.saxon.Query -q:reports/xquery/persName-role.xq dir="../../articles/ottoman" > reports/persName-role-ota.md
           if [[ $(wc -l <reports/persName-role-ota.md) -eq 1 ]]; then rm reports/persName-role-ota.md; fi
       - name: "Generate indexes"
         run: |
