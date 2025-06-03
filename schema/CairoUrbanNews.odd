@@ -33,7 +33,7 @@
             <moduleRef key="figures" except="formula notatedMusic"/>
             <moduleRef key="gaiji" except="unihanProp"/>
             <moduleRef key="header" include="change editorialDecl encodingDesc fileDesc funder langUsage language licence listChange profileDesc projectDesc publicationStmt revisionDesc sourceDesc sponsor teiHeader titleStmt"/>
-            <moduleRef key="linking" include="standOff"/>
+            <moduleRef key="linking" include="ab standOff"/>
             <moduleRef key="msdescription" include="material"/>
             <moduleRef key="namesdates" except="climate terrain population"/>
             <moduleRef key="tei"/>
