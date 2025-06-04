@@ -37,12 +37,12 @@ ab {
 p {
   display:block;
 }
-body p {
+body {
   font-size: 1.4em;
 }
 body head {
   display:block;
-  font-size: 1.8em;
+  font-size: 1.4em;
 }
 g[ref="#qhalf"] {
   direction: ltr;
