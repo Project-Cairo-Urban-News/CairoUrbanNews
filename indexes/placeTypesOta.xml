@@ -162,7 +162,7 @@
    <text xml:lang="ota" resp="#eAM">
       <body>
          <list>
-            <item xml:id="place-type_d5e577">
+            <item xml:id="place-type_d1e577">
                <name>اراضى</name>
                <list>
                   <item>
@@ -172,7 +172,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d3e1063">
+            <item xml:id="place-type_d2e1063">
                <name>بئر</name>
                <list>
                   <item>
@@ -182,7 +182,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d5e1805">
+            <item xml:id="place-type_d1e1805">
                <name>بركه</name>
                <list>
                   <item>
@@ -192,65 +192,39 @@
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d4e1343">
+            <item xml:id="place-type_d1e516">
                <name>ترعه</name>
                <list>
-                  <item>
-                     <date when-custom="1264-10-20">٢٠ شوال ١٢٦٤</date>
-                     <idno source="div">WO1264013201-27</idno>
-                     <ref source="placeName" target="place-WO1264013201-27_01">محمودیه ترعسی</ref>
-                  </item>
                   <item>
                      <date when-custom="1265-01-08">٨ محرم ١٢٦٥</date>
                      <idno source="div">WO1265014202-5</idno>
                      <ref source="placeName" target="place-WO1265014202-5_02">شرقاويه ترعه سنك</ref>
                   </item>
+                  <item>
+                     <date when-custom="1264-10-20">٢٠ شوال ١٢٦٤</date>
+                     <idno source="div">WO1264013201-27</idno>
+                     <ref source="placeName" target="place-WO1264013201-27_01">محمودیه ترعسی</ref>
+                  </item>
                </list>
             </item>
-            <item xml:id="place-type_d1e440">
+            <item xml:id="place-type_d4e479">
                <name>تکیه</name>
                <list>
-                  <item>
-                     <date when-custom="1267-01-03">٣ محرم ١٢٦٧</date>
-                     <idno source="div">WO1267020302-2</idno>
-                     <ref source="placeName" target="place-WO1267020302-2_01">طريق نقشبنديه فقراسنه مخصوص بر باب تكيه</ref>
-                  </item>
                   <item>
                      <date when-custom="1266-02-12">١٢ صفر ١٢٦٦</date>
                      <idno source="div">WO1266017901-3</idno>
                      <ref source="placeName" target="place-WO1266017901-3_02">طریقت نقشبنديۀ خالديه تکیه سی</ref>
                   </item>
+                  <item>
+                     <date when-custom="1267-01-03">٣ محرم ١٢٦٧</date>
+                     <idno source="div">WO1267020302-2</idno>
+                     <ref source="placeName" target="place-WO1267020302-2_01">طريق نقشبنديه فقراسنه مخصوص بر باب تكيه</ref>
+                  </item>
                </list>
             </item>
-            <item xml:id="place-type_d1e611">
+            <item xml:id="place-type_d1e629">
                <name>ثمن</name>
                <list>
-                  <item>
-                     <date when-custom="1267-04-14">١٤ ربيع الثانى ١٢٦٧</date>
-                     <idno source="div">WO1267021002-8</idno>
-                     <ref source="placeName" target="place-WO1267021002-8_01">درب الاحمر ثمننه</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1267-11-15">١٥ ذى القعدة ١٢٦٧</date>
-                     <idno source="div">WO1267022601-29</idno>
-                     <ref source="placeName" target="place-WO1267022601-29_01">درب الاحمر ثمننده</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1266-07-04">٤ رجب ١٢٦٦</date>
-                     <idno source="div">WO1266019101-18</idno>
-                     <ref source="placeName" target="place-WO1266019101-18_02">خلیفه ثمننده</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1263-09-04">٤ رمضان ١٢٦٣</date>
-                     <idno source="div">WO1263007801-10</idno>
-                     <ref source="placeName" target="place-WO1263007801-10_01">درب الاخمر ثمننده</ref>
-                     <ref source="placeName" target="place-WO1263007801-10_03">جمليه ثمننده</ref>
-                     <ref source="placeName" target="place-WO1263007801-10_04">ازبكيه ثمننده</ref>
-                     <ref source="placeName" target="place-WO1263007801-10_05">درب الجماميز ثمننده</ref>
-                     <ref source="placeName" target="place-WO1263007801-10_07">عابدين ثمننده</ref>
-                     <ref source="placeName" target="place-WO1263007801-10_08">باب الشعريه ثمننده</ref>
-                     <ref source="placeName" target="place-WO1263007801-10_09">قیسون ثمننده</ref>
-                  </item>
                   <item>
                      <date when-custom="1265-02-07">٧ صفر ١٢٦٥</date>
                      <idno source="div">WO1265014501-9</idno>
@@ -286,11 +260,42 @@
                      <idno source="div">WO1265017402-43</idno>
                      <ref source="placeName" target="place-WO1265017402-43_01">عابدين ثمننده</ref>
                   </item>
+                  <item>
+                     <date when-custom="1263-09-04">٤ رمضان ١٢٦٣</date>
+                     <idno source="div">WO1263007801-10</idno>
+                     <ref source="placeName" target="place-WO1263007801-10_01">درب الاخمر ثمننده</ref>
+                     <ref source="placeName" target="place-WO1263007801-10_03">جمليه ثمننده</ref>
+                     <ref source="placeName" target="place-WO1263007801-10_04">ازبكيه ثمننده</ref>
+                     <ref source="placeName" target="place-WO1263007801-10_05">درب الجماميز ثمننده</ref>
+                     <ref source="placeName" target="place-WO1263007801-10_07">عابدين ثمننده</ref>
+                     <ref source="placeName" target="place-WO1263007801-10_08">باب الشعريه ثمننده</ref>
+                     <ref source="placeName" target="place-WO1263007801-10_09">قیسون ثمننده</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1266-07-04">٤ رجب ١٢٦٦</date>
+                     <idno source="div">WO1266019101-18</idno>
+                     <ref source="placeName" target="place-WO1266019101-18_02">خلیفه ثمننده</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1267-04-14">١٤ ربيع الثانى ١٢٦٧</date>
+                     <idno source="div">WO1267021002-8</idno>
+                     <ref source="placeName" target="place-WO1267021002-8_01">درب الاحمر ثمننه</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1267-11-15">١٥ ذى القعدة ١٢٦٧</date>
+                     <idno source="div">WO1267022601-29</idno>
+                     <ref source="placeName" target="place-WO1267022601-29_01">درب الاحمر ثمننده</ref>
+                  </item>
                </list>
             </item>
-            <item xml:id="place-type_d3e686">
+            <item xml:id="place-type_d1e838">
                <name>جاده</name>
                <list>
+                  <item>
+                     <date when-custom="1265-03-12">١٢ ربيع اول ١٢٦٥</date>
+                     <idno source="div">WO1265015001-17</idno>
+                     <ref source="placeName" target="place-WO1265015001-17_03">بولاق جاده سيله</ref>
+                  </item>
                   <item>
                      <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣</date>
                      <idno source="div">WO1263007701-8</idno>
@@ -325,14 +330,9 @@
                      <idno source="div">WO1264013501-31</idno>
                      <ref source="placeName" target="place-WO1264013501-31_01">باب الخلق جاده يولنده</ref>
                   </item>
-                  <item>
-                     <date when-custom="1265-03-12">١٢ ربيع اول ١٢٦٥</date>
-                     <idno source="div">WO1265015001-17</idno>
-                     <ref source="placeName" target="place-WO1265015001-17_03">بولاق جاده سيله</ref>
-                  </item>
                </list>
             </item>
-            <item xml:id="place-type_d3e1017">
+            <item xml:id="place-type_d2e1017">
                <name>جامع</name>
                <list>
                   <item>
@@ -349,7 +349,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d3e656">
+            <item xml:id="place-type_d2e656">
                <name>حارة</name>
                <list>
                   <item>
@@ -367,7 +367,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d2e1181">
+            <item xml:id="place-type_d4e1181">
                <name>حمام</name>
                <list>
                   <item>
@@ -377,7 +377,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d1e642">
+            <item xml:id="place-type_d5e642">
                <name>خانه</name>
                <list>
                   <item>
@@ -392,59 +392,9 @@
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d1e532">
+            <item xml:id="place-type_d1e757">
                <name>خط</name>
                <list>
-                  <item>
-                     <date when-custom="1267-02-29">٢٩ صفر ١٢٦٧</date>
-                     <idno source="div">WO1267020702-5</idno>
-                     <ref source="placeName" target="place-WO1267020702-5_01">نحاسين خطنده</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1267-06-05">٥ جمادى الاخرة ١٢٦٧</date>
-                     <idno source="div">WO1267021401-11</idno>
-                     <ref source="placeName" target="place-WO1267021401-11_01">حسنین حضرتلری خطنده</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1267-07-04">٤ رجب ١٢٦٧</date>
-                     <idno source="div">WO1267021601-15</idno>
-                     <ref source="placeName" target="place-WO1267021601-15_01">شعراوی خطنده</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1267-07-16">١٦ رجب ١٢٦٧</date>
-                     <idno source="div">WO1267021701-16</idno>
-                     <ref source="placeName" target="place-WO1267021701-16_01">شیخ ظلام خطنده</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1267-09-21">٢١ رمضان ١٢٦٧</date>
-                     <idno source="div">WO1267022201-25</idno>
-                     <ref source="placeName" target="place-WO1267022201-25_01">حسنین افندمز حضرتلرينك خطنده</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1267-10-06">٦ شوال ١٢٦٧</date>
-                     <idno source="div">WO1267022301-28</idno>
-                     <ref source="placeName" target="place-WO1267022301-28_01">حلمیه خطنده</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1266-02-25">٢٥ صفر ١٢٦٦</date>
-                     <idno source="div">WO1266018003-7</idno>
-                     <ref source="placeName" target="place-WO1266018003-7_01">باب اللوق خطنده</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1266-07-04">٤ رجب ١٢٦٦</date>
-                     <idno source="div">WO1266019101-18</idno>
-                     <ref source="placeName" target="place-WO1266019101-18_05">نصريه خطنده</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1266-11-18">١٨ ذى القعده ١٢٦٦</date>
-                     <idno source="div">WO1266020002-23</idno>
-                     <ref source="placeName" target="place-WO1266020002-23_02">شیخ صوابی حضرتلرينك خطنده</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1264-12-24">٢٤ ذى الحجه ١٢٦٤</date>
-                     <idno source="div">WO1264014001-33</idno>
-                     <ref source="placeName" target="place-WO1264014001-33_03">جوابر خطنده</ref>
-                  </item>
                   <item>
                      <date when-custom="1265-02-28">٢٨ صفر ١٢٦٥</date>
                      <idno source="div">WO1265014802-14</idno>
@@ -485,41 +435,86 @@
                      <idno source="div">WO1265017201-41</idno>
                      <ref source="placeName" target="place-WO1265017201-41_02">سيوفيه خطنده</ref>
                   </item>
+                  <item>
+                     <date when-custom="1264-12-24">٢٤ ذى الحجه ١٢٦٤</date>
+                     <idno source="div">WO1264014001-33</idno>
+                     <ref source="placeName" target="place-WO1264014001-33_03">جوابر خطنده</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1266-02-25">٢٥ صفر ١٢٦٦</date>
+                     <idno source="div">WO1266018003-7</idno>
+                     <ref source="placeName" target="place-WO1266018003-7_01">باب اللوق خطنده</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1266-07-04">٤ رجب ١٢٦٦</date>
+                     <idno source="div">WO1266019101-18</idno>
+                     <ref source="placeName" target="place-WO1266019101-18_05">نصريه خطنده</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1266-11-18">١٨ ذى القعده ١٢٦٦</date>
+                     <idno source="div">WO1266020002-23</idno>
+                     <ref source="placeName" target="place-WO1266020002-23_02">شیخ صوابی حضرتلرينك خطنده</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1267-02-29">٢٩ صفر ١٢٦٧</date>
+                     <idno source="div">WO1267020702-5</idno>
+                     <ref source="placeName" target="place-WO1267020702-5_01">نحاسين خطنده</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1267-06-05">٥ جمادى الاخرة ١٢٦٧</date>
+                     <idno source="div">WO1267021401-11</idno>
+                     <ref source="placeName" target="place-WO1267021401-11_01">حسنین حضرتلری خطنده</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1267-07-04">٤ رجب ١٢٦٧</date>
+                     <idno source="div">WO1267021601-15</idno>
+                     <ref source="placeName" target="place-WO1267021601-15_01">شعراوی خطنده</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1267-07-16">١٦ رجب ١٢٦٧</date>
+                     <idno source="div">WO1267021701-16</idno>
+                     <ref source="placeName" target="place-WO1267021701-16_01">شیخ ظلام خطنده</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1267-09-21">٢١ رمضان ١٢٦٧</date>
+                     <idno source="div">WO1267022201-25</idno>
+                     <ref source="placeName" target="place-WO1267022201-25_01">حسنین افندمز حضرتلرينك خطنده</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1267-10-06">٦ شوال ١٢٦٧</date>
+                     <idno source="div">WO1267022301-28</idno>
+                     <ref source="placeName" target="place-WO1267022301-28_01">حلمیه خطنده</ref>
+                  </item>
                </list>
             </item>
-            <item xml:id="place-type_d3e781">
+            <item xml:id="place-type_d1e1601">
                <name>خليج</name>
                <list>
+                  <item>
+                     <date when-custom="1265-09-27">٢٧ رمضان ١٢٦٥</date>
+                     <idno source="div">WO1265016901-36</idno>
+                     <ref source="placeName" target="place-WO1265016901-36_01">خليج</ref>
+                  </item>
                   <item>
                      <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣</date>
                      <idno source="div">WO1263007701-8</idno>
                      <ref source="placeName" target="place-WO1263007701-8_42">خليجه</ref>
                      <ref source="placeName" target="place-WO1263007701-8_59">خليجه</ref>
                   </item>
-                  <item>
-                     <date when-custom="1265-09-27">٢٧ رمضان ١٢٦٥</date>
-                     <idno source="div">WO1265016901-36</idno>
-                     <ref source="placeName" target="place-WO1265016901-36_01">خليج</ref>
-                  </item>
                </list>
             </item>
-            <item xml:id="place-type_d2e622">
+            <item xml:id="place-type_d1e1205">
                <name>درب</name>
                <list>
                   <item>
-                     <date when-custom="1266-03-05">٥ ربيع الاول ١٢٦٦</date>
-                     <idno source="div">WO1266018101-8</idno>
-                     <ref source="placeName" target="place-WO1266018101-8_02">درب البرابره</ref>
+                     <date when-custom="1265-04-26">٢٦ ربيع اخر ١٢٦٥</date>
+                     <idno source="div">WO1265015501-22</idno>
+                     <ref source="placeName" target="place-WO1265015501-22_02">درب السمرده</ref>
                   </item>
                   <item>
-                     <date when-custom="1266-03-28">٢٨ ربيع الاول ١٢٦٦</date>
-                     <idno source="div">WO1266018301-10</idno>
-                     <ref source="placeName" target="place-WO1266018301-10_01">درب الاحمر</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1266-12-24">٢٤ ذي الحجه ١٢٦٦</date>
-                     <idno source="div">WO1266020201-24</idno>
-                     <ref source="placeName" target="place-WO1266020201-24_01">درب جمامیزده</ref>
+                     <date when-custom="1265-07-21">٢٧ رجب ١٢٦٥</date>
+                     <idno source="div">WO1265016401-34</idno>
+                     <ref source="placeName" target="place-WO1265016401-34_01">درب سعاده ده</ref>
                   </item>
                   <item>
                      <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣</date>
@@ -535,18 +530,23 @@
                      <ref source="placeName" target="place-WO1263007701-8_101">درب الاحمرده</ref>
                   </item>
                   <item>
-                     <date when-custom="1265-04-26">٢٦ ربيع اخر ١٢٦٥</date>
-                     <idno source="div">WO1265015501-22</idno>
-                     <ref source="placeName" target="place-WO1265015501-22_02">درب السمرده</ref>
+                     <date when-custom="1266-03-05">٥ ربيع الاول ١٢٦٦</date>
+                     <idno source="div">WO1266018101-8</idno>
+                     <ref source="placeName" target="place-WO1266018101-8_02">درب البرابره</ref>
                   </item>
                   <item>
-                     <date when-custom="1265-07-21">٢٧ رجب ١٢٦٥</date>
-                     <idno source="div">WO1265016401-34</idno>
-                     <ref source="placeName" target="place-WO1265016401-34_01">درب سعاده ده</ref>
+                     <date when-custom="1266-03-28">٢٨ ربيع الاول ١٢٦٦</date>
+                     <idno source="div">WO1266018301-10</idno>
+                     <ref source="placeName" target="place-WO1266018301-10_01">درب الاحمر</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1266-12-24">٢٤ ذي الحجه ١٢٦٦</date>
+                     <idno source="div">WO1266020201-24</idno>
+                     <ref source="placeName" target="place-WO1266020201-24_01">درب جمامیزده</ref>
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d3e1574">
+            <item xml:id="place-type_d2e1574">
                <name>زقاق</name>
                <list>
                   <item>
@@ -556,7 +556,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d3e784">
+            <item xml:id="place-type_d2e784">
                <name>سبیل</name>
                <list>
                   <item>
@@ -571,7 +571,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d5e1604">
+            <item xml:id="place-type_d1e1604">
                <name>سد</name>
                <list>
                   <item>
@@ -581,7 +581,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d3e674">
+            <item xml:id="place-type_d2e674">
                <name>سكة</name>
                <list>
                   <item>
@@ -596,43 +596,33 @@
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d1e499">
+            <item xml:id="place-type_d1e410">
                <name>سمت</name>
                <list>
                   <item>
-                     <date when-custom="1267-02-29">٢٩ صفر ١٢٦٧</date>
-                     <idno source="div">WO1267020701-4</idno>
-                     <ref source="placeName" target="place-WO1267020701-4_01">درب الاحمر سمتنده</ref>
+                     <date when-custom="1265-01-01">١ محرم ١٢٦٥</date>
+                     <idno source="div">WO1265014101-1</idno>
+                     <ref source="placeName" target="place-WO1265014101-1_01">بركة الفيل سمتنده</ref>
                   </item>
                   <item>
-                     <date when-custom="1267-07-28">٢٨ رجب ١٢٦٧</date>
-                     <idno source="div">WO1267021801-17</idno>
-                     <ref source="placeName" target="place-WO1267021801-17_01">شعراوی سمتنده</ref>
+                     <date when-custom="1265-01-01">١ محرم ١٢٦٥</date>
+                     <idno source="div">WO1265014103-3</idno>
+                     <ref source="placeName" target="place-WO1265014103-3_01">خوش قدم سمتنده</ref>
                   </item>
                   <item>
-                     <date when-custom="1267-08-24">٢٤ شعبان ١٢٦٧</date>
-                     <idno source="div">WO1267022001-20</idno>
-                     <ref source="placeName" target="place-WO1267022001-20_01">درب الاحمر سمتنده</ref>
+                     <date when-custom="1265-01-08">٨ محرم ١٢٦٥</date>
+                     <idno source="div">WO1265014201-4</idno>
+                     <ref source="placeName" target="place-WO1265014201-4_01">موسكیه سمتنده</ref>
                   </item>
                   <item>
-                     <date when-custom="1267-09-06">٦ رمضان ١٢٦٧</date>
-                     <idno source="div">WO1267022102-24</idno>
-                     <ref source="placeName" target="place-WO1267022102-24_01">حوش قدم سمتنده</ref>
+                     <date when-custom="1265-01-15">١٥ محمرم ١٢٦٥</date>
+                     <idno source="div">WO1265014301-6</idno>
+                     <ref source="placeName" target="place-WO1265014301-6_01">تبانه سمتنده</ref>
                   </item>
                   <item>
-                     <date when-custom="1266-02-25">٢٥ صفر ١٢٦٦</date>
-                     <idno source="div">WO1266018002-6</idno>
-                     <ref source="placeName" target="place-WO1266018002-6_02">غيط العده سمتنده</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1266-03-05">٥ ربيع الاول ١٢٦٦</date>
-                     <idno source="div">WO1266018102-9</idno>
-                     <ref source="placeName" target="place-WO1266018102-9_01">مسكيه سمتنده</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1266-11-18">١٨ ذى القعده ١٢٦٦</date>
-                     <idno source="div">WO1266020002-23</idno>
-                     <ref source="placeName" target="place-WO1266020002-23_01">حسینیه سمتنده</ref>
+                     <date when-custom="1265-01-29">٢٩ محرم ١٢٦٥</date>
+                     <idno source="div">WO1265014401-7</idno>
+                     <ref source="placeName" target="place-WO1265014401-7_01">تبانه سمتنده</ref>
                   </item>
                   <item>
                      <date when-custom="1263-08-13">١٣ شعبان ١٢٦٣</date>
@@ -750,33 +740,43 @@
                      <ref source="placeName" target="place-WO1264014001-33_01">درب المزين سمتنده</ref>
                   </item>
                   <item>
-                     <date when-custom="1265-01-01">١ محرم ١٢٦٥</date>
-                     <idno source="div">WO1265014101-1</idno>
-                     <ref source="placeName" target="place-WO1265014101-1_01">بركة الفيل سمتنده</ref>
+                     <date when-custom="1266-02-25">٢٥ صفر ١٢٦٦</date>
+                     <idno source="div">WO1266018002-6</idno>
+                     <ref source="placeName" target="place-WO1266018002-6_02">غيط العده سمتنده</ref>
                   </item>
                   <item>
-                     <date when-custom="1265-01-01">١ محرم ١٢٦٥</date>
-                     <idno source="div">WO1265014103-3</idno>
-                     <ref source="placeName" target="place-WO1265014103-3_01">خوش قدم سمتنده</ref>
+                     <date when-custom="1266-03-05">٥ ربيع الاول ١٢٦٦</date>
+                     <idno source="div">WO1266018102-9</idno>
+                     <ref source="placeName" target="place-WO1266018102-9_01">مسكيه سمتنده</ref>
                   </item>
                   <item>
-                     <date when-custom="1265-01-08">٨ محرم ١٢٦٥</date>
-                     <idno source="div">WO1265014201-4</idno>
-                     <ref source="placeName" target="place-WO1265014201-4_01">موسكیه سمتنده</ref>
+                     <date when-custom="1266-11-18">١٨ ذى القعده ١٢٦٦</date>
+                     <idno source="div">WO1266020002-23</idno>
+                     <ref source="placeName" target="place-WO1266020002-23_01">حسینیه سمتنده</ref>
                   </item>
                   <item>
-                     <date when-custom="1265-01-15">١٥ محمرم ١٢٦٥</date>
-                     <idno source="div">WO1265014301-6</idno>
-                     <ref source="placeName" target="place-WO1265014301-6_01">تبانه سمتنده</ref>
+                     <date when-custom="1267-02-29">٢٩ صفر ١٢٦٧</date>
+                     <idno source="div">WO1267020701-4</idno>
+                     <ref source="placeName" target="place-WO1267020701-4_01">درب الاحمر سمتنده</ref>
                   </item>
                   <item>
-                     <date when-custom="1265-01-29">٢٩ محرم ١٢٦٥</date>
-                     <idno source="div">WO1265014401-7</idno>
-                     <ref source="placeName" target="place-WO1265014401-7_01">تبانه سمتنده</ref>
+                     <date when-custom="1267-07-28">٢٨ رجب ١٢٦٧</date>
+                     <idno source="div">WO1267021801-17</idno>
+                     <ref source="placeName" target="place-WO1267021801-17_01">شعراوی سمتنده</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1267-08-24">٢٤ شعبان ١٢٦٧</date>
+                     <idno source="div">WO1267022001-20</idno>
+                     <ref source="placeName" target="place-WO1267022001-20_01">درب الاحمر سمتنده</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1267-09-06">٦ رمضان ١٢٦٧</date>
+                     <idno source="div">WO1267022102-24</idno>
+                     <ref source="placeName" target="place-WO1267022102-24_01">حوش قدم سمتنده</ref>
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d3e555">
+            <item xml:id="place-type_d2e555">
                <name>سوق</name>
                <list>
                   <item>
@@ -798,7 +798,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d3e419">
+            <item xml:id="place-type_d2e419">
                <name>سويش</name>
                <list>
                   <item>
@@ -808,9 +808,19 @@
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d3e625">
+            <item xml:id="place-type_d1e680">
                <name>شارع</name>
                <list>
+                  <item>
+                     <date when-custom="1265-02-07">٧ صفر ١٢٦٥</date>
+                     <idno source="div">WO1265014503-11</idno>
+                     <ref source="placeName" target="place-WO1265014503-11_01">رومیله شارعنده</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1265-03-19">١٩ ربيع اول ١٢٦٥</date>
+                     <idno source="div">WO1265015102-20</idno>
+                     <ref source="placeName" target="place-WO1265015102-20_01">رميله شارعنده</ref>
+                  </item>
                   <item>
                      <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣</date>
                      <idno source="div">WO1263007701-8</idno>
@@ -850,19 +860,9 @@
                      <idno source="div">WO1264011001-15</idno>
                      <ref source="placeName" target="place-WO1264011001-15_02">باب الفتوح شارعنده</ref>
                   </item>
-                  <item>
-                     <date when-custom="1265-02-07">٧ صفر ١٢٦٥</date>
-                     <idno source="div">WO1265014503-11</idno>
-                     <ref source="placeName" target="place-WO1265014503-11_01">رومیله شارعنده</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1265-03-19">١٩ ربيع اول ١٢٦٥</date>
-                     <idno source="div">WO1265015102-20</idno>
-                     <ref source="placeName" target="place-WO1265015102-20_01">رميله شارعنده</ref>
-                  </item>
                </list>
             </item>
-            <item xml:id="place-type_d3e809">
+            <item xml:id="place-type_d2e809">
                <name>شق</name>
                <list>
                   <item>
@@ -872,14 +872,9 @@
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d1e471">
+            <item xml:id="place-type_d2e756">
                <name>عطفة</name>
                <list>
-                  <item>
-                     <date when-custom="1267-01-17">١٧ محرم ١٢٦٧</date>
-                     <idno source="div">WO1267020401-3</idno>
-                     <ref source="placeName" target="place-WO1267020401-3_02">اربعین عطفه سنده</ref>
-                  </item>
                   <item>
                      <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣</date>
                      <idno source="div">WO1263007701-8</idno>
@@ -891,9 +886,14 @@
                      <ref source="placeName" target="place-WO1263007701-8_72">عطفة الفقوسه</ref>
                      <ref source="placeName" target="place-WO1263007701-8_90">عطفة الوسنمه</ref>
                   </item>
+                  <item>
+                     <date when-custom="1267-01-17">١٧ محرم ١٢٦٧</date>
+                     <idno source="div">WO1267020401-3</idno>
+                     <ref source="placeName" target="place-WO1267020401-3_02">اربعین عطفه سنده</ref>
+                  </item>
                </list>
             </item>
-            <item xml:id="place-type_d3e951">
+            <item xml:id="place-type_d2e951">
                <name>عمارة</name>
                <list>
                   <item>
@@ -903,24 +903,13 @@
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d1e663">
+            <item xml:id="place-type_d1e513">
                <name>قریه</name>
                <list>
                   <item>
-                     <date when-custom="1267-05-08">٨ جماد اول ١٢٦٧</date>
-                     <idno source="div">WO1267021201-10</idno>
-                     <ref source="placeName" target="place-WO1267021201-10_01">مطريه قریه سنده</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1267-06-21">٢١ جمادى الاخرة ١٢٦٧</date>
-                     <idno source="div">WO1267021501-13</idno>
-                     <ref source="placeName" target="place-WO1267021501-13_01">جيزه قریه سنده</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1266-08-24">٢٤ شعبان ١٢٦٦</date>
-                     <idno source="div">WO1266019501-19</idno>
-                     <ref source="placeName" target="place-WO1266019501-19_01">طملاى قریه سی</ref>
-                     <ref source="placeName" target="place-WO1266019501-19_02">شبشیر قریه سنده</ref>
+                     <date when-custom="1265-01-08">٨ محرم ١٢٦٥</date>
+                     <idno source="div">WO1265014202-5</idno>
+                     <ref source="placeName" target="place-WO1265014202-5_01">منصوريه قريه سی</ref>
                   </item>
                   <item>
                      <date when-custom="1264-07-17">١٧ رجب ١٢٦٤</date>
@@ -931,20 +920,26 @@
                      <ref source="placeName" target="place-WO1264011901-18_06">محدوب قريه سنده</ref>
                   </item>
                   <item>
-                     <date when-custom="1265-01-08">٨ محرم ١٢٦٥</date>
-                     <idno source="div">WO1265014202-5</idno>
-                     <ref source="placeName" target="place-WO1265014202-5_01">منصوريه قريه سی</ref>
+                     <date when-custom="1266-08-24">٢٤ شعبان ١٢٦٦</date>
+                     <idno source="div">WO1266019501-19</idno>
+                     <ref source="placeName" target="place-WO1266019501-19_01">طملاى قریه سی</ref>
+                     <ref source="placeName" target="place-WO1266019501-19_02">شبشیر قریه سنده</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1267-05-08">٨ جماد اول ١٢٦٧</date>
+                     <idno source="div">WO1267021201-10</idno>
+                     <ref source="placeName" target="place-WO1267021201-10_01">مطريه قریه سنده</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1267-06-21">٢١ جمادى الاخرة ١٢٦٧</date>
+                     <idno source="div">WO1267021501-13</idno>
+                     <ref source="placeName" target="place-WO1267021501-13_01">جيزه قریه سنده</ref>
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d1e589">
+            <item xml:id="place-type_d1e733">
                <name>قصر</name>
                <list>
-                  <item>
-                     <date when-custom="1267-04-14">١٤ ربيع الثاني ١٢٦٧</date>
-                     <idno source="div">WO1267021001-7</idno>
-                     <ref source="placeName" target="place-WO1267021001-7_03">قصره</ref>
-                  </item>
                   <item>
                      <date when-custom="1265-02-28">٢٨ صفر ١٢٦٥</date>
                      <idno source="div">WO1265014801-13</idno>
@@ -955,9 +950,14 @@
                      <idno source="div">WO1265015301-21</idno>
                      <ref source="placeName" target="place-WO1265015301-21_03">قصرعين ده</ref>
                   </item>
+                  <item>
+                     <date when-custom="1267-04-14">١٤ ربيع الثاني ١٢٦٧</date>
+                     <idno source="div">WO1267021001-7</idno>
+                     <ref source="placeName" target="place-WO1267021001-7_03">قصره</ref>
+                  </item>
                </list>
             </item>
-            <item xml:id="place-type_d5e705">
+            <item xml:id="place-type_d1e705">
                <name>قلعه</name>
                <list>
                   <item>
@@ -967,9 +967,14 @@
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d3e622">
+            <item xml:id="place-type_d1e602">
                <name>قنطرة</name>
                <list>
+                  <item>
+                     <date when-custom="1265-01-29">٢٩ محرم ١٢٦٥</date>
+                     <idno source="div">WO1265014402-8</idno>
+                     <ref source="placeName" target="place-WO1265014402-8_02">قنطرة الدكه</ref>
+                  </item>
                   <item>
                      <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣</date>
                      <idno source="div">WO1263007701-8</idno>
@@ -981,21 +986,11 @@
                      <ref source="placeName" target="place-WO1263007701-8_61">قنطرة سنقر</ref>
                      <ref source="placeName" target="place-WO1263007701-8_64">قنطرة كفر مقابله سنده</ref>
                   </item>
-                  <item>
-                     <date when-custom="1265-01-29">٢٩ محرم ١٢٦٥</date>
-                     <idno source="div">WO1265014402-8</idno>
-                     <ref source="placeName" target="place-WO1265014402-8_02">قنطرة الدكه</ref>
-                  </item>
                </list>
             </item>
-            <item xml:id="place-type_d1e474">
+            <item xml:id="place-type_d2e671">
                <name>قوناق</name>
                <list>
-                  <item>
-                     <date when-custom="1267-01-17">١٧ محرم ١٢٦٧</date>
-                     <idno source="div">WO1267020401-3</idno>
-                     <ref source="placeName" target="place-WO1267020401-3_03">ادهم پاشا حضرتلرينك قوناغي</ref>
-                  </item>
                   <item>
                      <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣</date>
                      <idno source="div">WO1263007701-8</idno>
@@ -1003,9 +998,14 @@
                      <ref source="placeName" target="place-WO1263007701-8_19">ماليه مدیری پاشا حضرتلرينك قوناغی</ref>
                      <ref source="placeName" target="place-WO1263007701-8_56">شیخ ساداتك قوناغی</ref>
                   </item>
+                  <item>
+                     <date when-custom="1267-01-17">١٧ محرم ١٢٦٧</date>
+                     <idno source="div">WO1267020401-3</idno>
+                     <ref source="placeName" target="place-WO1267020401-3_03">ادهم پاشا حضرتلرينك قوناغي</ref>
+                  </item>
                </list>
             </item>
-            <item xml:id="place-type_d3e425">
+            <item xml:id="place-type_d2e425">
                <name>قپو</name>
                <list>
                   <item>
@@ -1026,7 +1026,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d3e416">
+            <item xml:id="place-type_d2e416">
                <name>محل</name>
                <list>
                   <item>
@@ -1036,38 +1036,48 @@
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d1e690">
+            <item xml:id="place-type_d1e485">
                <name>محله</name>
                <list>
                   <item>
-                     <date when-custom="1267-06-05">٥ جمادى الاخرة ١٢٦٧</date>
-                     <idno source="div">WO1267021401-11</idno>
-                     <ref source="placeName" target="place-WO1267021401-11_03">عطفة العسل محله سنده</ref>
+                     <date when-custom="1265-01-08">٨ محرم ١٢٦٥</date>
+                     <idno source="div">WO1265014201-4</idno>
+                     <ref source="placeName" target="place-WO1265014201-4_02">حوش الحين</ref>
                   </item>
                   <item>
-                     <date when-custom="1267-10-06">٦ شوال ١٢٦٧</date>
-                     <idno source="div">WO1267022301-28</idno>
-                     <ref source="placeName" target="place-WO1267022301-28_02">شیخ الماس حضرتلريك محله سنده</ref>
+                     <date when-custom="1265-03-05">٥ ربيع اول ١٢٦٥</date>
+                     <idno source="div">WO1265014901-16</idno>
+                     <ref source="placeName" target="place-WO1265014901-16_01">عرب الايسار محله سنده</ref>
                   </item>
                   <item>
-                     <date when-custom="1267-11-15">١٥ ذى القعدة ١٢٦٧</date>
-                     <idno source="div">WO1267022601-29</idno>
-                     <ref source="placeName" target="place-WO1267022601-29_02">مديح محله سنده</ref>
+                     <date when-custom="1265-05-05">٥ جماد اخر ١٢٦٥</date>
+                     <idno source="div">WO1265015802-26</idno>
+                     <ref source="placeName" target="place-WO1265015802-26_01">بیر جوان محله سنده</ref>
                   </item>
                   <item>
-                     <date when-custom="1266-03-28">٢٨ ربيع الاول ١٢٦٦</date>
-                     <idno source="div">WO1266018302-11</idno>
-                     <ref source="placeName" target="place-WO1266018302-11_02">بنادقه محله سنده</ref>
+                     <date when-custom="1265-05-12">١٢ جماد اخر ١٢٦٥</date>
+                     <idno source="div">WO1265015901-27</idno>
+                     <ref source="placeName" target="place-WO1265015901-27_03">حارة الجنينه</ref>
                   </item>
                   <item>
-                     <date when-custom="1266-07-04">٤ رجب ١٢٦٦</date>
-                     <idno source="div">WO1266019101-18</idno>
-                     <ref source="placeName" target="place-WO1266019101-18_04">رکبيه محله سنده</ref>
+                     <date when-custom="1265-07-21">٢٧ رجب ١٢٦٥</date>
+                     <idno source="div">WO1265016401-34</idno>
+                     <ref source="placeName" target="place-WO1265016401-34_03">قبر الطويل</ref>
                   </item>
                   <item>
-                     <date when-custom="1266-12-24">٢٤ ذي الحجه ١٢٦٦</date>
-                     <idno source="div">WO1266020201-24</idno>
-                     <ref source="placeName" target="place-WO1266020201-24_02">هياتم محله سنه</ref>
+                     <date when-custom="1265-10-25">٢٥ شوال ١٢٦٥</date>
+                     <idno source="div">WO1265017101-38</idno>
+                     <ref source="placeName" target="place-WO1265017101-38_01">درب عجور محله سنده</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1265-10-25">٢٥ شوال ١٢٦٥</date>
+                     <idno source="div">WO1265017102-39</idno>
+                     <ref source="placeName" target="place-WO1265017102-39_02">درب الدلیل محله سنده</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1265-11-21">٢١ ذى القعده ١٢٦٥</date>
+                     <idno source="div">WO1265017201-41</idno>
+                     <ref source="placeName" target="place-WO1265017201-41_03">حارة الالفى</ref>
                   </item>
                   <item>
                      <date when-custom="1263-08-20 ">٢٠ شعبان ١٢٦٣</date>
@@ -1135,48 +1145,38 @@
                      <ref source="placeName" target="place-WO1264013401-28_02">عطفة الدليل نام محله ده</ref>
                   </item>
                   <item>
-                     <date when-custom="1265-01-08">٨ محرم ١٢٦٥</date>
-                     <idno source="div">WO1265014201-4</idno>
-                     <ref source="placeName" target="place-WO1265014201-4_02">حوش الحين</ref>
+                     <date when-custom="1266-03-28">٢٨ ربيع الاول ١٢٦٦</date>
+                     <idno source="div">WO1266018302-11</idno>
+                     <ref source="placeName" target="place-WO1266018302-11_02">بنادقه محله سنده</ref>
                   </item>
                   <item>
-                     <date when-custom="1265-03-05">٥ ربيع اول ١٢٦٥</date>
-                     <idno source="div">WO1265014901-16</idno>
-                     <ref source="placeName" target="place-WO1265014901-16_01">عرب الايسار محله سنده</ref>
+                     <date when-custom="1266-07-04">٤ رجب ١٢٦٦</date>
+                     <idno source="div">WO1266019101-18</idno>
+                     <ref source="placeName" target="place-WO1266019101-18_04">رکبيه محله سنده</ref>
                   </item>
                   <item>
-                     <date when-custom="1265-05-05">٥ جماد اخر ١٢٦٥</date>
-                     <idno source="div">WO1265015802-26</idno>
-                     <ref source="placeName" target="place-WO1265015802-26_01">بیر جوان محله سنده</ref>
+                     <date when-custom="1266-12-24">٢٤ ذي الحجه ١٢٦٦</date>
+                     <idno source="div">WO1266020201-24</idno>
+                     <ref source="placeName" target="place-WO1266020201-24_02">هياتم محله سنه</ref>
                   </item>
                   <item>
-                     <date when-custom="1265-05-12">١٢ جماد اخر ١٢٦٥</date>
-                     <idno source="div">WO1265015901-27</idno>
-                     <ref source="placeName" target="place-WO1265015901-27_03">حارة الجنينه</ref>
+                     <date when-custom="1267-06-05">٥ جمادى الاخرة ١٢٦٧</date>
+                     <idno source="div">WO1267021401-11</idno>
+                     <ref source="placeName" target="place-WO1267021401-11_03">عطفة العسل محله سنده</ref>
                   </item>
                   <item>
-                     <date when-custom="1265-07-21">٢٧ رجب ١٢٦٥</date>
-                     <idno source="div">WO1265016401-34</idno>
-                     <ref source="placeName" target="place-WO1265016401-34_03">قبر الطويل</ref>
+                     <date when-custom="1267-10-06">٦ شوال ١٢٦٧</date>
+                     <idno source="div">WO1267022301-28</idno>
+                     <ref source="placeName" target="place-WO1267022301-28_02">شیخ الماس حضرتلريك محله سنده</ref>
                   </item>
                   <item>
-                     <date when-custom="1265-10-25">٢٥ شوال ١٢٦٥</date>
-                     <idno source="div">WO1265017101-38</idno>
-                     <ref source="placeName" target="place-WO1265017101-38_01">درب عجور محله سنده</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1265-10-25">٢٥ شوال ١٢٦٥</date>
-                     <idno source="div">WO1265017102-39</idno>
-                     <ref source="placeName" target="place-WO1265017102-39_02">درب الدلیل محله سنده</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1265-11-21">٢١ ذى القعده ١٢٦٥</date>
-                     <idno source="div">WO1265017201-41</idno>
-                     <ref source="placeName" target="place-WO1265017201-41_03">حارة الالفى</ref>
+                     <date when-custom="1267-11-15">١٥ ذى القعدة ١٢٦٧</date>
+                     <idno source="div">WO1267022601-29</idno>
+                     <ref source="placeName" target="place-WO1267022601-29_02">مديح محله سنده</ref>
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d3e413">
+            <item xml:id="place-type_d2e413">
                <name>مذبح</name>
                <list>
                   <item>
@@ -1186,7 +1186,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d4e1239">
+            <item xml:id="place-type_d3e1239">
                <name>مرمر طاغى</name>
                <list>
                   <item>
@@ -1196,7 +1196,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d5e780">
+            <item xml:id="place-type_d1e780">
                <name>مصطاحی</name>
                <list>
                   <item>
@@ -1206,7 +1206,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d1e413">
+            <item xml:id="place-type_d5e413">
                <name>مقام</name>
                <list>
                   <item>
@@ -1216,7 +1216,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d4e418">
+            <item xml:id="place-type_d3e418">
                <name>میدان</name>
                <list>
                   <item>
@@ -1226,19 +1226,9 @@
                   </item>
                </list>
             </item>
-            <item xml:id="place-type_d3e698">
+            <item xml:id="place-type_d1e541">
                <name>يول</name>
                <list>
-                  <item>
-                     <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣</date>
-                     <idno source="div">WO1263007701-8</idno>
-                     <ref source="placeName" target="place-WO1263007701-8_20">تربه يولنه</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1264-01-19">١٩ محرم ١٢٦٤</date>
-                     <idno source="div">WO1264009701-1</idno>
-                     <ref source="placeName" target="place-WO1264009701-1_01">قلعله يولنده</ref>
-                  </item>
                   <item>
                      <date when-custom="1265-01-15">١٥ محمرم ١٢٦٥</date>
                      <idno source="div">WO1265014301-6</idno>
@@ -1248,6 +1238,16 @@
                      <date when-custom="1265-01-29">٢٩ محرم ١٢٦٥</date>
                      <idno source="div">WO1265014401-7</idno>
                      <ref source="placeName" target="place-WO1265014401-7_02">شبرا یولنده</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣</date>
+                     <idno source="div">WO1263007701-8</idno>
+                     <ref source="placeName" target="place-WO1263007701-8_20">تربه يولنه</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1264-01-19">١٩ محرم ١٢٦٤</date>
+                     <idno source="div">WO1264009701-1</idno>
+                     <ref source="placeName" target="place-WO1264009701-1_01">قلعله يولنده</ref>
                   </item>
                </list>
             </item>

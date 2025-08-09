@@ -162,7 +162,7 @@
    <text xml:lang="ota" resp="#eAM">
       <body>
          <list>
-            <item xml:id="org-type_d5e1279">
+            <item xml:id="org-type_d1e1279">
                <name>اسپتاليه</name>
                <list>
                   <item>
@@ -177,24 +177,9 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d1e827">
+            <item xml:id="org-type_d4e821">
                <name>اطفائيه</name>
                <list>
-                  <item>
-                     <date when-custom="1267-07-28">٢٨ رجب ١٢٦٧</date>
-                     <idno source="div">WO1267021801-17</idno>
-                     <ref source="orgName" target="org-WO1267021801-17_02">اطفائیه نك</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1267-08-05">٥ شعبان ١٢٦٧</date>
-                     <idno source="div">WO1267021901-19</idno>
-                     <ref source="orgName" target="org-WO1267021901-19_02">اطفائيه نك</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1267-11-15">١٥ ذى القعدة ١٢٦٧</date>
-                     <idno source="div">WO1267022601-29</idno>
-                     <ref source="orgName" target="org-WO1267022601-29_01">اطفائيه نك</ref>
-                  </item>
                   <item>
                      <date when-custom="1266-04-13">١٣ ربيع الثاني ١٢٦٦</date>
                      <idno source="div">WO1266018401-15</idno>
@@ -210,9 +195,24 @@
                      <idno source="div">WO1266020002-23</idno>
                      <ref source="orgName" target="org-WO1266020002-23_02">اطفائيه نك</ref>
                   </item>
+                  <item>
+                     <date when-custom="1267-07-28">٢٨ رجب ١٢٦٧</date>
+                     <idno source="div">WO1267021801-17</idno>
+                     <ref source="orgName" target="org-WO1267021801-17_02">اطفائیه نك</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1267-08-05">٥ شعبان ١٢٦٧</date>
+                     <idno source="div">WO1267021901-19</idno>
+                     <ref source="orgName" target="org-WO1267021901-19_02">اطفائيه نك</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1267-11-15">١٥ ذى القعدة ١٢٦٧</date>
+                     <idno source="div">WO1267022601-29</idno>
+                     <ref source="orgName" target="org-WO1267022601-29_01">اطفائيه نك</ref>
+                  </item>
                </list>
             </item>
-            <item xml:id="org-type_d3e1285">
+            <item xml:id="org-type_d2e1285">
                <name>ایپکخانه</name>
                <list>
                   <item>
@@ -222,7 +222,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d4e1317">
+            <item xml:id="org-type_d3e1317">
                <name>بازار</name>
                <list>
                   <item>
@@ -232,7 +232,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d3e1405">
+            <item xml:id="org-type_d2e1405">
                <name>بويا خانه</name>
                <list>
                   <item>
@@ -242,7 +242,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d1e562">
+            <item xml:id="org-type_d5e562">
                <name>بيت المال</name>
                <list>
                   <item>
@@ -257,7 +257,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d2e547">
+            <item xml:id="org-type_d4e547">
                <name>تربه</name>
                <list>
                   <item>
@@ -267,24 +267,29 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d1e871">
+            <item xml:id="org-type_d1e435">
                <name>ترسانه</name>
                <list>
-                  <item>
-                     <date when-custom="1267-08-05">٥ شعبان ١٢٦٧</date>
-                     <idno source="div">WO1267021901-19</idno>
-                     <ref source="orgName" target="org-WO1267021901-19_01">بولاق ترسانه سی</ref>
-                  </item>
                   <item>
                      <date when-custom="1265-01-01">١ محرم ١٢٦٥</date>
                      <idno source="div">WO1265014102-2</idno>
                      <ref source="orgName" target="org-WO1265014102-2_01">بولاق ترسانه سی</ref>
                   </item>
+                  <item>
+                     <date when-custom="1267-08-05">٥ شعبان ١٢٦٧</date>
+                     <idno source="div">WO1267021901-19</idno>
+                     <ref source="orgName" target="org-WO1267021901-19_01">بولاق ترسانه سی</ref>
+                  </item>
                </list>
             </item>
-            <item xml:id="org-type_d3e850">
+            <item xml:id="org-type_d1e876">
                <name>جامع</name>
                <list>
+                  <item>
+                     <date when-custom="1265-03-19">١٩ ربيع اول ١٢٦٥</date>
+                     <idno source="div">WO1265015101-19</idno>
+                     <ref source="orgName" target="org-WO1265015101-19_01">جامع ازهر</ref>
+                  </item>
                   <item>
                      <date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣</date>
                      <idno source="div">WO1263007701-8</idno>
@@ -306,14 +311,9 @@
                      <idno source="div">WO1264012501-23</idno>
                      <ref source="orgName" target="org-WO1264012501-23_01">جامع شریف</ref>
                   </item>
-                  <item>
-                     <date when-custom="1265-03-19">١٩ ربيع اول ١٢٦٥</date>
-                     <idno source="div">WO1265015101-19</idno>
-                     <ref source="orgName" target="org-WO1265015101-19_01">جامع ازهر</ref>
-                  </item>
                </list>
             </item>
-            <item xml:id="org-type_d2e412">
+            <item xml:id="org-type_d4e412">
                <name>جامع شریف</name>
                <list>
                   <item>
@@ -323,7 +323,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d2e891">
+            <item xml:id="org-type_d4e891">
                <name>جهادیه مخبزلری</name>
                <list>
                   <item>
@@ -333,7 +333,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d4e621">
+            <item xml:id="org-type_d3e621">
                <name>خان</name>
                <list>
                   <item>
@@ -343,7 +343,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d2e473">
+            <item xml:id="org-type_d4e473">
                <name>درکاه</name>
                <list>
                   <item>
@@ -353,7 +353,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d3e1320">
+            <item xml:id="org-type_d2e1320">
                <name>دكرمن</name>
                <list>
                   <item>
@@ -363,23 +363,23 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d1e919">
+            <item xml:id="org-type_d3e901">
                <name>ديوان</name>
                <list>
-                  <item>
-                     <date when-custom="1267-08-24">٢٤ شعبان ١٢٦٧</date>
-                     <idno source="div">WO1267022002-21</idno>
-                     <ref source="orgName" target="org-WO1267022002-21_01">دیوان جهادیه ده</ref>
-                  </item>
                   <item>
                      <date when-custom="1264-07-17">١٧ رجب ١٢٦٤</date>
                      <idno source="div">WO1264011901-18</idno>
                      <ref source="orgName" target="org-WO1264011901-18_01">دیوان مدارسه</ref>
                      <ref source="orgName" target="org-WO1264011901-18_04">مدیریت ديواننده</ref>
                   </item>
+                  <item>
+                     <date when-custom="1267-08-24">٢٤ شعبان ١٢٦٧</date>
+                     <idno source="div">WO1267022002-21</idno>
+                     <ref source="orgName" target="org-WO1267022002-21_01">دیوان جهادیه ده</ref>
+                  </item>
                </list>
             </item>
-            <item xml:id="org-type_d3e556">
+            <item xml:id="org-type_d2e556">
                <name>سوق</name>
                <list>
                   <item>
@@ -395,33 +395,38 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d4e826">
+            <item xml:id="org-type_d1e491">
                <name>ضابطخانه</name>
                <list>
-                  <item>
-                     <date when-custom="1264-04-22">٢٢ ربيع اخر ١٢٦٤</date>
-                     <idno source="div">WO1264011001-15</idno>
-                     <ref source="orgName" target="org-WO1264011001-15_02">ضابطخانه دن</ref>
-                  </item>
                   <item>
                      <date when-custom="1265-01-08">٨ محرم ١٢٦٥</date>
                      <idno source="div">WO1265014201-4</idno>
                      <ref source="orgName" target="org-WO1265014201-4_02">ضابطخانه دن</ref>
                   </item>
+                  <item>
+                     <date when-custom="1264-04-22">٢٢ ربيع اخر ١٢٦٤</date>
+                     <idno source="div">WO1264011001-15</idno>
+                     <ref source="orgName" target="org-WO1264011001-15_02">ضابطخانه دن</ref>
+                  </item>
                </list>
             </item>
-            <item xml:id="org-type_d1e824">
+            <item xml:id="org-type_d1e1365">
                <name>ضبطيه</name>
                <list>
                   <item>
-                     <date when-custom="1267-07-28">٢٨ رجب ١٢٦٧</date>
-                     <idno source="div">WO1267021801-17</idno>
-                     <ref source="orgName" target="org-WO1267021801-17_01">ضبطيه</ref>
+                     <date when-custom="1265-05-12">١٢ جماد اخر ١٢٦٥</date>
+                     <idno source="div">WO1265015901-27</idno>
+                     <ref source="orgName" target="org-WO1265015901-27_01">ضبطيه</ref>
                   </item>
                   <item>
-                     <date when-custom="1267-08-24">٢٤ شعبان ١٢٦٧</date>
-                     <idno source="div">WO1267022001-20</idno>
-                     <ref source="orgName" target="org-WO1267022001-20_01">ضبطیه يه</ref>
+                     <date when-custom="1265-11-21">٢١ ذى القعده ١٢٦٥</date>
+                     <idno source="div">WO1265017201-41</idno>
+                     <ref source="orgName" target="org-WO1265017201-41_01">ضبطيه</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1264-04-22">٢٢ ربيع اخر ١٢٦٤</date>
+                     <idno source="div">WO1264011001-15</idno>
+                     <ref source="orgName" target="org-WO1264011001-15_01">ضبطيه</ref>
                   </item>
                   <item>
                      <date when-custom="1266-04-13">١٣ ربيع الثاني ١٢٦٦</date>
@@ -434,23 +439,18 @@
                      <ref source="orgName" target="org-WO1266019101-18_01">ضبطیه دن</ref>
                   </item>
                   <item>
-                     <date when-custom="1264-04-22">٢٢ ربيع اخر ١٢٦٤</date>
-                     <idno source="div">WO1264011001-15</idno>
-                     <ref source="orgName" target="org-WO1264011001-15_01">ضبطيه</ref>
+                     <date when-custom="1267-07-28">٢٨ رجب ١٢٦٧</date>
+                     <idno source="div">WO1267021801-17</idno>
+                     <ref source="orgName" target="org-WO1267021801-17_01">ضبطيه</ref>
                   </item>
                   <item>
-                     <date when-custom="1265-05-12">١٢ جماد اخر ١٢٦٥</date>
-                     <idno source="div">WO1265015901-27</idno>
-                     <ref source="orgName" target="org-WO1265015901-27_01">ضبطيه</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1265-11-21">٢١ ذى القعده ١٢٦٥</date>
-                     <idno source="div">WO1265017201-41</idno>
-                     <ref source="orgName" target="org-WO1265017201-41_01">ضبطيه</ref>
+                     <date when-custom="1267-08-24">٢٤ شعبان ١٢٦٧</date>
+                     <idno source="div">WO1267022001-20</idno>
+                     <ref source="orgName" target="org-WO1267022001-20_01">ضبطیه يه</ref>
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d2e481">
+            <item xml:id="org-type_d4e481">
                <name>طریقت نقشبنديۀ خالديه تکیه سی</name>
                <list>
                   <item>
@@ -460,7 +460,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d5e708">
+            <item xml:id="org-type_d1e708">
                <name>طوپخانه</name>
                <list>
                   <item>
@@ -470,7 +470,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d3e999">
+            <item xml:id="org-type_d2e999">
                <name>قره قول</name>
                <list>
                   <item>
@@ -480,7 +480,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d5e479">
+            <item xml:id="org-type_d1e479">
                <name>قصر</name>
                <list>
                   <item>
@@ -490,7 +490,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d5e683">
+            <item xml:id="org-type_d1e683">
                <name>قهوه</name>
                <list>
                   <item>
@@ -500,7 +500,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d4e1089">
+            <item xml:id="org-type_d3e1089">
                <name>كاغدخانه</name>
                <list>
                   <item>
@@ -510,7 +510,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d4e1036">
+            <item xml:id="org-type_d3e1036">
                <name>كحالخانه</name>
                <list>
                   <item>
@@ -520,7 +520,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d2e980">
+            <item xml:id="org-type_d4e980">
                <name>لیمان</name>
                <list>
                   <item>
@@ -530,24 +530,9 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d2e519">
+            <item xml:id="org-type_d1e1409">
                <name>مجلس</name>
                <list>
-                  <item>
-                     <date when-custom="1266-02-12">١٢ صفر ١٢٦٦</date>
-                     <idno source="div">WO1266017902-4</idno>
-                     <ref source="orgName" target="org-WO1266017902-4_02">مجلسی احکام مصريه ده</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1266-05-27">٢٧ جمادى الاولى ١٢٦٦</date>
-                     <idno source="div">WO1266018801-17</idno>
-                     <ref source="orgName" target="org-WO1266018801-17_01">مجلس احکام مصریه ده</ref>
-                  </item>
-                  <item>
-                     <date when-custom="1266-08-24">٢٤ شعبان ١٢٦٦</date>
-                     <idno source="div">WO1266019501-19</idno>
-                     <ref source="orgName" target="org-WO1266019501-19_03">مجلسجه</ref>
-                  </item>
                   <item>
                      <date when-custom="1265-06-21">٢١ جماد اخر ١٢٦٥</date>
                      <idno source="div">WO1265016001-28</idno>
@@ -563,15 +548,32 @@
                      <idno source="div">WO1265017001-37</idno>
                      <ref source="orgName" target="org-WO1265017001-37_03">مجلس احکام مصريه ده</ref>
                   </item>
+                  <item>
+                     <date when-custom="1266-02-12">١٢ صفر ١٢٦٦</date>
+                     <idno source="div">WO1266017902-4</idno>
+                     <ref source="orgName" target="org-WO1266017902-4_02">مجلسی احکام مصريه ده</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1266-05-27">٢٧ جمادى الاولى ١٢٦٦</date>
+                     <idno source="div">WO1266018801-17</idno>
+                     <ref source="orgName" target="org-WO1266018801-17_01">مجلس احکام مصریه ده</ref>
+                  </item>
+                  <item>
+                     <date when-custom="1266-08-24">٢٤ شعبان ١٢٦٦</date>
+                     <idno source="div">WO1266019501-19</idno>
+                     <ref source="orgName" target="org-WO1266019501-19_03">مجلسجه</ref>
+                  </item>
                </list>
             </item>
-            <item xml:id="org-type_d2e489">
+            <item xml:id="org-type_d1e1108">
                <name>مدرسه</name>
                <list>
                   <item>
-                     <date when-custom="1266-02-12">١٢ صفر ١٢٦٦</date>
-                     <idno source="div">WO1266017901-3</idno>
-                     <ref source="orgName" target="org-WO1266017901-3_05">باب الخلق مدرسه سنده</ref>
+                     <date when-custom="1265-04-03">٣ ربيع اخر ١٢٦٥</date>
+                     <idno source="div">WO1265015301-21</idno>
+                     <ref source="orgName" target="org-WO1265015301-21_02">السنه مدرسه سنك</ref>
+                     <ref source="orgName" target="org-WO1265015301-21_03">مبتدیان مدرسه سنك</ref>
+                     <ref source="orgName" target="org-WO1265015301-21_04">طوپجی مدرسه سنك</ref>
                   </item>
                   <item>
                      <date when-custom="1264-07-24">٢٤ رجب ١٢٦٤</date>
@@ -590,22 +592,15 @@
                      <ref source="orgName" target="org-WO1264012101-22_08">مبتديان مدرسه سى</ref>
                   </item>
                   <item>
-                     <date when-custom="1265-04-03">٣ ربيع اخر ١٢٦٥</date>
-                     <idno source="div">WO1265015301-21</idno>
-                     <ref source="orgName" target="org-WO1265015301-21_02">السنه مدرسه سنك</ref>
-                     <ref source="orgName" target="org-WO1265015301-21_03">مبتدیان مدرسه سنك</ref>
-                     <ref source="orgName" target="org-WO1265015301-21_04">طوپجی مدرسه سنك</ref>
+                     <date when-custom="1266-02-12">١٢ صفر ١٢٦٦</date>
+                     <idno source="div">WO1266017901-3</idno>
+                     <ref source="orgName" target="org-WO1266017901-3_05">باب الخلق مدرسه سنده</ref>
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d2e971">
+            <item xml:id="org-type_d1e510">
                <name>مدریت</name>
                <list>
-                  <item>
-                     <date when-custom="1266-08-24">٢٤ شعبان ١٢٦٦</date>
-                     <idno source="div">WO1266019501-19</idno>
-                     <ref source="orgName" target="org-WO1266019501-19_01">منوفیه مدیریتنده</ref>
-                  </item>
                   <item>
                      <date when-custom="1265-01-08">٨ محرم ١٢٦٥</date>
                      <idno source="div">WO1265014202-5</idno>
@@ -616,9 +611,14 @@
                      <idno source="div">WO1265017001-37</idno>
                      <ref source="orgName" target="org-WO1265017001-37_01">جیزه مدریتنده</ref>
                   </item>
+                  <item>
+                     <date when-custom="1266-08-24">٢٤ شعبان ١٢٦٦</date>
+                     <idno source="div">WO1266019501-19</idno>
+                     <ref source="orgName" target="org-WO1266019501-19_01">منوفیه مدیریتنده</ref>
+                  </item>
                </list>
             </item>
-            <item xml:id="org-type_d5e1488">
+            <item xml:id="org-type_d1e1488">
                <name>مسجد</name>
                <list>
                   <item>
@@ -628,7 +628,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d1e796">
+            <item xml:id="org-type_d5e796">
                <name>مسجد شریف</name>
                <list>
                   <item>
@@ -638,7 +638,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d3e610">
+            <item xml:id="org-type_d2e610">
                <name>مصلحت</name>
                <list>
                   <item>
@@ -648,22 +648,22 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d4e1170">
+            <item xml:id="org-type_d1e888">
                <name>مكتب</name>
                <list>
-                  <item>
-                     <date when-custom="1264-08-02">٢ شعبان ١٢٦٤</date>
-                     <idno source="div">WO1264012101-22</idno>
-                     <ref source="orgName" target="org-WO1264012101-22_05">مكتب عالى</ref>
-                  </item>
                   <item>
                      <date when-custom="1265-03-19">١٩ ربيع اول ١٢٦٥</date>
                      <idno source="div">WO1265015101-19</idno>
                      <ref source="orgName" target="org-WO1265015101-19_03">مكتبلرينك</ref>
                   </item>
+                  <item>
+                     <date when-custom="1264-08-02">٢ شعبان ١٢٦٤</date>
+                     <idno source="div">WO1264012101-22</idno>
+                     <ref source="orgName" target="org-WO1264012101-22_05">مكتب عالى</ref>
+                  </item>
                </list>
             </item>
-            <item xml:id="org-type_d5e810">
+            <item xml:id="org-type_d1e810">
                <name>ميری ساقيه سى</name>
                <list>
                   <item>
@@ -673,7 +673,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d5e879">
+            <item xml:id="org-type_d1e879">
                <name>ميری مكتبلرى</name>
                <list>
                   <item>
@@ -683,7 +683,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d5e1096">
+            <item xml:id="org-type_d1e1096">
                <name>مکتب</name>
                <list>
                   <item>
@@ -693,7 +693,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d2e887">
+            <item xml:id="org-type_d4e887">
                <name>نشادر معملی</name>
                <list>
                   <item>
@@ -703,7 +703,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d3e457">
+            <item xml:id="org-type_d2e457">
                <name>ورشه</name>
                <list>
                   <item>
@@ -713,22 +713,22 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d2e843">
+            <item xml:id="org-type_d3e595">
                <name>وقف</name>
                <list>
-                  <item>
-                     <date when-custom="1266-05-17">١٧ جمادى الاولى ١٢٦٦</date>
-                     <idno source="div">WO1266018701-16</idno>
-                     <ref source="orgName" target="org-WO1266018701-16_01">شيخ عبد الرحمن قناوى قدس سره العالى حضرتلرينك تربۀ شریفه لرینه وقف وخیرات اولمق</ref>
-                  </item>
                   <item>
                      <date when-custom="1264-03-02">٢ ربيع اول ١٢٦٤</date>
                      <idno source="div">WO1264010301-7</idno>
                      <ref source="orgName" target="org-WO1264010301-7_01">وقف</ref>
                   </item>
+                  <item>
+                     <date when-custom="1266-05-17">١٧ جمادى الاولى ١٢٦٦</date>
+                     <idno source="div">WO1266018701-16</idno>
+                     <ref source="orgName" target="org-WO1266018701-16_01">شيخ عبد الرحمن قناوى قدس سره العالى حضرتلرينك تربۀ شریفه لرینه وقف وخیرات اولمق</ref>
+                  </item>
                </list>
             </item>
-            <item xml:id="org-type_d2e1126">
+            <item xml:id="org-type_d4e1126">
                <name>وكاله</name>
                <list>
                   <item>
@@ -738,7 +738,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d5e1469">
+            <item xml:id="org-type_d1e1469">
                <name>کلیسه</name>
                <list>
                   <item>
@@ -748,7 +748,7 @@
                   </item>
                </list>
             </item>
-            <item xml:id="org-type_d4e927">
+            <item xml:id="org-type_d3e927">
                <name>کهرجله خانه</name>
                <list>
                   <item>
