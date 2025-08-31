@@ -1179,29 +1179,34 @@
                </row>
             </table>
          </div>
-         <div resp="#eAK" xml:id="k27">
+         <div resp="#eAK #eSG" xml:id="w27">
             <head><date when-custom="1310-11-11">١١ ذي القعدة ١٣١٠</date>
                <date when="1893-05-27">٢٧ مايو ١٨٩٣</date>
                <bibl><biblScope unit="issue">عدد ٦٠</biblScope>
-                  <biblScope unit="page">ص ١٠٧٦</biblScope></bibl></head>
-            <head><orgName ref="نظارة المالية" type="نظارة">نظارة المالية</orgName>
-               <orgName ref="ادارة الاملاك" type="ادارة">ادارة املاك الميري</orgName></head>
-            <p>ليكن معلوما لدى العموم انه بجلسة الاربعاء ١٤ يونيو ١٨٩٣ المزمع انعقادها ب<placeName ref="ديوان محافظة مصر" type="ديوان"><orgName ref="ديوان محافظة مصر" type="ديوان">ديوان المحافظة</orgName></placeName> سيصير اشهار <rs type="مزاد">مزاد</rs> بيع
-               العقارات المبينة بعد الكائنة بالمحروسة واعتبار اول عطا الثمن الاساسي المبين بعد فكل
-               من له رغبة في المشترى يحضر هو او وكيله عنه في اليوم المذكور من ابتداء الساعة ١٠
-               افرنكى صباحا لغاية الساعة ١٢ الظهر للمزايدة امام <orgName ref="قومسيون بيع املاك الميري بالمحروسة" type="قومسيون">قومسيون بيع املاك الميري
-                  بالمحروسة</orgName> ويدفع تامين المائة ١٠ وبعد الميعاد يصير قفل جلسة المزاد ومن
-               يتأخر يعتبر تأخيره كف يد بشرط ان المشترى يكون قابلا انه اذا لزم منها شي للحكومة في
-               المستقبل او جميعها توخذ بالثمن المباعة به مادامت تكون بحسب حالة البيع والمشترى ملزوم
-               بقبول كامل الاحكام المدونة بلائحة بيع املاك الميرى الحرة المورخة ٢٢ نوفمبر سنة ١٨٨٦
-               والاوامر والمنشورات الصادرة بعدها والمشترى مخير في قبول قونتراتو الايجار وعدمه
-               وللمالية الحق في قبول او رفض اعلى طلب يرسي فيه المزاد وفي حالة رفض اعلى طلب فلا يكون
-               لصاحبه الحق في شي ما سوى رد التامين المدفوع منه اليه وعلى هذا لزم الاعلان لمعلومية
-               العموم بذلك</p>
+                  <biblScope unit="page">صفحة ١٠٧٦</biblScope></bibl></head>
+            <head><orgName ref="نظارة-المالية" type="نظارة">نظارة المالية</orgName>
+               <orgName ref="ادارة-املاك-الميرى" type="ادارة">ادارة املاك <orgName ref="الميري"
+                     >الميري</orgName></orgName></head>
+            <p>ليكن معلوما لدى العموم انه بجلسة الاربعاء ١٤ يونيو ١٨٩٣ المزمع انعقادها ب<placeName
+                  ref="ديوان-محافظة-مصر" type="ديوان"><orgName ref="ديوان-محافظة-مصر" type="ديوان"
+                     >ديوان المحافظة</orgName></placeName> سيصير اشهار <rs type="مزاد">مزاد</rs> بيع
+               العقارات المبينة بعد الكائنة ب<placeName ref="المحروسة">المحروسة</placeName> واعتبار
+               اول عطا الثمن الاساسي المبين بعد فكل من له رغبة في المشترى يحضر هو او وكيله عنه في
+               اليوم المذكور من ابتداء الساعة ١٠ افرنكى صباحا لغاية الساعة ١٢ الظهر للمزايدة امام
+                  <orgName ref="قومسيون-بيع-املاك-الميري-بالمحروسة" type="قومسيون">قومسيون بيع املاك
+                  الميري بالمحروسة</orgName> ويدفع تامين المائة ١٠ وبعد الميعاد يصير قفل جلسة المزاد
+               ومن يتأخر يعتبر تأخيره كف يد بشرط ان المشترى يكون قابلا انه اذا لزم منها شي
+                  لل<orgName type="حكومة">حكومة</orgName> في المستقبل او جميعها توخذ بالثمن المباعة
+               به مادامت تكون بحسب حالة البيع والمشترى ملزوم بقبول كامل الاحكام المدونة بلائحة بيع
+               املاك الميرى الحرة المورخة ٢٢ نوفمبر سنة ١٨٨٦ والاوامر والمنشورات الصادرة بعدها
+               والمشترى مخير في قبول قونتراتو الايجار وعدمه ولل<orgName ref="مالية">مالية</orgName>
+               الحق في قبول او رفض اعلى طلب يرسي فيه المزاد وفي حالة رفض اعلى طلب فلا يكون لصاحبه
+               الحق في شي ما سوى رد التامين المدفوع منه اليه وعلى هذا لزم الاعلان لمعلومية العموم
+               بذلك</p>
             <table>
                <row>
-                  <cell>الثمن الاساسي</cell>
-                  <cell>مقاسات</cell>
+                  <cell cols="2">الثمن الاساسي</cell>
+                  <cell cols="2">مقاسات</cell>
                   <cell>نمرة</cell>
                   <cell/>
                </row>
@@ -1219,8 +1224,11 @@
                   <cell>٤٨</cell>
                   <cell>١٣٢</cell>
                   <cell>١٠٩</cell>
-                  <cell>قطعة ارض كائنة شرقي <orgName ref="قنطرة الماوردى" type="قنطرة"><placeName ref="قنطرة الماوردى" type="قنطرة">قنطرة الماوردى</placeName></orgName>
-                        ب<placeName ref="قسم السيدة زينب" type="قسم"><orgName ref="قسم السيدة زينب" type="قسم">قسم السيدة زينب</orgName></placeName></cell>
+                  <cell>قطعة ارض كائنة شرقي <orgName ref="قنطرة-الماوردى" type="قنطرة"><placeName
+                           ref="قنطرة-الماوردى" type="قنطرة">قنطرة الماوردى</placeName></orgName>
+                        ب<placeName ref="قسم-السيدة-زينب" type="قسم"><orgName ref="قسم-السيدة-زينب"
+                           type="قسم">قسم <persName>السيدة
+                     زينب</persName></orgName></placeName></cell>
                </row>
                <row>
                   <cell>١٨٠</cell>
@@ -1228,9 +1236,11 @@
                   <cell>٢٠</cell>
                   <cell>١٨٩٧</cell>
                   <cell>١١٤</cell>
-                  <cell>قطعة ارض كائنة ب<placeName ref="شارع مصر القديمة" type="شارع">شارع مصر
-                        القديمة</placeName> بقسم السيدة زينب بجوار <orgName ref="قنطرة سد الخليج" type="قنطرة"><placeName ref="قنطرة سد الخليج" type="قنطرة">قنطرة سد
-                           الخليج</placeName></orgName></cell>
+                  <cell>قطعة ارض كائنة ب<placeName ref="شارع-مصر-القديمة" type="شارع">شارع
+                           <placeName ref="مصر-القديمة">مصر القديمة</placeName></placeName> بقسم
+                     السيدة زينب بجوار <orgName ref="قنطرة-سد-الخليج" type="قنطرة"><placeName
+                           ref="قنطرة-سد-الخليج" type="قنطرة">قنطرة سد
+                     الخليج</placeName></orgName></cell>
                </row>
                <row>
                   <cell>٨٠</cell>
@@ -1246,18 +1256,22 @@
                   <cell>٩٧</cell>
                   <cell>١٠٢</cell>
                   <cell>١٢١</cell>
-                  <cell>قطعة ارض كائنة ب<placeName ref="شارع محمد علي" type="شارع">شارع محمد
-                        علي</placeName> بجوار <orgName ref="مسجد الرفاعي" type="مسجد"><placeName ref="مسجد الرفاعي" type="مسجد">مسجد الرفاعي</placeName></orgName>
-                        ب<placeName ref="قسم سوق السلاح" type="قسم"><orgName ref="قسم سوق السلاح" type="قسم">قسم سوق السلاح</orgName></placeName> فيه المتر ١ جنيه</cell>
+                  <cell>قطعة ارض كائنة ب<placeName ref="شارع-محمد-علي" type="شارع">شارع
+                           <persName>محمد علي</persName></placeName> بجوار <orgName
+                        ref="مسجد-الرفاعي" type="مسجد"><placeName ref="مسجد-الرفاعي" type="مسجد"
+                           >مسجد الرفاعي</placeName></orgName> ب<placeName ref="قسم-سوق-السلاح"
+                        type="قسم"><orgName ref="قسم-سوق-السلاح" type="قسم">قسم <orgName
+                              ref="سوق-السلاح" type="سوق"><placeName ref="سوق-السلاح" type="سوق">سوق
+                                 السلاح</placeName></orgName></orgName></placeName> فيه المتر ١
+                     جنيه</cell>
                </row>
             </table>
-            <p>::::::::::</p>
          </div>
-         <div resp="#eAK" xml:id="k28">
+         <div resp="#eAK #eSG" xml:id="w28">
             <head><date when-custom="1310-11-15">١٥ ذي القعدة ١٣١٠</date>
                <date when="1893-05-31">٣١ مايو ١٨٩٣</date>
                <bibl><biblScope unit="issue">عدد ٦٢</biblScope>
-                  <biblScope unit="page">ص ١١٠٠،١١٠١</biblScope></bibl></head>
+                  <biblScope unit="page">صفحة ١١٠٠-١١٠١</biblScope></bibl></head>
             <head>امر عال بخصوص الطرق والحوارى التى تعتبر كمنافع عمومية (صدر في ٢٩ مايو ١٨٩٣)</head>
             <table>
                <row>
@@ -1268,204 +1282,205 @@
                <row>
                   <cell>٢٦١</cell>
                   <cell>٣٠ يونية ١٨٨٧</cell>
-                  <cell>زقاق ب<placeName ref="حارة الكحكيين" type="حارة">حارة
+                  <cell>زقاق ب<placeName ref="حارة-الكحكيين" type="حارة">حارة
                      الكحكيين</placeName></cell>
                </row>
                <row>
                   <cell>٢٤٠</cell>
                   <cell>٩ ابريل ١٨٨٨</cell>
-                  <cell>زقاق ب<placeName ref="حارة اولاد شعيب" type="حارة">حارة اولاد
+                  <cell>زقاق ب<placeName ref="حارة-اولاد-شعيب" type="حارة">حارة اولاد
                         شعيب</placeName></cell>
                </row>
                <row>
                   <cell/>
                   <cell>٧ ديسمبر ١٨٩٠</cell>
-                  <cell>زقاق ب<placeName ref="حارة اولاد شعيب" type="حارة">حارة اولاد
+                  <cell>زقاق ب<placeName ref="حارة-اولاد-شعيب" type="حارة">حارة اولاد
                         شعيب</placeName></cell>
                </row>
                <row>
                   <cell>٨١٩</cell>
                   <cell>٣٠ سبتمبر ١٨٨٨</cell>
-                  <cell><placeName ref="حوش عيسي البحرى" type="حوش">حوش عيسي
+                  <cell><placeName ref="حوش-عيسي-البحرى" type="حوش">حوش عيسي
                      البحرى</placeName></cell>
                </row>
                <row>
                   <cell>٩٠٣</cell>
                   <cell>اول ديسمبر ١٨٨٨</cell>
-                  <cell>زقاق ب<placeName ref="حارة عبد الدايم" type="حارة">حارة عبد
+                  <cell>زقاق ب<placeName ref="حارة-عبد-الدايم" type="حارة">حارة عبد
                         الدايم</placeName></cell>
                </row>
                <row>
                   <cell/>
                   <cell>١٥ نوفمبر ١٨٩٠</cell>
-                  <cell>زقاق ب<placeName ref="حارة عبد الدايم" type="حارة">حارة عبد
+                  <cell>زقاق ب<placeName ref="حارة-عبد-الدايم" type="حارة">حارة عبد
                         الدايم</placeName></cell>
                </row>
                <row>
                   <cell>٦٣</cell>
                   <cell>٥ ديسمبر ١٨٨٩</cell>
-                  <cell>زقاق ب<placeName ref="حارة الدرب الأحمر" type="حارة">حارة الدرب
+                  <cell>زقاق ب<placeName ref="حارة-الدرب-الأحمر" type="حارة">حارة الدرب
                         الأحمر</placeName></cell>
                </row>
                <row>
                   <cell>٣٨٢</cell>
                   <cell>٣ ابريل ١٨٨٩</cell>
-                  <cell>زقاق ب<placeName ref="اراضي الشماشرجيه" type="ارض">اراضي
+                  <cell>زقاق ب<placeName ref="اراضي-الشماشرجيه" type="ارض">اراضي
                         الشماشرجيه</placeName></cell>
                </row>
                <row>
                   <cell>٦٦٩</cell>
                   <cell>٢٥ مايو ١٨٨٩</cell>
-                  <cell>زقاق ب<placeName ref="شارع الصوابي" type="شارع">شارع
+                  <cell>زقاق ب<placeName ref="شارع-الصوابي" type="شارع">شارع
                      الصوابي</placeName></cell>
                </row>
                <row>
                   <cell>٥٧٨</cell>
                   <cell>٢١ اكتوبر ١٨٨٩</cell>
-                  <cell>زقاق ب<placeName ref="شارع العدوى" type="شارع">شارع العدوى</placeName>
-                        و<placeName type="سكة" ref="سكة الظاهر">سكة الظاهر</placeName></cell>
+                  <cell>زقاق ب<placeName ref="شارع-العدوى" type="شارع">شارع العدوى</placeName>
+                        و<placeName type="سكة" ref="سكة-الظاهر">سكة الظاهر</placeName></cell>
                </row>
                <row>
                   <cell>٣٨</cell>
                   <cell>٢١ نوفمبر ١٨٨٩</cell>
-                  <cell>زقاق ب<placeName ref="حارة السقايين" type="حارة">حارة
+                  <cell>زقاق ب<placeName ref="حارة-السقايين" type="حارة">حارة
                      السقايين</placeName></cell>
                </row>
                <row>
                   <cell>٤٤</cell>
                   <cell>٢١ نوفمبر ١٨٨٩</cell>
-                  <cell>زقاق ب<placeName ref="شارع المدبح" type="شارع">شارع
+                  <cell>زقاق ب<placeName ref="شارع-المدبح" type="شارع">شارع
                      المدبح</placeName></cell>
                </row>
                <row>
                   <cell>٧٥٤</cell>
                   <cell>١٦ مارس ١٨٩٠</cell>
-                  <cell>زقاق ب<placeName ref="حارة زويلة" type="حارة">حارة زويلة</placeName></cell>
+                  <cell>زقاق ب<placeName ref="حارة-زويلة" type="حارة">حارة زويلة</placeName></cell>
                </row>
                <row>
                   <cell>٢٦٠</cell>
                   <cell>١٣ يوليه ١٨٩٠</cell>
-                  <cell>زقاق ب<placeName ref="شارع التبليطة" type="شارع">شارع التبليطة</placeName>
-                        و<placeName ref="درب لولية" type="درب">درب لولية</placeName></cell>
+                  <cell>زقاق ب<placeName ref="شارع-التبليطة" type="شارع">شارع التبليطة</placeName>
+                        و<placeName ref="درب-لولية" type="درب">درب لولية</placeName></cell>
                </row>
                <row>
                   <cell>٢٨٥</cell>
                   <cell>٦ اغسطس ١٨٩٠</cell>
-                  <cell>زقاق ب<placeName ref="شارع الغورية" type="شارع">شارع الغورية</placeName>
-                        و<placeName ref="شارع السكرية" type="شارع">السكرية</placeName></cell>
+                  <cell>زقاق ب<placeName ref="شارع-الغورية" type="شارع">شارع الغورية</placeName>
+                        و<placeName ref="شارع-السكرية" type="شارع">السكرية</placeName></cell>
                </row>
                <row>
                   <cell>٦٩٦</cell>
                   <cell>٢٣ اكتوبر ١٨٩٠</cell>
-                  <cell>عطفة ب<placeName ref="شارع درب النوبي" type="شارع">شارع درب
-                        النوبي</placeName></cell>
+                  <cell>عطفة ب<placeName ref="شارع-درب-النوبي" type="شارع">شارع <placeName
+                           ref="درب-النوبي" type="درب">درب النوبي</placeName></placeName></cell>
                </row>
                <row>
                   <cell>١٠٠٣</cell>
                   <cell>٣٠ اكتوبر ١٨٩٠</cell>
-                  <cell>زقاق ب<placeName ref="حارة البيارة" type="حارة">حارة
+                  <cell>زقاق ب<placeName ref="حارة-البيارة" type="حارة">حارة
                      البيارة</placeName></cell>
                </row>
                <row>
                   <cell>٦٧٠</cell>
                   <cell>١٣ نوفمبر ١٨٩٠</cell>
-                  <cell>زقاق ب<placeName ref="شارع السبع والضبع" type="شارع">شارع السبع
+                  <cell>زقاق ب<placeName ref="شارع-السبع-والضبع" type="شارع">شارع السبع
                         والضبع</placeName></cell>
                </row>
                <row>
                   <cell>٩٥٨</cell>
                   <cell>١٥ نوفمبر ١٨٩٠</cell>
-                  <cell>زقاق ب<placeName ref="شارع درب اللبانه" type="شارع">شارع درب
-                        اللبانه</placeName></cell>
+                  <cell>زقاق ب<placeName ref="شارع-درب-اللبانه" type="شارع">شارع <placeName
+                           ref="درب-اللبانه">درب اللبانه</placeName></placeName></cell>
                </row>
                <row>
                   <cell>٥٩٥</cell>
                   <cell>٢٦ نوفمبر ١٨٩٠</cell>
-                  <cell><placeName ref="شارع بيت القاضي" type="شارع">شارع بيت
-                     القاضي</placeName></cell>
+                  <cell><placeName ref="شارع-بيت-القاضي" type="شارع">شارع <placeName
+                           ref="بيت-القاضي" type="بيت">بيت القاضي</placeName></placeName></cell>
                </row>
                <row>
                   <cell>٩١٨</cell>
                   <cell>اول ديسمبر ١٨٩٠</cell>
-                  <cell>زقاق ب<placeName ref="حارة النوبي" type="حارة">حارة
+                  <cell>زقاق ب<placeName ref="حارة-النوبي" type="حارة">حارة
                      النوبي</placeName></cell>
                </row>
                <row>
                   <cell>١٠٧٦</cell>
                   <cell>١٧ ديسمبر ١٨٩٠</cell>
-                  <cell>زقاق ب<placeName ref="شارع علوة السماك" type="شارع">شارع علوة
-                        السماك</placeName></cell>
+                  <cell>زقاق ب<placeName ref="شارع-علوة-السماك" type="شارع">شارع <persName>علوة
+                           السماك</persName></placeName></cell>
                </row>
                <row>
                   <cell>٢٢٩</cell>
                   <cell>٥ فبراير ١٨٩١</cell>
-                  <cell>زقاق ب<placeName ref="حارة سيدى معاذ" type="حارة">حارة سيدى
-                     معاذ</placeName></cell>
+                  <cell>زقاق ب<placeName ref="حارة-سيدى-معاذ" type="حارة">حارة <persName>سيدى
+                           معاذ</persName></placeName></cell>
                </row>
                <row>
                   <cell>١٧٧</cell>
                   <cell>٢١ يونيو ١٨٩١</cell>
-                  <cell>عطفة ب<placeName ref="حارة كوم الصعايدة" type="حارة">حارة كوم
-                        الصعايدة</placeName></cell>
+                  <cell>عطفة ب<placeName ref="حارة-كوم-الصعايدة" type="حارة">حارة <placeName
+                           ref="كوم-الصعايدة" type="كوم">كوم الصعايدة</placeName></placeName></cell>
                </row>
                <row>
                   <cell>١٧٢</cell>
                   <cell>٤ يوليه ١٨٩١</cell>
-                  <cell>زقاق ب<placeName ref="عطفة المشهدى" type="عطفة">عطفة المشهدى</placeName>
+                  <cell>زقاق ب<placeName ref="عطفة-المشهدى" type="عطفة">عطفة المشهدى</placeName>
                         ب<placeName ref="الباطنية">الباطنية</placeName></cell>
                </row>
                <row>
                   <cell>٦٦٤</cell>
                   <cell>٢١ يوليه ١٨٩١</cell>
-                  <cell>زقاق ب<placeName ref="درب المصابغ" type="درب">درب المصابغ</placeName></cell>
+                  <cell>زقاق ب<placeName ref="درب-المصابغ" type="درب">درب المصابغ</placeName></cell>
                </row>
                <row>
                   <cell>٩٤١</cell>
                   <cell>٢٢ سبتمبر ١٨٩١</cell>
-                  <cell>زقاق ب<placeName ref="شارع الزرايب" type="شارع">شارع الزرايب</placeName>
-                        و<placeName ref="شارع القبر الطويل" type="شارع">القبر
+                  <cell>زقاق ب<placeName ref="شارع-الزرايب" type="شارع">شارع الزرايب</placeName>
+                        و<placeName ref="شارع-القبر-الطويل" type="شارع">القبر
                      الطويل</placeName></cell>
                </row>
                <row>
                   <cell>٦٨٤</cell>
                   <cell>١١ اكتوبر ١٨٩١</cell>
-                  <cell>زقاق ب<placeName ref="حارة البيومي" type="حارة">حارة
+                  <cell>زقاق ب<placeName ref="حارة-البيومي" type="حارة">حارة
                      البيومي</placeName></cell>
                </row>
                <row>
                   <cell>٢٤٣</cell>
                   <cell>١٨ نوفمبر ١٨٩١</cell>
-                  <cell>زقاق ب<placeName ref="شارع قصر الشوك" type="شارع">شارع قصر
+                  <cell>زقاق ب<placeName ref="شارع-قصر-الشوك" type="شارع">شارع قصر
                      الشوك</placeName></cell>
                </row>
                <row>
                   <cell>٢٧١</cell>
                   <cell>٣٠ نوفمبر ١٨٩١</cell>
-                  <cell>زقاق ب<placeName ref="حارة حسن الاشعل" type="حارة">حارة حسن
-                        الاشعل</placeName></cell>
+                  <cell>زقاق ب<placeName ref="حارة-حسن-الاشعل" type="حارة">حارة <persName>حسن
+                           الاشعل</persName></placeName></cell>
                </row>
                <row>
                   <cell>٣١٨</cell>
                   <cell>٣١ ديسمبر ١٨٩١</cell>
-                  <cell>زقاق ب<placeName ref="حارة البيرقدار" type="حارة">حارة
+                  <cell>زقاق ب<placeName ref="حارة-البيرقدار" type="حارة">حارة
                      البيرقدار</placeName></cell>
                </row>
                <row>
                   <cell>٤٩٠</cell>
                   <cell>٣ فبراير ١٨٩٢</cell>
-                  <cell>زقاق ب<placeName ref="درب الاقماعية" type="درب">درب
+                  <cell>زقاق ب<placeName ref="درب-الاقماعية" type="درب">درب
                      الاقماعية</placeName></cell>
                </row>
                <row>
                   <cell>٤١</cell>
                   <cell>١٧ مارس ١٨٩٠</cell>
-                  <cell>زقاق ب<placeName ref="حارة درب الميضة" type="حارة">حارة درب
-                        الميضة</placeName></cell>
+                  <cell>زقاق ب<placeName ref="حارة-درب-الميضة" type="حارة">حارة <placeName
+                           ref="درب-الميضة" type="درب">درب الميضة</placeName></placeName></cell>
                </row>
                <row>
                   <cell>٦٣٨</cell>
                   <cell>١٣ مايو ١٨٩٠</cell>
-                  <cell>زقاق ب<placeName type="شارع" ref="شارع ترب المناصرة">شارع <placeName type="ترب" ref="ترب المناصرة">ترب المناصرة</placeName></placeName></cell>
+                  <cell>زقاق ب<placeName type="شارع" ref="شارع-ترب-المناصرة">شارع <placeName
+                           type="ترب" ref="ترب-المناصرة">ترب المناصرة</placeName></placeName></cell>
                </row>
             </table>
          </div>
